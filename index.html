@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Xdatrys — The Global Standard in Smartphone Photography</title>
+<meta name="description" content="Pocket Scout guides give you the exact intelligence used by professional location scouts. Know exactly where to stand, when to arrive, and what to look for.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
+
+/* ── THEME SYSTEM ── */
+.lp{min-height:100vh;transition:background .35s,color .35s}
+.lp.dk{background:#09090f;color:#fff}
+.lp.cr{background:#F5F0E8;color:#2a2a2a}
+.lp.bl{background:#EAF4FB;color:#1a2a3a}
+
+/* ── SHARED ── */
+.eyebrow{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:#00D4FF;display:block}
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.btn-primary{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(90deg,#00D4FF,#E100FF);color:#fff;border:none;cursor:pointer;padding:14px 26px;border-radius:6px;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;transition:filter .2s,transform .2s;text-decoration:none}
+.btn-primary:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.btn-secondary{display:inline-flex;align-items:center;justify-content:center;background:transparent;cursor:pointer;padding:13px 20px;border-radius:6px;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500;transition:background .2s;text-decoration:none}
+.dk .btn-secondary{border:1px solid rgba(255,255,255,.25);color:rgba(255,255,255,.7)}
+.cr .btn-secondary,.bl .btn-secondary{border:1px solid rgba(0,0,0,.2);color:rgba(0,0,0,.65)}
+.dk .btn-secondary:hover{background:rgba(255,255,255,.06)}
+.cr .btn-secondary:hover,.bl .btn-secondary:hover{background:rgba(0,0,0,.05)}
+
+/* ── NAV ── */
+.nav{position:sticky;top:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:14px 52px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.dk .nav{border-bottom:1px solid rgba(255,255,255,.1);background:rgba(9,9,15,.92)}
+.cr .nav{border-bottom:1px solid rgba(0,0,0,.1);background:rgba(245,240,232,.92)}
+.bl .nav{border-bottom:1px solid rgba(0,0,0,.1);background:rgba(234,244,251,.92)}
+.logo-pill img{height:42px;width:auto}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;transition:opacity .2s}
+.dk .nav-links a{color:rgba(255,255,255,.6)}
+.cr .nav-links a,.bl .nav-links a{color:rgba(0,0,0,.6)}
+.nav-links a:hover{opacity:1}
+.nav-login{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:7px 16px;border-radius:5px;background:linear-gradient(90deg,#00D4FF,#7B2FBF);color:#fff;transition:filter .2s}
+.nav-login:hover{filter:brightness(1.1)}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none}
+.ham span{display:block;width:22px;height:2px;border-radius:2px}
+.dk .ham span{background:rgba(255,255,255,.7)}
+.cr .ham span,.bl .ham span{background:rgba(0,0,0,.7)}
+.mob-menu{display:none;flex-direction:column;position:sticky;top:70px;z-index:199}
+.mob-menu.open{display:flex}
+.dk .mob-menu{background:rgba(9,9,15,.97);border-bottom:1px solid rgba(255,255,255,.1)}
+.cr .mob-menu,.bl .mob-menu{background:rgba(245,240,232,.97);border-bottom:1px solid rgba(0,0,0,.1)}
+.mob-menu a{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:500;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:16px 52px}
+.dk .mob-menu a{color:rgba(255,255,255,.75);border-bottom:1px solid rgba(255,255,255,.06)}
+.cr .mob-menu a,.bl .mob-menu a{color:rgba(0,0,0,.7);border-bottom:1px solid rgba(0,0,0,.06)}
+
+/* ── HERO ── */
+.hero{display:grid;grid-template-columns:1fr 230px;gap:0;padding:56px 52px 48px}
+.dk .hero{background:linear-gradient(135deg,#09090f 0%,#0f0f22 60%,#09090f 100%)}
+.cr .hero{background:linear-gradient(135deg,#F5F0E8 0%,#EDE5D5 60%,#F5F0E8 100%)}
+.bl .hero{background:linear-gradient(135deg,#EAF4FB 0%,#D8EDF7 60%,#EAF4FB 100%)}
+.hero-left{display:flex;flex-direction:column;justify-content:center;padding-right:44px}
+.hero-eyebrow{margin-bottom:16px}
+.hero-h1{font-family:'Playfair Display',serif;font-size:42px;font-weight:900;line-height:1.08;letter-spacing:-.5px;margin-bottom:10px}
+.dk .hero-h1{color:#fff}
+.cr .hero-h1,.bl .hero-h1{color:#1a1a2e}
+.hero-tagline-main{font-family:'Playfair Display',serif;font-size:16px;font-weight:700;font-style:italic;color:#00D4FF;margin-bottom:4px}
+.hero-tagline-sub{font-family:'Playfair Display',serif;font-size:13px;font-weight:700;font-style:italic;margin-bottom:14px}
+.dk .hero-tagline-sub{color:rgba(255,255,255,.5)}
+.cr .hero-tagline-sub,.bl .hero-tagline-sub{color:rgba(0,0,0,.5)}
+.hero-hook{font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.8;max-width:440px;margin-bottom:26px}
+.dk .hero-hook{color:rgba(255,255,255,.65)}
+.cr .hero-hook,.bl .hero-hook{color:rgba(0,0,0,.65)}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.hero-pos{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:300;font-style:italic;max-width:400px;line-height:1.65}
+.dk .hero-pos{color:rgba(255,255,255,.38)}
+.cr .hero-pos,.bl .hero-pos{color:rgba(0,0,0,.38)}
+
+/* ── PHONE FRAME CAROUSEL ── */
+.phone-wrap{width:230px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:10px}
+.phone-frame-outer{position:relative;width:200px;height:400px}
+.phone-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;z-index:2;pointer-events:none}
+.phone-screen{position:absolute;top:14px;left:14px;right:14px;bottom:14px;border-radius:20px;overflow:hidden;z-index:1;background:#000}
+.carousel-track{display:flex;width:100%;height:100%;transition:transform .7s ease}
+.carousel-slide{min-width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.carousel-dots{display:flex;gap:5px;justify-content:center;z-index:3}
+.c-dot{width:6px;height:6px;border-radius:50%;cursor:pointer;transition:background .3s,transform .3s}
+.dk .c-dot{background:rgba(255,255,255,.25)}
+.cr .c-dot,.bl .c-dot{background:rgba(0,0,0,.2)}
+.c-dot.on{background:#00D4FF;transform:scale(1.2)}
+
+/* ── SOCIAL PROOF ── */
+.social-proof{padding:14px 52px;display:flex;align-items:center;justify-content:center;flex-wrap:wrap}
+.dk .social-proof{background:linear-gradient(90deg,rgba(0,212,255,.08),rgba(225,0,255,.06),rgba(123,47,191,.08));border-top:1px solid rgba(0,212,255,.15);border-bottom:1px solid rgba(0,212,255,.15)}
+.cr .social-proof{background:rgba(0,0,0,.04);border-top:1px solid rgba(0,0,0,.1);border-bottom:1px solid rgba(0,0,0,.1)}
+.bl .social-proof{background:rgba(0,100,200,.04);border-top:1px solid rgba(0,100,200,.12);border-bottom:1px solid rgba(0,100,200,.12)}
+.sp-items{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;width:100%}
+.sp-item{display:flex;align-items:center;gap:8px;padding:4px 28px}
+.sp-num{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;background:linear-gradient(90deg,#00D4FF,#7B2FBF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1}
+.sp-label{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:500;line-height:1.4}
+.dk .sp-label{color:rgba(255,255,255,.6)}
+.cr .sp-label,.bl .sp-label{color:rgba(0,0,0,.6)}
+.sp-div{width:1px;height:32px}
+.dk .sp-div{background:rgba(255,255,255,.12)}
+.cr .sp-div,.bl .sp-div{background:rgba(0,0,0,.12)}
+
+/* ── BENEFITS ── */
+.benefits{padding:40px 52px}
+.dk .benefits{background:rgba(255,255,255,.02);border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
+.cr .benefits,.bl .benefits{background:rgba(0,0,0,.03);border-top:1px solid rgba(0,0,0,.08);border-bottom:1px solid rgba(0,0,0,.08)}
+.benefits-eyebrow{text-align:center;margin-bottom:26px}
+.benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.b-tile{padding:20px;border-radius:8px}
+.dk .b-tile{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+.cr .b-tile,.bl .b-tile{background:rgba(0,0,0,.04);border:1px solid rgba(0,0,0,.08)}
+.b-bar{width:24px;height:3px;background:linear-gradient(90deg,#00D4FF,#7B2FBF);border-radius:2px;margin-bottom:12px}
+.b-title{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:700;margin-bottom:6px}
+.dk .b-title{color:#fff}
+.cr .b-title,.bl .b-title{color:#1a1a2e}
+.b-desc{font-family:'Montserrat',sans-serif;font-size:12px;line-height:1.7}
+.dk .b-desc{color:rgba(255,255,255,.55)}
+.cr .b-desc,.bl .b-desc{color:rgba(0,0,0,.55)}
+
+/* ── HOOK ── */
+.hook{padding:56px 52px;text-align:center}
+.hook-inner{max-width:680px;margin:0 auto}
+.hook-mark{font-family:'Playfair Display',serif;font-size:80px;font-weight:900;line-height:.5;display:block;margin-bottom:14px;background:linear-gradient(90deg,#00D4FF,#7B2FBF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;opacity:.35}
+.hook-quote{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;font-style:italic;line-height:1.42}
+.dk .hook-quote{color:rgba(255,255,255,.87)}
+.cr .hook-quote,.bl .hook-quote{color:rgba(0,0,0,.8)}
+.hook-sub{font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.7;margin-top:16px}
+.dk .hook-sub{color:rgba(255,255,255,.5)}
+.cr .hook-sub,.bl .hook-sub{color:rgba(0,0,0,.5)}
+
+/* ── POCKET SERIES ── */
+.pocket-series{padding:44px 52px}
+.series-header{margin-bottom:22px}
+.series-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;margin-bottom:6px}
+.dk .series-title{color:#fff}
+.cr .series-title,.bl .series-title{color:#1a1a2e}
+.series-sub{font-family:'Montserrat',sans-serif;font-size:13px}
+.dk .series-sub{color:rgba(255,255,255,.6)}
+.cr .series-sub,.bl .series-sub{color:rgba(0,0,0,.6)}
+.series-sub strong{color:#00D4FF}
+/* Sliding carousel */
+.series-carousel-wrap{position:relative}
+.series-carousel-viewport{overflow:hidden;border-radius:8px}
+.series-carousel-track{display:flex;gap:14px;transition:transform .4s ease;cursor:grab;user-select:none}
+.series-carousel-track.dragging{transition:none;cursor:grabbing}
+.guide-card{min-width:calc((100% - 56px) / 5);flex-shrink:0;border-radius:8px;overflow:hidden}
+.dk .guide-card{background:#0e0e1e;border:1px solid rgba(255,255,255,.1)}
+.cr .guide-card,.bl .guide-card{background:#fff;border:1px solid rgba(0,0,0,.12)}
+.guide-cover{width:100%;padding-bottom:155%;position:relative;overflow:hidden}
+.guide-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000;display:block}
+.guide-cover-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:10px}
+.guide-avail-badge{position:absolute;top:8px;left:8px;font-family:'Montserrat',sans-serif;font-size:7px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:3px}
+.badge-avail{background:linear-gradient(90deg,#00D4FF,#7B2FBF);color:#fff}
+.badge-soon{background:rgba(0,0,0,.65);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.2)}
+.guide-name{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;padding:8px 9px 2px}
+.dk .guide-name{color:#fff}
+.cr .guide-name,.bl .guide-name{color:#1a1a2e}
+.guide-type{font-family:'Montserrat',sans-serif;font-size:8px;padding:0 9px 8px;opacity:.45;text-transform:uppercase;letter-spacing:.5px}
+/* Nav arrows */
+.series-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10;transition:opacity .2s}
+.series-arrow.left{left:-18px}
+.series-arrow.right{right:-18px}
+.dk .series-arrow{background:rgba(255,255,255,.12);color:#fff}
+.cr .series-arrow,.bl .series-arrow{background:rgba(0,0,0,.1);color:#333}
+.series-arrow:hover{opacity:.8}
+.series-arrow svg{width:16px;height:16px}
+
+/* ── TESTIMONIAL ── */
+.testimonial{padding:52px;text-align:center}
+.dk .testimonial{background:rgba(0,212,255,.03);border-top:1px solid rgba(0,212,255,.1);border-bottom:1px solid rgba(0,212,255,.1)}
+.cr .testimonial,.bl .testimonial{background:rgba(0,100,180,.04);border-top:1px solid rgba(0,100,180,.1);border-bottom:1px solid rgba(0,100,180,.1)}
+.t-inner{max-width:620px;margin:0 auto}
+.t-mark{font-family:'Playfair Display',serif;font-size:64px;font-weight:900;color:#00D4FF;opacity:.4;display:block;line-height:1;margin-bottom:-16px}
+.t-quote{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;font-style:italic;line-height:1.65}
+.dk .t-quote{color:rgba(255,255,255,.85)}
+.cr .t-quote,.bl .t-quote{color:rgba(0,0,0,.8)}
+.t-attr{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500;letter-spacing:.5px;margin-top:16px}
+.dk .t-attr{color:rgba(255,255,255,.4)}
+.cr .t-attr,.bl .t-attr{color:rgba(0,0,0,.4)}
+
+/* ── FAQ ── */
+.faq{padding:44px 52px}
+.faq-eyebrow{margin-bottom:26px}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.faq-card{padding:20px 22px;border-radius:8px}
+.dk .faq-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08)}
+.cr .faq-card,.bl .faq-card{background:rgba(0,0,0,.04);border:1px solid rgba(0,0,0,.08)}
+.faq-q{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:600;margin-bottom:8px}
+.dk .faq-q{color:#fff}
+.cr .faq-q,.bl .faq-q{color:#1a1a2e}
+.faq-a{font-family:'Montserrat',sans-serif;font-size:12px;line-height:1.75}
+.dk .faq-a{color:rgba(255,255,255,.6)}
+.cr .faq-a,.bl .faq-a{color:rgba(0,0,0,.6)}
+
+/* ── ABOUT ── */
+.about{display:grid;grid-template-columns:1fr 1fr}
+.about-left{padding:52px}
+.dk .about-left{background:linear-gradient(135deg,#0f0f22,#1a1a3a)}
+.cr .about-left{background:rgba(0,0,0,.04)}
+.bl .about-left{background:rgba(0,100,200,.05)}
+.about-eyebrow{margin-bottom:14px}
+.about-h2{font-family:'Playfair Display',serif;font-size:34px;font-weight:900;margin-bottom:18px}
+.dk .about-h2{color:#fff}
+.cr .about-h2,.bl .about-h2{color:#1a1a2e}
+.about-p{font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.85}
+.dk .about-p{color:rgba(255,255,255,.7)}
+.cr .about-p,.bl .about-p{color:rgba(0,0,0,.65)}
+.about-p+.about-p{margin-top:16px}
+.about-right{padding:52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px}
+.dk .about-right{border-left:1px solid rgba(255,255,255,.08)}
+.cr .about-right,.bl .about-right{border-left:1px solid rgba(0,0,0,.08)}
+/* X logo placeholder */
+.x-logo-wrap{width:160px;height:100px;display:flex;align-items:center;justify-content:center}
+.x-logo-wrap img{width:100%;height:auto;object-fit:contain}
+.cred-tags{display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
+.cred-tag{background:rgba(0,212,255,.1);border:1px solid rgba(0,212,255,.25);border-radius:20px;padding:4px 12px;font-family:'Montserrat',sans-serif;font-size:9px;font-weight:500;color:#00D4FF;letter-spacing:.4px;text-transform:uppercase}
+.about-cta-block{width:100%;text-align:center}
+.about-cta-h{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;margin-bottom:6px}
+.dk .about-cta-h{color:#fff}
+.cr .about-cta-h,.bl .about-cta-h{color:#1a1a2e}
+.about-cta-p{font-family:'Montserrat',sans-serif;font-size:12px;line-height:1.65;margin-bottom:14px}
+.dk .about-cta-p{color:rgba(255,255,255,.55)}
+.cr .about-cta-p,.bl .about-cta-p{color:rgba(0,0,0,.55)}
+.about-cta-buttons{display:flex;flex-direction:column;gap:10px;align-items:stretch;width:100%}
+.about-cta-buttons .btn-primary{width:100%;text-align:center}
+/* Eye button — identical size to btn-primary */
+.btn-eye{display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0;border-radius:6px;overflow:hidden;border:none;position:relative;width:100%;text-decoration:none}
+.btn-eye-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.btn-eye-text{position:relative;z-index:1;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5);padding:14px 26px;width:100%;text-align:center}
+.about-nl-link{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500;color:#00D4FF;text-decoration:none}
+.about-nl-link:hover{text-decoration:underline}
+
+/* ── NEWSLETTER ── */
+.newsletter{display:grid;grid-template-columns:1fr 1fr}
+.dk .newsletter{border-top:1px solid rgba(255,255,255,.08)}
+.cr .newsletter,.bl .newsletter{border-top:1px solid rgba(0,0,0,.08)}
+.nl-left{padding:44px 52px}
+.nl-brand-block{margin-bottom:16px}
+.nl-brand{font-family:'Playfair Display',serif;font-size:26px;font-weight:900;font-style:italic;background:linear-gradient(90deg,#00D4FF,#E100FF,#7B2FBF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:3px}
+.nl-cap{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
+.dk .nl-cap{color:rgba(255,255,255,.65)}
+.cr .nl-cap,.bl .nl-cap{color:rgba(0,0,0,.6)}
+.nl-masthead{width:100%;max-width:340px;height:auto;display:block;border-radius:6px;margin-bottom:16px}
+.nl-form{display:flex;gap:9px;margin-bottom:16px}
+.nl-input{flex:1;border-radius:5px;padding:11px 14px;font-family:'Montserrat',sans-serif;font-size:12px;outline:none}
+.dk .nl-input{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);color:#fff}
+.cr .nl-input,.bl .nl-input{background:rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.18);color:#111}
+.nl-btn{background:linear-gradient(90deg,#00D4FF,#7B2FBF);color:#fff;border:none;padding:11px 18px;border-radius:5px;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;cursor:pointer;white-space:nowrap;letter-spacing:.5px}
+.nl-item{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+.nl-dot{width:6px;height:6px;border-radius:50%;background:linear-gradient(135deg,#00D4FF,#7B2FBF);flex-shrink:0}
+.nl-txt{font-family:'Montserrat',sans-serif;font-size:11px}
+.dk .nl-txt{color:rgba(255,255,255,.55)}
+.cr .nl-txt,.bl .nl-txt{color:rgba(0,0,0,.55)}
+.nl-right{padding:44px 52px;display:flex;flex-direction:column;justify-content:center}
+.dk .nl-right{border-left:1px solid rgba(255,255,255,.08)}
+.cr .nl-right,.bl .nl-right{border-left:1px solid rgba(0,0,0,.08)}
+.nl-right-title{font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px}
+.dk .nl-right-title{color:rgba(255,255,255,.35)}
+.cr .nl-right-title,.bl .nl-right-title{color:rgba(0,0,0,.35)}
+
+/* ── FOOTER ── */
+.footer{display:flex;align-items:center;justify-content:space-between;padding:18px 52px;flex-wrap:wrap;gap:12px}
+.dk .footer{border-top:1px solid rgba(255,255,255,.08)}
+.cr .footer,.bl .footer{border-top:1px solid rgba(0,0,0,.08)}
+.footer-copy{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500}
+.dk .footer-copy{color:rgba(255,255,255,.45)}
+.cr .footer-copy,.bl .footer-copy{color:rgba(0,0,0,.45)}
+.footer-social{display:flex;gap:14px;align-items:center}
+.footer-social a{display:flex;align-items:center;opacity:.7;transition:opacity .2s}
+.footer-social a:hover{opacity:1}
+.footer-social img{height:22px;width:22px;object-fit:contain}
+
+/* ── COG SETTINGS ── */
+.cog-wrap{position:fixed;bottom:14px;left:14px;z-index:999}
+.cog-btn{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;transition:transform .5s}
+.cog-btn:hover{transform:rotate(70deg)}
+.dk .cog-btn{background:#1a1a2e;border:1px solid rgba(255,255,255,.18)}
+.cr .cog-btn,.bl .cog-btn{background:#fff;border:1px solid rgba(0,0,0,.18);box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.cog-panel{display:none;position:absolute;bottom:46px;left:0;border-radius:10px;padding:14px;min-width:180px}
+.dk .cog-panel{background:#1a1a2e;border:1px solid rgba(255,255,255,.15)}
+.cr .cog-panel,.bl .cog-panel{background:#fff;border:1px solid rgba(0,0,0,.14);box-shadow:0 4px 20px rgba(0,0,0,.12)}
+.cog-panel.open{display:block}
+.cp-label{font-family:'Montserrat',sans-serif;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;opacity:.45;margin-bottom:10px}
+.dk .cp-label{color:#fff}
+.cr .cp-label,.bl .cp-label{color:#111}
+.bg-opt{display:flex;align-items:center;gap:9px;padding:6px 7px;border-radius:6px;cursor:pointer}
+.bg-opt:hover{background:rgba(128,128,200,.1)}
+.bg-opt.active{background:rgba(0,212,255,.1)}
+.bg-opt.active .opt-lbl{color:#00D4FF!important}
+.swatch{width:20px;height:20px;border-radius:4px;border:1px solid rgba(128,128,200,.28);flex-shrink:0}
+.sw-dk{background:#09090f}
+.sw-cr{background:#F5F0E8;border-color:rgba(0,0,0,.2)}
+.sw-bl{background:#EAF4FB;border-color:rgba(0,0,80,.15)}
+.opt-lbl{font-family:'Montserrat',sans-serif;font-size:11px}
+.dk .opt-lbl{color:#ccc}
+.cr .opt-lbl,.bl .opt-lbl{color:#333}
+
+/* ── RESPONSIVE ── */
+@media(max-width:768px){
+  .nav{padding:12px 24px}.nav-links{display:none}.ham{display:flex}
+  .mob-menu a{padding:14px 24px}
+  .hero{grid-template-columns:1fr;padding:36px 24px 28px}
+  .hero-left{padding-right:0}
+  .hero-h1{font-size:30px}
+  .phone-wrap{margin:24px auto 0}
+  .btn-primary{width:100%;text-align:center}
+  .social-proof{padding:12px 24px}.sp-item{padding:4px 12px}.sp-div{display:none}
+  .benefits{padding:28px 24px}.benefits-grid{grid-template-columns:repeat(2,1fr);gap:14px}
+  .hook{padding:36px 24px}.hook-quote{font-size:18px}
+  .pocket-series{padding:28px 24px}
+  .guide-card{min-width:calc((100% - 28px) / 2.5)}
+  .testimonial{padding:36px 24px}.t-quote{font-size:15px}
+  .faq{padding:28px 24px}.faq-grid{grid-template-columns:1fr}
+  .about{grid-template-columns:1fr}.about-left{padding:36px 24px}.about-right{padding:28px 24px;border-left:none}
+  .dk .about-right{border-top:1px solid rgba(255,255,255,.08)}
+  .cr .about-right,.bl .about-right{border-top:1px solid rgba(0,0,0,.08)}
+  .newsletter{grid-template-columns:1fr}.nl-left{padding:32px 24px}.nl-right{padding:0 24px 32px;border-left:none}
+  .nl-form{flex-direction:column}.nl-btn{width:100%}
+  .footer{flex-direction:column;text-align:center;padding:20px 24px}
+  .footer-social{flex-wrap:wrap;justify-content:center}
+}
+@media(max-width:480px){
+  .benefits-grid{grid-template-columns:1fr}
+  .about-cta-buttons{flex-direction:column;width:100%}
+}
+</style>
+</head>
+<body>
+<div class="lp dk" id="lp">
+
+<!-- NAV -->
+<nav class="nav reveal">
+  <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys"></div>
+  <div class="nav-links">
+    <a href="#pocket-series">Guides</a>
+    <a href="#pocket-series">Albums</a>
+    <a href="#newsletter">Newsletter</a>
+    <a href="#about">About</a>
+    <a href="https://gumroad.com" target="_blank" rel="noopener" class="nav-login">Login / Register</a>
+  </div>
+  <button class="ham" id="hamBtn" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</nav>
+<div class="mob-menu lp dk" id="mobMenu">
+  <a href="#pocket-series" onclick="toggleMenu()">Guides</a>
+  <a href="#pocket-series" onclick="toggleMenu()">Albums</a>
+  <a href="#newsletter" onclick="toggleMenu()">Newsletter</a>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="https://gumroad.com" target="_blank" rel="noopener" onclick="toggleMenu()">Login / Register</a>
+</div>
+
+<!-- HERO -->
+<section class="hero reveal" id="hero">
+  <div class="hero-left">
+    <span class="eyebrow hero-eyebrow">Smartphone Photography</span>
+    <h1 class="hero-h1">The Global Standard<br>in Smartphone Photography.</h1>
+    <p class="hero-tagline-main">Capture more. Miss less.</p>
+    <p class="hero-tagline-sub">Better photos start before you shoot.</p>
+    <p class="hero-hook">Stop wandering and start witnessing. Xdatrys gives you the exact intelligence used by professional location scouts — so you walk straight to the shot, every time.</p>
+    <div class="cta-row">
+      <a href="https://gumroad.com" target="_blank" rel="noopener" class="btn-primary">Scout Dresden Now — $12</a>
+      <a href="#faq" class="btn-secondary">Preview the Guide ↓</a>
+    </div>
+    <p class="hero-pos">Xdatrys exists for the traveller who wants to capture a location the way it deserves to be experienced.</p>
+  </div>
+
+  <!-- PHONE FRAME CAROUSEL -->
+  <div class="phone-wrap">
+    <div class="phone-frame-outer">
+      <div class="phone-screen">
+        <div class="carousel-track" id="heroTrack">
+          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/BeachChairs%20(1).jpg" alt="Beach Chairs">
+          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/Filzmoos.jpg" alt="Filzmoos">
+          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/FlowerAlley.jpg" alt="Flower Alley">
+          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/Linz.jpg" alt="Linz">
+          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/PostMan.jpg" alt="Post Man">
+          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/Stallhof.jpg" alt="Stallhof">
+          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/Sunset.jpg" alt="Sunset">
+          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/TeAmo.jpg" alt="Te Amo">
+        </div>
+      </div>
+      <img class="phone-bg" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/iPhoneFrame.png" alt="">
+    </div>
+    <div class="carousel-dots" id="heroDots">
+      <div class="c-dot on" onclick="heroGoSlide(0)"></div>
+      <div class="c-dot" onclick="heroGoSlide(1)"></div>
+      <div class="c-dot" onclick="heroGoSlide(2)"></div>
+      <div class="c-dot" onclick="heroGoSlide(3)"></div>
+      <div class="c-dot" onclick="heroGoSlide(4)"></div>
+      <div class="c-dot" onclick="heroGoSlide(5)"></div>
+      <div class="c-dot" onclick="heroGoSlide(6)"></div>
+      <div class="c-dot" onclick="heroGoSlide(7)"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL PROOF STRIP -->
+<div class="social-proof reveal">
+  <div class="sp-items">
+    <div class="sp-item">
+      <div class="sp-num">300,000+</div>
+      <div class="sp-label">Photographs<br>worldwide</div>
+    </div>
+    <div class="sp-div"></div>
+    <div class="sp-item">
+      <div class="sp-num">20,000+</div>
+      <div class="sp-label">Smartphone images<br>across 4 continents</div>
+    </div>
+    <div class="sp-div"></div>
+    <div class="sp-item">
+      <div class="sp-num">Decades</div>
+      <div class="sp-label">Standing in the exact spots<br>that produce extraordinary images</div>
+    </div>
+    <div class="sp-div"></div>
+    <div class="sp-item">
+      <div class="sp-num">Lifetime's</div>
+      <div class="sp-label">exploration distilled<br>into every guide</div>
+    </div>
+  </div>
+</div>
+
+<!-- BENEFITS -->
+<section class="benefits reveal" id="benefits">
+  <span class="eyebrow benefits-eyebrow">Why Pocket Scout</span>
+  <div class="benefits-grid">
+    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Absolute Certainty</div><div class="b-desc">Know exactly where to stand — and when — before you leave your hotel.</div></div>
+    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Travel Light</div><div class="b-desc">Take the right equipment: phone and photo app tests and reviews.</div></div>
+    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Pro-Level Results</div><div class="b-desc">See what other tourists miss — composition, light, and timing, decoded.</div></div>
+    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Maximum Efficiency</div><div class="b-desc">Stop wasting precious hours in the wrong locations.</div></div>
+    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Built for Everyone</div><div class="b-desc">Works on any smartphone. No photography background required.</div></div>
+    <div class="b-tile"><div class="b-bar"></div><div class="b-title">No Signal? No Problem</div><div class="b-desc">Use it offline, on location, the moment you arrive.</div></div>
+  </div>
+</section>
+
+<!-- HOOK -->
+<section class="hook reveal" id="hook">
+  <div class="hook-inner">
+    <span class="hook-mark" aria-hidden="true">"</span>
+    <p class="hook-quote">You're not here to take the same shot as every other tourist on the bridge.</p>
+    <p class="hook-sub">Xdatrys exists for the traveller who wants to capture a location the way it deserves to be experienced.</p>
+  </div>
+</section>
+
+<!-- POCKET SERIES — SLIDING CAROUSEL -->
+<section class="pocket-series reveal" id="pocket-series">
+  <div class="series-header">
+    <div class="eyebrow" style="margin-bottom:10px">The Pocket Series</div>
+    <p class="series-sub">The <strong>Scout</strong> photo locations &nbsp;·&nbsp; The <strong>Eye</strong> photo album</p>
+  </div>
+  <div class="series-carousel-wrap">
+    <!-- Left arrow -->
+    <button class="series-arrow left" onclick="seriesScroll(-1)" aria-label="Previous">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="series-carousel-viewport" id="seriesViewport">
+      <div class="series-carousel-track" id="seriesTrack">
+
+        <!-- 1 Caribbean Scout -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutCaribbeanCover.jpg" alt="Pocket Scout Caribbean">
+            <span class="guide-avail-badge badge-soon">Coming Soon</span>
+          </div>
+          <div class="guide-name">Caribbean</div>
+          <div class="guide-type">Pocket Scout</div>
+        </div>
+
+        <!-- 2 Dresden Altstadt Scout -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutDresdenAltstatdCover.jpg" alt="Pocket Scout Dresden Altstadt">
+            <span class="guide-avail-badge badge-avail">Available</span>
+          </div>
+          <div class="guide-name">Dresden Altstadt</div>
+          <div class="guide-type">Pocket Scout</div>
+        </div>
+
+        <!-- 3 Caribbean Eye -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/PocketEyeCaribbeanCover.jpg" alt="Pocket Eye Caribbean">
+            <span class="guide-avail-badge badge-soon">Coming Soon</span>
+          </div>
+          <div class="guide-name">Caribbean</div>
+          <div class="guide-type">Pocket Eye</div>
+        </div>
+
+        <!-- 4 Fallingwater Scout -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutFallingwater.jpg" alt="Pocket Scout Fallingwater">
+            <span class="guide-avail-badge badge-soon">Coming Soon</span>
+          </div>
+          <div class="guide-name">Fallingwater</div>
+          <div class="guide-type">Pocket Scout</div>
+        </div>
+
+        <!-- 5 Los Angeles Marina Scout -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutLosAngelesMarinaCover.jpg" alt="Pocket Scout Los Angeles Marina">
+            <span class="guide-avail-badge badge-soon">Coming Soon</span>
+          </div>
+          <div class="guide-name">Los Angeles Marina</div>
+          <div class="guide-type">Pocket Scout</div>
+        </div>
+
+        <!-- 6 Dresden Zwinger Scout -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutDresdenZwingerCover.jpg" alt="Pocket Scout Dresden Zwinger">
+            <span class="guide-avail-badge badge-soon">Coming Soon</span>
+          </div>
+          <div class="guide-name">Dresden Zwinger</div>
+          <div class="guide-type">Pocket Scout</div>
+        </div>
+
+        <!-- 7 Salzburg Scout -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutSalzbugCover.jpg" alt="Pocket Scout Salzburg">
+            <span class="guide-avail-badge badge-soon">Coming Soon</span>
+          </div>
+          <div class="guide-name">Salzburg</div>
+          <div class="guide-type">Pocket Scout</div>
+        </div>
+
+        <!-- 8 Dresden Eye -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/PocketEyeDresdenCover.jpg" alt="Pocket Eye Dresden">
+            <span class="guide-avail-badge badge-avail">Available</span>
+          </div>
+          <div class="guide-name">Dresden</div>
+          <div class="guide-type">Pocket Eye</div>
+        </div>
+
+        <!-- 9 Windstar Scout -->
+        <div class="guide-card">
+          <div class="guide-cover">
+            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutWindstarCover.jpg" alt="Pocket Scout Windstar">
+            <span class="guide-avail-badge badge-soon">Coming Soon</span>
+          </div>
+          <div class="guide-name">Windstar</div>
+          <div class="guide-type">Pocket Scout</div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Right arrow -->
+    <button class="series-arrow right" onclick="seriesScroll(1)" aria-label="Next">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial reveal" id="testimonial">
+  <div class="t-inner">
+    <span class="t-mark" aria-hidden="true">"</span>
+    <p class="t-quote">"I used to spend hours on Google Maps trying to find the right spot. With Xdatrys, I walked straight to the Elbe and got the shot of a lifetime in five minutes."</p>
+    <p class="t-attr">— Traveller &amp; Photography Enthusiast</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq reveal" id="faq">
+  <span class="eyebrow faq-eyebrow">Common Questions</span>
+  <div class="faq-grid">
+    <div class="faq-card"><div class="faq-q">"Is this only for iPhone?"</div><div class="faq-a">The guides focus on universal composition and lighting principles — they work on any smartphone. Android, iPhone, or anything in between.</div></div>
+    <div class="faq-card"><div class="faq-q">"I'm not a photographer — is this too advanced?"</div><div class="faq-a">Pocket Scout guides are written specifically for travellers, not professionals. If you can open a PDF, you can use this guide.</div></div>
+    <div class="faq-card"><div class="faq-q">"Is a PDF really worth $12?"</div><div class="faq-a">A single missed shot in Dresden is a lost opportunity you cannot recreate. Think of $12 as an insurance policy for your most valuable travel memories.</div></div>
+    <div class="faq-card"><div class="faq-q">"Will this work for my specific trip?"</div><div class="faq-a">Every location has been personally evaluated for light, access, and timing — not scraped from review sites. Built from direct knowledge of the location.</div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about reveal" id="about">
+  <div class="about-left">
+    <span class="eyebrow about-eyebrow">About Xdatrys</span>
+    <h2 class="about-h2">A Life's Work.</h2>
+    <p class="about-p">Xdatrys was founded by a veteran photographer, architect and traveller. With a dedication to technical precision and a deep understanding of light, composition, and location, Xdatrys transforms the world's most exotic and iconic locations into precise visual intelligence for the modern smartphone photographer.</p>
+    <p class="about-p">This is a lifetime's exploration — built on decades of standing in the exact spots, with the exact compositions, that turn ordinary travel into extraordinary images.</p>
+  </div>
+  <div class="about-right">
+    <div class="x-logo-wrap">
+      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/Xcolored-transparent.png" alt="Xdatrys">
+    </div>
+    <div class="cred-tags">
+      <span class="cred-tag">Architecture Photography</span>
+      <span class="cred-tag">International Travel</span>
+      <span class="cred-tag">300,000+ Images</span>
+      <span class="cred-tag">20,000 Smartphone Images</span>
+      <span class="cred-tag">Lifetime Experience</span>
+    </div>
+    <div class="about-cta-block">
+      <p class="about-cta-h">Start with Dresden.</p>
+      <p class="about-cta-p">The first Pocket Scout and Pocket Eye guides are available now. $12.</p>
+      <div class="about-cta-buttons">
+        <a href="https://gumroad.com" target="_blank" rel="noopener" class="btn-primary">Scout Dresden Now — $12</a>
+        <a href="https://gumroad.com" target="_blank" rel="noopener" class="btn-eye">
+          <img class="btn-eye-bg" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/AlbumGradient960x480.png" alt="">
+          <span class="btn-eye-text">Eye Dresden Now — $12</span>
+        </a>
+        <a href="#newsletter" class="about-nl-link">Or join Pocket Lens — free photography tips in your inbox →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter reveal" id="newsletter">
+  <div class="nl-left">
+    <div class="nl-brand-block">
+      <div class="nl-brand">Pocket Lens</div>
+      <div class="nl-cap">Free Smartphone Photography Newsletter</div>
+    </div>
+    <img class="nl-masthead" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/pocket-lens/PocketLensMasthead.png" alt="Pocket Lens Newsletter">
+    <div class="nl-form">
+      <input class="nl-input" type="email" placeholder="your@email.com" aria-label="Email address">
+      <button class="nl-btn">Subscribe</button>
+    </div>
+    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">The latest smartphone photography news</span></div>
+    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Shot techniques</span></div>
+    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Latest smartphone photography hardware</span></div>
+    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Latest smartphone photography software</span></div>
+  </div>
+  <div class="nl-right">
+    <div class="nl-right-title">Also inside every issue</div>
+    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Regular photography tips</span></div>
+    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">International location guide alerts</span></div>
+    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Exclusive subscriber content</span></div>
+    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">No spam — unsubscribe any time</span></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer reveal">
+  <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys" style="height:26px"></div>
+  <div class="footer-copy">© 2026 Xdatrys LLC. All rights reserved.</div>
+  <div class="footer-social">
+    <a href="https://www.facebook.com/profile.php?id=61568000070429&sk=photos" target="_blank" rel="noopener" aria-label="Facebook">
+      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Facebook.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/xdatrys/" target="_blank" rel="noopener" aria-label="Instagram">
+      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Instagram.png" alt="Instagram">
+    </a>
+    <a href="https://www.tiktok.com/@xdatrys?lang=en" target="_blank" rel="noopener" aria-label="TikTok">
+      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/TikTok.png" alt="TikTok">
+    </a>
+    <a href="https://www.pinterest.com/xdatrys/" target="_blank" rel="noopener" aria-label="Pinterest">
+      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Pinterest.png" alt="Pinterest">
+    </a>
+    <a href="https://x.com/xdatrys" target="_blank" rel="noopener" aria-label="X">
+      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/X.png" alt="X">
+    </a>
+    <a href="https://www.youtube.com/@Xdatrys" target="_blank" rel="noopener" aria-label="YouTube">
+      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/YouTube.png" alt="YouTube">
+    </a>
+  </div>
+</footer>
+
+</div><!-- /.lp -->
+
+<!-- SETTINGS COG -->
+<div class="cog-wrap dk" id="cogWrap">
+  <button class="cog-btn" id="cogBtn" onclick="toggleCog()" aria-label="Theme settings">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+  </button>
+  <div class="cog-panel dk" id="cogPanel">
+    <div class="cp-label">Background</div>
+    <div class="bg-opt active" id="opt-dk" onclick="setBg('dk')"><div class="swatch sw-dk"></div><span class="opt-lbl">Black</span></div>
+    <div class="bg-opt" id="opt-cr" onclick="setBg('cr')"><div class="swatch sw-cr"></div><span class="opt-lbl">Cream</span></div>
+    <div class="bg-opt" id="opt-bl" onclick="setBg('bl')"><div class="swatch sw-bl"></div><span class="opt-lbl">Pale Blue</span></div>
+  </div>
+</div>
+
+<script>
+// ── Scroll reveal ──────────────────────────────
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.classList.add('visible')});},{threshold:.08});
+  els.forEach(function(el){obs.observe(el)});
+})();
+
+// ── Mobile menu ────────────────────────────────
+function toggleMenu(){
+  var m=document.getElementById('mobMenu');
+  m.classList.toggle('open');
+}
+
+// ── Hero carousel ──────────────────────────────
+var hCur=0,hTotal=8,hAuto;
+function heroGoSlide(n){
+  hCur=n;
+  document.getElementById('heroTrack').style.transform='translateX(-'+n*100+'%)';
+  document.querySelectorAll('#heroDots .c-dot').forEach(function(d,i){d.classList.toggle('on',i===n)});
+}
+function heroNext(){hCur=(hCur+1)%hTotal;heroGoSlide(hCur);}
+hAuto=setInterval(heroNext,3000);
+
+// ── Series carousel (drag + arrows) ───────────
+var sTrack=document.getElementById('seriesTrack');
+var sDrag={active:false,startX:0,scrollLeft:0};
+var sOffset=0;
+
+function getCardWidth(){
+  var cards=sTrack.querySelectorAll('.guide-card');
+  if(!cards.length)return 200;
+  return cards[0].offsetWidth+14;
+}
+function seriesScroll(dir){
+  sOffset+=dir*getCardWidth();
+  var max=sTrack.scrollWidth-document.getElementById('seriesViewport').offsetWidth;
+  sOffset=Math.max(0,Math.min(sOffset,max));
+  sTrack.style.transform='translateX(-'+sOffset+'px)';
+}
+sTrack.addEventListener('mousedown',function(e){
+  sDrag.active=true;sDrag.startX=e.pageX;sDrag.scrollLeft=sOffset;
+  sTrack.classList.add('dragging');
+});
+document.addEventListener('mousemove',function(e){
+  if(!sDrag.active)return;
+  var dx=e.pageX-sDrag.startX;
+  var max=sTrack.scrollWidth-document.getElementById('seriesViewport').offsetWidth;
+  sOffset=Math.max(0,Math.min(sDrag.scrollLeft-dx,max));
+  sTrack.style.transform='translateX(-'+sOffset+'px)';
+});
+document.addEventListener('mouseup',function(){sDrag.active=false;sTrack.classList.remove('dragging')});
+sTrack.addEventListener('touchstart',function(e){sDrag.active=true;sDrag.startX=e.touches[0].pageX;sDrag.scrollLeft=sOffset;},{passive:true});
+sTrack.addEventListener('touchmove',function(e){
+  if(!sDrag.active)return;
+  var dx=e.touches[0].pageX-sDrag.startX;
+  var max=sTrack.scrollWidth-document.getElementById('seriesViewport').offsetWidth;
+  sOffset=Math.max(0,Math.min(sDrag.scrollLeft-dx,max));
+  sTrack.style.transform='translateX(-'+sOffset+'px)';
+},{passive:true});
+sTrack.addEventListener('touchend',function(){sDrag.active=false;});
+
+// ── Cog / theme ────────────────────────────────
+function toggleCog(){document.getElementById('cogPanel').classList.toggle('open');}
+document.addEventListener('click',function(e){
+  var p=document.getElementById('cogPanel'),b=document.getElementById('cogBtn');
+  if(!b.contains(e.target)&&!p.contains(e.target))p.classList.remove('open');
+});
+function setBg(t){
+  var lp=document.getElementById('lp');
+  var cw=document.getElementById('cogWrap');
+  var cp=document.getElementById('cogPanel');
+  var mm=document.getElementById('mobMenu');
+  var open=cp.classList.contains('open');
+  lp.className='lp '+t;
+  cw.className='cog-wrap '+t;
+  cp.className='cog-panel '+t+(open?' open':'');
+  mm.className='mob-menu lp '+t+(mm.classList.contains('open')?' open':'');
+  ['dk','cr','bl'].forEach(function(x){document.getElementById('opt-'+x).classList.remove('active')});
+  document.getElementById('opt-'+t).classList.add('active');
+}
+</script>
+</body>
+</html>
