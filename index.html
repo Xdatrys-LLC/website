@@ -9,6 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 <style>
+/* ============================================================
+   GLOBAL — RESET, THEME SYSTEM, SHARED UTILITIES
+   ============================================================ */
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
@@ -31,7 +35,10 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .btn-secondary:hover{background:rgba(255,255,255,.06)}
 .cr .btn-secondary:hover,.bl .btn-secondary:hover{background:rgba(0,0,0,.05)}
 
-/* ── NAV ── */
+/* ============================================================
+   SECTION 1 — NAV BAR
+   CSS: sticky nav, logo, links, login button, hamburger, mobile menu
+   ============================================================ */
 .nav{position:sticky;top:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:14px 52px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 .dk .nav{border-bottom:1px solid rgba(255,255,255,.1);background:rgba(9,9,15,.92)}
 .cr .nav{border-bottom:1px solid rgba(0,0,0,.1);background:rgba(245,240,232,.92)}
@@ -56,8 +63,12 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .mob-menu a{color:rgba(255,255,255,.75);border-bottom:1px solid rgba(255,255,255,.06)}
 .cr .mob-menu a,.bl .mob-menu a{color:rgba(0,0,0,.7);border-bottom:1px solid rgba(0,0,0,.06)}
 
-/* ── HERO ── */
-.hero{display:grid;grid-template-columns:1fr 230px;gap:0;padding:56px 52px 48px}
+/* ============================================================
+   SECTION 2 — HERO: HEADLINE, CTA, PHONE FRAME CAROUSEL
+   CSS: two-column grid, headline, taglines, CTAs, phone frame
+   To edit headline: find SECTION 2 in the HTML below
+   ============================================================ */
+.hero{display:grid;grid-template-columns:1fr 280px;gap:0;padding:56px 52px 48px}
 .dk .hero{background:linear-gradient(135deg,#09090f 0%,#0f0f22 60%,#09090f 100%)}
 .cr .hero{background:linear-gradient(135deg,#F5F0E8 0%,#EDE5D5 60%,#F5F0E8 100%)}
 .bl .hero{background:linear-gradient(135deg,#EAF4FB 0%,#D8EDF7 60%,#EAF4FB 100%)}
@@ -78,11 +89,51 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .hero-pos{color:rgba(255,255,255,.38)}
 .cr .hero-pos,.bl .hero-pos{color:rgba(0,0,0,.38)}
 
-/* ── PHONE FRAME CAROUSEL ── */
-.phone-wrap{width:230px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:10px}
-.phone-frame-outer{position:relative;width:200px;height:400px}
-.phone-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;z-index:2;pointer-events:none}
-.phone-screen{position:absolute;top:14px;left:14px;right:14px;bottom:14px;border-radius:20px;overflow:hidden;z-index:1;background:#000}
+/* ── SECTION 2 (continued) — CSS PHONE FRAME + CAROUSEL ──
+   Phone frame is pure CSS — no image file needed
+   To resize frame: change width/height on .phone-frame-outer
+   To change outline: change outline value on .phone-frame-outer */
+.phone-wrap{
+  width:260px;flex-shrink:0;
+  display:flex;flex-direction:column;
+  align-items:center;gap:12px;
+  margin-left:20px
+}
+.phone-frame-outer{
+  position:relative;
+  width:220px;height:460px;
+  background:#000;
+  border-radius:32px;
+  outline:2px solid rgba(255,255,255,.85);
+  outline-offset:2px;
+  flex-shrink:0
+}
+.phone-notch{
+  position:absolute;
+  top:10px;left:50%;
+  transform:translateX(-50%);
+  width:36px;height:8px;
+  background:#000;
+  border-radius:4px;
+  z-index:3
+}
+.phone-home{
+  position:absolute;
+  bottom:10px;left:50%;
+  transform:translateX(-50%);
+  width:40px;height:4px;
+  background:rgba(255,255,255,.35);
+  border-radius:2px;
+  z-index:3
+}
+.phone-screen{
+  position:absolute;
+  top:14px;left:12px;right:12px;bottom:14px;
+  border-radius:24px;
+  overflow:hidden;
+  z-index:1;
+  background:#000
+}
 .carousel-track{display:flex;width:100%;height:100%;transition:transform .7s ease}
 .carousel-slide{min-width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .carousel-dots{display:flex;gap:5px;justify-content:center;z-index:3}
@@ -91,7 +142,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .cr .c-dot,.bl .c-dot{background:rgba(0,0,0,.2)}
 .c-dot.on{background:#00D4FF;transform:scale(1.2)}
 
-/* ── SOCIAL PROOF ── */
+/* ============================================================
+   SECTION 2B — SOCIAL PROOF STRIP
+   CSS: full-width strip of four credibility signals
+   To edit numbers/text: find SECTION 2B in the HTML below
+   ============================================================ */
 .social-proof{padding:14px 52px;display:flex;align-items:center;justify-content:center;flex-wrap:wrap}
 .dk .social-proof{background:linear-gradient(90deg,rgba(0,212,255,.08),rgba(225,0,255,.06),rgba(123,47,191,.08));border-top:1px solid rgba(0,212,255,.15);border-bottom:1px solid rgba(0,212,255,.15)}
 .cr .social-proof{background:rgba(0,0,0,.04);border-top:1px solid rgba(0,0,0,.1);border-bottom:1px solid rgba(0,0,0,.1)}
@@ -106,7 +161,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .sp-div{background:rgba(255,255,255,.12)}
 .cr .sp-div,.bl .sp-div{background:rgba(0,0,0,.12)}
 
-/* ── BENEFITS ── */
+/* ============================================================
+   SECTION 3 — BENEFITS STRIP (six tiles)
+   CSS: 3-column grid, gradient bar, title, description per tile
+   To edit tile content: find SECTION 3 in the HTML below
+   ============================================================ */
 .benefits{padding:40px 52px}
 .dk .benefits{background:rgba(255,255,255,.02);border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
 .cr .benefits,.bl .benefits{background:rgba(0,0,0,.03);border-top:1px solid rgba(0,0,0,.08);border-bottom:1px solid rgba(0,0,0,.08)}
@@ -123,7 +182,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .b-desc{color:rgba(255,255,255,.55)}
 .cr .b-desc,.bl .b-desc{color:rgba(0,0,0,.55)}
 
-/* ── HOOK ── */
+/* ============================================================
+   SECTION 4 — HOOK / PULL-QUOTE
+   CSS: centred large italic quote with gradient opening mark
+   To edit quote: find SECTION 4 in the HTML below
+   ============================================================ */
 .hook{padding:56px 52px;text-align:center}
 .hook-inner{max-width:680px;margin:0 auto}
 .hook-mark{font-family:'Playfair Display',serif;font-size:80px;font-weight:900;line-height:.5;display:block;margin-bottom:14px;background:linear-gradient(90deg,#00D4FF,#7B2FBF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;opacity:.35}
@@ -134,7 +197,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .hook-sub{color:rgba(255,255,255,.5)}
 .cr .hook-sub,.bl .hook-sub{color:rgba(0,0,0,.5)}
 
-/* ── POCKET SERIES ── */
+/* ============================================================
+   SECTION 5 — THE POCKET SERIES (sliding carousel)
+   CSS: header, draggable track, guide cards, arrow buttons
+   To add/remove guides: find SECTION 5 in the HTML below
+   ============================================================ */
 .pocket-series{padding:44px 52px}
 .series-header{margin-bottom:22px}
 .series-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;margin-bottom:6px}
@@ -171,7 +238,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .series-arrow:hover{opacity:.8}
 .series-arrow svg{width:16px;height:16px}
 
-/* ── TESTIMONIAL ── */
+/* ============================================================
+   SECTION 6 — TESTIMONIAL
+   CSS: centred quote, large opening mark, attribution
+   IMPORTANT: Replace placeholder with real testimonial after first sale
+   ============================================================ */
 .testimonial{padding:52px;text-align:center}
 .dk .testimonial{background:rgba(0,212,255,.03);border-top:1px solid rgba(0,212,255,.1);border-bottom:1px solid rgba(0,212,255,.1)}
 .cr .testimonial,.bl .testimonial{background:rgba(0,100,180,.04);border-top:1px solid rgba(0,100,180,.1);border-bottom:1px solid rgba(0,100,180,.1)}
@@ -184,7 +255,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .t-attr{color:rgba(255,255,255,.4)}
 .cr .t-attr,.bl .t-attr{color:rgba(0,0,0,.4)}
 
-/* ── FAQ ── */
+/* ============================================================
+   SECTION 7 — FAQ / OBJECTION HANDLING (four cards)
+   CSS: 2-column grid of question/answer cards
+   To edit Q&A text: find SECTION 7 in the HTML below
+   ============================================================ */
 .faq{padding:44px 52px}
 .faq-eyebrow{margin-bottom:26px}
 .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -198,7 +273,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .faq-a{color:rgba(255,255,255,.6)}
 .cr .faq-a,.bl .faq-a{color:rgba(0,0,0,.6)}
 
-/* ── ABOUT ── */
+/* ============================================================
+   SECTION 8 — ABOUT XDATRYS (two columns)
+   CSS: left=bio text, right=logo + credential tags + CTA buttons
+   To edit bio or tags: find SECTION 8 in the HTML below
+   ============================================================ */
 .about{display:grid;grid-template-columns:1fr 1fr}
 .about-left{padding:52px}
 .dk .about-left{background:linear-gradient(135deg,#0f0f22,#1a1a3a)}
@@ -236,7 +315,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .about-nl-link{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500;color:#00D4FF;text-decoration:none}
 .about-nl-link:hover{text-decoration:underline}
 
-/* ── NEWSLETTER ── */
+/* ============================================================
+   SECTION 9 — POCKET LENS NEWSLETTER (two columns)
+   CSS: left=brand/form/bullets, right=additional bullets
+   To edit content: find SECTION 9 in the HTML below
+   ============================================================ */
 .newsletter{display:grid;grid-template-columns:1fr 1fr}
 .dk .newsletter{border-top:1px solid rgba(255,255,255,.08)}
 .cr .newsletter,.bl .newsletter{border-top:1px solid rgba(0,0,0,.08)}
@@ -264,7 +347,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .nl-right-title{color:rgba(255,255,255,.35)}
 .cr .nl-right-title,.bl .nl-right-title{color:rgba(0,0,0,.35)}
 
-/* ── FOOTER ── */
+/* ============================================================
+   SECTION 10 — FOOTER
+   CSS: flex row, logo, copyright, social media icon links
+   To update social links: find SECTION 10 in the HTML below
+   ============================================================ */
 .footer{display:flex;align-items:center;justify-content:space-between;padding:18px 52px;flex-wrap:wrap;gap:12px}
 .dk .footer{border-top:1px solid rgba(255,255,255,.08)}
 .cr .footer,.bl .footer{border-top:1px solid rgba(0,0,0,.08)}
@@ -276,7 +363,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .footer-social a:hover{opacity:1}
 .footer-social img{height:22px;width:22px;object-fit:contain}
 
-/* ── COG SETTINGS ── */
+/* ============================================================
+   SECTION 11 — SETTINGS COG (background theme switcher)
+   CSS: fixed bottom-left cogwheel + panel
+   Black (#09090f) | Cream (#F5F0E8) | Pale Blue (#EAF4FB)
+   ============================================================ */
 .cog-wrap{position:fixed;bottom:14px;left:14px;z-index:999}
 .cog-btn{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;transition:transform .5s}
 .cog-btn:hover{transform:rotate(70deg)}
@@ -301,7 +392,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .opt-lbl{color:#ccc}
 .cr .opt-lbl,.bl .opt-lbl{color:#333}
 
-/* ── RESPONSIVE ── */
+/* ============================================================
+   RESPONSIVE — MOBILE BREAKPOINTS
+   max-width 768px = tablets and phones
+   max-width 480px = small phones
+   ============================================================ */
 @media(max-width:768px){
   .nav{padding:12px 24px}.nav-links{display:none}.ham{display:flex}
   .mob-menu a{padding:14px 24px}
@@ -334,7 +429,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 <body>
 <div class="lp dk" id="lp">
 
-<!-- NAV -->
+<!-- ============================================================
+     SECTION 1 — NAV BAR
+     Sticky navigation: logo, links, login button, mobile hamburger
+     To edit links: change href values and link text below
+     ============================================================ -->
 <nav class="nav reveal">
   <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys"></div>
   <div class="nav-links">
@@ -354,7 +453,14 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   <a href="https://gumroad.com" target="_blank" rel="noopener" onclick="toggleMenu()">Login / Register</a>
 </div>
 
-<!-- HERO -->
+<!-- ============================================================
+     SECTION 2 — HERO: HEADLINE, CTA, PHONE FRAME CAROUSEL
+     Left column: headline, taglines, hook paragraph, CTA buttons
+     Right column: CSS phone frame with 8-image auto-rotating carousel
+     To edit headline: change the h1 text below
+     To edit CTA: change btn-primary text and href
+     To change carousel images: replace img src URLs in the carousel-track
+     ============================================================ -->
 <section class="hero reveal" id="hero">
   <div class="hero-left">
     <span class="eyebrow hero-eyebrow">Smartphone Photography</span>
@@ -369,9 +475,12 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
     <p class="hero-pos">Xdatrys exists for the traveller who wants to capture a location the way it deserves to be experienced.</p>
   </div>
 
-  <!-- PHONE FRAME CAROUSEL -->
+  <!-- Right column: CSS phone frame with carousel
+       To resize: change phone-frame-outer width/height in CSS Section 2
+       To change images: update img src URLs below -->
   <div class="phone-wrap">
     <div class="phone-frame-outer">
+      <div class="phone-notch"></div>
       <div class="phone-screen">
         <div class="carousel-track" id="heroTrack">
           <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/BeachChairs%20(1).jpg" alt="Beach Chairs">
@@ -384,7 +493,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/TeAmo.jpg" alt="Te Amo">
         </div>
       </div>
-      <img class="phone-bg" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/iPhoneFrame.png" alt="">
+      <div class="phone-home"></div>
     </div>
     <div class="carousel-dots" id="heroDots">
       <div class="c-dot on" onclick="heroGoSlide(0)"></div>
@@ -399,7 +508,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </section>
 
-<!-- SOCIAL PROOF STRIP -->
+<!-- ============================================================
+     SECTION 2B — SOCIAL PROOF STRIP
+     Four credibility signals displayed between hero and benefits
+     To edit: change sp-num and sp-label text below
+     ============================================================ -->
 <div class="social-proof reveal">
   <div class="sp-items">
     <div class="sp-item">
@@ -424,7 +537,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </div>
 
-<!-- BENEFITS -->
+<!-- ============================================================
+     SECTION 3 — BENEFITS STRIP (six tiles)
+     3-column grid. Each tile: gradient bar + title + description
+     To edit a tile: change b-title and b-desc text below
+     ============================================================ -->
 <section class="benefits reveal" id="benefits">
   <span class="eyebrow benefits-eyebrow">Why Pocket Scout</span>
   <div class="benefits-grid">
@@ -437,7 +554,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </section>
 
-<!-- HOOK -->
+<!-- ============================================================
+     SECTION 4 — HOOK / PULL-QUOTE
+     Large italic Playfair Display quote, centred on page
+     To edit the quote: change hook-quote text below
+     ============================================================ -->
 <section class="hook reveal" id="hook">
   <div class="hook-inner">
     <span class="hook-mark" aria-hidden="true">"</span>
@@ -446,7 +567,13 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </section>
 
-<!-- POCKET SERIES — SLIDING CAROUSEL -->
+<!-- ============================================================
+     SECTION 5 — THE POCKET SERIES (9-card sliding carousel)
+     Shows all Pocket Scout and Pocket Eye guides
+     To add a guide: copy a guide-card block and update img src, name, type, badge
+     To change a badge: swap badge-avail / badge-soon class
+     To change an image: update the img src to the new GitHub raw URL
+     ============================================================ -->
 <section class="pocket-series reveal" id="pocket-series">
   <div class="series-header">
     <div class="eyebrow" style="margin-bottom:10px">The Pocket Series</div>
@@ -460,7 +587,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
     <div class="series-carousel-viewport" id="seriesViewport">
       <div class="series-carousel-track" id="seriesTrack">
 
-        <!-- 1 Caribbean Scout -->
+        <!-- Guide 1: Caribbean Scout — badge-soon = Coming Soon -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutCaribbeanCover.jpg" alt="Pocket Scout Caribbean">
@@ -470,7 +597,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <div class="guide-type">Pocket Scout</div>
         </div>
 
-        <!-- 2 Dresden Altstadt Scout -->
+        <!-- Guide 2: Dresden Altstadt Scout — badge-avail = Available -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutDresdenAltstatdCover.jpg" alt="Pocket Scout Dresden Altstadt">
@@ -480,7 +607,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <div class="guide-type">Pocket Scout</div>
         </div>
 
-        <!-- 3 Caribbean Eye -->
+        <!-- Guide 3: Caribbean Eye — badge-soon = Coming Soon -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/PocketEyeCaribbeanCover.jpg" alt="Pocket Eye Caribbean">
@@ -490,7 +617,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <div class="guide-type">Pocket Eye</div>
         </div>
 
-        <!-- 4 Fallingwater Scout -->
+        <!-- Guide 4: Fallingwater Scout — badge-soon = Coming Soon -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutFallingwater.jpg" alt="Pocket Scout Fallingwater">
@@ -500,7 +627,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <div class="guide-type">Pocket Scout</div>
         </div>
 
-        <!-- 5 Los Angeles Marina Scout -->
+        <!-- Guide 5: Los Angeles Marina Scout — badge-soon = Coming Soon -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutLosAngelesMarinaCover.jpg" alt="Pocket Scout Los Angeles Marina">
@@ -510,7 +637,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <div class="guide-type">Pocket Scout</div>
         </div>
 
-        <!-- 6 Dresden Zwinger Scout -->
+        <!-- Guide 6: Dresden Zwinger Scout — badge-soon = Coming Soon -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutDresdenZwingerCover.jpg" alt="Pocket Scout Dresden Zwinger">
@@ -520,7 +647,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <div class="guide-type">Pocket Scout</div>
         </div>
 
-        <!-- 7 Salzburg Scout -->
+        <!-- Guide 7: Salzburg Scout — badge-soon = Coming Soon -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutSalzbugCover.jpg" alt="Pocket Scout Salzburg">
@@ -530,7 +657,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <div class="guide-type">Pocket Scout</div>
         </div>
 
-        <!-- 8 Dresden Eye -->
+        <!-- Guide 8: Dresden Eye — badge-avail = Available -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/PocketEyeDresdenCover.jpg" alt="Pocket Eye Dresden">
@@ -540,7 +667,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
           <div class="guide-type">Pocket Eye</div>
         </div>
 
-        <!-- 9 Windstar Scout -->
+        <!-- Guide 9: Windstar Scout — badge-soon = Coming Soon -->
         <div class="guide-card">
           <div class="guide-cover">
             <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutWindstarCover.jpg" alt="Pocket Scout Windstar">
@@ -559,7 +686,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </section>
 
-<!-- TESTIMONIAL -->
+<!-- ============================================================
+     SECTION 6 — TESTIMONIAL
+     Single centred quote with attribution line
+     IMPORTANT: Replace this placeholder with a real customer testimonial
+     ============================================================ -->
 <section class="testimonial reveal" id="testimonial">
   <div class="t-inner">
     <span class="t-mark" aria-hidden="true">"</span>
@@ -568,7 +699,11 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </section>
 
-<!-- FAQ -->
+<!-- ============================================================
+     SECTION 7 — FAQ / OBJECTION HANDLING (four cards)
+     2-column grid of question and answer cards
+     To edit: change faq-q and faq-a text in each card below
+     ============================================================ -->
 <section class="faq reveal" id="faq">
   <span class="eyebrow faq-eyebrow">Common Questions</span>
   <div class="faq-grid">
@@ -579,7 +714,13 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </section>
 
-<!-- ABOUT -->
+<!-- ============================================================
+     SECTION 8 — ABOUT XDATRYS (two columns)
+     Left: bio text | Right: X logo + credential tags + CTA buttons
+     To edit bio: change about-p text below
+     To edit credential tags: change cred-tag text below
+     To update Gumroad links: change the href on btn-primary and btn-eye
+     ============================================================ -->
 <section class="about reveal" id="about">
   <div class="about-left">
     <span class="eyebrow about-eyebrow">About Xdatrys</span>
@@ -613,7 +754,13 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </section>
 
-<!-- NEWSLETTER -->
+<!-- ============================================================
+     SECTION 9 — POCKET LENS NEWSLETTER (two columns)
+     Left: brand name, masthead image, email form, 4 bullet points
+     Right: 4 additional bullets under "Also inside every issue"
+     To connect Beehiiv: add action="your-beehiiv-url" to the nl-form div
+     To edit bullet text: change nl-txt span content below
+     ============================================================ -->
 <section class="newsletter reveal" id="newsletter">
   <div class="nl-left">
     <div class="nl-brand-block">
@@ -639,7 +786,12 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </section>
 
-<!-- FOOTER -->
+<!-- ============================================================
+     SECTION 10 — FOOTER
+     Logo left | Copyright centre | Social media icons right
+     To update a social link: change the href value below
+     To update a social icon: replace img src with new GitHub raw URL
+     ============================================================ -->
 <footer class="footer reveal">
   <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys" style="height:26px"></div>
   <div class="footer-copy">© 2026 Xdatrys LLC. All rights reserved.</div>
@@ -665,9 +817,13 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </footer>
 
-</div><!-- /.lp -->
+</div><!-- end .lp — end of main page wrapper -->
 
-<!-- SETTINGS COG -->
+<!-- ============================================================
+     SECTION 11 — SETTINGS COG (background theme switcher)
+     Fixed bottom-left, outside the .lp wrapper
+     Switches page between: Black | Cream | Pale Blue
+     ============================================================ -->
 <div class="cog-wrap dk" id="cogWrap">
   <button class="cog-btn" id="cogBtn" onclick="toggleCog()" aria-label="Theme settings">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
@@ -680,21 +836,34 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   </div>
 </div>
 
+<!-- ============================================================
+     JAVASCRIPT
+     JS1: Scroll reveal (IntersectionObserver)
+     JS2: Mobile menu toggle
+     JS3: Hero carousel auto-play (3 second interval)
+     JS4: Pocket Series carousel (drag, touch, arrow buttons)
+     JS5: Settings cog (open/close, theme switching)
+     ============================================================ -->
 <script>
-// ── Scroll reveal ──────────────────────────────
+// JS1 — Scroll reveal
+// Adds .visible class to .reveal elements as they enter the viewport
 (function(){
   var els=document.querySelectorAll('.reveal');
   var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.classList.add('visible')});},{threshold:.08});
   els.forEach(function(el){obs.observe(el)});
 })();
 
-// ── Mobile menu ────────────────────────────────
+
+// JS2 — Mobile menu toggle
+// Called by hamburger button onclick
 function toggleMenu(){
   var m=document.getElementById('mobMenu');
   m.classList.toggle('open');
 }
 
-// ── Hero carousel ──────────────────────────────
+
+// JS3 — Hero carousel
+// Auto-advances every 3000ms. Dots update on each slide change.
 var hCur=0,hTotal=8,hAuto;
 function heroGoSlide(n){
   hCur=n;
@@ -704,7 +873,9 @@ function heroGoSlide(n){
 function heroNext(){hCur=(hCur+1)%hTotal;heroGoSlide(hCur);}
 hAuto=setInterval(heroNext,3000);
 
-// ── Series carousel (drag + arrows) ───────────
+
+// JS4 — Pocket Series carousel
+// Supports: left/right arrow buttons, mouse drag, touch swipe
 var sTrack=document.getElementById('seriesTrack');
 var sDrag={active:false,startX:0,scrollLeft:0};
 var sOffset=0;
@@ -742,7 +913,8 @@ sTrack.addEventListener('touchmove',function(e){
 },{passive:true});
 sTrack.addEventListener('touchend',function(){sDrag.active=false;});
 
-// ── Cog / theme ────────────────────────────────
+
+// JS5 — Settings cog: open/close panel, switch background theme
 function toggleCog(){document.getElementById('cogPanel').classList.toggle('open');}
 document.addEventListener('click',function(e){
   var p=document.getElementById('cogPanel'),b=document.getElementById('cogBtn');
