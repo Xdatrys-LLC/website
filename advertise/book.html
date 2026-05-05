@@ -1,1 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Advertising Enquiry — Pocket Lens · Xdatrys</title>
+<meta name="description" content="Get in touch about advertising in Pocket Lens. We review all enquiries within 48 hours.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
 
+/* ============================================================
+   GLOBAL — RESET, THEME, SHARED UTILITIES
+   Mirrors index.html and advertise.html exactly
+   ============================================================ */
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
+
+.lp{min-height:100vh;transition:background .35s,color .35s}
+.lp.dk{background:#09090f;color:#fff}
+.lp.cr{background:#F5F0E8;color:#2a2a2a}
+.lp.bl{background:#EAF4FB;color:#1a2a3a}
+
+.eyebrow{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:#00D4FF;display:block}
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+.btn-primary{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(90deg,#00D4FF,#E100FF);color:#fff;border:none;cursor:pointer;padding:14px 28px;border-radius:6px;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;transition:filter .2s,transform .2s;text-decoration:none}
+.btn-primary:hover{filter:brightness(1.12);transform:translateY(-1px)}
+
+
+/* ============================================================
+   NAV BAR — identical to advertise.html and index.html
+   ============================================================ */
+
+.nav{position:sticky;top:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:14px 52px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.dk .nav{border-bottom:1px solid rgba(255,255,255,.1);background:rgba(9,9,15,.92)}
+.cr .nav{border-bottom:1px solid rgba(0,0,0,.1);background:rgba(245,240,232,.92)}
+.bl .nav{border-bottom:1px solid rgba(0,0,0,.1);background:rgba(234,244,251,.92)}
+.logo-pill img{height:42px;width:auto}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;transition:opacity .2s}
+.dk .nav-links a{color:rgba(255,255,255,.6)}
+.cr .nav-links a,.bl .nav-links a{color:rgba(0,0,0,.6)}
+.nav-links a:hover{opacity:1}
+.nav-login{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:7px 16px;border-radius:5px;background:linear-gradient(90deg,#00D4FF,#7B2FBF);color:#fff;transition:filter .2s}
+.nav-login:hover{filter:brightness(1.1)}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none}
+.ham span{display:block;width:22px;height:2px;border-radius:2px}
+.dk .ham span{background:rgba(255,255,255,.7)}
+.cr .ham span,.bl .ham span{background:rgba(0,0,0,.7)}
+.mob-menu{display:none;flex-direction:column;position:sticky;top:70px;z-index:199}
+.mob-menu.open{display:flex}
+.dk .mob-menu{background:rgba(9,9,15,.97);border-bottom:1px solid rgba(255,255,255,.1)}
+.cr .mob-menu,.bl .mob-menu{background:rgba(245,240,232,.97);border-bottom:1px solid rgba(0,0,0,.1)}
+.mob-menu a{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:500;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:16px 52px}
+.dk .mob-menu a{color:rgba(255,255,255,.75);border-bottom:1px solid rgba(255,255,255,.06)}
+.cr .mob-menu a,.bl .mob-menu a{color:rgba(0,0,0,.7);border-bottom:1px solid rgba(0,0,0,.06)}
+
+
+/* ============================================================
+   PAGE HERO — compact, two-line
+   ============================================================ */
+
+.book-hero{padding:64px 52px 48px;text-align:center}
+.dk .book-hero{background:linear-gradient(135deg,#09090f 0%,#0f0f22 60%,#09090f 100%)}
+.cr .book-hero{background:linear-gradient(135deg,#F5F0E8,#EDE5D5,#F5F0E8)}
+.bl .book-hero{background:linear-gradient(135deg,#EAF4FB,#D8EDF7,#EAF4FB)}
+.book-hero-inner{max-width:600px;margin:0 auto}
+.book-hero-eyebrow{margin-bottom:16px}
+.book-hero-h1{font-family:'Playfair Display',serif;font-size:44px;font-weight:900;line-height:1.1;margin-bottom:14px}
+.dk .book-hero-h1{color:#fff}
+.cr .book-hero-h1,.bl .book-hero-h1{color:#1a1a2e}
+.book-hero-sub{font-family:'Montserrat',sans-serif;font-size:14px;line-height:1.7}
+.dk .book-hero-sub{color:rgba(255,255,255,.6)}
+.cr .book-hero-sub,.bl .book-hero-sub{color:rgba(0,0,0,.6)}
+.back-link{display:inline-flex;align-items:center;gap:6px;font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;margin-bottom:20px;transition:opacity .2s}
+.dk .back-link{color:rgba(255,255,255,.45)}
+.cr .back-link,.bl .back-link{color:rgba(0,0,0,.45)}
+.back-link:hover{opacity:1}
+
+
+/* ============================================================
+   FORM SECTION — two-column: form left, summary right
+   ============================================================ */
+
+.book-section{display:grid;grid-template-columns:1fr 360px;gap:0;padding:0}
+
+/* Left: form */
+.book-form-col{padding:56px 52px}
+.dk .book-form-col{background:rgba(255,255,255,.02);border-top:1px solid rgba(255,255,255,.08)}
+.cr .book-form-col,.bl .book-form-col{background:rgba(0,0,0,.02);border-top:1px solid rgba(0,0,0,.08)}
+
+.form-group{margin-bottom:22px}
+.form-label{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:8px}
+.dk .form-label{color:rgba(255,255,255,.65)}
+.cr .form-label,.bl .form-label{color:rgba(0,0,0,.65)}
+
+/* All inputs, selects, textareas share these styles */
+.form-input,.form-select,.form-textarea{
+  width:100%;border-radius:6px;padding:12px 16px;
+  font-family:'Montserrat',sans-serif;font-size:13px;
+  outline:none;transition:border-color .2s
+}
+.dk .form-input,.dk .form-select,.dk .form-textarea{
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.15);
+  color:#fff
+}
+.cr .form-input,.cr .form-select,.cr .form-textarea,
+.bl .form-input,.bl .form-select,.bl .form-textarea{
+  background:rgba(0,0,0,.04);
+  border:1px solid rgba(0,0,0,.2);
+  color:#111
+}
+.dk .form-input:focus,.dk .form-select:focus,.dk .form-textarea:focus{border-color:#00D4FF}
+.cr .form-input:focus,.bl .form-input:focus,
+.cr .form-select:focus,.bl .form-select:focus,
+.cr .form-textarea:focus,.bl .form-textarea:focus{border-color:#00D4FF}
+
+/* Select arrow styling */
+.form-select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2300D4FF' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:40px;cursor:pointer}
+.dk .form-select option{background:#1a1a2e;color:#fff}
+.cr .form-select option,.bl .form-select option{background:#fff;color:#111}
+
+.form-textarea{height:120px;resize:vertical}
+
+/* Two-column field row */
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+
+/* Submit button */
+.form-submit{width:100%;padding:16px;font-size:13px;border-radius:6px;margin-top:8px}
+.form-note{font-family:'Montserrat',sans-serif;font-size:11px;font-style:italic;margin-top:14px;text-align:center;line-height:1.6}
+.dk .form-note{color:rgba(255,255,255,.35)}
+.cr .form-note,.bl .form-note{color:rgba(0,0,0,.35)}
+
+/* Success state — shown after form submit */
+.form-success{display:none;text-align:center;padding:40px 20px}
+.form-success.visible{display:block}
+.success-icon{font-size:48px;margin-bottom:16px}
+.success-h{font-family:'Playfair Display',serif;font-size:28px;font-weight:900;margin-bottom:12px}
+.dk .success-h{color:#fff}
+.cr .success-h,.bl .success-h{color:#1a1a2e}
+.success-p{font-family:'Montserrat',sans-serif;font-size:14px;line-height:1.7}
+.dk .success-p{color:rgba(255,255,255,.6)}
+.cr .success-p,.bl .success-p{color:rgba(0,0,0,.6)}
+
+/* Right: summary sidebar */
+.book-summary-col{padding:56px 40px;display:flex;flex-direction:column;gap:20px}
+.dk .book-summary-col{border-top:1px solid rgba(255,255,255,.08);border-left:1px solid rgba(255,255,255,.08);background:linear-gradient(135deg,#0f0f22,#1a1a3a)}
+.cr .book-summary-col{border-top:1px solid rgba(0,0,0,.08);border-left:1px solid rgba(0,0,0,.08);background:rgba(0,0,0,.04)}
+.bl .book-summary-col{border-top:1px solid rgba(0,0,0,.08);border-left:1px solid rgba(0,0,0,.08);background:rgba(0,100,200,.05)}
+
+.summary-eyebrow{margin-bottom:4px}
+.summary-h{font-family:'Playfair Display',serif;font-size:20px;font-weight:900;margin-bottom:16px}
+.dk .summary-h{color:#fff}
+.cr .summary-h,.bl .summary-h{color:#1a1a2e}
+
+/* Format summary cards */
+.summary-format{padding:16px;border-radius:8px;margin-bottom:12px}
+.dk .summary-format{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+.cr .summary-format,.bl .summary-format{background:rgba(0,0,0,.04);border:1px solid rgba(0,0,0,.08)}
+.sf-name{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;margin-bottom:4px;color:#00D4FF}
+.sf-desc{font-family:'Montserrat',sans-serif;font-size:11px;line-height:1.6}
+.dk .sf-desc{color:rgba(255,255,255,.55)}
+.cr .sf-desc,.bl .sf-desc{color:rgba(0,0,0,.55)}
+
+/* Policy note */
+.summary-policy{font-family:'Montserrat',sans-serif;font-size:11px;line-height:1.7;padding-top:16px}
+.dk .summary-policy{color:rgba(255,255,255,.4);border-top:1px solid rgba(255,255,255,.08)}
+.cr .summary-policy,.bl .summary-policy{color:rgba(0,0,0,.4);border-top:1px solid rgba(0,0,0,.08)}
+
+/* Direct email fallback */
+.direct-email{font-family:'Montserrat',sans-serif;font-size:11px;text-align:center;margin-top:6px}
+.dk .direct-email{color:rgba(255,255,255,.35)}
+.cr .direct-email,.bl .direct-email{color:rgba(0,0,0,.35)}
+.direct-email a{color:#00D4FF;text-decoration:none}
+.direct-email a:hover{text-decoration:underline}
+
+
+/* ============================================================
+   FOOTER — identical to index.html
+   ============================================================ */
+
+.footer{display:flex;align-items:center;justify-content:space-between;padding:18px 52px;flex-wrap:wrap;gap:12px}
+.dk .footer{border-top:1px solid rgba(255,255,255,.08)}
+.cr .footer,.bl .footer{border-top:1px solid rgba(0,0,0,.08)}
+.footer-copy{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500}
+.dk .footer-copy{color:rgba(255,255,255,.45)}
+.cr .footer-copy,.bl .footer-copy{color:rgba(0,0,0,.45)}
+.footer-social{display:flex;gap:14px;align-items:center}
+.footer-social a{display:flex;align-items:center;opacity:.7;transition:opacity .2s}
+.footer-social a:hover{opacity:1}
+.footer-social img{height:22px;width:22px;object-fit:contain}
+
+
+/* ============================================================
+   COG SETTINGS
+   ============================================================ */
+
+.cog-wrap{position:fixed;bottom:14px;left:14px;z-index:999}
+.cog-btn{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;transition:transform .5s}
+.cog-btn:hover{transform:rotate(70deg)}
+.dk .cog-btn{background:#1a1a2e;border:1px solid rgba(255,255,255,.18)}
+.cr .cog-btn,.bl .cog-btn{background:#fff;border:1px solid rgba(0,0,0,.18);box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.cog-panel{display:none;position:absolute;bottom:46px;left:0;border-radius:10px;padding:14px;min-width:180px}
+.dk .cog-panel{background:#1a1a2e;border:1px solid rgba(255,255,255,.15)}
+.cr .cog-panel,.bl .cog-panel{background:#fff;border:1px solid rgba(0,0,0,.14);box-shadow:0 4px 20px rgba(0,0,0,.12)}
+.cog-panel.open{display:block}
+.cp-label{font-family:'Montserrat',sans-serif;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;opacity:.45;margin-bottom:10px}
+.dk .cp-label{color:#fff}.cr .cp-label,.bl .cp-label{color:#111}
+.bg-opt{display:flex;align-items:center;gap:9px;padding:6px 7px;border-radius:6px;cursor:pointer}
+.bg-opt:hover{background:rgba(128,128,200,.1)}
+.bg-opt.active{background:rgba(0,212,255,.1)}
+.bg-opt.active .opt-lbl{color:#00D4FF!important}
+.swatch{width:20px;height:20px;border-radius:4px;border:1px solid rgba(128,128,200,.28);flex-shrink:0}
+.sw-dk{background:#09090f}.sw-cr{background:#F5F0E8;border-color:rgba(0,0,0,.2)}.sw-bl{background:#EAF4FB;border-color:rgba(0,0,80,.15)}
+.opt-lbl{font-family:'Montserrat',sans-serif;font-size:11px}
+.dk .opt-lbl{color:#ccc}.cr .opt-lbl,.bl .opt-lbl{color:#333}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media(max-width:768px){
+  .nav{padding:12px 24px}.nav-links{display:none}.ham{display:flex}
+  .mob-menu a{padding:14px 24px}
+  .book-hero{padding:44px 24px 36px}.book-hero-h1{font-size:32px}
+  .book-section{grid-template-columns:1fr}
+  .book-form-col{padding:36px 24px}
+  .book-summary-col{padding:36px 24px;border-left:none}
+  .dk .book-summary-col{border-top:1px solid rgba(255,255,255,.08)}
+  .cr .book-summary-col,.bl .book-summary-col{border-top:1px solid rgba(0,0,0,.08)}
+  .form-row{grid-template-columns:1fr}
+  .footer{flex-direction:column;text-align:center;padding:20px 24px}
+  .footer-social{flex-wrap:wrap;justify-content:center}
+}
+
+</style>
+</head>
+<body>
+<div class="lp dk" id="lp">
+
+
+<!-- NAV BAR -->
+<nav class="nav reveal">
+  <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys"></div>
+  <div class="nav-links">
+    <a href="../index.html">Home</a>
+    <a href="../index.html#pocket-series">Guides</a>
+    <a href="../index.html#newsletter">Newsletter</a>
+    <a href="../advertise.html" style="color:#00D4FF">Advertise</a>
+    <a href="../index.html#about">About</a>
+    <a href="https://gumroad.com" target="_blank" rel="noopener" class="nav-login">Login / Register</a>
+  </div>
+  <button class="ham" id="hamBtn" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</nav>
+<div class="mob-menu lp dk" id="mobMenu">
+  <a href="../index.html" onclick="toggleMenu()">Home</a>
+  <a href="../index.html#pocket-series" onclick="toggleMenu()">Guides</a>
+  <a href="../index.html#newsletter" onclick="toggleMenu()">Newsletter</a>
+  <a href="../advertise.html" onclick="toggleMenu()">Advertise</a>
+  <a href="../index.html#about" onclick="toggleMenu()">About</a>
+</div>
+
+
+<!-- PAGE HERO -->
+<section class="book-hero reveal">
+  <div class="book-hero-inner">
+    <a href="../advertise.html" class="back-link">← Back to Ad Partnerships</a>
+    <span class="eyebrow book-hero-eyebrow">Pocket Lens · Advertising Enquiry</span>
+    <h1 class="book-hero-h1">Let's work together.</h1>
+    <p class="book-hero-sub">Fill in the form below and we will respond within 48 hours with availability, format details, and rates. Every enquiry is reviewed personally — no automated responses.</p>
+  </div>
+</section>
+
+
+<!-- FORM + SUMMARY -->
+<div class="book-section reveal">
+
+  <!-- Left: enquiry form -->
+  <div class="book-form-col">
+
+    <!-- Form — submits to mailto as fallback; replace action with Cloudflare Worker URL when ready -->
+    <form id="enquiryForm" onsubmit="handleSubmit(event)">
+
+      <!-- Name and company -->
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="name">Your Name *</label>
+          <input class="form-input" type="text" id="name" name="name" placeholder="First and last name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="company">Company / Brand *</label>
+          <input class="form-input" type="text" id="company" name="company" placeholder="Your brand name" required>
+        </div>
+      </div>
+
+      <!-- Email and website -->
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address *</label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="you@yourbrand.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="website">Website</label>
+          <input class="form-input" type="url" id="website" name="website" placeholder="https://yourbrand.com">
+        </div>
+      </div>
+
+      <!-- Ad type and number of issues -->
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="adtype">Ad Placement *</label>
+          <select class="form-select" id="adtype" name="adtype" required>
+            <option value="" disabled selected>Select placement type</option>
+            <option value="primary">Primary Placement</option>
+            <option value="spotlight">Spotlight Placement</option>
+            <option value="gear">Gear Placement</option>
+            <option value="unsure">Not sure yet</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="issues">Number of Issues</label>
+          <select class="form-select" id="issues" name="issues">
+            <option value="" disabled selected>How many issues?</option>
+            <option value="1">1 issue</option>
+            <option value="2-3">2–3 issues</option>
+            <option value="4+">4+ issues (ask about discount)</option>
+            <option value="ongoing">Ongoing partnership</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Budget -->
+      <div class="form-group">
+        <label class="form-label" for="budget">Budget Range</label>
+        <select class="form-select" id="budget" name="budget">
+          <option value="" disabled selected>Approximate budget</option>
+          <option value="under500">Under $500</option>
+          <option value="500-1000">$500 – $1,000</option>
+          <option value="1000-2500">$1,000 – $2,500</option>
+          <option value="2500+">$2,500+</option>
+          <option value="open">Open to discussion</option>
+        </select>
+      </div>
+
+      <!-- Campaign goal -->
+      <div class="form-group">
+        <label class="form-label" for="goal">Campaign Goal *</label>
+        <textarea class="form-input form-textarea" id="goal" name="goal" placeholder="Tell us about your product or service and what you want to achieve. What is your target audience? What action do you want readers to take?" required></textarea>
+      </div>
+
+      <!-- Why Pocket Lens -->
+      <div class="form-group">
+        <label class="form-label" for="why">Why Pocket Lens?</label>
+        <textarea class="form-input form-textarea" id="why" name="why" placeholder="Why do you think your brand is a good fit for a smartphone photography audience? (Optional but helpful)"></textarea>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="btn-primary form-submit">Send Enquiry →</button>
+      <p class="form-note">We only accept advertisers whose products are genuinely relevant to a smartphone photography audience. We will confirm receipt within 24 hours and respond with availability and rates within 48 hours.</p>
+      <p class="direct-email">Prefer email? Write directly to <a href="mailto:advertise@xdatrys.com">advertise@xdatrys.com</a></p>
+
+    </form>
+
+    <!-- Success message — shown after form submit -->
+    <div class="form-success" id="formSuccess">
+      <div class="success-icon">✓</div>
+      <h2 class="success-h">Enquiry received.</h2>
+      <p class="success-p">Thank you for getting in touch. We will review your enquiry and respond within 48 hours at the email address you provided.<br><br>In the meantime, you are welcome to explore the Pocket Lens newsletter or the Xdatrys guide series.</p>
+      <br>
+      <a href="../index.html" class="btn-primary" style="margin-top:16px">Back to Xdatrys →</a>
+    </div>
+
+  </div>
+
+  <!-- Right: summary sidebar -->
+  <div class="book-summary-col">
+
+    <div>
+      <span class="eyebrow summary-eyebrow">Ad Formats</span>
+      <h2 class="summary-h">What's available.</h2>
+
+      <div class="summary-format">
+        <div class="sf-name">Primary Placement</div>
+        <div class="sf-desc">Near the top of the issue. Up to 500 characters, 1 image, 1 CTA. Highest visibility. 1 spot per issue.</div>
+      </div>
+
+      <div class="summary-format">
+        <div class="sf-name">Spotlight Placement</div>
+        <div class="sf-desc">Mid-issue alongside editorial content. Up to 300 characters, 1 image, 1 CTA. High engagement. 1 spot per issue.</div>
+      </div>
+
+      <div class="summary-format">
+        <div class="sf-name">Gear Placement</div>
+        <div class="sf-desc">Within the Gear Finder section. Up to 200 characters, product image, direct buy link. Purchase-intent readers. 1 spot per issue.</div>
+      </div>
+    </div>
+
+    <div class="summary-policy">
+      <strong style="color:#00D4FF;font-size:11px;font-family:'Montserrat',sans-serif;text-transform:uppercase;letter-spacing:.5px">Editorial Policy</strong><br><br>
+      Pocket Lens maintains a clear separation between editorial and commercial content. All sponsored placements are clearly labelled. We do not write sponsored editorial copy — advertisers supply their own creative. We reserve the right to decline any campaign that conflicts with the editorial values of Pocket Lens or that we believe would not serve our readers well.
+    </div>
+
+    <div class="summary-policy" style="margin-top:0">
+      <strong style="color:#00D4FF;font-size:11px;font-family:'Montserrat',sans-serif;text-transform:uppercase;letter-spacing:.5px">The Audience</strong><br><br>
+      4.05 billion people worldwide photograph with their smartphones. 1.95 billion photograph travel and landmarks. Pocket Lens is built for the engaged, travel-active segment of this market — the people who want to get the shot right, not just take a photo.
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- FOOTER -->
+<footer class="footer reveal">
+  <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys" style="height:26px"></div>
+  <div class="footer-copy">© 2026 Xdatrys LLC. All rights reserved.</div>
+  <div class="footer-social">
+    <a href="https://www.facebook.com/profile.php?id=61568000070429&sk=photos" target="_blank" rel="noopener" aria-label="Facebook"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Facebook.png" alt="Facebook"></a>
+    <a href="https://www.instagram.com/xdatrys/" target="_blank" rel="noopener" aria-label="Instagram"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Instagram.png" alt="Instagram"></a>
+    <a href="https://www.tiktok.com/@xdatrys?lang=en" target="_blank" rel="noopener" aria-label="TikTok"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/TikTok.png" alt="TikTok"></a>
+    <a href="https://www.pinterest.com/xdatrys/" target="_blank" rel="noopener" aria-label="Pinterest"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Pinterest.png" alt="Pinterest"></a>
+    <a href="https://x.com/xdatrys" target="_blank" rel="noopener" aria-label="X"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/X.png" alt="X"></a>
+    <a href="https://www.youtube.com/@Xdatrys" target="_blank" rel="noopener" aria-label="YouTube"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/YouTube.png" alt="YouTube"></a>
+  </div>
+</footer>
+
+</div><!-- end .lp -->
+
+
+<!-- COG SETTINGS -->
+<div class="cog-wrap dk" id="cogWrap">
+  <button class="cog-btn" id="cogBtn" onclick="toggleCog()" aria-label="Theme settings">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+  </button>
+  <div class="cog-panel dk" id="cogPanel">
+    <div class="cp-label">Background</div>
+    <div class="bg-opt active" id="opt-dk" onclick="setBg('dk')"><div class="swatch sw-dk"></div><span class="opt-lbl">Black</span></div>
+    <div class="bg-opt" id="opt-cr" onclick="setBg('cr')"><div class="swatch sw-cr"></div><span class="opt-lbl">Cream</span></div>
+    <div class="bg-opt" id="opt-bl" onclick="setBg('bl')"><div class="swatch sw-bl"></div><span class="opt-lbl">Pale Blue</span></div>
+  </div>
+</div>
+
+<script>
+// Scroll reveal
+(function(){var els=document.querySelectorAll('.reveal');var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.classList.add('visible')});},{threshold:.08});els.forEach(function(el){obs.observe(el)});})();
+
+// Mobile menu
+function toggleMenu(){document.getElementById('mobMenu').classList.toggle('open');}
+
+// Pre-select ad type from URL parameter (?type=primary etc.)
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var t=params.get('type');
+  if(t){var sel=document.getElementById('adtype');if(sel){for(var i=0;i<sel.options.length;i++){if(sel.options[i].value===t){sel.selectedIndex=i;break;}}}}
+})();
+
+// Form submission — shows success state
+// Replace this with a Cloudflare Worker POST endpoint when ready
+function handleSubmit(e){
+  e.preventDefault();
+  var form=document.getElementById('enquiryForm');
+  var success=document.getElementById('formSuccess');
+  // Build mailto fallback
+  var name=document.getElementById('name').value;
+  var company=document.getElementById('company').value;
+  var email=document.getElementById('email').value;
+  var adtype=document.getElementById('adtype').value;
+  var goal=document.getElementById('goal').value;
+  var subject=encodeURIComponent('Pocket Lens Ad Enquiry — '+company);
+  var body=encodeURIComponent('Name: '+name+'\nCompany: '+company+'\nEmail: '+email+'\nAd type: '+adtype+'\n\nCampaign goal:\n'+goal);
+  // Open mailto
+  window.location.href='mailto:advertise@xdatrys.com?subject='+subject+'&body='+body;
+  // Show success state after brief delay
+  setTimeout(function(){
+    form.style.display='none';
+    success.classList.add('visible');
+    window.scrollTo({top:0,behavior:'smooth'});
+  },600);
+}
+
+// Cog / theme
+function toggleCog(){document.getElementById('cogPanel').classList.toggle('open');}
+document.addEventListener('click',function(e){var p=document.getElementById('cogPanel'),b=document.getElementById('cogBtn');if(!b.contains(e.target)&&!p.contains(e.target))p.classList.remove('open');});
+function setBg(t){var lp=document.getElementById('lp'),cw=document.getElementById('cogWrap'),cp=document.getElementById('cogPanel'),mm=document.getElementById('mobMenu'),open=cp.classList.contains('open');lp.className='lp '+t;cw.className='cog-wrap '+t;cp.className='cog-panel '+t+(open?' open':'');mm.className='mob-menu lp '+t+(mm.classList.contains('open')?' open':'');['dk','cr','bl'].forEach(function(x){document.getElementById('opt-'+x).classList.remove('active')});document.getElementById('opt-'+t).classList.add('active');}
+</script>
+</body>
+</html>
