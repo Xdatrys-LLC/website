@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You — Pocket Lens by Xdatrys</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--cyan:#00D4FF;--mag:#E100FF;--purple:#7B2FBF;--dark:#09090F;--dark2:#0f0f22;--white:#fff;--dim:rgba(255,255,255,.6);--dimmer:rgba(255,255,255,.35);--border:rgba(255,255,255,.1);--grad:linear-gradient(90deg,#00D4FF,#7B2FBF)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:'Montserrat',sans-serif;background:var(--dark);color:var(--white);-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;min-height:100vh}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:14px 48px;background:rgba(9,9,15,.92);border-bottom:1px solid var(--border);backdrop-filter:blur(12px)}
+.nav-logo img{height:32px;width:auto;display:block}
+.nav-link{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--cyan);text-decoration:none;transition:opacity .2s}
+.nav-link:hover{opacity:.7}
+
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:100px 24px 60px}
+
+.card{max-width:520px;width:100%;text-align:center}
+
+.icon{font-size:4rem;margin-bottom:28px;display:block;line-height:1}
+
+.eyebrow{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--cyan);display:block;margin-bottom:16px}
+
+h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,5vw,2.6rem);font-weight:900;line-height:1.2;color:var(--white);margin-bottom:20px}
+
+h1 span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+
+.message{font-family:'Montserrat',sans-serif;font-size:1rem;line-height:1.85;color:var(--dim);margin-bottom:36px}
+
+.divider{width:48px;height:2px;background:var(--grad);border-radius:2px;margin:0 auto 36px}
+
+.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--grad);color:var(--white);padding:13px 28px;border-radius:6px;text-decoration:none;font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:700;letter-spacing:.8px;text-transform:uppercase;transition:filter .2s}
+.btn-primary:hover{filter:brightness(1.1)}
+
+.btn-secondary{display:inline-flex;align-items:center;gap:8px;background:transparent;border:1px solid rgba(0,212,255,.3);color:var(--cyan);padding:11px 24px;border-radius:6px;text-decoration:none;font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:600;letter-spacing:.5px;transition:all .2s;margin-left:12px}
+.btn-secondary:hover{background:rgba(0,212,255,.08)}
+
+.btns{display:flex;gap:0;flex-wrap:wrap;justify-content:center;gap:12px}
+
+footer{background:rgba(255,255,255,.02);border-top:1px solid var(--border);text-align:center;padding:24px;font-family:'Montserrat',sans-serif;font-size:.78rem;color:var(--dimmer)}
+footer a{color:var(--cyan);text-decoration:none}
+footer a:hover{color:var(--mag)}
+
+/* Response-specific accent colours */
+.accent-loved{color:var(--cyan)}
+.accent-good{color:#7B2FBF}
+.accent-notforme{color:var(--mag)}
+
+@media(max-width:480px){nav{padding:14px 20px}main{padding:90px 20px 40px}.btn-secondary{margin-left:0}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">
+    <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys">
+  </a>
+  <a href="https://pocketlens.beehiiv.com" class="nav-link">Pocket Lens →</a>
+</nav>
+
+<main>
+  <div class="card" id="responseCard">
+    <!-- Populated by JavaScript -->
+  </div>
+</main>
+
+<footer>
+  <p>© 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="https://pocketlens.beehiiv.com/subscribe">Subscribe to Pocket Lens</a></p>
+</footer>
+
+<script>
+const responses = {
+  loved: {
+    icon: '📱',
+    eyebrow: 'Feedback received',
+    headline: 'Glad it <span>hit the mark.</span>',
+    message: "Thank you. Knowing today's issue landed well is exactly the signal we need. We'll be back in your inbox tomorrow with something just as good.",
+    accent: 'accent-loved'
+  },
+  good: {
+    icon: '👍',
+    eyebrow: 'Feedback received',
+    headline: 'Good to <span>hear from you.</span>',
+    message: "Thank you for the feedback. We'll keep working to make every issue worth your time. There's always something to improve, and your click helps us understand where we stand.",
+    accent: 'accent-good'
+  },
+  notforme: {
+    icon: '👎',
+    eyebrow: 'Feedback received',
+    headline: 'Thank you for <span>being honest.</span>',
+    message: "That matters more than a polite non-response. Your feedback helps us improve. We'll keep working to earn your attention, and we hope tomorrow's issue is more your thing.",
+    accent: 'accent-notforme'
+  }
+};
+
+function getParam(name) {
+  const url = new URLSearchParams(window.location.search);
+  return url.get(name);
+}
+
+function render() {
+  const r = getParam('r') || 'loved';
+  const data = responses[r] || responses.loved;
+  const card = document.getElementById('responseCard');
+
+  card.innerHTML = `
+    <span class="icon">${data.icon}</span>
+    <span class="eyebrow">${data.eyebrow}</span>
+    <h1>${data.headline}</h1>
+    <div class="divider"></div>
+    <p class="message">${data.message}</p>
+    <div class="btns">
+      <a href="https://pocketlens.beehiiv.com" class="btn-primary">Read Pocket Lens →</a>
+      <a href="https://pocketlens.beehiiv.com/subscribe" class="btn-secondary">Subscribe free</a>
+    </div>
+  `;
+
+  document.title = 'Thank You — Pocket Lens by Xdatrys';
+}
+
+render();
+</script>
+</body>
+</html>
