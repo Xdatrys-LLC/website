@@ -184,6 +184,10 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
   background: rgba(0, 0, 0, 0.1);
 }
 
+.mob-submenu{display:none;flex-direction:column}
+.mob-submenu.mob-sub-open{display:flex}
+.mob-menu .mob-submenu a{padding:10px 24px 10px 68px;font-size:11px}
+
 /* MOBILE — inline expansion within hamburger menu */
 @media (max-width: 768px) {
   .nav-dropdown {
@@ -396,6 +400,12 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .cr .series-arrow,.bl .series-arrow{background:rgba(0,0,0,.1);color:#333}
 .series-arrow:hover{opacity:.8}
 .series-arrow svg{width:16px;height:16px}
+
+@media(max-width:768px){
+  .series-carousel-track > a{min-width:calc((100% - 28px) / 2.5);flex-shrink:0}
+  .series-carousel-track > a > .guide-card{min-width:100%}
+  .guide-cover img{object-fit:cover;object-position:center}
+}
 
 /* ============================================================
    SECTION 6  -  TESTIMONIAL
@@ -1183,23 +1193,18 @@ function setBg(t){
 }
 
 
-// JS6  -  Nav dropdown toggle
+// JS6  -  Nav dropdown toggle (desktop) + mobile hamburger submenus
 (function() {
-  var triggers = document.querySelectorAll('.nav-dropdown-trigger');
-
-  triggers.forEach(function(trigger) {
+  // ── DESKTOP: toggle .nav-dropdown-menu in .nav-links ──
+  document.querySelectorAll('.nav-dropdown-trigger').forEach(function(trigger) {
     trigger.addEventListener('click', function(e) {
       e.stopPropagation();
       var menu = trigger.nextElementSibling;
       var isOpen = menu.classList.contains('is-open');
-
-      // Close all open dropdowns first
       document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
         m.classList.remove('is-open');
         m.previousElementSibling.setAttribute('aria-expanded', 'false');
       });
-
-      // Toggle clicked dropdown
       if (!isOpen) {
         menu.classList.add('is-open');
         trigger.setAttribute('aria-expanded', 'true');
@@ -1207,7 +1212,6 @@ function setBg(t){
     });
   });
 
-  // Close dropdowns when clicking outside
   document.addEventListener('click', function() {
     document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
       m.classList.remove('is-open');
@@ -1215,7 +1219,6 @@ function setBg(t){
     });
   });
 
-  // Close dropdowns when a menu link is clicked
   document.querySelectorAll('.nav-dropdown-menu a').forEach(function(link) {
     link.addEventListener('click', function() {
       document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
@@ -1224,6 +1227,63 @@ function setBg(t){
       });
     });
   });
+
+  // ── MOBILE: inject inline submenus into hamburger mob-menu ──
+  var mobMenu = document.getElementById('mobMenu');
+  if (!mobMenu) return;
+
+  function makeMobSub(items) {
+    var sub = document.createElement('div');
+    sub.className = 'mob-submenu';
+    items.forEach(function(item) {
+      var a = document.createElement('a');
+      a.href = item.href;
+      a.textContent = item.text;
+      if (item.href.indexOf('http') === 0) { a.target = '_blank'; a.rel = 'noopener'; }
+      if (item.browse) { a.className = 'nav-dropdown-browse'; }
+      a.addEventListener('click', function() { toggleMenu(); });
+      sub.appendChild(a);
+    });
+    return sub;
+  }
+
+  var guideSub, albumSub;
+  var mobGuides = mobMenu.querySelector('a[href="#pocket-series"]');
+  var mobAlbums = mobMenu.querySelector('a[href="#albums"]');
+
+  if (mobGuides) {
+    guideSub = makeMobSub([
+      {href:'https://xdatrys.gumroad.com/l/Pocket_French_Polynesia', text:'Pocket Scout: French Polynesia'},
+      {href:'https://xdatrys.gumroad.com/l/Pocet_Scout_Dresden', text:'Pocket Scout: Dresden'},
+      {href:'https://xdatrys.gumroad.com/l/Pocket_Caribbean_Puerto_Rico_Virgin_Islands', text:'Pocket Scout: Caribbean'},
+      {href:'#scout-guides', text:'Browse all guides ↓', browse:true}
+    ]);
+    mobGuides.parentNode.insertBefore(guideSub, mobGuides.nextSibling);
+    mobGuides.onclick = null;
+    mobGuides.addEventListener('click', function(e) {
+      e.preventDefault();
+      var isOpen = guideSub.classList.contains('mob-sub-open');
+      if (albumSub) { albumSub.classList.remove('mob-sub-open'); }
+      guideSub.classList.toggle('mob-sub-open', !isOpen);
+    });
+  }
+
+  if (mobAlbums) {
+    albumSub = makeMobSub([
+      {href:'https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia', text:'Pocket Eye: French Polynesia'},
+      {href:'https://xdatrys.gumroad.com/l/Pocket_Eye_Dresden', text:'Pocket Eye: Dresden'},
+      {href:'https://xdatrys.gumroad.com/l/pocket_eye_caribbean_puerto_rico_virgin_islands', text:'Pocket Eye: Caribbean'},
+      {href:'#eye-albums', text:'Browse all albums ↓', browse:true}
+    ]);
+    mobAlbums.parentNode.insertBefore(albumSub, mobAlbums.nextSibling);
+    mobAlbums.onclick = null;
+    mobAlbums.addEventListener('click', function(e) {
+      e.preventDefault();
+      var isOpen = albumSub.classList.contains('mob-sub-open');
+      if (guideSub) { guideSub.classList.remove('mob-sub-open'); }
+      albumSub.classList.toggle('mob-sub-open', !isOpen);
+    });
+  }
 })();
 </script>
 </body>
