@@ -66,6 +66,162 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .dk .mob-menu a{color:rgba(255,255,255,.75);border-bottom:1px solid rgba(255,255,255,.06)}
 .cr .mob-menu a,.bl .mob-menu a{color:rgba(0,0,0,.7);border-bottom:1px solid rgba(0,0,0,.06)}
 
+/* NAV DROPDOWN */
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-dropdown-trigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  transition: color 0.2s;
+}
+
+.nav-dropdown-trigger:hover,
+.nav-dropdown-trigger[aria-expanded="true"] {
+  color: #00D4FF;
+}
+
+.dropdown-chevron {
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.nav-dropdown-trigger[aria-expanded="true"] .dropdown-chevron {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #09090F;
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 8px;
+  padding: 8px 0;
+  min-width: 240px;
+  list-style: none;
+  margin: 0;
+  z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.nav-dropdown-menu.is-open {
+  display: block;
+}
+
+.nav-dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s, background 0.15s;
+}
+
+.nav-dropdown-menu li a:hover {
+  color: #00D4FF;
+  background: rgba(0, 212, 255, 0.06);
+}
+
+.nav-dropdown-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 6px 0;
+}
+
+.nav-dropdown-browse {
+  color: #00D4FF !important;
+  font-size: 0.8rem !important;
+}
+
+/* CREAM THEME OVERRIDES */
+.cr .nav-dropdown-menu {
+  background: #F5F0E8;
+  border-color: rgba(0, 212, 255, 0.3);
+}
+.cr .nav-dropdown-menu li a {
+  color: #09090F;
+}
+.cr .nav-dropdown-menu li a:hover {
+  background: rgba(0, 212, 255, 0.1);
+  color: #09090F;
+}
+.cr .nav-dropdown-divider {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* PALE BLUE THEME OVERRIDES */
+.bl .nav-dropdown-menu {
+  background: #EAF4FB;
+  border-color: rgba(0, 212, 255, 0.3);
+}
+.bl .nav-dropdown-menu li a {
+  color: #09090F;
+}
+.bl .nav-dropdown-menu li a:hover {
+  background: rgba(0, 212, 255, 0.1);
+  color: #09090F;
+}
+.bl .nav-dropdown-divider {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* MOBILE — inline expansion within hamburger menu */
+@media (max-width: 768px) {
+  .nav-dropdown {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-dropdown-trigger {
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px 0;
+    font-size: 1rem;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    transform: none;
+    left: auto;
+    box-shadow: none;
+    border: none;
+    border-left: 2px solid rgba(0, 212, 255, 0.3);
+    border-radius: 0;
+    background: transparent;
+    padding: 4px 0 4px 16px;
+    min-width: unset;
+    width: 100%;
+  }
+
+  .nav-dropdown-menu li a {
+    padding: 8px 0;
+    font-size: 0.9rem;
+  }
+
+  .nav-dropdown-divider {
+    margin: 4px 0;
+  }
+}
+
 /* ============================================================
    SECTION 2  -  HERO: HEADLINE, CTA, PHONE FRAME CAROUSEL
    CSS: two-column grid, headline, taglines, CTAs, phone frame
@@ -452,8 +608,36 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 <nav class="nav reveal">
   <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys"></div>
   <div class="nav-links">
-    <a href="#pocket-series">Guides</a>
-    <a href="#albums">Albums</a>
+    <div class="nav-dropdown">
+      <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+        Guides
+        <svg class="dropdown-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <ul class="nav-dropdown-menu" role="menu">
+        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia">Pocket Scout: French Polynesia</a></li>
+        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocet_Scout_Dresden">Pocket Scout: Dresden</a></li>
+        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_Caribbean_Puerto_Rico_Virgin_Islands">Pocket Scout: Caribbean</a></li>
+        <li class="nav-dropdown-divider" role="separator"></li>
+        <li role="menuitem"><a href="#scout-guides" class="nav-dropdown-browse">Browse all guides &darr;</a></li>
+      </ul>
+    </div>
+    <div class="nav-dropdown">
+      <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+        Albums
+        <svg class="dropdown-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <ul class="nav-dropdown-menu" role="menu">
+        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia">Pocket Eye: French Polynesia</a></li>
+        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_Eye_Dresden">Pocket Eye: Dresden</a></li>
+        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/pocket_eye_caribbean_puerto_rico_virgin_islands">Pocket Eye: Caribbean</a></li>
+        <li class="nav-dropdown-divider" role="separator"></li>
+        <li role="menuitem"><a href="#eye-albums" class="nav-dropdown-browse">Browse all albums &darr;</a></li>
+      </ul>
+    </div>
     <a href="https://pocketlens.beehiiv.com/subscribe" target="_blank" rel="noopener">Newsletter</a>
     <a href="#about">About</a>
     <a href="https://xdatrys.gumroad.com" target="_blank" rel="noopener" class="nav-login">Shop Guides</a>
@@ -606,7 +790,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
     <div class="series-carousel-viewport" id="seriesViewport">
       <div class="series-carousel-track" id="seriesTrack">
         <!-- Card 1: French Polynesia Scout - Available -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia" target="_blank" rel="noopener" style="text-decoration:none">
+        <a href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia" target="_blank" rel="noopener" style="text-decoration:none" id="scout-guides">
           <div class="guide-card">
             <div class="guide-cover">
               <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutFrenchPolynesiaCover.png" alt="French Polynesia">
@@ -695,7 +879,7 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
         </div>
 
         <!-- Card 10: French Polynesia Eye - Available -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia" target="_blank" rel="noopener" style="text-decoration:none" id="albums">
+        <a href="https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia" target="_blank" rel="noopener" style="text-decoration:none" id="eye-albums">
           <div class="guide-card">
             <div class="guide-cover">
               <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/PocketEyeFrenchPolynesiaCover.png" alt="French Polynesia">
@@ -997,6 +1181,50 @@ function setBg(t){
   ['dk','cr','bl'].forEach(function(x){document.getElementById('opt-'+x).classList.remove('active')});
   document.getElementById('opt-'+t).classList.add('active');
 }
+
+
+// JS6  -  Nav dropdown toggle
+(function() {
+  var triggers = document.querySelectorAll('.nav-dropdown-trigger');
+
+  triggers.forEach(function(trigger) {
+    trigger.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var menu = trigger.nextElementSibling;
+      var isOpen = menu.classList.contains('is-open');
+
+      // Close all open dropdowns first
+      document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
+        m.classList.remove('is-open');
+        m.previousElementSibling.setAttribute('aria-expanded', 'false');
+      });
+
+      // Toggle clicked dropdown
+      if (!isOpen) {
+        menu.classList.add('is-open');
+        trigger.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener('click', function() {
+    document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
+      m.classList.remove('is-open');
+      m.previousElementSibling.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Close dropdowns when a menu link is clicked
+  document.querySelectorAll('.nav-dropdown-menu a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
+        m.classList.remove('is-open');
+        m.previousElementSibling.setAttribute('aria-expanded', 'false');
+      });
+    });
+  });
+})();
 </script>
 </body>
 </html>
