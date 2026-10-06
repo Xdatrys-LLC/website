@@ -22,5 +22,29 @@
         "tip": "Step back to the square's edge for one wide shot of the church."
       }
     ]
+  },
+  {
+    "slug": "bulguksa",
+    "place": "Bulguksa",
+    "summary": "Three places to stand at Bulguksa Temple in Gyeongju, from the entrance gate to the terrace under the trees.",
+    "guide": "",
+    "date": "2026-10-06",
+    "image": "/assets/maps/bulguksa/map.png",
+    "pdf": "/maps/files/bulguksa/Xdatrys_Shot_Map_Bulguksa.pdf",
+    "alt": "Map of Bulguksa with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Find a tree branch and let it frame the hall."
+      },
+      {
+        "n": 2,
+        "tip": "Stand at the foot of the stairs. Railings lead the eye up."
+      },
+      {
+        "n": 3,
+        "tip": "Include the signboard and wait for the crowd to pass."
+      }
+    ]
   }
 ]
