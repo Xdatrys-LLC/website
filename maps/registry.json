@@ -46,5 +46,21 @@
         "tip": "Include the signboard and wait for the crowd to pass."
       }
     ]
+  },
+  {
+    "slug": "bora-bora",
+    "place": "Bora Bora",
+    "summary": "Where to stand on Motu Tapu in Bora Bora for the sunset crowd shot, and a taste of the full Pocket Scout guide.",
+    "guide": "French Polynesia",
+    "date": "2026-10-06",
+    "image": "/assets/maps/bora-bora/map.png",
+    "pdf": "/maps/files/bora-bora/Xdatrys_Shot_Map_Bora_Bora.pdf",
+    "alt": "Map of Bora Bora with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Stand 100 ft back from the water. Shoot the others from behind."
+      }
+    ]
   }
 ]
