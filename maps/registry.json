@@ -62,5 +62,21 @@
         "tip": "Come back by day. Find a new angle on the sign."
       }
     ]
+  },
+  {
+    "slug": "osaka-castle",
+    "place": "Osaka Castle",
+    "summary": "One place to stand for the main keep of Osaka Castle, away from the crowd.",
+    "guide": "",
+    "date": "2026-10-12",
+    "image": "/assets/maps/osaka-castle/map.png",
+    "pdf": "/maps/files/osaka-castle/Xdatrys_Shot_Map_Osaka_Castle.pdf",
+    "alt": "Map of Osaka Castle with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Crouch low. Let a bush hide the crowd."
+      }
+    ]
   }
 ]
