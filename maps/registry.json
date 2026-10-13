@@ -21,7 +21,9 @@
         "n": 3,
         "tip": "Step back to the square's edge for one wide shot of the church."
       }
-    ]
+    ],
+    "country": "Germany",
+    "city": "Dresden"
   },
   {
     "slug": "bulguksa",
@@ -45,7 +47,9 @@
         "n": 3,
         "tip": "Include the signboard and wait for the crowd to pass."
       }
-    ]
+    ],
+    "country": "South Korea",
+    "city": "Gyeongju"
   },
   {
     "slug": "glico",
@@ -61,7 +65,9 @@
         "n": 1,
         "tip": "Come back by day. Find a new angle on the sign."
       }
-    ]
+    ],
+    "country": "Japan",
+    "city": "Osaka"
   },
   {
     "slug": "osaka-castle",
@@ -77,6 +83,8 @@
         "n": 1,
         "tip": "Crouch low. Let a bush hide the crowd."
       }
-    ]
+    ],
+    "country": "Japan",
+    "city": "Osaka"
   }
 ]
