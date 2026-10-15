@@ -104,5 +104,23 @@
     ],
     "country": "Japan",
     "city": "Osaka"
+  },
+  {
+    "slug": "mayreau-beach",
+    "place": "Mayreau Beach",
+    "summary": "Stand under the tree on Mayreau Beach and frame the sea and the anchored ship through the leaves.",
+    "guide": "",
+    "date": "2026-10-14",
+    "image": "/assets/maps/mayreau-beach/map.png",
+    "pdf": "/maps/files/mayreau-beach/Xdatrys_Shot_Map_Mayreau_Beach.pdf",
+    "alt": "Map of Mayreau Beach with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Frame the tree arch around the sea and ship."
+      }
+    ],
+    "country": "Saint Vincent and the Grenadines",
+    "city": "Mayreau"
   }
 ]
