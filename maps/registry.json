@@ -122,5 +122,23 @@
     ],
     "country": "Saint Vincent and the Grenadines",
     "city": "Mayreau"
+  },
+  {
+    "slug": "fushimi-inari",
+    "place": "Fushimi Inari Taisha",
+    "summary": "Where to stand at Fushimi Inari Taisha in Kyoto to frame the main gate without the crowd.",
+    "guide": "",
+    "date": "2026-10-15",
+    "image": "/assets/maps/fushimi-inari/map.png",
+    "pdf": "/maps/files/fushimi-inari/Xdatrys_Shot_Map_Fushimi_Inari_Taisha.pdf",
+    "alt": "Map of Fushimi Inari Taisha with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Step right of the torii. Frame the gate."
+      }
+    ],
+    "country": "Japan",
+    "city": "Kyoto"
   }
 ]
