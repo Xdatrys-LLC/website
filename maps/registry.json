@@ -140,5 +140,23 @@
     ],
     "country": "Japan",
     "city": "Kyoto"
+  },
+  {
+    "slug": "lindisfarne",
+    "place": "Lindisfarne",
+    "summary": "Where to stand on Holy Island to photograph the priory and the bay.",
+    "guide": "",
+    "date": "2026-10-15",
+    "image": "/assets/maps/lindisfarne/map.png",
+    "pdf": "/maps/files/lindisfarne/Xdatrys_Shot_Map_Lindisfarne.pdf",
+    "alt": "Map of Lindisfarne with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Face the bay. Keep the priory in frame."
+      }
+    ],
+    "country": "United Kingdom",
+    "city": "Holy Island"
   }
 ]
