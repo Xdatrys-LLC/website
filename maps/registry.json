@@ -176,5 +176,23 @@
     ],
     "country": "England",
     "city": "Holy Island"
+  },
+  {
+    "slug": "nagasaki-peace-statue",
+    "place": "Nagasaki Peace Statue",
+    "summary": "Where to stand in Nagasaki Peace Park to frame the Peace Statue with a branch.",
+    "guide": "",
+    "date": "2026-10-17",
+    "image": "/assets/maps/nagasaki-peace-statue/map.png",
+    "pdf": "/maps/files/nagasaki-peace-statue/Xdatrys_Shot_Map_Nagasaki_Peace_Statue.pdf",
+    "alt": "Map of Nagasaki Peace Statue with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Step aside. Frame it with a branch."
+      }
+    ],
+    "country": "Japan",
+    "city": "Nagasaki"
   }
 ]
