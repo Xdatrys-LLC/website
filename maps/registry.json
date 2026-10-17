@@ -158,5 +158,23 @@
     ],
     "country": "United Kingdom",
     "city": "Holy Island"
+  },
+  {
+    "slug": "lindisfarne-harbour",
+    "place": "Lindisfarne Harbour",
+    "summary": "One place to stand at Lindisfarne Harbour to photograph Lindisfarne Castle across the water.",
+    "guide": "",
+    "date": "2026-10-16",
+    "image": "/assets/maps/lindisfarne-harbour/map.png",
+    "pdf": "/maps/files/lindisfarne-harbour/Xdatrys_Shot_Map_Lindisfarne_Harbour.pdf",
+    "alt": "Map of Lindisfarne Harbour with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Shoot it from the harbour."
+      }
+    ],
+    "country": "United Kingdom",
+    "city": "Holy Island"
   }
 ]
