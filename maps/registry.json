@@ -230,5 +230,23 @@
     ],
     "country": "Estonia",
     "city": "Tallinn"
+  },
+  {
+    "slug": "columbus-circle",
+    "place": "Columbus Circle",
+    "summary": "Where to stand at Columbus Circle in New York, and the one setting that freezes a moving cyclist.",
+    "guide": "",
+    "date": "2026-10-19",
+    "image": "/assets/maps/columbus-circle/map.png",
+    "pdf": "/maps/files/columbus-circle/Xdatrys_Shot_Map_Columbus_Circle.pdf",
+    "alt": "Map of Columbus Circle with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Freeze this moment."
+      }
+    ],
+    "country": "United States",
+    "city": "New York"
   }
 ]
