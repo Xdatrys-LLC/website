@@ -194,5 +194,23 @@
     ],
     "country": "Japan",
     "city": "Nagasaki"
+  },
+  {
+    "slug": "shibuya-scramble-crossing",
+    "place": "Shibuya Scramble Crossing",
+    "summary": "Where to stand at Shibuya Scramble Crossing, Tokyo, and the one setting that turns the crowd into motion.",
+    "guide": "",
+    "date": "2026-10-18",
+    "image": "/assets/maps/shibuya-scramble-crossing/map.png",
+    "pdf": "/maps/files/shibuya-scramble-crossing/Xdatrys_Shot_Map_Shibuya_Scramble_Crossing.pdf",
+    "alt": "Map of Shibuya Scramble Crossing with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Use long exposure."
+      }
+    ],
+    "country": "Japan",
+    "city": "Tokyo"
   }
 ]
