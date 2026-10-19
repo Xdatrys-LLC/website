@@ -212,5 +212,23 @@
     ],
     "country": "Japan",
     "city": "Tokyo"
+  },
+  {
+    "slug": "kadriorg-palace",
+    "place": "Kadriorg Palace",
+    "summary": "Where to stand at Kadriorg Palace in Tallinn, and the one framing trick that adds depth.",
+    "guide": "",
+    "date": "2026-10-18",
+    "image": "/assets/maps/kadriorg-palace/map.png",
+    "pdf": "/maps/files/kadriorg-palace/Xdatrys_Shot_Map_Kadriorg_Palace.pdf",
+    "alt": "Map of Kadriorg Palace with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Shoot through the gates."
+      }
+    ],
+    "country": "Estonia",
+    "city": "Tallinn"
   }
 ]
