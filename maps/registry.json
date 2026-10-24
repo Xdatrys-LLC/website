@@ -518,5 +518,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "little-mermaid-copenhagen",
+    "place": "The Little Mermaid, Copenhagen",
+    "summary": "Where to stand on Langelinie in Copenhagen to photograph the Little Mermaid without the tourist shot.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/little-mermaid-copenhagen/map.png",
+    "pdf": "/maps/files/little-mermaid-copenhagen/Xdatrys_Shot_Map_The_Little_Mermaid,_Copenhagen.pdf",
+    "alt": "Map of The Little Mermaid, Copenhagen with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Skip the tourist shot. Frame it differently."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
