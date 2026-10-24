@@ -572,5 +572,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "caernarfon-castle",
+    "place": "Caernarfon Castle",
+    "summary": "Where to stand by the quay in Caernarfon, Wales, to photograph the castle.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/caernarfon-castle/map.png",
+    "pdf": "/maps/files/caernarfon-castle/Xdatrys_Shot_Map_Caernarfon_Castle.pdf",
+    "alt": "Map of Caernarfon Castle with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Stop standing where everyone stands."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
