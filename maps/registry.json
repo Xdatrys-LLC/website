@@ -446,5 +446,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "cesky-krumlov",
+    "place": "Cesky Krumlov",
+    "summary": "Where to stand in Cesky Krumlov, Czechia, where one step sideways changes the photo.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/cesky-krumlov/map.png",
+    "pdf": "/maps/files/cesky-krumlov/Xdatrys_Shot_Map_Cesky_Krumlov.pdf",
+    "alt": "Map of Cesky Krumlov with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "One step sideways changes everything."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
