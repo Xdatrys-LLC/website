@@ -500,5 +500,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "mozart-birthplace-salzburg",
+    "place": "Mozart's Birthplace, Salzburg",
+    "summary": "Where to stand on Getreidegasse in Salzburg to photograph Mozart's birthplace without the crowds.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/mozart-birthplace-salzburg/map.png",
+    "pdf": "/maps/files/mozart-birthplace-salzburg/Xdatrys_Shot_Map_Mozart's_Birthplace,_Salzburg.pdf",
+    "alt": "Map of Mozart's Birthplace, Salzburg with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Come back early the next morning."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
