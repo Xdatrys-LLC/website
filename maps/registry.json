@@ -266,5 +266,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "edinburgh-castle",
+    "place": "Edinburgh Castle",
+    "summary": "Where to stand to photograph Edinburgh Castle without the crowds, a few steps sideways from the usual spot.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/edinburgh-castle/map.png",
+    "pdf": "/maps/files/edinburgh-castle/Xdatrys_Shot_Map_Edinburgh_Castle.pdf",
+    "alt": "Map of Edinburgh Castle with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Step sideways, away from the crowd."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
