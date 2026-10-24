@@ -536,5 +536,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "terre-de-haut",
+    "place": "Terre-de-Haut, Guadeloupe",
+    "summary": "Where to stand in the village of Terre-de-Haut on Les Saintes, Guadeloupe.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/terre-de-haut/map.png",
+    "pdf": "/maps/files/terre-de-haut/Xdatrys_Shot_Map_Terre-de-Haut,_Guadeloupe.pdf",
+    "alt": "Map of Terre-de-Haut, Guadeloupe with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Find the island nobody photographs."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
