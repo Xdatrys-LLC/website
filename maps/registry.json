@@ -698,5 +698,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "st-magnus-cathedral-orkney",
+    "place": "St Magnus Cathedral, Orkney",
+    "summary": "Where to stand at St Magnus Cathedral in Kirkwall, Orkney, to fix the composition by moving your feet.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/st-magnus-cathedral-orkney/map.png",
+    "pdf": "/maps/files/st-magnus-cathedral-orkney/Xdatrys_Shot_Map_St_Magnus_Cathedral,_Orkney.pdf",
+    "alt": "Map of St Magnus Cathedral, Orkney with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Correct the composition. Move your feet."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
