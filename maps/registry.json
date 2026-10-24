@@ -590,5 +590,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "taos-pueblo",
+    "place": "Taos Pueblo",
+    "summary": "Where to stand at Taos Pueblo in New Mexico to photograph it by moving your feet.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/taos-pueblo/map.png",
+    "pdf": "/maps/files/taos-pueblo/Xdatrys_Shot_Map_Taos_Pueblo.pdf",
+    "alt": "Map of Taos Pueblo with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Stop editing. Move your feet instead."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
