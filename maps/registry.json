@@ -320,5 +320,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "dresden-cathedral",
+    "place": "Dresden Cathedral",
+    "summary": "Where to stand to photograph Dresden Cathedral from the Elbe riverbank, best after dark.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/dresden-cathedral/map.png",
+    "pdf": "/maps/files/dresden-cathedral/Xdatrys_Shot_Map_Dresden_Cathedral.pdf",
+    "alt": "Map of Dresden Cathedral with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Shoot from the Elbe bank, after dark."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
