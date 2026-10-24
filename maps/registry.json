@@ -608,5 +608,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "moorea-mountain",
+    "place": "Moorea Mountain",
+    "summary": "Where to stand on Moorea, French Polynesia, to frame the layers of green mountain.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/moorea-mountain/map.png",
+    "pdf": "/maps/files/moorea-mountain/Xdatrys_Shot_Map_Moorea_Mountain.pdf",
+    "alt": "Map of Moorea Mountain with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Frame the layers of green mountain."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
