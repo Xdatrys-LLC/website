@@ -464,5 +464,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "stockholm-parliament",
+    "place": "Stockholm Parliament",
+    "summary": "Where to stand by the quay in Stockholm to photograph the Parliament House.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/stockholm-parliament/map.png",
+    "pdf": "/maps/files/stockholm-parliament/Xdatrys_Shot_Map_Stockholm_Parliament.pdf",
+    "alt": "Map of Stockholm Parliament with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Change your angle on the Parliament."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
