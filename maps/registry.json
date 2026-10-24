@@ -302,5 +302,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "edinburgh-sun-trick",
+    "place": "Edinburgh Sun Trick",
+    "summary": "Where to stand in Edinburgh to let the low sun cut sideways across the stone.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/edinburgh-sun-trick/map.png",
+    "pdf": "/maps/files/edinburgh-sun-trick/Xdatrys_Shot_Map_Edinburgh_Sun_Trick.pdf",
+    "alt": "Map of Edinburgh Sun Trick with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Let the sun cut sideways across stone."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
