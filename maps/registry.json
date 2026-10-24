@@ -734,5 +734,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "ronne-bornholm",
+    "place": "Ronne, Bornholm",
+    "summary": "Where to stand in Ronne on Bornholm, Denmark, to let the church spire own the frame.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/ronne-bornholm/map.png",
+    "pdf": "/maps/files/ronne-bornholm/Xdatrys_Shot_Map_Ronne,_Bornholm.pdf",
+    "alt": "Map of Ronne, Bornholm with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Pick one shape. Let the spire own it."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
