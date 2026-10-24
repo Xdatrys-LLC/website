@@ -392,5 +392,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "manuel-antonio-beach",
+    "place": "Manuel Antonio Beach",
+    "summary": "Where to stand on the beach near Quepos and Manuel Antonio on the Pacific coast of Costa Rica.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/manuel-antonio-beach/map.png",
+    "pdf": "/maps/files/manuel-antonio-beach/Xdatrys_Shot_Map_Manuel_Antonio_Beach.pdf",
+    "alt": "Map of Manuel Antonio Beach with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Add Costa Rica to your bucket list."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
