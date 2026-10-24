@@ -662,5 +662,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "sibelius-monument",
+    "place": "Sibelius Monument",
+    "summary": "Where to stand at the Sibelius Monument in Helsinki for a photograph you cannot take anywhere else.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/sibelius-monument/map.png",
+    "pdf": "/maps/files/sibelius-monument/Xdatrys_Shot_Map_Sibelius_Monument.pdf",
+    "alt": "Map of Sibelius Monument with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "A photograph you cannot take anywhere else."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
