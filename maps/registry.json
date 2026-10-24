@@ -554,5 +554,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "lima-barranco-museum",
+    "place": "Barranco Museum, Lima",
+    "summary": "Where to stand in a museum in Barranco, Lima, Peru, to find compositions others miss.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/lima-barranco-museum/map.png",
+    "pdf": "/maps/files/lima-barranco-museum/Xdatrys_Shot_Map_Barranco_Museum,_Lima.pdf",
+    "alt": "Map of Barranco Museum, Lima with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Look long. Shoot through the glass."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
