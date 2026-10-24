@@ -284,5 +284,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "edinburgh-archway",
+    "place": "Edinburgh Archway",
+    "summary": "Where to stand to photograph this archway in Edinburgh, a few steps forward from the usual spot.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/edinburgh-archway/map.png",
+    "pdf": "/maps/files/edinburgh-archway/Xdatrys_Shot_Map_Edinburgh_Archway.pdf",
+    "alt": "Map of Edinburgh Archway with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Step forward. The arch gains depth."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
