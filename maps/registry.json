@@ -680,5 +680,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "little-island-new-york",
+    "place": "Little Island, New York",
+    "summary": "Where to stand at Little Island on the Hudson in New York, and why you should turn around for the sunset.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/little-island-new-york/map.png",
+    "pdf": "/maps/files/little-island-new-york/Xdatrys_Shot_Map_Little_Island,_New_York.pdf",
+    "alt": "Map of Little Island, New York with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Turn around. The sunset is behind you."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
