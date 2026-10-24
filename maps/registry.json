@@ -356,5 +356,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "daigoji-temple",
+    "place": "Daigo-ji Temple",
+    "summary": "Where to stand at Daigo-ji Temple in Kyoto, Japan, for the photo spots most visitors almost miss.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/daigoji-temple/map.png",
+    "pdf": "/maps/files/daigoji-temple/Xdatrys_Shot_Map_Daigo-ji_Temple.pdf",
+    "alt": "Map of Daigo-ji Temple with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Take a second look at the temple."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
