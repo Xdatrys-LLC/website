@@ -374,5 +374,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "kobe-meriken-park",
+    "place": "Meriken Park, Kobe",
+    "summary": "Where to stand at the Meriken Park fountains in Kobe, Japan, with the Kobe Port Tower, for a long exposure photo.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/kobe-meriken-park/map.png",
+    "pdf": "/maps/files/kobe-meriken-park/Xdatrys_Shot_Map_Meriken_Park,_Kobe.pdf",
+    "alt": "Map of Meriken Park, Kobe with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Use long exposure on the fountains."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
