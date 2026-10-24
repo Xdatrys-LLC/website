@@ -752,5 +752,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "kyoto-station-matcha-beer",
+    "place": "Kyoto Station Area",
+    "summary": "Where to try matcha green beer near Kyoto Station in Kyoto, Japan.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/kyoto-station-matcha-beer/map.png",
+    "pdf": "/maps/files/kyoto-station-matcha-beer/Xdatrys_Shot_Map_Kyoto_Station_Area.pdf",
+    "alt": "Map of Kyoto Station Area with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Order the matcha beer."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
