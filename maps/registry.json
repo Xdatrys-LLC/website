@@ -410,5 +410,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "marina-del-rey",
+    "place": "Marina del Rey",
+    "summary": "Where to stand in Marina del Rey, Los Angeles, to shoot sharp phone photos using the volume button as the shutter.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/marina-del-rey/map.png",
+    "pdf": "/maps/files/marina-del-rey/Xdatrys_Shot_Map_Marina_del_Rey.pdf",
+    "alt": "Map of Marina del Rey with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Use the volume button as the shutter."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
