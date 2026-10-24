@@ -482,5 +482,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "salzburg-richterhoehe",
+    "place": "Salzburg Richterhoehe",
+    "summary": "Where to stand on the Monchsberg path near Richterhoehe in Salzburg, Austria, for a view of the fortress.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/salzburg-richterhoehe/map.png",
+    "pdf": "/maps/files/salzburg-richterhoehe/Xdatrys_Shot_Map_Salzburg_Richterhoehe.pdf",
+    "alt": "Map of Salzburg Richterhoehe with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Skip the bridge. Walk up to the viewpoint."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
