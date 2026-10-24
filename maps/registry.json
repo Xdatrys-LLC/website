@@ -338,5 +338,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "bergen",
+    "place": "Bergen",
+    "summary": "Where to stand by the harbour in Bergen, Norway, to feature the rain and bring bright color into the frame.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/bergen/map.png",
+    "pdf": "/maps/files/bergen/Xdatrys_Shot_Map_Bergen.pdf",
+    "alt": "Map of Bergen with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Feature the rain. Add bright color."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
