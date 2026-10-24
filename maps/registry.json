@@ -626,5 +626,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "cologne-cathedral",
+    "place": "Cologne Cathedral",
+    "summary": "Where to stand by Domkloster in Cologne to photograph the cathedral from an angle most tourists miss.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/cologne-cathedral/map.png",
+    "pdf": "/maps/files/cologne-cathedral/Xdatrys_Shot_Map_Cologne_Cathedral.pdf",
+    "alt": "Map of Cologne Cathedral with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Find an angle most tourists miss."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
