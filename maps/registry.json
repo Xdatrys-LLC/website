@@ -428,5 +428,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "prague-castle",
+    "place": "Prague Castle",
+    "summary": "Where to stand near Charles Bridge in Prague to find a new angle on Prague Castle.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/prague-castle/map.png",
+    "pdf": "/maps/files/prague-castle/Xdatrys_Shot_Map_Prague_Castle.pdf",
+    "alt": "Map of Prague Castle with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Find a new angle on the castle."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
