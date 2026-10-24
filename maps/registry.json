@@ -248,5 +248,23 @@
     ],
     "country": "United States",
     "city": "New York"
+  },
+  {
+    "slug": "seaside-oregon",
+    "place": "Seaside",
+    "summary": "Where to stand on Broadway in Seaside, Oregon, to photograph the Art Deco buildings and the Funland sign.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/seaside-oregon/map.png",
+    "pdf": "/maps/files/seaside-oregon/Xdatrys_Shot_Map_Seaside.pdf",
+    "alt": "Map of Seaside with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Look up above Broadway."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
