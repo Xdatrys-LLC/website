@@ -644,5 +644,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "helsinki-cathedral",
+    "place": "Helsinki Cathedral",
+    "summary": "Where to stand in Helsinki to photograph the cathedral with tourists hidden behind a foreground.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/helsinki-cathedral/map.png",
+    "pdf": "/maps/files/helsinki-cathedral/Xdatrys_Shot_Map_Helsinki_Cathedral.pdf",
+    "alt": "Map of Helsinki Cathedral with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Hide the tourists behind a foreground."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
