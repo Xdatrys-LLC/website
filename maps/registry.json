@@ -716,5 +716,23 @@
     ],
     "country": "",
     "city": ""
+  },
+  {
+    "slug": "mariners-village",
+    "place": "Mariners Village, Marina del Rey",
+    "summary": "Where to stand at Mariners Village in Marina del Rey, California, to find the frame within the frame.",
+    "guide": "",
+    "date": "2026-10-23",
+    "image": "/assets/maps/mariners-village/map.png",
+    "pdf": "/maps/files/mariners-village/Xdatrys_Shot_Map_Mariners_Village,_Marina_del_Rey.pdf",
+    "alt": "Map of Mariners Village, Marina del Rey with numbered standing points for the best photographs",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Find the frame within the frame."
+      }
+    ],
+    "country": "",
+    "city": ""
   }
 ]
