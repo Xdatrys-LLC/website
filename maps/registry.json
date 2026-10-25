@@ -770,5 +770,23 @@
     ],
     "country": "Japan",
     "city": "Kyoto"
+  },
+  {
+    "slug": "senso-ji",
+    "place": "Senso-ji",
+    "summary": "Where to stand at Senso-ji in Tokyo: line up the statue's face with Skytree, within about 10 m of the pin.",
+    "guide": "",
+    "date": "2026-10-25",
+    "image": "/assets/maps/senso-ji/map.png",
+    "pdf": "/maps/files/senso-ji/Xdatrys_Shot_Map_Senso-ji.pdf",
+    "alt": "Shot map of Senso-ji in Tokyo, Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Line up the statue's face with Skytree."
+      }
+    ],
+    "country": "Japan",
+    "city": "Tokyo"
   }
 ]
