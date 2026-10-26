@@ -788,5 +788,23 @@
     ],
     "country": "Japan",
     "city": "Tokyo"
+  },
+  {
+    "slug": "venice-beach",
+    "place": "Venice Beach",
+    "summary": "One place to stand at Venice Beach in Los Angeles to fill the frame with colour.",
+    "guide": "",
+    "date": "2026-10-26",
+    "image": "/assets/maps/venice-beach/map.png",
+    "pdf": "/maps/files/venice-beach/Xdatrys_Shot_Map_Venice_Beach.pdf",
+    "alt": "Shot map of Venice Beach in Los Angeles, United States, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Fill the frame with colour."
+      }
+    ],
+    "country": "United States",
+    "city": "Los Angeles"
   }
 ]
