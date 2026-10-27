@@ -806,5 +806,23 @@
     ],
     "country": "United States",
     "city": "Los Angeles"
+  },
+  {
+    "slug": "charles-bridge-prague",
+    "place": "Charles Bridge",
+    "summary": "One place to stand at Charles Bridge in Prague to find a better angle on the bridge and the castle.",
+    "guide": "",
+    "date": "2026-10-27",
+    "image": "/assets/maps/charles-bridge-prague/map.png",
+    "pdf": "/maps/files/charles-bridge-prague/Xdatrys_Shot_Map_Charles_Bridge.pdf",
+    "alt": "Shot map of Charles Bridge in Prague, Czechia, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Find a better angle."
+      }
+    ],
+    "country": "Czechia",
+    "city": "Prague"
   }
 ]
