@@ -824,5 +824,39 @@
     ],
     "country": "Czechia",
     "city": "Prague"
+  },
+  {
+    "slug": "kinkaku-ji",
+    "place": "Kinkaku-ji",
+    "summary": "Five places to stand at Kinkaku-ji, the Golden Pavilion in Kyoto, for photos without the crowd.",
+    "guide": "",
+    "date": "2026-10-28",
+    "image": "/assets/maps/kinkaku-ji/map.png",
+    "pdf": "/maps/files/kinkaku-ji/Xdatrys_Shot_Map_Kinkaku-ji.pdf",
+    "alt": "Shot map of Kinkaku-ji, the Golden Pavilion, in Kyoto, Japan, with five numbered standing points around the pond marked on the map.",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Go behind it. Let the trees frame it."
+      },
+      {
+        "n": 2,
+        "tip": "Add the pine on the rock to the shot."
+      },
+      {
+        "n": 3,
+        "tip": "Shoot through the pine branches."
+      },
+      {
+        "n": 4,
+        "tip": "Let the leaves frame the pavilion."
+      },
+      {
+        "n": 5,
+        "tip": "Stand back. Shoot across the pond."
+      }
+    ],
+    "country": "Japan",
+    "city": "Kyoto"
   }
 ]
