@@ -858,5 +858,23 @@
     ],
     "country": "Japan",
     "city": "Kyoto"
+  },
+  {
+    "slug": "kabukicho",
+    "place": "Kabukicho",
+    "summary": "Where to stand in Kabukicho, Tokyo, to photograph the night traffic and billboards with a long exposure.",
+    "guide": "",
+    "date": "2026-10-28",
+    "image": "/assets/maps/kabukicho/map.png",
+    "pdf": "/maps/files/kabukicho/Xdatrys_Shot_Map_Kabukicho.pdf",
+    "alt": "Shot map of Kabukicho in Tokyo, Japan, with the standing point at the Yasukuni Street crossing and a pin on the Kabukicho billboards.",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Use long exposure. Let the traffic blur."
+      }
+    ],
+    "country": "Japan",
+    "city": "Tokyo"
   }
 ]
