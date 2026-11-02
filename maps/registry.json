@@ -876,5 +876,23 @@
     ],
     "country": "Japan",
     "city": "Tokyo"
+  },
+  {
+    "slug": "capilla-del-cristo",
+    "place": "Capilla del Cristo",
+    "summary": "Where to stand to photograph the Capilla del Cristo in Old San Juan: let the cobbled street fill the foreground.",
+    "guide": "",
+    "date": "2026-11-01",
+    "image": "/assets/maps/capilla-del-cristo/map.png",
+    "pdf": "/maps/files/capilla-del-cristo/Xdatrys_Shot_Map_Capilla_del_Cristo.pdf",
+    "alt": "Shot map of Capilla del Cristo in Old San Juan, Puerto Rico, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Let the cobbled street fill the foreground."
+      }
+    ],
+    "country": "Puerto Rico",
+    "city": "Old San Juan"
   }
 ]
