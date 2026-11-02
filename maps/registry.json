@@ -894,5 +894,23 @@
     ],
     "country": "Puerto Rico",
     "city": "Old San Juan"
+  },
+  {
+    "slug": "gullfoss",
+    "place": "Gullfoss",
+    "summary": "Where to stand to photograph Gullfoss in Iceland: use long exposure to turn the falling water into silk.",
+    "guide": "",
+    "date": "2026-11-01",
+    "image": "/assets/maps/gullfoss/map.png",
+    "pdf": "/maps/files/gullfoss/Xdatrys_Shot_Map_Gullfoss.pdf",
+    "alt": "Shot map of Gullfoss waterfall in Iceland, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Use long exposure to turn the falling water into silk."
+      }
+    ],
+    "country": "Iceland",
+    "city": "Gullfoss"
   }
 ]
