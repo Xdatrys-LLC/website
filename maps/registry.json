@@ -912,5 +912,23 @@
     ],
     "country": "Iceland",
     "city": "Gullfoss"
+  },
+  {
+    "slug": "queen-emma-bridge",
+    "place": "Queen Emma Bridge",
+    "summary": "One place to stand to photograph the Queen Emma Bridge in Willemstad, Curacao, with the bridge on the top gridline.",
+    "guide": "",
+    "date": "2026-11-02",
+    "image": "/assets/maps/queen-emma-bridge/map.png",
+    "pdf": "/maps/files/queen-emma-bridge/Xdatrys_Shot_Map_Queen_Emma_Bridge.pdf",
+    "alt": "Shot map of Queen Emma Bridge in Willemstad, Curacao, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Grid on: bridge on the top line."
+      }
+    ],
+    "country": "Curacao",
+    "city": "Willemstad"
   }
 ]
