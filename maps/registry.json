@@ -930,5 +930,39 @@
     ],
     "country": "Curacao",
     "city": "Willemstad"
+  },
+  {
+    "slug": "getty-villa",
+    "place": "Getty Villa",
+    "summary": "Five spots to shoot the Getty Villa's long reflecting pool in Malibu: ripples at your feet, the whole pool from above, bronze figures and reflections. Stand within about 10 m.",
+    "guide": "Los Angeles",
+    "date": "2026-11-04",
+    "image": "/assets/maps/getty-villa/map.png",
+    "pdf": "/maps/files/getty-villa/Xdatrys_Shot_Map_Getty_Villa.pdf",
+    "alt": "Map of the Getty Villa, Malibu: five camera positions around the reflecting pool and two pins",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Shallow water: ripples over the pool floor"
+      },
+      {
+        "n": 2,
+        "tip": "High view: the whole pool and the villa roof"
+      },
+      {
+        "n": 3,
+        "tip": "Low and close: bronze figures frame the pool"
+      },
+      {
+        "n": 4,
+        "tip": "Move in: one bronze figure on its plinth"
+      },
+      {
+        "n": 5,
+        "tip": "Reflections: the building on still water"
+      }
+    ],
+    "country": "United States",
+    "city": "Malibu"
   }
 ]
