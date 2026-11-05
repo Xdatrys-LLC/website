@@ -964,5 +964,41 @@
     ],
     "country": "United States",
     "city": "Malibu"
+  },
+  {
+    "slug": "fallingwater",
+    "place": "Fallingwater",
+    "summary": "Five places to photograph Fallingwater, Frank Lloyd Wright's house in Pennsylvania, inside and out.",
+    "guide": "Pennsylvania",
+    "date": "2026-11-05",
+    "image": "/assets/maps/fallingwater/map.png",
+    "pdf": "/maps/files/fallingwater/Xdatrys_Shot_Map_Fallingwater.pdf",
+    "alt": "Map of Fallingwater in Mill Run, Pennsylvania, with camera positions for the entry bridge, the interior and the downstream view of the house over the falls",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Entry bridge: Bear Run rushes below you"
+      },
+      {
+        "n": 2,
+        "tip": "Living room: copper kettle at the hearth"
+      },
+      {
+        "n": 3,
+        "tip": "Passageway: statue among the rhododendron"
+      },
+      {
+        "n": 4,
+        "tip": "Study: corner windows over the stream"
+      },
+      {
+        "n": 5,
+        "tip": "Downstream: the whole house over the falls"
+      }
+    ],
+    "country": "United States",
+    "city": "Mill Run",
+    "image2": "/assets/maps/fallingwater/map2.png",
+    "alt2": "Simplified first-floor plan of Fallingwater with camera positions for the living room hearth, the statue passageway and the study"
   }
 ]
