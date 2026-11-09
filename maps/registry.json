@@ -1000,5 +1000,23 @@
     "city": "Mill Run",
     "image2": "/assets/maps/fallingwater/map2.png",
     "alt2": "Simplified first-floor plan of Fallingwater with camera positions for the living room hearth, the statue passageway and the study"
+  },
+  {
+    "slug": "eiffel-tower",
+    "place": "Eiffel Tower",
+    "summary": "Where to stand for the best photo of the Eiffel Tower in Paris: frame the tower with a tree branch from beside its base.",
+    "guide": "Paris",
+    "date": "2026-11-08",
+    "image": "/assets/maps/eiffel-tower/map.png",
+    "pdf": "/maps/files/eiffel-tower/Xdatrys_Shot_Map_Eiffel_Tower.pdf",
+    "alt": "Map of the Eiffel Tower area in Paris showing where to stand beside the tower and frame it with a tree branch",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Frame the tower with a tree branch"
+      }
+    ],
+    "country": "France",
+    "city": "Paris"
   }
 ]
