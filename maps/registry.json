@@ -1040,5 +1040,39 @@
     ],
     "country": "United Arab Emirates",
     "city": "Dubai"
+  },
+  {
+    "slug": "machu-picchu",
+    "place": "Machu Picchu",
+    "summary": "Machu Picchu, Peru photo spots: five places to stand, from the Guardian's House terrace to a stone doorway and Huayna Picchu views. Free shot map from Xdatrys.",
+    "guide": "Peru",
+    "date": "2026-11-10",
+    "image": "/assets/maps/machu-picchu/map.png",
+    "pdf": "/maps/files/machu-picchu/Xdatrys_Shot_Map_Machu_Picchu.pdf",
+    "alt": "Map of Machu Picchu, Peru: five numbered camera positions aimed at Huchuy Picchu, a stone doorway, the Guardian's House, the terraces and Huayna Picchu",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Stand about 420 m south of Huchuy Picchu, face north"
+      },
+      {
+        "n": 2,
+        "tip": "Stand about 15 m east of the Doorway, face west"
+      },
+      {
+        "n": 3,
+        "tip": "Stand about 120 m north of Guardian's House, face south"
+      },
+      {
+        "n": 4,
+        "tip": "Stand about 170 m west of the terraces, face east"
+      },
+      {
+        "n": 5,
+        "tip": "Stand about 890 m south of Huayna Picchu, face north"
+      }
+    ],
+    "country": "Peru",
+    "city": "Machu Picchu"
   }
 ]
