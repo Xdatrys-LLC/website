@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Xdatrys | Shot Maps for Phone Photographers (mock-up)</title>
+<meta name="description" content="Shot maps for travellers who photograph with their phone: the best photo spots in each city, exactly where to stand, and how to frame the shot on your phone.">
+<link rel="icon" type="image/png" href="https://xdatrys.com/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+/* Mock-up of the new xdatrys.com home page, 2026-11-11. Colours and fonts copied from the live home page
+   (dark theme #09090F, cyan #00D4FF, magenta #E100FF, purple #7B2FBF, Montserrat + Playfair Display). */
+:root{
+  --dark:#09090F;--dark2:#10101c;--card:rgba(255,255,255,.045);--border:rgba(255,255,255,.12);
+  --white:#fff;--dim:rgba(255,255,255,.78);--dimmer:rgba(255,255,255,.62);
+  --cyan:#00D4FF;--mag:#E100FF;--purple:#7B2FBF;
+  --grad:linear-gradient(90deg,#00D4FF,#E100FF);--grad2:linear-gradient(90deg,#00D4FF,#7B2FBF);
+  --gutter:16px;--max:1120px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',sans-serif;background:var(--dark);color:var(--white);-webkit-font-smoothing:antialiased;line-height:1.55;overflow-x:hidden}
+a{color:var(--cyan)}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--cyan);outline-offset:3px;border-radius:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:8px;background:var(--cyan);color:#000;padding:8px 14px;border-radius:6px;z-index:999;font-weight:700}
+.skip:focus{left:8px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--cyan);display:block;margin-bottom:10px}
+h2{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(26px,5vw,38px);line-height:1.15;margin-bottom:12px}
+.lead{color:var(--dim);font-size:15px;max-width:640px}
+section{padding:56px 0}
+section+section{border-top:1px solid rgba(255,255,255,.07)}
+
+/* mock-up banner */
+.mock{background:#ffd84d;color:#1a1400;font-size:12px;font-weight:600;text-align:center;padding:8px var(--gutter)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 24px;border-radius:6px;font-family:inherit;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;text-decoration:none;cursor:pointer;border:none;transition:filter .2s,transform .2s}
+.btn-primary{background:var(--grad);color:#fff}
+.btn-primary:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35)}
+.btn-ghost:hover{background:rgba(255,255,255,.07)}
+.btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed}
+
+/* ===== HEADER ===== */
+.nav{position:sticky;top:0;z-index:100;background:rgba(9,9,15,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;min-height:64px}
+.logo img{height:36px;width:auto}
+.menu{display:none;gap:26px;align-items:center;list-style:none}
+.menu a,.menu .soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:var(--dim)}
+.menu a:hover{color:var(--cyan)}
+.menu .soon{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--border);border-radius:5px;color:var(--dimmer);cursor:not-allowed}
+.tag{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 6px;border-radius:3px;background:rgba(255,255,255,.12);color:#fff}
+.ham{width:48px;height:48px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;background:none;border:none;cursor:pointer}
+.ham span{display:block;width:22px;height:2px;background:#fff;border-radius:2px}
+.mob{display:none;border-top:1px solid var(--border);list-style:none}
+.mob.open{display:block}
+.mob li a,.mob li .soon{display:flex;justify-content:space-between;align-items:center;padding:14px var(--gutter);font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;color:var(--dim);border-bottom:1px solid rgba(255,255,255,.06)}
+.mob li .soon{color:var(--dimmer)}
+@media(min-width:900px){.menu{display:flex}.ham,.mob,.mob.open{display:none}}
+
+/* ===== HERO ===== */
+.hero{padding:48px 0 40px;background:radial-gradient(ellipse at 80% 0%,rgba(225,0,255,.14),transparent 55%),radial-gradient(ellipse at 0% 100%,rgba(0,212,255,.12),transparent 55%)}
+.hero h1{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(32px,8vw,58px);line-height:1.08;margin-bottom:14px}
+.hero h1 span{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero .lead{font-size:16px;margin-bottom:26px}
+.search{max-width:560px;position:relative}
+.search label{display:block;font-size:13px;font-weight:700;margin-bottom:8px}
+.search-row{display:flex;gap:8px}
+.search input{flex:1;min-width:0;min-height:52px;padding:12px 16px;border-radius:8px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.07);color:#fff;font:500 16px 'Montserrat',sans-serif}
+.search input::placeholder{color:rgba(255,255,255,.55)}
+.search input:focus{border-color:var(--cyan);outline:none;box-shadow:0 0 0 3px rgba(0,212,255,.35)}
+.results{list-style:none;margin-top:8px;background:#141424;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.results:empty{display:none}
+.results a{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.06);font-size:14px}
+.results a:hover,.results a:focus{background:rgba(0,212,255,.1)}
+.results small{color:var(--dimmer);white-space:nowrap}
+.results .none{padding:12px 16px;font-size:13px;color:var(--dim)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px;align-items:center}
+.free-note{font-size:13px;color:var(--dim);margin-top:16px}
+.free-note strong{color:#fff}
+
+/* ===== FEATURED MAPS ===== */
+.grid{display:grid;gap:16px;grid-template-columns:1fr;margin-top:26px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:980px){.grid{grid-template-columns:1fr 1fr 1fr}}
+.mapcard{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;text-decoration:none;color:#fff;transition:border-color .2s,transform .2s}
+.mapcard:hover{border-color:var(--cyan);transform:translateY(-2px)}
+.mapcard .top{position:relative;height:96px;background:#16202b;overflow:hidden}
+.mapcard .top svg{position:absolute;inset:0;width:100%;height:100%}
+.mapcard .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.mapcard h3{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;line-height:1.2}
+.mapcard .meta{font-size:12px;color:var(--dimmer);font-weight:600;letter-spacing:.5px;text-transform:uppercase}
+.spots{list-style:none;display:flex;flex-direction:column;gap:7px}
+.spots li{display:flex;gap:10px;align-items:flex-start;font-size:14px}
+.num{flex:none;width:22px;height:22px;border-radius:50%;background:var(--mag);color:#000;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;border:2px solid #fff;margin-top:1px}
+.free{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#7ff0ff}
+.locked{font-size:13px;color:var(--dim);display:flex;align-items:center;gap:8px;margin-top:auto;padding-top:6px;border-top:1px dashed rgba(255,255,255,.15)}
+.more-row{margin-top:24px;text-align:center}
+
+/* ===== HOW IT WORKS ===== */
+.steps{display:grid;gap:16px;grid-template-columns:1fr;margin-top:26px;counter-reset:s}
+@media(min-width:820px){.how-inner{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:center}.steps{margin-top:0}}
+.step{display:flex;gap:16px;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px}
+.step .n{flex:none;width:36px;height:36px;border-radius:50%;background:var(--grad2);display:flex;align-items:center;justify-content:center;font-weight:800}
+.step h3{font-size:16px;font-weight:700;margin-bottom:4px}
+.step p{font-size:14px;color:var(--dim)}
+.illus{background:#eef1f3;border-radius:14px;padding:8px;margin-top:22px;max-width:460px}
+.illus svg{width:100%;height:auto;display:block}
+.illus-cap{font-size:12px;color:var(--dimmer);margin-top:8px;max-width:460px}
+
+/* ===== MEMBERSHIP ===== */
+.toggle{display:inline-flex;border:1px solid var(--border);border-radius:999px;padding:4px;margin-top:20px;background:rgba(255,255,255,.04)}
+.toggle button{min-height:40px;padding:8px 18px;border-radius:999px;border:none;background:none;color:var(--dim);font:700 12px 'Montserrat',sans-serif;letter-spacing:.8px;text-transform:uppercase;cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--grad2);color:#fff}
+.plans{display:grid;gap:16px;grid-template-columns:1fr;margin-top:22px}
+@media(min-width:760px){.plans{grid-template-columns:1fr 1fr}}
+.plan{position:relative;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px 22px;display:flex;flex-direction:column;gap:14px}
+.plan.pro{border-color:rgba(225,0,255,.55);background:linear-gradient(180deg,rgba(225,0,255,.09),rgba(255,255,255,.03))}
+.plan h3{font-family:'Playfair Display',serif;font-size:26px;font-weight:900}
+.badge{align-self:flex-start;font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;padding:4px 10px;border-radius:4px;background:rgba(0,212,255,.15);color:#7ff0ff;border:1px solid rgba(0,212,255,.4)}
+.price{font-size:34px;font-weight:800;line-height:1}
+.price small{font-size:14px;font-weight:600;color:var(--dim)}
+.price-note{font-size:12px;color:var(--dimmer);min-height:18px}
+.feat{list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14px;color:var(--dim)}
+.feat li{display:flex;gap:10px}
+.feat li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--grad2);margin-top:7px}
+.feat .tbc{color:var(--dimmer);font-style:italic}
+.plan .btn{margin-top:auto}
+.plans-foot{font-size:13px;color:var(--dimmer);margin-top:16px;max-width:760px}
+
+/* ===== GUIDES AND ALBUMS ===== */
+.strip{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 14px;margin-top:22px;-webkit-overflow-scrolling:touch}
+.strip::-webkit-scrollbar{height:8px}.strip::-webkit-scrollbar-thumb{background:rgba(255,255,255,.2);border-radius:4px}
+.gcard{flex:none;width:168px;scroll-snap-align:start;text-decoration:none;color:#fff}
+.gcover{position:relative;border-radius:8px;overflow:hidden;aspect-ratio:3/4;background:#1a1a2a}
+.gcover img{width:100%;height:100%;object-fit:cover}
+.gbadge{position:absolute;top:8px;left:8px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:3px 7px;border-radius:3px}
+.avail{background:var(--cyan);color:#000}
+.csoon{background:rgba(0,0,0,.75);color:#fff;border:1px solid rgba(255,255,255,.4)}
+.gname{font-size:14px;font-weight:700;margin-top:8px}
+.gtype{font-size:11px;color:var(--dimmer);font-weight:600;letter-spacing:1px;text-transform:uppercase}
+.series-sub{color:var(--dim);font-size:14px}
+.series-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+
+/* ===== NEWSLETTER ===== */
+.nl{display:grid;gap:28px;grid-template-columns:1fr}
+@media(min-width:820px){.nl{grid-template-columns:1fr 1fr;align-items:start}}
+.nl-brand{font-family:'Playfair Display',serif;font-size:32px;font-weight:900;font-style:italic;background:linear-gradient(90deg,#00D4FF,#E100FF,#7B2FBF);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.nl-cap{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);margin-bottom:14px}
+.nl-masthead{max-width:340px;border-radius:6px;margin-bottom:16px}
+.nl-list{list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14px;color:var(--dim)}
+.nl-list li{display:flex;gap:10px}
+.nl-list li::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--grad2);margin-top:8px}
+.signup{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px}
+.signup h3{font-size:18px;font-weight:700;margin-bottom:6px}
+.signup p{font-size:14px;color:var(--dim);margin-bottom:12px}
+.signup-fallback{font-size:13px;color:var(--dimmer);margin-top:10px}
+
+/* ===== FOOTER ===== */
+footer{border-top:1px solid var(--border);padding:28px 0 36px}
+footer .wrap{display:flex;flex-direction:column;gap:18px}
+@media(min-width:820px){footer .wrap{flex-direction:row;align-items:center;justify-content:space-between}}
+.flinks{list-style:none;display:flex;flex-wrap:wrap;gap:6px 18px}
+.flinks a{color:var(--dim);font-size:13px;font-weight:500;text-decoration:underline;text-underline-offset:3px;display:inline-block;padding:6px 0}
+.flinks a:hover{color:#fff}
+.social{display:flex;gap:6px;flex-wrap:wrap}
+.social a{width:44px;height:44px;display:flex;align-items:center;justify-content:center;opacity:.8;border-radius:8px}
+.social a:hover{opacity:1;background:rgba(255,255,255,.06)}
+.social img{width:22px;height:22px;object-fit:contain}
+.copy{font-size:12px;color:var(--dimmer)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="mock" role="note">Mock-up for review only: not live, not linked, not indexed. Prices and plans are "coming soon".</div>
+
+<!-- ===== HEADER ===== -->
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Xdatrys home"><img src="https://xdatrys.com/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="103" height="36"></a>
+    <nav aria-label="Main">
+      <ul class="menu">
+        <li><a href="/library/">Map Library</a></li>
+        <li><a href="#guides">Guides</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><span class="soon" aria-disabled="true" title="Sign in opens when membership launches">Sign in <span class="tag">Soon</span></span></li>
+      </ul>
+    </nav>
+    <button class="ham" id="hamBtn" aria-expanded="false" aria-controls="mobMenu" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="mob" id="mobMenu">
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="#guides">Guides</a></li>
+    <li><a href="#newsletter">Newsletter</a></li>
+    <li><a href="#membership">Membership</a></li>
+    <li><span class="soon" aria-disabled="true">Sign in <span class="tag">Coming soon</span></span></li>
+  </ul>
+</header>
+
+<main id="main">
+
+<!-- ===== HERO ===== -->
+<section class="hero" aria-labelledby="hero-h">
+  <div class="wrap">
+    <span class="eyebrow">Shot maps for phone photographers</span>
+    <h1 id="hero-h">Know exactly where to stand <span>for the shot.</span></h1>
+    <p class="lead">Shot maps for travellers who photograph with their phone: the best-known photo spots in each city, the place to stand marked on the map, and simple tips for framing the shot on your phone.</p>
+
+    <form class="search" role="search" id="searchForm" autocomplete="off">
+      <label for="q">Where are you going?</label>
+      <div class="search-row">
+        <input id="q" type="search" placeholder="A city or country, e.g. Rome" aria-describedby="searchHelp" aria-controls="results">
+      </div>
+      <p id="searchHelp" class="free-note" style="margin-top:6px">Type to see matching maps. Press Enter to open the first one.</p>
+      <ul class="results" id="results" aria-live="polite"></ul>
+    </form>
+
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="/library/">Browse the map library</a>
+      <a class="btn btn-ghost" href="#how">How it works</a>
+    </div>
+    <p class="free-note"><strong>The first 3 spots on every map are free</strong>, with no account needed.</p>
+  </div>
+</section>
+
+<!-- ===== FEATURED MAPS ===== -->
+<section aria-labelledby="feat-h">
+  <div class="wrap">
+    <span class="eyebrow">From the map library</span>
+    <h2 id="feat-h">Start with a favourite city</h2>
+    <p class="lead">Each map numbers its spots from the most searched down. The first three are open to everyone.</p>
+    <div class="grid" id="featured"></div>
+    <div class="more-row"><a class="btn btn-ghost" href="/library/">See all <span id="mapCount">20</span> maps</a></div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section id="how" aria-labelledby="how-h">
+  <div class="wrap how-inner">
+    <div>
+      <span class="eyebrow">How it works</span>
+      <h2 id="how-h">Three steps to the shot</h2>
+      <p class="lead">Open a map on your phone before you go, or once you arrive.</p>
+      <figure>
+        <div class="illus">
+          <svg viewBox="0 0 460 240" role="img" aria-labelledby="illusT illusD">
+            <title id="illusT">The Xdatrys pin and phone icons</title>
+            <desc id="illusD">A small street map. A magenta numbered pin marks the subject. A cyan phone icon marks where to stand, with a dashed cyan arrow pointing from the phone to the pin.</desc>
+            <!-- simple base map -->
+            <rect width="460" height="240" fill="#f2efe9"/>
+            <path d="M0 170 C 120 150, 240 200, 460 160 L460 240 L0 240Z" fill="#aad3df"/>
+            <rect x="40" y="30" width="110" height="70" rx="3" fill="#d9d0c9" stroke="#b3aaa8"/>
+            <rect x="300" y="22" width="120" height="58" rx="3" fill="#d9d0c9" stroke="#b3aaa8"/>
+            <rect x="190" y="40" width="70" height="44" rx="3" fill="#c8facc"/>
+            <path d="M0 120 L460 112" stroke="#fff" stroke-width="12"/>
+            <path d="M170 0 L180 150" stroke="#fff" stroke-width="10"/>
+            <path d="M280 0 L285 150" stroke="#fff" stroke-width="8"/>
+            <!-- dashed arrow phone -> pin -->
+            <path d="M120 150 L 318 78" stroke="#00A8CC" stroke-width="4" stroke-dasharray="10 7" fill="none"/>
+            <path d="M318 78 l-16 -1 l7 12 z" fill="#00A8CC" transform="rotate(-5 318 78)"/>
+            <!-- magenta teardrop pin, tip at (340,96) -->
+            <g transform="translate(340 96)">
+              <path d="M0 0 L-13 -30 A24 24 0 1 1 13 -30 Z" fill="#E100FF" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+              <text x="0" y="-41" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="800" font-size="20" fill="#000">1</text>
+            </g>
+            <!-- cyan phone with tail, tail tip at (104,196) -->
+            <g transform="translate(104 196)">
+              <path d="M0 0 L-9 -22 L9 -22 Z" fill="#00D4FF" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+              <rect x="-17" y="-78" width="34" height="56" rx="7" fill="#00D4FF" stroke="#fff" stroke-width="3"/>
+              <circle cx="0" cy="-54" r="10" fill="#fff"/>
+              <circle cx="0" cy="-54" r="6" fill="#00D4FF"/>
+              <circle cx="0" cy="-54" r="2.6" fill="#fff"/>
+            </g>
+            <!-- labels -->
+            <rect x="268" y="112" width="132" height="24" rx="12" fill="#E100FF"/>
+            <text x="334" y="129" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="12" fill="#000">The subject</text>
+            <rect x="130" y="196" width="122" height="24" rx="12" fill="#00D4FF"/>
+            <text x="191" y="213" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="12" fill="#000">Stand here</text>
+          </svg>
+        </div>
+        <figcaption class="illus-cap">Illustration only. On a real map the pin label shows the spot's name and the phone label names the street or square where you stand.</figcaption>
+      </figure>
+    </div>
+    <ol class="steps" style="list-style:none">
+      <li class="step"><div class="n" aria-hidden="true">1</div><div><h3>Find the spot</h3><p>Open the map for your city. Numbered magenta pins show the photo subjects, starting with the most searched.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">2</div><div><h3>Stand at the phone icon</h3><p>The cyan phone shows where to stand, and the arrow shows which way to face. Tap Navigate to walk there with Google Maps or Apple Maps.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Shoot with the tips</h3><p>Every spot has a "Shooting it on your phone" section: which lens, how to frame it, a settings tip and the best time to go.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== MEMBERSHIP ===== -->
+<section id="membership" aria-labelledby="mem-h">
+  <div class="wrap">
+    <span class="eyebrow">Membership</span>
+    <h2 id="mem-h">One membership, every map</h2>
+    <p class="lead">Membership is coming soon. Join the free Pocket Lens newsletter and we will tell you the day it opens.</p>
+
+    <div class="toggle" role="group" aria-label="Billing period">
+      <button type="button" id="bMonthly" aria-pressed="true">Monthly</button>
+      <button type="button" id="bAnnual" aria-pressed="false">Annual</button>
+    </div>
+
+    <div class="plans">
+      <article class="plan" aria-labelledby="pE">
+        <span class="badge">Coming soon</span>
+        <h3 id="pE">Explorer</h3>
+        <div class="price" data-m="$9.99" data-a="$59.99"><span class="amt">$9.99</span> <small class="per">/ month</small></div>
+        <div class="price-note" data-m="or $59.99 a year" data-a="about $5.00 a month, billed yearly">or $59.99 a year</div>
+        <ul class="feat">
+          <li>The map library: every spot on every map, with where to stand and phone tips</li>
+          <li>Pocket Scout photo-location guides</li>
+          <li>Pocket Eye photo albums</li>
+        </ul>
+        <a class="btn btn-primary" href="#newsletter">Tell me when it opens</a>
+      </article>
+
+      <article class="plan pro" aria-labelledby="pP">
+        <span class="badge">Coming soon</span>
+        <h3 id="pP">Pro</h3>
+        <div class="price" data-m="$19.99" data-a="$119.99"><span class="amt">$19.99</span> <small class="per">/ month</small></div>
+        <div class="price-note" data-m="or $119.99 a year" data-a="about $10.00 a month, billed yearly">or $119.99 a year</div>
+        <ul class="feat">
+          <li>Everything in Explorer</li>
+          <li>Private custom maps of any place you choose</li>
+          <li class="tbc">Monthly number of custom maps: to be confirmed</li>
+        </ul>
+        <a class="btn btn-primary" href="#newsletter">Tell me when it opens</a>
+      </article>
+
+    </div>
+    <p class="plans-foot">No payments are taken yet. Prices are in US dollars. Without membership, the first 3 spots on every map stay free.</p>
+  </div>
+</section>
+
+<!-- ===== GUIDES AND ALBUMS (same items and links as the live home page) ===== -->
+<section id="guides" aria-labelledby="gu-h">
+  <div class="wrap">
+    <span class="eyebrow">The Pocket Series</span>
+    <h2 id="gu-h">Guides and albums</h2>
+    <p class="series-sub">The <strong>Scout</strong> photo-location guides · The <strong>Eye</strong> photo albums</p>
+    <div class="series-links"><a href="https://xdatrys.gumroad.com" target="_blank" rel="noopener">Shop all guides on Gumroad<span class="sr"> (opens in a new tab)</span></a></div>
+    <div class="strip" tabindex="0" role="region" aria-label="Pocket Scout guides and Pocket Eye albums, scroll sideways">
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutFrenchPolynesiaCover.png" alt="Pocket Scout French Polynesia cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">French Polynesia</div><div class="gtype">Pocket Scout</div></a>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_Scout_Dresden" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutDresdenAltstatdCover.jpg" alt="Pocket Scout Dresden Altstadt cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">Dresden Altstadt</div><div class="gtype">Pocket Scout</div></a>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutDresdenZwingerCover.jpg" alt="Pocket Scout Dresden Zwinger cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Dresden Zwinger</div><div class="gtype">Pocket Scout</div></div>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_Caribbean_Puerto_Rico_Virgin_Islands" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutCaribbeab1Cover.png" alt="Pocket Scout Caribbean cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">Caribbean</div><div class="gtype">Pocket Scout</div></a>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutSalzbugCover.jpg" alt="Pocket Scout Salzburg cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Salzburg</div><div class="gtype">Pocket Scout</div></div>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutFallingwater.jpg" alt="Pocket Scout Fallingwater cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Fallingwater</div><div class="gtype">Pocket Scout</div></div>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutLosAngelesMarinaCover.jpg" alt="Pocket Scout Los Angeles cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Los Angeles</div><div class="gtype">Pocket Scout</div></div>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutPragueCover.png" alt="Pocket Scout Prague cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Prague</div><div class="gtype">Pocket Scout</div></div>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-eye/PocketEyeFrenchPolynesiaCover.png" alt="Pocket Eye French Polynesia cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">French Polynesia</div><div class="gtype">Pocket Eye</div></a>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_Eye_Dresden" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-eye/PocketEyeDresdenCover.png" alt="Pocket Eye Dresden cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">Dresden</div><div class="gtype">Pocket Eye</div></a>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/pocket_eye_caribbean_puerto_rico_virgin_islands" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-eye/PocketEyeCaribbean1Cover.png" alt="Pocket Eye Caribbean cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">Caribbean</div><div class="gtype">Pocket Eye</div></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWSLETTER (Kit form, same embed as /subscribe/) ===== -->
+<section id="newsletter" aria-labelledby="nl-h">
+  <div class="wrap nl">
+    <div>
+      <h2 id="nl-h" class="nl-brand">Pocket Lens</h2>
+      <div class="nl-cap">Free smartphone photography newsletter</div>
+      <img class="nl-masthead" src="https://xdatrys.com/assets/pocket-lens/PocketLensMasthead.png" alt="Pocket Lens newsletter masthead" loading="lazy">
+      <ul class="nl-list">
+        <li>The latest smartphone photography news</li>
+        <li>Shot techniques</li>
+        <li>Latest smartphone photography hardware and software</li>
+        <li>International location guide alerts</li>
+        <li>First to hear when membership opens</li>
+        <li>No spam, unsubscribe any time</li>
+      </ul>
+    </div>
+    <div class="signup">
+      <h3>Join Pocket Lens</h3>
+      <p>Free, daily, and you can unsubscribe at any time. We will email you once to confirm your address.</p>
+      <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+      <p class="signup-fallback">Form not showing? <a href="/subscribe/">Sign up on the newsletter page</a>.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Xdatrys home"><img src="https://xdatrys.com/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="74" height="26"></a>
+    <nav aria-label="Footer">
+      <ul class="flinks">
+        <li><a href="/maps/">Free shot maps from our videos</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/refunds/">Refunds</a></li>
+      </ul>
+    </nav>
+    <div class="social" aria-label="Xdatrys on social media">
+      <a href="https://www.facebook.com/Xdatrys" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/Facebook.png" alt="Xdatrys on Facebook"></a>
+      <a href="https://www.instagram.com/xdatrys/" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/Instagram.png" alt="Xdatrys on Instagram"></a>
+      <a href="https://www.tiktok.com/@xdatrys?lang=en" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/TikTok.png" alt="Xdatrys on TikTok"></a>
+      <a href="https://www.pinterest.com/xdatrys/" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/Pinterest.png" alt="Xdatrys on Pinterest"></a>
+      <a href="https://x.com/xdatrys" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/X.png" alt="Xdatrys on X"></a>
+      <a href="https://www.youtube.com/@Xdatrys" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/YouTube.png" alt="Xdatrys on YouTube"></a>
+    </div>
+  </div>
+  <div class="wrap"><p class="copy">© 2026 Xdatrys LLC. All rights reserved.</p></div>
+</footer>
+
+<script>
+/* Library list: slug and display name from pipeline/maps_config.py; top-3 spot names from preview_site/<slug>/spots.json
+   (labels as of 2026-11-11). "spots" = number of spots on the map. "also" = other words a visitor might type. */
+var MAPS = [
+  {slug:"paris",name:"Paris",country:"France",spots:20,top:["Eiffel Tower","Louvre and its Pyramid","Arc de Triomphe and the Champs-Élysées"],also:"france"},
+  {slug:"tokyo",name:"Tokyo",country:"Japan",spots:20,top:["Shibuya Crossing","Ginza","Tokyo Skytree"],also:"japan"},
+  {slug:"rome",name:"Rome",country:"Italy",spots:20,top:["Colosseum","Trevi Fountain","St Peter's Basilica and Square"],also:"roma italy italia"},
+  {slug:"amsterdam",name:"Amsterdam",country:"Netherlands",spots:20,top:["Anne Frank House and the Prinsengracht","Rijksmuseum and Museumplein","Vondelpark"],also:"netherlands holland"},
+  {slug:"barcelona",name:"Barcelona",country:"Spain",spots:20,top:["Sagrada Família","Camp Nou","Park Güell"],also:"spain españa catalonia"},
+  {slug:"singapore",name:"Singapore",country:"Singapore",spots:20,top:["Marina Bay Sands","Gardens by the Bay and the Supertree Grove","Sentosa"],also:""},
+  {slug:"london",name:"London",country:"United Kingdom",spots:20,top:["Harrods","Covent Garden","Buckingham Palace"],also:"england uk britain"},
+  {slug:"bali",name:"Bali",country:"Indonesia",spots:20,top:["Uluwatu Temple","Seminyak Beach","Mount Batur"],also:"indonesia"},
+  {slug:"vatican",name:"Vatican City",country:"Vatican City",spots:10,top:["St Peter's Basilica","St Peter's Square and the colonnade","Vatican Museums"],also:"vatican rome roma italy"},
+  {slug:"italy",name:"Italy: top 20",country:"Italy",spots:20,top:["Tre Cime di Lavaredo, Dolomites","Pompeii","Positano, Amalfi Coast"],also:"italia dolomites amalfi pompeii"},
+  {slug:"toronto",name:"Toronto",country:"Canada",spots:20,top:["CN Tower","Casa Loma","St. Lawrence Market"],also:"canada ontario"},
+  {slug:"vancouver",name:"Vancouver",country:"Canada",spots:20,top:["Capilano Suspension Bridge","Gastown and the Steam Clock","Stanley Park and the Seawall"],also:"canada british columbia"},
+  {slug:"dublin",name:"Dublin",country:"Ireland",spots:20,top:["Guinness Storehouse","Trinity College: Front Square and the Long Room","Kilmainham Gaol"],also:"ireland"},
+  {slug:"lisbon",name:"Lisbon",country:"Portugal",spots:20,top:["Belém Tower","Jerónimos Monastery","São Jorge Castle"],also:"lisboa portugal"},
+  {slug:"madrid",name:"Madrid",country:"Spain",spots:20,top:["Royal Palace of Madrid","Puerta del Sol","Mercado de San Miguel"],also:"spain españa"},
+  {slug:"milan",name:"Milan",country:"Italy",spots:20,top:["Milan Cathedral (the Duomo)","Galleria Vittorio Emanuele II","Sforza Castle"],also:"milano italy italia"},
+  {slug:"prague",name:"Prague",country:"Czech Republic",spots:20,top:["Prague Castle","Charles Bridge","Astronomical Clock"],also:"praha czechia"},
+  {slug:"florence",name:"Florence",country:"Italy",spots:20,top:["Florence Cathedral (the Duomo)","Uffizi","Ponte Vecchio"],also:"firenze italy italia tuscany"},
+  {slug:"montreal",name:"Montreal",country:"Canada",spots:20,top:["Notre-Dame Basilica","Habitat 67","Mount Royal: Kondiaronk Belvedere"],also:"montréal canada quebec québec"},
+  {slug:"naples",name:"Naples",country:"Italy",spots:20,top:["Galleria Umberto I","Spaccanapoli","Piazza del Plebiscito"],also:"napoli italy italia"}
+];
+/* Featured: the six most-searched places in pipeline/data/top_searched.csv that have a map. */
+var FEATURED = ["paris","tokyo","rome","amsterdam","barcelona","singapore"];
+
+function norm(s){return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ").trim();}
+function esc(s){return s.replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function url(m){return "/library/"+m.slug+"/";}
+
+/* decorative card header: soft street pattern plus a pin and phone, varied per map */
+function cardArt(i){
+  var w=[[30,60],[60,20],[45,75],[70,40],[25,30],[55,65]][i%6];
+  return '<svg viewBox="0 0 300 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">'+
+    '<rect width="300" height="96" fill="#1b2633"/>'+
+    '<path d="M0 '+(40+w[0]/3)+' L300 '+(30+w[1]/3)+'" stroke="#2c3c4e" stroke-width="9"/>'+
+    '<path d="M'+(80+w[0])+' 0 L'+(70+w[1])+' 96" stroke="#2c3c4e" stroke-width="7"/>'+
+    '<path d="M'+(190+w[1]/2)+' 0 L'+(200+w[0]/2)+' 96" stroke="#2c3c4e" stroke-width="5"/>'+
+    '<path d="M0 88 C80 '+(70+w[0]/4)+' 180 96 300 '+(74+w[1]/5)+' L300 96 L0 96Z" fill="#1e3a4f"/>'+
+    '<path d="M'+(95+w[0])+' 70 L'+(205+w[1]/2)+' 44" stroke="#00D4FF" stroke-width="2.5" stroke-dasharray="6 5"/>'+
+    '<g transform="translate('+(215+w[1]/2)+' 52)"><path d="M0 0 L-7 -16 A13 13 0 1 1 7 -16 Z" fill="#E100FF" stroke="#fff" stroke-width="2"/></g>'+
+    '<g transform="translate('+(90+w[0])+' 82)"><path d="M0 0 L-5 -12 L5 -12Z" fill="#00D4FF" stroke="#fff" stroke-width="1.5"/><rect x="-9" y="-42" width="18" height="30" rx="4" fill="#00D4FF" stroke="#fff" stroke-width="2"/><circle cx="0" cy="-29" r="5" fill="#fff"/><circle cx="0" cy="-29" r="2.6" fill="#00D4FF"/></g>'+
+    '</svg>';
+}
+
+function renderFeatured(){
+  var box=document.getElementById("featured"), html="";
+  FEATURED.forEach(function(slug,i){
+    var m=MAPS.filter(function(x){return x.slug===slug;})[0]; if(!m) return;
+    var more=m.spots-3;
+    html+='<a class="mapcard" href="'+url(m)+'" aria-label="'+esc(m.name)+' photo spots map: '+m.spots+' spots, first 3 free">'+
+      '<div class="top">'+cardArt(i)+'</div><div class="body">'+
+      '<div class="meta">'+esc(m.country)+' · '+m.spots+' photo spots</div>'+
+      '<h3>'+esc(m.name)+'</h3>'+
+      '<ul class="spots">'+m.top.map(function(t,k){return '<li><span class="num" aria-hidden="true">'+(k+1)+'</span><span>'+esc(t)+'</span></li>';}).join("")+'</ul>'+
+      '<div class="free">First 3 spots free</div>'+
+      '<div class="locked"><svg width="14" height="16" viewBox="0 0 14 16" aria-hidden="true"><rect x="1" y="7" width="12" height="8" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>'+
+      more+' more spots for members</div></div></a>';
+  });
+  box.innerHTML=html;
+  document.getElementById("mapCount").textContent=MAPS.length;
+}
+
+function search(q){
+  var n=norm(q), out=document.getElementById("results");
+  if(!n){out.innerHTML="";return [];}
+  var hits=MAPS.filter(function(m){
+    var hay=norm(m.name+" "+m.country+" "+m.also+" "+m.top.join(" "));
+    return n.split(" ").every(function(w){return hay.indexOf(w)>=0;});
+  });
+  if(!hits.length){
+    out.innerHTML='<li class="none">No map for "'+esc(q)+'" yet. The library is growing: <a href="/library/">see all maps</a> or <a href="#newsletter">join the newsletter</a> to hear about new ones.</li>';
+  } else {
+    out.innerHTML=hits.map(function(m){return '<li><a href="'+url(m)+'"><span>'+esc(m.name)+'</span><small>'+esc(m.country)+' · '+m.spots+' spots</small></a></li>';}).join("");
+  }
+  return hits;
+}
+var q=document.getElementById("q");
+q.addEventListener("input",function(){search(q.value);});
+document.getElementById("searchForm").addEventListener("submit",function(e){
+  e.preventDefault(); var h=search(q.value); if(h.length) location.href=url(h[0]);
+});
+q.addEventListener("keydown",function(e){
+  if(e.key==="ArrowDown"){var a=document.querySelector("#results a"); if(a){e.preventDefault();a.focus();}}
+});
+document.getElementById("results").addEventListener("keydown",function(e){
+  var links=[].slice.call(this.querySelectorAll("a")), i=links.indexOf(document.activeElement);
+  if(e.key==="ArrowDown"&&i<links.length-1){e.preventDefault();links[i+1].focus();}
+  if(e.key==="ArrowUp"){e.preventDefault(); if(i>0) links[i-1].focus(); else q.focus();}
+  if(e.key==="Escape"){q.focus();}
+});
+
+/* billing toggle */
+function setBilling(annual){
+  document.getElementById("bMonthly").setAttribute("aria-pressed",String(!annual));
+  document.getElementById("bAnnual").setAttribute("aria-pressed",String(annual));
+  document.querySelectorAll(".plan .price").forEach(function(p){
+    p.querySelector(".amt").textContent=annual?p.dataset.a:p.dataset.m;
+    p.querySelector(".per").textContent=annual?"/ year":"/ month";
+  });
+  document.querySelectorAll(".plan .price-note").forEach(function(p){p.textContent=annual?p.dataset.a:p.dataset.m;});
+}
+document.getElementById("bMonthly").addEventListener("click",function(){setBilling(false);});
+document.getElementById("bAnnual").addEventListener("click",function(){setBilling(true);});
+
+/* phone menu */
+var ham=document.getElementById("hamBtn"), mob=document.getElementById("mobMenu");
+ham.addEventListener("click",function(){var o=mob.classList.toggle("open");ham.setAttribute("aria-expanded",String(o));ham.setAttribute("aria-label",o?"Close menu":"Open menu");});
+mob.addEventListener("click",function(e){if(e.target.tagName==="A"){mob.classList.remove("open");ham.setAttribute("aria-expanded","false");}});
+
+renderFeatured();
+</script>
+</body>
+</html>
