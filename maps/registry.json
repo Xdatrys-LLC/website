@@ -2,12 +2,12 @@
   {
     "slug": "dresden",
     "place": "Dresden",
-    "summary": "Three places to stand for the Frauenkirche, and a taste of the full Pocket Scout guide.",
+    "summary": "Dresden Frauenkirche photos: three places to stand in Dresden, Germany, from 120 m back at dawn to a low shot across the cobbles. Free shot map from Xdatrys.",
     "guide": "Dresden",
     "date": "2026-10-06",
     "image": "/assets/maps/dresden/map.png",
     "pdf": "/maps/files/dresden/Xdatrys_Shot_Map_Dresden.pdf",
-    "alt": "Shot map of Dresden in Germany, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Dresden in Germany: numbered standing points show where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -23,17 +23,26 @@
       }
     ],
     "country": "Germany",
-    "city": "Dresden"
+    "city": "Dresden",
+    "aliases": [
+      "Frauenkirche"
+    ],
+    "search_phrases": [
+      "dresden frauenkirche photos",
+      "dresden photos",
+      "dresden photography",
+      "dresden photo spots"
+    ]
   },
   {
     "slug": "bulguksa",
     "place": "Bulguksa",
-    "summary": "Three places to stand at Bulguksa Temple in Gyeongju, from the entrance gate to the terrace under the trees.",
+    "summary": "Bulguksa Temple photos: three places to stand in Gyeongju, South Korea, from a branch-framed hall to the foot of the stairs. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-06",
     "image": "/assets/maps/bulguksa/map.png",
     "pdf": "/maps/files/bulguksa/Xdatrys_Shot_Map_Bulguksa.pdf",
-    "alt": "Shot map of Bulguksa in Gyeongju, South Korea, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Bulguksa in Gyeongju, South Korea: numbered standing points show where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -49,17 +58,22 @@
       }
     ],
     "country": "South Korea",
-    "city": "Gyeongju"
+    "city": "Gyeongju",
+    "aliases": [],
+    "search_phrases": [
+      "bulguksa temple photos",
+      "bulguksa photos"
+    ]
   },
   {
     "slug": "bora-bora",
     "place": "Bora Bora",
-    "summary": "Where to stand on Motu Tapu in Bora Bora for the sunset crowd shot, and a taste of the full Pocket Scout guide.",
+    "summary": "Bora Bora photos: where to stand on Motu Tapu in French Polynesia for the sunset crowd shot, 100 ft back from the water. Free shot map from Xdatrys, with a tip.",
     "guide": "French Polynesia",
     "date": "2026-10-06",
     "image": "/assets/maps/bora-bora/map.png",
     "pdf": "/maps/files/bora-bora/Xdatrys_Shot_Map_Bora_Bora.pdf",
-    "alt": "Shot map of Bora Bora in French Polynesia, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Bora Bora in French Polynesia: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -67,17 +81,22 @@
       }
     ],
     "country": "French Polynesia",
-    "city": "Bora Bora"
+    "city": "Bora Bora",
+    "aliases": [],
+    "search_phrases": [
+      "bora bora photos",
+      "bora bora photography"
+    ]
   },
   {
     "slug": "glico",
     "place": "Glico Sign",
-    "summary": "One place to stand for the Glico sign on the Dotonbori canal in Osaka.",
+    "summary": "Glico Sign photo spot in Osaka, Japan: where to stand on the Dotonbori canal, and why to come back by day for a new angle. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-12",
     "image": "/assets/maps/glico/map.png",
     "pdf": "/maps/files/glico/Xdatrys_Shot_Map_Glico_Sign.pdf",
-    "alt": "Shot map of Glico Sign in Osaka, Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Glico Sign in Osaka, Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -85,17 +104,25 @@
       }
     ],
     "country": "Japan",
-    "city": "Osaka"
+    "city": "Osaka",
+    "aliases": [
+      "Dotonbori"
+    ],
+    "search_phrases": [
+      "glico sign photo spot",
+      "best views in osaka",
+      "best photo spots in osaka"
+    ]
   },
   {
     "slug": "osaka-castle",
     "place": "Osaka Castle",
-    "summary": "One place to stand for the main keep of Osaka Castle, away from the crowd.",
+    "summary": "Osaka Castle photo spot in Osaka, Japan: where to stand for the main keep away from the crowd. Crouch low and let a bush hide the people. Free shot map.",
     "guide": "",
     "date": "2026-10-12",
     "image": "/assets/maps/osaka-castle/map.png",
     "pdf": "/maps/files/osaka-castle/Xdatrys_Shot_Map_Osaka_Castle.pdf",
-    "alt": "Shot map of Osaka Castle in Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Osaka Castle in Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -103,17 +130,26 @@
       }
     ],
     "country": "Japan",
-    "city": "Osaka"
+    "city": "Osaka",
+    "aliases": [],
+    "search_phrases": [
+      "osaka castle photo spot",
+      "osaka castle photos",
+      "osaka castle photography",
+      "osaka castle photo ideas",
+      "best views in osaka",
+      "best photo spots in osaka"
+    ]
   },
   {
     "slug": "mayreau-beach",
     "place": "Mayreau Beach",
-    "summary": "Stand under the tree on Mayreau Beach and frame the sea and the anchored ship through the leaves.",
+    "summary": "Mayreau Beach photos: stand under the tree in the Grenadines and frame the sea and the anchored ship through the leaves. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-14",
     "image": "/assets/maps/mayreau-beach/map.png",
     "pdf": "/maps/files/mayreau-beach/Xdatrys_Shot_Map_Mayreau_Beach.pdf",
-    "alt": "Shot map of Mayreau Beach in Saint Vincent and the Grenadines, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Mayreau Beach in Saint Vincent and the Grenadines: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -121,17 +157,23 @@
       }
     ],
     "country": "Saint Vincent and the Grenadines",
-    "city": "Mayreau"
+    "city": "Mayreau",
+    "aliases": [
+      "Mayreau"
+    ],
+    "search_phrases": [
+      "mayreau beach photos"
+    ]
   },
   {
     "slug": "fushimi-inari",
     "place": "Fushimi Inari Taisha",
-    "summary": "Where to stand at Fushimi Inari Taisha in Kyoto to frame the main gate without the crowd.",
+    "summary": "Fushimi Inari Taisha photos: where to stand in Kyoto, Japan, to frame the main gate without the crowd, one step right of the torii. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-15",
     "image": "/assets/maps/fushimi-inari/map.png",
     "pdf": "/maps/files/fushimi-inari/Xdatrys_Shot_Map_Fushimi_Inari_Taisha.pdf",
-    "alt": "Shot map of Fushimi Inari Taisha in Kyoto, Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Fushimi Inari Taisha in Kyoto, Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -139,53 +181,83 @@
       }
     ],
     "country": "Japan",
-    "city": "Kyoto"
+    "city": "Kyoto",
+    "aliases": [
+      "Fushimi Inari Shrine",
+      "Fushimi Inari"
+    ],
+    "search_phrases": [
+      "fushimi inari photos",
+      "fushimi inari taisha photos",
+      "fushimi inari photo ideas",
+      "fushimi inari photography",
+      "fushimi inari photo spot",
+      "best views in kyoto",
+      "best photo spots in kyoto"
+    ]
   },
   {
     "slug": "lindisfarne",
     "place": "Lindisfarne",
-    "summary": "Where to stand on Holy Island to photograph the priory and the bay.",
+    "summary": "Lindisfarne photos: where to stand on Holy Island, England, to photograph the priory and the bay, facing the bay. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-15",
     "image": "/assets/maps/lindisfarne/map.png",
     "pdf": "/maps/files/lindisfarne/Xdatrys_Shot_Map_Lindisfarne.pdf",
-    "alt": "Shot map of Lindisfarne in Holy Island, United Kingdom, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Lindisfarne in Holy Island, England: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Face the bay. Keep the priory in frame."
       }
     ],
-    "country": "United Kingdom",
-    "city": "Holy Island"
+    "country": "England",
+    "city": "Holy Island",
+    "aliases": [
+      "Holy Island",
+      "United Kingdom",
+      "UK"
+    ],
+    "search_phrases": [
+      "lindisfarne photos",
+      "lindisfarne photography"
+    ]
   },
   {
     "slug": "lindisfarne-harbour",
     "place": "Lindisfarne Harbour",
-    "summary": "One place to stand at Lindisfarne Harbour to photograph Lindisfarne Castle across the water.",
+    "summary": "Lindisfarne Harbour photos: one place to stand on Holy Island, England, to photograph Lindisfarne Castle across the water. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-16",
     "image": "/assets/maps/lindisfarne-harbour/map.png",
     "pdf": "/maps/files/lindisfarne-harbour/Xdatrys_Shot_Map_Lindisfarne_Harbour.pdf",
-    "alt": "Shot map of Lindisfarne Harbour in Holy Island, United Kingdom, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Lindisfarne Harbour in Holy Island, England: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Shoot it from the harbour."
       }
     ],
-    "country": "United Kingdom",
-    "city": "Holy Island"
+    "country": "England",
+    "city": "Holy Island",
+    "aliases": [
+      "Lindisfarne Castle",
+      "United Kingdom",
+      "UK"
+    ],
+    "search_phrases": [
+      "lindisfarne harbour photos"
+    ]
   },
   {
     "slug": "nagasaki-peace-statue",
     "place": "Nagasaki Peace Statue",
-    "summary": "Where to stand in Nagasaki Peace Park to frame the Peace Statue with a branch.",
+    "summary": "Nagasaki Peace Statue photos: where to stand in Nagasaki Peace Park, Japan, to step aside and frame the statue with a branch. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-17",
     "image": "/assets/maps/nagasaki-peace-statue/map.png",
     "pdf": "/maps/files/nagasaki-peace-statue/Xdatrys_Shot_Map_Nagasaki_Peace_Statue.pdf",
-    "alt": "Shot map of Nagasaki Peace Statue in Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Nagasaki Peace Statue in Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -193,17 +265,23 @@
       }
     ],
     "country": "Japan",
-    "city": "Nagasaki"
+    "city": "Nagasaki",
+    "aliases": [
+      "Nagasaki Peace Park"
+    ],
+    "search_phrases": [
+      "nagasaki peace park photos"
+    ]
   },
   {
     "slug": "shibuya-scramble-crossing",
     "place": "Shibuya Scramble Crossing",
-    "summary": "Where to stand at Shibuya Scramble Crossing, Tokyo, and the one setting that turns the crowd into motion.",
+    "summary": "Shibuya Scramble Crossing photo spot in Tokyo, Japan: where to stand, and the one setting that turns the crowd into motion. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-18",
     "image": "/assets/maps/shibuya-scramble-crossing/map.png",
     "pdf": "/maps/files/shibuya-scramble-crossing/Xdatrys_Shot_Map_Shibuya_Scramble_Crossing.pdf",
-    "alt": "Shot map of Shibuya Scramble Crossing in Tokyo, Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Shibuya Scramble Crossing in Tokyo, Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -211,17 +289,25 @@
       }
     ],
     "country": "Japan",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "aliases": [],
+    "search_phrases": [
+      "shibuya scramble crossing photo spot",
+      "shibuya scramble crossing photos",
+      "shibuya scramble crossing photography",
+      "best views in tokyo",
+      "best photo spots in tokyo"
+    ]
   },
   {
     "slug": "kadriorg-palace",
     "place": "Kadriorg Palace",
-    "summary": "Where to stand at Kadriorg Palace in Tallinn, and the one framing trick that adds depth.",
+    "summary": "Kadriorg Palace photos: where to stand in Tallinn, Estonia, and the one framing trick that adds depth, shooting through the gates. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-18",
     "image": "/assets/maps/kadriorg-palace/map.png",
     "pdf": "/maps/files/kadriorg-palace/Xdatrys_Shot_Map_Kadriorg_Palace.pdf",
-    "alt": "Shot map of Kadriorg Palace in Tallinn, Estonia, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Kadriorg Palace in Tallinn, Estonia: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -229,17 +315,22 @@
       }
     ],
     "country": "Estonia",
-    "city": "Tallinn"
+    "city": "Tallinn",
+    "aliases": [],
+    "search_phrases": [
+      "kadriorg palace photos",
+      "best views in tallinn"
+    ]
   },
   {
     "slug": "columbus-circle",
     "place": "Columbus Circle",
-    "summary": "Where to stand at Columbus Circle in New York, and the one setting that freezes a moving cyclist.",
+    "summary": "Columbus Circle photos: where to stand in New York (NYC) and the one setting that freezes a moving cyclist in the frame. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-19",
     "image": "/assets/maps/columbus-circle/map.png",
     "pdf": "/maps/files/columbus-circle/Xdatrys_Shot_Map_Columbus_Circle.pdf",
-    "alt": "Shot map of Columbus Circle in New York, United States, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Columbus Circle in New York, the United States: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -247,17 +338,24 @@
       }
     ],
     "country": "United States",
-    "city": "New York"
+    "city": "New York",
+    "aliases": [
+      "United States",
+      "USA"
+    ],
+    "search_phrases": [
+      "columbus circle photos"
+    ]
   },
   {
     "slug": "seaside-oregon",
     "place": "Seaside",
-    "summary": "Where to stand on Broadway in Seaside, Oregon, to photograph the Art Deco buildings and the Funland sign.",
+    "summary": "Seaside Oregon photos: where to stand on Broadway to photograph the Art Deco buildings and the Funland sign, looking up above the street. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/seaside-oregon/map.png",
     "pdf": "/maps/files/seaside-oregon/Xdatrys_Shot_Map_Seaside.pdf",
-    "alt": "Shot map of Seaside in United States, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Seaside in Oregon: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -265,71 +363,113 @@
       }
     ],
     "country": "United States",
-    "city": "Seaside"
+    "city": "Seaside",
+    "aliases": [
+      "Seaside Oregon",
+      "United States",
+      "USA"
+    ],
+    "search_phrases": [
+      "seaside oregon photos",
+      "seaside photos",
+      "seaside photography"
+    ],
+    "title_geo": "Oregon"
   },
   {
     "slug": "edinburgh-castle",
     "place": "Edinburgh Castle",
-    "summary": "Where to stand to photograph Edinburgh Castle without the crowds, a few steps sideways from the usual spot.",
+    "summary": "Edinburgh Castle photo spots: where to stand in Scotland, a few steps sideways from the usual spot, for the castle without crowds. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/edinburgh-castle/map.png",
     "pdf": "/maps/files/edinburgh-castle/Xdatrys_Shot_Map_Edinburgh_Castle.pdf",
-    "alt": "Shot map of Edinburgh Castle in United Kingdom, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Edinburgh Castle in Scotland: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Step sideways, away from the crowd."
       }
     ],
-    "country": "United Kingdom",
-    "city": "Edinburgh"
+    "country": "Scotland",
+    "city": "Edinburgh",
+    "aliases": [
+      "United Kingdom",
+      "UK"
+    ],
+    "search_phrases": [
+      "edinburgh castle photo spots",
+      "edinburgh castle photos",
+      "edinburgh castle photography",
+      "edinburgh castle photo ideas",
+      "best views in edinburgh",
+      "best photo spots in edinburgh"
+    ]
   },
   {
     "slug": "edinburgh-archway",
     "place": "Edinburgh Archway",
-    "summary": "Where to stand to photograph this archway in Edinburgh, a few steps forward from the usual spot.",
+    "summary": "Edinburgh Archway, Scotland: one of the best photo spots in Edinburgh. Step a few steps forward from the usual spot so the arch gains depth. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/edinburgh-archway/map.png",
     "pdf": "/maps/files/edinburgh-archway/Xdatrys_Shot_Map_Edinburgh_Archway.pdf",
-    "alt": "Shot map of Edinburgh Archway in United Kingdom, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Edinburgh Archway in Scotland: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Step forward. The arch gains depth."
       }
     ],
-    "country": "United Kingdom",
-    "city": "Edinburgh"
+    "country": "Scotland",
+    "city": "Edinburgh",
+    "aliases": [
+      "photo spots in Edinburgh",
+      "United Kingdom",
+      "UK"
+    ],
+    "search_phrases": [
+      "best photo spots in edinburgh",
+      "best views in edinburgh"
+    ]
   },
   {
     "slug": "edinburgh-sun-trick",
     "place": "Edinburgh Sun Trick",
-    "summary": "Where to stand in Edinburgh to let the low sun cut sideways across the stone.",
+    "summary": "Edinburgh Sun Trick: one of the best photo spots in Edinburgh, Scotland. Stand where the low sun cuts sideways across the stone. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/edinburgh-sun-trick/map.png",
     "pdf": "/maps/files/edinburgh-sun-trick/Xdatrys_Shot_Map_Edinburgh_Sun_Trick.pdf",
-    "alt": "Shot map of Edinburgh Sun Trick in United Kingdom, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Edinburgh Sun Trick in Scotland: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Let the sun cut sideways across stone."
       }
     ],
-    "country": "United Kingdom",
-    "city": "Edinburgh"
+    "country": "Scotland",
+    "city": "Edinburgh",
+    "aliases": [
+      "photo spots in Edinburgh",
+      "Edinburgh photo",
+      "United Kingdom",
+      "UK"
+    ],
+    "search_phrases": [
+      "best photo spots in edinburgh",
+      "best views in edinburgh"
+    ]
   },
   {
     "slug": "dresden-cathedral",
     "place": "Dresden Cathedral",
-    "summary": "Where to stand to photograph Dresden Cathedral from the Elbe riverbank, best after dark.",
+    "summary": "Dresden Cathedral photos: where to stand on the Elbe riverbank in Germany to photograph the Frauenkirche, best after dark. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/dresden-cathedral/map.png",
     "pdf": "/maps/files/dresden-cathedral/Xdatrys_Shot_Map_Dresden_Cathedral.pdf",
-    "alt": "Shot map of Dresden Cathedral in Germany, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Dresden Cathedral in Germany: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -337,17 +477,23 @@
       }
     ],
     "country": "Germany",
-    "city": "Dresden"
+    "city": "Dresden",
+    "aliases": [
+      "Frauenkirche"
+    ],
+    "search_phrases": [
+      "dresden cathedral photos"
+    ]
   },
   {
     "slug": "bergen",
     "place": "Bergen",
-    "summary": "Where to stand by the harbour in Bergen, Norway, to feature the rain and bring bright color into the frame.",
+    "summary": "Bergen photo spots in Norway: where to stand by the harbour to feature the rain and add bright colour to the frame. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/bergen/map.png",
     "pdf": "/maps/files/bergen/Xdatrys_Shot_Map_Bergen.pdf",
-    "alt": "Shot map of Bergen in Norway, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Bergen in Norway: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -355,17 +501,24 @@
       }
     ],
     "country": "Norway",
-    "city": "Bergen"
+    "city": "Bergen",
+    "aliases": [],
+    "search_phrases": [
+      "bergen photo spots",
+      "bergen photos",
+      "bergen photography",
+      "best views in bergen"
+    ]
   },
   {
     "slug": "daigoji-temple",
     "place": "Daigo-ji Temple",
-    "summary": "Where to stand at Daigo-ji Temple in Kyoto, Japan, for the photo spots most visitors almost miss.",
+    "summary": "Daigo-ji Temple photos (Daigoji): where to stand in Kyoto, Japan, for the spots most visitors almost miss, with a second look at the temple. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/daigoji-temple/map.png",
     "pdf": "/maps/files/daigoji-temple/Xdatrys_Shot_Map_Daigo-ji_Temple.pdf",
-    "alt": "Shot map of Daigo-ji Temple in Kyoto, Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Daigo-ji Temple in Kyoto, Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -373,17 +526,26 @@
       }
     ],
     "country": "Japan",
-    "city": "Kyoto"
+    "city": "Kyoto",
+    "aliases": [
+      "Daigo-ji",
+      "Daigoji"
+    ],
+    "search_phrases": [
+      "daigo-ji photos",
+      "best views in kyoto",
+      "best photo spots in kyoto"
+    ]
   },
   {
     "slug": "kobe-meriken-park",
     "place": "Meriken Park, Kobe",
-    "summary": "Where to stand at the Meriken Park fountains in Kobe, Japan, with the Kobe Port Tower, for a long exposure photo.",
+    "summary": "Meriken Park, Kobe photos: where to stand at the fountains with the Kobe Port Tower, Japan, for a long exposure photo. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/kobe-meriken-park/map.png",
     "pdf": "/maps/files/kobe-meriken-park/Xdatrys_Shot_Map_Meriken_Park,_Kobe.pdf",
-    "alt": "Shot map of Meriken Park, Kobe in Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Meriken Park, Kobe in Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -391,17 +553,21 @@
       }
     ],
     "country": "Japan",
-    "city": "Kobe"
+    "city": "Kobe",
+    "aliases": [],
+    "search_phrases": [
+      "meriken park photos"
+    ]
   },
   {
     "slug": "manuel-antonio-beach",
     "place": "Manuel Antonio Beach",
-    "summary": "Where to stand on the beach near Quepos and Manuel Antonio on the Pacific coast of Costa Rica.",
+    "summary": "Manuel Antonio Beach photos: where to stand on the beach near Quepos on the Pacific coast of Costa Rica. Free shot map from Xdatrys with where-to-stand tips.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/manuel-antonio-beach/map.png",
     "pdf": "/maps/files/manuel-antonio-beach/Xdatrys_Shot_Map_Manuel_Antonio_Beach.pdf",
-    "alt": "Shot map of Manuel Antonio Beach in Costa Rica, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Manuel Antonio Beach in Costa Rica: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -409,17 +575,23 @@
       }
     ],
     "country": "Costa Rica",
-    "city": "Manuel Antonio"
+    "city": "Manuel Antonio",
+    "aliases": [
+      "Manuel Antonio"
+    ],
+    "search_phrases": [
+      "manuel antonio beach photos"
+    ]
   },
   {
     "slug": "marina-del-rey",
     "place": "Marina del Rey",
-    "summary": "Where to stand in Marina del Rey, Los Angeles, to shoot sharp phone photos using the volume button as the shutter.",
+    "summary": "Marina del Rey photo locations: where to stand in Los Angeles, California, to shoot sharp phone photos, using the volume button as the shutter. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/marina-del-rey/map.png",
     "pdf": "/maps/files/marina-del-rey/Xdatrys_Shot_Map_Marina_del_Rey.pdf",
-    "alt": "Shot map of Marina del Rey in United States, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Marina del Rey in California: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -427,53 +599,83 @@
       }
     ],
     "country": "United States",
-    "city": "Marina del Rey"
+    "city": "Marina del Rey",
+    "aliases": [
+      "United States",
+      "USA"
+    ],
+    "search_phrases": [
+      "marina del rey photo locations",
+      "marina del rey photos",
+      "marina del rey photography"
+    ],
+    "title_geo": "California"
   },
   {
     "slug": "prague-castle",
     "place": "Prague Castle",
-    "summary": "Where to stand near Charles Bridge in Prague to find a new angle on Prague Castle.",
+    "summary": "Prague Castle photo spots: where to stand near Charles Bridge in Prague, Czech Republic, to find a new angle on the castle. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/prague-castle/map.png",
     "pdf": "/maps/files/prague-castle/Xdatrys_Shot_Map_Prague_Castle.pdf",
-    "alt": "Shot map of Prague Castle in Czechia, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Prague Castle in the Czech Republic: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Find a new angle on the castle."
       }
     ],
-    "country": "Czechia",
-    "city": "Prague"
+    "country": "Czech Republic",
+    "city": "Prague",
+    "aliases": [
+      "Czechia"
+    ],
+    "search_phrases": [
+      "prague castle photo spots",
+      "prague castle photos",
+      "prague castle photography",
+      "prague castle photo ideas",
+      "best views in prague",
+      "best photo spots in prague"
+    ]
   },
   {
     "slug": "cesky-krumlov",
     "place": "Cesky Krumlov",
-    "summary": "Where to stand in Cesky Krumlov, Czechia, where one step sideways changes the photo.",
+    "summary": "Cesky Krumlov photo spot in the Czech Republic: where to stand in town, where one step sideways changes the whole photo. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/cesky-krumlov/map.png",
     "pdf": "/maps/files/cesky-krumlov/Xdatrys_Shot_Map_Cesky_Krumlov.pdf",
-    "alt": "Shot map of Cesky Krumlov in Czechia, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Cesky Krumlov in the Czech Republic: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "One step sideways changes everything."
       }
     ],
-    "country": "Czechia",
-    "city": "Cesky Krumlov"
+    "country": "Czech Republic",
+    "city": "Cesky Krumlov",
+    "aliases": [
+      "Czech Krumlov",
+      "Český Krumlov",
+      "Czechia"
+    ],
+    "search_phrases": [
+      "cesky krumlov photo spot",
+      "cesky krumlov. photography"
+    ]
   },
   {
     "slug": "stockholm-parliament",
     "place": "Stockholm Parliament",
-    "summary": "Where to stand by the quay in Stockholm to photograph the Parliament House.",
+    "summary": "Stockholm Parliament photo spots: where to stand by the quay in Stockholm, Sweden, to photograph the Parliament Building from a new angle. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/stockholm-parliament/map.png",
     "pdf": "/maps/files/stockholm-parliament/Xdatrys_Shot_Map_Stockholm_Parliament.pdf",
-    "alt": "Shot map of Stockholm Parliament in Sweden, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Stockholm Parliament in Sweden: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -481,17 +683,23 @@
       }
     ],
     "country": "Sweden",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "aliases": [],
+    "search_phrases": [
+      "stockholm photo spots",
+      "best views in stockholm",
+      "best photo spots in stockholm"
+    ]
   },
   {
     "slug": "salzburg-richterhoehe",
     "place": "Salzburg Richterhoehe",
-    "summary": "Where to stand on the Monchsberg path near Richterhoehe in Salzburg, Austria, for a view of the fortress.",
+    "summary": "Salzburg Richterhoehe photo spots: where to stand on the Monchsberg path in Salzburg, Austria, for a view of the fortress. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/salzburg-richterhoehe/map.png",
     "pdf": "/maps/files/salzburg-richterhoehe/Xdatrys_Shot_Map_Salzburg_Richterhoehe.pdf",
-    "alt": "Shot map of Salzburg Richterhoehe in Austria, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Salzburg Richterhoehe in Austria: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -499,17 +707,26 @@
       }
     ],
     "country": "Austria",
-    "city": "Salzburg"
+    "city": "Salzburg",
+    "aliases": [
+      "Richterhoehe",
+      "Monchsberg"
+    ],
+    "search_phrases": [
+      "salzburg photo spots",
+      "best views in salzburg",
+      "best photo spots in salzburg"
+    ]
   },
   {
     "slug": "mozart-birthplace-salzburg",
     "place": "Mozart's Birthplace, Salzburg",
-    "summary": "Where to stand on Getreidegasse in Salzburg to photograph Mozart's birthplace without the crowds.",
+    "summary": "Mozart's Birthplace, Salzburg photo spots: where to stand on Getreidegasse in Austria to photograph the house without the crowds. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/mozart-birthplace-salzburg/map.png",
     "pdf": "/maps/files/mozart-birthplace-salzburg/Xdatrys_Shot_Map_Mozart's_Birthplace,_Salzburg.pdf",
-    "alt": "Shot map of Mozart's Birthplace, Salzburg in Austria, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Mozart's Birthplace, Salzburg in Austria: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -517,17 +734,26 @@
       }
     ],
     "country": "Austria",
-    "city": "Salzburg"
+    "city": "Salzburg",
+    "aliases": [
+      "Mozart Birthplace",
+      "Mozarts Birthplace"
+    ],
+    "search_phrases": [
+      "mozart's birthplace salzburg",
+      "best views in salzburg",
+      "best photo spots in salzburg"
+    ]
   },
   {
     "slug": "little-mermaid-copenhagen",
     "place": "The Little Mermaid, Copenhagen",
-    "summary": "Where to stand on Langelinie in Copenhagen to photograph the Little Mermaid without the tourist shot.",
+    "summary": "The Little Mermaid, Copenhagen: Little Mermaid statue photo spots on Langelinie in Denmark. Skip the tourist shot and frame it differently. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/little-mermaid-copenhagen/map.png",
     "pdf": "/maps/files/little-mermaid-copenhagen/Xdatrys_Shot_Map_The_Little_Mermaid,_Copenhagen.pdf",
-    "alt": "Shot map of The Little Mermaid, Copenhagen in Denmark, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of The Little Mermaid, Copenhagen in Denmark: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -535,17 +761,27 @@
       }
     ],
     "country": "Denmark",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "aliases": [
+      "Little Mermaid",
+      "The Little Mermaid"
+    ],
+    "search_phrases": [
+      "little mermaid statue copenhagen",
+      "the little mermaid photos",
+      "best views in copenhagen",
+      "best photo spots in copenhagen"
+    ]
   },
   {
     "slug": "terre-de-haut",
     "place": "Terre-de-Haut, Guadeloupe",
-    "summary": "Where to stand in the village of Terre-de-Haut on Les Saintes, Guadeloupe.",
+    "summary": "Terre-de-Haut, Guadeloupe photo spots: where to stand in the village of Terre de Haut on Les Saintes to find the island nobody photographs. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/terre-de-haut/map.png",
     "pdf": "/maps/files/terre-de-haut/Xdatrys_Shot_Map_Terre-de-Haut,_Guadeloupe.pdf",
-    "alt": "Shot map of Terre-de-Haut, Guadeloupe in Guadeloupe, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Terre-de-Haut, Guadeloupe in Guadeloupe: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -553,17 +789,23 @@
       }
     ],
     "country": "Guadeloupe",
-    "city": "Terre-de-Haut"
+    "city": "Terre-de-Haut",
+    "aliases": [
+      "Terre-de-Haut"
+    ],
+    "search_phrases": [
+      "terre de haut guadeloupe"
+    ]
   },
   {
     "slug": "lima-barranco-museum",
     "place": "Barranco Museum, Lima",
-    "summary": "Where to stand in a museum in Barranco, Lima, Peru, to find compositions others miss.",
+    "summary": "Barranco Museum, Lima photo spots in Peru: where to stand inside the museum to look long, shoot through the glass and find new compositions. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/lima-barranco-museum/map.png",
     "pdf": "/maps/files/lima-barranco-museum/Xdatrys_Shot_Map_Barranco_Museum,_Lima.pdf",
-    "alt": "Shot map of Barranco Museum, Lima in Peru, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Barranco Museum, Lima in Peru: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -571,35 +813,51 @@
       }
     ],
     "country": "Peru",
-    "city": "Lima"
+    "city": "Lima",
+    "aliases": [
+      "Barranco Museum",
+      "Museo Barranco"
+    ],
+    "search_phrases": [
+      "barranco lima museum",
+      "best views in lima"
+    ]
   },
   {
     "slug": "caernarfon-castle",
     "place": "Caernarfon Castle",
-    "summary": "Where to stand by the quay in Caernarfon, Wales, to photograph the castle.",
+    "summary": "Caernarfon Castle photos: where to stand by the quay in Wales to photograph the castle, and stop standing where everyone stands. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/caernarfon-castle/map.png",
     "pdf": "/maps/files/caernarfon-castle/Xdatrys_Shot_Map_Caernarfon_Castle.pdf",
-    "alt": "Shot map of Caernarfon Castle in United Kingdom, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Caernarfon Castle in Wales: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Stop standing where everyone stands."
       }
     ],
-    "country": "United Kingdom",
-    "city": "Caernarfon"
+    "country": "Wales",
+    "city": "Caernarfon",
+    "aliases": [
+      "United Kingdom",
+      "Caernarfon",
+      "UK"
+    ],
+    "search_phrases": [
+      "caernarfon castle photos"
+    ]
   },
   {
     "slug": "taos-pueblo",
     "place": "Taos Pueblo",
-    "summary": "Where to stand at Taos Pueblo in New Mexico to photograph it by moving your feet.",
+    "summary": "Taos Pueblo photography in New Mexico: where to stand to photograph the pueblo by moving your feet instead of editing. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/taos-pueblo/map.png",
     "pdf": "/maps/files/taos-pueblo/Xdatrys_Shot_Map_Taos_Pueblo.pdf",
-    "alt": "Shot map of Taos Pueblo in United States, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Taos Pueblo in New Mexico: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -607,17 +865,27 @@
       }
     ],
     "country": "United States",
-    "city": "Taos"
+    "city": "Taos",
+    "aliases": [
+      "United States",
+      "Taos",
+      "USA"
+    ],
+    "search_phrases": [
+      "taos pueblo photography",
+      "taos pueblo photos"
+    ],
+    "title_geo": "New Mexico"
   },
   {
     "slug": "moorea-mountain",
     "place": "Moorea Mountain",
-    "summary": "Where to stand on Moorea, French Polynesia, to frame the layers of green mountain.",
+    "summary": "Moorea Mountain view: where to stand on Moorea, French Polynesia, to frame the layers of green mountain. Free shot map from Xdatrys with where-to-stand tips.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/moorea-mountain/map.png",
     "pdf": "/maps/files/moorea-mountain/Xdatrys_Shot_Map_Moorea_Mountain.pdf",
-    "alt": "Shot map of Moorea Mountain in French Polynesia, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Moorea Mountain in French Polynesia: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -625,17 +893,24 @@
       }
     ],
     "country": "French Polynesia",
-    "city": "Moorea"
+    "city": "Moorea",
+    "aliases": [
+      "Moorea mountains",
+      "Moorea"
+    ],
+    "search_phrases": [
+      "moorea mountain view"
+    ]
   },
   {
     "slug": "cologne-cathedral",
     "place": "Cologne Cathedral",
-    "summary": "Where to stand by Domkloster in Cologne to photograph the cathedral from an angle most tourists miss.",
+    "summary": "Cologne Cathedral photography: where to stand by Domkloster in Cologne, Germany, to photograph the cathedral from an angle most tourists miss. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/cologne-cathedral/map.png",
     "pdf": "/maps/files/cologne-cathedral/Xdatrys_Shot_Map_Cologne_Cathedral.pdf",
-    "alt": "Shot map of Cologne Cathedral in Germany, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Cologne Cathedral in Germany: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -643,17 +918,23 @@
       }
     ],
     "country": "Germany",
-    "city": "Cologne"
+    "city": "Cologne",
+    "aliases": [],
+    "search_phrases": [
+      "cologne cathedral photography",
+      "cologne cathedral photos",
+      "cologne cathedral photo ideas"
+    ]
   },
   {
     "slug": "helsinki-cathedral",
     "place": "Helsinki Cathedral",
-    "summary": "Where to stand in Helsinki to photograph the cathedral with tourists hidden behind a foreground.",
+    "summary": "Helsinki Cathedral photos: where to stand in Helsinki, Finland, to photograph the cathedral with the tourists hidden behind a foreground. Free shot map.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/helsinki-cathedral/map.png",
     "pdf": "/maps/files/helsinki-cathedral/Xdatrys_Shot_Map_Helsinki_Cathedral.pdf",
-    "alt": "Shot map of Helsinki Cathedral in Finland, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Helsinki Cathedral in Finland: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -661,17 +942,22 @@
       }
     ],
     "country": "Finland",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "aliases": [],
+    "search_phrases": [
+      "helsinki cathedral photos",
+      "best views in helsinki"
+    ]
   },
   {
     "slug": "sibelius-monument",
     "place": "Sibelius Monument",
-    "summary": "Where to stand at the Sibelius Monument in Helsinki for a photograph you cannot take anywhere else.",
+    "summary": "Sibelius Monument photos: where to stand at the monument in Helsinki, Finland, for a photograph you cannot take anywhere else. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/sibelius-monument/map.png",
     "pdf": "/maps/files/sibelius-monument/Xdatrys_Shot_Map_Sibelius_Monument.pdf",
-    "alt": "Shot map of Sibelius Monument in Helsinki, Finland, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Sibelius Monument in Helsinki, Finland: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -679,17 +965,22 @@
       }
     ],
     "country": "Finland",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "aliases": [],
+    "search_phrases": [
+      "sibelius monument photos",
+      "best views in helsinki"
+    ]
   },
   {
     "slug": "little-island-new-york",
     "place": "Little Island, New York",
-    "summary": "Where to stand at Little Island on the Hudson in New York, and why you should turn around for the sunset.",
+    "summary": "Little Island, New York photos (Little Island NYC): where to stand on the Hudson, and why to turn around for the sunset. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/little-island-new-york/map.png",
     "pdf": "/maps/files/little-island-new-york/Xdatrys_Shot_Map_Little_Island,_New_York.pdf",
-    "alt": "Shot map of Little Island, New York in United States, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Little Island, New York in the United States: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -697,35 +988,54 @@
       }
     ],
     "country": "United States",
-    "city": "New York"
+    "city": "New York",
+    "aliases": [
+      "Little Island New York",
+      "Little Island",
+      "United States",
+      "USA"
+    ],
+    "search_phrases": [
+      "little island nyc photos",
+      "little island photos",
+      "little island photography"
+    ],
+    "title_geo": "New York"
   },
   {
     "slug": "st-magnus-cathedral-orkney",
     "place": "St Magnus Cathedral, Orkney",
-    "summary": "Where to stand at St Magnus Cathedral in Kirkwall, Orkney, to fix the composition by moving your feet.",
+    "summary": "St Magnus Cathedral, Orkney photos: where to stand in Kirkwall, Scotland, to fix the composition by moving your feet. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/st-magnus-cathedral-orkney/map.png",
     "pdf": "/maps/files/st-magnus-cathedral-orkney/Xdatrys_Shot_Map_St_Magnus_Cathedral,_Orkney.pdf",
-    "alt": "Shot map of St Magnus Cathedral, Orkney in Kirkwall, United Kingdom, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of St Magnus Cathedral, Orkney in Kirkwall, Scotland: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Correct the composition. Move your feet."
       }
     ],
-    "country": "United Kingdom",
-    "city": "Kirkwall"
+    "country": "Scotland",
+    "city": "Kirkwall",
+    "aliases": [
+      "United Kingdom",
+      "UK"
+    ],
+    "search_phrases": [
+      "st magnus cathedral photos"
+    ]
   },
   {
     "slug": "mariners-village",
     "place": "Mariners Village, Marina del Rey",
-    "summary": "Where to stand at Mariners Village in Marina del Rey, California, to find the frame within the frame.",
+    "summary": "Mariners Village, Marina del Rey photos: where to stand in California to find the frame within the frame. Free shot map from Xdatrys with where-to-stand tips.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/mariners-village/map.png",
     "pdf": "/maps/files/mariners-village/Xdatrys_Shot_Map_Mariners_Village,_Marina_del_Rey.pdf",
-    "alt": "Shot map of Mariners Village, Marina del Rey in United States, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Mariners Village, Marina del Rey in California: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -733,17 +1043,26 @@
       }
     ],
     "country": "United States",
-    "city": "Marina del Rey"
+    "city": "Marina del Rey",
+    "aliases": [
+      "United States",
+      "USA"
+    ],
+    "search_phrases": [
+      "mariners village marina del rey",
+      "mariners village photos"
+    ],
+    "title_geo": "California"
   },
   {
     "slug": "ronne-bornholm",
     "place": "Ronne, Bornholm",
-    "summary": "Where to stand in Ronne on Bornholm, Denmark, to let the church spire own the frame.",
+    "summary": "Ronne, Bornholm photo spots in Denmark: where to stand in Ronne town to pick one shape and let the church spire own the frame. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/ronne-bornholm/map.png",
     "pdf": "/maps/files/ronne-bornholm/Xdatrys_Shot_Map_Ronne,_Bornholm.pdf",
-    "alt": "Shot map of Ronne, Bornholm in Denmark, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Ronne, Bornholm in Denmark: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -751,17 +1070,24 @@
       }
     ],
     "country": "Denmark",
-    "city": "Ronne"
+    "city": "Ronne",
+    "aliases": [
+      "Rønne",
+      "Ronne"
+    ],
+    "search_phrases": [
+      "ronne bornholm"
+    ]
   },
   {
     "slug": "kyoto-station-matcha-beer",
     "place": "Kyoto Station Area",
-    "summary": "Where to try matcha green beer near Kyoto Station in Kyoto, Japan.",
+    "summary": "Kyoto Station Area, Japan: where to try Kyoto Station matcha green beer in Kyoto, with the exact spot on the map. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-23",
     "image": "/assets/maps/kyoto-station-matcha-beer/map.png",
     "pdf": "/maps/files/kyoto-station-matcha-beer/Xdatrys_Shot_Map_Kyoto_Station_Area.pdf",
-    "alt": "Shot map of Kyoto Station Area in Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Kyoto Station Area in Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -769,17 +1095,23 @@
       }
     ],
     "country": "Japan",
-    "city": "Kyoto"
+    "city": "Kyoto",
+    "aliases": [],
+    "search_phrases": [
+      "kyoto station matcha",
+      "best views in kyoto",
+      "best photo spots in kyoto"
+    ]
   },
   {
     "slug": "senso-ji",
     "place": "Senso-ji",
-    "summary": "Where to stand at Senso-ji in Tokyo: line up the statue's face with Skytree, within about 10 m of the pin.",
+    "summary": "Senso-ji Temple (Sensoji) photo spots in Tokyo, Japan: where to stand in Asakusa to line up the statue's face with Skytree. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-25",
     "image": "/assets/maps/senso-ji/map.png",
     "pdf": "/maps/files/senso-ji/Xdatrys_Shot_Map_Senso-ji.pdf",
-    "alt": "Shot map of Senso-ji in Tokyo, Japan, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Senso-ji in Tokyo, Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -787,17 +1119,29 @@
       }
     ],
     "country": "Japan",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "aliases": [
+      "Sensoji Temple",
+      "Sensoji"
+    ],
+    "search_phrases": [
+      "sensoji temple photo spots",
+      "sensoji temple photos",
+      "sensoji temple photography",
+      "sensoji temple photo ideas",
+      "best views in tokyo",
+      "best photo spots in tokyo"
+    ]
   },
   {
     "slug": "venice-beach",
     "place": "Venice Beach",
-    "summary": "One place to stand at Venice Beach in Los Angeles to fill the frame with colour.",
+    "summary": "Venice Beach photo spots in Los Angeles, California: one place to stand to fill the frame with colour. Free shot map from Xdatrys, with the exact position.",
     "guide": "",
     "date": "2026-10-26",
     "image": "/assets/maps/venice-beach/map.png",
     "pdf": "/maps/files/venice-beach/Xdatrys_Shot_Map_Venice_Beach.pdf",
-    "alt": "Shot map of Venice Beach in Los Angeles, United States, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Venice Beach in Los Angeles, the United States: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -805,35 +1149,57 @@
       }
     ],
     "country": "United States",
-    "city": "Los Angeles"
+    "city": "Los Angeles",
+    "aliases": [
+      "United States",
+      "USA"
+    ],
+    "search_phrases": [
+      "venice beach photo spots",
+      "venice beach photos",
+      "venice beach photography",
+      "best views in los angeles",
+      "best photo spots in los angeles"
+    ]
   },
   {
     "slug": "charles-bridge-prague",
     "place": "Charles Bridge",
-    "summary": "One place to stand at Charles Bridge in Prague to find a better angle on the bridge and the castle.",
+    "summary": "Charles Bridge photo spot in Prague, Czech Republic: one place to stand to find a better angle on the bridge and the castle. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-27",
     "image": "/assets/maps/charles-bridge-prague/map.png",
     "pdf": "/maps/files/charles-bridge-prague/Xdatrys_Shot_Map_Charles_Bridge.pdf",
-    "alt": "Shot map of Charles Bridge in Prague, Czechia, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Charles Bridge in Prague, the Czech Republic: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Find a better angle."
       }
     ],
-    "country": "Czechia",
-    "city": "Prague"
+    "country": "Czech Republic",
+    "city": "Prague",
+    "aliases": [
+      "Czechia"
+    ],
+    "search_phrases": [
+      "charles bridge photo spot",
+      "charles bridge photos",
+      "charles bridge photo ideas",
+      "charles bridge photography",
+      "best views in prague",
+      "best photo spots in prague"
+    ]
   },
   {
     "slug": "kinkaku-ji",
     "place": "Kinkaku-ji",
-    "summary": "Five places to stand at Kinkaku-ji, the Golden Pavilion in Kyoto, for photos without the crowd.",
+    "summary": "Kinkaku-ji photos (Kinkakuji, the Golden Pavilion): five places to stand in Kyoto, Japan, for photos without the crowd. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-10-28",
     "image": "/assets/maps/kinkaku-ji/map.png",
     "pdf": "/maps/files/kinkaku-ji/Xdatrys_Shot_Map_Kinkaku-ji.pdf",
-    "alt": "Shot map of Kinkaku-ji, the Golden Pavilion, in Kyoto, Japan, with five numbered camera positions around the pond and a pin on the pavilion.",
+    "alt": "Shot map of Kinkaku-ji in Kyoto, Japan: numbered standing points show where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -857,17 +1223,26 @@
       }
     ],
     "country": "Japan",
-    "city": "Kyoto"
+    "city": "Kyoto",
+    "aliases": [
+      "Kinkakuji",
+      "Golden Pavilion"
+    ],
+    "search_phrases": [
+      "kinkaku-ji photos",
+      "best views in kyoto",
+      "best photo spots in kyoto"
+    ]
   },
   {
     "slug": "kabukicho",
     "place": "Kabukicho",
-    "summary": "Where to stand in Kabukicho, Tokyo, to photograph the night traffic and billboards with a long exposure.",
+    "summary": "Kabukicho photo spot in Tokyo, Japan: where to stand to photograph the night traffic and bright billboards with a long exposure. Free shot map from Xdatrys.",
     "guide": "",
     "date": "2026-10-28",
     "image": "/assets/maps/kabukicho/map.png",
     "pdf": "/maps/files/kabukicho/Xdatrys_Shot_Map_Kabukicho.pdf",
-    "alt": "Shot map of Kabukicho in Tokyo, Japan, with the standing point at the Yasukuni Street crossing and a pin on the Kabukicho billboards.",
+    "alt": "Shot map of Kabukicho in Tokyo, Japan: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -875,17 +1250,25 @@
       }
     ],
     "country": "Japan",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "aliases": [],
+    "search_phrases": [
+      "kabukicho photo spot",
+      "kabukicho photos",
+      "kabukicho photography",
+      "best views in tokyo",
+      "best photo spots in tokyo"
+    ]
   },
   {
     "slug": "capilla-del-cristo",
     "place": "Capilla del Cristo",
-    "summary": "Where to stand to photograph the Capilla del Cristo in Old San Juan: let the cobbled street fill the foreground.",
+    "summary": "Capilla del Cristo photos in Old San Juan, Puerto Rico: where to stand to let the cobbled street fill the foreground. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-11-01",
     "image": "/assets/maps/capilla-del-cristo/map.png",
     "pdf": "/maps/files/capilla-del-cristo/Xdatrys_Shot_Map_Capilla_del_Cristo.pdf",
-    "alt": "Shot map of Capilla del Cristo in Old San Juan, Puerto Rico, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Capilla del Cristo in Old San Juan, Puerto Rico: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -893,17 +1276,21 @@
       }
     ],
     "country": "Puerto Rico",
-    "city": "Old San Juan"
+    "city": "Old San Juan",
+    "aliases": [],
+    "search_phrases": [
+      "capilla del cristo photos"
+    ]
   },
   {
     "slug": "gullfoss",
     "place": "Gullfoss Waterfall",
-    "summary": "Where to stand to photograph Gullfoss waterfall in Iceland: use long exposure to turn the falling water into silk.",
+    "summary": "Gullfoss Waterfall photography in Iceland: where to stand, and how long exposure turns the falling water into silk. Free shot map from Xdatrys, with a tip.",
     "guide": "",
     "date": "2026-11-01",
     "image": "/assets/maps/gullfoss/map.png",
     "pdf": "/maps/files/gullfoss/Xdatrys_Shot_Map_Gullfoss_Waterfall.pdf",
-    "alt": "Shot map of Gullfoss waterfall in Iceland, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Gullfoss Waterfall in Iceland: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
@@ -911,30 +1298,44 @@
       }
     ],
     "country": "Iceland",
-    "city": "Gullfoss"
+    "city": "Gullfoss",
+    "aliases": [
+      "Gullfoss"
+    ],
+    "search_phrases": [
+      "gullfoss waterfall photography",
+      "gullfoss waterfall photos"
+    ]
   },
   {
     "slug": "queen-emma-bridge",
     "place": "Queen Emma Bridge",
-    "summary": "One place to stand to photograph the Queen Emma Bridge in Willemstad, Curacao, with the bridge on the top gridline.",
+    "summary": "Queen Emma Bridge, Curaçao photos: one place to stand in Willemstad with the bridge on the top gridline. Free shot map from Xdatrys with where-to-stand tips.",
     "guide": "",
     "date": "2026-11-02",
     "image": "/assets/maps/queen-emma-bridge/map.png",
     "pdf": "/maps/files/queen-emma-bridge/Xdatrys_Shot_Map_Queen_Emma_Bridge.pdf",
-    "alt": "Shot map of Queen Emma Bridge in Willemstad, Curacao, showing where to stand to photograph it with a smartphone, with the standing point marked on the map.",
+    "alt": "Shot map of Queen Emma Bridge in Willemstad, Curaçao: the standing point shows where to stand to photograph it with a smartphone.",
     "tips": [
       {
         "n": 1,
         "tip": "Grid on: bridge on the top line."
       }
     ],
-    "country": "Curacao",
-    "city": "Willemstad"
+    "country": "Curaçao",
+    "city": "Willemstad",
+    "aliases": [
+      "Curacao"
+    ],
+    "search_phrases": [
+      "queen emma bridge curaçao",
+      "queen emma bridge photos"
+    ]
   },
   {
     "slug": "getty-villa",
     "place": "Getty Villa",
-    "summary": "Five spots to shoot the Getty Villa reflecting pool in Malibu: ripples, the whole pool, bronze figures, reflections. Stand within 10 m. Free map from Xdatrys.",
+    "summary": "Getty Villa photos in Malibu, California: five places to shoot the reflecting pool, from ripples to bronze figures. Free shot map from Xdatrys, with a tip.",
     "guide": "Los Angeles",
     "date": "2026-11-04",
     "image": "/assets/maps/getty-villa/map.png",
@@ -963,12 +1364,20 @@
       }
     ],
     "country": "United States",
-    "city": "Malibu"
+    "city": "Malibu",
+    "aliases": [
+      "United States",
+      "USA"
+    ],
+    "search_phrases": [
+      "getty villa photos",
+      "getty villa photography"
+    ]
   },
   {
     "slug": "fallingwater",
     "place": "Fallingwater",
-    "summary": "Five places to photograph Fallingwater, Frank Lloyd Wright's house in Pennsylvania, inside and out.",
+    "summary": "Fallingwater photos in Mill Run, Pennsylvania: five places to photograph Frank Lloyd Wright's house, inside and out. Free shot map from Xdatrys, with a tip.",
     "guide": "Pennsylvania",
     "date": "2026-11-05",
     "image": "/assets/maps/fallingwater/map.png",
@@ -999,12 +1408,20 @@
     "country": "United States",
     "city": "Mill Run",
     "image2": "/assets/maps/fallingwater/map2.png",
-    "alt2": "Simplified first-floor plan of Fallingwater with camera positions for the living room hearth, the statue passageway and the study"
+    "alt2": "Simplified first-floor plan of Fallingwater with camera positions for the living room hearth, the statue passageway and the study",
+    "aliases": [
+      "United States",
+      "USA"
+    ],
+    "search_phrases": [
+      "fallingwater photos",
+      "fallingwater photography"
+    ]
   },
   {
     "slug": "eiffel-tower",
     "place": "Eiffel Tower",
-    "summary": "Where to stand for the best Eiffel Tower photo in Paris: frame the tower with a tree branch near its base.",
+    "summary": "Eiffel Tower photo spots in Paris, France: where to stand for a tree-branch frame near the tower's base. Free shot map from Xdatrys with where-to-stand tips.",
     "guide": "Paris",
     "date": "2026-11-08",
     "image": "/assets/maps/eiffel-tower/map.png",
@@ -1017,7 +1434,19 @@
       }
     ],
     "country": "France",
-    "city": "Paris"
+    "city": "Paris",
+    "aliases": [
+      "Eifel Tower",
+      "Tour Eiffel"
+    ],
+    "search_phrases": [
+      "eiffel tower photo spots",
+      "eiffel tower photos",
+      "eiffel tower photo ideas",
+      "eiffel tower photography",
+      "best views in paris",
+      "best photo spots in paris"
+    ]
   },
   {
     "slug": "burj-khalifa",
@@ -1039,7 +1468,18 @@
       }
     ],
     "country": "United Arab Emirates",
-    "city": "Dubai"
+    "city": "Dubai",
+    "aliases": [
+      "Burj Kalifa",
+      "United Arab Emirates"
+    ],
+    "search_phrases": [
+      "burj khalifa photo spots",
+      "burj khalifa photos",
+      "burj khalifa photo spot",
+      "best views in dubai",
+      "best photo spots in dubai"
+    ]
   },
   {
     "slug": "machu-picchu",
@@ -1073,6 +1513,15 @@
       }
     ],
     "country": "Peru",
-    "city": "Machu Picchu"
+    "city": "Machu Picchu",
+    "aliases": [
+      "Machu Pichu",
+      "Macchu Picchu"
+    ],
+    "search_phrases": [
+      "machu picchu photo spots",
+      "machu picchu photography",
+      "machu picchu photo ideas"
+    ]
   }
 ]
