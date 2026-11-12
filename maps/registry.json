@@ -1580,5 +1580,41 @@
       "Machu Pichu",
       "Macchu Picchu"
     ]
+  },
+  {
+    "slug": "colosseum",
+    "place": "Colosseum",
+    "summary": "Colosseum, Rome, Italy photo spot: where to stand so the walls stay straight, and the closer spot that makes them lean. Free shot map from Xdatrys, with a tip.",
+    "guide": "Rome",
+    "date": "2026-11-11",
+    "image": "/assets/maps/colosseum/map.png",
+    "pdf": "/maps/files/colosseum/Xdatrys_Shot_Map_Colosseum.pdf",
+    "alt": "Map of the Colosseum in Rome: phone 1 north-north-east, too close and tilted up; phone 2 west-north-west, level",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Mistake: 90 m north-north-east, face south-south-west, tilted up"
+      },
+      {
+        "n": 2,
+        "tip": "Stand about 170 m west-north-west, face east-south-east, phone level"
+      }
+    ],
+    "country": "Italy",
+    "city": "Rome",
+    "aliases": [
+      "Roman Colosseum"
+    ],
+    "search_phrases": [
+      "colosseum photo spot",
+      "colosseum photos inside",
+      "colosseum photos today",
+      "colosseum photos at night",
+      "colosseum photos original",
+      "colosseum photoshoot",
+      "colosseum photos before and after",
+      "colosseum photo ideas"
+    ],
+    "misspellings": []
   }
 ]
