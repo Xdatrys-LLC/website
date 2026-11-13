@@ -1614,5 +1614,39 @@
     "misspellings": [
       "Coliseum"
     ]
+  },
+  {
+    "slug": "yellowstone",
+    "place": "Yellowstone National Park",
+    "summary": "Yellowstone National Park, Wyoming photo spot: where to stand for Old Faithful, framed by pines, not a crowded snapshot. Free shot map from Xdatrys, with a tip.",
+    "guide": "Yellowstone",
+    "date": "2026-11-12",
+    "image": "/assets/maps/yellowstone/map.png",
+    "pdf": "/maps/files/yellowstone/Xdatrys_Shot_Map_Yellowstone_National_Park.pdf",
+    "alt": "Map of Old Faithful in Yellowstone National Park: phone 1 on the Inn side, phone 2 further back, both facing north-east",
+    "tips": [
+      {
+        "n": 1,
+        "tip": "Snapshot: 120 m south-west, face north-east, crowd in front"
+      },
+      {
+        "n": 2,
+        "tip": "Stand about 200 m south-west, face north-east, pines on both sides"
+      }
+    ],
+    "country": "United States",
+    "city": "Wyoming",
+    "aliases": [],
+    "search_phrases": [
+      "yellowstone photo spots",
+      "yellowstone photos",
+      "yellowstone photography",
+      "yellowstone photography tour",
+      "yellowstone photography workshop",
+      "yellowstone photography guide",
+      "yellowstone photography prints",
+      "yellowstone photography tour winter"
+    ],
+    "misspellings": []
   }
 ]
