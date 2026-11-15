@@ -171,7 +171,8 @@
   <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
   <span id="hidden"></span>
 </div>
-<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
 <style>
 .xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
 .xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
@@ -180,20 +181,13 @@
 .xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
 .xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
 .xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
-.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
-.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
-.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
-@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
 </style>
-<div class="xd-app" aria-label="Xdatrys Maps app">
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
   <div class="in">
     <img src="/app/icon-192.png" alt="" width="52" height="52">
-    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
-    <a class="go" href="/app/m/florence/">Open in the app</a>
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with membership (coming soon).</span></div>
+    <a class="go" href="/#membership">See membership</a>
   </div>
-  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
-    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
-      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
 </div>
 <div id="wrap">
   <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Florence"></div>
