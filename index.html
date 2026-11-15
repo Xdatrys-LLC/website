@@ -257,7 +257,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
       <a class="btn btn-primary" href="/app/" style="background:#E100FF;border-color:#E100FF">📲 Get the map app</a>
       <a class="btn btn-ghost" href="#how">How it works</a>
     </div>
-    <p class="free-note"><strong>The first 3 spots on every map are free</strong>, with no account needed.</p>
+    <p class="free-note"><strong>3 spots on every map are free</strong>, with no account needed.</p>
   </div>
 </section>
 
@@ -290,7 +290,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
   <div class="wrap">
     <span class="eyebrow">From the map library</span>
     <h2 id="feat-h">Start with a favourite city</h2>
-    <p class="lead">Each map numbers its spots from the most searched down. The first three are open to everyone.</p>
+    <p class="lead">Each map numbers its spots from the most searched down. Three spots on every map are open to everyone.</p>
     <div class="grid" id="featured"></div>
     <div class="more-row"><a class="btn btn-ghost" href="/library/">See all <span id="mapCount">20</span> maps</a></div>
   </div>
@@ -391,7 +391,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
       </article>
 
     </div>
-    <p class="plans-foot">No payments are taken yet. Prices are in US dollars. Without membership, the first 3 spots on every map stay free.</p>
+    <p class="plans-foot">No payments are taken yet. Prices are in US dollars. Without membership, 3 spots on every map stay free.</p>
   </div>
 </section>
 
@@ -474,27 +474,27 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 /* Library list: slug and display name from pipeline/maps_config.py; top-3 spot names from preview_site/<slug>/spots.json
    (labels as of 2026-11-11). "spots" = number of spots on the map. "also" = other words a visitor might type. */
 var MAPS = [
-  {"slug": "amsterdam", "name": "Amsterdam", "country": "Netherlands", "spots": 20, "top": ["Anne Frank House and the Prinsengracht", "Rijksmuseum and Museumplein", "Vondelpark"], "also": "netherlands"},
+  {"slug": "amsterdam", "name": "Amsterdam", "country": "Netherlands", "spots": 20, "top": ["Anne Frank House and the Prinsengracht", "Rijksmuseum and Museumplein", "Westerkerk"], "also": "netherlands"},
   {"slug": "bali", "name": "Bali", "country": "Indonesia", "spots": 20, "top": ["Uluwatu Temple", "Seminyak Beach", "Mount Batur"], "also": "indonesia"},
-  {"slug": "barcelona", "name": "Barcelona", "country": "Spain", "spots": 20, "top": ["Sagrada Família", "Park Güell", "Barcelona Cathedral"], "also": "spain"},
+  {"slug": "barcelona", "name": "Barcelona", "country": "Spain", "spots": 20, "top": ["Sagrada Família", "Park Güell", "Casa Batlló"], "also": "spain"},
   {"slug": "dublin", "name": "Dublin", "country": "Ireland", "spots": 20, "top": ["Guinness Storehouse", "Trinity College: Front Square and the Long Room", "Kilmainham Gaol"], "also": "ireland"},
-  {"slug": "florence", "name": "Florence", "country": "Italy", "spots": 20, "top": ["Florence Cathedral (the Duomo)", "Uffizi", "Ponte Vecchio"], "also": "italy"},
+  {"slug": "florence", "name": "Florence", "country": "Italy", "spots": 20, "top": ["Florence Cathedral (the Duomo)", "Uffizi", "Giotto's Campanile"], "also": "italy"},
   {"slug": "italy", "name": "Italy", "country": "Italy", "spots": 20, "top": ["Colosseum, Rome", "Tre Cime di Lavaredo, Dolomites", "Positano, Amalfi Coast"], "also": "italy"},
   {"slug": "lisbon", "name": "Lisbon", "country": "Portugal", "spots": 20, "top": ["Belém Tower", "Jerónimos Monastery", "São Jorge Castle"], "also": "portugal"},
   {"slug": "london", "name": "London", "country": "United", "spots": 20, "top": ["Buckingham Palace", "Big Ben and the Houses of Parliament", "Tower of London"], "also": "united kingdom england"},
-  {"slug": "madrid", "name": "Madrid", "country": "Spain", "spots": 20, "top": ["Royal Palace of Madrid", "Puerta del Sol", "Mercado de San Miguel"], "also": "spain"},
-  {"slug": "milan", "name": "Milan", "country": "Italy", "spots": 20, "top": ["Milan Cathedral (the Duomo)", "Galleria Vittorio Emanuele II", "Sforza Castle"], "also": "italy"},
-  {"slug": "montreal", "name": "Montreal", "country": "Canada", "spots": 20, "top": ["Notre-Dame Basilica", "Mount Royal: Kondiaronk Belvedere", "Habitat 67"], "also": "canada quebec"},
+  {"slug": "madrid", "name": "Madrid", "country": "Spain", "spots": 20, "top": ["Royal Palace of Madrid", "Puerta del Sol", "Temple of Debod"], "also": "spain"},
+  {"slug": "milan", "name": "Milan", "country": "Italy", "spots": 20, "top": ["Milan Cathedral (the Duomo)", "Galleria Vittorio Emanuele II", "Duomo rooftop terraces"], "also": "italy"},
+  {"slug": "montreal", "name": "Montreal", "country": "Canada", "spots": 20, "top": ["Notre-Dame Basilica", "Mount Royal: Kondiaronk Belvedere", "Place d'Armes"], "also": "canada quebec"},
   {"slug": "naples", "name": "Naples", "country": "Italy", "spots": 20, "top": ["Galleria Umberto I", "Spaccanapoli", "Piazza del Plebiscito"], "also": "italy"},
   {"slug": "paris", "name": "Paris", "country": "France", "spots": 20, "top": ["Eiffel Tower", "Arc de Triomphe and the Champs-Élysées", "Louvre and its Pyramid"], "also": "france"},
-  {"slug": "prague", "name": "Prague", "country": "Czech", "spots": 20, "top": ["Prague Castle", "Charles Bridge", "Astronomical Clock"], "also": "czech republic czechia"},
+  {"slug": "prague", "name": "Prague", "country": "Czech", "spots": 20, "top": ["Prague Castle", "Charles Bridge", "St. Vitus Cathedral"], "also": "czech republic czechia"},
   {"slug": "rome", "name": "Rome", "country": "Italy", "spots": 20, "top": ["Colosseum", "Trevi Fountain", "St Peter's Basilica and Square"], "also": "italy"},
-  {"slug": "santafe", "name": "Santa Fe", "country": "United States", "spots": 20, "top": ["Loretto Chapel and its staircase", "Georgia O'Keeffe Museum", "Santa Fe Plaza"], "also": "new mexico united states usa"},
+  {"slug": "santafe", "name": "Santa Fe", "country": "United States", "spots": 20, "top": ["Loretto Chapel and its staircase", "Georgia O'Keeffe Museum", "La Fonda on the Plaza"], "also": "new mexico united states usa"},
   {"slug": "singapore", "name": "Singapore", "country": "Singapore", "spots": 20, "top": ["Marina Bay Sands", "Sentosa", "Gardens by the Bay and the Supertree Grove"], "also": "singapore"},
-  {"slug": "tokyo", "name": "Tokyo", "country": "Japan", "spots": 20, "top": ["Shibuya Crossing", "Tokyo Skytree", "Tokyo Tower"], "also": "japan"},
+  {"slug": "tokyo", "name": "Tokyo", "country": "Japan", "spots": 20, "top": ["Shibuya Crossing", "Tokyo Skytree", "Hachikō statue"], "also": "japan"},
   {"slug": "toronto", "name": "Toronto", "country": "Canada", "spots": 20, "top": ["CN Tower", "Casa Loma", "Royal Ontario Museum (the Crystal)"], "also": "canada"},
-  {"slug": "vancouver", "name": "Vancouver", "country": "Canada", "spots": 20, "top": ["Capilano Suspension Bridge", "Gastown and the Steam Clock", "Stanley Park and the Seawall"], "also": "canada"},
-  {"slug": "vatican", "name": "Vatican City", "country": "Vatican", "spots": 10, "top": ["St Peter's Basilica", "St Peter's Square and the colonnade", "Vatican Museums"], "also": "vatican city rome italy"}
+  {"slug": "vancouver", "name": "Vancouver", "country": "Canada", "spots": 20, "top": ["Capilano Suspension Bridge", "Gastown and the Steam Clock", "Vancouver Lookout (Harbour Centre)"], "also": "canada"},
+  {"slug": "vatican", "name": "Vatican City", "country": "Vatican", "spots": 10, "top": ["St Peter's Basilica", "Michelangelo's Pietà", "Dome of St Peter's (rooftop view)"], "also": "vatican city rome italy"}
 ];
 /* Featured: the six most-searched places in pipeline/data/top_searched.csv that have a map. */
 var FEATURED = ["paris","tokyo","rome","amsterdam","barcelona","singapore"];
@@ -523,12 +523,12 @@ function renderFeatured(){
   FEATURED.forEach(function(slug,i){
     var m=MAPS.filter(function(x){return x.slug===slug;})[0]; if(!m) return;
     var more=m.spots-3;
-    html+='<a class="mapcard" href="'+url(m)+'" aria-label="'+esc(m.name)+' photo spots map: '+m.spots+' spots, first 3 free">'+
+    html+='<a class="mapcard" href="'+url(m)+'" aria-label="'+esc(m.name)+' photo spots map: '+m.spots+' spots, 3 free">'+
       '<div class="top">'+cardArt(i)+'</div><div class="body">'+
       '<div class="meta">'+esc(m.country)+' · '+m.spots+' photo spots</div>'+
       '<h3>'+esc(m.name)+'</h3>'+
       '<ul class="spots">'+m.top.map(function(t,k){return '<li><span class="num" aria-hidden="true">'+(k+1)+'</span><span>'+esc(t)+'</span></li>';}).join("")+'</ul>'+
-      '<div class="free">First 3 spots free</div>'+
+      '<div class="free">3 spots free</div>'+
       '<div class="locked"><svg width="14" height="16" viewBox="0 0 14 16" aria-hidden="true"><rect x="1" y="7" width="12" height="8" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>'+
       more+' more spots for members</div></div></a>';
   });

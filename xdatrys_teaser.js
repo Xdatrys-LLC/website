@@ -82,7 +82,7 @@
       return "<div class='pop locked'><h3>" + s.rank + ". " + esc(s.name) + "</h3>" +
         "<p class='lockline'><span aria-hidden='true'>&#128274;</span> <b>Members only: membership coming soon</b></p>" +
         "<p>Where to stand, the phone tips, a photo and directions for this spot are part of Xdatrys membership. " +
-        "Spots 1 to " + MAP.teaser + " on this map are free for everyone.</p>" +
+        "Spots " + (MAP.freeText || ("1 to " + MAP.teaser)) + " on this map are free for everyone.</p>" +
         "<p>Get Pocket Lens, our free daily smartphone travel photography newsletter, and be the first to hear when membership opens.</p>" +
         "<p><a class='lockbtn' href='#join' onclick='XdTeaserClose()'>Join Pocket Lens (free)</a></p></div>";
     }
