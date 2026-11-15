@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "singapore", "title": "Singapore: 20 photo spots (pilot review)", "place": "Singapore", "bounds": [103.78, 1.24, 103.89, 1.33], "center": [103.83500000000001, 1.2850000000000001], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/singapore/{z}/{x}/{y}.pbf"};

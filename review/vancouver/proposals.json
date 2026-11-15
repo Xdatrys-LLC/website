@@ -1,0 +1,33 @@
+[
+ {
+  "name": "Gastown and the Steam Clock",
+  "note": "OSM node 703754423 for the clock; Commons photos of the clock geotagged 11-21 m east of it (dronepicr, Dietmar Rabich) (confidence medium-high)",
+  "stand_here": [
+   49.28432,
+   -123.1086
+  ],
+  "pin": [
+   49.284384,
+   -123.10889
+  ],
+  "rank": 2
+ },
+ {
+  "name": "Canada Place",
+  "rank": 4,
+  "stand_here": [
+   49.28674,
+   -123.11164
+  ],
+  "note": "Photo check: Commons photos of this subject were taken from 5 separate places centred here, 516 m from the current phone; 0 near the phone. The centre lands on a building (photos from both sides average out): drag the phone to the nearest bank or open ground. Check before keeping."
+ },
+ {
+  "name": "Science World",
+  "rank": 6,
+  "stand_here": [
+   49.2723875,
+   -123.1031625
+  ],
+  "note": "Photo check: Commons photos of this subject were taken from 8 separate places centred here, 856 m from the current phone; 0 near the phone. The centre lands on water (photos from both sides average out): drag the phone to the nearest bank or open ground. Check before keeping."
+ }
+]

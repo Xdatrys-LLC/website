@@ -1,0 +1,259 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Montreal: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Montreal attractions as photo spots, including Notre-Dame Basilica and Kondiaronk Belvedere. Where to stand, phone tips, directions. First 3 free.">
+<meta name="keywords" content="things to do in montreal, montreal attractions, montreal tourist map, best views in montreal, map of montreal attractions, best photo spots in montreal, notre-dame basilica, mount royal, habitat 67">
+<link rel="canonical" href="https://xdatrys.com/library/montreal/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Montreal: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Montreal attractions as photo spots, including Notre-Dame Basilica and Kondiaronk Belvedere. Where to stand, phone tips, directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/montreal/">
+<meta property="og:image" content="https://xdatrys.com/library/montreal/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="429">
+<meta property="og:image:alt" content="Notre-Dame Basilica, Montreal: the great Gothic Revival church of Old Montreal. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/montreal/","url":"https://xdatrys.com/library/montreal/","name":"Things to Do in Montreal: Map of 20 Photo Spots | Xdatrys","description":"20 top Montreal attractions as photo spots, including Notre-Dame Basilica and Kondiaronk Belvedere. Where to stand, phone tips, directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/montreal/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Montreal","alternateName":["Montréal"]},"mainEntity":{"@type":"ItemList","name":"Montreal photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Notre-Dame Basilica","description":"Notre-Dame Basilica is the great Gothic Revival church of Old Montreal, standing at 110 Notre-Dame Street West and facing the Place d'Armes square.","geo":{"@type":"GeoCoordinates","latitude":45.5044406,"longitude":-73.5560015},"image":"https://xdatrys.com/library/montreal/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Mount Royal: Kondiaronk Belvedere","description":"Kondiaronk Belvedere is a viewing terrace on Mount Royal, the green hill that rises above central Montreal.","geo":{"@type":"GeoCoordinates","latitude":45.5035328,"longitude":-73.58705},"alternateName":["Mount Royal","Mont Royal","Mount Royal Lookout"],"image":"https://xdatrys.com/library/montreal/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Habitat 67","description":"Habitat 67 is a stack of concrete boxes beside the Saint Lawrence River, and it looks like nothing else in Montreal.","geo":{"@type":"GeoCoordinates","latitude":45.4998732,"longitude":-73.5436434},"image":"https://xdatrys.com/library/montreal/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/montreal/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Montreal","item":"https://xdatrys.com/library/montreal/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Montreal?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Notre-Dame Basilica, Kondiaronk Belvedere and Habitat 67. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Notre-Dame Basilica?","acceptedAnswer":{"@type":"Answer","text":"Stand about 95 m north-west of Notre-Dame Basilica, on the far side of Place d'Armes near Rue Saint-Jacques (the phone icon on the map), and face south-east across the square. Use the ultra-wide (0.5x) for the facade from close range and for the sweep of the interior."}},{"@type":"Question","name":"When is the best time to photograph Kondiaronk Belvedere?","acceptedAnswer":{"@type":"Answer","text":"Clear daylight gives the sharpest view. Late afternoon or early evening often has softer light, and after sunset night mode can capture the city lights."}},{"@type":"Question","name":"How do I get to Habitat 67?","acceptedAnswer":{"@type":"Answer","text":"The nearest stations are Place-d'Armes Métro station (Orange line) and Champ-de-Mars Métro station (Orange line)."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Montreal</div>
+<div class="head">
+  <h1>20 photo spots in Montreal: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/montreal/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Montreal"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Montreal as photo spots, ranked by how often people search for them: Notre-Dame Basilica, Kondiaronk Belvedere, Habitat 67, Olympic Stadium and Botanical Garden lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Notre-Dame Basilica</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Montr%C3%A9al_Basilica_August_2017_05.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Notre-Dame Basilica, Montreal: the great Gothic Revival church of Old Montreal. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Arild Vågen, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Notre-Dame Basilica is the great Gothic Revival church of Old Montreal, standing at 110 Notre-Dame Street West and facing the Place d&#39;Armes square. It was designed by James O&#39;Donnell, with the main construction between 1824 and 1829. The two towers followed in 1841 and 1843. When it was finished it was the largest church in North America, and it held that title for more than fifty years. It became a minor basilica in 1982 and a National Historic Site of Canada in 1989.</p><p>It photographs well because the stone facade is tall and strongly symmetrical, with a pair of towers and three statues (Saint Joseph, the Virgin Mary and John the Baptist) on the facade. The interior is just as striking, with deep blue vaults scattered with golden stars. The stained glass is unusual because it shows scenes from Montreal&#39;s own religious history rather than Bible stories.</p><p>For phone photos, start outside with the whole facade, then move in close for the statues and stonework. Keep the phone level so the towers don&#39;t lean. If you go inside, be ready for dim light and for rules on photography, which the church may set. Restoration work on the stonework began in 2020 and is planned to take over a decade, so you may find some scaffolding in your frame.</p>
+    <p><b>Where it is:</b> In the heart of Old Montreal, on the corner of Notre-Dame Street West and Saint Sulpice Street. It faces the Place d&#39;Armes square and stands next to the Saint-Sulpice Seminary.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the ultra-wide (0.5x) for the facade from close range and for the sweep of the interior. Use the default lens (1x) for natural-looking views of the front. Use telephoto/zoom (2x-5x, depending on your phone) for the statues, the tower tops and the carved details.</p>
+      <p><b>Where to stand:</b> Stand about 95 m north-west of the subject, on the far side of Place d&#39;Armes near Rue Saint-Jacques (the phone icon on the map), and face south-east across the square. From here the whole facade and both towers fit in the frame; walk closer and tilt up with the ultra-wide (0.5x) if you want the towers to loom.</p>
+      <p><b>Framing:</b> Switch on gridlines and line up the towers with the vertical lines so they stay upright. Centre the main doorway for a symmetrical shot. Then try a tighter frame of the three statues using the telephoto. Wait a moment for people to move out of the foreground.</p>
+      <p><b>Settings tip:</b> Tap to focus on the stonework, then drag the exposure slider down slightly so the sky doesn&#39;t wash out. Inside, the gold and blue are easy to overexpose, so lower the exposure a little. Use night mode in dim light and hold the phone steady, resting your elbows against your body or a solid surface.</p>
+      <p><b>Best time:</b> Visit early in the day for fewer people in front of the facade. Whenever you go, check the official site for visiting times, since the interior may be closed to visitors at some points.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Mount Royal: Kondiaronk Belvedere</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Montr%C3%A9al_depuis_le_Mont_Royal.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Mount Royal: Kondiaronk Belvedere, Montreal: a viewing terrace on Mount Royal. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Gzzz, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Kondiaronk Belvedere is a viewing terrace on Mount Royal, the green hill that rises above central Montreal. It is third on our Montreal map, and the main reason is the outlook: from the terrace you look out over the city&#39;s rooftops and towers, with open sky above them. That gives a phone plenty to work with. You can take a wide scene of the whole skyline, or a tighter shot of one cluster of buildings.</p><p>The terrace is open and fairly wide, so you can walk along it and try a few positions before settling. Start with the default lens (1x) for a natural view. Then switch to the ultra-wide (0.5x) to fit in more of the city, or to include the terrace edge as a foreground if there is one. Turn on gridlines and line the horizon up with a grid line so the city does not tilt. Use the telephoto/zoom (2x-5x, depending on your phone) to pick out a single tower or a distant detail.</p><p>People often stop here for a while, so you may have to wait for a clear spot at the front. Keep your phone strap round your wrist if you lean on a railing or low wall, if there is one. If the sky is much brighter than the city, tap on the buildings to focus and then slide the exposure down a little, so the sky keeps its colour.</p>
+    <p><b>Where it is:</b> On Mount Royal, above the downtown part of Montreal. The nearest Métro stations, Peel and Guy-Concordia, are to the east and south-east of the viewpoint, about 1 km away.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the main view. Use the ultra-wide (0.5x) for the full spread of the city, and the telephoto/zoom (2x-5x, depending on your phone) for individual buildings.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. The spot is right there, so you only need to move along the terrace to change the angle.</p>
+      <p><b>Framing:</b> Switch on gridlines and put the horizon on the upper or lower third line. Keep it level. Use the terrace edge, or a railing or low wall if there is one, as a foreground to add depth, and zoom in for a close shot of a single building.</p>
+      <p><b>Settings tip:</b> Tap on the city to set focus, then slide the exposure down slightly if the sky is washing out. For a wide sweep of the view, try panorama mode and turn slowly.</p>
+      <p><b>Best time:</b> Clear daylight gives the sharpest view. Late afternoon or early evening often has softer light, and after sunset night mode can capture the city lights. Hold the phone steady with both hands, or rest it against a solid surface if there is one.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Habitat 67</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Montr%C3%A9al_-_Habitat_67_(01).jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Habitat 67, Montreal: a stack of concrete boxes beside the Saint Lawrence River. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Concierge.2C, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Habitat 67 is a stack of concrete boxes beside the Saint Lawrence River, and it looks like nothing else in Montreal. Architect Moshe Safdie developed it from his university thesis, and it was built for the Expo 67 world&#39;s fair. It has 354 identical prefabricated concrete units, arranged into three pyramids that rise up to 12 storeys. The units make up 146 homes, and each one has a garden terrace on the roof of the unit below. That is why the building photographs so well: the repeated shapes, the shifting shadows and the green terraces give you plenty of pattern and depth. Guides describe the Cité-du-Havre walkway as a suggested viewpoint, where you can fit the downtown towers behind the building, which shows how unusual it is against the modern skyline. Habitat 67 is a private residential complex, so plan to photograph it from public sidewalks and public spots nearby. Guided tours are offered if you want to see more, but check the official site before you go. Take a few wide shots for the whole scene, then step in closer for details of the stacked modules and the plants on the terraces. If the light is flat, concentrate on the edges and shadows, where the repeated shapes stand out best.</p>
+    <p><b>Where it is:</b> Habitat 67 stands at Cité du Havre, on the Saint Lawrence River, about 1.4 km south-east of Place-d&#39;Armes Métro station, next to the Marc-Drouin Quay. Its address is 2600 Avenue Pierre-Dupuy.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the default lens (1x) for the main view with the city behind. Switch to telephoto (2x or 3x, depending on your phone) for close shots of the stacked modules. Ultra-wide (0.5x) is only worth trying if you are very close and want the whole pyramid in one frame.</p>
+      <p><b>Where to stand:</b> Stand about 540 m south of the subject, in Cité-du-Havre (the phone icon on the map), and face north. A separate suggested viewpoint is the public Cité-du-Havre walkway, which is not the phone-icon location. Guides describe it as a spot where you can get the building in the foreground with the downtown towers rising behind it.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the stacked modules in the lower half of the frame so the towers show above them. Keep the vertical lines straight by holding the phone level. For a different view, the Grand Quai du Port de Montréal shows the building in profile across the river. The Pont de la Concorde gives a symmetrical wide view, but check it is open to the public first.</p>
+      <p><b>Settings tip:</b> Tap on the concrete to set focus, then drag the exposure slider down slightly so the sky does not wash out. At dusk, turn on night mode and hold the phone as still as you can, bracing your elbows against your body or resting it on a solid ledge.</p>
+      <p><b>Best time:</b> One guide recommends blue hour (the short period just after sunset or before sunrise), when the building and the downtown lights both show up on your phone.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Olympic Stadium and tower <small>· members</small></li>
+    <li><span class="n">5</span>Montreal Botanical Garden <small>· members</small></li>
+    <li><span class="n">6</span>Old Port of Montreal <small>· members</small></li>
+    <li><span class="n">7</span>Saint Joseph&#39;s Oratory <small>· members</small></li>
+    <li><span class="n">8</span>Montreal Biosphere <small>· members</small></li>
+    <li><span class="n">9</span>Bonsecours Market <small>· members</small></li>
+    <li><span class="n">10</span>Chinatown gate <small>· members</small></li>
+    <li><span class="n">11</span>Place Jacques-Cartier <small>· members</small></li>
+    <li><span class="n">12</span>Mary, Queen of the World Cathedral <small>· members</small></li>
+    <li><span class="n">13</span>La Grande Roue de Montréal <small>· members</small></li>
+    <li><span class="n">14</span>Lachine Canal <small>· members</small></li>
+    <li><span class="n">15</span>Montreal City Hall <small>· members</small></li>
+    <li><span class="n">16</span>Rue Saint-Paul <small>· members</small></li>
+    <li><span class="n">17</span>Mount Royal Cross <small>· members</small></li>
+    <li><span class="n">18</span>Jacques Cartier Bridge <small>· members</small></li>
+    <li><span class="n">19</span>Saint-Louis Square <small>· members</small></li>
+    <li><span class="n">20</span>Place d&#39;Armes <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Montreal?</summary><p>The first three on this map are Notre-Dame Basilica, Kondiaronk Belvedere and Habitat 67. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Notre-Dame Basilica?</summary><p>Stand about 95 m north-west of Notre-Dame Basilica, on the far side of Place d&#39;Armes near Rue Saint-Jacques (the phone icon on the map), and face south-east across the square. Use the ultra-wide (0.5x) for the facade from close range and for the sweep of the interior.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Kondiaronk Belvedere?</summary><p>Clear daylight gives the sharpest view. Late afternoon or early evening often has softer light, and after sunset night mode can capture the city lights.</p></details>
+  <details class="faq"><summary>How do I get to Habitat 67?</summary><p>The nearest stations are Place-d&#39;Armes Métro station (Orange line) and Champ-de-Mars Métro station (Orange line).</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Notre-Dame_Basilica_%28Montreal%29" target="_blank" rel="noopener">Notre-Dame Basilica (Montreal)</a>, <a href="https://en.wikipedia.org/wiki/Habitat_67" target="_blank" rel="noopener">Habitat 67</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"montreal","place":"Montreal","bounds":[-73.62,45.48,-73.53,45.56],"center":[-73.575,45.519999999999996],"english":false,"vatican":false,"tiles":"/r2tiles/montreal/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

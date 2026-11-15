@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "naples", "title": "Naples: 20 photo spots (pilot review)", "place": "Naples", "bounds": [14.18, 40.82, 14.27, 40.87], "center": [14.225, 40.845], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/naples/{z}/{x}/{y}.pbf"};

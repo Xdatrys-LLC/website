@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "italy", "title": "Italy: 20 photo spots (pilot review)", "place": "Italy", "bounds": [6.6, 36.6, 18.6, 47.1], "center": [12.600000000000001, 41.85], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/italy/{z}/{x}/{y}.pbf"};

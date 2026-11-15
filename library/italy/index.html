@@ -1,0 +1,259 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Italy: 20 Photo Spots &amp; Best Views | Xdatrys</title>
+<meta name="description" content="An Italy tourist map of 20 top photo spots, including Colosseum, Tre Cime and Positano: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in italy, italy tourist map, italy attractions, best views in italy, map of italy attractions, best photo spots in italy, colosseum rome, dolomites, amalfi coast">
+<link rel="canonical" href="https://xdatrys.com/library/italy/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Italy: 20 Photo Spots &amp; Best Views | Xdatrys">
+<meta property="og:description" content="An Italy tourist map of 20 top photo spots, including Colosseum, Tre Cime and Positano: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/italy/">
+<meta property="og:image" content="https://xdatrys.com/library/italy/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="350">
+<meta property="og:image:alt" content="Colosseum, Rome, Italy: an elliptical amphitheatre in the centre of Rome. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/italy/","url":"https://xdatrys.com/library/italy/","name":"Things to Do in Italy: 20 Photo Spots & Best Views | Xdatrys","description":"An Italy tourist map of 20 top photo spots, including Colosseum, Tre Cime and Positano: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/italy/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Italy","alternateName":["Italia"]},"mainEntity":{"@type":"ItemList","name":"Italy photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Colosseum, Rome","description":"The Colosseum is an elliptical amphitheatre in the centre of Rome, just east of the Roman Forum.","geo":{"@type":"GeoCoordinates","latitude":41.8902602,"longitude":12.4923737},"image":"https://xdatrys.com/library/italy/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Tre Cime di Lavaredo, Dolomites","description":"The Tre Cime di Lavaredo, also called the Drei Zinnen, are three blocky, battlement-like peaks in the Sexten Dolomites.","geo":{"@type":"GeoCoordinates","latitude":46.619438,"longitude":12.302542},"alternateName":["Tre Cime di Lavaredo","Dolomites"],"image":"https://xdatrys.com/library/italy/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Positano, Amalfi Coast","description":"Positano is a small town on the Amalfi Coast, in the province of Salerno in Campania.","geo":{"@type":"GeoCoordinates","latitude":40.6286581,"longitude":14.4854955},"alternateName":["Amalfi Coast"],"image":"https://xdatrys.com/library/italy/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/italy/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Italy","item":"https://xdatrys.com/library/italy/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Italy?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Colosseum, Tre Cime and Positano. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph the Colosseum?","acceptedAnswer":{"@type":"Answer","text":"Stand about 110 m east of the Colosseum, at the phone icon on the map, and face west. Start with the ultra-wide (0.5x) to fit the curve of the walls into one frame, because you are close."}},{"@type":"Question","name":"When is the best time to photograph the Tre Cime?","acceptedAnswer":{"@type":"Answer","text":"Early morning or late afternoon, when the sun is lower, usually gives more shape and colour to the rock than the flat light of midday. Weather here changes quickly, so check the forecast before setting out and be ready to shoot when the cloud breaks."}},{"@type":"Question","name":"How do I get to Positano?","acceptedAnswer":{"@type":"Answer","text":"Positano has no railway station."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Italy</div>
+<div class="head">
+  <h1>20 photo spots in Italy: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/italy/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Italy"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Italy as photo spots, ranked by how often people search for them: Colosseum, Tre Cime, Positano, Pompeii and Lake Como lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Colosseum, Rome</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Colosseum, Rome, Italy: an elliptical amphitheatre in the centre of Rome. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: FeaturedPics, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>The Colosseum is an elliptical amphitheatre in the centre of Rome, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and it is still the largest standing amphitheatre in the world. Work began under Emperor Vespasian in AD 72 and finished in AD 80 under his successor and heir, Titus, with further changes made later under Domitian. The walls are built of travertine, Roman concrete and tuff, a volcanic rock. You can see how the stone has weathered, and where earthquakes and stone robbers have taken whole sections away.</p><p>It photographs well because the shape is so clear. The curved rows of arches repeat round the whole building, and the broken outer wall shows the layers behind it. That gives you strong patterns, depth and a real sense of age. The sources estimate that it held between 50,000 and 80,000 spectators, with an average crowd of about 65,000. Try a wide shot that shows how big it is, then a closer shot of the arches or the worn stone.</p><p>Expect people in most shots, as it is one of Rome&#39;s most popular tourist attractions. Use them to show scale, or wait a moment for a gap. Hold the phone steady and keep the horizon level so the arches don&#39;t lean.</p>
+    <p><b>Where it is:</b> In the centre of Rome, just east of the Roman Forum, in the low valley between the Caelian, Esquiline and Palatine hills. The map marks the middle of the Colosseum&#39;s outline, which is 229 metres across.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the curve of the walls into one frame, because you are close. Switch to the default lens (1x) for a calmer, more natural view of a section of arches. If your phone has telephoto (2x-5x), use it for details such as the arches and the worn stone.</p>
+      <p><b>Where to stand:</b> Stand about 110 m east of the subject, at the phone icon on the map, and face west.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the arches up with the horizontal lines to keep the building straight. Leave some sky above the top edge so the outline reads clearly. Include a few people at the bottom of the frame to show the scale. For a detail shot, fill the frame with a run of arches and let the rhythm do the work.</p>
+      <p><b>Settings tip:</b> Tap on the stonework to set focus, then drag the exposure slider down a little if the sky is bright, so the stone keeps its colour and texture. Live Photos can help if people walk through the frame, because you can pick the best moment afterwards.</p>
+      <p><b>Best time:</b> Early morning is usually quieter, and the side facing you should catch the low sun. Around sunset, try night mode or a warm-toned shot as the light fades.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Tre Cime di Lavaredo, Dolomites</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Lavaredo.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Tre Cime di Lavaredo, Dolomites, Italy: three blocky, battlement-like peaks in the Sexten Dolomites. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: sambuco, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>The Tre Cime di Lavaredo, also called the Drei Zinnen, are three blocky, battlement-like peaks in the Sexten Dolomites. Seen from east to west they are Cima Piccola, Cima Grande and Cima Ovest. The tallest, Cima Grande, reaches 2,999 metres, with Cima Ovest at 2,973 metres and Cima Piccola at 2,857 metres. Together they are among the best-known mountain groups in the Alps, and the surrounding area has been a UNESCO World Heritage site since 2009.</p><p>They photograph well because the three towers stand side by side with nothing in front of them but open alpine ground, so the whole group fits into one tidy frame. The pale rock stands out against sky, and the sheer walls look huge even on a small screen. Cima Grande was first climbed on 21 August 1869, which gives you a nice story to tell with your picture.</p><p>The phone icon on the map is about 860 m north-east of the subject. That is close enough to feel their scale, while the whole group still sits in one frame. Keep the horizon level and include some foreground path or grass to give a sense of size. Take a few frames over several minutes, because mountain weather here can change fast, with fog or wind arriving quickly even in summer. Dress warmly and wear proper shoes for the walk.</p>
+    <p><b>Where it is:</b> The Tre Cime stand in the Sexten Dolomites in north-eastern Italy, on the border between South Tyrol and the province of Belluno. They lie about 15 km north-east of Cortina d&#39;Ampezzo in a straight line, with the town of Toblach to the north-west.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> From the viewpoint the peaks are just under 1 km away. Start with the default lens (1x) to take in all three towers with the path and slopes below them. Use the ultra-wide (0.5x) if you want more foreground and sky, and telephoto (2x-5x, depending on your phone) for a close shot of one summit, such as Cima Grande.</p>
+      <p><b>Where to stand:</b> Stand about 860 m north-east of the subject, at the viewpoint just above Forcella Lavaredo (Paternsattel), at the phone icon on the map, and face south-west. The three north faces line up in front of you, Cima Piccola nearest, Cima Grande in the middle and Cima Ovest on the right.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the base of the peaks on the lower third line, with the sky taking the upper two thirds. Keep the phone level so the walls do not lean. Add a bit of path, rock or grass at the bottom edge for scale. Try one wide shot and one tighter shot of a single peak.</p>
+      <p><b>Settings tip:</b> Tap on the rock face to set focus, then lower the exposure slider a little so the sky keeps its colour and the pale rock does not wash out. Try a panorama if you want the whole ridge, holding the phone steady and moving slowly. Wipe the lens first, as cold and damp air can smear it.</p>
+      <p><b>Best time:</b> Early morning or late afternoon, when the sun is lower, usually gives more shape and colour to the rock than the flat light of midday. Weather here changes quickly, so check the forecast before setting out and be ready to shoot when the cloud breaks.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Positano, Amalfi Coast</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Positano_Sunset.JPG" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Positano, Amalfi Coast, Italy: a small town on the Amalfi Coast. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: JeCCo, <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener license">CC BY 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Positano is a small town on the Amalfi Coast, in the province of Salerno in Campania. It can photograph well on a phone, because buildings give you colour, texture and a sense of height, and any water in view gives a simple backdrop. Start with a wide view that shows the houses and, if it is visible, the sea. Then move in on smaller details such as doorways, balconies, shutters and plants. If people pass through your frame, wait for a gap. Keep your phone steady against your body, or rest your arms on a wall. Take a few frames of each view and choose the best one later. Watch your footing while looking at the screen, and step aside so others can pass. If you want to visit a particular viewpoint, beach or paid attraction, check the official site before you go.</p>
+    <p><b>Where it is:</b> Positano is on the Amalfi Coast in the province of Salerno, in the Campania region of southern Italy. The spot is in Positano, in the Campania region of Italy.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the overall view of the town. Switch to ultra-wide (0.5x) in narrow lanes or when you want more of the buildings in the frame. Use telephoto (2x-5x, depending on your phone) to pick out groups of buildings.</p>
+      <p><b>Where to stand:</b> Stand about 90 m south-east of the subject, at the phone icon on the map, and face north-west.</p>
+      <p><b>Framing:</b> Turn on gridlines and, if the sea or horizon is in view, place its line on a lower third line. Let the buildings fill the rest of the frame. Keep the phone level so the buildings do not lean. For a second shot, step in and frame a doorway or balcony with a small bit of colour in the foreground.</p>
+      <p><b>Settings tip:</b> Tap the brightest wall to focus, then lower the exposure slider a little so the sky and pale walls keep their detail. Try a Live Photo while people walk past, as you can pick the best frame afterwards.</p>
+      <p><b>Best time:</b> Early morning or late afternoon usually gives softer light, but the town can be photographed at any time of day.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Pompeii <small>· members</small></li>
+    <li><span class="n">5</span>Bellagio and Varenna, Lake Como <small>· members</small></li>
+    <li><span class="n">6</span>Leaning Tower of Pisa <small>· members</small></li>
+    <li><span class="n">7</span>Manarola, Cinque Terre <small>· members</small></li>
+    <li><span class="n">8</span>Trevi Fountain, Rome <small>· members</small></li>
+    <li><span class="n">9</span>Portofino <small>· members</small></li>
+    <li><span class="n">10</span>Taormina and its Greek Theatre <small>· members</small></li>
+    <li><span class="n">11</span>Florence Cathedral (the Duomo) <small>· members</small></li>
+    <li><span class="n">12</span>San Gimignano towers <small>· members</small></li>
+    <li><span class="n">13</span>Milan Cathedral <small>· members</small></li>
+    <li><span class="n">14</span>Sassi di Matera <small>· members</small></li>
+    <li><span class="n">15</span>Piazza del Campo, Siena <small>· members</small></li>
+    <li><span class="n">16</span>Ponte Vecchio, Florence <small>· members</small></li>
+    <li><span class="n">17</span>Faraglioni of Capri <small>· members</small></li>
+    <li><span class="n">18</span>St Mark&#39;s Square, Venice <small>· members</small></li>
+    <li><span class="n">19</span>Trulli of Alberobello <small>· members</small></li>
+    <li><span class="n">20</span>Grand Canal and Rialto Bridge, Venice <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Italy?</summary><p>The first three on this map are Colosseum, Tre Cime and Positano. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the Colosseum?</summary><p>Stand about 110 m east of the Colosseum, at the phone icon on the map, and face west. Start with the ultra-wide (0.5x) to fit the curve of the walls into one frame, because you are close.</p></details>
+  <details class="faq"><summary>When is the best time to photograph the Tre Cime?</summary><p>Early morning or late afternoon, when the sun is lower, usually gives more shape and colour to the rock than the flat light of midday. Weather here changes quickly, so check the forecast before setting out and be ready to shoot when the cloud breaks.</p></details>
+  <details class="faq"><summary>How do I get to Positano?</summary><p>Positano has no railway station.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Colosseum" target="_blank" rel="noopener">Colosseum</a>, <a href="https://en.wikipedia.org/wiki/Tre_Cime_di_Lavaredo" target="_blank" rel="noopener">Tre Cime di Lavaredo</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"italy","place":"Italy","bounds":[6.6,36.6,18.6,47.1],"center":[12.600000000000001,41.85],"english":false,"vatican":false,"tiles":"/r2tiles/italy/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

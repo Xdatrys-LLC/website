@@ -1,0 +1,259 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Vancouver: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Vancouver attractions as photo spots, including Capilano Bridge, Gastown and Stanley Park: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in vancouver, vancouver attractions, vancouver tourist map, map of vancouver attractions, best views in vancouver, best photo spots in vancouver, capilano suspension bridge, gastown, stanley park vancouver">
+<link rel="canonical" href="https://xdatrys.com/library/vancouver/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Vancouver: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Vancouver attractions as photo spots, including Capilano Bridge, Gastown and Stanley Park: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/vancouver/">
+<meta property="og:image" content="https://xdatrys.com/library/vancouver/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Capilano Suspension Bridge, Vancouver: a simple suspension bridge across the Capilano River. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/vancouver/","url":"https://xdatrys.com/library/vancouver/","name":"Things to Do in Vancouver: Map of 20 Photo Spots | Xdatrys","description":"20 top Vancouver attractions as photo spots, including Capilano Bridge, Gastown and Stanley Park: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/vancouver/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Vancouver"},"mainEntity":{"@type":"ItemList","name":"Vancouver photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Capilano Suspension Bridge","description":"The Capilano Suspension Bridge is a simple suspension bridge across the Capilano River in the District of North Vancouver.","geo":{"@type":"GeoCoordinates","latitude":49.3429941,"longitude":-123.115292},"alternateName":["Capilano Suspension Bridge Park"],"image":"https://xdatrys.com/library/vancouver/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Gastown and the Steam Clock","description":"Gastown is Vancouver's oldest neighbourhood, named after \"Gassy\" Jack Deighton, a Yorkshire seaman who opened a saloon here in 1867.","geo":{"@type":"GeoCoordinates","latitude":49.284688,"longitude":-123.110953},"alternateName":["Gastown Steam Clock"],"image":"https://xdatrys.com/library/vancouver/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Stanley Park and the Seawall","description":"Stanley Park is a 405-hectare public park that fills the north-western half of Vancouver's downtown peninsula, with Burrard Inlet on one side and English Bay on the other.","geo":{"@type":"GeoCoordinates","latitude":49.3,"longitude":-123.14},"alternateName":["Stanley Park Seawall","Vancouver Seawall"],"image":"https://xdatrys.com/library/vancouver/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/vancouver/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Vancouver","item":"https://xdatrys.com/library/vancouver/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Vancouver?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Capilano Bridge, Gastown and Stanley Park. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Capilano Bridge?","acceptedAnswer":{"@type":"Answer","text":"Stand about 110 m north-east of Capilano Bridge, at the phone icon on the map, and face south-west. Start with the default lens (1x) to get the whole bridge across the canyon in one frame."}},{"@type":"Question","name":"When is the best time to photograph Gastown?","acceptedAnswer":{"@type":"Answer","text":"Arrive 3-4 minutes before a quarter hour for the whistle. The steam shows best on cold days, from late autumn to March."}},{"@type":"Question","name":"How do I get to Stanley Park?","acceptedAnswer":{"@type":"Answer","text":"The nearest SkyTrain station on the map is Burrard (SkyTrain Expo Line), about 2.2 km (roughly half an hour on foot) from Stanley Park."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Vancouver</div>
+<div class="head">
+  <h1>20 photo spots in Vancouver: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/vancouver/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Vancouver"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Vancouver as photo spots, ranked by how often people search for them: Capilano Bridge, Gastown, Stanley Park, Canada Place and Granville Island lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Capilano Suspension Bridge</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Capilano_Suspension_Bridge_Vancouver_Canada_(42913545780).jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Capilano Suspension Bridge, Vancouver: a simple suspension bridge across the Capilano River. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: dronepicr, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>The Capilano Suspension Bridge is a simple suspension bridge across the Capilano River in the District of North Vancouver. It is about 140 metres long and 70 metres above the water, so it photographs well: a thin line of deck hanging over a deep canyon, with dark forest on both sides. The first bridge was built in 1889 by George Grant Mackay, using hemp ropes and cedar planks. The present bridge dates from a complete rebuild in 1956. It belongs to a private park that draws over 1.2 million visitors a year, so expect company on the span itself.</p><p>For a picture of the whole bridge rather than a view along it, use the Cliffwalk. This attraction was added to the park in June 2011, and its designated photo platforms along the cliff face let you frame the full bridge with the river and trees below for scale. Photo-stop signs mark where to pause. Take your shots at those marked spots and stay behind the railings. If the Cliffwalk is busy, the Nature&#39;s Edge Boardwalk is a good alternative: it shows the bridge through the rainforest trees, away from the crowds on the span.</p><p>The bridge sways when it is full of people, so pictures taken from on it can come out blurred. Taking the wide shot from the platforms avoids that.</p>
+    <p><b>Where it is:</b> In Upper Capilano, in the District of North Vancouver, inside Capilano Suspension Bridge Park on the Capilano River canyon.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to get the whole bridge across the canyon in one frame. Switch to ultra-wide (0.5x) only if the platform is crowded and you need to fit more in. Use telephoto (2x or more, depending on your phone) for a tighter shot of the span and the walkers on it.</p>
+      <p><b>Where to stand:</b> Stand about 110 m north-east of the numbered pin, at the phone icon on the map, and face south-west. From here the whole suspension bridge spans the canyon, with the river and trees below to show how high it is.</p>
+      <p><b>Framing:</b> Turn on gridlines and put the bridge deck along the lower third line, so the trees and river fill the rest. Keep the railing out of the corners of the frame, and wait for gaps in the crowd on the span. For a quieter, more natural view, the Nature&#39;s Edge Boardwalk shows the bridge through the forest trees.</p>
+      <p><b>Settings tip:</b> Tap on the bridge to set focus, then drag the exposure slider down a little if the sky is bright, so the deck and trees keep their detail. Take a few frames, as the bridge moves when busy. In winter, if you stay for the Canyon Lights display, use night mode and hold the phone as still as you can against a rail or your body.</p>
+      <p><b>Best time:</b> Choose a time of day when the park is quieter, as fewer people on the span give a cleaner picture. Soft, even light on a bright overcast day also works well under the trees. Check the official site before you go for current hours and the winter Canyon Lights times.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Gastown and the Steam Clock</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Gastown_Vancouver_Steam_Clock_Water_Street_(30853451538).jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Gastown and the Steam Clock, Vancouver: Vancouver&#39;s oldest neighbourhood. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: dronepicr, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Gastown is Vancouver&#39;s oldest neighbourhood, named after &#34;Gassy&#34; Jack Deighton, a Yorkshire seaman who opened a saloon here in 1867. Its best-known photo subject is the steam clock on the corner of Water and Cambie Streets. The clock was built in 1977 over a steam grate, and it runs on steam from the downtown heating network. Steam also sounds its whistles, which play a Westminster-style chime. It has four faces, a domed top and, on a cold day, plumes of steam, with the brick heritage buildings of Water Street behind. That mix of old brick and a quirky machine is why it photographs so well. Gastown became a National Historic Site of Canada in 2009. The clock itself is a modern invention, though it is promoted as a heritage feature.</p><p>The phone icon on the map is on the south side of Water Street, facing the clock, which gives an open view of the steam above the dome. Arrive three or four minutes before a quarter hour to catch the whistle and the steam. Crowds gather, especially at the top of the hour and at midday in summer, so be patient and keep out of the walking path. If you have time, Maple Tree Square and the narrow Blood Alley are worth a few more frames, particularly after dark when the lamps are lit.</p>
+    <p><b>Where it is:</b> In Gastown, in the north-west part of the Downtown Eastside next to Downtown Vancouver, at the corner of Water Street and Cambie Street, just back from the Burrard Inlet waterfront.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole clock with the brick buildings behind it. Switch to 2x or 3x telephoto if you want the dome and steam without the crowd around the base.</p>
+      <p><b>Where to stand:</b> Stand about 160 m east of the subject, at the corner of Water Street and Cambie Street (the phone icon on the map), and face west. From here the full clock with its domed top and steam plumes sits against the brick heritage buildings behind it. Stay out of the pedestrian walking path while you shoot.</p>
+      <p><b>Framing:</b> Turn on gridlines and keep the clock upright in the centre or just off to one side, leaving space above the dome for the steam. For an alternative, try Maple Tree Square with its Victorian brick corners and a view down Carrall Street. The Gassy Jack statue is no longer there to frame.</p>
+      <p><b>Settings tip:</b> Tap on the clock to set focus, then drag the exposure slider down a little so the steam stays white and the sky does not wash out. Turn on Live Photos or motion to catch the steam moving. After dark, use night mode and hold the phone steady against your body or a wall.</p>
+      <p><b>Best time:</b> Arrive 3-4 minutes before a quarter hour for the whistle. The steam shows best on cold days, from late autumn to March. Crowds gather especially at the top of the hour and at midday in summer.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Stanley Park and the Seawall</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Lion%27s_Gate_Bridge_from_Prospect_Point_(5946303698).jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Stanley Park and the Seawall, Vancouver: a 405-hectare public park. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Roy Luck, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Stanley Park is a 405-hectare public park that fills the north-western half of Vancouver&#39;s downtown peninsula, with Burrard Inlet on one side and English Bay on the other. For photos it works as a set of different views rather than one picture: dark forest, rocky shoreline, beaches, and the long Seawall that runs around the edge. Opened in September 1888, it was Vancouver&#39;s first park. Much of it is still thick forest, with about half a million trees, some as tall as 76 metres. The phone icon on the map is Prospect Point, the lookout at the park&#39;s northern tip. Guides call it the park&#39;s signature lookout. From here you look down on the Lions Gate Bridge, with Burrard Inlet, the North Shore mountains and the forest edge behind it. If you have time to walk on, two other pictures are worth a try. Brockton Point Lighthouse, the park&#39;s easternmost point, has totem poles beside it and the harbour behind. Siwash Rock is a lone sea stack with one tree on top, near Third Beach. In the viewpoint photos, keep the bridge and the mountains as your main subjects and let the trees frame one side. The Seawall is busy in summer, so shoot quickly and step out of the way of walkers and cyclists.</p>
+    <p><b>Where it is:</b> Stanley Park covers the north-western end of Vancouver&#39;s downtown peninsula, beside the West End and Coal Harbour neighbourhoods. Prospect Point is at the park&#39;s northern tip, right above the Lions Gate Bridge.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole scene of bridge, inlet and mountains. Use telephoto (2x-5x, depending on your phone) to pick out the bridge towers or the far mountain ridges. Switch to ultra-wide (0.5x) for the forest and shoreline at the lighthouse or Siwash Rock.</p>
+      <p><b>Where to stand:</b> Stand about 1.6 km north of the subject, in Prospect Point (the phone icon on the map), and face south. From here the bridge sits against Burrard Inlet, with the North Shore mountains and the forest edge behind it. This is the clearest place in the park for the bridge with mountains behind it.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the bridge deck along a lower third line, so the mountains fill the upper part of the frame. Include a strip of dark treetop in one corner to give depth. If you walk on, Brockton Point Lighthouse and its totem poles make a good second picture, and Siwash Rock makes a good third from the Seawall.</p>
+      <p><b>Settings tip:</b> Tap the bridge to focus, then slide the exposure down a little so the sky keeps its colour. When the bridge lights come on at dusk, use night mode and brace your elbows against your body or a solid surface for a few seconds. On the Seawall the inner lane is for pedestrians and bikes go one way only, so step aside before you stop to shoot.</p>
+      <p><b>Best time:</b> Late afternoon into dusk, when the bridge lights come on against the fading sky.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Canada Place <small>· members</small></li>
+    <li><span class="n">5</span>Granville Island <small>· members</small></li>
+    <li><span class="n">6</span>Science World <small>· members</small></li>
+    <li><span class="n">7</span>Hotel Vancouver <small>· members</small></li>
+    <li><span class="n">8</span>Vancouver Art Gallery <small>· members</small></li>
+    <li><span class="n">9</span>Kitsilano Beach <small>· members</small></li>
+    <li><span class="n">10</span>Vancouver House <small>· members</small></li>
+    <li><span class="n">11</span>Vancouver Lookout (Harbour Centre) <small>· members</small></li>
+    <li><span class="n">12</span>Lost Lagoon <small>· members</small></li>
+    <li><span class="n">13</span>Lions Gate Bridge <small>· members</small></li>
+    <li><span class="n">14</span>Dr. Sun Yat-Sen Classical Chinese Garden <small>· members</small></li>
+    <li><span class="n">15</span>English Bay <small>· members</small></li>
+    <li><span class="n">16</span>Prospect Point <small>· members</small></li>
+    <li><span class="n">17</span>Marine Building <small>· members</small></li>
+    <li><span class="n">18</span>Olympic Cauldron (Jack Poole Plaza) <small>· members</small></li>
+    <li><span class="n">19</span>Siwash Rock <small>· members</small></li>
+    <li><span class="n">20</span>Brockton Point totem poles <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Vancouver?</summary><p>The first three on this map are Capilano Bridge, Gastown and Stanley Park. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Capilano Bridge?</summary><p>Stand about 110 m north-east of Capilano Bridge, at the phone icon on the map, and face south-west. Start with the default lens (1x) to get the whole bridge across the canyon in one frame.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Gastown?</summary><p>Arrive 3-4 minutes before a quarter hour for the whistle. The steam shows best on cold days, from late autumn to March.</p></details>
+  <details class="faq"><summary>How do I get to Stanley Park?</summary><p>The nearest SkyTrain station on the map is Burrard (SkyTrain Expo Line), about 2.2 km (roughly half an hour on foot) from Stanley Park.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Capilano_Suspension_Bridge" target="_blank" rel="noopener">Capilano Suspension Bridge</a>, <a href="https://en.wikipedia.org/wiki/Gastown" target="_blank" rel="noopener">Gastown</a>, <a href="https://en.wikipedia.org/wiki/Stanley_Park" target="_blank" rel="noopener">Stanley Park</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"vancouver","place":"Vancouver","bounds":[-123.2,49.25,-123.07,49.35],"center":[-123.13499999999999,49.3],"english":false,"vatican":false,"tiles":"/r2tiles/vancouver/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

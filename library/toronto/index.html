@@ -1,0 +1,259 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Toronto: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Toronto attractions as photo spots, including CN Tower, Casa Loma and Royal Ontario Museum: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in toronto, toronto attractions, toronto tourist map, map of toronto attractions, best views in toronto, best photo spots in toronto, cn tower, casa loma, royal ontario museum">
+<link rel="canonical" href="https://xdatrys.com/library/toronto/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Toronto: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Toronto attractions as photo spots, including CN Tower, Casa Loma and Royal Ontario Museum: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/toronto/">
+<meta property="og:image" content="https://xdatrys.com/library/toronto/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="747">
+<meta property="og:image:alt" content="CN Tower, Toronto: Toronto&#39;s signature landmark. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/toronto/","url":"https://xdatrys.com/library/toronto/","name":"Things to Do in Toronto: Map of 20 Photo Spots | Xdatrys","description":"20 top Toronto attractions as photo spots, including CN Tower, Casa Loma and Royal Ontario Museum: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/toronto/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Toronto"},"mainEntity":{"@type":"ItemList","name":"Toronto photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"CN Tower","description":"The CN Tower is Toronto's signature landmark, a 553.3-metre communications and observation tower that was completed in 1976.","geo":{"@type":"GeoCoordinates","latitude":43.6425012,"longitude":-79.3871153},"image":"https://xdatrys.com/library/toronto/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Casa Loma","description":"Casa Loma is a Gothic Revival, castle-style mansion on a hill in midtown Toronto.","geo":{"@type":"GeoCoordinates","latitude":43.6780969,"longitude":-79.4093896},"image":"https://xdatrys.com/library/toronto/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Royal Ontario Museum (the Crystal)","description":"The Royal Ontario Museum is one of the largest museums in North America, and its Michael Lee-Chin Crystal is the part that stops people on the pavement.","geo":{"@type":"GeoCoordinates","latitude":43.6676944,"longitude":-79.394695},"image":"https://xdatrys.com/library/toronto/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/toronto/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Toronto","item":"https://xdatrys.com/library/toronto/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Toronto?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are CN Tower, Casa Loma and Royal Ontario Museum. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph the CN Tower?","acceptedAnswer":{"@type":"Answer","text":"Stand about 190 m south-east of the CN Tower, in Roundhouse Park (the phone icon on the map), and face north-west. Start with the ultra-wide (0.5x) to fit the whole tower in one frame, then try the default lens (1x) for a cleaner look with less stretching at the edges."}},{"@type":"Question","name":"When is the best time to photograph Casa Loma?","acceptedAnswer":{"@type":"Answer","text":"Try mid to late afternoon, when the front of the castle may catch softer light. Trees along the street can screen the building when in leaf, so you may get a clearer view of the stonework in late autumn, winter or early spring."}},{"@type":"Question","name":"How do I get to the Royal Ontario Museum?","acceptedAnswer":{"@type":"Answer","text":"Take the Line 1 subway to Museum station, whose north-western entrance serves the museum directly."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Toronto</div>
+<div class="head">
+  <h1>20 photo spots in Toronto: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/toronto/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Toronto"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Toronto as photo spots, ranked by how often people search for them: CN Tower, Casa Loma, Royal Ontario Museum, St. Lawrence Market and Hockey Hall of Fame lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>CN Tower</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:CN_Tower_-_Toronto_(5107414990).jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="CN Tower, Toronto: Toronto&#39;s signature landmark. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Mark, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>The CN Tower is Toronto&#39;s signature landmark, a 553.3-metre communications and observation tower that was completed in 1976. It stands on the former Railway Lands in downtown Toronto, and its name comes from Canadian National, the railway company that built it. For 32 years, from 1975 until 2007, it was the world&#39;s tallest free-standing structure. It still photographs well because of its simple outline: one slender concrete shaft, a pod near the top and a thin antenna above. Up close it is almost too tall to fit in a phone frame, so the trick is to step back. Roundhouse Park is a short walk from the base, with open space around you and room to include the whole tower from bottom to antenna. Keep the phone upright, use the gridlines to line the shaft up with a vertical line, and leave a little sky above the antenna. A bit of the park, a path or a bench in the lower part of the frame gives a sense of scale. If you want a second angle, Harbourfront Park on the waterfront offers a symmetrical view across open lawns. Please be aware that the observation levels are a paid attraction, and the tower itself is not visible from inside it.</p>
+    <p><b>Where it is:</b> The CN Tower is in downtown Toronto, on the former Railway Lands just south of Front Street and close to the Harbourfront. Roundhouse Park sits a short walk south-east of the tower&#39;s base.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the whole tower in one frame, then try the default lens (1x) for a cleaner look with less stretching at the edges. Telephoto (2x-5x) is good for a close-up of the pod and antenna.</p>
+      <p><b>Where to stand:</b> Stand about 190 m south-east of the subject, in Roundhouse Park (the phone icon on the map), and face north-west. From there the tower is to the north-west, and standing back from its base lets the full structure fit in the frame, with space around you away from the busiest crowds near the entrance.</p>
+      <p><b>Framing:</b> Hold the phone upright, switch on the gridlines and keep the tower&#39;s shaft on one vertical line so it doesn&#39;t lean. Leave a little sky above the antenna and use the park&#39;s grass or paths at the bottom of the frame. For a different view, Harbourfront Park gives a direct, symmetrical line of sight to the tower across open lawns.</p>
+      <p><b>Settings tip:</b> Tap on the tower to set focus, then drag the exposure slider down a little so the sky stays blue and the shaft keeps its detail. Wipe the lens first, as ultra-wide shots show smudges easily.</p>
+      <p><b>Best time:</b> Early morning or late afternoon usually means softer light and fewer people. At dusk, steady your phone and use night mode for the tower against the darkening sky.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Casa Loma</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Flickr_-_paul_bica_-_casa_loma.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Casa Loma, Toronto: a Gothic Revival, castle-style mansion on a hill in midtown Toronto. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: paul (dex) bica from toronto, canada, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Casa Loma is a Gothic Revival, castle-style mansion on a hill in midtown Toronto. It was built between 1911 and 1914 as a home for the financier Sir Henry Pellatt, to designs by the architect E. J. Lennox. With 98 rooms, it was the largest private residence in Canada when it was built, and it now operates as a museum. It sits 66 metres above Lake Ontario, which is why the towers and battlements stand out so clearly above the neighbouring streets.</p><p>It photographs well because the stonework, turrets and towers give you plenty of shapes to work with, and the quiet, tree-lined residential street in front gives a pleasing setting. From Austin Terrace you can frame the front of the castle without going inside, with the towers rising above the trees. If you want a different feel, the Baldwin Steps climb the slope towards the castle&#39;s western side, and Spadina Park shows the building on its grassy rise with more space around it.</p><p>The formal front gardens are not open all year, and the view from the top of the towers needs a ticket, so keep your plans flexible. Take a few frames from the street first, then decide whether to go in. Wipe your phone lens before you start, as city dust and fingerprints show up as haze on pale stonework.</p>
+    <p><b>Where it is:</b> Casa Loma stands on a hill in midtown Toronto, north-west of Dupont station and north of Spadina Road. Austin Terrace is the quiet residential street beside it.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole front of the castle. Switch to the ultra-wide (0.5x) if the street is narrow and you cannot fit the towers in. Use telephoto (2x-5x, depending on your phone) for towers, windows and stonework.</p>
+      <p><b>Where to stand:</b> Stand about 35 m north of the subject, on Austin Terrace (the phone icon on the map), and face south. From here you see the castle&#39;s front facade framed by the tree-lined street, with the towers and stonework above. Keep to the pavement and stay clear of driveways.</p>
+      <p><b>Framing:</b> Turn on gridlines and line a tower up with a vertical grid line so the walls don&#39;t lean. Let the trees and the street frame the castle at the sides. For a different angle, try the Baldwin Steps, which lead up towards the castle&#39;s western side, or Spadina Park for the castle on its grassy slope. Check both positions on the map first.</p>
+      <p><b>Settings tip:</b> Tap on the stonework to set focus, then drag the exposure slider down a little so the sky doesn&#39;t wash out and the walls keep their colour. Take a few shots at 0.5x, 1x and 2x so you can pick the best one later.</p>
+      <p><b>Best time:</b> Try mid to late afternoon, when the front of the castle may catch softer light. Trees along the street can screen the building when in leaf, so you may get a clearer view of the stonework in late autumn, winter or early spring.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Royal Ontario Museum (the Crystal)</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Royal_Ontario_Museum-Michael_Lee-Chin_Crystal.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Royal Ontario Museum (the Crystal), Toronto: one of the largest museums in North America. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Staka, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>The Royal Ontario Museum is one of the largest museums in North America, and its Michael Lee-Chin Crystal is the part that stops people on the pavement. Daniel Libeskind designed it as a cluster of tilted, angular prisms of aluminium and glass. It was added to the older stone museum building, which opened in 1914, and the Crystal&#39;s architectural opening took place on 2 June 2007. The pairing is why it photographs so well: sharp modern shapes sit right up against heavy, rounded stonework, and both fit in one frame.</p><p>The phone icon on the map is about 35 m north of the subject. From there you look south across the Crystal&#39;s northern face, with the older stone wing beside it. The contrast between old and new reads most clearly from this spot. Dusk is the favourite time, when the lit glass glows against the darkening sky.</p><p>The museum is also being renovated at the moment, with work continuing into 2026, so parts of the building may look different from older pictures. Take a few frames from the phone icon on the map, then walk along Bloor Street West towards Avenue Road for a second view. There you can see the Crystal&#39;s angles and the north front of the East Wing together along the line of the street. Watch for pedestrians and keep your phone close to you on a busy pavement.</p>
+    <p><b>Where it is:</b> The museum is in Toronto&#39;s University district, just north of Queen&#39;s Park and next to the University of Toronto&#39;s St. George campus. Its main entrance is on Bloor Street West.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to show the Crystal beside the older stone wing. Switch to ultra-wide (0.5x) if you want the whole tilting form in one frame from the pavement. Use the telephoto (2x-5x, depending on your phone) for close shots of the angled glass and edges.</p>
+      <p><b>Where to stand:</b> Stand about 35 m north of the subject, at the corner of Bloor Street West and Queen&#39;s Park (the phone icon on the map), and face south. From here you look across the Crystal&#39;s northern face, with its angled aluminium-and-glass prisms rising over Bloor Street and the older stone wing of the museum beside it. As an alternative, try Bloor Street West and Avenue Road for the Crystal&#39;s sharp angles and the East Wing&#39;s north front along the street line.</p>
+      <p><b>Framing:</b> Switch on the gridlines and line up the stone wing and the Crystal so each fills about half the frame, to show the contrast between old and new. Keep the phone level so the vertical lines don&#39;t lean too much, and use 0.5x only when you can&#39;t fit the whole building in at 1x. From the Avenue Road corner, use the line of the street as a lead-in towards the Crystal.</p>
+      <p><b>Settings tip:</b> Tap on the lit part of the glass to set focus, then drag the exposure slider down a little so the bright panels don&#39;t wash out. At dusk, turn on night mode and hold the phone steady against a lamp post or your own arms to keep the lines sharp.</p>
+      <p><b>Best time:</b> Dusk, when the lit glass glows against the darkening sky.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>St. Lawrence Market <small>· members</small></li>
+    <li><span class="n">5</span>Hockey Hall of Fame building <small>· members</small></li>
+    <li><span class="n">6</span>Distillery District <small>· members</small></li>
+    <li><span class="n">7</span>Kensington Market <small>· members</small></li>
+    <li><span class="n">8</span>Allan Gardens Conservatory <small>· members</small></li>
+    <li><span class="n">9</span>Union Station <small>· members</small></li>
+    <li><span class="n">10</span>Nathan Phillips Square and the Toronto Sign <small>· members</small></li>
+    <li><span class="n">11</span>Toronto Islands and the skyline view <small>· members</small></li>
+    <li><span class="n">12</span>Toronto Music Garden <small>· members</small></li>
+    <li><span class="n">13</span>High Park <small>· members</small></li>
+    <li><span class="n">14</span>Trinity Bellwoods Park <small>· members</small></li>
+    <li><span class="n">15</span>Old City Hall <small>· members</small></li>
+    <li><span class="n">16</span>Graffiti Alley <small>· members</small></li>
+    <li><span class="n">17</span>Gooderham Building (Flatiron) <small>· members</small></li>
+    <li><span class="n">18</span>Riverdale Park East (skyline view) <small>· members</small></li>
+    <li><span class="n">19</span>Fort York <small>· members</small></li>
+    <li><span class="n">20</span>Sugar Beach <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Toronto?</summary><p>The first three on this map are CN Tower, Casa Loma and Royal Ontario Museum. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the CN Tower?</summary><p>Stand about 190 m south-east of the CN Tower, in Roundhouse Park (the phone icon on the map), and face north-west. Start with the ultra-wide (0.5x) to fit the whole tower in one frame, then try the default lens (1x) for a cleaner look with less stretching at the edges.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Casa Loma?</summary><p>Try mid to late afternoon, when the front of the castle may catch softer light. Trees along the street can screen the building when in leaf, so you may get a clearer view of the stonework in late autumn, winter or early spring.</p></details>
+  <details class="faq"><summary>How do I get to the Royal Ontario Museum?</summary><p>Take the Line 1 subway to Museum station, whose north-western entrance serves the museum directly.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/CN_Tower" target="_blank" rel="noopener">CN Tower</a>, <a href="https://en.wikipedia.org/wiki/Casa_Loma" target="_blank" rel="noopener">Casa Loma</a>, <a href="https://en.wikipedia.org/wiki/Royal_Ontario_Museum" target="_blank" rel="noopener">Royal Ontario Museum</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"toronto","place":"Toronto","bounds":[-79.48,43.62,-79.33,43.7],"center":[-79.405,43.66],"english":false,"vatican":false,"tiles":"/r2tiles/toronto/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

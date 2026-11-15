@@ -1,0 +1,249 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Vatican City Attractions Map: 10 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 10 best photo spots in Vatican City, including St Peter&#39;s Basilica and St Peter&#39;s Square. Where to stand, phone tips, directions. First 3 free.">
+<meta name="keywords" content="things to do in vatican city, vatican city attractions, vatican city tourist map, st peter&#39;s basilica, st peter&#39;s square vatican, vatican museum">
+<link rel="canonical" href="https://xdatrys.com/library/vatican/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Vatican City Attractions Map: 10 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 10 best photo spots in Vatican City, including St Peter&#39;s Basilica and St Peter&#39;s Square. Where to stand, phone tips, directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/vatican/">
+<meta property="og:image" content="https://xdatrys.com/library/vatican/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="261">
+<meta property="og:image:alt" content="St Peter&#39;s Basilica, Vatican City: the great Renaissance church of Vatican City. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/vatican/","url":"https://xdatrys.com/library/vatican/","name":"Vatican City Attractions Map: 10 Best Photo Spots | Xdatrys","description":"Map of the 10 best photo spots in Vatican City, including St Peter's Basilica and St Peter's Square. Where to stand, phone tips, directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/vatican/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Vatican City","alternateName":["Vatican","Città del Vaticano"]},"mainEntity":{"@type":"ItemList","name":"Vatican City photo spots","numberOfItems":10,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"St Peter's Basilica","description":"St Peter's Basilica is the great Renaissance church of Vatican City, and its central dome dominates the Rome skyline.","geo":{"@type":"GeoCoordinates","latitude":41.9021553,"longitude":12.4537285},"alternateName":["Saint Peter's Basilica"],"image":"https://xdatrys.com/library/vatican/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"St Peter's Square and the colonnade","description":"St Peter's Square is the huge open space in front of St Peter's Basilica, and it is easy to photograph because its shapes are so clear.","geo":{"@type":"GeoCoordinates","latitude":41.9022,"longitude":12.4572},"alternateName":["Piazza San Pietro"],"image":"https://xdatrys.com/library/vatican/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Vatican Museums","description":"The Vatican Museums are the public museums of Vatican City, and they hold one of the biggest art collections anywhere.","geo":{"@type":"GeoCoordinates","latitude":41.9062442,"longitude":12.452751},"alternateName":["Vatican Museum"],"image":"https://xdatrys.com/library/vatican/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/vatican/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Vatican City","item":"https://xdatrys.com/library/vatican/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Vatican City?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are St Peter's Basilica, St Peter's Square and Vatican Museums. They are ranked by how often people search for them. The full map has 10."}},{"@type":"Question","name":"Where should I stand to photograph St Peter's Basilica?","acceptedAnswer":{"@type":"Answer","text":"Stand about 290 m east of St Peter's Basilica, at the phone icon on the map, and face west. Start with the default lens (1x) for the whole façade and dome together."}},{"@type":"Question","name":"When is the best time to photograph St Peter's Square?","acceptedAnswer":{"@type":"Answer","text":"Check the light at the time you visit, as it changes how the façade and colonnades look. Early in the day it is usually quieter too."}},{"@type":"Question","name":"How do I get to the Vatican Museums?","acceptedAnswer":{"@type":"Answer","text":"The nearest stop is Cipro (Metro line A), about 7 minutes on foot, with the museums to the east."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Vatican City</div>
+<div class="head">
+  <h1>10 photo spots in Vatican City: where to stand and how to shoot them on your phone</h1>
+  <p>10 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 7 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/vatican/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 10 photo spots in Vatican City"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 10 of the most-searched sights in Vatican City as photo spots, ranked by how often people search for them: St Peter&#39;s Basilica, St Peter&#39;s Square, Vatican Museums, Pietà and St Peter&#39;s Dome lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>St Peter&#39;s Basilica</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="St Peter&#39;s Basilica, Vatican City: the great Renaissance church of Vatican City. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Alvesgaspar, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>St Peter&#39;s Basilica is the great Renaissance church of Vatican City, and its central dome dominates the Rome skyline. The building is approached across St Peter&#39;s Square, which has two sections, an oval and then a trapezoid, both wrapped in tall colonnades. The wide façade, with its giant columns, stretches across the far end. Two statues of Saints Peter and Paul, each 5.55 metres tall, stand on the steps in front.</p><p>That is why it photographs so well. The colonnades lead the eye towards the façade, and the dome rises behind it as a clear finishing shape. Building work began on 18 April 1506 and finished on 18 November 1626, and several famous architects shaped the design, including Bramante, Michelangelo and Carlo Maderno. Bernini designed the square and many of the fittings. It is also the largest church in the world by interior measure.</p><p>The phone icon on the map is about 290 m east of the subject. At that distance the whole building fits in the frame with room for the open space and people in front of it. Take one wide shot to show the scale, then zoom in for the dome and the statues. Keep your phone level so the tall columns do not lean. If the square is busy, wait a moment for a gap, or use people walking across it to show how big the place is.</p>
+    <p><b>Where it is:</b> St Peter&#39;s Basilica stands in Vatican City, at the western end of St Peter&#39;s Square. It lies west of the River Tiber, near the Janiculum Hill.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole façade and dome together. Switch to the ultra-wide (0.5x) if you want the colonnades and the open square in the frame, and to telephoto (2x-5x, depending on your phone) for the dome and the statues on the steps.</p>
+      <p><b>Where to stand:</b> Stand about 290 m east of the subject, at the phone icon on the map, and face west.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line up the centre of the façade and dome with the middle vertical line. Use the horizontal lines to keep the rooftop level and the columns upright. Leave some open ground and people in the lower part of the picture to give a sense of scale. Then zoom in for a tighter shot of the dome.</p>
+      <p><b>Settings tip:</b> Tap on the façade to set focus, then slide the exposure down a little so the bright sky does not wash out the stonework. If you use telephoto, hold the phone steady with both hands and elbows tucked in.</p>
+      <p><b>Best time:</b> Late afternoon usually gives warm light on the stone, but go early in the day if you want fewer people in the square.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>St Peter&#39;s Square and the colonnade</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Place_Saint_Pierre_-_Vatican_(VA)_-_2021-08-25_-_4.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="St Peter&#39;s Square and the colonnade, Vatican City: the huge open space in front of St Peter&#39;s Basilica. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Chabe01, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>St Peter&#39;s Square is the huge open space in front of St Peter&#39;s Basilica, and it is easy to photograph because its shapes are so clear. Two curving Tuscan colonnades, four columns deep, wrap around an oval of paving. At the centre stands the red granite Vatican obelisk, 25.5 m tall and about 41 m to the cross on top, raised on bronze lions. It was moved here in 1586, and Gian Lorenzo Bernini designed the square around it between 1667 and 1676. Two matching fountains, dated 1613 and 1675, sit either side of the obelisk. Together they give you symmetry, lines and scale in one view. Look down as well: travertine lines run across the paving, and circular stones mark where the obelisk&#39;s shadow falls at noon through the year. For a simple, balanced shot, stand at the phone icon on the map and face west, with the obelisk in the middle and the basilica behind it. Put a fountain or a curve of columns at one edge to show the size of the place. Then turn around for the colonnade on its own, where the rows of columns make strong repeating lines. The square is very large and often busy, so keep your phone steady, take a few frames, and let people in the foreground show the scale.</p>
+    <p><b>Where it is:</b> In Vatican City, in the large forecourt directly in front of St Peter&#39;s Basilica, with the colonnades curving around it to the north and south.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) for the sweep of the colonnades, then switch to the default lens (1x) for the obelisk with the basilica behind it. Use telephoto (2x-5x, depending on your phone) for the top of the obelisk, the bronze lions or details of the façade.</p>
+      <p><b>Where to stand:</b> Stand about 85 m east of the subject, at the phone icon on the map, and face west.</p>
+      <p><b>Framing:</b> Turn on gridlines and put the obelisk on the centre line so the symmetry reads clearly. Keep the horizon level and the columns upright. Include one of the fountains or a curve of the colonnade at the edge of the frame for depth. For a second shot, stand against the colonnade and shoot along the rows of columns.</p>
+      <p><b>Settings tip:</b> Tap on the basilica façade to set focus, then lower the exposure slider a little if the pale stone or sky looks too bright. Panorama mode can work for the full curve of the square if you turn slowly and keep the phone level. Avoid moving people in the middle of a panorama.</p>
+      <p><b>Best time:</b> Check the light at the time you visit, as it changes how the façade and colonnades look. Early in the day it is usually quieter too. Evening, when the lights come on, suits night mode if you can brace your phone against something solid.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Vatican Museums</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Vatican_Museums_Spiral_Staircase_2012.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Vatican Museums, Vatican City: the public museums of Vatican City. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Colin, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>The Vatican Museums are the public museums of Vatican City, and they hold one of the biggest art collections anywhere. The collection numbers roughly 70,000 works, with about 20,000 on display. The museums began with one sculpture, Laocoön and His Sons, which was found in Rome in January 1506. Pope Julius II bought it and put it on show a month later. The route leads you to the Sistine Chapel, decorated by Michelangelo, and to the rooms painted by Raphael. In 2024 the museums had 6.8 million visitors, so expect company.</p><p>For a phone photographer the appeal is the rooms themselves as much as the artworks. The Sala Rotonda is shaped like a miniature Pantheon, with mosaic floors and statues around the edge. The Braccio Nuovo has a wide arched roof with skylights. The Octagonal Court has held famous classical statues since the early 1500s. Each of these gives you strong lines, repeating shapes and a clear sense of scale.</p><p>Step back from crowds when you can, and wait a few seconds for a gap rather than chasing every angle. Look for symmetry down a long gallery, then move in for one statue or a patch of mosaic. Keep your phone steady and avoid flash. Check the official site before you go for current photography rules, as they can differ from room to room and can change.</p>
+    <p><b>Where it is:</b> The museums are inside Vatican City, about 440 m east of Cipro (Metro line A), next to the Cortile del Belvedere and the sculpture galleries described in the sources. The Sistine Chapel is the last room on the visitor route.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the ultra-wide (0.5x) for long galleries and domed rooms such as the Sala Rotonda, so you fit in the ceiling and floor. Use the default lens (1x) for most shots of statues and room corners. Use the telephoto (2x-5x, depending on your phone) for details such as a face, a mosaic or ceiling decoration.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. Stand in the middle of a gallery doorway or room and shoot along its length, so the architecture frames the view.</p>
+      <p><b>Framing:</b> Switch on gridlines and line up the room&#39;s walls and arches so they stay straight. Put a statue or archway in the centre of a symmetrical room, and keep the floor mosaic or the skylights in the frame for depth. Wait for a gap in the crowd, or let people in the frame give a sense of scale.</p>
+      <p><b>Settings tip:</b> Tap on the statue or wall to focus, then drag the exposure slider down slightly so bright skylights and windows don&#39;t wash out. In dim rooms, hold the phone steady against your body and let night mode finish before you move. Avoid flash.</p>
+      <p><b>Best time:</b> Go early or late in the day, when it may be less busy, and check the official site for opening times. Rooms with skylights, such as the Braccio Nuovo, are likely to look best in good daylight.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>7 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Michelangelo&#39;s Pietà <small>· members</small></li>
+    <li><span class="n">5</span>Dome of St Peter&#39;s (rooftop view) <small>· members</small></li>
+    <li><span class="n">6</span>Vatican Gardens <small>· members</small></li>
+    <li><span class="n">7</span>Raphael Rooms and the School of Athens <small>· members</small></li>
+    <li><span class="n">8</span>Pinecone Courtyard <small>· members</small></li>
+    <li><span class="n">9</span>Bramante Staircase (spiral staircase) <small>· members</small></li>
+    <li><span class="n">10</span>Gallery of Maps <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Vatican City?</summary><p>The first three on this map are St Peter&#39;s Basilica, St Peter&#39;s Square and Vatican Museums. They are ranked by how often people search for them. The full map has 10.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph St Peter&#39;s Basilica?</summary><p>Stand about 290 m east of St Peter&#39;s Basilica, at the phone icon on the map, and face west. Start with the default lens (1x) for the whole façade and dome together.</p></details>
+  <details class="faq"><summary>When is the best time to photograph St Peter&#39;s Square?</summary><p>Check the light at the time you visit, as it changes how the façade and colonnades look. Early in the day it is usually quieter too.</p></details>
+  <details class="faq"><summary>How do I get to the Vatican Museums?</summary><p>The nearest stop is Cipro (Metro line A), about 7 minutes on foot, with the museums to the east.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/St._Peter%27s_Basilica" target="_blank" rel="noopener">St. Peter&#39;s Basilica</a>, <a href="https://en.wikipedia.org/wiki/St._Peter%27s_Square" target="_blank" rel="noopener">St. Peter&#39;s Square</a>, <a href="https://en.wikipedia.org/wiki/Vatican_Museums" target="_blank" rel="noopener">Vatican Museums</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"vatican","place":"Vatican City","bounds":[12.444,41.898,12.459,41.908],"center":[12.4515,41.903000000000006],"english":false,"vatican":true,"tiles":"/r2tiles/vatican/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

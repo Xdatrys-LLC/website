@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "bali", "title": "Bali: 20 photo spots (pilot review)", "place": "Bali", "bounds": [114.43, -8.85, 115.71, -8.06], "center": [115.07, -8.455], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bali/{z}/{x}/{y}.pbf", "tz": "Asia/Makassar", "rail": false, "app": true};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "london", "title": "London: 20 photo spots (pilot review)", "place": "London", "bounds": [-0.21, 51.47, 0.01, 51.54], "center": [-0.09999999999999999, 51.504999999999995], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/london/{z}/{x}/{y}.pbf", "tz": "Europe/London", "rail": false, "app": true};

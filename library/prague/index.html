@@ -1,0 +1,259 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Prague: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Prague attractions as photo spots, including Prague Castle and Charles Bridge: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in prague, prague attractions, prague tourist map, map of prague attractions, best views in prague, best photo spots in prague, prague castle, charles bridge, prague astronomical clock">
+<link rel="canonical" href="https://xdatrys.com/library/prague/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Prague: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Prague attractions as photo spots, including Prague Castle and Charles Bridge: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/prague/">
+<meta property="og:image" content="https://xdatrys.com/library/prague/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Prague Castle, Prague: the great sprawl of palaces, churches and towers. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/prague/","url":"https://xdatrys.com/library/prague/","name":"Things to Do in Prague: Map of 20 Photo Spots | Xdatrys","description":"20 top Prague attractions as photo spots, including Prague Castle and Charles Bridge: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/prague/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Prague","alternateName":["Praha"]},"mainEntity":{"@type":"ItemList","name":"Prague photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Prague Castle","description":"Prague Castle is the great sprawl of palaces, churches and towers that crowns the Hradčany skyline.","geo":{"@type":"GeoCoordinates","latitude":50.09,"longitude":14.4},"image":"https://xdatrys.com/library/prague/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Charles Bridge","description":"Charles Bridge is a medieval stone bridge across the Vltava, linking the Old Town with the Lesser Town below Prague Castle.","geo":{"@type":"GeoCoordinates","latitude":50.0866136,"longitude":14.4105534},"image":"https://xdatrys.com/library/prague/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Astronomical Clock","description":"The Prague astronomical clock, or Orloj, is a medieval clock fixed to the southern wall of the Old Town Hall on Old Town Square.","geo":{"@type":"GeoCoordinates","latitude":50.0869802,"longitude":14.4207138},"alternateName":["Prague Astronomical Clock"],"image":"https://xdatrys.com/library/prague/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/prague/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Prague","item":"https://xdatrys.com/library/prague/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Prague?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Prague Castle, Charles Bridge and Astronomical Clock. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Prague Castle?","acceptedAnswer":{"@type":"Answer","text":"Stand about 880 m south-east of Prague Castle, in Křižovnické náměstí (the phone icon on the map), and face north-west. Start with the default lens (1x) to take in the castle, the bridge and the sky together."}},{"@type":"Question","name":"When is the best time to photograph Charles Bridge?","acceptedAnswer":{"@type":"Answer","text":"Sunrise or blue hour. One guide says crowds are lowest before about 7am in summer."}},{"@type":"Question","name":"How do I get to Astronomical Clock?","acceptedAnswer":{"@type":"Answer","text":"From Staroměstská metro station (metro line A, also trams 17, 18 and 2), walk to the south-east; it is about 5 minutes on foot."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Prague</div>
+<div class="head">
+  <h1>20 photo spots in Prague: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/prague/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Prague"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Prague as photo spots, ranked by how often people search for them: Prague Castle, Charles Bridge, Astronomical Clock, St. Vitus Cathedral and Dancing House lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Prague Castle</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:View_of_Prague_Castle_from_Charles_Bridge,_2019_(01).jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Prague Castle, Prague: the great sprawl of palaces, churches and towers. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Bahnfrend, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Prague Castle is the great sprawl of palaces, churches and towers that crowns the Hradčany skyline. It is the official residence and workplace of the Czech president. The Guinness Book of Records lists it as the largest ancient castle in the world, at almost 70,000 square metres and about 570 metres long. Its first walled building, a church, dates from 870, and the Gothic St. Vitus Cathedral was only finished in 1929, after building work that began in the 14th century. That mix of styles is why it photographs so well. The spires of the cathedral rise above long, pale palace walls, and from across the river the whole group reads as one skyline. The most rewarding phone shot is the distant view, not a close-up of the gates. The phone icon on the map is on Křižovnické náměstí, at the Old Town end of Charles Bridge. From there the castle sits high in the background, with the bridge running along one side of the frame. It is a calmer spot than the bridge itself, and a good place to begin before you walk up. Inside the grounds, most areas are open to visitors, so you can add close shots of the cathedral and courtyards later.</p>
+    <p><b>Where it is:</b> Prague Castle stands in the Hradčany district, on the west side of the Vltava, above the Lesser Town rooftops.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to take in the castle, the bridge and the sky together. If your phone has a telephoto lens (2x-5x), use it to bring the castle closer, because from where you stand it sits well back in the frame. Use the ultra-wide (0.5x) only for close views of the bridge and tower beside you.</p>
+      <p><b>Where to stand:</b> Stand about 880 m south-east of the subject, in Křižovnické náměstí (the phone icon on the map), and face north-west. In the lower part of the square next to the Old Town Bridge Tower. From here the castle is ahead of you to the north-west, in the background, with Charles Bridge running along one side of the frame. It is a quieter alternative to standing on the bridge itself.</p>
+      <p><b>Framing:</b> Switch on gridlines and put the bridge along one third of the frame, with the castle&#39;s spires and long roofline in the upper part. Keep the horizon level. If you want a different angle, the guides also suggest Karlův most for the castle above the Lesser Town rooftops, or Vyhlídka Na Opyši for a wide view of the river, bridge and the castle&#39;s east side. Check access there before you go.</p>
+      <p><b>Settings tip:</b> Tap the castle to set focus, then slide the exposure down a little so the sky keeps its colour and the castle does not wash out. Take a few shots at 1x and at your telephoto setting. A Live Photo can help catch a moment when people clear from the foreground.</p>
+      <p><b>Best time:</b> Sunset is the time the guides recommend, when the sun goes down behind the castle. In autumn and winter the sun sets well off to the side, so the effect changes with the season. Arrive early if you want fewer people, as the bridge area gets very crowded.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Charles Bridge</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Praha,_Charle%27s_bridge_%5E_painter_-_panoramio.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Charles Bridge, Prague: a medieval stone bridge across the Vltava. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: cherevko, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener license">CC BY 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Charles Bridge is a medieval stone bridge across the Vltava, linking the Old Town with the Lesser Town below Prague Castle. Building began in 1357 under Charles IV and finished in the early 15th century. It is about 516 metres long and nearly 10 metres wide, with 16 arches, and a tower at each end: the Old Town Bridge Tower on one side and two towers on the Lesser Town side. Along the parapets stand 30 statues and groups, mostly baroque in style. They date from around 1700, though all have since been replaced by replicas. Cars have been kept off the bridge since the repairs of 1965 to 1978, so it is for people on foot only.</p><p>On the bridge itself you are in the crowd and cannot see its shape. The classic photo is taken from the riverbank, where the whole line of arches, statues and towers fits in one frame. The phone icon on the map is about 280 m north of the subject. From there the bridge stretches across the water toward the Old Town, often with swans or boats in the foreground. Guides rate it as the second most famous Charles Bridge view, after the bridge itself. Go early or around blue hour for the best light and the fewest people. A long restoration programme has been running since 2019, so you may find some scaffolding or partial closures.</p>
+    <p><b>Where it is:</b> Charles Bridge crosses the Vltava in central Prague, between the Old Town (Staré Město) and the Lesser Town (Malá Strana). Cihelná park lies on the Lesser Town (Malá Strana) bank, below the bridge&#39;s west end.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to take in the whole bridge. Switch to ultra-wide (0.5x) if you are close to the water&#39;s edge and the frame feels tight. Try telephoto (2x-5x, depending on your phone) to pull the towers and statues closer together.</p>
+      <p><b>Where to stand:</b> Stand about 280 m north of the subject, in Cihelná park (the phone icon on the map), and face south. Cihelná park, on the Lesser Town bank below the bridge&#39;s west end, is nearby, so check the exact spot on the map first. From the riverbank the bridge stretches across the water toward the Old Town, often with swans or boats in the foreground.</p>
+      <p><b>Framing:</b> Turn on gridlines and line the bridge up along a lower third, with the water below it and the towers and sky above. Keep the horizon level. Let a swan or a passing boat fill the foreground. If you want a different angle, Novotného lávka gives an angled view with Prague Castle rising behind the bridge. Check its position on the map first.</p>
+      <p><b>Settings tip:</b> Tap the bridge to focus, then slide the exposure down a little so the sky keeps its colour. At blue hour use night mode and rest your elbows on a wall or railing so the shot stays sharp.</p>
+      <p><b>Best time:</b> Sunrise or blue hour. One guide says crowds are lowest before about 7am in summer.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Astronomical Clock</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Prague_Astronomical_Clock,_July_2019_(2).jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Astronomical Clock, Prague: a medieval clock fixed to the southern wall. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Benoît Prieur, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener license">CC0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>The Prague astronomical clock, or Orloj, is a medieval clock fixed to the southern wall of the Old Town Hall on Old Town Square. It has an astronomical dial showing the positions of the Sun and Moon, a calendar dial with medallions for the months, and statues on either side. The oldest part, the mechanical clock and astronomical dial, dates from 1410. It was made by the clockmaker Mikuláš of Kadaň and the Charles University scholar Jan Šindel. The calendar dial was added around 1490. The Apostle figures arrived after a big repair in 1787-1791. The clock was badly damaged in May 1945 and was running again in 1948.</p><p>It photographs well because there is so much to look at: gold and blue colours, fine detail, and a Gothic tower above. The apostle figures move in and out of the windows during the hourly show, so watch for a small crowd gathering. The dial sits high on the wall, so it is easy to lose in a crowded frame. Decide first whether you want the whole square with the clock in it, or a close shot of the dial. A recommended wide view comes from the east side of the square, which puts the clock and both Týn Church towers in one frame. The detail shots need only a few steps closer.</p>
+    <p><b>Where it is:</b> In the Old Town (Staré Město) of Prague, on the southern wall of the Old Town Hall, on Old Town Square.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the clock with the Old Town Hall around it. Switch to ultra-wide (0.5x) to fit in the square and both Týn Church towers, and use telephoto (2x-5x, depending on your phone) for the dial and the apostle figures.</p>
+      <p><b>Where to stand:</b> Stand about 55 m north of the subject, in Staroměstské náměstí (the phone icon on the map), and face south. For the wide view of the square with both Týn Church towers, walk to the east side of Staroměstské náměstí, opposite the clock. From the east side the whole square is in view, with the clock on the Old Town Hall and both Týn Church towers rising behind the crowd.</p>
+      <p><b>Framing:</b> Turn on gridlines and put the clock tower on one of the vertical lines, with the Týn Church towers on the other side. Keep your phone upright and level, as the tall tower leans if you tilt up. For a closer alternative, zoom in on the full dial with the calendar dial below, framed by the Town Hall facade. Or step to the side to catch the apostle figures at roughly eye level.</p>
+      <p><b>Settings tip:</b> Tap on the dial to set focus, then drag the exposure slider down a little so the sky does not wash out the gold detail. For the apostle show, switch on Live Photos or motion so you can pick the best frame afterwards.</p>
+      <p><b>Best time:</b> Sunrise, when the light is soft and the square is less crowded.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>St. Vitus Cathedral <small>· members</small></li>
+    <li><span class="n">5</span>Dancing House <small>· members</small></li>
+    <li><span class="n">6</span>Petřín Lookout Tower <small>· members</small></li>
+    <li><span class="n">7</span>Klementinum <small>· members</small></li>
+    <li><span class="n">8</span>Wenceslas Square and the National Museum <small>· members</small></li>
+    <li><span class="n">9</span>Strahov Monastery <small>· members</small></li>
+    <li><span class="n">10</span>Old Town Square <small>· members</small></li>
+    <li><span class="n">11</span>Lennon Wall <small>· members</small></li>
+    <li><span class="n">12</span>Old Jewish Cemetery <small>· members</small></li>
+    <li><span class="n">13</span>St. Nicholas Church (Malá Strana) <small>· members</small></li>
+    <li><span class="n">14</span>Týn Church <small>· members</small></li>
+    <li><span class="n">15</span>Kampa and Čertovka <small>· members</small></li>
+    <li><span class="n">16</span>Letná Park view and the Metronome <small>· members</small></li>
+    <li><span class="n">17</span>Vyšehrad <small>· members</small></li>
+    <li><span class="n">18</span>Powder Tower and Municipal House <small>· members</small></li>
+    <li><span class="n">19</span>Head of Franz Kafka <small>· members</small></li>
+    <li><span class="n">20</span>Golden Lane <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Prague?</summary><p>The first three on this map are Prague Castle, Charles Bridge and Astronomical Clock. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Prague Castle?</summary><p>Stand about 880 m south-east of Prague Castle, in Křižovnické náměstí (the phone icon on the map), and face north-west. Start with the default lens (1x) to take in the castle, the bridge and the sky together.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Charles Bridge?</summary><p>Sunrise or blue hour. One guide says crowds are lowest before about 7am in summer.</p></details>
+  <details class="faq"><summary>How do I get to Astronomical Clock?</summary><p>From Staroměstská metro station (metro line A, also trams 17, 18 and 2), walk to the south-east; it is about 5 minutes on foot.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Prague_Castle" target="_blank" rel="noopener">Prague Castle</a>, <a href="https://en.wikipedia.org/wiki/Charles_Bridge" target="_blank" rel="noopener">Charles Bridge</a>, <a href="https://en.wikipedia.org/wiki/Prague_astronomical_clock" target="_blank" rel="noopener">Prague astronomical clock</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"prague","place":"Prague","bounds":[14.38,50.06,14.45,50.11],"center":[14.415,50.085],"english":false,"vatican":false,"tiles":"/r2tiles/prague/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

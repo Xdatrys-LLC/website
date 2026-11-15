@@ -1,0 +1,29 @@
+[
+ {
+  "name": "Ginza",
+  "stand_here": [
+   35.670872,
+   139.764826
+  ],
+  "note": "Ginza 4-chome crossing, south corner: Camera location of a Commons night photo of Wako across the crossing; the guides' classic view. (confidence medium)",
+  "rank": 15
+ },
+ {
+  "name": "Tokyo Skytree",
+  "stand_here": [
+   35.712528,
+   139.800462
+  ],
+  "note": "Sumida River Walk viewpoint: Named OpenStreetMap viewpoint; matches the guides; the current thumbnail was taken near here. (confidence medium)",
+  "rank": 2
+ },
+ {
+  "name": "Odaiba and the Rainbow Bridge",
+  "rank": 13,
+  "stand_here": [
+   35.63314,
+   139.77104
+  ],
+  "note": "Photo check: Commons photos of this subject were taken from 5 separate places centred here, 1087 m from the current phone; 0 near the phone. Check before keeping."
+ }
+]

@@ -1,0 +1,259 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Barcelona: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Barcelona attractions as photo spots, including Sagrada Família, Park Güell and Cathedral: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in barcelona, barcelona attractions, barcelona tourist map, map of barcelona attractions, best views in barcelona, best photo spots in barcelona, sagrada familia, park guell, barcelona cathedral">
+<link rel="canonical" href="https://xdatrys.com/library/barcelona/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Barcelona: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Barcelona attractions as photo spots, including Sagrada Família, Park Güell and Cathedral: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/barcelona/">
+<meta property="og:image" content="https://xdatrys.com/library/barcelona/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="345">
+<meta property="og:image:alt" content="Sagrada Família, Barcelona: the great basilica designed by Antoni Gaudí. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/barcelona/","url":"https://xdatrys.com/library/barcelona/","name":"Things to Do in Barcelona: Map of 20 Photo Spots | Xdatrys","description":"20 top Barcelona attractions as photo spots, including Sagrada Família, Park Güell and Cathedral: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/barcelona/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Barcelona"},"mainEntity":{"@type":"ItemList","name":"Barcelona photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Sagrada Família","description":"The Sagrada Família is the great basilica designed by Antoni Gaudí in Barcelona's Eixample district.","geo":{"@type":"GeoCoordinates","latitude":41.4035047,"longitude":2.1742801},"alternateName":["La Sagrada Familia"],"image":"https://xdatrys.com/library/barcelona/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Park Güell","description":"Park Güell is a hillside garden complex designed by Antoni Gaudí for the industrialist Eusebi Güell.","geo":{"@type":"GeoCoordinates","latitude":41.4136111,"longitude":2.1527778},"alternateName":["Parc Guell"],"image":"https://xdatrys.com/library/barcelona/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Barcelona Cathedral","description":"Barcelona Cathedral, properly the Cathedral of the Holy Cross and Saint Eulalia, is the seat of the archbishop of Barcelona and the centrepiece of the old Gothic Quarter.","geo":{"@type":"GeoCoordinates","latitude":41.3839272,"longitude":2.1763464},"image":"https://xdatrys.com/library/barcelona/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/barcelona/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Barcelona","item":"https://xdatrys.com/library/barcelona/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Barcelona?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Sagrada Família, Park Güell and Cathedral. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph the Sagrada Família?","acceptedAnswer":{"@type":"Answer","text":"Stand about 65 m north-east of the Sagrada Família, at the phone icon on the map, and face south-west. Start with the ultra-wide (0.5x) to fit more of the towers into the frame from close up."}},{"@type":"Question","name":"When is the best time to photograph Park Güell?","acceptedAnswer":{"@type":"Answer","text":"Early morning or late afternoon usually gives softer light and fewer people. Midday is often harsh and busy."}},{"@type":"Question","name":"How do I get to the Cathedral?","acceptedAnswer":{"@type":"Answer","text":"Take Metro line L4 to Jaume I Metro station, which is 194 m from the cathedral, about 3 minutes on foot, and walk west towards it."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Barcelona</div>
+<div class="head">
+  <h1>20 photo spots in Barcelona: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/barcelona/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Barcelona"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Barcelona as photo spots, ranked by how often people search for them: Sagrada Família, Park Güell, Cathedral, Bishop&#39;s Bridge and Casa Batlló lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Sagrada Família</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:SF_maig_2026.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Sagrada Família, Barcelona: the great basilica designed by Antoni Gaudí. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Canaan, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>The Sagrada Família is the great basilica designed by Antoni Gaudí in Barcelona&#39;s Eixample district. Building began in 1882, and Gaudí took over the design the following year and gave it his own mix of Gothic and flowing Art Nouveau forms. He worked on it for the rest of his life and is buried in the crypt. When he died in 1926 it was far from finished, and work has carried on ever since. The central Tower of Jesus Christ is 172.5 m high, which makes this the tallest church in the world. Parts of the building, including the Nativity façade and the Crypt, are part of a UNESCO World Heritage listing for Gaudí&#39;s works.</p><p>It photographs well because nothing else looks like it. Dozens of carved spires, textured stonework and sculpted detail give your phone plenty to work with, even in a quick snap. The sheer height is the main challenge, so decide early whether you want the whole building or just a detail. From the phone icon on the map you are very close, so the towers will lean inwards if you tilt the phone upwards. That can look dramatic, but if you want straighter lines, step back and keep the phone level. Expect other visitors in the frame, so be patient and shoot in the gaps.</p>
+    <p><b>Where it is:</b> The Sagrada Família stands in the Eixample district of Barcelona. Sagrada Família Metro station is right beside it.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit more of the towers into the frame from close up. Switch to the default lens (1x) for a more natural view of the façade. Use the telephoto (2x-5x, depending on your phone) to pick out spires and carved details high above you.</p>
+      <p><b>Where to stand:</b> Stand about 65 m north-east of the subject, at the phone icon on the map, and face south-west. If you want the whole building in one shot, walk a little further back from this point.</p>
+      <p><b>Framing:</b> Turn on gridlines and use them to keep the vertical lines of the towers straight. Hold the phone as level as you can rather than tilting it far upwards. Look for a foreground element, such as people or a tree, to give the huge building some scale. For a close-up, fill the frame with the stone carving rather than trying to include everything.</p>
+      <p><b>Settings tip:</b> Tap on the stonework to set focus, then drag the exposure slider down slightly so the bright sky does not wash out the detail. If you want the full height in one frame, try panorama mode held vertically, moving slowly and steadily.</p>
+      <p><b>Best time:</b> Early morning usually gives softer light and fewer people in your shots. Around midday the sun is high and the light can be harsh on the stone.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Park Güell</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_(51970314607).jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Park Güell, Barcelona: a hillside garden complex designed by Antoni Gaudí. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Chris Yunker from St. Louis, United States, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Park Güell is a hillside garden complex designed by Antoni Gaudí for the industrialist Eusebi Güell. It sits on the southern slope of the Turó del Carmel, so the city spreads out below it. It was meant to be a private estate of sixty villa plots, but only two houses were built. It opened to the public as a park in 1926 and is now a municipal garden. It is also part of a UNESCO World Heritage listing for Gaudí&#39;s works. It photographs well because almost everything is curved or colourful: the two gatehouses at the entrance, the long wavy bench around the main terrace, and the mosaic-covered vaulted space beneath it. The raised stone walkways have columns that look like tree trunks, which makes good leading lines. For the widest view, climb to the hill of the three crosses at the top, where the Sagrada Família, Torre Glòries, Montjuïc and the sea can be seen. Expect other visitors in most shots, so shoot a little higher or tighter to keep people out of the frame, or let them add a sense of scale. Keep your phone&#39;s lens clean, as you will be handling it a lot on the stairs and terraces. The main area has a ticket system and tickets often sell out, so book ahead where you can.</p>
+    <p><b>Where it is:</b> Park Güell is in the La Salut neighbourhood of Barcelona&#39;s Gràcia district, on the southern slope of the Turó del Carmel hill, at about 41.4136° N, 2.1528° E. It is a large site, around 854 m across, and it looks over the city from above the streets of Gràcia.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) for the terrace, the bench and the gatehouses. Use the default lens (1x) for natural-looking views of the walkways and columns. Use the telephoto (2x-5x, depending on your phone) for mosaic details and for distant views of the city.</p>
+      <p><b>Where to stand:</b> Stand about 60 m north-west of the subject, at the phone icon on the map, and face south-east. Take a few steps either way along the path to get a clean line of sight without other visitors in front of you.</p>
+      <p><b>Framing:</b> Turn on the gridlines and use the curve of the bench or a walkway as a line leading into the frame. Include a bit of sky and city beyond the terrace edge to show the hillside setting. Keep the phone level so the architecture does not look tilted.</p>
+      <p><b>Settings tip:</b> Tap on the mosaics to set focus, then slide the exposure down slightly so the bright tiles and sky do not wash out. If the sun is behind you, check the screen for your own shadow before you shoot.</p>
+      <p><b>Best time:</b> Early morning or late afternoon usually gives softer light and fewer people. Midday is often harsh and busy.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Barcelona Cathedral</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Barcelona_Cathedral_Saint_Eulalia.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Barcelona Cathedral, Barcelona: the seat of the archbishop of Barcelona and the centrepiece. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Fernando, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Barcelona Cathedral, properly the Cathedral of the Holy Cross and Saint Eulalia, is the seat of the archbishop of Barcelona and the centrepiece of the old Gothic Quarter. The present building was begun on 1 May 1298 and took about 150 years, with the cloister finished in 1448. The tall neo-Gothic façade that many visitors picture was added later and completed in 1913, so the front looks younger than the sides. It photographs well because the towers, pointed pinnacles and carved gargoyles give you plenty of detail, and the stone looks different in every kind of light. The sources give the bell towers as 54 metres high, with the tallest point, the central lantern tower (cimborio), reaching 70 metres. Inside the cloister, 13 white geese are kept, one for each year of Saint Eulalia&#39;s life according to tradition. That is a charming small subject if you go in. The phone icon on the map is about 100 m east of the subject. From here you see the eastern end of the building rather than the façade. The streets around are narrow, so you will probably be tilting your phone upwards, and the cathedral will not fit in one shot unless you step back. Take a wide view first, then move to closer shots of the stonework and sculpture. Expect other visitors to wander through your frame, so be patient and take a few shots.</p>
+    <p><b>Where it is:</b> The cathedral stands in the Gothic Quarter (Barri Gòtic) in Barcelona&#39;s old town, a short walk from Jaume I Metro station.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole view. Switch to the ultra-wide (0.5x) if you are squeezed into a narrow street and cannot fit the towers in. Use the telephoto/zoom (2x-5x, depending on your phone) for the gargoyles, pinnacles and stone carving higher up.</p>
+      <p><b>Where to stand:</b> Stand about 100 m east of the subject, at the phone icon on the map, and face west. If the view is blocked by people, move a few steps sideways rather than closer.</p>
+      <p><b>Framing:</b> Turn on the gridlines and keep the towers upright against the vertical lines. Leave a little sky above the highest point so the central lantern tower is not cut off. Take one wide shot, then one zoomed-in shot of the sculpture and stonework as a detail.</p>
+      <p><b>Settings tip:</b> Tap on the stonework to set focus, then slide the exposure down a little if the sky is bright so the sky does not turn white. When you tilt the phone up, the lines will lean inwards, so hold it as level as you can and step back rather than tilt more.</p>
+      <p><b>Best time:</b> Morning is likely to be best from the east, as the sun should be behind you and light the stone. Early or late in the day, there are usually fewer people.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Gothic Quarter and the Bishop&#39;s Bridge <small>· members</small></li>
+    <li><span class="n">5</span>Casa Batlló <small>· members</small></li>
+    <li><span class="n">6</span>La Rambla <small>· members</small></li>
+    <li><span class="n">7</span>Plaça de Catalunya <small>· members</small></li>
+    <li><span class="n">8</span>Casa Milà (La Pedrera) <small>· members</small></li>
+    <li><span class="n">9</span>La Boqueria market <small>· members</small></li>
+    <li><span class="n">10</span>Barceloneta Beach <small>· members</small></li>
+    <li><span class="n">11</span>Parc de la Ciutadella and Arc de Triomf <small>· members</small></li>
+    <li><span class="n">12</span>Montjuïc Castle <small>· members</small></li>
+    <li><span class="n">13</span>Magic Fountain of Montjuïc <small>· members</small></li>
+    <li><span class="n">14</span>Bunkers del Carmel <small>· members</small></li>
+    <li><span class="n">15</span>Palau Güell <small>· members</small></li>
+    <li><span class="n">16</span>Tibidabo <small>· members</small></li>
+    <li><span class="n">17</span>Casa Vicens <small>· members</small></li>
+    <li><span class="n">18</span>Barcelona Pavilion <small>· members</small></li>
+    <li><span class="n">19</span>Palau de la Música Catalana <small>· members</small></li>
+    <li><span class="n">20</span>Camp Nou <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Barcelona?</summary><p>The first three on this map are Sagrada Família, Park Güell and Cathedral. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the Sagrada Família?</summary><p>Stand about 65 m north-east of the Sagrada Família, at the phone icon on the map, and face south-west. Start with the ultra-wide (0.5x) to fit more of the towers into the frame from close up.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Park Güell?</summary><p>Early morning or late afternoon usually gives softer light and fewer people. Midday is often harsh and busy.</p></details>
+  <details class="faq"><summary>How do I get to the Cathedral?</summary><p>Take Metro line L4 to Jaume I Metro station, which is 194 m from the cathedral, about 3 minutes on foot, and walk west towards it.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia" target="_blank" rel="noopener">Sagrada Família</a>, <a href="https://en.wikipedia.org/wiki/Park_G%C3%BCell" target="_blank" rel="noopener">Park Güell</a>, <a href="https://en.wikipedia.org/wiki/Barcelona_Cathedral" target="_blank" rel="noopener">Barcelona Cathedral</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"barcelona","place":"Barcelona","bounds":[2.1,41.35,2.23,41.43],"center":[2.165,41.39],"english":false,"vatican":false,"tiles":"/r2tiles/barcelona/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "toronto", "title": "Toronto: 20 photo spots (pilot review)", "place": "Toronto", "bounds": [-79.48, 43.62, -79.33, 43.7], "center": [-79.405, 43.66], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/toronto/{z}/{x}/{y}.pbf", "tz": "America/Toronto", "rail": true, "app": true};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "paris", "title": "Paris: 20 photo spots (pilot review)", "place": "Paris", "bounds": [2.22, 48.815, 2.42, 48.905], "center": [2.3200000000000003, 48.86], "vatican": false, "english": false, "offline": false, "tour": true, "tiles": "/r2tiles/paris/{z}/{x}/{y}.pbf"};

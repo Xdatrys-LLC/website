@@ -1,0 +1,258 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Naples: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Naples attractions as photo spots, including Galleria Umberto I and Spaccanapoli: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in naples, naples attractions, naples tourist map, best views in naples, galleria umberto, spaccanapoli, piazza del plebiscito">
+<link rel="canonical" href="https://xdatrys.com/library/naples/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Naples: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Naples attractions as photo spots, including Galleria Umberto I and Spaccanapoli: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/naples/">
+<meta property="og:image" content="https://xdatrys.com/library/naples/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Galleria Umberto I, Naples: a public shopping gallery. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/naples/","url":"https://xdatrys.com/library/naples/","name":"Things to Do in Naples: Map of 20 Photo Spots | Xdatrys","description":"20 top Naples attractions as photo spots, including Galleria Umberto I and Spaccanapoli: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/naples/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Naples","alternateName":["Napoli"]},"mainEntity":{"@type":"ItemList","name":"Naples photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Galleria Umberto I","description":"Galleria Umberto I is a public shopping gallery in downtown Naples, directly across from the San Carlo opera house.","geo":{"@type":"GeoCoordinates","latitude":40.8384844,"longitude":14.2494229},"alternateName":["Galleria Umberto"],"image":"https://xdatrys.com/library/naples/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Spaccanapoli","description":"Spaccanapoli is the long, straight street that cuts across the historic centre of Naples.","geo":{"@type":"GeoCoordinates","latitude":40.8480211,"longitude":14.2541817}}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Piazza del Plebiscito","description":"Piazza del Plebiscito is a very large, open square in central Naples, close to the Gulf of Naples.","geo":{"@type":"GeoCoordinates","latitude":40.835727,"longitude":14.2479613},"image":"https://xdatrys.com/library/naples/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/naples/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Naples","item":"https://xdatrys.com/library/naples/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Naples?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Galleria Umberto I, Spaccanapoli and Piazza del Plebiscito. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Galleria Umberto I?","acceptedAnswer":{"@type":"Answer","text":"Stand right at Galleria Umberto I: the phone icon on the map marks the spot. Start with the ultra-wide (0.5x) for the dome and the full height of the arcades."}},{"@type":"Question","name":"When is the best time to photograph Spaccanapoli?","acceptedAnswer":{"@type":"Answer","text":"Check on the day for the best light, and try morning to see what suits. The view is also clearer on a dry day with good visibility."}},{"@type":"Question","name":"How do I get to Piazza del Plebiscito?","acceptedAnswer":{"@type":"Answer","text":"From Chiaia - Monte di Dio station (Metro Line 6), walk east for about 4 minutes."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Naples</div>
+<div class="head">
+  <h1>20 photo spots in Naples: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/naples/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Naples"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Naples as photo spots, ranked by how often people search for them: Galleria Umberto I, Spaccanapoli, Piazza del Plebiscito, Castel Sant&#39;Elmo and Castel dell&#39;Ovo lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Galleria Umberto I</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Dome_interior_at_night_-_Galleria_Umberto_I_-_Naples_-_Italy_2015.JPG" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Galleria Umberto I, Naples: a public shopping gallery. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: José Luiz, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Galleria Umberto I is a public shopping gallery in downtown Naples, directly across from the San Carlo opera house. It was built between 1887 and 1890 as part of the city&#39;s big rebuilding programme, the risanamento. The architect, Emanuele Rocco, drew on the Galleria Vittorio Emanuele II in Milan. It is a tall, cross-shaped space with four glass-and-iron wings. A glass dome braced by 16 metal ribs rises above the crossing, 57 m high at the tip of its spire. Shops, cafés and flats were meant to share the building, and it is still a busy part of city life.</p><p>It photographs well because everything leads the eye upwards: curved ironwork, long arcades and a big patch of sky overhead. The phone icon on the map is at the middle of the gallery&#39;s mapped outline. Walk to the crossing under the dome and look up for the most dramatic frame, then turn to face one of the arcades for a symmetrical view with people walking through. Keep your phone level so the vertical lines stay straight, and wipe your lens first, as pockets leave smears that show up against bright glass. If you want the outside too, the wing that opens towards the San Carlo theatre gives a different view from the one on via Toledo.</p>
+    <p><b>Where it is:</b> In downtown Naples, directly across from the San Carlo opera house. One wing of the gallery opens onto via Toledo (via Roma), the main downtown street.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) for the dome and the full height of the arcades. Switch to the default lens (1x) for the long arcade views. Use the telephoto (2x-5x, depending on your phone) for details of the ironwork and the glass roof.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. Then walk to the crossing under the dome if you want the dome overhead.</p>
+      <p><b>Framing:</b> For the dome, hold the phone with the screen parallel to the wall and tilt up slowly, using the gridlines to keep the verticals straight. For a symmetrical arcade, stand in the middle of a wing and line the centre gridline up with the middle of the roof. Wait for a gap in the crowd, or include a few people to show the scale.</p>
+      <p><b>Settings tip:</b> Tap on a darker part of the gallery to focus, then lower the exposure slider a little so the bright glass roof doesn&#39;t wash out. Panorama mode works for a wing, but hold the phone steady and move slowly.</p>
+      <p><b>Best time:</b> Early in the day usually means fewer people. Daylight through the glass roof lights the gallery evenly, and the shops are likely to be lit in the evening.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Spaccanapoli</h3>
+    
+    <p>Spaccanapoli is the long, straight street that cuts across the historic centre of Naples. It photographs well because it is so straight. From above, it reads as a single line drawn through a crowded patchwork of rooftops, with church domes and bell towers rising on either side. At street level the same straightness gives you a deep, narrow perspective, with buildings and laundry lines closing in on both sides.</p><p>For the classic overview, go to Largo San Martino, the open belvedere in front of the Certosa di San Martino in Vomero. Several guides call it the best view of the street&#39;s straight cut through the city. From here you look out over the rooftops towards the old town, and the street runs across the picture as a thin line. The view is high and fairly distant, so you will want your phone&#39;s telephoto lens.</p><p>If you would rather be in the thick of it, Via Benedetto Croce gives a straight-on view of the lane receding towards its eastern end. At the far end, Piazzetta Nilo frames the lane around the ancient statue of the Nile river-god. Allow time for both: the overview shows the scale, and the street-level views show the life of the place. Take care in narrow lanes with scooters and pedestrians, and stay out of the road when you line up a shot.</p>
+    <p><b>Where it is:</b> Spaccanapoli runs through the historic centre of Naples, east of Dante station and north of Università station. The overview point, Largo San Martino, is up the hill in Vomero, in front of the Certosa di San Martino.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use telephoto (3x-5x, depending on your phone) from Largo San Martino to pull the straight line of the street and the domes closer. Switch to the default lens (1x) for the street-level views.</p>
+      <p><b>Where to stand:</b> Stand about 1.1 km west of the subject, in Largo San Martino (the phone icon on the map), and face east. At the belvedere in front of the Certosa di San Martino in Vomero. Look east across the rooftops of the historic centre to find the straight line of Spaccanapoli with the church domes and bell towers around it.</p>
+      <p><b>Framing:</b> Turn on gridlines and let the straight line of the street run across the frame, with domes and bell towers as anchor points. Keep the rail or any foreground clutter out of the shot. As an alternative, Via Benedetto Croce gives a straight-on view of the lane receding eastwards. Piazzetta Nilo shows the far end around the Nile statue.</p>
+      <p><b>Settings tip:</b> Tap on the rooftops to focus, then lower the exposure slider slightly so the sky doesn&#39;t wash out. Hold the phone steady with both hands, or brace it against a wall, to keep the zoomed shot sharp.</p>
+      <p><b>Best time:</b> Check on the day for the best light, and try morning to see what suits. The view is also clearer on a dry day with good visibility.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Piazza del Plebiscito</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Piazza_del_Plebiscito_-_Naples,_Italy_-_panoramio.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Piazza del Plebiscito, Naples: a very large, open square. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Sergey Ashmarin, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Piazza del Plebiscito is a very large, open square in central Naples, close to the Gulf of Naples. The Royal Palace closes it on the east side. On the west side is the church of San Francesco di Paola, with its curved twin colonnades reaching out to either side. The square is about 277 m across, so there is plenty of space to step back and fit things in. The statue of Charles of Bourbon on horseback stands in the middle of the paving.</p><p>It photographs well because nothing blocks the view. From the middle of the square you can look down Via Cesario Console, past the trees to the sea, with Vesuvius showing over the skyline. The colonnade and palace give strong, symmetrical lines for wider shots.</p><p>The square takes its name from the plebiscite of 21 October 1860, which brought Naples into the unified Kingdom of Italy. For a long time it was used as a car park. It was cleared and pedestrianised in 1994, when the G7 summit was held in Naples, which is why it feels so open today. The church&#39;s dome is 53 m high, so it stands out over the colonnades.</p><p>Go early, when it is quiet, and check for events first, as the square is sometimes used for concerts and can be crowded. If you want a second angle, try the curved colonnade from near the church, or the Royal Palace belvedere for a view over the whole square.</p>
+    <p><b>Where it is:</b> In central Naples, close to the waterfront on the Gulf of Naples. The square sits between the Royal Palace on its east side and the church of San Francesco di Paola on its west side.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the main view down to the sea. Switch to the ultra-wide (0.5x) when you want the whole colonnade and palace in one frame. Use the telephoto (2x-5x, depending on your phone) to bring Vesuvius and the far end of the street closer.</p>
+      <p><b>Where to stand:</b> Stand about 55 m east of the subject, in Piazza del Plebiscito (the phone icon on the map), and face west. In the centre of the square, and face back toward the Royal Palace and the sea. From the centre you get a clear view down Via Cesario Console, with trees, the sea beyond and Vesuvius over the skyline. The edges of the square do not give the same clear line of sight.</p>
+      <p><b>Framing:</b> Turn on gridlines and line up the middle of the street with the centre of the frame, so the trees lead the eye to the water. Keep the horizon level. For a second angle, shoot the curved colonnade toward the church from near the church side, or use the Royal Palace belvedere for a high view of the square (check the official site before you go).</p>
+      <p><b>Settings tip:</b> Tap on the sea or Vesuvius to focus, then drag the exposure slider down a little so the sky keeps its detail. If people are walking through, the ultra-wide (0.5x) usually works better than panorama mode, because moving people can look distorted in a panorama.</p>
+      <p><b>Best time:</b> Early morning, before the square fills with visitors.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Castel Sant&#39;Elmo <small>· members</small></li>
+    <li><span class="n">5</span>Castel dell&#39;Ovo <small>· members</small></li>
+    <li><span class="n">6</span>Castel Nuovo (Maschio Angioino) <small>· members</small></li>
+    <li><span class="n">7</span>Royal Palace of Naples <small>· members</small></li>
+    <li><span class="n">8</span>Quartieri Spagnoli and the Maradona mural <small>· members</small></li>
+    <li><span class="n">9</span>Via San Gregorio Armeno <small>· members</small></li>
+    <li><span class="n">10</span>Piazza Bellini <small>· members</small></li>
+    <li><span class="n">11</span>Naples Cathedral <small>· members</small></li>
+    <li><span class="n">12</span>Lungomare and Via Caracciolo <small>· members</small></li>
+    <li><span class="n">13</span>Gesù Nuovo <small>· members</small></li>
+    <li><span class="n">14</span>Fontana del Gigante <small>· members</small></li>
+    <li><span class="n">15</span>Santa Chiara and its cloister <small>· members</small></li>
+    <li><span class="n">16</span>Fontanelle Cemetery <small>· members</small></li>
+    <li><span class="n">17</span>Certosa di San Martino <small>· members</small></li>
+    <li><span class="n">18</span>Belvedere San Martino <small>· members</small></li>
+    <li><span class="n">19</span>Porta Capuana <small>· members</small></li>
+    <li><span class="n">20</span>Toledo Metro station <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Naples?</summary><p>The first three on this map are Galleria Umberto I, Spaccanapoli and Piazza del Plebiscito. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Galleria Umberto I?</summary><p>Stand right at Galleria Umberto I: the phone icon on the map marks the spot. Start with the ultra-wide (0.5x) for the dome and the full height of the arcades.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Spaccanapoli?</summary><p>Check on the day for the best light, and try morning to see what suits. The view is also clearer on a dry day with good visibility.</p></details>
+  <details class="faq"><summary>How do I get to Piazza del Plebiscito?</summary><p>From Chiaia - Monte di Dio station (Metro Line 6), walk east for about 4 minutes.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Galleria_Umberto_I" target="_blank" rel="noopener">Galleria Umberto I</a>, <a href="https://en.wikipedia.org/wiki/Piazza_del_Plebiscito" target="_blank" rel="noopener">Piazza del Plebiscito</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"naples","place":"Naples","bounds":[14.18,40.82,14.27,40.87],"center":[14.225,40.845],"english":false,"vatican":false,"tiles":"/r2tiles/naples/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

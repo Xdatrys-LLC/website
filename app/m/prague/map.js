@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "prague", "title": "Prague: 20 photo spots (pilot review)", "place": "Prague", "bounds": [14.38, 50.06, 14.45, 50.11], "center": [14.415, 50.085], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/prague/{z}/{x}/{y}.pbf", "tz": "Europe/Prague", "rail": true, "app": true};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "madrid", "title": "Madrid: 20 photo spots (pilot review)", "place": "Madrid", "bounds": [-3.73, 40.38, -3.66, 40.45], "center": [-3.6950000000000003, 40.415000000000006], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/madrid/{z}/{x}/{y}.pbf", "tz": "Europe/Madrid", "rail": true, "app": true};

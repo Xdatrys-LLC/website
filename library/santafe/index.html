@@ -1,0 +1,259 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Santa Fe Attractions Map: 20 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 20 best photo spots in Santa Fe, including Loretto Chapel and O&#39;Keeffe Museum: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="loretto chapel, georgia o&#39;keeffe museum, santa fe plaza">
+<link rel="canonical" href="https://xdatrys.com/library/santafe/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Santa Fe Attractions Map: 20 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 20 best photo spots in Santa Fe, including Loretto Chapel and O&#39;Keeffe Museum: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/santafe/">
+<meta property="og:image" content="https://xdatrys.com/library/santafe/photos/1.jpg">
+<meta property="og:image:width" content="480"><meta property="og:image:height" content="270">
+<meta property="og:image:alt" content="Loretto Chapel and its staircase, Santa Fe: the first stop on the Santa Fe map. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/santafe/","url":"https://xdatrys.com/library/santafe/","name":"Santa Fe Attractions Map: 20 Best Photo Spots | Xdatrys","description":"Map of the 20 best photo spots in Santa Fe, including Loretto Chapel and O'Keeffe Museum: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/santafe/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Santa Fe"},"mainEntity":{"@type":"ItemList","name":"Santa Fe photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Loretto Chapel and its staircase","description":"Loretto Chapel and its staircase is the first stop on the Santa Fe map, and it is a good one for a phone camera.","geo":{"@type":"GeoCoordinates","latitude":35.6856081,"longitude":-105.9376484},"alternateName":["Loretto Chapel Staircase","Miraculous Staircase"],"image":"https://xdatrys.com/library/santafe/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Georgia O'Keeffe Museum","description":"The Georgia O'Keeffe Museum sits on Johnson Street in the centre of Santa Fe, in an adobe-style building.","geo":{"@type":"GeoCoordinates","latitude":35.6890597,"longitude":-105.941154},"image":"https://xdatrys.com/library/santafe/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Santa Fe Plaza","description":"Santa Fe Plaza is the open square at the heart of the old town, framed by historic adobe buildings and the arcaded portal of the Palace of the Governors.","geo":{"@type":"GeoCoordinates","latitude":35.687621,"longitude":-105.938644},"image":"https://xdatrys.com/library/santafe/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/santafe/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Santa Fe","item":"https://xdatrys.com/library/santafe/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Santa Fe?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Loretto Chapel, O'Keeffe Museum and Santa Fe Plaza. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Loretto Chapel?","acceptedAnswer":{"@type":"Answer","text":"Stand about 35 m south of Loretto Chapel, at the phone icon on the map, and face north. Start with the ultra-wide (0.5x) to fit the whole staircase into a tight space."}},{"@type":"Question","name":"When is the best time to photograph O'Keeffe Museum?","acceptedAnswer":{"@type":"Answer","text":"Visit when the street is quieter and the light is soft, such as early or late in the day, so the facade is not in harsh shadow. Check which side of the street is in sun when you arrive."}},{"@type":"Question","name":"How do I get to Santa Fe Plaza?","acceptedAnswer":{"@type":"Answer","text":"Start from the Plaza itself and head north-east towards Fort Marcy Park and the Cross of the Martyrs."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=45b5836d"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<nav class="top">
+  <a href="/" aria-label="Xdatrys home"><img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="86" height="30"></a>
+  <div class="links"><a href="/library/">Map Library</a><a href="/subscribe/">Newsletter</a><a href="/maps/">Free shot maps</a></div>
+</nav>
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Santa Fe</div>
+<div class="head">
+  <h1>20 photo spots in Santa Fe: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1 to 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Get the app" block (2026-11-14): shared by the landing page and the library pages. deep = "" (app home) or "m/<map>/" (one map). -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+.xd-app .qr { display: none; gap: 14px; align-items: center; margin-top: 10px; background: #fff; border: 1.5px solid #e7e7ee; border-radius: 16px; padding: 12px; }
+.xd-app .qr img { width: 128px; height: 128px; flex: none; image-rendering: pixelated; }
+.xd-app .qr div { font-size: 15px; line-height: 1.45; color: #33333d; }
+@media (hover: hover) and (pointer: fine) and (min-width: 760px) { .xd-app .qr { display: flex; } }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Use this map on your phone</b><span>Free to install. Save a map on your phone and it works without signal, with "Walk there" directions to every spot.</span></div>
+    <a class="go" href="/app/m/santafe/">Open in the app</a>
+  </div>
+  <div class="qr"><img src="/app/qr.svg" width="128" height="128" alt="QR code that opens the Xdatrys Maps app on a phone">
+    <div><b>On a computer?</b> Point your phone's camera at this code: the app opens on your phone, ready to install.<br>
+      You can also install it on this computer: open the app, then use the install icon at the right of the address bar (Chrome or Edge).</div></div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Santa Fe"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Santa Fe as photo spots, ranked by how often people search for them: Loretto Chapel, O&#39;Keeffe Museum, Santa Fe Plaza, Canyon Road and San Miguel Chapel lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. The first 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Loretto Chapel and its staircase</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Loretto Chapel and its staircase, Santa Fe: the first stop on the Santa Fe map. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>Loretto Chapel and its staircase is the first stop on the Santa Fe map, and it is a good one for a phone camera. The staircase is the subject, and it rewards a little patience: the staircase itself and the way light falls across it.</p><p>If you are in a tight space, the ultra-wide lens (0.5x) helps you fit the whole staircase into one frame. Switch to the default lens (1x) when you want a more natural look with less stretching at the edges. If you can zoom to 2x or more, use it for details of the staircase rather than trying to capture everything at once.</p><p>Turn on the gridlines so the vertical lines stay straight. Tilting the phone up or down makes the walls lean, so keep it level and step back if you can. Tap the brightest part of the scene to focus, then slide the exposure down a touch so bright areas do not wash out. If other visitors are in the shot, wait a moment for a gap, or include a person to show the scale. Rules on photography and entry can change, so check the official site before you go.</p>
+    <p><b>Where it is:</b> In Santa Fe. On the map it is the first numbered spot.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the whole staircase into a tight space. Use the default lens (1x) for a more natural look. Try the telephoto (2x-5x, depending on your phone) for close details of the staircase.</p>
+      <p><b>Where to stand:</b> Stand about 35 m south of the subject, at the phone icon on the map, and face north. Move a step or two back if you can, so the whole staircase fits in the frame, and keep the phone level.</p>
+      <p><b>Framing:</b> Switch on the gridlines and line up a vertical edge with a grid line to keep it straight. Take one wide shot of the whole staircase, then a closer one of its details. If visitors are in the shot, wait for a gap, or let one person stand on the stairs to show the scale.</p>
+      <p><b>Settings tip:</b> Tap the staircase to focus, then drag the exposure slider down slightly if bright areas are washing out the scene. If the light is dim, try night mode and hold the phone against a wall or rail to keep it steady. Hold still for the full exposure.</p>
+      <p><b>Best time:</b> Visit when it is less busy, if you can, and check the official site for current visiting times.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Georgia O&#39;Keeffe Museum</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Georgia O&#39;Keeffe Museum, Santa Fe: photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>The Georgia O&#39;Keeffe Museum sits on Johnson Street in the centre of Santa Fe, in an adobe-style building. For a phone photographer the appeal is the street frontage: soft earthy walls, simple lines and the entrance, all of which sit well in a single frame. It is the kind of subject that looks calm and uncluttered, so you don&#39;t need clever settings to get a good result.</p><p>Indoor photography is restricted at the museum, so plan on getting your pictures outside and don&#39;t count on taking any inside.</p><p>Start with a straight-on shot of the whole facade with the entrance in view, then move in for details such as the texture of the wall, a doorway or a window. Turn on the gridlines so the building&#39;s edges stay level. If people walk through the frame, wait a moment and they will usually pass. The museum is a short walk from the Santa Fe Plaza, so it fits easily into a stroll around the centre.</p>
+    <p><b>Where it is:</b> In central Santa Fe, on Johnson Street at number 217, a short walk from the Santa Fe Plaza.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole facade. Switch to ultra-wide (0.5x) only if the pavement is narrow and you can&#39;t step back, and keep the building square to the screen so the walls don&#39;t lean. Use 2x or more for details such as the doorway or wall texture.</p>
+      <p><b>Where to stand:</b> Stand about 40 m south-east of the subject, at the phone icon on the map, and face north-west. Stand on the pavement at the Georgia O&#39;Keeffe Museum, at the front facade on Johnson Street (217 Johnson St), or just across the street if you can. From there your photo shows the adobe-style street facade with the entrance in view.</p>
+      <p><b>Framing:</b> Switch on gridlines and line the edges of the building up with the vertical lines. Put the entrance on one of the thirds rather than dead centre. Then take a closer shot of a detail on the wall or around the door for variety.</p>
+      <p><b>Settings tip:</b> Tap on the wall to set focus, then drag the exposure slider down a touch if the sky is bright, so the earth-coloured walls keep their texture.</p>
+      <p><b>Best time:</b> Visit when the street is quieter and the light is soft, such as early or late in the day, so the facade is not in harsh shadow. Check which side of the street is in sun when you arrive.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Santa Fe Plaza</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Santa Fe Plaza, Santa Fe: the open square at the heart of the old town. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>Santa Fe Plaza is the open square at the heart of the old town, framed by historic adobe buildings and the arcaded portal of the Palace of the Governors. Street life fills the foreground. On the ground it can be crowded, and one guide says the square itself is not especially photogenic. The stronger picture may be the view down onto it. The phone icon on the map is about 50 m east of the subject. From there you look down over the Plaza and the rooftops of the city towards the Sangre de Cristo Mountains. The large white cross gives you a clean foreground anchor, so the photo has a clear subject, a middle distance and a mountain backdrop. Guides recommend both sunrise and sunset up here. The walk is paved and climbs gently, so allow a little time and take some water. Plan around the crowds if you also want a street-level shot: guides say the Plaza is busy at weekends and during the summer market season. If you go down afterwards, try the portal of the Palace of the Governors as a frame, with people and adobe walls in the foreground. A dedicated phone shot from the hill and a second from the square make a good pair.</p>
+    <p><b>Where it is:</b> Santa Fe Plaza is in the historic centre of Santa Fe.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to capture the cross, the city and the mountains together. Then try telephoto (2x-5x, depending on your phone) to bring the Plaza and its surrounding buildings closer. Use the ultra-wide (0.5x) only if you want a big sky above the cross.</p>
+      <p><b>Where to stand:</b> Stand about 50 m east of the subject, at the phone icon on the map, and face west. From here you look down over the Plaza and the city towards the Sangre de Cristo Mountains, with the white cross in the foreground. The Plaza lies to the south-west.</p>
+      <p><b>Framing:</b> Place the cross low or to one side as a foreground anchor and let the city and mountains fill the rest of the frame. Switch on gridlines and line the horizon up with the top third. For a second picture, zoom in on the Plaza itself. If you want the street-level view later, the Plaza at ground level shows the adobe buildings and the portal of the Palace of the Governors.</p>
+      <p><b>Settings tip:</b> Tap the sky or the Plaza to focus, then drag the exposure slider down a little so the sky keeps its colour. Gridlines help keep the horizon level.</p>
+      <p><b>Best time:</b> Sunset or sunrise, which guides recommend for this viewpoint.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Canyon Road <small>· members</small></li>
+    <li><span class="n">5</span>San Miguel Chapel <small>· members</small></li>
+    <li><span class="n">6</span>Meow Wolf: House of Eternal Return <small>· members</small></li>
+    <li><span class="n">7</span>Museum Hill and the Museum of International Folk Art <small>· members</small></li>
+    <li><span class="n">8</span>La Fonda on the Plaza <small>· members</small></li>
+    <li><span class="n">9</span>New Mexico State Capitol (the Roundhouse) <small>· members</small></li>
+    <li><span class="n">10</span>Palace of the Governors <small>· members</small></li>
+    <li><span class="n">11</span>The Oldest House <small>· members</small></li>
+    <li><span class="n">12</span>New Mexico Museum of Art <small>· members</small></li>
+    <li><span class="n">13</span>Santa Fe Railyard <small>· members</small></li>
+    <li><span class="n">14</span>Cathedral Basilica of St. Francis of Assisi <small>· members</small></li>
+    <li><span class="n">15</span>Santa Fe Botanical Garden <small>· members</small></li>
+    <li><span class="n">16</span>Cross of the Martyrs <small>· members</small></li>
+    <li><span class="n">17</span>Santuario de Guadalupe <small>· members</small></li>
+    <li><span class="n">18</span>Sena Plaza <small>· members</small></li>
+    <li><span class="n">19</span>Acequia Madre <small>· members</small></li>
+    <li><span class="n">20</span>Cristo Rey Church <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Santa Fe?</summary><p>The first three on this map are Loretto Chapel, O&#39;Keeffe Museum and Santa Fe Plaza. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Loretto Chapel?</summary><p>Stand about 35 m south of Loretto Chapel, at the phone icon on the map, and face north. Start with the ultra-wide (0.5x) to fit the whole staircase into a tight space.</p></details>
+  <details class="faq"><summary>When is the best time to photograph O&#39;Keeffe Museum?</summary><p>Visit when the street is quieter and the light is soft, such as early or late in the day, so the facade is not in harsh shadow. Check which side of the street is in sun when you arrive.</p></details>
+  <details class="faq"><summary>How do I get to Santa Fe Plaza?</summary><p>Start from the Plaza itself and head north-east towards Fort Marcy Park and the Cross of the Martyrs.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"santafe","place":"Santa Fe","bounds":[-106.005,35.645,-105.915,35.7],"center":[-105.96000000000001,35.6725],"english":false,"vatican":false,"tiles":"/r2tiles/santafe/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

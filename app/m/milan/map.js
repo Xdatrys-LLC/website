@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "milan", "title": "Milan: 20 photo spots (pilot review)", "place": "Milan", "bounds": [9.14, 45.43, 9.23, 45.5], "center": [9.185, 45.465], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/milan/{z}/{x}/{y}.pbf", "tz": "Europe/Rome", "rail": true, "app": true};

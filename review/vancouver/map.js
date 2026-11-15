@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "vancouver", "title": "Vancouver: 20 photo spots (pilot review)", "place": "Vancouver", "bounds": [-123.2, 49.25, -123.07, 49.35], "center": [-123.13499999999999, 49.3], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/vancouver/{z}/{x}/{y}.pbf"};
