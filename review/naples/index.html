@@ -65,6 +65,13 @@
   .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
   .pop .thumb figcaption a { color: var(--muted); }
   .pop .after-thumb { clear: both; }
+  /* 2026-11-16 correction gate: delete a popup photo (x), drop a new one onto the popup */
+  .pop .thumb { position: relative; }
+  .gphx { position: absolute; top: 3px; right: 3px; width: 26px; height: 26px; border-radius: 50%; border: 2px solid #fff; background: #c00; color: #fff;
+          font: bold 16px/20px sans-serif; cursor: pointer; padding: 0; box-shadow: 0 1px 3px rgba(0,0,0,.4); }
+  .gphdrop { float: right; width: 34%; margin: 2px 0 6px 10px; border: 2px dashed #00a6c8; border-radius: 6px; padding: 10px 4px; text-align: center; font-size: 11px; color: #0090b0; }
+  .pop.gdrop { outline: 3px dashed #E100FF; outline-offset: -3px; background: #fdf0ff; }
+  #gsave { font-size: 12px; color: #555; }
   /* correction gate (?gate=1): spot panel on the right on a computer, at the bottom on a phone */
   #gatebar { display: none; gap: 8px; align-items: center; font-size: 13px; }
   body.gate #gatebar { display: flex; }
@@ -103,7 +110,7 @@
   <span id="hidden" style="font-size:13px"></span>
   <span id="offbar" hidden style="font-size:13px"><button id="offbtn" style="font:inherit;padding:4px 10px;border-radius:6px;border:1px solid #00a6c8;background:#00a6c8;color:#fff;font-weight:600;cursor:pointer">Save map for offline use</button> <span id="offmsg"></span></span>
   <a id="gatelink" href="?gate=1" style="font-size:13px;font-weight:600;color:#00a6c8">Correct this map</a>
-  <span id="gatebar"><b>Correction gate</b> <span id="gcount">no changes yet</span>
+  <span id="gatebar"><b>Correction gate</b> <span id="gcount">no changes yet</span> <span id="gsave"></span>
     <span id="gsugg"></span> <span id="gdel"></span> <button id="gadd" title="Put a new location pin on the map">Add a new spot</button> <button class="go" id="gcopy">Copy corrections</button><button id="gclear">Clear all</button></span>
 <details id="about"><summary>About this map</summary><p>This map shows 20 of the most-searched sights in Naples as photo spots, ranked by how often people search for them: Galleria Umberto I, Spaccanapoli, Piazza del Plebiscito, Castel Sant&#x27;Elmo and Castel dell&#x27;Ovo lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p><p>The first 3:</p><ol><li><b>Galleria Umberto I</b>: Galleria Umberto I is a public shopping gallery in downtown Naples, directly across from the San Carlo opera house.</li><li><b>Spaccanapoli</b>: Spaccanapoli is the long, straight street that cuts across the historic centre of Naples.</li><li><b>Piazza del Plebiscito</b>: Piazza del Plebiscito is a very large, open square in central Naples, close to the Gulf of Naples.</li></ol><h2 style="font-size:14px;margin:10px 0 0">Questions</h2><h3 style='font-size:13px;margin:8px 0 2px'>What are the top photo spots in Naples?</h3><p style='margin:0'>The first three on this map are Galleria Umberto I, Spaccanapoli and Piazza del Plebiscito. They are ranked by how often people search for them. The full map has 20.</p><h3 style='font-size:13px;margin:8px 0 2px'>Where should I stand to photograph Galleria Umberto I?</h3><p style='margin:0'>Stand right at Galleria Umberto I: the phone icon on the map marks the spot. Start with the ultra-wide (0.5x) for the dome and the full height of the arcades.</p><h3 style='font-size:13px;margin:8px 0 2px'>When is the best time to photograph Spaccanapoli?</h3><p style='margin:0'>Check on the day for the best light, and try morning to see what suits. The view is also clearer on a dry day with good visibility.</p><h3 style='font-size:13px;margin:8px 0 2px'>How do I get to Piazza del Plebiscito?</h3><p style='margin:0'>From Chiaia - Monte di Dio station (Metro Line 6), walk east for about 4 minutes.</p><p>Map data &copy; OpenStreetMap contributors (ODbL). Photos from Wikimedia Commons, credited in each spot.</p></details>
 </header>
@@ -203,9 +210,10 @@ function popupHtml(s) {
   let h = "<div class='pop'>" + (GATE ? gateHtml(s) : "") + "<h3>" + s.rank + ". " + esc(s.name) + "</h3>";
   if (s.photo) {
     const p = s.photo, lic = p.licence_url ? "<a target='_blank' rel='noopener' href='" + esc(p.licence_url) + "'>" + esc(p.licence) + "</a>" : esc(p.licence);
-    h += "<figure class='thumb'><a target='_blank' rel='noopener' href='" + esc(p.source_url) + "'><img src='" + esc(p.file) + "' alt='" + esc((window.SEO && SEO.alt && SEO.alt[s.name]) || (s.name + (MAP.place ? ", " + MAP.place : "") + " (photo: " + (p.artist || "Wikimedia Commons") + ")")) + "'" + (window.SEO && SEO.img && SEO.img[s.name] ? " width='" + SEO.img[s.name][0] + "' height='" + SEO.img[s.name][1] + "'" : "") + " loading='lazy'></a>" +
+    h += "<figure class='thumb'>" + (GATE ? "<button class='gphx' title='Delete this photo' onclick='gatePhotoDel(" + s.rank + ");return false'>\u00d7</button>" : "") + "<a target='_blank' rel='noopener' href='" + esc(p.source_url) + "'><img src='" + esc(p.file) + "' alt='" + esc((window.SEO && SEO.alt && SEO.alt[s.name]) || (s.name + (MAP.place ? ", " + MAP.place : "") + " (photo: " + (p.artist || "Wikimedia Commons") + ")")) + "'" + (window.SEO && SEO.img && SEO.img[s.name] ? " width='" + SEO.img[s.name][0] + "' height='" + SEO.img[s.name][1] + "'" : "") + " loading='lazy'></a>" +
       "<figcaption>" + (p.source_url ? "Photo: " + esc(p.artist) + ", " + lic + ", via Wikimedia Commons" : esc(p.artist) + (p.zoom ? " · shot here at " + (Math.round(p.zoom * 2) / 2 >= 1 ? Math.round(p.zoom) : 0.5) + "x" : "")) + "</figcaption></figure>";   // own photos have no Commons page
   }
+  else if (GATE) h += "<div class='gphdrop'>Drag a photo from your computer onto this card to add it</div>";
   if (t) {
     const ph = t.shooting_on_your_phone || {};
     h += "<div class='desc'>" + paras(t.description) + "</div><div class='after-thumb'></div>" +
@@ -253,8 +261,10 @@ function mDist(a, b) { const R = 6371000, r = Math.PI / 180, dl = (b[0] - a[0]) 
   return Math.round(2 * R * Math.asin(Math.sqrt(Math.sin(dp / 2) ** 2 + Math.cos(a[1] * r) * Math.cos(b[1] * r) * Math.sin(dl / 2) ** 2))); }
 function saveEdit(s) {
   if (s.isNew && s.removed) { delete EDITS[s.rank]; try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {} gateCount(); return; }
-  const o = ORIG[s.rank], e = EDITS[s.rank] || {};
+  const o = ORIG[s.rank]; let e = EDITS[s.rank] || {};
+  if (e.name && e.name !== s.name) e = {};
   e.name = s.name;
+  delete e.suggested; delete e.suggested_why;                                 // you acted on this spot: Claude's suggestion is now yours
   if (s.isNew) { e.new = true; e.pin = R6(s.pin); e.stand_here = s.camera ? R6(s.camera) : undefined; }   // 2026-11-16: spot added here
   else {
     e.pin = s.pin && mDist(o.pin, s.pin) > 0 ? R6(s.pin) : undefined;
@@ -263,9 +273,70 @@ function saveEdit(s) {
   e.remove = s.removed ? true : undefined;                                  // 2026-11-16: spot deleted here
   e.no_phone = !s.camera && !s.removed ? true : undefined;                 // 2026-11-16: phone and arrow deleted here
   Object.keys(e).forEach(k => e[k] === undefined && delete e[k]);
-  if (!e.new && !e.pin && !e.stand_here && !e.note && !e.swapped && !e.remove && !e.no_phone) delete EDITS[s.rank]; else EDITS[s.rank] = e;
+  if (!e.new && !e.pin && !e.stand_here && !e.note && !e.swapped && !e.remove && !e.no_phone && !e.photo) delete EDITS[s.rank]; else EDITS[s.rank] = e;
   try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {}
-  gateCount();
+  gateCount(); gateQueue();
+}
+// ---- 2026-11-16 (Gate_Auto_Apply_Spec): corrections are sent to the site as you make them; this PC applies them every 15 minutes
+const SKEY = GKEY + "-sent";
+let SENDT = null;
+const strip = e => { const c = { ...e }; delete c.suggested; delete c.suggested_why; return JSON.stringify(c); };
+function gateMsg(h) { const el = document.getElementById("gsave"); if (el) el.innerHTML = h; }
+function gateQueue() { if (!GATE) return; clearTimeout(SENDT); gateMsg("saving..."); SENDT = setTimeout(gateSend, 1200); }
+function gateSend() {
+  const mine = Object.entries(EDITS).filter(([r, e]) => !e.suggested);
+  const snap = Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+  const data = { map: MAP.key, made: new Date().toISOString().slice(0, 16), changes: mine.map(([r, e]) => ({ rank: +r, ...e })).sort((a, b) => a.rank - b.rank) };
+  fetch("/api/gate/save", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ map: MAP.key, snap, data }) })
+    .then(r => r.json()).then(j => {
+      if (!j.ok) { gateMsg("<b style='color:#c00'>Not saved to the site (" + esc(j.error) + "). Use Copy corrections.</b>"); return; }
+      const sent = { snap, changes: {} }; mine.forEach(([r, e]) => sent.changes[r] = strip(e));
+      try { localStorage.setItem(SKEY, JSON.stringify(sent)); } catch (err) {}
+      gateMsg(mine.length ? "Saved to the site: " + mine.length + " change(s) waiting. They are applied and published automatically within about 20 minutes." : "Saved to the site: nothing to change.");
+    }).catch(() => gateMsg("<b style='color:#c00'>Not saved to the site (no connection?). Your changes are kept here; try again or use Copy corrections.</b>"));
+}
+// the newest snapshot has been applied on the PC: drop the changes it contained (unless changed again since), so they are not sent twice
+function gateApplied(latest) {
+  let sent = null; try { sent = JSON.parse(localStorage.getItem(SKEY) || "null"); } catch (e) {}
+  if (!latest) return 0;
+  if (latest.status === "failed") { gateMsg("<b style='color:#c00'>Could not be applied: " + esc(latest.note || "") + "</b> Claude has been told; your changes are kept."); return 0; }
+  if (latest.status === "pending") { gateMsg("Waiting to be applied (this happens every 15 minutes)."); return 0; }
+  if (latest.status !== "applied" || !sent || sent.snap !== latest.snap) return 0;
+  let n = 0;
+  for (const [r, js] of Object.entries(sent.changes)) if (EDITS[r] && strip(EDITS[r]) === js) { delete EDITS[r]; n++; }
+  try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); localStorage.removeItem(SKEY); } catch (err) {}
+  gateMsg("<b style='color:#080'>Applied and published" + (latest.done ? " (" + new Date(latest.done * 1000).toLocaleString() + ")" : "") + ".</b> " + (n ? "Reload the page to see the new version." : "") + (latest.note ? " " + esc(latest.note) : ""));
+  return n;
+}
+function gateStatus() { return GATE ? fetch("/api/gate/status?map=" + MAP.key, { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(j => j && j.latest).catch(() => null) : Promise.resolve(null); }
+if (GATE) setInterval(() => { if (localStorage.getItem(SKEY)) gateStatus().then(l => { if (gateApplied(l)) gateCount(); }); }, 60000);
+window.gateAccept = rank => saveEdit(spotBy(rank));
+window.gatePhotoDel = rank => { const s = spotBy(rank); if (!confirm("Remove this photo from spot " + rank + ", " + s.name + "? The spot will have no photo.")) return;
+  const e = EDITS[rank] && EDITS[rank].name === s.name ? EDITS[rank] : { name: s.name }; e.photo = { del: true }; EDITS[rank] = e; s.photo = null; saveEdit(s); refreshPanel(s); };
+window.gatePhotoCredit = (rank, v) => { const e = EDITS[rank]; if (!e || !e.photo) return; e.photo.credit = v.trim() || "\u00a9 Xdatrys LLC";
+  const s = spotBy(rank); if (s.photo) s.photo.artist = e.photo.credit; try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {} gateQueue(); };
+function gatePhotoShow(s, key, credit) { s.photo = { file: "/api/gate/photo?key=" + encodeURIComponent(key), artist: credit || "\u00a9 Xdatrys LLC", source_url: "", licence: "", from: "Dropped at the correction gate (waiting to be applied)" }; }
+function gateDrop(file) {
+  const s = selected; if (!s || s.removed) return;
+  if (!/^image\/(jpeg|png|webp)$/.test(file.type)) { alert("Please use a JPG, PNG or WebP photo (this one is " + (file.type || "an unknown type") + ")."); return; }
+  if (file.size > 20 * 1024 * 1024) { alert("This photo is larger than 20 MB."); return; }
+  s.photo = { file: URL.createObjectURL(file), artist: "uploading...", source_url: "", licence: "", from: "" }; refreshPanel(s);
+  gateMsg("Uploading the photo...");
+  fetch("/api/gate/photo?map=" + MAP.key, { method: "POST", headers: { "content-type": file.type }, body: file }).then(r => r.json()).then(j => {
+    if (!j.ok) throw new Error(j.error || "upload failed");
+    const e = EDITS[s.rank] && EDITS[s.rank].name === s.name ? EDITS[s.rank] : { name: s.name };
+    e.photo = { key: j.key, credit: "\u00a9 Xdatrys LLC" }; EDITS[s.rank] = e;
+    gatePhotoShow(s, j.key, e.photo.credit); saveEdit(s); refreshPanel(s);
+  }).catch(err => { s.photo = ORIG[s.rank] && ORIG[s.rank].photo || null; refreshPanel(s); gateMsg("<b style='color:#c00'>Photo not uploaded: " + esc(err.message) + "</b>"); });
+}
+if (GATE) {
+  const popOf = ev => ev.target && ev.target.closest && ev.target.closest(".pop");
+  window.addEventListener("dragover", ev => { ev.preventDefault(); const p = popOf(ev);
+    document.querySelectorAll(".pop.gdrop").forEach(x => x !== p && x.classList.remove("gdrop")); if (p && selected) p.classList.add("gdrop"); });
+  window.addEventListener("dragleave", ev => { const p = popOf(ev); if (p && !p.contains(ev.relatedTarget)) p.classList.remove("gdrop"); });
+  window.addEventListener("drop", ev => { ev.preventDefault(); const p = popOf(ev); document.querySelectorAll(".pop.gdrop").forEach(x => x.classList.remove("gdrop"));
+    if (!p) { if (ev.dataTransfer.files.length) alert("Open a spot first, then drop the photo onto its card."); return; }
+    const f = ev.dataTransfer.files[0]; if (f) gateDrop(f); });
 }
 function gateCount() { const n = Object.keys(EDITS).length; document.getElementById("gcount").textContent = n ? n + " spot(s) changed" : "no changes yet";
   const sg = Object.entries(EDITS).filter(([r, e]) => e.suggested).map(([r, e]) => +r).sort((a, b) => a - b);
@@ -282,7 +353,10 @@ function gateHtml(s) {
   return "<div class='gctl'><b>" + (s.isNew ? "New spot: " + esc(s.name) : "Correct spot " + s.rank) + "</b><br>Drag the <b style='color:#B000C8'>magenta pin</b> onto the subject and the " +
     "<b style='color:#0090b0'>phone</b> onto where to stand. Grab inside the dashed boxes; the arrow follows by itself." +
     (e.suggested ? "<div style='background:#fff;border:2px solid #00a6c8;border-radius:6px;padding:6px;margin:6px 0'><b>Suggested by Claude.</b> " + esc(e.suggested_why || "") +
-      " <br>Keep it (and copy corrections), drag it somewhere better, or press <b>Undo this spot</b> to reject it.</div>" : "") +
+      " <br>Press <b>Accept</b> to keep it, drag it somewhere better, or press <b>Undo this spot</b> to reject it. Until then it is not sent." +
+      "<div class='row'><button onclick='gateAccept(" + s.rank + ")'>Accept</button></div></div>" : "") +
+    (e.photo && e.photo.key ? "<div>New photo. Credit: <input id='gcred' style='width:60%' value='" + esc(e.photo.credit || "") + "' oninput='gatePhotoCredit(" + s.rank + ", this.value)'></div>" : "") +
+    (e.photo && e.photo.del ? "<div><b>Photo deleted.</b> The spot will have no photo.</div>" : "") +
     ((s.pin_flags || []).length ? "<div class='flags'>Flagged: " + esc(s.pin_flags.join("; ")) + "</div>" : "") +
     (s.isNew ? "<div>New spot. Claude writes its text and finds its place in the order (by searches) when you paste the corrections.</div>"
       : "<div>Pin moved " + mp + " m, phone moved " + mc + " m" + (e.swapped ? " (swapped)" : "") + ". " + (s.camera ? "Phone to subject now " + mDist(s.camera, s.pin) + " m." : "<b>Phone and arrow deleted</b> (the text will say: stand right at the subject).") + "</div>") +
@@ -298,8 +372,8 @@ window.gateSwap = rank => { const s = spotBy(rank); if (!s.camera) return; [s.pi
 window.gateReset = rank => { if (EDITS[rank] && EDITS[rank].suggested) { REJ.push(EDITS[rank].name); try { localStorage.setItem(RKEY, JSON.stringify(REJ)); } catch (err) {} }
   const s = spotBy(rank);
   if (s.isNew) { s.pin = null; s.removed = true; select(null); }        // undoing a new spot takes it away again
-  else { s.pin = ORIG[rank].pin.slice(); s.camera = ORIG[rank].camera && ORIG[rank].camera.slice(); s.removed = false; }
-  delete EDITS[rank]; try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {} gateCount(); refreshPanel(s); };
+  else { s.pin = ORIG[rank].pin.slice(); s.camera = ORIG[rank].camera && ORIG[rank].camera.slice(); s.removed = false; s.photo = ORIG[rank].photo || null; }
+  delete EDITS[rank]; try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {} gateCount(); gateQueue(); refreshPanel(s); };
 window.gateNote = (rank, v) => { const e = EDITS[rank] || {}; e.note = v.trim() || undefined; EDITS[rank] = e; saveEdit(spotBy(rank)); };
 // 2026-11-16 (Ifan): delete or add location pins and phones at the gate
 function below(ll) { return [ll[0], +(ll[1] - 40 / 111320).toFixed(7)]; }      // a new phone starts 40 m south of its pin
@@ -333,6 +407,7 @@ document.getElementById("gcopy").onclick = () => {
   const done = () => { const n = Object.keys(EDITS).length;
     try { localStorage.setItem(GKEY + "-lastcopy", txt); localStorage.removeItem(GKEY); } catch (err) {}
     EDITS = {}; gateCount();
+    try { localStorage.removeItem(SKEY); } catch (err) {} gateQueue();      // the site's copy is emptied too, so nothing is applied twice
     alert("Copied " + n + " change(s). Paste them into the chat with Claude. This correction screen is now cleared, so these changes will not be sent a second time."); };
   if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(txt).then(done, () => fallbackCopy(txt, done)); else fallbackCopy(txt, done);
 };
@@ -341,9 +416,9 @@ function fallbackCopy(txt, done) { const ta = document.createElement("textarea")
 document.getElementById("gclear").onclick = () => { if (!confirm("Remove all corrections for this map?")) return;
   for (const r of Object.keys(EDITS)) { const s = spotBy(+r); if (!s) continue;
     if (s.isNew) { s.pin = null; s.removed = true; continue; }
-    s.pin = ORIG[r].pin.slice(); s.camera = ORIG[r].camera && ORIG[r].camera.slice(); s.removed = false; }
+    s.pin = ORIG[r].pin.slice(); s.camera = ORIG[r].camera && ORIG[r].camera.slice(); s.removed = false; s.photo = ORIG[r].photo || null; }
   select(null);
-  EDITS = {}; try { localStorage.removeItem(GKEY); } catch (e) {} gateCount(); if (selected) refreshPanel(selected); else overlays.forEach(o => o.redraw()); };
+  EDITS = {}; try { localStorage.removeItem(GKEY); } catch (e) {} gateCount(); gateQueue(); if (selected) refreshPanel(selected); else overlays.forEach(o => o.redraw()); };
 let SPOTS = [];
 // ---- "Suggest a better spot" (2026-11-11): a visitor drags the phone (or uses their own location) and sends it with a note.
 // Nothing changes on the map: suggestions are stored (Cloudflare D1, /api/suggest) and checked at the owner's gate first.
@@ -454,8 +529,10 @@ function report(st) { document.getElementById("hidden").textContent = st.hidden 
 document.getElementById("showOut").addEventListener("change", e => overlays.forEach(o => o.setShowOut(e.target.checked)));
 // Standard OpenStreetMap comparison removed 2026-11-09 (our own map is good enough; no longer needed).
 Promise.all([fetch("spots.json", { cache: "no-store" }).then(r => r.json()), document.fonts.load("bold 12px 'DejaVu Sans Bold'"),
-             GATE ? fetch("proposals.json", { cache: "no-store" }).then(r => r.ok ? r.json() : []).catch(() => []) : Promise.resolve([])]).then(([spots, _f, props]) => {
+             GATE ? fetch("proposals.json", { cache: "no-store" }).then(r => r.ok ? r.json() : []).catch(() => []) : Promise.resolve([]),
+             gateStatus()]).then(([spots, _f, props, latest]) => {
   SPOTS = spots;
+  if (GATE) gateApplied(latest);
   for (const p of props || []) {                           // Claude's suggested moves, unless already edited here or rejected
     const s = spots.find(x => x.name === p.name);
     if (!s || EDITS[s.rank] || REJ.includes(p.name)) continue;
@@ -463,8 +540,9 @@ Promise.all([fetch("spots.json", { cache: "no-store" }).then(r => r.json()), doc
   }
   if (GATE) try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {}
   for (const s of spots) {
-    ORIG[s.rank] = { pin: s.pin.slice(), camera: s.camera && s.camera.slice() };
-    const e = GATE && EDITS[s.rank];                       // corrections made earlier on this computer (kept until copied/cleared)
+    ORIG[s.rank] = { pin: s.pin.slice(), camera: s.camera && s.camera.slice(), photo: s.photo || null };
+    const e = GATE && EDITS[s.rank] && EDITS[s.rank].name === s.name && EDITS[s.rank];   // corrections made earlier on this computer, same spot
+    if (e && e.photo) { if (e.photo.del) s.photo = null; else if (e.photo.key) gatePhotoShow(s, e.photo.key, e.photo.credit); }
     if (e) { if (e.pin) s.pin = [e.pin[1], e.pin[0]]; if (e.stand_here) s.camera = [e.stand_here[1], e.stand_here[0]];
              if (e.swapped && !e.pin && !e.stand_here) [s.pin, s.camera] = [s.camera, s.pin];
              if (e.no_phone) s.camera = null;
@@ -473,6 +551,9 @@ Promise.all([fetch("spots.json", { cache: "no-store" }).then(r => r.json()), doc
   if (GATE) for (const [r, e] of Object.entries(EDITS)) if (e.new && !spotBy(+r))
     newSpot(+r, e.name, [e.pin[1], e.pin[0]], e.stand_here ? [e.stand_here[1], e.stand_here[0]] : null);
   if (GATE) gateCount();
+  // changes kept on this computer that have not reached the site yet (e.g. made before automatic sending existed): send them now
+  if (GATE) { let sent = null; try { sent = localStorage.getItem(SKEY); } catch (e) {}
+    if (!sent && Object.values(EDITS).some(e => !e.suggested)) gateQueue(); else if (sent && latest && latest.status === "pending") gateMsg("Waiting to be applied (this happens every 15 minutes)."); }
   // open with every spot on screen (on a phone the fixed opening view cut off spot 1, the Colosseum)
   const pts = spots.filter(s => s.pin && s.in_cut).map(s => s.pin);
   if (pts.length) {
