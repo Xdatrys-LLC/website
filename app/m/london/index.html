@@ -244,7 +244,7 @@ function openSpot(rank) {
   if (overlay) overlay.select(s);
   const p = s.photo;
   body.innerHTML = `<div class="card">
-    ${p ? `<div class="hero"><img src="${esc(p.file)}" alt="${esc(s.name)}, ${esc(MAP.place || "")}"><span class="credit">${p.source_url ? "Photo: " : ""}${esc(p.artist)}${p.source_url ? ", " + (p.licence_url ? `<a href="${esc(p.licence_url)}" target="_blank" rel="noopener">${esc(p.licence)}</a>` : esc(p.licence)) : ""}</span></div>` : ""}
+    ${p ? `<div class="hero"><img src="${esc(p.file)}" alt="${esc(s.name)}, ${esc(MAP.place || "")}"><span class="credit">${p.source_url ? "Photo: " : ""}${esc(p.artist)}${p.source_url ? "" : (p.zoom ? " · shot here at " + (Math.round(p.zoom * 2) / 2 >= 1 ? Math.round(p.zoom) : 0.5) + "x" : "")}${p.source_url ? ", " + (p.licence_url ? `<a href="${esc(p.licence_url)}" target="_blank" rel="noopener">${esc(p.licence)}</a>` : esc(p.licence)) : ""}</span></div>` : ""}
     <h2><span class="num">${s.rank}</span>${esc(s.name)}</h2>
     <p class="hook">${esc(c.hook)}</p>
     <div class="here" id="here" data-to='${JSON.stringify(cam)}'></div>

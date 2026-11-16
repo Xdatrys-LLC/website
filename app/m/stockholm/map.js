@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "stockholm", "title": "Stockholm: 20 photo spots (pilot review)", "place": "Stockholm", "bounds": [17.99, 59.3, 18.15, 59.36], "center": [18.07, 59.33], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/stockholm/{z}/{x}/{y}.pbf", "tz": "UTC", "rail": true, "app": true};

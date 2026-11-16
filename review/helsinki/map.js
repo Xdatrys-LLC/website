@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "helsinki", "title": "Helsinki: 18 photo spots (pilot review)", "place": "Helsinki", "bounds": [24.88, 60.14, 25.02, 60.2], "center": [24.95, 60.17], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/helsinki/{z}/{x}/{y}.pbf"};

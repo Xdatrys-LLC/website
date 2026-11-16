@@ -1,0 +1,305 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Salzburg Attractions Map: 20 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Salzburg tourist map of 20 top photo spots, including Hohensalzburg and Mirabell Gardens: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in salzburg, salzburg attractions, salzburg tourist map, map of salzburg attractions, best views in salzburg, best photo spots in salzburg, hohensalzburg fortress, mirabell gardens, schloss leopoldskron">
+<link rel="canonical" href="https://xdatrys.com/library/salzburg/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Salzburg Attractions Map: 20 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Salzburg tourist map of 20 top photo spots, including Hohensalzburg and Mirabell Gardens: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/salzburg/">
+<meta property="og:image" content="https://xdatrys.com/library/salzburg/photos/1.jpg">
+<meta property="og:image:width" content="480"><meta property="og:image:height" content="270">
+<meta property="og:image:alt" content="Hohensalzburg Fortress, Salzburg: the big white-walled fortress that sits. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/salzburg/","url":"https://xdatrys.com/library/salzburg/","name":"Salzburg Attractions Map: 20 Best Photo Spots | Xdatrys","description":"A Salzburg tourist map of 20 top photo spots, including Hohensalzburg and Mirabell Gardens: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/salzburg/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Salzburg"},"mainEntity":{"@type":"ItemList","name":"Salzburg photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Hohensalzburg Fortress","description":"Hohensalzburg Fortress is the big white-walled fortress that sits on the Festungsberg above Salzburg, at an altitude of 506 m.","geo":{"@type":"GeoCoordinates","latitude":47.795117,"longitude":13.0479132},"alternateName":["Salzburg Fortress"],"image":"https://xdatrys.com/library/salzburg/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Mirabell Palace and Gardens","description":"Mirabell Palace and its formal gardens sit just north of Salzburg's old town and are one of the most popular tourist attractions in Salzburg.","geo":{"@type":"GeoCoordinates","latitude":47.805547,"longitude":13.0420521},"alternateName":["Mirabell Palace"],"image":"https://xdatrys.com/library/salzburg/photos/2.jpg"}},{"@type":"ListItem","position":4,"item":{"@type":"TouristAttraction","name":"Schloss Leopoldskron","description":"Schloss Leopoldskron is a rococo palace on the edge of a lake, the Leopoldskroner Weiher, in the quiet southern part of Salzburg.","geo":{"@type":"GeoCoordinates","latitude":47.7883393,"longitude":13.0386807},"alternateName":["Leopoldskron Palace"],"image":"https://xdatrys.com/library/salzburg/photos/4.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/salzburg/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Salzburg","item":"https://xdatrys.com/library/salzburg/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Salzburg?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Hohensalzburg, Mirabell Gardens and Mozart's Birthplace. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Hohensalzburg?","acceptedAnswer":{"@type":"Answer","text":"Stand about 540 m south of Hohensalzburg, at the phone icon on the map, and face north. Start with the default lens (1x) to take in the fortress and the hill together."}},{"@type":"Question","name":"When is the best time to photograph Mirabell Gardens?","acceptedAnswer":{"@type":"Answer","text":"Early in the morning is usually the quietest time, and the light is softer. Later in the day the gardens tend to be busier, so be ready to wait for gaps in the crowd."}},{"@type":"Question","name":"How do I get to Leopoldskron?","acceptedAnswer":{"@type":"Answer","text":"Check a local journey planner for the best way to reach the Leopoldskron-Moos area in the south of Salzburg."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><span class="xn-soon" aria-disabled="true" title="Sign in opens when membership launches">Sign in <span class="xn-tag">Soon</span></span></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><span class="xn-soon" aria-disabled="true">Sign in <span class="xn-tag">Coming soon</span></span></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Salzburg</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/salzburg/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in Salzburg: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 2 and 4 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with membership (coming soon).</span></div>
+    <a class="go" href="/#membership">See membership</a>
+  </div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Salzburg"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Salzburg as photo spots, ranked by how often people search for them: Hohensalzburg, Mirabell Gardens, Mozart&#39;s Birthplace, Leopoldskron and Salzburg Cathedral lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Hohensalzburg Fortress</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Hohensalzburg Fortress, Salzburg: the big white-walled fortress that sits. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>Hohensalzburg Fortress is the big white-walled fortress that sits on the Festungsberg above Salzburg, at an altitude of 506 m. It is about 250 m long and 150 m wide, which makes it one of the largest medieval castles in Europe. Building began in 1077, and the prince-archbishops kept adding to it over the following centuries. The ring walls and towers date from 1462, and the outer bastions were finished in the 17th century. It was never taken by force. It also has the Reisszug, an early funicular railway first described in 1515 and probably the oldest working railway in the world. The Festungsbahn funicular has run up from the town since 1892.</p><p>It photographs well because the hill gives it a ready-made pedestal. The walls and towers sit in one long line along the ridge, so the whole outline reads clearly even from some distance. The phone icon on the map is about 540 m south of the subject. That is far enough to fit the fortress and the hillside below it in one frame, but too far for detail without zooming. Take one wide shot to show the setting, then move in with the zoom to pick out the towers and the line of the walls. Keep the horizon level, and watch for trees or lamp posts cutting across the lower edge of the picture.</p>
+    <p><b>Where it is:</b> The fortress stands on the Festungsberg hill, overlooking the city of Salzburg, Austria.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to take in the fortress and the hill together. Then use telephoto (2x-5x, depending on your phone) for the walls and towers. Use ultra-wide (0.5x) only if you want a lot of foreground, because it makes the fortress look small.</p>
+      <p><b>Where to stand:</b> Stand about 540 m south of the subject, at the phone icon on the map, and face north. This distance suits the default lens (1x) for the whole scene and the zoom for close-ups.</p>
+      <p><b>Framing:</b> Switch on the gridlines and place the line of the walls on the upper third line, with the hillside filling the rest. Keep the horizon level. Take one shot with the whole hill and one zoomed shot of the towers and walls.</p>
+      <p><b>Settings tip:</b> Tap on the fortress walls to focus, then slide the exposure down a little if the sky is bright, so the white walls keep their detail. Hold the phone steady with both hands when you zoom, and take two or three frames to be sure of one sharp one.</p>
+      <p><b>Best time:</b> Late morning to afternoon is likely to suit best, because the sun should be behind you and shining on the fortress&#39;s south-facing walls. On an overcast day the walls will look flatter, so zoom in on the towers for more interest.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Mirabell Palace and Gardens</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Mirabell Palace and Gardens, Salzburg: photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>Mirabell Palace and its formal gardens sit just north of Salzburg&#39;s old town and are one of the most popular tourist attractions in Salzburg. The gardens are laid out in neat geometric patterns, with clipped boxwood, mythological statues and a hedge theatre, so there are strong lines and colour to build a photo around. The palace itself is pale and Neoclassical, and it closes the view at the far end of the garden.</p><p>The palace dates from about 1606, when Prince-Archbishop Wolf Dietrich built it as a pleasure palace. It was rebuilt in Baroque style in the 1720s and given its present Neoclassical look around 1818, after a fire. The gardens were planned from 1687, and the statue groups by Ottavio Mosto date from 1690. Today the palace houses the mayor&#39;s office and city departments, and the Marble Hall is used for concerts and weddings. Film fans may also recognise the Pegasus fountain and the steps from the &#39;Do-Re-Mi&#39; scene in The Sound of Music.</p><p>For photos, use the lines of the paths and flowerbeds to lead the eye towards the palace. Keep the phone level using the gridlines, and look for a gap between visitors before you take the shot.</p>
+    <p><b>Where it is:</b> Mirabell Palace stands in the city of Salzburg, just north of the medieval city walls and close to the Salzach river. It is part of the Historic Centre of the City of Salzburg World Heritage Site.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the palace with the garden in front of it. Switch to ultra-wide (0.5x) when you want the whole garden layout in the frame. Use telephoto (2x or more) for statues, fountain details and the palace front without people in the foreground.</p>
+      <p><b>Where to stand:</b> Stand about 180 m south of the subject, at the phone icon on the map, and face north.</p>
+      <p><b>Framing:</b> Turn on the gridlines and put the palace on the upper line, with a path or a flowerbed edge running into the frame from the bottom. Keep the phone level so the palace front stays straight. For a second picture, move in close with 2x zoom and frame a statue or a clipped hedge against the palace.</p>
+      <p><b>Settings tip:</b> Tap the palace to focus, then slide the exposure down slightly if the sky is bright, so the pale walls keep their detail. Panorama mode can work for the wide garden if you hold the phone steady and wait for passers-by to clear the frame.</p>
+      <p><b>Best time:</b> Early in the morning is usually the quietest time, and the light is softer. Later in the day the gardens tend to be busier, so be ready to wait for gaps in the crowd.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-4">
+    <h3><span class="n">4</span>Schloss Leopoldskron</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/4.jpg" alt="Schloss Leopoldskron, Salzburg: a rococo palace on the edge of a lake. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>Schloss Leopoldskron is a rococo palace on the edge of a lake, the Leopoldskroner Weiher, in the quiet southern part of Salzburg. It photographs well because the pale building sits right at the water&#39;s edge, so you can include the lake, the lawns and the trees in one frame. Prince-Archbishop Leopold Anton von Firmian had it built in 1736 beside an existing pond. In 1918 the theatre director Max Reinhardt, co-founder of the Salzburg Festival, bought it and spent about twenty years restoring it. Since 1947 it has been home to the Salzburg Global Seminar, and since 2014 the palace and the neighbouring Meierhof have also run as a hotel. Film fans should know that the palace itself never appears in The Sound of Music. Some scenes were shot on the neighbouring Meierhof grounds, using replicas of the palace&#39;s terrace and gate. The phone icon on the map is about 230 m west of the subject. That is far enough to fit the whole 74 m-wide building into a photo without any special effort. Take a wide shot first, then move in closer for the façade. Because the palace is privately run, respect the hotel&#39;s private grounds and any signs, and check the official site before you go if you hope to see more of the grounds.</p>
+    <p><b>Where it is:</b> Schloss Leopoldskron lies in Leopoldskron-Moos, a southern district of the city of Salzburg, on the shore of the lake Leopoldskroner Weiher. The neighbouring Meierhof building stands right beside it.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to show the palace together with the lake and trees around it. Then try 2x or 3x on your phone to tighten the frame on the façade and cut out clutter. Use ultra-wide (0.5x) only if you want a lot of sky and water, as it will make the palace look small.</p>
+      <p><b>Where to stand:</b> Stand about 230 m west of the subject, at the phone icon on the map, and face east. Keep your phone level so the building does not lean, and respect the hotel&#39;s private grounds and any signs.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the palace along one of the vertical lines, with the water filling the lower third. Include some trees or grass at the edge of the frame to give a sense of depth. Take one wide shot of the whole setting and one closer shot of the façade.</p>
+      <p><b>Settings tip:</b> Tap on the palace to set focus, then slide the exposure down a little if the sky is bright so the pale walls keep their detail. Turn on Live Photos if there are ripples on the water, and pick the best frame afterwards.</p>
+      <p><b>Best time:</b> In the afternoon the sun is in the west, behind you as you look east, so it should light the side of the palace facing you. Early morning on a calm day may give a reflection in the lake.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(4)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">3</span>Mozart&#39;s Birthplace <small>· members</small></li>
+    <li><span class="n">5</span>Salzburg Cathedral <small>· members</small></li>
+    <li><span class="n">6</span>Getreidegasse <small>· members</small></li>
+    <li><span class="n">7</span>Nonnberg Abbey <small>· members</small></li>
+    <li><span class="n">8</span>Alter Markt and Café Tomaselli <small>· members</small></li>
+    <li><span class="n">9</span>Mönchsberg view over the old town <small>· members</small></li>
+    <li><span class="n">10</span>Kapuzinerberg viewpoint <small>· members</small></li>
+    <li><span class="n">11</span>St. Peter&#39;s Abbey and Cemetery <small>· members</small></li>
+    <li><span class="n">12</span>Richterhöhe <small>· members</small></li>
+    <li><span class="n">13</span>Steingasse <small>· members</small></li>
+    <li><span class="n">14</span>Salzach river and Staatsbrücke <small>· members</small></li>
+    <li><span class="n">15</span>Residenzplatz and its fountain <small>· members</small></li>
+    <li><span class="n">16</span>Kapitelplatz and the Sphaera <small>· members</small></li>
+    <li><span class="n">17</span>Collegiate Church (Kollegienkirche) <small>· members</small></li>
+    <li><span class="n">18</span>Linzer Gasse <small>· members</small></li>
+    <li><span class="n">19</span>Makartsteg love-lock bridge <small>· members</small></li>
+    <li><span class="n">20</span>Giselakai riverside view <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Salzburg?</summary><p>The first three on this map are Hohensalzburg, Mirabell Gardens and Mozart&#39;s Birthplace. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Hohensalzburg?</summary><p>Stand about 540 m south of Hohensalzburg, at the phone icon on the map, and face north. Start with the default lens (1x) to take in the fortress and the hill together.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Mirabell Gardens?</summary><p>Early in the morning is usually the quietest time, and the light is softer. Later in the day the gardens tend to be busier, so be ready to wait for gaps in the crowd.</p></details>
+  <details class="faq"><summary>How do I get to Leopoldskron?</summary><p>Check a local journey planner for the best way to reach the Leopoldskron-Moos area in the south of Salzburg.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Hohensalzburg_Fortress" target="_blank" rel="noopener">Hohensalzburg Fortress</a>, <a href="https://en.wikipedia.org/wiki/Mirabell_Palace" target="_blank" rel="noopener">Mirabell Palace</a>, <a href="https://en.wikipedia.org/wiki/Schloss_Leopoldskron" target="_blank" rel="noopener">Schloss Leopoldskron</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"salzburg","place":"Salzburg","bounds":[13.0,47.77,13.1,47.83],"center":[13.05,47.8],"english":false,"vatican":false,"tiles":"/r2tiles/salzburg/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 4"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Copenhagen Attractions Map: 20 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of Copenhagen attractions and photo spots, including Tivoli Gardens, Nyhavn and Rosenborg Castle. Where to stand, phone tips, directions. First 3 free.">
+<meta name="keywords" content="things to do in copenhagen, copenhagen attractions, copenhagen tourist map, map of copenhagen attractions, best views in copenhagen, best photo spots in copenhagen, tivoli gardens, nyhavn, rosenborg castle">
+<link rel="canonical" href="https://xdatrys.com/library/copenhagen/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Copenhagen Attractions Map: 20 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of Copenhagen attractions and photo spots, including Tivoli Gardens, Nyhavn and Rosenborg Castle. Where to stand, phone tips, directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/copenhagen/">
+<meta property="og:image" content="https://xdatrys.com/library/copenhagen/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="281">
+<meta property="og:image:alt" content="Tivoli Gardens, Copenhagen: an amusement park and pleasure garden right. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/copenhagen/","url":"https://xdatrys.com/library/copenhagen/","name":"Copenhagen Attractions Map: 20 Best Photo Spots | Xdatrys","description":"Map of Copenhagen attractions and photo spots, including Tivoli Gardens, Nyhavn and Rosenborg Castle. Where to stand, phone tips, directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/copenhagen/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Copenhagen"},"mainEntity":{"@type":"ItemList","name":"Copenhagen photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Tivoli Gardens","description":"Tivoli Gardens is an amusement park and pleasure garden right in the middle of Copenhagen.","geo":{"@type":"GeoCoordinates","latitude":55.6735144,"longitude":12.5685354},"image":"https://xdatrys.com/library/copenhagen/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Nyhavn","description":"Nyhavn is the old canal harbour in the middle of Copenhagen, lined with tall, brightly painted townhouses and moored wooden ships.","geo":{"@type":"GeoCoordinates","latitude":55.6797367,"longitude":12.5909092},"image":"https://xdatrys.com/library/copenhagen/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Rosenborg Castle","description":"Rosenborg Castle is a Dutch Renaissance building in Copenhagen, set in the King's Garden (Kongens Have).","geo":{"@type":"GeoCoordinates","latitude":55.6857508,"longitude":12.57745},"alternateName":["Rosenborg Slot"],"image":"https://xdatrys.com/library/copenhagen/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/copenhagen/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Copenhagen","item":"https://xdatrys.com/library/copenhagen/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Copenhagen?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Tivoli Gardens, Nyhavn and Rosenborg Castle. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Tivoli Gardens?","acceptedAnswer":{"@type":"Answer","text":"Stand about 1.3 km west of Tivoli Gardens, on Vesterbrogade (the phone icon on the map), and face east. Start with the default lens (1x) from the pavement, so the facade and gate keep a natural shape."}},{"@type":"Question","name":"When is the best time to photograph Nyhavn?","acceptedAnswer":{"@type":"Answer","text":"One guide recommends late afternoon. The north-side houses are said to catch good light mainly in the morning and early afternoon in summer, and the terraces fill up from late morning, so going early means fewer people."}},{"@type":"Question","name":"How do I get to Rosenborg Castle?","acceptedAnswer":{"@type":"Answer","text":"No public transport stop is listed for this spot."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><span class="xn-soon" aria-disabled="true" title="Sign in opens when membership launches">Sign in <span class="xn-tag">Soon</span></span></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><span class="xn-soon" aria-disabled="true">Sign in <span class="xn-tag">Coming soon</span></span></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Copenhagen</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/copenhagen/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in Copenhagen: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with membership (coming soon).</span></div>
+    <a class="go" href="/#membership">See membership</a>
+  </div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Copenhagen"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Copenhagen as photo spots, ranked by how often people search for them: Tivoli Gardens, Nyhavn, Rosenborg Castle, Amalienborg and Christiansborg lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Tivoli Gardens</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:CopenhagenTivoliEntrance.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Tivoli Gardens, Copenhagen: an amusement park and pleasure garden right. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Elgaard, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Tivoli Gardens is an amusement park and pleasure garden right in the middle of Copenhagen. It opened on 15 August 1843, which makes it the second-oldest operating amusement park in the world. From the start it mixed flower gardens, cafés and rides with buildings in the style of an imaginary Orient, and coloured lamps lit the grounds after dark. That mix is why it photographs so well. The Moorish-style Nimb building and the park gate make a bold, symmetrical front, and in the evening the lit arches and lanterns give you a ready-made subject. The wooden roller coaster Rutschebanen dates from 1914 and is still running. The Chinese-style pantomime theatre has stood here since 1874. The park is also the most visited in Scandinavia, with 4.25 million visitors in 2024, so expect people in your shots at busy times. For the classic front view, stand on the pavement on Vesterbrogade outside the main entrance, in front of the Nimb building. Stand square-on to the Nimb facade and fit in the gate and the lit arches. If you have time for a second angle, Rådhuspladsen gives a wider view from the city side. Tivoli Lake shows the Chinese Pagoda and Tivoli Castle reflected in the water at dusk, but that spot is inside the park, so you need an entry ticket.</p>
+    <p><b>Where it is:</b> Tivoli Gardens is in central Copenhagen, next to the Central rail station. The main entrance and the Nimb building face Vesterbrogade.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) from the pavement, so the facade and gate keep a natural shape. If the pavement is crowded and you cannot step back, switch to the ultra-wide (0.5x) to fit the whole front in. Keep the phone level so the edges do not lean.</p>
+      <p><b>Where to stand:</b> Stand about 1.3 km west of the subject, on Vesterbrogade (the phone icon on the map), and face east. On the pavement outside the main entrance, in front of the Nimb building. From here you see the Moorish-style Nimb facade and the park gate straight on, with the lit arches and lanterns as the main subject after dark.</p>
+      <p><b>Framing:</b> Turn on gridlines and line up the centre of the gate with the middle of the frame, with the facade filling the upper part. Wait for a gap in the passers-by, or let a few people stay in the lower corner to show scale. For a different view, try Rådhuspladsen for the park&#39;s skyline and lights in the distance with the square in front. Tivoli Lake, inside the park, is the choice for reflections of the Pagoda and Tivoli Castle.</p>
+      <p><b>Settings tip:</b> After dark, let night mode do its work and brace your elbows against your body or a railing. Tap on the brightest lit arches to set focus, then slide the exposure down a little so the lights keep their colour and detail instead of burning out. Take a few frames and keep the sharpest one.</p>
+      <p><b>Best time:</b> After dark, when the facade is lit. If you would rather have fewer people in the frame, an early-morning visit is quieter, but the lights will not be the main feature then.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Nyhavn</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Nyhavn_Copenhagen_2.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Nyhavn, Copenhagen: the old canal harbour. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: kallerna, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Nyhavn is the old canal harbour in the middle of Copenhagen, lined with tall, brightly painted townhouses and moored wooden ships. It was dug between 1670 and 1675 under King Christian V and was once a busy, rowdy port. Today the quay is pedestrianised and the old ships are part of a heritage harbour. It photographs well because the colours, the water and the masts all sit in one straight line, so even a quick snap looks composed. The north side has the oldest house, No. 9, dating from 1681. Hans Christian Andersen lived at several addresses here, including No. 67. The classic picture is taken from the bridge over the canal, where the full row of houses, boats and water fits in one frame. If the bridge is too crowded, Inderhavnsbroen, the footbridge and cycle bridge across the harbour mouth, gives a view of Nyhavn from the water side. Expect people on the quayside and café terraces, so leave a little space around your subject and take a few shots as the crowd shifts. Keep the phone steady against the railing, and wipe the lens first, as harbour air can leave a faint film on it.</p>
+    <p><b>Where it is:</b> Nyhavn is in central Copenhagen, running from the square Kongens Nytorv down to the Inner Harbour, just south of the Royal Playhouse.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for natural-looking houses. Switch to ultra-wide (0.5x) if the bridge is busy and you cannot step back. Use telephoto (2x-5x, depending on your phone) for details such as a single boat, a mast or a row of window frames.</p>
+      <p><b>Where to stand:</b> Stand about 25 m south-east of the numbered pin, at the phone icon on the map, and face north-west. The aim is a photo that shows the full row of coloured canal houses, the moored wooden boats and the water in one frame.</p>
+      <p><b>Framing:</b> Turn on gridlines and line the quay up with one of the lower grid lines so the houses stay upright. Put the boats in the lower third and the houses in the middle, with a little sky above. For a different view, walk to Inderhavnsbroen for Nyhavn seen across the water; it opens for boats, so stand clear of the central section when the horn sounds.</p>
+      <p><b>Settings tip:</b> Tap on the houses to focus, then drag the exposure slider down slightly so the sky and the bright colours do not wash out. Take a Live Photo too, as boats and passers-by can give you a better frame than the still you aimed for.</p>
+      <p><b>Best time:</b> One guide recommends late afternoon. The north-side houses are said to catch good light mainly in the morning and early afternoon in summer, and the terraces fill up from late morning, so going early means fewer people.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Rosenborg Castle</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Rosenborg Castle, Copenhagen: a Dutch Renaissance building. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>Rosenborg Castle is a Dutch Renaissance building in Copenhagen, set in the King&#39;s Garden (Kongens Have). It began as a country summerhouse in 1606, was extended several times and reached its present form by 1624. Christian IV was behind it, and it is one of his many building projects. Danish rulers lived here until around 1710, and it was used as a royal residence only twice after that, both times in emergencies. Today it is a museum of the Royal Collections and holds the Crown Jewels. It has been open to the public since 1838.</p><p>It photographs well because the castle stands in open parkland. In summer, flowers bloom in the castle garden, which can add colour in the foreground. The garden is the country&#39;s oldest royal garden and is busy with visitors, so wait a moment for a clear gap in the people on the paths.</p><p>Start with a wide shot of the full castle, then move in with zoom for the towers, rooflines and brickwork. Keep your phone level so the tall walls do not lean. Interior photography, if allowed at all, is a separate matter, so check the official site before you go.</p>
+    <p><b>Where it is:</b> Rosenborg Castle stands inside Kongens Have (the King&#39;s Garden) in Copenhagen. Next to it are the barracks of the Royal Life Guards.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole castle and its garden. Switch to telephoto (2x-5x, depending on your phone) for towers, roof details and windows. Use ultra-wide (0.5x) only if you walk much closer and want the full height in the frame.</p>
+      <p><b>Where to stand:</b> Stand about 65 m north-west of the subject, at the phone icon on the map, and face south-east. This gives you the castle with open garden in front of it.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line up the castle on one of the vertical lines, with the building in the upper two-thirds and paths or flowerbeds below. Keep the phone upright and level so the walls stay straight. Wait for a gap in the walkers if you want an empty foreground.</p>
+      <p><b>Settings tip:</b> Tap on the castle walls to set focus, then drag the exposure slider down slightly if the sky is bright, so the brick and roof detail do not wash out.</p>
+      <p><b>Best time:</b> Early morning or late afternoon usually gives softer light and fewer people. In summer the flowers in the garden add colour.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Amalienborg <small>· members</small></li>
+    <li><span class="n">5</span>Christiansborg Palace <small>· members</small></li>
+    <li><span class="n">6</span>Freetown Christiania <small>· members</small></li>
+    <li><span class="n">7</span>The Little Mermaid <small>· members</small></li>
+    <li><span class="n">8</span>Kastellet <small>· members</small></li>
+    <li><span class="n">9</span>Strøget <small>· members</small></li>
+    <li><span class="n">10</span>The Black Diamond (Royal Library) <small>· members</small></li>
+    <li><span class="n">11</span>The Round Tower <small>· members</small></li>
+    <li><span class="n">12</span>Frederik&#39;s Church (the Marble Church) <small>· members</small></li>
+    <li><span class="n">13</span>Børsen (the old Stock Exchange) <small>· members</small></li>
+    <li><span class="n">14</span>Copenhagen Opera House <small>· members</small></li>
+    <li><span class="n">15</span>Church of Our Saviour <small>· members</small></li>
+    <li><span class="n">16</span>Botanical Garden palm house <small>· members</small></li>
+    <li><span class="n">17</span>Gefion Fountain <small>· members</small></li>
+    <li><span class="n">18</span>Langelinie promenade <small>· members</small></li>
+    <li><span class="n">19</span>Nyboder&#39;s yellow rows <small>· members</small></li>
+    <li><span class="n">20</span>St. Alban&#39;s Church <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Copenhagen?</summary><p>The first three on this map are Tivoli Gardens, Nyhavn and Rosenborg Castle. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Tivoli Gardens?</summary><p>Stand about 1.3 km west of Tivoli Gardens, on Vesterbrogade (the phone icon on the map), and face east. Start with the default lens (1x) from the pavement, so the facade and gate keep a natural shape.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Nyhavn?</summary><p>One guide recommends late afternoon. The north-side houses are said to catch good light mainly in the morning and early afternoon in summer, and the terraces fill up from late morning, so going early means fewer people.</p></details>
+  <details class="faq"><summary>How do I get to Rosenborg Castle?</summary><p>No public transport stop is listed for this spot.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Tivoli_Gardens" target="_blank" rel="noopener">Tivoli Gardens</a>, <a href="https://en.wikipedia.org/wiki/Nyhavn" target="_blank" rel="noopener">Nyhavn</a>, <a href="https://en.wikipedia.org/wiki/Rosenborg_Castle" target="_blank" rel="noopener">Rosenborg Castle</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"copenhagen","place":"Copenhagen","bounds":[12.52,55.64,12.63,55.71],"center":[12.575,55.675],"english":false,"vatican":false,"tiles":"/r2tiles/copenhagen/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

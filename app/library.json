@@ -24,11 +24,35 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "copenhagen",
+  "place": "Copenhagen",
+  "country": "",
+  "spots": 20,
+  "mb": 13.6,
+  "photo": "photos/1.jpg"
+ },
+ {
+  "key": "dresden",
+  "place": "Dresden",
+  "country": "",
+  "spots": 20,
+  "mb": 12.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "dublin",
   "place": "Dublin",
   "country": "Ireland",
   "spots": 20,
   "mb": 21.0,
+  "photo": "photos/1.jpg"
+ },
+ {
+  "key": "edinburgh",
+  "place": "Edinburgh",
+  "country": "",
+  "spots": 20,
+  "mb": 15.8,
   "photo": "photos/1.jpg"
  },
  {
@@ -40,11 +64,27 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "helsinki",
+  "place": "Helsinki",
+  "country": "",
+  "spots": 18,
+  "mb": 11.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "italy",
   "place": "Italy",
   "country": "Italy",
   "spots": 20,
   "mb": 122.0,
+  "photo": "photos/1.jpg"
+ },
+ {
+  "key": "kyoto",
+  "place": "Kyoto",
+  "country": "",
+  "spots": 20,
+  "mb": 31.7,
   "photo": "photos/1.jpg"
  },
  {
@@ -120,6 +160,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "salzburg",
+  "place": "Salzburg",
+  "country": "",
+  "spots": 20,
+  "mb": 10.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "santafe",
   "place": "Santa Fe",
   "country": "New Mexico United States USA",
@@ -133,6 +181,22 @@
   "country": "Singapore",
   "spots": 20,
   "mb": 14.5,
+  "photo": "photos/1.jpg"
+ },
+ {
+  "key": "stockholm",
+  "place": "Stockholm",
+  "country": "",
+  "spots": 20,
+  "mb": 12.3,
+  "photo": "photos/1.jpg"
+ },
+ {
+  "key": "tallinn",
+  "place": "Tallinn",
+  "country": "",
+  "spots": 18,
+  "mb": 11.2,
   "photo": "photos/1.jpg"
  },
  {
@@ -165,6 +229,22 @@
   "country": "Vatican City Rome Italy",
   "spots": 10,
   "mb": 5.3,
+  "photo": "photos/1.jpg"
+ },
+ {
+  "key": "alesund",
+  "place": "Ålesund",
+  "country": "",
+  "spots": 15,
+  "mb": 4.8,
+  "photo": "photos/1.jpg"
+ },
+ {
+  "key": "ceskykrumlov",
+  "place": "Český Krumlov",
+  "country": "",
+  "spots": 13,
+  "mb": 4.7,
   "photo": "photos/1.jpg"
  }
 ]

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "alesund", "title": "Ålesund: 15 photo spots (pilot review)", "place": "Ålesund", "bounds": [5.94, 62.455, 6.27, 62.53], "center": [6.105, 62.4925], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/alesund/{z}/{x}/{y}.pbf", "tz": "UTC", "rail": false, "app": true};

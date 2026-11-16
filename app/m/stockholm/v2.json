@@ -1,0 +1,1267 @@
+{
+ "Vasa Museum": {
+  "rank": 1,
+  "card": {
+   "hook": "Look for the building with ship masts sticking out of its roof. That's not a joke: they're stylised masts that show how tall the Vasa stood when fully rigged, and they make the museum very easy to spot.",
+   "stand_here": "Stand in Galärparken, about 45 m south-east of the museum, on the waterfront edge where the phone icon is. Face north-west and you'll see the roofline with boats moored in the harbour in front.",
+   "zoom": "Start at zoom 1x to fit the whole roofline with the boats in front. If you're close and the roof and masts won't fit, try zoom 0.5x. Then try zoom 2x or 5x (depending on your phone) to pick out the masts and roof detail.",
+   "make_it_pop": "Turn on gridlines, put the roofline along the upper third and the moored boats along the bottom, and keep your phone level so the masts stand straight.",
+   "best_time": "Softer morning or late-afternoon light usually flatters the copper roof and the water. Midday sun can cause glare off the harbour.",
+   "selfie_here": "Head to the top floor of the Vasa Museum and look for the spot the museum has marked with a selfie sticker. Use the front camera and tilt it so the ship fills the background behind your shoulder. It's worth confirming the marker is still there when you arrive.",
+   "ask_someone": "Ask a passer-by to stand on the path along the water outside the museum while you stand in front of the building, so they can fit the whole museum in behind you.",
+   "rules_and_safety": "Selfie sticks are not allowed inside the museum, so keep your arm out for the top-floor selfie. Check the official site for photo rules and ticket details before you go.",
+   "challenge": "Can you get the masts on the roof and at least one of the four museum ships in the harbour in the same shot, with nobody's head in the way?",
+   "good_to_know": "The 64-gun warship Vasa sank on her maiden voyage in 1628. She's the only almost fully intact 17th-century ship ever salvaged. The museum opened on 15 June 1990, and you can see the ship from six levels inside."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Top floor of the Vasa Museum, at the spot marked with a selfie sticker",
+     "detail": "on the top floor of the museum, at the place the museum has marked with a selfie sticker",
+     "why": "Only one page names a specific selfie point, and the blog says the top floor gives the best pictures and that the museum highlights this spot.",
+     "sources": [
+      {
+       "title": "The Vasa Museum in Stockholm - Take me to Sweden",
+       "url": "https://www.takemetosweden.com/vasa-museum/"
+      },
+      {
+       "title": "Vasa Museum Stockholm: The Ultimate Visitor's Guide",
+       "url": "https://www.swedentips.se/stockholm/vasa-ship-museum/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Djurgården waterfront promenade outside the Vasa Museum",
+    "detail": "the path along the water right outside the museum, where a passer-by can frame the building with the visitor in front of it",
+    "sources": [
+     {
+      "title": "10 Fun Free Things to Do Near the Vasa Museum in Stockholm",
+      "url": "https://gocity.com/en/stockholm/things-to-do/free-things-near-vasa-museum"
+     },
+     {
+      "title": "A Frequent Visitor's 21 Top Photo Spots in Stockholm, Sweden",
+      "url": "https://danny-cph.com/stockholm-best-photo-spots/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Selfie sticks are not allowed inside the museum.",
+     "sources": [
+      {
+       "title": "Is photography och recording video allowed inside the museum?",
+       "url": "https://faq.vasamuseet.se/category/49/article/259?lang=en"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods require advance permission, and flash is not permitted near the ship. (Conflicts with the museum FAQ, which says flash and tripods are allowed.)",
+     "sources": [
+      {
+       "title": "Vasa Museum Stockholm Guide 2026",
+       "url": "https://www.stockholm-spirit.com/guides/vasa-museum-guide/"
+      },
+      {
+       "title": "Is photography och recording video allowed inside the museum?",
+       "url": "https://faq.vasamuseet.se/category/49/article/259?lang=en"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot is supported by a page. The third-floor balcony is named for a top-down photo of the stern, not as a selfie spot, so I left it out. The selfie-spot claim comes from a blog about 405 days old, so confirm the marker on arrival. The official museum FAQ and a guide disagree on flash and tripods. No page gives an exact framing spot for a passer-by photographing a visitor with the whole ship in view, so the promenade is a general area; Skeppsholmen is a distant view of the museum, not a visitor-and-ship framing. The museum's own pages I found do not name a selfie spot."
+  },
+  "cost_usd": 0.0586,
+  "at": "2026-11-14 22:13"
+ },
+ "Gamla Stan and Stortorget": {
+  "rank": 2,
+  "card": {
+   "hook": "Stortorget is called the Grand Square, but it never tried to be grand. The buildings around it were added bit by bit and a little haphazardly, which gives it an uneven, lived-in look that photographs really well.",
+   "stand_here": "Head for Stortorget, in the middle of Gamla Stan. Stand about 10 m south-east of the subject, at the phone icon on the map, and face north-west.",
+   "zoom": "Start at zoom 0.5x to fit the whole width of the square and its façades in one frame. Then try 1x for a more natural look, and 2x to 5x (depending on your phone) for the gables and the cupola.",
+   "make_it_pop": "Turn on gridlines, line up the edges of the buildings with the vertical lines, and keep a strip of cobbles at the bottom of the frame so people can feel how big the space is.",
+   "best_time": "If you like it busy and full of colour, the square is known for its Christmas market. In the evening or at the market, try night mode and hold your phone steady against your body or a wall.",
+   "selfie_here": "Climb the steps of the old Stock Exchange (now the Nobel Prize Museum) so the colourful façades fill the frame behind you. Or stand beside the old well in the middle of the square for a wide shot with the façades and cafés. Use the front camera at 0.5x and keep the buildings over your shoulder.",
+   "ask_someone": "Ask someone to stand at the south end of the square, facing north toward the Nobel Museum, while you stand in the square with the row of coloured façades behind you.",
+   "rules_and_safety": "Stortorget is a public square, but the Nobel Museum and other buildings around it may have their own opening rules, so check the official site before you go.",
+   "challenge": "Find number 3, the blue house with cloverleaf-shaped gables, and get it in one shot with a bit of cobbled ground at the bottom.",
+   "good_to_know": "Stortorget is the oldest square in Stockholm and the historic heart of Gamla Stan. The Stock Exchange Building on the north side was designed by Erik Palmstedt and built between 1773 and 1776, and today it houses the Swedish Academy and the Nobel Museum. Number 3 (Grillska huset) got its cloverleaf gables in 1718."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stortorget, steps of the old Stock Exchange",
+     "detail": "on the steps of the old Stock Exchange building (now the Nobel Prize Museum) on the square",
+     "why": "A local photographer says they shoot the square from these steps, which puts the colourful facades in the frame behind the visitor.",
+     "sources": [
+      {
+       "title": "Most Instagrammable Places in Stockholm (+Tips)",
+       "url": "https://www.stockholmtourism.org/instagrammable-places-stockholm/"
+      }
+     ]
+    },
+    {
+     "name": "Stortorget, near the old well",
+     "detail": "beside the old well on Stortorget, in the heart of the square",
+     "why": "A Stockholm photo guide recommends this spot for a wide shot that takes in both the historic facades and the lively cafés around the square.",
+     "sources": [
+      {
+       "title": "19 Best Photo Spots for Stunning Shots in Stockholm",
+       "url": "https://www.swedentips.se/stockholm/photo-spots/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "South end of Stortorget",
+    "detail": "from the south end of the square, facing north toward the Nobel Museum, so the visitor stands in the square with the row of coloured facades behind",
+    "sources": [
+     {
+      "title": "Gamla Stan & Stortorget: Stockholm's Old Town Guide",
+      "url": "https://www.nomadotravel.app/en/attractions/gamla-stan-old-town"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found gives rules on selfie sticks or tripods, so rules is empty. The 'old well' spot is named only as 'near the old well' with no exact position, so the passer-by should confirm it on the map. The south-end angle is described by its source as the classic photographer's angle, so I used it as the passer-by position; the source does not say this for a passer-by. Two of the sources' suggested angles (the northeast corner and the north end facing south) were not used because they describe photographers' views rather than a visitor-with-landmark setup."
+  },
+  "cost_usd": 0.0599,
+  "at": "2026-11-14 22:13"
+ },
+ "ABBA The Museum": {
+  "rank": 3,
+  "card": {
+   "hook": "You can hum the whole of Dancing Queen before you even reach the door, and the building itself is a big, simple, friendly subject. It's the easy win of the visit, and you can get it in a few seconds before you head inside.",
+   "stand_here": "Stand right at the phone icon on the map, outside ABBA The Museum on Djurgården, near the Gröna Lund theme park. Face the building where you have a clear view of the whole facade, then take a few steps back.",
+   "zoom": "Start at 1x for the whole building. If you're too close to step back, try 0.5x. Use 2x or more (depending on your phone) for signs and details.",
+   "make_it_pop": "Switch on gridlines and line up the edges of the walls with them, and keep your phone level so the building doesn't lean.",
+   "best_time": "Daytime in even light is easiest, and earlier in the day is likely to be quieter. If you come in the evening, try night mode and rest your phone against something solid to keep it steady.",
+   "selfie_here": "Inside, pose with the helicopter from the 1976 Arrival album cover, or at the album-cover photo area with a bench. Use the front camera at 0.5x and let the helicopter fill the space behind your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "No flash in the exhibitions. Filming isn't allowed there either, except filming yourself while using the interactive features. Follow any signs and staff instructions inside.",
+   "challenge": "Get the whole facade in your frame with the walls dead straight, then do a victory pose worthy of an ABBA album cover.",
+   "good_to_know": "The museum opened in May 2013 and is the permanent home of the ABBAWORLD exhibition, which toured Europe and Australia in 2009–2011. Inside you'll find stage costumes donated by the band members and a recreation of the Polar Studio. Benny's self-playing piano is linked to the one in his home."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Album cover area with a bench (inside ABBA The Museum)",
+     "detail": "indoor album-cover photo area with a bench, inside the museum at Djurgårdsvägen 68",
+     "why": "A Tripadvisor answer names this as the one spot where visitors pose for selfies, but it is indoors, so the museum is not behind the visitor.",
+     "sources": [
+      {
+       "title": "Can you take photos inside the museum - ABBA The Museum (Tripadvisor)",
+       "url": "https://www.tripadvisor.com/FAQ_Answers-g189852-d4182487-t7808827-Can_you_take_photos_inside_the_museum.html"
+      }
+     ]
+    },
+    {
+     "name": "The helicopter from the Arrival album cover (inside ABBA The Museum)",
+     "detail": "the actual helicopter from the 1976 Arrival album cover, displayed inside the museum",
+     "why": "Lonely Planet says visitors can pose for photos in this exhibit, which is a recognisable named prop, though it is indoors and not a view of the building.",
+     "sources": [
+      {
+       "title": "ABBA: The Museum (Lonely Planet)",
+       "url": "https://www.lonelyplanet.com/sweden/stockholm/djurgarden-skeppsholmen/attractions/abba-the-museum/a/poi-sig/1111622/1341999"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "No flash is allowed in the exhibitions; photos are otherwise welcome as many as you like.",
+     "sources": [
+      {
+       "title": "Frequently asked questions (ABBA The Museum)",
+       "url": "https://abbathemuseum.com/en/frequently-asked-questions"
+      }
+     ]
+    },
+    {
+     "rule": "Filming is not allowed in the exhibition, except filming yourself while using the interactive features.",
+     "sources": [
+      {
+       "title": "Frequently asked questions (ABBA The Museum)",
+       "url": "https://abbathemuseum.com/en/frequently-asked-questions"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are generally discouraged because of space and crowd management.",
+     "sources": [
+      {
+       "title": "ABBA The Museum Stockholm: Complete Visitor's Guide (machupicchu.org)",
+       "url": "https://www.machupicchu.org/abba-the-museum-stockholm-complete-visitors-guide.htm"
+      }
+     ]
+    },
+    {
+     "rule": "Flash or tripod use may be restricted in some areas, so follow posted signs and staff instructions.",
+     "sources": [
+      {
+       "title": "ABBA Museum Tickets: Essential Tips Before You Book (The Traveler)",
+       "url": "https://www.thetraveler.org/abba-museum-tickets-essential-tips-before-you-book/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names an outdoor selfie spot with the ABBA Museum behind the visitor, so both selfie spots are indoor props rather than the requested view. No page names a spot for a passer-by to photograph the visitor with the whole building, so ask_someone_spot is null. The only outdoor viewpoints found (Monteliusvägen, Fjällgatan) do not name the museum as the backdrop. No ABBA page mentions selfie sticks, so no selfie-stick rule is reported. The selfie-stick bans from the Nationalmuseum, Historiska museet and Kungliga slotten pages apply to those venues, not to ABBA The Museum. The tripod rule from machupicchu.org comes from a third-party guide, so treat it as less reliable than the museum's own FAQ."
+  },
+  "cost_usd": 0.0532,
+  "at": "2026-11-14 22:14"
+ },
+ "Djurgården and the Blue Gate": {
+  "rank": 4,
+  "card": {
+   "hook": "Djurgården changes its mind every few steps: boats and water in one shot, tall trees and old wooden buildings in the next. Don't plant yourself in one spot, because this island rewards walkers.",
+   "stand_here": "Stand at the phone icon on the map, about 1.4 km north-west of the subject, and face south-east to take in Djurgården's shoreline and buildings. Once you're on the island, walk along the waterfront, because every stretch looks different.",
+   "zoom": "Start at 1x for the big scene. From the phone icon, try 2x to pull the shoreline and buildings closer, and keep a bit of foreground in the shot for depth. On the island, go back to 1x for paths, gates and shopfronts, or 0.5x for close waterfront and park views.",
+   "make_it_pop": "Turn on gridlines, put the horizon on the top or bottom line, then tap the brightest part of the sky or water and slide it a little darker so the sky keeps its colour.",
+   "best_time": "Early morning or late afternoon gives softer light and fewer people. In midday sun, duck under the trees for shade.",
+   "selfie_here": "Try the southern end of Djurgårdsbron (Djurgården Bridge), where the Blue Gate comes into view after you cross. Use the front camera at 0.5x and turn so the gate sits over your shoulder. It's the likeliest spot, so check the gate fits in the frame before you tap.",
+   "ask_someone": "",
+   "rules_and_safety": "Djurgården's parks and paths are open, but each museum, attraction and the Blue Gate café has its own rules, so check their official sites before you go.",
+   "challenge": "Get three photos in ten minutes: one with water, one with tall trees, one with an old building. Then pick your favourite and call it the island's best angle.",
+   "good_to_know": "Djurgården was once a royal game park. Its name comes from King John III's 1579 plan to keep deer, reindeer and elk there. Gröna Lund opened in 1883 and Skansen in 1891, and many buildings in the west date from the 1897 Stockholm World's Fair."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Djurgårdsbron (Djurgården Bridge), on the approach to the gate",
+     "detail": "on the bridge, near its southern end, where the gate comes into view after crossing",
+     "why": "A Medium travel article describes the gate as welcoming visitors once they have crossed the bridge, so the bridge end is the likeliest place to frame the gate behind you, though no page describes a selfie position there.",
+     "sources": [
+      {
+       "title": "Sweden — Discover Djurgarden — The Island For Nature Lovers",
+       "url": "https://medium.com/an-idea/sweden-discover-djurgarden-the-island-for-nature-lovers-b47776e497dc"
+      },
+      {
+       "title": "Blå porten (The blue gate), Djurgården, Stockholm (Flickr)",
+       "url": "https://www.flickr.com/photos/109551672@N02/14793689966"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Weak evidence for the selfie spot: no page I found names a position with the gate behind the visitor. Pages agree the gate (Blå porten) sits on Djurgårdsvägen just south of Djurgårdsbron, and the Kungliga Djurgården page mentions a viewpoint along Strandvägen, but I could not confirm that as a selfie spot. No page names a spot for a passer-by to photograph the visitor with the whole gate, so ask_someone_spot is null. The 'Hälsans Stig' walk along Djurgårdsbrunnsviken starts from the gate, but no page links it to a photo position. No page mentions selfie stick or tripod rules, or a safety point. The coordinates given (59.32500, 18.11667) appear to be about 1.5 km east of the gate: Wikimapia gives the gate's longitude as 18°5'40\"E (about 18.09). Please verify the position before using it for the map pin."
+  },
+  "cost_usd": 0.0591,
+  "at": "2026-11-14 22:14",
+  "selfie_pos": [
+   59.3311152,
+   18.0938563
+  ],
+  "selfie_note": "Djurgårdsbron (OpenStreetMap: Djurgårdsbron, Östermalm, Norra innerstadens stadsdelsområde)"
+ },
+ "Skansen": {
+  "rank": 5,
+  "card": {
+   "hook": "Picture this: you walk past a 16th-century farmhouse, then a lane with someone in 19th-century dress, and a moose is somewhere up the hill. All of that fits in one afternoon, and your camera roll will thank you.",
+   "stand_here": "At Skansen, stand about 110 m north of the subject, at the phone icon on the map, and face south.",
+   "zoom": "Start at 1x for buildings and village scenes. Go to 0.5x in tight lanes or open squares, and use 2x-5x (depending on your phone) for animals and craft details.",
+   "make_it_pop": "Turn on gridlines and put a path or fence line on one of the lower lines, so it leads the eye straight to a building.",
+   "best_time": "Early or late in the day gives softer light on the timber buildings and fewer people in your shots. In early December the Christmas market is busy, so keep your phone ready for the evening lights.",
+   "selfie_here": "Head to Bollnäs Square and stand in front of the wooden handicraft stalls for a close selfie with a historic backdrop. Use the front camera, switch to 0.5x if your phone has it, and let the stalls sit over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Skansen is a working museum and zoo, so stay on the paths and keep out of other visitors' way while you line up a shot. It's likely ticketed with set opening times, so check the official site before you go.",
+   "challenge": "Find a path that leads to a building, line it up on the gridlines, then wait for someone in period dress to wander into the frame.",
+   "good_to_know": "Skansen is Sweden's oldest open-air museum, opened by Artur Hazelius on 11 October 1891. He bought around 150 houses from across the country and had them rebuilt here, including the Skogaholm Manor house of 1680. The Christmas market on Bollnäs square has run since 1903."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Skansen rose garden",
+     "detail": "Stand in the rose garden inside the park, with the historic-house gardens as the backdrop.",
+     "why": "A guide lists the rose gardens among the spots where adults can find good backdrops, so it suits a selfie with the park behind you.",
+     "sources": [
+      {
+       "title": "Stockholm's Top Photo Spots: Best Places for Perfect Pictures (GoCity)",
+       "url": "https://gocity.com/en/stockholm/things-to-do/best-photo-opportunities-stockholm"
+      }
+     ]
+    },
+    {
+     "name": "Bollnäs Square (Skansen)",
+     "detail": "In the market square of Skansen's recreated town, in front of the wooden handicraft stalls.",
+     "why": "A photo-spot guide names this square as a lively setting with traditional wooden stalls, which gives a historic backdrop for a close selfie.",
+     "sources": [
+      {
+       "title": "Skansen Museum: 10 Curious and Interesting Facts (Stockholm Free Tour)",
+       "url": "https://www.stockholmfreetour.com/10-curious-and-interesting-facts-about-skansen-museum/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found gives a spot where a passer-by can frame a visitor with all of Skansen behind them. The hilltop near Solliden is well reviewed for views, but those views look over the city rather than back at the park, so I did not list it as a selfie spot. Reviewers also mention a view point near the bear enclosure, but no page gives its exact location. No Skansen-specific selfie stick or tripod rule was found: the rules I found belong to Disney and Tokyo Disney parks, so I left them out. The provided coordinates are roughly 200 m from Skansen's usual position, so check the map pins against the park entrance."
+  },
+  "cost_usd": 0.0538,
+  "at": "2026-11-14 22:15",
+  "selfie_pos": [
+   59.326516,
+   18.1036859
+  ],
+  "selfie_note": "Bollnäs Square (OpenStreetMap: Bollnästorget, 49-51, Djurgårdsslätten, Djurgårdsstaden, Dju)"
+ },
+ "Strömkajen waterfront and the Grand Hôtel": {
+  "rank": 6,
+  "card": {
+   "hook": "Picture a still morning on the Stockholm waterfront, where the Grand Hôtel shows up twice: once on the shore and once upside down in the water. It's one of those easy wins where the scenery does the work.",
+   "stand_here": "Stand on the Strömkajen waterfront, about 170 m north-west of the numbered pin, at the phone icon on the map, and face south-east. The Grand Hôtel is about 167 m ahead of you.",
+   "zoom": "Start at zoom 1x, with the hotel in the middle third and some water in front. Want the quayside, boats and hotel all in one? Step back, go to zoom 0.5x and keep the horizon level, because tilted lines show up fast when you go wide. For the facade, flags or windows, try zoom 2x to 5x (depends on your phone) instead of walking closer.",
+   "make_it_pop": "Turn on the gridlines to keep the building upright, then tap the hotel front and slide a little darker if the sky is bright so the building keeps its detail.",
+   "best_time": "Early morning or the hour before sunset usually gives soft light and calmer water. In the evening the lights come on and the reflections look great in night mode, so rest your elbows on a railing or wall to keep your phone steady.",
+   "selfie_here": "Try Strömkajen quay, beside the brass ticket booth, facing the harbour water with the Grand Hôtel on the Blasieholmen side. Use the front camera, switch to zoom 0.5x if your phone has it, and check your screen to get the hotel over your shoulder.",
+   "ask_someone": "Ask a passer-by on the Strömkajen promenade to shoot back toward the Grand Hôtel along the waterfront, with you standing between them and the hotel.",
+   "rules_and_safety": "The waterfront looks like open public space. For the hotel itself or any boat services, check the official site before you go.",
+   "challenge": "Wait for a boat to glide across the frame, then snap the hotel, the boat and the reflection all together.",
+   "good_to_know": "On a still day the water doubles the hotel in reflection. Passing boats add movement and scale without any effort from you. The Grand Hôtel sits about 167 m south-east of the stand-here point, so you can walk closer if you want."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Strömkajen quay, beside the brass ticket booth",
+     "detail": "on the Strömkajen waterfront promenade, next to the brass ticket booth, facing the harbour water with the Grand Hôtel on the Blasieholmen side",
+     "why": "Sources describe this quay as a photogenic scene with the hotel in the frame, though none of them explicitly describe a selfie framing.",
+     "sources": [
+      {
+       "title": "14 Best Stockholm Instagram Spots | Pictures and Words",
+       "url": "https://picturesandwordsblog.com/best-stockholm-instagram-spots/"
+      },
+      {
+       "title": "13 Best Photo Spots in Stockholm For Stunning Stockholm Postcards",
+       "url": "https://lasmaplone.com/best-photo-spots-in-stockholm/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Strömkajen promenade",
+    "detail": "on the Strömkajen promenade, shooting back toward the Grand Hôtel along the waterfront",
+    "sources": [
+     {
+      "title": "14 Best Stockholm Instagram Spots | Pictures and Words",
+      "url": "https://picturesandwordsblog.com/best-stockholm-instagram-spots/"
+     },
+     {
+      "title": "13 Best Photo Spots in Stockholm For Stunning Stockholm Postcards",
+      "url": "https://lasmaplone.com/best-photo-spots-in-stockholm/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "A location guide says a tripod can be set down at Strömkajen without trouble, and it is a fairly quiet spot with plenty of room for shooting.",
+     "sources": [
+      {
+       "title": "Strömkajen, Stockholm, Sweden | Locationscout",
+       "url": "https://www.locationscout.net/sweden/36788-stroemkajen-stockholm"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page explicitly states that the Grand Hôtel is directly behind a visitor standing at Strömkajen; the 'behind you' framing is inferred from pages describing the hotel as visible from the quay, so verify on the ground. The Skeppsholmsbron golden crowns are a famous photo spot (Gamla Stan and Royal Palace behind), but no page I found places the Grand Hôtel in that frame, so I left them out. The ask-someone spot is likewise inferred, not described by a page as a passer-by position. No page gives selfie-stick rules or a safety point for this area."
+  },
+  "cost_usd": 0.0469,
+  "at": "2026-11-14 22:15"
+ },
+ "Stockholm City Hall": {
+  "rank": 7,
+  "card": {
+   "hook": "Nearly eight million red bricks sounds heavy, but City Hall sits right on the water and looks surprisingly graceful. Your job is to catch that dark red against the open blue.",
+   "stand_here": "Stand about 25 m north-east of the numbered pin, at the phone icon on the map, near the water on the eastern tip of Kungsholmen. Face south-west and shoot the walls, turrets and details.",
+   "zoom": "Start at zoom 0.5x and tilt up for dramatic shots of the brick walls and tower. Use 1x for balanced views, then try 2x to 5x (depending on your phone) to pick out turrets, golden starlets, balconies and statues.",
+   "make_it_pop": "Switch on the gridlines and line up the walls and tower with the vertical lines, which is easiest if you stand square to the wall.",
+   "best_time": "Soft morning or late-afternoon light is kinder to red brick than harsh midday sun. Dusk works too: switch on night mode and rest your phone on a wall or railing to keep it steady.",
+   "selfie_here": "Head to the courtyard in Stadshusparken by the water, at the foot of the building. Face the water toward Gamla Stan so City Hall is behind you, use the front camera and try 0.5x to squeeze more of the building over your shoulder.",
+   "ask_someone": "For the whole building in one shot, stand on Evert Taubes Terrass on the western shore of Riddarholmen, with City Hall across the water, and ask someone to take your photo there.",
+   "rules_and_safety": "The building and tower are a major attraction and may have access restrictions or ticketed entry, so check the official site before you go.",
+   "challenge": "Zoom in to 5x (or the most your phone offers) and find the golden starlets on a turret, then see if you can get them in a shot with the Three Crowns on top of the tower.",
+   "good_to_know": "Stockholm City Hall (Stadshuset) is where the Nobel Prize banquet is held. It was built between 1911 and 1923 using nearly eight million bricks. The tower is 106 metres high and topped with the Three Crowns, the Swedish national symbol."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stadshusparken (City Hall park), courtyard by the water",
+     "detail": "in the courtyard at the foot of the building, facing the water toward Gamla Stan so the City Hall is behind you",
+     "why": "A guide describes the arch-ringed courtyard as framing Gamla Stan across the water, which puts the building at your back, though the page does not mention selfies specifically.",
+     "sources": [
+      {
+       "title": "Stockholm's Top Photo Spots: Best Places for Perfect Pictures (GoCity)",
+       "url": "https://gocity.com/en/stockholm/things-to-do/best-photo-opportunities-stockholm"
+      },
+      {
+       "title": "19 Best Photo Spots for Stunning Shots in Stockholm (Swedentips.se)",
+       "url": "https://www.swedentips.se/stockholm/photo-spots/"
+      }
+     ]
+    },
+    {
+     "name": "Monteliusvägen, benches at Ivar Los Park",
+     "detail": "on the Monteliusvägen path on the Södermalm cliffs, at the Ivar Los Park benches",
+     "why": "A photo guide names these benches as the most open spot on the path, with the City Hall in the panorama across the water, though it does not confirm the building is directly behind a selfie.",
+     "sources": [
+      {
+       "title": "Stockholm Photography Guide: Best Photo Spots (Chasing Hippoz)",
+       "url": "https://www.chasinghippoz.com/travel-photo-blog/stockholm-sweden"
+      },
+      {
+       "title": "A Frequent Visitor's 21 Top Photo Spots in Stockholm (Danny CPH)",
+       "url": "https://danny-cph.com/stockholm-best-photo-spots/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Evert Taubes Terrass, western shore of Riddarholmen",
+    "detail": "on the western shore of Riddarholmen, where the City Hall is across the water and the photo can include the whole building",
+    "sources": [
+     {
+      "title": "19 Best Photo Spots for Stunning Shots in Stockholm (Swedentips.se)",
+      "url": "https://www.swedentips.se/stockholm/photo-spots/"
+     },
+     {
+      "title": "Photography in Stockholm: here's your best spots (View Stockholm)",
+      "url": "https://viewstockholm.com/best-spots-photos-stockholm/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "The sources do not state any rules on selfie sticks or tripods for this site. The City Hall tower is excluded because the landmark is then not behind the visitor. Pages disagree on Stadshusparken detail; the Monteliusvägen spot is less certain for having the City Hall directly behind the visitor. Tower and Golden Hall photography rules are not covered here."
+  },
+  "cost_usd": 0.0472,
+  "at": "2026-11-14 22:16"
+ },
+ "Fotografiska": {
+  "rank": 8,
+  "card": {
+   "hook": "Stockholm has plenty of shiny glass boxes, and then there's this solid old customs house standing among them like it never got the memo. That strong, characterful outline is exactly why it's worth a photo stop.",
+   "stand_here": "Stand at the phone icon on the map, about 25 m south-west of Fotografiska at Stadsgården. Face north-east and the whole building will be in front of you.",
+   "zoom": "Start at 1x for a natural view of the whole façade. If it won't all fit, tap 0.5x. Then try 2x to pick out details like windows, rooflines and signage.",
+   "make_it_pop": "Turn on the gridlines and line up the building's vertical edges with the vertical lines so it doesn't lean.",
+   "best_time": "Soft daylight or the hour around dusk suits a building like this. In the evening, switch on night mode and tuck your elbows against your body to keep the phone steady.",
+   "selfie_here": "Head to the Stadsgårdshamnen quay beside the museum and turn so the 1906 red-brick customs house is behind you. Use the front camera, try 0.5x to squeeze more building in, and let it loom over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the quay path a few metres back from the building, so the whole brick façade and its arched windows fit in the frame, while you stand in front of the building.",
+   "rules_and_safety": "Exhibitions inside often can't be photographed, so check the official site for entry details before you go in.",
+   "challenge": "Take one wide shot of the whole building, then find one window or entrance detail and see if you can make it look like a different photo.",
+   "good_to_know": "Fotografiska is a photography museum in a former customs house, built in 1906 in the Art Nouveau style. It was designed by Ferdinand Boberg and is listed as a building of cultural interest. The museum opened here in 2010 and drew more than 500,000 visitors a year as of 2020."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stadsgårdshamnen quay, Södermalm waterfront (in front of Fotografiska's brick facade)",
+     "detail": "on the quay beside the museum, with the 1906 red-brick customs house behind you",
+     "why": "The sources place the museum directly on this harbour quay, so its striking facade is the backdrop; none of them describes an exact selfie stance, so this is an inference from the location.",
+     "sources": [
+      {
+       "title": "Fotografiska Stockholm Guide 2026",
+       "url": "https://www.stockholm-spirit.com/guides/fotografiska-guide/"
+      },
+      {
+       "title": "Fotografiska Stockholm: Tickets, Opening Hours & Tips",
+       "url": "https://www.stockholm-online.de/en/fotografiska/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Stadsgården waterfront, in front of Fotografiska's customs-house facade",
+    "detail": "on the quay path a few metres back from the building, so the whole brick facade and its arched windows fit in the frame",
+    "sources": [
+     {
+      "title": "Fotografiska Stockholm: Tickets, Opening Hours & Tips",
+      "url": "https://www.stockholm-online.de/en/fotografiska/"
+     },
+     {
+      "title": "Södermalm guide: Fotografiska, food, views & local tips",
+      "url": "https://www.stockholm-spirit.com/destinations/sodermalm/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only two sources (Swedentips and Stockholm-Spirit's Fotografiska guide) mention the building's appearance, and none of the pages names a specific selfie stance with the museum behind the visitor, so the selfie spot is inferred from the quay location. The Swedentips guide notes that exhibitions themselves often cannot be photographed, which may matter for indoor shots; no page gives a rule on selfie sticks or tripods for this site. The rooftop café is a popular viewpoint, but no source places it as a spot with the museum behind the visitor, so I left it out. The ask-someone spot is also inferred from the quay position rather than a named angle. Stockholm-Spirit's Fotografiska guide and Stockholm-Online list Fotografiska at the Stadsgården waterfront, which matches the given coordinates."
+  },
+  "cost_usd": 0.0445,
+  "at": "2026-11-14 22:16"
+ },
+ "Royal Palace": {
+  "rank": 9,
+  "card": {
+   "hook": "The palace has 1,430 rooms, and you'll see exactly none of them. Don't sulk, because the outside is the star here: long, tidy and almost suspiciously symmetrical.",
+   "stand_here": "Stand about 60 m north-east of the subject, at the phone icon on the map, in the northern part of Gamla stan beside the Norrström. Face south-west and the Royal Palace is right in front of you.",
+   "zoom": "Start at 1x. If the building won't fit, tap 0.5x. Then try 2x or more and fill the frame with the rows of windows and stonework.",
+   "make_it_pop": "Turn on gridlines and line the roof edge up with a horizontal grid line, and keep your phone level so the long lines stay straight.",
+   "best_time": "Morning or late afternoon usually gives softer light and gentler shadows on the stonework than midday. The pale walls also stand out nicely against the sky.",
+   "selfie_here": "Head to the gilded crown on the railing of Skeppsholmsbron (the Skeppsholmen bridge), where people line up the palace behind them. Use the front camera, try 0.5x, and keep the palace over your shoulder.",
+   "ask_someone": "If you're with a friend, ask someone on the Blasieholmen waterfront to shoot south across the Norrström, so the whole palace and Gamla stan fit in the frame.",
+   "rules_and_safety": "You can photograph the outside from the surrounding public areas. Inside, photos for personal use are generally allowed, usually without flash, but some rooms or exhibitions may restrict it, so check signage.",
+   "challenge": "Fill the whole frame with windows and stonework, then see if your friends can guess it's a palace and not an extremely fancy office block.",
+   "good_to_know": "This is the official residence of the Swedish monarch, and the King uses it for representative purposes as head of state. Nicodemus Tessin the Younger designed the Baroque building to replace the medieval Tre Kronor castle, which burned down on 7 May 1697. Building paused in 1709 because of the Great Northern War, restarted in 1727, and the palace was ready to live in by 1754. A long façade renovation has been going on since 2011, so you may spot some scaffolding or covered sections."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Gilded Crown on Skeppsholmsbron (Skeppsholmen Bridge)",
+     "detail": "at one of the two gilded crowns on the railing of the Skeppsholmen bridge, facing the Old Town and palace",
+     "why": "Pages describe the crown as framing the Royal Palace, so you stand at the crown with the palace in the background.",
+     "sources": [
+      {
+       "title": "19 Best Photo Spots for Stunning Shots in Stockholm - Swedentips.se",
+       "url": "https://www.swedentips.se/stockholm/photo-spots/"
+      },
+      {
+       "title": "A Frequent Visitor's 21 Top Photo Spots in Stockholm, Sweden",
+       "url": "https://danny-cph.com/stockholm-best-photo-spots/"
+      },
+      {
+       "title": "Stockholm's Top Photo Spots: Best Places for Perfect Pictures",
+       "url": "https://gocity.com/en/stockholm/things-to-do/best-photo-opportunities-stockholm"
+      }
+     ]
+    },
+    {
+     "name": "Strömkajen (quay)",
+     "detail": "at the Strömkajen waterfront quay, which has a view of the palace",
+     "why": "A blog says this quay gives a good view of the palace, so a visitor standing there can have it behind them, though this is a less specific selfie source than the bridge crown.",
+     "sources": [
+      {
+       "title": "The 14 Best Stockholm Instagram Spots",
+       "url": "https://picturesandwordsblog.com/best-stockholm-instagram-spots/"
+      },
+      {
+       "title": "Top 10 Places to Take Photos in Stockholm",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-stockholm/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Blasieholmen (island, waterfront across the Norrström)",
+    "detail": "on the Blasieholmen waterfront, shooting south across the Norrström so the whole palace and Gamla Stan are in frame",
+    "sources": [
+     {
+      "title": "Stockholm, Sweden Travel & Photography Guide: Best Photo Spots, Things to Do & Hidden Gems",
+      "url": "https://www.chasinghippoz.com/travel-photo-blog/stockholm-sweden"
+     },
+     {
+      "title": "The Top Photo Spots in Stockholm, Sweden",
+      "url": "https://www.ourwaytours.com/the-top-photo-spots-in-stockholm-sweden-your-guide/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography inside the palace is generally allowed for personal use, usually without flash, and some exhibitions or rooms may restrict it, so check signage.",
+     "sources": [
+      {
+       "title": "Royal Palace Stockholm (2026)",
+       "url": "https://airial.travel/attractions/sweden/royal-palace-stockholm-NBrE61UH"
+      },
+      {
+       "title": "Most Instagrammable Places in Stockholm (+Tips)",
+       "url": "https://www.stockholmtourism.org/instagrammable-places-stockholm/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page found mentioned selfie-stick or tripod rules. The Blasieholmen spot is described only as 'across the water', so the exact spot on the waterfront is not named. The Stallbron bridge is named as a palace photo viewpoint, but I did not include it as a selfie spot because no source confirmed it works for a visitor in front of the palace. Changing of the Guard is reported as daily at 12:15 in one source and weekly in winter in another, so check current times."
+  },
+  "cost_usd": 0.0533,
+  "at": "2026-11-14 22:17",
+  "selfie_pos": [
+   59.3286835,
+   18.076587
+  ],
+  "selfie_note": "Strömkajen (OpenStreetMap: Strömkajen, Norrmalm, Norra innerstadens stadsdelsområde, St)"
+ },
+ "Kungsträdgården": {
+  "rank": 10,
+  "card": {
+   "hook": "Five hundred-ish years ago this was the king's cabbage patch. In late April, locals' beloved Kungsan wears a pink blossom tunnel instead, and yes, it's as pretty as it sounds.",
+   "stand_here": "In Kungsträdgården, stand about 70 m north of the numbered pin, at the phone icon on the map, and face south. You'll look up the avenue toward the middle of the park.",
+   "zoom": "Start at zoom 1x and tilt your phone up so the branches arch over the top of the frame. Want more canopy and path in one shot? Try zoom 0.5x. For a tighter shot of blossom against the sky, zoom 2x does the job.",
+   "make_it_pop": "Tap on the blossom, then drag the brightness down a little so the sky doesn't wash out the pink.",
+   "best_time": "Late April is usually when the blossom is out, and early morning beats the crowds. The bloom changes with the spring weather, so timing shifts from year to year.",
+   "selfie_here": "Stand under the pink canopy on the cherry blossom avenue with the park's trees behind you (spring only). Use the front camera, try zoom 0.5x, and hold the phone a little high so the blossom fills the top of the frame.",
+   "ask_someone": "",
+   "rules_and_safety": "It's an open public park, but events can change what's on show, so check the official site before you go.",
+   "challenge": "Can you keep the avenue perfectly symmetrical with branches arching over the top? Turn on gridlines and give it three tries.",
+   "good_to_know": "Locals call the park Kungsan. It was first recorded in 1430 as the king's cabbage garden and later became a royal pleasure garden. The tree-lined avenues arrived in the 1860s, and in 2004, 285 new linden trees were planted."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Cherry blossom avenue, Kungsträdgården",
+     "detail": "under the pink blossom canopy on the cherry blossom avenue, with the park's trees behind you (spring only)",
+     "why": "Sources describe the blossom canopy as the park's signature photo frame, so the blossoms make a strong backdrop for a close-up selfie.",
+     "sources": [
+      {
+       "title": "Most Instagrammable Places in Stockholm (+Tips)",
+       "url": "https://www.stockholmtourism.org/instagrammable-places-stockholm/"
+      },
+      {
+       "title": "The 48 best photo spots in Stockholm",
+       "url": "https://wanderlog.com/list/geoCategory/160461"
+      },
+      {
+       "title": "Kungsträdgården - All You SHOULD Know Before Going (2026 Reviews)",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g189852-d2551766-Reviews-Kungstradgarden-Stockholm.html"
+      }
+     ]
+    },
+    {
+     "name": "Kungsträdgården metro station, by the escalators towards the Arsenalsgatan exit",
+     "detail": "the colourful vault walkway by the escalators towards the Arsenalsgatan exit",
+     "why": "A photo guide names this vault walkway as an appreciated photo location, though the backdrop is the station rather than the park itself.",
+     "sources": [
+      {
+       "title": "8. Photo Location - Stockholm Art Walk",
+       "url": "https://stockholmartwalk.se/guide-to-the-art-of-stockholms-subway/the-art-at-kungstradgardens-metro-station/photo-location_2/?lang=en"
+      },
+      {
+       "title": "Top 20 Photo Spots to Take Beautiful Stockholm Photography",
+       "url": "https://andreagoesplaces.com/stockholm-photography/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Blossom timing is seasonal and sources disagree: one says late April, another mid-April to early May, and a third late March to mid-April. Expect crowds at peak bloom; one source advises going early in the morning. The metro spot is inside the station, not outdoors, so it does not show the park behind the visitor; treat it as a secondary option. I found no page giving a specific standing point for a passer-by to photograph the visitor with the whole landmark (the Karl XII statue at the southern end is named as a popular photo spot, but no page says where to stand), so ask_someone_spot is null. No page stated selfie stick or tripod rules for this park. Stockholm metro art sources also describe the station differently, so confirm the platform and escalator location on the map before going."
+  },
+  "cost_usd": 0.0572,
+  "at": "2026-11-14 22:17"
+ },
+ "Monteliusvägen viewpoint": {
+  "rank": 11,
+  "card": {
+   "hook": "Most people reach the lookout, snap City Hall across the water and wander off. Take a few more steps along the path and your photo turns from a postcard into a proper street scene.",
+   "stand_here": "Stand on Mariaberget (the phone icon on the map), about 100 m west of the subject, and face east. After your first shots, walk on to the far side of the path to bring in the cobbles and houses.",
+   "zoom": "Start at zoom 1x for City Hall across the water. Switch to 0.5x on the far side of the path to fit the cobbled lane, the houses and the view in one frame. Try zoom 2x to 5x (depending on your phone) to pick out the City Hall tower or Gamla Stan's spires.",
+   "make_it_pop": "Turn on gridlines, put the cobbles or the row of houses along the lower third and keep City Hall in the upper part, with the water line level.",
+   "best_time": "There's no set best time here. In winter, skip icy mornings, because the path isn't salted and the boardwalk sections can get slippery.",
+   "selfie_here": "Take it at the Mariaberget observation deck, which guides call the main photo stop on the path (and where plenty of visitors take selfies). Use the front camera, try 0.5x, and hold your phone so City Hall sits over your shoulder. For a clearer shot, one guide says the western section near the Mariatorget end is usually less busy.",
+   "ask_someone": "",
+   "rules_and_safety": "Stay behind the edge while you take photos, and keep your phone strap or wrist loop on. A metal safety rail separates you from the drop. In cold weather, wear shoes with grip. One guide says the approaches via Klevgränd are darker and steeper at night.",
+   "challenge": "Get the cobbles, a row of houses and the City Hall tower all in one frame, with the horizon dead level. Bonus points if you're not wobbling to do it!",
+   "good_to_know": "Monteliusvägen is an open public walking path with no entry charge. From along the path you can see Gamla Stan's rooftops and spires and Riddarholmen, with the City Hall tower off to one side. If you want a wider skyline from a different angle, Skinnarviksberget is nearby, but it's informal rock with no railing, so take care."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Mariaberget observation deck, on Monteliusvägen",
+     "detail": "the lookout on the pathway, which one guide calls the main photo spot along the walk",
+     "why": "Guides describe it as the main photo stop on the path, and one notes tourists regularly take selfies at the lookout.",
+     "sources": [
+      {
+       "title": "A Frequent Visitor's 21 Top Photo Spots in Stockholm, Sweden",
+       "url": "https://danny-cph.com/stockholm-best-photo-spots/"
+      },
+      {
+       "title": "The Most Instagrammable Places in Stockholm",
+       "url": "https://hanskullin.se/most-instagrammable-places-stockholm/"
+      }
+     ]
+    },
+    {
+     "name": "Western section of Monteliusvägen, near the Mariatorget end",
+     "detail": "the stretch of the path closest to Mariatorget, reached by walking in from that end",
+     "why": "One guide says this western part is consistently less busy than the central and eastern stretches, which makes it easier to get a clear selfie.",
+     "sources": [
+      {
+       "title": "Monteliusvägen, Stockholm's Free Viewpoint Walk (nomadotravel)",
+       "url": "https://www.nomadotravel.app/en/attractions/monteliusvagen"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "A metal safety rail separates walkers from the drop along the cliff edge, and one guide notes the approaches via Klevgränd are darker and steeper at night.",
+   "notes": "The sources do not name a specific spot where a passer-by should stand to photograph a visitor with the whole walkway in frame, so I left that field null. The Mariaberget suggestion comes from a guide that also says the other side of the lookout gives a better composition, but it does not describe a spot for a passer-by. No page mentions selfie stick or tripod rules. Two of the sources are older blog posts, and one guide is marked as updated in July 2026."
+  },
+  "cost_usd": 0.0455,
+  "at": "2026-11-14 22:18"
+ },
+ "Slussen and the view over Gamla Stan": {
+  "rank": 12,
+  "card": {
+   "hook": "Slussen is a building site with a view, so don't be shocked if a crane photobombs your skyline. Work on the big rebuild is still going, and the new bridges and water give you plenty to frame anyway.",
+   "stand_here": "Stand about 60 m west of the subject, at the phone icon on the map, and face east. Slussen and Gamla Stan should be straight ahead of you.",
+   "zoom": "Start at zoom 1x for the whole scene. Go to 0.5x for more bridge and sky, then try 2x to 5x (depending on your phone) to pick out rooftops across the water.",
+   "make_it_pop": "Turn on the gridlines, put the horizon on the upper or lower line, and use a railing or the paving as a foreground.",
+   "best_time": "Early morning or around sunset usually gives softer light. After dark, the lit-up bridges and water can look great in night mode.",
+   "selfie_here": "Try the top platform of Katarinahissen (the Katarina Elevator), about 38 m above Slussen, with the Old Town behind you. Fjällgatan, a short walk from Slussen's metro station, is another open spot with wide views toward Gamla Stan. Use the front camera, try 0.5x, and keep the landmark over your shoulder.",
+   "ask_someone": "At Vattentorget, the square at Slussen, ask a passer-by to take your photo with Gamla Stan and the German Church in the background.",
+   "rules_and_safety": "Slussen is an open public area, but the rebuild may close or change some routes, so check the official site before you go and follow signs and temporary walkways. Check that the Katarina lift is open too.",
+   "challenge": "Get the horizon on a gridline, a railing in front, and the Golden Bridge in the shot, then see if you can do it without a single person walking through.",
+   "good_to_know": "The first lock here dates from 1642, and the 1935 lock was the last major one before the current rebuild. The Golden Bridge (Guldbron), officially Slussbron, opened on 26 October 2020. Work began in 2016 and is scheduled to finish in 2027."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Katarinahissen (Katarina Elevator) viewing platform, Slussen",
+     "detail": "on the top platform of the lift, about 38 m above Slussen, looking out over the Old Town",
+     "why": "Sources describe this lift top as an elevated lookout with a bird's-eye view of Gamla Stan, so a selfie there can show the Old Town behind you.",
+     "sources": [
+      {
+       "title": "For Photographers: Best views of Stockholm for photos - Slow Travel Stockholm",
+       "url": "https://www.slowtravelstockholm.com/photography/photographers-best-views-of-stockholm-photos/"
+      },
+      {
+       "title": "The Most Instagrammable Places in Stockholm",
+       "url": "https://hanskullin.se/most-instagrammable-places-stockholm/"
+      }
+     ]
+    },
+    {
+     "name": "Fjällgatan",
+     "detail": "a short walk from Slussen's metro station, along the street itself",
+     "why": "Sources say walking along this street gives wide views toward Gamla Stan, so it works as an open backdrop for a selfie.",
+     "sources": [
+      {
+       "title": "Best Views in Stockholm - Visit Stockholm",
+       "url": "https://www.visitstockholm.com/see-do/attractions/guide-to-the-best-views/"
+      },
+      {
+       "title": "For Photographers: Best views of Stockholm for photos - Slow Travel Stockholm",
+       "url": "https://www.slowtravelstockholm.com/photography/photographers-best-views-of-stockholm-photos/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Vattentorget at Slussen",
+    "detail": "the square at Slussen; have the helper stand here with Gamla Stan and the German Church in the background",
+    "sources": [
+     {
+      "title": "Slussen - Stockholm Museum",
+      "url": "https://www.stockholmmuseum.com/stockholm-unveiled/areas/soedermalm/slussen.htm"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Pages do not say exactly which way to face for a selfie with Gamla Stan directly behind you, so the selfie spots are inferred from the views described. One guide says the Katarina elevator was under construction and reachable via Götgatan and Hökens gata, so check it is open before you go. A Hilton Slussen spot was mentioned for a Gamla Stan view, but it is a hotel location and was left out. No page gave rules on selfie sticks or tripods."
+  },
+  "cost_usd": 0.0484,
+  "at": "2026-11-14 22:18",
+  "selfie_pos": [
+   59.319919,
+   18.0731704
+  ],
+  "selfie_note": "Katarinahissen (OpenStreetMap: Katarinahissen, Södermalm, Södermalms stadsdelsområde, Stock)"
+ },
+ "Nordic Museum": {
+  "rank": 13,
+  "card": {
+   "hook": "This castle-looking building on Djurgården is only about a third of the size its architect planned, and it's still huge. The best way to fit all of it in one shot is from across the water.",
+   "stand_here": "Stand on Djurgårdsbron, about 150 m north of the museum (the phone icon on the map), and face south across the water to the palace-style facade. Keep your phone level and let the building fill the middle of the picture.",
+   "zoom": "Start at 1x to catch the whole facade with the water in front. Then tap 2x for the towers and roofline. Save 0.5x for the other viewpoints, where you'll be closer and want more sky and water.",
+   "make_it_pop": "Turn on gridlines, line the building's upright edges up with them, and keep a band of water along the bottom of the frame.",
+   "best_time": "Late morning to early afternoon the sun is in front of you, so the facade can look backlit. A cloudy day gives softer, more even light. A clear, calm day gives the best reflections in the water. For the entrance selfie below, one guide recommends the morning, when the light is soft.",
+   "selfie_here": "Climb the front steps of the main entrance on the Djurgårdsvägen side and stand between the two stone obelisks with the building behind you. Use the front camera, hold it a bit low and tilt up so the entrance fits over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand at the bridge abutment on the Strandvägen end of Djurgårdsbron, facing the museum, while you stand a few steps in front of them on the bridge with the building behind you.",
+   "rules_and_safety": "The bridge is a public place. If you're going inside the museum, check the official site and its current photography policy first.",
+   "challenge": "Take three frames in a row and see if you can get a clean one with no passer-by or vehicle crossing the foreground. Bonus points if the vertical edges sit perfectly on the grid.",
+   "good_to_know": "The Nordic Museum tells the everyday cultural history of Sweden from 1520 to today. Artur Hazelius, who also founded Skansen, started the collection in the 1870s. Isak Gustaf Clason designed the building, which took 19 years to finish in 1907. Inside, a main hall 126 metres long is dominated by a giant sculpture of King Gustav Vasa."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front steps of the main entrance, Djurgårdsvägen side",
+     "detail": "on the stairs leading up to the main entrance, between the two stone obelisks, with the building behind you",
+     "why": "The entrance is the building's most photogenic side, and one guide recommends shooting it in the morning when the light is soft.",
+     "sources": [
+      {
+       "title": "Nordic Museum Stockholm: Swedish Culture & History (Access Travel)",
+       "url": "https://www.accesstravel.com/home/ViatorAttraction/Index/907/2123"
+      },
+      {
+       "title": "Nordiska museets fasad; mittparti och huvudentré med de två obeliskerna vid trappan upp mot museibyggnaden (DigitaltMuseum)",
+       "url": "https://digitaltmuseum.se/021017354377/nordiska-museets-fasad-mittparti-och-huvudentre-med-de-tva-obeliskerna"
+      },
+      {
+       "title": "Grand Entrance of Nordiska Museet in Stockholm, Sweden (Encircle Photos)",
+       "url": "https://www.encirclephotos.com/image/grand-entrance-of-nordiska-museet-in-stockholm-sweden/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Djurgården Bridge abutment on the Strandvägen side",
+    "detail": "the bridge abutment at the Strandvägen end of Djurgårdsbron, looking across to the museum so the whole building fits in the frame",
+    "sources": [
+     {
+      "title": "Nordic Museum (Stockholm Museum)",
+      "url": "https://www.stockholmmuseum.com/museums/historical/nordic-museum.htm"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot had a page describing the museum as the backdrop; the entrance is the one with clear support. The second pick, Galärparken (the park behind the museum), appears in a guide but that page shows a view toward Skeppsholmen, not the museum behind a visitor, so I left it out. The ask-someone spot is a historical photo's vantage point, not an explicit tip for tourists. The western Djurgårdsbrunnsviken waterfront promenade is another possible spot where a guide says the building photographs well with a telephoto lens. No page I found gives selfie stick or tripod rules for this museum; the only photography rules I saw were for the National Nordic Museum in Seattle, so I omitted them. Check the museum's current photography policy before you go."
+  },
+  "cost_usd": 0.0621,
+  "at": "2026-11-14 22:19"
+ },
+ "Stockholm Cathedral (Storkyrkan)": {
+  "rank": 14,
+  "card": {
+   "hook": "You're standing between a palace and an old square, looking up at a wall far too big for your screen. Don't fight it: this church is better in tall, angled shots and little details than in one wide view.",
+   "stand_here": "Stand right at Stockholm Cathedral (Storkyrkan) in Gamla stan, where the phone icon on the map marks the spot. Face the church wall and step back as far as the street lets you.",
+   "zoom": "Start at 0.5x, because you're close to a big building. Switch to 1x for calmer, more natural-looking shots, then try 2x or 5x (depends on your phone) for the Olaus Petri statue, the gates and the roofline.",
+   "make_it_pop": "Turn on gridlines and line them up with the walls and corners so the building doesn't lean.",
+   "best_time": "Early morning or later in the afternoon often gives softer light and quieter streets. Check how the light falls on the day, though.",
+   "selfie_here": "Head to Stortorget, on the side nearest the painted row of colourful houses, and put the cathedral behind you. Use the front camera at 0.5x and hold it low and a bit up so the buildings fit over your shoulder. Treat the exact spot as approximate and nudge around until the cathedral shows.",
+   "ask_someone": "",
+   "rules_and_safety": "This is a working church, so check the official site for visiting times, entry rules and whether photos inside are allowed. If you shoot in the alley at the corner of Stora Gråmunkegränd and Stora Nygatan, watch for pedestrians and cyclists.",
+   "challenge": "Find the lines in the pavement by the east wall that mark where an older choir once stood, and use them to lead the eye up to the church.",
+   "good_to_know": "Storkyrkan is the oldest church in Stockholm and was dedicated in 1306. Inside it keeps much of its late medieval character, but the outside looks Baroque after big changes in the 18th century. It was used for coronations for centuries, and Crown Princess Victoria married there in 2010."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stortorget (Gamla Stan square), the side nearest the colourful buildings",
+     "detail": "on the side of the square closest to the painted row of houses, with the pink cathedral in the background",
+     "why": "Standing here puts the square's colourful façades and the pink cathedral together behind you in one frame.",
+     "sources": [
+      {
+       "title": "The Best Instagram Photo Spots in Stockholm, Sweden - Olivia Michelle",
+       "url": "https://oliviamichelleh.com/the-best-instagram-photo-spots-in-stockholm-sweden/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "On the alley corner of Stora Gråmunkegränd and Stora Nygatan, watch out for pedestrians and cyclists while you stand in the alley (The Portable Wife).",
+   "notes": "Only one selfie spot was supported by a page that puts the cathedral behind the visitor; the Stortorget source describes a photo of the square with the cathedral visible, so treat the exact spot as approximate. The Wanderlog page mentions selfies on Stortorget's colourful row but does not mention the cathedral in view. The alley corner (Stora Gråmunkegränd/Stora Nygatan) and Storkyrkobrinken pages describe the cathedral as the subject of the shot, not a selfie backdrop, and none says where a passer-by should stand to photograph a visitor with the whole cathedral, so ask_someone_spot is null. No page gave selfie stick or tripod rules, so rules is empty. Stockholm Cathedral's address is Trångsund 1, which sources place next to Stortorget and the Royal Palace."
+  },
+  "cost_usd": 0.0462,
+  "at": "2026-11-14 22:19",
+  "selfie_pos": [
+   59.3249967,
+   18.0708198
+  ],
+  "selfie_note": "Stortorget (OpenStreetMap: Stortorget, Gamla stan, Södermalms stadsdelsområde, Stockhol)"
+ },
+ "Riddarholmen Church": {
+  "rank": 15,
+  "card": {
+   "hook": "You can spot Riddarholmen Church's slim iron spire from across the water long before you reach it, like a sharp pencil poking out of the island. Go and find the spot where it hangs over the bay.",
+   "stand_here": "Stand on Evert Taubes terrass, about 130 m west of the subject, and face east. You'll have the bay in front of you, City Hall and the Söder heights across the water, and the spire rising on the island.",
+   "zoom": "Start at zoom 0.5x to fit the bay, City Hall and the sky all in one go. Then try 1x for a cleaner view, and 2x to 5x (depending on your phone) to pick out the spire or City Hall on its own.",
+   "make_it_pop": "Turn on the gridlines, put the water along the lower third, then tap the sky and slide it a touch darker so the sunset colours don't wash out.",
+   "best_time": "Go at sunset, when guides say the view across the bay is at its best. If the light fades, try night mode and rest your phone on the terrace railing or a wall to keep it steady.",
+   "selfie_here": "Try Schering Rosenhanes gränd, the slightly raised cobbled lane on Riddarholmen. Use the front camera at 0.5x, with the winding path and the church behind your shoulder. It's an idea based on views toward the church, so check the angle on site.",
+   "ask_someone": "Ask a passer-by to stand in the northern part of the island while you stand in the open area in front of the church, so they can fit in the whole church and the pink Stenbock palaces.",
+   "rules_and_safety": "At the church, private photos are fine without flash or selfie sticks, as long as you don't disturb other visitors or tours. Drones aren't allowed. The inside is closed in the cooler months, so check the official site if you hope to go in.",
+   "challenge": "Take the spire three ways: far away from the terrace, framed by cobblestones in the lane, and full-front from Birger Jarls torg. Which one wins?",
+   "good_to_know": "Parts of the church date back to the late 13th century, when it was a Franciscan friary. Today it's used only for burials and commemorations, and most Swedish monarchs are laid to rest here. The slim cast-iron spire replaced an earlier one destroyed by lightning in 1835."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Schering Rosenhanes gränd (lane on Riddarholmen)",
+     "detail": "in the lane itself, which is slightly elevated, using the cobblestones and winding path toward the church",
+     "why": "A blogger who shot here with a phone calls it one of the most beginner-friendly places in Stockholm, with lovely views toward the church.",
+     "sources": [
+      {
+       "title": "A Frequent Visitor's 21 Top Photo Spots in Stockholm, Sweden",
+       "url": "https://danny-cph.com/stockholm-best-photo-spots/"
+      }
+     ]
+    },
+    {
+     "name": "Waterfront near Riddarholmen Church",
+     "detail": "on the waterfront next to the church, timed for just before sunset",
+     "why": "A guide says the church works as a backdrop against the water in the sunset light, though it does not describe a specific spot for a selfie.",
+     "sources": [
+      {
+       "title": "Riddarholm Church Stockholm: Free Audio Guide Tour",
+       "url": "https://www.accesstravel.com/accommodation/ViatorAttraction/Index/907/22932"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Open area in front of Riddarholmen Church (northern part of Riddarholmen island)",
+    "detail": "the large open area in front of the church, ideally shot from the northern part of the island, where the salmon-colored Stenbock Palaces can also be included; one guide says this open area makes it easy to fit the whole church in frame, and another suggests standing on the island opposite the church to capture it in its entirety",
+    "sources": [
+     {
+      "title": "9 Gorgeous Stockholm Photo Spots You Must See - The Portable Wife",
+      "url": "https://theportablewife.com/travel/destinations/gorgeous-stockholm-photo-spots/"
+     },
+     {
+      "title": "Riddarholm Church Stockholm: Free Audio Guide Tour",
+      "url": "https://www.accesstravel.com/accommodation/ViatorAttraction/Index/907/22932"
+     },
+     {
+      "title": "2026 Recommended Itinerary in Riddarholmen Church (Updated August) | Trip Moments",
+      "url": "https://my.trip.com/moments/theme/poi-riddarholmen-church-98324-itinerary-999195/?locale=en_my"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography and filming for private use are allowed at the church without flash/lights, tripods, selfie sticks or other fixed equipment, as long as other visitors, guided tours or activity are not disturbed. Drones and 360 cameras are not allowed.",
+     "sources": [
+      {
+       "title": "Practical information, Access - Kungliga slotten",
+       "url": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-riddarholmen-church/visit-us/practical-information-access.html"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page explicitly shows a visitor posing with the church directly behind them, so both selfie spots are inferred from views toward the church; treat them as suggestions to check on site. Evert Taube's Terrace is praised for panoramas, but no page says the church is behind a visitor there, so I left it out. The selfie-stick ban comes from the palace's own photography rules, which may only apply to the church and palace grounds, not the public island paths. The coordinates you provided (59.32464, 18.06459) were not checked against any page, and the source pages are blogs and aggregators of varying age."
+  },
+  "cost_usd": 0.047,
+  "at": "2026-11-14 22:20",
+  "selfie_pos": [
+   59.3256875,
+   18.0630098
+  ],
+  "selfie_note": "Schering Rosenhanes gränd (OpenStreetMap: Schering Rosenhanes Gränd, Riddarholmen, Södermalms stadsdel)"
+ },
+ "Nationalmuseum": {
+  "rank": 16,
+  "card": {
+   "hook": "Nationalmuseum is the calm one in the neighbourhood: a long, pale limestone front that borrows its colour from the sky. Grey day, blue day, pink evening, it just goes along with it.",
+   "stand_here": "Stand on Blasieholmen at the phone icon on the map, about 60 m north-west of the subject, and face south-east. From here the long front fits in the frame without you tilting your phone steeply upward.",
+   "zoom": "Start at zoom 1x for the whole building. If people or a lack of space stop you stepping back, try 0.5x. Then go to 2x or more (depending on your phone) for windows and stonework.",
+   "make_it_pop": "Turn on the gridlines to keep the walls straight, then tap the building and slide it a touch darker so the pale limestone keeps its detail instead of going white.",
+   "best_time": "Softer light earlier or later in the day is kinder to pale stone than harsh midday sun. An overcast sky gives a more even look, just a bit flatter.",
+   "selfie_here": "Try Skeppsholmsbron, the bridge to Skeppsholmen. Stand in the middle, by one of the gilded crowns on the railing, with the museum at the Blasieholmen end in the view. Use the front camera at 0.5x to fit more in. A guide says the museum appears on the right from mid-bridge, but check the frame on the spot.",
+   "ask_someone": "Skeppsholmskajen, the quay on the Skeppsholmen side of the bridge, looks across the water at the museum's facade, so it's a good place to ask a passer-by to take your photo.",
+   "rules_and_safety": "Inside, you can photograph and film without flash or a selfie stick. The museum asks that it isn't used as a setting for portrait or wedding photography, and professional shoots with the museum as a backdrop are generally not allowed, so keep it a quick, casual snap. If you take selfies in the galleries, watch out for anything fragile.",
+   "challenge": "Take one wide shot of the whole building, then find a single window and make it your 'portrait of the day'.",
+   "good_to_know": "The German architect Friedrich August Stüler designed it; he also designed the Neues Museum in Berlin. It took from 1844 to 1866 to build and draws on northern Italian Renaissance architecture. The museum was founded in 1792 as the Royal Museum, and after a renovation it reopened on 13 October 2018. The building is about 127 m across."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Skeppsholmsbron (Skeppsholmen bridge), middle of the bridge",
+     "detail": "in the middle of the bridge, by one of the gilded crowns on the railing, with the museum at the Blasieholmen end in the view",
+     "why": "The gilded crowns are a known photo spot, and a guide says the museum appears on the right from mid-bridge, though no page confirms it fills the frame behind a selfie.",
+     "sources": [
+      {
+       "title": "Skeppsholmsbron in Stockholm: The Bridge with the Golden Crowns",
+       "url": "https://worldcitytrail.com/2025/02/15/skeppsholmsbron-in-stockholm/"
+      },
+      {
+       "title": "The best spots to enjoy Stockholm's panoramic views",
+       "url": "https://www.thelocal.se/20180926/the-best-spots-to-enjoy-stockholms-panoramic-views"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Skeppsholmskajen, the quay on Skeppsholmen facing the museum",
+    "detail": "on the Skeppsholmen side of the bridge, looking across the water at the museum's facade",
+    "sources": [
+     {
+      "title": "Utsikt från Skeppsholmskajen mot Nationalmuseum med broövergången (Sjöhistoriska museet / DigitaltMuseum)",
+      "url": "https://digitaltmuseum.se/011015435570/utsikt-fran-skeppsholmskajen-mot-nationalmuseum-med-broovergangen"
+     },
+     {
+      "title": "Stockholm Art Museums Guide",
+      "url": "https://www.stockholmmuseum.com/museums/art-and-design/guide-stockholm-art-museums.htm"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Inside the museum, visitors may photograph and film as long as they do not use a flash, selfie stick, or tripod.",
+     "sources": [
+      {
+       "title": "Nationalmuseum: Photography and filming",
+       "url": "https://www.nationalmuseum.se/en/visit/prepare-your-visit/photography-and-filming"
+      }
+     ]
+    },
+    {
+     "rule": "The museum may not be used as a setting for portrait or wedding photography, and professional shoots where the museum is merely a backdrop are generally not allowed.",
+     "sources": [
+      {
+       "title": "Nationalmuseum: Photography and filming",
+       "url": "https://www.nationalmuseum.se/en/visit/prepare-your-visit/photography-and-filming"
+      }
+     ]
+    }
+   ],
+   "safety": "Please be careful when taking selfies, so you don't collide with anything fragile in the galleries.",
+   "notes": "The bridge and quay sources are general photo and tourism pages, not museum-specific; none confirms the exact framing of a selfie with the museum fully behind the visitor, so check the frame on site. The 'ask someone' spot is based on a historic photo caption and a Stockholm museum guide caption that name the view from Skeppsholmen but not a precise position on the quay. The museum's own rules bar using the building as a portrait setting, and the photo-permit rule covers professional work; the museum's page does not say whether a passer-by photographing a visitor outdoors with the facade behind counts, so that remains unclear. The museum's indoor Sculpture Courtyard was left out because a page calls it a photo spot but it is indoors, and portrait use of the museum is restricted."
+  },
+  "cost_usd": 0.0642,
+  "at": "2026-11-14 22:20",
+  "selfie_pos": [
+   59.3273201,
+   18.079128
+  ],
+  "selfie_note": "Skeppsholmsbron (OpenStreetMap: Skeppsholmsbron, Svensksundsvägen, Skeppsholmen, Norra inner)"
+ },
+ "Mårten Trotzigs gränd": {
+  "rank": 17,
+  "card": {
+   "hook": "Picture a staircase that slowly squeezes you as you look up it. The walls lean in, the steps shrink, and by the top there's barely room for two people to squeeze past each other.",
+   "stand_here": "Stand at the foot of the steps at the Västerlånggatan end of Mårten Trotzigs gränd, right on the phone icon. Face up the lane so the steps run straight away from you.",
+   "zoom": "Start at 1x, which fits the steps and both walls in one frame. Try 0.5x if you want more of the height, but stay near the middle of the lane so the walls don't lean in. Skip the zooming in, because it makes the lane look wider than it is.",
+   "make_it_pop": "Turn on gridlines and put the middle of the steps on the centre line, then tap the steps partway up and slide a little darker so the bright sky at the top doesn't wash out.",
+   "best_time": "Go early in the morning, before Västerlånggatan fills up with visitors. It's the quietest time, so you'll have fewer people wandering into your shot.",
+   "selfie_here": "Switch to the front camera and try 0.5x so more of the old walls fit in behind you. Hold the phone a little above eye level and let the walls rise over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "It's an open public lane, but building work can close it for short periods, so check when you arrive. The steps are narrow and not suitable for wheelchairs or pushchairs.",
+   "challenge": "Get one shot with a single person climbing the steps, so everyone can see just how tight the squeeze is.",
+   "good_to_know": "The 37 steps tighten from a comfortable width to just 90 centimetres at the narrowest point. The lane is named after Mårten Trotzig, a merchant born in Wittenberg who came to Stockholm in 1581. It was closed off in the mid-19th century, reopened in 1945, and the city confirmed the present name in 1949."
+  },
+  "selfie_research": null,
+  "cost_usd": 0.0437,
+  "at": "2026-11-14 22:21"
+ },
+ "Skeppsholmen Bridge and its crowns": {
+  "rank": 18,
+  "card": {
+   "hook": "Halfway across a Stockholm bridge, two gilded crowns glint at you like they know they're the stars. Give them a moment, then take two pictures: one of the whole bridge, one of a crown.",
+   "stand_here": "Stand on the Skeppsholmen Bridge footpath at the phone icon, right by the Gilded Crowns at the middle of the bridge, and stay on the pathway, out of the roadway. For the whole-bridge shot, face along the bridge so the arches and railings lead the eye.",
+   "zoom": "Start at zoom 1x for the bridge and the water around it. Go to 0.5x if you want the full run of arches in one frame, then zoom 2x-5x (depending on your phone) for a close shot of a crown.",
+   "make_it_pop": "Tap the crown, then drag the slider to make it a little darker so the gold doesn't wash out against a bright sky, and turn on the gridlines to keep the bridge straight.",
+   "best_time": "Early or late in the day usually gives softer light on the gold and fewer people on the pathways. For the arches, any clear time works.",
+   "selfie_here": "Stand on the footpath beside the crown on the left railing as you come from the city centre, with Gamla Stan behind you. Visitors rarely photograph this crown, so it's quieter. Use the front camera, switch to 0.5x if your phone has it, and keep the crown over your shoulder. On the walk back from Skeppsholmen, you can also stand at the crown and face Strandvägen across the bay of Nybroviken for a different backdrop of façades and boats.",
+   "ask_someone": "Ask someone to stand on the quay at the Skeppsholmen end of the bridge, where the five arches under the deck show best, and try a shot of you on the bridge with the arches behind.",
+   "rules_and_safety": "The footpaths are only about two metres wide and shared with cyclists and runners, so step aside before you stop for photos. Check the official site before you go in case of works or closures.",
+   "challenge": "Get one frame of the whole bridge with the railings perfectly level on the gridlines, and one crown shot so clean it looks like a postcard.",
+   "good_to_know": "The bridge is 165 metres long with five arches, and the present one opened in 1861 as the first forged iron bridge built in Sweden, made by Motala Verkstad. There's been a crossing here since the 1630s, when a wooden bridge was built for the navy's move to the island. The current bridge was listed as a historical landmark in 1935."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Gilded crown on the left railing (coming from the city centre)",
+     "detail": "on the bridge footpath beside the crown on the left railing, with Gamla Stan behind",
+     "why": "Visitors rarely photograph this crown, so the spot is quieter, and Gamla Stan sits behind the crown.",
+     "sources": [
+      {
+       "title": "About the number one photo subject",
+       "url": "https://www.aboutstockholm.info/post/about-the-number-one-photo-subject"
+      },
+      {
+       "title": "Gilded Crown on Skeppsholmsbron, Stockholm, Sweden",
+       "url": "https://www.locationscout.net/sweden/7442-gilded-crown-on-skeppsholmsbron-stockholm"
+      }
+     ]
+    },
+    {
+     "name": "Strandvägen-side footpath at the crown",
+     "detail": "on the footpath at the crown, facing Strandvägen across the bay of Nybroviken, on the walk back from Skeppsholmen",
+     "why": "This side gives a view toward Strandvägen's façades and boats, which makes a backdrop distinct from the usual crown shot.",
+     "sources": [
+      {
+       "title": "About the number one photo subject",
+       "url": "https://www.aboutstockholm.info/post/about-the-number-one-photo-subject"
+      },
+      {
+       "title": "Skeppsholmsbron in Stockholm: The Bridge with the Golden Crowns",
+       "url": "https://worldcitytrail.com/2025/02/15/skeppsholmsbron-in-stockholm/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Quay on the Skeppsholmen side of Skeppsholmsbron",
+    "detail": "on the quay at the Skeppsholmen end of the bridge, where the five arches under the deck are best seen",
+    "sources": [
+     {
+      "title": "Skeppsholmsbron in Stockholm: The Bridge with the Golden Crowns",
+      "url": "https://worldcitytrail.com/2025/02/15/skeppsholmsbron-in-stockholm/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "The footpaths are only about two metres wide and shared with cyclists and runners, so step aside before stopping to take photos.",
+   "notes": "The sources do not name an exact standing point where a visitor has the bridge itself behind them; the selfie spots are the crown's sides and their backdrops, so the visitor's position is approximate. The ask-someone spot is the quay where the arches are best seen; a page does not confirm it as a spot for photographing a visitor with the whole bridge in frame, so that is an inference. No page mentions selfie stick or tripod rules."
+  },
+  "cost_usd": 0.048,
+  "at": "2026-11-14 22:21"
+ },
+ "Royal Palace east front and Logårdstrappan": {
+  "rank": 19,
+  "card": {
+   "hook": "A huge formal palace, and right beside it a staircase that points straight at it. Photo spots don't get much more obliging than that.",
+   "stand_here": "Stand about 20 m south-east of the subject, at the phone icon on the map, in front of the Royal Palace's east front and the Logårdstrappan. Face north-west and the palace and stairway are right ahead of you.",
+   "zoom": "Start at zoom 1x for a natural view of the whole scene. If the building won't fit, drop to 0.5x, then try 2x to 5x (depending on your phone) for stonework and windows.",
+   "make_it_pop": "Turn on your gridlines and line up the building's edges with the vertical lines so the palace stands up straight instead of leaning.",
+   "best_time": "Go in the morning. The east-facing front should catch the early light.",
+   "selfie_here": "Climb the granite Logårdstrappan steps and stop near the top, so the palace's east front rises behind you. Use the front camera, try 0.5x if your phone has it, and hold the phone a little low so the building fits over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Private photography is allowed at the Royal Palace, but selfie sticks aren't allowed, even outside the palace. Access around the palace can change, so check the official site before you go.",
+   "challenge": "Take one wide shot of the whole scene, then one close-up of the stonework, and see which one you like more.",
+   "good_to_know": "The Logårdstrappan is the stairway beside the Royal Palace. It connects the Logården garden with the palace's east entrance. The big straight lines of the building and the diagonal of the steps are what make this such a good photo spot."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Logårdstrappan steps, near the top, below the palace's east front",
+     "detail": "on the granite steps that climb from Skeppsbron up to the palace's east entrance, standing near the top so the east façade rises behind you",
+     "why": "The stairs connect the Logården garden with the palace's east entrance, and a travel guide advises bringing a camera for the views from the top of the staircase, so the palace is the natural backdrop.",
+     "sources": [
+      {
+       "title": "Logårdstrappan - Wikidata",
+       "url": "https://www.wikidata.org/wiki/Q10568855"
+      },
+      {
+       "title": "The Royal Palace of Stockholm, Stockholm (The Royal Forums)",
+       "url": "https://www.theroyalforums.com/threads/the-royal-palace-of-stockholm-stockholm.18845/page-5"
+      },
+      {
+       "title": "Discover the Historical Charm of Logårdstrappan (Evendo)",
+       "url": "https://evendo.com/locations/sweden/stockholm-archipelago/attraction/logardstrappan"
+      }
+     ]
+    },
+    {
+     "name": "Skeppsholmsbron (Skeppsholmen Bridge) footbridge, at one of the gilded crowns",
+     "detail": "at one of the two gilded crowns on the Skeppsholmen footbridge",
+     "why": "A blog describes a popular shot from this footbridge that includes a crown with the Old Town and Royal Palace as the backdrop, which suits a visitor-in-front pose.",
+     "sources": [
+      {
+       "title": "A Frequent Visitor's 21 Top Photo Spots in Stockholm, Sweden",
+       "url": "https://danny-cph.com/stockholm-best-photo-spots/"
+      },
+      {
+       "title": "19 Best Photo Spots for Stunning Shots in Stockholm (Swedentips.se)",
+       "url": "https://www.swedentips.se/stockholm/photo-spots/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Blasieholmen (the small island, shooting across the Norrström)",
+    "detail": "from Blasieholmen, shooting south across the Norrström, with the palace and Gamla Stan in the background; a guide calls this the best exterior photo position",
+    "sources": [
+     {
+      "title": "Stockholm Photography Guide: Best Photo Spots (Chasing Hippoz)",
+      "url": "https://www.chasinghippoz.com/travel-photo-blog/stockholm-sweden"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Private photography is allowed at the Royal Palace, but tripods, selfie sticks and other fixed equipment are not allowed, and the rule covers outside the palace as well as inside.",
+     "sources": [
+      {
+       "title": "Terms of photographing and filming (Kungliga slotten)",
+       "url": "https://www.kungligaslotten.se/english/image-and-media-gallery/terms-of-photographing-and-filming.html"
+      },
+      {
+       "title": "Practical information, Access (Kungliga slotten)",
+       "url": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-royal-palace/visit-us/practical-information-access.html"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The selfie-stick ban is the main constraint at the palace. The Logårdstrappan pose is inferred: the sources name the steps and the east entrance and mention views from the top, but none names a specific step or pose. The Skeppsholmsbron crown is described as framing the palace 'to the west' in one source and as having the palace as backdrop in another, so the direction you face matters. The Blasieholmen spot is a general photo position for the palace, not a tested spot for posing a visitor on the Logårdstrappan steps. Sources are blogs and listing sites, so verify the exact spots on arrival."
+  },
+  "cost_usd": 0.0555,
+  "at": "2026-11-14 22:22",
+  "selfie_pos": [
+   59.3273201,
+   18.079128
+  ],
+  "selfie_note": "Skeppsholmsbron (OpenStreetMap: Skeppsholmsbron, Södra Blasieholmshamnen, Norrmalm, Norra in)"
+ },
+ "German Church": {
+  "rank": 20,
+  "card": {
+   "hook": "You're deep in the Gamla stan lanes, you look up, and a brick tower pops out above the old rooftops like it's playing peekaboo. That's the German Church, and it's tricky to get in one shot, which is half the fun.",
+   "stand_here": "Stand right at the church, where the phone icon on the map sits, with the tower in front of you. You're close, so you'll catch walls, doorways and details, and you'll tilt your phone up for the tower.",
+   "zoom": "Start at 1x for the church in its narrow street. Want the whole spire? Walk back along a lane and try 0.5x, keeping the tower away from the very edge of the frame. For the gargoyles and the gilded saint, try 2x or 5x, depending on your phone.",
+   "make_it_pop": "Turn on gridlines and keep your phone upright, so the tower stands tall instead of leaning in.",
+   "best_time": "Early morning is best, because the lanes are quieter. A clear day gives the spire a clean sky behind it. At dusk the tower looks great against a darker sky, and night mode helps if the lane is dim.",
+   "selfie_here": "Head to the bottom of Tyska brinken and face the church steeple. You and the whole steeple fit in one frame there, but it gets crowded later in the day. Use the front camera (0.5x if your phone has it) and keep the steeple over your shoulder. One guide is from 2018, so check the spot when you arrive.",
+   "ask_someone": "For a far-away shot, stand on the Monteliusvägen walkway in Södermalm and ask someone to step well back and shoot across the water to Gamla Stan, with the German Church in the distance (you'll look small).",
+   "rules_and_safety": "Photos inside the church are usually allowed, but check the current rules at the door. Flash isn't allowed indoors. Visiting inside depends on the season and services, so check the official site before you go.",
+   "challenge": "Find the gilded saint above the northern gate, then a gargoyle on the tower, and get both in one photo set.",
+   "good_to_know": "The tower and copper-covered spire reach 96 metres and were finished in 1878, after a fire destroyed the earlier tower. The church grew out of a medieval guild building belonging to German merchants, hence the name. It got its present two-nave form in 1638-1642."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Bottom of Tyska brinken (Tyskabrinken)",
+     "detail": "at the lower end of the sloping street Tyska brinken, facing the church steeple",
+     "why": "Standing here lets you and the whole steeple fit in one frame, though the street gets crowded later in the day.",
+     "sources": [
+      {
+       "title": "10 Best Instagram Shots in Stockholm Gamla Stan — 100 Point Challenge",
+       "url": "https://www.100pointchallenge.com/blog/2018/10/25/10-best-instagram-shots-in-stockholm-gamla-stan"
+      }
+     ]
+    },
+    {
+     "name": "Tyska brinken, where the street crosses other lanes",
+     "detail": "on Tyska brinken, looking back toward the German Church (Tyska kyrkan) at the point where the street meets others",
+     "why": "A blogger describes this as a good view toward the church that works well for street-style shots, so it can also frame you against the building.",
+     "sources": [
+      {
+       "title": "A Complete Guide to Gamla Stan: Stockholm's Pretty Old Town — Danny CPH",
+       "url": "https://danny-cph.com/gamla-stan-stockholm-guide/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Monteliusvägen (Södermalm clifftop path)",
+    "detail": "on the Monteliusvägen walkway in Södermalm, shooting across the water toward Gamla Stan, where the German Church is visible in the distance",
+    "sources": [
+     {
+      "title": "A Frequent Visitor's 21 Top Photo Spots in Stockholm, Sweden — Danny CPH",
+      "url": "https://danny-cph.com/stockholm-best-photo-spots/"
+     },
+     {
+      "title": "Stockholm Photography Guide: Best Instagram Spots & Hidden Views",
+      "url": "https://www.machupicchu.org/stockholm-photography-guide-best-instagram-spots-hidden-views.htm"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are fine outdoors; indoors, flash is not allowed and tripods are sometimes restricted.",
+     "sources": [
+      {
+       "title": "Gamla Stan Guide: Stockholm's Old Town Done Right",
+       "url": "https://www.stockholmtourism.org/gamla-stan-guide/"
+      }
+     ]
+    },
+    {
+     "rule": "Photography inside the German Church is usually allowed, but visitors should check current rules before going in.",
+     "sources": [
+      {
+       "title": "The German Church Stockholm: Tyska Kyrkan Guide",
+       "url": "https://www.storyhunt.io/en/articles/the-german-church"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The first selfie spot comes from a 2018 blog, so check the spot on arrival. The second spot is vague: the source gives no exact point, only a view toward the church from the street where it crosses others. No page names a specific selfie-stick rule. The Monteliusvägen view is a long-distance shot, so the visitor will appear small against the church and the passer-by must stand far back. The safety warning in one guide (watch for pedestrians and cyclists) refers to a different alley, Storkyrkan's, so I left the safety field empty."
+  },
+  "cost_usd": 0.0617,
+  "at": "2026-11-14 22:23"
+ }
+}

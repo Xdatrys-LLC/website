@@ -1,0 +1,305 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Kyoto Attractions Map: 20 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Kyoto tourist map of 20 top photo spots, including Kiyomizu-dera, Kinkaku-ji and Fushimi Inari: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in kyoto, kyoto attractions, kyoto tourist map, map of kyoto attractions, best views in kyoto, best photo spots in kyoto, kiyomizu dera, kinkakuji, fushimi inari taisha">
+<link rel="canonical" href="https://xdatrys.com/library/kyoto/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Kyoto Attractions Map: 20 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Kyoto tourist map of 20 top photo spots, including Kiyomizu-dera, Kinkaku-ji and Fushimi Inari: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/kyoto/">
+<meta property="og:image" content="https://xdatrys.com/library/kyoto/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="330">
+<meta property="og:image:alt" content="Kiyomizu-dera, Kyoto: a Buddhist temple on the wooded slopes of Mount Otowa in eastern Kyoto. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/kyoto/","url":"https://xdatrys.com/library/kyoto/","name":"Kyoto Attractions Map: 20 Best Photo Spots | Xdatrys","description":"A Kyoto tourist map of 20 top photo spots, including Kiyomizu-dera, Kinkaku-ji and Fushimi Inari: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/kyoto/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Kyoto"},"mainEntity":{"@type":"ItemList","name":"Kyoto photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Kiyomizu-dera","description":"Kiyomizu-dera, the 'Pure Water Monastery', is a Buddhist temple on the wooded slopes of Mount Otowa in eastern Kyoto, and it is part of the Historic Monuments of Ancient Kyoto UNESCO World Heritage Site.","geo":{"@type":"GeoCoordinates","latitude":34.9945297,"longitude":135.7844643},"alternateName":["Kiyomizudera"],"image":"https://xdatrys.com/library/kyoto/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Kinkaku-ji (Golden Pavilion)","description":"Kinkaku-ji, the Temple of the Golden Pavilion, is a Zen Buddhist temple whose official name is Rokuon-ji.","geo":{"@type":"GeoCoordinates","latitude":35.0394781,"longitude":135.7296995},"alternateName":["Kinkakuji"],"image":"https://xdatrys.com/library/kyoto/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Fushimi Inari Taisha","description":"Fushimi Inari Taisha is the head shrine of Inari, the kami of rice and agriculture, and it sits at the foot of Mount Inari (233 metres) in Fushimi-ku.","geo":{"@type":"GeoCoordinates","latitude":34.9672545,"longitude":135.7737731},"image":"https://xdatrys.com/library/kyoto/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/kyoto/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Kyoto","item":"https://xdatrys.com/library/kyoto/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Kyoto?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Kiyomizu-dera, Kinkaku-ji and Fushimi Inari. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Kiyomizu-dera?","acceptedAnswer":{"@type":"Answer","text":"Stand about 100 m east of Kiyomizu-dera, at the phone icon on the map, and face west. Start with the default lens (1x) to take in the whole stage, the trees and the view behind."}},{"@type":"Question","name":"When is the best time to photograph Kinkaku-ji?","acceptedAnswer":{"@type":"Answer","text":"Go in the morning, if you can, when the gold usually looks warm and the paths tend to be quieter. On bright days, the reflection in the pond is usually clearer."}},{"@type":"Question","name":"How do I get to Fushimi Inari?","acceptedAnswer":{"@type":"Answer","text":"From Kyoto Station, take the JR Nara Line to Inari Station, a ride of about five minutes."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=538a9329"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><span class="xn-soon" aria-disabled="true" title="Sign in opens when membership launches">Sign in <span class="xn-tag">Soon</span></span></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><span class="xn-soon" aria-disabled="true">Sign in <span class="xn-tag">Coming soon</span></span></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Kyoto</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/kyoto/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in Kyoto: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with membership (coming soon).</span></div>
+    <a class="go" href="/#membership">See membership</a>
+  </div>
+</div>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Kyoto"></div>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Kyoto as photo spots, ranked by how often people search for them: Kiyomizu-dera, Kinkaku-ji, Fushimi Inari, Nishiki Market and Nijo Castle lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Kiyomizu-dera</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-02.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Kiyomizu-dera, Kyoto: a Buddhist temple on the wooded slopes of Mount Otowa in eastern Kyoto. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Martin Falbisoner, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    <p>Kiyomizu-dera, the &#39;Pure Water Monastery&#39;, is a Buddhist temple on the wooded slopes of Mount Otowa in eastern Kyoto, and it is part of the Historic Monuments of Ancient Kyoto UNESCO World Heritage Site. Its Main Hall has a wide wooden stage held up on tall timber scaffolding. Seen from across the valley, that stage looks as if it hangs out over the trees. The current Main Hall dates from 1633, when it was rebuilt after a fire in 1629. In the Edo period, people believed that surviving a 13-metre jump from the stage would grant a wish. 234 jumps were recorded, most of them survived, and the practice was banned in 1872.</p><p>The classic photo is the stage seen head-on from the Okuno-in Hall, which sits across the ravine to the north of the Main Hall. From there you get the stage and its scaffolding with trees in the foreground and the city or hills behind. If you have time, there are two other good angles. The small vermilion Koyasu Pagoda makes a colourful foreground with the Main Hall complex across the valley. Down by the Otowa Waterfall you can look up at the scaffolding from below. Okuno-in can be busy, so go early and be patient. Look carefully at your frame for people and branches before you press the shutter. Photography is not allowed inside the Main Hall&#39;s inner sanctum.</p>
+    <p><b>Where it is:</b> Kiyomizu-dera stands on the Higashiyama hillside in eastern Kyoto, on the slopes of Mount Otowa. The temple complex is large, about 530 m across, and includes the Main Hall, the Otowa Waterfall and several smaller shrines.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to take in the whole stage, the trees and the view behind. Then try the telephoto (2x-5x, depending on your phone) to pick out the timber scaffolding and bring the stage closer. Keep the ultra-wide (0.5x) for the pagoda or waterfall views, where you want to include a lot of foreground.</p>
+      <p><b>Where to stand:</b> Stand about 100 m east of the numbered pin, at the phone icon on the map, and face west. Across the ravine to the north of the Main Hall. From the balcony you see the Main Hall&#39;s wooden stage head-on across the valley, with trees in front and the city or mountains behind. As an alternative, the Koyasu Pagoda gives a small vermilion foreground with the Main Hall complex beyond.</p>
+      <p><b>Framing:</b> Turn on the gridlines and place the stage along a lower line, leaving room for the trees in front and the view behind. Keep your phone level so the timber scaffolding looks straight. For a second picture, move to the Koyasu Pagoda and put its red roof in the foreground. At the Otowa Waterfall, point the phone upwards to catch the scaffolding above the streams of water. Check the edges of the frame for other visitors&#39; heads or phones before you shoot.</p>
+      <p><b>Settings tip:</b> Tap on the stage to set focus, then drag the exposure slider down slightly if the sky behind is bright. Take a few quick frames, as the balcony can be crowded. Tripods are restricted on the stage, but you will not need one for daytime phone photos.</p>
+      <p><b>Best time:</b> Early morning, before the crowds build up around 10 a.m. Some guides also suggest the last hour before closing, so check the temple&#39;s current opening times on the official site.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Kinkaku-ji (Golden Pavilion)</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Kinkaku-ji (Golden Pavilion), Kyoto: a Zen Buddhist temple whose official name is Rokuon-ji. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>Kinkaku-ji, the Temple of the Golden Pavilion, is a Zen Buddhist temple whose official name is Rokuon-ji. The pavilion is its best-known building. Its top two floors are covered in gold leaf, and it stands at the edge of a pond called Kyōko-chi (Mirror Pond), so the gold and its reflection sit together in one frame. That pairing is why it works so well on a phone: the subject is bright and simple, and the water, trees and sky give you an easy background.</p><p>The site was a villa bought by the shōgun Ashikaga Yoshimitsu in 1397, and it became a temple after his death. The pavilion you see today dates from 1955, when it was rebuilt after a fire in 1950. It is three storeys and about 12.5 metres tall, and each floor has its own architectural style. The pond holds ten small islands, and the whole garden is designed to be walked around, with different views along the way.</p><p>The phone icon on the map is about 100 m south-west of the numbered pin. From there the pavilion is a little over 100 metres away. Start with a wide shot that includes the water, then move closer and look for the reflection. Keep the gridlines on to help you hold the horizon level, and check the edges of the frame for other visitors before you press the shutter.</p>
+    <p><b>Where it is:</b> Kinkaku-ji is in Kyoto, where the temple grounds are laid out around the Mirror Pond.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Begin with the default lens (1x) for the classic view of the pavilion across the water. Switch to the telephoto (2x-5x, depending on your phone) to fill the frame with the gold floors and roof. Use the ultra-wide (0.5x) only if you want the pond and trees as well, and keep the pavilion away from the edges, where it can look stretched.</p>
+      <p><b>Where to stand:</b> Stand about 100 m south-west of the numbered pin, at the phone icon on the map, and face north-east. This gives you a view across the pond to the pavilion.</p>
+      <p><b>Framing:</b> Turn the phone sideways and place the horizon on a gridline. Let the pond take up the lower third so the reflection is part of the picture. If you can, include a little of the pine branches or shoreline in the foreground to add depth. Take one wide shot and one zoomed-in shot of the top two floors.</p>
+      <p><b>Settings tip:</b> Tap the pavilion to focus, then slide the exposure down a little so the gold leaf keeps its detail and does not turn white. Take a second shot with the exposure slightly higher if the trees look too dark.</p>
+      <p><b>Best time:</b> Go in the morning, if you can, when the gold usually looks warm and the paths tend to be quieter. On bright days, the reflection in the pond is usually clearer.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Fushimi Inari Taisha</h3>
+    <figure><a href="" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Fushimi Inari Taisha, Kyoto: the head shrine of Inari. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: © Xdatrys LLC, , via Wikimedia Commons</figcaption></figure>
+    <p>Fushimi Inari Taisha is the head shrine of Inari, the kami of rice and agriculture, and it sits at the foot of Mount Inari (233 metres) in Fushimi-ku. It is best known for its torii gates. The shrine is said to have around 10,000, each donated by a Japanese business, and about 800 of them stand in a row along the main path to form the Senbon Torii, which feels like a tunnel. Near the entrance you will find the two-storey tower gate and the main shrine, whose main hall dates from 1499. Foxes, thought of as Inari&#39;s messengers, appear all over the grounds, so look out for the fox statues too.</p><p>It photographs well because everything has strong shapes and colour: the bright vermilion gates, the dark wooden buildings and the green hillside behind. On a phone, start at the entrance buildings, where you have room to step back and fit the whole tower gate in the frame. Then walk up to the gate tunnel, where the repeating posts draw the eye along the path. Keep your phone steady and take a few shots of each view, because people will often walk through the frame. The paths up the mountain are long, so you can stop at the first stretch of gates and still come away with plenty of pictures.</p>
+    <p><b>Where it is:</b> In Fushimi-ku, Kyoto, at the foot of Mount Inari. The shrine buildings stand at the bottom of the hill, and the gate-lined trails climb up behind them.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the tower gate and shrine buildings. Switch to ultra-wide (0.5x) when you reach the tunnel of torii gates, so you capture the full height of the posts and the length of the path. Use telephoto (2x-5x, depending on your phone) for fox statues, carved details and the hanging lanterns.</p>
+      <p><b>Where to stand:</b> Stand about 45 m west of the subject, at the phone icon on the map, and face east.</p>
+      <p><b>Framing:</b> Turn on gridlines and line the gate posts up with the vertical lines so the buildings don&#39;t lean. Place the gate or the main hall in the centre, with the vermilion colour filling most of the frame. For the torii tunnel, stand in the middle of the path and point down it, so the gates narrow to a single point. Try one portrait-orientation shot to show the height of the gates and one landscape shot to show the length.</p>
+      <p><b>Settings tip:</b> Tap on a mid-tone part of the gate to set focus, then lower the exposure slider slightly. This keeps the red from washing out and stops the shaded gate tunnel from looking flat. In the tunnel, hold the phone still for a moment before pressing the shutter. After dark, use night mode and brace your arms against your body.</p>
+      <p><b>Best time:</b> Early in the morning usually means fewer people in your shots. Evening is also good because the approach and main hall are lit through the night. Midday is the busiest and brightest time.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Nishiki Market <small>· members</small></li>
+    <li><span class="n">5</span>Nijo Castle <small>· members</small></li>
+    <li><span class="n">6</span>Yasaka Shrine <small>· members</small></li>
+    <li><span class="n">7</span>Ginkaku-ji (Silver Pavilion) <small>· members</small></li>
+    <li><span class="n">8</span>Gion and Hanamikoji Street <small>· members</small></li>
+    <li><span class="n">9</span>Philosopher&#39;s Path <small>· members</small></li>
+    <li><span class="n">10</span>Sannenzaka and Ninenzaka <small>· members</small></li>
+    <li><span class="n">11</span>Ryoan-ji rock garden <small>· members</small></li>
+    <li><span class="n">12</span>To-ji pagoda <small>· members</small></li>
+    <li><span class="n">13</span>Yasaka Pagoda (Hokan-ji) <small>· members</small></li>
+    <li><span class="n">14</span>Daigo-ji <small>· members</small></li>
+    <li><span class="n">15</span>Pontocho and the Kamo River <small>· members</small></li>
+    <li><span class="n">16</span>Kyoto Tower <small>· members</small></li>
+    <li><span class="n">17</span>Heian Shrine <small>· members</small></li>
+    <li><span class="n">18</span>Tofuku-ji <small>· members</small></li>
+    <li><span class="n">19</span>Higashi Hongan-ji <small>· members</small></li>
+    <li><span class="n">20</span>Shinsen-en garden <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Kyoto?</summary><p>The first three on this map are Kiyomizu-dera, Kinkaku-ji and Fushimi Inari. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Kiyomizu-dera?</summary><p>Stand about 100 m east of Kiyomizu-dera, at the phone icon on the map, and face west. Start with the default lens (1x) to take in the whole stage, the trees and the view behind.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Kinkaku-ji?</summary><p>Go in the morning, if you can, when the gold usually looks warm and the paths tend to be quieter. On bright days, the reflection in the pond is usually clearer.</p></details>
+  <details class="faq"><summary>How do I get to Fushimi Inari?</summary><p>From Kyoto Station, take the JR Nara Line to Inari Station, a ride of about five minutes.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Kiyomizu-dera" target="_blank" rel="noopener">Kiyomizu-dera</a>, <a href="https://en.wikipedia.org/wiki/Kinkaku-ji" target="_blank" rel="noopener">Kinkaku-ji</a>, <a href="https://en.wikipedia.org/wiki/Fushimi_Inari-taisha" target="_blank" rel="noopener">Fushimi Inari-taisha</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+</footer>
+<script>
+window.MAPCFG = {"key":"kyoto","place":"Kyoto","bounds":[135.7,34.94,135.83,35.06],"center":[135.765,35.0],"english":false,"vatican":false,"tiles":"/r2tiles/kyoto/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

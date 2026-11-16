@@ -1,0 +1,780 @@
+[
+ {
+  "rank": 1,
+  "name": "Brosundet canal",
+  "in_cut": true,
+  "label": "Brosundet",
+  "camera_pill": null,
+  "searches": 1660,
+  "pin": [
+   6.1521871,
+   62.4725261
+  ],
+  "camera": [
+   6.15222,
+   62.47223
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap node/282272129: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "",
+  "text": {
+   "description": "Brosundet is a canal in Ålesund, and it is the first stop on this map. It can work well for phone photos because water, buildings and boats make natural subjects for a simple picture. If the water is calm, you may get a soft reflection, which can make a simple picture look more interesting. The best approach is to take one wide shot to show the whole scene, then a few closer ones of details that catch your eye. Turn on the gridlines and line the edge of the water or a row of buildings up with one of them, so the picture looks straight and tidy. Take a moment to check that nothing, such as a bag or bicycle, is cutting into the edge of the frame. If people walk through your shot, wait a few seconds for a gap, or use them to add a sense of life. If the water is rippled, the reflections will break up, so try a couple of frames a few seconds apart and keep the best one.",
+   "geographic_location": "Brosundet is a canal in Ålesund.",
+   "directions_text": "No train stations or tram stops are listed for this spot, so use the map to find your way to the canal in Ålesund. The phone icon on the map is about 35 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the canal. Switch to the ultra-wide (0.5x) if you are close to the water and want more of the scene in the frame. Use the telephoto (2x-5x, depending on your phone) for details.",
+    "where_to_stand": "Stand about 35 m south of the subject, at the phone icon on the map, and face north.",
+    "how_to_frame": "Switch on the gridlines and line the edge of the water or a row of buildings up with one of the horizontal lines. Hold the phone level so the buildings do not lean. Take a wide shot first, then move closer for details. Keep a little water in the lower part of the frame if you want reflections.",
+    "phone_settings_tip": "Tap the water or the buildings to focus, then drag the exposure slider down a touch if the sky is bright, so the colours stay rich. If your phone offers Live Photos or motion, try it if something is moving on the water, then pick the best frame.",
+    "best_time": "Soft light early or late in the day is often flattering for photos. Pick a still day for the best reflections."
+   },
+   "access_note": "No access information is available for this spot, so check locally before you go, especially if you plan to visit any particular building or boat trip."
+  },
+  "checker_problems": 8,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 4 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Fjellstua viewpoint on Mount Aksla",
+  "in_cut": true,
+  "label": "Fjellstua",
+  "camera_pill": null,
+  "searches": 950,
+  "pin": [
+   6.16423,
+   62.47416
+  ],
+  "camera": [
+   6.16401,
+   62.47416
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap: Fjellstua (restaurant at the viewpoint): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "The classic view over the Art Nouveau town and islands.",
+  "text": {
+   "description": "Fjellstua is a viewpoint on Mount Aksla, on the Ålesund map, and it is ranked second on this map. From a high viewpoint like this, a phone photo can give a clear sense of place, with the landscape stretching out in front of you. Use the building as an anchor, then turn to take in the view from the viewpoint. For the wide scene, switch to the ultra-wide lens (0.5x) and keep the horizon level using the gridlines. If you want a tighter picture of one part of the scene, use the telephoto/zoom lens (2x-5x, depending on your phone). Check the edges of the frame for railings, signs and other visitors before you press the shutter. Walk a little way along the viewing area to find a cleaner line of sight. Haze or low cloud can flatten the view, so take a second shot with the exposure slider pulled down slightly to keep the sky from washing out.",
+   "geographic_location": "Fjellstua is a viewpoint on Mount Aksla, on the Ålesund map. The map marks the Fjellstua restaurant at the viewpoint.",
+   "directions_text": "There are no stations or tram stops listed for this spot, so check local options for getting to Mount Aksla before you set out. The phone icon on the map is about 10 m west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide lens (0.5x) for the wide view. Use the default lens (1x) for the Fjellstua building and for people-free details. Switch to the telephoto/zoom lens (2x-5x, depending on your phone) to pick out single details in the distance.",
+    "where_to_stand": "Stand about 10 m west of the subject, at the phone icon on the map, and face east. Take your photo of Fjellstua from here, then turn to take in the view from the viewpoint.",
+    "how_to_frame": "Turn on the gridlines and place the horizon on the upper or lower line, depending on whether the landscape or the sky matters more. Keep railings and signs at the edge of the frame or out of it. For a sweeping view, try panorama mode, moving slowly and keeping your phone level.",
+    "phone_settings_tip": "Tap on your main subject to set focus, then drag the exposure slider down a little if the sky looks too bright. If the wind is blowing, hold the phone with both hands and keep your elbows tucked in.",
+    "best_time": "Late afternoon or evening usually gives softer light, but any clear time of day works. Take a quick look at the weather before you set out, as cloud can hide the view."
+   },
+   "access_note": "Check the official site before you go for current access to the viewpoint and the restaurant.",
+   "claims_not_in_sources": [
+    "The viewpoint gives a wide, open view that suits a phone photo.",
+    "Late afternoon or evening light is usually softer for photographs from this spot.",
+    "Haze or low cloud can reduce the clarity of the view.",
+    "The viewing area allows you to walk a short way along it to find a clearer line of sight.",
+    "There may be railings, signs and other visitors at the edge of the frame."
+   ]
+  },
+  "checker_problems": 9,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Atlanterhavsparken aquarium",
+  "in_cut": true,
+  "label": "Atlanterhavsparken",
+  "camera_pill": null,
+  "searches": 900,
+  "pin": [
+   6.095691,
+   62.465592
+  ],
+  "camera": [
+   6.096032,
+   62.46558
+  ],
+  "camera_source": "Researched viewpoint 'Atlanterhavsparken' (3 web pages); placed at OpenStreetMap 'Atlanterhavsparken' (relation/13568581): middle (144 m across).",
+  "pin_note": "Position from OpenStreetMap relation/13568581: the middle of the OpenStreetMap outline 'The Atlantic Ocean Park' (144 m across).",
+  "notes": "",
+  "text": {
+   "description": "Atlanterhavsparken (the Atlantic Sea-Park) is one of Scandinavia's largest saltwater aquariums, built into the coastline of the Tueneset peninsula. For photos, the best part is outdoors. The open-air seal pool, called Selbukta, opened in 2014 and holds around 15 million litres of water, making it one of the largest seal exhibits in the world. It houses harbour seals. From the edge of the pool you can frame seals, or sometimes otters, with the fjord and the mountains behind them. That backdrop is what sets this aquarium apart from ones where every picture is taken through indoor glass.\n\nThe aquarium was founded in 1951 and the current building opened on 15 June 1998, during the city's 150th anniversary. Besides the seal pool there are 11 larger landscape tanks, including two open touch pools, and about 6,000 square metres of outdoor space.\n\nFor phone photos, start at the outdoor seal pool area and let the animals come to you. Seals move around a lot, so take several frames rather than one. Keep the horizon level using your gridlines, and try one wider shot that includes the water, the far shore and the peaks. An alternative is the pool seen from its underwater walkway or along its edge, with the sea right beside the basin. Entry is to the aquarium itself, so check the official site before you go.",
+   "geographic_location": "Atlanterhavsparken sits on the Tueneset peninsula, on the coast about 3.5 kilometres west of Ålesund town centre. It looks out over the sea and the coastal islands.",
+   "directions_text": "No tram or train stops are listed near the park, so head west out of Ålesund town centre; the park is roughly 3 to 3.5 kilometres away, so check local transport options. Look for Atlanterhavsparken on Tueneset on your map app. Once inside, follow the paths to the outdoor seal pool area, which faces the fjord and mountains. The phone icon on the map is about 20 m east of the numbered pin. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the main picture of seals with the fjord and peaks behind them. Switch to telephoto (2x-5x, depending on your phone) for close portraits of a seal or otter at the pool edge. The ultra-wide (0.5x) suits the open sea and rocky shoreline, but keep it away from the edges of the frame where faces can stretch.",
+    "where_to_stand": "Stand about 20 m east of the numbered pin, at the phone icon on the map, and face west. At the outdoor seal pool area facing the fjord and mountains, with the main part of the park just to the west. From here your photo shows seals or otters at the edge of the open-air pool, with the fjord and snowy peaks behind them.",
+    "how_to_frame": "Put the animal on one third of the frame and let the water and mountains fill the rest, using the gridlines to keep the horizon level. For variety, try the seal pool from its underwater walkway or along its edge, with the sea right beside the basin. If you have time to spare, the open sea and rocky shoreline around Tueneset make a calmer outdoor alternative to the tanks.",
+    "phone_settings_tip": "Tap on the animal to focus, then drag the exposure slider down a little so the sky and mountains keep their detail. Use Live Photos or take several shots in a row, because seals rarely stay still. Flash may be restricted in some areas, so turn it off.",
+    "best_time": "Choose a bright, clear day so the mountains show behind the pool, and check the official site for show and feeding times."
+   },
+   "access_note": "This is a ticketed aquarium, so check the official site before you go for entry rules and photography guidance."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Atlantic Sea-Park",
+    "url": "https://en.wikipedia.org/wiki/Atlantic_Sea-Park"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "El Pantera",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Atlantic_Sea-Park_ingl%C3%A9s_(Alesund)_-_P1080228.jpg",
+   "from": "Wikidata Q756544 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Sunnmøre Museum",
+  "in_cut": true,
+  "label": "Sunnmøre Museum",
+  "camera_pill": "Borgundgavlen",
+  "searches": 510,
+  "pin": [
+   6.23624,
+   62.46891
+  ],
+  "camera": [
+   6.226638,
+   62.466959
+  ],
+  "camera_source": "Researched viewpoint 'Borgundgavlen' (4 web pages); placed at OpenStreetMap 'Borgundgavlen' (node/14026658616): point.",
+  "pin_note": "Position from OpenStreetMap: Sunnmøre museum: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "",
+  "text": {
+   "description": "Sunnmøre Museum is an open-air museum of old buildings on the peninsula around Borgundgavlen, and it gives you two quite different kinds of photo. The first is a wide, calm view of timber farmhouses and sod-roofed buildings scattered across open grounds, with the fjord, mountains and a small lake behind. The second is down by the quay, where replicas of the Borgundknarren and the Kvalsundskipet lie moored or displayed in front of the boat halls, with the fjord beyond.\n\nThe grounds photograph well because the old houses give you natural foreground interest and the land is open, so you can step back and fit buildings, water and hills into one frame. Guides describe the peninsula as a very scenic recreation area, and reviewers mention back-lit, dreamy views and fewer people away from the main sights.\n\nFor your phone, start with a wide shot of the farmhouses, then walk towards the quay for a closer picture of the boat replicas. A second viewpoint is by the old church at Borgund kyrkje, which shows the museum's buildings from the south with the church and its surroundings in the foreground. The churchyard is still an active cemetery, so photograph respectfully and keep people and graves out of the frame where you can. I could not confirm whether the grounds and quay need a ticket, so check the official site before you go.",
+   "geographic_location": "The museum sits on the peninsula around Borgundgavlen, on the Ålesund map. The grounds run between the old houses, the small lake and the fjord shore.",
+   "directions_text": "No public transport stops are listed for this spot, so check local options for getting to the Borgundgavlen area. Once you are there, the phone icon on the map is the open ground among the old houses near the small lake. From there the museum (the subject position) lies about 540 m to the north-east. The phone icon on the map is about 540 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the wide view of farmhouses, fjord and mountains. Switch to ultra-wide (0.5x) if you want more sky and lake in the frame. Use telephoto (2x-5x, depending on your phone) to pick out the boat halls and the replica boats from a distance.",
+    "where_to_stand": "Stand about 540 m south-west of the subject, in Borgundgavlen (the phone icon on the map), and face north-east. In the open area of the peninsula among the old houses and near the small lake.",
+    "how_to_frame": "Turn on gridlines and place the horizon on the upper or lower line. Use an old house as your foreground and let the lake and mountains fill the background. For a different picture, walk to the quay and frame the Borgundknarren and Kvalsundskipet replicas with the boat halls and fjord behind them. Another alternative is the view from Borgund kyrkje, which shows the museum's old buildings from the south.",
+    "phone_settings_tip": "If you are shooting towards the light, tap on the buildings to focus and lower the exposure slider a little so the sky does not wash out. Keep your phone steady against a fence or post, and try a Live Photo if there is wind in the grass.",
+    "best_time": "Morning light is suggested for a soft, dreamy look. Visiting away from the busiest times should also mean fewer people in your shots."
+   },
+   "access_note": "I could not confirm whether the open-air grounds and quay need a ticket or what the opening times are, so check the official site before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (539 m)"
+  ],
+  "at_spot": false,
+  "photo": null
+ },
+ {
+  "rank": 5,
+  "name": "Molja Lighthouse",
+  "in_cut": true,
+  "label": "Molja Lighthouse",
+  "camera_pill": "Brosundet",
+  "searches": 260,
+  "pin": [
+   6.1501238,
+   62.474537
+  ],
+  "camera": [
+   6.152187,
+   62.472526
+  ],
+  "camera_source": "Researched viewpoint 'Brosundet' (2 web pages); placed at OpenStreetMap 'Brosundet' (node/282272129): point.",
+  "pin_note": "Position from OpenStreetMap way/485416956: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "",
+  "text": {
+   "description": "Molja Lighthouse is the small red-and-white tower at the mouth of the Brosundet canal, on the edge of Ålesund's harbour. The best phone photo is not taken on the pier itself but from the canal side, looking out toward it. From there the lighthouse sits at the end of the water, framed by moored boats and the pastel early-1900s warehouses along the quay. On a still day the buildings and boats reflect in the canal, which gives the picture a lot of depth. The lighthouse is also a hotel room run by Hotel Brosundet, so it is a working building rather than just a monument, and a light may be on in the evening. You may need to frame around that. The walkway is public. For a closer, more traditional view, walk out along the stone pier and photograph the tower with the harbour water and the town's buildings and hills behind it. For a distant, telephoto view of the lighthouse at the harbour entrance, with the Art Nouveau rooftops and islands around it, the Fjellstua viewpoint on Aksla looks down on the scene. Start at the canal, take your time over the reflections, then walk out to the pier if the weather is kind.",
+   "geographic_location": "Molja Lighthouse stands at the harbour end of the Brosundet canal in Ålesund, at the end of a short stone pier. The canal is lined with old warehouses and moored boats.",
+   "directions_text": "Walk along the Brosundet canal toward the harbour end, where the lighthouse stands. From the phone icon on the map on the canal to the lighthouse is about 4 minutes on foot, heading north-west. The phone icon on the map is about 240 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the lighthouse framed by boats and warehouses. Switch to the ultra-wide (0.5x) if you want more of the canal and reflections, and to the telephoto (2x-5x, depending on your phone) to bring the tower closer without walking onto the pier.",
+    "where_to_stand": "Stand about 240 m south-east of the subject, on Brosundet (the phone icon on the map), and face north-west. From here you see the lighthouse at the mouth of the canal, with moored boats and the pastel warehouses lining the water.",
+    "how_to_frame": "Put a moored boat or two in the foreground and let the warehouses form the sides of the picture, with the lighthouse at the far end. Turn on the gridlines and keep the horizon level, and include the reflection in the water if it is calm. For a different view, walk out on the pier and photograph the tower with the harbour behind it, or use the telephoto from the Fjellstua viewpoint on Aksla.",
+    "phone_settings_tip": "Tap on the lighthouse to set focus, then drag the exposure slider down slightly so the white and red are not washed out and the reflections keep their colour. In the evening, use night mode and hold the phone steady against a rail or wall, and expect the lit hotel window to show.",
+    "best_time": "Calm mornings are best, when the water is still enough for clear reflections and the canal is quieter."
+   },
+   "access_note": "The walkway is public, but the lighthouse itself is part of a hotel, so check the official site before you go if you hope to go inside, and take care on the pier in icy or stormy weather.",
+   "claims_not_in_sources": [
+    "A still, calm morning gives the clearest reflections and tends to be quieter.",
+    "Dragging the exposure slider down slightly helps keep white and red tones from washing out."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 15 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Ålesund Church",
+  "in_cut": true,
+  "label": "Ålesund Church",
+  "camera_pill": null,
+  "searches": 170,
+  "pin": [
+   6.1457551,
+   62.4711552
+  ],
+  "camera": [
+   6.1464,
+   62.47112
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/230541065: the middle of the OpenStreetMap outline 'Ålesund kirke' (55 m across).",
+  "notes": "",
+  "text": {
+   "description": "Ålesund Church sits in the middle of town on the island of Aspøya. It is a large stone church in the Art Nouveau style, designed by the architect Sverre Knudsen and finished in 1909. It photographs well because the pale marble-clad walls and the tower set off to one side give you a shape that is easy to recognise, even in a quick phone shot. The church is also part of the town's story. The earlier church on this site was destroyed in the great Ålesund fire of 23 January 1904, when nearly the whole town had to be rebuilt. King Haakon VII laid the foundation stone in 1906, and the new church was consecrated on 15 September 1909. Roughly 2,000 square metres of marble cover the façade, and the church seats about 800 people. The entrance is at the east end and the choir at the west end. Take a wide shot first to show the whole building. Then move in for a second shot of the stonework and the tower. Keep the phone level so the walls stay upright.",
+   "geographic_location": "In the centre of Ålesund, on the island of Aspøya, in the part of town that was rebuilt after the 1904 fire.",
+   "directions_text": "No Underground, train or tram stops are listed for this spot, so head to the town centre on Aspøya, where the church stands, and walk from there. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x), because you are close to a large building. Switch to the default lens (1x) for a calmer, less stretched view. If you want to pick out the tower or the stonework, use the telephoto (2x or more, depending on your phone).",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot.",
+    "how_to_frame": "Turn on the gridlines and line up the church's vertical edges with them. At 0.5x, hold the phone level and keep a little space above the roof, because tilting it makes the walls lean. At 1x or with the telephoto, aim at the tower or a section of the marble façade.",
+    "phone_settings_tip": "Tap the church to focus. Then drag the exposure slider down a little if the sky is bright, so the pale stone does not turn white.",
+    "best_time": "Daylight is best, so you can see the stonework. On a bright day, try morning or early evening, when the light is softer, and check on the day which side of the church has the light."
+   },
+   "access_note": "The church is a working place of worship, so check the official site or the parish for visiting times and any dress expectations before you go inside."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Ålesund Church",
+    "url": "https://en.wikipedia.org/wiki/%C3%85lesund_Church"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 18 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Slinningsodden view of the town",
+  "in_cut": true,
+  "label": "Slinningsodden",
+  "camera_pill": null,
+  "searches": 160,
+  "pin": [
+   6.1658134,
+   62.4622662
+  ],
+  "camera": [
+   6.17326,
+   62.45815
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/789283202: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Seaside point east of the centre.",
+  "text": {
+   "description": "A view like this works well on a phone because the picture can build up in clear bands: foreground, then open space, then the buildings of the town, then sky and any hills behind. Those bands give the photo depth without any fuss. The subject on the map is the town view itself, so the aim is a calm, open frame rather than a close detail. Take a first shot with the default lens (1x) to get the whole scene, then step in with the telephoto if you want to pick out a cluster of buildings. Keep an eye on the horizon so it does not slope. Weather can change quickly, so check the sky before you set out and wipe your lens, as fingerprints soften distant views. Check locally for details on history, size or opening arrangements if you need them.",
+   "geographic_location": "Slinningsodden is on the Ålesund map.",
+   "directions_text": "Check locally for public transport details. The phone icon on the map is about 580 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene. Switch to the ultra-wide (0.5x) if you can include more foreground and sky. Use the telephoto (2x-5x, depending on your phone) to pick out part of the town.",
+    "where_to_stand": "Stand about 580 m south-east of the subject, at the phone icon on the map, and face north-west.",
+    "how_to_frame": "Switch on the gridlines and put the horizon on the lower or upper third line, depending on whether the sky or the town is more interesting. Include a bit of foreground to give a sense of depth. Take one wide shot and one zoomed shot of the same scene so you have a choice later.",
+    "phone_settings_tip": "Tap on the town to focus, then slide the exposure down slightly if the sky looks washed out. If the air is hazy, a little extra contrast when editing can help. Hold the phone with both hands and press the shutter gently to avoid blur when zoomed in.",
+    "best_time": "Choose a clear spell, ideally in the softer light of morning or late afternoon. Dusk is also worth trying, using night mode with your elbows tucked in or the phone braced on something steady."
+   },
+   "access_note": "Check the official site or local tourist information before you go to find out whether this spot is open or restricted."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Alnes Lighthouse",
+  "in_cut": true,
+  "label": "Alnes Lighthouse",
+  "camera_pill": null,
+  "searches": 140,
+  "pin": [
+   5.96722222,
+   62.48994444
+  ],
+  "camera": [
+   5.96656,
+   62.48979
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from Wikidata Q773792: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "",
+  "text": {
+   "description": "Alnes Lighthouse serves the small fishing community of Alnes, on the north side of the island of Godøya. It was first established in 1852 to guide fishing boats into the harbour. The tower you see today dates from 1876 and is still in operation. It was automated in 1982 and is now owned by Giske Municipality. That history gives you a simple, honest subject: a working lighthouse beside a working coast.\n\nIt photographs well because it is a clear, upright shape against open sky and sea, so there is little to clutter the frame. It is also an easy place to visit. The tower and galley are open to visitors from May through October, and the old keeper's house has a café and an exhibition hall showing work by local artists. There is a small museum inside the tower as well. It is one of the most visited lighthouses in Norway, so allow for other visitors walking through your shot.\n\nFor a phone, the aim is to keep the whole tower in the frame with some sky above it and some of the surroundings below. Take one wide shot to show where it sits, then step in or zoom for a tighter picture of the tower itself. Check the weather before you set out, because a coastal spot like this changes quickly. If you plan to go inside the tower or the museum, check the official site before you go.",
+   "geographic_location": "Alnes Lighthouse is in the fishing community of Alnes, on the north side of the island of Godøya in Giske Municipality. It lies outside the centre of Ålesund, about a 30-minute drive away.",
+   "directions_text": "No stations or tram stops are listed for this spot. The lighthouse is about a 30-minute drive from Ålesund, so plan to arrive by car or other road transport. The lighthouse is 38 m to the north-east, about 1 minute on foot. The phone icon on the map is about 40 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole lighthouse with sky around it. Switch to the ultra-wide (0.5x) if you step closer, and use 2x or more for a tighter shot of the top of the tower.",
+    "where_to_stand": "Stand about 40 m south-west of the subject, at the phone icon on the map, and face north-east. From here the tower sits comfortably in the frame, with room for the sky above it.",
+    "how_to_frame": "Switch on the gridlines and put the tower on one of the vertical lines rather than dead centre. Keep the phone level so the tower does not lean. Leave some space above it. For a second picture, move a few steps closer and use the ultra-wide (0.5x), keeping the tower upright and away from the edges of the frame, because the ultra-wide stretches shapes there.",
+    "phone_settings_tip": "Tap the sky or the tower to focus, then drag the exposure slider down slightly so a bright sky does not wash out the detail. Try a Live Photo if there is wind or movement in the scene.",
+    "best_time": "Late afternoon or evening is often kinder than the middle of the day. Aim for the months when the tower is open if you also want to go inside."
+   },
+   "access_note": "The lighthouse is a visitor attraction with a tower, café and museum that are open from May through October, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Late afternoon or evening light from the west or north-west would fall on the lighthouse from behind the photographer standing south-west of it.",
+    "Coastal weather around Alnes can change quickly."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Alnes Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Alnes_Lighthouse"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 10 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Giske Church (the marble chapel)",
+  "in_cut": true,
+  "label": "Giske Church",
+  "camera_pill": null,
+  "searches": 80,
+  "pin": [
+   6.0502654,
+   62.4986575
+  ],
+  "camera": [
+   6.04986,
+   62.49857
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/557722884: the middle of the OpenStreetMap outline 'Giske kyrkje' (27 m across).",
+  "notes": "",
+  "text": {
+   "description": "Giske Church is a small white church on the south side of the island of Giske, about 10 kilometres north-west of Ålesund. It dates from the 12th century and began as a family chapel for the noble Giske family, who owned the Giske Estate. It is built of marble, though the walls are now covered with chalk on the outside, so the stone shows in only a few places. The result is a plain, pale building that stands out clearly against the sky and the surrounding ground. The original nave measured about 12.3 by 8.8 metres, and the church has been refurbished several times since, but it remains small enough to fit in one frame from a short distance. The church was renovated after 1756, and most of the interior dates from that work. It was refurbished again in the 1860s, when larger windows were added. Today it seats about 125 people. For a phone photo, the simple shape is the strength: a clean outline, pale walls and a bit of space around it. Stand a few steps back, keep the walls straight with the gridlines, and include some sky and grass so the church has room. Then move closer for details such as windows, doorways and the texture of the walls. Guided tours run in summer, but check the official site before you go if you hope to see inside.",
+   "geographic_location": "On the south side of the island of Giske, about 10 kilometres north-west of the town of Ålesund. The church stands in the Giske parish area, in the municipality of Giske.",
+   "directions_text": "Head north-west from Ålesund towards the island of Giske (about 10 kilometres in a straight line). The phone icon on the map is about 10 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x), which should fit the whole church from where you stand. Switch to ultra-wide (0.5x) if you want to include more sky and ground, and use 2x or more for doors, windows and wall texture.",
+    "where_to_stand": "Stand about 10 m south-west of the subject, at the phone icon on the map, and face north-east.",
+    "how_to_frame": "Turn on the gridlines and line up the walls with the vertical lines so the building does not lean. Leave some sky above the roof and a strip of ground below. For a second picture, step closer and use 2x to frame a window or the entrance.",
+    "phone_settings_tip": "Tap on the white wall to set focus, then lower the exposure slider a little so the pale walls keep their texture instead of turning plain white.",
+    "best_time": "On a bright but slightly hazy day, or in the softer light of morning or evening, the white walls look best. Harsh midday sun can wash out the detail."
+   },
+   "access_note": "The church is a parish church, and guided tours are offered in summer, so check the official site before you go if you want to go inside or need visiting details."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Giske Church",
+    "url": "https://en.wikipedia.org/wiki/Giske_Church"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 5 m from the phone icon",
+   "zoom": null
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Jugendstilsenteret (Art Nouveau Centre)",
+  "in_cut": true,
+  "label": "Jugendstilsenteret",
+  "camera_pill": null,
+  "searches": 70,
+  "pin": [
+   6.1508748,
+   62.4711071
+  ],
+  "camera": [
+   6.15174,
+   62.47104
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap node/5635176213: the OpenStreetMap point 'Jugendstilsenteret'.",
+  "notes": "",
+  "text": {
+   "description": "Jugendstilsenteret is the Art Nouveau Centre in central Ålesund, and the building is as much the attraction as what is inside. It occupies the former Swan Pharmacy (Svaneapoteket), designed by the Norwegian architect Hagbarth Martin Schytte-Berg and built between 1905 and 1907. In 1984 it became the first listed Art Nouveau (Jugendstil) monument in the town, and it still has the best preserved Art Nouveau interior in Ålesund. The centre itself opened in 2003, when Queen Sonja of Norway performed the opening, and it shows both multimedia exhibitions and international art.\n\nFor a phone photographer it is a good subject because the façade is a single, well-defined building that fills the frame nicely, with the decorative detail typical of the period. The phone icon on the map is about 45 m east of the subject. From there you can take in the whole building in one shot. Then walk closer for details such as ornament, windows and doorways. Keep your phone upright for the full height of the building and turn it sideways for a wider street scene. Check that the vertical lines stay straight by using the gridlines. If you plan to go inside, check the official site before you go, as photography rules can differ between rooms and exhibitions.",
+   "geographic_location": "In central Ålesund. It is part of the Cultural Quarter and housed in the old Swan Pharmacy building.",
+   "directions_text": "No tram or train stops are listed for this spot, so start from the centre of Ålesund and head for the Jugendstilsenteret building. The phone icon on the map is about 45 m east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole façade. Switch to the ultra-wide (0.5x) only if you are very close and cannot fit the building in. Use the telephoto (2x-5x, depending on your phone) for ornament and upper details.",
+    "where_to_stand": "Stand about 45 m east of the subject, at the phone icon on the map, and face west. Take the wide shot from here, then walk towards the entrance for close-ups.",
+    "how_to_frame": "Turn on the gridlines and line up the building's vertical edges with them so the walls stay straight. Keep the whole roofline in the frame for the full-building shot. For detail shots, use the telephoto to pick out one decorative feature instead of getting too close and tilting the phone upwards.",
+    "phone_settings_tip": "Tap on the façade to set focus, then slide the exposure down slightly if the sky is bright, so the walls and decoration keep their colour and detail.",
+    "best_time": "Choose a time when the façade is lit by the sun rather than in shadow. Since you are facing west, the light is usually better on the front of the building in the morning to early afternoon. On an overcast day the even light also works well for the detail."
+   },
+   "access_note": "The building is a cultural centre with exhibitions, so you can photograph it from the street, but check the official site before you go for entry and photography rules inside."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Jugendstilsenteret",
+    "url": "https://en.wikipedia.org/wiki/Jugendstilsenteret"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 17 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Skateflukaia waterfront",
+  "in_cut": true,
+  "label": "Skateflukaia",
+  "camera_pill": null,
+  "searches": 60,
+  "pin": [
+   6.155797,
+   62.4744062
+  ],
+  "camera": [
+   6.15437,
+   62.47443
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/789283511: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "",
+  "text": {
+   "description": "Skateflukaia is a waterfront spot in Ålesund, and it works well for easy, relaxed phone pictures. The appeal is the water's edge, where you may see boats, reflections, the quay itself and buildings together in one frame, so you can take a good photo without any complicated set-up. You stand about 73 m west of the subject and look east towards it, which gives you a bit of distance to work with.\n\nThis is a place for atmosphere rather than one single famous object, so take a few different versions. Start wide to show the whole waterfront, then move in on a detail such as any moored boats, ropes, railings or the pattern of the quay. If the water is calm, include some of it in the lower part of the frame to catch reflections. Keep the phone level so the horizon and any straight edges look straight, and switch gridlines on to help. Watch for people walking through the frame and wait a moment if you want a cleaner shot. This note sticks to what you may see and how to shoot it.",
+   "geographic_location": "On the waterfront in Ålesund.",
+   "directions_text": "No train or tram stops are listed for this spot. From there, the waterfront subject is 73 m to the east, about 1 minute on foot. The phone icon on the map is about 65 m west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the waterfront. Use the ultra-wide (0.5x) if you want more of the surroundings in the frame. Telephoto (2x-5x, depending on your phone) is useful for details such as boats or reflections, if you see them.",
+    "where_to_stand": "Stand about 65 m west of the subject, at the phone icon on the map, and face east.",
+    "how_to_frame": "Turn on gridlines and keep the phone level. Take one wide shot, then one closer shot of a detail. If the water is calm, let some reflection into the lower part of the frame. Tap the main subject to focus, then drag the exposure slider down slightly if the sky is bright.",
+    "phone_settings_tip": "Tap to focus on the main subject, then adjust the exposure slider so the sky is not washed out. Try a Live Photo if anything on the water is moving, so you can choose the best frame afterwards.",
+    "best_time": "Soft morning or evening light is usually kinder on water and buildings, and a calm day gives the best reflections. Check the weather before you go."
+   },
+   "access_note": "This looks like an open waterfront area, but check local signs or the official site before you go in case any part is restricted."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Apotekertorget",
+  "in_cut": true,
+  "label": "Apotekertorget",
+  "camera_pill": null,
+  "searches": 40,
+  "pin": [
+   6.151425,
+   62.4711271
+  ],
+  "camera": [
+   6.15174,
+   62.47104
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/306909922: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "",
+  "text": {
+   "description": "Apotekertorget is a spot on the Ålesund map, and the name suggests a town square. It works well as a quick, relaxed photo stop on a walk around Ålesund. If it is an open space, you can stand back, take in the surroundings and add a bit of everyday town life. If there is any seating, planters or lamp posts, use them to add depth to the foreground.\n\nStand there, turn to the north-west and you are looking straight at the spot. Take a wide shot first to show the wider scene, then move closer for a tighter picture of one detail. Keep the phone level, since upright walls look wrong when they lean. If people walk through the frame, wait a moment or use them to give a sense of scale. Take a few frames from slightly different heights and positions, then pick the best at your leisure.",
+   "geographic_location": "Apotekertorget is a spot in Ålesund. Check Apotekertorget on the map for the exact block and the streets around it.",
+   "directions_text": "No public transport stops are listed for this spot; use the map to find Apotekertorget. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view. Switch to ultra-wide (0.5x) if buildings are cut off at the edges, and use telephoto (2x or more, depending on your phone) for a single detail.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot.",
+    "how_to_frame": "Turn on the gridlines and line up any building edges with the vertical lines so they do not lean. If there is a bench, planter or lamp post nearby, put it in the foreground to add depth. Then step a few paces closer for a tighter shot.",
+    "phone_settings_tip": "Tap the screen on the main subject to set focus, then slide the exposure bar down a little if bright sky is washing out the buildings.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Midday sun can make harsh shadows, so check the shot on screen and adjust."
+   },
+   "access_note": "Access details are not listed for this spot, so check the official site before you go if you are unsure about any restrictions or events."
+  },
+  "checker_problems": 7,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 17 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Byparken and the Kaiser Wilhelm statue",
+  "in_cut": true,
+  "label": "Byparken",
+  "camera_pill": null,
+  "searches": 40,
+  "pin": [
+   6.1611752,
+   62.4733277
+  ],
+  "camera": [
+   6.15992,
+   62.47422
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/230541066: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "",
+  "text": {
+   "description": "This spot is named Byparken and the Kaiser Wilhelm statue, and it is ranked 13 on the Ålesund map. The statue is a simple subject for a phone. You can take a wide shot of the surroundings, then step closer for a portrait of the statue itself. Statues look best when you keep the background tidy, so take a moment to move a few steps left or right until nothing distracting sits behind the figure, such as a bin or a signpost. The phone icon on the map is about 25 m north-west of the subject. From there, check whether you can frame the statue and its surroundings together, with some space around them. Then walk the last couple of minutes to the statue itself for a closer, more detailed picture. Take a wide photo first, then a closer one, so you have both the setting and the subject. If people are walking through, wait a few seconds for a gap rather than editing them out later. Keep the phone level, using the gridlines, so any paths and buildings in the background do not look tilted.",
+   "geographic_location": "Ålesund, at the spot marked Byparken and the Kaiser Wilhelm statue.",
+   "directions_text": "Head to the spot marked Byparken and the Kaiser Wilhelm statue in Ålesund. From there, walk south-east for about 2 minutes on foot to reach the statue itself. The phone icon on the map is about 25 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the statue and its surroundings together. Use telephoto (2x or 3x, depending on your phone) from where you stand to bring the statue closer without walking up to it. Switch to ultra-wide (0.5x) only if you are close and want to include the surroundings.",
+    "where_to_stand": "Stand about 25 m north-west of the subject, at the phone icon on the map, and face south-east. From here, check whether you can frame the statue and its surroundings together in one shot. Walk about 2 minutes on foot towards the statue for close-up shots.",
+    "how_to_frame": "Turn on the gridlines and place the statue on one of the vertical lines rather than dead centre, with some space around it. Keep the phone level so any vertical lines in the background stay straight. For a closer shot, tap the statue to focus, then drag the exposure slider down slightly if the sky is bright, so the statue is not a dark silhouette.",
+    "phone_settings_tip": "Tap on the statue to focus, then adjust the exposure slider until the stone or bronze shows detail. Portrait mode can blur the background behind the statue, but check the edges of the figure afterwards.",
+    "best_time": "Go in the morning or late afternoon, when the light is softer and the statue shows more shape. Midday sun can make deep shadows and bright patches. On a cloudy day the light is even and the statue's detail is easy to capture."
+   },
+   "access_note": "Access conditions are not confirmed; check locally before you go.",
+   "claims_not_in_sources": [
+    "Whether Byparken is a public park, and how it relates to the statue's position, is not confirmed by the sources.",
+    "Whether the statue is visible from the stand-here point 118 m away is not confirmed.",
+    "Access conditions and opening arrangements are not confirmed.",
+    "Soft morning or late-afternoon light is usually kinder to statues than midday sun."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 14 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Kongens gate Art Nouveau facades",
+  "in_cut": true,
+  "label": "Kongens gate",
+  "camera_pill": null,
+  "searches": 30,
+  "pin": [
+   6.1562825,
+   62.47545
+  ],
+  "camera": [
+   6.15664,
+   62.47338
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/25504948: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "",
+  "text": {
+   "description": "This spot on Kongens gate in Ålesund is all about the facades. It works well for a phone because a single frame can hold rows of windows, towers, curling ornament and colour without any tricky set-up. The ornament is easiest to appreciate when you photograph the whole facade first, then move in on the details.\n\nThe phone icon on the map is about 200 m south of the subject. From there you can look north and see how the buildings sit together. Start with a wide view to show the street, then take two or three closer shots of the decoration on the upper floors, where the detail is often richest. Keep your phone upright for tall facades and turn it sideways for a sweep along the street.\n\nWait a moment for a clear gap if people pass through your frame, or include a few passers-by to give a sense of scale. Look up as you walk, because the best detail is often above street level.",
+   "geographic_location": "Along Kongens gate in Ålesund.",
+   "directions_text": "From there the facades are about 231 m to the north, which is about 3 minutes on foot. Walk north along the street and the buildings come into view ahead of you. The phone icon on the map is about 200 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the street view. Switch to ultra-wide (0.5x) if the facades are too tall to fit, and use telephoto (2x-5x, depending on your phone) for details high on the buildings.",
+    "where_to_stand": "Stand about 200 m south of the subject, at the phone icon on the map, and face north. Then walk about 3 minutes on foot towards the buildings to take closer shots.",
+    "how_to_frame": "Turn on gridlines and line up the edges of the buildings with the vertical lines so they do not lean. Take one wide shot of the street, then frame single towers, windows or decoration with the zoom.",
+    "phone_settings_tip": "Tap on a mid-toned part of the facade to set focus, then slide the exposure down a little if the sky is bright, so the colours and detail do not wash out.",
+    "best_time": "Soft daylight, such as morning or late afternoon, usually shows the ornament best. On overcast days the colours stay even and you avoid harsh shadows."
+   },
+   "access_note": "No access information is available for this spot.",
+   "claims_not_in_sources": [
+    "Soft daylight in the morning or late afternoon, and overcast days, suit photographing facades.",
+    "The detail on the upper floors is often the richest."
+   ]
+  },
+  "checker_problems": 7,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 7 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 15,
+  "name": "Borgund Church",
+  "in_cut": true,
+  "label": "Borgund Church",
+  "camera_pill": null,
+  "searches": 20,
+  "pin": [
+   6.2338855,
+   62.4662736
+  ],
+  "camera": [
+   6.233886,
+   62.466274
+  ],
+  "camera_source": "Researched viewpoint 'Borgund kyrkje' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap way/388713713: the middle of the OpenStreetMap outline 'Borgund kyrkje' (59 m across).",
+  "notes": "",
+  "text": {
+   "description": "Borgund Church (Borgund kyrkje) is a white stone parish church in the village of Borgund, just east of the city of Ålesund. It is a cruciform building that goes back to around the year 1300, and it mixes Romanesque and Gothic styles. It is not a wooden stave church, though the roof and tower are timber. A fire in 1904 destroyed most of the building, but the medieval walls survived. The church was rebuilt within them and consecrated in 1907. In 1814 it was also one of the polling stations for Norway's first national elections.\n\nIt photographs well because the pale walls stand out against the trees and the green churchyard around it. From the approach path at the front of the churchyard you can fit the whole church in one frame: stone walls, wooden roof and tower, with the churchyard in the foreground. For a quieter, more intimate picture, move in among the old gravestones and let them frame the church. Walk slowly and keep your voice down, as this is a working church with a cemetery. The outside is the real attraction here, and visitors say it is worth the trip even if the inside is closed. Interior visits need to be arranged in advance, and photography inside may be restricted.",
+   "geographic_location": "In the village of Borgund, just east of Ålesund city centre. The church stands in the churchyard within the Sunnmøre Museum area.",
+   "directions_text": "No public transport stop is listed near the church, so head east from Ålesund city centre to the village of Borgund and look for Borgund kyrkje. The phone icon on the map marks the church itself. Once you arrive, step back along the approach path at the front of the churchyard to get the frontal view of the whole church. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole church from the approach path. Switch to ultra-wide (0.5x) if you are close and the tower is being cut off. Use telephoto (2x or more, depending on your phone) for the tower, the roof and the stonework.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. To fit the whole building in the frame, step back along the approach path at the front of the churchyard. From there the white stone church with its wooden roof and tower is in front of you, set against the trees, with the churchyard in the foreground. For a quieter alternative, move in among the old gravestones and frame the church through them.",
+    "how_to_frame": "Turn on gridlines and line up the church walls with the vertical lines so the building doesn't lean. Keep a strip of churchyard grass or path at the bottom of the frame to give depth. For the second view, crouch a little and place a gravestone or two in the foreground, with the church behind.",
+    "phone_settings_tip": "Tap on the church to focus, then slide the exposure down a little so the white walls keep their detail and don't turn bright and flat. Use portrait mode only if you want a gravestone close up and softly blurred against the church.",
+    "best_time": "Soft, even light on a bright overcast day suits the white walls well. Early morning or late afternoon gives gentler light and fewer people in the churchyard."
+   },
+   "access_note": "The churchyard is part of the Sunnmøre Museum area and has a free outdoor walking area, but the church is an active parish church, so check the official site before you go, especially if you hope to see inside."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Borgund Church",
+    "url": "https://en.wikipedia.org/wiki/Borgund_Church"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/15.jpg",
+   "artist": "Dag Bertelsen",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Borgund_kyrkje_i_Aalesund.jpg",
+   "from": "Wikidata Q11961968 main image"
+  }
+ }
+]

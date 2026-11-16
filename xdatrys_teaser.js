@@ -58,7 +58,7 @@
       const p = s.photo; if (!p) return "";
       const lic = p.licence_url ? "<a target='_blank' rel='noopener license' href='" + esc(p.licence_url) + "'>" + esc(p.licence) + "</a>" : esc(p.licence);
       return "<figure class='thumb'><a target='_blank' rel='noopener' href='" + esc(p.source_url) + "'><img src='" + esc(p.file) + "' alt='" + esc(s.alt || (s.name + ", " + MAP.place + " (photo: " + (p.artist || "Wikimedia Commons") + ")")) + "' loading='lazy'></a>" +
-        "<figcaption>" + (p.source_url ? "Photo: " + esc(p.artist) + ", " + lic + ", via Wikimedia Commons" : esc(p.artist)) + "</figcaption></figure>";
+        "<figcaption>" + (p.source_url ? "Photo: " + esc(p.artist) + ", " + lic + ", via Wikimedia Commons" : esc(p.artist) + (p.zoom ? " · shot here at " + (Math.round(p.zoom * 2) / 2 >= 1 ? Math.round(p.zoom) : 0.5) + "x" : "")) + "</figcaption></figure>";
     }
     function publicHtml(s) {
       const t = s.text || {}, ph = t.shooting_on_your_phone || {}, nav = s.camera ? s.camera[1] + "," + s.camera[0] : s.pin[1] + "," + s.pin[0];

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "kyoto", "title": "Kyoto: 20 photo spots (pilot review)", "place": "Kyoto", "bounds": [135.7, 34.94, 135.83, 35.06], "center": [135.765, 35.0], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/kyoto/{z}/{x}/{y}.pbf"};

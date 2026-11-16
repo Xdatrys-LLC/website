@@ -24,7 +24,7 @@
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
 <script src="/xdatrys_markers.js?v=538a9329"></script>
-<script src="/xdatrys_teaser.js?v=a01dab9d"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
 <style>
   /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
   :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
@@ -160,6 +160,9 @@
 </script>
 <!-- /xd-menu -->
 <div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Rome</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/rome/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
 <div class="head">
   <h1>20 photo spots in Rome: the top sights, where to stand and how to shoot them on your phone</h1>
   <p>20 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members (coming soon).</p>
