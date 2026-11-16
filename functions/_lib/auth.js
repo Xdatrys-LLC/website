@@ -97,5 +97,5 @@ export async function saveSubscription(env, email, sub) {
     `INSERT INTO members (email, stripe_customer, plan, interval, status, paid_until, cancel_at_end, created, updated)
      VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?8)
      ON CONFLICT(email) DO UPDATE SET stripe_customer=?2, plan=?3, interval=?4, status=?5, paid_until=?6, cancel_at_end=?7, updated=?8`)
-    .bind(email, sub.customer, plan, interval, sub.status, until, (sub.cancel_at_period_end || sub.cancel_at) ? 1 : 0, t)   // 2026-11-16: Stripe now marks a cancellation with cancel_at (a date).run();
+    .bind(email, sub.customer, plan, interval, sub.status, until, (sub.cancel_at_period_end || sub.cancel_at) ? 1 : 0, t).run();   // 2026-11-16: Stripe now marks a cancellation with cancel_at (a date)
 }
