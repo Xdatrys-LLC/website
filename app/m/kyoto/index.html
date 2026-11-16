@@ -383,6 +383,13 @@ if (window.matchMedia("(display-mode: standalone)").matches) $("installBox").sty
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(MAP.app ? "/app/sw.js" : "sw.js", MAP.app ? { scope: "/app/" } : undefined).catch(() => {});
 $("mGate").href = (location.pathname.startsWith("/app/") && !location.hostname.startsWith("xdatrys-maps-preview") ? "/review/" : "/") + MAP.key + "/?gate=1";
 if (MAP.app) $("backBtn").style.display = "flex";
+// Stage 3 (2026-11-16): members only. With signal, a map saved earlier is checked against the membership; if it has ended,
+// the saved maps are removed from the phone and the app shows the Join screen. Without signal, saved maps keep working.
+if (MAP.app) fetch("/api/me", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(async me => {
+  if (!me || me.role !== "none") return;
+  try { for (const n of await caches.keys()) if (n.indexOf("xd-app-map-") === 0) await caches.delete(n); } catch (e) {}
+  location.replace("/app/");
+}).catch(() => {});
 // ---------------- save for offline (2026-11-13): stores the page, map tiles, photos, texts and tours on the phone ----------------
 const OCACHE = MAP.app ? "xd-app-map-" + MAP.key : "xd-" + MAP.key + "-v2-offline", ODONE = location.origin + (MAP.app ? "/app/m/" + MAP.key : "/" + MAP.key + "-v2") + "/__saved__";
 async function offlineState() { try { const c = await caches.open(OCACHE); if (await c.match(ODONE)) { $("offT").textContent = "Update offline copy"; $("offM").textContent = "Saved on this phone: works without signal"; } } catch (e) {} }

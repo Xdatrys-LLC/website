@@ -75,7 +75,7 @@ footer a:hover{color:var(--mag)}
 </style>
 </head>
 <body>
-<!-- xd-menu (2026-11-14): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
 <style>
 .xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
 .xn *{box-sizing:border-box}
@@ -104,7 +104,7 @@ footer a:hover{color:var(--mag)}
       <li><a href="/#guides">Guides</a></li>
       <li><a href="/#newsletter">Newsletter</a></li>
       <li><a href="/#membership">Membership</a></li>
-      <li><span class="xn-soon" aria-disabled="true" title="Sign in opens when membership launches">Sign in <span class="xn-tag">Soon</span></span></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
     </ul></nav>
     <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
   </div>
@@ -114,7 +114,7 @@ footer a:hover{color:var(--mag)}
     <li><a href="/#guides">Guides</a></li>
     <li><a href="/#newsletter">Newsletter</a></li>
     <li><a href="/#membership">Membership</a></li>
-    <li><span class="xn-soon" aria-disabled="true">Sign in <span class="xn-tag">Coming soon</span></span></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
   </ul>
 </header>
 <script>
@@ -122,12 +122,16 @@ footer a:hover{color:var(--mag)}
   var p = location.pathname;
   if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
   document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
   var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
   b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
   m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
 })();
 </script>
 <!-- /xd-menu -->
+
 
 
 

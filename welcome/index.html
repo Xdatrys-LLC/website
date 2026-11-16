@@ -1,0 +1,108 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Welcome · Xdatrys</title><meta name="description" content="Welcome to Xdatrys."><meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.png">
+<style>
+:root{--mag:#E100FF;--cyan:#00D4FF;--bg:#09090f;--card:#15151f;--line:rgba(255,255,255,.12);--soft:#a9a9b8;--ok:#3ddc84;--warn:#ffb02e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#ececf3;font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif;line-height:1.55}
+main{max-width:760px;margin:0 auto;padding:36px 16px 70px}h1{font-size:clamp(26px,5vw,38px);margin:0 0 10px;line-height:1.2}
+h2{font-size:20px;margin:30px 0 8px}p,li{font-size:16px}a{color:var(--cyan)}.soft{color:var(--soft)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;margin:18px 0}
+.btn{display:inline-block;border:0;border-radius:10px;padding:14px 22px;font-size:16px;font-weight:700;cursor:pointer;text-decoration:none;font-family:inherit}
+.btn.go{background:var(--mag);color:#fff}.btn.alt{background:transparent;color:#fff;border:1px solid var(--line)}.btn[disabled]{opacity:.5;cursor:wait}
+input[type=email]{width:100%;padding:14px;border-radius:10px;border:1px solid var(--line);background:#0d0d14;color:#fff;font-size:16px;margin:8px 0 12px}
+.test{background:#2a2108;border:1px solid var(--warn);color:#ffe2a8;border-radius:12px;padding:12px 14px;font-size:14px;margin-bottom:18px}
+.draft{background:#2a0b2e;border:1px solid var(--mag);color:#f5c6ff;border-radius:12px;padding:12px 14px;font-size:14px;margin-bottom:18px}
+.toggle{display:inline-flex;background:#0d0d14;border:1px solid var(--line);border-radius:999px;padding:4px;margin:6px 0 16px}
+.toggle button{border:0;background:none;color:var(--soft);padding:9px 18px;border-radius:999px;font-weight:700;font-family:inherit;cursor:pointer;font-size:14px}
+.toggle button.on{background:#fff;color:#111}.price{font-size:34px;font-weight:800}.price small{font-size:15px;color:var(--soft);font-weight:600}
+ul.feat{padding-left:20px}ul.feat li{margin:6px 0}.msg{min-height:1.4em;font-weight:600;margin-top:10px}.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:0}dt{color:var(--soft)}dd{margin:0;font-weight:600}
+</style></head><body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+
+<main>
+<div class="test" id="test" style="display:none"><b>Test mode.</b> No real money is taken. To try it, use Stripe's test card
+<b>4242 4242 4242 4242</b>, any future expiry date, any 3-digit code and any postcode.</div>
+<div id="out"><h1>Checking your payment…</h1><p class="soft">This takes a few seconds.</p></div>
+
+<p class="soft" style="margin-top:40px;font-size:14px"><a href="/terms/">Terms</a> · <a href="/refunds/">Refunds</a> · <a href="/privacy/">Privacy</a> · Xdatrys LLC, Santa Fe, New Mexico, USA</p>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+if (/\.pages\.dev$/.test(location.hostname) && $("test")) $("test").style.display = "block";
+</script>
+<script>
+const s = new URLSearchParams(location.search).get("s") || "";
+let tries = 0;
+async function check() {
+  try {
+    const j = await (await fetch("/api/stripe/welcome?s=" + encodeURIComponent(s), { cache: "no-store" })).json();
+    if (j.ok) {
+      $("out").innerHTML = `<h1>Welcome to Xdatrys!</h1>
+        <p>You're a member, signed in on this device as <b>${String(j.email).replace(/[<>&"]/g, "")}</b>. A receipt is on its way from Stripe.</p>
+        <div class="card"><p><b>Next: put the Xdatrys Maps app on your phone.</b> Open <b>xdatrys.com/app</b> on your phone, sign in with this email address, and tap <b>Install</b>. Then save the maps for your trip, so they work without signal.</p>
+        <div class="row"><a class="btn go" href="/app/">Open the app</a><a class="btn alt" href="/account/">My account</a></div></div>`;
+      return;
+    }
+    if (++tries < 4) { setTimeout(check, 3000); return; }
+    $("out").innerHTML = `<h1>We could not confirm the payment yet</h1><p>${j.error || ""}</p><p>If you were charged, your membership will appear in a minute: <a href="/account/">My account</a>.</p>`;
+  } catch (e) { if (++tries < 4) setTimeout(check, 3000); }
+}
+check();
+</script>
+</body></html>

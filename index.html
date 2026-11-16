@@ -180,7 +180,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 <a class="skip" href="#main">Skip to content</a>
 
 <!-- ===== HEADER ===== -->
-<!-- xd-menu (2026-11-14): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
 <style>
 .xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
 .xn *{box-sizing:border-box}
@@ -209,7 +209,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
       <li><a href="/#guides">Guides</a></li>
       <li><a href="/#newsletter">Newsletter</a></li>
       <li><a href="/#membership">Membership</a></li>
-      <li><span class="xn-soon" aria-disabled="true" title="Sign in opens when membership launches">Sign in <span class="xn-tag">Soon</span></span></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
     </ul></nav>
     <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
   </div>
@@ -219,7 +219,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
     <li><a href="/#guides">Guides</a></li>
     <li><a href="/#newsletter">Newsletter</a></li>
     <li><a href="/#membership">Membership</a></li>
-    <li><span class="xn-soon" aria-disabled="true">Sign in <span class="xn-tag">Coming soon</span></span></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
   </ul>
 </header>
 <script>
@@ -227,6 +227,9 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
   var p = location.pathname;
   if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
   document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
   var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
   b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
   m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
@@ -275,10 +278,18 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 <div class="xd-app" aria-label="Xdatrys Maps app for members">
   <div class="in">
     <img src="/app/icon-192.png" alt="" width="52" height="52">
-    <div class="txt"><b>Members get the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with membership (coming soon).</span></div>
-    <a class="go" href="/#membership">See membership</a>
+    <div class="txt"><b>Members get the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
   </div>
 </div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
 <!-- ===== FEATURED MAPS ===== -->
 <section aria-labelledby="feat-h">
   <div class="wrap">
@@ -350,7 +361,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
   <div class="wrap">
     <span class="eyebrow">Membership</span>
     <h2 id="mem-h">One membership, every map</h2>
-    <p class="lead">Membership is coming soon. Join the free Pocket Lens newsletter and we will tell you the day it opens.</p>
+    <p class="lead">One membership opens every spot on every map, in the Xdatrys Maps app. Cancel any time.</p>
 
     <div class="toggle" role="group" aria-label="Billing period">
       <button type="button" id="bMonthly" aria-pressed="true">Monthly</button>
@@ -359,16 +370,15 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 
     <div class="plans">
       <article class="plan" aria-labelledby="pE">
-        <span class="badge">Coming soon</span>
         <h3 id="pE">Explorer</h3>
         <div class="price" data-m="$9.99" data-a="$59.99"><span class="amt">$9.99</span> <small class="per">/ month</small></div>
         <div class="price-note" data-m="or $59.99 a year" data-a="about $5.00 a month, billed yearly">or $59.99 a year</div>
         <ul class="feat">
           <li>The map library: every spot on every map, with where to stand and phone tips</li>
-          <li>Pocket Scout photo-location guides</li>
-          <li>Pocket Eye photo albums</li>
+          <li>The Xdatrys Maps app: maps saved on your phone, working without signal</li>
+          <li>Pocket Scout guides and Pocket Eye albums, as they are added to the app</li>
         </ul>
-        <a class="btn btn-primary" href="#newsletter">Tell me when it opens</a>
+        <a class="btn btn-primary" id="joinE" href="/join/">Join Explorer</a>
       </article>
 
       <article class="plan pro" aria-labelledby="pP">
@@ -589,5 +599,6 @@ if(mob)mob.addEventListener("click",function(e){if(e.target.tagName==="A"){mob.c
 
 renderFeatured();
 </script>
+<script>document.querySelectorAll("#bMonthly,#bAnnual").forEach(function (b) { b.addEventListener("click", function () { document.getElementById("joinE").href = b.id === "bAnnual" ? "/join/?plan=year" : "/join/"; }); });</script>
 </body>
 </html>

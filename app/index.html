@@ -45,6 +45,9 @@ main { padding: 6px 16px calc(28px + env(safe-area-inset-bottom)); max-width: 76
 .prog { font-size: 14px; color: var(--cyan-d); margin-top: 8px; min-height: 1em; font-weight: 600; }
 .bar { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; margin-top: 6px; display: none; }
 .bar i { display: block; height: 100%; width: 0; background: var(--cyan-d); transition: width .2s; }
+.join { background: #fff; border-radius: 20px; padding: 22px; font-size: 16px; line-height: 1.5; color: var(--ink); grid-column: 1 / -1; }
+.join h2 { margin: 0 0 8px; font-size: 22px; } .join .price { background: var(--bg); border-radius: 12px; padding: 10px 12px; }
+.join .small { font-size: 14px; color: var(--soft); } .join a:not(.btn) { color: var(--cyan-d); font-weight: 600; }
 .empty { background: #fff; border-radius: 20px; padding: 22px; text-align: center; color: var(--soft); font-size: 16px; line-height: 1.5; }
 .install { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; margin: 6px 0 16px; }
 .install b { font-size: 17px; } .install p { margin: 6px 0 10px; font-size: 15px; line-height: 1.45; color: #33333d; }
@@ -66,6 +69,7 @@ main { padding: 6px 16px calc(28px + env(safe-area-inset-bottom)); max-width: 76
 <body>
 <header>
   <div class="brand"><img src="/app/icon-192.png" alt=""><div><h1>Xdatrys Maps</h1><p>Where to stand for the best photo and selfie</p></div></div>
+  <a id="acct" href="/account/?next=/app/" style="display:none;position:absolute;top:14px;right:14px;font-size:13px;font-weight:600;color:inherit;opacity:.85">Sign in</a>
   <div class="tabs"><button class="tab" id="tMine">My maps</button><button class="tab" id="tAll">All maps</button></div>
 </header>
 <main>
@@ -180,7 +184,29 @@ function render() {
 window.setTab = t => { TAB = t; try { localStorage.setItem("xd-app-tab", t); } catch (e) {} render(); };
 $("tMine").onclick = () => setTab("mine"); $("tAll").onclick = () => setTab("all"); $("q").oninput = render;
 
-fetch("/app/library.json").then(r => r.json()).then(async lib => {
+// ---- members only (Stage 3, 2026-11-16; decision 3l) ----
+// With signal: non-members see the Join screen, and any maps saved under an ended membership are removed from the phone.
+// Without signal (the check cannot run): saved maps keep working.
+async function access() {
+  let me = null;
+  try { const r = await fetch("/api/me", { cache: "no-store" }); if (r.ok) me = await r.json(); } catch (e) {}
+  if (!me) return true;                                                     // offline: keep going with what is saved
+  $("acct").style.display = "inline-block";
+  $("acct").textContent = me.role === "none" ? "Sign in" : "My account";
+  if (me.role !== "none") return true;
+  try { for (const n of await caches.keys()) if (n.indexOf("xd-app-map-") === 0) await caches.delete(n); } catch (e) {}
+  $("tMine").parentNode.style.display = "none";
+  $("list").innerHTML = `<div class="join"><h2>Join to use the app</h2>
+    <p>The Xdatrys Maps app is for members: every spot on every map, saved on your phone to work without signal, with "Walk there" directions, day tours and the best selfie spots.</p>
+    <p class="price"><b>Explorer</b> $9.99 a month, or $59.99 a year. Cancel any time.</p>
+    <a class="btn go" href="/join/" style="width:100%">Join Explorer</a>
+    <p style="margin-top:14px">Already a member? <a href="/account/?next=/app/">Sign in</a></p>
+    <p class="small">Free without joining: 3 spots on every map in the <a href="/library/">Map Library</a>.</p></div>`;
+  return false;
+}
+
+access().then(ok => ok && fetch("/app/library.json").then(r => r.json())).then(async lib => {
+  if (!lib) return;
   LIB = lib; await refreshSaved();
   let t = null; try { t = localStorage.getItem("xd-app-tab"); } catch (e) {}
   TAB = t || (Object.values(SAVED).some(Boolean) ? "mine" : "all");
