@@ -17,6 +17,7 @@ export async function onRequestPost({ request, env }) {
     if (!v.success) return J({ ok: false, error: "The robot check failed. Please try again." }, 400);
   }
   const t = now();
+  await env.MEMBERS.prepare("DELETE FROM login_links WHERE made < ?").bind(t - 30 * 86400).run();   // 2026-11-16: sign-in records kept 30 days (Privacy page)
   const ipKey = (await sha256((request.headers.get("CF-Connecting-IP") || "") + "|" + Math.floor(t / 3600) + "|xd-login")).slice(0, 32);
   const n = await env.MEMBERS.prepare("SELECT SUM(email = ?1) AS e, SUM(ip_key = ?2) AS i FROM login_links WHERE made > ?3")
     .bind(email, ipKey, t - 3600).first();
