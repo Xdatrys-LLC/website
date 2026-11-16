@@ -104,7 +104,7 @@
   <span id="offbar" hidden style="font-size:13px"><button id="offbtn" style="font:inherit;padding:4px 10px;border-radius:6px;border:1px solid #00a6c8;background:#00a6c8;color:#fff;font-weight:600;cursor:pointer">Save map for offline use</button> <span id="offmsg"></span></span>
   <a id="gatelink" href="?gate=1" style="font-size:13px;font-weight:600;color:#00a6c8">Correct this map</a>
   <span id="gatebar"><b>Correction gate</b> <span id="gcount">no changes yet</span>
-    <span id="gsugg"></span> <button class="go" id="gcopy">Copy corrections</button><button id="gclear">Clear all</button></span>
+    <span id="gsugg"></span> <span id="gdel"></span> <button id="gadd" title="Put a new location pin on the map">Add a new spot</button> <button class="go" id="gcopy">Copy corrections</button><button id="gclear">Clear all</button></span>
 <details id="about"><summary>About this map</summary><p>This map shows 19 of the most-searched sights in Tokyo as photo spots, ranked by how often people search for them: Shibuya Crossing, Tokyo Skytree, Tokyo Tower, Akihabara and Shibuya Sky lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p><p>The first 3:</p><ol><li><b>Shibuya Crossing</b>: Shibuya Crossing is the big pedestrian junction outside Shibuya Station, and it is one of the most recognisable street scenes in Tokyo.</li><li><b>Tokyo Skytree</b>: Tokyo Skytree is a broadcasting and observation tower in Sumida, and at 634 m it is the tallest tower in Japan.</li><li><b>Tokyo Tower</b>: Tokyo Tower is a steel lattice tower in Minato, finished in 1958 and clearly modelled on the Eiffel Tower.</li></ol><h2 style="font-size:14px;margin:10px 0 0">Questions</h2><h3 style='font-size:13px;margin:8px 0 2px'>What are the top photo spots in Tokyo?</h3><p style='margin:0'>The first three on this map are Shibuya Crossing, Tokyo Skytree and Tokyo Tower. They are ranked by how often people search for them. The full map has 19.</p><h3 style='font-size:13px;margin:8px 0 2px'>Where should I stand to photograph Shibuya Crossing?</h3><p style='margin:0'>Stand about 50 m east of Shibuya Crossing, at the phone icon on the map, and face west. Start with the default lens (1x) for the whole junction.</p><h3 style='font-size:13px;margin:8px 0 2px'>When is the best time to photograph Tokyo Skytree?</h3><p style='margin:0'>Morning, when the sun is behind you in the east and lights the side of the tower facing you. Dusk and after dark are good for the illumination, which alternates daily between sky blue and purple.</p><h3 style='font-size:13px;margin:8px 0 2px'>How do I get to Tokyo Tower?</h3><p style='margin:0'>The nearest station is Akabanebashi (Toei Oedo Line), about 7 minutes on foot (417 m away), with the tower to the north.</p><p>Map data &copy; OpenStreetMap contributors (ODbL). Photos from Wikimedia Commons, credited in each spot.</p></details>
 </header>
 <div id="wrap">
@@ -199,7 +199,7 @@ function setTransport(on) {
 const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const paras = t => esc(t).split(/\n+/).map(p => "<p>" + p + "</p>").join("");
 function popupHtml(s) {
-  const t = s.text, cam = s.camera, nav = cam[1] + "," + cam[0];
+  const t = s.text, cam = s.camera || s.pin, nav = cam[1] + "," + cam[0];
   let h = "<div class='pop'>" + (GATE ? gateHtml(s) : "") + "<h3>" + s.rank + ". " + esc(s.name) + "</h3>";
   if (s.photo) {
     const p = s.photo, lic = p.licence_url ? "<a target='_blank' rel='noopener' href='" + esc(p.licence_url) + "'>" + esc(p.licence) + "</a>" : esc(p.licence);
@@ -252,17 +252,25 @@ const R6 = v => [+v[1].toFixed(7), +v[0].toFixed(7)];                     // [lo
 function mDist(a, b) { const R = 6371000, r = Math.PI / 180, dl = (b[0] - a[0]) * r, dp = (b[1] - a[1]) * r;
   return Math.round(2 * R * Math.asin(Math.sqrt(Math.sin(dp / 2) ** 2 + Math.cos(a[1] * r) * Math.cos(b[1] * r) * Math.sin(dl / 2) ** 2))); }
 function saveEdit(s) {
+  if (s.isNew && s.removed) { delete EDITS[s.rank]; try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {} gateCount(); return; }
   const o = ORIG[s.rank], e = EDITS[s.rank] || {};
   e.name = s.name;
-  e.pin = mDist(o.pin, s.pin) > 0 ? R6(s.pin) : undefined;
-  e.stand_here = s.camera && mDist(o.camera, s.camera) > 0 ? R6(s.camera) : undefined;
+  if (s.isNew) { e.new = true; e.pin = R6(s.pin); e.stand_here = s.camera ? R6(s.camera) : undefined; }   // 2026-11-16: spot added here
+  else {
+    e.pin = s.pin && mDist(o.pin, s.pin) > 0 ? R6(s.pin) : undefined;
+    e.stand_here = s.camera && o.camera && mDist(o.camera, s.camera) > 0 ? R6(s.camera) : undefined;
+  }
+  e.remove = s.removed ? true : undefined;                                  // 2026-11-16: spot deleted here
+  e.no_phone = !s.camera && !s.removed ? true : undefined;                 // 2026-11-16: phone and arrow deleted here
   Object.keys(e).forEach(k => e[k] === undefined && delete e[k]);
-  if (!e.pin && !e.stand_here && !e.note && !e.swapped) delete EDITS[s.rank]; else EDITS[s.rank] = e;
+  if (!e.new && !e.pin && !e.stand_here && !e.note && !e.swapped && !e.remove && !e.no_phone) delete EDITS[s.rank]; else EDITS[s.rank] = e;
   try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {}
   gateCount();
 }
 function gateCount() { const n = Object.keys(EDITS).length; document.getElementById("gcount").textContent = n ? n + " spot(s) changed" : "no changes yet";
   const sg = Object.entries(EDITS).filter(([r, e]) => e.suggested).map(([r, e]) => +r).sort((a, b) => a - b);
+  const dl = SPOTS.filter(s => s.removed && !(s.isNew && !EDITS[s.rank])).sort((a, b) => a.rank - b.rank);
+  document.getElementById("gdel").innerHTML = dl.length ? "Deleted: " + dl.map(s => "<button title='Bring back " + esc(s.name) + "' onclick='gateRestore(" + s.rank + ")'>" + s.rank + " \u21b6</button>").join(" ") : "";
   document.getElementById("gsugg").innerHTML = sg.length ? "Suggested by Claude: " + sg.map(r => "<button onclick='gateGo(" + r + ")'>" + r + "</button>").join(" ") : ""; }
 window.gateGo = r => { const s = spotBy(r); if (s) select(s, left); };
 // suggested moves from the 2026-11-11 photo review (prototype/<map>/proposals.json): pre-filled as corrections; "Undo this spot" rejects one
@@ -271,13 +279,16 @@ let REJ = []; try { REJ = JSON.parse(localStorage.getItem(RKEY) || "[]"); } catc
 function gateHtml(s) {
   const o = ORIG[s.rank] || {}, e = EDITS[s.rank] || {};
   const mp = o.pin ? mDist(o.pin, s.pin) : 0, mc = o.camera && s.camera ? mDist(o.camera, s.camera) : 0;
-  return "<div class='gctl'><b>Correct spot " + s.rank + "</b><br>Drag the <b style='color:#B000C8'>magenta pin</b> onto the subject and the " +
+  return "<div class='gctl'><b>" + (s.isNew ? "New spot: " + esc(s.name) : "Correct spot " + s.rank) + "</b><br>Drag the <b style='color:#B000C8'>magenta pin</b> onto the subject and the " +
     "<b style='color:#0090b0'>phone</b> onto where to stand. Grab inside the dashed boxes; the arrow follows by itself." +
     (e.suggested ? "<div style='background:#fff;border:2px solid #00a6c8;border-radius:6px;padding:6px;margin:6px 0'><b>Suggested by Claude.</b> " + esc(e.suggested_why || "") +
       " <br>Keep it (and copy corrections), drag it somewhere better, or press <b>Undo this spot</b> to reject it.</div>" : "") +
     ((s.pin_flags || []).length ? "<div class='flags'>Flagged: " + esc(s.pin_flags.join("; ")) + "</div>" : "") +
-    "<div>Pin moved " + mp + " m, phone moved " + mc + " m" + (e.swapped ? " (swapped)" : "") + ". Phone to subject now " + (s.camera ? mDist(s.camera, s.pin) : 0) + " m.</div>" +
-    "<div class='row'><button onclick='gateSwap(" + s.rank + ")'>Swap pin and phone</button><button onclick='gateReset(" + s.rank + ")'>Undo this spot</button></div>" +
+    (s.isNew ? "<div>New spot. Claude writes its text and finds its place in the order (by searches) when you paste the corrections.</div>"
+      : "<div>Pin moved " + mp + " m, phone moved " + mc + " m" + (e.swapped ? " (swapped)" : "") + ". " + (s.camera ? "Phone to subject now " + mDist(s.camera, s.pin) + " m." : "<b>Phone and arrow deleted</b> (the text will say: stand right at the subject).") + "</div>") +
+    "<div class='row'>" + (s.camera ? "<button onclick='gateSwap(" + s.rank + ")'>Swap pin and phone</button><button onclick='gateNoPhone(" + s.rank + ")'>Delete phone and arrow</button>"
+      : "<button onclick='gateAddPhone(" + s.rank + ")'>Add a phone and arrow</button>") + "</div>" +
+    "<div class='row'><button onclick='gateRemove(" + s.rank + ")' style='border-color:#c00;color:#c00'>Delete this spot</button><button onclick='gateReset(" + s.rank + ")'>Undo this spot</button></div>" +
     "Note for Claude (text, photo, anything else):<textarea id='gnote' oninput='gateNote(" + s.rank + ", this.value)'>" + esc(e.note || "") + "</textarea></div>";
 }
 function spotBy(rank) { return SPOTS.find(x => x.rank === rank); }
@@ -285,9 +296,36 @@ function refreshPanel(s) { if (selected === s && !sheet.hidden) { const y = shee
 window.gateSwap = rank => { const s = spotBy(rank); if (!s.camera) return; [s.pin, s.camera] = [s.camera, s.pin];
   const e = EDITS[rank] || {}; e.swapped = !e.swapped; EDITS[rank] = e; saveEdit(s); refreshPanel(s); };
 window.gateReset = rank => { if (EDITS[rank] && EDITS[rank].suggested) { REJ.push(EDITS[rank].name); try { localStorage.setItem(RKEY, JSON.stringify(REJ)); } catch (err) {} }
-  const s = spotBy(rank); s.pin = ORIG[rank].pin.slice(); s.camera = ORIG[rank].camera && ORIG[rank].camera.slice();
+  const s = spotBy(rank);
+  if (s.isNew) { s.pin = null; s.removed = true; select(null); }        // undoing a new spot takes it away again
+  else { s.pin = ORIG[rank].pin.slice(); s.camera = ORIG[rank].camera && ORIG[rank].camera.slice(); s.removed = false; }
   delete EDITS[rank]; try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {} gateCount(); refreshPanel(s); };
 window.gateNote = (rank, v) => { const e = EDITS[rank] || {}; e.note = v.trim() || undefined; EDITS[rank] = e; saveEdit(spotBy(rank)); };
+// 2026-11-16 (Ifan): delete or add location pins and phones at the gate
+function below(ll) { return [ll[0], +(ll[1] - 40 / 111320).toFixed(7)]; }      // a new phone starts 40 m south of its pin
+window.gateNoPhone = rank => { const s = spotBy(rank); s.camera = null; saveEdit(s); refreshPanel(s); };
+window.gateAddPhone = rank => { const s = spotBy(rank); s.camera = below(s.pin); saveEdit(s); refreshPanel(s); };
+window.gateRemove = rank => { const s = spotBy(rank);
+  if (!confirm("Delete " + (s.isNew ? "the new spot " : "spot " + s.rank + ", ") + s.name + ", from this map?" + (s.isNew ? "" : " You can bring it back with its button next to 'Deleted' at the top."))) return;
+  s.removedPin = s.pin; s.pin = null; s.removed = true; saveEdit(s);
+  select(null); overlays.forEach(o => o.redraw()); };
+window.gateRestore = rank => { const s = spotBy(rank); s.pin = s.removedPin || (ORIG[rank] && ORIG[rank].pin && ORIG[rank].pin.slice()); s.removed = false;
+  if (!s.isNew && !s.camera && ORIG[rank].camera) s.camera = ORIG[rank].camera.slice();
+  saveEdit(s); overlays.forEach(o => o.redraw()); select(s, left); };
+function newSpot(rank, name, pin, cam) {
+  const s = { rank, name, pin, camera: cam, in_cut: true, isNew: true, text: null, searches: 0, sources: [], camera_source: "added at the correction gate",
+              checker_problems: 0, code_check_failures: [], label: name };
+  SPOTS.push(s); ORIG[rank] = { pin: null, camera: null }; return s;
+}
+document.getElementById("gadd").onclick = () => {
+  const name = (prompt("Name of the new spot (as people search for it, e.g. 'Trevi Fountain'):") || "").trim();
+  if (!name) return;
+  const rank = Math.max(900, ...SPOTS.filter(x => x.isNew).map(x => x.rank)) + 1;
+  const c = left.getCenter(), s = newSpot(rank, name, [c.lng, c.lat], null);
+  if (left.getZoom() < 16) left.jumpTo({ center: c, zoom: 16.5 });          // zoom in so the pin and phone can be dragged apart
+  s.camera = below(s.pin); saveEdit(s); overlays.forEach(o => o.redraw()); select(s, left);
+  alert("The new pin (numbered " + rank + " for now) and its phone are in the middle of the map. Drag the pin onto the subject and the phone onto where to stand. Use 'Delete phone and arrow' if there should be none.");
+};
 document.getElementById("gcopy").onclick = () => {
   const txt = "XDATRYS MAP CORRECTIONS v1\n" + JSON.stringify({ map: MAP.key, made: new Date().toISOString().slice(0, 16),
     changes: Object.entries(EDITS).map(([r, e]) => ({ rank: +r, ...e })).sort((a, b) => a.rank - b.rank) });
@@ -301,7 +339,10 @@ document.getElementById("gcopy").onclick = () => {
 function fallbackCopy(txt, done) { const ta = document.createElement("textarea"); ta.value = txt; document.body.appendChild(ta); ta.select();
   try { document.execCommand("copy"); done(); } catch (e) { prompt("Copy this text:", txt); } ta.remove(); }
 document.getElementById("gclear").onclick = () => { if (!confirm("Remove all corrections for this map?")) return;
-  for (const r of Object.keys(EDITS)) { const s = spotBy(+r); s.pin = ORIG[r].pin.slice(); s.camera = ORIG[r].camera && ORIG[r].camera.slice(); }
+  for (const r of Object.keys(EDITS)) { const s = spotBy(+r); if (!s) continue;
+    if (s.isNew) { s.pin = null; s.removed = true; continue; }
+    s.pin = ORIG[r].pin.slice(); s.camera = ORIG[r].camera && ORIG[r].camera.slice(); s.removed = false; }
+  select(null);
   EDITS = {}; try { localStorage.removeItem(GKEY); } catch (e) {} gateCount(); if (selected) refreshPanel(selected); else overlays.forEach(o => o.redraw()); };
 let SPOTS = [];
 // ---- "Suggest a better spot" (2026-11-11): a visitor drags the phone (or uses their own location) and sends it with a note.
@@ -425,8 +466,12 @@ Promise.all([fetch("spots.json", { cache: "no-store" }).then(r => r.json()), doc
     ORIG[s.rank] = { pin: s.pin.slice(), camera: s.camera && s.camera.slice() };
     const e = GATE && EDITS[s.rank];                       // corrections made earlier on this computer (kept until copied/cleared)
     if (e) { if (e.pin) s.pin = [e.pin[1], e.pin[0]]; if (e.stand_here) s.camera = [e.stand_here[1], e.stand_here[0]];
-             if (e.swapped && !e.pin && !e.stand_here) [s.pin, s.camera] = [s.camera, s.pin]; }
+             if (e.swapped && !e.pin && !e.stand_here) [s.pin, s.camera] = [s.camera, s.pin];
+             if (e.no_phone) s.camera = null;
+             if (e.remove) { s.removedPin = s.pin; s.pin = null; s.removed = true; } }
   }
+  if (GATE) for (const [r, e] of Object.entries(EDITS)) if (e.new && !spotBy(+r))
+    newSpot(+r, e.name, [e.pin[1], e.pin[0]], e.stand_here ? [e.stand_here[1], e.stand_here[0]] : null);
   if (GATE) gateCount();
   // open with every spot on screen (on a phone the fixed opening view cut off spot 1, the Colosseum)
   const pts = spots.filter(s => s.pin && s.in_cut).map(s => s.pin);
