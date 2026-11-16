@@ -243,7 +243,7 @@ const overlays = [];
 let popup = null, selected = null;
 const sheet = document.getElementById("sheet");
 // ---- correction gate (?gate=1, 2026-11-07): drag the selected spot's pin and phone, swap them, add a note, copy all changes
-const GATE = new URLSearchParams(location.search).has("gate");
+const GATE = new URLSearchParams(location.search).has("gate") || location.pathname.indexOf("/review/") === 0;
 if (GATE) document.body.classList.add("gate");
 const GKEY = "xd-gate-" + MAP.key, ORIG = {};
 let EDITS = {};
