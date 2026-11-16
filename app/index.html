@@ -196,6 +196,7 @@ async function access() {
   if (me.role !== "none") return true;
   try { for (const n of await caches.keys()) if (n.indexOf("xd-app-map-") === 0) await caches.delete(n); } catch (e) {}
   $("tMine").parentNode.style.display = "none";
+  $("install").style.display = "none";                                     // install comes after joining
   $("list").innerHTML = `<div class="join"><h2>Join to use the app</h2>
     <p>The Xdatrys Maps app is for members: every spot on every map, saved on your phone to work without signal, with "Walk there" directions, day tours and the best selfie spots.</p>
     <p class="price"><b>Explorer</b> $9.99 a month, or $59.99 a year. Cancel any time.</p>
