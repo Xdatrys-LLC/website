@@ -18,7 +18,7 @@
   "pin_note": "Position from OpenStreetMap relation/3502552: the middle of the OpenStreetMap outline 'Toompea Castle' (170 m across).",
   "notes": "",
   "text": {
-   "description": "Toompea Castle sits on top of Toompea hill in central Tallinn, and today it is home to the Parliament of Estonia, the Riigikogu. It photographs well because several different eras stand side by side. The medieval walls and towers date largely from the 13th century onwards. A large Baroque and Neoclassical wing was added in the eastern part of the complex after Russia took over in 1710, and a separate parliament building from 1922 stands on the site of the old convent building. The tallest tower, Tall Hermann (Pikk Hermann), is 48 metres high and dominates the skyline. The Estonian flag is raised on it every day at sunrise and lowered at sunset, which gives you a good reason to time a visit. The hill is also the subject of a 19th-century legend that the heroine Linda built it boulder by boulder. For photos, think of this as a building to frame in layers: a wide view of the long façade, then closer shots of the stonework and, if it is in view, the tower. Keep your phone level so the walls and tower stay straight, and take a few frames with and without people in them for scale.",
+   "description": "Toompea Castle sits on top of Toompea hill in central Tallinn, and today it is home to the Parliament of Estonia, the Riigikogu. It photographs well because several different eras stand side by side. The medieval walls and towers date largely from the 13th century onwards. A large Baroque and Neoclassical wing was added in the eastern part of the complex after Russia took over in 1710, and a separate parliament building from 1922 stands on the site of the old convent building. The tallest tower, Tall Hermann (Pikk Hermann), is 48 metres high and dominates the skyline. The Estonian flag is raised on it every day at sunrise and lowered at sunset, which gives you a good reason to time a visit. The hill is also the subject of a 19th-century legend that the heroine Linda built it boulder by boulder. For photos, think of this as a building to frame in layers: a wide view of the long façade, then closer shots of the stonework and, if it is in view, the tower. Keep your phone level so the walls and tower stay straight, and take a few frames with and without people in them for scale. Right next to it: Alexander Nevsky Cathedral.",
    "geographic_location": "On Toompea hill in the central part of Tallinn.",
    "directions_text": "No Underground, train or tram stops are listed for this spot, so start from central Tallinn and head up towards Toompea hill, by taxi or hired scooter if you prefer not to walk. The phone icon on the map is about 20 m east of the subject. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
@@ -261,63 +261,6 @@
  },
  {
   "rank": 6,
-  "name": "Alexander Nevsky Cathedral",
-  "in_cut": true,
-  "label": "Alexander Nevsky",
-  "camera_pill": null,
-  "searches": 700,
-  "pin": [
-   24.7393379,
-   59.4357801
-  ],
-  "camera": [
-   24.7385,
-   59.43561
-  ],
-  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
-  "pin_note": "Position from OpenStreetMap way/26899255: the middle of the OpenStreetMap outline 'Alexander Nevsky Cathedral' (67 m across).",
-  "notes": "",
-  "text": {
-   "description": "Alexander Nevsky Cathedral is the largest cupola church in Tallinn, and its five onion domes make it easy to spot on Toompea hill. It was built between 1894 and 1900, when Estonia was part of the Russian Empire, in the Russian Revival style, to a design by Mikhail Preobrazhensky. The base is Finnish granite and the domes carry gilded iron crosses. Inside there are eleven bells cast in Saint Petersburg, and the biggest weighs about 16 tons. The cathedral has a complicated place in Estonian history, and many Estonians have seen it as a symbol of Russian rule. It is also a working Orthodox church, so it is worth photographing with some respect. It photographs well because the shapes are so strong: the rounded domes, the pale decorated walls and the dark granite base give you clear layers even on a plain phone snap. Keep the whole building in view, then move in for a few detail shots of the domes and crosses. If people are coming and going, wait a moment for a clear gap rather than cropping them out later.",
-   "geographic_location": "On Toompea hill in central Tallinn, in the upper part of the Old Town area, with the cathedral standing as the main landmark of the hill.",
-   "directions_text": "Walk east from there and you will be facing the cathedral. The phone icon on the map is about 20 m west of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) to take in the whole cathedral. If the domes are cut off at the top of the frame, switch to the ultra-wide (0.5x). Use telephoto (2x-5x, depending on your phone) for the domes, crosses and decoration.",
-    "where_to_stand": "Stand about 20 m west of the subject, at the phone icon on the map, and face east. From here the whole building and its domes should be in view.",
-    "how_to_frame": "Switch on the gridlines and keep the vertical lines straight by holding the phone upright, not tilted back, so the walls do not lean. Place the cathedral on one side of the grid and leave a little sky above the highest dome. Then try a closer, zoomed shot of the five domes against the sky.",
-    "phone_settings_tip": "Tap the cathedral to focus, then drag the exposure slider down slightly so the pale walls and the sky keep their detail and the gilded crosses do not burn out.",
-    "best_time": "Mid to late afternoon, when the sun is behind you and lights the side you are facing. Early morning also tends to be quieter."
-   },
-   "access_note": "The cathedral is an active place of worship, so expect to dress modestly inside; check the official site before you go for visiting arrangements.",
-   "claims_not_in_sources": [
-    "From a point west of the cathedral, looking east, afternoon sun is behind the photographer and lights the side facing them.",
-    "Early morning is usually quieter at the cathedral.",
-    "The ultra-wide lens (0.5x) may be needed to fit the whole building and the tops of the domes from 51 m away on some phones.",
-    "Visitors to an active Orthodox cathedral are generally expected to dress modestly."
-   ]
-  },
-  "checker_problems": 1,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Alexander Nevsky Cathedral, Tallinn",
-    "url": "https://en.wikipedia.org/wiki/Alexander_Nevsky_Cathedral%2C_Tallinn"
-   }
-  ],
-  "pin_flags": [],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/6.jpg",
-   "artist": "© Xdatrys LLC",
-   "licence": "",
-   "licence_url": "",
-   "source_url": "",
-   "from": "Own photo, taken 7 m from the phone icon",
-   "zoom": 2.0
-  }
- },
- {
-  "rank": 7,
   "name": "Kohtuotsa viewing platform",
   "in_cut": true,
   "label": "Kohtuotsa viewpoint",
@@ -357,7 +300,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -367,7 +310,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "St. Olaf's Church",
   "in_cut": true,
   "label": "St. Olaf's Church",
@@ -412,7 +355,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -422,7 +365,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Town Hall Square",
   "in_cut": true,
   "label": "Town Hall Square",
@@ -469,7 +412,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -479,7 +422,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Kumu Art Museum",
   "in_cut": true,
   "label": "Kumu",
@@ -525,7 +468,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Mait Metsur, aerofotod.ee",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -534,7 +477,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Kiek in de Kök",
   "in_cut": true,
   "label": "Kiek in de Kök",
@@ -572,7 +515,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -582,7 +525,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Patkuli viewing platform",
   "in_cut": true,
   "label": "Patkuli viewpoint",
@@ -623,7 +566,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -633,7 +576,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "St. Catherine's Passage",
   "in_cut": true,
   "label": "St. Catherine's Passage",
@@ -671,7 +614,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -681,7 +624,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Fat Margaret tower",
   "in_cut": true,
   "label": "Fat Margaret",
@@ -727,7 +670,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "Epukas",
    "licence": "Public domain",
    "licence_url": "",
@@ -736,7 +679,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "St. Nicholas' Church",
   "in_cut": true,
   "label": "St. Nicholas' Church",
@@ -777,7 +720,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -787,7 +730,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Toomkirik (St Mary's Cathedral)",
   "in_cut": true,
   "label": "St Mary's Cathedral",
@@ -828,7 +771,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -838,7 +781,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Pikk jalg (Long Leg street)",
   "in_cut": true,
   "label": "Pikk jalg",
@@ -878,7 +821,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -888,7 +831,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Tallinn City Wall",
   "in_cut": true,
   "label": "City Wall",
@@ -936,12 +879,69 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "Abrget47j",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Tornide_v%C3%A4ljak_2014.jpg",
    "from": "Wikidata Q2089605 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Alexander Nevsky Cathedral",
+  "in_cut": false,
+  "label": "Alexander Nevsky",
+  "camera_pill": null,
+  "searches": 700,
+  "pin": [
+   24.7393379,
+   59.4357801
+  ],
+  "camera": [
+   24.7385,
+   59.43561
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/26899255: the middle of the OpenStreetMap outline 'Alexander Nevsky Cathedral' (67 m across).",
+  "notes": "",
+  "text": {
+   "description": "Alexander Nevsky Cathedral is the largest cupola church in Tallinn, and its five onion domes make it easy to spot on Toompea hill. It was built between 1894 and 1900, when Estonia was part of the Russian Empire, in the Russian Revival style, to a design by Mikhail Preobrazhensky. The base is Finnish granite and the domes carry gilded iron crosses. Inside there are eleven bells cast in Saint Petersburg, and the biggest weighs about 16 tons. The cathedral has a complicated place in Estonian history, and many Estonians have seen it as a symbol of Russian rule. It is also a working Orthodox church, so it is worth photographing with some respect. It photographs well because the shapes are so strong: the rounded domes, the pale decorated walls and the dark granite base give you clear layers even on a plain phone snap. Keep the whole building in view, then move in for a few detail shots of the domes and crosses. If people are coming and going, wait a moment for a clear gap rather than cropping them out later.",
+   "geographic_location": "On Toompea hill in central Tallinn, in the upper part of the Old Town area, with the cathedral standing as the main landmark of the hill.",
+   "directions_text": "Walk east from there and you will be facing the cathedral. The phone icon on the map is about 20 m west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the whole cathedral. If the domes are cut off at the top of the frame, switch to the ultra-wide (0.5x). Use telephoto (2x-5x, depending on your phone) for the domes, crosses and decoration.",
+    "where_to_stand": "Stand about 20 m west of the subject, at the phone icon on the map, and face east. From here the whole building and its domes should be in view.",
+    "how_to_frame": "Switch on the gridlines and keep the vertical lines straight by holding the phone upright, not tilted back, so the walls do not lean. Place the cathedral on one side of the grid and leave a little sky above the highest dome. Then try a closer, zoomed shot of the five domes against the sky.",
+    "phone_settings_tip": "Tap the cathedral to focus, then drag the exposure slider down slightly so the pale walls and the sky keep their detail and the gilded crosses do not burn out.",
+    "best_time": "Mid to late afternoon, when the sun is behind you and lights the side you are facing. Early morning also tends to be quieter."
+   },
+   "access_note": "The cathedral is an active place of worship, so expect to dress modestly inside; check the official site before you go for visiting arrangements.",
+   "claims_not_in_sources": [
+    "From a point west of the cathedral, looking east, afternoon sun is behind the photographer and lights the side facing them.",
+    "Early morning is usually quieter at the cathedral.",
+    "The ultra-wide lens (0.5x) may be needed to fit the whole building and the tops of the domes from 51 m away on some phones.",
+    "Visitors to an active Orthodox cathedral are generally expected to dress modestly."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Alexander Nevsky Cathedral, Tallinn",
+    "url": "https://en.wikipedia.org/wiki/Alexander_Nevsky_Cathedral%2C_Tallinn"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 7 m from the phone icon",
+   "zoom": 2.0
   }
  }
 ]

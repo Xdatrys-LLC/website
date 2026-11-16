@@ -777,60 +777,6 @@
  },
  {
   "rank": 16,
-  "name": "Neumarkt",
-  "in_cut": true,
-  "label": "Neumarkt",
-  "camera_pill": null,
-  "searches": 160,
-  "pin": [
-   13.74027778,
-   51.05166667
-  ],
-  "camera": [
-   13.740711,
-   51.05131
-  ],
-  "camera_source": "Researched viewpoint 'Neumarkt' (4 web pages); placed at OpenStreetMap 'Neumarkt' (way/247571347): middle (189 m across).",
-  "pin_note": "Position from the Wikipedia article 'Neumarkt (Dresden)'.",
-  "notes": "",
-  "text": {
-   "description": "Neumarkt is the square around the Frauenkirche in the heart of Dresden's old town. It began as a small settlement on a slight rise above the Elbe, and when the city walls were extended in 1530 it became the 'New Market', the second market square alongside the Altmarkt. Under August II the Strong the square was lined with baroque buildings, and today's houses are mostly reconstructions of them. The area was almost completely destroyed in the firestorm of February 1945. The Frauenkirche was finished again in 2005, and the streets around it have since been rebuilt in stages, mostly to the original structure or with facades close to the old ones.\n\nThat history is why it photographs so well. The dome rises above rows of tall burgher-style houses, which close in around it like a frame. The classic picture is taken from the middle of the square, facing east, with the church filling the frame and the houses on either side. Go early in the morning if you can, when the square is empty and you can shoot without people crossing the view. There has been construction work near the square, so look for scaffolding before you set up. If you want a second angle, the Brühlsche Terrasse gives a view down the Münzgasse with the dome at the end of the lane, and Rampische Straße shows the church at the end of the street between old facades.",
-   "geographic_location": "Neumarkt lies in the old town (Altstadt) of central Dresden, on the square that surrounds the Frauenkirche. It is the old town's second market square, alongside the Altmarkt.",
-   "directions_text": "No tram or railway stops are listed for this spot, so head for the Frauenkirche in the old town, by taxi or hired scooter if you are coming from further out. Neumarkt is the square around the church. Once you are in the square, the phone icon on the map is in the middle of it, and Neumarkt itself is about 1 minute on foot to the north-west. The phone icon on the map is about 50 m south-east of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x), which shows the dome and the houses on both sides in a natural-looking frame. If you want the whole dome and more of the rooftops, switch to the ultra-wide (0.5x). If you want to pick out the dome or a single facade, use the telephoto (2x or more, depending on your phone).",
-    "where_to_stand": "Stand about 50 m south-east of the subject, in Neumarkt (the phone icon on the map), and face north-west. From there the dome sits in the centre, with the baroque burgher houses framing the square on either side. Neumarkt itself is a little to the north-west of where you are standing.",
-    "how_to_frame": "Turn on the gridlines and put the dome on the centre line, with the houses balanced left and right. Keep your phone level so the facades do not lean. For a different angle, try the view down the Münzgasse from the Brühlsche Terrasse, where the dome appears at the end of the lane.",
-    "phone_settings_tip": "Tap on the stonework of the church to set focus and exposure, then lower the exposure slider a little if the sky is washing out. Take a few frames at 1x and 0.5x so you can pick the best one later.",
-    "best_time": "Early morning, when the square is empty."
-   },
-   "access_note": "Neumarkt is a public square. There is construction near the square, so check for scaffolding and any closures before you go, and look at the official Frauenkirche site if you plan to go inside."
-  },
-  "checker_problems": 4,
-  "code_check_failures": [
-   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Neumarkt (Dresden)",
-    "url": "https://en.wikipedia.org/wiki/Neumarkt_%28Dresden%29"
-   }
-  ],
-  "pin_flags": [],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/16.jpg",
-   "artist": "© Xdatrys LLC",
-   "licence": "",
-   "licence_url": "",
-   "source_url": "",
-   "from": "Own photo, taken 8 m from the phone icon",
-   "zoom": 2.0
-  }
- },
- {
-  "rank": 17,
   "name": "Japanese Palace and Palace Garden",
   "in_cut": true,
   "label": "Japanese Palace",
@@ -874,7 +820,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -884,7 +830,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Yenidze",
   "in_cut": true,
   "label": "Yenidze",
@@ -928,7 +874,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -938,7 +884,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Canaletto view from the Neustadt bank",
   "in_cut": true,
   "label": "Canaletto view",
@@ -977,7 +923,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -987,7 +933,7 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 19,
   "name": "Elbe paddle steamers at the Terrassenufer",
   "in_cut": true,
   "label": "Paddle steamers",
@@ -1028,12 +974,66 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/19.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
    "source_url": "",
    "from": "Own photo, taken 1 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Neumarkt",
+  "in_cut": false,
+  "label": "Neumarkt",
+  "camera_pill": null,
+  "searches": 160,
+  "pin": [
+   13.74027778,
+   51.05166667
+  ],
+  "camera": [
+   13.740711,
+   51.05131
+  ],
+  "camera_source": "Researched viewpoint 'Neumarkt' (4 web pages); placed at OpenStreetMap 'Neumarkt' (way/247571347): middle (189 m across).",
+  "pin_note": "Position from the Wikipedia article 'Neumarkt (Dresden)'.",
+  "notes": "",
+  "text": {
+   "description": "Neumarkt is the square around the Frauenkirche in the heart of Dresden's old town. It began as a small settlement on a slight rise above the Elbe, and when the city walls were extended in 1530 it became the 'New Market', the second market square alongside the Altmarkt. Under August II the Strong the square was lined with baroque buildings, and today's houses are mostly reconstructions of them. The area was almost completely destroyed in the firestorm of February 1945. The Frauenkirche was finished again in 2005, and the streets around it have since been rebuilt in stages, mostly to the original structure or with facades close to the old ones.\n\nThat history is why it photographs so well. The dome rises above rows of tall burgher-style houses, which close in around it like a frame. The classic picture is taken from the middle of the square, facing east, with the church filling the frame and the houses on either side. Go early in the morning if you can, when the square is empty and you can shoot without people crossing the view. There has been construction work near the square, so look for scaffolding before you set up. If you want a second angle, the Brühlsche Terrasse gives a view down the Münzgasse with the dome at the end of the lane, and Rampische Straße shows the church at the end of the street between old facades.",
+   "geographic_location": "Neumarkt lies in the old town (Altstadt) of central Dresden, on the square that surrounds the Frauenkirche. It is the old town's second market square, alongside the Altmarkt.",
+   "directions_text": "No tram or railway stops are listed for this spot, so head for the Frauenkirche in the old town, by taxi or hired scooter if you are coming from further out. Neumarkt is the square around the church. Once you are in the square, the phone icon on the map is in the middle of it, and Neumarkt itself is about 1 minute on foot to the north-west. The phone icon on the map is about 50 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x), which shows the dome and the houses on both sides in a natural-looking frame. If you want the whole dome and more of the rooftops, switch to the ultra-wide (0.5x). If you want to pick out the dome or a single facade, use the telephoto (2x or more, depending on your phone).",
+    "where_to_stand": "Stand about 50 m south-east of the subject, in Neumarkt (the phone icon on the map), and face north-west. From there the dome sits in the centre, with the baroque burgher houses framing the square on either side. Neumarkt itself is a little to the north-west of where you are standing.",
+    "how_to_frame": "Turn on the gridlines and put the dome on the centre line, with the houses balanced left and right. Keep your phone level so the facades do not lean. For a different angle, try the view down the Münzgasse from the Brühlsche Terrasse, where the dome appears at the end of the lane.",
+    "phone_settings_tip": "Tap on the stonework of the church to set focus and exposure, then lower the exposure slider a little if the sky is washing out. Take a few frames at 1x and 0.5x so you can pick the best one later.",
+    "best_time": "Early morning, when the square is empty."
+   },
+   "access_note": "Neumarkt is a public square. There is construction near the square, so check for scaffolding and any closures before you go, and look at the official Frauenkirche site if you plan to go inside."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Neumarkt (Dresden)",
+    "url": "https://en.wikipedia.org/wiki/Neumarkt_%28Dresden%29"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 8 m from the phone icon",
    "zoom": 2.0
   }
  }

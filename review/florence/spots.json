@@ -610,58 +610,6 @@
  },
  {
   "rank": 12,
-  "name": "Giotto's Campanile",
-  "in_cut": true,
-  "label": "Giotto's Campanile",
-  "camera_pill": "Piazza del Duomo",
-  "searches": 4745,
-  "pin": [
-   11.2556867,
-   43.7728093
-  ],
-  "camera": [
-   11.255477,
-   43.773101
-  ],
-  "camera_source": "Researched viewpoint 'Piazza del Duomo' (2 web pages); placed at OpenStreetMap 'Piazza del Duomo' (relation/310421): middle (245 m across).",
-  "pin_note": "Position from OpenStreetMap way/251650632: the middle of the OpenStreetMap outline 'Giotto's Campanile' (21 m across).",
-  "notes": "",
-  "text": {
-   "description": "Giotto's Campanile is the slender bell tower standing beside Florence Cathedral, with the Baptistery close by. It photographs well because the walls are covered in patterned marble: white from Carrara, green from Prato and red from Siena. That gives a phone camera plenty of colour and texture even on a grey day. The tower is 84.7 metres tall and square, with sides of 14.45 metres. The first stone was laid on 19 July 1334, when Giotto was in charge of the works. He died in 1337, having finished only the lowest level, and the tower was completed in 1359. The spire he planned, which would have taken it to about 122 metres, was never built. Look at the lowest level for the rows of hexagonal relief panels. The ones you see are copies, as the originals are now in the cathedral museum. The phone icon on the map is on the square, just north-west of the tower. From the square you can fit the cathedral façade, the tower and the Baptistery into one picture. That is the classic view, and it is best early in the morning, before the square fills up. If you want a different angle, try the corner of Via dei Servi for a three-quarter view with the dome, or the entrance to Piazza San Giovanni.",
-   "geographic_location": "In the historic centre of Florence, on Piazza del Duomo, standing next to the cathedral and close to the Baptistery of St. John.",
-   "directions_text": "Florence has no metro, and the centre is best covered on foot. From the tram stop San Marco Università (tram T2) it is about 590 m on foot, heading south-west. From Valfonda - Stazione Santa Maria Novella (tram T1 and tram T2) it is about 660 m on foot, heading south-east. Once you reach Piazza del Duomo, the tower is hard to miss beside the cathedral. The phone icon on the map is about 25 m north-west of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) to get the façade, the tower and the Baptistery in one frame. Switch to ultra-wide (0.5x) if the square is crowded and you have to stand close. Use telephoto (2x-5x, depending on your phone) for the marble patterns and the relief panels.",
-    "where_to_stand": "Stand about 25 m north-west of the subject, in Piazza del Duomo (the phone icon on the map), and face south-east. In the open part of the square facing the cathedral. From there the marble façade, Giotto's Campanile beside it and the Baptistery all fit into one picture. The entrance to Piazza San Giovanni, close by, shows how the tower, cathedral and dome sit together.",
-    "how_to_frame": "Turn on gridlines and hold the phone upright, not tilted back, so the tower's edges stay straight. Step back as far as the square allows, then use the default lens (1x) to take in the full height. For a different angle, the corner of Via dei Servi gives a three-quarter view with the dome, the Campanile and the cathedral together. Check it on the map before you go.",
-    "phone_settings_tip": "Tap on the bright marble to set focus, then drag the exposure slider down a little so the white stone keeps its detail. For a long row of buildings, panorama mode also works, if you keep the phone level and hold it steady.",
-    "best_time": "Early morning, when the square is quieter and the light is soft and golden."
-   },
-   "access_note": "The tower stands in a public square and you can photograph it freely from outside, but climbing it is a separate visit, so check the official site before you go."
-  },
-  "checker_problems": 3,
-  "code_check_failures": [
-   "banned term /\\bmetro\\b/"
-  ],
-  "sources": [
-   {
-    "title": "Giotto's Campanile",
-    "url": "https://en.wikipedia.org/wiki/Giotto%27s_Campanile"
-   }
-  ],
-  "pin_flags": [],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/12.jpg",
-   "artist": "Diego Delso",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Florencia,_Italia,_2022-09-19,_DD_95.jpg",
-   "from": "Wikidata Q1140023 main image"
-  }
- },
- {
-  "rank": 13,
   "name": "Santa Croce",
   "in_cut": true,
   "label": "Santa Croce",
@@ -704,7 +652,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "Grueslayer",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -713,7 +661,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Mercato Centrale",
   "in_cut": true,
   "label": "Mercato Centrale",
@@ -753,7 +701,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "Sailko",
    "licence": "CC BY 3.0",
    "licence_url": "https://creativecommons.org/licenses/by/3.0",
@@ -762,7 +710,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Basilica of San Lorenzo",
   "in_cut": true,
   "label": "San Lorenzo",
@@ -808,7 +756,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Nelson Pérez",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -817,7 +765,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Ponte Santa Trinita",
   "in_cut": true,
   "label": "Ponte Santa Trinita",
@@ -864,7 +812,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "Jay Stewart",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -873,7 +821,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Florence Baptistery",
   "in_cut": true,
   "label": "Baptistery",
@@ -916,7 +864,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "Zairon",
    "licence": "CC BY 4.0",
    "licence_url": "https://creativecommons.org/licenses/by/4.0",
@@ -925,7 +873,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "San Miniato al Monte",
   "in_cut": true,
   "label": "San Miniato al Monte",
@@ -972,7 +920,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "unknown",
    "licence": "Public domain",
    "licence_url": "",
@@ -981,7 +929,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Orsanmichele",
   "in_cut": true,
   "label": "Orsanmichele",
@@ -1028,7 +976,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "Guido Castelli66",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1037,7 +985,7 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 19,
   "name": "Forte di Belvedere",
   "in_cut": true,
   "label": "Forte di Belvedere",
@@ -1087,7 +1035,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/19.jpg",
    "artist": "Sailko",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -1096,7 +1044,59 @@
   }
  },
  {
-  "rank": 21,
+  "rank": 101,
+  "name": "Giotto's Campanile",
+  "in_cut": false,
+  "label": "Giotto's Campanile",
+  "camera_pill": "Piazza del Duomo",
+  "searches": 4745,
+  "pin": [
+   11.2556867,
+   43.7728093
+  ],
+  "camera": [
+   11.255477,
+   43.773101
+  ],
+  "camera_source": "Researched viewpoint 'Piazza del Duomo' (2 web pages); placed at OpenStreetMap 'Piazza del Duomo' (relation/310421): middle (245 m across).",
+  "pin_note": "Position from OpenStreetMap way/251650632: the middle of the OpenStreetMap outline 'Giotto's Campanile' (21 m across).",
+  "notes": "",
+  "text": {
+   "description": "Giotto's Campanile is the slender bell tower standing beside Florence Cathedral, with the Baptistery close by. It photographs well because the walls are covered in patterned marble: white from Carrara, green from Prato and red from Siena. That gives a phone camera plenty of colour and texture even on a grey day. The tower is 84.7 metres tall and square, with sides of 14.45 metres. The first stone was laid on 19 July 1334, when Giotto was in charge of the works. He died in 1337, having finished only the lowest level, and the tower was completed in 1359. The spire he planned, which would have taken it to about 122 metres, was never built. Look at the lowest level for the rows of hexagonal relief panels. The ones you see are copies, as the originals are now in the cathedral museum. The phone icon on the map is on the square, just north-west of the tower. From the square you can fit the cathedral façade, the tower and the Baptistery into one picture. That is the classic view, and it is best early in the morning, before the square fills up. If you want a different angle, try the corner of Via dei Servi for a three-quarter view with the dome, or the entrance to Piazza San Giovanni.",
+   "geographic_location": "In the historic centre of Florence, on Piazza del Duomo, standing next to the cathedral and close to the Baptistery of St. John.",
+   "directions_text": "Florence has no metro, and the centre is best covered on foot. From the tram stop San Marco Università (tram T2) it is about 590 m on foot, heading south-west. From Valfonda - Stazione Santa Maria Novella (tram T1 and tram T2) it is about 660 m on foot, heading south-east. Once you reach Piazza del Duomo, the tower is hard to miss beside the cathedral. The phone icon on the map is about 25 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to get the façade, the tower and the Baptistery in one frame. Switch to ultra-wide (0.5x) if the square is crowded and you have to stand close. Use telephoto (2x-5x, depending on your phone) for the marble patterns and the relief panels.",
+    "where_to_stand": "Stand about 25 m north-west of the subject, in Piazza del Duomo (the phone icon on the map), and face south-east. In the open part of the square facing the cathedral. From there the marble façade, Giotto's Campanile beside it and the Baptistery all fit into one picture. The entrance to Piazza San Giovanni, close by, shows how the tower, cathedral and dome sit together.",
+    "how_to_frame": "Turn on gridlines and hold the phone upright, not tilted back, so the tower's edges stay straight. Step back as far as the square allows, then use the default lens (1x) to take in the full height. For a different angle, the corner of Via dei Servi gives a three-quarter view with the dome, the Campanile and the cathedral together. Check it on the map before you go.",
+    "phone_settings_tip": "Tap on the bright marble to set focus, then drag the exposure slider down a little so the white stone keeps its detail. For a long row of buildings, panorama mode also works, if you keep the phone level and hold it steady.",
+    "best_time": "Early morning, when the square is quieter and the light is soft and golden."
+   },
+   "access_note": "The tower stands in a public square and you can photograph it freely from outside, but climbing it is a separate visit, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /\\bmetro\\b/"
+  ],
+  "sources": [
+   {
+    "title": "Giotto's Campanile",
+    "url": "https://en.wikipedia.org/wiki/Giotto%27s_Campanile"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Diego Delso",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Florencia,_Italia,_2022-09-19,_DD_95.jpg",
+   "from": "Wikidata Q1140023 main image"
+  }
+ },
+ {
+  "rank": 102,
   "name": "Brunelleschi's Dome climb",
   "in_cut": false,
   "label": "Dome climb",

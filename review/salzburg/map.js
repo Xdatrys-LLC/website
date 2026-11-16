@@ -1,1 +1,1 @@
-window.MAPCFG = {"key": "salzburg", "title": "Salzburg: 20 photo spots (pilot review)", "place": "Salzburg", "bounds": [13.0, 47.77, 13.1, 47.83], "center": [13.05, 47.8], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/salzburg/{z}/{x}/{y}.pbf"};
+window.MAPCFG = {"key": "salzburg", "title": "Salzburg: 19 photo spots (pilot review)", "place": "Salzburg", "bounds": [13.0, 47.77, 13.1, 47.83], "center": [13.05, 47.8], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/salzburg/{z}/{x}/{y}.pbf"};

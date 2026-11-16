@@ -11,7 +11,7 @@
    "ask_someone": "Stand at the end of the Lávka pod Zámkem footbridge, right under the Cloak Bridge, so the bridge and castle sit behind you, and ask a passer-by to shoot toward you.",
    "rules_and_safety": "The ledges along the castle wall near the Cloak Bridge are high, so mind your bag and phone when you pose there. The castle has ticketed areas as well as public parts, so check the official site before you go.",
    "challenge": "Can you get all five storeys of the Cloak Bridge into one picture without chopping off the top?",
-   "good_to_know": "The first castle here dates back to 1253, built by the Vítkovci family. It's been a UNESCO World Heritage Site since 1992 and is the second largest castle and chateau complex in the Czech Republic, after Prague Castle. The Cloak Bridge dates from 1764, and the Baroque theatre from 1767 is counted among the best preserved in the world."
+   "good_to_know": "The first castle here dates back to 1253, built by the Vítkovci family. It's been a UNESCO World Heritage Site since 1992 and is the second largest castle and chateau complex in the Czech Republic, after Prague Castle. The Cloak Bridge dates from 1764, and the Baroque theatre from 1767 is counted among the best preserved in the world. Right next to it: Castle Tower. Right next to it: Cloak Bridge (Plášťový most)."
   },
   "selfie_research": {
    "selfie_spots": [
@@ -145,7 +145,7 @@
   "at": "2026-11-15 03:20"
  },
  "Castle Tower": {
-  "rank": 3,
+  "rank": 101,
   "card": {
    "hook": "Got rooftops and walls between you and the Castle Tower? Lucky you. Those buildings are your secret ingredient, because the tower looks best peeking out from behind them.",
    "stand_here": "Stand at the phone icon on the map, about 240 m south-east of the tower, and face north-west. Keep your phone upright and level so the walls don't lean.",
@@ -213,7 +213,7 @@
   "at": "2026-11-15 03:21"
  },
  "Cloak Bridge (Plášťový most)": {
-  "rank": 4,
+  "rank": 102,
   "card": {
    "hook": "Bridges are a bit of a cheat code for phone photos: strong lines, a clear sense of place, and no need to ask them to smile. Cloak Bridge, number 4 on the Český Krumlov map, does it all in a very compact town.",
    "stand_here": "Stand at the phone icon on the map, about 30 m north-west of the Cloak Bridge, and face south-east. Take your first photo from here before you move closer.",
@@ -281,7 +281,7 @@
   "at": "2026-11-15 03:21"
  },
  "Svornosti Square": {
-  "rank": 5,
+  "rank": 3,
   "card": {
    "hook": "Grab a spot at the edge of Svornosti Square and let the buildings do the work: the rooflines and colourful façades make a ready-made frame, and there's nearly always someone strolling through the middle to add life.",
    "stand_here": "Stand at the phone icon on the map, about 40 m east of the subject in Svornosti Square, and face west. It's roughly a minute's walk, so you can try a few spots without going far.",
@@ -329,7 +329,7 @@
   "at": "2026-11-15 03:22"
  },
  "Latrán street": {
-  "rank": 6,
+  "rank": 4,
   "card": {
    "hook": "Rooftops, tall façades and a road that pulls your eye straight down the middle: Latrán street is a ready-made picture before you've even raised your phone. It's number 6 on the Český Krumlov map.",
    "stand_here": "Stand about 390 m north-west of the subject, at the phone icon on the map, and face south-east.",
@@ -385,7 +385,7 @@
   "at": "2026-11-15 03:22"
  },
  "Castle Gardens": {
-  "rank": 7,
+  "rank": 5,
   "card": {
    "hook": "Picture a row of stone arches with the castle buildings and a sea of red roofs tucked in behind them. That's the Castle Gardens view, and you get it before you even step into the garden.",
    "stand_here": "Stand about 330 m east of the subject, on Plášťový most (the phone icon on the map), and face west. Go to the garden end, where the upper covered passage runs into the garden.",
@@ -460,7 +460,7 @@
   "at": "2026-11-15 03:23"
  },
  "Minorite Monastery": {
-  "rank": 8,
+  "rank": 7,
   "card": {
    "hook": "Everyone's eyes go straight to the castle, and fair enough. Now look just to its right, where a garden and a brewery are tucked in among the houses. That's the monastery, the quiet one in the picture.",
    "stand_here": "Stand in Seminární zahrada, about 290 m south-west of the subject, and face north-east. The Vltava is between you and the castle, and the monastery is among the houses to the right of it.",
@@ -500,7 +500,7 @@
   "at": "2026-11-15 03:23"
  },
  "Seminary Garden viewpoint": {
-  "rank": 9,
+  "rank": 8,
   "card": {
    "hook": "Plant your feet at the phone icon and you get a small luxury: room to shoot the whole scene, then a tighter one, without moving an inch. Take your time here, because this view rewards a few extra frames.",
    "stand_here": "Stand about 170 m east of the subject, at the phone icon on the map, and face west toward the Seminary Garden viewpoint.",
@@ -671,7 +671,7 @@
   "at": "2026-11-15 03:25"
  },
  "Barber's Bridge (Lazebnický most)": {
-  "rank": 12,
+  "rank": 6,
   "card": {
    "hook": "Most people walk onto Barber's Bridge and photograph the view from it. Try the opposite: walk down Latrán and watch the bridge close off the end of the street, with the castle rising right behind it.",
    "stand_here": "Stand on Latrán at the Spičák end, at the phone icon on the map, about 150 m north-east of the bridge. Face south-west and the bridge is a short walk ahead of you.",
@@ -695,7 +695,7 @@
   "at": "2026-11-15 03:25"
  },
  "Rafting on the Vltava weir": {
-  "rank": 13,
+  "rank": 9,
   "card": {
    "hook": "Picture a raft full of people lining up for the wide gap in a weir, and you're standing right above them with your phone out. That's the Jez U Jelení lávky, just below Český Krumlov castle, and the rafts shooting through make a lively show.",
    "stand_here": "Stand about 640 m north of the subject, on Jelení lávka (the phone icon on the map), and face south. You'll be on the footbridge over the weir, looking down at the wide sluice.",

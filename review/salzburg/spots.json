@@ -272,62 +272,6 @@
  },
  {
   "rank": 6,
-  "name": "Getreidegasse",
-  "in_cut": true,
-  "label": "Getreidegasse",
-  "camera_pill": "Museum der Moderne",
-  "searches": 2160,
-  "pin": [
-   13.0425483,
-   47.8000373
-  ],
-  "camera": [
-   13.038299,
-   47.800903
-  ],
-  "camera_source": "Researched viewpoint 'Museum der Moderne' (2 web pages); placed at OpenStreetMap 'Museum der Moderne' (way/23193071): middle (60 m across).",
-  "pin_note": "Position from OpenStreetMap way/104908655: the middle of the OpenStreetMap line 'Getreidegasse' (279 m long).",
-  "notes": "",
-  "text": {
-   "description": "Getreidegasse is the old shopping street in Salzburg's Altstadt, and it is one of the city's busiest. Tall, narrow townhouses stand shoulder to shoulder, and wrought-iron guild signs hang above the shopfronts. That mix of signs, rooflines and a lane that seems to close in is why it photographs so well. The street is mentioned as far back as about 1150, when it had a different name, and it was a trading street long before it became a shopping one. Mozart was born at No. 9, and the family lived there until 1773. The building has housed a Mozart museum since 1880. Many of the houses hide passageways and courtyards, so look for gaps between the shops.\n\nThe phone icon on the map is the viewing platform on the Mönchsberg, next to the Museum der Moderne. From up here you look down over the roofs onto the Getreidegasse, with the Festival Hall and the far side of the Salzach beyond. It is quieter than the street itself, and you get there by a short lift ride from the Old Town rather than a climb. Use this view for the whole-street picture. Then go down and take the close-up shots at street level, where the guild signs and Mozart's yellow facade make good details. The street is crowded from late morning, so go early if you want it clear of people.",
-   "geographic_location": "Getreidegasse is in the Old Town (Altstadt) of Salzburg, one block back from the Salzach river.",
-   "directions_text": "Make your way to the Old Town first. The Museum der Moderne terrace is reached by a short lift ride up the Mönchsberg from the Old Town. The phone icon on the map is about 330 m west of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "From the terrace, use the telephoto (2x-5x, depending on your phone) to pick out the rooftops and the line of the street. Use the default lens (1x) for the wider view with the Festival Hall and river. At street level, the ultra-wide (0.5x) suits the narrow lane and tall facades.",
-    "where_to_stand": "Stand about 330 m west of the subject, on Museum der Moderne (the phone icon on the map), and face east. From here you look east and down onto the roofs and the Getreidegasse, with the Festival Hall and the left bank of the Salzach beyond.",
-    "how_to_frame": "Switch on gridlines and put the line of the street along one of the lower grid lines, so the roofs fill the frame and the Festival Hall sits in the distance. Keep the horizon level. For an alternative, go down to the street. There you can shoot along the lane toward the western end with the guild signs on both sides, or frame Mozart's yellow birthplace as a bright accent in the middle of the street.",
-    "phone_settings_tip": "Tap on the roofs to focus, then slide the exposure down a little if the sky is bright, so the roofs keep their colour. At street level, hold the phone steady and take a few frames, so you have one without people walking through.",
-    "best_time": "Go early in the morning if you want the street at street level with few people, because it gets crowded from late morning through the day. The terrace is quieter, but check the lift times first."
-   },
-   "access_note": "Getreidegasse is an open pedestrian street, but the lift to the Museum der Moderne terrace may have its own rules or hours, so check the official site before you go.",
-   "claims_not_in_sources": [
-    "The Museum der Moderne terrace lies to the west of Getreidegasse, above the Old Town.",
-    "The street is crowded from late morning through the day, so early morning is the quietest time.",
-    "Sliding the exposure down helps keep colour in the roofs when the sky is bright.",
-    "The lift to the terrace may have its own opening times or ticket rules."
-   ]
-  },
-  "checker_problems": 2,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Getreidegasse",
-    "url": "https://en.wikipedia.org/wiki/Getreidegasse"
-   }
-  ],
-  "pin_flags": [],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/6.jpg",
-   "artist": "Eweht",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Altstadt_-_Getreidegasse_Ansicht_-_2026_06_21-1.jpg",
-   "from": "Wikidata Q688477 main image"
-  }
- },
- {
-  "rank": 7,
   "name": "Nonnberg Abbey",
   "in_cut": true,
   "label": "Nonnberg Abbey",
@@ -372,7 +316,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -382,7 +326,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Alter Markt and Café Tomaselli",
   "in_cut": true,
   "label": "Alter Markt",
@@ -422,7 +366,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -432,7 +376,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Mönchsberg view over the old town",
   "in_cut": true,
   "label": "Mönchsberg",
@@ -482,7 +426,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -492,7 +436,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Kapuzinerberg viewpoint",
   "in_cut": true,
   "label": "Kapuzinerberg",
@@ -536,7 +480,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -546,7 +490,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "St. Peter's Abbey and Cemetery",
   "in_cut": true,
   "label": "St. Peter's Cemetery",
@@ -591,7 +535,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -601,7 +545,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Richterhöhe",
   "in_cut": true,
   "label": "Richterhöhe",
@@ -642,7 +586,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -652,7 +596,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Steingasse",
   "in_cut": true,
   "label": "Steingasse",
@@ -692,7 +636,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -702,7 +646,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Salzach river and Staatsbrücke",
   "in_cut": true,
   "label": "Staatsbrücke",
@@ -743,7 +687,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -753,7 +697,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Residenzplatz and its fountain",
   "in_cut": true,
   "label": "Residenzplatz",
@@ -794,7 +738,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -804,7 +748,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Kapitelplatz and the Sphaera",
   "in_cut": true,
   "label": "Kapitelplatz",
@@ -845,7 +789,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -855,7 +799,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Collegiate Church (Kollegienkirche)",
   "in_cut": true,
   "label": "Kollegienkirche",
@@ -895,7 +839,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -905,7 +849,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Linzer Gasse",
   "in_cut": true,
   "label": "Linzer Gasse",
@@ -946,7 +890,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -956,7 +900,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Makartsteg love-lock bridge",
   "in_cut": true,
   "label": "Makartsteg",
@@ -996,7 +940,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -1006,7 +950,7 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 19,
   "name": "Giselakai riverside view",
   "in_cut": true,
   "label": "Giselakai",
@@ -1046,13 +990,69 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/19.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
    "source_url": "",
    "from": "Own photo, taken 6 m from the phone icon",
    "zoom": 1.0
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Getreidegasse",
+  "in_cut": false,
+  "label": "Getreidegasse",
+  "camera_pill": "Museum der Moderne",
+  "searches": 2160,
+  "pin": [
+   13.0425483,
+   47.8000373
+  ],
+  "camera": [
+   13.038299,
+   47.800903
+  ],
+  "camera_source": "Researched viewpoint 'Museum der Moderne' (2 web pages); placed at OpenStreetMap 'Museum der Moderne' (way/23193071): middle (60 m across).",
+  "pin_note": "Position from OpenStreetMap way/104908655: the middle of the OpenStreetMap line 'Getreidegasse' (279 m long).",
+  "notes": "",
+  "text": {
+   "description": "Getreidegasse is the old shopping street in Salzburg's Altstadt, and it is one of the city's busiest. Tall, narrow townhouses stand shoulder to shoulder, and wrought-iron guild signs hang above the shopfronts. That mix of signs, rooflines and a lane that seems to close in is why it photographs so well. The street is mentioned as far back as about 1150, when it had a different name, and it was a trading street long before it became a shopping one. Mozart was born at No. 9, and the family lived there until 1773. The building has housed a Mozart museum since 1880. Many of the houses hide passageways and courtyards, so look for gaps between the shops.\n\nThe phone icon on the map is the viewing platform on the Mönchsberg, next to the Museum der Moderne. From up here you look down over the roofs onto the Getreidegasse, with the Festival Hall and the far side of the Salzach beyond. It is quieter than the street itself, and you get there by a short lift ride from the Old Town rather than a climb. Use this view for the whole-street picture. Then go down and take the close-up shots at street level, where the guild signs and Mozart's yellow facade make good details. The street is crowded from late morning, so go early if you want it clear of people.",
+   "geographic_location": "Getreidegasse is in the Old Town (Altstadt) of Salzburg, one block back from the Salzach river.",
+   "directions_text": "Make your way to the Old Town first. The Museum der Moderne terrace is reached by a short lift ride up the Mönchsberg from the Old Town. The phone icon on the map is about 330 m west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "From the terrace, use the telephoto (2x-5x, depending on your phone) to pick out the rooftops and the line of the street. Use the default lens (1x) for the wider view with the Festival Hall and river. At street level, the ultra-wide (0.5x) suits the narrow lane and tall facades.",
+    "where_to_stand": "Stand about 330 m west of the subject, on Museum der Moderne (the phone icon on the map), and face east. From here you look east and down onto the roofs and the Getreidegasse, with the Festival Hall and the left bank of the Salzach beyond.",
+    "how_to_frame": "Switch on gridlines and put the line of the street along one of the lower grid lines, so the roofs fill the frame and the Festival Hall sits in the distance. Keep the horizon level. For an alternative, go down to the street. There you can shoot along the lane toward the western end with the guild signs on both sides, or frame Mozart's yellow birthplace as a bright accent in the middle of the street.",
+    "phone_settings_tip": "Tap on the roofs to focus, then slide the exposure down a little if the sky is bright, so the roofs keep their colour. At street level, hold the phone steady and take a few frames, so you have one without people walking through.",
+    "best_time": "Go early in the morning if you want the street at street level with few people, because it gets crowded from late morning through the day. The terrace is quieter, but check the lift times first."
+   },
+   "access_note": "Getreidegasse is an open pedestrian street, but the lift to the Museum der Moderne terrace may have its own rules or hours, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "The Museum der Moderne terrace lies to the west of Getreidegasse, above the Old Town.",
+    "The street is crowded from late morning through the day, so early morning is the quietest time.",
+    "Sliding the exposure down helps keep colour in the roofs when the sky is bright.",
+    "The lift to the terrace may have its own opening times or ticket rules."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Getreidegasse",
+    "url": "https://en.wikipedia.org/wiki/Getreidegasse"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Eweht",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Altstadt_-_Getreidegasse_Ansicht_-_2026_06_21-1.jpg",
+   "from": "Wikidata Q688477 main image"
   }
  }
 ]

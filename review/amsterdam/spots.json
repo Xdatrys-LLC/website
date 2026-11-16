@@ -971,63 +971,6 @@
  },
  {
   "rank": 19,
-  "name": "Westerkerk",
-  "in_cut": true,
-  "label": "Westerkerk",
-  "camera_pill": "near Keizersgracht",
-  "searches": 1835,
-  "pin": [
-   4.8839338,
-   52.3745445
-  ],
-  "camera": [
-   4.8847296,
-   52.373982
-  ],
-  "camera_source": "Commons cluster (24 photos). Moved 32 m outwards on 2026-11-10 so it is 50 m from the subject's edge, as the text says.",
-  "pin_note": "Position from OpenStreetMap way/99205257: the middle of the OpenStreetMap outline 'Westerkerk' (76 m across).",
-  "notes": "",
-  "text": {
-   "description": "The Westerkerk is a big Protestant church on the western edge of the canal ring, just beside the Jordaan, between the Prinsengracht and the Keizersgracht. It was built between 1620 and 1631 to designs by Hendrick de Keyser and finished by his son Pieter. At about 58 metres long and 29 metres wide, it is still the largest church in the Netherlands built for Protestants. The real draw for a photo is the Westertoren, the tower, which at 87 metres is the tallest church tower in Amsterdam. It ends in a spire topped with the Imperial Crown of Austria of Maximilian I, a shape that is easy to recognise even in a small phone frame.\n\nBecause the tower is so tall, the main challenge is fitting it in without it looking squashed. Include a little of the street or canal edge in the foreground to give a sense of scale, and keep the phone upright and level so the walls do not lean inwards too much. Once you have the full view, switch to a zoom lens and take a tighter shot of the crown and upper tower. The brickwork and stone details look best in soft, even light. The church is still a working place of worship, so be considerate of anyone going in or out while you take your pictures.",
-   "geographic_location": "The Westerkerk is in central Amsterdam, in the westernmost part of the Grachtengordel (canal ring) in the Centrum district. It sits between the Prinsengracht and the Keizersgracht, right next to the Jordaan. Its position on the map is the middle of the church's outline, which is about 76 m across.",
-   "directions_text": "The easiest approach is by tram: from the Marnixplein tram stop (tram 13 or tram 5) the Westerkerk lies to the south-east, about 8 minutes on foot. From the Bloemgracht tram stop (also tram 13 or tram 5) it lies to the east, also about 8 minutes on foot. If you come by metro, Rokin (metro 52, tram 14 and tram 4) is the nearest station, with the church to the north-west, about 12 minutes on foot. Centraal Station (metro 51, metro 52, metro 53, metro 54, tram 2, tram 4, tram 14, tram 17, tram 24 and tram 26) is a longer walk, with the church to the west, about 20 minutes on foot. The phone icon on the map is about 50 m south-east of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) to get the whole church and tower into one frame from close range. Then use the default lens (1x) for a calmer, less stretched view, and the telephoto (2x-5x, depending on your phone) for the crown and upper tower.",
-    "where_to_stand": "Stand about 50 m south-east of the subject, at the phone icon on the map, and face north-west.",
-    "how_to_frame": "Turn on gridlines and line the tower up with a vertical line. Keep the phone as upright as you can, because tilting it upwards makes the tower lean. Leave a little foreground at the bottom for scale, then take a second, tighter shot of the spire with the telephoto.",
-    "phone_settings_tip": "Tap on the tower to set focus, then slide the exposure down a touch so the sky stays blue and the brick keeps its detail. If you take a Live Photo, it can catch passing cyclists or boats.",
-    "best_time": "Early morning or late afternoon usually gives softer light on the brick and stone, and tends to be calmer around the church."
-   },
-   "access_note": "The church is a working place of worship, so the interior and the tower may have visiting restrictions; check the official site before you go.",
-   "claims_not_in_sources": [
-    "From about 50 m away the 87 m tower is hard to fit into a frame without the ultra-wide lens or stepping back.",
-    "Soft light in early morning or late afternoon tends to flatter brick and stone.",
-    "Early morning and late afternoon tend to be calmer around the church than midday.",
-    "The streets and canal edges around the church are normally open to the public for taking photos.",
-    "Tilting a phone upwards makes tall buildings appear to lean inwards."
-   ]
-  },
-  "checker_problems": 3,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Westerkerk",
-    "url": "https://en.wikipedia.org/wiki/Westerkerk"
-   }
-  ],
-  "pin_flags": [],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/19.jpg",
-   "artist": "Dietmar Rabich",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Westerkerk_--_2015_--_7186.jpg",
-   "from": "Wikidata Q1130722 main image"
-  }
- },
- {
-  "rank": 20,
   "name": "Munttoren",
   "in_cut": true,
   "label": "Munttoren",
@@ -1073,7 +1016,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/19.jpg",
    "artist": "The original uploader was P.H. Louw at Dutch Wikipedia.",
    "licence": "CC BY 2.5 nl",
    "licence_url": "https://creativecommons.org/licenses/by/2.5/nl/deed.en",
@@ -1082,7 +1025,64 @@
   }
  },
  {
-  "rank": 21,
+  "rank": 101,
+  "name": "Westerkerk",
+  "in_cut": false,
+  "label": "Westerkerk",
+  "camera_pill": "near Keizersgracht",
+  "searches": 1835,
+  "pin": [
+   4.8839338,
+   52.3745445
+  ],
+  "camera": [
+   4.8847296,
+   52.373982
+  ],
+  "camera_source": "Commons cluster (24 photos). Moved 32 m outwards on 2026-11-10 so it is 50 m from the subject's edge, as the text says.",
+  "pin_note": "Position from OpenStreetMap way/99205257: the middle of the OpenStreetMap outline 'Westerkerk' (76 m across).",
+  "notes": "",
+  "text": {
+   "description": "The Westerkerk is a big Protestant church on the western edge of the canal ring, just beside the Jordaan, between the Prinsengracht and the Keizersgracht. It was built between 1620 and 1631 to designs by Hendrick de Keyser and finished by his son Pieter. At about 58 metres long and 29 metres wide, it is still the largest church in the Netherlands built for Protestants. The real draw for a photo is the Westertoren, the tower, which at 87 metres is the tallest church tower in Amsterdam. It ends in a spire topped with the Imperial Crown of Austria of Maximilian I, a shape that is easy to recognise even in a small phone frame.\n\nBecause the tower is so tall, the main challenge is fitting it in without it looking squashed. Include a little of the street or canal edge in the foreground to give a sense of scale, and keep the phone upright and level so the walls do not lean inwards too much. Once you have the full view, switch to a zoom lens and take a tighter shot of the crown and upper tower. The brickwork and stone details look best in soft, even light. The church is still a working place of worship, so be considerate of anyone going in or out while you take your pictures.",
+   "geographic_location": "The Westerkerk is in central Amsterdam, in the westernmost part of the Grachtengordel (canal ring) in the Centrum district. It sits between the Prinsengracht and the Keizersgracht, right next to the Jordaan. Its position on the map is the middle of the church's outline, which is about 76 m across.",
+   "directions_text": "The easiest approach is by tram: from the Marnixplein tram stop (tram 13 or tram 5) the Westerkerk lies to the south-east, about 8 minutes on foot. From the Bloemgracht tram stop (also tram 13 or tram 5) it lies to the east, also about 8 minutes on foot. If you come by metro, Rokin (metro 52, tram 14 and tram 4) is the nearest station, with the church to the north-west, about 12 minutes on foot. Centraal Station (metro 51, metro 52, metro 53, metro 54, tram 2, tram 4, tram 14, tram 17, tram 24 and tram 26) is a longer walk, with the church to the west, about 20 minutes on foot. The phone icon on the map is about 50 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to get the whole church and tower into one frame from close range. Then use the default lens (1x) for a calmer, less stretched view, and the telephoto (2x-5x, depending on your phone) for the crown and upper tower.",
+    "where_to_stand": "Stand about 50 m south-east of the subject, at the phone icon on the map, and face north-west.",
+    "how_to_frame": "Turn on gridlines and line the tower up with a vertical line. Keep the phone as upright as you can, because tilting it upwards makes the tower lean. Leave a little foreground at the bottom for scale, then take a second, tighter shot of the spire with the telephoto.",
+    "phone_settings_tip": "Tap on the tower to set focus, then slide the exposure down a touch so the sky stays blue and the brick keeps its detail. If you take a Live Photo, it can catch passing cyclists or boats.",
+    "best_time": "Early morning or late afternoon usually gives softer light on the brick and stone, and tends to be calmer around the church."
+   },
+   "access_note": "The church is a working place of worship, so the interior and the tower may have visiting restrictions; check the official site before you go.",
+   "claims_not_in_sources": [
+    "From about 50 m away the 87 m tower is hard to fit into a frame without the ultra-wide lens or stepping back.",
+    "Soft light in early morning or late afternoon tends to flatter brick and stone.",
+    "Early morning and late afternoon tend to be calmer around the church than midday.",
+    "The streets and canal edges around the church are normally open to the public for taking photos.",
+    "Tilting a phone upwards makes tall buildings appear to lean inwards."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Westerkerk",
+    "url": "https://en.wikipedia.org/wiki/Westerkerk"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Dietmar Rabich",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Westerkerk_--_2015_--_7186.jpg",
+   "from": "Wikidata Q1130722 main image"
+  }
+ },
+ {
+  "rank": 102,
   "name": "Reguliersgracht and its seven bridges",
   "in_cut": false,
   "label": "Seven Bridges",

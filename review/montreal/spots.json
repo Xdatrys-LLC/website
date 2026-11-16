@@ -1045,9 +1045,9 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 101,
   "name": "Place d'Armes",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Place d'Armes",
   "camera_pill": null,
   "searches": 590,
@@ -1091,7 +1091,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/101.jpg",
    "artist": "Conrad Poirier",
    "licence": "Public domain",
    "licence_url": "",

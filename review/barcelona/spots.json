@@ -126,7 +126,7 @@
   "pin_note": "Position from OpenStreetMap relation/3298476: the middle of the OpenStreetMap outline 'Cathedral of Santa Eulalia' (155 m across).",
   "notes": "",
   "text": {
-   "description": "Barcelona Cathedral, properly the Cathedral of the Holy Cross and Saint Eulalia, is the seat of the archbishop of Barcelona and the centrepiece of the old Gothic Quarter. The present building was begun on 1 May 1298 and took about 150 years, with the cloister finished in 1448. The tall neo-Gothic façade that many visitors picture was added later and completed in 1913, so the front looks younger than the sides. It photographs well because the towers, pointed pinnacles and carved gargoyles give you plenty of detail, and the stone looks different in every kind of light. The sources give the bell towers as 54 metres high, with the tallest point, the central lantern tower (cimborio), reaching 70 metres. Inside the cloister, 13 white geese are kept, one for each year of Saint Eulalia's life according to tradition. That is a charming small subject if you go in. The phone icon on the map is about 100 m east of the subject. From here you see the eastern end of the building rather than the façade. The streets around are narrow, so you will probably be tilting your phone upwards, and the cathedral will not fit in one shot unless you step back. Take a wide view first, then move to closer shots of the stonework and sculpture. Expect other visitors to wander through your frame, so be patient and take a few shots.",
+   "description": "Barcelona Cathedral, properly the Cathedral of the Holy Cross and Saint Eulalia, is the seat of the archbishop of Barcelona and the centrepiece of the old Gothic Quarter. The present building was begun on 1 May 1298 and took about 150 years, with the cloister finished in 1448. The tall neo-Gothic façade that many visitors picture was added later and completed in 1913, so the front looks younger than the sides. It photographs well because the towers, pointed pinnacles and carved gargoyles give you plenty of detail, and the stone looks different in every kind of light. The sources give the bell towers as 54 metres high, with the tallest point, the central lantern tower (cimborio), reaching 70 metres. Inside the cloister, 13 white geese are kept, one for each year of Saint Eulalia's life according to tradition. That is a charming small subject if you go in. The phone icon on the map is about 100 m east of the subject. From here you see the eastern end of the building rather than the façade. The streets around are narrow, so you will probably be tilting your phone upwards, and the cathedral will not fit in one shot unless you step back. Take a wide view first, then move to closer shots of the stonework and sculpture. Expect other visitors to wander through your frame, so be patient and take a few shots. Right next to it: Gothic Quarter and the Bishop's Bridge.",
    "geographic_location": "The cathedral stands in the Gothic Quarter (Barri Gòtic) in Barcelona's old town, a short walk from Jaume I Metro station.",
    "directions_text": "Take Metro line L4 to Jaume I Metro station, which is 194 m from the cathedral, about 3 minutes on foot, and walk west towards it. Liceu Metro station (Metro line L3) is also nearby: the cathedral is 392 m to the north-east of it, about 6 minutes on foot. The phone icon on the map is about 100 m east of the subject. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
@@ -166,59 +166,6 @@
  },
  {
   "rank": 4,
-  "name": "Gothic Quarter and the Bishop's Bridge",
-  "in_cut": true,
-  "label": "Bishop's Bridge",
-  "camera_pill": "near Carrer del Bisbe",
-  "searches": 46050,
-  "pin": [
-   2.1764432,
-   41.3832769
-  ],
-  "camera": [
-   2.1767889,
-   41.3830586
-  ],
-  "camera_source": "Commons cluster (16 photos). Moved 4 m outwards on 2026-11-10 so it is 35 m from the subject's edge, as the text says.",
-  "pin_note": "Position from OpenStreetMap way/643140494: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "The neo-Gothic bridge over Carrer del Bisbe; the district around it.",
-  "text": {
-   "description": "The Bishop's Bridge (Pont del Bisbe) spans Carrer del Bisbe in the el Call area of the Gothic Quarter, the old part of Ciutat Vella. It is a good subject for a phone because the bridge arches over a narrow street, and the stone walls on either side lead the eye towards it. The result is a photo with a clear centre and plenty of depth, without any complicated setup.\n\nStart with the default lens (1x) and turn on gridlines. Place the bridge in the middle of the frame and keep the vertical lines of the walls straight, which makes the street look tidy and calm. If you want a little more of the walls and the sky above, the ultra-wide (0.5x) helps, but keep the bridge away from the very edges, where straight lines can look stretched. For a tighter, more compact view, the telephoto (2x or more, depending on your phone) brings the bridge closer and cuts out some of the street clutter.\n\nThe lanes here can be busy with people walking through, so take a few frames and pick the one with the cleanest foreground. Tap the bridge to focus, then lower the exposure slightly if the sky above the street looks too bright. A Live Photo can be handy for catching a moment when someone walks through the arch.\n\nTake your time, and look up as well as along the street.",
-   "geographic_location": "In the el Call area of the Gothic Quarter (el Gòtic) of Ciutat Vella, Barcelona, on Carrer del Bisbe.",
-   "directions_text": "From Jaume I Metro station (Metro line L4), the bridge is 203 m to the south-west, about 3 minutes on foot. From Liceu Metro station (Metro line L3), it is 350 m to the north-east, about 6 minutes on foot. The phone icon on the map is about 35 m south-east of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x). Use the ultra-wide (0.5x) if you want more of the street and walls, or the telephoto (2x or more) for a tighter view of the bridge.",
-    "where_to_stand": "Stand about 35 m south-east of the subject, at the phone icon on the map, and face north-west.",
-    "how_to_frame": "Turn on gridlines and place the bridge in the centre of the frame, keeping the walls upright. Let the street lead the eye to the arch. Wait for a gap in the people walking through before you press the shutter.",
-    "phone_settings_tip": "Tap the bridge to focus, then slide the exposure down a little if the sky looks too bright. Try a Live Photo to catch someone walking through the arch.",
-    "best_time": "Early in the morning, when the narrow street is usually quieter."
-   },
-   "access_note": "This is a street-level public location; check the official site before you go for any nearby buildings or visits.",
-   "claims_not_in_sources": [
-    "Carrer del Bisbe is a narrow street with stone walls on both sides.",
-    "The bridge crosses over the street, so it can be photographed from street level.",
-    "The street can be busy with walkers during the day and is usually quieter early in the morning.",
-    "The sky above a narrow street can look brighter than the walls in shadow, so lowering the exposure may help."
-   ]
-  },
-  "checker_problems": 3,
-  "code_check_failures": [],
-  "sources": [],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/4.jpg",
-   "artist": "VitVit",
-   "licence": "CC BY 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by/3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:V%C3%ADt_-_interi%C3%A9r.JPG",
-   "from": "Wikidata Q12018399 main image, found by searching Wikipedia for the spot's name ('Czech Gothic architecture'): check it shows this spot"
-  }
- },
- {
-  "rank": 5,
   "name": "Casa Batlló",
   "in_cut": true,
   "label": "Casa Batlló",
@@ -265,7 +212,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "ChristianSchd",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -274,7 +221,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "La Rambla",
   "in_cut": true,
   "label": "La Rambla",
@@ -317,7 +264,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "Ralf Roletschek",
    "licence": "GFDL 1.2",
    "licence_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
@@ -326,7 +273,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Plaça de Catalunya",
   "in_cut": true,
   "label": "Plaça de Catalunya",
@@ -374,7 +321,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Ralf Roletschek",
    "licence": "GFDL 1.2",
    "licence_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
@@ -383,7 +330,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Casa Milà (La Pedrera)",
   "in_cut": true,
   "label": "La Pedrera",
@@ -429,7 +376,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "Thomas Ledl",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -438,7 +385,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "La Boqueria market",
   "in_cut": true,
   "label": "La Boqueria",
@@ -487,7 +434,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Thingstodoinbarcelona",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -496,7 +443,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Barceloneta Beach",
   "in_cut": true,
   "label": "Barceloneta",
@@ -535,7 +482,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "dronepicr",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -544,7 +491,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Parc de la Ciutadella and Arc de Triomf",
   "in_cut": true,
   "label": "Ciutadella",
@@ -592,7 +539,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "SACE (Servicios Aéreos Comerciales Españoles); Rodríguez ...",
    "licence": "CC BY 1.0",
    "licence_url": "https://creativecommons.org/licenses/by/1.0",
@@ -601,7 +548,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Montjuïc Castle",
   "in_cut": true,
   "label": "Montjuïc Castle",
@@ -649,7 +596,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "C messier",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -658,7 +605,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Magic Fountain of Montjuïc",
   "in_cut": true,
   "label": "Magic Fountain",
@@ -706,7 +653,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "Wolte002",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -715,7 +662,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Bunkers del Carmel",
   "in_cut": true,
   "label": "Bunkers del Carmel",
@@ -762,7 +709,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "Toniher",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -771,7 +718,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Palau Güell",
   "in_cut": true,
   "label": "Palau Güell",
@@ -816,7 +763,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Thomas Ledl",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -825,7 +772,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Tibidabo",
   "in_cut": true,
   "label": "Tibidabo",
@@ -866,7 +813,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "jordi domènech",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -875,7 +822,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Casa Vicens",
   "in_cut": true,
   "label": "Casa Vicens",
@@ -922,7 +869,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "Canaan",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -931,7 +878,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Barcelona Pavilion",
   "in_cut": true,
   "label": "Barcelona Pavilion",
@@ -977,7 +924,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "Ashley Pomeroy at English Wikipedia",
    "licence": "CC BY 3.0",
    "licence_url": "https://creativecommons.org/licenses/by/3.0",
@@ -986,7 +933,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Palau de la Música Catalana",
   "in_cut": true,
   "label": "Palau de la Música",
@@ -1032,7 +979,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "Doomuu",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1041,7 +988,7 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 19,
   "name": "Camp Nou",
   "in_cut": true,
   "label": "Camp Nou",
@@ -1088,7 +1035,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/19.jpg",
    "artist": "Ricardo Ricote Rodrí…",
    "licence": "CC BY 3.0",
    "licence_url": "https://creativecommons.org/licenses/by/3.0",
@@ -1097,7 +1044,60 @@
   }
  },
  {
-  "rank": 21,
+  "rank": 101,
+  "name": "Gothic Quarter and the Bishop's Bridge",
+  "in_cut": false,
+  "label": "Bishop's Bridge",
+  "camera_pill": "near Carrer del Bisbe",
+  "searches": 46050,
+  "pin": [
+   2.1764432,
+   41.3832769
+  ],
+  "camera": [
+   2.1767889,
+   41.3830586
+  ],
+  "camera_source": "Commons cluster (16 photos). Moved 4 m outwards on 2026-11-10 so it is 35 m from the subject's edge, as the text says.",
+  "pin_note": "Position from OpenStreetMap way/643140494: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "The neo-Gothic bridge over Carrer del Bisbe; the district around it.",
+  "text": {
+   "description": "The Bishop's Bridge (Pont del Bisbe) spans Carrer del Bisbe in the el Call area of the Gothic Quarter, the old part of Ciutat Vella. It is a good subject for a phone because the bridge arches over a narrow street, and the stone walls on either side lead the eye towards it. The result is a photo with a clear centre and plenty of depth, without any complicated setup.\n\nStart with the default lens (1x) and turn on gridlines. Place the bridge in the middle of the frame and keep the vertical lines of the walls straight, which makes the street look tidy and calm. If you want a little more of the walls and the sky above, the ultra-wide (0.5x) helps, but keep the bridge away from the very edges, where straight lines can look stretched. For a tighter, more compact view, the telephoto (2x or more, depending on your phone) brings the bridge closer and cuts out some of the street clutter.\n\nThe lanes here can be busy with people walking through, so take a few frames and pick the one with the cleanest foreground. Tap the bridge to focus, then lower the exposure slightly if the sky above the street looks too bright. A Live Photo can be handy for catching a moment when someone walks through the arch.\n\nTake your time, and look up as well as along the street.",
+   "geographic_location": "In the el Call area of the Gothic Quarter (el Gòtic) of Ciutat Vella, Barcelona, on Carrer del Bisbe.",
+   "directions_text": "From Jaume I Metro station (Metro line L4), the bridge is 203 m to the south-west, about 3 minutes on foot. From Liceu Metro station (Metro line L3), it is 350 m to the north-east, about 6 minutes on foot. The phone icon on the map is about 35 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x). Use the ultra-wide (0.5x) if you want more of the street and walls, or the telephoto (2x or more) for a tighter view of the bridge.",
+    "where_to_stand": "Stand about 35 m south-east of the subject, at the phone icon on the map, and face north-west.",
+    "how_to_frame": "Turn on gridlines and place the bridge in the centre of the frame, keeping the walls upright. Let the street lead the eye to the arch. Wait for a gap in the people walking through before you press the shutter.",
+    "phone_settings_tip": "Tap the bridge to focus, then slide the exposure down a little if the sky looks too bright. Try a Live Photo to catch someone walking through the arch.",
+    "best_time": "Early in the morning, when the narrow street is usually quieter."
+   },
+   "access_note": "This is a street-level public location; check the official site before you go for any nearby buildings or visits.",
+   "claims_not_in_sources": [
+    "Carrer del Bisbe is a narrow street with stone walls on both sides.",
+    "The bridge crosses over the street, so it can be photographed from street level.",
+    "The street can be busy with walkers during the day and is usually quieter early in the morning.",
+    "The sky above a narrow street can look brighter than the walls in shadow, so lowering the exposure may help."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "VitVit",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:V%C3%ADt_-_interi%C3%A9r.JPG",
+   "from": "Wikidata Q12018399 main image, found by searching Wikipedia for the spot's name ('Czech Gothic architecture'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 102,
   "name": "MNAC steps and terrace",
   "in_cut": false,
   "label": "MNAC",
@@ -1128,7 +1128,7 @@
   "photo": null
  },
  {
-  "rank": 22,
+  "rank": 103,
   "name": "Sant Pau Recinte Modernista",
   "in_cut": false,
   "label": "Sant Pau",
@@ -1159,7 +1159,7 @@
   "photo": null
  },
  {
-  "rank": 23,
+  "rank": 104,
   "name": "Columbus Monument and Port Vell",
   "in_cut": false,
   "label": "Columbus Monument",
@@ -1190,7 +1190,7 @@
   "photo": null
  },
  {
-  "rank": 24,
+  "rank": 105,
   "name": "Santa Maria del Mar",
   "in_cut": false,
   "label": "Santa Maria del Mar",

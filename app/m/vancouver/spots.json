@@ -65,23 +65,23 @@
   "camera_pill": "near Cambie Street",
   "searches": 27340,
   "pin": [
-   -123.110953,
-   49.284688
+   -123.10889,
+   49.2843841
   ],
   "camera": [
    -123.108804,
    49.284318
   ],
   "camera_source": "Researched viewpoint 'Water Street' (3 web pages); placed at crossing of Water Street and Cambie Street (our map tiles).",
-  "pin_note": "Position from the Wikipedia article 'Gastown'.",
+  "pin_note": "Position set at the correction gate (2026-11-15T10:00).",
   "notes": "",
   "text": {
-   "description": "Gastown is Vancouver's oldest neighbourhood, named after \"Gassy\" Jack Deighton, a Yorkshire seaman who opened a saloon here in 1867. Its best-known photo subject is the steam clock on the corner of Water and Cambie Streets. The clock was built in 1977 over a steam grate, and it runs on steam from the downtown heating network. Steam also sounds its whistles, which play a Westminster-style chime. It has four faces, a domed top and, on a cold day, plumes of steam, with the brick heritage buildings of Water Street behind. That mix of old brick and a quirky machine is why it photographs so well. Gastown became a National Historic Site of Canada in 2009. The clock itself is a modern invention, though it is promoted as a heritage feature.\n\nThe phone icon on the map is on the south side of Water Street, facing the clock, which gives an open view of the steam above the dome. Arrive three or four minutes before a quarter hour to catch the whistle and the steam. Crowds gather, especially at the top of the hour and at midday in summer, so be patient and keep out of the walking path. If you have time, Maple Tree Square and the narrow Blood Alley are worth a few more frames, particularly after dark when the lamps are lit.",
+   "description": "Gastown is Vancouver's oldest neighbourhood, named after \"Gassy\" Jack Deighton, a Yorkshire seaman who opened a saloon here in 1867. Its best-known photo subject is the steam clock on the corner of Water and Cambie Streets. The clock was built in 1977 over a steam grate, and it runs on steam from the downtown heating network. Steam also sounds its whistles, which play a Westminster-style chime. It has four faces, a domed top and, on a cold day, plumes of steam, with the brick heritage buildings of Water Street behind. That mix of old brick and a quirky machine is why it photographs so well. Gastown became a National Historic Site of Canada in 2009. The clock itself is a modern invention, though it is promoted as a heritage feature.\n\nArrive three or four minutes before a quarter hour to catch the whistle and the steam. Crowds gather, especially at the top of the hour and at midday in summer, so be patient and keep out of the walking path. If you have time, Maple Tree Square and the narrow Blood Alley are worth a few more frames, particularly after dark when the lamps are lit.",
    "geographic_location": "In Gastown, in the north-west part of the Downtown Eastside next to Downtown Vancouver, at the corner of Water Street and Cambie Street, just back from the Burrard Inlet waterfront.",
-   "directions_text": "Take the SkyTrain Expo Line or Canada Line to Waterfront station, then head south-east; it is about 3 minutes on foot. Alternatively, use Granville station on the SkyTrain Expo Line and walk north-east, about 6 minutes on foot. From either station, the clock is to the west of the phone icon on the map. The phone icon on the map is about 160 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the SkyTrain Expo Line or Canada Line to Waterfront station, then head south-east; it is about 3 minutes on foot. Alternatively, use Granville station on the SkyTrain Expo Line and walk north-east, about 6 minutes on foot. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole clock with the brick buildings behind it. Switch to 2x or 3x telephoto if you want the dome and steam without the crowd around the base.",
-    "where_to_stand": "Stand about 160 m east of the subject, at the corner of Water Street and Cambie Street (the phone icon on the map), and face west. From here the full clock with its domed top and steam plumes sits against the brick heritage buildings behind it. Stay out of the pedestrian walking path while you shoot.",
+    "where_to_stand": "Stand at the corner of Water Street and Cambie Street, right in front of the subject: the phone icon on the map marks the spot. From here the full clock with its domed top and steam plumes sits against the brick heritage buildings behind it. Stay out of the pedestrian walking path while you shoot.",
     "how_to_frame": "Turn on gridlines and keep the clock upright in the centre or just off to one side, leaving space above the dome for the steam. For an alternative, try Maple Tree Square with its Victorian brick corners and a view down Carrall Street. The Gassy Jack statue is no longer there to frame.",
     "phone_settings_tip": "Tap on the clock to set focus, then drag the exposure slider down a little so the steam stays white and the sky does not wash out. Turn on Live Photos or motion to catch the steam moving. After dark, use night mode and hold the phone steady against your body or a wall.",
     "best_time": "Arrive 3-4 minutes before a quarter hour for the whistle. The steam shows best on cold days, from late autumn to March. Crowds gather especially at the top of the hour and at midday in summer."
@@ -101,10 +101,7 @@
     "url": "https://en.wikipedia.org/wiki/Gastown"
    }
   ],
-  "pin_flags": [
-   "area name label only (place=neighbourhood): check the pin",
-   "OpenStreetMap object 361 m away (Gastown): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/2.jpg",

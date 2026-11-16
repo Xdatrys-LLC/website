@@ -72,7 +72,7 @@
   "pin_note": "Position from OpenStreetMap way/332635708: the middle of the OpenStreetMap outline 'Stortorget' (76 m across).",
   "notes": "The coloured houses on the square.",
   "text": {
-   "description": "Stortorget, the \"Grand Square\", is the oldest square in Stockholm and the historic heart of Gamla Stan, the old town. It never was a grand showpiece. The buildings around it were added gradually and a little haphazardly, which gives the square an uneven, lived-in look that suits photos well. The northern side is taken up by the Stock Exchange Building (Börshuset), designed by Erik Palmstedt and built between 1773 and 1776. Its rounded corner and lantern-style cupola are easy to spot. Today it houses the Swedish Academy and the Nobel Museum. In the square itself there is an old well, also by Palmstedt. Around the edges you will find tall, colourful town houses. One of them, number 3 (Grillska huset), has cloverleaf-shaped gables added in 1718 and a blue façade. The square is known for its Christmas market, when it is busy and full of colour. For a good photo, include a little of the cobbled ground in the foreground so the viewer feels the size of the space. Then let the façades fill the rest. Keep the phone level so the vertical lines of the buildings stay straight. If you want a close-up, look for the gables and the rounded corner of the Stock Exchange Building.",
+   "description": "Stortorget, the \"Grand Square\", is the oldest square in Stockholm and the historic heart of Gamla Stan, the old town. It never was a grand showpiece. The buildings around it were added gradually and a little haphazardly, which gives the square an uneven, lived-in look that suits photos well. The northern side is taken up by the Stock Exchange Building (Börshuset), designed by Erik Palmstedt and built between 1773 and 1776. Its rounded corner and lantern-style cupola are easy to spot. Today it houses the Swedish Academy and the Nobel Museum. In the square itself there is an old well, also by Palmstedt. Around the edges you will find tall, colourful town houses. One of them, number 3 (Grillska huset), has cloverleaf-shaped gables added in 1718 and a blue façade. The square is known for its Christmas market, when it is busy and full of colour. For a good photo, include a little of the cobbled ground in the foreground so the viewer feels the size of the space. Then let the façades fill the rest. Keep the phone level so the vertical lines of the buildings stay straight. If you want a close-up, look for the gables and the rounded corner of the Stock Exchange Building. Right next to it: Stockholm Cathedral (Storkyrkan). Right next to it: German Church.",
    "geographic_location": "Stortorget is in the middle of Gamla Stan, the old town in central Stockholm, on the plateau of the island of Stadsholmen. The Stock Exchange Building stands on its northern side.",
    "directions_text": "Head for Gamla Stan, the old town in central Stockholm, and continue on foot. The square lies in the middle of the island. The phone icon on the map is about 10 m south-east of the subject. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
@@ -690,61 +690,6 @@
  },
  {
   "rank": 14,
-  "name": "Stockholm Cathedral (Storkyrkan)",
-  "in_cut": true,
-  "label": "Storkyrkan",
-  "camera_pill": null,
-  "searches": 1540,
-  "pin": [
-   18.0704018,
-   59.3257901
-  ],
-  "camera": [
-   18.07045,
-   59.32602
-  ],
-  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
-  "pin_note": "Position from OpenStreetMap way/8049504: the middle of the OpenStreetMap outline 'Great Church' (93 m across).",
-  "notes": "",
-  "text": {
-   "description": "Storkyrkan, also called Stockholm Cathedral, is the oldest church in Stockholm. It sits at the highest point of Gamla stan, wedged between Stockholm Palace and the old square of Stortorget. It was dedicated in 1306, though building probably began in the 13th century. Inside, it keeps much of its late medieval character. Outside, it looks uniformly Baroque, the result of big changes made in the 18th century. That mix of old history and tidy Baroque walls is what makes it satisfying to photograph: the façade is calm and solid, and it sits among other grand buildings of the same period. The church has long royal links. It was used for coronations for centuries, and Crown Princess Victoria married there in 2010. Beside the east wall, facing Slottsbacken, stands a statue of the reformer Olaus Petri, unveiled in 1898. It makes a good foreground detail. In the pavement there, lines mark where an older church choir once stood. A small courtyard lies just south of the church, with wrought iron gates and statues on the west gate posts dating from 1675. The church is surrounded on three sides by streets, with the courtyard to the south. Plan on tall, angled shots and on detail pictures rather than one wide view. Check the official site before you go if you want to photograph inside.",
-   "geographic_location": "In the centre of Gamla stan, the old town of Stockholm, between Stockholm Palace and Stortorget, next to the Stock Exchange Building.",
-   "directions_text": "Make your way to Gamla stan and aim for Stockholm Palace or the square of Stortorget; the church lies between the two. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x), because you are close to a large building. Switch to the default lens (1x) for calmer, more natural-looking shots. Use the telephoto (2x-5x, depending on your phone) for details such as the Olaus Petri statue, the gates and the roofline.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot.",
-    "how_to_frame": "Turn on gridlines and line them up with the walls and corners so the building does not lean. Hold the phone level and step back as far as the street allows before tilting up. If you want a people-free foreground, try a low angle with the statue or the pavement lines near the east side.",
-    "phone_settings_tip": "Tap on the church wall to set focus, then slide the exposure down a little if the sky is bright, so the façade keeps its colour and detail. Take a couple of frames in case a passer-by walks into the shot.",
-    "best_time": "Early morning or later in the afternoon usually gives softer light and quieter streets, but check how the light falls on the day."
-   },
-   "access_note": "The outside can be photographed from the surrounding streets, but this is a working church, so check the official site before you go for visiting times, any entry rules and whether photography inside is allowed.",
-   "claims_not_in_sources": [
-    "Early morning or later afternoon usually gives softer light and quieter streets around the church.",
-    "Entry rules, visiting times and photography inside may vary, so they should be checked on the official site."
-   ]
-  },
-  "checker_problems": 4,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Storkyrkan",
-    "url": "https://en.wikipedia.org/wiki/Storkyrkan"
-   }
-  ],
-  "pin_flags": [],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/14.jpg",
-   "artist": "© Xdatrys LLC",
-   "licence": "",
-   "licence_url": "",
-   "source_url": "",
-   "from": "Own photo, taken 8 m from the phone icon",
-   "zoom": 1.0
-  }
- },
- {
-  "rank": 15,
   "name": "Riddarholmen Church",
   "in_cut": true,
   "label": "Riddarholmen Church",
@@ -787,7 +732,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Nordelch",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -796,7 +741,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Nationalmuseum",
   "in_cut": true,
   "label": "Nationalmuseum",
@@ -839,7 +784,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -849,7 +794,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Mårten Trotzigs gränd",
   "in_cut": true,
   "label": "Mårten Trotzigs gränd",
@@ -892,7 +837,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -902,7 +847,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Skeppsholmen Bridge and its crowns",
   "in_cut": true,
   "label": "Skeppsholmsbron",
@@ -943,7 +888,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -953,7 +898,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Royal Palace east front and Logårdstrappan",
   "in_cut": true,
   "label": "Logårdstrappan",
@@ -993,7 +938,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -1003,9 +948,64 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 101,
+  "name": "Stockholm Cathedral (Storkyrkan)",
+  "in_cut": false,
+  "label": "Storkyrkan",
+  "camera_pill": null,
+  "searches": 1540,
+  "pin": [
+   18.0704018,
+   59.3257901
+  ],
+  "camera": [
+   18.07045,
+   59.32602
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
+  "pin_note": "Position from OpenStreetMap way/8049504: the middle of the OpenStreetMap outline 'Great Church' (93 m across).",
+  "notes": "",
+  "text": {
+   "description": "Storkyrkan, also called Stockholm Cathedral, is the oldest church in Stockholm. It sits at the highest point of Gamla stan, wedged between Stockholm Palace and the old square of Stortorget. It was dedicated in 1306, though building probably began in the 13th century. Inside, it keeps much of its late medieval character. Outside, it looks uniformly Baroque, the result of big changes made in the 18th century. That mix of old history and tidy Baroque walls is what makes it satisfying to photograph: the façade is calm and solid, and it sits among other grand buildings of the same period. The church has long royal links. It was used for coronations for centuries, and Crown Princess Victoria married there in 2010. Beside the east wall, facing Slottsbacken, stands a statue of the reformer Olaus Petri, unveiled in 1898. It makes a good foreground detail. In the pavement there, lines mark where an older church choir once stood. A small courtyard lies just south of the church, with wrought iron gates and statues on the west gate posts dating from 1675. The church is surrounded on three sides by streets, with the courtyard to the south. Plan on tall, angled shots and on detail pictures rather than one wide view. Check the official site before you go if you want to photograph inside.",
+   "geographic_location": "In the centre of Gamla stan, the old town of Stockholm, between Stockholm Palace and Stortorget, next to the Stock Exchange Building.",
+   "directions_text": "Make your way to Gamla stan and aim for Stockholm Palace or the square of Stortorget; the church lies between the two. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x), because you are close to a large building. Switch to the default lens (1x) for calmer, more natural-looking shots. Use the telephoto (2x-5x, depending on your phone) for details such as the Olaus Petri statue, the gates and the roofline.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot.",
+    "how_to_frame": "Turn on gridlines and line them up with the walls and corners so the building does not lean. Hold the phone level and step back as far as the street allows before tilting up. If you want a people-free foreground, try a low angle with the statue or the pavement lines near the east side.",
+    "phone_settings_tip": "Tap on the church wall to set focus, then slide the exposure down a little if the sky is bright, so the façade keeps its colour and detail. Take a couple of frames in case a passer-by walks into the shot.",
+    "best_time": "Early morning or later in the afternoon usually gives softer light and quieter streets, but check how the light falls on the day."
+   },
+   "access_note": "The outside can be photographed from the surrounding streets, but this is a working church, so check the official site before you go for visiting times, any entry rules and whether photography inside is allowed.",
+   "claims_not_in_sources": [
+    "Early morning or later afternoon usually gives softer light and quieter streets around the church.",
+    "Entry rules, visiting times and photography inside may vary, so they should be checked on the official site."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Storkyrkan",
+    "url": "https://en.wikipedia.org/wiki/Storkyrkan"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 8 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 102,
   "name": "German Church",
-  "in_cut": true,
+  "in_cut": false,
   "label": "German Church",
   "camera_pill": null,
   "searches": 70,
@@ -1046,7 +1046,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/102.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
