@@ -24,6 +24,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "basseterre",
+  "place": "Basseterre",
+  "country": "Saint Kitts and Nevis",
+  "spots": 5,
+  "mb": 1.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "bergen",
   "place": "Bergen",
   "country": "Norway",

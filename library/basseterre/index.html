@@ -1,0 +1,311 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Basseterre Attractions Map: 5 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 5 best photo spots in Basseterre, including Port Zante and Independence Square: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="port zante, independence square">
+<link rel="canonical" href="https://xdatrys.com/library/basseterre/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Basseterre Attractions Map: 5 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 5 best photo spots in Basseterre, including Port Zante and Independence Square: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/basseterre/">
+<meta property="og:image" content="https://xdatrys.com/library/basseterre/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="375">
+<meta property="og:image:alt" content="Port Zante, Basseterre: the cruise port at the heart of Basseterre. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/basseterre/","url":"https://xdatrys.com/library/basseterre/","name":"Basseterre Attractions Map: 5 Best Photo Spots | Xdatrys","description":"Map of the 5 best photo spots in Basseterre, including Port Zante and Independence Square: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/basseterre/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Basseterre"},"mainEntity":{"@type":"ItemList","name":"Basseterre photo spots","numberOfItems":5,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Port Zante","description":"Port Zante is the cruise port at the heart of Basseterre, the capital of Saint Kitts and Nevis.","geo":{"@type":"GeoCoordinates","latitude":17.2960919,"longitude":-62.722301},"alternateName":["Basseterre Port Zante","Port Zante Cruise"],"image":"https://xdatrys.com/library/basseterre/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Independence Square","description":"Independence Square is an open public square in the middle of Basseterre.","geo":{"@type":"GeoCoordinates","latitude":17.2960857,"longitude":-62.7223217},"alternateName":["Basseterre Independence Square"],"image":"https://xdatrys.com/library/basseterre/photos/2.jpg"}},{"@type":"ListItem","position":5,"item":{"@type":"TouristAttraction","name":"Basseterre Co-Cathedral of Immaculate Conception","description":"The Co-Cathedral of the Immaculate Conception is a Roman Catholic co-cathedral in Basseterre, and the grey stone building closes off the eastern side of Independence Square.","geo":{"@type":"GeoCoordinates","latitude":17.29636111,"longitude":-62.72152778},"alternateName":["Basseterre Co-cathedral","Basseterre Cathedral"],"image":"https://xdatrys.com/library/basseterre/photos/5.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/basseterre/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Basseterre","item":"https://xdatrys.com/library/basseterre/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Basseterre?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Port Zante, Independence Square and Government House. They are ranked by how often people search for them. The full map has 5."}},{"@type":"Question","name":"Where should I stand to photograph Port Zante?","acceptedAnswer":{"@type":"Answer","text":"Stand right at Port Zante: the phone icon on the map marks the spot. Start with the ultra-wide (0.5x) to fit a whole ship and the length of the pier into one frame."}},{"@type":"Question","name":"When is the best time to photograph Independence Square?","acceptedAnswer":{"@type":"Answer","text":"Early morning or late afternoon usually gives softer light and fewer people, but the square can be photographed at any time of day."}},{"@type":"Question","name":"How do I get to the Immaculate Conception?","acceptedAnswer":{"@type":"Answer","text":"No Underground, tram or railway stops are listed for Basseterre, so head for Independence Square in the town centre."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Basseterre</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/basseterre/?gate" style="color:#E100FF">✏️ Review all 5 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>5 photo spots in Basseterre: where to stand and how to shoot them on your phone</h1>
+  <p>5 photo spots on one map. Spots 1, 2 and 5 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 2 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 5 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/basseterre/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 5 photo spots in Basseterre"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 5 of the most-searched sights in Basseterre as photo spots, ranked by how often people search for them: Port Zante, Independence Square, Government House, National Museum and Immaculate Conception lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Port Zante</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Basseterre.jpeg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Port Zante, Basseterre: the cruise port at the heart of Basseterre. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: J. Stephen Conn, <a href="https://creativecommons.org/licenses/by-sa/1.0" target="_blank" rel="noopener license">CC BY-SA 1.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Port Zante is the cruise port at the heart of Basseterre, the capital of Saint Kitts and Nevis. It sits in the middle of Basseterre Bay on about 15 acres of land reclaimed from the sea in 1995, so it feels like a small waterfront quarter pushed out into the water. Its photo appeal is simple: big ships tied up at the piers, blue Caribbean water, and the island of Nevis as a backdrop. The green hills that wrap around the town add colour behind you when you turn round.</p><p>The best view is from the promenade along the berthed piers, looking out over the ships. The port&#39;s own guide also points to the entrance arch and the green-roofed plaza buildings, which make good close-up and street-scene shots. Two large ships can berth at once, and the port gets busy on arrival days, so try to shoot between arrivals if you can.</p><p>For a wider picture, the waterfront near the Treasury Building gives a view across the harbour that takes in the cruise berths and the town together. It is a good second shot if you have time.</p><p>Basseterre itself was founded by the French in 1627, which makes it one of the older towns in the Eastern Caribbean. Give yourself a few minutes to walk the length of the promenade, as the angle on the ships changes as you go.</p>
+    <p><b>Where it is:</b> Port Zante is in the centre of Basseterre Bay, on the waterfront of Basseterre, the capital of Saint Kitts. It is the town&#39;s cruise port.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit a whole ship and the length of the pier into one frame. Use the default lens (1x) for the entrance arch and the green-roofed plaza buildings. Use the telephoto (2x-5x, depending on your phone) to pick out Nevis on the horizon behind the ships.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. Stand on Port Zante, on the promenade along the berthed cruise piers, and look out over the ships.</p>
+      <p><b>Framing:</b> Switch on the gridlines and put the ship&#39;s waterline along a lower grid line so the sea and sky are balanced. Keep the horizon level. Leave a little water in front of the ship so it does not look cramped against the edge of the picture. For a different view, walk to the waterfront near the Treasury Building for a wider shot across the harbour that takes in the berths and the town together.</p>
+      <p><b>Settings tip:</b> Tap on the ship&#39;s hull to set focus, then slide the exposure down a little if the sky is bright so the white paint keeps its detail. Wipe the lens first, as sea air leaves a film on it.</p>
+      <p><b>Best time:</b> Shoot between ship arrivals, when the promenade is quieter and the berths are clearer. Earlier or later in the day usually gives softer light and cooler colour than the middle of the day.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Independence Square</h3>
+    <figure><img src="photos/2.jpg" alt="Independence Square, Basseterre: an open public square. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Independence Square is an open public square in the middle of Basseterre. It was first called Pall Mall Square, and the Government acquired it in 1750. It soon became the administrative, commercial and social centre of the town. It was renamed to mark St Kitts and Nevis becoming independent on 19 September 1983.</p><p>The square also has a painful past. It was a place where enslaved men, women and children were sold, on the spot where the fountain now stands. On the south side of the square, a building has a basement with barred windows that is still visible today. It is thought to have been used as an auction house. It is worth taking a quiet moment here before you start photographing.</p><p>On a phone, the square works best as a wide, open scene. The fountain gives you a natural centre point, and the buildings on the south side can frame the view. Stand back and let the space show, then move closer for details such as the fountain and the barred basement windows. Walk around a little, because the view changes as you move, and small changes in position can keep passers-by out of the frame. Take your time and be respectful if other visitors are reading or reflecting.</p>
+    <p><b>Where it is:</b> Independence Square is in the centre of Basseterre, in Saint George Basseterre Parish, on the island of Saint Kitts. It was the administrative, commercial and social centre of Basseterre.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to take in the whole square, then switch to the default lens (1x) for the fountain and the buildings on the south side. Use the telephoto (2x-5x, depending on your phone) for details on the south side, such as the barred basement windows.</p>
+      <p><b>Where to stand:</b> Stand about 50 m north-west of the subject, at the phone icon on the map, and face south-east.</p>
+      <p><b>Framing:</b> Switch on gridlines and place the fountain on a crossing point rather than dead centre. Keep the horizon level and the building edges upright. Include a little foreground, such as paving or planting, to give a sense of depth. For a detail shot, use the telephoto to isolate the barred windows of the basement on the south side, and keep the frame simple and unposed.</p>
+      <p><b>Settings tip:</b> Tap on the fountain or the buildings on the south side to set focus, then drag the exposure slider down a touch if the sky is bright, so the sky keeps its colour and the buildings do not turn too dark. Use the ultra-wide sparingly: keep the phone level, as tilting it will bend the buildings at the edges.</p>
+      <p><b>Best time:</b> Early morning or late afternoon usually gives softer light and fewer people, but the square can be photographed at any time of day.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-5">
+    <h3><span class="n">5</span>Basseterre Co-Cathedral of Immaculate Conception</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Basseterre_Co-Cathedral_of_Immaculate_Conception_2.JPG" target="_blank" rel="noopener"><img src="photos/5.jpg" alt="Basseterre Co-Cathedral of Immaculate Conception, Basseterre: a Roman Catholic co-cathedral. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Gertjan R., <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Co-Cathedral of the Immaculate Conception is a Roman Catholic co-cathedral in Basseterre, and the grey stone building closes off the eastern side of Independence Square. That makes it an easy subject for a phone: a wide, open foreground with the square&#39;s fountain, and the cathedral filling the far side. Catholic worship in the town goes back to the French period, when the Jesuits built a church in the town. Catholics were later barred from worshipping in public under English rule, and the community grew again after 1829 and with settlers arriving from Madeira from 1835. A church of about 1856 was pulled down in 1927 and replaced on the same site. The present building was designed by Father Claeys and dedicated on 6 December 1928. For the classic view, start on the west side of the square and face east, with the fountain low in the frame and the cathedral behind it. Then walk over to the cathedral for a closer look at the front and the towers, where a tall traveller&#39;s palm stands beside the building. Photo guides say the interior, with its altar and stained glass, is worth a picture too. Services are held here, so go outside Mass times, keep your phone quiet and don&#39;t use flash.</p>
+    <p><b>Where it is:</b> In the centre of Basseterre, on the east side of Independence Square, just south of North Independence Street.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the square, fountain and cathedral together. Switch to ultra-wide (0.5x) if you want more of the square, or if you are close to the front and need to fit the whole facade in. Use the telephoto (2x-5x, depending on your phone) for the towers and details.</p>
+      <p><b>Where to stand:</b> Stand in Independence Square (west side of the square, facing east toward the cathedral). The grey stone cathedral filling the far side of the square, with the square&#39;s fountain in the foreground. Facing east toward the cathedral.</p>
+      <p><b>Framing:</b> Turn on gridlines and put the fountain on a lower third line, with the cathedral&#39;s towers in the upper part of the frame. Keep your phone level so the building doesn&#39;t lean. If you want a second angle, walk over to the cathedral for a closer shot of the facade and towers, with the tall traveller&#39;s palm beside the building.</p>
+      <p><b>Settings tip:</b> Tap the cathedral to focus, then lower the exposure slider a little if the sky is bright, so the grey stonework keeps its detail. Inside, use night mode only if you can hold the phone still, and keep flash off.</p>
+      <p><b>Best time:</b> Choose a time when the sun is not directly behind the cathedral. Outside, mornings and late afternoons are usually easier for light. Visit the interior outside service times.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(5)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>2 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">3</span>Government House, Basseterre <small>· members</small></li>
+    <li><span class="n">4</span>National Museum of Saint Kitts <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Basseterre?</summary><p>The first three on this map are Port Zante, Independence Square and Government House. They are ranked by how often people search for them. The full map has 5.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Port Zante?</summary><p>Stand right at Port Zante: the phone icon on the map marks the spot. Start with the ultra-wide (0.5x) to fit a whole ship and the length of the pier into one frame.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Independence Square?</summary><p>Early morning or late afternoon usually gives softer light and fewer people, but the square can be photographed at any time of day.</p></details>
+  <details class="faq"><summary>How do I get to the Immaculate Conception?</summary><p>No Underground, tram or railway stops are listed for Basseterre, so head for Independence Square in the town centre.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Basseterre" target="_blank" rel="noopener">Basseterre</a>, <a href="https://en.wikipedia.org/wiki/Independence_Square_%28Basseterre%29" target="_blank" rel="noopener">Independence Square (Basseterre)</a>, <a href="https://en.wikipedia.org/wiki/Basseterre_Co-Cathedral_of_Immaculate_Conception" target="_blank" rel="noopener">Basseterre Co-Cathedral of Immaculate Conception</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"basseterre","place":"Basseterre","bounds":[-62.738,17.286,-62.714,17.303],"center":[-62.726,17.2945],"english":false,"vatican":false,"tiles":"/r2tiles/basseterre/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 5"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

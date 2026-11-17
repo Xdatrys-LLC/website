@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "basseterre", "title": "Basseterre: 5 photo spots (pilot review)", "place": "Basseterre", "bounds": [-62.738, 17.286, -62.714, 17.303], "center": [-62.726, 17.2945], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/basseterre/{z}/{x}/{y}.pbf", "tz": "America/St_Kitts", "rail": false, "app": true};
