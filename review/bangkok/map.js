@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "bangkok", "title": "Bangkok: 18 photo spots (pilot review)", "place": "Bangkok", "bounds": [100.47, 13.695, 100.56, 13.775], "center": [100.515, 13.735], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bangkok/{z}/{x}/{y}.pbf"};
