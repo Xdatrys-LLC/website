@@ -176,6 +176,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "pittsburgh",
+  "place": "Pittsburgh",
+  "country": "United States",
+  "spots": 17,
+  "mb": 7.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "prague",
   "place": "Prague",
   "country": "Czech Republic Czechia",
