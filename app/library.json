@@ -32,6 +32,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "cardiff",
+  "place": "Cardiff",
+  "country": "United Kingdom",
+  "spots": 17,
+  "mb": 5.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "copenhagen",
   "place": "Copenhagen",
   "country": "",

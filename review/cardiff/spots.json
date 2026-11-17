@@ -339,18 +339,18 @@
   "nophone": true,
   "searches": 320,
   "pin": [
-   -3.189,
-   51.489
+   -3.1856967,
+   51.4850557
   ],
   "camera": [
-   -3.189,
-   51.489
+   -3.1856967,
+   51.4850557
   ],
   "camera_source": "Researched viewpoint 'Millennium Bridge' (1 web pages); placed at OpenStreetMap 'Millennium Bridge' (way/173632648): middle (63 m across); moved 15 m off water.",
-  "pin_note": "Position from Wikidata Q3399164 (coordinate location).",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-16: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Large park along the River Taff behind the castle.",
   "text": {
-   "description": "Bute Park is a big, green stretch of central Cardiff: 130 acres (53 ha) of parkland, tree-lined avenues and gardens that once formed the grounds of Cardiff Castle. It runs along the east bank of the River Taff, which gives you water, trees and open lawns in one frame. The park was laid out from 1873 by Andrew Pettigrew, head gardener to the 3rd Marquess of Bute, and was handed to Cardiff's council in 1947. The park and the castle grounds are listed Grade I for their special historic interest. For a first photo, stand on the Millennium Bridge. From there the red footbridge, the river and the park's trees come together in one easy picture. If you have time, two other places are worth a look. Cooper's Field gives a view of the castle's clock tower rising above mature trees. Blackweir Bridge looks onto the river and a tumbling weir. Along the way you may spot William Burges's Animal Wall, a stone wall topped with sculpted animal heads, and the Summerhouse kiosk, built in 2010. Keep your phone steady and take a few frames of each scene, because the light under the trees changes quickly. Check the official site before you go in case of closures or event set-ups.",
+   "description": "Bute Park is a big, green stretch of central Cardiff: 130 acres (53 ha) of parkland, tree-lined avenues and gardens that once formed the grounds of Cardiff Castle. It runs along the east bank of the River Taff, which gives you water, trees and open lawns in one frame. The park was laid out from 1873 by Andrew Pettigrew, head gardener to the 3rd Marquess of Bute, and was handed to Cardiff's council in 1947. The park and the castle grounds are listed Grade I for their special historic interest. From there the red footbridge, the river and the park's trees come together in one easy picture. If you have time, two other places are worth a look. Cooper's Field gives a view of the castle's clock tower rising above mature trees. Blackweir Bridge looks onto the river and a tumbling weir. Along the way you may spot William Burges's Animal Wall, a stone wall topped with sculpted animal heads, and the Summerhouse kiosk, built in 2010. Keep your phone steady and take a few frames of each scene, because the light under the trees changes quickly. Check the official site before you go in case of closures or event set-ups.",
    "geographic_location": "Bute Park lies in central Cardiff, along the east bank of the River Taff and next to Cardiff Castle. Sophia Gardens and Pontcanna Fields are on the opposite bank, reached by footbridges.",
    "directions_text": "No station or tram stop is listed for this spot, so start from Cardiff city centre and head on foot towards the Summerhouse kiosk by the river. The Millennium Bridge is close to the kiosk. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
@@ -372,10 +372,7 @@
     "url": "https://en.wikipedia.org/wiki/Bute_Park"
    }
   ],
-  "pin_flags": [
-   "large area: check the pin",
-   "OpenStreetMap object 495 m away (Bute Park): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/7.jpg",

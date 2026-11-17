@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "cardiff", "title": "Cardiff: 17 photo spots (pilot review)", "place": "Cardiff", "bounds": [-3.195, 51.455, -3.155, 51.492], "center": [-3.175, 51.4735], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/cardiff/{z}/{x}/{y}.pbf", "tz": "Europe/London", "rail": true, "app": true};
