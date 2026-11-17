@@ -272,6 +272,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "molde",
+  "place": "Molde",
+  "country": "Norway",
+  "spots": 6,
+  "mb": 2.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "montreal",
   "place": "Montreal",
   "country": "Canada Quebec",
