@@ -24,6 +24,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "bergen",
+  "place": "Bergen",
+  "country": "Norway",
+  "spots": 18,
+  "mb": 4.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "copenhagen",
   "place": "Copenhagen",
   "country": "",
