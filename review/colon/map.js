@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "colon", "title": "Colón: 5 photo spots (pilot review)", "place": "Colón", "bounds": [-79.935, 9.255, -79.878, 9.372], "center": [-79.9065, 9.313500000000001], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/colon/{z}/{x}/{y}.pbf"};

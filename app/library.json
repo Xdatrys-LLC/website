@@ -80,6 +80,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "colon",
+  "place": "Colón",
+  "country": "Panama",
+  "spots": 5,
+  "mb": 1.8,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "copenhagen",
   "place": "Copenhagen",
   "country": "",
