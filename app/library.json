@@ -48,6 +48,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "bath",
+  "place": "Bath",
+  "country": "United Kingdom",
+  "spots": 13,
+  "mb": 4.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "bergen",
   "place": "Bergen",
   "country": "Norway",

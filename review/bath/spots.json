@@ -680,59 +680,6 @@
  },
  {
   "rank": 13,
-  "name": "Great Pulteney Street",
-  "in_cut": true,
-  "label": "Great Pulteney St",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 120,
-  "pin": [
-   -2.3543,
-   51.3844
-  ],
-  "camera": [
-   -2.3543,
-   51.3844
-  ],
-  "camera_source": "Researched viewpoint 'Laura Place' (3 web pages); placed at OpenStreetMap 'Laura Place' (way/683648842): middle (14 m across).",
-  "pin_note": "Position from Wikidata Q5599814: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Wide Georgian boulevard leading to the Holburne Museum.",
-  "text": {
-   "description": "Great Pulteney Street is a wide, straight Georgian avenue that runs from Pulteney Bridge across the River Avon towards the Holburne Museum, which closes the far end. It was designed by Thomas Baldwin and finished in 1789. It is over 300 m long and about 30 m wide, which makes it the widest and grandest street in Bath. Baldwin designed only the façades. Individual owners built the houses behind them, so the street looks uniform from outside but differs inside. This is why it photographs so well: the rows of matching windows, doors and steps lead the eye down the street in clean lines, and the end of the street is clearly closed by a building. Look closely and you will find small differences, such as door heights, balconies and the painted house numbers. The numbering skips number 13. The best overall view is from Laura Place, the small square at the city end, beside the fountain. The fountain replaced a much grander column that local residents began and then abandoned, because it would have towered over the houses. For a different angle, try the view straight down the avenue from Pulteney Bridge, or the museum's frontage at the far end. Keep your horizon level and wait for a gap in the people and traffic.",
-   "geographic_location": "Great Pulteney Street is in Bathwick, on the east side of the River Avon, just across Pulteney Bridge from the city centre. Laura Place, the viewpoint, sits at the bridge end of the street.",
-   "directions_text": "Start from the centre of Bath and walk over Pulteney Bridge towards Bathwick. Laura Place is the square at the city end of the street. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) to take in the full width of the street and the façades on both sides. Switch to the default lens (1x) for a more natural look. If your phone has a telephoto lens (2x-5x), use it to pull the Holburne Museum closer at the end of the street.",
-    "where_to_stand": "Stand in Laura Place (by the fountain at the centre of the square, looking along the street). The full length of Great Pulteney Street running away from the fountain toward the Holburne Museum, with its Georgian facades lining both sides. From here you look along the full length of Great Pulteney Street, with Georgian façades on both sides leading away towards the Holburne Museum.",
-    "how_to_frame": "Turn on gridlines and line up the centre of the road with the middle of the frame, so the two rows of houses converge evenly. Keep the phone upright and level so the buildings do not lean. For a second view, try the straight view down the avenue from Pulteney Bridge, or the museum's frontage at the far end of the street.",
-    "phone_settings_tip": "Tap on the houses in the middle distance to set focus, then drag the exposure slider down slightly if the sky is bright, so the stone keeps its detail. Take a few frames, as traffic and passers-by change from shot to shot.",
-    "best_time": "Early morning or late afternoon tends to give softer light on the stone and fewer people in the frame."
-   },
-   "access_note": "The street and Laura Place are open public spaces; the Holburne Museum is a visitor attraction, so check the official site before you go if you plan to go inside."
-  },
-  "checker_problems": 2,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Great Pulteney Street",
-    "url": "https://en.wikipedia.org/wiki/Great_Pulteney_Street"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/13.jpg",
-   "artist": "User:Nikater",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bath02.jpg",
-   "from": "Wikidata Q5599814 main image"
-  }
- },
- {
-  "rank": 14,
   "name": "Queen Square",
   "in_cut": true,
   "label": "Queen Square",
@@ -779,7 +726,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "Richard Vince",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -788,9 +735,62 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 101,
+  "name": "Great Pulteney Street",
+  "in_cut": false,
+  "label": "Great Pulteney St",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 120,
+  "pin": [
+   -2.3543,
+   51.3844
+  ],
+  "camera": [
+   -2.3543,
+   51.3844
+  ],
+  "camera_source": "Researched viewpoint 'Laura Place' (3 web pages); placed at OpenStreetMap 'Laura Place' (way/683648842): middle (14 m across).",
+  "pin_note": "Position from Wikidata Q5599814: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Wide Georgian boulevard leading to the Holburne Museum.",
+  "text": {
+   "description": "Great Pulteney Street is a wide, straight Georgian avenue that runs from Pulteney Bridge across the River Avon towards the Holburne Museum, which closes the far end. It was designed by Thomas Baldwin and finished in 1789. It is over 300 m long and about 30 m wide, which makes it the widest and grandest street in Bath. Baldwin designed only the façades. Individual owners built the houses behind them, so the street looks uniform from outside but differs inside. This is why it photographs so well: the rows of matching windows, doors and steps lead the eye down the street in clean lines, and the end of the street is clearly closed by a building. Look closely and you will find small differences, such as door heights, balconies and the painted house numbers. The numbering skips number 13. The best overall view is from Laura Place, the small square at the city end, beside the fountain. The fountain replaced a much grander column that local residents began and then abandoned, because it would have towered over the houses. For a different angle, try the view straight down the avenue from Pulteney Bridge, or the museum's frontage at the far end. Keep your horizon level and wait for a gap in the people and traffic.",
+   "geographic_location": "Great Pulteney Street is in Bathwick, on the east side of the River Avon, just across Pulteney Bridge from the city centre. Laura Place, the viewpoint, sits at the bridge end of the street.",
+   "directions_text": "Start from the centre of Bath and walk over Pulteney Bridge towards Bathwick. Laura Place is the square at the city end of the street. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the full width of the street and the façades on both sides. Switch to the default lens (1x) for a more natural look. If your phone has a telephoto lens (2x-5x), use it to pull the Holburne Museum closer at the end of the street.",
+    "where_to_stand": "Stand in Laura Place (by the fountain at the centre of the square, looking along the street). The full length of Great Pulteney Street running away from the fountain toward the Holburne Museum, with its Georgian facades lining both sides. From here you look along the full length of Great Pulteney Street, with Georgian façades on both sides leading away towards the Holburne Museum.",
+    "how_to_frame": "Turn on gridlines and line up the centre of the road with the middle of the frame, so the two rows of houses converge evenly. Keep the phone upright and level so the buildings do not lean. For a second view, try the straight view down the avenue from Pulteney Bridge, or the museum's frontage at the far end of the street.",
+    "phone_settings_tip": "Tap on the houses in the middle distance to set focus, then drag the exposure slider down slightly if the sky is bright, so the stone keeps its detail. Take a few frames, as traffic and passers-by change from shot to shot.",
+    "best_time": "Early morning or late afternoon tends to give softer light on the stone and fewer people in the frame."
+   },
+   "access_note": "The street and Laura Place are open public spaces; the Holburne Museum is a visitor attraction, so check the official site before you go if you plan to go inside."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Great Pulteney Street",
+    "url": "https://en.wikipedia.org/wiki/Great_Pulteney_Street"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "User:Nikater",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bath02.jpg",
+   "from": "Wikidata Q5599814 main image"
+  }
+ },
+ {
+  "rank": 102,
   "name": "Kennet and Avon Canal at Bath Locks",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Bath Locks canal",
   "camera_pill": "near Rossiter Road",
   "nophone": false,
@@ -841,7 +841,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/102.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
