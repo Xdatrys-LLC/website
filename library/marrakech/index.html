@@ -1,0 +1,323 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Marrakech Attractions Map: 16 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Marrakech tourist map of 16 top photo spots, including Jemaa el-Fnaa and Majorelle Garden: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in marrakech, marrakech attractions, marrakech tourist map, map of marrakech attractions, best photo spots in marrakech, best views in marrakech, jemaa el-fnaa, jardin majorelle, ysl museum marrakech">
+<link rel="canonical" href="https://xdatrys.com/library/marrakech/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Marrakech Attractions Map: 16 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Marrakech tourist map of 16 top photo spots, including Jemaa el-Fnaa and Majorelle Garden: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/marrakech/">
+<meta property="og:image" content="https://xdatrys.com/library/marrakech/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="375">
+<meta property="og:image:alt" content="Jemaa el-Fnaa, Marrakech: the main square of Marrakech. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/marrakech/","url":"https://xdatrys.com/library/marrakech/","name":"Marrakech Attractions Map: 16 Best Photo Spots | Xdatrys","description":"A Marrakech tourist map of 16 top photo spots, including Jemaa el-Fnaa and Majorelle Garden: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/marrakech/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Marrakech"},"mainEntity":{"@type":"ItemList","name":"Marrakech photo spots","numberOfItems":16,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Jemaa el-Fnaa","description":"Jemaa el-Fnaa is the main square of Marrakech.","geo":{"@type":"GeoCoordinates","latitude":31.6257881,"longitude":-7.9891198},"alternateName":["Marrakech Jemaa el Fnaa","Djemaa el Fna"],"image":"https://xdatrys.com/library/marrakech/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Majorelle Garden","description":"Majorelle Garden is a one-hectare botanical and artist's garden in Marrakech, known for its bold cobalt blue.","geo":{"@type":"GeoCoordinates","latitude":31.64277778,"longitude":-8.00305556},"alternateName":["Marrakech Majorelle","Jardin Majorelle"],"image":"https://xdatrys.com/library/marrakech/photos/2.jpg"}},{"@type":"ListItem","position":8,"item":{"@type":"TouristAttraction","name":"Yves Saint Laurent Museum in Marrakesh","description":"The Yves Saint Laurent Museum is a modern building in earthy tones, made of cubes and curves and covered in a lacework of bricks that recalls woven fabric.","geo":{"@type":"GeoCoordinates","latitude":31.64278806,"longitude":-8.00314111},"alternateName":["Musée Yves Saint Laurent"],"image":"https://xdatrys.com/library/marrakech/photos/8.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/marrakech/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Marrakech","item":"https://xdatrys.com/library/marrakech/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Marrakech?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Jemaa el-Fnaa, Majorelle Garden and Menara Gardens. They are ranked by how often people search for them. The full map has 16."}},{"@type":"Question","name":"Where should I stand to photograph Jemaa el-Fnaa?","acceptedAnswer":{"@type":"Answer","text":"Stand on Le Grand Balcon du Café Glacier (rooftop terrace of the café, reached through the ground-floor café). Start with the default lens (1x) for a general view across the square."}},{"@type":"Question","name":"When is the best time to photograph Majorelle Garden?","acceptedAnswer":{"@type":"Answer","text":"At opening (8am), before the water is disturbed and other visitors arrive. Opening hours vary by season, so check the official site before you go."}},{"@type":"Question","name":"How do I get to YSL Museum?","acceptedAnswer":{"@type":"Answer","text":"No Underground, tram or railway stop is listed for this spot."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Marrakech</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/marrakech/?gate" style="color:#E100FF">✏️ Review all 16 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>16 photo spots in Marrakech: where to stand and how to shoot them on your phone</h1>
+  <p>16 photo spots on one map. Spots 1, 2 and 8 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 13 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 16 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/marrakech/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 16 photo spots in Marrakech"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 16 of the most-searched sights in Marrakech as photo spots, ranked by how often people search for them: Jemaa el-Fnaa, Majorelle Garden, Menara Gardens, Bahia Palace and El Badi Palace lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Jemaa el-Fnaa</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:MoroccoMarrakech_DjemaaElFna..jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Jemaa el-Fnaa, Marrakech: the main square of Marrakech. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Dániel Csörföly, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Jemaa el-Fnaa is the main square of Marrakech. It sits in the medina, the old city, and is used by locals and visitors alike. It photographs well because there is always something going on: stalls, juice sellers, musicians and performers by day, and food stalls lit up once it gets dark. The city was founded in 1070, and the square began as an open market space next to a fortress. For centuries it hosted festivals, parades and other public events. One explanation of its name points to a mosque begun by the Saadian sultan Ahmad al-Mansur (ruled 1578-1603), which was never finished and fell into ruin. In 2008 the square was included in UNESCO&#39;s List of Intangible Cultural Heritage of Humanity, which recognises its living traditions rather than its buildings. For a view from above, the rooftop terrace of Le Grand Balcon du Café Glacier is a well-known elevated viewpoint, where you can see the square with the stalls and crowds below. A major renovation of the square began in May 2025, so the scene may look different from older photos. At street level, ask before photographing people. Photo-prop monkeys and snake charmers charge per shot.</p>
+    <p><b>Where it is:</b> In the medina (old city) of Marrakech, where it forms the main square of the old town.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for a general view across the square. Switch to ultra-wide (0.5x) if you want more of the crowd and stalls in the frame. Use telephoto (2x-5x, depending on your phone) to pick out single stalls, performers or lit-up food stands without having to push through the crowd or lean over a terrace edge.</p>
+      <p><b>Where to stand:</b> Stand on Le Grand Balcon du Café Glacier (rooftop terrace of the café, reached through the ground-floor café). A wide, elevated view across the whole square with the Koutoubia minaret behind it, showing the stalls and crowds below. For an elevated alternative, go up to the rooftop terrace of Le Grand Balcon du Café Glacier, which gives a wide, raised view of the stalls and crowds below.</p>
+      <p><b>Framing:</b> Turn on gridlines and keep the phone level so the buildings do not lean. From the terrace, if the Koutoubia minaret is in view, place it on one of the upper grid lines, with the busy square filling the lower two-thirds. For a second angle, Café de France also looks directly over the action on the square and suits the busy evening scene. At street level you can take close scenes of performers and food stalls, but ask permission before photographing people.</p>
+      <p><b>Settings tip:</b> Tap on the brightest part of the sky or the minaret, then pull the exposure slider down a little so the sunset colours are not washed out. After dark, use night mode and brace your elbows on the rail or your body to keep the phone still. Live Photos can capture the movement of the crowd.</p>
+      <p><b>Best time:</b> Sunset, and arrive early because the terrace fills up. The light fades and the food stalls light up, so you can take both daytime and evening shots from the same area.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Majorelle Garden</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Le_jardin_des_majorelle_16.JPG" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Majorelle Garden, Marrakech: a one-hectare botanical and artist&#39;s garden. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Viault, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Majorelle Garden is a one-hectare botanical and artist&#39;s garden in Marrakech, known for its bold cobalt blue. The French painter Jacques Majorelle began it in 1923 and worked on it for almost forty years. He used the deep blue, now called Majorelle Blue, extensively in the garden and its buildings. The Cubist villa was designed by the architect Paul Sinoir in the 1930s. In the 1980s Yves Saint Laurent and Pierre Bergé rescued the neglected garden and restored it. Today the villa houses the Berber Museum, and the garden is known for its cacti, fountains and birdlife. It attracts more than 700,000 visitors a year.</p><p>The classic photo is from the northern edge of the central lily pond, looking at the blue villa. Papyrus stems frame both sides, blue ceramic pots sit in the foreground, and the villa is reflected in the water. The reflection is clearest when the water is calm, which is usually only at opening time. Two good alternatives are the water basin with its lilies and the pavilion by Bill Willis behind the palms, and a head-on view of the villa&#39;s front with cacti in the foreground. Photography inside the museums is not allowed, so keep your phone for the grounds.</p>
+    <p><b>Where it is:</b> Majorelle Garden is in Marrakech, Morocco. It began in 1923 as a plot on the edge of a palm grove, and the Yves Saint Laurent Museum now stands nearby.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the default lens (1x) for the villa and its reflection, as it keeps the scene natural. Switch to ultra-wide (0.5x) for the lily basin and the pavilion, so the water and palms fit together. Use telephoto (2x or more) to pick out the blue pots, cacti or a single papyrus frame.</p>
+      <p><b>Where to stand:</b> Stand about 160 m south of the subject, at the phone icon on the map, and face north. Stand at Jardin Majorelle, on the northern edge of the central lily pond, facing the blue villa across the water. From here you see the villa reflected in still water, with papyrus on both sides and blue ceramic pots in the foreground.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the villa&#39;s base near the lower third, so the water takes up the bottom of the frame and the reflection mirrors the building. Hold the phone low, just above the pots, to make them a strong foreground. For a second shot, move to the basin to photograph the lilies and the Bill Willis pavilion, or to the cross-path just before the villa for a head-on view with cacti in front.</p>
+      <p><b>Settings tip:</b> Tap the villa to focus, then slide the exposure down a touch so the blue stays rich rather than washed out. Take a few frames in a row, as the reflection changes when the water ripples. Use portrait mode only for close-ups of pots or plants.</p>
+      <p><b>Best time:</b> At opening (8am), before the water is disturbed and other visitors arrive. Opening hours vary by season, so check the official site before you go.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-8">
+    <h3><span class="n">8</span>Yves Saint Laurent Museum in Marrakesh</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:YSL_01_Eingangsportal.jpg" target="_blank" rel="noopener"><img src="photos/8.jpg" alt="Yves Saint Laurent Museum in Marrakesh, Marrakech: a modern building in earthy tones. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Sämisch, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Yves Saint Laurent Museum is a modern building in earthy tones, made of cubes and curves and covered in a lacework of bricks that recalls woven fabric. It is built from terracotta, concrete and terrazzo, and the bricks were made locally from Moroccan earth. That texture is what makes it photograph well: the pattern looks good in a wide shot and even better up close. The museum opened to the public on 19 October 2017 and covers 4,000 square metres. It was designed by Studio KO, and in 2018 it won Wallpaper magazine&#39;s award for best new public building. It stands on Yves Saint Laurent Street, close to Majorelle Garden. The most popular picture is the close frame of the entrance with the large YSL lettering and the façade behind it. Other visitors usually want the same shot, so there can be a queue. Take it early or near closing time if you can. For a calmer image, step back to the street for a head-on view of the latticed front, with people posing by the entrance. Le Studio Café offers a quieter view of the architecture from the courtyard, but you may need a ticket to get in. Photography rules inside the grounds can vary, so check on arrival.</p>
+    <p><b>Where it is:</b> In Marrakech, on Yves Saint Laurent Street, near Majorelle Garden.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the entrance and logo. Use the ultra-wide (0.5x) if you want the whole front of the building from the street. Use the telephoto (2x or more) for close-ups of the brick lattice.</p>
+      <p><b>Where to stand:</b> Stand right at the subject (in front of the entrance with the YSL logo). A close frame of the museum&#39;s entrance and its large YSL lettering, with the building&#39;s façade behind. If the queue is long, the street (Rue Yves Saint Laurent) gives a head-on view of the terracotta front, and Le Studio Café gives a calmer view of the architecture from the courtyard.</p>
+      <p><b>Framing:</b> Switch on gridlines and line the lettering up with one of the lines so the logo sits clearly in the frame. Keep the phone level so the vertical lines of the brickwork stay straight. For a wider picture, step back and include the pattern of the façade and any visitors posing in the foreground.</p>
+      <p><b>Settings tip:</b> Tap the logo or the brick wall to set focus, then drag the exposure slider down slightly if the light-coloured lettering looks washed out. Use portrait mode only if you are photographing a person in front of the entrance.</p>
+      <p><b>Best time:</b> Early morning or near closing time, to avoid the queue at the logo.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(8)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>13 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">3</span>Menara Gardens <small>· members</small></li>
+    <li><span class="n">4</span>Bahia Palace <small>· members</small></li>
+    <li><span class="n">5</span>El Badi Palace <small>· members</small></li>
+    <li><span class="n">6</span>Saadian Tombs <small>· members</small></li>
+    <li><span class="n">7</span>Kutubiyya Mosque <small>· members</small></li>
+    <li><span class="n">9</span>Ben Youssef Madrasa <small>· members</small></li>
+    <li><span class="n">10</span>Ben Youssef Mosque <small>· members</small></li>
+    <li><span class="n">11</span>Marrakech Museum <small>· members</small></li>
+    <li><span class="n">12</span>Bab Agnaou <small>· members</small></li>
+    <li><span class="n">13</span>Bab Doukkala <small>· members</small></li>
+    <li><span class="n">14</span>Dar Si Said <small>· members</small></li>
+    <li><span class="n">15</span>Almoravid Qubba <small>· members</small></li>
+    <li><span class="n">16</span>Mouassine Fountain <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Marrakech?</summary><p>The first three on this map are Jemaa el-Fnaa, Majorelle Garden and Menara Gardens. They are ranked by how often people search for them. The full map has 16.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Jemaa el-Fnaa?</summary><p>Stand on Le Grand Balcon du Café Glacier (rooftop terrace of the café, reached through the ground-floor café). Start with the default lens (1x) for a general view across the square.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Majorelle Garden?</summary><p>At opening (8am), before the water is disturbed and other visitors arrive. Opening hours vary by season, so check the official site before you go.</p></details>
+  <details class="faq"><summary>How do I get to YSL Museum?</summary><p>No Underground, tram or railway stop is listed for this spot.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Jemaa_el-Fnaa" target="_blank" rel="noopener">Jemaa el-Fnaa</a>, <a href="https://en.wikipedia.org/wiki/Majorelle_Garden" target="_blank" rel="noopener">Majorelle Garden</a>, <a href="https://en.wikipedia.org/wiki/Yves_Saint_Laurent_Museum_in_Marrakesh" target="_blank" rel="noopener">Yves Saint Laurent Museum in Marrakesh</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"marrakech","place":"Marrakech","bounds":[-8.025,31.598,-7.97,31.65],"center":[-7.9975000000000005,31.624],"english":false,"vatican":false,"tiles":"/r2tiles/marrakech/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 8"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

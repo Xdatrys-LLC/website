@@ -432,6 +432,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "marrakech",
+  "place": "Marrakech",
+  "country": "Morocco",
+  "spots": 16,
+  "mb": 4.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "mexicocity",
   "place": "Mexico City",
   "country": "Mexico",

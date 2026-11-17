@@ -109,59 +109,6 @@
  },
  {
   "rank": 3,
-  "name": "La Mamounia",
-  "in_cut": true,
-  "label": "La Mamounia",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 14370,
-  "pin": [
-   -7.99722222,
-   31.62083333
-  ],
-  "camera": [
-   -7.99722222,
-   31.62083333
-  ],
-  "camera_source": "Researched viewpoint 'Jardins de La Mamounia' (2 web pages); placed at OpenStreetMap 'Jardins de La Mamounia' (way/126306407): middle (470 m across).",
-  "pin_note": "Position from Wikidata Q3210501: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Legendary palace hotel with gardens.",
-  "text": {
-   "description": "La Mamounia is a five-star hotel opposite the Kutubiyya Mosque in Marrakech, and its gardens offer a quieter, greener view of it. From the garden you see open lawns and palm-lined paths, with the back of the hotel rising behind them. The result is a soft, green picture that is quite different from the hotel's grand interiors. The hotel was conceived in 1923 by architects Henri Prost and Antoine Marchisio and opened in 1929, mixing Moroccan architecture with Art Deco. It stands on a palace and garden that Sultan Mohammed ben Abdallah gave to his son, Moulay Mamoun, in the 18th century. The garden still covers about 8.1 hectares, so there is room to walk around and try different angles. Look for long views down a palm-lined path, with the building closing the scene at the far end. If you also pass the outer courtyard and façade near the entrance, they make a good second picture, framed by palms and walkways. The famous marble corridor and the spa pool are inside the hotel and are not free public spots, so plan your photos around the gardens and the entrance area. Take a few frames at different zoom levels, and keep the phone level so the palm trunks stand straight. Because this is a hotel, check at the entrance on Avenue Bab Jdid whether you can walk into the gardens before you go.",
-   "geographic_location": "La Mamounia is in central Marrakech, directly opposite the Kutubiyya Mosque. The gardens lie behind the hotel building. The hotel's entrance is on Avenue Bab Jdid; check there whether visitors can enter the gardens.",
-   "directions_text": "Start from the Kutubiyya Mosque, which is directly opposite the hotel, and arrive on foot, or use any local transport of your choice. Go to the entrance on Avenue Bab Jdid and check there whether you can enter the gardens. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the lawn, path and hotel in one picture. Use the ultra-wide (0.5x) if you want more of the garden in the frame, and the telephoto (2x-5x, depending on your phone) to pick out the building between the palms.",
-    "where_to_stand": "Stand in Jardins de La Mamounia (garden area behind the hotel building). Open lawns and palm-lined garden paths with the hotel's rear buildings in the background, a softer green alternative to the hotel's architecture. From here the hotel lies to the north-west, and you look across open lawns and palm-lined paths towards its rear buildings. If you would rather photograph the hotel from the front, the outer courtyard and façade near the entrance are a second option, framed by palms and walkways.",
-    "how_to_frame": "Turn on the gridlines and line a garden path up with one of the vertical lines so it leads the eye towards the building. Keep a few palms in the foreground to add depth. Hold the phone level when using 0.5x, because tilting it will bend the building's edges. For a second picture, move to the entrance area and frame the façade between the palms.",
-    "phone_settings_tip": "Tap on the building or the lawn to set focus, then slide the exposure down a little if the pale walls or sky look washed out. Portrait mode works well for close-ups of palm leaves or garden details, but keep normal photo mode for wide views.",
-    "best_time": "Early morning or late afternoon, when the light is softer and the lawns and walls look warmer. At midday the palm shade and bright walls can make the contrast harsh."
-   },
-   "access_note": "The gardens belong to a hotel, so check at the entrance on Avenue Bab Jdid, and on the official site, before you go to see whether visitors may enter."
-  },
-  "checker_problems": 3,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "La Mamounia",
-    "url": "https://en.wikipedia.org/wiki/La_Mamounia"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/3.jpg",
-   "artist": "martinvarsavsky",
-   "licence": "CC BY 2.0",
-   "licence_url": "https://creativecommons.org/licenses/by/2.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_de_l%27h%C3%B4tel_La_Mamounia.jpg",
-   "from": "Wikidata Q3210501 main image"
-  }
- },
- {
-  "rank": 4,
   "name": "Menara Gardens",
   "in_cut": true,
   "label": "Menara Gardens",
@@ -205,7 +152,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/4.jpg",
+   "file": "photos/3.jpg",
    "artist": "Bernard Gagnon",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -214,7 +161,7 @@
   }
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "Bahia Palace",
   "in_cut": true,
   "label": "Bahia Palace",
@@ -260,7 +207,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "Val Traveler",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -269,7 +216,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "El Badi Palace",
   "in_cut": true,
   "label": "El Badi Palace",
@@ -318,7 +265,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "Draceane",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -327,7 +274,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Saadian Tombs",
   "in_cut": true,
   "label": "Saadian Tombs",
@@ -369,7 +316,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "C messier",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -378,7 +325,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Kutubiyya Mosque",
   "in_cut": true,
   "label": "Koutoubia Mosque",
@@ -426,7 +373,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "Baca12",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -435,7 +382,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Yves Saint Laurent Museum in Marrakesh",
   "in_cut": true,
   "label": "YSL Museum",
@@ -481,7 +428,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Sämisch",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -490,7 +437,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Ben Youssef Madrasa",
   "in_cut": true,
   "label": "Ben Youssef Madrasa",
@@ -532,7 +479,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Lundeux",
    "licence": "CC BY-SA 2.5",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
@@ -541,7 +488,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Ben Youssef Mosque",
   "in_cut": true,
   "label": "Ben Youssef Mosque",
@@ -583,7 +530,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "Philip Sheldrake from London, UK",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -592,7 +539,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Marrakech Museum",
   "in_cut": true,
   "label": "Marrakech Museum",
@@ -643,7 +590,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "Yastay",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -652,7 +599,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Bab Agnaou",
   "in_cut": true,
   "label": "Bab Agnaou",
@@ -694,7 +641,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "John Doyle doyler79",
    "licence": "CC BY 3.0",
    "licence_url": "https://creativecommons.org/licenses/by/3.0",
@@ -703,7 +650,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Bab Doukkala",
   "in_cut": true,
   "label": "Bab Doukkala",
@@ -750,7 +697,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "Robert Prazeres",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -759,7 +706,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Dar Si Said",
   "in_cut": true,
   "label": "Dar Si Said",
@@ -808,7 +755,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "C messier",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -817,7 +764,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 15,
   "name": "Almoravid Qubba",
   "in_cut": true,
   "label": "Almoravid Qubba",
@@ -861,7 +808,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/15.jpg",
    "artist": "Josep Renalias",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -870,7 +817,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 16,
   "name": "Mouassine Fountain",
   "in_cut": true,
   "label": "Mouassine Fountain",
@@ -916,12 +863,65 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/16.jpg",
    "artist": "C messier",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Mouassine_Fountain_0925.jpg",
    "from": "Wikidata Q58974467 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "La Mamounia",
+  "in_cut": false,
+  "label": "La Mamounia",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 14370,
+  "pin": [
+   -7.99722222,
+   31.62083333
+  ],
+  "camera": [
+   -7.99722222,
+   31.62083333
+  ],
+  "camera_source": "Researched viewpoint 'Jardins de La Mamounia' (2 web pages); placed at OpenStreetMap 'Jardins de La Mamounia' (way/126306407): middle (470 m across).",
+  "pin_note": "Position from Wikidata Q3210501: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Legendary palace hotel with gardens.",
+  "text": {
+   "description": "La Mamounia is a five-star hotel opposite the Kutubiyya Mosque in Marrakech, and its gardens offer a quieter, greener view of it. From the garden you see open lawns and palm-lined paths, with the back of the hotel rising behind them. The result is a soft, green picture that is quite different from the hotel's grand interiors. The hotel was conceived in 1923 by architects Henri Prost and Antoine Marchisio and opened in 1929, mixing Moroccan architecture with Art Deco. It stands on a palace and garden that Sultan Mohammed ben Abdallah gave to his son, Moulay Mamoun, in the 18th century. The garden still covers about 8.1 hectares, so there is room to walk around and try different angles. Look for long views down a palm-lined path, with the building closing the scene at the far end. If you also pass the outer courtyard and façade near the entrance, they make a good second picture, framed by palms and walkways. The famous marble corridor and the spa pool are inside the hotel and are not free public spots, so plan your photos around the gardens and the entrance area. Take a few frames at different zoom levels, and keep the phone level so the palm trunks stand straight. Because this is a hotel, check at the entrance on Avenue Bab Jdid whether you can walk into the gardens before you go.",
+   "geographic_location": "La Mamounia is in central Marrakech, directly opposite the Kutubiyya Mosque. The gardens lie behind the hotel building. The hotel's entrance is on Avenue Bab Jdid; check there whether visitors can enter the gardens.",
+   "directions_text": "Start from the Kutubiyya Mosque, which is directly opposite the hotel, and arrive on foot, or use any local transport of your choice. Go to the entrance on Avenue Bab Jdid and check there whether you can enter the gardens. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the lawn, path and hotel in one picture. Use the ultra-wide (0.5x) if you want more of the garden in the frame, and the telephoto (2x-5x, depending on your phone) to pick out the building between the palms.",
+    "where_to_stand": "Stand in Jardins de La Mamounia (garden area behind the hotel building). Open lawns and palm-lined garden paths with the hotel's rear buildings in the background, a softer green alternative to the hotel's architecture. From here the hotel lies to the north-west, and you look across open lawns and palm-lined paths towards its rear buildings. If you would rather photograph the hotel from the front, the outer courtyard and façade near the entrance are a second option, framed by palms and walkways.",
+    "how_to_frame": "Turn on the gridlines and line a garden path up with one of the vertical lines so it leads the eye towards the building. Keep a few palms in the foreground to add depth. Hold the phone level when using 0.5x, because tilting it will bend the building's edges. For a second picture, move to the entrance area and frame the façade between the palms.",
+    "phone_settings_tip": "Tap on the building or the lawn to set focus, then slide the exposure down a little if the pale walls or sky look washed out. Portrait mode works well for close-ups of palm leaves or garden details, but keep normal photo mode for wide views.",
+    "best_time": "Early morning or late afternoon, when the light is softer and the lawns and walls look warmer. At midday the palm shade and bright walls can make the contrast harsh."
+   },
+   "access_note": "The gardens belong to a hotel, so check at the entrance on Avenue Bab Jdid, and on the official site, before you go to see whether visitors may enter."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "La Mamounia",
+    "url": "https://en.wikipedia.org/wiki/La_Mamounia"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "martinvarsavsky",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_de_l%27h%C3%B4tel_La_Mamounia.jpg",
+   "from": "Wikidata Q3210501 main image"
   }
  }
 ]
