@@ -1,1 +1,1 @@
-window.MAPCFG = {"key": "hanoi", "title": "Hanoi: 20 photo spots (pilot review)", "place": "Hanoi", "bounds": [105.82, 21.005, 105.88, 21.06], "center": [105.85, 21.0325], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/hanoi/{z}/{x}/{y}.pbf"};
+window.MAPCFG = {"key": "hanoi", "title": "Hanoi: 19 photo spots (pilot review)", "place": "Hanoi", "bounds": [105.82, 21.005, 105.88, 21.06], "center": [105.85, 21.0325], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/hanoi/{z}/{x}/{y}.pbf"};

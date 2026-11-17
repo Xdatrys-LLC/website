@@ -304,6 +304,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "hanoi",
+  "place": "Hanoi",
+  "country": "Vietnam",
+  "spots": 19,
+  "mb": 8.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "haugesund",
   "place": "Haugesund",
   "country": "Norway",

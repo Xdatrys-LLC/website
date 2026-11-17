@@ -1,61 +1,6 @@
 [
  {
   "rank": 1,
-  "name": "Sofitel Legend Metropole Hanoi",
-  "in_cut": true,
-  "label": "Metropole Hotel",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 16500,
-  "pin": [
-   105.8555,
-   21.0255
-  ],
-  "camera": [
-   105.8555,
-   21.0255
-  ],
-  "camera_source": "Researched viewpoint 'Ngô Quyền' (2 web pages); placed at the stretch of Ngô Quyền nearest the subject (our map tiles).",
-  "pin_note": "Position from Wikidata Q7553773: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Historic colonial luxury hotel from 1901.",
-  "text": {
-   "description": "The Sofitel Legend Metropole is a white colonial hotel on Ngô Quyền Street. It opened in August 1901 as the Grand Métropole Hôtel and was then the largest and most modern hotel in French Indochina. It is one of the most prominent surviving examples of French colonial architecture in Indochina. That is why it makes such a tidy phone photo: the pale front, the green shutters and the white portico with the hotel's name make a strong, symmetrical picture that is easy to read on a small screen.\n\nThe hotel has plenty of stories attached. Somerset Maugham stayed in 1923, Charlie Chaplin and Paulette Goddard honeymooned here in 1936, and Graham Greene stayed in 1951. Today's hotel was rebuilt and reopened in 1992. A newer Opera Wing was added later, and it faces the Hanoi Opera House across the junction on Lý Thái Tổ Street.\n\nFor the classic shot, stay on the public pavement and take in the whole façade. The courtyard, pool and interior are for guests, so please do not go into the grounds for pictures. If you have time, walk round to Lý Thái Tổ for a second frame that puts the newer wing beside the Opera House. Pavements can be busy with cars, scooters and people, so look around before you step back for a wider shot.",
-   "geographic_location": "In central Hanoi, on Ngô Quyền Street, close to the Hanoi Opera House. The hotel's newer wing fronts Lý Thái Tổ Street.",
-   "directions_text": "No Underground, tram or train stop is listed for this spot, so navigate to Ngô Quyền Street using your phone's map. Once you are on the street, the hotel is the big white colonial building. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) if the pavement is narrow, because it will fit the whole front and portico into the frame. Use the default lens (1x) for a more natural look, with less stretching at the edges. The telephoto (2x-5x, depending on your phone) is good for the engraved name and the green shutters.",
-    "where_to_stand": "Stand on Ngô Quyền (in front of the main entrance and white portico of the Heritage Wing). The 1901 white colonial façade with green shutters and the portico, with the hotel's name on it, filling the frame. Shift a step or two until the façade sits well in your frame in front of the portico of the Heritage Wing. Stay on the public street and do not enter the hotel grounds.",
-    "how_to_frame": "Turn on the gridlines and, if the portico is visible from where you stand, line it up with the centre line so the façade looks straight. Keep your phone level to avoid leaning walls, and include a little pavement at the bottom for scale. For a second view, walk to Lý Thái Tổ for the newer Opera Wing set against the Hanoi Opera House.",
-    "phone_settings_tip": "Tap on the white wall to set focus, then slide the exposure down a touch so the white does not turn grey or burn out. Switch off the flash, and use night mode in the evening, holding the phone steady against your body or a wall.",
-    "best_time": "As a general suggestion, soft morning or late-afternoon light is usually kinder to a white façade than midday sun. Check the light and how busy it is when you arrive."
-   },
-   "access_note": "The façade can be photographed from the public street; the courtyard, pool and interior are for hotel guests only, so check the official site before you go if you want to visit inside."
-  },
-  "checker_problems": 6,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Sofitel Legend Metropole Hanoi",
-    "url": "https://en.wikipedia.org/wiki/Sofitel_Legend_Metropole_Hanoi"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/1.jpg",
-   "artist": "The Hanoian",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Sofitel_Metropole,_Ng%C3%B4_Quy%E1%BB%81n_-_2022-09-02_01.jpg",
-   "from": "Wikidata Q7553773 main image"
-  }
- },
- {
-  "rank": 2,
   "name": "Temple of Literature, Hanoi",
   "in_cut": true,
   "label": "Temple of Literature",
@@ -101,7 +46,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/2.jpg",
+   "file": "photos/1.jpg",
    "artist": "The original uploader was Chuoibk at English Wikipedia.",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -110,7 +55,7 @@
   }
  },
  {
-  "rank": 3,
+  "rank": 2,
   "name": "Ho Chi Minh Mausoleum",
   "in_cut": true,
   "label": "Ho Chi Minh Mausoleum",
@@ -152,7 +97,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/3.jpg",
+   "file": "photos/2.jpg",
    "artist": "Gregor Dodson",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -161,7 +106,7 @@
   }
  },
  {
-  "rank": 4,
+  "rank": 3,
   "name": "Hoàn Kiếm Lake",
   "in_cut": true,
   "label": "Hoàn Kiếm Lake",
@@ -205,7 +150,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/4.jpg",
+   "file": "photos/3.jpg",
    "artist": "Bem photography:",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -214,7 +159,7 @@
   }
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "Hỏa Lò Prison",
   "in_cut": true,
   "label": "Hỏa Lò Prison",
@@ -259,7 +204,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "unknown",
    "licence": "Public domain",
    "licence_url": "",
@@ -268,7 +213,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Turtle Tower",
   "in_cut": true,
   "label": "Turtle Tower",
@@ -276,15 +221,15 @@
   "nophone": true,
   "searches": 7060,
   "pin": [
-   105.8523,
-   21.0279
+   105.856722,
+   21.0287529
   ],
   "camera": [
-   105.8523,
-   21.0279
+   105.856722,
+   21.0287529
   ],
   "camera_source": "Researched viewpoint 'Đinh Tiên Hoàng' (3 web pages); placed at crossing of Đinh Tiên Hoàng and Lê Thái Tổ (our map tiles).",
-  "pin_note": "Position from the Wikipedia article 'Turtle Tower'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Small moss-covered tower on an island in Hoàn Kiếm Lake.",
   "text": {
    "description": "Turtle Tower (Tháp Rùa) is a small, three-storey tower on an islet in the middle of Hoan Kiem Lake, right in the centre of Hanoi. It is one of the best-known sights of the city, and it photographs well because it stands alone on the water. You get a simple, calm picture: the grey tower, its reflection, the green lake around it and the roofs of the Old Quarter behind. The tower was built in 1886 in honour of Lê Lợi, the national hero linked to the lake's sword-and-turtle legend. In 1890 the French put a miniature Statue of Liberty on top, and it was taken down in 1945. The islet cannot be visited, so every shot is taken from the shore, and the tower looks small in a wide view. The ultra-wide lens will make it tiny, so use the telephoto lens and keep some lake in the foreground. Early or late in the day the reflection is usually calmer and the colours softer. Check the weekend walking-street schedule, as it can change how busy the shoreline is.",
@@ -307,13 +252,10 @@
     "url": "https://en.wikipedia.org/wiki/Turtle_Tower"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (652 m)",
-   "OpenStreetMap object 469 m away (Turtle Tower): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "\"Lilli Ann\"",
    "licence": "Public domain",
    "licence_url": "",
@@ -322,7 +264,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Trấn Quốc Pagoda",
   "in_cut": true,
   "label": "Trấn Quốc Pagoda",
@@ -368,7 +310,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Thang Nguyen",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -377,7 +319,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Hanoi Opera House",
   "in_cut": true,
   "label": "Hanoi Opera House",
@@ -425,7 +367,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "xiquinhosilva",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -434,7 +376,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "One Pillar Pagoda",
   "in_cut": true,
   "label": "One Pillar Pagoda",
@@ -442,15 +384,15 @@
   "nophone": true,
   "searches": 4270,
   "pin": [
-   105.83362222,
-   21.03583056
+   105.8283397,
+   21.0348071
   ],
   "camera": [
-   105.83362222,
-   21.03583056
+   105.8283397,
+   21.0348071
   ],
   "camera_source": "Researched viewpoint 'Chùa Một Cột' (3 web pages); placed at OpenStreetMap 'Chùa Một Cột' (way/697326496): middle (10 m across); moved 5 m off buildings.",
-  "pin_note": "Position from the Wikipedia article 'One Pillar Pagoda'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Small 11th-century pagoda built on a single stone pillar.",
   "text": {
    "description": "One Pillar Pagoda (Chùa Một Cột) is a small wooden shrine that sits on a single stone pillar rising from a lotus pond, shaped to look like a lotus blossom. The lotus is a Buddhist symbol of purity because it flowers in muddy water. Emperor Lý Thái Tông first built the pagoda in 1049, and it was perfected in 1105. It was destroyed in 1954 and rebuilt in 1955, so what you see is a careful restoration. The pillar is about 4 metres tall and 1.25 metres across, which makes the whole building look light and almost afloat.\n\nIt photographs well because the shape is so simple. One pillar, one curved roof and one pond give you a clean, balanced picture, and on a calm morning the pavilion sits above its own reflection. From the pond edge in front of the shrine you can centre the pillar and take the classic view. It is a small site, so you only need a few minutes for photos, but allow longer if the pond edge is busy. The edge is narrow and can be slippery after rain, so mind your footing while you line up the shot. If you want a quieter picture, the courtyard behind the pagoda gives a more distant view with trees around it.",
@@ -475,12 +417,10 @@
     "url": "https://en.wikipedia.org/wiki/One_Pillar_Pagoda"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 560 m away (One Pillar Pagoda): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Clay Gilliland",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -489,7 +429,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Thăng Long Water Puppet Theatre",
   "in_cut": true,
   "label": "Water Puppet Theatre",
@@ -530,7 +470,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Gryffindor",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -539,7 +479,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Ngọc Sơn Temple",
   "in_cut": true,
   "label": "Ngọc Sơn Temple",
@@ -587,7 +527,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "Bùi Thụy Đào Nguyên",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -596,7 +536,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Đồng Xuân Market",
   "in_cut": true,
   "label": "Đồng Xuân Market",
@@ -641,7 +581,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "Juliana Ng from Singapore",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -650,7 +590,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Imperial Citadel of Thăng Long",
   "in_cut": true,
   "label": "Imperial Citadel",
@@ -658,15 +598,15 @@
   "nophone": true,
   "searches": 3090,
   "pin": [
-   105.83722222,
-   21.03944444
+   105.8404541,
+   21.0362838
   ],
   "camera": [
-   105.83722222,
-   21.03944444
+   105.8404541,
+   21.0362838
   ],
   "camera_source": "Researched viewpoint 'Đoan Môn' (4 web pages); placed at OpenStreetMap 'Đoan Môn' (way/696389268): middle (82 m across); moved 5 m off buildings.",
-  "pin_note": "Position from the Wikipedia article 'Imperial Citadel of Thăng Long'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "UNESCO World Heritage site of the old imperial city.",
   "text": {
    "description": "The Imperial Citadel of Thăng Long is the old royal enclosure of Hanoi, set in the middle of the city in Ba Đình District. Building began in 1010 under Emperor Lý Thái Tổ and finished in early 1011, and it stayed the seat of the Vietnamese court until 1789. Much of it was later pulled down under the French, so what you see today is a mix of surviving gates, restored buildings and open archaeological ground. The central sector became a UNESCO World Heritage Site in 2010.\n\nFor photos, start at Đoan Môn, the main gate. Its full front facade sits against open sky, with the citadel grounds stretching out behind it, so it makes a clean, strong picture even with a phone. Stand on the south side, facing the entrance, and give yourself room to step back. Inside, the stone dragon balustrades on the steps of Điện Kính Thiên reward a closer look, and the pavilion Hậu Lâu gives a quieter view of the citadel walls when the steps are busy.\n\nThe site is large and open, so you can move around to avoid other visitors. Some areas may be closed for archaeological work or event set-ups, which can block views, so be ready to adjust your angle on the day.",
@@ -689,13 +629,10 @@
     "url": "https://en.wikipedia.org/wiki/Imperial_Citadel_of_Th%C4%83ng_Long"
    }
   ],
-  "pin_flags": [
-   "large area: check the pin",
-   "OpenStreetMap object 486 m away (Imperial Citadel of Thang Long): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "Grenouille vert",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -704,7 +641,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "St. Joseph's Cathedral, Hanoi",
   "in_cut": true,
   "label": "St. Joseph's Cathedral",
@@ -750,7 +687,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "John Ragai",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -759,7 +696,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Long Biên Bridge",
   "in_cut": true,
   "label": "Long Biên Bridge",
@@ -806,7 +743,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Pierre De Hanscutter",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -815,7 +752,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Ba Đình Square",
   "in_cut": true,
   "label": "Ba Đình Square",
@@ -868,7 +805,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "Vyacheslav Argenberg",
    "licence": "CC BY 4.0",
    "licence_url": "https://creativecommons.org/licenses/by/4.0",
@@ -877,7 +814,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Quán Thánh Temple",
   "in_cut": true,
   "label": "Quán Thánh Temple",
@@ -921,7 +858,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "Nguyễn Thanh Quang",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -930,7 +867,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Presidential Palace, Hanoi",
   "in_cut": true,
   "label": "Presidential Palace",
@@ -979,7 +916,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "Jorge Láscar",
    "licence": "Public domain",
    "licence_url": "",
@@ -988,7 +925,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Vietnam National Museum of History",
   "in_cut": true,
   "label": "National History Museu",
@@ -1038,7 +975,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "Alistair Morrenger",
    "licence": "Public domain",
    "licence_url": "",
@@ -1047,7 +984,7 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 19,
   "name": "Flag Tower of Hanoi",
   "in_cut": true,
   "label": "Flag Tower",
@@ -1089,12 +1026,67 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/19.jpg",
    "artist": "Chinasaur",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_tower,_Hanoi.jpg",
    "from": "Wikidata Q864752 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Sofitel Legend Metropole Hanoi",
+  "in_cut": false,
+  "label": "Metropole Hotel",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 16500,
+  "pin": [
+   105.8555,
+   21.0255
+  ],
+  "camera": [
+   105.8555,
+   21.0255
+  ],
+  "camera_source": "Researched viewpoint 'Ngô Quyền' (2 web pages); placed at the stretch of Ngô Quyền nearest the subject (our map tiles).",
+  "pin_note": "Position from Wikidata Q7553773: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Historic colonial luxury hotel from 1901.",
+  "text": {
+   "description": "The Sofitel Legend Metropole is a white colonial hotel on Ngô Quyền Street. It opened in August 1901 as the Grand Métropole Hôtel and was then the largest and most modern hotel in French Indochina. It is one of the most prominent surviving examples of French colonial architecture in Indochina. That is why it makes such a tidy phone photo: the pale front, the green shutters and the white portico with the hotel's name make a strong, symmetrical picture that is easy to read on a small screen.\n\nThe hotel has plenty of stories attached. Somerset Maugham stayed in 1923, Charlie Chaplin and Paulette Goddard honeymooned here in 1936, and Graham Greene stayed in 1951. Today's hotel was rebuilt and reopened in 1992. A newer Opera Wing was added later, and it faces the Hanoi Opera House across the junction on Lý Thái Tổ Street.\n\nFor the classic shot, stay on the public pavement and take in the whole façade. The courtyard, pool and interior are for guests, so please do not go into the grounds for pictures. If you have time, walk round to Lý Thái Tổ for a second frame that puts the newer wing beside the Opera House. Pavements can be busy with cars, scooters and people, so look around before you step back for a wider shot.",
+   "geographic_location": "In central Hanoi, on Ngô Quyền Street, close to the Hanoi Opera House. The hotel's newer wing fronts Lý Thái Tổ Street.",
+   "directions_text": "No Underground, tram or train stop is listed for this spot, so navigate to Ngô Quyền Street using your phone's map. Once you are on the street, the hotel is the big white colonial building. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) if the pavement is narrow, because it will fit the whole front and portico into the frame. Use the default lens (1x) for a more natural look, with less stretching at the edges. The telephoto (2x-5x, depending on your phone) is good for the engraved name and the green shutters.",
+    "where_to_stand": "Stand on Ngô Quyền (in front of the main entrance and white portico of the Heritage Wing). The 1901 white colonial façade with green shutters and the portico, with the hotel's name on it, filling the frame. Shift a step or two until the façade sits well in your frame in front of the portico of the Heritage Wing. Stay on the public street and do not enter the hotel grounds.",
+    "how_to_frame": "Turn on the gridlines and, if the portico is visible from where you stand, line it up with the centre line so the façade looks straight. Keep your phone level to avoid leaning walls, and include a little pavement at the bottom for scale. For a second view, walk to Lý Thái Tổ for the newer Opera Wing set against the Hanoi Opera House.",
+    "phone_settings_tip": "Tap on the white wall to set focus, then slide the exposure down a touch so the white does not turn grey or burn out. Switch off the flash, and use night mode in the evening, holding the phone steady against your body or a wall.",
+    "best_time": "As a general suggestion, soft morning or late-afternoon light is usually kinder to a white façade than midday sun. Check the light and how busy it is when you arrive."
+   },
+   "access_note": "The façade can be photographed from the public street; the courtyard, pool and interior are for hotel guests only, so check the official site before you go if you want to visit inside."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Sofitel Legend Metropole Hanoi",
+    "url": "https://en.wikipedia.org/wiki/Sofitel_Legend_Metropole_Hanoi"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "The Hanoian",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Sofitel_Metropole,_Ng%C3%B4_Quy%E1%BB%81n_-_2022-09-02_01.jpg",
+   "from": "Wikidata Q7553773 main image"
   }
  }
 ]
