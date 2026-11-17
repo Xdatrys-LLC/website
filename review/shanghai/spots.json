@@ -1,0 +1,1112 @@
+[
+ {
+  "rank": 1,
+  "name": "Shanghai Tower",
+  "in_cut": true,
+  "label": "Shanghai Tower",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 34200,
+  "pin": [
+   121.5004394,
+   31.2354554
+  ],
+  "camera": [
+   121.5004394,
+   31.2354554
+  ],
+  "camera_source": "Researched viewpoint '外滩' (3 web pages); placed at OpenStreetMap '外滩' (relation/2142077): edge nearest the subject (1525 m across); moved 5 m off water.",
+  "pin_note": "Position from OpenStreetMap node/11221740642: the OpenStreetMap point 'Shanghai Tower'.",
+  "notes": "China's tallest building with a twisting glass facade.",
+  "text": {
+   "description": "Shanghai Tower is the tallest building in China: 128 storeys and 632 metres, standing in Lujiazui, in the Pudong district. It is the tallest of a close trio of supertall towers, alongside the Jin Mao Tower and the Shanghai World Financial Center. Planners drew up that grouping as far back as 1993. Building work began in November 2008 and the structure topped out in 2013. Its sightseeing decks on the 118th and 119th floors have been fully open since April 2017. A higher deck, \"Top of Shanghai\" on the 121st floor at 562 metres, was later added.\n\nThe best way to photograph it is from across the Huangpu River, on the Bund (外滩). From there the Lujiazui towers line up along the far bank, with the river in front and the old Bund facades behind you. It is the classic postcard view, and the tower's height and tiered shape stand out clearly against the sky. Most photographers set up at the stone barrier at water level, so arrive a little early if you want a clear spot at the railing. Keep your phone level so the tower does not lean, and include a strip of river at the bottom of the frame to give the picture depth. If you want a different angle, Lujiazui Central Green (陆家嘴中心绿地) shows all three towers together with trees in the foreground.",
+   "geographic_location": "Shanghai Tower is in Lujiazui, in the Pudong district of Shanghai, on the east bank of the Huangpu River. The best viewpoint is on the opposite, western bank, on the Bund waterfront near the Meteorological Signal Tower on Zhongshan East 1st Road.",
+   "directions_text": "No Underground or tram stops are listed for this spot, so reach the Bund area on the west bank by taxi or on foot. Ask for the Meteorological Signal Tower on Zhongshan East 1st Road, then walk to the waterfront and the stone barrier at river level. Check the exact spot on your map before you walk, as street names in English guides can differ. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the river and the whole row of Lujiazui towers. Switch to telephoto (2x-5x, depending on your phone) to isolate Shanghai Tower and pull it closer. Use the ultra-wide (0.5x) only if you want a lot of waterfront and sky around the towers.",
+    "where_to_stand": "Stand on 外滩 (Bund waterfront on the west bank, near the Meteorological Signal Tower on Zhongshan East 1st Road). Shanghai Tower across the Huangpu River, the Lujiazui towers lined up on the far bank, with the river and the historic Bund facades behind you. Face across the river: Shanghai Tower is to the north-east, with the other Lujiazui towers lined up beside it and the historic Bund facades behind you. Most photographers use the stone barrier at water level.",
+    "how_to_frame": "Turn on gridlines and place the tower on a vertical line, with the river filling the bottom third. Hold the phone upright and level so the tower does not lean. For a different view, try Lujiazui Central Green (陆家嘴中心绿地), where the three towers rise together with trees in the foreground, or the crossing of Dongtai Road and Huayuan Shiqiao Road (东台路与花园石桥路交叉口), shooting low and upward.",
+    "phone_settings_tip": "Tap the tower to focus, then drag the exposure slider down a little so the lit windows and sky colour do not wash out. At dusk, let night mode do its work and rest your elbows on the barrier to keep the phone steady. Tripods may be discouraged by security staff in parts of Lujiazui, so shoot handheld.",
+    "best_time": "About 20 to 40 minutes after sunset, when the sky still has colour and the towers are lit. This depends on clear weather, as haze can dull the view."
+   },
+   "access_note": "The Bund waterfront is an open public street and walkway; if you want to go up the tower itself, check the official site before you go."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [
+   "banned term /(?<!allow )(?<!or )(?<!no )\\btripods?\\b(?! (are|is) not allowed)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Shanghai Tower",
+    "url": "https://en.wikipedia.org/wiki/Shanghai_Tower"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (931 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "https://www.pxfuel.com/en/free-photo-ovozr",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Tower_in_2015_(2).jpg",
+   "from": "Wikidata Q18547 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Yu Garden",
+  "in_cut": true,
+  "label": "Yu Garden",
+  "camera_pill": "near 积玉水廊",
+  "nophone": false,
+  "searches": 33600,
+  "pin": [
+   121.4878127,
+   31.2290902
+  ],
+  "camera": [
+   121.48814,
+   31.228666
+  ],
+  "camera_source": "Commons cluster (17 photos).",
+  "pin_note": "Position from OpenStreetMap way/40036584: the middle of the OpenStreetMap outline 'Yu Yuan Garden' (237 m across).",
+  "notes": "Classical Ming-dynasty garden with pavilions, rockeries and ponds.",
+  "text": {
+   "description": "Yu Garden is a classical Chinese garden in the Old City of Shanghai, packed with curved-roof halls, ponds, zigzag bridges and rockeries in a space of about 2 hectares. Pan Yunduan began it in 1559, in the Ming dynasty, as a comfort for his father in old age. Work was held up for years and the garden was finished in 1577. It opened to the public in 1961 and became a national monument in 1982. It photographs well because so much sits close together: grey-tiled 'dragon walls' with wavy ridges, carved gateways, and the 12-metre Grand Rockery. A prized porous stone called the Exquisite Jade Rock, about 3.3 metres tall, is another highlight. Just outside, the Nine-turn bridge and a teahouse pond lead towards the entrance, and the lively Yuyuan Bazaar surrounds the garden with shops and snack stalls. That mix of calm garden and busy street gives you plenty of different pictures. On the map, the phone icon on the map is a short step from the garden's centre, so start with the broad view of roofs and walls. Then move in for details such as roof corners, doorways and reflections in the water. Keep your lens clean, as crowds and humidity can smear it. Check the official site before you go to see what is open and how entry works.",
+   "geographic_location": "Yu Garden is in the northeast of the Old City of Shanghai, in Huangpu District, right beside the City God Temple. The Yuyuan Bazaar and the Huxinting Teahouse lie next to it.",
+   "directions_text": "The garden is reached by the Shanghai Metro: Line 10 and Line 14 both stop at Yuyuan Garden station. From there, head for the City God Temple and Yuyuan Bazaar area, which sits right beside the garden. If you prefer, go by taxi to the Old City, Huangpu District. From the phone icon on the map, the middle of the garden is about 1 minute on foot to the north-west. The phone icon on the map is about 55 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene of roofs, walls and water. Switch to the ultra-wide (0.5x) in tight courtyards, and use telephoto/zoom (2x-5x, depending on your phone) for roof ridges and carvings.",
+    "where_to_stand": "Stand about 55 m south-east of the subject, at the phone icon on the map, and face north-west.",
+    "how_to_frame": "Switch on gridlines and place a roofline or dragon-wall ridge along one of the horizontal lines. Include a little water or a bridge in the foreground for depth. Then zoom in on a single roof corner or doorway for a simpler picture. Keep the phone level so the buildings do not lean.",
+    "phone_settings_tip": "Tap to focus on the buildings, then drag the exposure slider down slightly so bright sky does not wash out the roofs. If the app offers Live Photos, they can catch people moving across a bridge.",
+    "best_time": "Early in the day is usually calmer for photos, and soft light or gentle overcast suits the grey tiles. Evening, when lanterns and lights come on, suits night mode."
+   },
+   "access_note": "Parts of the garden may be ticketed and have set hours, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Early in the day is usually calmer, with fewer people.",
+    "Soft or overcast light suits grey roof tiles.",
+    "Lights and lanterns come on in the evening around the bazaar.",
+    "Humidity and crowds can smear a phone lens.",
+    "Parts of the garden may be ticketed with set hours."
+   ]
+  },
+  "checker_problems": 0,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Yu Garden",
+    "url": "https://en.wikipedia.org/wiki/Yu_Garden"
+   }
+  ],
+  "pin_flags": [
+   "square/garden without a main feature: pin at its middle"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Chainwit.",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg",
+   "from": "Wikidata Q1328025 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "The Bund",
+  "in_cut": true,
+  "label": "The Bund",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 22000,
+  "pin": [
+   121.4861389,
+   31.2380278
+  ],
+  "camera": [
+   121.4861389,
+   31.2380278
+  ],
+  "camera_source": "Researched viewpoint '陈毅广场' (3 web pages); placed at our map tiles: '前汇丰银行大楼' (pois).",
+  "pin_note": "Position from OpenStreetMap relation/2142077: large area 'The Bund' (1533 m across): previous pin kept, it lies inside.",
+  "notes": "Historic waterfront promenade with the Pudong skyline across the river.",
+  "text": {
+   "description": "The Bund is the long riverside promenade in central Shanghai, with a line of grand early 20th-century bank and trading-house buildings on one side and the Huangpu River on the other. Across the water stand the glass towers of Lujiazui in Pudong. That pairing of old stone facades and a modern skyline is why the view is so popular. The Bund runs for about 1.6 km, from Yan'an Road in the south to Waibaidu Bridge in the north, and has some 52 buildings in a mix of Neoclassical, Gothic, Art Deco and other styles. Some echo the waterfront of Liverpool. The riverside embankment was raised about 10 metres above street level after typhoon floods, and the promenade was widened and reopened in March 2010. From here you can see the colonial facades at the left edge of the frame, the river in the centre and the Pudong skyline on the right. It is a busy spot, so arrive early to claim a place at the railing. If you want a different angle, try Waibaidu Bridge for its red-brown steel frame with the towers beyond, or the Lujiazui waterfront for the reverse view back at the Bund's lit facades.",
+   "geographic_location": "The Bund is on the western bank of the Huangpu River in the eastern part of Huangpu district, central Shanghai, directly opposite Lujiazui in Pudong.",
+   "directions_text": "Go by taxi or on foot to the Bund promenade on East Zhongshan Road No.1 in Huangpu. Ask to be dropped near the middle of the Bund, close to Bund 9–12. From there, walk onto the riverside promenade and look for 陈毅广场. Allow a few minutes on foot if you are dropped a little way along the road. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the classic river-and-skyline view. Switch to the ultra-wide (0.5x) if the crowd is close and you want to keep the facades, river and towers all in one frame. Use telephoto (2x-5x) to pick out the Pudong towers or a single facade detail.",
+    "where_to_stand": "Stand in 陈毅广场 (Middle of the Bund promenade, near Bund 9–12, facing the river). A full frontal view of the Bund's colonial facades on the left edge, the river in the centre, and the Pudong skyline across the water on the right. From here the Bund's colonial facades fill the left edge, the river runs through the centre and the Pudong skyline sits on the right. It is the most reproduced Bund angle, so expect company at the railing.",
+    "how_to_frame": "Turn on gridlines and place the river on the lower third, keeping the skyline level. Include a little of the facades at the left to give a sense of scale. Panorama mode can work for the full sweep if people are not passing in front of you. For a different view, try Waibaidu Bridge with the towers beyond.",
+    "phone_settings_tip": "Tap on the sky or the towers to focus, then drag the exposure slider down slightly so the lit buildings do not wash out. In dim light, hold the phone against the railing or your body and let night mode work for its full count.",
+    "best_time": "Blue hour is the recommended time, when the facades and towers are lit against a darkening sky. Arrive early to claim a spot. The Bund's lights are reported to go off around 22:00, and light-show schedules can change, so don't leave it late."
+   },
+   "access_note": "The promenade is an open public space, but crowds, events and rules can change, so check the official site before you go; drones are banned in central Shanghai, including the Bund."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "The Bund",
+    "url": "https://en.wikipedia.org/wiki/The_Bund"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "Georgio",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Promenade_du_Bund.jpg",
+   "from": "Wikidata Q125474 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Oriental Pearl Tower",
+  "in_cut": true,
+  "label": "Oriental Pearl Tower",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 10900,
+  "pin": [
+   121.4952858,
+   31.2418998
+  ],
+  "camera": [
+   121.4952858,
+   31.2418998
+  ],
+  "camera_source": "Researched viewpoint 'North Bund Greenland' (2 web pages); placed at our map tiles: 'North Bund Riverside park' (pois).",
+  "pin_note": "Position from OpenStreetMap way/40778038: the middle of the OpenStreetMap outline 'Oriental Pearl Tower' (139 m across).",
+  "notes": "Iconic TV tower with pink spheres in Lujiazui.",
+  "text": {
+   "description": "The Oriental Pearl Tower is the pink-and-silver spaceship of Shanghai's skyline: three big spheres strung up a slim column, topped by a tall antenna. It was built between 1991 and 1994 and, with its antenna, stands 468 metres tall. It was the tallest structure in China until 2007. The spheres are covered in red glass and concrete tiles, so the tower stays easy to pick out even from a long way off.\n\nThis spot gives you a quieter way to photograph it. A large metal egg-shaped sculpture by the river makes a distinctive foreground, and its shiny surface can reflect the tower. The Bund itself offers a similar view but is busier in the evening, so this waterfront is the calmer choice.\n\nPlace the egg low or to one side of the frame and let the tower rise behind it. Take a few frames with different amounts of sky so you can pick the best one later. If you want a different angle, the Bund shows the tower framed by the Lujiazui skyscrapers, and Zhapu Road Bridge gives a sunrise view with the bridge structure in the foreground.\n\nThe tower is a popular visitor attraction with observation levels inside, but you do not need to go up it to enjoy this view.",
+   "geographic_location": "The tower stands in Lujiazui, on the banks of the Huangpu River, directly opposite the Bund.",
+   "directions_text": "No public transport, such as a nearby station or tram stop, is listed for this spot, so look up the route to North Bund Greenland on a map before you set off. Aim for the waterfront park near the metal egg-shaped restaurant, and check the egg's location on the map too. Once there, walk to the river edge and face south: the tower is straight ahead. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to include the egg sculpture and the tower together. Switch to telephoto (2x-5x, depending on your phone) for a tighter shot that makes the tower look larger behind the egg. Use ultra-wide (0.5x) only if you want a dramatic, close foreground.",
+    "where_to_stand": "Stand in North Bund Greenland (waterfront near the metal egg-shaped restaurant). The Pearl Tower rising behind the metal egg sculpture by the river, which can also reflect the tower. From here the Pearl Tower rises behind the metal egg sculpture by the river, and the egg can reflect the tower. Find a spot where the egg sits to one side so the tower is not hidden behind it.",
+    "how_to_frame": "Turn on gridlines and place the tower on one of the vertical lines, with the egg in the lower third. Keep the phone level so the tower does not lean. For a variation, crouch slightly and try the ultra-wide lens for a bigger foreground, or try the shiny surface of the egg for a reflection of the tower. If you have time, compare this with the view from the Bund.",
+    "phone_settings_tip": "Tap on the tower to set focus, then slide the exposure down a little so the sky keeps its colour and the tower's lights do not wash out. At dusk, let night mode do its work and rest your elbows on a railing or wall to keep the phone steady.",
+    "best_time": "Sunset, staying on into the blue hour just after, when the tower's lights come on against a deep blue sky. The tower's lighting runs into the late evening."
+   },
+   "access_note": "The waterfront park is an open public space, and the tower has observation levels inside, though you do not need to go up it to enjoy this view.",
+   "claims_not_in_sources": [
+    "Lujiazui is in Pudong district.",
+    "North Bund Greenland is on the Bund (west) side of the Huangpu River, so the tower is seen across the water.",
+    "A telephoto lens makes the tower look larger relative to the foreground egg sculpture.",
+    "Blue hour just after sunset gives a deep blue sky that contrasts with the tower's lights.",
+    "Resting your elbows on a railing or wall helps steady the phone for night shots."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Oriental Pearl Tower",
+    "url": "https://en.wikipedia.org/wiki/Oriental_Pearl_Tower"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (875 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "Dottie Day",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_2012.jpg",
+   "from": "Wikidata Q223207 main image"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Nanjing Road",
+  "in_cut": true,
+  "label": "Nanjing Road",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 7380,
+  "pin": [
+   121.47444444,
+   31.23472222
+  ],
+  "camera": [
+   121.47444444,
+   31.23472222
+  ],
+  "camera_source": "Researched viewpoint 'Nanjing Road Pedestrian Street bronze monument' (1 web pages); placed at our map tiles: 'Crystal Orange Shanghai the Bund Nanjing Road Pedestrian Street Hotel' (pois); moved 10 m off buildings.",
+  "pin_note": "Position from Wikidata Q579977: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Famous neon-lit shopping street.",
+  "text": {
+   "description": "Nanjing Road is Shanghai's best-known shopping street, and the pedestrian stretch is where most visitors take their photos. It is closed to traffic, so you can stand and frame a shot without dodging cars. The street is about 28 metres wide and 1,200 metres long, running from Middle Henan Road to Middle Xizang Road. In 2019–2020 the pedestrian zone was extended east towards the Bund. The road dates back to 1845, when it was called Park Lane, and it took the name Nanking Road in 1862. Early in the 20th century eight big department stores opened along it, and some of the older ones are still here.\n\nFor a simple opening picture, walk to the west end, where a bronze monument marks the start of the pedestrian street. This is a separate stop from the subject, which is about 690 metres to the north-east. Standing beside the monument and facing east, you can see the street stretch away behind it, which gives a clear sense of arrival. It works well as a first shot before you walk on.\n\nFurther along, two other spots are worth a stop. One is the corner with Zhongshan East 1st Road, where the street is lined with department store facades and signs, with the Bund's older buildings and the Pudong skyline beyond. The other is the Henan Middle Road crossing, where the street looks like a long tunnel of signs. It gets very busy, so be patient and keep your phone in your hand.",
+   "geographic_location": "Nanjing Road's pedestrian street is in the heart of Shanghai, in Huangpu District, running between People's Square at the west end and the Bund to the east.",
+   "directions_text": "Take the Metro to People's Square station (Lines 1, 2 or 8) and leave by Exit 19. The bronze monument at the west end of the pedestrian street is close to that exit, so it makes an easy first stop. From there, walk east along the pedestrian street towards the Bund. If you would rather start from the middle, Nanjing Road (E.) station on Line 2 is at the Middle Henan Road crossing. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the monument shot near Exit 19, with the street behind it. Switch to ultra-wide (0.5x) for the full width of the street. Use telephoto (2x or more, depending on your phone) later to pick out signs and the crowd.",
+    "where_to_stand": "Stand on Nanjing Road Pedestrian Street bronze monument (near People's Square Metro Exit 19, west end of the pedestrian street). A bronze monument marking the start of the pedestrian street, with the street stretching east behind it. For the monument shot, treat it as a separate stop: walk west to the bronze monument near People's Square Metro Exit 19, stand just west of it and face east, so the monument is in the foreground and the street stretches away behind it.",
+    "how_to_frame": "At the monument, turn on gridlines and put the monument on one third of the frame, with the street running off to the east. Crouch slightly so the monument stands out against the buildings. For other angles, walk to the corner of Zhongshan East 1st Road for the department store facades with the Bund and Pudong beyond. At the Henan Middle Road crossing, shoot along the street for a tunnel of signs.",
+    "phone_settings_tip": "Tap the bright part of the sign or building facade to focus. Then drag the exposure slider down a little so the neon colours stay vivid instead of washing out. After dark, use night mode and hold the phone steady against your body or a lamp post. Live Photos can catch the movement of the crowd.",
+    "best_time": "The neon usually comes on around 6 pm in winter or 7 pm in summer and runs until about 10 pm, so dusk and evening look best. Weekdays are quieter, as weekend crowds are heavy."
+   },
+   "access_note": "The pedestrian street is an open public space, but check the official site before you go for any events or temporary closures."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Nanjing Road",
+    "url": "https://en.wikipedia.org/wiki/Nanjing_Road"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (692 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "Melvin Loi",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:East_Nanjing_Road_2020_(50361842166).jpg",
+   "from": "Wikidata Q579977 main image"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Xintiandi",
+  "in_cut": true,
+  "label": "Xintiandi",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 5240,
+  "pin": [
+   121.4703571,
+   31.2218273
+  ],
+  "camera": [
+   121.4703571,
+   31.2218273
+  ],
+  "camera_source": "Researched viewpoint '太平湖' (2 web pages); placed at OpenStreetMap '新天地太平湖' (way/292718783): middle (272 m across); moved 10 m off water.",
+  "pin_note": "Position from OpenStreetMap node/11135920722: the OpenStreetMap point 'Xintiandi'.",
+  "notes": "Restored shikumen lanes turned into a lively dining quarter.",
+  "text": {
+   "description": "Xintiandi is a car-free district of shopping, cafés and restaurants in the former French Concession. It is built around rebuilt shikumen (\"stone gate\") houses along narrow lanes, and the redevelopment was completed in 2001. The old grey-brick terraces sit right beside modern towers, which is why it photographs so well. From the water's edge the still lake mirrors the shikumen rooftops, with newer buildings rising behind them, so old and new fit into one frame. It is a calm place to take your time before you walk into the lanes. Once inside, the stone-gated frontages along 马当路 and the narrow lane of 新天地北里 make good second shots. The first is a long view with gateways receding down the street, and the second is a tighter shot framed by the stone archways at the entrances. Weekend midday is the busiest time, so you will have fewer people in your pictures on a weekday or earlier in the day. In the plum-rain season (June to early July) the stone lanes can be slippery, so watch your footing while you frame a shot. Ask before photographing inside shops and restaurants.",
+   "geographic_location": "Xintiandi is in central Shanghai, in the former French Concession area around Madang Road (马当路), next to Taipingqiao Park.",
+   "directions_text": "The closest Shanghai Metro stations are Site of the First CPC National Congress · Xintiandi (Lines 10 and 13), Madang Road (Lines 9 and 13) and South Huangpi Road (Line 1). The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the lake, the rooftops and the towers together. Tap 2x or more to pick out the grey-brick roofs and leave out the foreground. In the narrow lanes, switch to the ultra-wide (0.5x) for a long view of the frontages.",
+    "where_to_stand": "Stand in 太平湖 (east of the Xintiandi lanes, on the lake shore inside Taipingqiao Park). The still lake in the foreground mirrors the grey-brick Shikumen rooftops, with modern towers visible behind them. On the east side of the lanes. From the water's edge the still lake mirrors the grey-brick shikumen rooftops, with modern towers visible behind them. The lanes themselves are a short walk to the west.",
+    "how_to_frame": "Switch on the gridlines and put the waterline on a lower third line, so the rooftops and their reflection fill the frame. Keep the phone level so the towers do not lean. For a second picture, walk into 马当路 for a wide view down the lane frontage with the gateways receding, or into 新天地北里 and frame the stone archways at the entrance.",
+    "phone_settings_tip": "Tap the rooftops to focus, then drag the exposure slider down a little so the sky and the lit fountains do not wash out. At dusk, turn on night mode and rest your elbows on a rail or wall to keep the phone steady.",
+    "best_time": "Dusk, when the fountain lights come on, is the suggested time at the lake. Weekday mornings are quieter in the lanes than weekend midday."
+   },
+   "access_note": "The district and the lakeside park are open public spaces; if you plan to visit a museum or go inside a shop, check the official site before you go, and ask before photographing inside shops and restaurants.",
+   "claims_not_in_sources": [
+    "Weekday mornings are likely to be quieter in the lanes than weekend midday.",
+    "Night mode works better if the phone is braced against a rail or wall.",
+    "The lake surface may not mirror the rooftops on a windy day."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Xintiandi",
+    "url": "https://en.wikipedia.org/wiki/Xintiandi"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=quarter): check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "azureisle",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Xintiandi6.jpg",
+   "from": "Wikidata Q1326515 main image"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Jing'an Temple",
+  "in_cut": true,
+  "label": "Jing'an Temple",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 5100,
+  "pin": [
+   121.445314,
+   31.223493
+  ],
+  "camera": [
+   121.445314,
+   31.223493
+  ],
+  "camera_source": "Researched viewpoint '南京西路' (1 web pages); placed at OpenStreetMap '南京西路' (node/5306464712): point.",
+  "pin_note": "Position from the Wikipedia article 'Jing'an Temple'.",
+  "notes": "Golden-roofed Buddhist temple amid modern towers.",
+  "text": {
+   "description": "Jing'an Temple is a working Buddhist temple on West Nanjing Road, and its gold roofs and pagoda stand out against the glass office towers around it. That contrast is why it photographs so well. From across the road you can fit the old temple and the modern skyline into one frame, with the Metro entrance in the foreground to show you are in the middle of the city. The temple's name means 'Temple of Peace and Tranquility'. The first temple on an earlier site dates back to 247 AD, and it moved to its present spot in 1216. It was razed during the Cultural Revolution and rebuilt from 1983, and the Jing'an Pagoda was completed in 2010. So most of what you see is recent, built on a very old foundation. The classic shot is taken from the pavement across the road, looking towards the temple. It needs no ticket, because the exterior can be photographed from the far pavement. Take a few frames at different zoom levels, then step back and check that the roof lines are level. If you want a different view, the pedestrian overpass on 延安路 shows the roofline in the distance with traffic in front, and Jing'an Park (静安公园) may offer the temple reflected in water. Keep to the walkway on the overpass, as the road below is busy.",
+   "geographic_location": "The temple is on West Nanjing Road in central Shanghai, right above Jing'an Temple Station. It sits among shops and office towers in the Jing'an area.",
+   "directions_text": "Take the Shanghai Metro to Jing'an Temple Station, where Lines 2, 7 and 14 meet. The station is directly beneath the temple. Come up to street level, then cross to the north pavement of West Nanjing Road so the temple is across the road. The Metro entrance in the foreground is part of the photo. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to get the roofs, pagoda and towers in one frame. Try telephoto (2x-3x) to bring the gold roofs closer and stack the towers behind them. Use ultra-wide (0.5x) only if you want the whole street scene, and watch for stretched edges.",
+    "where_to_stand": "Stand on 南京西路 (North-side pavement, looking south across the road at the temple). The golden roofs and pagoda with glass office towers stacked behind them in one frame, with a metro entrance in the foreground. For the classic frame, stand on 南京西路 on the pavement opposite the temple, looking across the road at it. From there the golden roofs and pagoda sit in front of the glass office towers, with a Metro entrance in the foreground.",
+    "how_to_frame": "Turn on gridlines and line up the temple's roof edges with them so the buildings look straight. Keep the gold roofs in the middle of the frame and let the towers rise behind them. Wait for a gap in the pedestrians so the Metro entrance stays clear. For a different shot, try the pedestrian overpass on 延安路 (distant roofline, busy traffic), or Jing'an Park, which may offer a reflection of the temple in still water.",
+    "phone_settings_tip": "Tap on the gold roof to set focus and exposure, then drag the exposure slider down a little so the gold keeps its detail and the sky doesn't wash out. At night, use night mode and hold the phone against a railing or your body to keep it steady.",
+    "best_time": "The hour before sunset, when warm light falls on the gold roofs and the glass towers sit in shadow. If you want to see the temple lit at night, lighting times vary, so check the schedule before you go."
+   },
+   "access_note": "The exterior can be photographed from the pavement without a ticket, but the temple itself is a place of worship and may charge entry and set its own opening hours, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Jing'an Temple",
+    "url": "https://en.wikipedia.org/wiki/Jing%27an_Temple"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (1736 m)",
+   "OpenStreetMap object 488 m away (Jing'an Temple): earlier pin kept, check"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Chainwit.",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2024-Apr_Jing-an_Temple_%E9%9D%99%E5%AE%89%E5%AF%BA_Shanghai_04.jpg",
+   "from": "Wikidata Q403189 main image"
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Tianzifang",
+  "in_cut": true,
+  "label": "Tianzifang",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 4290,
+  "pin": [
+   121.4640998,
+   31.2102434
+  ],
+  "camera": [
+   121.4640998,
+   31.2102434
+  ],
+  "camera_source": "Researched viewpoint '泰康路210弄' (4 web pages); placed at our map tiles: '打浦路210弄' (pois); moved 5 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/293829293: the middle of the OpenStreetMap outline 'Tianzifang' (275 m across).",
+  "notes": "Maze of artsy alleys in the former French Concession.",
+  "text": {
+   "description": "Tianzifang is a small arts-and-crafts quarter made of narrow lanes in the old French Concession area of Shanghai. It grew out of a shikumen housing estate built in 1933, and today it holds more than 200 small businesses: cafés, galleries, craft shops and studios. It photographs well because it still feels lived-in. Electricity cables hang overhead, air-conditioning units cling to the walls, and the lanes twist between old stone-framed doorways. The classic first picture is at the Taikang Road entrance, where the stone gate and the Tianzifang stele above it frame the first shikumen lane running back into the alley. A second good spot is Lane 248, with its shikumen houses and large stone-framed doorways. The tourism guide suggests the tangle of wires, washing and lanterns looks best shot straight upwards from the cross-alleys. Many people live here, so keep your phone out of open doorways and off residents' front steps. The lanes are narrow, so step aside when you stop to shoot and let people pass. Shop fronts and signs may have changed, so check on the day.",
+   "geographic_location": "Tianzifang sits in the former French Concession area of Shanghai, in a block of lanes off Taikang Road. Dapuqiao Station is close by, just to the south.",
+   "directions_text": "Take Shanghai Metro Line 9 to Dapuqiao Station and leave by Exit 1. From there it is a short walk to the Taikang Road entrance at Lane 210, which is the gate with the stele above it. The main body of the quarter lies further in, so follow the lanes inwards from the gate. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the stone gate and the stele above it into one frame. Switch to the default lens (1x) for the lane itself, and to telephoto (2x or more, depending on your phone) for details such as lanterns, signs and carved doorways.",
+    "where_to_stand": "Stand on 泰康路210弄 (Taikang Road entrance, under the stone gate). The stone gate and the Tianzifang stele over the entrance, with the first narrow shikumen lane receding into the alley. From there, walk north to 泰康路210弄, the Taikang Road entrance, and stand just outside and under the stone gate. From this spot you see the stone gate and the Tianzifang stele over the entrance, with the first narrow shikumen lane receding into the alley.",
+    "how_to_frame": "Turn on gridlines and line the gate up with the centre grid line so the lane runs away from you as a leading line. Keep the stele near the top of the frame. For a second view, walk to Lane 248 and frame a stone-framed shikumen doorway. Try holding the phone high and pointing straight up from a cross-alley to catch the wires, washing and lanterns. Keep your phone away from open doorways and residents' front steps.",
+    "phone_settings_tip": "Tap on the brightest part of the gate or sky, then slide the exposure down a little so the stonework keeps its detail. Use the gridlines to keep the lane's vertical walls upright. A Live Photo can catch people walking through the gate, but wait for a gap if you want a clear frame.",
+    "best_time": "Go when the lanes are quieter, usually earlier in the day, so you can shoot the gate without crowds in it. Soft daylight suits the stonework and the shaded lanes. Check the shops' own times if you want them open."
+   },
+   "access_note": "The lanes are open to walk through, but they are also people's homes and shop fronts, so check the official site before you go for any events or restrictions."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Tianzifang",
+    "url": "https://en.wikipedia.org/wiki/Tianzifang"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (858 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "Jonipoon",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tianzifangbyday.jpg",
+   "from": "Wikidata Q7800264 main image"
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Shanghai Museum",
+  "in_cut": true,
+  "label": "Shanghai Museum",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 3970,
+  "pin": [
+   121.4709732,
+   31.2302254
+  ],
+  "camera": [
+   121.470973,
+   31.230225
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/161090899: the middle of the OpenStreetMap outline 'Shanghai Museum' (190 m across).",
+  "notes": "Round-topped museum of ancient Chinese art.",
+  "text": {
+   "description": "The Shanghai Museum is a public museum of ancient Chinese art on People's Square. Its building is the main reason to photograph it. The architect, Xing Tonghe, shaped it like a ding, an ancient bronze cooking vessel. It has a round top and a square base, which stand for the old Chinese idea of 'round sky, square earth'. That makes a simple, strong shape for a phone photo: a rounded crown sitting on a solid block.\n\nThe current building was opened on 12 October 1996. It is 29.5 metres high with five floors, and it holds more than 120,000 pieces, including bronzes, ceramics, calligraphy, jades and paintings. The museum was founded in 1952 and spent decades in other buildings before moving here.\n\nFor photos, start at the phone icon on the map, which sits at the museum itself. Then move away from the building until the round top and square base both fit in the frame. Keep the phone level, using the gridlines, so the square base does not lean. Walk a little to one side for a slight angle, which gives the building more depth than a straight-on shot. If you go inside, check the official site first for entry details and any rules on photography in the galleries.",
+   "geographic_location": "The museum is in the Huangpu District of central Shanghai, on People's Square.",
+   "directions_text": "Head for People's Square in Huangpu District and look for the Shanghai Museum, which stands on the square. By taxi, ask to be dropped at the museum itself. The phone icon on the map is at the museum, so there is no extra walk once you arrive. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) from a few steps back, which shows the whole building with little distortion. Use the ultra-wide (0.5x) only if you cannot step back far enough. Use the telephoto (2x-5x, depending on your phone) for the round top and the details of the walls.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. The point marks the middle of the museum's outline, so move away from the building until the whole shape fits in your frame.",
+    "how_to_frame": "Put the round top and square base in one frame and turn on the gridlines so the vertical lines stay straight. Try a second shot from a slight angle to the side to show the building's depth. Then use the telephoto for a close crop of the rounded top.",
+    "phone_settings_tip": "Tap the brightest part of the building to focus, then drag the exposure slider down a little if the sky is bright and the walls look washed out. Use night mode if you are shooting after dark, and hold the phone steady against your body or a solid surface.",
+    "best_time": "Morning or late afternoon usually gives softer light on the walls than midday sun. Early in the day it is also likely to be less crowded around the entrance."
+   },
+   "access_note": "The museum is a public municipal museum, and entry arrangements and any booking rules can change, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Morning or late afternoon light is usually softer than midday sun.",
+    "It is likely to be less crowded around the entrance early in the day."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Shanghai Museum",
+    "url": "https://en.wikipedia.org/wiki/Shanghai_Museum"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "Pyzhou",
+   "licence": "GFDL",
+   "licence_url": "http://www.gnu.org/copyleft/fdl.html",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_shanghai_museum.jpg",
+   "from": "Wikidata Q1051293 main image"
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Peace Hotel",
+  "in_cut": true,
+  "label": "Peace Hotel",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 3930,
+  "pin": [
+   121.4844634,
+   31.2411029
+  ],
+  "camera": [
+   121.4844634,
+   31.2411029
+  ],
+  "camera_source": "Researched viewpoint '中山东一路' (2 web pages); placed at OpenStreetMap '中山东一路' (way/1298040466): point nearest the subject (163 m long).",
+  "pin_note": "Position from OpenStreetMap way/177998987: the middle of the OpenStreetMap outline 'Peace Hotel' (166 m across).",
+  "notes": "Art Deco landmark with the green pyramid roof on the Bund.",
+  "text": {
+   "description": "The Peace Hotel is one of the best-known buildings on the Bund, the riverside street in Shanghai. The main north building was finished in 1929 as Sassoon House, built for Sir Victor Sassoon and designed by Palmer and Turner. It opened as the Cathay Hotel. It is a consistent Art Deco design, with granite facing and a steep pyramidal roof on the river side. The roof is about 10 metres tall and faced with copper that has weathered to a pale green. The tower reaches 77 metres to the roofline and 83 metres to the spire, and when it was built it stood well above its neighbours on the Bund. Across Nanjing Road, the older south building dates from 1908.\n\nIt photographs well because the green roof makes a clear shape against the sky, and the stone facade gives you strong vertical lines. From the Bund you can also get Pudong's towers across the river in the same view. Guides call the raised promenade opposite the hotel the classic vantage point, and one suggests crossing to the western pavement to catch the green roof and street-level details. The best stretch is said to run between the Peace Hotel end and Yan'an Road. For a different view, try the Waibaidu Bridge for a wide shot of the Bund and the skyline, though the hotel is not clearly in frame from there. The hotel is being renovated until 2027 and stays open, so check what the building looks like when you arrive.",
+   "geographic_location": "The Peace Hotel stands on the Bund, the waterfront street beside the Huangpu River in Shanghai. Its north and south buildings face each other across Nanjing Road, with Pudong on the opposite bank of the river.",
+   "directions_text": "No station or tram stop is listed for this spot, so check a map app for the route to the Bund, near the corner of Nanjing Road, and walk along the riverfront. The hotel is the large building with the green pyramid roof on the west side of the road. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the facade and green roof together. Use the ultra-wide (0.5x) if the crowd or the pavement is too tight to fit the whole tower. Use the telephoto (2x or more, depending on your phone) for the roof and the Art Deco details.",
+    "where_to_stand": "Stand on 中山东一路 (raised promenade on the Bund opposite the hotel, west side of the road). The hotel's green pyramidal roof and Art Deco facade from across the road, with Pudong's towers beyond the river. On the raised promenade of the Bund. For the head-on view from directly opposite the hotel, walk south-west along the promenade. From the promenade opposite, you see the green pyramidal roof and the Art Deco facade across the road, with Pudong's towers beyond the river. If the view is blocked, cross to the western pavement for the roof and street-level details.",
+    "how_to_frame": "Turn on gridlines and line the tower's edges up with the vertical lines so the building doesn't lean. Keep the green roof near the top third and leave some sky around it. For a second view, try the Waibaidu Bridge for a wide shot of the Bund and the Pudong skyline, though the hotel is not clearly in that frame.",
+    "phone_settings_tip": "Tap on the roof or facade to set focus, then drag the exposure slider down a little so the sky stays blue and the details in the stonework show. After dark, hold the phone steady with your elbows tucked in and use night mode, which needs a second or two.",
+    "best_time": "Arrive before 6:30 PM to get a front-row spot. Guides suggest around 18:00 or after 22:00 for the Bund view, and the promenade is busiest between 7 and 9 PM."
+   },
+   "access_note": "The promenade is an open public space, but the hotel's interiors and rooftop terrace are reached through the hotel, so check the official site before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Peace Hotel",
+    "url": "https://en.wikipedia.org/wiki/Peace_Hotel"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "Livelikerw",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Sasson_House_The_Bund.JPG",
+   "from": "Wikidata Q377875 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Shanghai World Financial Center",
+  "in_cut": true,
+  "label": "Shanghai WFC",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 3920,
+  "pin": [
+   121.5030637,
+   31.2365828
+  ],
+  "camera": [
+   121.5030637,
+   31.2365828
+  ],
+  "camera_source": "Researched viewpoint '陆家嘴环路 (Lujiazui Ring Road) and 东泰路 (Dongtai Road) intersection' (1 web pages); placed at crossing of 陆家嘴环路 (Lujiazui Ring Road) and 东泰路 (Dongtai Road) (our map tiles).",
+  "pin_note": "Position from OpenStreetMap way/10691100: the middle of the OpenStreetMap outline 'Shanghai World Financial Center' (92 m across).",
+  "notes": "The 'bottle opener' skyscraper with a trapezoid opening at the top.",
+  "text": {
+   "description": "The Shanghai World Financial Center is a 492-metre supertall tower in Pudong, easy to pick out by the trapezoid-shaped opening near its top. Locals and visitors often call it \"the bottle opener\". The opening replaced an earlier circular design, which drew objections, and the architects were Kohn Pedersen Fox. The tower was topped out in September 2007 and opened in August 2008. It stands beside the Shanghai Tower and the Jin Mao Tower, and together they form the first group of three supertall buildings standing side by side. That trio is the reason to come here.\n\nIt is a quieter spot than the main promenade. From here you look straight up at the three towers from ground level, with the World Financial Center filling much of the frame. The tower's straight edges and the opening at the top make strong lines, so use the gridlines to keep them upright. Stand square to the building and tilt the phone as little as you can, because tall buildings lean inwards in a steep upward shot.\n\nIf you want a wider view of the skyline, Waibaidu Bridge across the river and Lujiazui Central Green Space are alternatives, though the green space may be harder to get into, so confirm on the ground. The observation deck has closed for good, so this is a view from the outside only.",
+   "geographic_location": "In the Lujiazui area of Pudong district, Shanghai, right beside the Shanghai Tower and the Jin Mao Tower.",
+   "directions_text": "There are no Underground or tram stops listed for this spot, so go by taxi to the Lujiazui area of Pudong and ask for the Shanghai World Financial Center. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the tower and its neighbours into one upward frame from this close. Switch to the default lens (1x) for a tidier shot of the World Financial Center alone. Use telephoto (2x-5x, depending on your phone) to pick out the trapezoid opening at the top.",
+    "where_to_stand": "Stand at the corner of 陆家嘴环路 (Lujiazui Ring Road) and 东泰路 (Dongtai Road) (near the SWFC rear taxi ramp). A street-level look up at the three Lujiazui supertalls, with the Shanghai World Financial Center close to the frame and the Shanghai Tower and Jin Mao Tower beside it. The World Financial Center rises to the north, close to the frame, with the Shanghai Tower and Jin Mao Tower beside it.",
+    "how_to_frame": "Turn on the gridlines and line a vertical edge of the tower with a grid line. Keep the phone as level as you can, then tilt up only as far as needed, to limit the leaning look. Put the three towers together in the frame with the World Financial Center nearest. For a different angle, try the view across the river from Waibaidu Bridge.",
+    "phone_settings_tip": "Tap on the tower's glass to set focus, then drag the exposure slider down a little so the sky does not turn white. After dark, use night mode and brace your elbows against your body, or lean on a wall, to keep the shot sharp.",
+    "best_time": "Dusk, when the sky still has some colour and the building lights are on, gives a good mix of sky and tower. In daytime, a clear sky gives the cleanest edges."
+   },
+   "access_note": "The stand-here point is a street corner outside the building, but the observation deck has permanently closed and access around the rear ramp may change, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Dusk, when the lights come on, is a good time for the tower and sky together.",
+    "The pavements around the street corner can be reached on foot by the public.",
+    "Tilting a phone upward makes tall buildings appear to lean inwards.",
+    "A clear daytime sky gives cleaner building edges."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Shanghai World Financial Center",
+    "url": "https://en.wikipedia.org/wiki/Shanghai_World_Financial_Center"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "GG001213",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83.jpg",
+   "from": "Wikidata Q80852 main image"
+  }
+ },
+ {
+  "rank": 12,
+  "name": "People's Square",
+  "in_cut": true,
+  "label": "People's Square",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 3330,
+  "pin": [
+   121.47438,
+   31.229564
+  ],
+  "camera": [
+   121.47438,
+   31.229564
+  ],
+  "camera_source": "Researched viewpoint '人民广场' (2 web pages); placed at OpenStreetMap '人民广场' (way/513764717): middle (324 m across).",
+  "pin_note": "Position from Wikidata Q1078123: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Central public square surrounded by museums and the Grand Theatre.",
+  "text": {
+   "description": "People's Square is a large open public square in the middle of Shanghai, and it works well for a first set of city photos. Its best picture is the central plaza: a wide lawn, a fountain in the foreground and a ring of towers and cultural buildings behind. The Shanghai Museum sits in a prominent central spot, with big fountains just to its north. The Shanghai Grand Theatre and the Urban Planning Exhibition Hall are also close by, so the skyline changes as you turn around.\n\nThe ground has an interesting past. Before 1949 it was a horse-racing course owned by the Shanghai Race Club. After the Chinese Civil War, the new government took over the grounds and part of the race course became People's Square. In the 1990s the city government headquarters and the Shanghai Museum moved here. The old clubhouse became the Shanghai Art Museum, and part of the track became People's Park next door.\n\nFor your photos, stand by the central fountain and let it fill the lower part of the frame, with lawn and buildings behind. The fountain runs on a schedule in the daytime and is lit in the evening, so check timings on the day. The square also has a weekend marriage market, so be discreet and ask before photographing individuals. There is an alternative if you want a higher view: look down over the square from the Urban Planning Exhibition Hall.",
+   "geographic_location": "People's Square is in Huangpu District, in central Shanghai. It lies south of Nanjing Road (West) and north of Huaihai Road (East), with the Shanghai Museum at its centre and People's Park alongside.",
+   "directions_text": "Start from the Nanjing Road (West) area and head south, and you reach the square. The Shanghai Metro's People's Square Subway Station, on Lines 1, 2 and 8, is at the square. Several bus stops also ring the north and south sides of the square. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the fountain, lawn and buildings together. Then switch to the default lens (1x) for a calmer, more natural view. Use telephoto (2x-5x, depending on your phone) to pick out building details or the fountain's jets.",
+    "where_to_stand": "Stand in 人民广场 (central plaza, by the fountain). The open lawn and central plaza with the illuminated fountain in the foreground, framing the square's greenery and surrounding buildings. From here you look across the illuminated fountain in the foreground to the open lawn, the greenery and the buildings around the square. The rest of the square lies to the south-east of this spot.",
+    "how_to_frame": "Switch on gridlines and put the fountain on the lower third, with the lawn and buildings filling the rest of the frame. Crouch slightly to bring the fountain's water up against the skyline. If you want a higher view looking down over the square, the Urban Planning Exhibition Hall is an alternative, as is the view along Nanjing Road East.",
+    "phone_settings_tip": "Tap the fountain to focus, then slide the exposure down a little so the lights do not wash out in the evening. Use night mode if the phone offers it, and hold the phone against your body or a railing to keep it steady. Live Photos can capture the water as it moves.",
+    "best_time": "Evening, when the fountain is lit. In the daytime the fountain puts on shows on a schedule, so check on the day."
+   },
+   "access_note": "The square itself is an open public space, but the museums and the Urban Planning Exhibition Hall have their own entry rules, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "The ultra-wide lens helps fit the fountain, lawn and surrounding buildings into one frame from the plaza.",
+    "Crouching and using gridlines help to place the fountain in the lower part of the frame.",
+    "A steady hold or resting the phone on a railing helps in low evening light.",
+    "The weekend marriage market is a place where people should be photographed discreetly and with permission."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "People's Square (Shanghai)",
+    "url": "https://en.wikipedia.org/wiki/People%27s_Square_%28Shanghai%29"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (579 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "Baycrest",
+   "licence": "CC BY-SA 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Peoples_Square.jpg",
+   "from": "Wikidata Q1078123 main image"
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Jin Mao Tower",
+  "in_cut": true,
+  "label": "Jin Mao Tower",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 3060,
+  "pin": [
+   121.5014209,
+   31.2372546
+  ],
+  "camera": [
+   121.5014209,
+   31.2372546
+  ],
+  "camera_source": "Commons cluster (1 photos), weak. Moved 39 m outwards on 2026-11-10 so it is 40 m from the subject's edge, as the text says.",
+  "pin_note": "Position from OpenStreetMap way/376075961: the middle of the OpenStreetMap outline 'Jin Mao Tower' (130 m across).",
+  "notes": "Pagoda-inspired Art Deco skyscraper in Lujiazui.",
+  "text": {
+   "description": "The Jin Mao Tower is one of the great towers of Lujiazui in Pudong. It rises 420.5 metres over 88 floors and was dedicated on 28 August 1998, a date picked because 8 is a lucky number in Chinese culture. The number 8 also shapes the design: the tower is split into 16 segments, each a little shorter than the one below. The stepped outline is meant to recall a tiered pagoda, which gives the building a rhythm of repeating ledges. That rhythm is what makes it work so well in photos, because the eye follows the steps all the way up. It sits beside the Shanghai World Financial Center, and together with the Oriental Pearl Tower and the Shanghai Tower it forms the skyline that people photograph from the Bund. The Grand Hyatt hotel occupies the upper floors, from the 53rd upwards, and an indoor observation deck, the Skywalk, is on the 88th floor. Go for a dramatic upward view instead, with the stepped sides leaning in towards the sky. Include a little foreground, such as a paving pattern, a lamp or a passer-by, so the picture has a sense of scale. If you want the whole tower in one frame, step well back and shoot it as part of the wider Lujiazui group.",
+   "geographic_location": "The Jin Mao Tower stands in the Lujiazui area of Pudong, Shanghai, right next to the Shanghai World Financial Center. It is part of the cluster of tall towers on the Pudong side that you see across the water from the Bund.",
+   "directions_text": "Head for the Lujiazui area of Pudong and aim for the Jin Mao Tower, which is easy to spot from a distance. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) lens. At this distance it is the only way to get a good part of the tower in the frame. The default lens (1x) works for close-up details of the stepped sections and the lattice-like cladding, and the telephoto (2x-5x) can pick out the upper tiers.",
+    "where_to_stand": "Stand on 外滩 (The Bund) (west bank promenade, Zhongshan East 1st Road, facing Pudong across the Huangpu). Jin Mao Tower in the Lujiazui skyline across the river, with the historic Bund facades in the foreground.",
+    "how_to_frame": "Tilt the phone up and turn on gridlines to keep the tower roughly centred. The sides will lean inwards, which is normal for a shot from the base. Put a bit of foreground at the bottom of the frame for scale, and keep the stepped outline against open sky. For a straighter, full-height view, walk back and use the default lens (1x), or the ultra-wide if space is tight.",
+    "phone_settings_tip": "Tap on the sky or a mid-tone part of the tower to set focus, then drag the exposure slider down slightly so the sky keeps its colour and the glass does not blow out. Switch on night mode after dark, and brace your elbows against your body to keep the shot steady.",
+    "best_time": "Late afternoon to dusk is a good time: the sky is softer and the glass picks up colour from it."
+   },
+   "access_note": "The Skywalk observation deck is ticketed, and the hotel has its own separate entrance, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "From the stand-here point you are at the foot of the tower, so a normal lens cannot fit it all in.",
+    "Pointing a phone upwards from the base makes the tower's sides appear to lean inwards.",
+    "Late afternoon to dusk usually gives softer light."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Jin Mao Tower",
+    "url": "https://en.wikipedia.org/wiki/Jin_Mao_Tower"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "unknown",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jin_Mao_Tower.jpg",
+   "from": "Wikidata Q80813 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Jade Buddha Temple",
+  "in_cut": true,
+  "label": "Jade Buddha Temple",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 2490,
+  "pin": [
+   121.4398568,
+   31.2436197
+  ],
+  "camera": [
+   121.439857,
+   31.24362
+  ],
+  "camera_source": "Researched viewpoint '玉佛禅寺' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap way/404699628: the middle of the OpenStreetMap outline 'Jade Buddha Temple' (307 m across).",
+  "notes": "Active temple with two jade Buddha statues.",
+  "text": {
+   "description": "The Jade Buddha Temple is a working Buddhist temple in Shanghai, founded in 1882 around two jade Buddha statues brought by sea from Myanmar. One is a seated Buddha, 1.95 metres tall and weighing about three tons. The other is a smaller reclining Buddha. The present temple buildings took ten years to build, from 1918 to 1928. For a phone photo, the best subject is the outside: the ornate yellow wall along Anyuan Road and the curved roofline above it. Together they make a strong street-level architectural shot. Photo rules are generally more relaxed outside than in the halls. Inside, the courtyards and gardens give you trees, drifting incense smoke and the temple buildings. The Jade Buddha Chamber and some other halls do not allow photos, and rules vary from hall to hall, so follow the posted signs. If worshippers are in your frame, keep your distance and avoid close-ups of faces. Start outside on the street, then decide whether to go in. The temple is large, so allow time to wander between courtyards. Entry arrangements and fees can change, so check the official site before you go.",
+   "geographic_location": "The temple stands in Shanghai, with its yellow front wall facing Anyuan Road. It is a large complex, roughly 300 metres across.",
+   "directions_text": "You can take Line 13 of the Shanghai Metro to Jiangning Road Station to reach the temple. From there, follow the signs and local maps to Anyuan Road. The phone icon on the map is in the middle of the temple, so for the facade shot walk to the Anyuan Road frontage and shoot the yellow wall from the pavement outside. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the long yellow wall and roofline in from the pavement. Switch to the default lens (1x) for a more natural look. Use the telephoto (2x-5x, depending on your phone) for roof details and carved decoration.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. For the facade shot, walk to the Anyuan Road pavement outside and shoot the ornate yellow outer wall and curved roofline from there as a street-level architectural shot. If you go inside, the courtyards and gardens are a good second viewpoint, with the temple buildings, trees, incense smoke and worshippers in the frame.",
+    "how_to_frame": "Turn on gridlines and line the wall up with a horizontal line so it does not lean. Keep the curved roofline near the top third of the frame. Hold the phone level, because tilting it up bends the vertical lines when you use the ultra-wide. Inside, use the courtyard buildings and trees to frame the shot, and keep a respectful distance from people praying.",
+    "phone_settings_tip": "Tap the yellow wall to focus, then drag the exposure slider down slightly if the sky is bright, so the colour stays rich. Do not use flash, and switch your phone to silent. Do not take photos in halls where signs forbid it.",
+    "best_time": "Visit when the temple is open and the light is soft, such as morning or late afternoon. Check the official site for current opening times before you go."
+   },
+   "access_note": "This is an active place of worship and a ticketed site, with photography banned in some halls, so check the official site before you go and follow the posted signs."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Jade Buddha Temple",
+    "url": "https://en.wikipedia.org/wiki/Jade_Buddha_Temple"
+   }
+  ],
+  "pin_flags": [
+   "phone inside the subject's outline (pin and phone may be reversed)"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "Hermann Luyken",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2014.11.17.101441_Jade_Buddha_Temple_Shanghai.jpg",
+   "from": "Wikidata Q967601 main image"
+  }
+ },
+ {
+  "rank": 15,
+  "name": "City God Temple of Shanghai",
+  "in_cut": true,
+  "label": "City God Temple",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1910,
+  "pin": [
+   121.488156,
+   31.2278162
+  ],
+  "camera": [
+   121.488156,
+   31.2278162
+  ],
+  "camera_source": "Researched viewpoint '九曲桥' (4 web pages); placed at OpenStreetMap '九曲桥' (way/62072384): middle (70 m across); moved 15 m off water.",
+  "pin_note": "Position from OpenStreetMap way/40036659: the middle of the OpenStreetMap outline 'City God Temple of Shanghai' (143 m across).",
+  "notes": "Taoist temple beside the Yuyuan bazaar.",
+  "text": {
+   "description": "The City God Temple is a Taoist temple in the old city of Shanghai, and the roofs, pond and zigzag bridge around it make a lively scene for a phone. The temple began as a shrine to the spirit of Jinshan, an island off the coast, and became a City God Temple in 1403. It honours three figures as the city's protectors: a Han dynasty chancellor, a Ming-era official and a Qing general who died defending Shanghai in the First Opium War. It was closed during the Cultural Revolution and fully restored in 2005–06, reopening in October 2006. Today it sits inside a busy pedestrian zone of shops and restaurants.\n\nThe classic photo is taken from the middle of 九曲桥, the zigzag bridge. The bridge's angled lines lead the eye to the Huxinting pavilion over the pond, with the temple's upturned roof lines behind. After dusk the lanterns come on and the pond picks up their reflections, which is when the scene looks its best. If you want something different, a low-angle shot of the eaves from the temple entrance (城隍庙) works well, and a wider view of the whole block of old-style roofs can be taken from 豫园商城.\n\nExpect crowds, especially at weekends, during Spring Festival and in Golden Week. Be patient and wait for a gap rather than fighting for the exact centre of the bridge.",
+   "geographic_location": "In the old city of Shanghai, inside the pedestrian shopping and dining area beside Yu Garden. The pond and zigzag bridge are just north-west of the temple buildings.",
+   "directions_text": "There is no Underground or tram stop right at this spot, so head for the old city and the Yu Garden area and walk into the pedestrian streets from there. Follow the lake edge towards the pavilion and the roofs. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the bridge, pavilion and roofs together. Switch to ultra-wide (0.5x) if the bridge is crowded and you need to fit more in, and use telephoto (2x-5x, depending on your phone) for the carved eaves and roof ridges.",
+    "where_to_stand": "Stand on 九曲桥 (middle of the zigzag bridge, facing the lake). The zigzag bridge in the foreground with the Huxinting pavilion over the pond and the temple's roof lines behind it. In the middle of the zigzag bridge, facing the lake. From here your photo shows the zigzag bridge in the foreground, the Huxinting pavilion over the pond, and the temple's roof lines behind it.",
+    "how_to_frame": "Turn on gridlines and let the bridge's zigzag rail lead towards the pavilion, with the roofs filling the top of the frame. Keep the horizon level so the buildings don't lean. For an alternative, shoot a low-angle view of the upturned eaves against the sky from the temple entrance.",
+    "phone_settings_tip": "After dark, tap on the brightest lantern, then slide the exposure slider down a little so the lights don't burn out. Use night mode if your phone offers it and brace your elbows on the rail to keep still. A Live Photo can help you choose the sharpest frame when people are moving.",
+    "best_time": "After dusk, when the lanterns light up; one guide suggests roughly 18:30–19:30. Weekends and holiday periods are the busiest."
+   },
+   "access_note": "The bridge and surrounding streets are open public space, but the temple itself is a ticketed place of worship, so check the official site before you go for entry and opening times; photographing the deities inside the halls is not allowed."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "City God Temple of Shanghai",
+    "url": "https://en.wikipedia.org/wiki/City_God_Temple_of_Shanghai"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/15.jpg",
+   "artist": "Chainwit.",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2024-Apr_Shanghai_City_God_Temple_%E4%B8%8A%E6%B5%B7%E5%9F%8E%E9%9A%8D%E5%BB%9F_-_img_01.jpg",
+   "from": "Wikidata Q289901 main image"
+  }
+ },
+ {
+  "rank": 16,
+  "name": "Shanghai Natural History Museum",
+  "in_cut": true,
+  "label": "Natural History Museum",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1220,
+  "pin": [
+   121.4580477,
+   31.2370195
+  ],
+  "camera": [
+   121.458048,
+   31.237019
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/425762388: the middle of the OpenStreetMap outline 'Shanghai Natural History Museum' (224 m across).",
+  "notes": "Modern museum with a spiral, cell-inspired design.",
+  "text": {
+   "description": "The Shanghai Natural History Museum is one of the largest natural science museums in China. Its home is a purpose-built building of 44,517 square metres in Jing'an Sculpture Park, opened to the public in 2015. The museum began in 1956 in the old Shanghai Cotton Exchange Building on East Yan'an Road, so this is its newer site. For a phone photographer the appeal is the building itself: a large building in Jing'an Sculpture Park that you will want to step back from to fit in. The collection holds about 240,000 samples, including a 140-million-year-old Mamenchisaurus skeleton that stands over four storeys high, plus a giant panda and a Yellow River mammoth. These are inside, so check opening and entry details locally before you go. Outside, use whatever foreground the park offers to add depth to your shots. Walk around a little before choosing your spot, as the building is wide (about 224 m across) and looks quite different from each side. Keep your phone level and use the gridlines so the long edges stay straight.",
+   "geographic_location": "The museum stands in Jing'an Sculpture Park in Shanghai.",
+   "directions_text": "No Underground or tram stops are listed for this spot, and no public transport is listed for it at all, so head to Jing'an Sculpture Park in Shanghai, where the museum stands. Once you reach the park, the phone icon on the map is at the centre of the museum's outline. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole wide building in, then switch to the default lens (1x) for a more natural look. If you can, use the telephoto (2x-5x) for details of the walls and shapes.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot.",
+    "how_to_frame": "Turn on the gridlines and line up the long edges of the building with them to keep it straight. Use whatever foreground the park offers to give depth. Try a low, wide shot with the ultra-wide, then a closer one of the surfaces and shapes with 2x or more.",
+    "phone_settings_tip": "Tap the building to focus, then slide the exposure down a little if the sky is bright so the walls keep their detail. If you take a shot of the park scene with people, a Live Photo can capture a bit of movement.",
+    "best_time": "Choose a day with soft light or a clear sky, and go in the morning or late afternoon when the light is gentler."
+   },
+   "access_note": "The museum is within Jing'an Sculpture Park. Check opening and entry details locally before you go."
+  },
+  "checker_problems": 10,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Shanghai Natural History Museum",
+    "url": "https://en.wikipedia.org/wiki/Shanghai_Natural_History_Museum"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/16.jpg",
+   "artist": "SSYoung",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Natural_History_Museum_(New)_01.JPG",
+   "from": "Wikidata Q1312291 main image"
+  }
+ },
+ {
+  "rank": 17,
+  "name": "Shanghai Grand Theatre",
+  "in_cut": true,
+  "label": "Shanghai Grand Theatre",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 510,
+  "pin": [
+   121.4673206,
+   31.2314607
+  ],
+  "camera": [
+   121.4673206,
+   31.2314607
+  ],
+  "camera_source": "Commons cluster (2 photos), weak. Moved 67 m outwards on 2026-11-10 so it is 120 m from the subject's edge, as the text says.",
+  "pin_note": "Position from OpenStreetMap way/39763758: the middle of the OpenStreetMap outline 'Shanghai Grand Theatre' (193 m across).",
+  "notes": "Glass-fronted opera house with a curved roof.",
+  "text": {
+   "description": "The Shanghai Grand Theatre is the city's big performing arts centre, in the northern part of People's Square. French architect Jean-Marie Charpentier designed it with the Institute of Architectural Design of Eastern China, and it opened on 27 August 1998. The building rises eight floors above ground, with two more below, and is often described as a crystal-like palace. That fits the pale, glassy look that makes it an easy subject for a phone. It houses three theatres, and the main Auditorium seats 1,631 people. Opera, ballet, musicals, symphonies and Chinese opera have all been staged here. The outline is about 193 m across, so it is a wide subject. Step back, keep the phone level and use the gridlines to keep the vertical edges straight. Wait for a gap in the passers-by if you want a clean foreground, or leave a few people in to show the scale. Dusk, when the building is lit, usually suits it best. For performances, check the theatre's schedule.",
+   "geographic_location": "In the Huangpu District of central Shanghai, in the northern part of People's Square. It stands at the junction of Renmin Avenue and Huangpi North Road.",
+   "directions_text": "Head for the northern part of People's Square, which is served by Metro Lines 1, 2 and 8 at People's Square station, and look for the Shanghai Grand Theatre on Renmin Avenue. From there the theatre is 118 m to the north, about 2 minutes on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) from where you stand to take in the whole front of the building. Switch to ultra-wide (0.5x) only if you move closer and the building will not fit. Use telephoto (2x-5x, depending on your phone) for roof lines and glass details.",
+    "where_to_stand": "Stand in People's Square (人民广场) (north side of the plaza, facing the building's northwest corner). The curved glass facade of the theatre across the open plaza, with the lit building at dusk or night.",
+    "how_to_frame": "Turn on gridlines and line the building's vertical edges up with them so it does not lean. Hold the phone level and at chest height, keep the building central or slightly to one side, and include some open ground in the foreground for depth. Try one wide shot and one tighter telephoto shot of the roof and glass.",
+    "phone_settings_tip": "Tap the building to focus, then lower the exposure slider a little if the sky is bright, so the glass and pale walls keep their detail. In the evening, use night mode and hold the phone steady against your body or a railing to avoid blur.",
+    "best_time": "Late afternoon into dusk, when the building is lit and the sky still has some colour. Early morning is usually quieter."
+   },
+   "access_note": "The outside of the building can be photographed from the surrounding People's Square area. For performances, check the theatre's schedule.",
+   "claims_not_in_sources": [
+    "The building looks best around dusk when it is lit up.",
+    "The area around the building is generally open to walk through and photograph from outside.",
+    "Early morning is usually quieter around the theatre."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Shanghai Grand Theatre",
+    "url": "https://en.wikipedia.org/wiki/Shanghai_Grand_Theatre"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/17.jpg",
+   "artist": "Bruno Corpet (Quoique)",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Grand_Theatre_2013.jpg",
+   "from": "Wikidata Q1325611 main image"
+  }
+ },
+ {
+  "rank": 18,
+  "name": "Waibaidu Bridge",
+  "in_cut": true,
+  "label": "Waibaidu Bridge",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 450,
+  "pin": [
+   121.49,
+   31.24305556
+  ],
+  "camera": [
+   121.49,
+   31.24305556
+  ],
+  "camera_source": "Researched viewpoint '乍浦路桥' (2 web pages); placed at OpenStreetMap '乍浦路桥' (way/144965773): middle (80 m across); moved 35 m off water.",
+  "pin_note": "Position from the Wikipedia article 'Waibaidu Bridge'.",
+  "notes": "Steel truss bridge over Suzhou Creek by the Bund.",
+  "text": {
+   "description": "Waibaidu Bridge, known in English as the Garden Bridge, is a dark steel arch-backed bridge over the mouth of Suzhou Creek, close to where the creek meets the Huangpu River beside the Bund. It is the first all-steel bridge in China and the only surviving camelback truss bridge there. It opened on 20 January 1908 and is the fourth Western-designed bridge on this spot since 1856. It was declared Heritage Architecture in 1994.\n\nIt photographs well because the criss-crossing steelwork makes a natural frame. One recommended view looks down the creek toward the bridge, with the Pudong towers rising behind it. This map's stand-here point on the map is up the creek on 乍浦路桥 (the Zhapu Road Bridge), where you can see the whole steel truss with the skyline behind it. Guides also mention the creek reflections at dusk.\n\nIf you have time, walk down and take a second set of pictures from Waibaidu Bridge, where the Bund and the skyline show through the ironwork and the steel fills the foreground. Keep your elbows against the railing for steadier shots, and wipe your lens first, as river air can leave a film on it.",
+   "geographic_location": "In central Shanghai, at the mouth of Suzhou Creek beside the Bund. The bridge links the Huangpu and Hongkou districts.",
+   "directions_text": "Head for the Bund and the mouth of Suzhou Creek. The spot data lists no nearby station, so check a map app for the best route from where you are. Walking from there south-east to the bridge itself is about 700 m, roughly 10 minutes on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the bridge and skyline together. Try telephoto (2x-5x, depending on your phone) to bring the Pudong towers closer and make them look larger behind the steelwork. Save the ultra-wide (0.5x) for when you are standing on Waibaidu Bridge itself.",
+    "where_to_stand": "Stand on 乍浦路桥 (Suzhou Creek, looking east toward Waibaidu Bridge). The steel truss of Waibaidu Bridge seen down the creek, with the Pudong towers rising behind it. From there you see the steel truss of the bridge down the creek, with the Pudong towers rising behind it.",
+    "how_to_frame": "Turn on gridlines and put the bridge on a lower third line, with the towers above it and the creek reflections below. The creek's edges lead the eye towards the bridge. If you walk to Waibaidu Bridge, shoot through the steel trusses towards the Bund and the skyline, using the ironwork as a frame.",
+    "phone_settings_tip": "Tap on the bridge to focus, then slide the exposure down a little so the lit towers don't turn into white blobs. After dark, use night mode and rest your elbows on the railing, as night mode needs a steady hand. Wait for a gap in the traffic before you shoot.",
+    "best_time": "After dark, when the lights come on and the reflections show on the water. Dusk is a good start, though the middle of Waibaidu Bridge can be crowded then. By day the traffic makes the bridge less photogenic."
+   },
+   "access_note": "Both are public bridges over a city creek and no ticket is mentioned, but check the official site before you go in case of works or closures.",
+   "claims_not_in_sources": [
+    "The Pudong towers are visible beyond the bridge when looking down Suzhou Creek from the Zhapu Road Bridge.",
+    "The creek shows reflections at dusk.",
+    "The middle of Waibaidu Bridge is crowded at dusk.",
+    "The bridge is less photogenic by day because of traffic.",
+    "Both bridges are public crossings with no ticket required.",
+    "The Chinese name 乍浦路桥 corresponds to the Zhapu Road Bridge.",
+    "River air can leave a film on a phone lens."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Waibaidu Bridge",
+    "url": "https://en.wikipedia.org/wiki/Waibaidu_Bridge"
+   }
+  ],
+  "pin_flags": [
+   "OpenStreetMap object 479 m away (Waibaidu Bridge): earlier pin kept, check"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/18.jpg",
+   "artist": "kallerna",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Waibaidu_Bridge_Shanghai.jpg",
+   "from": "Wikidata Q2121198 main image"
+  }
+ },
+ {
+  "rank": 19,
+  "name": "Shanghai Urban Planning Exhibition Center",
+  "in_cut": true,
+  "label": "Urban Planning Center",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 410,
+  "pin": [
+   121.4709003,
+   31.2333757
+  ],
+  "camera": [
+   121.4709,
+   31.233376
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/39763847: the middle of the OpenStreetMap outline 'Shanghai Urban Planning Exhibition Hall' (116 m across).",
+  "notes": "Home of the huge scale model of Shanghai.",
+  "text": {
+   "description": "The Shanghai Urban Planning Exhibition Center stands on the edge of People's Square, next to the municipal government building. It is a six-storey white building, 43 metres high, with aluminium panel cladding and a roof built as a membrane structure. That clean, pale look gives you simple shapes and a lot of sky to work with, so it suits a phone camera well. Inside is a huge scale model of the whole city, though this guide is about the building itself.\n\nThe centre was established in 2000 and was China's first city planning exhibition hall. The architect, Ling Benli of ECADI, designed it to balance the Grand Theatre at the far end of People's Square. The square and People's Park sit on the old Shanghai racecourse and are still among the largest open spaces in central Shanghai, so you can step back a good distance and fit more of the building into the frame.\n\nFor photos, use the open space around the building and look for the strong lines of the cladding and the roof. A straight-on view works well because the building is fairly symmetrical. Turn gridlines on and keep the vertical edges parallel to the grid, so the walls don't lean. If people are walking across the foreground, wait a moment for a clearer gap, or use them to show how big the building is. Keep the phone level and check the edges of the frame for lamp posts or signs before you take the shot.",
+   "geographic_location": "It is on People's Square in central Shanghai, right beside the municipal government building and close to the edge of People's Park.",
+   "directions_text": "There are no Metro or tram stops right at this spot, so start from People's Square, the well-known area in the centre of Shanghai. Walk to the municipal government building, where the Exhibition Center is next door. If you are coming from further away, go by taxi to People's Square and finish on foot. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the whole building. Switch to the ultra-wide (0.5x) if you are standing close and cannot fit the building in. Use the telephoto (2x-5x, depending on your phone) to pick out details of the white cladding or the roof structure.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot.",
+    "how_to_frame": "Turn on gridlines and line up the vertical edges of the walls with them. Place the roofline about one third down from the top of the frame, and leave a little sky above it. For a second shot, use the telephoto to frame just the white panels and the roof edge as a pattern.",
+    "phone_settings_tip": "Tap on the building to focus, then slide the exposure down a little if the white cladding looks washed out against a bright sky. Keep the phone level to avoid leaning walls.",
+    "best_time": "Choose a day with some light cloud or soft sun so the white panels keep their detail. Early morning is usually quieter around the square."
+   },
+   "access_note": "The surrounding square is open public space, but entry to the exhibition inside may be ticketed or have set hours, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Shanghai Urban Planning Exhibition Center",
+    "url": "https://en.wikipedia.org/wiki/Shanghai_Urban_Planning_Exhibition_Center"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/19.jpg",
+   "artist": "Mätes II.",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Urban_Planning_Exhibition_Center_at_night_2011-10-11_cropped.jpg",
+   "from": "Wikidata Q713922 main image"
+  }
+ },
+ {
+  "rank": 20,
+  "name": "HSBC Building, the Bund",
+  "in_cut": true,
+  "label": "HSBC Building",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 210,
+  "pin": [
+   121.4851,
+   31.2379
+  ],
+  "camera": [
+   121.4851,
+   31.2379
+  ],
+  "camera_source": "Researched viewpoint '陈毅广场' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from Wikidata Q213087: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Neoclassical bank with a domed mosaic ceiling.",
+  "text": {
+   "description": "The HSBC Building at No. 12 the Bund is a six-floor neo-classical bank building. It was designed by Palmer & Turner and built between 1921 and 1923. When it opened it was the largest bank building in the Far East. It has a granite front, a central dome, and six Ionic columns running up through the middle floors. Two bronze lions guard the entrance steps. The pair there now are replicas from 1997, and the originals are in the Shanghai Museum. Today the building houses the Shanghai Pudong Development Bank.\n\nIt photographs well because the symmetrical facade and dome are easy to read even on a small screen. From Chen Yi Square, opposite Bund No. 12, the building sits on the left of the frame, the river fills the middle, and the Pudong towers stand on the right. Guides treat this as the classic Bund postcard view, with old and new Shanghai in one picture.\n\nFor a phone photo, keep your gridlines on so the columns stay upright. Tap the building to set focus, then slide the exposure down a little if the sky is washing out. Some guides say the promenade is busiest around sunset and blue hour, so weekday mornings are calmer. If you want a different angle, the riverside park on the North Bund looks back at the Bund's old facades with Pudong behind. It is about a kilometre away, so the building will be small in the frame.",
+   "geographic_location": "The building stands at No. 12 on the Bund, in the Bund area of Shanghai, where Palmer & Turner designed several buildings. Pudong is visible across the river from the promenade viewpoint.",
+   "directions_text": "No station is listed for this spot, so navigate to the Bund promenade at No. 12. The subject, the HSBC Building, is at No. 12 itself. Chen Yi Square, the recommended viewpoint, is in the middle of the Bund promenade, opposite Bund No. 12. Stand by the Chen Yi statue and frame the facade, the river and Pudong as described below. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural frontal view of the facade. Switch to ultra-wide (0.5x) if you want more of the river and Pudong, but keep the building away from the edges of the frame, where it can look stretched. Use telephoto (2x-3x, depending on your phone) for the dome and columns.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. For the view, stand on Chen Yi Square (陈毅广场), the recommended viewpoint in the middle of the Bund promenade near the Chen Yi statue and opposite Bund No. 12. From here you get a frontal view of the HSBC Building's facade on the left of the frame, the river in the centre, and the Pudong skyline on the right.",
+    "how_to_frame": "Put the facade on the left third using the gridlines, and let the river and Pudong fill the rest. Keep the vertical lines of the columns straight. For a different angle, the North Bund riverside park shows the Bund's old buildings from the water side, but the HSBC Building will look much smaller there.",
+    "phone_settings_tip": "Tap on the building to focus, then drag the exposure slider down slightly to keep the sky and lit windows from blowing out. At blue hour, use night mode and hold the phone against the railing or tuck your elbows in to keep it steady.",
+    "best_time": "Blue hour is recommended by one guide, and early morning (about 6:00-7:00) by another. Some guides say the promenade is busiest around sunset and blue hour, so weekday mornings are calmer."
+   },
+   "access_note": "The viewpoint is free to visit, but the building is now a bank: its lobby is open during banking hours and photography inside may be restricted, so check the official site before you go."
+  },
+  "checker_problems": 9,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "HSBC Building, the Bund",
+    "url": "https://en.wikipedia.org/wiki/HSBC_Building%2C_the_Bund"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/20.jpg",
+   "artist": "ScareCriterion12",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:HSBC_Building,_The_Bund,_Dec_2017.jpg",
+   "from": "Wikidata Q213087 main image"
+  }
+ }
+]

@@ -616,6 +616,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "puntacana",
+  "place": "Punta Cana",
+  "country": "Dominican Republic",
+  "spots": 5,
+  "mb": 3.0,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "reykjavik",
   "place": "Reykjavik",
   "country": "Iceland",

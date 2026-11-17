@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "puntacana", "title": "Punta Cana: 5 photo spots (pilot review)", "place": "Punta Cana", "bounds": [-68.47, 18.46, -68.3, 18.7], "center": [-68.38499999999999, 18.58], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/puntacana/{z}/{x}/{y}.pbf", "tz": "America/Santo_Domingo", "rail": false, "app": true};
