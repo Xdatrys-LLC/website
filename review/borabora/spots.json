@@ -41,7 +41,7 @@
   "photo": null
  },
  {
-  "rank": 3,
+  "rank": 2,
   "name": "Vaitape",
   "in_cut": true,
   "label": "Vaitape",
@@ -92,7 +92,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/3.jpg",
+   "file": "photos/2.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -102,7 +102,7 @@
   }
  },
  {
-  "rank": 4,
+  "rank": 3,
   "name": "Bora Bora Yacht Club",
   "in_cut": true,
   "label": "Bora Bora Yacht Club",
@@ -148,7 +148,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/4.jpg",
+   "file": "photos/3.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -158,7 +158,7 @@
   }
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "Mount Pahia",
   "in_cut": true,
   "label": "Mount Pahia",
@@ -166,15 +166,15 @@
   "nophone": true,
   "searches": 300,
   "pin": [
-   -151.74,
-   -16.49
+   -151.7397049,
+   -16.5008942
   ],
   "camera": [
-   -151.74,
-   -16.49
+   -151.7397049,
+   -16.5008942
   ],
   "camera_source": "Researched viewpoint 'Eglise Evangelique' (4 web pages); placed at OpenStreetMap 'Église évangélique' (way/118118341): middle (40 m across); moved 10 m off buildings.",
-  "pin_note": "Position from the Wikipedia article 'Mount Pahia'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Twin peak beside Otemanu, a classic backdrop.",
   "text": {
    "description": "Mount Pahia is the twin-peaked mountain that rises over the middle of Bora Bora, standing next to its taller neighbour, Mount Otemanu. It is an extinct volcano, 661 metres (2,169 ft) high, which makes it the island's second-highest point. The village of Vaitape sits at its foot, and that gives you the easiest photo: the peak seen above the pink-and-red Protestant church (Eglise Evangelique) in the middle of the village. The church makes a colourful foreground, and the green ridge beyond it shows how steeply the land climbs from the shore. The peak is about 2 km from the church, so it appears small and distant in the frame.\n\nThe mountain is mostly known as a hike, but the summit trail is steep, uses ropes in places and is exposed in parts. Vaitape prefers hikers to use a guide, so most visitors will be better off photographing the peak from below. For a different view, the old wartime cannon lookouts at Farepiti show Mount Pahia with Mount Otemanu and the lagoon. Another option is the road near the start of the summit trail, where you look up the slopes. Check the current start point of the trail locally before you set off.\n\nOn a phone, keep the church and the mountain in the same frame, and take a few shots with different amounts of sky.",
@@ -199,13 +199,10 @@
     "url": "https://en.wikipedia.org/wiki/Mount_Pahia"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (1336 m)",
-   "OpenStreetMap object 1212 m away (Pahia): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "Balou46",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -214,9 +211,9 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 101,
   "name": "Motu Tapu",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Motu Tapu",
   "camera_pill": null,
   "nophone": false,
@@ -260,7 +257,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/101.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",

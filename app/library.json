@@ -64,6 +64,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "borabora",
+  "place": "Bora Bora",
+  "country": "French Polynesia",
+  "spots": 4,
+  "mb": 0.9,
+  "photo": null
+ },
+ {
   "key": "bridgetown",
   "place": "Bridgetown",
   "country": "Barbados",
