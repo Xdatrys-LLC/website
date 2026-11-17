@@ -1003,23 +1003,23 @@
   "nophone": false,
   "searches": 750,
   "pin": [
-   55.26,
-   25.23
+   55.269331,
+   25.2414327
   ],
   "camera": [
    55.269331,
    25.241433
   ],
   "camera_source": "Researched viewpoint 'Etihad Museum' (2 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from the Wikipedia article 'Etihad Museum'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Museum with a curved roof, marking the founding of the UAE.",
   "text": {
    "description": "The Etihad Museum tells the story of how the United Arab Emirates came together as a country. It stands on the site where the rulers signed the union declaration, and where the first national flag was raised, on 2 December 1971. The old Union House, where that signing took place, is now part of the museum complex.\n\nThe building itself is the reason to bring your phone. Moriyama & Teshima Architects designed it in the shape of a manuscript, with seven columns that stand for the pens used to sign the declaration. The sweeping white roof is often described as echoing the parchment the constitution was written on. Seen whole from the lawn in front, it makes a clean, minimalist architectural photo: white curves, plenty of sky and very little clutter.\n\nTake your time walking around the outside, because the roofline changes shape as you move. Start with one wide shot from the lawn, then step closer for details such as the columns and the edge of the roof. If you want a second view, the white plaza around Union House and the flagpole is a good alternative, with the reflecting pool and the round Union House behind it. Keep your phone level and use the gridlines so the long horizontal lines stay straight.\n\nPhotography rules inside the galleries seem to vary, so do not count on taking pictures indoors. The outdoor views are the reliable choice.",
    "geographic_location": "The Etihad Museum is in Dubai. The Union House on its site was formerly known as the Jumeirah Guesthouse.",
-   "directions_text": "No Metro or tram stop is listed for this spot, so check current transport options before you go. A taxi or car to the Etihad Museum is the simplest choice. Once there, walk to the outdoor lawn in front of the building. That is the phone icon on the map. The phone icon on the map is about 1.6 km north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Metro or tram stop is listed for this spot, so check current transport options before you go. A taxi or car to the Etihad Museum is the simplest choice. Once there, walk to the outdoor lawn in front of the building. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to show the whole curved white building. Switch to the ultra-wide (0.5x) if you are close and cannot fit the roofline in. Use the telephoto (2x-5x) for details such as the columns.",
-    "where_to_stand": "Stand about 1.6 km north-east of the subject, at the phone icon on the map, and face south-west. Stand on the outdoor lawn in front of the Etihad Museum. From here you can see the curved white exterior and the roofline as a whole.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Stand on the outdoor lawn in front of the Etihad Museum. From here you can see the curved white exterior and the roofline as a whole.",
     "how_to_frame": "Turn on the gridlines and line the roof up with the horizontal lines. Leave plenty of sky for a minimalist look. For a second picture, try the white plaza near Union House, with the flagpole above the reflecting pool and the round Union House behind it.",
     "phone_settings_tip": "Tap on the white wall to focus, then drag the exposure slider down a little so the white does not turn grey or lose its detail. If the roof will not fit in one shot, try panorama mode and move the phone slowly.",
     "best_time": "Soft light in the morning or late afternoon usually flatters white buildings. Strong midday sun can wash out the detail."
@@ -1037,9 +1037,7 @@
     "url": "https://en.wikipedia.org/wiki/Etihad_Museum"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 1580 m away (Etihad Museum): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": null
  }

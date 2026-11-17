@@ -176,6 +176,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "dubai",
+  "place": "Dubai",
+  "country": "United Arab Emirates",
+  "spots": 19,
+  "mb": 18.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "dublin",
   "place": "Dublin",
   "country": "Ireland",
