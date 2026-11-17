@@ -65,15 +65,15 @@
   "nophone": true,
   "searches": 19400,
   "pin": [
-   7.129,
-   62.121
+   7.1025552,
+   62.105638
   ],
   "camera": [
-   7.129,
-   62.121
+   7.1025552,
+   62.105638
   ],
   "camera_source": "Researched viewpoint 'Skageflå' (3 web pages); placed at OpenStreetMap 'Skageflå' (node/32576096): point.",
-  "pin_note": "Position from the Wikipedia article 'Geirangerfjord'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "UNESCO-listed fjord, best photographed from the water or from the ferry and cruise decks.",
   "text": {
    "description": "Geirangerfjord is a 15-kilometre branch of the Sunnylvsfjorden in Stranda Municipality, and one of Norway's most visited sights. It has been a UNESCO World Heritage Site since 2005, together with the Nærøyfjorden. This spot shows it from Skageflå, an abandoned mountain farm on the trail above the water. The old farm buildings sit in the foreground, with the fjord and the Seven Sisters waterfall behind them. That gives your photo a sense of scale and a story, which a plain view of water and cliffs does not. The Seven Sisters face another waterfall, the Suitor, across the fjord. Skageflå is one of several farms along the fjord that people have restored in part, and it is the one you can reach on foot from Geiranger. The walk is uphill and takes about 40 to 60 minutes, which tends to keep it quieter than the roadside viewpoints. Guides say the falls look best early in the season, from May to July, when more water is flowing. Let the buildings fill the lower part of the frame and leave room above for the fjord and the falls. If you do not fancy the walk, Flydalsjuvet and Ørnesvingen are two other well-known viewpoints for the same fjord.",
@@ -96,10 +96,7 @@
     "url": "https://en.wikipedia.org/wiki/Geirangerfjord"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (1087 m)",
-   "OpenStreetMap object 2193 m away (Geirangerfjord): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/2.jpg",
