@@ -428,8 +428,56 @@
  },
  {
   "rank": 9,
-  "name": "Monument to Chabuca Granda",
+  "name": "Iglesia de la Santísima Cruz",
   "in_cut": true,
+  "label": "Santísima Cruz Church",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 10,
+  "pin": [
+   -77.021621,
+   -12.148794
+  ],
+  "camera": [
+   -77.021621,
+   -12.148794
+  ],
+  "camera_source": "Researched viewpoint 'Parque Municipal de Barranco' (5 web pages); placed at OpenStreetMap 'Parque Municipal de Barranco' (way/436583900): middle (136 m across).",
+  "pin_note": "Position from OSM W389384011 (Iglesia Santísima Cruz): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Neo-Gothic church on the main square.",
+  "text": {
+   "description": "The Iglesia de la Santísima Cruz stands directly in front of Barranco's central park. The park gives you open ground to step back on, and you can see the whole front of the building. The most rewarding view is the frontal facade with the bell tower, framed by the trees of the park. The foliage adds a natural border to the picture. A good photo here is mostly about distance. Walk out into the park, turn round, and let the church fill the middle of the frame with a little greenery around it. Take a few versions: one wide, with the trees and some of the park in the foreground, and one tighter, aimed at the tower and the upper part of the front. Keep the phone level so the tower does not lean. The gridlines help with this. If people wander into the shot, wait a moment, as the park is a public space and the crowd keeps moving. The church is also a working place of worship, so keep a respectful distance from anyone going in, and if you plan to go inside, check current opening hours and any festival-related street closures before you go.",
+   "geographic_location": "In the centre of Barranco, on the side of the Parque Municipal de Barranco, the district's central park, with the church facing the park.",
+   "directions_text": "Head for the centre of Barranco and the Parque Municipal de Barranco. From there the church is to the north-west, about 1 minute on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole facade and bell tower. Use the ultra-wide (0.5x) only if you want a lot of trees and park in the shot, and keep the church away from the edges of the frame so it does not stretch. Use 2x-3x telephoto, if your phone has it, to pick out the bell tower.",
+    "where_to_stand": "Stand in Parque Municipal de Barranco (across the park, facing the church front). The church's frontal facade and bell tower, framed by the trees of the central park. From there the church is to the north-west, so you see the frontal facade and bell tower framed by the park's trees.",
+    "how_to_frame": "Turn on the gridlines and put the church in the middle third, with the tower upright and level. Let branches or treetops make a loose frame at the top or the sides. For a second shot, zoom in on the bell tower and the upper facade. Take a portrait of your group with the church behind them, using portrait mode only if the church still looks sharp.",
+    "phone_settings_tip": "Tap the church to focus, then drag the exposure slider down a little if the sky is bright, so the facade does not wash out. Do not use portrait mode for the whole-church picture, as it can blur the edges of the building. Take a Live Photo as well if people are passing through the park.",
+    "best_time": "Choose a time when the sun is not directly behind the church, and the facade is evenly lit. Early morning or late afternoon usually gives softer light, and fewer people in the park."
+   },
+   "access_note": "The park in front is an open public space; the church is a place of worship, so check current opening hours and any festival-related street closures before you go if you want to go inside."
+  },
+  "checker_problems": 7,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "Ibrahim Arce (Narcy Studios photographer), most likely",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Celia_Cruz_1957_color.jpg",
+   "from": "Wikidata Q474045 main image, found by searching Wikipedia for the spot's name ('Celia Cruz'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Monument to Chabuca Granda",
+  "in_cut": false,
   "label": "Chabuca Granda",
   "camera_pill": null,
   "nophone": true,
@@ -471,61 +519,13 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/101.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
    "source_url": "",
    "from": "Own photo, taken 40 m from the phone icon",
    "zoom": null
-  }
- },
- {
-  "rank": 10,
-  "name": "Iglesia de la Santísima Cruz",
-  "in_cut": true,
-  "label": "Santísima Cruz Church",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 10,
-  "pin": [
-   -77.021621,
-   -12.148794
-  ],
-  "camera": [
-   -77.021621,
-   -12.148794
-  ],
-  "camera_source": "Researched viewpoint 'Parque Municipal de Barranco' (5 web pages); placed at OpenStreetMap 'Parque Municipal de Barranco' (way/436583900): middle (136 m across).",
-  "pin_note": "Position from OSM W389384011 (Iglesia Santísima Cruz): kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Neo-Gothic church on the main square.",
-  "text": {
-   "description": "The Iglesia de la Santísima Cruz stands directly in front of Barranco's central park. The park gives you open ground to step back on, and you can see the whole front of the building. The most rewarding view is the frontal facade with the bell tower, framed by the trees of the park. The foliage adds a natural border to the picture. A good photo here is mostly about distance. Walk out into the park, turn round, and let the church fill the middle of the frame with a little greenery around it. Take a few versions: one wide, with the trees and some of the park in the foreground, and one tighter, aimed at the tower and the upper part of the front. Keep the phone level so the tower does not lean. The gridlines help with this. If people wander into the shot, wait a moment, as the park is a public space and the crowd keeps moving. The church is also a working place of worship, so keep a respectful distance from anyone going in, and if you plan to go inside, check current opening hours and any festival-related street closures before you go.",
-   "geographic_location": "In the centre of Barranco, on the side of the Parque Municipal de Barranco, the district's central park, with the church facing the park.",
-   "directions_text": "Head for the centre of Barranco and the Parque Municipal de Barranco. From there the church is to the north-west, about 1 minute on foot. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the whole facade and bell tower. Use the ultra-wide (0.5x) only if you want a lot of trees and park in the shot, and keep the church away from the edges of the frame so it does not stretch. Use 2x-3x telephoto, if your phone has it, to pick out the bell tower.",
-    "where_to_stand": "Stand in Parque Municipal de Barranco (across the park, facing the church front). The church's frontal facade and bell tower, framed by the trees of the central park. From there the church is to the north-west, so you see the frontal facade and bell tower framed by the park's trees.",
-    "how_to_frame": "Turn on the gridlines and put the church in the middle third, with the tower upright and level. Let branches or treetops make a loose frame at the top or the sides. For a second shot, zoom in on the bell tower and the upper facade. Take a portrait of your group with the church behind them, using portrait mode only if the church still looks sharp.",
-    "phone_settings_tip": "Tap the church to focus, then drag the exposure slider down a little if the sky is bright, so the facade does not wash out. Do not use portrait mode for the whole-church picture, as it can blur the edges of the building. Take a Live Photo as well if people are passing through the park.",
-    "best_time": "Choose a time when the sun is not directly behind the church, and the facade is evenly lit. Early morning or late afternoon usually gives softer light, and fewer people in the park."
-   },
-   "access_note": "The park in front is an open public space; the church is a place of worship, so check current opening hours and any festival-related street closures before you go if you want to go inside."
-  },
-  "checker_problems": 7,
-  "code_check_failures": [],
-  "sources": [],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/10.jpg",
-   "artist": "Ibrahim Arce (Narcy Studios photographer), most likely",
-   "licence": "Public domain",
-   "licence_url": "",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Celia_Cruz_1957_color.jpg",
-   "from": "Wikidata Q474045 main image, found by searching Wikipedia for the spot's name ('Celia Cruz'): check it shows this spot"
   }
  }
 ]

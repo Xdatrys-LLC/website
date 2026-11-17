@@ -32,6 +32,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "barranco",
+  "place": "Barranco",
+  "country": "Peru",
+  "spots": 9,
+  "mb": 2.0,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "basseterre",
   "place": "Basseterre",
   "country": "Saint Kitts and Nevis",
