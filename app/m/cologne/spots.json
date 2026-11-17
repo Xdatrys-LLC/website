@@ -768,15 +768,15 @@
   "nophone": true,
   "searches": 40,
   "pin": [
-   6.973046,
-   50.936759
+   6.9682988,
+   50.9392776
   ],
   "camera": [
-   6.973046,
-   50.936759
+   6.9682988,
+   50.9392776
   ],
   "camera_source": "Researched viewpoint 'Rheinboulevard' (3 web pages); placed at OpenStreetMap 'Rheinboulevard' (way/360111604): middle (501 m across).",
-  "pin_note": "Position from OSM R2613724 (Deutz): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: was the Deutz district centre; moved onto the OSM Rheinboulevard (W360111604)).",
   "notes": "Classic skyline view of the cathedral and Old Town across the Rhine.",
   "text": {
    "description": "The Rhine Promenade in Deutz runs along the east bank of the river, and its best-known photo spot is the Rheinboulevard, with an upper terrace and wide concrete steps that face west across the water. From here the Cologne Cathedral and the Hohenzollern Bridge sit together in one frame, with the Rhine filling the foreground. That is why it is such a popular place for a classic Cathedral-and-bridge picture from the Deutz side.\n\nThe steps work as a ready-made viewing platform. You can sit, pick your height and take your time. Guides often mention sunset as a favourite moment here, and some suggest going early in the morning when it is quiet. The terrace gives you a slightly higher view, and the steps let you drop lower so the river takes up more of the picture.\n\nOn a phone, keep it simple. Use the default lens (1x) to get the Cathedral and the bridge side by side, and switch to the ultra-wide (0.5x) if you want more river and sky. Turn on the gridlines so the water stays level. If you fancy a different angle, the Deutzer Brücke gives a skyline view with the river and promenade below, and Rheinpark offers a wider sweep across open water. Exact positions vary slightly, so check on the day: have a look along the terrace and steps and pick the spot where the Cathedral and the bridge line up best for you.",
@@ -794,10 +794,7 @@
   "checker_problems": 7,
   "code_check_failures": [],
   "sources": [],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (435 m)"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": null
  },
