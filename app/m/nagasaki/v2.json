@@ -1,0 +1,1236 @@
+{
+ "Dejima": {
+  "rank": 1,
+  "card": {
+   "hook": "Here's a fun one: Dejima was an island, and now it isn't. It's a tiny patch of old Nagasaki, about 120 m by 75 m, tucked into the modern city.",
+   "stand_here": "Stand near 出嶋橋, at the phone icon on the map, about 20 m east of the subject, and face west. Take a wide first look at the whole site before you walk in.",
+   "zoom": "Start at zoom 1x for the big scene. If you move closer and things don't fit, drop to 0.5x. Then try zoom 2x or 5x (depending on your phone) for roof edges, doorways and signs.",
+   "make_it_pop": "Switch on the gridlines to keep the horizon level, then tap the building you want so the pale walls don't get lost against the sky.",
+   "best_time": "Go in the morning. The sun is in the east behind you when you face west, so the front of the site is nicely lit. Cloudy days work too, because the light is soft and the walls don't get harsh shadows.",
+   "selfie_here": "Head to the restored Omotemon Bridge, the entrance bridge to Dejima. It's a popular photo backdrop with the Nagasaki skyline behind it. Use the front camera, try 0.5x if your phone has it, and turn so the scenery sits over your shoulder. For something different, pose in front of the sky-blue former Dejima Seminary, which is part of the Dejima Museum.",
+   "ask_someone": "Ask a passer-by to stand at the near end of Omotemon Bridge, where visitors enter, while you stand on the bridge for the shot.",
+   "rules_and_safety": "Parts of the site may be ticketed or have set visiting times, so check the official site before you go.",
+   "challenge": "Take three shots: the whole site, one with a doorway or wall framing the edge, then one tiny detail. Which one would you put on the fridge?",
+   "good_to_know": "Dejima was built in 1636 to hold foreign traders. For 220 years it was Japan's main link with the West, and the Dutch were based here from 1641 until 1858. It became a national historic site in 1922, and work continues to bring back its island setting.",
+   "stand_here_before_gps_rule": "Stand near 出嶋橋, at the phone icon on the map, about 20 m east of the subject, and face west. Take a wide first look at the whole site before you walk in."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Dejima Omotemon Bridge (front-gate bridge)",
+     "detail": "on the restored Omotemon Bridge, the entrance bridge to Dejima",
+     "why": "Sources describe the restored bridge as a photo backdrop for visitors, with the Nagasaki skyline framing the shot, though they do not say which way to face.",
+     "sources": [
+      {
+       "title": "Top Attractions at Dejima, Nagasaki (Skyticket)",
+       "url": "https://skyticket.com/guide/60411"
+      },
+      {
+       "title": "Dejima with Kids: A Family Guide to Nagasaki's Historic Island (Lunitravels)",
+       "url": "https://lunitravels.com/dejima-museum/"
+      }
+     ]
+    },
+    {
+     "name": "Former Dejima Seminary, sky-blue exterior",
+     "detail": "in front of the former Dejima Seminary building, which is part of the Dejima Museum",
+     "why": "Its retro sky-blue exterior is described as a popular photo spot, and visitors can also step inside.",
+     "sources": [
+      {
+       "title": "Top Attractions at Dejima, Nagasaki (Skyticket)",
+       "url": "https://skyticket.com/guide/60411"
+      },
+      {
+       "title": "Dejima: Take in the unique Western-style atmosphere of this picturesque town (Enjoy Kyushu)",
+       "url": "https://enjoy-kyushu.com/column/nagasaki/museum/1068.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Omotemon Bridge at the Dejima front gate",
+    "detail": "at the near end of Omotemon Bridge, where visitors enter the site; a page recommends getting off taxis in front of the bridge",
+    "sources": [
+     {
+      "title": "[Barrier-free] Nationally designated historic site Dejima Waran Trading Post Ruins (AT Nagasaki)",
+      "url": "https://en.at-nagasaki.jp/barrierfree/64038"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "The sources do not say which way the visitor should face on the bridge, so the selfie direction and the passer-by's position are inferred and should be checked on the ground. The seminary spot is a building facade rather than a view of the whole site. No page gives a selfie stick or tripod rule. One page says tripods can help for evening shots, but that is advice, not a rule. Pages say photography is generally allowed inside buildings but to watch for signage, and that drones are typically restricted; I left these out because the brief covers only selfie-stick and tripod rules. Some sources call the bridge the 'Dejima Bridge' and others 'Omotemon Bridge'; I used the latter name."
+  },
+  "cost_usd": 0.0582,
+  "at": "2026-11-17 00:04",
+  "selfie_pos": [
+   32.7438071,
+   129.8731494
+  ],
+  "selfie_note": "Dejima Omotemon Bridge (OpenStreetMap: 出島表門橋, 西小島一丁目, 出島町, 長崎市, 長崎県, 850-8685, 日本)"
+ },
+ "Nagasaki Atomic Bomb Museum": {
+  "rank": 2,
+  "card": {
+   "hook": "This isn't a spot for a showy photo, and that's fine. Step back into the park and the museum's calm, orderly walls settle into the frame all by themselves.",
+   "stand_here": "The phone icon is right at the museum, so walk out into Nagasaki Peace Park, then turn around and face the building. You'll have plenty of room to fit the walls in.",
+   "zoom": "Start at zoom 1x to get the building as you see it. If you're close and can't fit the whole front in, tap 0.5x. Zoom 2x or higher (depends on your phone) is good for details like the entrance or the lines of the walls.",
+   "make_it_pop": "Turn on gridlines and line the building's edges up with them so the walls look straight, then tap the building and slide a touch darker if the sky is bright.",
+   "best_time": "Soft or evenly overcast daylight gives the cleanest, least glaring pictures. Earlier or quieter parts of the day usually mean fewer people in your frame.",
+   "selfie_here": "Try the wide stairs climbing from Hypocenter Park up to the museum. Stand on the steps facing back down toward the park, so the museum should be behind you, and use the front camera. Keep it simple and unposed, since this is a place of mourning for many visitors. Check the building behind you before you shoot, because a large red-brick building nearby is a different institution.",
+   "ask_someone": "Ask a passer-by to stand at the foot of the stairs in Hypocenter Park while you stand on the steps, so the museum building rises above you.",
+   "rules_and_safety": "Outdoor photography in Peace Park and Hypocenter Park is unrestricted, but photography is banned in the Remembrance Hall. Inside the museum, photos are allowed without flash or selfie sticks, and two specific works can't be photographed (the painting at the B2 ticket machines and the 'Boy Standing by the Crematory' photo at the B1 exit). Check the official site before you go and follow any signs in the galleries.",
+   "challenge": "Get the walls dead straight on your gridlines with a little open sky above, and no strangers' faces in the shot.",
+   "good_to_know": "The museum remembers the atomic bombing of Nagasaki on 9 August 1945, at 11:02 in the morning. It was completed in April 1996 and replaced the older International Culture Hall, where relics were first shown. Next door is the Nagasaki National Peace Memorial Hall for the Atomic Bomb Victims, built in 2003. One object inside is a clock stopped at 11:02.",
+   "stand_here_before_gps_rule": "The phone icon is right at the museum, so walk out into Nagasaki Peace Park, then turn around and face the building. You'll have plenty of room to fit the walls in."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Wide stairs climbing from Hypocenter Park to the Atomic Bomb Museum",
+     "detail": "on the steps below the museum, facing back down toward Hypocenter Park",
+     "why": "The museum stands at the top of this flight, so a visitor facing downhill should have it behind them, though no page describes this exact photo.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Museum Nagasaki (Dark Tourism)",
+       "url": "https://www.dark-tourism.com/index.php/462-atomic-bomb-museum-nagasaki"
+      },
+      {
+       "title": "Nagasaki Atomic Bomb Historical Sites (Roving Sun)",
+       "url": "https://www.rovingsun.com/2025/12/21/nagasaki-atomic-bomb-historical-sites/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Foot of the stairs in Hypocenter Park",
+    "detail": "stand at the bottom of the wide stairs in Hypocenter Park and frame the visitor on the steps with the museum building above",
+    "sources": [
+     {
+      "title": "Atomic Bomb Museum Nagasaki (Dark Tourism)",
+      "url": "https://www.dark-tourism.com/index.php/462-atomic-bomb-museum-nagasaki"
+     },
+     {
+      "title": "Nagasaki Atomic Bomb Historical Sites (Roving Sun)",
+      "url": "https://www.rovingsun.com/2025/12/21/nagasaki-atomic-bomb-historical-sites/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Inside the museum, photos are allowed without flash, tripods or selfie sticks, and photos of two specific works are banned (the painting at the B2 ticket machines and the 'Boy Standing by the Crematory' photo at the B1 exit).",
+     "sources": [
+      {
+       "title": "Nagasaki Atomic Bomb Museum - A Clock Stopped at 11:02 and a Rebuilt Cathedral Wall, for 200 Yen (Japan Voyage)",
+       "url": "https://travel.japanvoyage.jp/travel_destinations/nagasaki-atomic-bomb-museum"
+      }
+     ]
+    },
+    {
+     "rule": "Outdoor photography at the Peace Park and Hypocenter Park is stated as unrestricted, while the Remembrance Hall bans photography.",
+     "sources": [
+      {
+       "title": "Nagasaki Peace Park & Atomic Bomb Museum: Complete Visitor Guide (2026) (eatmono)",
+       "url": "https://eatmono.info/nagasaki-peace-park-atomic-bomb-museum-guide/"
+      },
+      {
+       "title": "Walking Through History: Guide to Nagasaki Peace Park (Image Earth Travel)",
+       "url": "https://imageearthtravel.com/2026/08/02/nagasaki-peace-park/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a selfie spot with the museum explicitly behind the visitor; the stairs spot is inferred from pages saying the museum sits at the top of stairs from Hypocenter Park, so verify on site. The passer-by spot is likewise inferred, not stated by any source. Pages also disagree on the museum's location and entrance: one says its main entrance faces Hypocenter Park, another says the museum is reached by stairs from the park, and one warns that a large red-brick building nearby is a different institution, so check the building before shooting. I did not verify the supplied coordinates against any page."
+  },
+  "cost_usd": 0.0642,
+  "at": "2026-11-17 00:05"
+ },
+ "Nagasaki Peace Park": {
+  "rank": 3,
+  "card": {
+   "hook": "Everything in this park sits on one long, calm line: a fountain at one end, a huge statue at the other, and sculptures in between. That makes it an easy place to take a photo that feels quiet and uncluttered.",
+   "stand_here": "Stand near 国道206号, about 55 m south of the subject, at the phone icon on the map, and face north. The path stretches out ahead of you.",
+   "zoom": "Start at 1x for the long view up the park. Try 0.5x if you want more sky and sculpture in the shot. Use 2x or 5x (depending on your phone) for faces, plaques and the Peace Statue from a distance.",
+   "make_it_pop": "Turn on the gridlines and put the main path on one of the lines so it leads the eye into the park.",
+   "best_time": "Early morning or late afternoon usually means softer light and fewer people. Around 9 August, the day of the annual ceremony, it's much busier and more formal.",
+   "selfie_here": "Use the front camera at 0.5x so you and the scene behind you both fit. Hold the phone a little higher, keep the pose calm and simple, and let the park sit over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "This is a place of remembrance, so keep your phone use quiet and unhurried and avoid posing in a way that would feel out of place. There may be restrictions around events and ceremonies, so check the official site before you go.",
+   "challenge": "Wait for a gap in the crowd and take one shot with the path leading to a statue, then one close-up of a detail like the fountain plaque.",
+   "good_to_know": "The park opened in 1955 to remember the atomic bombing of 9 August 1945. The bomb exploded 500 metres up at 11:02 that morning, and a black stone monolith marks the spot beneath it. The 10-metre Peace Statue is by Nagasaki sculptor Seibo Kitamura, and the Fountain of Peace was built in 1969.",
+   "stand_here_before_gps_rule": "Stand near 国道206号, about 55 m south of the subject, at the phone icon on the map, and face north. The path stretches out ahead of you."
+  },
+  "selfie_research": null,
+  "cost_usd": 0.0549,
+  "at": "2026-11-17 00:05"
+ },
+ "Glover Garden": {
+  "rank": 4,
+  "card": {
+   "hook": "Imagine building your house on a hill so the whole of Nagasaki harbour is your front yard. That's Glover Garden, and the old Western-style houses here make the view even better.",
+   "stand_here": "Stand near グラバー通り, at the phone icon on the map, about 80 m north of the subject, and face south. If other visitors are in the way, walk a few steps along the path for a cleaner angle.",
+   "zoom": "Start at zoom 0.5x to fit the whole garden and the harbour beyond. Switch to 1x for the houses and paths, then try 2x or 5x (depending on your phone) for the demon-headed roof tiles, chimneys and statues.",
+   "make_it_pop": "Tap the house, then slide the brightness down a little if the sky is bright, so the white walls and roof tiles keep their detail.",
+   "best_time": "Early or late in the day usually means softer light and fewer people. Check the official site for opening times before you go.",
+   "selfie_here": "Head up to the highest point of the garden and stand in front of the second floor of the Former Mitsubishi No. 2 Dock House, which guides recommend for commemorative photos and call the widest panorama in the garden. Or step onto the Former Glover House veranda with the harbour behind you. Use the front camera, and try 0.5x if your phone has it to squeeze in more of the view over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the lawn or path in front of the former Glover House so the whole house fills the frame, with you posing in front of it.",
+   "rules_and_safety": "Ask staff before taking photos inside the old houses, and check the official site for entry arrangements before you go.",
+   "challenge": "Play roof detective: find the demon-headed tiles, then get one close-up shot where the demons are the stars and not you.",
+   "good_to_know": "The Glover Residence was completed in 1863 and is the oldest surviving Western-style house in Japan. It was built by a Japanese carpenter, Hidenoshin Koyama, so the frame is Japanese while the stone-floored verandas and French windows are foreign touches. It's nicknamed the \"Madame Butterfly House\", and statues of Puccini and the singer Miura Tamaki stand nearby.",
+   "stand_here_before_gps_rule": "Stand near グラバー通り, at the phone icon on the map, about 80 m north of the subject, and face south. If other visitors are in the way, walk a few steps along the path for a cleaner angle."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Former Mitsubishi No. 2 Dock House (Dock House), highest point of Glover Garden",
+     "detail": "stand in front of the second floor of the Dock House, at the garden's highest point",
+     "why": "A Japan Travel by NAVITIME guide recommends this building's second floor as the backdrop for commemorative photos, and another guide says the Dock House has the widest panorama in the garden.",
+     "sources": [
+      {
+       "title": "Glover Garden (Former Glover House) Travel Guides | Japan Travel by NAVITIME",
+       "url": "https://japantravel.navitime.com/en/area/jp/spot/02301-1301466n/"
+      },
+      {
+       "title": "Glover Garden Visitor Guide: 8 Things to Know Before You Go",
+       "url": "https://japanactivity.com/attractions/nagasaki/glover-garden"
+      }
+     ]
+    },
+    {
+     "name": "Former Glover House veranda (balcony)",
+     "detail": "on the veranda or balcony of the former Glover House, with the harbour behind you",
+     "why": "Two travel pages single out the Glover House balcony or veranda as a photo spot with harbour views behind the person posing.",
+     "sources": [
+      {
+       "title": "Glover Garden IS The Best Tourist Spot In Nagasaki",
+       "url": "https://tokyotourists.com/glover-garden/"
+      },
+      {
+       "title": "Glover Garden - Trip To Japan",
+       "url": "https://www.triptojapan.com/places/glover-garden/FvmgsedVSNS_sY9GPHWC3w"
+      },
+      {
+       "title": "Glover House and Office - Tripadvisor",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g298568-d1384776-Reviews-Glover_House_and_Office-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "In front of the former Glover House (Former Glover Residence)",
+    "detail": "stand on the lawn or path in front of the former Glover House so the house fills the frame; a free mini photo is offered per group at the photo service",
+    "sources": [
+     {
+      "title": "Glover Garden vol.10 | Tourist Guide",
+      "url": "https://www.tourist-guide.net/en/nagasaki/archives/6090"
+     },
+     {
+      "title": "Glover Garden Nagasaki (Trip.com travel guide)",
+      "url": "https://us.trip.com/moments/poi-glover-garden-78857/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "One unverified page says tripods are allowed during off-peak hours (after about 4 PM); no other source found mentions tripods or selfie sticks.",
+     "sources": [
+      {
+       "title": "Glover Garden: Spring Bloom Views in Nagasaki 2026",
+       "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/glover-garden-spring-bloom-views-in-nagasaki-2026/69270908"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The tripod rule comes only from ad-hoc-news.de, which reads like a low-quality page; confirm with staff before relying on it. The Dock House and Glover House spots are based on guides' recommendations, not on the garden being directly behind the selfie-taker, so check the framing on site. Ask-someone spot: one source says to ask staff before photographing inside the former residences, which are Important Cultural Properties, but I found no rule covering photos taken outside. Coordinates were not used to choose spots; the given position (32.73344, 129.86913) matches Glover Garden's Minamiyamate hill location."
+  },
+  "cost_usd": 0.0491,
+  "at": "2026-11-17 00:06"
+ },
+ "Urakami Cathedral": {
+  "rank": 5,
+  "card": {
+   "hook": "Picture two brick-coloured towers sitting calmly on a hill above the neighbourhood, looking far too peaceful for what they've been through. That's Urakami Cathedral, and it's one of those photos that means more once you know the story.",
+   "stand_here": "Head to Nagasaki Peace Park (平和公園) and stand beyond the Peace Statue, on the far side of the park. Face the cathedral on its hill, with the neighbourhood spread out below it.",
+   "zoom": "From the park the cathedral looks small at 1x, so try 2x or 5x (depending on your phone) to bring it closer. Walk up to the grounds and drop back to 1x. Use 0.5x only if you're right in front and want both towers and the entrance in one shot.",
+   "make_it_pop": "Turn on gridlines and hold your phone level so the towers stand straight, and if the sky is bright and the brickwork looks dark, tap the cathedral front and drag the slider to make it a bit brighter.",
+   "best_time": "Soft morning or late-afternoon light usually flatters the brick-coloured walls and skips harsh midday shadows. Early in the day you'll probably have fewer people in your frame too.",
+   "selfie_here": "Once you're in the grounds, try the front entrance beside the statues of the Grieving Virgin and St. John, with the façade behind you. Or go to the blasted bell tower ruins by the stream on the left side of the cathedral. Use the front camera, try 0.5x if your phone has it, and keep the building over your shoulder.",
+   "ask_someone": "Ask a passer-by on the Peace Park platform that looks over the cathedral to take your photo, so you stand with the cathedral view behind you.",
+   "rules_and_safety": "Visitor pages say photography isn't allowed inside the cathedral. Ask before photographing anyone, skip photos during worship, and during Mass wait outside or come back later. The walk up is steep, which can be tough if you have mobility issues.",
+   "challenge": "Get both towers dead straight against the gridlines, then take a second shot of the bell or the Atom-bombed Mary to tell the whole story.",
+   "good_to_know": "Local Christians, whose faith had been banned and who were sent into exile between 1869 and 1873, began building the first cathedral in 1895. When it was finished in 1925 it was the largest Christian building in the Asia-Pacific region. The atomic bomb of 9 August 1945 destroyed it. The congregation rebuilt on the same site, finishing in October 1959, and in 1980 the walls were re-faced with brick tiles to look more like the original.",
+   "stand_here_before_gps_rule": "Head to Nagasaki Peace Park (平和公園) and stand beyond the Peace Statue, on the far side of the park. Face the cathedral on its hill, with the neighbourhood spread out below it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Fallen bell tower ruins by the stream, left of the cathedral",
+     "detail": "by the river on the left side of the cathedral, at the blasted bell tower remains",
+     "why": "A guide page describes these atomic-blasted ruins as a striking relic beside the rebuilt church, so they can serve as a backdrop for a photo that shows the cathedral's setting.",
+     "sources": [
+      {
+       "title": "Urakami Cathedral - Must-See, Access, Hours & Price (GLT Japan)",
+       "url": "https://www.gltjp.com/en/directory/item/11503/"
+      },
+      {
+       "title": "Endless Discovery of Nagasaki",
+       "url": "https://www.discover-nagasaki.com/en/featured-topics/pope"
+      }
+     ]
+    },
+    {
+     "name": "Cathedral front entrance, by the statues of the Grieving Virgin and St. John",
+     "detail": "at the front entrance of the cathedral, beside the two statues",
+     "why": "The front entrance is a named feature with statues standing there, which gives a recognisable spot for a close selfie with the church façade behind.",
+     "sources": [
+      {
+       "title": "Urakami Cathedral - Must-See, Access, Hours & Price (GLT Japan)",
+       "url": "https://www.gltjp.com/en/directory/item/11503/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Peace Park platform overlooking the cathedral",
+    "detail": "a platform in Peace Park from which the reconstructed cathedral is best viewed",
+    "sources": [
+     {
+      "title": "Urakami Cathedral, Nagasaki - Tripadvisor",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g298568-d325076-Reviews-or10-Urakami_Cathedral-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is not allowed inside the cathedral, according to several visitor reviews and listing pages.",
+     "sources": [
+      {
+       "title": "The 29 best photo spots in Nagasaki (Wanderlog)",
+       "url": "https://wanderlog.com/list/geoCategory/160222/best-photo-spots-in-nagasaki"
+      },
+      {
+       "title": "Urakami Cathedral in Nagasaki - Ask AI (Mindtrip)",
+       "url": "https://mindtrip.ai/attraction/nagasaki/urakami-cathedral/at-d3LhhMoY"
+      },
+      {
+       "title": "Urakami Cathedral (Voyapon)",
+       "url": "https://voyapon.com/spot-details/ChIJ_RF5NMWsajURrqo2SzCj1Ug/"
+      }
+     ]
+    },
+    {
+     "rule": "Ask before photographing anyone, and skip photos during worship; during Mass, wait outside or return later.",
+     "sources": [
+      {
+       "title": "Urakami Cathedral Nagasaki: Visitor Guide, Etiquette and Nearby Sites",
+       "url": "https://japanactivity.com/urakami-cathedral-guide"
+      }
+     ]
+    }
+   ],
+   "safety": "Reaching the cathedral involves a steep walk, which may be challenging for visitors with mobility issues.",
+   "notes": "No page I found names a selfie spot with the cathedral directly behind the visitor, so the two selfie spots are features the pages recommend seeing or photographing near the church, not confirmed backdrop positions. The Peace Park platform is named only generally; no exact point was given. Tripadvisor reviewers disagree on interior photography: one says photos are permitted because the church is used for Mass, while the other sources say photography is prohibited inside. The photography rule on the diocese site was referenced but I could not open it. No page mentioned selfie sticks or tripods. Coordinates provided (32.77616, 129.86840) were not checked against the spot names."
+  },
+  "cost_usd": 0.0638,
+  "at": "2026-11-17 00:06"
+ },
+ "Suwa Shrine": {
+  "rank": 6,
+  "card": {
+   "hook": "You huff your way up a long stone staircase (often given as 277 steps, though counts vary), and then you turn around and the whole city is sitting there inside a red frame. That's your reward.",
+   "stand_here": "Stand on the gate (大門), right where the phone icon is on the map, and face out over the city. The vermilion approach runs in front of you and the rooftops spread out below.",
+   "zoom": "Start at zoom 1x for the gate and the view through it. Go to 0.5x to squeeze the approach and the city into one frame, or try 2x to 5x (depending on your phone) to pick out rooftops below.",
+   "make_it_pop": "Tap the brightest part of the sky or city, then slide it a touch darker so the lit scene doesn't wash out.",
+   "best_time": "Evening or after dusk is lovely, when the stone steps are lit and the city lights come on. Check opening arrangements first, as the long torii walkway may close after normal visiting hours.",
+   "selfie_here": "Walk to the right of the entrance and climb a few more steps to the small torii garden. A reviewer found it quiet, so use the front camera and put the torii behind you. If it's busy, go around the side and back of the main temple, where more torii stand, and try 0.5x to fit more in.",
+   "ask_someone": "Ask someone near the main entrance by the bottom torii gate, at the foot of the steps, to take your photo with the torii behind you.",
+   "rules_and_safety": "Photos are generally fine outdoors, but check for signs inside buildings, and skip photos during ceremonies or of people praying. It's a working place of worship, so keep your voice down and don't block the path. The steps can be a bit rocky, so watch your feet.",
+   "challenge": "Turn on gridlines and line the red gate edges up straight, then see if you can get the city sitting neatly in the frame without a wonky tilt.",
+   "good_to_know": "Suwa Shrine is the main Shinto shrine of Nagasaki. Its official founding date is 1614, and the main building was completed in 1626. It was still standing after the atomic bombing of 9 August 1945, and every year on 7 to 9 October it hosts the Nagasaki Kunchi, one of Japan's major festivals.",
+   "stand_here_before_gps_rule": "Stand on the gate (大門), right where the phone icon is on the map, and face out over the city. The vermilion approach runs in front of you and the rooftops spread out below."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Torii gate garden (small area up more steps, to the right of the entrance)",
+     "detail": "walk to the right of the entrance and climb a few more steps to the small torii area",
+     "why": "A reviewer found it quiet with few other visitors, so it suits a selfie with the torii behind you.",
+     "sources": [
+      {
+       "title": "Worth a Look - Review of Suwa Shrine, Nagasaki, Japan - Tripadvisor",
+       "url": "https://www.tripadvisor.com/ShowUserReviews-g298568-d324028-r721860125-Suwa_Shrine-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+      }
+     ]
+    },
+    {
+     "name": "Torii gates behind the main temple (around the side and back)",
+     "detail": "walk around the side and back of the main temple, where the torii gates are",
+     "why": "Guides call the torii area behind the main temple a good photo opportunity, and it is a second option if the garden is busy.",
+     "sources": [
+      {
+       "title": "Suwa Shrine, Nagasaki, Japan - Reviews, Ratings, Tips and Why You Should Go (Wanderlog)",
+       "url": "https://wanderlog.com/place/details/6326/suwa-shrine"
+      },
+      {
+       "title": "The 29 best photo spots in Nagasaki (Wanderlog)",
+       "url": "https://wanderlog.com/list/geoCategory/160222/best-photo-spots-in-nagasaki"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Main entrance of Suwa Shrine, at the foot of the stone steps",
+    "detail": "the main entrance by the bottom torii gate, below the staircase",
+    "sources": [
+     {
+      "title": "Worth a Look - Review of Suwa Shrine, Nagasaki, Japan - Tripadvisor",
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g298568-d324028-r721860125-Suwa_Shrine-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+     },
+     {
+      "title": "Suwa Shrine - Nagasaki City, Nagasaki - Japan Travel",
+      "url": "https://en.japantravel.com/nagasaki/shrine-suwa-jinja/57654"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is generally permitted in the outdoor areas and grounds, but check for signs restricting photos inside specific buildings.",
+     "sources": [
+      {
+       "title": "Suwa Shrine Japan (2026) - Airial",
+       "url": "https://airial.travel/attractions/japan/nagasaki/suwa-shrine-japan-mbd5qmu7"
+      },
+      {
+       "title": "Suwa Shrine Visitor Guide",
+       "url": "https://japanactivity.com/attractions/nagasaki/suwa-shrine"
+      }
+     ]
+    },
+    {
+     "rule": "Avoid taking photos during ceremonies or of people praying.",
+     "sources": [
+      {
+       "title": "Suwa Shrine Nagasaki: A cultural and historical landmark",
+       "url": "https://www.japan-experience.com/all-about-japan/nagasaki/temples-shrines/suwa-shrine-nagasaki"
+      }
+     ]
+    },
+    {
+     "rule": "The shrine office has no specific rules against photographing the buildings, but using a tripod on busy mornings risks blocking the narrow staircase.",
+     "sources": [
+      {
+       "title": "Suwa Shrine Visitor Guide",
+       "url": "https://japanactivity.com/attractions/nagasaki/suwa-shrine"
+      }
+     ]
+    }
+   ],
+   "safety": "The steps can be a bit rocky so be careful.",
+   "notes": "No page found mentions selfie-stick rules. Drone use is discouraged at religious sites, but no page states a rule specific to Suwa Shrine, so I left it out. The 'double torii' photo spot in the search results belongs to a different Suwa Shrine in Kagoshima, so I excluded it. The Megane Bridge heart stone is a separate site about 15 minutes' walk away, so I excluded it. No page names a specific spot from which a passer-by can photograph the whole shrine; the ask-someone entry is the main entrance named in one review, and it is the least certain entry."
+  },
+  "cost_usd": 0.0493,
+  "at": "2026-11-17 00:07"
+ },
+ "Sōfuku-ji": {
+  "rank": 7,
+  "card": {
+   "hook": "Walk up to Sōfuku-ji and you'll wonder if you took a wrong turn into China. The bright red Ryugamon, the 'Gate of the Dragon Palace', looks nothing like most Japanese temple gates.",
+   "stand_here": "Stand at the phone icon on the map, about 20 m north of the subject, and face south toward the red gate. Take your first wide shot from here, then move in closer.",
+   "zoom": "Start at zoom 1x for the gate and main buildings as you see them. If the courtyard is too tight to fit a whole building in, tap 0.5x. For roof ends, carvings and lanterns, try 2x to 5x, depending on your phone.",
+   "make_it_pop": "Tap the red paintwork, then slide the brightness down a touch so the red stays rich and the sky doesn't wash out.",
+   "best_time": "Morning or late afternoon usually gives softer light on the red paint and carved timber. The temple is listed as open daily 8am to 5pm, but check the official site before you go.",
+   "selfie_here": "Climb the roughly 50 steps from the two-story tower gate up to the Daiippōmon inner gate, then turn back toward the first gate below. Use the front camera at 0.5x and keep the gate over your shoulder. It's the closest documented photo spot here, so have a play with the angle.",
+   "ask_someone": "",
+   "rules_and_safety": "Photos are generally fine in the grounds, but check for signs inside buildings, as some areas or objects may be off limits. It's an active temple, so be considerate of people praying and keep out of doorways and paths.",
+   "challenge": "Find the big cauldron Qianhai made for the 1681 famine and get a shot that makes it look as huge as it is.",
+   "good_to_know": "Chinese monk Chaoran founded Sōfuku-ji in 1629 as the family temple for people from Fuzhou living in Nagasaki. The Daiyū Hōden Buddha Hall is one of the city's oldest buildings: its sections were cut in China, shipped over and assembled here in 1646. The current red gate dates from 1849, and two of the temple's buildings are national treasures.",
+   "stand_here_before_gps_rule": "Stand at the phone icon on the map, about 20 m north of the subject, and face south toward the red gate. Take your first wide shot from here, then move in closer."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Daiippōmon inner gate (National Treasure), Sōfuku-ji",
+     "detail": "at the inner gate, reached by climbing roughly 50 steps from the two-story tower gate at the bottom; a blog suggests turning back here to shoot the first gate below",
+     "why": "The only page that names a framing from this spot is a blog tip to look back toward the first gate, so it is the closest documented photo position, though it is not clearly a selfie with the landmark behind you.",
+     "sources": [
+      {
+       "title": "Shofukuji Temple Is A Hidden Gold in Nagasaki",
+       "url": "https://tokyotourists.com/shofukuji-temple/"
+      },
+      {
+       "title": "A Guide to Nagasaki - Kyūshū's Historic Port City",
+       "url": "https://japancheapo.com/food-and-drink/guide-to-nagasaki/"
+      },
+      {
+       "title": "Sofukuji Temple: Nagasaki's Ming Dynasty Jewel - Japan Journeys",
+       "url": "https://japanjourneys.jp/nagasaki/attractions/temples-shrines/sofukuji-temple/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Photography is generally allowed in the temple grounds, but check for signage about photos inside buildings.",
+     "sources": [
+      {
+       "title": "Sofukuji Temple Nagasaki (2026)",
+       "url": "https://www.airial.travel/attractions/japan/nagasaki/sofukuji-temple-nagasaki-LYtlPipF"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is allowed in many parts of the temple, but some areas or specific artifacts may be restricted to protect them.",
+     "sources": [
+      {
+       "title": "Sofukuji Temple in Nagasaki: History, Location & Tips - Trip To Japan",
+       "url": "https://www.triptojapan.com/places/sofukuji-temple/NuKzKrH-QBSR_nTWXEvwyA"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Weak evidence: none of the pages I found names a spot where a visitor stands with the Sōfuku-ji gate or buildings directly behind them, so the selfie spot above is an inference from a gate-view tip, not a confirmed selfie location. No page gives a position for a passer-by to photograph a visitor with the whole temple in frame, so ask_someone_spot is null. No page states selfie stick or tripod rules. One page (Gaijinpot) describes the path ending on a hill with a panoramic view of the city and harbor, which may suit a scenic backdrop but is not a landmark-behind spot. Sources conflict on interior photography (one says interiors can be photographed, another says restrictions apply), and the 'Visitors not allowed inside' line comes from a reviewer quote on Wanderlog, so verify on site. Some tip pages (Airial) are generic AI-style content with little place detail."
+  },
+  "cost_usd": 0.049,
+  "at": "2026-11-17 00:08"
+ },
+ "Oura Church": {
+  "rank": 8,
+  "card": {
+   "hook": "Oura Church is a gift for phone photos: pale walls, a steep roofline and one octagonal tower that stands out like it knows you're coming.",
+   "stand_here": "Stand about 45 m north-east of the church, at the phone icon on the map near グラバーヒル, and face south-west. From here the whole building fits in the frame, with a bit of its surroundings.",
+   "zoom": "Start at 1x to get the whole church in. Try 2x to pick out the tower and façade from this distance. Save 0.5x for when you walk closer, because it makes the building look narrow at the top.",
+   "make_it_pop": "Tap the church wall, then slide the brightness down a touch so the white walls keep their detail instead of going pale.",
+   "best_time": "Go early in the morning or later in the afternoon, when the light is softer on the white walls and the courtyard is usually quieter. Check the church's opening times before you plan your visit.",
+   "selfie_here": "Climb the church steps and turn to face back down toward the harbour and the old streets, so the church is behind you. Use the front camera and hold it a little high, then try 0.5x to squeeze in more of the church over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the sloping path called kinen-zaka ('prayer's slope') that curves around the side of the church, since it gives a classic white façade shot, best in morning light.",
+   "rules_and_safety": "Wear sturdy shoes, as the approach has slopes. This is a working Catholic church and heritage site that may be ticketed or restricted, so check the official site before you go.",
+   "challenge": "Line the tower up on a gridline so it stands perfectly straight, then walk closer and catch one small detail, like a window or the bronze relief in the courtyard.",
+   "good_to_know": "A small wooden church was finished here in 1864 for the French community. The larger church you see now dates from around 1878, with stained glass brought from France. In March 1865, villagers from nearby Urakami came to the doors and quietly told the priest they shared his faith, and a bronze relief in the courtyard shows the scene.",
+   "stand_here_before_gps_rule": "Stand about 45 m north-east of the church, at the phone icon on the map near グラバーヒル, and face south-west. From here the whole building fits in the frame, with a bit of its surroundings."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Church steps overlooking the harbour (Oura Church, Minamiyamate)",
+     "detail": "on the church steps, facing back down toward the harbour and the old streets, with the church behind you",
+     "why": "A travel guide says the view from the church steps over the harbour and old-quarter streets is a lovely, often-missed vantage point, so the church stays at your back.",
+     "sources": [
+      {
+       "title": "Oura Church Travel Guide, Nagasaki",
+       "url": "https://www.holidaylandmark.com/japan/nagasaki/oura-church/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Prayer's slope (kinen-zaka) wrapping around the side of Oura Church",
+    "detail": "stand on the sloped path (kinen-zaka, 'prayer's slope') that curves around the side of the cathedral; the guide's sloping approach also gives the classic white Gothic facade shot, best in morning light",
+    "sources": [
+     {
+      "title": "Oura Catholic Church - SHARAKU-NAGASAKI.COM",
+      "url": "https://sharaku-nagasaki.com/en/oura-catholic-church/"
+     },
+     {
+      "title": "Oura Church Travel Guide, Nagasaki",
+      "url": "https://www.holidaylandmark.com/japan/nagasaki/oura-church/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Wear sturdy shoes, since the approach involves slopes (Oura Church Travel Guide, Nagasaki).",
+   "notes": "Only one selfie spot is named on a page that puts the church directly behind the visitor; I found no page describing a second one, so I did not add any. The 'prayer's slope' is recommended for photographing the church, not as a selfie spot, and the Sharaku page is about 7 years old. Sources disagree on interior photography: some say it is prohibited outright, while others say only flash is restricted, but none of this concerns selfie sticks or tripods. No page states a rule about selfie sticks or tripods, so the rules list is empty. Sources cited in the JSON are the pages that support each entry; the sentence-level citations were not embedded in the JSON to keep the required format."
+  },
+  "cost_usd": 0.0447,
+  "at": "2026-11-17 00:08"
+ },
+ "Mount Inasa": {
+  "rank": 9,
+  "card": {
+   "hook": "Imagine turning in a slow circle and seeing a whole city, its harbour and the mountains behind it, without moving your feet. That's the rooftop on Mount Inasa, the classic place to look back over Nagasaki.",
+   "stand_here": "Head for the observation deck near the summit of Mount Inasa. The phone icon on the map marks the spot, a short walk from the top stations of the ropeway and the slope car. Face the city, then turn around on the deck to pick your view.",
+   "zoom": "Start at 1x for the main city view, then try 0.5x on the rooftop to squeeze more of the 360-degree scene in. Use 2x or 5x to pick out details like the harbour or a single hillside.",
+   "make_it_pop": "After dark, turn on night mode, rest your elbows on the rail, tap a bright patch of city, then slide it a little darker so the lights don't wash out.",
+   "best_time": "Late afternoon into evening is perfect. Shoot the daytime view first, then stay on while the city lights come on, because the whole scene changes.",
+   "selfie_here": "Use the open-air rooftop terrace of the Mount Inasa Observatory, not the indoor glass level, since the open roof avoids glass reflections. Switch to the front camera, try 0.5x, and keep the city lights over your shoulder. The deck wraps right around the building, so if one side is busy, walk round to a quieter section.",
+   "ask_someone": "",
+   "rules_and_safety": "The observation deck may have its own entry arrangements, so check the official site before you go. Shoot over the rail only where that's allowed.",
+   "challenge": "Take the same view twice, once in daylight and once after dark, and see which one wins.",
+   "good_to_know": "Mount Inasa rises to 333 metres on the west side of Nagasaki. Its outlook is called the \"10 Million Dollar Night View\", and Nagasaki's night view was named one of the \"World's New Three Great Night Views\" in 2021. Inasayama Park, with a playground, outdoor stage and lawn seating, is on the mountain too.",
+   "stand_here_before_gps_rule": "Head for the observation deck near the summit of Mount Inasa. The phone icon on the map marks the spot, a short walk from the top stations of the ropeway and the slope car. Face the city, then turn around on the deck to pick your view."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Open-air rooftop terrace of Mount Inasa Observatory (Mt. Inasa Observatory, Inasayama summit)",
+     "detail": "on the open-air roof deck that wraps around the glass-walled observatory building, not the indoor glass level; the deck is wide enough that an uncrowded section is often available if you walk around it",
+     "why": "Sources say the open rooftop avoids glass reflections, so it gives cleaner shots of the city lights behind you than the indoor level.",
+     "sources": [
+      {
+       "title": "Mount Inasa Visitor Guide: 10 Essential Tips",
+       "url": "https://japanactivity.com/attractions/nagasaki/mount-inasa"
+      },
+      {
+       "title": "7 Things to Know About the Mount Inasa Night View in Nagasaki",
+       "url": "https://japanactivity.com/mount-inasa-night-view-nagasaki"
+      }
+     ]
+    },
+    {
+     "name": "Blue-lit walkway and light tunnel between the ropeway station and the observatory (Inasayama Park path to the summit)",
+     "detail": "on the roughly 200 m level path from the ropeway up to the observatory, part of which runs under a light tunnel",
+     "why": "The colour-changing light tunnel on this path is described as a striking backdrop for photos on the way up.",
+     "sources": [
+      {
+       "title": "Mt. Inasa - All You SHOULD Know Before Going (2026 Reviews)",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g298568-d1384783-Reviews-Mt_Inasa-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+      },
+      {
+       "title": "Inasayama Night Views Complete Guide: Experience Nagasaki's Million-Dollar Panorama",
+       "url": "https://www.japan-travel-note.com/posts/68"
+      },
+      {
+       "title": "One of Japan's Best Night Views in Nagasaki: Mount Inasa Observatory",
+       "url": "https://japanjourneys.jp/nagasaki/attractions/night-view-mount-inasa-observatory/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "The sources do not name any spot where a passer-by should stand to photograph a visitor with the whole mountain or observatory in frame, so ask_someone_spot is null. Both selfie spots are on the summit or its approach path; the sources describe the city view as the backdrop, so neither spot is confirmed as one with the observatory itself behind the visitor. The sources also mention a heart-shaped monument for couples (ANA page) and a floor of LED lights on the roof deck, but give no location for either, so I left them out. No page states rules about selfie sticks or tripods; tripod advice in the sources is only tips, not rules. Sources conflict on the access route: one says Fuchi Shrine Station is the ropeway's base, another that a free shuttle or slope car is an option; the wording of the travel guides differs, so check current hours before going."
+  },
+  "cost_usd": 0.0595,
+  "at": "2026-11-17 00:09"
+ },
+ "Megane Bridge": {
+  "rank": 10,
+  "card": {
+   "hook": "Picture a bridge wearing glasses: two stone arches, and when the water's calm, two mirror-image circles underneath. That's Megane Bridge, and the reflection is the whole point.",
+   "stand_here": "Start near 袋橋, about 70 m south-west of the subject, at the phone icon on the map, and face north-east. You'll see the whole bridge and its reflection in one frame, then you can stroll closer.",
+   "zoom": "Start at 1x to fit both arches and their reflection. Use 0.5x only if you have to stand very close, and keep the bridge away from the edges of the screen so it doesn't stretch. For the heart-shaped stones, try 2x or higher (depends on your phone).",
+   "make_it_pop": "Turn on gridlines and line the water's surface up with a horizontal line so the arches and reflection sit level, and leave a little water in the foreground so the reflected circles stay complete.",
+   "best_time": "Pick a moment when the water is calm, because that's when the reflection is clearest. Early morning or late afternoon is often gentler on stone and water than harsh midday sun.",
+   "selfie_here": "Head down the stone steps to the water's edge beside Fukurobashi, just downstream of the bridge, and get low with the arches behind you. Use the front camera, or switch to 0.5x to squeeze in more bridge over your shoulder.",
+   "ask_someone": "Stand on Fukurobashi and ask a passer-by to shoot upstream, so the whole of Megane Bridge and its reflection fit in behind you.",
+   "rules_and_safety": "The bridge is pedestrians only, but check the official site before you go in case of works or flood closures.",
+   "challenge": "Find the small heart-shaped stones in the embankment (there are around twenty) and see how many you can spot in one close-up.",
+   "good_to_know": "Megane Bridge was built in 1634 by Mokusu Nyojo, a Chinese monk who lived at Kofukuji Temple. It's said to be one of the oldest stone arch bridges in Japan and is an Important Cultural Property. A flood destroyed it in 1647 and it was rebuilt the next year, and after a severe flood in July 1982 nearly all the original stones were recovered and put back.",
+   "stand_here_before_gps_rule": "Start near 袋橋, about 70 m south-west of the subject, at the phone icon on the map, and face north-east. You'll see the whole bridge and its reflection in one frame, then you can stroll closer."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stone steps down to the riverbank beside Fukurobashi, just downstream of Megane Bridge",
+     "detail": "on the stone steps leading down to the water edge next to Fukurobashi; face the bridge from a low position near the water",
+     "why": "Reviewers say people come down these steps to get a closer, different-angled photo with the arches behind them.",
+     "sources": [
+      {
+       "title": "Meganebashi Bridge: Nagasaki's Optical Overpass - Japan Journeys",
+       "url": "https://japanjourneys.jp/nagasaki/attractions/meganebashi-bridge/"
+      },
+      {
+       "title": "Megane Bridge Visitor Guide Travel Guide",
+       "url": "https://japanactivity.com/attractions/nagasaki/megane-bridge"
+      },
+      {
+       "title": "Megane-bashi Bridge - Nagasaki City, Nagasaki - Japan Travel",
+       "url": "https://en.japantravel.com/nagasaki/megane-bashi-bridge/57066"
+      }
+     ]
+    },
+    {
+     "name": "Stepping stones across the Nakajima River, downstream of Megane Bridge",
+     "detail": "on the stone blocks that act as steps across the river, reached by the riverbank path and stone stairs; the bridge sits behind you from this spot",
+     "why": "Guides and reviewers单 describe this crossing as a popular place for group or couple photos with the bridge in view.",
+     "sources": [
+      {
+       "title": "Megane Bridge (Spectacles Bridge) - Must-See, Access, Hours & Price - GLT Japan",
+       "url": "https://www.gltjp.com/en/directory/item/12785/"
+      },
+      {
+       "title": "SPECTACLES BRIDGE (MEGANEBASHI) - Tripadvisor",
+       "url": "https://www.tripadvisor.com.sg/Attraction_Review-g298568-d324027-Reviews-Spectacles_Bridge_Meganebashi-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+      },
+      {
+       "title": "Megane-bashi Bridge - Nagasaki City, Nagasaki - Japan Travel",
+       "url": "https://en.japantravel.com/nagasaki/megane-bashi-bridge/57066"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Fukurobashi (Fukuro Bridge), the bridge just downstream of Megane Bridge",
+    "detail": "stand on Fukurobashi and have the passer-by shoot upstream so the whole Megane Bridge and its reflection are in frame",
+    "sources": [
+     {
+      "title": "Megane Bridge (Spectacles Bridge) - Must-See, Access, Hours & Price - GLT Japan",
+      "url": "https://www.gltjp.com/en/directory/item/12785/"
+     },
+     {
+      "title": "SPECTACLES BRIDGE (MEGANEBASHI) - Tripadvisor",
+      "url": "https://www.tripadvisor.com.sg/Attraction_Review-g298568-d324027-Reviews-Spectacles_Bridge_Meganebashi-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+     },
+     {
+      "title": "File:Megane Bridge, Nagasaki 04.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Megane_Bridge,_Nagasaki_04.jpg"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found states rules about selfie sticks or tripods; one guide only mentions using a tripod for long exposures, which is not a rule. No page gave a safety point for Megane Bridge in Nagasaki. Do not confuse it with the similarly named 'Megane Bridge' in Isahaya, which a TripAdvisor review describes as a separate, quieter bridge. Sources disagree on the best angle: one says the classic reflection shot is from the downstream embankment before 08:00, another says the stone stairs are best, and one suggests Uoichi Bridge. The 'Fukurobashi' spelling is taken from one page and the Wikimedia caption. The stepping stones' exact location is described only as 'downstream' or 'across the river', so the passer-by and selfie spots may need checking on a map. Some sources are old (2083 to 5445 days) and the stone steps may have changed."
+  },
+  "cost_usd": 0.0499,
+  "at": "2026-11-17 00:09"
+ },
+ "Nagasaki Shinchi Chinatown": {
+  "rank": 11,
+  "card": {
+   "hook": "Picture a street so packed with red, gold and food stalls that you can go from a wide street scene to a close-up of a sign in about a minute. That's Nagasaki Shinchi Chinatown, and the whole area is only about 253 m across.",
+   "stand_here": "Stand near 福建通り, about 75 m south-west of the numbered pin, at the phone icon on the map, and face north-east. The street will lead your eye straight down the shopfronts.",
+   "zoom": "Start at zoom 1x for the street view. Switch to zoom 0.5x for a gate or a whole row of shopfronts, and keep the phone level so the edges don't stretch. Try zoom 2x or more (depending on your phone) for lanterns, signs and food, so you don't have to step into the stalls.",
+   "make_it_pop": "Turn on gridlines and line them up with the buildings and posts so the street looks straight, with shopfronts on both sides.",
+   "best_time": "Late afternoon into early evening is lovely, because shop lighting and lanterns glow as the daylight fades. Mornings are likely to be quieter if you want clearer street views.",
+   "selfie_here": "Stand on the pavement in front of the bright red Suzaku-mon (South Gate), so the gate and the street are behind you. Use the front camera at zoom 0.5x and keep the gate over your shoulder. Check on the map which gate you're at, as sources name different entrances.",
+   "ask_someone": "",
+   "rules_and_safety": "It can get busy, so keep an eye on the crowds and keep a little space around shopfronts and stalls. Ask before you photograph people at close range.",
+   "challenge": "Find three different bits of red in the street, take one close-up of each, then see which one wins.",
+   "good_to_know": "The land here was once used for the warehouses of Chinese merchants, who traded goods to Japan between the 15th and 19th centuries. Nagasaki was the only port the Tokugawa government left open to Chinese and Dutch traders. Most of today's Chinese community here is of Fuzhounese descent, and Nagasaki became a sister city of Fuzhou in 1980.",
+   "stand_here_before_gps_rule": "Stand near 福建通り, about 75 m south-west of the numbered pin, at the phone icon on the map, and face north-east. The street will lead your eye straight down the shopfronts."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Suzaku-mon (South Gate) of Nagasaki Shinchi Chinatown",
+     "detail": "On the pavement in front of the bright red South Gate, reached from the Shinchi Chinatown tram stop, so the gate and the street are behind you",
+     "why": "Sources describe the red gate as a popular entrance photo opportunity, and the gate is the most-cited single backdrop for Chinatown photos.",
+     "sources": [
+      {
+       "title": "Nagasaki Chinatown Food Guide: 8 Essential Dining Tips & Spots",
+       "url": "https://tourismattractions.net/japan/nagasaki-chinatown-food-guide"
+      },
+      {
+       "title": "[2026 Nagasaki City Attraction] Nagasaki Shinchi Chinatown Travel Guide & Travel Experiences",
+       "url": "https://sg.trip.com/moments/poi-nagasaki-shinchi-chinatown-78858/"
+      },
+      {
+       "title": "Shinchi Chinatown (2026)",
+       "url": "https://www.airial.travel/attractions/japan/nagasaki/shinchi-chinatown-6qRsutpe"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "One guide advises being careful to avoid the constant rush of people in Chinatown, where crowds and camera clicks are heavy.",
+   "notes": "Only one selfie spot was found that a page names specifically; sources name the entrance gates generally rather than a numbered square or pavement. For the passer-by spot, no page names a vantage point that shows the whole gate or the whole Chinatown, so I left it null rather than guess; a passer-by could stand at the same entrance gate, but no source confirms that as a whole-landmark angle. Heart-shaped stones and the Megane Bridge are photo spots nearby, but they are not Chinatown backdrops, so I excluded them. The Minato Park panda sculpture is a selfie spot, but it is not a Chinatown backdrop, so I excluded it too. No page mentions selfie stick or tripod rules. Some sources say the Chinatown gate is at the Northeast entrance while others name the South Gate, so confirm which gate you are standing at on the map."
+  },
+  "cost_usd": 0.0562,
+  "at": "2026-11-17 00:10"
+ },
+ "Peace Statue": {
+  "rank": 12,
+  "card": {
+   "hook": "The Peace Statue is a simple shape against a big sky, and that's what makes it so easy to photograph. You don't need fancy settings, just a little patience and a calm moment.",
+   "stand_here": "Stand at the phone icon on the map, about 25 m south-west of the subject, and face north-east. That's far enough back to fit the whole figure in with some space around it.",
+   "zoom": "Start at 1x for a clean, natural view of the statue. Try 0.5x only if you want the statue and its surroundings together, and keep the statue away from the edges so it doesn't look stretched. For a closer shot of the figure, use 2x or 5x if your phone has them.",
+   "make_it_pop": "Turn on the gridlines, put the statue's base on a lower line so the figure rises into the sky, and hold your phone level so it doesn't seem to lean.",
+   "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Midday sun can be harsh and cast hard shadows on the statue.",
+   "selfie_here": "Switch to the front camera, hold your arm out a little low, and let the statue rise over your shoulder. If your front camera has 0.5x, it helps fit more in. Keep your pose calm, because this is a place of remembrance.",
+   "ask_someone": "Ask a passer-by to stand on the plaza at the north end of Peace Park, facing the statue, because standing straight in front gives the most complete view of the full figure.",
+   "rules_and_safety": "Photography is allowed in most outdoor areas of Peace Park, but please stay respectful and keep your voice down. Don't climb on the sculptures or monuments, and note that photos are strictly prohibited in the Memorial Hall inside the Atomic Bomb Museum. Check the official site before you go for any access rules or closures.",
+   "challenge": "Take one wide shot with the statue small in the sky, then one close shot of just the figure, and see which one feels calmer.",
+   "good_to_know": "The Peace Statue is a memorial figure in Nagasaki. People come to photograph it as a reminder of the city's history. It's a large, simple subject that stands out cleanly against the sky, so it works well on a phone.",
+   "stand_here_before_gps_rule": "Stand at the phone icon on the map, about 25 m south-west of the subject, and face north-east. That's far enough back to fit the whole figure in with some space around it."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": {
+    "name": "Peace Statue plaza, directly in front of the statue",
+    "detail": "Ask the passer-by to stand on the plaza at the north end of Peace Park, facing the statue. Standing straight in front gives the most complete view of the full bronze figure.",
+    "sources": [
+     {
+      "title": "Nagasaki Peace Park Travel Guide (Japan Shore Excursions)",
+      "url": "https://www.japanshoreexcursions.com/nagasaki-peace-park-travel-guide/"
+     },
+     {
+      "title": "Nagasaki Peace Park (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nagasaki_Peace_Park"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is allowed in most outdoor areas of Peace Park, and the guide asks visitors to stay respectful at this memorial site.",
+     "sources": [
+      {
+       "title": "Nagasaki Peace Park Travel Guide (Japan Shore Excursions)",
+       "url": "https://www.japanshoreexcursions.com/nagasaki-peace-park-travel-guide/"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is strictly prohibited in the Memorial Hall inside the Atomic Bomb Museum.",
+     "sources": [
+      {
+       "title": "2026 Nagasaki City Attraction Peace Statue Travel Guide (Trip.com)",
+       "url": "https://us.trip.com/moments/poi-peace-statue-18039510/"
+      }
+     ]
+    }
+   ],
+   "safety": "Avoid climbing on the sculptures or monuments in the park.",
+   "notes": "No page I found names a spot where the visitor stands with the Peace Statue behind them, so no selfie spot is given. The pages that describe photo angles (framing the statue with greenery or sky, or the Fountain of Peace) are for photographers rather than selfies. The 'ask someone' spot is the plaza in front of the statue, which sources describe as the best perspective; the 'in front of' detail is a reasonable reading of that, not an exact photo position. No page mentions selfie sticks or tripods. Sources disagree on the statue's size (about 9.7 m, about 10 m, 31 to 33 ft), which does not affect the spots."
+  },
+  "cost_usd": 0.0504,
+  "at": "2026-11-17 00:10"
+ },
+ "Sannō Shrine": {
+  "rank": 13,
+  "card": {
+   "hook": "Half a gate shouldn't be this powerful, but one pillar and a beam floating above it against the sky stops people mid-step. Come quietly and give it a moment.",
+   "stand_here": "Head to Sannō Shrine, about 800 metres south-east of the atomic bomb hypocentre, and stand at the phone icon at the top of the stone steps. Face the one-legged torii so the pillar and beam fill your view against the sky.",
+   "zoom": "Start at zoom 1x so the gate looks natural, and keep your phone upright so the pillar looks tall. If you can't step back far enough to fit the whole gate, try zoom 0.5x. Then try zoom 2x for a closer shot of the beam and pillar.",
+   "make_it_pop": "Tap the torii, then slide the brightness down a little so the sky keeps its colour and the gate turns into a clean silhouette.",
+   "best_time": "Daylight is easiest, because the clear sky behind the torii makes the shape stand out. Early morning or late afternoon usually gives softer light and fewer visitors.",
+   "selfie_here": "Stand on the stone staircase below the one-legged torii, with the gate behind you as you face down the slope. Use the front camera and hold it low, since low angles make the gate look more imposing. Try zoom 0.5x if you can't fit the whole gate over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the street at the bottom of the stone steps, far enough back to fit the whole torii above you, while you stand on the steps below the gate.",
+   "rules_and_safety": "The torii is fenced off and you can't walk through it, so photograph it from outside the fence. This is a place of remembrance, so keep it calm and quiet, and don't block the steps or path. Go in daylight, as there's uphill walking and stairs.",
+   "challenge": "Take one shot with the whole gate in the frame so the missing half is clear. Then walk over to the camphor trees and fill the frame with the healed, layered bark.",
+   "good_to_know": "The torii was damaged by the atomic bomb blast on 9 August 1945. One pillar was knocked down, but the other stayed upright with its upper beam still on top. The shockwave also turned the gate about 30 degrees on its base. The shrine's two big camphor trees were scorched and lost their leaves, yet they survived, and new growth now covers the dead wood.",
+   "stand_here_before_gps_rule": "Head to Sannō Shrine, about 800 metres south-east of the atomic bomb hypocentre, and stand at the phone icon at the top of the stone steps. Face the one-legged torii so the pillar and beam fill your view against the sky."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stone staircase leading up to the one-legged torii (Sannō Shrine, Nagasaki)",
+     "detail": "on the stone steps below the one-legged torii, with the torii behind you as you face down the slope",
+     "why": "A travel photographer's guide calls this staircase the best place to photograph the torii, and its low-angle views make the gate look more imposing.",
+     "sources": [
+      {
+       "title": "Japan: The One-Legged Torii in Nagasaki, Remain of the Atomic Bomb (Olivier Robert)",
+       "url": "https://www.olivierrobert.net/post/japan-the-one-legged-torii-in-nagasaki-a-remain-of-the-atomic-bomb"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Street at the foot of the stone staircase to Sannō Shrine (Urakami Kaidō side)",
+    "detail": "on the street at the bottom of the stone steps, far enough back to fit the whole torii above you",
+    "sources": [
+     {
+      "title": "Sanno Shrine One-Legged Torii Gate Guide (Kupi)",
+      "url": "https://www.kupi.com/en/explore/japan/nagasaki/sanno-shrine-one-legged-torii-gate"
+     },
+     {
+      "title": "One-legged Torii, Nagasaki (Tripadvisor)",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g298568-d592273-Reviews-One_legged_Torii-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "The single-pillar torii is fenced off and visitors cannot pass through it, so photograph it from outside the fence.",
+     "sources": [
+      {
+       "title": "Sanno Shrine (Nagasaki) (shrine-temple.com)",
+       "url": "https://shrine-temple.com/en/prefecture/nagasaki/6198"
+      }
+     ]
+    }
+   ],
+   "safety": "One guide recommends visiting in daylight hours for the best experience and safety, and notes that the site involves uphill walking and stairs.",
+   "notes": "The selfie spot is the only specific spot named in the sources, and the 'torii behind you' orientation is my inference rather than a source statement. The ask-someone spot is inferred from directions to the foot of the stairs and a bus-tour stop outside the torii, not from a page giving a photo recommendation. No second selfie spot was found in the sources. No page I found states any rule on selfie sticks or tripods, so none is reported. Sources conflict slightly on the distance from the hypocentre (700 m to 900 m to 1 km), though this does not affect the spots."
+  },
+  "cost_usd": 0.0592,
+  "at": "2026-11-17 00:11"
+ },
+ "Fountain of Peace": {
+  "rank": 14,
+  "card": {
+   "hook": "Water never poses the same way twice, and that's the fun of this one. Moving water, a shiny surface and open sky all fit in one frame, so you can't really get it wrong.",
+   "stand_here": "Head to the spot near 国道206号 and find the phone icon on the map. It's about 15 m south-west of the fountain, so stand there and face north-east. The fountain is 13 m to the north-east, just a few steps away.",
+   "zoom": "Start at 1x for a natural view, with the gridlines on. Go to 0.5x to fit in more of the surroundings and sky, then try 2x or more (depends on your phone) to zoom in on the water and basin.",
+   "make_it_pop": "Tap the fountain on the screen, then slide the brightness down a touch if the sky is bright so the water keeps its detail.",
+   "best_time": "Any clear day works well here. Take a few frames, because the water looks different from one second to the next.",
+   "selfie_here": "At the Fountain of Peace in Nagasaki Peace Park, one traveler says visitors can take pictures with the water. Use the front camera at 0.5x, hold your phone a bit low, and let the fountain sit behind your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Check the official site before you go for any access restrictions or closures. If other visitors are nearby, keep your phone low and wait a moment for a clear view rather than asking people to move.",
+   "challenge": "Take one wide shot with the surroundings, then one close-up of the water, and see which one you like better.",
+   "good_to_know": "The Fountain of Peace is a water feature in Nagasaki, and it makes a calm, simple subject for a phone photo. It sits in Nagasaki Peace Park, opposite the Peace Statue. Try a Live Photo to catch the movement of the water, then pick your favourite frame.",
+   "stand_here_before_gps_rule": "Head to the spot near 国道206号 and find the phone icon on the map. It's about 15 m south-west of the fountain, so stand there and face north-east. The fountain is 13 m to the north-east, just a few steps away."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Fountain of Peace, Nagasaki Peace Park (Matsuyamamachi)",
+     "detail": "at the rim of the fountain, beside the water jets",
+     "why": "One traveler reports that visitors can take pictures with the water at this fountain, but no page names an exact standing point with the fountain directly behind the selfie-taker.",
+     "sources": [
+      {
+       "title": "Fountain of Peace - Tripadvisor reviews",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g298568-d8113358-Reviews-Fountain_of_Peace-Nagasaki_Nagasaki_Prefecture_Kyushu.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Top of the escalator from Route 206, Nagasaki Peace Park",
+    "detail": "at the top of the escalator and adjacent stairs, shooting back down toward the fountain",
+    "sources": [
+     {
+      "title": "Nagasaki Atomic Bomb Historical Sites (Roving Sun)",
+      "url": "https://www.rovingsun.com/2025/12/21/nagasaki-atomic-bomb-historical-sites/"
+     },
+     {
+      "title": "Peace Statue at Peace Park in Nagasaki, Japan - Encircle Photos",
+      "url": "https://www.encirclephotos.com/image/peace-statue-at-peace-park-in-nagasaki-japan/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot was supported and it is loosely worded: the source describes taking pictures with the water, not a precise spot with the fountain behind the visitor. The second source names the fountain's rim without a directional instruction. The ask-someone spot is the vantage point from which a published photo of the fountain was taken, not an explicit instruction to stand there, and it is not confirmed as a spot for photographing a visitor with the whole fountain. No page I found gave selfie stick or tripod rules, and the only general photography statement (photography allowed in most outdoor areas) is not a selfie-stick or tripod rule, so it is omitted. The fountain is described as 'in front of the statue' and 'opposite' the Peace Statue, so the orientation is only approximate. The coordinates provided were not checked against a map."
+  },
+  "cost_usd": 0.0593,
+  "at": "2026-11-17 00:11"
+ },
+ "Nagasaki Seaside Park": {
+  "rank": 15,
+  "card": {
+   "hook": "Picture a no-rush stop with open space, room to step back and a phone that's ready for a few experiments. That's Nagasaki Seaside Park, so take your time with it.",
+   "stand_here": "Stand about 130 m north-west of the subject, at the phone icon on the map, and face south-east. Keep the park in the middle distance and leave room around it, so the surroundings are part of the picture.",
+   "zoom": "Start at 1x for a natural view of the whole park. Go to 0.5x if you want more of the surroundings and sky, then try 2x or 5x (higher zooms depend on your phone) to pick out a detail.",
+   "make_it_pop": "Tap the brightest part of the scene, then drag the slider to make it a little darker so the sky keeps its colour, and switch on gridlines to keep the horizon level.",
+   "best_time": "Early morning or the hour before sunset gives softer, more flattering light. Midday sun can be harsh and bounce off shiny surfaces, so make the picture a bit darker if it glares.",
+   "selfie_here": "Try the banyan tree next to Kazemachi bridge, near the stone benches on the park's waterside, with the cruise-ship dock across the water behind you. Use the front camera, or 0.5x if your phone offers it for the selfie, and hold it a little low so the tree and bridge fit over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Facilities, events and any restrictions can change, so check the official site before you go, especially if you plan to stay a while.",
+   "challenge": "Find a railing, a bench or a line of paving and use it as the foreground of one wide shot, then step in close for a second picture of just that detail.",
+   "good_to_know": "Nagasaki Seaside Park is in Nagasaki, and it works well for relaxed, open-air photos. There's open space behind your travelling companions, which makes it a good place for group pictures. If it's busy, wait a moment for people to move through, or let them add a sense of scale.",
+   "stand_here_before_gps_rule": "Stand about 130 m north-west of the subject, at the phone icon on the map, and face south-east. Keep the park in the middle distance and leave room around it, so the surroundings are part of the picture."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Banyan tree beside Kazemachi bridge",
+     "detail": "by the banyan tree next to Kazemachi bridge, near the stone benches on the park's waterside",
+     "why": "This named corner of the park offers a tree and bridge setting, with the cruise-ship dock across the water as the backdrop.",
+     "sources": [
+      {
+       "title": "1. Location Nagasaki Seaside Park is located close",
+       "url": "http://nagasaki-port.jp/nagasakiport_english/no06.pdf"
+      }
+     ]
+    },
+    {
+     "name": "Footbridges over the canal in the Canal Promenade",
+     "detail": "on one of the bridges crossing the canal in the Canal Promenade section",
+     "why": "A bridge over the park's canal puts the water channel and greenery around the visitor, and the guide notes visitors can look down from these bridges.",
+     "sources": [
+      {
+       "title": "1. Location Nagasaki Seaside Park is located close",
+       "url": "http://nagasaki-port.jp/nagasakiport_english/no06.pdf"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "The pages I found do not name a spot where a visitor has the whole park behind them, so both selfie spots are inferred from the park layout, not confirmed as framing the landmark. No page names a passer-by spot that shows the whole park, so ask_someone_spot is null; the banyan tree by Kazemachi bridge is the nearest named candidate, but unverified. The Canal Promenade bridge detail is also an inference from the park's layout. No page gave selfie stick or tripod rules (one page only mentions drone rules, which are outside the brief). The Wanderlog 'Ono Seaside Park' viewpoint is a different park and was excluded. The sources are a Nagasaki port guide and a park layout page; the other pages were reviews and listings without specific spots."
+  },
+  "cost_usd": 0.0434,
+  "at": "2026-11-17 00:12"
+ },
+ "Nagasaki Prefectural Art Museum": {
+  "rank": 16,
+  "card": {
+   "hook": "Most people walk in for the art, but here the building is the show. Look for the sharp lines, the glass and the reflections, and you'll have a good photo before you reach the door.",
+   "stand_here": "Stand about 65 m north-west of the Nagasaki Prefectural Art Museum, at the phone icon on the map, and face south-east. Start with a wide view that shows the whole building and a bit of its surroundings.",
+   "zoom": "Start at 0.5x to fit the whole building in, then try 1x for a calmer, more natural look. For corners, windows and edges, move to 2x or 5x, depending on your phone.",
+   "make_it_pop": "Switch on gridlines, line up the building's main edges with them, and keep your phone level so the upright lines stay straight.",
+   "best_time": "Soft morning or late-afternoon light usually gives the gentlest shadows on a building. On a dull day, skip the big sky shots and hunt for details and reflections instead.",
+   "selfie_here": "Try the rooftop garden's sculpture area, which several guides call the museum's standout photo spot, with a sweeping harbour and city backdrop. Use the front camera and check your framing on site. Or stand on the canal edge between the two museum buildings, front camera at 0.5x, with the glass Bridge Corridor spanning the water behind you.",
+   "ask_someone": "",
+   "rules_and_safety": "Photography may be restricted in some special exhibition areas, so ask staff or look for signs before shooting inside. One visitor reported that the grassy part of the rooftop is off limits, so keep off the grass unless signs say otherwise.",
+   "challenge": "Find one corner, one piece of glass and one reflection, then see if you can get all three into a single photo.",
+   "good_to_know": "The museum opened in 2005. Its collection covers art connected with Nagasaki, plus a group of Spanish works gathered by Suma Yakichiro, who was a special envoy to Spain during the Second World War. It opened in the same year as the Nagasaki Museum of History and Culture, and together they replaced the older Nagasaki Prefectural Museum and Art Museum, which closed at the end of 2002.",
+   "stand_here_before_gps_rule": "Stand about 65 m north-west of the Nagasaki Prefectural Art Museum, at the phone icon on the map, and face south-east. Start with a wide view that shows the whole building and a bit of its surroundings."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Rooftop garden of the Nagasaki Prefectural Art Museum (sculpture area facing the port)",
+     "detail": "on the roof garden's sculpture area, with the harbour view behind the camera and the museum building in the frame behind you",
+     "why": "Several guides call the roof the museum's standout photo spot, and it gives a sweeping harbour and city backdrop, but no page explicitly describes the museum being behind the subject, so check the framing on site.",
+     "sources": [
+      {
+       "title": "The 31 best photo spots in Nagasaki (Wanderlog)",
+       "url": "https://app.wanderlog.com/list/geoCategory/160222/i-migliori-posti-fotografici-a-nagasaki"
+      },
+      {
+       "title": "2025 Recommended Attractions in Nagasaki Prefectural Art Museum (Trip Moments)",
+       "url": "https://www.trip.com/moments/theme/poi-nagasaki-prefectural-art-museum-29874732-attractions-993137/"
+      },
+      {
+       "title": "Nagasaki Prefectural Art Museum (Discover Nagasaki)",
+       "url": "https://www.discover-nagasaki.com/en/sightseeing/51763"
+      }
+     ]
+    },
+    {
+     "name": "Canal side beside the museum, facing the water",
+     "detail": "on the canal edge between the two museum buildings, shooting along the water toward the glass Bridge Corridor",
+     "why": "A guide notes you can easily take simple photos facing the museum's canal, and the glass corridor spanning the water is the building's most recognisable feature.",
+     "sources": [
+      {
+       "title": "2025 Recommended Attractions in Nagasaki Prefectural Art Museum (Trip Moments)",
+       "url": "https://www.trip.com/moments/theme/poi-nagasaki-prefectural-art-museum-29874732-attractions-993137/"
+      },
+      {
+       "title": "Nagasaki Prefectural Art Museum (ANA)",
+       "url": "https://www.ana.co.jp/en/us/japan-travel-planner/travel-to-japanese-architecture/detail20/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Photography may be restricted in some special exhibition areas, so ask staff or look for signs before shooting inside.",
+     "sources": [
+      {
+       "title": "Nagasaki Prefectural Art Museum (Airial)",
+       "url": "https://www.airial.travel/attractions/japan/nagasaki/nagasaki-prefectural-art-museum-N5Nysi4y"
+      }
+     ]
+    },
+    {
+     "rule": "One visitor reported that the grassy area of the rooftop is off limits, and a security guard approached them before they saw the signs inside, so keep off the grass unless signs say otherwise.",
+     "sources": [
+      {
+       "title": "2025 Recommended Attractions in Nagasaki Prefectural Art Museum (Trip Moments)",
+       "url": "https://www.trip.com/moments/theme/poi-nagasaki-prefectural-art-museum-29874732-attractions-993137/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page gave a position for a passer-by to photograph a visitor with the whole building, so ask_someone_spot is null. No page stated any selfie stick or tripod rules. The rooftop is described as free to enter in some guides, but one visitor reported the grass area is restricted, so the two sources conflict. The canal spot is based on a single short guide mention, and the rooftop backdrop orientation is inferred rather than stated. The searches were limited, so a local check may turn up more."
+  },
+  "cost_usd": 0.056,
+  "at": "2026-11-17 00:12"
+ },
+ "Twenty-Six Martyrs Monument": {
+  "rank": 17,
+  "card": {
+   "hook": "The last stretch up Nishizaka Hill is steep, and then the climb pays off: a wide bronze wall of figures, with Nagasaki's rooftops spread out beside it.",
+   "stand_here": "Stand in the open square in front of the monument, at the top of the hill, and face the bronze so the rooftops sit behind or beside it. Turn around later for the city view.",
+   "zoom": "Start at zoom 0.5x to fit the whole bronze and the rooftops, then switch to 1x for a calmer, less stretched look. Try 2x-5x (depends on your phone) for faces and hands.",
+   "make_it_pop": "Switch on gridlines, put the monument on one third of the frame, then tap the bronze and slide it a little darker so the sky doesn't wash out.",
+   "best_time": "Pick a clear day, so both the bronze and the town show up well.",
+   "selfie_here": "Use the open square in front of the monument. Switch to the front camera, try 0.5x, and tuck the bronze over your shoulder. Keep it quick and quiet, because this is a memorial.",
+   "ask_someone": "Ask someone to stand on the square along the straight red line running out from the monument and shoot back toward it, while you stand in front of the bronze so it fills the frame.",
+   "rules_and_safety": "Photos are generally fine in the outdoor park for personal use, but the museum may have its own rules, and flash is often banned there. Keep voices low and don't block people who've come to pay their respects. The hill is steep, so take the climb slowly.",
+   "challenge": "Find one small detail in the bronze, like a hand or a face, and fill your whole screen with it.",
+   "good_to_know": "This memorial honours 26 Christians put to death here on 5 February 1597: twenty Japanese and six foreign priests, who had walked to Nagasaki after being arrested in Kyoto and Osaka. The monument and museum opened in June 1962, and sculptor Yasutake Funakoshi spent four years on the bronze. Next door, St Philip's Church is built in the style of Gaudí, so its shapes make a good second subject.",
+   "stand_here_before_gps_rule": "Stand in the open square in front of the monument, at the top of the hill, and face the bronze so the rooftops sit behind or beside it. Turn around later for the city view."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Park plaza in front of the Twenty-Six Martyrs Monument (Nishizaka Hill)",
+     "detail": "on the plaza in front of the bronze monument, facing the sculpture with the park grounds behind you",
+     "why": "No page I found describes a selfie position with the monument behind the visitor; this is the nearest supported spot, since guides say the monument stands in a small park plaza and that the sculpture is the main visual draw.",
+     "sources": [
+      {
+       "title": "Twenty Six Martyrs Monument - Nagasaki Travel (Japan Guide)",
+       "url": "https://www.japan-guide.com/e/e4417.html"
+      },
+      {
+       "title": "Site 73: Nagasaki's 26 Martyrs Monument (stone and dust)",
+       "url": "https://stoneanddust.com/2017/08/11/site-73-nagasakis-26-martyrs-monument/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Park plaza, on the straight line running from the monument",
+    "detail": "stand on the plaza along the straight red line that runs from the monument across the park's plaza, and shoot back toward the monument so it fills the frame",
+    "sources": [
+     {
+      "title": "Twenty Six Martyrs Monument - Nagasaki Travel (Japan Guide)",
+      "url": "https://www.japan-guide.com/e/e4417.html"
+     },
+     {
+      "title": "Site 73: Nagasaki's 26 Martyrs Monument (stone and dust)",
+      "url": "https://stoneanddust.com/2017/08/11/site-73-nagasakis-26-martyrs-monument/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is generally permitted in the outdoor park areas for personal use, but check for specific restrictions inside the museum.",
+     "sources": [
+      {
+       "title": "Nishizaka Park 26 Martyrs Monument (airial)",
+       "url": "https://www.airial.travel/attractions/japan/nagasaki/nishizaka-park-26-martyrs-monument-Pwi81Ik9"
+      }
+     ]
+    },
+    {
+     "rule": "Photography policies inside the museum can vary; look for signage or ask staff, and flash is often prohibited.",
+     "sources": [
+      {
+       "title": "Twenty-Six Martyrs Museum (airial)",
+       "url": "https://airial.travel/attractions/japan/nagasaki/twenty-six-martyrs-museum-c3n-_9_s"
+      }
+     ]
+    }
+   ],
+   "safety": "The monument sits up a steep hill, about a ten-minute walk from Nagasaki Station.",
+   "notes": "No page I found names a specific selfie position with the monument behind the visitor, so the selfie spot is a best-supported plaza in front of the monument, not a verified photo point. The passer-by spot is my inference from the description of a red line running across the plaza from the monument; no page names a standing point for it. No selfie stick or tripod rules were found. The 'photos not allowed' remark in one trip.com review was not used because it conflicts with the official-style guidance above. The monument is also named Twenty-Six Martyrs Museum and Monument in some sources."
+  },
+  "cost_usd": 0.051,
+  "at": "2026-11-17 00:13"
+ },
+ "Confucius Shrine": {
+  "rank": 18,
+  "card": {
+   "hook": "Picture a yellow-tiled gate with dragons on the roof and 72 stone statues lined up like they're waiting for the doors to open. It's a very different Nagasaki from the rest of your camera roll.",
+   "stand_here": "Stand right at the subject, in front of the Gimon gate (the yellow-tiled front gate), and face the gate with its dragon roof ornaments. Walk closer when you want the statue shots.",
+   "zoom": "Start at zoom 1x for the main building. Switch to 0.5x if you're close and want the whole frontage and the row of statues in one shot. Use 2x to 5x (depending on your phone) for roof and doorway details.",
+   "make_it_pop": "Turn on gridlines to keep the roofline level, then tap the brightest coloured wall and slide it a touch darker if the sky looks washed out.",
+   "best_time": "Morning or late afternoon usually gives softer light and fewer people in the frame. Check opening times on the official site before you go.",
+   "selfie_here": "Climb the steep stone bridge over the small pond in front of the Gimon gate, use the front camera, and keep the yellow-roofed gate with its dragons behind you. For a second option, stand among the 72 statues in the courtyard in front of the main hall (Taiseiden) and let the hall sit over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the garden path at the near side of the pond and shoot toward the bridge while you stand on the bridge, so you and the gate both fit in the frame.",
+   "rules_and_safety": "Photos of the statues and the grounds are generally fine, but photography inside the museum isn't permitted. Check the signs when you arrive, as the rules can vary.",
+   "challenge": "Crouch down, line up a few statues in a row, and make them lead your eye straight to the shrine.",
+   "good_to_know": "Chinese residents of Nagasaki built the shrine in 1893, with support from the Qing dynasty government, as a place of worship and learning. The atomic bomb badly damaged it on 9 August 1945, and it reopened in September 1967 before a big renovation in 1982. The land is now owned by the Chinese Embassy in Tokyo, and a museum of Chinese history sits in the building at the rear.",
+   "stand_here_before_gps_rule": "Stand right at the subject, in front of the Gimon gate (the yellow-tiled front gate), and face the gate with its dragon roof ornaments. Walk closer when you want the statue shots."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stone bridge over the pond in the garden in front of the Gimon Gate",
+     "detail": "on the steep stone bridge crossing the small pond garden in front of the main gate, with the gate behind you",
+     "why": "The pond and arched bridge make a colorful foreground, and the yellow-roofed gate with its dragons can sit behind the photographer.",
+     "sources": [
+      {
+       "title": "Rare Treasures and Chinese Architecture at Nagasaki Confucius Shrine",
+       "url": "https://japanjourneys.jp/nagasaki/attractions/temples-shrines/confucius-shrine-koshibyo/"
+      },
+      {
+       "title": "Confucius Shrine, Nagasaki (Kōshi-byō) - Tourist in Japan",
+       "url": "https://www.touristinjapan.com/koshi-byo-nagasaki-confucius-shrine/"
+      }
+     ]
+    },
+    {
+     "name": "Courtyard of the 72 sages statues in front of Taiseiden hall",
+     "detail": "among the stone statues of Confucius's disciples lined up in front of the main hall (Taiseiden/Daiseiden), with the hall behind you",
+     "why": "The life-size statues give a distinctive foreground, and the hall they face can serve as the backdrop.",
+     "sources": [
+      {
+       "title": "Nagasaki Confucius Shrine (Koshibyo) - Must-See, Access, Hours & Price",
+       "url": "https://www.gltjp.com/en/directory/item/12471/"
+      },
+      {
+       "title": "72 Sages Statues at Confucian Shrine in Nagasaki, Japan",
+       "url": "https://www.encirclephotos.com/image/72-sages-statues-at-confucian-shrine-in-nagasaki-japan/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Garden path beside the pond in front of the Gimon Gate",
+    "detail": "a passer-by stands on the garden path at the near side of the pond and shoots toward the bridge, so the visitor on the bridge and the gate both fit in frame",
+    "sources": [
+     {
+      "title": "Rare Treasures and Chinese Architecture at Nagasaki Confucius Shrine",
+      "url": "https://japanjourneys.jp/nagasaki/attractions/temples-shrines/confucius-shrine-koshibyo/"
+     },
+     {
+      "title": "Confucius Shrine, Nagasaki (Kōshi-byō) - Tourist in Japan",
+      "url": "https://www.touristinjapan.com/koshi-byo-nagasaki-confucius-shrine/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography of the statues and shrine grounds is generally allowed, but photography inside the museum is not permitted.",
+     "sources": [
+      {
+       "title": "Confucius Shrine Koshibyo (2025) - Airial",
+       "url": "https://www.airial.travel/attractions/japan/nagasaki/confucius-shrine-koshibyo-nhHv6avL"
+      },
+      {
+       "title": "Confucius Shrine, Japan Travel Guide - Nagasaki",
+       "url": "https://www.happyjappy.com/nagasaki/confucius-shrine.html"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found mentions selfie-stick or tripod rules, so none are listed. The two selfie spots and the passer-by spot are based on the garden, bridge and courtyard layout described by travel pages; none gives exact framing positions, so the passer-by spot is my inference from that layout. Sources conflict on photography: one review-based page says no photos are allowed (probably meaning the museum), while others say outdoor photography is permitted; check signage on arrival. One photo caption lists the Gimon Gate as normally closed, so the gate may not be passable. Coordinates for the shrine on the Atlas Obscura page (32.735652, 129.872402) match the position you gave."
+  },
+  "cost_usd": 0.0593,
+  "at": "2026-11-17 00:13"
+ },
+ "Megami Bridge": {
+  "rank": 19,
+  "card": {
+   "hook": "At 320 m away, Megami Bridge isn't about one clever detail. It's the whole scene, and that makes it perfect for a wide photo to drop into your album or send home.",
+   "stand_here": "Stand about 320 m north-east of the subject, at the phone icon on the map, and face south-west. The bridge will be right in front of you.",
+   "zoom": "Start at 1x for the full view. If the bridge looks small, try 2x or 5x (depending on your phone) for a tighter shot. Only use 0.5x if you walk closer and want the whole length of the bridge in one picture.",
+   "make_it_pop": "Turn on your gridlines and line the bridge up along one of the horizontal lines so it sits level, with a little sky or water around it.",
+   "best_time": "Pick a clear day with the sun behind you or off to one side, so the bridge is lit rather than dark. Early morning or later in the day often gives softer light.",
+   "selfie_here": "Head to the waterfront promenade in Nagasaki Seaside Park, where the bridge is in the distance across the bay. Switch to the front camera, try 0.5x to fit more in, and hold the phone so the bridge is over your shoulder.",
+   "ask_someone": "Up at the Mt. Nabekanmuri Park Observatory (the mountain behind Glover Garden), ask a passer-by to take your photo with Nagasaki Port and Mt. Inasa behind you, where the bridge is seen up close.",
+   "rules_and_safety": "On the bridge's footpath the wind can be quite strong, so dress warmly in winter. Take care near any road or path, and keep clear of traffic while you frame your shot.",
+   "challenge": "Take three frames and see if you can get the bridge perfectly level on the gridline in at least one of them.",
+   "good_to_know": "Megami Bridge is number 19 on the Nagasaki map. We don't have history, size or opening dates for it, so we're sticking to photo advice. If you want to get closer, the bridge is south-west of the phone icon, about 318 m in a straight line.",
+   "stand_here_before_gps_rule": "Stand about 320 m north-east of the subject, at the phone icon on the map, and face south-west. The bridge will be right in front of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Nagasaki Seaside Park promenade",
+     "detail": "along the water's-edge promenade in Nagasaki Seaside Park, facing the bay with the bridge in the distance",
+     "why": "The park's waterfront promenade is described as having the Megami Ohashi Bridge's light in the distance, so a visitor there can have the bridge behind them.",
+     "sources": [
+      {
+       "title": "Welcome! VISIT Nagasaki: Night views (Nagasaki Seaside Park)",
+       "url": "https://travel.at-nagasaki.jp/en/feature/nightscape/panorama/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Mt. Nabekanmuri Park Observatory",
+    "detail": "the observatory on the mountain behind Glover Garden, looking across Nagasaki Port toward Mt. Inasa, where the bridge is seen up close",
+    "sources": [
+     {
+      "title": "Welcome! VISIT Nagasaki: Night views (Mt. Nabekanmuri Park Observatory)",
+      "url": "https://travel.at-nagasaki.jp/en/feature/nightscape/panorama/"
+     },
+     {
+      "title": "View of Megami Ohashi Bridge from Mt. Nabekanmuri (Discover Nagasaki photo)",
+      "url": "https://www.discover-nagasaki.com/en/photo/298"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "On the bridge's footpath the wind can be quite strong, so dress warmly in winter.",
+   "notes": "Only one selfie spot was confirmed. The Seaside Park source does not name an exact spot within the park, and the Nabekanmuri source describes a view rather than a specific photographer position, so the passer-by spot is approximate. A Reddit-sourced tip about an unnamed 'hill near the bridge' was skipped because no place can be named on a map. No page states a selfie stick or tripod rule for this site; the one tripod mention is a general night-photography tip, not a rule. Two of the sources are aggregator pages (Airial, Navitime), so treat them as less authoritative."
+  },
+  "cost_usd": 0.062,
+  "at": "2026-11-17 00:14"
+ }
+}
