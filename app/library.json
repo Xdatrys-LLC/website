@@ -168,6 +168,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "nuremberg",
+  "place": "Nuremberg",
+  "country": "Germany",
+  "spots": 14,
+  "mb": 9.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "paris",
   "place": "Paris",
   "country": "France",

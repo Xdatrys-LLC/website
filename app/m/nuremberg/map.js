@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "nuremberg", "title": "Nuremberg: 14 photo spots (pilot review)", "place": "Nuremberg", "bounds": [11.04, 49.425, 11.13, 49.468], "center": [11.085, 49.4465], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/nuremberg/{z}/{x}/{y}.pbf", "tz": "Europe/Berlin", "rail": true, "app": true};
