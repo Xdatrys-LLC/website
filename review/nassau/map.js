@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "nassau", "title": "Nassau: 17 photo spots (pilot review)", "place": "Nassau", "bounds": [-77.42, 25.06, -77.3, 25.095], "center": [-77.36, 25.0775], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/nassau/{z}/{x}/{y}.pbf"};

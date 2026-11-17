@@ -488,6 +488,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "nassau",
+  "place": "Nassau",
+  "country": "The Bahamas",
+  "spots": 17,
+  "mb": 3.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "newyorkcity",
   "place": "New York City",
   "country": "United States",
