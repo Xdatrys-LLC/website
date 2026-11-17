@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "kagoshima", "title": "Kagoshima: 11 photo spots (pilot review)", "place": "Kagoshima", "bounds": [130.535, 31.565, 130.67, 31.63], "center": [130.6025, 31.5975], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/kagoshima/{z}/{x}/{y}.pbf", "tz": "Asia/Tokyo", "rail": true, "app": true};

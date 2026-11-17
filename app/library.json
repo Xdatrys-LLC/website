@@ -152,6 +152,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "kagoshima",
+  "place": "Kagoshima",
+  "country": "Japan",
+  "spots": 11,
+  "mb": 7.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "kyoto",
   "place": "Kyoto",
   "country": "",
