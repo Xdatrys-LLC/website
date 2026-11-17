@@ -118,15 +118,15 @@
   "nophone": true,
   "searches": 1370,
   "pin": [
-   129.219,
-   35.83472222
+   129.2258423,
+   35.8366039
   ],
   "camera": [
-   129.219,
-   35.83472222
+   129.2258423,
+   35.8366039
   ],
   "camera_source": "Researched viewpoint '계림' (2 web pages); placed at OpenStreetMap '경주 계림' (way/382133881): middle (370 m across).",
-  "pin_note": "Position from the Wikipedia article 'Cheomseongdae'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Ancient Silla stone observatory, one of the oldest in Asia.",
   "text": {
    "description": "Cheomseongdae is a small stone tower in Gyeongju that was built as an observatory, and it is thought to be the oldest surviving one in Asia. It dates from the Silla period, in the reign of Queen Seondeok (632–647). It is only 9.17 metres high, but the shape is easy to spot: a square base, a gently curved bottle-like body of 27 tiers of granite, and a square frame on top. A square window opens on the south side. The body is made of 365 cut stones, which is usually taken to stand for the days of the year. The tower leans very slightly to the north-east, and it became a national treasure in 1962.\n\nFrom the wooded path you look back toward the tower through the trees. The setting is shadier and usually quieter than the open lawn in front of it. In autumn a cosmos path can frame the view. If you want the classic view, the tower rises over the lawn with seasonal flowers in front. Pink muhly grass in autumn works well for a low-angle shot. The flowers change through the year, with tulips in April, then cherry blossom, sunflowers in summer, and pink muhly and cosmos in autumn. Climbing the tower is not allowed, and visitors report that staff ask people to keep off the grass.",
@@ -151,10 +151,7 @@
     "url": "https://en.wikipedia.org/wiki/Cheomseongdae"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (888 m)",
-   "OpenStreetMap object 651 m away (Cheomseongdae): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/3.jpg",
@@ -387,61 +384,6 @@
  },
  {
   "rank": 8,
-  "name": "Hwangnyongsa",
-  "in_cut": true,
-  "label": "Hwangnyongsa Site",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 80,
-  "pin": [
-   129.22666667,
-   35.78888889
-  ],
-  "camera": [
-   129.22666667,
-   35.78888889
-  ],
-  "camera_source": "Researched viewpoint '황룡사지' (2 web pages); placed at our map tiles: '사자봉' (pois).",
-  "pin_note": "Position from Wikidata Q491548: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Huge ruined Silla temple site with foundation stones.",
-  "text": {
-   "description": "Hwangnyongsa was once the great state temple of the Silla kingdom, and today it is a wide, open field of stone foundations. Work began in 553 and the temple was finished in 644. Its nine-story wooden pagoda, reported at about 80 m tall, was among the tallest structures in East Asia until Mongol invasions burned it in 1238. Only the foundation stones remain, but they show the scale well. The walled area covered roughly 80,000 square metres, and the pagoda stood at the centre with halls on three sides. That layout is what makes the place photograph well. The low stone bases lead the eye across a big, uncluttered space, and the reconstructed pagoda model and the History and Culture Center give a backdrop. The close-up view is from among the pagoda foundations inside the site, facing along the central axis of the temple layout. Keep the stones in the foreground and let the open ground and the buildings beyond fill the rest of the frame. Please stay off the foundations, as climbing on them is not allowed. The planting around the ruins changes with the seasons (barley, cosmos, zinnias, or nothing), so colour varies through the year. For a second view, try the fields running from Bunhwangsa Temple towards the ruins, or the elevated outlook at the History and Culture Center.",
-   "geographic_location": "Hwangnyongsa is in Gyeongju, on open ground close to the Bunhwangsa Temple and not far from the old Banwolseong palace site. The ruins sit on a plain surrounded by hills.",
-   "directions_text": "No Underground, tram or train stop is listed for this spot. If you are visiting Bunhwangsa Temple, the ruins are about 140 m away. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole field of foundation stones, then switch to the default lens (1x) for a calmer, more natural view. Use telephoto (2x-5x, depending on your phone) to pick out the pagoda model or the History and Culture Center in the distance.",
-    "where_to_stand": "Stand right at the subject (among the pagoda foundations, facing the central axis of the temple layout). The stone foundations of the nine-story pagoda and the open ruins, with the reconstructed pagoda model and History and Culture Center beyond them. For the close-up view, walk in among the pagoda foundations and face along the central axis of the temple layout. From there the photo shows the stone bases of the nine-story pagoda and the open ruins, with the reconstructed pagoda model and the History and Culture Center beyond. Avoid stepping or climbing on the stones.",
-    "how_to_frame": "Turn on the gridlines and place the horizon on the upper third line, with a large stone base in the lower third as your foreground. Crouch a little so the stones lead the eye towards the buildings behind. As an alternative, try the barley or flower fields stretching from Bunhwangsa Temple towards the ruins.",
-    "phone_settings_tip": "Tap on the stones to set focus, then drag the exposure slider down slightly if the sky is bright, so the sky keeps its colour and the stone keeps its detail. Try a panorama to show the full width of the site, moving the phone slowly and steadily.",
-    "best_time": "Early morning for fewer people and softer light, or late afternoon for warm light over the stones."
-   },
-   "access_note": "This is an open-air archaeological site where the grounds are generally open all day, but opening times may vary, so check the official site on the day before you go."
-  },
-  "checker_problems": 6,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Hwangnyongsa",
-    "url": "https://en.wikipedia.org/wiki/Hwangnyongsa"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/8.jpg",
-   "artist": "by Junho Jung at Flickr from South Korea",
-   "licence": "CC BY-SA 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Korea-Gyeongju-Hwangnyongsa-Dangganjiju-01.jpg",
-   "from": "Wikidata Q491548 main image"
-  }
- },
- {
-  "rank": 9,
   "name": "Poseokjeong",
   "in_cut": true,
   "label": "Poseokjeong Site",
@@ -487,7 +429,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Kokiri(talk}",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -496,7 +438,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Dabotap",
   "in_cut": true,
   "label": "Dabotap Pagoda",
@@ -538,7 +480,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -548,7 +490,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Seokgatap",
   "in_cut": true,
   "label": "Seokgatap Pagoda",
@@ -592,7 +534,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -602,7 +544,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Bunhwangsa",
   "in_cut": true,
   "label": "Bunhwangsa Temple",
@@ -650,7 +592,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "by Junho Jung at Flickr from South Korea",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -659,7 +601,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Cheonwangmun Gate",
   "in_cut": true,
   "label": "Cheonwangmun Gate",
@@ -700,7 +642,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -710,7 +652,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Banyayeonji Pond",
   "in_cut": true,
   "label": "Banyayeonji Pond",
@@ -751,13 +693,68 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
    "source_url": "",
    "from": "Own photo, taken 4 m from the phone icon",
    "zoom": 2.0
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Hwangnyongsa",
+  "in_cut": false,
+  "label": "Hwangnyongsa Site",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 80,
+  "pin": [
+   129.22666667,
+   35.78888889
+  ],
+  "camera": [
+   129.22666667,
+   35.78888889
+  ],
+  "camera_source": "Researched viewpoint '황룡사지' (2 web pages); placed at our map tiles: '사자봉' (pois).",
+  "pin_note": "Position from Wikidata Q491548: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Huge ruined Silla temple site with foundation stones.",
+  "text": {
+   "description": "Hwangnyongsa was once the great state temple of the Silla kingdom, and today it is a wide, open field of stone foundations. Work began in 553 and the temple was finished in 644. Its nine-story wooden pagoda, reported at about 80 m tall, was among the tallest structures in East Asia until Mongol invasions burned it in 1238. Only the foundation stones remain, but they show the scale well. The walled area covered roughly 80,000 square metres, and the pagoda stood at the centre with halls on three sides. That layout is what makes the place photograph well. The low stone bases lead the eye across a big, uncluttered space, and the reconstructed pagoda model and the History and Culture Center give a backdrop. The close-up view is from among the pagoda foundations inside the site, facing along the central axis of the temple layout. Keep the stones in the foreground and let the open ground and the buildings beyond fill the rest of the frame. Please stay off the foundations, as climbing on them is not allowed. The planting around the ruins changes with the seasons (barley, cosmos, zinnias, or nothing), so colour varies through the year. For a second view, try the fields running from Bunhwangsa Temple towards the ruins, or the elevated outlook at the History and Culture Center.",
+   "geographic_location": "Hwangnyongsa is in Gyeongju, on open ground close to the Bunhwangsa Temple and not far from the old Banwolseong palace site. The ruins sit on a plain surrounded by hills.",
+   "directions_text": "No Underground, tram or train stop is listed for this spot. If you are visiting Bunhwangsa Temple, the ruins are about 140 m away. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole field of foundation stones, then switch to the default lens (1x) for a calmer, more natural view. Use telephoto (2x-5x, depending on your phone) to pick out the pagoda model or the History and Culture Center in the distance.",
+    "where_to_stand": "Stand right at the subject (among the pagoda foundations, facing the central axis of the temple layout). The stone foundations of the nine-story pagoda and the open ruins, with the reconstructed pagoda model and History and Culture Center beyond them. For the close-up view, walk in among the pagoda foundations and face along the central axis of the temple layout. From there the photo shows the stone bases of the nine-story pagoda and the open ruins, with the reconstructed pagoda model and the History and Culture Center beyond. Avoid stepping or climbing on the stones.",
+    "how_to_frame": "Turn on the gridlines and place the horizon on the upper third line, with a large stone base in the lower third as your foreground. Crouch a little so the stones lead the eye towards the buildings behind. As an alternative, try the barley or flower fields stretching from Bunhwangsa Temple towards the ruins.",
+    "phone_settings_tip": "Tap on the stones to set focus, then drag the exposure slider down slightly if the sky is bright, so the sky keeps its colour and the stone keeps its detail. Try a panorama to show the full width of the site, moving the phone slowly and steadily.",
+    "best_time": "Early morning for fewer people and softer light, or late afternoon for warm light over the stones."
+   },
+   "access_note": "This is an open-air archaeological site where the grounds are generally open all day, but opening times may vary, so check the official site on the day before you go."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Hwangnyongsa",
+    "url": "https://en.wikipedia.org/wiki/Hwangnyongsa"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "by Junho Jung at Flickr from South Korea",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Korea-Gyeongju-Hwangnyongsa-Dangganjiju-01.jpg",
+   "from": "Wikidata Q491548 main image"
   }
  }
 ]

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "gyeongju", "title": "Gyeongju: 13 photo spots (pilot review)", "place": "Gyeongju", "bounds": [129.185, 35.75, 129.36, 35.85], "center": [129.2725, 35.8], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/gyeongju/{z}/{x}/{y}.pbf", "tz": "Asia/Seoul", "rail": true, "app": true};

@@ -136,6 +136,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "gyeongju",
+  "place": "Gyeongju",
+  "country": "South Korea",
+  "spots": 13,
+  "mb": 4.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "helsinki",
   "place": "Helsinki",
   "country": "",
