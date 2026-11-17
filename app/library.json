@@ -216,6 +216,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "liepaja",
+  "place": "Liepāja",
+  "country": "Latvia",
+  "spots": 11,
+  "mb": 3.2,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "lisbon",
   "place": "Lisbon",
   "country": "Portugal",
