@@ -40,6 +40,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "bridgetown",
+  "place": "Bridgetown",
+  "country": "Barbados",
+  "spots": 16,
+  "mb": 2.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "brussels",
   "place": "Brussels",
   "country": "Belgium",
