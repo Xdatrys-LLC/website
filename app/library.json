@@ -168,6 +168,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "haugesund",
+  "place": "Haugesund",
+  "country": "Norway",
+  "spots": 6,
+  "mb": 2.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "helsinki",
   "place": "Helsinki",
   "country": "",
