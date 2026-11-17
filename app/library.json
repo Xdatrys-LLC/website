@@ -392,6 +392,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "newark",
+  "place": "Newark",
+  "country": "United States",
+  "spots": 16,
+  "mb": 5.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "nuremberg",
   "place": "Nuremberg",
   "country": "Germany",
