@@ -51,8 +51,10 @@
   .pop .nav { margin: 8px 0; }
   .pop .rev { color: var(--muted); font-size: 12px; border-top: 1px solid #ddd; padding-top: 4px; }
   /* thumbnail under the heading, a third of the popup width (2026-11-07); credit required by the photo's licence */
-  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
-  .pop .thumb img { width: 100%; height: auto; border-radius: 4px; display: block; }
+  /* 2026-11-17 (Ifan): the photo spans the popup's full column width, so the subject can be checked at a glance; portrait photos are
+     capped in height (shown whole, not cropped) */
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
   .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
   .pop .thumb figcaption a { color: var(--muted); }
   .pop .after-thumb { clear: both; }

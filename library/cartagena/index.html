@@ -73,8 +73,8 @@
   .pop p { margin: 0 0 6px; }
   .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
   .pop .nav { margin: 8px 0; }
-  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
-  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
   .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
   .pop .thumb figcaption a { color: var(--muted); }
   .pop .after-thumb { clear: both; }
