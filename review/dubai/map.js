@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "dubai", "title": "Dubai: 19 photo spots (pilot review)", "place": "Dubai", "bounds": [55.1, 25.07, 55.34, 25.29], "center": [55.22, 25.18], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/dubai/{z}/{x}/{y}.pbf"};
