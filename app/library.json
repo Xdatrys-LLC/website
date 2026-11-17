@@ -216,6 +216,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "osaka",
+  "place": "Osaka",
+  "country": "Japan",
+  "spots": 18,
+  "mb": 18.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "paris",
   "place": "Paris",
   "country": "France",
