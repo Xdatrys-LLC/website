@@ -552,64 +552,6 @@
  },
  {
   "rank": 11,
-  "name": "New Mexico State Fair",
-  "in_cut": true,
-  "label": "State Fair",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 50,
-  "pin": [
-   -106.57475,
-   35.08291667
-  ],
-  "camera": [
-   -106.57475,
-   35.08291667
-  ],
-  "camera_source": "Researched viewpoint 'Central Avenue' (2 web pages); placed at the stretch of Central Avenue nearest the subject (our map tiles).",
-  "pin_note": "Position from Wikidata Q7010243: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Annual state fair and fairgrounds.",
-  "text": {
-   "description": "The New Mexico State Fair is Albuquerque's big September fair, held at Expo New Mexico on Central Avenue. It has carnival rides, rodeos, concerts, farm animals, horses and New Mexican food, so there is always something lively to photograph. The fair began in 1881, but the present grounds were built in 1936-38 with Works Progress Administration funding, and the first fair here was in 1938. The site covers about 210 acres. Several of the original adobe buildings survive, including the Agricultural Building, Fine Arts Building, Horse Barn and Cattle Barn. Tingley Coliseum, an 11,800-seat indoor arena, opened in 1957. A boxcar from the 1949 Merci Train, a gift from France, also stands on the grounds.\n\nFor a phone photo, the best-value scene is the annual State Fair Parade. It comes down Central Avenue with floats, horse riders and lowriders, and spectators line the kerb. You stand with the crowd and shoot what passes, which suits a phone well. Wait for the colourful floats and riders to come level with you, and keep the spectators in the frame to show the atmosphere. If you go into the fairgrounds, Main Street is a good alternative. It is the fair's central avenue, with a large American flag hung over it. Parade days and fair dates change from year to year, so check the official site before you go.",
-   "geographic_location": "The fairgrounds are in eastern Albuquerque, in the International District. They sit between Central Avenue, Lomas Boulevard, San Pedro Drive and Louisiana Boulevard.",
-   "directions_text": "From central Albuquerque, head east along Central Avenue towards the fairgrounds. Check the fair's dates and parade schedule first, as the parade only runs on certain days. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for floats and the crowd along the kerb. Switch to telephoto (2x-5x, depending on your phone) for close shots of riders and lowriders without stepping into the road. Use the ultra-wide (0.5x) only if you are close and want the whole street.",
-    "where_to_stand": "Stand on Central Avenue (stretch at Alvarado, along the parade route). Parade floats, horse riders and lowriders coming down the avenue, with spectators lining the curb. From the kerb you see floats, horse riders and lowriders coming down the avenue, with spectators lining the edge. The fairgrounds are to the north.",
-    "how_to_frame": "Turn on gridlines and place the avenue along one of the lines, with the approaching parade filling the frame. Include a few spectators in the foreground for scale. For a different view, go inside the fair and photograph Main Street with the large American flag hanging over it, if entry is open to you.",
-    "phone_settings_tip": "Tap on a float or rider to lock focus, then slide the exposure down a little if the sky is bright. Live Photos or motion can catch a passing float well. Hold the phone steady with both hands, as everything is moving.",
-    "best_time": "Go on a parade day during the September fair, and check the official parade schedule for the start time. If you are not there for the parade, the street itself is much less interesting for photos."
-   },
-   "access_note": "Central Avenue is a public street, but the parade is only on certain days, so check the official site for parade dates and fairgrounds entry details before you go.",
-   "claims_not_in_sources": [
-    "The parade is held on specific days only, not every day of the fair.",
-    "Spectators can watch the parade from the kerb along Central Avenue."
-   ]
-  },
-  "checker_problems": 3,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "New Mexico State Fair",
-    "url": "https://en.wikipedia.org/wiki/New_Mexico_State_Fair"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (695 m)"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/11.jpg",
-   "artist": "Steve Terrell from Santa Fe, USA",
-   "licence": "CC BY 2.0",
-   "licence_url": "https://creativecommons.org/licenses/by/2.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:New_Mexico_State_Fair_2010.jpg",
-   "from": "Wikidata Q7010243 main image"
-  }
- },
- {
-  "rank": 12,
   "name": "Isotopes Park",
   "in_cut": true,
   "label": "Isotopes Park",
@@ -654,7 +596,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "Matthew.kowal",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -663,7 +605,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "New Mexico Museum of Natural History and Science",
   "in_cut": true,
   "label": "Natural History Museum",
@@ -707,7 +649,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "John Phelan",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -716,7 +658,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "The Pit (arena)",
   "in_cut": true,
   "label": "The Pit",
@@ -764,7 +706,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "PerryPlanet",
    "licence": "CC0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -774,6 +716,64 @@
  },
  {
   "rank": 101,
+  "name": "New Mexico State Fair",
+  "in_cut": false,
+  "label": "State Fair",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 50,
+  "pin": [
+   -106.57475,
+   35.08291667
+  ],
+  "camera": [
+   -106.57475,
+   35.08291667
+  ],
+  "camera_source": "Researched viewpoint 'Central Avenue' (2 web pages); placed at the stretch of Central Avenue nearest the subject (our map tiles).",
+  "pin_note": "Position from Wikidata Q7010243: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Annual state fair and fairgrounds.",
+  "text": {
+   "description": "The New Mexico State Fair is Albuquerque's big September fair, held at Expo New Mexico on Central Avenue. It has carnival rides, rodeos, concerts, farm animals, horses and New Mexican food, so there is always something lively to photograph. The fair began in 1881, but the present grounds were built in 1936-38 with Works Progress Administration funding, and the first fair here was in 1938. The site covers about 210 acres. Several of the original adobe buildings survive, including the Agricultural Building, Fine Arts Building, Horse Barn and Cattle Barn. Tingley Coliseum, an 11,800-seat indoor arena, opened in 1957. A boxcar from the 1949 Merci Train, a gift from France, also stands on the grounds.\n\nFor a phone photo, the best-value scene is the annual State Fair Parade. It comes down Central Avenue with floats, horse riders and lowriders, and spectators line the kerb. You stand with the crowd and shoot what passes, which suits a phone well. Wait for the colourful floats and riders to come level with you, and keep the spectators in the frame to show the atmosphere. If you go into the fairgrounds, Main Street is a good alternative. It is the fair's central avenue, with a large American flag hung over it. Parade days and fair dates change from year to year, so check the official site before you go.",
+   "geographic_location": "The fairgrounds are in eastern Albuquerque, in the International District. They sit between Central Avenue, Lomas Boulevard, San Pedro Drive and Louisiana Boulevard.",
+   "directions_text": "From central Albuquerque, head east along Central Avenue towards the fairgrounds. Check the fair's dates and parade schedule first, as the parade only runs on certain days. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for floats and the crowd along the kerb. Switch to telephoto (2x-5x, depending on your phone) for close shots of riders and lowriders without stepping into the road. Use the ultra-wide (0.5x) only if you are close and want the whole street.",
+    "where_to_stand": "Stand on Central Avenue (stretch at Alvarado, along the parade route). Parade floats, horse riders and lowriders coming down the avenue, with spectators lining the curb. From the kerb you see floats, horse riders and lowriders coming down the avenue, with spectators lining the edge. The fairgrounds are to the north.",
+    "how_to_frame": "Turn on gridlines and place the avenue along one of the lines, with the approaching parade filling the frame. Include a few spectators in the foreground for scale. For a different view, go inside the fair and photograph Main Street with the large American flag hanging over it, if entry is open to you.",
+    "phone_settings_tip": "Tap on a float or rider to lock focus, then slide the exposure down a little if the sky is bright. Live Photos or motion can catch a passing float well. Hold the phone steady with both hands, as everything is moving.",
+    "best_time": "Go on a parade day during the September fair, and check the official parade schedule for the start time. If you are not there for the parade, the street itself is much less interesting for photos."
+   },
+   "access_note": "Central Avenue is a public street, but the parade is only on certain days, so check the official site for parade dates and fairgrounds entry details before you go.",
+   "claims_not_in_sources": [
+    "The parade is held on specific days only, not every day of the fair.",
+    "Spectators can watch the parade from the kerb along Central Avenue."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "New Mexico State Fair",
+    "url": "https://en.wikipedia.org/wiki/New_Mexico_State_Fair"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (695 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Steve Terrell from Santa Fe, USA",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:New_Mexico_State_Fair_2010.jpg",
+   "from": "Wikidata Q7010243 main image"
+  }
+ },
+ {
+  "rank": 102,
   "name": "Rio Grande Zoo",
   "in_cut": false,
   "label": "Rio Grande Zoo",
@@ -819,7 +819,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/101.jpg",
+   "file": "photos/102.jpg",
    "artist": "en:User:Cburnett",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
