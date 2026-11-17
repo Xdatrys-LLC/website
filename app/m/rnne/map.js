@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "rnne", "title": "Rønne: 5 photo spots (pilot review)", "place": "Rønne", "bounds": [14.682, 55.093, 14.712, 55.108], "center": [14.697, 55.1005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/rnne/{z}/{x}/{y}.pbf", "tz": "Europe/Copenhagen", "rail": false, "app": true};
