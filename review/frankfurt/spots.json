@@ -666,61 +666,6 @@
  },
  {
   "rank": 13,
-  "name": "Museumsufer",
-  "in_cut": true,
-  "label": "Museumsufer",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 320,
-  "pin": [
-   8.67861111,
-   50.10611111
-  ],
-  "camera": [
-   8.67861111,
-   50.10611111
-  ],
-  "camera_source": "Researched viewpoint 'Schaumainkai' (2 web pages); placed at the stretch of Schaumainkai nearest the subject (our map tiles).",
-  "pin_note": "Position from Wikidata Q315968: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Riverside row of museums along the south bank of the Main.",
-  "text": {
-   "description": "Museumsufer is not one building but a long stretch of the Main riverbank lined with museums, on both sides of the water. The Städel art museum is its centre. Most of the others were added in the 1980s, some by converting old villas and some as new buildings, under the city's culture chief Hilmar Hoffmann. By 2022 the group counted 39 museums. On the south bank you will find the Film Museum, the Architecture Museum, the Icon Museum and the Liebieghaus sculpture collection, among others.\n\nIt photographs well because the setting is open and varied: a riverside promenade, lawns, the water, and the city skyline across the river. Older villa fronts sit beside modern museum architecture, so you can choose between a wide scene and a tight detail.\n\nThe towers fall in a different arrangement from here, with more varied foreground along the river. This makes it a good quieter angle. For a second view, the southern end of the Eiserner Steg looks back across the river towards the embankment and the skyline.\n\nThe street is partly closed to traffic for a flea market on Saturdays, and the Museumsuferfest in August and the Nacht der Museen bring crowds. Expect more people then, and check the dates before you go.",
-   "geographic_location": "Museumsufer runs along both banks of the river Main in central Frankfurt.",
-   "directions_text": "No station or tram stop is listed for this spot, so head for the Schaumainkai on the south bank of the Main. The stretch runs downriver toward the Untermainbrücke. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) for the long embankment, the river and the skyline together. Use the default lens (1x) for the museum fronts, and the telephoto (2x-5x, depending on your phone) to pick out towers and architectural details across the water.",
-    "where_to_stand": "Stand on Schaumainkai (stretch running downriver toward the Untermainbrücke). A different angle on the museum embankment, with the towers seen from a more westerly direction and a varied foreground along the river. The museum embankment lies to the north-west, and from here the towers are seen from a more westerly direction, with the river and its varied foreground in the frame.",
-    "how_to_frame": "Switch on the gridlines and place the river edge or promenade along a lower third line so it leads the eye along the embankment. Add a tree or railing at the edge as foreground for depth. For a different view, the southern end of the Eiserner Steg looks back at the museum embankment with the skyline beyond.",
-    "phone_settings_tip": "Tap on the buildings to set focus, then drag the exposure slider down a little so the sky keeps its colour. Check that the horizon and the museum fronts are level using the gridlines.",
-    "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Avoid Saturdays if you want a quiet street, as the flea market partly closes it to traffic. The Museumsuferfest in August and the Nacht der Museen bring crowds."
-   },
-   "access_note": "The embankment is an open public street and promenade, but individual museums are ticketed and some events close parts of it, so check the official site before you go."
-  },
-  "checker_problems": 3,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Museumsufer",
-    "url": "https://en.wikipedia.org/wiki/Museumsufer"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/13.jpg",
-   "artist": "dontworry",
-   "licence": "CC BY-SA 3.0",
-   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Museumsufer-teil3-ffm001.jpg",
-   "from": "Wikidata Q315968 main image"
-  }
- },
- {
-  "rank": 14,
   "name": "Schirn Kunsthalle Frankfurt",
   "in_cut": true,
   "label": "Schirn Kunsthalle",
@@ -767,7 +712,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -777,7 +722,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Eschenheimer Turm",
   "in_cut": true,
   "label": "Eschenheimer Turm",
@@ -823,7 +768,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Jürgen Matern",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -832,7 +777,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Old St. Nicholas Church",
   "in_cut": true,
   "label": "Alte Nikolaikirche",
@@ -876,7 +821,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -886,7 +831,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "New Frankfurt Old Town",
   "in_cut": true,
   "label": "New Old Town",
@@ -935,13 +880,68 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
    "source_url": "",
    "from": "Own photo, taken 48 m from the phone icon",
    "zoom": 2.0
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Museumsufer",
+  "in_cut": false,
+  "label": "Museumsufer",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 320,
+  "pin": [
+   8.67861111,
+   50.10611111
+  ],
+  "camera": [
+   8.67861111,
+   50.10611111
+  ],
+  "camera_source": "Researched viewpoint 'Schaumainkai' (2 web pages); placed at the stretch of Schaumainkai nearest the subject (our map tiles).",
+  "pin_note": "Position from Wikidata Q315968: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Riverside row of museums along the south bank of the Main.",
+  "text": {
+   "description": "Museumsufer is not one building but a long stretch of the Main riverbank lined with museums, on both sides of the water. The Städel art museum is its centre. Most of the others were added in the 1980s, some by converting old villas and some as new buildings, under the city's culture chief Hilmar Hoffmann. By 2022 the group counted 39 museums. On the south bank you will find the Film Museum, the Architecture Museum, the Icon Museum and the Liebieghaus sculpture collection, among others.\n\nIt photographs well because the setting is open and varied: a riverside promenade, lawns, the water, and the city skyline across the river. Older villa fronts sit beside modern museum architecture, so you can choose between a wide scene and a tight detail.\n\nThe towers fall in a different arrangement from here, with more varied foreground along the river. This makes it a good quieter angle. For a second view, the southern end of the Eiserner Steg looks back across the river towards the embankment and the skyline.\n\nThe street is partly closed to traffic for a flea market on Saturdays, and the Museumsuferfest in August and the Nacht der Museen bring crowds. Expect more people then, and check the dates before you go.",
+   "geographic_location": "Museumsufer runs along both banks of the river Main in central Frankfurt.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for the Schaumainkai on the south bank of the Main. The stretch runs downriver toward the Untermainbrücke. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the long embankment, the river and the skyline together. Use the default lens (1x) for the museum fronts, and the telephoto (2x-5x, depending on your phone) to pick out towers and architectural details across the water.",
+    "where_to_stand": "Stand on Schaumainkai (stretch running downriver toward the Untermainbrücke). A different angle on the museum embankment, with the towers seen from a more westerly direction and a varied foreground along the river. The museum embankment lies to the north-west, and from here the towers are seen from a more westerly direction, with the river and its varied foreground in the frame.",
+    "how_to_frame": "Switch on the gridlines and place the river edge or promenade along a lower third line so it leads the eye along the embankment. Add a tree or railing at the edge as foreground for depth. For a different view, the southern end of the Eiserner Steg looks back at the museum embankment with the skyline beyond.",
+    "phone_settings_tip": "Tap on the buildings to set focus, then drag the exposure slider down a little so the sky keeps its colour. Check that the horizon and the museum fronts are level using the gridlines.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Avoid Saturdays if you want a quiet street, as the flea market partly closes it to traffic. The Museumsuferfest in August and the Nacht der Museen bring crowds."
+   },
+   "access_note": "The embankment is an open public street and promenade, but individual museums are ticketed and some events close parts of it, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Museumsufer",
+    "url": "https://en.wikipedia.org/wiki/Museumsufer"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "dontworry",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Museumsufer-teil3-ffm001.jpg",
+   "from": "Wikidata Q315968 main image"
   }
  }
 ]

@@ -152,6 +152,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "frankfurt",
+  "place": "Frankfurt",
+  "country": "Germany",
+  "spots": 16,
+  "mb": 8.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "gdansk",
   "place": "Gdansk",
   "country": "Poland",
