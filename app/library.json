@@ -168,6 +168,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "kobe",
+  "place": "Kobe",
+  "country": "Japan",
+  "spots": 14,
+  "mb": 4.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "kyoto",
   "place": "Kyoto",
   "country": "",
