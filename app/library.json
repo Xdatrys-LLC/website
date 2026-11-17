@@ -352,6 +352,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "krakow",
+  "place": "Krakow",
+  "country": "Poland",
+  "spots": 18,
+  "mb": 12.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "kyoto",
   "place": "Kyoto",
   "country": "",

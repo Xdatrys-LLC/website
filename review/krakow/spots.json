@@ -716,15 +716,15 @@
   "nophone": true,
   "searches": 530,
   "pin": [
-   19.8895,
-   50.05283333
+   19.8933537,
+   50.054915
   ],
   "camera": [
-   19.8895,
-   50.05283333
+   19.8933537,
+   50.054915
   ],
   "camera_source": "Researched viewpoint 'Błonia' (2 web pages); placed at OpenStreetMap 'Błonia' (relation/14476568): edge nearest the subject (2628 m across); moved 5 m off water.",
-  "pin_note": "Position from the Wikipedia article 'Kościuszko's Mound'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Hilltop mound with a panorama over the city.",
   "text": {
    "description": "Kościuszko Mound (Kopiec Kościuszki) is a large artificial hill in the western part of Kraków's Zwierzyniec District. Cracovians raised it in memory of the Polish national leader Tadeusz Kościuszko, and it was finished in November 1823. People of all ages and classes helped to build it, and it stands about 35 metres high. It was modelled on Kraków's ancient mounds of Krak and Wanda. In the 1850s the Austrian authorities built a brick citadel around it, and a neo-Gothic chapel of Blessed Bronisława belongs to the same story.\n\nFrom here the mound rises above the grass, and the Old Town towers appear in the same view. That combination of wide green space, a smooth dome-shaped hill and the city skyline is what makes the picture work. The mound is a good distance away, so it will look small if you only shoot at the default lens (1x). Zoom in to bring it closer, and keep some of the meadow in the frame to give a sense of scale.\n\nIf you want a second angle, Las Wolski offers a more distant view of Wawel Castle and the mound, framed by the green of the forest. Going up the mound itself is a different kind of visit, with its panoramic views over the city and the Vistula. Check the official site before you go if you plan to climb it.",
@@ -754,10 +754,7 @@
     "url": "https://en.wikipedia.org/wiki/Ko%C5%9Bciuszko%27s_Mound"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (769 m)",
-   "OpenStreetMap object 360 m away (Kościuszko Mound): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/14.jpg",
