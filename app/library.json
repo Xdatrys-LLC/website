@@ -120,6 +120,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "budapest",
+  "place": "Budapest",
+  "country": "Hungary",
+  "spots": 20,
+  "mb": 11.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "caernarfon",
   "place": "Caernarfon",
   "country": "United Kingdom",
