@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "cancun", "title": "Cancún: 10 photo spots (pilot review)", "place": "Cancún", "bounds": [-86.86, 20.98, -86.74, 21.17], "center": [-86.8, 21.075000000000003], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/cancun/{z}/{x}/{y}.pbf", "tz": "America/Cancun", "rail": false, "app": true};

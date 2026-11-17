@@ -136,6 +136,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "cancun",
+  "place": "Cancún",
+  "country": "Mexico",
+  "spots": 10,
+  "mb": 3.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "cardiff",
   "place": "Cardiff",
   "country": "United Kingdom",
