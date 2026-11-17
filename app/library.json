@@ -336,6 +336,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "sanjose",
+  "place": "San José",
+  "country": "Costa Rica",
+  "spots": 14,
+  "mb": 4.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "sanjuan",
   "place": "San Juan",
   "country": "Puerto Rico",

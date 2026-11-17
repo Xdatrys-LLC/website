@@ -124,23 +124,23 @@
   "nophone": false,
   "searches": 660,
   "pin": [
-   -84.07361111,
-   9.93638889
+   -84.072825,
+   9.933142
   ],
   "camera": [
    -84.073611,
    9.936389
   ],
   "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
-  "pin_note": "Position from the Wikipedia article 'Museo del Jade'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "The world's largest collection of American jade.",
   "text": {
    "description": "The Museo del Jade is an archaeological museum in San José, facing Plaza de la Democracia. For a phone photographer it works best as a subject in its own right: a solid, modern building with an open square in front of it, so you can step back and fit the whole frontage into one shot without much trouble. The plaza also gives you room to move left and right until the lines of the building look tidy and level.\n\nA few facts help to set the scene. The museum was founded in 1977 by Fidel Tristán Castro, the first president of the INS, and it moved to its present home in front of the plaza in 2014. It holds what is described as the world's largest collection of American jade, which is a good thing to mention in a caption alongside your photo.\n\nFor practical photo advice, start with a wide view of the building from the open space in front of it, then move closer for details such as the entrance and any signs or textures that catch your eye. Turn on the gridlines so the vertical edges of the building stay straight, and tap on the building to set focus and brightness. People often wander through the plaza, so take a few frames and pick the one with the cleanest foreground. Photography inside a museum is often limited, so check the official site before you go if you hope to take pictures of the displays.",
    "geographic_location": "The Museo del Jade is in San José, facing Plaza de la Democracia.",
-   "directions_text": "Head for Plaza de la Democracia in San José. The museum faces the plaza, and the phone icon on the map is right at the subject, so once you reach the front of the building you are in the right place. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for Plaza de la Democracia in San José. The phone icon on the map is about 370 m north of the subject. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole frontage in from close range, then switch to the default lens (1x) for a more natural-looking view. The telephoto (2x-5x, depending on your phone) is useful for picking out details on the building.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. To fit the full frontage in, move back from the building until the whole frontage sits comfortably in the frame, then face the museum.",
+    "where_to_stand": "Stand about 370 m north of the subject, at the phone icon on the map, and face south. To fit the full frontage in, move back from the building until the whole frontage sits comfortably in the frame, then face the museum.",
     "how_to_frame": "Switch on gridlines and line up the edges of the building with the vertical lines so it does not lean. Keep the phone level, and try one shot with a little foreground from the plaza and one close-up of the entrance.",
     "phone_settings_tip": "Tap on the building to set focus, then drag the exposure slider down slightly if the sky is washing out. If you have to stand close, the ultra-wide (0.5x) can stretch the edges, so keep the building away from the corners of the frame.",
     "best_time": "Go in daylight, when the building is evenly lit. Quieter moments in the plaza make it easier to get a clear foreground."
@@ -155,9 +155,7 @@
     "url": "https://en.wikipedia.org/wiki/Museo_del_Jade"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 371 m away (Museo del Jade y la Cultura Precolombina): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": null
  },
