@@ -553,59 +553,6 @@
  },
  {
   "rank": 11,
-  "name": "Lebua at State Tower",
-  "in_cut": true,
-  "label": "Lebua Sky Bar",
-  "camera_pill": null,
-  "nophone": false,
-  "searches": 7980,
-  "pin": [
-   100.5175,
-   13.72111111
-  ],
-  "camera": [
-   100.5175,
-   13.721111
-  ],
-  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
-  "pin_note": "Position from Wikidata Q11349080: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Rooftop bar with views over the river and skyline.",
-  "text": {
-   "description": "Lebua at State Tower is a luxury hotel on Silom Road, right beside the Chao Phraya River in Bang Rak. For a phone photographer the appeal is its height. The tower stands well above the surrounding streets, and a cluster of restaurants and bars called The Dome by lebua sits at the very top. The rooftop restaurant Sirocco and the Sky Bar are both on the 64th floor. Since New Year's Eve 2015, Sirocco has hosted what is described as the highest New Year's Eve ball drop in the world. That makes the building easy to recognise from far away, and a good subject from the street too.\n\nThe phone icon on the map is at the tower itself, so you are photographing the building from its foot. Tilt your phone upwards and use the ultra-wide lens (0.5x) to fit more of the height into the frame. Use the gridlines to keep the vertical edges as straight as you can; this works best if you hold the phone level and then raise it a little, rather than tipping it far back. If you want a closer detail of the upper floors, the telephoto lens (2x-5x) will pick out the top of the tower. Dusk is a good time to come, when the building starts to light up against the sky. Check the official site before you go if you plan to go up to the bars or restaurants.",
-   "geographic_location": "Lebua at State Tower is on Silom Road in the Bang Rak District of Bangkok, beside the Chao Phraya River.",
-   "directions_text": "Start from Silom Road in Bang Rak and go by taxi or hired scooter to the tower, next to the Chao Phraya River. The phone icon on the map is at the tower itself, so there is no extra walk once you arrive. Ask your driver for \"lebua at State Tower\" and you will be dropped at the foot of the building. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide lens (0.5x) to fit the tall tower into the frame. Switch to the default lens (1x) for a calmer view of the lower floors, and to the telephoto lens (2x-5x, depending on your phone) for details near the top.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here the tower rises straight above you, so you will be shooting upwards.",
-    "how_to_frame": "Turn on the gridlines and line the tower's vertical edges up with them. Tilt the phone up only as far as you need, because a steep tilt makes the sides lean inwards. Put a strip of sky or a tree or lamp at the edge of the frame to give the height some scale.",
-    "phone_settings_tip": "Tap the sky to set focus and exposure, then drag the exposure slider down a little so the sky is not washed out and the tower keeps its detail. After dark, use night mode and brace your arms against your body or a solid surface to keep the shot sharp.",
-    "best_time": "Dusk, when the sky still has some colour and the building's lights are coming on, is a good time to try."
-   },
-   "access_note": "The tower is a hotel with restaurants and bars on the upper floors, so access to them may be restricted or ticketed; check the official site before you go."
-  },
-  "checker_problems": 2,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Lebua at State Tower",
-    "url": "https://en.wikipedia.org/wiki/Lebua_at_State_Tower"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": true,
-  "photo": {
-   "file": "photos/11.jpg",
-   "artist": "Na derdingseben",
-   "licence": "CC BY-SA 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Lebua_at_State_Tower_IMG_1402_01.jpg",
-   "from": "Wikidata Q11349080 main image"
-  }
- },
- {
-  "rank": 12,
   "name": "Giant Swing",
   "in_cut": true,
   "label": "Giant Swing",
@@ -652,7 +599,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "Yakuzakorat",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -661,7 +608,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Jim Thompson House",
   "in_cut": true,
   "label": "Jim Thompson House",
@@ -709,7 +656,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "Don Ramey Logan",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -718,7 +665,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Wat Traimit",
   "in_cut": true,
   "label": "Golden Buddha",
@@ -764,7 +711,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "Preecha.MJ",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -773,7 +720,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Erawan Shrine",
   "in_cut": true,
   "label": "Erawan Shrine",
@@ -822,7 +769,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Mr.Peerapong Prasutr",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -831,7 +778,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Wat Suthat",
   "in_cut": true,
   "label": "Wat Suthat",
@@ -877,7 +824,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "Ahoerstemeier",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -886,7 +833,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Democracy Monument",
   "in_cut": true,
   "label": "Democracy Monument",
@@ -930,7 +877,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "Nawit science",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -939,7 +886,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Asiatique The Riverfront",
   "in_cut": true,
   "label": "Asiatique",
@@ -988,12 +935,65 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "Wakorinda",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Asiatique_The_Riverfront_-_A_wharf02.jpg",
    "from": "Wikidata Q13026076 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Lebua at State Tower",
+  "in_cut": false,
+  "label": "Lebua Sky Bar",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 7980,
+  "pin": [
+   100.5175,
+   13.72111111
+  ],
+  "camera": [
+   100.5175,
+   13.721111
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from Wikidata Q11349080: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Rooftop bar with views over the river and skyline.",
+  "text": {
+   "description": "Lebua at State Tower is a luxury hotel on Silom Road, right beside the Chao Phraya River in Bang Rak. For a phone photographer the appeal is its height. The tower stands well above the surrounding streets, and a cluster of restaurants and bars called The Dome by lebua sits at the very top. The rooftop restaurant Sirocco and the Sky Bar are both on the 64th floor. Since New Year's Eve 2015, Sirocco has hosted what is described as the highest New Year's Eve ball drop in the world. That makes the building easy to recognise from far away, and a good subject from the street too.\n\nThe phone icon on the map is at the tower itself, so you are photographing the building from its foot. Tilt your phone upwards and use the ultra-wide lens (0.5x) to fit more of the height into the frame. Use the gridlines to keep the vertical edges as straight as you can; this works best if you hold the phone level and then raise it a little, rather than tipping it far back. If you want a closer detail of the upper floors, the telephoto lens (2x-5x) will pick out the top of the tower. Dusk is a good time to come, when the building starts to light up against the sky. Check the official site before you go if you plan to go up to the bars or restaurants.",
+   "geographic_location": "Lebua at State Tower is on Silom Road in the Bang Rak District of Bangkok, beside the Chao Phraya River.",
+   "directions_text": "Start from Silom Road in Bang Rak and go by taxi or hired scooter to the tower, next to the Chao Phraya River. The phone icon on the map is at the tower itself, so there is no extra walk once you arrive. Ask your driver for \"lebua at State Tower\" and you will be dropped at the foot of the building. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide lens (0.5x) to fit the tall tower into the frame. Switch to the default lens (1x) for a calmer view of the lower floors, and to the telephoto lens (2x-5x, depending on your phone) for details near the top.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here the tower rises straight above you, so you will be shooting upwards.",
+    "how_to_frame": "Turn on the gridlines and line the tower's vertical edges up with them. Tilt the phone up only as far as you need, because a steep tilt makes the sides lean inwards. Put a strip of sky or a tree or lamp at the edge of the frame to give the height some scale.",
+    "phone_settings_tip": "Tap the sky to set focus and exposure, then drag the exposure slider down a little so the sky is not washed out and the tower keeps its detail. After dark, use night mode and brace your arms against your body or a solid surface to keep the shot sharp.",
+    "best_time": "Dusk, when the sky still has some colour and the building's lights are coming on, is a good time to try."
+   },
+   "access_note": "The tower is a hotel with restaurants and bars on the upper floors, so access to them may be restricted or ticketed; check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Lebua at State Tower",
+    "url": "https://en.wikipedia.org/wiki/Lebua_at_State_Tower"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Na derdingseben",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lebua_at_State_Tower_IMG_1402_01.jpg",
+   "from": "Wikidata Q11349080 main image"
   }
  }
 ]

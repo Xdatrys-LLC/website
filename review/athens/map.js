@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "athens", "title": "Athens: 19 photo spots (pilot review)", "place": "Athens", "bounds": [23.716, 37.962, 23.746, 37.986], "center": [23.731, 37.974000000000004], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/athens/{z}/{x}/{y}.pbf"};

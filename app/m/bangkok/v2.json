@@ -1,0 +1,1284 @@
+{
+ "Grand Palace": {
+  "rank": 1,
+  "card": {
+   "hook": "The Grand Palace isn't one building. It's a whole walled town of halls, pavilions and spires, and no single photo can hold it all. So start with the big, simple picture of wall and rooftops, then go exploring.",
+   "stand_here": "Head for the spot near สนามราชกิจ and stand about 110 m south-west of the palace, at the phone icon on the map. Face north-east. If people or vehicles block your view, shuffle a few steps sideways.",
+   "zoom": "Start at zoom 0.5x to fit the whole sweep of wall and rooftops in. Then try 1x for a calmer, less stretched look, and 2x-5x (depending on your phone) to pick out a roof, a spire or some decoration.",
+   "make_it_pop": "Switch on the gridlines and line the top of the walls up with a horizontal line so everything stands up straight.",
+   "best_time": "Go early in the morning, when it's quieter and the light is softer. Midday sun is harsh and bounces off the pale surfaces, so check your shots on screen before you move on.",
+   "selfie_here": "Try the front stairway of Wat Phra Kaew, right in front of the temple inside the palace grounds. Or head to the lawn in front of the Chakri Maha Prasat Throne Hall, among the trees on Rathakit Field. Use the front camera (zoom 0.5x if your phone has it) and hold it a little low and wide, so the building sits over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the grass next to the ticket booths on Na Phra Lan Road, where the palace is in view, while you stand a few steps in front of them with the palace behind you.",
+   "rules_and_safety": "Photos aren't allowed inside the Emerald Buddha hall, but are generally fine in the rest of the grounds. Cover your shoulders and knees, and check the official site before you go for access and dress rules. If a stranger tells you the palace is closed today, it isn't.",
+   "challenge": "Take one shot where the wall is perfectly level on the grid, with a stranger in the frame to show how big it all is. Bonus points if they have no idea they're famous.",
+   "good_to_know": "Work began on 6 May 1782, when King Rama I moved the capital across the river from Thonburi to Bangkok. Later kings kept adding to it, which is why the styles are mixed. The site covers about 218,400 square metres, is still a working royal palace, and gets more than eight million visitors a year.",
+   "stand_here_before_gps_rule": "Head for the spot near สนามราชกิจ and stand about 110 m south-west of the palace, at the phone icon on the map. Face north-east. If people or vehicles block your view, shuffle a few steps sideways."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front stairway of Wat Phra Kaew (Temple of the Emerald Buddha)",
+     "detail": "on the stairway right in front of the temple, inside the Grand Palace grounds",
+     "why": "Its front stairway is considered the best photo spot to capture all these exterior elements.",
+     "sources": [
+      {
+       "title": "17 Instagrammable Places in Bangkok You Can't Miss (HopOnWorld)",
+       "url": "https://hoponworld.com/instagrammable-places-bangkok/"
+      },
+      {
+       "title": "Top 10 Places to Take Photos in Bangkok (Flytographer)",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-bangkok/"
+      }
+     ]
+    },
+    {
+     "name": "Rathakit Field in front of Chakri Maha Prasat Throne Hall",
+     "detail": "on the lawn in front of the Throne Hall, among the trees",
+     "why": "The incredible architecture blending Thai and European styles, combined with the cute trees of the Rathakit Field in front of the building, makes a beautiful Instagram pic.",
+     "sources": [
+      {
+       "title": "The Very Best Bangkok Instagram Spots (Global Castaway)",
+       "url": "https://globalcastaway.com/bangkok-instagram-spots/"
+      },
+      {
+       "title": "The Grand Palace, Bangkok (Trip.com)",
+       "url": "https://us.trip.com/moments/detail/bangkok-191-152851098/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Grass next to the box office (ticket booths), Grand Palace",
+    "detail": "the grass beside the ticket office on Na Phra Lan Road; the palace is in view from here, especially when the sun lights the whole palace",
+    "sources": [
+     {
+      "title": "The Best Places For Photography In Bangkok (Travel Authentic Asia)",
+      "url": "https://travelauthenticasia.com/guides/thailand/the-best-places-for-photography-in-bangkok-thailand.aspx"
+     },
+     {
+      "title": "9 Most Instagrammable Places in Bangkok (Hotels.com)",
+      "url": "https://www.hotels.com/go/thailand/most-bangkok-photographed-places"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is not allowed inside the Emerald Buddha hall (Wat Phra Kaew's main sanctuary); photos are generally allowed across the rest of the Grand Palace grounds.",
+     "sources": [
+      {
+       "title": "Bangkok Temple Photography Tips: Wat Pho & Grand Palace (Khao San Road)",
+       "url": "https://www.khaosanroad.com/articles/how-to-photograph-wat-pho-grand-palace-golden-mount"
+      },
+      {
+       "title": "Good places for photography at Grand Palace (ShotHotSpot)",
+       "url": "https://www.shothotspot.com/hotspot/grand-palace"
+      }
+     ]
+    },
+    {
+     "rule": "Visitors must dress discreetly, covering shoulders and knees.",
+     "sources": [
+      {
+       "title": "The Best Places For Photography In Bangkok (Travel Authentic Asia)",
+       "url": "https://travelauthenticasia.com/guides/thailand/the-best-places-for-photography-in-bangkok-thailand.aspx"
+      }
+     ]
+    }
+   ],
+   "safety": "<cite index=\"18-12,18-13\">Scams near the Grand Palace: the classic \"It's closed today, my friend\" line still lives. It isn't.</cite>",
+   "notes": "The selfie-spot sources are mainly general photo guides that name the spots as good photo locations, not specifically as selfie spots; the 'with landmark behind' framing is my reading. The box-office grass is described as a photo angle on the palace, not as a place to photograph a visitor, so the passer-by advice is an inference. Opening hours differ across sources (8:30 to 15:30 vs 16:30). No page I found states any rule about selfie sticks or tripods, so none is listed."
+  },
+  "cost_usd": 0.0504,
+  "at": "2026-11-17 09:59"
+ },
+ "Wat Arun": {
+  "rank": 2,
+  "card": {
+   "hook": "Wat Arun is at its best when the sun drops behind that pale spire and the Chao Phraya turns gold. Better still, you can get the whole scene from the other side of the river, with the crowd of phones beside you.",
+   "stand_here": "Stand on Tha Tien, on the east bank, at the riverside in front of the pier. Face west across the Chao Phraya, with the prang to the south-west across the water. Keep clear of the ferry gangway so you don't block passengers.",
+   "zoom": "Start at zoom 1x to fit the whole prang, the river and the sky in one frame. Try 2x or more when you want a tighter shot of the spire and its decoration. Zoom 0.5x makes the temple look small, so save it for scenes with lots of sky.",
+   "make_it_pop": "Tap the sky near the prang, then drag the slider to make it a little darker so the sunset colours stay rich and the temple doesn't turn into a flat silhouette.",
+   "best_time": "Get there about 30 to 40 minutes before sunset, since the late-afternoon crowd gathers and you want a spot. Stay on for the blue hour once the floodlights come on, and switch to night mode, resting your elbows on a railing or wall to keep the phone steady. One guide says the sun sets almost directly behind the prang from mid-February to mid-March, and sunset times change through the year, so check your date.",
+   "selfie_here": "Inside the temple grounds, stand in the nooks between the decorative stone posts on the walkways around the first level of the main prang, with the temple rising behind you. For a quick one, stand right in front of the main prang so the whole spire fills the background against the sky. Use the front camera, try zoom 0.5x, and hold the phone a little low so the prang sits over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand to the side of the front-entrance steps, next to the green grass, while you stand on the steps, so the entire building fits in the frame.",
+   "rules_and_safety": "The Tha Tien riverside is a public walkway, but Wat Arun itself has entry rules, fees and a dress code, so check the official site before you go. Keep clear of the ferry gangway.",
+   "challenge": "Turn on gridlines, put the prang on one vertical line, and let the river fill the bottom third so the reflection gets its own starring role.",
+   "good_to_know": "There has been a temple here since at least the 17th century, but today's prang dates from the early 19th century and was finished in 1851 after about nine years of building. Its height is often given as anywhere between roughly 67 and 86 metres. Up close, it's covered in bits of porcelain and shell, and a big restoration between 2013 and 2017 gave it its brighter, whiter look.",
+   "stand_here_before_gps_rule": "Stand on Tha Tien, on the east bank, at the riverside in front of the pier. Face west across the Chao Phraya, with the prang to the south-west across the water. Keep clear of the ferry gangway so you don't block passengers."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Nooks on the walkways around the first level of the prang (pyramid)",
+     "detail": "between the decorative stone posts on the walkways that surround the first level of the main prang",
+     "why": "Visitors can stand in the stone-post nooks with the temple rising behind them, which many people choose for selfies and family photos.",
+     "sources": [
+      {
+       "title": "Wat Arun in Bangkok, Thailand: A Photographer's Guide (Jake and Dannie)",
+       "url": "https://jakeanddannie.com/wat-arun-in-bangkok-thailand-a-photographers-guide/"
+      }
+     ]
+    },
+    {
+     "name": "In front of the main tower (prang)",
+     "detail": "standing directly in front of the main prang, close enough for the tower to fill the background",
+     "why": "Standing in front of the tower puts the full spire behind the visitor against blue sky, a quick shot that needs only a few minutes.",
+     "sources": [
+      {
+       "title": "2025 Recommended Great photo spots in Wat Arun (Trip Moments)",
+       "url": "https://www.trip.com/moments/theme/poi-wat-arun-77016-great-photo-spots-1002354/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Temple steps at the front entrance, photographed from the side (next to the green grass in front of the entrance)",
+    "detail": "the passer-by stands to the side of the steps and photographs the visitor standing on the steps, keeping the entire building in the frame",
+    "sources": [
+     {
+      "title": "2025 Recommended Great photo spots in Wat Arun (Trip Moments)",
+      "url": "https://www.trip.com/moments/theme/poi-wat-arun-77016-great-photo-spots-1002354/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found states a rule about selfie sticks or tripods, so rules is empty; one guide only suggests a small travel tripod as a tip, not a rule. The 'ask someone' spot is one page's suggested framing and is not a stated spot for passers-by. Spot names come from blog descriptions, not official map pins; the given coordinates were not checked against them. Opening hours conflict between sources (one lists 08:00-18:00, another a 5:30pm closing), so check before visiting. The Jake and Dannie link is the original page; the source I read was a Google Translate wrapper of it."
+  },
+  "cost_usd": 0.0488,
+  "at": "2026-11-17 10:00"
+ },
+ "Khaosan Road": {
+  "rank": 3,
+  "card": {
+   "hook": "Picture a street only about 410 m long with guesthouses, food carts, bars and signs from every corner of the world squeezed into it. That's Khaosan Road, and it never stops giving you something to shoot.",
+   "stand_here": "Head to the phone icon, near ถนนข้าวสาร, about 140 m north-west of the subject. Face south-east and look along the street towards its middle.",
+   "zoom": "Start at zoom 1x for a natural street view. Go to 0.5x to fit the whole width of the road, or 2x to 5x (depending on your phone) to pick out signs and faces without stepping into the crowd.",
+   "make_it_pop": "Tap the brightest sign, then drag the slider to make it a little darker so the neon doesn't wash out.",
+   "best_time": "Evening is the liveliest, once the bars and signs light up and the colours kick in. Earlier in the day it's calmer, so it's easier to get clear, uncluttered shots.",
+   "selfie_here": "Find the 'Welcome to Khao San Road' sign, which is a popular photo spot and looks great glowing at night. Use the front camera at 0.5x with the sign over your shoulder. The sign's exact position isn't pinned down, so check where it is on your map before you go.",
+   "ask_someone": "",
+   "rules_and_safety": "Skip the selfie stick on Khao San Road, as one guide lists it under 'Don't'. Keep your phone and belongings close to your body, especially at night when the crowds are thick. Around 13-15 April, Songkran water fights can fill the road, so protect your phone.",
+   "challenge": "Get a sign, a food cart and a face in one frame, then take a few shots, because the crowd won't wait for you.",
+   "good_to_know": "Khaosan Road was laid out in 1892, and the name means milled rice, a nod to the area's older rice trade. It was redone as a walking street in 2020, with vendors given allotted stalls, so it's tidier than older photos suggest. Just across to the west, Wat Chana Songkram is a centuries-old royal temple, and a calm contrast if you want a quieter shot.",
+   "stand_here_before_gps_rule": "Head to the phone icon, near ถนนข้าวสาร, about 140 m north-west of the subject. Face south-east and look along the street towards its middle."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Khao San Road sign (the 'Welcome to Khao San Road' sign)",
+     "detail": "At the sign itself; the sources do not give its exact street position, so check the sign's location on your map before you go",
+     "why": "Sources name the iconic Khao San Road sign as a popular photo op, and a guide calls out the glowing sign at night and the 'Welcome to Khao San Road' sign as spots worth posing at.",
+     "sources": [
+      {
+       "title": "Khao San Road (2025), Airial",
+       "url": "https://airial.travel/attractions/thailand/khao-san-road-zxIYdKNk"
+      },
+      {
+       "title": "Khao San Road, Thailand Ministry of Tourism and Sports (am2026thailand.go.th)",
+       "url": "https://www.am2026thailand.go.th/explore-bangkok/khao-san-road"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Ratchadamnoen intersection",
+    "detail": "The Ratchadamnoen road intersection, used at dusk; the source describes it as a vantage point, so the exact spot for the visitor to stand in is not given",
+    "sources": [
+     {
+      "title": "AsiaTransHub: Khao San Road Guide: Worth It or Tourist Trap? (2026)",
+      "url": "https://asiatranshub.com/bangkok/places/khao-san-road/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Do not use a selfie stick on Khao San Road (the guide lists 'Selfie-stick' under 'Don't', with no reason given).",
+     "sources": [
+      {
+       "title": "Bangkok: Khao San Road Do's and Don'ts, AsiaExchange",
+       "url": "https://asiaexchange.org/blogs/bangkok-khao-san-road-dos-and-donts/"
+      }
+     ]
+    }
+   ],
+   "safety": "Take care of personal belongings, especially at night when crowds are thick.",
+   "notes": "Only two sources name a selfie spot, and both point to the Khao San Road sign without a precise position; the Ratchadamnoen intersection source is written for a photographer's view and does not say where a visitor should stand. The selfie-stick rule is a one-line 'Don't' with no explanation, and no tripod rule was found. The AsiaTransHub page says 'Photography is fine everywhere' but mentions no selfie stick or tripod rules. Several of the sources are 2025-2026 travel content with varied reliability."
+  },
+  "cost_usd": 0.0443,
+  "at": "2026-11-17 10:00"
+ },
+ "Wat Pho": {
+  "rank": 4,
+  "card": {
+   "hook": "Imagine a Buddha so long (46 m, or 151 ft) that you can't fit him in one picture, and he's only one of more than a thousand Buddha images here. Wat Pho is a place to take a few different photos rather than one big one.",
+   "stand_here": "Head for the spot near สวนมิสกวัน, about 110 m north-west of the numbered pin, at the phone icon on the map. Face south-east, and walk in towards the buildings and chedis for closer shots.",
+   "zoom": "Start at zoom 0.5x for the chedis and courtyards, then switch to 1x for general views. Try zoom 2x to 5x (depending on your phone) to pick out roof details and carved decoration.",
+   "make_it_pop": "Turn on gridlines and line up the chedis with the vertical lines, tilting the phone up only a little so the towers don't lean.",
+   "best_time": "Go early in the day or later in the afternoon, when the light is softer and the courtyards are usually less crowded.",
+   "selfie_here": "Inside the Reclining Buddha hall, stand close to the feet; guides call it the classic selfie spot, and it's the most-photographed part of the hall. For something more playful, use the front camera (try zoom 0.5x if you have it) beside the two top-hat guardian statues at the Marco Polo gate, which one guide calls the most picturesque in the complex.",
+   "ask_someone": "Ask a friendly visitor to stand at the feet end of the Reclining Buddha hall and shoot back towards the head, while you stand near the feet so the full length of the statue fits in the frame.",
+   "rules_and_safety": "This is an active temple, so check the official site for entry rules, dress code and photography limits indoors, and look for signs inside the halls. Don't climb on statues or railings for a better angle.",
+   "challenge": "Get your three-photo set: one wide view of the chedis, one close-up of a guardian statue or roof edge, and one of the reclining Buddha (if photos are allowed where you're standing).",
+   "good_to_know": "Wat Pho sits on Rattanakosin Island, directly south of the Grand Palace, and most people know it as the Temple of the Reclining Buddha. King Rama I rebuilt it from 1788 on an older site, and Rama III later enlarged it, so most of what you see dates from that second big project. It's also known as the birthplace of traditional Thai massage, which is still taught here.",
+   "stand_here_before_gps_rule": "Head for the spot near สวนมิสกวัน, about 110 m north-west of the numbered pin, at the phone icon on the map. Face south-east, and walk in towards the buildings and chedis for closer shots."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "In front of the Reclining Buddha's feet",
+     "detail": "stand close to the feet inside the Reclining Buddha hall, with the statue behind you",
+     "why": "Guides say this is the classic spot for a selfie next to the giant statue, and the feet area is the most-photographed part of the hall.",
+     "sources": [
+      {
+       "title": "Wat Pho, Bangkok, Thailand - Photos, Map & Tips For 2026",
+       "url": "https://foreverbreak.com/travel/thailand/bangkok/wat-pho/"
+      },
+      {
+       "title": "Wat Pho (Temple of Reclining Buddha) - Bangkok",
+       "url": "https://foreverbreak.com/travel/thailand/bangkok/wat-pho/"
+      }
+     ]
+    },
+    {
+     "name": "Top-hat guardian statues beside the Marco Polo gate",
+     "detail": "the two top-hat Western figures guarding the Marco Polo gate in the temple grounds",
+     "why": "A selfie guide calls these the most picturesque guardian statues in the complex and says they are great for selfies.",
+     "sources": [
+      {
+       "title": "The Very Best Bangkok Instagram Spots (2023)",
+       "url": "https://globalcastaway.com/bangkok-instagram-spots/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Far (feet) end of the Reclining Buddha hall",
+    "detail": "the photographer stands at the far end of the hall and shoots back toward the head, with the visitor near the feet so the full length of the statue is in frame; a back corner works for the full sole shot",
+    "sources": [
+     {
+      "title": "Ultimate Wat Pho Reclining Buddha Guide: 2026 Tips & History",
+      "url": "https://tourismattractions.net/thailand/wat-pho-reclining-buddha-guide"
+     },
+     {
+      "title": "Wat Pho Bangkok Guide: Reclining Buddha, Hours & Tips",
+      "url": "https://www.khaosanroad.com/articles/wat-pho-bangkok-guide-reclining-buddha-hours-tips-nearby-hotels"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods: one guide says tripods are allowed at Wat Pho, while another says professional tripods are discouraged and may need a special permit, and that casual visitors should use handheld shots or a small tabletop tripod.",
+     "sources": [
+      {
+       "title": "Wat Pho (Temple of Reclining Buddha) - Bangkok",
+       "url": "https://foreverbreak.com/travel/thailand/bangkok/wat-pho/"
+      },
+      {
+       "title": "Ultimate Wat Pho Reclining Buddha Guide: 2026 Tips & History",
+       "url": "https://tourismattractions.net/thailand/wat-pho-reclining-buddha-guide"
+      }
+     ]
+    }
+   ],
+   "safety": "Do not climb on statues or railings to get a better angle, according to a Reclining Buddha guide.",
+   "notes": "No page mentioned selfie-stick rules, so none are listed. Sources disagree on tripods (see rules). One page says not to turn your back to the Buddha for selfies, which conflicts with the 'landmark behind you' selfie; the feet selfie spot does not say which way to face. The ask-someone spot is inferred from guides on the best angle for the full statue; no page names a specific spot for a passer-by to photograph a visitor. Opening hours and fees differ between pages, but they are not part of this output."
+  },
+  "cost_usd": 0.0518,
+  "at": "2026-11-17 10:01"
+ },
+ "Baiyoke Tower II": {
+  "rank": 5,
+  "card": {
+   "hook": "Stand at the bottom of Baiyoke Tower II, tip your head back, and you'll realise 88 storeys is not going to squeeze into a normal photo. So you get to choose: the whole sky-scraping height, or just a slice of it.",
+   "stand_here": "Stand at the foot of Baiyoke Tower II, right where the phone icon sits on Ratchaprarop Road. Face the tower and step back as far as is safe and comfortable.",
+   "zoom": "Start at zoom 0.5x, because up close you need the extra width to get plenty of tower in. Switch to 1x for a calmer view of the lower section. If your phone has 2x or 5x, use it to pick out the top floors against the sky.",
+   "make_it_pop": "Tap the tower, then drag the brightness slider a touch darker so the sky doesn't turn white.",
+   "best_time": "Late afternoon into dusk usually works best, as the sky darkens. Come back after dark and try the same view with night mode, keeping your elbows tucked against your body to hold steady.",
+   "selfie_here": "The selfie spots here are indoors: the 77th-floor photo-prop zones, where staff can help take your picture, and the 84th-floor open-air revolving deck. Use the front camera (0.5x if your phone offers it) for a wide shot with the view behind you. Those are view shots, not tower-behind-you shots.",
+   "ask_someone": "On the 77th floor, ask a staff member at the photo-prop zones to take your picture.",
+   "rules_and_safety": "Step back only as far as is safe and comfortable. Check the official site before you go for current access to the observatory and roof deck.",
+   "challenge": "Take one shot of the full height and one of just a section, then tilt up on purpose with 0.5x so the sides lean in, and keep your favourite.",
+   "good_to_know": "Baiyoke Tower II is 309 m tall, or 328.4 m with the antenna, which makes it the third tallest completed building in Bangkok. The Baiyoke Sky Hotel inside is the tallest hotel in Southeast Asia. The tower was finished in 1997 and the antenna followed two years later.",
+   "stand_here_before_gps_rule": "Stand at the foot of Baiyoke Tower II, right where the phone icon sits on Ratchaprarop Road. Face the tower and step back as far as is safe and comfortable."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "84th-floor open-air revolving rooftop deck, Baiyoke Tower II",
+     "detail": "on the 84th floor's open-air revolving deck, reached by changing lifts from the 77th floor",
+     "why": "One travel listing calls this deck a must-see selfie spot, but no page says the tower itself is in the frame behind the visitor, so this is a view-based spot rather than a confirmed landmark-behind shot.",
+     "sources": [
+      {
+       "title": "2026 Recommended Attraction in Baiyoke Tower II (Updated March) | Trip Moments",
+       "url": "https://www.trip.com/moments/theme/poi-baiyoke-tower-ii-24648969-attraction-993137/"
+      },
+      {
+       "title": "Baiyoke Tower II - Reviews, Photos - Baiyoke Observation Deck - Tripadvisor",
+       "url": "https://www.tripadvisor.in/ShowUserReviews-g293916-d550496-r297916187-Baiyoke_Observation_Deck-Bangkok.html"
+      }
+     ]
+    },
+    {
+     "name": "77th-floor observation deck photo-prop areas, Baiyoke Tower II",
+     "detail": "the photo-prop zones on the 77th-floor observation deck, where staff are available to help take pictures",
+     "why": "A listing says this floor has many check-in photo spots with cute props and staff help, though the photos are indoors and the tower is not described as behind the visitor.",
+     "sources": [
+      {
+       "title": "2026 Recommended Attraction in Baiyoke Tower II (Updated March) | Trip Moments",
+       "url": "https://www.trip.com/moments/theme/poi-baiyoke-tower-ii-24648969-attraction-993137/"
+      },
+      {
+       "title": "Baiyoke Sky Tower Bangkok (2026)",
+       "url": "https://airial.travel/attractions/thailand/baiyoke-sky-tower-bangkok-Oh3tIBIn"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Middle of Ratchaprarop Road, Pratunam",
+    "detail": "standing in the middle of Ratchaprarop Road, where the guide says both Baiyoke towers can be seen, one on each side",
+    "sources": [
+     {
+      "title": "The ONLY Guide You'll Need for Exploring Baiyoke Tower",
+      "url": "https://www.cleverthai.com/guide-to-baiyoke-tower/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a ground-level selfie spot with the tower behind the visitor, so the selfie spots are tower-interior viewpoints and may not meet the brief. The ask-someone spot is inferred from a guide saying both towers are visible from the middle of Ratchaprarop Road; it does not name a photo position, and that guide's 'two towers' may mean Baiyoke Tower I and II. Pages also give conflicting hours (10:00-22:00 vs 10:00-23:00 vs 10:00-22:00 in other listings). No page states selfie-stick or tripod rules, and the only tripod mentions are tips rather than rules, so rules is empty. No safety point was stated on a page."
+  },
+  "cost_usd": 0.0615,
+  "at": "2026-11-17 10:01"
+ },
+ "Lumphini Park": {
+  "rank": 6,
+  "card": {
+   "hook": "Picture a patch of trees and water so big it makes the towers around it look like they're peeking over a garden wall. That's Lumphini Park from above, and it's a great view.",
+   "stand_here": "Stand at HI-SO, on the 29th and 30th floors of SO Sofitel Bangkok, 2 N Sathon Rd, and face north over the park. It's a rooftop bar, not a free viewing deck, so check the official site before you go.",
+   "zoom": "Start at zoom 0.5x to fit the park and the skyline in together, then try 1x for a more natural look. Zoom 2x to 5x (depending on your phone) helps you pick out single towers or a bit of the lake.",
+   "make_it_pop": "Tap the park, then drag the slider to make the shot a little darker so the sky keeps its colour, and use the gridlines to keep the horizon level so the towers don't lean.",
+   "best_time": "Late afternoon into dusk is lovely, as the light softens and the city lights come on. If you'd rather shoot the lake and the joggers at ground level, go early in the morning.",
+   "selfie_here": "Try the flower-lined forecourt in front of the King Rama VI Monument fountain at the park's main gate. Use the front camera at 0.5x and let the monument and the gate sit behind your shoulder. You could also stand at the edge of the lotus pond beside the Sukhothai-style pagoda sculptures, which look good with their reflections in the water. Neither spot puts the whole park behind you, but both say \"Lumphini\" nicely.",
+   "ask_someone": "Ask a passer-by to stand on the fountain-side forecourt facing the statue, while you stand in front of the monument so you, the statue and the park gate behind it all fit in one frame.",
+   "rules_and_safety": "The Asian water monitors in the park are harmless if left alone, so don't feed or touch them. HI-SO is a paid venue, so check the official site before you go.",
+   "challenge": "Spot a water monitor on the bank, keep a respectful distance, and get it into your shot with a tower rising behind it. Bonus points if it looks unimpressed.",
+   "good_to_know": "Lumphini Park covers about 57.6 hectares (360 rai) and is regarded as the first public park in Bangkok. King Rama VI gave the land to the nation in 1925, and the park is named after Lumbini, the Buddha's birthplace. Around 400 Asian water monitors live here, so keep an eye on the paths and banks.",
+   "stand_here_before_gps_rule": "Stand at HI-SO, on the 29th and 30th floors of SO Sofitel Bangkok, 2 N Sathon Rd, and face north over the park. It's a rooftop bar, not a free viewing deck, so check the official site before you go."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Lumphini Park main gate, in front of the King Rama VI Monument fountain",
+     "detail": "on the flower-lined forecourt at the park's Silom/Rama IV entrance, with the park entrance directly behind the statue",
+     "why": "The park's main gate sits right behind the monument, so a selfie taken here frames the entrance to the park, though no page describes a selfie with the park itself filling the background.",
+     "sources": [
+      {
+       "title": "King Rama VI Monument - Tripadvisor (UK)",
+       "url": "https://www.tripadvisor.co.uk/Attraction_Review-g293916-d12871491-Reviews-King_Rama_VI_Monument-Bangkok.html"
+      },
+      {
+       "title": "The King Rama VI Monument - Tour Bangkok Legacies",
+       "url": "https://www.tour-bangkok-legacies.com/king-rama-vi-monument.html"
+      }
+     ]
+    },
+    {
+     "name": "Lotus pond in Lumphini Park, beside the Sukhothai-style pagoda sculptures",
+     "detail": "at the edge of the lotus pond where the pagoda sculptures stand in the water",
+     "why": "A travel blogger found the pagoda sculptures and their water reflections good for photos inside the park, but the page does not say the park fills the background of a selfie.",
+     "sources": [
+      {
+       "title": "Lumphini Park - Trip.com travel guide",
+       "url": "https://us.trip.com/moments/poi-lumphini-park-77030/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Forecourt in front of the King Rama VI Monument at the main gate of Lumphini Park",
+    "detail": "the photographer stands on the fountain-side forecourt facing the statue, so the visitor, the monument and the park gate behind it all fit in one frame (inferred from the gate being directly behind the statue; no page gives this exact framing)",
+    "sources": [
+     {
+      "title": "King Rama VI Monument - Tripadvisor (UK)",
+      "url": "https://www.tripadvisor.co.uk/Attraction_Review-g293916-d12871491-Reviews-King_Rama_VI_Monument-Bangkok.html"
+     },
+     {
+      "title": "The King Rama VI Monument - Tour Bangkok Legacies",
+      "url": "https://www.tour-bangkok-legacies.com/king-rama-vi-monument.html"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "The monitor lizards are harmless if left alone, so travellers should avoid feeding or touching them.",
+   "notes": "No page gave a selfie rule for selfie sticks or tripods; one blog says to 'bring your tripod' for views from a hotel bar, which is advice, not a rule, so it is omitted. The sources do not describe a spot where a visitor stands with the park itself as the background, so both selfie spots are the closest matches found, not confirmed selfie-with-park positions. Several pages (Trip.com, Amazing Thailand, Pick Your Trail) recommend the lake and the Dusit/SO Sofitel viewpoints for skyline shots instead. The 'ask someone' framing is an inference from the Tripadvisor note that the main gate is directly behind the statue. The Tripadvisor (Korean-language) review text used for the gate position is in Korean; the English-language claim rests on the tour-site and Tripadvisor UK pages."
+  },
+  "cost_usd": 0.0623,
+  "at": "2026-11-17 10:02"
+ },
+ "Wat Saket": {
+  "rank": 7,
+  "card": {
+   "hook": "This 'mountain' is really a pile of mud and brick that took the shape of a hill after a giant chedi collapsed on Bangkok's soft ground. Now it wears a gold hat, and it's hard to miss.",
+   "stand_here": "Start near ซอยบรมบรรพต, about 190 m west of the subject, at the phone icon on the map, and face east. Take a first photo from here, then stroll towards the temple for closer views.",
+   "zoom": "Start at zoom 1x to fit the whole hill and the sky above it. Try 2x or 5x (depending on your phone) to pick out the golden chedi on top. Use 0.5x only when you're close and want the hill, the walls and some foreground in one frame.",
+   "make_it_pop": "Turn on gridlines and put the golden chedi on a top corner crossing point instead of dead centre, then tap the chedi and slide the brightness down a touch so the gold keeps its colour.",
+   "best_time": "Early morning or late afternoon usually gives softer light on the gold and fewer harsh shadows. If you're here in November, the chedi is wrapped in a long red cloth for the temple fair, which makes a very different photo.",
+   "selfie_here": "Take it on the summit terrace at the top of the climb, with the golden chedi directly behind you. Hold the front camera low (try 0.5x if your phone has it) so the gold stands out against the sky, and keep off plinths and architectural edges.",
+   "ask_someone": "Ask a passer-by to stand at ground level in the greenery at the foot of the hill while you stand in front of the pale walls, so the climb stays in the frame.",
+   "rules_and_safety": "Wat Saket is a working place of worship, so dress modestly and keep your phone low and quiet near people praying. Don't pose with, climb on or sit on sacred structures, and don't use Buddha images as selfie props. Photos inside the main golden chedi are usually not allowed, so look for signs. The climb is exposed to Bangkok heat, so bring water and avoid the hottest part of the afternoon.",
+   "challenge": "Get the whole mound and the gold tip in one frame, with a tree branch or a wall at the bottom, so your friends can see exactly how steep it is.",
+   "good_to_know": "King Rama III wanted a huge chedi here, but Bangkok's soft ground couldn't carry the weight and it collapsed. Over the following decades the mud and brick settled into a weedy hill that locals simply called the mountain. A smaller chedi was finished on top early in the reign of King Rama V, covered in gold, and it holds a relic of the Buddha brought from Sri Lanka. Concrete walls were added in the 1940s to stop the hill eroding.",
+   "stand_here_before_gps_rule": "Start near ซอยบรมบรรพต, about 190 m west of the subject, at the phone icon on the map, and face east. Take a first photo from here, then stroll towards the temple for closer views."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Summit terrace around the golden chedi",
+     "detail": "on the terrace at the top of the climb, with the golden chedi directly behind you; keep off plinths and architectural edges",
+     "why": "Guides rate the summit terrace as the best vantage point, and a low angle separates the gold structure from the sky.",
+     "sources": [
+      {
+       "title": "Wat Saket Golden Mount: Steps, Tickets & Photos (myasiatrip)",
+       "url": "https://myasiatrip.com/thailand/bangkok/wat-saket/"
+      },
+      {
+       "title": "Golden Mount (Wat Saket): The Best Sunset Temple in Bangkok (Thailand Wanderlust)",
+       "url": "https://www.thailandwanderlust.com/blog/golden-mount-wat-saket-bangkok"
+      },
+      {
+       "title": "Wat Saket Golden Mount 2026 — tickets, steps & views (Bangkok Spirit)",
+       "url": "https://www.bangkok-spirit.com/guides/wat-saket-golden-mount/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Ground-level greenery and pale walls at the foot of Wat Saket",
+    "detail": "the photographer stands at ground level in the greenery with the pale walls behind the visitor, for a clean full-length frame that keeps the climb in view; a quiet landing on the spiral path works for a three-quarter portrait instead",
+    "sources": [
+     {
+      "title": "Wat Saket Golden Mount: Steps, Tickets & Photos (myasiatrip)",
+      "url": "https://myasiatrip.com/thailand/bangkok/wat-saket/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Ask permission before using a tripod, lighting or other commercial photo equipment at Wat Saket.",
+     "sources": [
+      {
+       "title": "Wat Saket Golden Mount: Steps, Tickets & Photos (myasiatrip)",
+       "url": "https://myasiatrip.com/thailand/bangkok/wat-saket/"
+      }
+     ]
+    },
+    {
+     "rule": "A tripod is usually fine outdoors as long as it does not block the path.",
+     "sources": [
+      {
+       "title": "Bangkok Temple Photo Guide: Best Angles & Times (Khao San Road)",
+       "url": "https://www.khaosanroad.com/articles/bangkok-temple-photo-guide-wat-pho-grand-palace-golden-mount"
+      }
+     ]
+    },
+    {
+     "rule": "Do not pose with, climb on or sit on sacred structures, and do not use Buddha images as casual selfie props.",
+     "sources": [
+      {
+       "title": "Wat Saket Golden Mount: Steps, Tickets & Photos (myasiatrip)",
+       "url": "https://myasiatrip.com/thailand/bangkok/wat-saket/"
+      }
+     ]
+    },
+    {
+     "rule": "Photography inside the main golden chedi is usually not permitted; look for signage indicating photo restrictions.",
+     "sources": [
+      {
+       "title": "Wat Saket Golden Mount: Steps, Tickets & Photos (myasiatrip)",
+       "url": "https://myasiatrip.com/thailand/bangkok/wat-saket/"
+      },
+      {
+       "title": "Wat Saket (Golden Mount) Bangkok (2026) (Airial)",
+       "url": "https://airial.travel/attractions/thailand/wat-saket-golden-mount-bangkok-FyqyhAhZ"
+      }
+     ]
+    }
+   ],
+   "safety": "Bring water and avoid the hottest part of the afternoon, because the climb is exposed to Bangkok heat.",
+   "notes": "No page found states a selfie-stick rule. Sources conflict on photography: one guide says photos are allowed throughout the temple including the top viewpoint, while others say photography inside the chedi is not permitted. Sources also disagree on step count (318 to 344) and foreigner ticket price (50 THB vs about 100 THB). The ask-someone spot is an area description ('ground-level greenery and pale walls') rather than a named point, so check it on the map before use. The selfie spot is a terrace area; no page names a single precise selfie point."
+  },
+  "cost_usd": 0.0504,
+  "at": "2026-11-17 10:03"
+ },
+ "Wat Phra Kaew": {
+  "rank": 8,
+  "card": {
+   "hook": "Wat Phra Kaew is less one building than a crowd of them, all gold leaf, spires and blue, yellow and orange roof tiles, jostling for space. Every few steps there's a new frame, so your phone will be busy.",
+   "stand_here": "Stand on Sanam Chai Road, on the grassy area outside the palace wall, and face west. The whole Wat Phra Kaew complex lines up in front of you, with the ubosot on the right and the spires in a row.",
+   "zoom": "Start at zoom 0.5x to get the spires and rooflines into one frame, then use 1x for general views. Go to 2x-5x (depending on your phone) for roof ends, pediments and gold details, and turn on gridlines so the tall spires don't lean.",
+   "make_it_pop": "Tap the gold, then slide it a little darker so the shiny bits keep their detail.",
+   "best_time": "Early in the day is usually calmer and the light is softer. At midday the gold and tiles glare, so slide darker then.",
+   "selfie_here": "Try the stairway right in front of the temple, which two guides single out as a top spot, or stand beside the yaksha guardians at the gates. Use the front camera at 0.5x, hold the phone a little high, and let the temple fill the space over your shoulder.",
+   "ask_someone": "On the large grassed square west of Viseschaisri Gate, ask someone to stand as far back as they can and shoot toward the golden chedi, so it fits in the frame without looking squashed.",
+   "rules_and_safety": "Photos are fine in the outdoor areas, but not inside the ordination hall (ubosot) where the Emerald Buddha sits. Drones are not allowed, and selfie sticks are listed as fine. In the crowds, keep your bag zips closed and carry your bag in front of you. Check the official site for tickets, opening times and dress rules.",
+   "challenge": "Find one roof edge where you can catch all three tile colours (blue, yellow and orange) in a single shot.",
+   "good_to_know": "Building began in 1783 under Rama I, the first king of the Chakri dynasty, and later kings have kept adding to it. The Emerald Buddha came here in 1785 from Wat Arun across the river. The ubosot is one of the oldest structures and is ringed by a low wall with eight small pavilions, each holding a gold-covered boundary stone.",
+   "stand_here_before_gps_rule": "Stand on Sanam Chai Road, on the grassy area outside the palace wall, and face west. The whole Wat Phra Kaew complex lines up in front of you, with the ubosot on the right and the spires in a row."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stairway in front of Wat Phra Kaew",
+     "detail": "on the stairway right in front of the temple",
+     "why": "Two guides single out this stairway as one of the best shots, so it is the most reliable place to stand with the temple in the frame.",
+     "sources": [
+      {
+       "title": "17 Instagrammable Places in Bangkok You Can't Miss",
+       "url": "https://hoponworld.com/instagrammable-places-bangkok/"
+      },
+      {
+       "title": "Top 10 Places to Take Photos in Bangkok",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-bangkok/"
+      }
+     ]
+    },
+    {
+     "name": "Yaksha guardians at the gates to Wat Phra Kaew",
+     "detail": "beside the yaksha demon guardians flanking the gates to the temple",
+     "why": "A guide that says it uses these guardians for its own shots suggests framing them against blue sky, which makes a strong backdrop for a close selfie.",
+     "sources": [
+      {
+       "title": "Grand Palace Wat Pho Wat Arun: One-Day Self-Guided Plan",
+       "url": "https://www.khaosanroad.com/articles/grand-palace-wat-pho-wat-arun-self-guided-day"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Large grassed square west of Viseschaisri Gate",
+    "detail": "on the large square grassed area to the west of the main entrance, Viseschaisri Gate, shooting back toward the golden chedi; stand as far back as possible to keep the whole building in frame and avoid distortion",
+    "sources": [
+     {
+      "title": "Grand Palace and Wat Phra Kaew, Bangkok, Thailand - Photos, Map & Tips For 2026",
+      "url": "https://foreverbreak.com/travel/thailand/bangkok/grand-palace/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is prohibited inside the ordination hall (ubosot) where the Emerald Buddha is housed; photos are allowed in the outdoor areas.",
+     "sources": [
+      {
+       "title": "Top Things to Do in Wat Phra Kaew 2026: Complete Guide to the Temple of the Emerald Buddha",
+       "url": "https://bangkok-travel-guide.com/things-to-do/things-to-do-wat-phra-kaew/"
+      },
+      {
+       "title": "The Grand Palace and Wat Phra Kaew Travel Guide, Bangkok",
+       "url": "https://www.holidaylandmark.com/thailand/bangkok/the-grand-palace-and-wat-phra-kaew/"
+      }
+     ]
+    },
+    {
+     "rule": "Selfie sticks are listed as allowed in the complex.",
+     "sources": [
+      {
+       "title": "Grand Palace and Wat Phra Kaew, Bangkok, Thailand - Photos, Map & Tips For 2026",
+       "url": "https://foreverbreak.com/travel/thailand/bangkok/grand-palace/"
+      }
+     ]
+    },
+    {
+     "rule": "One guide says no tripods are allowed anywhere in the complex; another lists tripods as allowed.",
+     "sources": [
+      {
+       "title": "The Grand Palace + Wat Phra Kaew (Emerald Buddha) — Bangkok attraction: hours, price & how to get there",
+       "url": "https://bangkokhotel.com/dossier/attraction-grand-palace"
+      },
+      {
+       "title": "Grand Palace and Wat Phra Kaew, Bangkok, Thailand - Photos, Map & Tips For 2026",
+       "url": "https://foreverbreak.com/travel/thailand/bangkok/grand-palace/"
+      }
+     ]
+    },
+    {
+     "rule": "Drones are prohibited because the grounds are royal premises.",
+     "sources": [
+      {
+       "title": "The Grand Palace + Wat Phra Kaew (Emerald Buddha) — Bangkok attraction: hours, price & how to get there",
+       "url": "https://bangkokhotel.com/dossier/attraction-grand-palace"
+      }
+     ]
+    }
+   ],
+   "safety": "In the Grand Palace crowds, keep bag zips closed and carry bags in front of you.",
+   "notes": "The sources do not name a spot where the temple is clearly behind a visitor's selfie; the stairway and the yaksha guardians are the closest matches, and the pages do not say which way the visitor faces. The tripod rule conflicts between sources; check the current rule at the gate. The ask-someone spot is the best view of the golden chedi from that square, not of the whole temple complex, so the photographer should stand far back. Hours and fees vary across sources."
+  },
+  "cost_usd": 0.0519,
+  "at": "2026-11-17 10:03"
+ },
+ "Yaowarat Road": {
+  "rank": 9,
+  "card": {
+   "hook": "By evening, Yaowarat Road turns into one long, glowing food street, with shop signs stacked above your head and something sizzling every few steps. Don't rush it.",
+   "stand_here": "Stand about 60 m north-west of the subject, at the phone icon on the map near ถนนมังกร, and face south-east. Then take a few frames in each direction, because there's something to shoot every few steps.",
+   "zoom": "Start at zoom 1x so the street looks the way you saw it. Switch to zoom 0.5x to fit tall signs and a narrow pavement into one frame, then try zoom 2x or more for a single stall or sign.",
+   "make_it_pop": "Turn on gridlines and line up the road edge or the row of shopfronts with a grid line, so the street leads into your picture.",
+   "best_time": "Go in the evening, when the signs are lit and the road becomes a food street. Earlier in the day is quieter and easier for wide shots.",
+   "selfie_here": "Try the Chinatown Gate at Odeon Circle, the start of Yaowarat Road: use the front camera at zoom 0.5x and put the gate over your shoulder with the road running away behind you. Another guide calls a photo at the Yaowarat Road sign a famous shot, especially at night when the street lights up.",
+   "ask_someone": "Ask a passer-by to stand at the entrance of Trok Itsaranuphap alley and shoot toward the main street, while you stand on Yaowarat Road with the street stretching out behind you.",
+   "rules_and_safety": "Keep your phone close to your body in crowds, and stay on the pavement or a safe corner when you stop to shoot. If you're going during Chinese New Year, check the official site first.",
+   "challenge": "Find three shop signs in three different colours and squeeze them all into one frame. Bonus points if a hungry local walks through it.",
+   "good_to_know": "Yaowarat Road is about 1.5 km long and 20 m wide. It was built between 1892 and 1900 under King Rama V, on land that used to be rice fields and canals. Its name means \"young king\", and it's also called the \"Dragon Road\" for its curving line and the \"Golden Road\" for its gold shops.",
+   "stand_here_before_gps_rule": "Stand about 60 m north-west of the subject, at the phone icon on the map near ถนนมังกร, and face south-east. Then take a few frames in each direction, because there's something to shoot every few steps."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Yaowarat Road street sign",
+     "detail": "at the Yaowarat Road sign itself, with the road behind you (the page does not give the exact corner)",
+     "why": "One guide calls a photo of the Yaowarat Road sign a famous shot, especially at night when the street lights up.",
+     "sources": [
+      {
+       "title": "Bangkok's Chinatown Guide: Best Food, Temples, Bars, and Hidden Alleys in Yaowarat - Bangkok Unmapped",
+       "url": "https://www.bangkokunmapped.com/features/chinatown-yaowarat-guide"
+      }
+     ]
+    },
+    {
+     "name": "Chinatown Gate at Odeon Circle",
+     "detail": "in front of the Chinatown Gate at Odeon Circle, the start of Yaowarat Road, with the road running away behind you",
+     "why": "The gate sits at the start of Yaowarat Road and a guide suggests about 10 minutes there for photos, so it works as an entrance backdrop.",
+     "sources": [
+      {
+       "title": "Best Things to Do in Bangkok Chinatown: My Favorite Spots 2026 - Thailand with Tereza",
+       "url": "https://thailandwithtereza.com/bangkok-chinatown-guide/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Intersection of Yaowarat Road and Trok Itsaranuphap Alley",
+    "detail": "the passer-by stands at the alley entrance and shoots toward the main street, so the visitor stands on Yaowarat Road with the street stretching behind them",
+    "sources": [
+     {
+      "title": "Bangkok Yaowarat Road | Ultimate Chinatown Night View + Food & Photography Guide - Trip.com",
+      "url": "https://us.trip.com/moments/detail/bangkok-191-146376498/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "One photo guide advises standing on a safe corner when shooting down Yaowarat Road.",
+   "notes": "The sources do not describe a selfie-with-road-behind pose for any spot; these picks are inferred from photo-angle advice, so check them on the ground. The Yaowarat Road sign location is not given. The Odeon Circle gate and the Trok Itsaranuphap spot are described as photo angles, not selfie positions. A blogger reports that security guards refused entry to the Odeon Circle parking garage, so that spot was left out. No page states selfie stick or tripod rules."
+  },
+  "cost_usd": 0.0461,
+  "at": "2026-11-17 10:04"
+ },
+ "MahaNakhon": {
+  "rank": 10,
+  "card": {
+   "hook": "Look up and you'll swear the tower is still loading. A spiral of blocky cut-outs peels back the glass, so it looks pixelated and a little unfinished, in the best way.",
+   "stand_here": "Stand at the phone icon on the map, right at the foot of King Power Mahanakhon (you might know it as MahaNakhon). Face the tower and tilt your phone up so the spiral leads your eye to the sky.",
+   "zoom": "Start at zoom 0.5x to fit the spiral and a good slice of sky into one shot. Then try 1x from further back along the pavement, and 2x-5x (depending on your phone) for close-ups of the stepped cut-outs.",
+   "make_it_pop": "Switch on gridlines, line one edge of the tower up with a vertical line, and let the spiral run diagonally through the frame.",
+   "best_time": "Late afternoon into early evening is our pick. At dusk, turn on night mode and rest your elbows on a wall or railing to keep the phone steady.",
+   "selfie_here": "Try the Chong Nonsi skywalk, the elevated walkway beside Chong Nonsi BTS station, which a photo guide names as a standout for views of the pixelated tower nearby. Use the front camera, go to 0.5x, and put the tower over your shoulder (it's likely rather than guaranteed that it fits behind you, so do a test shot). The free ICONSIAM 7th-floor Starbucks rooftop terrace also shows the tower in the skyline.",
+   "ask_someone": "Stand outside the tower at the building's entryway and ask a passer-by to step back along the pavement so they can fit you and the tower in.",
+   "rules_and_safety": "The tower holds a hotel, residences and an observation deck, but what's open can change, so check the official site before you go. On the 78th-floor glass tray, you're asked to put valuables in a bag and cover your shoes before stepping onto the glass.",
+   "challenge": "Take one shot where the spiral runs corner to corner, then one close-up of the pixel pattern, and see if a friend can guess it's the same building.",
+   "good_to_know": "The tower is 314.2 metres tall with 77 floors, and it was the tallest building in Thailand when it was recognised as complete in 2016. The name Mahanakhon is part of Bangkok's ceremonial name and means \"great city\". German architect Ole Scheeren was part of the design team.",
+   "stand_here_before_gps_rule": "Stand at the phone icon on the map, right at the foot of King Power Mahanakhon (you might know it as MahaNakhon). Face the tower and tilt your phone up so the spiral leads your eye to the sky."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Chong Nonsi Skywalk (elevated walkway by Chong Nonsi BTS station)",
+     "detail": "on the elevated walkway right beside Chong Nonsi BTS station, Silom",
+     "why": "A photography guide names this walkway as one of two standout shots in the area, with wide views over Bangkok's business district and the pixelated tower nearby, though the page does not confirm the tower is framed behind a selfie.",
+     "sources": [
+      {
+       "title": "King Power Mahanakhon | Lukfoto - Photographer",
+       "url": "https://lukfoto.com/mahanakhon/"
+      }
+     ]
+    },
+    {
+     "name": "ICONSIAM 7th-floor Starbucks rooftop terrace",
+     "detail": "the rooftop terrace reached from the 7th floor of ICONSIAM mall, where a Starbucks gives access",
+     "why": "A photographer's guide says the terrace is free and shows King Power Mahanakhon in the skyline view, which makes it a candidate for a selfie with the tower in the background.",
+     "sources": [
+      {
+       "title": "Bangkok Photography Spots: My Personal Guide After Weeks in the City - Peter Orsel",
+       "url": "https://peterorsel.com/the-best-photography-spots-in-bangkok-thailand/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "King Power Mahanakhon building entryway",
+    "detail": "at the building's entrance, with the visitor standing outside the tower; a guide describes the entryway as a good photo spot and shows a pose outside the building",
+    "sources": [
+     {
+      "title": "Snap your best poses at these Instagrammable spots in Bangkok! - Klook Travel Blog",
+      "url": "https://www.klook.com/blog/bangkok-photo-spots/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "On the 78th-floor glass tray, visitors are asked to put valuables in a bag and cover their shoes before stepping onto the glass.",
+   "notes": "Sources do not give coordinates, so I could not check these spots against the supplied position (13.72346, 100.52820). The Chong Nonsi and ICONSIAM picks are backed only by descriptions of views, not by photos showing the tower behind a visitor; treat them as likely rather than confirmed. The glass tray and 78th-floor Skywalk are the top-rated shots, but they are inside the tower and show the city from above, so I left them out as selfie spots. Pages discuss selfie sticks and tripods only as recommendations (one says a selfie stick or tripod is helpful when less crowded), not as rules, so no rule is reported. Another page states that you cannot take your own photos on the glass tray, but that is a glass-tray photo rule, not a selfie-stick rule, so I did not list it. The 'Yao Rooftop Bar' is named as a nearby view spot but I had no address for it, so I did not include it."
+  },
+  "cost_usd": 0.0509,
+  "at": "2026-11-17 10:04",
+  "selfie_pos": [
+   13.7218242,
+   100.5303237
+  ],
+  "selfie_note": "Chong Nonsi Skywalk (OpenStreetMap: สกายวอล์กช่องนนทรี, ชุมชนเซ็นหลุยส์ 3, แขวงยานนาวา, เขตสาทร,)"
+ },
+ "Lebua at State Tower": {
+  "rank": 101,
+  "card": {
+   "hook": "Stand at the bottom of Lebua at State Tower and your neck will complain before your phone does. The building just keeps going up, and that's the whole fun of this spot.",
+   "stand_here": "Stand right at the phone icon on the map, at the foot of Lebua at State Tower on Silom Road, beside the Chao Phraya River. Face the building and point your phone up.",
+   "zoom": "Start at zoom 0.5x to squeeze in as much height as you can. Switch to 1x for a calmer shot of the lower floors, then try 2x-5x (depending on your phone) to pick out the top of the tower.",
+   "make_it_pop": "Turn on the gridlines, line the tower's straight edges up with them, and hold the phone level before raising it a little, because a big tilt makes the sides lean inwards.",
+   "best_time": "Come at dusk, when the sky still has some colour and the building's lights are starting to come on. After dark, use night mode and hold your arms tight against your body to keep things sharp.",
+   "selfie_here": "For a selfie with a view, head up to the open-air Sky Bar terrace at the railing on Silom Road's State Tower, use the front camera, and put the city behind you. It won't have the tower behind you, but you'll get the height. You typically need to buy at least one drink to get in.",
+   "ask_someone": "",
+   "rules_and_safety": "Personal photography is permitted at lebua at State Tower, but commercial photography needs prior authorization from the venue. If you go up to the Sky Bar, stay aware near the railing, because the drop is real. Access to the bars and restaurants may be restricted or ticketed, so check the official site first.",
+   "challenge": "Find a lamp, a tree or a strip of sky for the edge of your frame, then see if you can make the tower look taller than your neighbour's photo does.",
+   "good_to_know": "Lebua at State Tower is a luxury hotel in Bang Rak, and a cluster of restaurants and bars called The Dome by lebua sits at the very top. Sirocco and the Sky Bar are both on the 64th floor. Since New Year's Eve 2015, Sirocco has hosted what's described as the highest New Year's Eve ball drop in the world.",
+   "stand_here_before_gps_rule": "Stand right at the phone icon on the map, at the foot of Lebua at State Tower on Silom Road, beside the Chao Phraya River. Face the building and point your phone up."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Sky Bar at lebua, rooftop railing (63rd floor)",
+     "detail": "at the railing of the open-air Sky Bar terrace on the 63rd floor, State Tower, 1055 Silom Road",
+     "why": "Railing selfies are common here, but the page describes the bar as the viewpoint, so the tower itself is unlikely to be the backdrop.",
+     "sources": [
+      {
+       "title": "lebua State Tower Bangkok (Sawadiscovery)",
+       "url": "https://www.sawadiscovery.com/guide-thailande/activity/lebua-at-state-tower"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Personal photography is permitted at lebua at State Tower; commercial or tripod-based photography requires prior authorization from the venue, so a tripod is not allowed without approval.",
+     "sources": [
+      {
+       "title": "lebua State Tower Bangkok (Sawadiscovery)",
+       "url": "https://www.sawadiscovery.com/guide-thailande/activity/lebua-at-state-tower"
+      }
+     ]
+    }
+   ],
+   "safety": "Railing selfies are common, but the height is genuine, so stay aware near the edge (Sawadiscovery).",
+   "notes": "No page I found names a ground-level or street spot where a visitor stands with the State Tower behind them, so the first selfie spot is a rooftop option and only a loose fit for the request. No page names a spot for a passer-by to photograph a visitor with the whole tower, so ask_someone_spot is null. Sources say Saphan Taksin BTS and Sathorn Pier are a short walk away, but none recommends them for this photo. Sources also differ on the Sky Bar's floor (63rd per Sawadiscovery, 64th per GetYourGuide). Entry is free but you typically must buy at least one drink (GetYourGuide). Sky Bar hours are listed as 5:00 PM to 12:30 AM (GetYourGuide). Sources: https://www.getyourguide.com/explorer/bangkok-ttd169/best-views-in-bangkok/ and https://www.hotels.com/go/thailand/most-bangkok-photographed-places (the latter names The Dome at dusk as an iconic shot but gives no vantage point)."
+  },
+  "cost_usd": 0.0595,
+  "at": "2026-11-17 10:05"
+ },
+ "Giant Swing": {
+  "rank": 11,
+  "card": {
+   "hook": "Two tall red posts and a crossbar, and that's the whole show. It's a bold shape, so even a quick snap looks like you meant it.",
+   "stand_here": "Stand on the steps of Wat Suthat, directly opposite the swing across Bamrung Mueang Road, and face the swing. Try to catch the whole thing framed by the temple's stone gateway, shot from above the road so most vehicles stay out of the picture.",
+   "zoom": "Start at 1x to get the whole swing with its surroundings. Then try 2x-5x (depends on your phone) to bring the posts closer, and hold the phone with both hands because small wobbles show more when you zoom. Only use 0.5x if you walk right up to the base, where it shows off the height.",
+   "make_it_pop": "Switch on gridlines, put the swing on the middle vertical line so the posts look balanced, leave a little sky above the crossbar, then tap the red posts and slide it a bit darker if the sky is bright.",
+   "best_time": "Soft morning or late-afternoon light usually flatters the red timber. The sun sets in the middle of the swing once a year, usually in early March (it was 6 March in 2025), if you fancy planning around that.",
+   "selfie_here": "Head to the open plaza in front of the Giant Swing on Bamrung Mueang Road, opposite Wat Suthat's entrance, and stand in front of the swing so it's behind you. Use the front camera, switch to 0.5x if your phone has it, and tilt up a touch so the red frame sits over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the temple steps across the road while you stand on the plaza in front of the swing, which fits you and the whole swing in and keeps traffic out of the shot.",
+   "rules_and_safety": "The roads around the swing are busy, so take care when stepping onto or across Bamrung Mueang Road for photos. Wat Suthat and the Devasathan are places of worship, so check the official sites before going inside, as some interior halls don't allow photos. Don't pose irreverently with Buddha images.",
+   "challenge": "Get the swing perfectly balanced on the middle gridline, then take another from the base at 0.5x and see which one looks taller.",
+   "good_to_know": "The Giant Swing, Sao Chingcha, is 21.15 m tall and was first built in 1784 under King Rama I. It was used in a Brahmin swinging ceremony that stopped in 1935 after several fatal accidents. The present timbers come from a 2005-2007 rebuild using six teak trunks, and the originals are in the Bangkok National Museum.",
+   "stand_here_before_gps_rule": "Stand on the steps of Wat Suthat, directly opposite the swing across Bamrung Mueang Road, and face the swing. Try to catch the whole thing framed by the temple's stone gateway, shot from above the road so most vehicles stay out of the picture."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Plaza in front of the Giant Swing, Bamrung Mueang Road (opposite Wat Suthat's entrance)",
+     "detail": "on the open plaza, standing in front of the red swing so the structure is behind you",
+     "why": "A travel guide that lists it as a favorite selfie stop puts you in front of the swing, and a second guide says early morning or late afternoon light suits it best.",
+     "sources": [
+      {
+       "title": "Bangkok Landmarks: 5 Places to Photograph on a Sightseeing Tour (Agoda)",
+       "url": "https://www.agoda.com/travel-guides/thailand/bangkok/bangkok-landmarks-5-places-photograph-sightseeing-tour/"
+      },
+      {
+       "title": "Giant Swing (Sao Ching Cha) Audio Tour Guide (Accesstravel)",
+       "url": "https://www.accesstravel.com/forum/ViatorAttraction/Index/343/22807"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Steps of Wat Suthat, directly opposite the Giant Swing",
+    "detail": "the photographer stands on the temple steps across the road and frames the visitor standing on the plaza in front of the whole swing; this spot also blocks road traffic from the frame",
+    "sources": [
+     {
+      "title": "Giant Swing, Bangkok: History & Visitor Tips (Nomadotravel)",
+      "url": "https://www.nomadotravel.app/en/attractions/giant-swing-bangkok"
+     },
+     {
+      "title": "Giant Swing (Sao Ching Cha) Audio Tour Guide (Accesstravel)",
+      "url": "https://www.accesstravel.com/forum/ViatorAttraction/Index/343/22807"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Some reviews say the swing's immediate surroundings are busy with traffic, so take care when stepping onto or across Bamrung Mueang Road for photos.",
+   "notes": "No page states selfie stick or tripod rules, so the rules list is empty. A visitthailandtoday page says exterior photos at temples are almost always fine but some interior halls prohibit photography, and it warns against posing irreverently with Buddha images; that is about temple photography in general, not selfie sticks. Sources disagree on height (21 m in most, 24 m in the Agoda guide, 27 m in Nomadotravel), and the Agoda selfie text is generic ('in front of'), so the exact standing point is approximate. The mio.travel page suggests framing a photo from 'the red gate across the street', but it does not say where the visitor should stand, so I did not use it. The Nomadotravel 'steps of Wat Suthat' tip is written for shooting the swing alone; I applied it to a photo of the visitor, which is my inference."
+  },
+  "cost_usd": 0.0505,
+  "at": "2026-11-17 10:05"
+ },
+ "Jim Thompson House": {
+  "rank": 12,
+  "card": {
+   "hook": "Six dark teak houses on stilts, tucked into a leafy garden in the middle of Bangkok. It's a calm little pocket, and the trees do the framing for you.",
+   "stand_here": "Stand on the garden and courtyard walkways outside the teak houses. The phone icon on the map is right at the house. Face the houses so you can see them up on their stilts with the trees around them.",
+   "zoom": "Use zoom 1x for most shots of the houses. Switch to zoom 0.5x in tight spots like the courtyard and the foot of the staircase. Try zoom 2x to 5x (depending on your phone) for roof ends, carved details and the far side of the garden.",
+   "make_it_pop": "Turn on gridlines and line up the stilts and roof edges with them, so the houses don't lean.",
+   "best_time": "Go in the morning. It's cooler and calmer, and the garden light is nicer before the midday glare.",
+   "selfie_here": "Try the main courtyard staircase, and turn so the teak houses are behind you. The riverside pavilion in the grounds is another popular photo spot. Use the front camera, switch to 0.5x if you want more of the scene in, and keep the houses over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Photography outside is welcome, but the interior is visited on a guided tour only. Official visitor information says selfies, posed photos, flash and video aren't allowed inside the main house, though other guides disagree, so ask at the entrance before you take your phone out indoors. Never use flash. Wooden floors inside can be slippery after rain.",
+   "challenge": "Find a leafy branch and use it to frame the whole group of stilted houses, then step closer and snap one carved detail.",
+   "good_to_know": "Jim Thompson House was built in 1959 as the home of Jim Thompson, the American businessman who founded the Thai Silk Company and collected Southeast Asian art. The land is only about one rai (roughly half an acre), so everything sits close together. Most of the six houses are 19th-century buildings that were taken down in Ayutthaya and re-erected here, and the largest, a weaver's house, came from the Bangkrua community across the canal.",
+   "stand_here_before_gps_rule": "Stand on the garden and courtyard walkways outside the teak houses. The phone icon on the map is right at the house. Face the houses so you can see them up on their stilts with the trees around them."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Main courtyard staircase, Jim Thompson House",
+     "detail": "on the main courtyard staircase, shooting back toward the teak houses",
+     "why": "A visitor guide lists this staircase among the complex's popular photo spots, so it is a reliable place to frame the house behind you.",
+     "sources": [
+      {
+       "title": "Jim Thompson House Museum",
+       "url": "https://www.am2026thailand.go.th/explore-bangkok/jim-thompson-house-museum"
+      }
+     ]
+    },
+    {
+     "name": "Riverside pavilion, Jim Thompson House",
+     "detail": "at the riverside pavilion in the grounds",
+     "why": "The same guide names this pavilion as a popular photo spot, and it sits in the garden area where photography is allowed.",
+     "sources": [
+      {
+       "title": "Jim Thompson House Museum",
+       "url": "https://www.am2026thailand.go.th/explore-bangkok/jim-thompson-house-museum"
+      },
+      {
+       "title": "Jim Thompson House Museum, Bangkok, Thailand - Photos, Map & Tips For 2026",
+       "url": "https://foreverbreak.com/travel/thailand/bangkok/jim-thompson-house-museum/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Official visitor information says selfies, individual posed photos, flash and video are not allowed inside the main house; general photos inside are permitted.",
+     "sources": [
+      {
+       "title": "Visitor Information",
+       "url": "https://jimthompsonhouse.org/visitor-information/"
+      }
+     ]
+    },
+    {
+     "rule": "One guide says selfie sticks are allowed and tripods are not encouraged, but another says flash, tripods and selfie sticks are not allowed.",
+     "sources": [
+      {
+       "title": "Jim Thompson House Museum, Bangkok, Thailand - Photos, Map & Tips For 2026",
+       "url": "https://foreverbreak.com/travel/thailand/bangkok/jim-thompson-house-museum/"
+      },
+      {
+       "title": "Jim Thompson House: A Museum of Thai Art and Culture in Bangkok",
+       "url": "https://www.tripoto.com/bangkok/places-to-visit/jim-thompson-house"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is only allowed in the garden, pavilion and exterior of the houses, according to a travel guide.",
+     "sources": [
+      {
+       "title": "Jim Thompson House: A Museum of Thai Art and Culture in Bangkok",
+       "url": "https://www.tripoto.com/bangkok/places-to-visit/jim-thompson-house"
+      }
+     ]
+    }
+   ],
+   "safety": "Wooden floors inside the houses can be slippery after rain, so take care when moving around.",
+   "notes": "Sources disagree on whether photos are allowed inside the main house (official page says yes with limits; several other guides say no) and on selfie stick and tripod rules, so check on arrival. No page names a spot where a passer-by should stand to photograph a visitor with the whole house in frame, so ask_someone_spot is null. The two selfie spots come from one short guide that does not say which direction to face. The Jim Thompson Art Center's rooftop garden is described as good for photos, but it is a separate building and I did not list it as a selfie spot of the house. The map coordinates provided were not checked against any page."
+  },
+  "cost_usd": 0.0594,
+  "at": "2026-11-17 10:06"
+ },
+ "Wat Traimit": {
+  "rank": 13,
+  "card": {
+   "hook": "Chinatown's streets are a noisy tangle, and then a white marble tower trimmed in gold rises out of it like it's wearing its best outfit. That's the Phra Maha Mondop at Wat Traimit, and it's made for your phone.",
+   "stand_here": "Stand at the foot of the main staircase of the Phra Maha Mondop, right where the steps begin. Face the building straight on, so the four storeys fill the view above you.",
+   "zoom": "Start at zoom 1x for the whole pavilion and its surroundings. If you're too close to fit it all in, tap 0.5x. Then try 2x to 5x (depending on your phone) for the gilded roof and spire.",
+   "make_it_pop": "Tap the marble wall, then drag the slider to make the picture slightly darker so the gold and white both keep their detail.",
+   "best_time": "Early morning or late afternoon gives softer light on the gold and marble, and fewer tour groups than midday.",
+   "selfie_here": "Try the foot of the entrance stairs outside the temple, where the steps begin. Use the front camera (0.5x if your phone has it) and tuck the pavilion behind your shoulder. One blog named this spot, so give it a quick check when you arrive.",
+   "ask_someone": "",
+   "rules_and_safety": "It's an active temple, so follow any signs and check the official site before you go. Reports say no flash in the statue chamber and no video.",
+   "challenge": "Turn on the gridlines and get the pavilion's edges dead straight, with a little sky above the spire and not a stranger in the gap.",
+   "good_to_know": "The Golden Buddha was once covered in plaster and moved here in 1935. In 1955 it was dropped by accident, the plaster cracked, and the solid gold underneath was revealed. The Mondop was completed in 2007 and opened to the public in February 2010.",
+   "stand_here_before_gps_rule": "Stand at the foot of the main staircase of the Phra Maha Mondop, right where the steps begin. Face the building straight on, so the four storeys fill the view above you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Foot of the entrance stairs, outside Wat Traimit",
+     "detail": "outside the temple, at the bottom of the entrance stairs where the steps begin",
+     "why": "A photo guide ranks the area outside the temple, where the stairs start, as its best photo point.",
+     "sources": [
+      {
+       "title": "18 Best Photo Spots in Bangkok + Photo Tips and Map",
+       "url": "https://lasmaplone.com/18-best-photo-spots-in-bangkok-photo-tips-and-map/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot is named by a page, and it comes from a single blog post that is about 16 months old, so check it on arrival. No page names a spot where a passer-by should stand to photograph a visitor with the whole temple in frame, so ask_someone_spot is null. One blog notes many cars are parked in front of the temple and suggests a wide-angle lens, which may affect framing from the street. No page gives a selfie stick or tripod rule, so rules is empty. Photo rules that were found but are not selfie-stick or tripod rules: avoid flash in the statue chamber (guide2thailand.com, adlibhotels.co) and video is not allowed (pickyourtrail.com). Entry fees differ between sources (40 THB to 140 THB for foreigners), so confirm the current price."
+  },
+  "cost_usd": 0.0551,
+  "at": "2026-11-17 10:06"
+ },
+ "Erawan Shrine": {
+  "rank": 14,
+  "card": {
+   "hook": "Gold faces, heaps of flower garlands and a bustling crowd are all packed into a few metres here, right in the middle of one of Bangkok's busiest junctions. Sometimes there's even a Thai dance troupe hired by worshippers, so keep your eyes open.",
+   "stand_here": "At the Erawan Shrine, stand at the front on the southeast side of the statue and keep a little distance. Face the four-faced gold statue; the crowds tend to block the view less from this side.",
+   "zoom": "Start at 1x for a clean, natural shot of the statue. Try 0.5x if you want the whole shrine and crowd, but keep people away from the edges of the frame, where they look stretched. Use 2x or 5x (higher zooms depend on your phone) for close-ups of the faces and offerings, so you're not pointing your phone at worshippers.",
+   "make_it_pop": "Tap the statue, then slide the brightness down a touch so the gold keeps its detail instead of going pale, and switch on gridlines so the statue sits on the centre line with flowers along the bottom.",
+   "best_time": "Early morning, around 06:00-09:00, gives softer light and fewer people. Mid-morning works too, when the light falls evenly on the faces.",
+   "selfie_here": "For a selfie with the shrine behind you, head up to the elevated walkway between Chit Lom and Siam BTS stations, on the Chit Lom side. Use the front camera at 0.5x, hold it a bit high, and let the shrine and intersection fill the view over your shoulder. Down at the shrine itself, don't turn your back on the statue for a selfie.",
+   "ask_someone": "Stand on the paved forecourt in front of the statue, keeping a little distance from worshippers, and ask a passer-by on the raised walkway near Chit Lom BTS station to shoot down toward you.",
+   "rules_and_safety": "This is a working place of worship, so keep out of the way of people praying and ask permission before photographing anyone. Turn the flash off, don't step onto the shrine base, and keep your feet from pointing at the statue. Daytime visits give clearer views and are easier on the busy intersection.",
+   "challenge": "Can you get the gold faces dead centre on the gridline, with a bright garland along the bottom and not a single stranger's head in the way?",
+   "good_to_know": "Formally this is the Thao Maha Phrom Shrine, and it holds Phra Phrom, the Thai form of the Hindu god Brahma. It was built in 1956 beside the old Erawan Hotel, and the statue was enshrined on 9 November 1956. After the statue was destroyed in 2006, an identical one was placed here in May of that year. Lighting incense and candles has not been allowed since March 2020.",
+   "stand_here_before_gps_rule": "At the Erawan Shrine, stand at the front on the southeast side of the statue and keep a little distance. Face the four-faced gold statue; the crowds tend to block the view less from this side."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Forecourt in front of the shrine, Ratchadamri and Ploenchit corner",
+     "detail": "stand on the paved area in front of the gilded four-faced Brahma image, keeping a little distance from worshippers",
+     "why": "The official shrine site lists the spot in front of the shrine as a photo position with a clear view of the gilded image, so the statue is the backdrop, though a page warns against turning your back on the deity for selfies.",
+     "sources": [
+      {
+       "title": "Erawan Shrine Bangkok (official site)",
+       "url": "https://www.erawanshrine.org/en/"
+      },
+      {
+       "title": "Erawan Shrine Bangkok guide, offerings & dancers",
+       "url": "https://www.bangkok-spirit.com/guides/erawan-shrine-guide/"
+      }
+     ]
+    },
+    {
+     "name": "Elevated walkway between Chit Lom and Siam BTS stations (overlooking the shrine)",
+     "detail": "on the skywalk above the intersection, near the Chit Lom BTS station side",
+     "why": "A guide describes this raised walk as a strong overhead vantage on the shrine, giving a wide view of the shrine and intersection for a shot with the shrine in the background.",
+     "sources": [
+      {
+       "title": "A Brief History Of The Erawan Shrine In Bangkok",
+       "url": "https://theculturetrip.com/asia/thailand/articles/a-brief-history-of-the-erawan-shrine-in-bangkok"
+      },
+      {
+       "title": "Erawan Shrine (Thao Mahaprom Shrine), Bangkok",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g293916-d552410-Reviews-Erawan_Shrine_Thao_Mahaprom_Shrine-Bangkok.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Elevated pedestrian path near Chit Lom BTS station",
+    "detail": "on the raised walkway from Chit Lom station, where the shrine is visible below at the intersection; the passer-by shoots down toward the visitor on the forecourt",
+    "sources": [
+     {
+      "title": "Erawan Shrine - Best Photo Spots",
+      "url": "https://photographylife.com/photo-spots/erawan-shrine"
+     },
+     {
+      "title": "A Brief History Of The Erawan Shrine In Bangkok",
+      "url": "https://theculturetrip.com/asia/thailand/articles/a-brief-history-of-the-erawan-shrine-in-bangkok"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Do not turn your back on the deity to take selfies, and do not pose disrespectfully in front of the statue.",
+     "sources": [
+      {
+       "title": "Erawan Shrine Bangkok guide, offerings & dancers",
+       "url": "https://www.bangkok-spirit.com/guides/erawan-shrine-guide/"
+      }
+     ]
+    },
+    {
+     "rule": "Ask permission before photographing people, and avoid close shots of people who are praying.",
+     "sources": [
+      {
+       "title": "Erawan Shrine Bangkok (official site)",
+       "url": "https://www.erawanshrine.org/en/"
+      },
+      {
+       "title": "Erawan Shrine Bangkok (2026)",
+       "url": "https://airial.travel/attractions/thailand/erawan-shrine-bangkok-TNqEraVO"
+      }
+     ]
+    },
+    {
+     "rule": "Turn off the flash so you do not disturb prayers.",
+     "sources": [
+      {
+       "title": "Erawan Shrine Bangkok (official site)",
+       "url": "https://www.erawanshrine.org/en/"
+      },
+      {
+       "title": "Erawan Shrine Bangkok Visit: Cost, Hours, and What to Expect",
+       "url": "https://pack-lightly.com/thailand/bangkok/erawan-shrine/"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods may be seen as intrusive and are cumbersome in the crowded shrine area; a page advises handheld shots or a monopod if needed.",
+     "sources": [
+      {
+       "title": "Erawan Shrine Bangkok (2026)",
+       "url": "https://airial.travel/attractions/thailand/erawan-shrine-bangkok-TNqEraVO"
+      }
+     ]
+    },
+    {
+     "rule": "Keep your feet from pointing at the deity, and do not step on the shrine base.",
+     "sources": [
+      {
+       "title": "Erawan Shrine Bangkok guide, offerings & dancers",
+       "url": "https://www.bangkok-spirit.com/guides/erawan-shrine-guide/"
+      },
+      {
+       "title": "Erawan Shrine Bangkok (official site)",
+       "url": "https://www.erawanshrine.org/en/"
+      }
+     ]
+    }
+   ],
+   "safety": "Daytime visits give clearer views and safer navigation through the busy intersection where the shrine stands.",
+   "notes": "No page names a selfie spot with the shrine directly behind the visitor; the two selfie spots are inferred from photo-position guidance, and one guide explicitly warns against turning your back on the deity for selfies, so the 'in front of the shrine' spot should be used with that in mind. The ask-someone spot is inferred from pages describing the elevated walk near Chit Lom as an overhead viewpoint, not from a page recommending it for photographing a visitor. The Pack Lightly 'southeast side of the statue' tip is for photographing the statue itself, not a visitor, so it was not used. Opening hours conflict across pages (24/7 on one, 06:00–22:30 on another, 06:00–24:00 on a third). The given coordinates differ slightly from the coordinates on a photo-spot page, but both are at the same intersection."
+  },
+  "cost_usd": 0.0511,
+  "at": "2026-11-17 10:07"
+ },
+ "Wat Suthat": {
+  "rank": 15,
+  "card": {
+   "hook": "Wat Suthat is all scale and repetition: rooflines stacked on rooflines, a very long hall, and a big red swing parked out front like it owns the place. Good news: it all looks great on a phone.",
+   "stand_here": "You're near ถนนบำรุงเมือง, about 120 m north of the numbered pin, at the phone icon on the map. Face south and take your first shot from here, then walk in for the details.",
+   "zoom": "Start at zoom 1x to show how the buildings sit together. Drop to zoom 0.5x for the long cloister walls and rooflines, then try zoom 2x or 5x on roof edges, spires and carvings (higher zooms depend on your phone).",
+   "make_it_pop": "Turn on gridlines and keep the roof and wall lines level, because the repeating shapes look best when they're straight.",
+   "best_time": "Go early in the morning if you can. It's quieter and the light is softer. Midday sun is harsh on the bright gold and white surfaces.",
+   "selfie_here": "Head to the plaza in front of the Giant Swing on the Bamrung Mueang Road side. Stand facing back toward Wat Suthat so the temple is behind you, use the front camera, and try zoom 0.5x to fit more in. Travel guides call this the most popular photo spot.",
+   "ask_someone": "Ask a passer-by to stand on the temple steps across from the Giant Swing while you stand by the swing. The higher angle and stone gateway make a clean frame with no vehicles, but check on site that it fits what you want.",
+   "rules_and_safety": "Photography is permitted throughout the temple compound, including inside the main hall. It's a working temple, so take photos quietly and keep your phone away from worshippers' faces. Beware of scammers posing as guides or asking for unsolicited donations.",
+   "challenge": "Find a doorway or gap in the wall and use it as a frame, then wait for a monk or visitor to stroll through for scale.",
+   "good_to_know": "King Rama I began Wat Suthat in 1807, and it was finished in the reign of Rama III, around 1847. Its great bronze Buddha, Phra Si Sakyamuni, is about eight metres high and was brought from Sukhothai. Twenty-eight Chinese pagodas ring the lower terrace, each standing for one of the twenty-eight Buddhas.",
+   "stand_here_before_gps_rule": "You're near ถนนบำรุงเมือง, about 120 m north of the numbered pin, at the phone icon on the map. Face south and take your first shot from here, then walk in for the details."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Plaza in front of the Giant Swing (Sao Chingcha), Bamrung Mueang Road side",
+     "detail": "on the open plaza directly in front of the red swing, facing back toward the Wat Suthat side so the temple is behind you",
+     "why": "Travel guides call the plaza in front of the swing the most popular photo spot, and say most of the good photo spots there have Wat Suthat as the background.",
+     "sources": [
+      {
+       "title": "2026 Wat Suthat Thepwararam travel guide (Trip.com)",
+       "url": "https://us.trip.com/moments/poi-wat-suthat-thepwararam-ratchaworamahawihan-13647434/"
+      },
+      {
+       "title": "Giant Swing (Trip.com moments)",
+       "url": "https://id.trip.com/moments/detail/bangkok-191-15247427?locale=en-ID"
+      }
+     ]
+    },
+    {
+     "name": "Paved walkways inside the Wat Suthat Thepwararam grounds",
+     "detail": "on the pavement in some areas of the temple grounds, where the temple's reflection shows in the paving",
+     "why": "A photo-spot guide says the well-kept grounds have green areas and, in places, reflections of the temple in the pavement, so you can stand with the temple behind you.",
+     "sources": [
+      {
+       "title": "25 Best Photo Spots in Bangkok + Photo Tips (Las Maps Lone)",
+       "url": "https://lasmaplone.com/best-photo-spots-in-bangkok/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Temple steps of Wat Suthat, directly opposite the Giant Swing",
+    "detail": "the photographer stands on the temple steps across from the swing, and the visitor stands by the swing; the guide says the elevated angle and stone gateway give a clean frame with no vehicles",
+    "sources": [
+     {
+      "title": "Giant Swing, Bangkok: History & Visitor Tips (Nomadotravel)",
+      "url": "https://www.nomadotravel.app/en/attractions/giant-swing-bangkok"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is permitted throughout the temple compound, including inside the main hall (wihan).",
+     "sources": [
+      {
+       "title": "Wat Suthat Thepwararam, Bangkok, Royal Temple Guide (Nomadotravel)",
+       "url": "https://www.nomadotravel.app/en/attractions/wat-suthat"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods and professional video equipment need prior permission.",
+     "sources": [
+      {
+       "title": "Wat Suthat Thepwararam, Bangkok, Royal Temple Guide (Nomadotravel)",
+       "url": "https://www.nomadotravel.app/en/attractions/wat-suthat"
+      }
+     ]
+    }
+   ],
+   "safety": "A Thai tourism page warns visitors to beware of scammers posing as guides or asking for unsolicited donations.",
+   "notes": "Sources conflict on the Giant Swing's height (21.15 m, 24 m and 27 m appear). The 'steps opposite' ask-someone spot is from one page and does not confirm the whole temple fits in frame; check on site. Opening hours also differ between sources (to 16:00, 20:00 or 21:00), so confirm before going. The Trip.com page describes the swing as standing on a roundabout island, so the plaza may be a traffic island rather than a wide open square. The reflection spot is described only as 'some areas' and no exact location is named."
+  },
+  "cost_usd": 0.0605,
+  "at": "2026-11-17 10:07"
+ },
+ "Democracy Monument": {
+  "rank": 16,
+  "card": {
+   "hook": "Picture a giant stone four-leaf clover plonked in the middle of a Bangkok roundabout, with traffic swirling around it like it's no big deal. That's Democracy Monument, and its bold, symmetrical shape makes it easy to photograph even from the pavement.",
+   "stand_here": "Stand at the corner where Dinso Road meets Ratchadamnoen Klang Road, and face north-west. The monument will be in front of you, with its base and wings set against the boulevard.",
+   "zoom": "Start at zoom 0.5x to fit the base, the wings and some of the boulevard in one frame. Switch to 1x for a tidier, less stretched look, and use 2x or more only for details like the top of the tower.",
+   "make_it_pop": "Turn on gridlines and keep the tower on the vertical line so the wings look even on both sides.",
+   "best_time": "Check the light on the day and take a test shot before you commit. Traffic is heavy here, so a Live Photo helps you pick the frame with the fewest vehicles.",
+   "selfie_here": "Try the front stairs at the base of the monument. Use the front camera, switch to 0.5x if your phone has it, and let the wings and central tower rise up behind you. If the stairs are crowded, the street corners at the Dinso Road junction work as a backup, with the monument over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the central median of Ratchadamnoen Klang Avenue, about 80-100 metres east or west of the roundabout, so the whole monument fits in the frame.",
+   "rules_and_safety": "The roundabout is busy and the island is hard to reach on foot when traffic is heavy. Take your photos from the pavement, stay out of the traffic lanes, and cross only at pedestrian crossings (but don't stand on them to shoot). A new MRT station is being built next to the monument, so expect some pavement disruption.",
+   "challenge": "Take three frames with different amounts of sky and road, then pick your winner. Bonus points if the tower sits perfectly on the gridline.",
+   "good_to_know": "The monument was commissioned in 1939 to mark the 1932 change to a constitutional monarchy. The four wings are 24 metres high and stand for the army, navy, air force and police. On top, a carved palm-leaf manuscript box holds the 1932 constitution, and the relief sculptures around the base were made by Italian-born sculptor Corrado Feroci, who later took the Thai name Silpa Bhirasi.",
+   "stand_here_before_gps_rule": "Stand at the corner where Dinso Road meets Ratchadamnoen Klang Road, and face north-west. The monument will be in front of you, with its base and wings set against the boulevard."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front stairs of the Democracy Monument",
+     "detail": "on the front stairs at the base of the monument, with the wings and central tower behind you",
+     "why": "A guide that recommends this spot for commemorative photos says the front stairs are the one place where the wings and tower line up in symmetry.",
+     "sources": [
+      {
+       "title": "2025 Recommended Attraction in Democracy Monument (Updated October) | Trip Moments",
+       "url": "https://www.trip.com/moments/theme/poi-democracy-monument-77033-attractions-993137/"
+      }
+     ]
+    },
+    {
+     "name": "Corners where Dinso Road meets Ratchadamnoen Klang",
+     "detail": "the street corners at the Dinso Road junction on the roundabout, with the monument behind you",
+     "why": "A Khao San Road guide places its best wide shots of the monument at these corners, so they are a fallback if the front stairs are crowded.",
+     "sources": [
+      {
+       "title": "Democracy Monument Bangkok: History & Visiting Tips",
+       "url": "https://www.khaosanroad.com/articles/democracy-monument-bangkok-guide"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Central pedestrian median of Ratchadamnoen Klang Avenue",
+    "detail": "on the central median about 80–100 metres east or west of the roundabout, so the whole monument fits in the frame",
+    "sources": [
+     {
+      "title": "Democracy Monument Bangkok (Nomadotravel)",
+      "url": "https://www.nomadotravel.app/en/attractions/democracy-monument"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are allowed only on the central island of the sidewalk and are strictly prohibited on crosswalks.",
+     "sources": [
+      {
+       "title": "2025 Recommended Attraction in Democracy Monument (Updated October) | Trip Moments",
+       "url": "https://www.trip.com/moments/theme/poi-democracy-monument-77033-attractions-993137/"
+      }
+     ]
+    }
+   ],
+   "safety": "The monument sits on a busy roundabout, so cross only at pedestrian crossings and stay clear of the traffic lanes when taking photos.",
+   "notes": "No page I found mentions selfie sticks, so no stick rule is reported. The sources describe photographing the monument in general, not selfies specifically, so the selfie spots are inferred from them. The front-stairs spot rests on one page, and the corner spot is recommended for wide shots rather than selfies. The ask-someone spot comes from a single site (Nomadotravel) whose reliability I could not confirm. Coordinates were not verified against a map."
+  },
+  "cost_usd": 0.0516,
+  "at": "2026-11-17 10:08"
+ },
+ "Asiatique The Riverfront": {
+  "rank": 17,
+  "card": {
+   "hook": "Picture a 60-metre Ferris wheel lighting up beside the river as the sun drops, with old dock warehouses just behind you. That's Asiatique, and the wheel is the star.",
+   "stand_here": "Stand at the base of Asiatique Sky, on the west side of the wheel near the wheel entrance, and face the wheel so the river and city lights sit behind it. The main part of the complex is a short walk to the north-east.",
+   "zoom": "Start at zoom 0.5x right at the base, because the wheel is tall and close. Then step back a few paces and switch to 1x for a tidier, less stretched view with sky around it.",
+   "make_it_pop": "Tap the wheel, then drag the slider to make the picture a little darker so the lights stay colourful and the sky doesn't turn white.",
+   "best_time": "Arrive about an hour before sunset. Shoot wide in the warm light first, then stay for the lit wheel and the city lights coming on.",
+   "selfie_here": "After dark, stand in front of the wheel entrance with the glowing wheel behind you, using the front camera (zoom 0.5x if your phone has it). Earlier, around 4 to 5 PM, try the riverside walkway near the brick warehouses and stand sideways to the golden light.",
+   "ask_someone": "",
+   "rules_and_safety": "It can get crowded after sunset, so keep your valuables secure. Photos from the ground are free, but riding the wheel needs a ticket, so check the official site first.",
+   "challenge": "Find the double-deck carousel and get it in the same frame as the wheel rising behind it. Bonus points if you can make it look like a fairytale.",
+   "good_to_know": "Asiatique sits on the old docks of the Danish-owned East Asiatic Company, whose port facilities here closed in 1947. The oldest surviving warehouse dates from 1907, and many now hold shops and restaurants. The complex opened in its present form on 27 April 2012.",
+   "stand_here_before_gps_rule": "Stand at the base of Asiatique Sky, on the west side of the wheel near the wheel entrance, and face the wheel so the river and city lights sit behind it. The main part of the complex is a short walk to the north-east."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Asiatique riverfront promenade, by the brick warehouses",
+     "detail": "on the riverside walkway with the brick warehouses behind you, standing sideways to the late-afternoon light",
+     "why": "Several posts say the brick warehouses take on strong diagonal light from about 4 to 5 PM, which gives clean texture behind a face.",
+     "sources": [
+      {
+       "title": "Best Photo Spots Around 4–5 PM @ Asiatique The Riverfront (Trip.com)",
+       "url": "https://th.trip.com/moments/detail/bangkok-191-144412627?locale=en-TH"
+      }
+     ]
+    },
+    {
+     "name": "Asiatique Sky Ferris wheel entrance",
+     "detail": "in front of the wheel entrance, with the glowing wheel structure behind you",
+     "why": "A travel guide suggests posing at the wheel entrance in front of its glowing structure, which puts the area's main landmark in the frame at night.",
+     "sources": [
+      {
+       "title": "Asiatique The Riverfront Travel Guide & Travel Experiences (Trip.com)",
+       "url": "https://www.trip.com/moments/poi-asiatique-the-riverfront-97364468/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "It can get crowded after sunset, so keep valuables secure.",
+   "notes": "The Ferris wheel is the main named feature, but no page explicitly says a visitor stands with the whole Asiatique complex behind them. The first selfie spot's 'warehouses behind you' is inferred from the lighting tips, not stated. The second entry places the landmark as the wheel, which is only part of Asiatique. No page names a spot where a passer-by should frame the whole complex, so ask_someone_spot is null. No page states selfie-stick or tripod rules; the tripod mention is only a suggestion for Loy Krathong night shots. Most sources are user-posted travel moments and SEO blogs, and I did not check the given coordinates against any page."
+  },
+  "cost_usd": 0.0623,
+  "at": "2026-11-17 10:08"
+ }
+}
