@@ -432,6 +432,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "willemstad",
+  "place": "Willemstad",
+  "country": "Curaçao",
+  "spots": 15,
+  "mb": 2.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "alesund",
   "place": "Ålesund",
   "country": "",
