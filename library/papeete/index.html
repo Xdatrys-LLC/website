@@ -1,0 +1,311 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Papeete Attractions Map: 6 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 6 best photo spots in Papeete, including Tahiti Temple and Parc Bougainville: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="papeete tahiti temple, bougainville park papeete, paofai gardens">
+<link rel="canonical" href="https://xdatrys.com/library/papeete/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Papeete Attractions Map: 6 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 6 best photo spots in Papeete, including Tahiti Temple and Parc Bougainville: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/papeete/">
+<meta property="og:image" content="https://xdatrys.com/library/papeete/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="375">
+<meta property="og:image:alt" content="Papeete Tahiti Temple, Papeete: a temple of the Church of Jesus Christ of Latter-day Saints. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/papeete/","url":"https://xdatrys.com/library/papeete/","name":"Papeete Attractions Map: 6 Best Photo Spots | Xdatrys","description":"Map of the 6 best photo spots in Papeete, including Tahiti Temple and Parc Bougainville: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/papeete/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Papeete"},"mainEntity":{"@type":"ItemList","name":"Papeete photo spots","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Papeete Tahiti Temple","description":"The Papeete Tahiti Temple is a temple of the Church of Jesus Christ of Latter-day Saints, and it makes a neat, colourful photo stop.","geo":{"@type":"GeoCoordinates","latitude":-17.5365851,"longitude":-149.5559185},"alternateName":["Papeete Temple"],"image":"https://xdatrys.com/library/papeete/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Parc Bougainville","description":"Parc Bougainville is a green park in the middle of Papeete, set directly across the avenue from the waterfront.","geo":{"@type":"GeoCoordinates","latitude":-17.54118,"longitude":-149.570233},"image":"https://xdatrys.com/library/papeete/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Paofai Gardens","description":"Paofai Gardens is a green park on Papeete's waterfront, with palm trees, lawns, ponds and a paved walkway along the lagoon edge.","geo":{"@type":"GeoCoordinates","latitude":-17.544511,"longitude":-149.576661},"alternateName":["Jardins de Paofai","Papeete Paofai"]}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/papeete/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Papeete","item":"https://xdatrys.com/library/papeete/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Papeete?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Tahiti Temple, Parc Bougainville and Paofai Gardens. They are ranked by how often people search for them. The full map has 6."}},{"@type":"Question","name":"Where should I stand to photograph Tahiti Temple?","acceptedAnswer":{"@type":"Answer","text":"Stand right at Tahiti Temple: the phone icon on the map marks the spot. Start with the default lens (1x) for the whole facade with the gardens and flags in front."}},{"@type":"Question","name":"When is the best time to photograph Parc Bougainville?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon towards sunset, when the lawns and trees can have the sky colours behind them. Earlier in the day is better for a plain, clear shot of the bust."}},{"@type":"Question","name":"How do I get to Paofai Gardens?","acceptedAnswer":{"@type":"Answer","text":"From central Papeete, head to Avenue Pouvana'a a Oopa and start."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Papeete</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/papeete/?gate" style="color:#E100FF">✏️ Review all 6 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>6 photo spots in Papeete: where to stand and how to shoot them on your phone</h1>
+  <p>6 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 3 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 6 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/papeete/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 6 photo spots in Papeete"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 6 of the most-searched sights in Papeete as photo spots, ranked by how often people search for them: Tahiti Temple, Parc Bougainville, Paofai Gardens, Papeete Town Hall and Papeete Cathedral lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Papeete Tahiti Temple</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Temple_mormon_Tahiti.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Papeete Tahiti Temple, Papeete: a temple of the Church of Jesus Christ of Latter-day Saints. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Saga70, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Papeete Tahiti Temple is a temple of the Church of Jesus Christ of Latter-day Saints, and it makes a neat, colourful photo stop. White walls, a blue tile roof and a single slender spire topped with a gold angel Moroni statue stand out against the tropical greenery and sky. The walls are stucco mixed with imported white sand, and the spire is about 66 feet (around 20 metres) tall. The design blends French and Polynesian touches. The temple was first dedicated in October 1983, then closed in 2005 for a major renovation and rededicated in November 2006. In 2009 the church bought the neighbouring land and added gardens, parking and a straightened access road, which means the building can now be seen from the street much more easily. That is good news for photographers, because the front view is the one to go for: the facade, with the flags and gardens in front and the spire rising behind. The grounds are described as open to visitors, with winding paths and neat gardens that frame the building. Take a wide shot first to show the whole temple, then move in for details such as the roof, the spire and the statue. Look for a clear patch of sky, as the white walls can look harsh in strong midday sun. Please keep to the paths, and be aware that taking photographs inside the temple is not allowed.</p>
+    <p><b>Where it is:</b> The temple stands in the commune of Pirae, just outside central Papeete, on the main-road side with its entrance and gardens. Its grounds sit next to a church meetinghouse.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole facade with the gardens and flags in front. Switch to the ultra-wide (0.5x) if you are close and the spire will not fit. Use telephoto (2x-5x, depending on your phone) for the spire and the gold statue.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. From here the temple&#39;s front facade fills the view, with the gardens and flags in the foreground, the blue roof, and the single spire topped by the gold Angel Moroni statue.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the spire on one of the vertical lines, keeping the building level. Use the flags or garden plants as a foreground layer to add depth. Hold the phone upright for the full height of the spire, then turn it sideways for a wider shot of the frontage. Tilting the phone up from close by will make the building lean back, so step back a little if you can and zoom in instead.</p>
+      <p><b>Settings tip:</b> Tap on the white wall to focus, then slide the exposure down a little so the walls keep their detail and the sky stays blue. For the gold statue, zoom in, tap on it and check that it is not washed out.</p>
+      <p><b>Best time:</b> Early morning or late afternoon, when guides recommend going for better light and quieter grounds.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Parc Bougainville</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Gabon_campaign_%271e_Compagnie_de_Chars_de_Combat_de_la_France_Libre%27.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Parc Bougainville, Papeete: a green park. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Unknown authorUnknown author, Public domain, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Parc Bougainville is a green park in the middle of Papeete, set directly across the avenue from the waterfront. It photographs well because the trees along the avenue form a natural frame around the park&#39;s edge, and the harbour is just behind you. Inside, the bronze bust of the navigator stands at the entrance, with the park&#39;s trees and cannons around it. That makes a good close-up with a bit of character. The lawns and trees are also a pleasant foreground if you come near sunset, when the sky can add colour behind them.</p><p>For an easy first picture, stand on Avenue du Général de Gaulle on the waterfront side and shoot across to the park&#39;s edge. Let the tree trunks and branches make a loose border, and keep the road low in the picture so the green is what you notice. Then cross over and go in for the bust and the cannons, which suit a tighter, more detailed shot.</p><p>A small warning: some areas of the park are a little worn, and it may look less tidy in person than in glossy photos. Frame to leave out bare patches and bins, and you&#39;ll get a calmer picture. Take care when standing near the avenue and watch for traffic.</p>
+    <p><b>Where it is:</b> In central Papeete, in the town-centre waterfront area. The park lies directly across Avenue du Général de Gaulle from the harbour front.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the park&#39;s edge framed by the trees. Switch to the ultra-wide (0.5x) if the pavement is narrow and you can&#39;t step back. Use telephoto (2x-5x, depending on your phone) for the bronze bust and the cannons.</p>
+      <p><b>Where to stand:</b> Stand on Avenue du Général de Gaulle (waterfront side, directly opposite the park). The park&#39;s edge framed by the trees along the avenue, with the harbour side behind the photographer. On the waterfront side, directly opposite the park. From here the park lies to the north-west, and the harbour is behind you. You see the park&#39;s edge framed by the trees along the avenue.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the line of the park&#39;s edge on the lower third. Let the trees along the avenue fill the sides and top as a frame. For a different view, go into the park and photograph the bronze bust at the entrance with the trees and cannons around it.</p>
+      <p><b>Settings tip:</b> Tap on the trees or the bust to set focus, then drag the exposure slider down slightly if the sky is bright, so the greens stay rich and the sky doesn&#39;t burn out. Use portrait mode on the bust if you want the background softly blurred.</p>
+      <p><b>Best time:</b> Late afternoon towards sunset, when the lawns and trees can have the sky colours behind them. Earlier in the day is better for a plain, clear shot of the bust.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Paofai Gardens</h3>
+    
+    <p>Paofai Gardens is a green park on Papeete&#39;s waterfront, with palm trees, lawns, ponds and a paved walkway along the lagoon edge. It suits a phone because it gives you several kinds of picture in one walk. The seafront promenade is the classic approach. On one side are the gardens and palms, and on the other is the open harbour with Moorea in the distance. Passing ferries make a good moving backdrop to the island. Inside the park, the ponds hold koi and aquatic plants, and the palms and greenery frame them nicely at close and middle range. Statues and memorials stand against the lawns, which gives you a more cultural picture of the place. Be aware that the harbour side can also show shipping docks and a cargo yard, which can spoil a frame. Point your phone toward Moorea and away from the port, and the picture stays calm and tropical. Late afternoon is recommended for the seascape, when the light turns soft and warm. Take a few steps back from the railing or kerb so the palms form a line leading into the picture. Playgrounds have reportedly been closed at times, so don&#39;t plan a picture around them.</p>
+    <p><b>Where it is:</b> Paofai Gardens lies in the Paofai area of Papeete, along the lagoon edge of the town. The waterfront promenade is Avenue Pouvana&#39;a a Oopa, with the harbour on the seaward side.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the promenade and the palms. Switch to the ultra-wide (0.5x) to take in the whole walkway with the sky. Use 2x or more, if your phone has it, to bring Moorea and the ferries closer.</p>
+      <p><b>Where to stand:</b> Stand on Avenue Pouvana&#39;a a Oopa (waterfront promenade along the lagoon edge of the gardens, looking out toward Moorea). Palm-lined paved walkway with the gardens on one side and the open harbour, shipping docks and Moorea in the distance on the other. On the waterfront promenade along the lagoon edge of the gardens. You will see the palm-lined paved walkway with the gardens on one side and the harbour and Moorea on the other.</p>
+      <p><b>Framing:</b> Turn your phone toward Moorea and keep the docks and cargo yard out of the frame. Turn on the gridlines and put the line of palms on one third of the frame, with the lagoon and Moorea on the other. For a different picture, go into the park for close and middle shots of the koi ponds, or for the statues and memorials against the lawns.</p>
+      <p><b>Settings tip:</b> Tap the sea or Moorea to focus, then slide the exposure down a little so the sky stays blue and the palms don&#39;t turn flat. Try a Live Photo when a ferry passes. Wipe the lens first, as sea air can leave a haze on it.</p>
+      <p><b>Best time:</b> Late afternoon, when the light is soft and warm.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>3 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Mairie de Papeete <small>· members</small></li>
+    <li><span class="n">5</span>Papeete Cathedral <small>· members</small></li>
+    <li><span class="n">6</span>Maison James Norman Hall <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Papeete?</summary><p>The first three on this map are Tahiti Temple, Parc Bougainville and Paofai Gardens. They are ranked by how often people search for them. The full map has 6.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Tahiti Temple?</summary><p>Stand right at Tahiti Temple: the phone icon on the map marks the spot. Start with the default lens (1x) for the whole facade with the gardens and flags in front.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Parc Bougainville?</summary><p>Late afternoon towards sunset, when the lawns and trees can have the sky colours behind them. Earlier in the day is better for a plain, clear shot of the bust.</p></details>
+  <details class="faq"><summary>How do I get to Paofai Gardens?</summary><p>From central Papeete, head to Avenue Pouvana&#39;a a Oopa and start.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Papeete_Tahiti_Temple" target="_blank" rel="noopener">Papeete Tahiti Temple</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"papeete","place":"Papeete","bounds":[-149.58,-17.552,-149.512,-17.515],"center":[-149.546,-17.5335],"english":false,"vatican":false,"tiles":"/r2tiles/papeete/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

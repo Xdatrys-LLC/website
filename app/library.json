@@ -424,6 +424,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "papeete",
+  "place": "Papeete",
+  "country": "French Polynesia",
+  "spots": 6,
+  "mb": 2.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "paris",
   "place": "Paris",
   "country": "France",

@@ -1,65 +1,6 @@
 [
  {
   "rank": 1,
-  "name": "Papeete Market",
-  "in_cut": true,
-  "label": "Papeete Market",
-  "camera_pill": "Rue François Cardella",
-  "nophone": false,
-  "searches": 1940,
-  "pin": [
-   -149.5674,
-   -17.5388
-  ],
-  "camera": [
-   -149.567333,
-   -17.538873
-  ],
-  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
-  "pin_note": "Position from Wikidata Q7132559: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "The city's main covered market, with flowers, pearls, crafts and food stalls.",
-  "text": {
-   "description": "Papeete Market, known locally as Marché Papeete or the municipal market, is a large market place in Papeete, the capital of Tahiti. It is a good place to photograph because the subjects are close at hand and full of colour: piles of fruit and vegetables, fish, oils, and stalls of handicrafts such as hats and handbags. Vendors also sell local textiles and handcrafted items like shell necklaces, so you can fill a whole set of pictures with small details as well as wider scenes.\n\nUse that spot for a first wide picture of the market and the activity around it, then walk in and look for details. Textiles and necklaces make cheerful close-ups, and a row of stalls gives a strong sense of the place.\n\nInside, the light can be mixed and the aisles can be busy, so work calmly and keep your phone steady against your body as you shoot. If a stallholder is the main subject of a picture, ask first and be ready to buy a small souvenir or simply say thank you. Check locally before you go for current opening arrangements.",
-   "geographic_location": "Papeete Market is in Papeete, the capital of Tahiti.",
-   "directions_text": "Head for Papeete, the capital of Tahiti. From there the market is 11 m to the north-west, so it is under a minute on foot. The phone icon on the map is about 10 m south-east of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for general views of the market and its stalls. Switch to ultra-wide (0.5x) for a more spacious view of the entrance or a busy aisle, and use telephoto (2x or more, depending on your phone) for details such as shell necklaces or fruit.",
-    "where_to_stand": "Stand about 10 m south-east of the subject, at the phone icon on the map, and face north-west. From here you can take a first wide shot before going closer.",
-    "how_to_frame": "Switch on the gridlines and place a line of stalls or a doorway along one of the lines for a tidy composition. For close-ups, fill the frame with one type of goods, such as bright fruit or a row of textiles, and keep other stalls soft in the background.",
-    "phone_settings_tip": "Tap to focus on your main subject, then slide the exposure control down slightly if bright areas look too pale. Portrait mode works well on stalls and products when nobody is directly in the frame; keep it away from people unless they have agreed.",
-    "best_time": "Morning is likely to be the liveliest time, with the most stalls busy. Check locally before you go for current times."
-   },
-   "access_note": "This is a public market; check locally before you go for current opening arrangements.",
-   "claims_not_in_sources": [
-    "Morning is probably the busiest and liveliest time at the market.",
-    "Lighting inside the market can be mixed, and aisles can be crowded.",
-    "It is polite to ask a stallholder before photographing them closely."
-   ]
-  },
-  "checker_problems": 4,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Papeete Market",
-    "url": "https://en.wikipedia.org/wiki/Papeete_Market"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/1.jpg",
-   "artist": "© Xdatrys LLC",
-   "licence": "",
-   "licence_url": "",
-   "source_url": "",
-   "from": "Own photo, taken 8 m from the phone icon",
-   "zoom": null
-  }
- },
- {
-  "rank": 2,
   "name": "Papeete Tahiti Temple",
   "in_cut": true,
   "label": "Tahiti Temple",
@@ -104,7 +45,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/2.jpg",
+   "file": "photos/1.jpg",
    "artist": "Saga70",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -113,7 +54,7 @@
   }
  },
  {
-  "rank": 3,
+  "rank": 2,
   "name": "Parc Bougainville",
   "in_cut": true,
   "label": "Parc Bougainville",
@@ -161,7 +102,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/3.jpg",
+   "file": "photos/2.jpg",
    "artist": "Unknown authorUnknown author",
    "licence": "Public domain",
    "licence_url": "",
@@ -170,7 +111,7 @@
   }
  },
  {
-  "rank": 4,
+  "rank": 3,
   "name": "Paofai Gardens",
   "in_cut": true,
   "label": "Paofai Gardens",
@@ -217,7 +158,7 @@
   "photo": null
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "Mairie de Papeete",
   "in_cut": true,
   "label": "Papeete Town Hall",
@@ -261,7 +202,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "Remi Jouan",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -270,7 +211,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Papeete Cathedral",
   "in_cut": true,
   "label": "Papeete Cathedral",
@@ -317,7 +258,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "unknown",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -326,7 +267,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Maison James Norman Hall",
   "in_cut": true,
   "label": "James Norman Hall Hous",
@@ -370,7 +311,66 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 8 m from the phone icon",
+   "zoom": null
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Papeete Market",
+  "in_cut": false,
+  "label": "Papeete Market",
+  "camera_pill": "Rue François Cardella",
+  "nophone": false,
+  "searches": 1940,
+  "pin": [
+   -149.5674,
+   -17.5388
+  ],
+  "camera": [
+   -149.567333,
+   -17.538873
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from Wikidata Q7132559: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "The city's main covered market, with flowers, pearls, crafts and food stalls.",
+  "text": {
+   "description": "Papeete Market, known locally as Marché Papeete or the municipal market, is a large market place in Papeete, the capital of Tahiti. It is a good place to photograph because the subjects are close at hand and full of colour: piles of fruit and vegetables, fish, oils, and stalls of handicrafts such as hats and handbags. Vendors also sell local textiles and handcrafted items like shell necklaces, so you can fill a whole set of pictures with small details as well as wider scenes.\n\nUse that spot for a first wide picture of the market and the activity around it, then walk in and look for details. Textiles and necklaces make cheerful close-ups, and a row of stalls gives a strong sense of the place.\n\nInside, the light can be mixed and the aisles can be busy, so work calmly and keep your phone steady against your body as you shoot. If a stallholder is the main subject of a picture, ask first and be ready to buy a small souvenir or simply say thank you. Check locally before you go for current opening arrangements.",
+   "geographic_location": "Papeete Market is in Papeete, the capital of Tahiti.",
+   "directions_text": "Head for Papeete, the capital of Tahiti. From there the market is 11 m to the north-west, so it is under a minute on foot. The phone icon on the map is about 10 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for general views of the market and its stalls. Switch to ultra-wide (0.5x) for a more spacious view of the entrance or a busy aisle, and use telephoto (2x or more, depending on your phone) for details such as shell necklaces or fruit.",
+    "where_to_stand": "Stand about 10 m south-east of the subject, at the phone icon on the map, and face north-west. From here you can take a first wide shot before going closer.",
+    "how_to_frame": "Switch on the gridlines and place a line of stalls or a doorway along one of the lines for a tidy composition. For close-ups, fill the frame with one type of goods, such as bright fruit or a row of textiles, and keep other stalls soft in the background.",
+    "phone_settings_tip": "Tap to focus on your main subject, then slide the exposure control down slightly if bright areas look too pale. Portrait mode works well on stalls and products when nobody is directly in the frame; keep it away from people unless they have agreed.",
+    "best_time": "Morning is likely to be the liveliest time, with the most stalls busy. Check locally before you go for current times."
+   },
+   "access_note": "This is a public market; check locally before you go for current opening arrangements.",
+   "claims_not_in_sources": [
+    "Morning is probably the busiest and liveliest time at the market.",
+    "Lighting inside the market can be mixed, and aisles can be crowded.",
+    "It is polite to ask a stallholder before photographing them closely."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Papeete Market",
+    "url": "https://en.wikipedia.org/wiki/Papeete_Market"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
