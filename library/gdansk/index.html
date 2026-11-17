@@ -1,0 +1,319 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Gdansk Attractions Map: 17 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 17 best photo spots in Gdansk, including Neptune&#39;s Fountain and St. Mary&#39;s Church: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="bazylika mariacka, gdansk artus court, gdansk main town hall">
+<link rel="canonical" href="https://xdatrys.com/library/gdansk/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Gdansk Attractions Map: 17 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 17 best photo spots in Gdansk, including Neptune&#39;s Fountain and St. Mary&#39;s Church: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/gdansk/">
+<meta property="og:image" content="https://xdatrys.com/library/gdansk/photos/2.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/gdansk/","url":"https://xdatrys.com/library/gdansk/","name":"Gdansk Attractions Map: 17 Best Photo Spots | Xdatrys","description":"Map of the 17 best photo spots in Gdansk, including Neptune's Fountain and St. Mary's Church: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/gdansk/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Gdansk"},"mainEntity":{"@type":"ItemList","name":"Gdansk photo spots","numberOfItems":17,"itemListElement":[{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"St. Mary's Church","description":"St.","geo":{"@type":"GeoCoordinates","latitude":54.3498202,"longitude":18.6530656},"alternateName":["Gdansk St Mary's Church","Bazylika Mariacka"],"image":"https://xdatrys.com/library/gdansk/photos/2.jpg"}},{"@type":"ListItem","position":6,"item":{"@type":"TouristAttraction","name":"Artus Court","description":"Artus Court is the grand merchants' meeting house on Długi Targ (the Long Market), in the middle of Gdańsk's historic centre.","geo":{"@type":"GeoCoordinates","latitude":54.3488067,"longitude":18.6533948},"alternateName":["Gdansk Artus Court","Dwor Artusa"],"image":"https://xdatrys.com/library/gdansk/photos/6.jpg"}},{"@type":"ListItem","position":9,"item":{"@type":"TouristAttraction","name":"Main Town Hall","description":"Gdansk's Main Town Hall closes the far end of the Long Market, and its slim tower is the second-highest in the Main City after St Mary's Church.","geo":{"@type":"GeoCoordinates","latitude":54.3489005,"longitude":18.652697},"alternateName":["Gdansk Main Town Hall","Ratusz Glownego Miasta","Gdansk Town Hall"],"image":"https://xdatrys.com/library/gdansk/photos/9.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/gdansk/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Gdansk","item":"https://xdatrys.com/library/gdansk/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Gdansk?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Neptune's Fountain, St. Mary's Church and WWII Museum. They are ranked by how often people search for them. The full map has 17."}},{"@type":"Question","name":"Where should I stand to photograph St. Mary's Church?","acceptedAnswer":{"@type":"Answer","text":"Stand on ulica Mariacka (looking back up the street from the Motława end, toward the church). Start with the default lens (1x) to get the street and the church together."}},{"@type":"Question","name":"When is the best time to photograph Artus Court?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon or evening, for golden-hour light and the lit-up façade."}},{"@type":"Question","name":"How do I get to Main Town Hall?","acceptedAnswer":{"@type":"Answer","text":"Head for the Main City, the old town centre of Gdansk, and finish the journey on foot, since ulica Długa is pedestrianised all year."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Gdansk</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/gdansk/?gate" style="color:#E100FF">✏️ Review all 17 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>17 photo spots in Gdansk: where to stand and how to shoot them on your phone</h1>
+  <p>17 photo spots on one map. Spots 2, 6 and 9 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 14 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 17 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/gdansk/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 17 photo spots in Gdansk"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 17 of the most-searched sights in Gdansk as photo spots, ranked by how often people search for them: Neptune&#39;s Fountain, St. Mary&#39;s Church, WWII Museum, Solidarity Centre and Long Market lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>St. Mary&#39;s Church</h3>
+    <figure><img src="photos/2.jpg" alt="St. Mary&#39;s Church, Gdansk: the huge brick church that dominates central Gdańsk. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>St. Mary&#39;s Church is the huge brick church that dominates central Gdańsk. It was completed in 1502 in the Brick Gothic style and is counted among the largest brick churches in the world. Locals call it the Crown of Gdańsk. The building is about 105 metres long, so from close by it is too big to fit in one frame. That is why the street approach works so well. The best classic view is along ulica Mariacka, a cobbled street that runs from the church down towards the Motława river. Looking along it towards the church, the dark brick walls close off the end of the street, with house fronts and porches on either side acting as a natural frame. The church has a long history. Building began on the present church in 1379, and the Baroque Royal Chapel next to it was finished in 1681. For a phone photo, keep the church in the middle of the frame and let the street lead the eye towards it. Hold the phone level, because tilting it upwards makes the tower lean. Wait a moment for people to pass, or include a few of them to show the scale of the street. The tower viewing terrace is a separate, ticketed experience and not part of this ground-level view, so check the official site before you go if you want to go up.</p>
+    <p><b>Where it is:</b> In central Gdańsk, at the head of ulica Mariacka, which runs down towards the Motława river.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to get the street and the church together. Switch to ultra-wide (0.5x) if you want more of the house fronts and the tower. Use 2x or more if your phone has a telephoto lens, for a tighter shot of the church closing off the street.</p>
+      <p><b>Where to stand:</b> Stand on ulica Mariacka (looking back up the street from the Motława end, toward the church). The brick church closes the end of the cobbled street, framed by the historic house fronts and porches on either side. The brick church closes the end of the cobbled street, framed by the historic house fronts and porches on either side.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the street in the centre, so the church sits at the vanishing point and the house fronts balance left and right. Keep the phone upright and level so the verticals stay straight. For a different angle, try ulica Piwna, where narrow facades lead the eye towards the tower.</p>
+      <p><b>Settings tip:</b> Tap on the church to set focus, then slide the exposure down a little if the sky is bright, so the brick keeps its colour. If people are walking through, a Live Photo lets you pick the frame with the fewest passers-by.</p>
+      <p><b>Best time:</b> Early in the morning is usually calmer on the street. In the afternoon the church may be backlit, so check the screen and adjust the exposure.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-6">
+    <h3><span class="n">6</span>Artus Court</h3>
+    <figure><img src="photos/6.jpg" alt="Artus Court, Gdansk: the grand merchants&#39; meeting house on Długi Targ (the Long Market). Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Artus Court is the grand merchants&#39; meeting house on Długi Targ (the Long Market), in the middle of Gdańsk&#39;s historic centre. It was once the place where wealthy traders and visiting foreigners gathered in the evenings, and today it is a branch of the Gdańsk History Museum. It photographs well because the tall, richly decorated front rises straight out of the pedestrian square, and Neptune&#39;s Fountain stands just in front of it, which gives you a natural foreground. The façade was rebuilt in 1617 by Abraham van den Blocke in the style of Dutch Mannerism. It carries statues of antique heroes, allegories of strength and justice, and a figure of Fortuna on the gable. Inside is a Gothic hall with an 11-metre tiled stove made in the 1540s. The building was badly damaged in 1945 and rebuilt after the war. For the classic view, stand on the square with the fountain in front of you and the façade rising behind it. Then step closer and use zoom to pick out the statues and portal medallions. The square is busy in peak season, so a patient pause between groups helps. If you plan to go inside, check the official site before you go.</p>
+    <p><b>Where it is:</b> Artus Court stands at Długi Targ 44, in the centre of Gdańsk, on the Long Market. Neptune&#39;s Fountain is on the same square, directly in front of it.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the default lens (1x) for the classic view of fountain and façade together. Switch to the ultra-wide (0.5x) only if the square is crowded and you cannot step back. Use the telephoto (2x or more, depending on your phone) for the statues and gable details.</p>
+      <p><b>Where to stand:</b> Stand in Długi Targ (in front of the court, with Neptune&#39;s Fountain in the foreground). The classic postcard view: Neptune&#39;s Fountain in the foreground with the ornate Artus Court facade rising across the Long Market. Face north-west so Neptune&#39;s Fountain sits in the foreground and the ornate Artus Court façade rises across the Long Market behind it.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the fountain on the lower third, with the façade filling the upper part. Keep your phone level so the building&#39;s vertical lines stay straight. Then zoom in for a second shot of the statues and the portal. This is the only viewpoint we recommend for the exterior.</p>
+      <p><b>Settings tip:</b> Tap on the façade to set focus, then drag the exposure slider down a little so the sky does not wash out and the carved detail stays clear. In the evening, try night mode and hold the phone steady against your body or a solid surface.</p>
+      <p><b>Best time:</b> Late afternoon or evening, for golden-hour light and the lit-up façade.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(6)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-9">
+    <h3><span class="n">9</span>Main Town Hall</h3>
+    <figure><img src="photos/9.jpg" alt="Main Town Hall, Gdansk: the second-highest in the Main City after St Mary&#39;s Church. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Gdansk&#39;s Main Town Hall closes the far end of the Long Market, and its slim tower is the second-highest in the Main City after St Mary&#39;s Church. The building is Gothic-Renaissance in style. The oldest fragments date from 1327 to 1336, and the tower went up between 1486 and 1488. After a fire in 1556 the building was rebuilt with Renaissance touches by Dutch architects, and in 1561 a gilded weathervane figure of King Sigismund II Augustus was set on top. The town hall was badly damaged in the Second World War, including the loss of the top of the tower, and was largely rebuilt by 1952. Today it houses the city&#39;s history museum.</p><p>It photographs well because of the setting. From the Neptune Fountain end of the Long Market you get the tower at the end of the square, the fountain close by and the colourful tenement facades down both sides. That gives you a foreground, a middle and a clear focal point in one frame. Go early if you can. Café parasols and outdoor seating can clutter the scene in summer, and the square is far emptier at sunrise. Two other angles are worth a look: ulica Długa, with the facade at the end of a row of townhouses, and ulica Chlebnicka, which frames the town hall between its buildings. You do not need to climb the tower for any of these ground-level shots.</p>
+    <p><b>Where it is:</b> In the Main City (Główne Miasto) part of Gdansk&#39;s old town, where ulica Długa meets the Long Market (Długi Targ). It stands on the Royal Route, a short walk from the Neptune Fountain.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the classic view down the square. Switch to the ultra-wide (0.5x) if you want the fountain and the facades large in the foreground. A 2x or 3x telephoto lens, if your phone has one, isolates the tower and weathervane.</p>
+      <p><b>Where to stand:</b> Stand in Długi Targ (from the Neptune Fountain end of the square, facing the town hall). The town hall tower closing the far end of the Long Market, with the Neptune Fountain and the colourful tenement facades in the foreground. At the Neptune Fountain end of the square, facing the town hall. From here the tower closes the far end of the Long Market, with the fountain and the colourful tenement facades in the foreground. Alternatives are ulica Długa, for the facade at the end of the townhouse row, and ulica Chlebnicka, where the buildings frame the town hall. For Chlebnicka you may need to walk the street to find the framing.</p>
+      <p><b>Framing:</b> Turn on the gridlines and put the tower on a vertical line so it stands straight. Keep the fountain low in the frame as a foreground. Hold the phone level, because tilting it up makes the buildings lean inwards. If people or parasols clutter the frame, wait a moment or move a few steps sideways.</p>
+      <p><b>Settings tip:</b> Tap on the tower to set focus, then drag the exposure slider down a little so the sky keeps its colour and the facades are not washed out. Take a few frames in a row, as people keep walking through the shot.</p>
+      <p><b>Best time:</b> Sunrise, before the visitors and outdoor seating arrive. After rain, ulica Długa gives reflections on the wet paving.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(9)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>14 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">1</span>Neptune&#39;s Fountain <small>· members</small></li>
+    <li><span class="n">3</span>Museum of the Second World War <small>· members</small></li>
+    <li><span class="n">4</span>European Solidarity Centre <small>· members</small></li>
+    <li><span class="n">5</span>Long Market (Długi Targ) <small>· members</small></li>
+    <li><span class="n">7</span>Mariacka Street <small>· members</small></li>
+    <li><span class="n">8</span>Gdańsk Crane <small>· members</small></li>
+    <li><span class="n">10</span>Great Armoury <small>· members</small></li>
+    <li><span class="n">11</span>Golden Gate <small>· members</small></li>
+    <li><span class="n">12</span>Green Gate <small>· members</small></li>
+    <li><span class="n">13</span>Long Street (Długa) <small>· members</small></li>
+    <li><span class="n">14</span>Basilica of St. Nicholas <small>· members</small></li>
+    <li><span class="n">15</span>Prison Tower and Torture Chamber <small>· members</small></li>
+    <li><span class="n">16</span>Granary Island <small>· members</small></li>
+    <li><span class="n">17</span>SS Sołdek <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Gdansk?</summary><p>The first three on this map are Neptune&#39;s Fountain, St. Mary&#39;s Church and WWII Museum. They are ranked by how often people search for them. The full map has 17.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph St. Mary&#39;s Church?</summary><p>Stand on ulica Mariacka (looking back up the street from the Motława end, toward the church). Start with the default lens (1x) to get the street and the church together.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Artus Court?</summary><p>Late afternoon or evening, for golden-hour light and the lit-up façade.</p></details>
+  <details class="faq"><summary>How do I get to Main Town Hall?</summary><p>Head for the Main City, the old town centre of Gdansk, and finish the journey on foot, since ulica Długa is pedestrianised all year.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/St._Mary%27s_Church%2C_Gda%C5%84sk" target="_blank" rel="noopener">St. Mary&#39;s Church, Gdańsk</a>, <a href="https://en.wikipedia.org/wiki/Artus_Court" target="_blank" rel="noopener">Artus Court</a>, <a href="https://en.wikipedia.org/wiki/Main_City_Hall" target="_blank" rel="noopener">Main City Hall</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"gdansk","place":"Gdansk","bounds":[18.642,54.344,18.664,54.363],"center":[18.653,54.3535],"english":false,"vatican":false,"tiles":"/r2tiles/gdansk/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"2, 6 and 9"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

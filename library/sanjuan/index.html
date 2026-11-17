@@ -1,0 +1,325 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>San Juan Attractions Map: 18 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A San Juan tourist map of 18 top photo spots, including El Morro, La Fortaleza and Isla Verde Beach. Where to stand, phone tips, directions. First 3 free.">
+<meta name="keywords" content="things to do in san juan, san juan attractions, san juan tourist map, castillo san felipe del morro, isla verde beach, castillo san cristobal">
+<link rel="canonical" href="https://xdatrys.com/library/sanjuan/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="San Juan Attractions Map: 18 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A San Juan tourist map of 18 top photo spots, including El Morro, La Fortaleza and Isla Verde Beach. Where to stand, phone tips, directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/sanjuan/">
+<meta property="og:image" content="https://xdatrys.com/library/sanjuan/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="314">
+<meta property="og:image:alt" content="Castillo San Felipe del Morro, San Juan: the great stone fortress at the north-western tip of Old San Juan. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/sanjuan/","url":"https://xdatrys.com/library/sanjuan/","name":"San Juan Attractions Map: 18 Best Photo Spots | Xdatrys","description":"A San Juan tourist map of 18 top photo spots, including El Morro, La Fortaleza and Isla Verde Beach. Where to stand, phone tips, directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/sanjuan/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"San Juan"},"mainEntity":{"@type":"ItemList","name":"San Juan photo spots","numberOfItems":18,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Castillo San Felipe del Morro","description":"El Morro is the great stone fortress at the north-western tip of Old San Juan, standing on a steep headland where the Atlantic meets the entrance to San Juan Bay.","geo":{"@type":"GeoCoordinates","latitude":18.4709137,"longitude":-66.1241687},"alternateName":["San Juan el Morro"],"image":"https://xdatrys.com/library/sanjuan/photos/1.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Isla Verde Beach","description":"Isla Verde Beach is the long stretch of sand in front of one of the main tourist and resort areas of the San Juan metropolitan area.","geo":{"@type":"GeoCoordinates","latitude":18.4437448,"longitude":-66.0256004},"alternateName":["San Juan Isla Verde"],"image":"https://xdatrys.com/library/sanjuan/photos/3.jpg"}},{"@type":"ListItem","position":4,"item":{"@type":"TouristAttraction","name":"Castillo San Cristóbal","description":"Castillo San Cristóbal is the big stone fort on the Atlantic side of Old San Juan.","geo":{"@type":"GeoCoordinates","latitude":18.467374,"longitude":-66.110699},"alternateName":["San Juan San Cristobal","Fort San Cristobal"],"image":"https://xdatrys.com/library/sanjuan/photos/4.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/sanjuan/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"San Juan","item":"https://xdatrys.com/library/sanjuan/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in San Juan?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are El Morro, La Fortaleza and Isla Verde Beach. They are ranked by how often people search for them. The full map has 18."}},{"@type":"Question","name":"Where should I stand to photograph El Morro?","acceptedAnswer":{"@type":"Answer","text":"Stand on Paseo del Morro (the paved walkway that runs along the sea wall from the Raíces side up to the fort). Start with the default lens (1x) for a natural view of the fort."}},{"@type":"Question","name":"When is the best time to photograph Isla Verde Beach?","acceptedAnswer":{"@type":"Answer","text":"Afternoon is best for the planes over the beach. For the beach and hotel skyline lit by early sunlight, go in the early morning."}},{"@type":"Question","name":"How do I get to San Cristóbal Fort?","acceptedAnswer":{"@type":"Answer","text":"No station or tram stop is listed for this spot, so start from Old San Juan on foot."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › San Juan</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/sanjuan/?gate" style="color:#E100FF">✏️ Review all 18 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>18 photo spots in San Juan: where to stand and how to shoot them on your phone</h1>
+  <p>18 photo spots on one map. Spots 1, 3 and 4 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 15 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 18 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/sanjuan/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 18 photo spots in San Juan"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 18 of the most-searched sights in San Juan as photo spots, ranked by how often people search for them: El Morro, La Fortaleza, Isla Verde Beach, San Cristóbal Fort and Paseo de la Princesa lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Castillo San Felipe del Morro</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Castillo_San_Felipe_del_Morro3.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Castillo San Felipe del Morro, San Juan: the great stone fortress at the north-western tip of Old San Juan. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Joshua Wood, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>El Morro is the great stone fortress at the north-western tip of Old San Juan, standing on a steep headland where the Atlantic meets the entrance to San Juan Bay. Building began in 1539 as a fortified tower, and by 1595 it had grown into a larger bastion fort. Work carried on for roughly two more centuries, and it reached its present form in 1787. The walls rise about 43 metres from the shoreline and are several metres thick, which is why the fort looks so solid in a photo. UNESCO listed it as a World Heritage Site in 1983.</p><p>It photographs well because the fort, the sea wall, the surf and the green slope can all sit in one frame. From here the fort is just to the east, close up and seen from the water side. Guides describe it as quieter than the main lawn, with clean backgrounds and good light towards sunset. The walkway can be reached on foot from the Paseo de la Princesa end. If you want a second view, the lawn in front of the fort shows the stone facade and lighthouse above the grass, with the horizon behind. Plaza del Quinto Centenario gives a higher angle back towards the castle from the city side.</p>
+    <p><b>Where it is:</b> In the Old San Juan historic quarter, on the north-western point of the old city&#39;s islet, where the headland guards the entrance to San Juan Bay. The Paseo del Morro walkway runs along the sea wall below the fort.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for a natural view of the fort. Switch to ultra-wide (0.5x) to fit the wall, surf and green slope into one frame. Use telephoto (2x-5x, depending on your phone) for details such as the lighthouse or the stonework.</p>
+      <p><b>Where to stand:</b> Stand on Paseo del Morro (the paved walkway that runs along the sea wall from the Raíces side up to the fort). The fort seen close up from the water side, with the wall, the surf and the lush slope in one frame. The fort is to the east of you. From here you see it close up from the water side, with the wall, the surf and the lush slope together.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the sea wall along a lower line so the fort rises above it. Keep the horizon level. For a different view, try the lawn in front of the fort, which shows the facade and lighthouse above the grass, or Plaza del Quinto Centenario for a higher angle looking back at the castle.</p>
+      <p><b>Settings tip:</b> Tap on the fort&#39;s stone to set focus, then drag the exposure slider down a little so the sky keeps its colour. Take a few Live Photos or short bursts where the surf hits the wall, then pick the best frame. Wipe your lens first, as sea air can leave a film on it.</p>
+      <p><b>Best time:</b> Sunset, according to several guides, when the walkway and lawn are the best places to be.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Isla Verde Beach</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Islaverdeskyline.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Isla Verde Beach, San Juan: the long stretch of sand in front of one. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Coolcaesar at English Wikipedia, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Isla Verde Beach is the long stretch of sand in front of one of the main tourist and resort areas of the San Juan metropolitan area. The name means &#34;green island&#34; in Spanish, after a small cay and reef a little way off the shore. The district is packed with hotels and condominiums, so you get a wide curve of golden sand and turquoise water with a skyline of buildings behind it. The beach also sits right next to Luis Muñoz Marín International Airport, so planes come in low over the water on their final approach. That means a passing aircraft can be your subject. Isla Verde is officially part of the municipality of Carolina, although it shares its coastline with Ocean Park and Condado, which are part of San Juan. For photos, stand on the sand near the waterline and decide first whether you want the planes or the beach and hotels. For the planes, wait for one to appear and keep plenty of sky above the sand. For the beach itself, keep the waves in the foreground and the hotel line on the far side. Parking nearby is reported to be difficult, so plan how you will arrive.</p>
+    <p><b>Where it is:</b> Isla Verde lies on the Atlantic coast east of Ocean Park and Condado, between the San Juan side of the metropolitan area and Piñones. It is technically in the municipality of Carolina, and the airport sits just to its south.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the ultra-wide (0.5x) for the long beach and the hotel skyline, and the default lens (1x) for a planes-over-the-sand view. If your phone has telephoto/zoom (2x-5x), it brings an approaching aircraft closer, but keep some sky around it.</p>
+      <p><b>Where to stand:</b> Stand about 490 m south-east of the subject, at the phone icon on the map, and face north-west. Stand on Playa Isla Verde, on the sand facing northeast toward the airport approach path, with the sea and the beach in front of you. From the shoreline you can frame low aircraft on final approach to Luis Muñoz Marín Airport against the sky above the beach.</p>
+      <p><b>Framing:</b> Turn on gridlines and put the horizon on the lower line, leaving two thirds of the frame for sky, so a plane has room to cross it. Tap on the plane or the sky to focus, then drag the exposure slider down slightly so the aircraft stays crisp and the sky keeps its colour. For a different view, shoot along the sand with the ultra-wide (0.5x), keeping the turquoise water in the foreground and the hotels on the far side. Balneario del Escambrón is an alternative viewpoint from further along the coast, showing the Condado/Ocean Park and Isla Verde waterfront from a distance.</p>
+      <p><b>Settings tip:</b> Take several shots as each plane passes, because the moment goes quickly. Check your first photo and adjust the exposure slider if the sky is washed out or the aircraft looks too dark.</p>
+      <p><b>Best time:</b> Afternoon is best for the planes over the beach. For the beach and hotel skyline lit by early sunlight, go in the early morning.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-4">
+    <h3><span class="n">4</span>Castillo San Cristóbal</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Fort_San_Crist%C3%B3bal_(Puerto_Rico)_-_IMG_0173.JPG" target="_blank" rel="noopener"><img src="photos/4.jpg" alt="Castillo San Cristóbal, San Juan: the big stone fort on the Atlantic side of Old San Juan. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Daderot, Public domain, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Castillo San Cristóbal is the big stone fort on the Atlantic side of Old San Juan. For a phone photo, the best subject here is the Garita del Diablo, a small sentry box that juts out over the cliff at the sea&#39;s edge. It is the most photographed feature on the ocean side of the fort. It works well because it is a simple, strong shape with nothing behind it but the Atlantic, so there is little clutter to manage. The usual shot is taken from the rampart, looking back at the sentry box, with the sea filling the background. The grounds, ramparts and sentry box are part of a ticketed National Park Service site, so plan to go in rather than shoot from outside. Opening times can vary, so check the official site for current hours and tickets before you go. Start with the default lens (1x) so you can see the whole sentry box against the sea, then step back and try 2x for a tighter, flatter view. Tap the sentry box to focus, then slide the exposure down a little if the sky is washing out. Keep well back from the edge, and keep one hand firmly on the phone. If you want a second picture, the fort also gives a wide view over the rooftops of Old San Juan, the harbour and the Atlantic horizon. Plaza de Colón, which is free, shows the fort as a large stone mass at the end of the streets.</p>
+    <p><b>Where it is:</b> Castillo San Cristóbal is in Old San Juan, on the Atlantic-facing side of the old town. The Garita del Diablo shot is described separately: it is taken from the rampart, looking back at the sentry box.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to take in the whole sentry box and the sea behind it. Switch to 2x for a tighter shot that takes in less of the wall around it. Use the ultra-wide (0.5x) only if you want the whole rampart and sweep of coast in the frame.</p>
+      <p><b>Where to stand:</b> Stand right at the subject (outside the seaward wall, shot from the rampart looking back at the sentry box). The small sentry box jutting out over the cliff at the sea&#39;s edge, with the Atlantic filling the background. For the Garita del Diablo shot, stand on the rampart and look back at the sentry box, which sits out over the cliff, outside the seaward wall. The box should fill part of the frame, with the Atlantic filling the background behind it.</p>
+      <p><b>Framing:</b> Switch on the gridlines and place the sentry box on one of the thirds, leaving the open sea and sky on the other side. Keep the horizon level. For a different view, the fort also gives a wide panorama over the Old San Juan rooftops and harbour, or you can shoot the fort from Plaza de Colón.</p>
+      <p><b>Settings tip:</b> Tap the sentry box to lock focus, then drag the exposure slider down slightly so the sky keeps its colour and the stone keeps its detail. Take a few frames, because sea wind can make a handheld phone shake.</p>
+      <p><b>Best time:</b> Early morning, before the crowds arrive, gives the best chance of empty ramparts. Check the current opening time on the official site first.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(4)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>15 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">2</span>La Fortaleza <small>· members</small></li>
+    <li><span class="n">5</span>Paseo de la Princesa <small>· members</small></li>
+    <li><span class="n">6</span>San Juan Gate <small>· members</small></li>
+    <li><span class="n">7</span>Cathedral of San Juan Bautista <small>· members</small></li>
+    <li><span class="n">8</span>Santa María Magdalena de Pazzis Cemetery <small>· members</small></li>
+    <li><span class="n">9</span>San José Church <small>· members</small></li>
+    <li><span class="n">10</span>Calle del Cristo and Christ Chapel <small>· members</small></li>
+    <li><span class="n">11</span>Puerto Rico Capitol <small>· members</small></li>
+    <li><span class="n">12</span>Casa Blanca <small>· members</small></li>
+    <li><span class="n">13</span>Calle Fortaleza <small>· members</small></li>
+    <li><span class="n">14</span>Museo de Arte de Puerto Rico <small>· members</small></li>
+    <li><span class="n">15</span>La Perla <small>· members</small></li>
+    <li><span class="n">16</span>Plaza de Armas <small>· members</small></li>
+    <li><span class="n">17</span>Plaza de Colón <small>· members</small></li>
+    <li><span class="n">18</span>Dos Hermanos Bridge <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in San Juan?</summary><p>The first three on this map are El Morro, La Fortaleza and Isla Verde Beach. They are ranked by how often people search for them. The full map has 18.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph El Morro?</summary><p>Stand on Paseo del Morro (the paved walkway that runs along the sea wall from the Raíces side up to the fort). Start with the default lens (1x) for a natural view of the fort.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Isla Verde Beach?</summary><p>Afternoon is best for the planes over the beach. For the beach and hotel skyline lit by early sunlight, go in the early morning.</p></details>
+  <details class="faq"><summary>How do I get to San Cristóbal Fort?</summary><p>No station or tram stop is listed for this spot, so start from Old San Juan on foot.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Castillo_San_Felipe_del_Morro" target="_blank" rel="noopener">Castillo San Felipe del Morro</a>, <a href="https://en.wikipedia.org/wiki/Isla_Verde%2C_Puerto_Rico" target="_blank" rel="noopener">Isla Verde, Puerto Rico</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"sanjuan","place":"San Juan","bounds":[-66.135,18.44,-66.005,18.48],"center":[-66.07,18.46],"english":false,"vatican":false,"tiles":"/r2tiles/sanjuan/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 3 and 4"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

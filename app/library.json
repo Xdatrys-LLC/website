@@ -72,6 +72,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "gdansk",
+  "place": "Gdansk",
+  "country": "Poland",
+  "spots": 17,
+  "mb": 3.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "helsinki",
   "place": "Helsinki",
   "country": "",
@@ -184,6 +192,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "sanjuan",
+  "place": "San Juan",
+  "country": "Puerto Rico",
+  "spots": 18,
+  "mb": 6.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "santafe",
   "place": "Santa Fe",
   "country": "New Mexico United States USA",
@@ -245,6 +261,14 @@
   "country": "Vatican City Rome Italy",
   "spots": 8,
   "mb": 5.3,
+  "photo": "photos/1.jpg"
+ },
+ {
+  "key": "losangeles",
+  "place": "Venice Beach",
+  "country": "United States",
+  "spots": 12,
+  "mb": 3.3,
   "photo": "photos/1.jpg"
  },
  {

@@ -124,23 +124,23 @@
   "nophone": false,
   "searches": 15000,
   "pin": [
-   -66.02222222,
-   18.44361111
+   -66.0256004,
+   18.4437448
   ],
   "camera": [
    -66.022293,
    18.440708
   ],
   "camera_source": "Researched viewpoint 'Playa Isla Verde' (2 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from the Wikipedia article 'Isla Verde, Puerto Rico' (found by searching for the spot's name).",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-16: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Popular wide beach beside the airport and the hotels.",
   "text": {
    "description": "Isla Verde Beach is the long stretch of sand in front of one of the main tourist and resort areas of the San Juan metropolitan area. The name means \"green island\" in Spanish, after a small cay and reef a little way off the shore. The district is packed with hotels and condominiums, so you get a wide curve of golden sand and turquoise water with a skyline of buildings behind it. The beach also sits right next to Luis Muñoz Marín International Airport, so planes come in low over the water on their final approach. That means a passing aircraft can be your subject. Isla Verde is officially part of the municipality of Carolina, although it shares its coastline with Ocean Park and Condado, which are part of San Juan. For photos, stand on the sand near the waterline and decide first whether you want the planes or the beach and hotels. For the planes, wait for one to appear and keep plenty of sky above the sand. For the beach itself, keep the waves in the foreground and the hotel line on the far side. Parking nearby is reported to be difficult, so plan how you will arrive.",
    "geographic_location": "Isla Verde lies on the Atlantic coast east of Ocean Park and Condado, between the San Juan side of the metropolitan area and Piñones. It is technically in the municipality of Carolina, and the airport sits just to its south.",
-   "directions_text": "No Underground, tram or rail stops are listed for this spot, so start from Condado or Old San Juan and go east by taxi, or by AMA bus 5 or 53 to the Isla Verde bus terminal (about 1 hour from Old San Juan). Isla Verde is roughly 3 to 6 miles (4.8 to 9.7 km) east of those areas. Parking is reported to be difficult, so a taxi is the easier choice. Once on the beach, the subject is about 5 minutes on foot north of the phone icon on the map. The phone icon on the map is about 320 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground, tram or rail stops are listed for this spot, so start from Condado or Old San Juan and go east by taxi, or by AMA bus 5 or 53 to the Isla Verde bus terminal (about 1 hour from Old San Juan). Isla Verde is roughly 3 to 6 miles (4.8 to 9.7 km) east of those areas. Parking is reported to be difficult, so a taxi is the easier choice. The phone icon on the map is about 490 m south-east of the subject. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the ultra-wide (0.5x) for the long beach and the hotel skyline, and the default lens (1x) for a planes-over-the-sand view. If your phone has telephoto/zoom (2x-5x), it brings an approaching aircraft closer, but keep some sky around it.",
-    "where_to_stand": "Stand about 320 m south of the subject, at the phone icon on the map, and face north. Stand on Playa Isla Verde, on the sand facing northeast toward the airport approach path, with the sea and the beach in front of you. From the shoreline you can frame low aircraft on final approach to Luis Muñoz Marín Airport against the sky above the beach.",
+    "where_to_stand": "Stand about 490 m south-east of the subject, at the phone icon on the map, and face north-west. Stand on Playa Isla Verde, on the sand facing northeast toward the airport approach path, with the sea and the beach in front of you. From the shoreline you can frame low aircraft on final approach to Luis Muñoz Marín Airport against the sky above the beach.",
     "how_to_frame": "Turn on gridlines and put the horizon on the lower line, leaving two thirds of the frame for sky, so a plane has room to cross it. Tap on the plane or the sky to focus, then drag the exposure slider down slightly so the aircraft stays crisp and the sky keeps its colour. For a different view, shoot along the sand with the ultra-wide (0.5x), keeping the turquoise water in the foreground and the hotels on the far side. Balneario del Escambrón is an alternative viewpoint from further along the coast, showing the Condado/Ocean Park and Isla Verde waterfront from a distance.",
     "phone_settings_tip": "Take several shots as each plane passes, because the moment goes quickly. Check your first photo and adjust the exposure slider if the sky is washed out or the aircraft looks too dark.",
     "best_time": "Afternoon is best for the planes over the beach. For the beach and hotel skyline lit by early sunlight, go in the early morning."
@@ -157,10 +157,7 @@
     "url": "https://en.wikipedia.org/wiki/Isla_Verde%2C_Puerto_Rico"
    }
   ],
-  "pin_flags": [
-   "area name label only (place=neighbourhood): check the pin",
-   "OpenStreetMap object 486 m away (Isla Verde): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": {
    "file": "photos/3.jpg",
@@ -173,62 +170,6 @@
  },
  {
   "rank": 4,
-  "name": "Condado Beach",
-  "in_cut": true,
-  "label": "Condado Beach",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 12390,
-  "pin": [
-   -66.065885,
-   18.451643
-  ],
-  "camera": [
-   -66.065885,
-   18.451643
-  ],
-  "camera_source": "Researched viewpoint 'Avenida Ashford' (1 web pages); placed at our map tiles: 'Avenida Dr. Ashford' (roads).",
-  "pin_note": "Position from Wikidata Q49320432: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Beachfront and the Ventana al Mar sunset viewpoint.",
-  "text": {
-   "description": "Condado Beach is a large public beach on the Atlantic side of San Juan, in the Condado district of Santurce, just east of the old islet. It runs from La Ventana al Mar Park on Ashford Avenue in the west to Punta Piedrita in the east. Behind it stands a row of well-known hotels, including La Concha Resort, the San Juan Marriott and the historic Vanderbilt Hotel. That mix of open sand and hotel frontage is why it photographs well. The classic picture is taken along Avenida Ashford, where the beachfront hotel strip meets the sand. Crouch low on the sand so the golden foreground fills the bottom of the frame and the mid-century hotel facades line up behind it. Golden hour is the best moment for this view. If you want a different angle, Puente Dos Hermanos gives a sweeping bridge shot with the Atlantic, the Condado Lagoon and the San Juan skyline behind it. Playa del Condado gives a closer, quieter frame of sand and surf. Take care near the water. The waves can be stronger than they look, and winter swells (December to March) are larger, so keep your phone and your feet back from the shoreline. Check conditions before you stand close to the surf.",
-   "geographic_location": "Condado Beach is in the Condado district of Santurce, on San Juan's Atlantic coast, directly east of the Islet of San Juan. It sits along Ashford Avenue, backed by the beachfront hotels.",
-   "directions_text": "No station or tram stop is listed for this spot, so start from Condado, the district just east of the Islet of San Juan. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) to take in the sand and the long line of hotels. Use the default lens (1x) for a calmer, less stretched view of the facades. If you want a tighter shot of one hotel or the bridge, try the telephoto (2x-5x, depending on your phone) from a safe distance.",
-    "where_to_stand": "Stand on Avenida Ashford (stretch of the beachfront hotel strip, shot from the sand at low angle). Golden sand in the foreground with the mid-century hotel facades lining the beach behind it. From the sand there, the view shows golden sand in the foreground and the mid-century hotel facades lining the beach behind it.",
-    "how_to_frame": "Crouch or hold the phone low, close to the sand, so the foreground fills the bottom of the frame and the hotels sit behind. Turn on the gridlines and keep the line of facades level. For a different view, try Puente Dos Hermanos, where the bridge sweeps across the frame with the lagoon and skyline behind it. Playa del Condado gives a closer, quieter frame.",
-    "phone_settings_tip": "Tap the sky or the facades to focus, then drag the exposure slider down slightly so the sand does not turn white. Wipe the lens first, as sea spray leaves a haze on it.",
-    "best_time": "Golden hour, shooting from a low angle."
-   },
-   "access_note": "Condado Beach is a public-access beach, but check that the beachfront stretch of Avenida Ashford is open to pedestrians when you visit, and check the official site before you go if you are unsure."
-  },
-  "checker_problems": 4,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Condado Beach",
-    "url": "https://en.wikipedia.org/wiki/Condado_Beach"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (495 m)"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/4.jpg",
-   "artist": "P. Hughes",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Condado_Beach_-_San_Juan.jpg",
-   "from": "Wikidata Q49320432 main image"
-  }
- },
- {
-  "rank": 5,
   "name": "Castillo San Cristóbal",
   "in_cut": true,
   "label": "San Cristóbal Fort",
@@ -269,7 +210,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "Daderot",
    "licence": "Public domain",
    "licence_url": "",
@@ -278,7 +219,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Paseo de la Princesa",
   "in_cut": true,
   "label": "Paseo de la Princesa",
@@ -324,7 +265,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "https://www.flickr.com/photos/ricardo_mangual/",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -333,7 +274,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "San Juan Gate",
   "in_cut": true,
   "label": "San Juan Gate",
@@ -376,7 +317,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Picture taken by the U.S. National Park Service. See [www...",
    "licence": "Public domain",
    "licence_url": "",
@@ -385,7 +326,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Cathedral of San Juan Bautista",
   "in_cut": true,
   "label": "San Juan Cathedral",
@@ -431,7 +372,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -441,7 +382,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Santa María Magdalena de Pazzis Cemetery",
   "in_cut": true,
   "label": "Old San Juan Cemetery",
@@ -488,7 +429,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "vxla",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -497,7 +438,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "San José Church",
   "in_cut": true,
   "label": "San José Church",
@@ -544,7 +485,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "OliverZena",
    "licence": "Public domain",
    "licence_url": "",
@@ -553,7 +494,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Calle del Cristo and Christ Chapel",
   "in_cut": true,
   "label": "Capilla del Cristo",
@@ -603,7 +544,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -613,7 +554,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Puerto Rico Capitol",
   "in_cut": true,
   "label": "El Capitolio",
@@ -660,7 +601,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "User:Mtmelendez",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -669,7 +610,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Casa Blanca",
   "in_cut": true,
   "label": "Casa Blanca",
@@ -713,7 +654,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -723,7 +664,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Calle Fortaleza",
   "in_cut": true,
   "label": "Calle Fortaleza",
@@ -764,7 +705,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -774,7 +715,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Museo de Arte de Puerto Rico",
   "in_cut": true,
   "label": "Museo de Arte PR",
@@ -818,7 +759,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Moebiusuibeom-en",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -827,7 +768,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "La Perla",
   "in_cut": true,
   "label": "La Perla",
@@ -871,7 +812,7 @@
   "photo": null
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Plaza de Armas",
   "in_cut": true,
   "label": "Plaza de Armas",
@@ -914,7 +855,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -924,7 +865,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Plaza de Colón",
   "in_cut": true,
   "label": "Plaza de Colón",
@@ -967,7 +908,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -977,7 +918,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Dos Hermanos Bridge",
   "in_cut": true,
   "label": "Dos Hermanos Bridge",
@@ -1023,12 +964,68 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "https://www.flickr.com/photos/mickeytorresphotography/",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Puente_Dos_Hermanos.jpg",
    "from": "Wikidata Q6091124 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Condado Beach",
+  "in_cut": false,
+  "label": "Condado Beach",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 12390,
+  "pin": [
+   -66.065885,
+   18.451643
+  ],
+  "camera": [
+   -66.065885,
+   18.451643
+  ],
+  "camera_source": "Researched viewpoint 'Avenida Ashford' (1 web pages); placed at our map tiles: 'Avenida Dr. Ashford' (roads).",
+  "pin_note": "Position from Wikidata Q49320432: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Beachfront and the Ventana al Mar sunset viewpoint.",
+  "text": {
+   "description": "Condado Beach is a large public beach on the Atlantic side of San Juan, in the Condado district of Santurce, just east of the old islet. It runs from La Ventana al Mar Park on Ashford Avenue in the west to Punta Piedrita in the east. Behind it stands a row of well-known hotels, including La Concha Resort, the San Juan Marriott and the historic Vanderbilt Hotel. That mix of open sand and hotel frontage is why it photographs well. The classic picture is taken along Avenida Ashford, where the beachfront hotel strip meets the sand. Crouch low on the sand so the golden foreground fills the bottom of the frame and the mid-century hotel facades line up behind it. Golden hour is the best moment for this view. If you want a different angle, Puente Dos Hermanos gives a sweeping bridge shot with the Atlantic, the Condado Lagoon and the San Juan skyline behind it. Playa del Condado gives a closer, quieter frame of sand and surf. Take care near the water. The waves can be stronger than they look, and winter swells (December to March) are larger, so keep your phone and your feet back from the shoreline. Check conditions before you stand close to the surf.",
+   "geographic_location": "Condado Beach is in the Condado district of Santurce, on San Juan's Atlantic coast, directly east of the Islet of San Juan. It sits along Ashford Avenue, backed by the beachfront hotels.",
+   "directions_text": "No station or tram stop is listed for this spot, so start from Condado, the district just east of the Islet of San Juan. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the sand and the long line of hotels. Use the default lens (1x) for a calmer, less stretched view of the facades. If you want a tighter shot of one hotel or the bridge, try the telephoto (2x-5x, depending on your phone) from a safe distance.",
+    "where_to_stand": "Stand on Avenida Ashford (stretch of the beachfront hotel strip, shot from the sand at low angle). Golden sand in the foreground with the mid-century hotel facades lining the beach behind it. From the sand there, the view shows golden sand in the foreground and the mid-century hotel facades lining the beach behind it.",
+    "how_to_frame": "Crouch or hold the phone low, close to the sand, so the foreground fills the bottom of the frame and the hotels sit behind. Turn on the gridlines and keep the line of facades level. For a different view, try Puente Dos Hermanos, where the bridge sweeps across the frame with the lagoon and skyline behind it. Playa del Condado gives a closer, quieter frame.",
+    "phone_settings_tip": "Tap the sky or the facades to focus, then drag the exposure slider down slightly so the sand does not turn white. Wipe the lens first, as sea spray leaves a haze on it.",
+    "best_time": "Golden hour, shooting from a low angle."
+   },
+   "access_note": "Condado Beach is a public-access beach, but check that the beachfront stretch of Avenida Ashford is open to pedestrians when you visit, and check the official site before you go if you are unsure."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Condado Beach",
+    "url": "https://en.wikipedia.org/wiki/Condado_Beach"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (495 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "P. Hughes",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Condado_Beach_-_San_Juan.jpg",
+   "from": "Wikidata Q49320432 main image"
   }
  }
 ]

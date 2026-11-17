@@ -1,1 +1,1 @@
-window.MAPCFG = {"key": "gdansk", "title": "Gdansk: 15 photo spots (pilot review)", "place": "Gdansk", "bounds": [18.642, 54.344, 18.664, 54.363], "center": [18.653, 54.3535], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/gdansk/{z}/{x}/{y}.pbf"};
+window.MAPCFG = {"key": "gdansk", "title": "Gdansk: 17 photo spots (pilot review)", "place": "Gdansk", "bounds": [18.642, 54.344, 18.664, 54.363], "center": [18.653, 54.3535], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/gdansk/{z}/{x}/{y}.pbf"};
