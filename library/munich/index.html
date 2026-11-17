@@ -1,0 +1,327 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Munich Attractions Map: 20 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Munich tourist map of 20 top photo spots, including Marienplatz, Residenz and Hofbräuhaus: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in munich, munich attractions, munich tourist map, map of munich attractions, best views in munich, best photo spots in munich, marienplatz, rathaus glockenspiel, munich st peter&#39;s church">
+<link rel="canonical" href="https://xdatrys.com/library/munich/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Munich Attractions Map: 20 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Munich tourist map of 20 top photo spots, including Marienplatz, Residenz and Hofbräuhaus: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/munich/">
+<meta property="og:image" content="https://xdatrys.com/library/munich/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="435">
+<meta property="og:image:alt" content="Marienplatz, Munich: photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/munich/","url":"https://xdatrys.com/library/munich/","name":"Munich Attractions Map: 20 Best Photo Spots | Xdatrys","description":"A Munich tourist map of 20 top photo spots, including Marienplatz, Residenz and Hofbräuhaus: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/munich/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Munich"},"mainEntity":{"@type":"ItemList","name":"Munich photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Marienplatz","description":"Marienplatz has been Munich's main square since 1158, and the Glockenspiel draws millions of tourists a year.","geo":{"@type":"GeoCoordinates","latitude":48.1372256,"longitude":11.5755058},"alternateName":["Munich Marienplatz"],"image":"https://xdatrys.com/library/munich/photos/1.jpg"}},{"@type":"ListItem","position":11,"item":{"@type":"TouristAttraction","name":"New Town Hall","description":"The New Town Hall forms the northern side of Marienplatz and is the most striking building on the square.","geo":{"@type":"GeoCoordinates","latitude":48.1377888,"longitude":11.5759768},"alternateName":["Munich New Town Hall","Rathaus Glockenspiel"],"image":"https://xdatrys.com/library/munich/photos/11.jpg"}},{"@type":"ListItem","position":12,"item":{"@type":"TouristAttraction","name":"St. Peter's Church","description":"St.","geo":{"@type":"GeoCoordinates","latitude":48.1364727,"longitude":11.5760306},"alternateName":["Munich St Peter's Church"],"image":"https://xdatrys.com/library/munich/photos/12.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/munich/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Munich","item":"https://xdatrys.com/library/munich/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Munich?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Marienplatz, Residenz and Hofbräuhaus. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Marienplatz?","acceptedAnswer":{"@type":"Answer","text":"Stand right at Marienplatz (viewing platform at 56 m in the tower of St. Peter's Church (Rindermarkt 1)). Start with the default lens (1x) for the whole view over the square."}},{"@type":"Question","name":"When is the best time to photograph the New Town Hall?","acceptedAnswer":{"@type":"Answer","text":"Early morning, when the square is quieter and the light is softer. The square gets crowded around the Glockenspiel times."}},{"@type":"Question","name":"How do I get to Alter Peter?","acceptedAnswer":{"@type":"Answer","text":"No station or tram stop is listed for this spot, so aim for the inner city around Marienplatz, by taxi or hired scooter if you are coming from further out."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Munich</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/munich/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in Munich: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 11 and 12 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/munich/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Munich"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Munich as photo spots, ranked by how often people search for them: Marienplatz, Residenz, Hofbräuhaus, Frauenkirche and Viktualienmarkt lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Marienplatz</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Marienplatz_und_Rathaus_M%C3%BCnchen.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Marienplatz, Munich: photo spot" loading="lazy"></a>
+      <figcaption>Photo: Burkhard Mücke, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Marienplatz has been Munich&#39;s main square since 1158, and the Glockenspiel draws millions of tourists a year. The New Town Hall fills the north side, with the Old Town Hall on the east side. In the middle stands Mary&#39;s Column, put up in 1638 to mark the end of the Swedish occupation. A golden Virgin Mary tops it, a statue made in 1590 that once stood in the Frauenkirche. Four small putti at the base each fight a different beast, standing for war, pestilence, hunger and heresy.</p><p>The square photographs well because so much is packed into one space: the column, the long town hall frontage and the crowds all sit together. The most useful view is from above. The viewing platform of Alter Peter, the tower of St. Peter&#39;s Church, looks down over the whole square, with the Frauenkirche domes and the New Town Hall behind it. On clear days you can see the Alps too. Munich&#39;s official guide calls it the classic viewpoint for Marienplatz.</p><p>The climb is about 300 steps up a stair, so allow some time and a little energy. The square is busiest around the Glockenspiel shows at 11 am and noon (and 5 pm from March to October), so the ground-level shots are easier at other times of day.</p>
+    <p><b>Where it is:</b> Marienplatz is in the centre of Munich&#39;s old town. Alter Peter, the viewpoint, is the tower of St. Peter&#39;s Church at Rindermarkt 1, just south of the square.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole view over the square. Switch to the telephoto (2x-5x, depending on your phone) to pick out the Frauenkirche domes, the golden figure on the column or the town hall tower. Try the ultra-wide (0.5x) if you want more of the rooftops and the surrounding streets.</p>
+      <p><b>Where to stand:</b> Stand right at the subject (viewing platform at 56 m in the tower of St. Peter&#39;s Church (Rindermarkt 1)). An elevated panorama looking down on Marienplatz, with the Frauenkirche domes and the New Town Hall behind it, and the Alps on clear days. On the viewing platform in the tower of St. Peter&#39;s Church. From there you look north over Marienplatz, with the New Town Hall across the square and the Frauenkirche domes behind it.</p>
+      <p><b>Framing:</b> Turn on gridlines and put Mary&#39;s Column near a crossing point, with the New Town Hall filling the upper part of the frame. Keep the phone level so the buildings don&#39;t lean. If you would rather stay at ground level, a head-on shot of the New Town Hall facade with the column in front works well, and the Fischbrunnen is good for a close shot of the fountain.</p>
+      <p><b>Settings tip:</b> Tap on the town hall to set focus, then drag the exposure slider down a little if the sky is bright, so the building keeps its detail. Hold the phone close to the glass or barrier, if there is one, to cut reflections.</p>
+      <p><b>Best time:</b> Choose a clear day if you want the Alps in the distance. The square is crowded around the Glockenspiel shows, so ground-level shots are easier outside those times.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-11">
+    <h3><span class="n">11</span>New Town Hall</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Marienplatz_und_Rathaus_M%C3%BCnchen.jpg" target="_blank" rel="noopener"><img src="photos/11.jpg" alt="New Town Hall, Munich: the most striking building on the square. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Burkhard Mücke, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The New Town Hall forms the northern side of Marienplatz and is the most striking building on the square. It is neo-Gothic and built of brick and limestone, with a tower, pointed gables and carved detail from top to bottom. The first section was built between 1867 and 1874 to a design by Georg Hauberrisser, and the tower was added between 1898 and 1905. The main façade is almost 100 metres long. It carries statues of Henry the Lion and nearly the whole line of the Wittelsbach rulers of Bavaria, which makes it the largest princely cycle on a German town hall. The tower is 85 metres high and topped by the Münchner Kindl figure.</p><p>It photographs well because the square gives you room to step back and take it in. Look up for the details, such as the figures on the tower bay and the clock with its Glockenspiel. The figures perform at set times, including 11am and 12pm, and the square fills with people then, so allow for that. If you want a different angle, the Town Hall tower and Alter Peter both look down over the square, but they are ticketed, so check the official site before you go.</p>
+    <p><b>Where it is:</b> The New Town Hall forms the northern side of Marienplatz in the centre of Munich, with the small park called Marienhof behind it.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the full façade and tower in one frame, then switch to telephoto (2x-5x, depending on your phone) for the tower top and statues. The default lens (1x) works well for the Marian Column with the Town Hall behind it.</p>
+      <p><b>Where to stand:</b> Stand in Marienplatz (in front of the Mariensäule, facing the north façade). The full neo-Gothic façade and tower of the New Town Hall across the square, with the Marian Column in the foreground. From here you see the whole neo-Gothic façade and tower across the square, with the column in the foreground.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the tower up with a vertical grid line so it does not lean. Keep the Marian Column to one side as a foreground. If you want a view from above instead, the Town Hall tower and Alter Peter look down on the square, but both are ticketed.</p>
+      <p><b>Settings tip:</b> Tap on the façade to focus, then drag the exposure slider down a little so the sky does not turn white. A Live Photo can catch the Glockenspiel figures moving.</p>
+      <p><b>Best time:</b> Early morning, when the square is quieter and the light is softer. The square gets crowded around the Glockenspiel times.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(11)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-12">
+    <h3><span class="n">12</span>St. Peter&#39;s Church</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Alter_Peter_und_Rindermarkt.jpg" target="_blank" rel="noopener"><img src="photos/12.jpg" alt="St. Peter&#39;s Church, Munich: the oldest recorded parish church. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Richard Huber, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>St. Peter&#39;s is the oldest recorded parish church in Munich, and many people think the city began around it. Its tall tower, known as &#34;Alter Peter&#34; (Old Peter), is a Munich emblem. The tower is 91 metres high and has a Renaissance steeple top, added in the early 17th century. The church stands on a small rise called the Petersbergl. A church was there before the city was founded in 1158. The building you see today was shaped by a great fire in 1327, rebuilding and a new dedication in 1368, and a Baroque choir added in the early 1600s. It was badly damaged in the Second World War.</p><p>The church photographs well because the tall tower sits above the lower rooftops and market streets around it. The best street-level view is from Sankt-Jacobs-Platz, where the facade and tower appear together and you can see the Rindermarkt side of the building. Keep the tower upright by holding the phone level and switching on gridlines. If the tower looks cut off, step back or use the ultra-wide lens (0.5x). A second option is the Blumenstraße side of the Viktualienmarkt, where the tower rises behind the market stalls. You can also shoot from inside the market itself, with the stalls or the Maypole in the foreground. The streets around the church can be busy, so wait for a gap in the people before you take the shot.</p>
+    <p><b>Where it is:</b> St. Peter&#39;s stands in the inner city of Munich, on a small rise called the Petersbergl, close to the Rindermarkt and the Viktualienmarkt.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the facade and the full height of the tower into one frame. Then try the default lens (1x) for a more natural look. Use the telephoto (2x-5x, depending on your phone) for the steeple top and the details of the tower.</p>
+      <p><b>Where to stand:</b> Stand in Sankt-Jacobs-Platz. The church&#39;s facade and tower seen from the square, with the Rindermarkt side of the building in view. From there the church lies to the north-east, and you see its facade and tower with the Rindermarkt side of the building in view.</p>
+      <p><b>Framing:</b> Turn on gridlines and line the tower up with a vertical line so it does not lean. Hold the phone level and, if you can, keep the tower as the tallest thing in the picture, with rooftops or street life below it. For a different view, try Blumenstraße or the Viktualienmarkt, where the tower rises behind the market stalls.</p>
+      <p><b>Settings tip:</b> Tap on the tower to focus, then slide the exposure down a little so the sky does not wash out. If people walk through the frame, take a Live Photo and choose the cleanest moment afterwards.</p>
+      <p><b>Best time:</b> Early in the day is usually calmer in the streets around the church. Light from the side often shows the stonework better than flat midday light.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(12)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">2</span>Munich Residenz <small>· members</small></li>
+    <li><span class="n">3</span>Hofbräuhaus <small>· members</small></li>
+    <li><span class="n">4</span>Frauenkirche <small>· members</small></li>
+    <li><span class="n">5</span>Viktualienmarkt <small>· members</small></li>
+    <li><span class="n">6</span>BMW Welt <small>· members</small></li>
+    <li><span class="n">7</span>Asam Church <small>· members</small></li>
+    <li><span class="n">8</span>Deutsches Museum <small>· members</small></li>
+    <li><span class="n">9</span>English Garden <small>· members</small></li>
+    <li><span class="n">10</span>Nymphenburg Palace <small>· members</small></li>
+    <li><span class="n">13</span>Königsplatz <small>· members</small></li>
+    <li><span class="n">14</span>Chinese Tower <small>· members</small></li>
+    <li><span class="n">15</span>Olympiapark <small>· members</small></li>
+    <li><span class="n">16</span>Feldherrnhalle <small>· members</small></li>
+    <li><span class="n">17</span>Theatine Church <small>· members</small></li>
+    <li><span class="n">18</span>Isartor <small>· members</small></li>
+    <li><span class="n">19</span>Siegestor <small>· members</small></li>
+    <li><span class="n">20</span>Karlstor <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Munich?</summary><p>The first three on this map are Marienplatz, Residenz and Hofbräuhaus. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Marienplatz?</summary><p>Stand right at Marienplatz (viewing platform at 56 m in the tower of St. Peter&#39;s Church (Rindermarkt 1)). Start with the default lens (1x) for the whole view over the square.</p></details>
+  <details class="faq"><summary>When is the best time to photograph the New Town Hall?</summary><p>Early morning, when the square is quieter and the light is softer. The square gets crowded around the Glockenspiel times.</p></details>
+  <details class="faq"><summary>How do I get to Alter Peter?</summary><p>No station or tram stop is listed for this spot, so aim for the inner city around Marienplatz, by taxi or hired scooter if you are coming from further out.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Marienplatz" target="_blank" rel="noopener">Marienplatz</a>, <a href="https://en.wikipedia.org/wiki/New_Town_Hall_%28Munich%29" target="_blank" rel="noopener">New Town Hall (Munich)</a>, <a href="https://en.wikipedia.org/wiki/St._Peter%27s_Church%2C_Munich" target="_blank" rel="noopener">St. Peter&#39;s Church, Munich</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"munich","place":"Munich","bounds":[11.49,48.12,11.61,48.185],"center":[11.55,48.1525],"english":false,"vatican":false,"tiles":"/r2tiles/munich/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 11 and 12"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

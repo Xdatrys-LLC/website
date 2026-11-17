@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "munich", "title": "Munich: 20 photo spots (pilot review)", "place": "Munich", "bounds": [11.49, 48.12, 11.61, 48.185], "center": [11.55, 48.1525], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/munich/{z}/{x}/{y}.pbf", "tz": "Europe/Berlin", "rail": true, "app": true};

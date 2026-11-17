@@ -456,6 +456,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "munich",
+  "place": "Munich",
+  "country": "Germany",
+  "spots": 20,
+  "mb": 18.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "nagasaki",
   "place": "Nagasaki",
   "country": "Japan",
