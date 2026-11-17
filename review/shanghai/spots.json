@@ -230,60 +230,6 @@
  },
  {
   "rank": 5,
-  "name": "Nanjing Road",
-  "in_cut": true,
-  "label": "Nanjing Road",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 7380,
-  "pin": [
-   121.47444444,
-   31.23472222
-  ],
-  "camera": [
-   121.47444444,
-   31.23472222
-  ],
-  "camera_source": "Researched viewpoint 'Nanjing Road Pedestrian Street bronze monument' (1 web pages); placed at our map tiles: 'Crystal Orange Shanghai the Bund Nanjing Road Pedestrian Street Hotel' (pois); moved 10 m off buildings.",
-  "pin_note": "Position from Wikidata Q579977: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Famous neon-lit shopping street.",
-  "text": {
-   "description": "Nanjing Road is Shanghai's best-known shopping street, and the pedestrian stretch is where most visitors take their photos. It is closed to traffic, so you can stand and frame a shot without dodging cars. The street is about 28 metres wide and 1,200 metres long, running from Middle Henan Road to Middle Xizang Road. In 2019–2020 the pedestrian zone was extended east towards the Bund. The road dates back to 1845, when it was called Park Lane, and it took the name Nanking Road in 1862. Early in the 20th century eight big department stores opened along it, and some of the older ones are still here.\n\nFor a simple opening picture, walk to the west end, where a bronze monument marks the start of the pedestrian street. This is a separate stop from the subject, which is about 690 metres to the north-east. Standing beside the monument and facing east, you can see the street stretch away behind it, which gives a clear sense of arrival. It works well as a first shot before you walk on.\n\nFurther along, two other spots are worth a stop. One is the corner with Zhongshan East 1st Road, where the street is lined with department store facades and signs, with the Bund's older buildings and the Pudong skyline beyond. The other is the Henan Middle Road crossing, where the street looks like a long tunnel of signs. It gets very busy, so be patient and keep your phone in your hand.",
-   "geographic_location": "Nanjing Road's pedestrian street is in the heart of Shanghai, in Huangpu District, running between People's Square at the west end and the Bund to the east.",
-   "directions_text": "Take the Metro to People's Square station (Lines 1, 2 or 8) and leave by Exit 19. The bronze monument at the west end of the pedestrian street is close to that exit, so it makes an easy first stop. From there, walk east along the pedestrian street towards the Bund. If you would rather start from the middle, Nanjing Road (E.) station on Line 2 is at the Middle Henan Road crossing. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the monument shot near Exit 19, with the street behind it. Switch to ultra-wide (0.5x) for the full width of the street. Use telephoto (2x or more, depending on your phone) later to pick out signs and the crowd.",
-    "where_to_stand": "Stand on Nanjing Road Pedestrian Street bronze monument (near People's Square Metro Exit 19, west end of the pedestrian street). A bronze monument marking the start of the pedestrian street, with the street stretching east behind it. For the monument shot, treat it as a separate stop: walk west to the bronze monument near People's Square Metro Exit 19, stand just west of it and face east, so the monument is in the foreground and the street stretches away behind it.",
-    "how_to_frame": "At the monument, turn on gridlines and put the monument on one third of the frame, with the street running off to the east. Crouch slightly so the monument stands out against the buildings. For other angles, walk to the corner of Zhongshan East 1st Road for the department store facades with the Bund and Pudong beyond. At the Henan Middle Road crossing, shoot along the street for a tunnel of signs.",
-    "phone_settings_tip": "Tap the bright part of the sign or building facade to focus. Then drag the exposure slider down a little so the neon colours stay vivid instead of washing out. After dark, use night mode and hold the phone steady against your body or a lamp post. Live Photos can catch the movement of the crowd.",
-    "best_time": "The neon usually comes on around 6 pm in winter or 7 pm in summer and runs until about 10 pm, so dusk and evening look best. Weekdays are quieter, as weekend crowds are heavy."
-   },
-   "access_note": "The pedestrian street is an open public space, but check the official site before you go for any events or temporary closures."
-  },
-  "checker_problems": 4,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Nanjing Road",
-    "url": "https://en.wikipedia.org/wiki/Nanjing_Road"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (692 m)"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/5.jpg",
-   "artist": "Melvin Loi",
-   "licence": "CC BY-SA 2.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:East_Nanjing_Road_2020_(50361842166).jpg",
-   "from": "Wikidata Q579977 main image"
-  }
- },
- {
-  "rank": 6,
   "name": "Xintiandi",
   "in_cut": true,
   "label": "Xintiandi",
@@ -332,7 +278,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "azureisle",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -341,7 +287,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Jing'an Temple",
   "in_cut": true,
   "label": "Jing'an Temple",
@@ -349,15 +295,15 @@
   "nophone": true,
   "searches": 5100,
   "pin": [
-   121.445314,
-   31.223493
+   121.4406866,
+   31.2253953
   ],
   "camera": [
-   121.445314,
-   31.223493
+   121.4406866,
+   31.2253953
   ],
   "camera_source": "Researched viewpoint '南京西路' (1 web pages); placed at OpenStreetMap '南京西路' (node/5306464712): point.",
-  "pin_note": "Position from the Wikipedia article 'Jing'an Temple'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Golden-roofed Buddhist temple amid modern towers.",
   "text": {
    "description": "Jing'an Temple is a working Buddhist temple on West Nanjing Road, and its gold roofs and pagoda stand out against the glass office towers around it. That contrast is why it photographs so well. From across the road you can fit the old temple and the modern skyline into one frame, with the Metro entrance in the foreground to show you are in the middle of the city. The temple's name means 'Temple of Peace and Tranquility'. The first temple on an earlier site dates back to 247 AD, and it moved to its present spot in 1216. It was razed during the Cultural Revolution and rebuilt from 1983, and the Jing'an Pagoda was completed in 2010. So most of what you see is recent, built on a very old foundation. The classic shot is taken from the pavement across the road, looking towards the temple. It needs no ticket, because the exterior can be photographed from the far pavement. Take a few frames at different zoom levels, then step back and check that the roof lines are level. If you want a different view, the pedestrian overpass on 延安路 shows the roofline in the distance with traffic in front, and Jing'an Park (静安公园) may offer the temple reflected in water. Keep to the walkway on the overpass, as the road below is busy.",
@@ -380,13 +326,10 @@
     "url": "https://en.wikipedia.org/wiki/Jing%27an_Temple"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (1736 m)",
-   "OpenStreetMap object 488 m away (Jing'an Temple): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Chainwit.",
    "licence": "CC BY 4.0",
    "licence_url": "https://creativecommons.org/licenses/by/4.0",
@@ -395,7 +338,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Tianzifang",
   "in_cut": true,
   "label": "Tianzifang",
@@ -439,7 +382,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "Jonipoon",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -448,7 +391,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Shanghai Museum",
   "in_cut": true,
   "label": "Shanghai Museum",
@@ -494,7 +437,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Pyzhou",
    "licence": "GFDL",
    "licence_url": "http://www.gnu.org/copyleft/fdl.html",
@@ -503,7 +446,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Peace Hotel",
   "in_cut": true,
   "label": "Peace Hotel",
@@ -547,7 +490,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Livelikerw",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -556,7 +499,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Shanghai World Financial Center",
   "in_cut": true,
   "label": "Shanghai WFC",
@@ -604,7 +547,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "GG001213",
    "licence": "CC0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -613,7 +556,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "People's Square",
   "in_cut": true,
   "label": "People's Square",
@@ -621,15 +564,15 @@
   "nophone": true,
   "searches": 3330,
   "pin": [
-   121.47438,
-   31.229564
+   121.470988,
+   31.233889
   ],
   "camera": [
-   121.47438,
-   31.229564
+   121.470988,
+   31.233889
   ],
   "camera_source": "Researched viewpoint '人民广场' (2 web pages); placed at OpenStreetMap '人民广场' (way/513764717): middle (324 m across).",
-  "pin_note": "Position from Wikidata Q1078123: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Central public square surrounded by museums and the Grand Theatre.",
   "text": {
    "description": "People's Square is a large open public square in the middle of Shanghai, and it works well for a first set of city photos. Its best picture is the central plaza: a wide lawn, a fountain in the foreground and a ring of towers and cultural buildings behind. The Shanghai Museum sits in a prominent central spot, with big fountains just to its north. The Shanghai Grand Theatre and the Urban Planning Exhibition Hall are also close by, so the skyline changes as you turn around.\n\nThe ground has an interesting past. Before 1949 it was a horse-racing course owned by the Shanghai Race Club. After the Chinese Civil War, the new government took over the grounds and part of the race course became People's Square. In the 1990s the city government headquarters and the Shanghai Museum moved here. The old clubhouse became the Shanghai Art Museum, and part of the track became People's Park next door.\n\nFor your photos, stand by the central fountain and let it fill the lower part of the frame, with lawn and buildings behind. The fountain runs on a schedule in the daytime and is lit in the evening, so check timings on the day. The square also has a weekend marriage market, so be discreet and ask before photographing individuals. There is an alternative if you want a higher view: look down over the square from the Urban Planning Exhibition Hall.",
@@ -658,13 +601,10 @@
     "url": "https://en.wikipedia.org/wiki/People%27s_Square_%28Shanghai%29"
    }
   ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (579 m)"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "Baycrest",
    "licence": "CC BY-SA 2.5",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
@@ -673,7 +613,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Jin Mao Tower",
   "in_cut": true,
   "label": "Jin Mao Tower",
@@ -720,7 +660,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "unknown",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -729,7 +669,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Jade Buddha Temple",
   "in_cut": true,
   "label": "Jade Buddha Temple",
@@ -773,7 +713,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "Hermann Luyken",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -782,7 +722,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "City God Temple of Shanghai",
   "in_cut": true,
   "label": "City God Temple",
@@ -824,7 +764,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Chainwit.",
    "licence": "CC BY 4.0",
    "licence_url": "https://creativecommons.org/licenses/by/4.0",
@@ -833,7 +773,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Shanghai Natural History Museum",
   "in_cut": true,
   "label": "Natural History Museum",
@@ -877,7 +817,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "SSYoung",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -886,7 +826,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Shanghai Grand Theatre",
   "in_cut": true,
   "label": "Shanghai Grand Theatre",
@@ -933,7 +873,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "Bruno Corpet (Quoique)",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -942,7 +882,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Waibaidu Bridge",
   "in_cut": true,
   "label": "Waibaidu Bridge",
@@ -950,18 +890,18 @@
   "nophone": true,
   "searches": 450,
   "pin": [
-   121.49,
-   31.24305556
+   121.4856998,
+   31.2452958
   ],
   "camera": [
-   121.49,
-   31.24305556
+   121.4856998,
+   31.2452958
   ],
   "camera_source": "Researched viewpoint '乍浦路桥' (2 web pages); placed at OpenStreetMap '乍浦路桥' (way/144965773): middle (80 m across); moved 35 m off water.",
-  "pin_note": "Position from the Wikipedia article 'Waibaidu Bridge'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Steel truss bridge over Suzhou Creek by the Bund.",
   "text": {
-   "description": "Waibaidu Bridge, known in English as the Garden Bridge, is a dark steel arch-backed bridge over the mouth of Suzhou Creek, close to where the creek meets the Huangpu River beside the Bund. It is the first all-steel bridge in China and the only surviving camelback truss bridge there. It opened on 20 January 1908 and is the fourth Western-designed bridge on this spot since 1856. It was declared Heritage Architecture in 1994.\n\nIt photographs well because the criss-crossing steelwork makes a natural frame. One recommended view looks down the creek toward the bridge, with the Pudong towers rising behind it. This map's stand-here point on the map is up the creek on 乍浦路桥 (the Zhapu Road Bridge), where you can see the whole steel truss with the skyline behind it. Guides also mention the creek reflections at dusk.\n\nIf you have time, walk down and take a second set of pictures from Waibaidu Bridge, where the Bund and the skyline show through the ironwork and the steel fills the foreground. Keep your elbows against the railing for steadier shots, and wipe your lens first, as river air can leave a film on it.",
+   "description": "Waibaidu Bridge, known in English as the Garden Bridge, is a dark steel arch-backed bridge over the mouth of Suzhou Creek, close to where the creek meets the Huangpu River beside the Bund. It is the first all-steel bridge in China and the only surviving camelback truss bridge there. It opened on 20 January 1908 and is the fourth Western-designed bridge on this spot since 1856. It was declared Heritage Architecture in 1994.\n\nIt photographs well because the criss-crossing steelwork makes a natural frame. One recommended view looks down the creek toward the bridge, with the Pudong towers rising behind it. Guides also mention the creek reflections at dusk.\n\nIf you have time, walk down and take a second set of pictures from Waibaidu Bridge, where the Bund and the skyline show through the ironwork and the steel fills the foreground. Keep your elbows against the railing for steadier shots, and wipe your lens first, as river air can leave a film on it.",
    "geographic_location": "In central Shanghai, at the mouth of Suzhou Creek beside the Bund. The bridge links the Huangpu and Hongkou districts.",
    "directions_text": "Head for the Bund and the mouth of Suzhou Creek. The spot data lists no nearby station, so check a map app for the best route from where you are. Walking from there south-east to the bridge itself is about 700 m, roughly 10 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
@@ -990,12 +930,10 @@
     "url": "https://en.wikipedia.org/wiki/Waibaidu_Bridge"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 479 m away (Waibaidu Bridge): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "kallerna",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1004,7 +942,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Shanghai Urban Planning Exhibition Center",
   "in_cut": true,
   "label": "Urban Planning Center",
@@ -1046,7 +984,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "Mätes II.",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -1055,9 +993,63 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 101,
+  "name": "Nanjing Road",
+  "in_cut": false,
+  "label": "Nanjing Road",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 7380,
+  "pin": [
+   121.47444444,
+   31.23472222
+  ],
+  "camera": [
+   121.47444444,
+   31.23472222
+  ],
+  "camera_source": "Researched viewpoint 'Nanjing Road Pedestrian Street bronze monument' (1 web pages); placed at our map tiles: 'Crystal Orange Shanghai the Bund Nanjing Road Pedestrian Street Hotel' (pois); moved 10 m off buildings.",
+  "pin_note": "Position from Wikidata Q579977: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Famous neon-lit shopping street.",
+  "text": {
+   "description": "Nanjing Road is Shanghai's best-known shopping street, and the pedestrian stretch is where most visitors take their photos. It is closed to traffic, so you can stand and frame a shot without dodging cars. The street is about 28 metres wide and 1,200 metres long, running from Middle Henan Road to Middle Xizang Road. In 2019–2020 the pedestrian zone was extended east towards the Bund. The road dates back to 1845, when it was called Park Lane, and it took the name Nanking Road in 1862. Early in the 20th century eight big department stores opened along it, and some of the older ones are still here.\n\nFor a simple opening picture, walk to the west end, where a bronze monument marks the start of the pedestrian street. This is a separate stop from the subject, which is about 690 metres to the north-east. Standing beside the monument and facing east, you can see the street stretch away behind it, which gives a clear sense of arrival. It works well as a first shot before you walk on.\n\nFurther along, two other spots are worth a stop. One is the corner with Zhongshan East 1st Road, where the street is lined with department store facades and signs, with the Bund's older buildings and the Pudong skyline beyond. The other is the Henan Middle Road crossing, where the street looks like a long tunnel of signs. It gets very busy, so be patient and keep your phone in your hand.",
+   "geographic_location": "Nanjing Road's pedestrian street is in the heart of Shanghai, in Huangpu District, running between People's Square at the west end and the Bund to the east.",
+   "directions_text": "Take the Metro to People's Square station (Lines 1, 2 or 8) and leave by Exit 19. The bronze monument at the west end of the pedestrian street is close to that exit, so it makes an easy first stop. From there, walk east along the pedestrian street towards the Bund. If you would rather start from the middle, Nanjing Road (E.) station on Line 2 is at the Middle Henan Road crossing. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the monument shot near Exit 19, with the street behind it. Switch to ultra-wide (0.5x) for the full width of the street. Use telephoto (2x or more, depending on your phone) later to pick out signs and the crowd.",
+    "where_to_stand": "Stand on Nanjing Road Pedestrian Street bronze monument (near People's Square Metro Exit 19, west end of the pedestrian street). A bronze monument marking the start of the pedestrian street, with the street stretching east behind it. For the monument shot, treat it as a separate stop: walk west to the bronze monument near People's Square Metro Exit 19, stand just west of it and face east, so the monument is in the foreground and the street stretches away behind it.",
+    "how_to_frame": "At the monument, turn on gridlines and put the monument on one third of the frame, with the street running off to the east. Crouch slightly so the monument stands out against the buildings. For other angles, walk to the corner of Zhongshan East 1st Road for the department store facades with the Bund and Pudong beyond. At the Henan Middle Road crossing, shoot along the street for a tunnel of signs.",
+    "phone_settings_tip": "Tap the bright part of the sign or building facade to focus. Then drag the exposure slider down a little so the neon colours stay vivid instead of washing out. After dark, use night mode and hold the phone steady against your body or a lamp post. Live Photos can catch the movement of the crowd.",
+    "best_time": "The neon usually comes on around 6 pm in winter or 7 pm in summer and runs until about 10 pm, so dusk and evening look best. Weekdays are quieter, as weekend crowds are heavy."
+   },
+   "access_note": "The pedestrian street is an open public space, but check the official site before you go for any events or temporary closures."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Nanjing Road",
+    "url": "https://en.wikipedia.org/wiki/Nanjing_Road"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (692 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Melvin Loi",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:East_Nanjing_Road_2020_(50361842166).jpg",
+   "from": "Wikidata Q579977 main image"
+  }
+ },
+ {
+  "rank": 102,
   "name": "HSBC Building, the Bund",
-  "in_cut": true,
+  "in_cut": false,
   "label": "HSBC Building",
   "camera_pill": null,
   "nophone": false,
@@ -1101,7 +1093,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/102.jpg",
    "artist": "ScareCriterion12",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",

@@ -704,6 +704,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "shanghai",
+  "place": "Shanghai",
+  "country": "China",
+  "spots": 18,
+  "mb": 8.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "singapore",
   "place": "Singapore",
   "country": "Singapore",
