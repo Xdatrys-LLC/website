@@ -169,9 +169,9 @@
       if (opts && opts.reserve) obstacles.push(...opts.reserve(W, H));          // e.g. the zoom buttons
       let camSvg = "", arrowSegs = [];
       const camSpots = [];
-      if (sel && sel.camera) camSpots.push(sel);
+      if (sel && sel.camera && !sel.nophone) camSpots.push(sel);          // nophone (2026-11-16): no GPS, no phone icon
       if (map.getZoom() >= CAM_ZOOM) for (const o of sp) {
-        if (o.s === sel || !o.s.camera) continue;
+        if (o.s === sel || !o.s.camera || o.s.nophone) continue;
         const c = map.project(o.s.camera);
         const onScreen = (q) => q.x > -20 && q.x < W + 20 && q.y > -20 && q.y < H + 60;
         if (onScreen(o.p) || onScreen(c)) camSpots.push(o.s);
@@ -245,7 +245,7 @@
       for (const it of items) {
         const fill = it.g.every(o => !o.s.in_cut) ? GREY : MAGENTA;
         if (it.g.length > 1) pinSvg += slicedPin(it.x, it.y, it.g.map(o => o.s.rank), fill);
-        else if (!GATE && it.g[0].s === sel && sel.camera && hav(sel.pin, sel.camera) < CLOSE_M) pinSvg += splitPin(it.x, it.y, it.rank);
+        else if (!GATE && it.g[0].s === sel && sel.camera && !sel.nophone && hav(sel.pin, sel.camera) < CLOSE_M) pinSvg += splitPin(it.x, it.y, it.rank);
         else pinSvg += teardrop(it.x, it.y, it.r, it.b, it.g[0].s.in_cut ? MAGENTA : GREY, it.rank);
         const key = it.g.map(o => o.s.rank).join(",");
         const hw = Math.max(TAP, 2 * (it.r + it.b)) / 2, hy0 = Math.min(it.cy - it.r - it.b, it.y - TAP);

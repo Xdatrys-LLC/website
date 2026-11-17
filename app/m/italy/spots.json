@@ -4,15 +4,16 @@
   "name": "Colosseum, Rome",
   "in_cut": true,
   "label": "Colosseum",
-  "camera_pill": "near Via Labicana",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 557800,
   "pin": [
    12.4923737,
    41.8902602
   ],
   "camera": [
-   12.4947057,
-   41.8905364
+   12.4923737,
+   41.8902602
   ],
   "camera_source": "Commons cluster (46 photos). Moved 84 m outwards on 2026-11-10 so it is 110 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/1834818: the middle of the OpenStreetMap outline 'Colosseum' (229 m across).",
@@ -20,10 +21,10 @@
   "text": {
    "description": "The Colosseum is an elliptical amphitheatre in the centre of Rome, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and it is still the largest standing amphitheatre in the world. Work began under Emperor Vespasian in AD 72 and finished in AD 80 under his successor and heir, Titus, with further changes made later under Domitian. The walls are built of travertine, Roman concrete and tuff, a volcanic rock. You can see how the stone has weathered, and where earthquakes and stone robbers have taken whole sections away.\n\nIt photographs well because the shape is so clear. The curved rows of arches repeat round the whole building, and the broken outer wall shows the layers behind it. That gives you strong patterns, depth and a real sense of age. The sources estimate that it held between 50,000 and 80,000 spectators, with an average crowd of about 65,000. Try a wide shot that shows how big it is, then a closer shot of the arches or the worn stone.\n\nExpect people in most shots, as it is one of Rome's most popular tourist attractions. Use them to show scale, or wait a moment for a gap. Hold the phone steady and keep the horizon level so the arches don't lean.",
    "geographic_location": "In the centre of Rome, just east of the Roman Forum, in the low valley between the Caelian, Esquiline and Palatine hills. The map marks the middle of the Colosseum's outline, which is 229 metres across.",
-   "directions_text": "Start from Colosseo Metro station, the nearest station. The Colosseum is 143 metres to the south-east of it, about 2 minutes on foot. Cavour Metro station is a longer walk: the Colosseum is 506 metres to the south of it, about 8 minutes on foot. Walk west towards the building and stop when it fills your view the way you want. The phone icon on the map is about 110 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from Colosseo Metro station, the nearest station. The Colosseum is 143 metres to the south-east of it, about 2 minutes on foot. Cavour Metro station is a longer walk: the Colosseum is 506 metres to the south of it, about 8 minutes on foot. Walk west towards the building and stop when it fills your view the way you want. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the curve of the walls into one frame, because you are close. Switch to the default lens (1x) for a calmer, more natural view of a section of arches. If your phone has telephoto (2x-5x), use it for details such as the arches and the worn stone.",
-    "where_to_stand": "Stand about 110 m east of the subject, at the phone icon on the map, and face west.",
+    "where_to_stand": "Stand in Piazza del Colosseo (south or front side of the piazza, facing the main facade). The whole outer facade of the amphitheatre filling the frame, with the arches and street life of the piazza below.",
     "how_to_frame": "Turn on the gridlines and line the arches up with the horizontal lines to keep the building straight. Leave some sky above the top edge so the outline reads clearly. Include a few people at the bottom of the frame to show the scale. For a detail shot, fill the frame with a run of arches and let the rhythm do the work.",
     "phone_settings_tip": "Tap on the stonework to set focus, then drag the exposure slider down a little if the sky is bright, so the stone keeps its colour and texture. Live Photos can help if people walk through the frame, because you can pick the best moment afterwards.",
     "best_time": "Early morning is usually quieter, and the side facing you should catch the low sun. Around sunset, try night mode or a warm-toned shot as the light fades."
@@ -61,6 +62,7 @@
   "in_cut": true,
   "label": "Tre Cime",
   "camera_pill": "Forcella Lavaredo",
+  "nophone": false,
   "searches": 456650,
   "pin": [
    12.302542,
@@ -115,6 +117,7 @@
   "in_cut": true,
   "label": "Positano",
   "camera_pill": "near Via Del Saracino",
+  "nophone": false,
   "searches": 379150,
   "pin": [
    14.4854955,
@@ -163,6 +166,7 @@
   "in_cut": true,
   "label": "Pompeii",
   "camera_pill": "near Via del Foro",
+  "nophone": false,
   "searches": 347300,
   "pin": [
    14.48611111,
@@ -224,6 +228,7 @@
   "in_cut": true,
   "label": "Lake Como",
   "camera_pill": null,
+  "nophone": false,
   "searches": 346900,
   "pin": [
    9.2838,
@@ -282,15 +287,16 @@
   "name": "Leaning Tower of Pisa",
   "in_cut": true,
   "label": "Leaning Tower",
-  "camera_pill": "near Piazza del Duomo",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 232450,
   "pin": [
    10.3966324,
    43.7230066
   ],
   "camera": [
-   10.3951214,
-   43.7235051
+   10.3966324,
+   43.7230066
   ],
   "camera_source": "Commons cluster (218 photos). Moved 63 m outwards on 2026-11-10 so it is 130 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/12982355: the middle of the OpenStreetMap outline 'Leaning Tower of Pisa' (23 m across).",
@@ -298,10 +304,10 @@
   "text": {
    "description": "The Leaning Tower of Pisa is the freestanding bell tower of Pisa Cathedral, and it stands in Cathedral Square (Piazza del Duomo) beside the cathedral and the baptistery. It photographs well because the lean is obvious at a glance. The white marble tower, with its stacked rows of arches, also stands out against the open lawn and the sky around it. The lean is nearly four degrees, and it comes from soft ground under a shallow foundation. Building began in 1173 and the tower started to sink once the second floor was under way. Work then paused for the better part of a century, and the tower was not finished until the 14th century. The tower is about 56 metres tall. After stabilisation work between 1993 and 2001 the tilt was reduced to just under four degrees. The whole square is part of a UNESCO World Heritage Site, declared in 1987. Keep the cathedral or some lawn in the frame so the lean has something to be measured against. The square is busy, so take a few shots and wait for a gap in the crowd. Check the horizon line before you press the shutter, because the tower is meant to look crooked and the ground should look level.",
    "geographic_location": "In Piazza del Duomo (Cathedral Square) in Pisa, Italy, standing next to Pisa Cathedral and the baptistery, about 700 m east of Pisa San Rossore railway station.",
-   "directions_text": "Start from Pisa San Rossore railway station, the nearest station, which is 701 m west of the tower. Walk east to Piazza del Duomo, about 11 minutes on foot, and continue to the phone icon on the map. If you arrive at Central Station of Pisa (railway station) instead, the tower is 1,690 m to the north, about 27 minutes on foot. The phone icon on the map is about 130 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from Pisa San Rossore railway station, the nearest station, which is 701 m west of the tower. If you arrive at Central Station of Pisa (railway station) instead, the tower is 1,690 m to the north, about 27 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole tower with a little space around it. Use the ultra-wide (0.5x) only if you have to stand closer and want the full height in the frame. Use telephoto (2x-5x, depending on your phone) for the arches and the bell chamber at the top.",
-    "where_to_stand": "Stand about 130 m north-west of the subject, at the phone icon on the map, and face south-east.",
+    "where_to_stand": "Stand in Piazza del Duomo (east side of the lawn, about 15–20 m from the Tower base). The Tower leaning away from the camera, with the lawn in the foreground, for the classic forced-perspective 'holding up the Tower' photo.",
     "how_to_frame": "Turn the gridlines on and keep the horizon on a horizontal line, so the lean looks real rather than like a tilted phone. Hold the phone upright for the full height. Leave a strip of lawn at the bottom and some sky at the top. A bit of the cathedral beside the tower gives a useful comparison for the lean.",
     "phone_settings_tip": "Tap on the tower's marble to set focus, then drag the exposure slider down slightly so the white stone keeps its detail against a bright sky. With ultra-wide, keep the tower in the middle of the frame, because the edges can stretch it.",
     "best_time": "Early morning or late afternoon usually gives softer light on the marble and fewer people in the shot. Around midday the white stone can look flat and glary."
@@ -339,26 +345,27 @@
   "name": "Manarola, Cinque Terre",
   "in_cut": true,
   "label": "Manarola",
-  "camera_pill": "near Via di bambini",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 227650,
   "pin": [
    9.7274815,
    44.1063262
   ],
   "camera": [
-   9.72548,
-   44.107483
+   9.7274815,
+   44.1063262
   ],
   "camera_source": "OpenStreetMap: Punta Bonfiglio (node 14206397146), the classic view back to the village; no Commons cluster was found.",
   "pin_note": "Position from OpenStreetMap node/2149685274: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "Cinque Terre searches counted here: Manarola is its best-known view.",
   "text": {
-   "description": "Manarola is one of the villages of the Cinque Terre, on the Ligurian coast in the province of La Spezia. The phone icon on the map gives a view back across the village. The phone icon on the map sits a short way to the north-west of Manarola, so you are looking back across towards the buildings rather than standing in the middle of them. That gap is useful. From a little distance you can fit the whole group of houses into one frame, with the sea and sky around it, instead of only seeing narrow lanes and doorways.\n\nThe village photographs well because the houses are colourful and packed closely together on the rocky coast, and the shapes read clearly even on a small screen. A wide frame shows the village in its setting, while a tighter zoom picks out roofs, shutters and washing lines. Take a few of each, because the two give quite different pictures.\n\nThe path and viewpoint areas around the village can be busy, so take your shots without blocking the way, and keep a firm hold of your phone near any drop or railing. Wipe the lens before you start, since sea air and pockets leave marks that show up as haze in bright light. If a path or viewpoint is closed or restricted, check the official site before you go.\n\nIt is worth strolling a little either side of it and checking the screen, because a few steps left or right can clear a railing or a signpost from the frame.",
+   "description": "Manarola is one of the villages of the Cinque Terre, on the Ligurian coast in the province of La Spezia. That gap is useful. From a little distance you can fit the whole group of houses into one frame, with the sea and sky around it, instead of only seeing narrow lanes and doorways.\n\nThe village photographs well because the houses are colourful and packed closely together on the rocky coast, and the shapes read clearly even on a small screen. A wide frame shows the village in its setting, while a tighter zoom picks out roofs, shutters and washing lines. Take a few of each, because the two give quite different pictures.\n\nThe path and viewpoint areas around the village can be busy, so take your shots without blocking the way, and keep a firm hold of your phone near any drop or railing. Wipe the lens before you start, since sea air and pockets leave marks that show up as haze in bright light. If a path or viewpoint is closed or restricted, check the official site before you go.\n\nIt is worth strolling a little either side of it and checking the screen, because a few steps left or right can clear a railing or a signpost from the frame.",
    "geographic_location": "Manarola lies in the Cinque Terre on the Ligurian coast, in the Riomaggiore area of the province of La Spezia, Liguria.",
-   "directions_text": "Start from Manarola railway station. The village is 208 m to the north-west of the station, about 3 minutes on foot. Use a map app to reach the phone icon on the map. Check the official site before you go for the latest access to paths and viewpoints. The phone icon on the map is about 210 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from Manarola railway station. The village is 208 m to the north-west of the station, about 3 minutes on foot. Check the official site before you go for the latest access to paths and viewpoints. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to show the village and its surroundings. Switch to the telephoto (2x-5x, depending on your phone) to pick out groups of houses. Use the ultra-wide (0.5x) only if you are close to a wall or railing and cannot step back.",
-    "where_to_stand": "Stand about 210 m north-west of the subject, at the phone icon on the map, and face south-east. Keep a little distance rather than walking right up to the village, so the whole group of houses fits in the frame.",
+    "where_to_stand": "Stand on Punta Bonfiglio (rocky promontory above the harbour; a few metres right of the main overlook for a higher, quieter angle). The pastel houses tumbling toward the small cove and harbour, with the sea filling the background. Keep a little distance rather than walking right up to the village, so the whole group of houses fits in the frame.",
     "how_to_frame": "Switch on the gridlines and put the horizon on the upper or lower line, so the sea does not slice the picture in half. Keep the houses on one of the side thirds and leave some sky or water for balance. Hold the phone level, because tilted buildings are easy to spot in a view like this.",
     "phone_settings_tip": "Tap the brightest part of the sky or the houses to focus, then drag the exposure slider down slightly if the sky looks washed out. Wipe the lens first and take a few shots in case of movement.",
     "best_time": "Early morning or late afternoon usually gives softer, warmer light than midday, and fewer people on the paths. Check the screen as you go, because haze or low sun can change how the colours look."
@@ -387,6 +394,7 @@
   "in_cut": true,
   "label": "Trevi Fountain",
   "camera_pill": "near Piazza di Trevi",
+  "nophone": false,
   "searches": 215750,
   "pin": [
    12.4832817,
@@ -442,6 +450,7 @@
   "in_cut": true,
   "label": "Portofino",
   "camera_pill": "Piazza Martiri dell'Ol",
+  "nophone": false,
   "searches": 183950,
   "pin": [
    9.2077778,
@@ -499,15 +508,16 @@
   "name": "Taormina and its Greek Theatre",
   "in_cut": true,
   "label": "Taormina",
-  "camera_pill": "near Via Teatro Greco",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 118950,
   "pin": [
    15.2922787,
    37.8524068
   ],
   "camera": [
-   15.2911453,
-   37.8528045
+   15.2922787,
+   37.8524068
   ],
   "camera_source": "Commons cluster (132 photos). Moved 52 m outwards on 2026-11-10 so it is 55 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/42403497: the middle of the OpenStreetMap outline 'Greek theatre' (133 m across).",
@@ -515,10 +525,10 @@
   "text": {
    "description": "Taormina's ancient theatre is a Greek-style theatre in Sicily, first built around the third century BC. It was rebuilt under Roman rule, probably around the time of Hadrian or Trajan, and altered again in the third century AD, when the orchestra became an arena and the stage was removed. That mix of layers gives the curved rows of seating a lot of character. The theatre is about 107 metres across and could once hold around 10,000 people. It is also one of the oldest theatres in Magna Graecia to have a curved seating area rather than the older trapezoid plan. Today it is a venue for the annual Taormina Film Festival, and you may recognise it from the 1995 film Mighty Aphrodite or from the second season of The White Lotus.\n\nIt photographs well because of the shapes. The sweep of the seating and the open backdrop beyond it pull the eye in. On a phone, think in layers: some stone in the foreground, the curve of the theatre in the middle, and the distant view behind. Walk a little to either side to change the angle, and take a few frames with and without people for scale. Keep the phone level so the tiers do not lean. Check the official site before you go, as access to the theatre itself may be ticketed or restricted.",
    "geographic_location": "In the town of Taormina, Sicily, Italy, about 1.1 km north-east of Taormina-Giardini railway station. The theatre is an ancient monument within the town itself.",
-   "directions_text": "Start from Taormina-Giardini railway station. The theatre lies to the north-east of it, about 19 minutes on foot (about 1,145 m in a straight line). Once you are there, head for the theatre. The phone icon on the map is about 55 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from Taormina-Giardini railway station. The theatre lies to the north-east of it, about 19 minutes on foot (about 1,145 m in a straight line). Once you are there, head for the theatre. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for a natural view of the theatre. Switch to ultra-wide (0.5x) if you want the whole curve of seating in one frame. Use telephoto (2x-5x, depending on your phone) for details such as stonework and the rows of seats.",
-    "where_to_stand": "Stand about 55 m north-west of the subject, at the phone icon on the map, and face south-east.",
+    "where_to_stand": "Stand right at the subject (upper tiers of the cavea, shooting through the gap in the ruined stage wall). The theatre's stage ruins framed with the Ionian coast on one side and Mount Etna on the other.",
     "how_to_frame": "Turn on the gridlines and line up the tiers of seating with the horizontal lines so they stay straight. Put a bit of stone in the foreground, then leave the open view beyond as the backdrop. Try both portrait and landscape orientation: portrait for details, landscape for the whole sweep.",
     "phone_settings_tip": "Tap on the stonework to set focus, then slide the exposure down a touch so the bright sky does not wash out. If your phone has panorama mode, move slowly and keep the phone level for a wide sweep of the seating.",
     "best_time": "Early morning or late afternoon tends to give softer light and a more relaxed visit than midday. Check the official site for the times the theatre is open."
@@ -549,15 +559,16 @@
   "name": "Florence Cathedral (the Duomo)",
   "in_cut": true,
   "label": "Florence Duomo",
-  "camera_pill": "Piazza San Giovanni",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 92500,
   "pin": [
    11.256627,
    43.7731262
   ],
   "camera": [
-   11.2544281,
-   43.7729457
+   11.256627,
+   43.7731262
   ],
   "camera_source": "Commons cluster (112 photos). Moved 77 m outwards on 2026-11-10 so it is 95 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/43768260: the middle of the OpenStreetMap outline 'Santa Maria del Fiore' (184 m across).",
@@ -565,10 +576,10 @@
   "text": {
    "description": "Florence Cathedral, formally Santa Maria del Fiore, is the great marble-clad church at the heart of the city's historic centre. Work began in 1296 and the dome was finished in 1436, engineered by Filippo Brunelleschi. The walls are faced in bands of white, green and pink marble. The ornate west front is much younger than the rest, a 19th-century design by Emilio De Fabris that was completed in 1887. The cathedral stands in Piazza del Duomo beside the Baptistery and Giotto's Campanile, and the three buildings are part of the UNESCO World Heritage Site covering the historic centre.\n\nIt photographs well because of the colour and the scale. The patterned marble catches the light and gives your picture plenty of texture, and the dome rising behind the front gives the scene a clear shape. The sources describe it as one of the world's largest churches, and its dome as the largest masonry dome ever built. That size is the main challenge for a phone: you will not fit everything in at close range, so decide whether you want the whole building or a detail.\n\nStay a little back from the front so the lines do not lean too steeply. Take one wide shot, then move closer for pictures of the marble patterns and the carved doorways. Expect other visitors in the frame, so be patient and wait for a gap.",
    "geographic_location": "In Piazza del Duomo, in the historic centre of Florence, Tuscany, next to the Baptistery and Giotto's Campanile.",
-   "directions_text": "Start from Firenze Santa Maria Novella railway station, the nearest station to the cathedral. The cathedral is 889 m from the station to the south-east, which is about 14 minutes on foot. The next nearest is Firenze Statuto railway station, 1,668 m to the north of the cathedral's south side, so Santa Maria Novella is the easier start. The phone icon on the map is about 95 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from Firenze Santa Maria Novella railway station, the nearest station to the cathedral. The cathedral is 889 m from the station to the south-east, which is about 14 minutes on foot. The next nearest is Firenze Statuto railway station, 1,668 m to the north of the cathedral's south side, so Santa Maria Novella is the easier start. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the full front of the building, then switch to the default lens (1x) for a more natural look. If your phone has a telephoto (2x-5x), use it for the marble patterns, the carved doors and the upper parts of the building.",
-    "where_to_stand": "Stand about 95 m west of the subject, at the phone icon on the map, and face east. Then step a little closer if you want a tighter picture of the front.",
+    "where_to_stand": "Stand in Piazzale Michelangelo (left side of the terrace, near the central balustrade). The classic panorama with the Duomo rising above the terracotta rooftops, the Arno, and the Ponte Vecchio, with Palazzo Vecchio's tower nearby. Then step a little closer if you want a tighter picture of the front.",
     "how_to_frame": "Turn on the gridlines and line them up with the vertical edges of the building so it does not look tilted. Keep the phone level and upright, and leave some sky above the top. For people-free shots, wait for a gap in the crowd, or use a gap in the foreground to frame the building.",
     "phone_settings_tip": "Tap the brightest part of the marble to set focus, then lower the exposure slider slightly so the pale stone keeps its detail. Hold the phone still with both hands.",
     "best_time": "Early morning or late afternoon usually gives softer light on the marble and fewer people in the square. After dark, night mode works well if the building is lit; brace your elbows to keep the phone steady."
@@ -607,6 +618,7 @@
   "in_cut": true,
   "label": "San Gimignano",
   "camera_pill": null,
+  "nophone": false,
   "searches": 77000,
   "pin": [
    11.042,
@@ -662,15 +674,16 @@
   "name": "Milan Cathedral",
   "in_cut": true,
   "label": "Milan Duomo",
-  "camera_pill": "near Via Palazzo Reale",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 69650,
   "pin": [
    9.1916105,
    45.4641844
   ],
   "camera": [
-   9.1918461,
-   45.4630751
+   9.1916105,
+   45.4641844
   ],
   "camera_source": "Commons cluster (126 photos). Moved 43 m outwards on 2026-11-10 so it is 80 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/18017026: the middle of the OpenStreetMap outline 'Milan Cathedral' (180 m across).",
@@ -678,10 +691,10 @@
   "text": {
    "description": "Milan Cathedral, known locally as the Duomo, is the cathedral church of Milan and the seat of the city's archbishop. It is the largest church in Italy and one of the largest in the world. That scale is why it photographs so well. The front and the crowd of spires fill the frame, and the pale stone stands out against the sky. Building began in 1386 and took nearly six centuries, with the last details finished in 1965. The Gothic style came partly from French engineers called in during the early years. Look for the small Renaissance spire known as the Guglietto dell'Amadeo, built between 1507 and 1510. It sits comfortably among the Gothic pinnacles and is a good target for a close-up. The Duomo stands on the site of earlier churches. An early Christian baptistery, dated to 335, can be visited beneath it. Take a few frames with different framing: one wide shot of the whole front, one at a slight angle, and one detail of the spires. Check the edges of the screen so people's heads or bags do not cut into the corners. Wipe your lens first, as pocket dust softens a bright, pale subject.",
    "geographic_location": "In the centre of Milan, in Lombardy, Italy, at the heart of the old city, where the streets either radiate from the cathedral or circle it.",
-   "directions_text": "Start from Duomo Metro station, the nearest station, which is about 175 m from the cathedral, with the cathedral to the east. That is about 3 minutes on foot. Walk north from the phone icon on the map and the cathedral is straight ahead. The phone icon on the map is about 80 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from Duomo Metro station, the nearest station, which is about 175 m from the cathedral, with the cathedral to the east. That is about 3 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the full front and the spires. Use the default lens (1x) for a cleaner, less stretched view of the central part. Use the telephoto (2x-5x, depending on your phone) for the spires and stone details.",
-    "where_to_stand": "Stand about 80 m south of the subject, at the phone icon on the map, and face north. Take a few steps left or right to change the angle and avoid people in the foreground.",
+    "where_to_stand": "Stand in Piazza del Duomo (western half of the square, slightly left of centre when facing the cathedral). The full white marble façade filling the frame, with the Galleria entrance in the left foreground and the main spire with the Madonnina centred above. Take a few steps left or right to change the angle and avoid people in the foreground.",
     "how_to_frame": "Turn on the gridlines and line up the central axis with the middle grid line. Keep the phone level so the vertical lines do not lean. Leave some sky above the spires. For a second shot, step to one side and use the 1x lens for a slight angle. For a third, zoom in on the spires at 3x or 5x.",
     "phone_settings_tip": "Tap on the stone to focus, then slide the exposure down a little if the sky is bright, so the pale stone keeps its detail. Hold the phone steady with both hands and take a few frames. In the evening, use night mode and keep still for the full count.",
     "best_time": "Early morning or late afternoon usually gives softer light and fewer harsh shadows on the stonework. After dark, night mode can work well if the building is lit."
@@ -718,6 +731,7 @@
   "in_cut": true,
   "label": "Matera",
   "camera_pill": "near Piazza del Duomo",
+  "nophone": false,
   "searches": 64650,
   "pin": [
    16.6083,
@@ -776,6 +790,7 @@
   "in_cut": true,
   "label": "Piazza del Campo",
   "camera_pill": "Costarella dei Barbier",
+  "nophone": false,
   "searches": 62600,
   "pin": [
    11.331385,
@@ -834,6 +849,7 @@
   "in_cut": true,
   "label": "Ponte Vecchio",
   "camera_pill": "Piazzale degli Uffizi",
+  "nophone": false,
   "searches": 54100,
   "pin": [
    11.2531475,
@@ -891,6 +907,7 @@
   "in_cut": true,
   "label": "Capri",
   "camera_pill": null,
+  "nophone": false,
   "searches": 53400,
   "pin": [
    14.2467361,
@@ -939,6 +956,7 @@
   "in_cut": true,
   "label": "St Mark's Square",
   "camera_pill": null,
+  "nophone": false,
   "searches": 39600,
   "pin": [
    12.3384337,
@@ -996,6 +1014,7 @@
   "in_cut": true,
   "label": "Alberobello",
   "camera_pill": "near Via Duca d'Aosta",
+  "nophone": false,
   "searches": 37500,
   "pin": [
    17.2374611,
@@ -1054,15 +1073,16 @@
   "name": "Grand Canal and Rialto Bridge, Venice",
   "in_cut": true,
   "label": "Rialto Bridge",
-  "camera_pill": "near Calle Ca' D'Oro",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 21200,
   "pin": [
    12.3359286,
    45.4380391
   ],
   "camera": [
-   12.3340497,
-   45.4407048
+   12.3359286,
+   45.4380391
   ],
   "camera_source": "Commons cluster (45 photos). Moved 37 m outwards on 2026-11-10 so it is 290 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/2289364: the middle of the OpenStreetMap outline 'Rialto Bridge' (84 m across).",
@@ -1070,10 +1090,10 @@
   "text": {
    "description": "The Rialto Bridge is the oldest of the four bridges that cross the Grand Canal in Venice, linking the districts of San Marco and San Polo. The stone bridge you see today was designed by Antonio da Ponte and built between 1588 and 1591. It is a single broad arch with two ramps climbing to a central portico, and the covered ramps on either side are lined with rows of shops. The design was so bold that the architect Vincenzo Scamozzi predicted it would fail, yet it has stood for more than four centuries. Before it, a series of bridges stood on the spot, starting with a pontoon bridge in the 12th century and later a wooden one that collapsed more than once.\n\nIt photographs well because the pale single arch sits right over the water, with boats passing beneath and old buildings along both banks. Expect the bridge to look fairly small at the default lens (1x), so use the zoom to bring it closer. Then walk on to the bridge itself for a second set of pictures looking along the canal. The area is popular, so take your time, keep your phone close to you and be ready for people walking into the frame.",
    "geographic_location": "In the centre of Venice, northern Italy, where the bridge crosses the Grand Canal between the San Marco and San Polo districts, about 1.2 km east of Venezia Santa Lucia railway station.",
-   "directions_text": "Start from Venezia Santa Lucia railway station, the nearest station to the spot. The Rialto Bridge is 1,210 metres to the east, about 20 minutes on foot. Head east on foot and keep the Grand Canal in view as you approach. The phone icon on the map is about 290 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from Venezia Santa Lucia railway station, the nearest station to the spot. The Rialto Bridge is 1,210 metres to the east, about 20 minutes on foot. Head east on foot and keep the Grand Canal in view as you approach. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the telephoto lens (2x-5x, depending on your phone) from where you stand, because the bridge is 293 metres away. The default lens (1x) gives a wider view of the canal and buildings. Save the ultra-wide (0.5x) for when you are close to the bridge or on it.",
-    "where_to_stand": "Stand about 290 m north-west of the subject, at the phone icon on the map, and face south-east. Then walk the 5 minutes or so to the bridge for close-up shots.",
+    "where_to_stand": "Stand on Riva del Ferro (east bank, in front of Hotel Rialto, on the wooden docks). The arch of the Rialto Bridge across the Grand Canal, with the canal and any passing gondola or boat in the frame. Then walk the 5 minutes or so to the bridge for close-up shots.",
     "how_to_frame": "Turn on the gridlines and place the bridge on one of the lower thirds, with the water filling the foreground. Keep the canal edges roughly straight so the buildings do not lean. At the bridge, try a wide shot along the canal with the arch at one side.",
     "phone_settings_tip": "Tap on the bridge to set focus, then drag the exposure slider down a little if the sky is washing out. Live Photos can catch passing boats, and night mode helps after dark if you rest your phone on a ledge.",
     "best_time": "Early morning is usually quieter, and the soft light at the start or end of the day tends to flatter the stonework and the water."
@@ -1111,6 +1131,7 @@
   "in_cut": false,
   "label": "Verona",
   "camera_pill": null,
+  "nophone": false,
   "searches": 30900,
   "pin": [
    10.9986192,
@@ -1137,6 +1158,7 @@
   "in_cut": false,
   "label": "Piazzale Michelangelo",
   "camera_pill": null,
+  "nophone": false,
   "searches": 26700,
   "pin": [
    11.26505556,
@@ -1168,6 +1190,7 @@
   "in_cut": false,
   "label": "Galleria",
   "camera_pill": "near 1_33051",
+  "nophone": false,
   "searches": 20400,
   "pin": [
    9.19,
@@ -1199,6 +1222,7 @@
   "in_cut": false,
   "label": "Lago di Braies",
   "camera_pill": "Sankt Veit - Via San V",
+  "nophone": false,
   "searches": 17320,
   "pin": [
    12.08444444,
@@ -1230,6 +1254,7 @@
   "in_cut": false,
   "label": "Burano",
   "camera_pill": "Ponte dei Tre Ponti",
+  "nophone": false,
   "searches": 14390,
   "pin": [
    12.417,
@@ -1261,14 +1286,15 @@
   "in_cut": false,
   "label": "Val d'Orcia",
   "camera_pill": null,
+  "nophone": true,
   "searches": 12590,
   "pin": [
    11.6343767,
    43.0708486
   ],
   "camera": [
-   11.6349,
-   43.07065
+   11.6343767,
+   43.0708486
   ],
   "camera_source": "Commons cluster (2 photos), weak.",
   "pin_note": "Position from OpenStreetMap: Cappella della Madonna di Vitaleta, Strada Statale di Chianciano, San Quirico d'Orcia, Uni",

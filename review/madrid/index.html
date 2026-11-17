@@ -218,7 +218,7 @@ function popupHtml(s) {
   } else {
     h += "<p><i>Text not written yet.</i></p>";
   }
-  h += "<div class='nav'><b>Walk to where to stand (the phone icon):</b> " +
+  h += "<div class='nav'><b>" + (s.nophone ? "Walk to the subject:" : "Walk to where to stand (the phone icon):") + "</b> " +
     "<a target='_blank' rel='noopener' href='https://www.google.com/maps/dir/?api=1&destination=" + nav + "&travelmode=walking'>Google Maps</a> · " +
     "<a target='_blank' rel='noopener' href='https://maps.apple.com/?daddr=" + nav + "&dirflg=w'>Apple Maps</a><br>" +
     "<b>By public transport:</b> " +
@@ -259,10 +259,10 @@ function saveEdit(s) {
   if (s.isNew) { e.new = true; e.pin = R6(s.pin); e.stand_here = s.camera ? R6(s.camera) : undefined; }   // 2026-11-16: spot added here
   else {
     e.pin = s.pin && mDist(o.pin, s.pin) > 0 ? R6(s.pin) : undefined;
-    e.stand_here = s.camera && o.camera && mDist(o.camera, s.camera) > 0 ? R6(s.camera) : undefined;
+    e.stand_here = s.camera && (!o.camera || mDist(o.camera, s.camera) > 0) ? R6(s.camera) : undefined;
   }
   e.remove = s.removed ? true : undefined;                                  // 2026-11-16: spot deleted here
-  e.no_phone = !s.camera && !s.removed ? true : undefined;                 // 2026-11-16: phone and arrow deleted here
+  e.no_phone = !s.camera && !s.removed && !s.isNew && o && o.camera ? true : undefined;                 // 2026-11-16: phone and arrow deleted here
   Object.keys(e).forEach(k => e[k] === undefined && delete e[k]);
   if (!e.new && !e.pin && !e.stand_here && !e.note && !e.swapped && !e.remove && !e.no_phone && !e.photo) delete EDITS[s.rank]; else EDITS[s.rank] = e;
   try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {}
@@ -531,6 +531,7 @@ Promise.all([fetch("spots.json", { cache: "no-store" }).then(r => r.json()), doc
   }
   if (GATE) try { localStorage.setItem(GKEY, JSON.stringify(EDITS)); } catch (err) {}
   for (const s of spots) {
+    if (GATE && s.nophone) s.camera = null;                // no GPS phone (2026-11-16): the gate offers "Add a phone and arrow"
     ORIG[s.rank] = { pin: s.pin.slice(), camera: s.camera && s.camera.slice(), photo: s.photo || null };
     const e = GATE && EDITS[s.rank] && EDITS[s.rank].name === s.name && EDITS[s.rank];   // corrections made earlier on this computer, same spot
     if (e && e.photo) { if (e.photo.del) s.photo = null; else if (e.photo.key) gatePhotoShow(s, e.photo.key, e.photo.credit); }

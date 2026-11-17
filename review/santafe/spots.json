@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Loretto Chapel",
   "camera_pill": "Old Santa Fe Trail",
+  "nophone": false,
   "searches": 2180,
   "pin": [
    -105.9376484,
@@ -53,6 +54,7 @@
   "in_cut": true,
   "label": "O'Keeffe Museum",
   "camera_pill": "near Johnson Street",
+  "nophone": false,
   "searches": 960,
   "pin": [
    -105.941154,
@@ -98,6 +100,7 @@
   "in_cut": true,
   "label": "Santa Fe Plaza",
   "camera_pill": "West Palace Avenue",
+  "nophone": false,
   "searches": 430,
   "pin": [
    -105.938644,
@@ -143,6 +146,7 @@
   "in_cut": true,
   "label": "Canyon Road",
   "camera_pill": "near Paseo de Peralta",
+  "nophone": false,
   "searches": 430,
   "pin": [
    -105.9331137,
@@ -188,6 +192,7 @@
   "in_cut": true,
   "label": "San Miguel Chapel",
   "camera_pill": "East de Vargas Street",
+  "nophone": false,
   "searches": 320,
   "pin": [
    -105.9376288,
@@ -235,6 +240,7 @@
   "in_cut": true,
   "label": "Meow Wolf",
   "camera_pill": null,
+  "nophone": false,
   "searches": 290,
   "pin": [
    -105.9965202,
@@ -282,6 +288,7 @@
   "in_cut": true,
   "label": "Museum Hill",
   "camera_pill": "Old Santa Fe Trail",
+  "nophone": false,
   "searches": 290,
   "pin": [
    -105.9247473,
@@ -330,6 +337,7 @@
   "in_cut": true,
   "label": "La Fonda",
   "camera_pill": "Old Santa Fe Trail",
+  "nophone": false,
   "searches": 250,
   "pin": [
    -105.9380454,
@@ -377,6 +385,7 @@
   "in_cut": true,
   "label": "The Roundhouse",
   "camera_pill": "near Paseo de Peralta",
+  "nophone": false,
   "searches": 190,
   "pin": [
    -105.9396342,
@@ -424,6 +433,7 @@
   "in_cut": true,
   "label": "Palace of the Governors",
   "camera_pill": "East Palace Avenue",
+  "nophone": false,
   "searches": 140,
   "pin": [
    -105.9383297,
@@ -471,6 +481,7 @@
   "in_cut": true,
   "label": "Oldest House",
   "camera_pill": "East de Vargas Street",
+  "nophone": false,
   "searches": 60,
   "pin": [
    -105.9374491,
@@ -516,6 +527,7 @@
   "in_cut": true,
   "label": "NM Museum of Art",
   "camera_pill": "near Lincoln Avenue",
+  "nophone": false,
   "searches": 50,
   "pin": [
    -105.9392007,
@@ -566,6 +578,7 @@
   "in_cut": true,
   "label": "Santa Fe Railyard",
   "camera_pill": "Santa Fe Rail Trail",
+  "nophone": false,
   "searches": 40,
   "pin": [
    -105.9486768,
@@ -611,6 +624,7 @@
   "in_cut": true,
   "label": "St. Francis Cathedral",
   "camera_pill": "near Cathedral Place",
+  "nophone": false,
   "searches": 40,
   "pin": [
    -105.9364147,
@@ -662,6 +676,7 @@
   "in_cut": true,
   "label": "Botanical Garden",
   "camera_pill": "near Camino Lejo",
+  "nophone": false,
   "searches": 30,
   "pin": [
    -105.9274211,
@@ -713,6 +728,7 @@
   "in_cut": true,
   "label": "Cross of the Martyrs",
   "camera_pill": "The Cross of Martyrs",
+  "nophone": false,
   "searches": 30,
   "pin": [
    -105.9329653,
@@ -762,6 +778,7 @@
   "in_cut": true,
   "label": "Santuario de Guadalupe",
   "camera_pill": "South Guadalupe Street",
+  "nophone": false,
   "searches": 30,
   "pin": [
    -105.9451273,
@@ -807,6 +824,7 @@
   "in_cut": true,
   "label": "Sena Plaza",
   "camera_pill": "East Palace Avenue",
+  "nophone": false,
   "searches": 30,
   "pin": [
    -105.9364333,
@@ -854,6 +872,7 @@
   "in_cut": true,
   "label": "Acequia Madre",
   "camera_pill": "near Acequia Madre",
+  "nophone": false,
   "searches": 30,
   "pin": [
    -105.9310993,
@@ -901,6 +920,7 @@
   "in_cut": true,
   "label": "Cristo Rey Church",
   "camera_pill": "near Cristo Rey Street",
+  "nophone": false,
   "searches": 20,
   "pin": [
    -105.9171679,

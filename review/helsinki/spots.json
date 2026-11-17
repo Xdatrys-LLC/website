@@ -4,15 +4,16 @@
   "name": "Suomenlinna",
   "in_cut": true,
   "label": "Suomenlinna",
-  "camera_pill": "Kuninkaanportti",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 8770,
   "pin": [
    24.98444444,
    60.14361111
   ],
   "camera": [
-   24.989973,
-   60.140098
+   24.98444444,
+   60.14361111
   ],
   "camera_source": "Researched viewpoint 'Kuninkaanportti' (4 web pages); placed at OpenStreetMap 'Kuninkaanportti' (way/298540981): middle (29 m across).",
   "pin_note": "Position from the Wikipedia article 'Suomenlinna'.",
@@ -20,10 +21,10 @@
   "text": {
    "description": "Suomenlinna is a sea fortress spread across eight islands, about four kilometres south-east of Helsinki city centre. Building began in 1748 under the Swedish Crown, and it became a UNESCO World Heritage Site in 1991. Today it is as much a picnic spot as a monument, with pastel buildings, grassy ramparts and stone walls meeting open water. That mix is why it photographs so well on a phone.\n\nFor the first photo, go to Kuninkaanportti (the King's Gate), on the southern tip of Kustaanmiekka. It is often described as the island's main symbol. From the seaward side, in front of the gate, you can frame the stone gateway against the sea, with the Latin inscription and coat of arms above the archway. It can be quieter here than you might expect for such a well-known view.\n\nIf you have time, two other views are worth adding. The dry dock looks down into its stone-walled basin, with the old wooden ship hull and ochre storehouses around it. The Great Courtyard has the pastel barracks and the statue of Augustin Ehrensvärd in the foreground.\n\nThe gate is a walk from the ferry, so allow time. Winter snow is not cleared on the outer fortifications, so wear sensible shoes in cold months. Drones are generally restricted on the island, and it is wise to keep to marked paths on the ramparts.",
    "geographic_location": "Suomenlinna is a district of Helsinki on a group of islands in the sea, about four kilometres south-east of the city centre. Kuninkaanportti stands on the southern tip of Kustaanmiekka, the island with the most fortifications.",
-   "directions_text": "Suomenlinna is on islands, so take the ferry from Helsinki. From the ferry landing, the King's Gate is a walk across the island, so allow extra time. Check the official site before you go for ferry times. The phone icon on the map is about 500 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Suomenlinna is on islands, so take the ferry from Helsinki. From the ferry landing, the King's Gate is a walk across the island, so allow extra time. Check the official site before you go for ferry times. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the gate against the sea. Switch to the telephoto (2x or more, depending on your phone) for a tighter shot of the inscription and coat of arms above the archway. Use ultra-wide (0.5x) only if you want a lot of sea and sky around the gate.",
-    "where_to_stand": "Stand about 500 m south-east of the subject, at Kuninkaanportti (the phone icon on the map), and face north-west. On the seaward side in front of the gate on the southern tip of Kustaanmiekka. From here the stone gateway sits against the sea, with the Latin inscription and coat of arms visible above the arch. The main fortress marker on the map lies to the north-west.",
+    "where_to_stand": "Stand right at the subject (seaward side, in front of the gate on the southern tip of Kustaanmiekka). The stone gateway framed against the sea, with the Latin inscription and coat of arms visible above the archway. On the seaward side in front of the gate on the southern tip of Kustaanmiekka. From here the stone gateway sits against the sea, with the Latin inscription and coat of arms visible above the arch. The main fortress marker on the map lies to the north-west.",
     "how_to_frame": "Turn on gridlines and line the archway up with the vertical lines so the stonework stands straight. Keep the whole arch and the coat of arms in frame, with the sea behind. If you want an alternative afterwards, the dry dock and the Great Courtyard each make a good second picture.",
     "phone_settings_tip": "Tap on the stonework to focus, then slide the exposure down a little if the sea or sky looks washed out. Take a few frames, as walkers may pass through the arch.",
     "best_time": "Sunset is recommended. In summer, morning light is said to light up the inscription."
@@ -60,6 +61,7 @@
   "in_cut": true,
   "label": "Rock Church",
   "camera_pill": null,
+  "nophone": false,
   "searches": 6270,
   "pin": [
    24.92527778,
@@ -113,6 +115,7 @@
   "in_cut": true,
   "label": "Helsinki Cathedral",
   "camera_pill": null,
+  "nophone": false,
   "searches": 4970,
   "pin": [
    24.95222222,
@@ -166,14 +169,15 @@
   "in_cut": true,
   "label": "Löyly",
   "camera_pill": null,
+  "nophone": true,
   "searches": 4130,
   "pin": [
    24.930111,
    60.151917
   ],
   "camera": [
-   24.930444,
-   60.152177
+   24.930111,
+   60.151917
   ],
   "camera_source": "Researched viewpoint 'Löyly' (2 web pages); placed at OpenStreetMap 'Löyly' (way/625576876): middle (58 m across).",
   "pin_note": "Position from the Wikipedia article 'Löyly'.",
@@ -181,10 +185,10 @@
   "text": {
    "description": "Löyly is a public sauna, restaurant and bar on the Hernesaari shore, opened in 2016 and designed by Avanto Architects. It is easy to see why it gets photographed: the building is a sculptural shell of wooden slats that sits low against the open Baltic, so the wood, the water and the sky make a simple, strong picture. It was designed to blend into the park-like coastline, and its roof is shaped like a big outdoor auditorium that visitors can climb for views. Time magazine put it on its 2018 list of the World's 100 Greatest Places, and the architecture has won a long list of awards.\n\nFor a phone photo, start at the entrance steps on the waterfront side, where the slatted wall fills one side of the frame and the sea fills the other. Sunset is the time most people recommend. Keep the horizon level using the gridlines, and let the curve of the wooden cladding lead the eye across the picture. If you want the whole shape of the roof with the sea and city beyond, a higher, wider spot on the building gives a different view. The roof and some outdoor areas may have access rules, so check the official site before you go. Be polite with people sitting on the steps and wait for a gap rather than asking anyone to move.",
    "geographic_location": "Löyly is in Hernesaari, a former industrial area on Helsinki's sea shore, at Hernesaarenranta 4. It is about 2.5 km southwest of the city centre, right on the water.",
-   "directions_text": "No Underground or tram stop is given for this spot, so start from the centre of Helsinki and head south-west towards the Hernesaari waterfront, about 2.5 km away. On foot it is a fairly long walk of about 2.5 km. Once you reach the building, walk round to the waterfront side facing the open sea and find the entrance steps. The phone icon on the map is about 35 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground or tram stop is given for this spot, so start from the centre of Helsinki and head south-west towards the Hernesaari waterfront, about 2.5 km away. On foot it is a fairly long walk of about 2.5 km. Once you reach the building, walk round to the waterfront side facing the open sea and find the entrance steps. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) for the main shot of the wooden cladding with the sea behind it. Switch to ultra-wide (0.5x) only if you want the full sweep of the building from close up, and keep it away from the edges of the frame where lines can bend. A 2x telephoto setting works well for picking out the pattern of the slats.",
-    "where_to_stand": "Stand about 35 m north-east of the subject, at Löyly (the phone icon on the map), and face south-west. From here you see the slatted cladding with the open Baltic behind it.",
+    "where_to_stand": "Stand right at the subject (waterfront side facing the open sea, by the entrance steps). The sculptural wood-slatted cladding of the building with the open Baltic behind it, best framed at sunset from the entrance steps. From here you see the slatted cladding with the open Baltic behind it.",
     "how_to_frame": "Turn on the gridlines and put the horizon on the upper or lower line, with the curve of the wooden wall running into the frame from one side. For a different view, a higher spot on the roof gives a wider look at the wave-like roof with the sea and city beyond, if access is allowed on the day.",
     "phone_settings_tip": "Tap the sea or the sky to focus, then slide the exposure down a little so the sunset colours do not wash out and the wood keeps its texture. Take a few frames in case people walk through.",
     "best_time": "Sunset."
@@ -218,6 +222,7 @@
   "in_cut": true,
   "label": "Central Station",
   "camera_pill": null,
+  "nophone": false,
   "searches": 2590,
   "pin": [
    24.94138889,
@@ -275,6 +280,7 @@
   "in_cut": true,
   "label": "Uspenski Cathedral",
   "camera_pill": null,
+  "nophone": false,
   "searches": 2360,
   "pin": [
    24.96,
@@ -331,6 +337,7 @@
   "in_cut": true,
   "label": "Sibelius Monument",
   "camera_pill": null,
+  "nophone": false,
   "searches": 2010,
   "pin": [
    24.91343,
@@ -385,14 +392,15 @@
   "in_cut": true,
   "label": "Market Square",
   "camera_pill": null,
+  "nophone": true,
   "searches": 1830,
   "pin": [
    24.955,
    60.167
   ],
   "camera": [
-   24.953265,
-   60.167197
+   24.955,
+   60.167
   ],
   "camera_source": "Researched viewpoint 'Kauppatori' (1 web pages); placed at OpenStreetMap 'Kauppatori' (way/457948795): middle (245 m across).",
   "pin_note": "Position from the Wikipedia article 'Market Square, Helsinki'.",
@@ -400,10 +408,10 @@
   "text": {
    "description": "Kauppatori is a central waterfront square in Helsinki, at the eastern end of Esplanadi, with the sea to the south and Katajanokka to the east. It works well for photos because several layers sit in one view: market stalls close by, boats and ferries on the water behind, and the domes of Uspenski Cathedral rising beyond. From spring to autumn the stalls sell Finnish food and souvenirs, and there are outdoor cafés around the square, so there is usually something going on to photograph. The square was built in the 1800s on what had been the muddy bottom of a bay, where fishermen once sold their catch from boats at the piers. About twenty metres of old railway track is still set into the cobblestones, which makes a nice detail for a close-up. The Presidential Palace and City Hall are next door, and a year-round ferry to Suomenlinna leaves from here. For the classic view, stand across the square from the stalls and face the harbour side. Zoom in a little so the market, the harbour and the cathedral stack up in one frame. Mornings are a good choice, when the market is busy and the light is soft. Keep an eye on your snacks, because the seagulls here are bold enough to snatch food from your hand.",
    "geographic_location": "Kauppatori is in central Helsinki, at the eastern end of Esplanadi on the waterfront, with Katajanokka just to the east. The Presidential Palace and City Hall stand next to the square.",
-   "directions_text": "No tram or Underground stop is listed for this spot, so head for the eastern end of Esplanadi in central Helsinki. The square meets the sea there. From the phone icon on the map it is about 2 minutes on foot to the middle of the square, heading east. The phone icon on the map is about 100 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No tram or Underground stop is listed for this spot, so head for the eastern end of Esplanadi in central Helsinki. The square meets the sea there. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the telephoto (2x-5x, depending on your phone) to bring the harbour and the cathedral domes closer to the stalls. Switch to the default lens (1x) for wider views of the whole square. The ultra-wide (0.5x) suits close-ups of a stall or the old track set in the cobbles.",
-    "where_to_stand": "Stand about 100 m west of the subject, in Kauppatori (the phone icon on the map), and face east. Walk onto the square, stand across from the stalls facing the harbour side, and you should see market stalls in the foreground with the harbour, ferries and the Uspenski Cathedral domes beyond.",
+    "where_to_stand": "Stand in Kauppatori (across the square from the stalls, facing the harbour side). Market stalls in the foreground with the harbour and ferries behind, and the Uspenski Cathedral domes rising beyond. Walk onto the square, stand across from the stalls facing the harbour side, and you should see market stalls in the foreground with the harbour, ferries and the Uspenski Cathedral domes beyond.",
     "how_to_frame": "Turn on gridlines and place the stalls along the lower third, with the water in the middle and the cathedral domes at the top. Zoom in so the layers sit close together. If you want a different angle, the terrace by Uspenski Cathedral looks down across the harbour and rooftops to the square.",
     "phone_settings_tip": "Tap the stalls or a ferry to focus, then drag the exposure slider down slightly so the sky keeps its colour and the domes stay clear. Wipe your lens first, as sea air and busy crowds can leave smears.",
     "best_time": "Between 8 and 11 a.m. on days the market is open, when it is busy and the light is soft."
@@ -437,15 +445,16 @@
   "name": "Esplanadi Park",
   "in_cut": true,
   "label": "Esplanadi",
-  "camera_pill": "Esplanadinpuisto",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1480,
   "pin": [
    24.94777778,
    60.1675
   ],
   "camera": [
-   24.944909,
-   60.167392
+   24.94777778,
+   60.1675
   ],
   "camera_source": "Researched viewpoint 'Esplanadinpuisto' (2 web pages); placed at OpenStreetMap 'Esplanadinpuisto' (relation/20999637): middle (376 m across).",
   "pin_note": "Position from the Wikipedia article 'Esplanadi'.",
@@ -453,10 +462,10 @@
   "text": {
    "description": "Esplanadi, known to locals as Espa, is a long, tree-lined park in the middle of downtown Helsinki, running between Erottaja square and the Market Square. It works well for phone photos because the layout is simple. A wide central promenade, flowerbeds, mature lime trees and benches all lead the eye towards the statue of Johan Ludvig Runeberg, Finland's national poet. The statue was made by his son, Walter Runeberg, and stands at the centre of the park. People strolling along the promenade give the frame life and a sense of scale. Esplanadi is a popular walking area. In 1827 Engels Teater, the first theatre building in Helsinki, was put up in one corner of it. Street performances are often held here, and the park also hosts summer concerts and the Vappu (May Day) crowds. On those days people may block the classic view, so be ready to shoot from a slightly different angle or come back later. For the classic picture, stand in the middle of the park and face the monument from across the path, with trees on both sides to frame it. Take a few frames at different heights and zoom levels, and wait a moment for a clear gap in the crowd. If you have time, the seaward end of the park by the Havis Amanda fountain gives a different view with the waterfront behind.",
    "geographic_location": "Esplanadi is an urban park in downtown Helsinki, between Erottaja square and the Market Square. It lies between the Pohjoisesplanadi and Eteläesplanadi streets, with Stockmann and Hotel Kämp along its edge.",
-   "directions_text": "No station or tram stop is listed for this spot, so head for downtown Helsinki and aim for Erottaja square or the Market Square at either end of the park. The phone icon on the map is on the western side of the park. The centre of Esplanadi and the Runeberg statue are about 159 m to the east, roughly a 2-minute walk along the promenade. The phone icon on the map is about 160 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for downtown Helsinki and aim for Erottaja square or the Market Square at either end of the park. The centre of Esplanadi and the Runeberg statue are about 159 m to the east, roughly a 2-minute walk along the promenade. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the statue framed by trees and flowerbeds. Switch to ultra-wide (0.5x) to take in the full length of the promenade, or to the telephoto (2x or more, depending on your phone) to pick the statue out and flatten the busy background.",
-    "where_to_stand": "Stand about 160 m west of the subject, in Esplanadinpuisto (the phone icon on the map), and face east. Stand on the path opposite the Runeberg monument and face it across the path, with the promenade and its walkers behind the statue.",
+    "where_to_stand": "Stand in Esplanadinpuisto (middle of the park, facing the Runeberg monument from across the path). The Runeberg statue framed by flowerbeds, mature lime trees, and benches, with people walking the central promenade behind it. Stand on the path opposite the Runeberg monument and face it across the path, with the promenade and its walkers behind the statue.",
     "how_to_frame": "Put the statue slightly off-centre, with lime trees on both sides and a strip of flowerbed in the foreground. Turn on gridlines to keep the trees upright and the horizon level. If you want a second view, walk to the seaward end of the park for Havis Amanda with the waterfront and harbour light behind it.",
     "phone_settings_tip": "Tap the statue to set focus, then slide the exposure down a little if the sky is bright so the bronze keeps its detail. Try a Live Photo to catch people moving along the promenade, then choose the best frame.",
     "best_time": "Choose a quieter time of day if you want a clear view of the statue. On Vappu and on summer concert days, expect crowds that may block the shot."
@@ -490,6 +499,7 @@
   "in_cut": true,
   "label": "Oodi Library",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1290,
   "pin": [
    24.9381,
@@ -542,15 +552,16 @@
   "name": "SkyWheel and Allas Sea Pool",
   "in_cut": true,
   "label": "SkyWheel",
-  "camera_pill": "Kauppatori",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1140,
   "pin": [
    24.9594489,
    60.1667283
   ],
   "camera": [
-   24.953265,
-   60.167197
+   24.9594489,
+   60.1667283
   ],
   "camera_source": "Researched viewpoint 'Kauppatori' (2 web pages); placed at OpenStreetMap 'Kauppatori' (way/457948795): middle (245 m across).",
   "pin_note": "Position from OpenStreetMap: SkyWheel Helsinki, 2, Katajanokanlaituri, Katajanokka, Eteläinen suurpiiri, Helsinki, Hels",
@@ -558,10 +569,10 @@
   "text": {
    "description": "The SkyWheel and the Allas Sea Pool sit side by side on Helsinki's harbour edge, and together they make one of the more recognisable waterfront scenes in the city. The wheel rises beside the wooden pool terrace, with the harbour and ferries moving behind it. That mix of big round shape, warm timber and open water gives you plenty to work with on a phone.\n\nFor this spot we suggest stepping back to the Market Square (Kauppatori) waterfront rather than going in close. From there you see the wheel and the pool across the harbour, with Uspenski Cathedral nearby, so the picture says 'Helsinki' rather than just 'a Ferris wheel'. It is a wider, more contextual view than the close-up terrace.\n\nThe Allas terrace belongs to a paid sea-pool and restaurant complex, and we could not confirm whether the terrace can be reached without a spa ticket, so check on arrival. If you do go in, photos inside the pool area may only be allowed when no other people are in the frame, so the terrace and the square are the safest places to take pictures.\n\nStart with a wide shot that includes some water in the foreground, then take a tighter frame of the wheel and pool alone. Check that the horizon looks level before you press the shutter.",
    "geographic_location": "In central Helsinki on the harbour waterfront, next to the Market Square (Kauppatori). The SkyWheel and Allas Sea Pool are on the Katajanokka side of the water, across from the square.",
-   "directions_text": "Head for the Market Square (Kauppatori) on the central Helsinki waterfront. Stand on the square and look east along the water to find the SkyWheel and the pool terrace. The phone icon on the map is about 350 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for the Market Square (Kauppatori) on the central Helsinki waterfront. Stand on the square and look east along the water to find the SkyWheel and the pool terrace. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) so the wheel, the pool and the harbour all fit in one frame. Then try telephoto (2x or 3x, depending on your phone) to pull the wheel and terrace closer without walking. Use ultra-wide (0.5x) only if you want the square and cathedral in the shot as well.",
-    "where_to_stand": "Stand about 350 m west of the subject, in Kauppatori (the phone icon on the map), and face east. From here the SkyWheel and the Allas pool are to the east across the harbour, with Uspenski Cathedral nearby.",
+    "where_to_stand": "Stand in Kauppatori. The SkyWheel and the Allas pool seen across the harbour from the Market Square waterfront, with Uspenski Cathedral nearby. From here the SkyWheel and the Allas pool are to the east across the harbour, with Uspenski Cathedral nearby.",
     "how_to_frame": "Turn on the gridlines and put the wheel on one of the vertical lines, with the pool terrace along the lower third and some harbour water in front. Wait for a ferry to cross behind the wheel if you want movement in the scene. If you go to the Allas terrace instead, shoot the wheel rising beside the wooden decking with the ferries behind it.",
     "phone_settings_tip": "Tap on the wheel to set focus, then slide the exposure down a little if the sky is bright so the sky keeps its colour. A Live Photo can catch the ferries gliding past.",
     "best_time": "Late afternoon into evening usually gives softer light and a livelier sky over the harbour, and the wheel may look better once it is dusk. Check how the light looks on the day."
@@ -585,15 +596,16 @@
   "name": "Old Market Hall",
   "in_cut": true,
   "label": "Old Market Hall",
-  "camera_pill": "Kauppatori",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 700,
   "pin": [
    24.95277778,
    60.16611111
   ],
   "camera": [
-   24.953265,
-   60.167197
+   24.95277778,
+   60.16611111
   ],
   "camera_source": "Researched viewpoint 'Kauppatori' (1 web pages); placed at OpenStreetMap 'Kauppatori' (way/457948795): middle (245 m across).",
   "pin_note": "Position from the Wikipedia article 'Old Market Hall, Helsinki'.",
@@ -601,10 +613,10 @@
   "text": {
    "description": "The Old Market Hall is the oldest market hall in Helsinki, and it still looks the part: a red brick building with a structure of cast iron, designed by Gustaf Nyström and opened in 1889, when Finland was a Grand Duchy. It stands on Eteläranta, right by the Market Square in the Kaartinkaupunki district, so the harbour is close by. It was last renovated between 2012 and 2014, when the hall closed for a year and a half.\n\nThe best photo is taken from the square, looking back at the hall's front and stalls. The brick gives you warm colour and strong texture. The market activity in front adds life, and the harbour behind helps place the scene. With a little zoom, Uspenski Cathedral can be seen rising in the distance, stacked behind the hall's busy front. If you have time, a second option is the South Harbour waterfront, where you can look along the hall's side and facade with the Market Square area in front of it.\n\nKeep the phone level so the walls stay straight, and use the gridlines to line up the roof edge. Wait for a gap in the crowd if you want a cleaner frame, or include people and stalls for atmosphere. Come back in the afternoon if you can, as a travel guide suggests the afternoon, when the harbour side of the building is in lower light.",
    "geographic_location": "In central Helsinki, in the Kaartinkaupunki district, on Eteläranta beside the Market Square (Kauppatori) and the South Harbour.",
-   "directions_text": "No tram or Underground stop is listed for this spot, so head for the Market Square (Kauppatori) in Kaartinkaupunki. From the phone icon on the map on the square, the hall is to the south, about 2 minutes on foot. The phone icon on the map is about 120 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No tram or Underground stop is listed for this spot, so head for the Market Square (Kauppatori) in Kaartinkaupunki. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use telephoto (2x-5x, depending on your phone) to squeeze the hall, harbour and cathedral together. Use the default lens (1x) for the whole front of the hall, and the ultra-wide (0.5x) if you are close and want the whole facade in one frame.",
-    "where_to_stand": "Stand about 120 m north of the subject, in Kauppatori (the phone icon on the map), and face south. Across the square from the hall's stalls and front, facing south towards the hall.",
+    "where_to_stand": "Stand in Kauppatori (across the square from the hall's stalls and front, facing the hall). The hall's front and its market activity, with the harbor behind and Uspenski Cathedral rising in the distance, compressed with a longer lens. Across the square from the hall's stalls and front, facing south towards the hall.",
     "how_to_frame": "Put the hall's brick front in the lower half of the frame and let the harbour and the cathedral sit behind it. Turn on gridlines and keep the phone level so the walls stay upright. If you have time, the South Harbour waterfront (Eteläsataman laituri) gives a second view along the hall's side and facade.",
     "phone_settings_tip": "Tap the brick wall to set focus and exposure, then nudge the exposure slider down a little if the sky is bright, so the red brick keeps its colour. A Live Photo can catch the movement of people at the stalls.",
     "best_time": "Afternoon, when the harbour side of the building is in lower light, is the best time for the outside of the hall."
@@ -639,6 +651,7 @@
   "in_cut": true,
   "label": "Kamppi Chapel",
   "camera_pill": null,
+  "nophone": false,
   "searches": 600,
   "pin": [
    24.936,
@@ -697,6 +710,7 @@
   "in_cut": true,
   "label": "Katajanokka",
   "camera_pill": null,
+  "nophone": false,
   "searches": 500,
   "pin": [
    24.96833333,
@@ -754,6 +768,7 @@
   "in_cut": true,
   "label": "Ateneum",
   "camera_pill": null,
+  "nophone": false,
   "searches": 440,
   "pin": [
    24.94416667,
@@ -806,6 +821,7 @@
   "in_cut": true,
   "label": "Kiasma",
   "camera_pill": null,
+  "nophone": false,
   "searches": 420,
   "pin": [
    24.93683,
@@ -859,6 +875,7 @@
   "in_cut": true,
   "label": "Parliament House",
   "camera_pill": null,
+  "nophone": false,
   "searches": 120,
   "pin": [
    24.93333333,
@@ -909,15 +926,16 @@
   "name": "Finnish National Theatre",
   "in_cut": true,
   "label": "National Theatre",
-  "camera_pill": "Rautatientori",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 100,
   "pin": [
    24.94386111,
    60.1722
   ],
   "camera": [
-   24.939846,
-   60.170384
+   24.94386111,
+   60.1722
   ],
   "camera_source": "Researched viewpoint 'Rautatientori' (4 web pages); placed at OpenStreetMap 'Rautatientori' (node/418089207): point.",
   "pin_note": "Position from the Wikipedia article 'Finnish National Theatre'.",
@@ -925,10 +943,10 @@
   "text": {
    "description": "The Finnish National Theatre stands on the north side of Helsinki's railway station square, and it is one of the best-looking buildings in the city centre. The granite facade was designed by Onni Tarjanne in the National Romantic style and finished in 1902. That was the year the company, founded in 1872 as a touring group, finally got a permanent home. It is the oldest professional theatre in Finland that performs in Finnish. In front of the main entrance is the memorial to the writer Aleksis Kivi, by Wäinö Aaltonen, put up in 1939. The statue is what makes the photo: it gives you a figure in the foreground and the heavy stone building behind it. The square is open, so you can step back far enough to fit the whole front in one frame. Take a first shot with the statue and facade together, then move in for a closer one of the stonework or the entrance. Stand a little off-centre so people crossing the square do not block the statue. Keep the phone level so the vertical lines of the facade do not lean. If the square is set up differently from usual, for example with a winter ice rink, check the foreground before you shoot. The theatre is a working building with performances, so for anything beyond the exterior, check the official site before you go.",
    "geographic_location": "In central Helsinki, on the north side of Rautatientori (the Railway Square), right beside the Helsinki Central Railway Station.",
-   "directions_text": "Head for Helsinki Central Railway Station and the square beside it, Rautatientori. Walk north-east to the north side of the square, in front of the main entrance, to shoot. Rautatientori is beside Helsinki Central Railway Station. The phone icon on the map is about 300 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for Helsinki Central Railway Station and the square beside it, Rautatientori. Walk north-east to the north side of the square, in front of the main entrance, to shoot. Rautatientori is beside Helsinki Central Railway Station. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the facade and the Kivi statue together. Switch to the ultra-wide (0.5x) if you have to stand close and the building will not fit. Use telephoto (2x or more) for details of the granite and the entrance.",
-    "where_to_stand": "Stand about 300 m south-west of the subject, in Rautatientori (the phone icon on the map), and face north-east. Walk north-east to the north side of Rautatientori, in front of the main entrance, and shoot from there. From that spot the granite National Romantic facade fills the view, with the Aleksis Kivi statue standing in the foreground.",
+    "where_to_stand": "Stand in Rautatientori (north side of the square, in front of the theatre's main entrance, with the Aleksis Kivi statue in the foreground). The granite National Romantic facade, with the Aleksis Kivi statue standing in front of the building. Walk north-east to the north side of Rautatientori, in front of the main entrance, and shoot from there. From that spot the granite National Romantic facade fills the view, with the Aleksis Kivi statue standing in the foreground.",
     "how_to_frame": "Put the statue low in the frame, slightly off-centre, and let the facade rise behind it. Turn on gridlines and line up the building's vertical edges with them. A second frame at 2x, cropping in on the entrance, makes a good close-up.",
     "phone_settings_tip": "Tap on the facade to set focus, then drag the exposure slider down a little if the sky is bright, so the stone keeps its texture. Wipe the lens first, especially in cold or wet weather.",
     "best_time": "Daytime, when the facade is evenly lit, is the easiest. Early morning gives you fewer people crossing the square. In the evening, switch on night mode and hold the phone steady against something solid."

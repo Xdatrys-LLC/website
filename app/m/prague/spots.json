@@ -4,26 +4,27 @@
   "name": "Prague Castle",
   "in_cut": true,
   "label": "Prague Castle",
-  "camera_pill": "Křižovnické náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 56500,
   "pin": [
    14.4,
    50.09
   ],
   "camera": [
-   14.414178,
-   50.086156
+   14.4,
+   50.09
   ],
   "camera_source": "Researched viewpoint 'Křižovnické náměstí' (3 web pages); placed at OpenStreetMap 'Křižovnické náměstí' (way/27589421): middle (49 m across).",
   "pin_note": "Position from OpenStreetMap way/1568419131: large area 'Prague Castle' (612 m across): previous pin kept, it lies inside.",
   "notes": "",
   "text": {
-   "description": "Prague Castle is the great sprawl of palaces, churches and towers that crowns the Hradčany skyline. It is the official residence and workplace of the Czech president. The Guinness Book of Records lists it as the largest ancient castle in the world, at almost 70,000 square metres and about 570 metres long. Its first walled building, a church, dates from 870, and the Gothic St. Vitus Cathedral was only finished in 1929, after building work that began in the 14th century. That mix of styles is why it photographs so well. The spires of the cathedral rise above long, pale palace walls, and from across the river the whole group reads as one skyline. The most rewarding phone shot is the distant view, not a close-up of the gates. The phone icon on the map is on Křižovnické náměstí, at the Old Town end of Charles Bridge. From there the castle sits high in the background, with the bridge running along one side of the frame. It is a calmer spot than the bridge itself, and a good place to begin before you walk up. Inside the grounds, most areas are open to visitors, so you can add close shots of the cathedral and courtyards later.",
+   "description": "Prague Castle is the great sprawl of palaces, churches and towers that crowns the Hradčany skyline. It is the official residence and workplace of the Czech president. The Guinness Book of Records lists it as the largest ancient castle in the world, at almost 70,000 square metres and about 570 metres long. Its first walled building, a church, dates from 870, and the Gothic St. Vitus Cathedral was only finished in 1929, after building work that began in the 14th century. That mix of styles is why it photographs so well. The spires of the cathedral rise above long, pale palace walls, and from across the river the whole group reads as one skyline. The most rewarding phone shot is the distant view, not a close-up of the gates. From there the castle sits high in the background, with the bridge running along one side of the frame. It is a calmer spot than the bridge itself, and a good place to begin before you walk up. Inside the grounds, most areas are open to visitors, so you can add close shots of the cathedral and courtyards later.",
    "geographic_location": "Prague Castle stands in the Hradčany district, on the west side of the Vltava, above the Lesser Town rooftops.",
-   "directions_text": "For the castle itself, the nearest tram stop is Pražský hrad (tram 22 and tram 23), about 6 minutes on foot with the castle to the south. Malostranská (metro line A, plus several trams) is about 11 minutes on foot, with the castle to the west. Hradčanská (metro line A) is about 14 minutes on foot, with the castle to the south. The phone icon on the map is about 18 minutes on foot from the castle, to the south-east, so you can treat it as a separate stop for the view back towards the castle. The phone icon on the map is about 880 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "For the castle itself, the nearest tram stop is Pražský hrad (tram 22 and tram 23), about 6 minutes on foot with the castle to the south. Malostranská (metro line A, plus several trams) is about 11 minutes on foot, with the castle to the west. Hradčanská (metro line A) is about 14 minutes on foot, with the castle to the south. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the castle, the bridge and the sky together. If your phone has a telephoto lens (2x-5x), use it to bring the castle closer, because from where you stand it sits well back in the frame. Use the ultra-wide (0.5x) only for close views of the bridge and tower beside you.",
-    "where_to_stand": "Stand about 880 m south-east of the subject, in Křižovnické náměstí (the phone icon on the map), and face north-west. In the lower part of the square next to the Old Town Bridge Tower. From here the castle is ahead of you to the north-west, in the background, with Charles Bridge running along one side of the frame. It is a quieter alternative to standing on the bridge itself.",
+    "where_to_stand": "Stand in Křižovnické náměstí (lower part of the square, next to the Old Town Bridge Tower). The castle behind with Charles Bridge along one side of the frame. In the lower part of the square next to the Old Town Bridge Tower. From here the castle is ahead of you to the north-west, in the background, with Charles Bridge running along one side of the frame. It is a quieter alternative to standing on the bridge itself.",
     "how_to_frame": "Switch on gridlines and put the bridge along one third of the frame, with the castle's spires and long roofline in the upper part. Keep the horizon level. If you want a different angle, the guides also suggest Karlův most for the castle above the Lesser Town rooftops, or Vyhlídka Na Opyši for a wide view of the river, bridge and the castle's east side. Check access there before you go.",
     "phone_settings_tip": "Tap the castle to set focus, then slide the exposure down a little so the sky keeps its colour and the castle does not wash out. Take a few shots at 1x and at your telephoto setting. A Live Photo can help catch a moment when people clear from the foreground.",
     "best_time": "Sunset is the time the guides recommend, when the sun goes down behind the castle. In autumn and winter the sun sets well off to the side, so the effect changes with the season. Arrive early if you want fewer people, as the bridge area gets very crowded."
@@ -63,26 +64,27 @@
   "name": "Charles Bridge",
   "in_cut": true,
   "label": "Charles Bridge",
-  "camera_pill": "Cihelná park",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 29900,
   "pin": [
    14.4105534,
    50.0866136
   ],
   "camera": [
-   14.411042,
-   50.08923
+   14.4105534,
+   50.0866136
   ],
   "camera_source": "Researched viewpoint 'Cihelná park' (2 web pages); placed at OpenStreetMap 'park Cihelná' (way/318903085): middle (144 m across).",
   "pin_note": "Position from OpenStreetMap way/119016167: the middle of the OpenStreetMap outline 'Charles Bridge' (508 m across).",
   "notes": "",
   "text": {
-   "description": "Charles Bridge is a medieval stone bridge across the Vltava, linking the Old Town with the Lesser Town below Prague Castle. Building began in 1357 under Charles IV and finished in the early 15th century. It is about 516 metres long and nearly 10 metres wide, with 16 arches, and a tower at each end: the Old Town Bridge Tower on one side and two towers on the Lesser Town side. Along the parapets stand 30 statues and groups, mostly baroque in style. They date from around 1700, though all have since been replaced by replicas. Cars have been kept off the bridge since the repairs of 1965 to 1978, so it is for people on foot only.\n\nOn the bridge itself you are in the crowd and cannot see its shape. The classic photo is taken from the riverbank, where the whole line of arches, statues and towers fits in one frame. The phone icon on the map is about 280 m north of the subject. From there the bridge stretches across the water toward the Old Town, often with swans or boats in the foreground. Guides rate it as the second most famous Charles Bridge view, after the bridge itself. Go early or around blue hour for the best light and the fewest people. A long restoration programme has been running since 2019, so you may find some scaffolding or partial closures.",
+   "description": "Charles Bridge is a medieval stone bridge across the Vltava, linking the Old Town with the Lesser Town below Prague Castle. Building began in 1357 under Charles IV and finished in the early 15th century. It is about 516 metres long and nearly 10 metres wide, with 16 arches, and a tower at each end: the Old Town Bridge Tower on one side and two towers on the Lesser Town side. Along the parapets stand 30 statues and groups, mostly baroque in style. They date from around 1700, though all have since been replaced by replicas. Cars have been kept off the bridge since the repairs of 1965 to 1978, so it is for people on foot only.\n\nOn the bridge itself you are in the crowd and cannot see its shape. The classic photo is taken from the riverbank, where the whole line of arches, statues and towers fits in one frame. From there the bridge stretches across the water toward the Old Town, often with swans or boats in the foreground. Guides rate it as the second most famous Charles Bridge view, after the bridge itself. Go early or around blue hour for the best light and the fewest people. A long restoration programme has been running since 2019, so you may find some scaffolding or partial closures.",
    "geographic_location": "Charles Bridge crosses the Vltava in central Prague, between the Old Town (Staré Město) and the Lesser Town (Malá Strana). Cihelná park lies on the Lesser Town (Malá Strana) bank, below the bridge's west end.",
-   "directions_text": "From Malostranská metro station (metro line A, and trams including 12, 15, 20, 22 and 23), the bridge is about 500 m away, to the south. From Staroměstská metro station (metro line A, trams 17, 18 and 2), the bridge is about 470 m away, to the south-west. The tram 17, 18 and 2 stop Karlovy lázně is the closest, with the bridge about 300 m away, to the north-west. For the park, head to the Lesser Town bank at the bridge's west end. The phone icon on the map is about 280 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Malostranská metro station (metro line A, and trams including 12, 15, 20, 22 and 23), the bridge is about 500 m away, to the south. From Staroměstská metro station (metro line A, trams 17, 18 and 2), the bridge is about 470 m away, to the south-west. The tram 17, 18 and 2 stop Karlovy lázně is the closest, with the bridge about 300 m away, to the north-west. For the park, head to the Lesser Town bank at the bridge's west end. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the whole bridge. Switch to ultra-wide (0.5x) if you are close to the water's edge and the frame feels tight. Try telephoto (2x-5x, depending on your phone) to pull the towers and statues closer together.",
-    "where_to_stand": "Stand about 280 m north of the subject, in Cihelná park (the phone icon on the map), and face south. Cihelná park, on the Lesser Town bank below the bridge's west end, is nearby, so check the exact spot on the map first. From the riverbank the bridge stretches across the water toward the Old Town, often with swans or boats in the foreground.",
+    "where_to_stand": "Stand in Cihelná park (Lesser Town (Malá Strana) bank, below the bridge's west end). The bridge stretching across the river toward the Old Town, often with swans or boats in the foreground. Cihelná park, on the Lesser Town bank below the bridge's west end, is nearby, so check the exact spot on the map first. From the riverbank the bridge stretches across the water toward the Old Town, often with swans or boats in the foreground.",
     "how_to_frame": "Turn on gridlines and line the bridge up along a lower third, with the water below it and the towers and sky above. Keep the horizon level. Let a swan or a passing boat fill the foreground. If you want a different angle, Novotného lávka gives an angled view with Prague Castle rising behind the bridge. Check its position on the map first.",
     "phone_settings_tip": "Tap the bridge to focus, then slide the exposure down a little so the sky keeps its colour. At blue hour use night mode and rest your elbows on a wall or railing so the shot stays sharp.",
     "best_time": "Sunrise or blue hour. One guide says crowds are lowest before about 7am in summer."
@@ -117,15 +119,16 @@
   "name": "Astronomical Clock",
   "in_cut": true,
   "label": "Astronomical Clock",
-  "camera_pill": "Staroměstské náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 22050,
   "pin": [
    14.4207138,
    50.0869802
   ],
   "camera": [
-   14.420971,
-   50.087445
+   14.4207138,
+   50.0869802
   ],
   "camera_source": "Researched viewpoint 'Staroměstské náměstí' (2 web pages); placed at OpenStreetMap 'Staroměstské náměstí' (relation/2362716): middle (276 m across).",
   "pin_note": "Position from OpenStreetMap node/4748580936: the OpenStreetMap point 'Astronomical Clock'.",
@@ -133,10 +136,10 @@
   "text": {
    "description": "The Prague astronomical clock, or Orloj, is a medieval clock fixed to the southern wall of the Old Town Hall on Old Town Square. It has an astronomical dial showing the positions of the Sun and Moon, a calendar dial with medallions for the months, and statues on either side. The oldest part, the mechanical clock and astronomical dial, dates from 1410. It was made by the clockmaker Mikuláš of Kadaň and the Charles University scholar Jan Šindel. The calendar dial was added around 1490. The Apostle figures arrived after a big repair in 1787-1791. The clock was badly damaged in May 1945 and was running again in 1948.\n\nIt photographs well because there is so much to look at: gold and blue colours, fine detail, and a Gothic tower above. The apostle figures move in and out of the windows during the hourly show, so watch for a small crowd gathering. The dial sits high on the wall, so it is easy to lose in a crowded frame. Decide first whether you want the whole square with the clock in it, or a close shot of the dial. A recommended wide view comes from the east side of the square, which puts the clock and both Týn Church towers in one frame. The detail shots need only a few steps closer.",
    "geographic_location": "In the Old Town (Staré Město) of Prague, on the southern wall of the Old Town Hall, on Old Town Square.",
-   "directions_text": "From Staroměstská metro station (metro line A, also trams 17, 18 and 2), walk to the south-east; it is about 5 minutes on foot. From Můstek metro station (metro lines A and B) it is about 7 minutes on foot, heading north-west. The phone icon on the map is about 55 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Staroměstská metro station (metro line A, also trams 17, 18 and 2), walk to the south-east; it is about 5 minutes on foot. From Můstek metro station (metro lines A and B) it is about 7 minutes on foot, heading north-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the clock with the Old Town Hall around it. Switch to ultra-wide (0.5x) to fit in the square and both Týn Church towers, and use telephoto (2x-5x, depending on your phone) for the dial and the apostle figures.",
-    "where_to_stand": "Stand about 55 m north of the subject, in Staroměstské náměstí (the phone icon on the map), and face south. For the wide view of the square with both Týn Church towers, walk to the east side of Staroměstské náměstí, opposite the clock. From the east side the whole square is in view, with the clock on the Old Town Hall and both Týn Church towers rising behind the crowd.",
+    "where_to_stand": "Stand in Staroměstské náměstí (east side of the square, opposite the clock). The whole square with the clock on the Old Town Hall in view, with both Týn Church towers rising behind the crowd. For the wide view of the square with both Týn Church towers, walk to the east side of Staroměstské náměstí, opposite the clock. From the east side the whole square is in view, with the clock on the Old Town Hall and both Týn Church towers rising behind the crowd.",
     "how_to_frame": "Turn on gridlines and put the clock tower on one of the vertical lines, with the Týn Church towers on the other side. Keep your phone upright and level, as the tall tower leans if you tilt up. For a closer alternative, zoom in on the full dial with the calendar dial below, framed by the Town Hall facade. Or step to the side to catch the apostle figures at roughly eye level.",
     "phone_settings_tip": "Tap on the dial to set focus, then drag the exposure slider down a little so the sky does not wash out the gold detail. For the apostle show, switch on Live Photos or motion so you can pick the best frame afterwards.",
     "best_time": "Sunrise, when the light is soft and the square is less crowded."
@@ -171,15 +174,16 @@
   "name": "Dancing House",
   "in_cut": true,
   "label": "Dancing House",
-  "camera_pill": "Jiráskovo náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 13000,
   "pin": [
    14.4141688,
    50.0754226
   ],
   "camera": [
-   14.414316,
-   50.075965
+   14.4141688,
+   50.0754226
   ],
   "camera_source": "Researched viewpoint 'Jiráskovo náměstí' (3 web pages); placed at OpenStreetMap 'Jiráskovo náměstí' (way/518100742): middle (131 m across).",
   "pin_note": "Position from OpenStreetMap relation/6751056: the middle of the OpenStreetMap outline 'Dancing House' (43 m across).",
@@ -187,10 +191,10 @@
   "text": {
    "description": "The Dancing House is a modern office building on the river embankment, set among much older houses. It was designed in 1992 by Vlado Milunić with Frank Gehry and finished in 1996. Its nickname comes from the way two towers seem to lean together like a dancing couple. The glass tower, which narrows halfway up and rests on curved pillars, stands for Ginger. The stone tower stands for Fred. The wavy mouldings and windows that don't line up are deliberate, and they help the building sit beside its 19th-century neighbours. The curved frontage rests on 99 concrete panels, each a different shape, and a twisted metal structure on top is nicknamed Medusa. It stands on a site where an apartment building was destroyed in 1945.\n\nIt photographs well because the whole facade is full of curves, and the small square in front lets you take it all in. From there the glass tower and the stone tower sit side by side, and the river is behind them. Many visitors stand by the Alois Jirásek statue and pose as if holding the tower up, which makes a fun picture. If you have time, Jiráskův most shows both towers in profile, and Hořejší nábřeží shows the building with its neighbours and the river. Trams and traffic are close by, so stay on the pavements.",
    "geographic_location": "The Dancing House stands on Rašínovo nábřeží (Rašín Embankment) in Prague, right beside the river. The small square in front of it is Jiráskovo náměstí.",
-   "directions_text": "The easiest way is from Karlovo náměstí metro station (metro line B). Walk north-west for about 4 minutes on foot to reach the phone icon on the map. Alternatively, take tram 17 or tram 5 to the Jiráskovo náměstí stop, which is about 2 minutes on foot from the building. Palackého náměstí tram stop (trams 3, 4, 7, 10, 16, 17 and 21) is about 5 minutes on foot to the north. The phone icon on the map is about 40 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The easiest way is from Karlovo náměstí metro station (metro line B). Alternatively, take tram 17 or tram 5 to the Jiráskovo náměstí stop, which is about 2 minutes on foot from the building. Palackého náměstí tram stop (trams 3, 4, 7, 10, 16, 17 and 21) is about 5 minutes on foot to the north. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) on the square to fit both towers and the curving facade into one frame. Then switch to the default lens (1x) for a more natural look. Use the telephoto (2x-5x, depending on your phone) for details such as the windows with their raised frames or the metal Medusa on the roof.",
-    "where_to_stand": "Stand about 40 m north of the subject, in Jiráskovo náměstí (the phone icon on the map), and face south. The small square directly in front of the building, near the Alois Jirásek statue. The Dancing House is just to the south, so you will be facing it. From here the full curving facade shows, with the glass tower and the stone tower side by side against the river.",
+    "where_to_stand": "Stand in Jiráskovo náměstí (small square directly in front of the building, near the Jirásek statue). The full curving facade of the Dancing House, with the glass tower and the stone tower side by side against the river. The small square directly in front of the building, near the Alois Jirásek statue. The Dancing House is just to the south, so you will be facing it. From here the full curving facade shows, with the glass tower and the stone tower side by side against the river.",
     "how_to_frame": "Turn on the gridlines and keep the vertical lines straight, because tilting the phone makes the towers lean. Put the glass tower and the stone tower on either side of the frame so the 'dancing' lean is clear. For a fun shot, ask a friend to stand by the Jirásek statue and pose as if holding the tower up. If you want an alternative, Jiráskův most gives a full side view of both towers with the New Town houses behind them.",
     "phone_settings_tip": "Tap the glass tower to focus. If the bright sky is washing out the facade, slide the exposure down a little. Take a few shots with the ultra-wide, as it exaggerates the edges and the leaning towers.",
     "best_time": "In the afternoon, the curved glass catches the light well when seen from the embankment at Hořejší nábřeží."
@@ -225,26 +229,27 @@
   "name": "Petřín Lookout Tower",
   "in_cut": true,
   "label": "Petřín Tower",
-  "camera_pill": "Strahovská zahrada",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 12820,
   "pin": [
    14.3950711,
    50.0834434
   ],
   "camera": [
-   14.393933,
-   50.083676
+   14.3950711,
+   50.0834434
   ],
   "camera_source": "Researched viewpoint 'Strahovská zahrada' (2 web pages); placed at OpenStreetMap 'Velká strahovská zahrada' (way/27581161): edge nearest the subject (748 m across).",
   "pin_note": "Position from OpenStreetMap way/7645353: the middle of the OpenStreetMap outline 'Petrin Observation Tower' (40 m across).",
   "notes": "",
   "text": {
-   "description": "Petřín Lookout Tower is a slim steel-lattice tower on Petřín Hill, standing 63.5 metres tall. It was built in 1891 after members of the Club of Czech Tourists saw the Eiffel Tower in Paris, and the likeness is easy to spot. Unlike its Paris cousin, though, it has an octagonal shape and a covered entrance hall under its legs. The building work took only about four months. It was later used to broadcast television, and it has been run by the City of Prague Museum since 2013.\n\nIt photographs well because the pale metal frame stands out against green hillside trees. The best-framed shot is not from the tower's own doorstep. The phone icon on the map is about 70 m west of the subject. This works in daylight and after dark. The Strahov Monastery gardens, on the way up the hill, are another good viewpoint. If you want a second angle, stand close to the foot of the tower and look straight up at the criss-cross of steel.\n\nThe hill is a fair climb on foot, so give yourself time and take photos on the way up, when the tower keeps appearing above the trees. Keep the phone steady with both hands, and take a few frames in case people walk through.",
+   "description": "Petřín Lookout Tower is a slim steel-lattice tower on Petřín Hill, standing 63.5 metres tall. It was built in 1891 after members of the Club of Czech Tourists saw the Eiffel Tower in Paris, and the likeness is easy to spot. Unlike its Paris cousin, though, it has an octagonal shape and a covered entrance hall under its legs. The building work took only about four months. It was later used to broadcast television, and it has been run by the City of Prague Museum since 2013.\n\nIt photographs well because the pale metal frame stands out against green hillside trees. The best-framed shot is not from the tower's own doorstep. This works in daylight and after dark. The Strahov Monastery gardens, on the way up the hill, are another good viewpoint. If you want a second angle, stand close to the foot of the tower and look straight up at the criss-cross of steel.\n\nThe hill is a fair climb on foot, so give yourself time and take photos on the way up, when the tower keeps appearing above the trees. Keep the phone steady with both hands, and take a few frames in case people walk through.",
    "geographic_location": "On Petřín Hill, on the west side of the Vltava river in Prague, close to the Strahov Monastery gardens.",
-   "directions_text": "The easiest start is the Petřín stop on the Petřín funicular, which climbs the hill from Újezd. From there the tower is to the north-west, about 3 minutes on foot. Check that the funicular is running before you set out, as its status has been uncertain. Otherwise, from the Tyršův dům tram stop (tram 12, 15, 20, 22, 23 and 42) the tower is to the west, about 670 m on foot. From the Pohořelec tram stop (tram 22, 23 and 42) it is to the south-east, about 690 m on foot. The phone icon on the map is about 70 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The easiest start is the Petřín stop on the Petřín funicular, which climbs the hill from Újezd. From there the tower is to the north-west, about 3 minutes on foot. Check that the funicular is running before you set out, as its status has been uncertain. Otherwise, from the Tyršův dům tram stop (tram 12, 15, 20, 22, 23 and 42) the tower is to the west, about 670 m on foot. From the Pohořelec tram stop (tram 22, 23 and 42) it is to the south-east, about 690 m on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the tower and the trees around it. Switch to 2x-3x if your phone has telephoto, to bring the tower closer above the treetops. Use the ultra-wide (0.5x) only when you are right at the foot of the tower, looking up.",
-    "where_to_stand": "Stand about 70 m west of the subject, in Strahovská zahrada (the phone icon on the map), and face east. The tower is to the east of you, rising above green trees, and the greenery frames it in both day and night shots. The Strahov Monastery gardens, on the way up, are a separate viewpoint worth a look.",
+    "where_to_stand": "Stand in Strahovská zahrada (Strahov Monastery gardens, on the path toward the tower). The tower rising above green trees, framed by greenery in day or night shots. The tower is to the east of you, rising above green trees, and the greenery frames it in both day and night shots. The Strahov Monastery gardens, on the way up, are a separate viewpoint worth a look.",
     "how_to_frame": "Turn on gridlines and place the tower on one of the vertical lines, with trees filling the bottom and the sides. Keep the tower upright by holding the phone level and not tilting it up too far. For a different angle, walk to the foot of the tower and shoot upwards with the ultra-wide (0.5x) to catch the octagonal steel frame.",
     "phone_settings_tip": "Tap on the tower to focus, then slide the exposure down a little so the sky does not turn white. After dark, use night mode and brace your elbows against your body or a wall to keep the shot sharp.",
     "best_time": "Soft morning or late-afternoon light suits the green setting. Dusk is also worth trying if you want a night-mode shot of the tower among the trees."
@@ -280,26 +285,27 @@
   "name": "Klementinum",
   "in_cut": true,
   "label": "Klementinum",
-  "camera_pill": "Křižovnické náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 9900,
   "pin": [
    14.4159061,
    50.086653
   ],
   "camera": [
-   14.414178,
-   50.086156
+   14.4159061,
+   50.086653
   ],
   "camera_source": "Researched viewpoint 'Křižovnické náměstí' (1 web pages); placed at OpenStreetMap 'Křižovnické náměstí' (way/27589421): middle (49 m across).",
   "pin_note": "Position from OpenStreetMap relation/3366616: the middle of the OpenStreetMap outline 'Clementinum' (222 m across).",
   "notes": "",
   "text": {
-   "description": "The Klementinum is a huge Baroque complex in the heart of the Old Town, and it is home to the National Library of the Czech Republic. It covers about 20,000 square metres, which makes it the second largest group of buildings in Prague after Prague Castle. The site goes back to a chapel of Saint Clement in the 11th century. A Jesuit college was set up here in 1556, and the main Baroque rebuilding took place between 1709 and 1726. Its weather records began in 1775 and are still kept today.\n\nFrom the street it photographs as a long, calm wall of historic facade, so it works best as a street-level frame rather than a single dramatic landmark. The phone icon on the map is in Křižovnické náměstí, the square at the Old Town end of Charles Bridge. From here you can look along the lane behind the square and photograph the eastern facade of the complex. It is a quieter view than the one from the bridge. Keep the lines of the building straight and let the lane lead the eye along it. If you want the wider picture, the view from Charles Bridge shows the Klementinum with Prague Castle rising behind it across the Vltava.\n\nYou can see the exterior from the street. The Baroque library and the Astronomical Tower are part of a separate route, so check the official site before you go if you want to go inside.",
+   "description": "The Klementinum is a huge Baroque complex in the heart of the Old Town, and it is home to the National Library of the Czech Republic. It covers about 20,000 square metres, which makes it the second largest group of buildings in Prague after Prague Castle. The site goes back to a chapel of Saint Clement in the 11th century. A Jesuit college was set up here in 1556, and the main Baroque rebuilding took place between 1709 and 1726. Its weather records began in 1775 and are still kept today.\n\nFrom the street it photographs as a long, calm wall of historic facade, so it works best as a street-level frame rather than a single dramatic landmark. From here you can look along the lane behind the square and photograph the eastern facade of the complex. It is a quieter view than the one from the bridge. Keep the lines of the building straight and let the lane lead the eye along it. If you want the wider picture, the view from Charles Bridge shows the Klementinum with Prague Castle rising behind it across the Vltava.\n\nYou can see the exterior from the street. The Baroque library and the Astronomical Tower are part of a separate route, so check the official site before you go if you want to go inside.",
    "geographic_location": "In Prague's Old Town (Staré Město), right beside the Old Town end of Charles Bridge.",
-   "directions_text": "The nearest stop is Staroměstská metro station (metro line A, also trams 17, 18 and 2). Walk south from there and you reach the Klementinum in about 3 minutes on foot. Alternatively, get off at the Karlovy lázně tram stop (trams 17, 18 and 2). The Klementinum lies to the north-east of the stop, about 4 minutes on foot. From either stop, head for Křižovnické náměstí at the Old Town end of Charles Bridge. The phone icon on the map is about 30 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stop is Staroměstská metro station (metro line A, also trams 17, 18 and 2). Walk south from there and you reach the Klementinum in about 3 minutes on foot. Alternatively, get off at the Karlovy lázně tram stop (trams 17, 18 and 2). The Klementinum lies to the north-east of the stop, about 4 minutes on foot. From either stop, head for Křižovnické náměstí at the Old Town end of Charles Bridge. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the long facade and the lane in one frame. Then switch to the default lens (1x) for a more natural street view. If your phone has a telephoto (2x-5x), use it to pick out windows, sculpture and rooflines.",
-    "where_to_stand": "Stand about 30 m south-west of the subject, in Křižovnické náměstí (the phone icon on the map), and face north-east. The square at the Old Town end of Charles Bridge, and face the lane behind it.",
+    "where_to_stand": "Stand in Křižovnické náměstí (the square at the Old Town end of Charles Bridge, facing the lane behind it). The eastern facade of the Klementinum running along the lane directly behind the square. The square at the Old Town end of Charles Bridge, and face the lane behind it.",
     "how_to_frame": "Switch on the gridlines and line the facade up with one of them so the vertical lines stay straight. Use the lane as a leading line, with the building filling one side of the frame. Wait for a gap in the passers-by if you want a cleaner shot. For a different view, try Charles Bridge, where the Klementinum sits in front of Prague Castle across the river.",
     "phone_settings_tip": "Tap on the facade to set focus, then drag the exposure slider down a little so the sky does not wash out. In narrow lanes, avoid tilting the phone upwards, which makes the walls lean inwards.",
     "best_time": "Early in the day is usually calmer in the square and lane. Soft daylight suits the stonework."
@@ -335,26 +341,27 @@
   "name": "Wenceslas Square and the National Museum",
   "in_cut": true,
   "label": "Wenceslas Square",
-  "camera_pill": "Václavské náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 9305,
   "pin": [
    14.4275,
    50.0813889
   ],
   "camera": [
-   14.427754,
-   50.081604
+   14.4275,
+   50.0813889
   ],
   "camera_source": "Researched viewpoint 'Václavské náměstí' (3 web pages); placed at OpenStreetMap 'Václavské náměstí' (relation/3366641): edge nearest the subject (852 m across); moved 5 m off buildings.",
   "pin_note": "Position from OpenStreetMap relation/3366641: large area 'Wenceslas Square' (855 m across): previous pin kept, it lies inside.",
   "notes": "Merged: the museum closes the top of the square.",
   "text": {
-   "description": "Wenceslas Square is less a square than a long, gently rising boulevard, about 750 metres from end to end, with the neoclassical National Museum closing the view at the top. That is the picture most visitors want: a straight run of street leading the eye uphill to the museum and its dome, with the statue of St Wenceslas standing in the middle distance. The square dates back to 1348, when Charles IV founded the New Town and set it aside as a horse market. The museum building was put up between 1885 and 1891 to a design by Josef Schulz, and the current statue of the saint was unveiled in 1912. Many of the country's public gatherings have taken place here, so it feels like a place with a story, not just a shopping street. The phone icon on the map is in the middle of the square, between Můstek and Muzeum stations, with the museum up the slope to the south-east. From here you can shoot the boulevard and the museum together. For the classic view along the whole length of the boulevard, you can instead walk down to the lower end by the Můstek metro exit, a few hundred metres away, where the exit ramp can give you a little height. If you would rather look back the other way, the museum's elevated entrance gives a view down the square with the streets beyond it. Trams and pedestrians cross the square all the time, so wait a moment for a clear frame. Part of the square has been under reconstruction, so check for fencing before you plan your shot. Near the statue and the museum there is a memorial to Palach and Zajíc, so be considerate when you set up.",
+   "description": "Wenceslas Square is less a square than a long, gently rising boulevard, about 750 metres from end to end, with the neoclassical National Museum closing the view at the top. That is the picture most visitors want: a straight run of street leading the eye uphill to the museum and its dome, with the statue of St Wenceslas standing in the middle distance. The square dates back to 1348, when Charles IV founded the New Town and set it aside as a horse market. The museum building was put up between 1885 and 1891 to a design by Josef Schulz, and the current statue of the saint was unveiled in 1912. Many of the country's public gatherings have taken place here, so it feels like a place with a story, not just a shopping street. From here you can shoot the boulevard and the museum together. For the classic view along the whole length of the boulevard, you can instead walk down to the lower end by the Můstek metro exit, a few hundred metres away, where the exit ramp can give you a little height. If you would rather look back the other way, the museum's elevated entrance gives a view down the square with the streets beyond it. Trams and pedestrians cross the square all the time, so wait a moment for a clear frame. Part of the square has been under reconstruction, so check for fencing before you plan your shot. Near the statue and the museum there is a memorial to Palach and Zajíc, so be considerate when you set up.",
    "geographic_location": "In Prague's New Town (Nové Město), on the boulevard that runs from the edge of the Old Town up to the National Museum.",
-   "directions_text": "The phone icon on the map is about 30 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the full width of the boulevard and the buildings on both sides. Then try the default lens (1x) for a more natural look, and the telephoto (2x-5x, depending on your phone) to bring the museum and its dome closer.",
-    "where_to_stand": "Stand about 30 m north-east of the subject, in Václavské náměstí (the phone icon on the map), and face south-west. As a separate option, walk down to the Můstek end, a few hundred metres away, and use the metro exit ramp for a little height and a view along the whole boulevard, with the statue of St Wenceslas in the middle distance.",
+    "where_to_stand": "Stand in Václavské náměstí (lower (Můstek) end, near the metro exit). The full length of the boulevard rising toward the National Museum and its dome, with the statue of St Wenceslas in the middle distance. As a separate option, walk down to the Můstek end, a few hundred metres away, and use the metro exit ramp for a little height and a view along the whole boulevard, with the statue of St Wenceslas in the middle distance.",
     "how_to_frame": "Turn on gridlines and put the middle of the boulevard on the centre line, so the street leads the eye up to the dome. Keep the phone level so the buildings do not lean. For a different view, walk up to the museum's elevated entrance and look back down the square.",
     "phone_settings_tip": "Tap on the museum to set focus and pull the exposure slider down slightly if the sky is bright. Wait for trams and crowds to clear before pressing the shutter, or try a Live Photo and pick the cleanest frame afterwards.",
     "best_time": "Early morning or dusk, when the museum is lit and the crowds thin out."
@@ -387,15 +394,16 @@
   "name": "Strahov Monastery",
   "in_cut": true,
   "label": "Strahov",
-  "camera_pill": "Great Monastery Garden",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 5065,
   "pin": [
    14.3897135,
    50.0862616
   ],
   "camera": [
-   14.38863,
-   50.085382
+   14.3897135,
+   50.0862616
   ],
   "camera_source": "Researched viewpoint 'Great Monastery Garden' (1 web pages); placed at our map tiles: 'Klaster Monastery Beer Garden' (pois).",
   "pin_note": "Position from OpenStreetMap relation/6268801: the middle of the OpenStreetMap outline 'Strahov Monastery' (208 m across).",
@@ -403,10 +411,10 @@
   "text": {
    "description": "Strahov Monastery is a Premonstratensian abbey, founded in 1143, and it still feels like a small village of church towers and long walls. It photographs well because the buildings sit in a broad sweep of open garden. From the south, St. Vitus Cathedral also shows up behind the monastery, which gives the picture a clear sense of place. The monastery has been burned, plundered and rebuilt several times, notably after the Hussite attack in 1420 and the Swedish troops' looting near the end of the Thirty Years' War, and its mix of building styles shows that history. Its library is famous. The Theological Hall was finished in 1679, and the collection holds over 200,000 volumes, with painted ceilings. Taking photos inside may have its own rules, so ask on the day. For the best view of the monastery itself, use the Great Monastery Garden, on the south side. Start with the whole complex in the frame, then move in on a tower or roofline. If you also want a city view, the monastery's garden terraces have two other lookouts. The Viewpoint of Our Lady from Exile looks over the Lesser Town rooftops, and the Abbot's Lookout with Vineyard looks across to Prague Castle. The two are close to each other on the garden terraces.",
    "geographic_location": "Strahov Monastery stands in the Strahov district of Prague, close to the Pohořelec tram stop. Its gardens run along the south side, where the best photo of the complex is taken.",
-   "directions_text": "The easiest way is to take tram 22, 23 or 42 to Pohořelec. From the tram stop the monastery is to the south-east, about 3 minutes on foot. If you come up on the Petřín funicular (which climbs from Újezd), the monastery lies to the north-west of Petřín station, about 700 m or roughly 10 minutes on foot. Then walk round to the Great Monastery Garden on the south side. The phone icon on the map is about 55 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The easiest way is to take tram 22, 23 or 42 to Pohořelec. From the tram stop the monastery is to the south-east, about 3 minutes on foot. If you come up on the Petřín funicular (which climbs from Újezd), the monastery lies to the north-west of Petřín station, about 700 m or roughly 10 minutes on foot. Then walk round to the Great Monastery Garden on the south side. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole complex. Switch to the telephoto (2x-3x, depending on your phone) to pick out a tower or to pull St. Vitus Cathedral closer behind the monastery. Use the ultra-wide (0.5x) only if you are close to the walls.",
-    "where_to_stand": "Stand about 55 m south-west of the subject, in Great Monastery Garden (the phone icon on the map), and face north-east. The monastery is to the north-east of you, and from here the photo shows the complex seen from the south, with St. Vitus Cathedral visible in the background behind it.",
+    "where_to_stand": "Stand in Great Monastery Garden (south side of the monastery, looking back at the complex). The monastery seen from the south, with St. Vitus Cathedral visible in the background behind it. The monastery is to the north-east of you, and from here the photo shows the complex seen from the south, with St. Vitus Cathedral visible in the background behind it.",
     "how_to_frame": "Turn on gridlines and put the monastery roofline on the upper line, with the garden filling the lower third. Keep the horizon level so the walls do not lean. If you want a city view instead, the Viewpoint of Our Lady from Exile and the Abbot's Lookout with Vineyard are on the garden terraces, close to each other.",
     "phone_settings_tip": "Tap on the monastery walls to set focus, then slide the exposure down a little so the sky keeps its colour. If a pale sky washes out, tap on the sky instead and lift the exposure slightly.",
     "best_time": "Morning or late afternoon usually gives softer light. Take a few frames at different times if you can."
@@ -443,26 +451,27 @@
   "name": "Lennon Wall",
   "in_cut": true,
   "label": "Lennon Wall",
-  "camera_pill": "Velkopřevorské náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 4480,
   "pin": [
    14.4068145,
    50.0862417
   ],
   "camera": [
-   14.406539,
-   50.086115
+   14.4068145,
+   50.0862417
   ],
   "camera_source": "Researched viewpoint 'Velkopřevorské náměstí' (2 web pages); placed at OpenStreetMap 'Velkopřevorské náměstí' (way/27301897): middle (110 m across).",
   "pin_note": "Position from OpenStreetMap way/629201841: the middle of the OpenStreetMap line 'Lennon Wall' (36 m long).",
   "notes": "",
   "text": {
-   "description": "The Lennon Wall is a long, ever-changing painted wall on Velkopřevorské náměstí in Malá Strana, and it photographs well because the colour and writing fill the frame. After John Lennon was killed in 1980, an unknown artist painted his portrait and some lyrics here. The wall became a place for quiet protest under the communist government, and the secret police repeatedly painted it over without success. It is owned by the Sovereign Military Order of Malta. In 2019 it was reworked by professional artists and reopened as an open-air gallery on 7 November. Spray painting is now banned, and visitors may only add messages in the designated white zones, in impermanent materials such as chalk or markers. The wall is about 36 metres long, so the best shot is the whole length with its layers of paint, portraits and messages. Go to the phone icon on the map, straight across the narrow lane, for that view. Come back in for close-ups of single messages and the older paint layers. The wall is repainted often, so what you see may differ from photos online, and some visitors find the Lennon portrait is not visible. Morning is far quieter than midday, when tour groups arrive.",
+   "description": "The Lennon Wall is a long, ever-changing painted wall on Velkopřevorské náměstí in Malá Strana, and it photographs well because the colour and writing fill the frame. After John Lennon was killed in 1980, an unknown artist painted his portrait and some lyrics here. The wall became a place for quiet protest under the communist government, and the secret police repeatedly painted it over without success. It is owned by the Sovereign Military Order of Malta. In 2019 it was reworked by professional artists and reopened as an open-air gallery on 7 November. Spray painting is now banned, and visitors may only add messages in the designated white zones, in impermanent materials such as chalk or markers. The wall is about 36 metres long, so the best shot is the whole length with its layers of paint, portraits and messages. Come back in for close-ups of single messages and the older paint layers. The wall is repainted often, so what you see may differ from photos online, and some visitors find the Lennon portrait is not visible. Morning is far quieter than midday, when tour groups arrive.",
    "geographic_location": "In Malá Strana, on Velkopřevorské náměstí (Grand Priory Square), across from the French Embassy. It is a short walk from Kampa Island and Charles Bridge.",
-   "directions_text": "From Malostranská metro station (metro line A) it is about 9 minutes on foot. The nearest tram stop is Pražské Jezulátko (tram 12, 15, 20, 22 and 23), about 3 minutes on foot. Malostranské náměstí (the same trams plus tram 42) is about 4 minutes on foot. The phone icon on the map is about 10 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Malostranská metro station (metro line A) it is about 9 minutes on foot. The nearest tram stop is Pražské Jezulátko (tram 12, 15, 20, 22 and 23), about 3 minutes on foot. Malostranské náměstí (the same trams plus tram 42) is about 4 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the ultra-wide (0.5x) or the default lens (1x) for the whole wall. Switch to telephoto (2x or more) for details such as single messages or paint layers.",
-    "where_to_stand": "Stand about 10 m south-west of the subject, in Velkopřevorské náměstí (the phone icon on the map), and face north-east. Across the narrow street from the wall, at the square's entrance from Maltézské náměstí. The photo shows the full width of the painted wall, with its layers of graffiti, Lennon portraits and messages filling the frame.",
+    "where_to_stand": "Stand in Velkopřevorské náměstí (across the narrow street from the wall, at the square's entrance from Maltézské náměstí). The full width of the painted wall, with its layers of graffiti, Lennon portraits and messages filling the frame. Across the narrow street from the wall, at the square's entrance from Maltézské náměstí. The photo shows the full width of the painted wall, with its layers of graffiti, Lennon portraits and messages filling the frame.",
     "how_to_frame": "Turn on gridlines and line the top of the wall up with a grid line. Rather than squaring up to the wall, angle yourself about 30 degrees to show the depth of the layers with less distortion. For a quieter close-up of a section of the wall, walk along the square and shoot the messages and older paint with the telephoto lens. If you want a calmer stop afterwards, the Kampa embankment below Charles Bridge is about two minutes away, though the wall is not in the frame there.",
     "phone_settings_tip": "Tap the wall to focus, then drag the exposure slider down slightly if bright patches of paint look washed out. Hold the phone steady with both hands, as the lane is narrow and people pass through the frame.",
     "best_time": "Early morning, before about 9 a.m. and before tour groups arrive. Midday in summer is busiest. Check where the sun is on the day."
@@ -493,15 +502,16 @@
   "name": "Old Jewish Cemetery",
   "in_cut": true,
   "label": "Old Jewish Cemetery",
-  "camera_pill": "Široká",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 4200,
   "pin": [
    14.4171834,
    50.0898857
   ],
   "camera": [
-   14.416664,
-   50.089175
+   14.4171834,
+   50.0898857
   ],
   "camera_source": "Researched viewpoint 'Široká' (2 web pages); placed at the stretch of Široká nearest the subject (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/27376003: the middle of the OpenStreetMap outline 'Old Jewish Cemetery' (231 m across).",
@@ -509,10 +519,10 @@
   "text": {
    "description": "The Old Jewish Cemetery is one of the largest Jewish burial grounds of its kind in Europe, and one of the most important Jewish historical sites in Prague. Burials took place here from the first half of the 15th century until 1786. The oldest gravestone that survives dates from 1439 and belongs to the rabbi and poet Avigdor Kara.\n\nIt photographs well because of how crowded it is. There was never enough room, and graves could not be removed, so the community kept adding fresh layers of soil on top. In places there are up to twelve layers, and the old headstones were lifted up to the new surface. The result is a dense, leaning forest of stones, with the ground raised several metres above the surrounding streets.\n\nThe two places to shoot from are very different. From the street on Široká, you get the Pinkas Synagogue facade and the cemetery entrance. It is a free public spot, but the gravestones are mostly out of frame. The best pictures of the graves themselves are taken inside, low down along the rows of tilted stones, where the crowding and the lean are clearest. Entry to the cemetery is part of a Jewish Museum in Prague ticket, so check the official site before you go. Take a few frames from the street first, then save your close shots for inside.",
    "geographic_location": "In Josefov, the old Jewish Quarter of Prague's Old Town, with the main gate beside the Pinkas Synagogue on Široká. Staroměstská metro station is just to the south.",
-   "directions_text": "Start at Staroměstská metro station (metro line A; trams 2, 17 and 18 also stop there). The cemetery is to the north, about 3 minutes on foot. From the Právnická fakulta tram stop (trams 17 and 42), the cemetery is to the south, about 3 minutes on foot. Head for Široká and the Pinkas Synagogue, which is the cemetery's main gate. The phone icon on the map is about 25 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Staroměstská metro station (metro line A; trams 2, 17 and 18 also stop there). The cemetery is to the north, about 3 minutes on foot. From the Právnická fakulta tram stop (trams 17 and 42), the cemetery is to the south, about 3 minutes on foot. Head for Široká and the Pinkas Synagogue, which is the cemetery's main gate. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) for the synagogue facade and entrance from the street. Switch to ultra-wide (0.5x) if the street is too narrow to fit it all in. Inside, the telephoto (2x-5x, depending on your phone) is good for picking out single carved stones and their symbols.",
-    "where_to_stand": "Stand about 25 m south-west of the subject, on Široká (the phone icon on the map), and face north-east. The cemetery lies to the north-east from here. From this spot your photo shows the synagogue facade and the cemetery entrance, with the gravestones mostly out of frame.",
+    "where_to_stand": "Stand on Široká (in front of the Pinkas Synagogue entrance at Široká 3, the cemetery's main gate). The Pinkas Synagogue facade and the cemetery entrance from the street, with the gravestones themselves mostly out of frame. The cemetery lies to the north-east from here. From this spot your photo shows the synagogue facade and the cemetery entrance, with the gravestones mostly out of frame.",
     "how_to_frame": "From Široká, turn on the gridlines and keep the facade and entrance straight against them. Include the entrance so the picture tells people where they are. For the stones themselves, you need to be inside: crouch and hold the phone low, aiming along a row so the tilted, layered headstones overlap. Inside the cemetery, use portrait mode only for a single stone with the rest blurred behind it.",
     "phone_settings_tip": "Tap on the stones to focus, then slide the exposure down a little so the pale lettering and carving stay clear in bright light. Phone-only photography is the easiest to manage here, as one older blog says tripods are not allowed. Check the current photography rules before you go.",
     "best_time": "Soft, even light, such as an overcast day, suits the weathered stones well. Arriving at opening time may help you get a quieter row of graves. Check the official site for days and hours, as the cemetery closes on Saturdays and Jewish holidays."
@@ -551,15 +561,16 @@
   "name": "St. Nicholas Church (Malá Strana)",
   "in_cut": true,
   "label": "St. Nicholas Church",
-  "camera_pill": "Malostranské náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 3820,
   "pin": [
    14.4031985,
    50.0879621
   ],
   "camera": [
-   14.404331,
-   50.088114
+   14.4031985,
+   50.0879621
   ],
   "camera_source": "Researched viewpoint 'Malostranské náměstí' (3 web pages); placed at OpenStreetMap 'Malostranské náměstí' (relation/6750981): middle (227 m across).",
   "pin_note": "Position from OpenStreetMap way/7645355: the middle of the OpenStreetMap outline 'Saint Nicholas' (78 m across).",
@@ -567,10 +578,10 @@
   "text": {
    "description": "St Nicholas Church is the great Baroque landmark of Prague's Lesser Town (Malá Strana). It was built between 1704 and 1755 on the site of a 13th-century Gothic church with the same dedication. It is often described as the finest example of Prague Baroque, and the Dientzenhofers, a father and son, shaped much of it. Kilian Ignaz Dientzenhofer designed the chancel and its copper cupola, which was built between 1737 and 1752. The dome's interior fresco is about 70 m up, and the belfry beside it is about 79 m tall. Mozart is recorded as playing the organ here in 1787.\n\nIt photographs well because the curving Baroque architecture and the green dome are so large and so well shaped that they fill the frame with very little effort. The square gives you room to step back. Buildings around the edge add a sense of place, so the church looks like part of a living neighbourhood rather than an isolated monument.\n\nFor a simple, reliable picture, stand in the square and face the church. Keep the dome and the belfry in the same shot. If you are close, you will need the ultra-wide lens to fit the whole height in. Then step back and try a tighter version of the dome alone. People and trams crossing the square add scale, so you do not need to wait for a clear frame.",
    "geographic_location": "In the Lesser Town (Malá Strana) district of Prague, rising above the main square, Malostranské náměstí.",
-   "directions_text": "From Malostranská metro station (metro line A), walk about 580 m south-west to reach the square. Alternatively, trams 12, 15, 20, 22, 23 and 42 stop at Malostranské náměstí, right beside the square. From the phone icon on the map, the church is to the west. The phone icon on the map is about 45 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Malostranská metro station (metro line A), walk about 580 m south-west to reach the square. Alternatively, trams 12, 15, 20, 22, 23 and 42 stop at Malostranské náměstí, right beside the square. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to get the church and dome in one frame. Use the default lens (1x) for a more natural view from further back, and the telephoto (2x-5x, depending on your phone) for the dome and belfry details.",
-    "where_to_stand": "Stand about 45 m east of the subject, in Malostranské náměstí (the phone icon on the map), and face west. The west façade is seen from the other side of the church, so this position does not show it.",
+    "where_to_stand": "Stand in Malostranské náměstí (in front of the church, facing the west façade and dome). The church's Baroque façade and green dome filling the frame, with the Lesser Town square and its buildings around it. The west façade is seen from the other side of the church, so this position does not show it.",
     "how_to_frame": "Turn on the gridlines and line the dome up with the centre column so the church looks balanced. Keep your phone level so the vertical lines don't lean, and leave a little sky above the dome. For a different view, the Charles Bridge (Karlův most) shows the dome and spire rising between the two bridge towers. The Seminary Garden (Seminářská zahrada) looks down over the Malá Strana rooftops, but check its access before you go.",
     "phone_settings_tip": "Tap on the church to set focus, then drag the exposure slider down slightly so the sky stays blue and the green dome keeps its colour. Panorama mode can help if you can't step back far enough, but hold the phone steady and keep it upright.",
     "best_time": "The best light depends on which side of the church you shoot from, so check the direction of the sun on site and choose the time of day that lights the side you are photographing."
@@ -604,26 +615,27 @@
   "name": "Týn Church",
   "in_cut": true,
   "label": "Týn Church",
-  "camera_pill": "Staroměstské náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 3410,
   "pin": [
    14.4227147,
    50.0876929
   ],
   "camera": [
-   14.420971,
-   50.087445
+   14.4227147,
+   50.0876929
   ],
   "camera_source": "Researched viewpoint 'Staroměstské náměstí' (3 web pages); placed at OpenStreetMap 'Staroměstské náměstí' (relation/2362716): middle (276 m across).",
   "pin_note": "Position from OpenStreetMap way/379512802: the middle of the OpenStreetMap outline 'Our Lady before Týn' (78 m across).",
   "notes": "",
   "text": {
-   "description": "Týn Church is the Gothic landmark of Prague's Old Town. Its two 80 m towers are easy to spot above the rooftops, and each spire is topped by eight smaller spires in two layers of four, which gives the skyline its spiky outline. The church has been the main church of this part of the city since the 14th century. The golden chalice on the gable, the Hussite symbol, was removed in 1626 and melted down for the halo of a Virgin Mary sculpture. In 2017 a temporary chalice model was installed while a new gilded chalice was commissioned. The southern tower was finished in 1511, which is why the two towers have slightly different histories.\n\nThe church photographs best from a distance, because the houses of the square hide its lower part and both spires rise above them. Go to the phone icon on the map, on the west side of the square, and face east. The Jan Hus Memorial makes a good foreground and gives the picture a sense of scale. Keep the spires well inside the frame, as they are tall and easy to clip. Photography is not allowed inside the church, so plan on outside shots only. The square is much emptier early in the morning, which makes a clean composition far easier.",
+   "description": "Týn Church is the Gothic landmark of Prague's Old Town. Its two 80 m towers are easy to spot above the rooftops, and each spire is topped by eight smaller spires in two layers of four, which gives the skyline its spiky outline. The church has been the main church of this part of the city since the 14th century. The golden chalice on the gable, the Hussite symbol, was removed in 1626 and melted down for the halo of a Virgin Mary sculpture. In 2017 a temporary chalice model was installed while a new gilded chalice was commissioned. The southern tower was finished in 1511, which is why the two towers have slightly different histories.\n\nThe church photographs best from a distance, because the houses of the square hide its lower part and both spires rise above them. The Jan Hus Memorial makes a good foreground and gives the picture a sense of scale. Keep the spires well inside the frame, as they are tall and easy to clip. Photography is not allowed inside the church, so plan on outside shots only. The square is much emptier early in the morning, which makes a clean composition far easier.",
    "geographic_location": "Týn Church stands in the Old Town (Staré Město) of Prague, on the east side of Old Town Square. It sits just behind the Baroque houses that line that side of the square.",
-   "directions_text": "The nearest stop is Staroměstská metro station (metro line A, also trams 2, 17 and 18). The church is to the east, about 445 m away. Můstek metro station (metro lines A and B) is about 472 m away, with the church to the north. Once you reach Old Town Square, walk to its west side and look east to see the spires. The phone icon on the map is about 100 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stop is Staroměstská metro station (metro line A, also trams 2, 17 and 18). The church is to the east, about 445 m away. Můstek metro station (metro lines A and B) is about 472 m away, with the church to the north. Once you reach Old Town Square, walk to its west side and look east to see the spires. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to fit both spires and the Jan Hus Memorial in one frame. Switch to the ultra-wide (0.5x) if you stand close to the memorial and want the whole scene. Use telephoto (2x-5x, depending on your phone) to pick out the small spires and the gable.",
-    "where_to_stand": "Stand about 100 m west of the subject, in Staroměstské náměstí (the phone icon on the map), and face east. On the west side of the square, and shoot east toward the church. From here the twin Gothic spires rise over the Baroque facades on the east side, framed by the Jan Hus Memorial. Standing at the far south side near the memorial also works.",
+    "where_to_stand": "Stand in Staroměstské náměstí (west side of the square, shooting east toward the church, with the Jan Hus Memorial in the foreground). The twin Gothic spires of Týn Church rising over the Baroque facades on the east side of the square, framed by the Jan Hus Memorial. On the west side of the square, and shoot east toward the church. From here the twin Gothic spires rise over the Baroque facades on the east side, framed by the Jan Hus Memorial. Standing at the far south side near the memorial also works.",
     "how_to_frame": "Switch on gridlines and put the memorial in the lower part of the frame, with the spires above it. Keep your phone upright so the towers stay tall and don't lean. For a different view, the Old Town Hall tower looks down onto the church and the square, and Letenské sady gives a distant view of the spires across the river. Check the official site before you go to the tower.",
     "phone_settings_tip": "Tap on the spires to set focus, then slide the exposure slider down a little if the sky looks washed out. Turn on gridlines to keep the verticals straight.",
     "best_time": "Before 9:00 AM, when the square is much emptier, even in summer."
@@ -660,15 +672,16 @@
   "name": "Kampa and Čertovka",
   "in_cut": true,
   "label": "Kampa",
-  "camera_pill": "Velkopřevorský mlýn",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 3255,
   "pin": [
    14.40833333,
    50.085
   ],
   "camera": [
-   14.407357,
-   50.086305
+   14.40833333,
+   50.085
   ],
   "camera_source": "Researched viewpoint 'Velkopřevorský mlýn' (3 web pages); placed at OpenStreetMap 'Velkopřevorský mlýn' (way/30874525): middle (26 m across); moved 10 m off buildings.",
   "pin_note": "Position from Wikidata Q3501077: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -676,10 +689,10 @@
   "text": {
    "description": "Kampa is a small island in the Vltava, just below Charles Bridge on the Malá Strana side. A narrow channel called the Čertovka, or Devil's Stream, separates it from the rest of Malá Strana. The channel was dug to power water mills, and the best-known picture here is the big wooden water wheel of the old mill at Velkopřevorský mlýn. The wheel turns in the canal with the houses of Malá Strana rising behind it. It photographs well because the water, the little footbridge and the rooftops all sit close together in one frame, and it looks striking after dark too.\n\nThe name Kampa goes back to the 17th century, when Spanish soldiers camped here during the Battle of White Mountain and the area was named after the Latin word for a field. The island is also home to Museum Kampa, a modern art gallery that opened in 2003 in Sova's Mills. Outside it, a huge chair sculpture by Magdalena Jetelová can be seen from across the river.\n\nFor your photos, take the wheel first from the small footbridge, then walk to the tree-lined square Na Kampě. From there you get the arches of Charles Bridge with the Čertovka beyond. Whether the wheel is actually turning depends on the water level and the season, so it may be still. Some visitors find the canal view plain without boats, so concentrate on the wheel and the buildings behind it.",
    "geographic_location": "Kampa Island lies in Malá Strana, Prague, on the Vltava just south of Charles Bridge. The Čertovka canal runs along its western side, between the island and Malá Strana.",
-   "directions_text": "The Tyršův dům tram stop (tram 12, 15, 20, 22, 23 and 42) is about 300 m from the Kampa and Čertovka area. Malostranská metro station (metro line A) is about 700 m away, to the south of the station. If you are coming from Charles Bridge, the street Na Kampě leads down onto the island. The phone icon on the map is about 160 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The Tyršův dům tram stop (tram 12, 15, 20, 22, 23 and 42) is about 300 m from the Kampa and Čertovka area. Malostranská metro station (metro line A) is about 700 m away, to the south of the station. If you are coming from Charles Bridge, the street Na Kampě leads down onto the island. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the wheel and the canal. Switch to ultra-wide (0.5x) if the footbridge feels tight and you want the wheel, the water and the houses behind in one frame. The telephoto (2x-5x, depending on your phone) is useful for a closer shot of the wheel itself.",
-    "where_to_stand": "Stand about 160 m north-west of the subject, at Velkopřevorský mlýn (the phone icon on the map), and face south-east. On the small footbridge over the Čertovka, and look at the wheel. From here you see the large wooden wheel turning in the canal, with the houses of Malá Strana rising behind it. The wider Kampa area stretches away to the south-east.",
+    "where_to_stand": "Stand right at the subject (from the small footbridge over the Čertovka, looking at the wheel). The large wooden water wheel of the old mill turning in the Čertovka canal, with the houses of Malá Strana rising behind it. On the small footbridge over the Čertovka, and look at the wheel. From here you see the large wooden wheel turning in the canal, with the houses of Malá Strana rising behind it. The wider Kampa area stretches away to the south-east.",
     "how_to_frame": "Turn on gridlines and place the wheel on one of the lines, letting the canal and the footbridge lead the eye towards it. Keep the houses as a backdrop at the top of the frame. For a second view, walk to the square Na Kampě and frame the Charles Bridge arches with the Čertovka beyond. Kampa Park is another option, for the bridge seen from below with the Old Town towers across the water.",
     "phone_settings_tip": "Tap on the wheel to focus, then slide the exposure down a little if the sky behind is bright. Try a Live Photo to catch the wheel moving, if it is turning. After dark, use night mode and hold the phone steady against the railing or your body.",
     "best_time": "Early morning, before the crowds arrive, when the canal is in shade and the wheel is quiet. It also looks striking after dark."
@@ -719,6 +732,7 @@
   "in_cut": true,
   "label": "Letná view",
   "camera_pill": null,
+  "nophone": false,
   "searches": 3240,
   "pin": [
    14.41253333,
@@ -775,15 +789,16 @@
   "name": "Vyšehrad",
   "in_cut": true,
   "label": "Vyšehrad",
-  "camera_pill": "Císařská louka",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 3215,
   "pin": [
    14.4194444,
    50.0641667
   ],
   "camera": [
-   14.413852,
-   50.062857
+   14.4194444,
+   50.0641667
   ],
   "camera_source": "Researched viewpoint 'Císařská louka' (1 web pages); placed at OpenStreetMap 'Císařská louka' (way/25301600): edge nearest the subject (1520 m across).",
   "pin_note": "Position from OpenStreetMap relation/8001448: large area 'Vyšehrad' (679 m across): previous pin kept, it lies inside.",
@@ -791,10 +806,10 @@
   "text": {
    "description": "Vyšehrad is a historic fort on a steep rock above the east bank of the Vltava, just over 3 km south-east of Prague Castle. It was probably founded in the 10th century, and its look today comes mostly from the Baroque rebuilding of 1654, which gave it long brick ramparts, bastions and gates. Inside are the Basilica of St Peter and St Paul, remodelled in neo-Gothic style in 1885 and 1887, the Vyšehrad Cemetery and the Rotunda of St Martin, which dates from the 11th century. Today the whole area is a public park.\n\nThe fort photographs well from across the water. Císařská louka, the meadow nearby, may also be a good vantage point, though this has not been confirmed. Water, grass and old stone make a simple, calm composition that works with any phone. Keep the horizon level, let the river fill the lower part of the frame and leave some sky above the church. If you want a closer, more urban view, Rašínovo nábřeží is a good alternative. There the cubist houses sit in the foreground with the Vyšehrad cliffs and walls rising behind them. Then explore the fort itself on foot for the gates, the statues and the views outward over the city.",
    "geographic_location": "Vyšehrad is a fortified hill on the east bank of the Vltava, just over 3 km south-east of Prague Castle.",
-   "directions_text": "The nearest metro is Vyšehrad metro station on metro line C, about 800 m away. Alternatively, take tram 2, 7, 18 or 24 to Ostrčilovo náměstí, about 400 m away. The phone icon on the map is on the river side, to the west of the fortress, so follow the map to it. The phone icon on the map is about 190 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest metro is Vyšehrad metro station on metro line C, about 800 m away. Alternatively, take tram 2, 7, 18 or 24 to Ostrčilovo náměstí, about 400 m away. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole view of the walls and hill across the river. Use the telephoto lens (2x-5x, depending on your phone) to pick out the basilica and the ramparts. Switch to the ultra-wide (0.5x) only if you want a lot of water and sky.",
-    "where_to_stand": "Stand about 190 m west of the subject, in Císařská louka (the phone icon on the map), and face east. The basilica rises above the ramparts. Císařská louka, the meadow nearby, may also work as a vantage point, but this is not confirmed.",
+    "where_to_stand": "Stand in Císařská louka (left (south-west) bank of the Vltava, opposite the fortress). A panoramic view across the river of Vyšehrad's fortress walls and hill, taken from the far bank. The basilica rises above the ramparts. Císařská louka, the meadow nearby, may also work as a vantage point, but this is not confirmed.",
     "how_to_frame": "Turn on gridlines and put the line of the walls on the upper third, with the river in the lower part of the frame. Keep the horizon level. For a different view, try Rašínovo nábřeží on the embankment, where the cubist houses sit in the foreground below the Vyšehrad cliffs.",
     "phone_settings_tip": "Tap the walls to focus, then slide the exposure down a little so the sky keeps its colour and the stonework doesn't wash out. Try panorama mode, moving slowly, for the full length of the fortress, or take two or three separate shots at 1x and 2x.",
     "best_time": "Late afternoon is worth trying, because the sun should then be behind you and shining on the walls. Mornings are a good alternative if you prefer a calmer, quieter riverside."
@@ -834,15 +849,16 @@
   "name": "Powder Tower and Municipal House",
   "in_cut": true,
   "label": "Powder Tower",
-  "camera_pill": "náměstí Republiky",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2580,
   "pin": [
    14.4277408,
    50.0871919
   ],
   "camera": [
-   14.430708,
-   50.088799
+   14.4277408,
+   50.0871919
   ],
   "camera_source": "Researched viewpoint 'náměstí Republiky' (3 web pages); placed at OpenStreetMap 'Náměstí Republiky' (node/5471247112): point; moved 5 m off buildings.",
   "pin_note": "Position from OpenStreetMap way/27124370: the middle of the OpenStreetMap outline 'Powder Gate Tower' (27 m across).",
@@ -850,10 +866,10 @@
   "text": {
    "description": "The Powder Tower (Prašná brána in Czech) is a Gothic gate that once marked the edge of the Old Town, where it meets the New Town. Work began in 1475, and the foundation stone was laid by Vladislav II. It was meant as a grand entrance to the city rather than a fortification. Despite the name, it was never used to store gunpowder. The carved sculptures you see today date from the 1876 reconstruction by Josef Mocker. Right beside it stands the Municipal House, whose Art Nouveau facade makes a strong contrast with the dark, pointed stonework of the tower. That pairing is the reason to come here. From across the square you can fit both buildings into one wide frame, which is the classic view. If you have time, step in closer and look up at the carved portal for a second, quite different picture. The tower has periodic restoration work, so scaffolding or wraps may be in place when you visit. The 186-step climb to the gallery is a separate paid visit and gives a view down onto the Municipal House dome and along Celetná Street towards Old Town Square. Check the official site before you go.",
    "geographic_location": "On the edge of Prague's Old Town, where it meets the New Town, beside the Municipal House on náměstí Republiky.",
-   "directions_text": "From Náměstí Republiky metro station (metro line B), the tower is to the south-west, about 270 m on foot. From the Republic Square tram stop (tram 6, 8, 15, 26, 41 and 42) it is also to the south-west, about 220 m on foot. From Můstek metro station (metro lines A and B), walk north-east for about 490 m. The phone icon on the map is about 260 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Náměstí Republiky metro station (metro line B), the tower is to the south-west, about 270 m on foot. From the Republic Square tram stop (tram 6, 8, 15, 26, 41 and 42) it is also to the south-west, about 220 m on foot. From Můstek metro station (metro lines A and B), walk north-east for about 490 m. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the Municipal House facade and the tower in one frame. Switch to the default lens (1x) for a calmer, less stretched view. Use telephoto (2x-5x, depending on your phone) for details such as the carved stonework.",
-    "where_to_stand": "Stand about 260 m north-east of the subject, in náměstí Republiky (the phone icon on the map), and face south-west. From there the tower lies to the south-west. For the classic wide view of the Art Nouveau facade with the Gothic Powder Tower alongside it, you can also try the pavement or pedestrian island opposite the Municipal House entrance, across the square, as a separate suggestion.",
+    "where_to_stand": "Stand in náměstí Republiky (pavement or pedestrian island opposite the Municipal House entrance, across the square). The full Art Nouveau facade of the Municipal House with the Gothic Powder Tower alongside it in a single wide frame. From there the tower lies to the south-west. For the classic wide view of the Art Nouveau facade with the Gothic Powder Tower alongside it, you can also try the pavement or pedestrian island opposite the Municipal House entrance, across the square, as a separate suggestion.",
     "how_to_frame": "Turn on gridlines and keep the verticals straight by holding the phone upright, so the buildings don't lean inwards. Place the Municipal House and the tower side by side with a little pavement or sky around them. For a second shot, walk up to the tower and look up at the carved Gothic portal, with the Art Nouveau building right beside it.",
     "phone_settings_tip": "Tap the sky or the facade to focus, then drag the exposure slider down slightly so the bright sky doesn't wash out the stonework and gilded details.",
     "best_time": "Morning light from the east, or the morning hours generally, suits the exterior best."
@@ -889,15 +905,16 @@
   "name": "Head of Franz Kafka",
   "in_cut": true,
   "label": "Kafka's Head",
-  "camera_pill": "Quadrio",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2470,
   "pin": [
    14.4208129,
    50.0816611
   ],
   "camera": [
-   14.420156,
-   50.08128
+   14.4208129,
+   50.0816611
   ],
   "camera_source": "Researched viewpoint 'Quadrio' (2 web pages); placed at OpenStreetMap 'Quadrio' (way/202220820): middle (107 m across); moved 25 m off buildings.",
   "pin_note": "Position from OpenStreetMap node/3166450188: the OpenStreetMap point 'Franz Kafka'.",
@@ -905,10 +922,10 @@
   "text": {
    "description": "David Černý's Head of Franz Kafka is a 10.6 metre sculpture made of 42 stainless-steel panels that turn independently. At certain moments the layers line up into Kafka's face, then drift apart again. It was installed on 31 October 2014 outside the Quadrio shopping centre, and the whole thing weighs about 24 tonnes. Kafka worked in a nearby savings bank building. Opinions on it are divided: some call it a glossy advert for the mall, others think the shifting steel suits Kafka's writing well.\n\nIt photographs well because the polished steel acts like a mirror. The silver face picks up the colours of the surrounding buildings and the sky, so the picture changes with the weather and the time of day. Walk north-east towards the head and shoot from in front of it, by the mirrored steel of the shopping centre's back entrance. From the front you see the face most clearly. For a different look, walk round to Charvátova and shoot the head from the street side, with the shopping-centre frontage behind it.\n\nTiming matters more than anything else here. Guides disagree on how often the layers align, so check the schedule and arrive a few minutes early. The head also pauses now and then for technical reasons, so be patient. Switch your flash off, because the steel can turn flash photos far too bright.",
    "geographic_location": "In the centre of Prague, outside the Quadrio shopping centre on Charvátova, right beside Národní třída.",
-   "directions_text": "Start at Národní třída metro station (metro line B, also served by trams 2, 9, 18, 22, 23 and 42). The head is just north-east of the station, about 2 minutes on foot. From the Vodičkova tram stop (trams 3, 5, 6, 9, 23, 24 and 42) it is about 4 minutes on foot, heading north-west. Můstek metro station (metro lines A and B) is a little further away, about 5 minutes on foot, heading south-west. The phone icon on the map is about 65 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Národní třída metro station (metro line B, also served by trams 2, 9, 18, 22, 23 and 42). The head is just north-east of the station, about 2 minutes on foot. From the Vodičkova tram stop (trams 3, 5, 6, 9, 23, 24 and 42) it is about 4 minutes on foot, heading north-west. Můstek metro station (metro lines A and B) is a little further away, about 5 minutes on foot, heading south-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for a straight-on view of the face. Switch to ultra-wide (0.5x) if you want the whole head and some of the buildings around it. Try telephoto (2x-5x, depending on your phone) for a tighter shot of the reflections on the steel.",
-    "where_to_stand": "Stand about 65 m south-west of the subject, at Quadrio (the phone icon on the map), and face north-east. Then step closer to the front of the head, by the mirrored steel of the shopping centre's back entrance at Quadrio, for the straight-on view. For an alternative, try Charvátova, where you see the head from the street side with the shopping-centre frontage and nearby buildings behind it.",
+    "where_to_stand": "Stand right at the subject (in front of the head, by the mirrored steel of the shopping centre's back entrance). The 11 m stainless-steel head from the front, with the reflected colours of the surrounding buildings on its silver face. Then step closer to the front of the head, by the mirrored steel of the shopping centre's back entrance at Quadrio, for the straight-on view. For an alternative, try Charvátova, where you see the head from the street side with the shopping-centre frontage and nearby buildings behind it.",
     "how_to_frame": "Turn on gridlines and keep the head's vertical centre on a grid line, so the stack of panels looks straight. With the ultra-wide, hold the phone level and don't tilt it upwards, which makes the head lean. Include some of the reflected buildings in the frame rather than cropping them out. For a second picture, move to Charvátova and use the street and shopfronts as the backdrop.",
     "phone_settings_tip": "Tap the steel to focus, then slide the exposure down a little so the bright reflections keep their detail. Turn the flash off, since it can overexpose the steel. Try a Live Photo or a short video to catch the panels moving as they shift into the face.",
     "best_time": "Aim for the moment the layers align into Kafka's face, which guides say happens on the hour. They differ on the exact interval, so check the schedule before you go."
@@ -946,6 +963,7 @@
   "in_cut": true,
   "label": "Golden Lane",
   "camera_pill": "near Jiřská",
+  "nophone": false,
   "searches": 1840,
   "pin": [
    14.4042704,
@@ -1002,6 +1020,7 @@
   "in_cut": false,
   "label": "St. Vitus Cathedral",
   "camera_pill": "near Karlův most",
+  "nophone": false,
   "searches": 16190,
   "pin": [
    14.4005665,
@@ -1057,15 +1076,16 @@
   "name": "Old Town Square",
   "in_cut": false,
   "label": "Old Town Square",
-  "camera_pill": "Staroměstské náměstí",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 5050,
   "pin": [
    14.4211406,
    50.0877143
   ],
   "camera": [
-   14.420971,
-   50.087445
+   14.4211406,
+   50.0877143
   ],
   "camera_source": "Researched viewpoint 'Staroměstské náměstí' (2 web pages); placed at OpenStreetMap 'Staroměstské náměstí' (relation/2362716): middle (276 m across).",
   "pin_note": "Position from OpenStreetMap relation/2362716: 'Jan Hus Memorial', the best-known feature inside 'Old Town Square' (277 m across).",
@@ -1073,10 +1093,10 @@
   "text": {
    "description": "Old Town Square is the great open space at the heart of Prague's Old Town, between Wenceslas Square and Charles Bridge. For photographs, the star is the Gothic Church of Our Lady before Týn. It has been the main church of this part of the city since the 14th century, and its two dark towers rise about 80 m above the square. From the south side you can line them up behind the Jan Hus Memorial, a statue unveiled on 6 July 1915 to mark 500 years since Hus's death. That gives you a foreground, a middle distance and a skyline in one frame.\n\nThe square has plenty else to see. The Old Town Hall carries the Prague Orloj, an astronomical clock first installed in 1410, and the hall's tower is open to the public for views over the Old Town. If you want a second angle, Malé náměstí shows the Týn towers above the Old Town Hall roofline. The tower gives a view looking down on the square. Both are worth a look if you have time.\n\nGuides say early morning is best, when sunlight reaches the church facade and there are fewer people about before roughly 9 AM. In winter the Christmas market fills much of the square and can block your view, so expect crowds and a different composition then.",
    "geographic_location": "In Prague's Old Town (Staré Město), in the middle of the historic square between Wenceslas Square and Charles Bridge, next to the Old Town Hall and the Church of Our Lady before Týn.",
-   "directions_text": "The nearest stop is Staroměstská metro station (metro line A, also trams 2, 17 and 18), about 330 m away, with the square to the east. From Můstek metro station (metro lines A and B) it is about 500 m, heading north-west. The tram stop Právnická fakulta (trams 17 and 42) is about 490 m away, with the square to the south-east of the stop. The phone icon on the map is about 30 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stop is Staroměstská metro station (metro line A, also trams 2, 17 and 18), about 330 m away, with the square to the east. From Můstek metro station (metro lines A and B) it is about 500 m, heading north-west. The tram stop Právnická fakulta (trams 17 and 42) is about 490 m away, with the square to the south-east of the stop. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole scene: statue, church and sky. Switch to the ultra-wide (0.5x) if the towers are being cut off, or if the square is busy and you want to step back. Use the telephoto (2x-5x, depending on your phone) to pick out the twin spires on their own.",
-    "where_to_stand": "Stand about 30 m south of the subject, in Staroměstské náměstí (the phone icon on the map), and face north. From here the memorial is just to the north, and you look north-northeast across the open square toward the twin spires of Our Lady before Týn, with the memorial in the foreground.",
+    "where_to_stand": "Stand in Staroměstské náměstí (south side of the square, near the Jan Hus Memorial). Looking north-northeast across the open square toward the twin spires of Our Lady before Týn, with the Jan Hus Memorial in the foreground. From here the memorial is just to the north, and you look north-northeast across the open square toward the twin spires of Our Lady before Týn, with the memorial in the foreground.",
     "how_to_frame": "Turn on gridlines and place the Jan Hus Memorial low in the frame, with the two spires rising behind it. Keep your phone upright and level so the towers don't lean. For a different view, the Old Town Hall Tower looks down on the square, and Malé náměstí shows the towers above the Old Town Hall roofline.",
     "phone_settings_tip": "Tap the church facade to set focus, then drag the exposure slider down a touch so the sky stays blue and the stonework keeps its detail.",
     "best_time": "Early morning, before about 9 AM, when guides say the light falls directly on the facade and the square is quieter."

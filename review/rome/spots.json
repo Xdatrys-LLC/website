@@ -4,15 +4,16 @@
   "name": "Colosseum",
   "in_cut": true,
   "label": "Colosseum",
-  "camera_pill": "near Viale Serapide",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 557800,
   "pin": [
    12.4923737,
    41.8902602
   ],
   "camera": [
-   12.4951877,
-   41.8913293
+   12.4923737,
+   41.8902602
   ],
   "camera_source": "OpenStreetMap viewpoint 'Colosseo' (node/5978649686). Moved 78 m outwards on 2026-11-10 so it is 180 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/1834818: the middle of the OpenStreetMap outline 'Colosseum' (229 m across).",
@@ -20,10 +21,10 @@
   "text": {
    "description": "The Colosseum is the great oval amphitheatre in the middle of Rome, and it is the largest standing amphitheatre in the world. Work began in AD 72 under the Emperor Vespasian and finished in AD 80 under his successor and heir, Titus, with more changes made later under Domitian. It was built on the flat ground of a low valley, where Nero's artificial lake had been filled in. The name is thought to come from a huge bronze statue of Nero that once stood close by. It could hold tens of thousands of spectators, and today you see the ruined outer wall, with its rows of arches, against the sky.\n\nIt photographs well because the shape is instantly recognisable and the repeating arches give a strong pattern. The broken edge of the wall adds drama, and the stone changes colour as the light changes. Because the building is so large, the main challenge is fitting it in without tilting the phone upwards, which makes the walls lean inwards. Stand back where you can, keep the phone level, and use the gridlines to line up the arches. For detail shots, move in or use the zoom to pick out a single bay of arches, the worn stone or a patch of sky through a gap. Expect other visitors in the frame, so a few quick shots as people move through will help. Look around the whole outside as well, because the ruined and the more complete sections give very different pictures.",
    "geographic_location": "The Colosseum stands in the centre of Rome, just east of the Roman Forum, in the low ground between the Caelian, Esquiline and Palatine Hills. Colosseo station (Metro line B, with tram 3 and tram 8) and the Colosseo/Salvi N. tram stop are right beside it.",
-   "directions_text": "From Colosseo station (Metro line B, with tram 3 and tram 8), the Colosseum is about 92 m to the south, about 1 minute on foot. From Colosseo – Fori Imperiali (Metro line C), it lies to the south-east, about 4 minutes on foot. If you arrive by tram 3 or tram 8 at Colosseo/Salvi N., the building is to the west, about 2 minutes on foot; from the Parco Celio stop (also tram 3 and tram 8) it is to the north, about 5 minutes on foot. The phone icon on the map is on the north-east side of the Colosseum, about 3 minutes on foot from it, so head round the outside of the building in that direction. The phone icon on the map is about 180 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Colosseo station (Metro line B, with tram 3 and tram 8), the Colosseum is about 92 m to the south, about 1 minute on foot. From Colosseo – Fori Imperiali (Metro line C), it lies to the south-east, about 4 minutes on foot. If you arrive by tram 3 or tram 8 at Colosseo/Salvi N., the building is to the west, about 2 minutes on foot; from the Parco Celio stop (also tram 3 and tram 8) it is to the north, about 5 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the long curve of the walls in from close range, then switch to the default lens (1x) for a more natural look. Use the telephoto (2x to 5x, depending on your phone) for close-ups of the arches and stonework.",
-    "where_to_stand": "Stand about 180 m north-east of the subject, at the phone icon on the map, and face south-west.",
+    "where_to_stand": "Stand on Via Nicola Salvi (raised section near the Colosseo metro exit, northern side). The Colosseum's most intact outer curve and facade, filling the frame from a slight height above the piazza.",
     "how_to_frame": "Switch on the gridlines and keep the phone level so the walls do not lean. Put the curve of the arches along one of the lines, and leave a little sky above the top edge. For a second shot, zoom in on a single row of arches so the pattern fills the frame.",
     "phone_settings_tip": "Tap the brightest part of the stone to focus, then pull the exposure slider down a little so the sky does not turn white. If you want the whole curve of the building, try panorama mode and move the phone slowly and steadily.",
     "best_time": "Early morning or late afternoon usually gives softer light and warmer stone colour, and often fewer people. After dark, if the building is lit, night mode can give a good result; hold the phone steady against a wall or railing."
@@ -55,6 +56,7 @@
   "in_cut": true,
   "label": "Trevi Fountain",
   "camera_pill": "near Piazza di Trevi",
+  "nophone": false,
   "searches": 215750,
   "pin": [
    12.4832817,
@@ -104,26 +106,27 @@
   "name": "St Peter's Basilica and Square",
   "in_cut": true,
   "label": "St Peter's",
-  "camera_pill": "Piazza Pio Dodicesimo",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 176600,
   "pin": [
    12.4537285,
    41.9021553
   ],
   "camera": [
-   12.4585117,
-   41.9022534
+   12.4537285,
+   41.9021553
   ],
   "camera_source": "Commons cluster (146 photos). Moved 106 m outwards on 2026-11-10 so it is 290 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/244159210: the middle of the OpenStreetMap outline 'Saint Peter's Basilica' (268 m across).",
   "notes": "IN VATICAN CITY (pilot map 9). Kept because visitors search it as part of Rome: your decision. UK figure for 'st peter's square' (74,000) is probably Manchester's St Peter's Square, so the square's figure is not used.",
   "text": {
-   "description": "St Peter's is the great Renaissance church of Vatican City, and its dome is the high point of Rome's skyline. In front of it, Bernini's square opens out like a pair of arms. Two sweeping Tuscan colonnades, four columns deep, enclose an oval space with an Egyptian obelisk at its centre and a fountain on each side. Bernini designed the square between 1667 and 1676, and the obelisk had been raised on the spot in 1586. The present basilica was begun in 1506 and finished in 1626. It is counted as the largest church in the world by interior measure, and its dome is among the biggest anywhere.\n\nIt photographs well because the scale is easy to read. The wide façade, the dome rising behind it and the curving colonnades all line up along one axis, and the trapezoid-shaped approach gives the view real depth. People crossing the square give a quick sense of size.\n\nThe phone icon on the map is about 290 m east of the subject. From there the whole group of dome, façade and square fits in one frame. For a close-up of the colonnades or the façade details, walk into the square. Papal ceremonies here can draw between 15,000 and over 80,000 people, so expect the square to be very busy on those days. The basilica is a working church, so check the official site for entry rules before you go.",
+   "description": "St Peter's is the great Renaissance church of Vatican City, and its dome is the high point of Rome's skyline. In front of it, Bernini's square opens out like a pair of arms. Two sweeping Tuscan colonnades, four columns deep, enclose an oval space with an Egyptian obelisk at its centre and a fountain on each side. Bernini designed the square between 1667 and 1676, and the obelisk had been raised on the spot in 1586. The present basilica was begun in 1506 and finished in 1626. It is counted as the largest church in the world by interior measure, and its dome is among the biggest anywhere.\n\nIt photographs well because the scale is easy to read. The wide façade, the dome rising behind it and the curving colonnades all line up along one axis, and the trapezoid-shaped approach gives the view real depth. People crossing the square give a quick sense of size.\n\nFrom there the whole group of dome, façade and square fits in one frame. For a close-up of the colonnades or the façade details, walk into the square. Papal ceremonies here can draw between 15,000 and over 80,000 people, so expect the square to be very busy on those days. The basilica is a working church, so check the official site for entry rules before you go.",
    "geographic_location": "St Peter's Basilica and Square sit in Vatican City, an independent enclave inside Rome, on the west side of the River Tiber.",
-   "directions_text": "Take the Metro: on Metro line A, Cipro is the nearest station. From there the basilica is to the south-east, about 12 minutes on foot. From Ottaviano, also on Metro line A, the basilica is to the south-west, about 15 minutes on foot. If you prefer a tram, tram 19 stops at Risorgimento/S. Pietro, and the basilica is south-west of the stop, about 9 minutes on foot. The phone icon on the map is about 290 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the Metro: on Metro line A, Cipro is the nearest station. From there the basilica is to the south-east, about 12 minutes on foot. From Ottaviano, also on Metro line A, the basilica is to the south-west, about 15 minutes on foot. If you prefer a tram, tram 19 stops at Risorgimento/S. Pietro, and the basilica is south-west of the stop, about 9 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole scene of dome, façade and colonnades. From where you stand, use 2x or 3x to bring the dome and façade closer without cropping the picture yourself. Switch to the ultra-wide (0.5x) once you are inside the square and want the curve of the colonnades.",
-    "where_to_stand": "Stand about 290 m east of the subject, at the phone icon on the map, and face west. For the colonnade shots, walk west into the square, roughly 5 minutes on foot.",
+    "where_to_stand": "Stand on Ponte Umberto I. Looking toward the Vatican along the Tiber, with Ponte Sant'Angelo leading the eye to the basilica's dome. For the colonnade shots, walk west into the square, roughly 5 minutes on foot.",
     "how_to_frame": "Switch on the gridlines and put the dome on the central vertical line, so the façade sits level and symmetrical. In the square, use the 0.5x lens and stand near the centre, with the obelisk as a middle anchor. Keep the phone level, because ultra-wide lenses make the columns lean if you tilt them. Let a few people walk through the foreground to give a sense of scale.",
     "phone_settings_tip": "Tap on the façade to set focus, then drag the exposure slider down a little so the sky does not wash out and the stone keeps its texture. Use Live Photos if you like a moving crowd, and try panorama only in the square, moving slowly and keeping the phone level.",
     "best_time": "Early morning usually gives softer light and fewer people, and the façade is likely to be lit from the front. Dusk is good for night mode, with the dome standing out against the darkening sky."
@@ -165,15 +168,16 @@
   "name": "Spanish Steps and Piazza di Spagna",
   "in_cut": true,
   "label": "Spanish Steps",
-  "camera_pill": "near Piazza di Spagna",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 87100,
   "pin": [
    12.4827845,
    41.905992
   ],
   "camera": [
-   12.4818469,
-   41.9056682
+   12.4827845,
+   41.905992
   ],
   "camera_source": "Commons cluster (60 photos). Moved 39 m outwards on 2026-11-10 so it is 45 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/134400816: the middle of the OpenStreetMap outline 'Spanish Steps' (108 m across).",
@@ -181,10 +185,10 @@
   "text": {
    "description": "The Spanish Steps are a wide stone stairway of 135 steps that climbs from Piazza di Spagna up to the church of Trinità dei Monti. They are a popular photo spot, ranked 4th on the Rome shot map. The slope is about 29 metres high, and the stairway opens and narrows in curves and landings, which gives your pictures strong shapes: sweeping lines, a twin-towered church at the top and plenty of people for scale. The design was chosen in a competition in 1717 and won by Francesco de Sanctis. The steps were restored in 2015–2016 (reopened 21 September 2016). At the foot of the steps, in the square, is the Fontana della Barcaccia, the 'fountain of the longboat', built in 1627-29. It makes a good foreground for photos looking up the stairs. Keats's house, now a museum, stands at the right-hand corner as you face the steps. Try the full view from the piazza first, then a closer frame of the fountain with the steps behind it. Climb up for a view back over the square and rooftops. In spring the steps may be lined with pots of azaleas, which add colour. The steps are usually crowded, so be patient and shoot between groups. Local rules restrict sitting and eating on the steps, so keep your photo stops short and don't block the stairs.",
    "geographic_location": "In the centre of Rome, at the Spanish Steps (about 41.90599° N, 12.48278° E), where Piazza di Spagna meets the foot of the stairway to Trinità dei Monti on the edge of the Pincio hill. The square is lined with luxury shops, and Via dei Condotti runs nearby.",
-   "directions_text": "The nearest Metro station is Spagna (Metro line A): from there walk south-west for about 3 minutes on foot to reach the steps. From Barberini (Metro line A), walk north-west for about 9 minutes on foot. If you are coming by tram, Flaminio (MA) is served by tram 2, and the steps are about 15 minutes on foot to the south-east; Galleria Arte Moderna is served by tram 3, and the steps are about 20 minutes on foot to the south. The phone icon on the map is about 45 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest Metro station is Spagna (Metro line A): from there walk south-west for about 3 minutes on foot to reach the steps. From Barberini (Metro line A), walk north-west for about 9 minutes on foot. If you are coming by tram, Flaminio (MA) is served by tram 2, and the steps are about 15 minutes on foot to the south-east; Galleria Arte Moderna is served by tram 3, and the steps are about 20 minutes on foot to the south. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole stairway, church and fountain in one frame. Switch to the default lens (1x) for a more natural view. Use 2x-5x zoom, if your phone has it, to pick out the church facade or the fountain's detail.",
-    "where_to_stand": "Stand about 45 m south-west of the subject, at the phone icon on the map, and face north-east. Step closer for the fountain, or walk up the steps for a view back over the square.",
+    "where_to_stand": "Stand in Piazza di Spagna (foot of the steps, beside the Fontana della Barcaccia). The full staircase rising toward the Trinità dei Monti church, with the boat-shaped fountain in the foreground. Step closer for the fountain, or walk up the steps for a view back over the square.",
     "how_to_frame": "Turn on gridlines and keep the verticals straight. Put the Barcaccia fountain low in the frame and let the steps rise behind it. Wait for gaps in the crowd, or use the people for scale. Try one shot in portrait orientation to catch the full climb up to the church.",
     "phone_settings_tip": "Tap the brightest part of the scene to focus, then lower the exposure slider slightly if the sky is washing out. In the evening, use night mode and hold the phone steady against a wall or railing to avoid blur.",
     "best_time": "Early morning is likely to be calmer for photos. Late afternoon and evening are good for softer light and for night shots with the lights on."
@@ -224,6 +228,7 @@
   "in_cut": true,
   "label": "Piazza Navona",
   "camera_pill": "near Corsia Agonale",
+  "nophone": false,
   "searches": 71500,
   "pin": [
    12.4730849,
@@ -275,15 +280,16 @@
   "name": "Pantheon",
   "in_cut": true,
   "label": "Pantheon",
-  "camera_pill": "Piazza della Rotonda",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 60150,
   "pin": [
    12.4768335,
    41.8986261
   ],
   "camera": [
-   12.4767549,
-   41.8995691
+   12.4768335,
+   41.8986261
   ],
   "camera_source": "Commons cluster (132 photos). Moved 39 m outwards on 2026-11-10 so it is 65 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/3374342: the middle of the OpenStreetMap outline 'Pantheon' (103 m across).",
@@ -291,10 +297,10 @@
   "text": {
    "description": "The Pantheon is an ancient Roman temple that has been a church for well over a thousand years. The first building here was commissioned by Marcus Vipsanius Agrippa under Augustus. After it burnt down, Hadrian's rebuilding was completed and probably dedicated around AD 126. Since AD 609 it has been a Catholic church, which is a large part of why it survives so well. It photographs well because its shape is easy to read: a deep porch with eight huge granite columns across the front, and a plain round drum behind. The square in front is called Piazza della Rotonda, and it gives you room to step back. Inside, the coffered concrete dome has a central opening to the sky. The height to that opening and the width of the interior circle are both 43 metres. The dome is still the largest unreinforced concrete dome in the world. For a phone, the key problem is fitting the columns and pediment into one frame without tilting the phone up too far. Then move in for tighter shots of the column rows. Expect other visitors in most frames, so wait for small gaps or use them as part of the picture.",
    "geographic_location": "The Pantheon is in the historic centre of Rome, on Piazza della Rotonda, in the Campus Martius area. It is about 8 minutes on foot from the Venezia tram stop (tram 8), with the Pantheon to the north-west of the stop.",
-   "directions_text": "The easiest approach is tram 8 to Venezia, then walk north-west for about 8 minutes on foot (513 m). Tram 8 also stops at Arenula/Cairoli, about 9 minutes on foot, with the Pantheon to the north. From Metro line A, Spagna and Barberini are both about 18 minutes on foot, with the Pantheon to the south-west. The phone icon on the map is about 65 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The easiest approach is tram 8 to Venezia, then walk north-west for about 8 minutes on foot (513 m). Tram 8 also stops at Arenula/Cairoli, about 9 minutes on foot, with the Pantheon to the north. From Metro line A, Spagna and Barberini are both about 18 minutes on foot, with the Pantheon to the south-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) from where you stand to take in the whole portico and pediment. Switch to 2x or 3x if your phone has it, for the columns and the inscription band. Use the ultra-wide (0.5x) only if you move much closer or want a sweeping shot of the square, and keep the building centred so the edges don't stretch.",
-    "where_to_stand": "Stand about 65 m north of the subject, at the phone icon on the map, and face south. This puts you roughly in line with the centre of the facade, so the columns look balanced.",
+    "where_to_stand": "Stand in Piazza della Rotonda (far side of the Fontana del Pantheon, facing the facade). A symmetrical, front-on view of the Pantheon's portico with the obelisk fountain in the foreground. This puts you roughly in line with the centre of the facade, so the columns look balanced.",
     "how_to_frame": "Turn on gridlines and line up the central pair of columns with the middle vertical line. Keep the phone level, with the horizon line of the pediment parallel to a horizontal gridline, to avoid converging verticals. Leave a little space at the bottom of the frame for the people in front of the columns, which shows how big the building is.",
     "phone_settings_tip": "Tap on the stonework of the portico to set focus, then drag the exposure slider down slightly so the sky and pale stone don't wash out. If people keep walking through the shot, try a Live Photo and pick the best frame afterwards.",
     "best_time": "Early morning or later in the evening usually means fewer people in the square. Check how the light falls on the front on the day, as the facade faces north and can look flat or shaded."
@@ -332,6 +338,7 @@
   "in_cut": true,
   "label": "Trastevere",
   "camera_pill": "Via di San Cosimato",
+  "nophone": false,
   "searches": 55750,
   "pin": [
    12.4694824,
@@ -385,15 +392,16 @@
   "name": "Roman Forum and Arch of Titus",
   "in_cut": true,
   "label": "Roman Forum",
-  "camera_pill": "Torre del Tabularium",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 55500,
   "pin": [
    12.4852,
    41.8922
   ],
   "camera": [
-   12.486497,
-   41.89072
+   12.4852,
+   41.8922
   ],
   "camera_source": "OpenStreetMap viewpoint 'Torre del Tabularium' (node/1987788474).",
   "pin_note": "Position from OpenStreetMap relation/1841080: large area 'Roman Forum' (706 m across): previous pin kept, it lies inside.",
@@ -401,10 +409,10 @@
   "text": {
    "description": "The Roman Forum was the centre of daily life in ancient Rome: a public square where processions, speeches, trials and business all happened. It sits in the small valley between the Palatine and Capitoline hills. Today it is a spread of broken columns, temple bases and arches, and that makes it a good phone subject. There are plenty of strong shapes, and the sightlines are long.\n\nBy imperial times the open square had shrunk to roughly 130 by 50 metres, hemmed in by big public buildings. It runs north-west to south-east, and its final travertine paving, laid under Augustus, can still be seen. At the south-east end stands the Arch of Titus, built around 81 AD after the death of Titus. It is about 15.4 metres tall and 13.5 metres wide, and its panels show the triumphal procession of 71 AD. The sources say the Forum draws 4.5 million or more visitors a year, so expect other people in your frame.\n\nFor a simple, strong shot, stand at the marked viewpoint and look towards the Forum. Use the ultra-wide camera for the scattered ruins and the sky, then zoom in on single columns or the arch. Keep the horizon level with the gridlines, as the ruins are full of vertical lines that look odd if tilted. Take a few shots at each setting, because crowds move through quickly and you can pick the cleanest frame afterwards.",
    "geographic_location": "In the historic centre of Rome, in the valley between the Palatine and Capitoline hills. The Arch of Titus marks its south-east end, not far from the Colosseum.",
-   "directions_text": "Start from the Metro line C station Colosseo – Fori Imperiali: the Forum is about 7 minutes on foot, to the west. From the Metro line B, tram 3 and tram 8 station Colosseo, it is about 10 minutes on foot, also to the west. From the tram 8 stop Venezia, it is about 8 minutes on foot, to the south-east. From the tram 3 and tram 8 stop Parco Celio, it is about 11 minutes on foot, to the north-west. Follow the signs and the flow of visitors, and check the official site for where you can enter. The phone icon on the map is about 200 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from the Metro line C station Colosseo – Fori Imperiali: the Forum is about 7 minutes on foot, to the west. From the Metro line B, tram 3 and tram 8 station Colosseo, it is about 10 minutes on foot, also to the west. From the tram 8 stop Venezia, it is about 8 minutes on foot, to the south-east. From the tram 3 and tram 8 stop Parco Celio, it is about 11 minutes on foot, to the north-west. Follow the signs and the flow of visitors, and check the official site for where you can enter. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the wide spread of ruins, then use 1x for general views. Switch to the 2x-5x zoom, depending on your phone, for the Arch of Titus and details of columns and carvings.",
-    "where_to_stand": "Stand about 200 m south-east of the subject, at the phone icon on the map, and face north-west.",
+    "where_to_stand": "Stand on Terrazza Belvedere del Palatino. Looking down over the Roman Forum, with the Colosseum, Capitoline Hill and the Altar of the Fatherland in the wider frame.",
     "how_to_frame": "Turn on the gridlines and keep the columns upright. Put a nearby ruin or wall in the foreground at 0.5x to give depth, with the open Forum behind it. For the arch, zoom in and centre it so its opening forms a frame. Try panorama mode along the Forum's long north-west to south-east line, moving slowly and steadily.",
     "phone_settings_tip": "Tap on the stone to focus, then slide the exposure down a little so the bright sky does not wash out the pale ruins. Turn on Live Photos if you like, then pick the frame with the fewest people in it.",
     "best_time": "Early or late in the day usually gives softer light and fewer crowds. In the morning the sun should be roughly behind you at the viewpoint. Midday sun is harsher on the pale stone."
@@ -447,15 +455,16 @@
   "name": "Castel Sant'Angelo and Ponte Sant'Angelo",
   "in_cut": true,
   "label": "Castel Sant'Angelo",
-  "camera_pill": "Lungotevere Marzio",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 50150,
   "pin": [
    12.466347,
    41.903073
   ],
   "camera": [
-   12.4721463,
-   41.9022493
+   12.466347,
+   41.903073
   ],
   "camera_source": "OpenStreetMap viewpoint 'Punto panoramico di Ponte Umberto I' (node/4978038129). Moved 62 m outwards on 2026-11-10 so it is 430 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/8035487: the middle of the OpenStreetMap outline 'Castle of the Holy Angel' (178 m across).",
@@ -463,10 +472,10 @@
   "text": {
    "description": "Castel Sant'Angelo is a big round fortress beside the Tiber, and the pedestrian Ponte Sant'Angelo leads straight up to it. That alignment is why the pair photographs so well: the bridge gives you a line of arches and statues, and the castle fills the end of the view. Emperor Hadrian had the castle built as a family tomb between 134 and 139 AD, and the bridge was finished in 134 AD to reach it. Later the popes turned the tomb into a fortress, and it was decommissioned as a fortress in 1901 and is now a museum. A bronze statue of Saint Michael on the top dates from 1753. The bridge has five arches, three of them Roman, and it carries Baroque angels holding instruments of the Passion, part of a scheme led by Bernini. Because the bridge is closed to traffic, you can stop and compose a shot without worrying about cars. For the classic view of the whole group, go to the Ponte Umberto I viewpoint, about 430 m east of the castle, and look west along the river. For close detail, walk onto Ponte Sant'Angelo and shoot the angels with the castle behind them. Expect plenty of other people on the bridge, so wait for a gap or shoot upwards at the statues against the sky. Keep your phone's gridlines on to hold the bridge parapet level, and check that the castle's round shape is not leaning.",
    "geographic_location": "In the Borgo district on the right (northern) bank of the Tiber, just across the river from the historic centre. The castle stands beside the Parco Adriano gardens, and the bridge links it to the Ponte district on the opposite bank.",
-   "directions_text": "From the Risorgimento/S. Pietro stop (tram 19), head south-east for about 12 minutes on foot to reach the castle. From Metro line A at Lepanto, the castle lies to the south, about 15 minutes on foot; from Ottaviano (Metro line A), it lies to the south-east, about 16 minutes on foot. For the wide river view, go to the phone icon on the map, which is about 7 minutes on foot east of the castle, and look west. The phone icon on the map is about 430 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From the Risorgimento/S. Pietro stop (tram 19), head south-east for about 12 minutes on foot to reach the castle. From Metro line A at Lepanto, the castle lies to the south, about 15 minutes on foot; from Ottaviano (Metro line A), it lies to the south-east, about 16 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) from the Ponte Umberto I viewpoint for the whole scene. Switch to 2x or 3x if your phone has a zoom lens, which brings the castle and bridge closer together in the frame. Use the ultra-wide (0.5x) on the bridge itself to fit the angels, the parapet and the castle into one shot.",
-    "where_to_stand": "Stand about 430 m east of the subject, at the phone icon on the map, and face west. Stand at the parapet and look along the river with the bridge and castle ahead of you.",
+    "where_to_stand": "Stand on Ponte Umberto I. Ponte Sant'Angelo in the foreground with Castel Sant'Angelo beyond it and St. Peter's Basilica's dome in the distance, all framed over the Tiber. Stand at the parapet and look along the river with the bridge and castle ahead of you.",
     "how_to_frame": "Place Ponte Sant'Angelo's arches in the lower half and let the castle's round tower sit just off-centre. From the bridge itself, stand close to a statue and shoot along the row of angels, so the castle sits at the end of the line. Keep the horizon level using the gridlines.",
     "phone_settings_tip": "Tap on the castle to set focus, then slide the exposure down a little so the sky does not turn white. After dark, use night mode and brace your elbows on the parapet to keep the phone still. Avoid panorama here unless the bridge is quiet, because people walking through will show up as ghosts.",
     "best_time": "Early morning is usually quieter on the bridge. Late afternoon and the hour after sunset suit the view from Ponte Umberto I, as the light is softer and the castle may be lit up."
@@ -510,26 +519,27 @@
   "name": "Circus Maximus",
   "in_cut": true,
   "label": "Circus Maximus",
-  "camera_pill": "Piazzale Ugo La Malfa",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 42350,
   "pin": [
    12.4857,
    41.8859
   ],
   "camera": [
-   12.4839306,
-   41.885412
+   12.4857,
+   41.8859
   ],
   "camera_source": "OpenStreetMap viewpoint 'Belvedere Romolo E Remo' (node/393180368). Moved 91 m outwards on 2026-11-10 so it is 65 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/11384819: large area 'Circus Maximus' (684 m across): previous pin kept, it lies inside.",
   "notes": "Google gives 'circus maximus' and 'circus maximus rome' the same figure (merged), so some searches are probably for the Travis Scott song and film of that name: figure doubtful.",
   "text": {
-   "description": "The Circus Maximus was ancient Rome's great chariot-racing stadium. It sits in the valley between the Aventine and Palatine hills. Today it is a long, open public park, so it photographs differently from the Colosseum: there is no grand facade, just a huge stretch of grass with hills and trees on either side. That emptiness is the point. It gives you a real sense of scale, and a few people walking across the grass make the size easy to read.\n\nIts ancient size was about 621 m long and 118 m wide, with room for more than 150,000 spectators. It was the first and largest stadium in ancient Rome. The last known races were held there in 549.\n\nFor a phone photo, the phone icon on the map is a good place to start. It is about 65 m west of the subject, so you look east across the site. Use the ultra-wide (0.5x) camera to take in the full length of the grass, then switch to 1x for a calmer, less stretched version. If your phone has a 2x-5x zoom, use it to pick out a single group of walkers or a line of trees. Turn on gridlines and keep the horizon level, because on such a flat scene a tilted horizon is very noticeable. Lower the exposure slightly if the sky is bright, so it does not wash out.",
+   "description": "The Circus Maximus was ancient Rome's great chariot-racing stadium. It sits in the valley between the Aventine and Palatine hills. Today it is a long, open public park, so it photographs differently from the Colosseum: there is no grand facade, just a huge stretch of grass with hills and trees on either side. That emptiness is the point. It gives you a real sense of scale, and a few people walking across the grass make the size easy to read.\n\nIts ancient size was about 621 m long and 118 m wide, with room for more than 150,000 spectators. It was the first and largest stadium in ancient Rome. The last known races were held there in 549.\n\nIt is about 65 m west of the subject, so you look east across the site. Use the ultra-wide (0.5x) camera to take in the full length of the grass, then switch to 1x for a calmer, less stretched version. If your phone has a 2x-5x zoom, use it to pick out a single group of walkers or a line of trees. Turn on gridlines and keep the horizon level, because on such a flat scene a tilted horizon is very noticeable. Lower the exposure slightly if the sky is bright, so it does not wash out.",
    "geographic_location": "The Circus Maximus lies in central Rome, in the long valley between the Aventine and Palatine hills, south-west of the Colosseum. It is now an open public park.",
-   "directions_text": "The nearest stops are the tram stops Aventino/Circo Massimo (MB) and Aventino/Circo Massimo (tram 3 and tram 8). From either one, the subject is about 335 m to the north-west, about 5 minutes on foot. From Metro line B, get off at Circo Massimo. The subject is about 340 m to the north-west, about 6 minutes on foot. From Colosseo – Fori Imperiali (Metro line C), head south-west for about 741 m, which is about 12 minutes on foot. The phone icon on the map is about 65 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stops are the tram stops Aventino/Circo Massimo (MB) and Aventino/Circo Massimo (tram 3 and tram 8). From either one, the subject is about 335 m to the north-west, about 5 minutes on foot. From Metro line B, get off at Circo Massimo. The subject is about 340 m to the north-west, about 6 minutes on foot. From Colosseo – Fori Imperiali (Metro line C), head south-west for about 741 m, which is about 12 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to show the full length of the grass. Switch to 1x for a more natural look. Use 2x-5x zoom, if your phone has it, for details such as walkers, trees or the far end of the park.",
-    "where_to_stand": "Stand about 65 m west of the subject, at the phone icon on the map, and face east.",
+    "where_to_stand": "Stand right at the subject (southern edge, above the track, near the Palace of the Emperors ruins). The whole length of the Circus Maximus track looking straight down from the Palatine's southern edge, with the imperial palace ruins framing the top of the frame.",
     "how_to_frame": "Turn on gridlines and place the horizon on the upper or lower third line, keeping it level. Include a few people or a path in the foreground so the scale is clear. For a calmer shot, hold the phone at chest height and keep the sides of the frame free of clutter.",
     "phone_settings_tip": "Tap to focus on the middle of the park, then drag the exposure slider down a little if the sky looks too bright. Try panorama mode for the long view, moving slowly and keeping the phone level.",
     "best_time": "Early morning or late afternoon usually gives softer light and longer shadows across the grass. Midday sun can look flat and harsh."
@@ -563,6 +573,7 @@
   "in_cut": true,
   "label": "Palatine Hill",
   "camera_pill": "near Clivus Palatino",
+  "nophone": false,
   "searches": 39300,
   "pin": [
    12.4871093,
@@ -620,15 +631,16 @@
   "name": "Villa Borghese gardens and Pincio terrace",
   "in_cut": true,
   "label": "Villa Borghese",
-  "camera_pill": "Balconata del Pincio",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 34435,
   "pin": [
    12.48639,
    41.91349
   ],
   "camera": [
-   12.477935,
-   41.911091
+   12.48639,
+   41.91349
   ],
   "camera_source": "OpenStreetMap viewpoint 'Balconata del Pincio' (node/649529694).",
   "pin_note": "Position from guide/OSM: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -636,10 +648,10 @@
   "text": {
    "description": "The Pincio is the terrace on the hill above Piazza del Popolo, and it joins the wider Villa Borghese gardens, a big green area of tree-lined paths on the northern edge of Rome's historic centre. It photographs well because the terrace works as a natural viewing platform. From its edge you look west over the piazza and across the city's rooftops, while the gravel avenues behind you give calm, leafy pictures with a few statues.\n\nThe Pincio as you see it was laid out in 1809–14 by Giuseppe Valadier. The paths run out from an obelisk in the middle, put up in 1822 by Pope Pius VII. It is Roman-carved rather than Egyptian, made in the early 2nd century under Hadrian. The Villa Borghese grounds were once about 5 km round and passed to the Italian state in 1902. A pedestrian bridge links the Pincio to the gardens over the road below.\n\nFor your phone, treat this as two kinds of picture: one big view from the terrace, and quieter detail shots in the gardens. Start at the terrace edge with the city in front of you, then walk east along the avenues for the trees, the obelisk and the busts that line the paths. Wipe the lens first, keep the phone steady against the balustrade, and take a few frames, because people drift in and out of the view.",
    "geographic_location": "The Pincio terrace sits on the Pincian Hill on the northern edge of Rome's historic centre, looking down on Piazza del Popolo. The Villa Borghese gardens spread out behind it to the east.",
-   "directions_text": "From Metro line A, Spagna is about 12 minutes on foot from the gardens, which lie to the north of the station. Flaminio, also on Metro line A, is about 12 minutes on foot, with the gardens to the east. From tram 3, Galleria Arte Moderna is about 9 minutes on foot, with the gardens to the south-east. Aldrovandi (tram 19 and tram 3) is also about 9 minutes on foot, with the gardens to the south. The phone icon on the map is about 750 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Metro line A, Spagna is about 12 minutes on foot from the gardens, which lie to the north of the station. Flaminio, also on Metro line A, is about 12 minutes on foot, with the gardens to the east. From tram 3, Galleria Arte Moderna is about 9 minutes on foot, with the gardens to the south-east. Aldrovandi (tram 19 and tram 3) is also about 9 minutes on foot, with the gardens to the south. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the ultra-wide (0.5x) for the full terrace view and the sky. Switch to the default lens (1x) for people and railings, and the 2x–5x zoom, if your phone has it, to pick out domes and rooftops in the distance.",
-    "where_to_stand": "Stand about 750 m west of the subject, at the phone icon on the map, and face east. Stand at the Balconata del Pincio viewpoint, on the terrace edge, and face west over Piazza del Popolo.",
+    "where_to_stand": "Stand on Terrazza del Pincio (central balustrade; move about 20 m south along the terrace for a dome-focused frame). Piazza del Popolo and its twin churches and obelisk in the foreground, with St. Peter's dome on the western horizon and the rooftops of the historic centre beyond. Stand at the Balconata del Pincio viewpoint, on the terrace edge, and face west over Piazza del Popolo.",
     "how_to_frame": "Turn on the gridlines and place the horizon on the upper or lower line. Use the balustrade or a tree branch at the edge of the frame to add depth. In the gardens, line up an avenue so the path leads towards the obelisk or a bust.",
     "phone_settings_tip": "Tap on the city to set focus, then drag the exposure slider down a little so the sky keeps its colour. Try panorama for the skyline, moving slowly and keeping the phone upright.",
     "best_time": "Late afternoon into the evening suits the terrace, because it faces west. Earlier in the day is usually calmer for the garden avenues."
@@ -678,6 +690,7 @@
   "in_cut": true,
   "label": "Campo de' Fiori",
   "camera_pill": "Via dei Giubbonari",
+  "nophone": false,
   "searches": 27930,
   "pin": [
    12.4721485,
@@ -729,15 +742,16 @@
   "name": "Appian Way (Via Appia Antica)",
   "in_cut": true,
   "label": "Appian Way",
-  "camera_pill": "near Via Appia Antica",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 24340,
   "pin": [
    12.5015228,
    41.8734765
   ],
   "camera": [
-   12.5022102,
-   41.872909
+   12.5015228,
+   41.8734765
   ],
   "camera_source": "PLACED BY CLAUDE (no Commons cluster): on the Via Appia Antica just outside the gate, looking back north at Porta San Sebastiano. Check at the gate. Moved 14 m outwards on 2026-11-10 so it is 70 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/27519297: the middle of the OpenStreetMap outline 'Porta San Sebastiano' (43 m across).",
@@ -745,10 +759,10 @@
   "text": {
    "description": "Porta San Sebastiano is where the Appian Way leaves Rome's city walls, and it makes a strong first stop for anyone photographing the road. It is the largest and one of the best-preserved gates in the Aurelian Walls. The first version dates from around AD 275, under Emperor Aurelian, and Emperor Honorius reshaped it in AD 401–402. Two sturdy towers flank the arch, and the old brick and marble give you plenty of texture. It was originally called the Porta Appia because it stood where the Appian Way, the 'regina viarum' (queen of the roads), met the city walls. The road itself was begun in 312 BC by Appius Claudius Caecus, ran all the way to Brindisi, and joined the UNESCO World Heritage List in July 2024.\n\nThe gate photographs well because it is so solid and so old, and it sits right where the road leaves Rome through the walls. From just outside, you can show the towers, the arch and the line of the road together. Look closer at the jambs, where there is old graffiti and a carved figure of Archangel Michael on the right jamb. Inside the gate is the Museum of the Walls. A phone is ideal here: you can take a wide shot of the whole gate, then step closer or zoom for details. Keep an eye on traffic while you frame your picture, and take your time before moving on.",
    "geographic_location": "Porta San Sebastiano stands in the Aurelian Walls in Rome, where the Via Appia Antica leaves the city. It is about 1 km north of the Appian Way's start at the walls' edge of the Metro line C station Porta Metronia's southern side.",
-   "directions_text": "From Porta Metronia (Metro line C), the gate is about 1.0 km to the south, about 17 minutes on foot. From Re di Roma (Metro line A), the gate is about 1.4 km to the south-west, about 23 minutes on foot. For trams, such as tram 8, use a journey planner to pick a stop close to the gate. From each station or stop, head towards the gate in the direction given, and look for the large towers of the city wall. The phone icon on the map is about 70 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Porta Metronia (Metro line C), the gate is about 1.0 km to the south, about 17 minutes on foot. From Re di Roma (Metro line A), the gate is about 1.4 km to the south-west, about 23 minutes on foot. For trams, such as tram 8, use a journey planner to pick a stop close to the gate. From each station or stop, head towards the gate in the direction given, and look for the large towers of the city wall. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit both towers and the arch in from fairly close, then switch to the default lens (1x) for a more natural look. Use the 2x–5x zoom, if your phone has it, to pick out stonework and carved details.",
-    "where_to_stand": "Stand about 70 m south-east of the subject, at the phone icon on the map, and face north-west. Stand on the Via Appia Antica just outside the gate and look back towards it.",
+    "where_to_stand": "Stand right at the subject (on the road in front of the tomb, facing the cobbled Appian Way). The round, battlemented tomb rising beside the ancient basalt paving, with umbrella pines and cypresses framing the road. Stand on the Via Appia Antica just outside the gate and look back towards it.",
     "how_to_frame": "Turn on the gridlines and put the arch near the centre, with both towers balanced on either side. Keep the phone level so the walls do not lean. For a second shot, step in close and use the zoom to fill the frame with brick and marble, or crouch low to include the road surface leading to the arch.",
     "phone_settings_tip": "Tap the gate's stonework to set focus, then slide the exposure down slightly if the sky is bright, so the walls keep their colour and texture. Avoid ultra-wide close-ups of the towers, which can bend the lines.",
     "best_time": "Morning or late afternoon usually gives softer light on the stone and fewer people in the shot. Midday sun can flatten the walls and cast hard shadows under the arch."
@@ -788,15 +802,16 @@
   "name": "Piazza del Popolo",
   "in_cut": true,
   "label": "Piazza del Popolo",
-  "camera_pill": "Balconata del Pincio",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 23070,
   "pin": [
    12.4763431,
    41.9107077
   ],
   "camera": [
-   12.477935,
-   41.911091
+   12.4763431,
+   41.9107077
   ],
   "camera_source": "OpenStreetMap viewpoint 'Balconata del Pincio' (node/649529694).",
   "pin_note": "Position from OpenStreetMap relation/318583: 'Obelisco Flaminio', the best-known feature inside 'Piazza del Popolo' (249 m across).",
@@ -804,10 +819,10 @@
   "text": {
    "description": "Piazza del Popolo is a big oval square at the northern entrance to Rome's historic centre. It photographs well because everything is arranged around a centre line: an Egyptian obelisk in the middle, matching curved walls on each side, and the twin churches of Santa Maria dei Miracoli and Santa Maria in Montesanto at the southern end, where three straight streets (the \"trident\") fan out into the city. The obelisk is about 24 m high, or 36 m with its plinth. It was brought to Rome in 1 BC and put up here in 1589. Giuseppe Valadier shaped the square as you see it between 1811 and 1822. He also linked it to the Pincio hill above, so you can look down over the whole layout from the terrace. The square was once the first sight of Rome for travellers arriving from the north. Fountains with Neptune and the goddess Roma sit on its two sides, and lions surround the obelisk. For a phone photo, the symmetry does most of the work. Keep the obelisk on the centre line, use the gridlines to keep the verticals straight, and let the curved walls lead the eye inwards. Go for a wide view from above, then a tighter one of the churches or fountains.",
    "geographic_location": "Piazza del Popolo is in the north of Rome's historic centre, just inside the Porta del Popolo gate in the old Aurelian Walls. The square is about 249 m across, with the Obelisco Flaminio inside it, and the Pincio hill rises on its eastern side.",
-   "directions_text": "From Flaminio (Metro line A), the square lies to the south, about 4 minutes on foot. From the Flaminio (MA) tram stop (tram 2), it also lies to the south, about 3 minutes on foot. From Spagna (Metro line A), head north-west for about 13 minutes on foot. To reach the phone icon on the map, walk to the eastern side of the square and climb the ramps and steps up the Pincio slope. The phone icon on the map is about 140 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Flaminio (Metro line A), the square lies to the south, about 4 minutes on foot. From the Flaminio (MA) tram stop (tram 2), it also lies to the south, about 3 minutes on foot. From Spagna (Metro line A), head north-west for about 13 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) from the terrace to take in the whole oval. Then switch to the default lens (1x) for a calmer view. Use 2x-3x zoom to pick out the obelisk, the churches or a fountain without walking closer.",
-    "where_to_stand": "Stand about 140 m east of the subject, at the phone icon on the map, and face west. Lean on the stonework to hold the phone steady.",
+    "where_to_stand": "Stand on Terrazza del Pincio (central balustrade, above the piazza (Piazzale Napoleone I)). The oval of the square below with the central obelisk and twin churches, with St Peter's dome on the skyline beyond the rooftops. Lean on the stonework to hold the phone steady.",
     "how_to_frame": "Put the obelisk in the middle of the frame and let the two curved walls make a symmetrical shape around it. Turn on gridlines and line up the buildings with the vertical lines. At the end of your arc, include a little of the balustrade in the foreground to add depth. For a second shot, zoom towards the left (south) to isolate the twin churches.",
     "phone_settings_tip": "Tap on the obelisk or the sunlit stonework to set focus, then drag the exposure slider down slightly so the sky keeps its colour. Try panorama mode for a sweep across the oval, moving slowly and keeping the phone level.",
     "best_time": "Morning is a good bet, as the sun is behind you and lights the square from the east. At sunset you will be shooting towards the glow, so expect strong contrast; tap on the sky and lower the exposure if you want a silhouette."
@@ -848,6 +863,7 @@
   "in_cut": true,
   "label": "Baths of Caracalla",
   "camera_pill": "near Via Antonina",
+  "nophone": false,
   "searches": 15880,
   "pin": [
    12.492764,
@@ -899,15 +915,16 @@
   "name": "Trajan's Column and the Imperial Forums",
   "in_cut": true,
   "label": "Trajan's Column",
-  "camera_pill": "near Foro Traiano",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 14265,
   "pin": [
    12.4842733,
    41.8958088
   ],
   "camera": [
-   12.4845229,
-   41.8950321
+   12.4842733,
+   41.8958088
   ],
   "camera_source": "Third-largest Commons cluster (12 photos) chosen: the two larger ones are inside Trajan's Markets. Moved 4 m outwards on 2026-11-10 so it is 85 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/3376015: the middle of the OpenStreetMap outline 'Trajan's Column' (11 m across).",
@@ -915,10 +932,10 @@
   "text": {
    "description": "Trajan's Column is a tall marble column in the middle of the Imperial Forums, the string of ancient public squares that sit just north of the Roman Forum. It was dedicated on 12 May 113 AD to celebrate Emperor Trajan's victory in the Dacian Wars. The column stands about 30 metres high, or 35 metres with its pedestal. A carved ribbon about 190 metres long winds around the shaft 23 times, showing 155 scenes and more than 2,600 figures. Trajan himself appears 58 times. On top, a bronze figure of Saint Peter was placed in 1587, replacing the emperor's statue that vanished in the Middle Ages.\n\nIt photographs well because it is one clear, tall, upright shape with a lot of texture, set among broken ancient walls and columns. That gives you a simple subject with plenty of context around it. The Imperial Forums were built between 46 BC and 113 AD, and the modern road, Via dei Fori Imperiali, now cuts through the middle of the site. Trajan's Markets, the curved brick complex built into the hillside nearby, can also work as a backdrop.\n\nHold the phone upright, use the gridlines to keep the shaft straight, and take one wide shot for context and one zoomed shot for the carved detail.",
    "geographic_location": "In the centre of Rome, in the Imperial Forums area, just north of the Roman Forum, at about 41.8958° N, 12.4843° E.",
-   "directions_text": "The nearest stop is the tram 8 stop 'Venezia', about 279 m away, with the column to the east of the stop. That is about 5 minutes on foot. From the Metro line C station 'Colosseo – Fori Imperiali' the column is about 678 m to the north-west, about 11 minutes on foot. From the Metro line B station 'Cavour' it is about 768 m to the west, about 12 minutes on foot. The tram 8 stop 'Arenula/Cairoli' is about 755 m away, with the column to the east, about 12 minutes on foot. The phone icon on the map is about 85 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stop is the tram 8 stop 'Venezia', about 279 m away, with the column to the east of the stop. That is about 5 minutes on foot. From the Metro line C station 'Colosseo – Fori Imperiali' the column is about 678 m to the north-west, about 11 minutes on foot. From the Metro line B station 'Cavour' it is about 768 m to the west, about 12 minutes on foot. The tram 8 stop 'Arenula/Cairoli' is about 755 m away, with the column to the east, about 12 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start on the default lens (1x) for the whole column with some of the ruins around it. Switch to the telephoto (2x-5x, depending on your phone) for the spiral carvings and the figure at the top. Use the ultra-wide (0.5x) only if you want a lot of foreground ruins, and keep the column near the centre so it does not lean or stretch.",
-    "where_to_stand": "Stand about 85 m south of the subject, at the phone icon on the map, and face north. From here the column is the main vertical in the frame, with the ancient remains of the forums in front of it.",
+    "where_to_stand": "Stand on Via dei Fori Imperiali (north sidewalk, across from the Victor Emmanuel II Monument, near the Piazza Venezia end). The column rising directly over the forum ruins, with the Basilica Ulpia and Trajan's Market beside it. From here the column is the main vertical in the frame, with the ancient remains of the forums in front of it.",
     "how_to_frame": "Hold the phone upright (portrait) and use the gridlines to line the shaft up with a vertical line. Put the column slightly off-centre and let some of the ancient walls fill the bottom of the frame. For a second shot, zoom in on the top third of the column, where the sculpted band and the statue show well.",
     "phone_settings_tip": "Tap the sky or the column to set focus, then use the exposure slider to bring the brightness down a little so the pale marble keeps its detail and the sky stays blue. Take a few frames in a row, as people often walk through the foreground.",
     "best_time": "Early morning or the hour before sunset usually gives softer light on the marble and fewer people. At midday the column can look flat and the sky washed out."
@@ -964,6 +981,7 @@
   "in_cut": true,
   "label": "Vittoriano",
   "camera_pill": "Terrazza città redente",
+  "nophone": false,
   "searches": 13880,
   "pin": [
    12.4824365,
@@ -1016,6 +1034,7 @@
   "in_cut": true,
   "label": "Capitoline Hill",
   "camera_pill": "Piazza del Campidoglio",
+  "nophone": false,
   "searches": 12010,
   "pin": [
    12.4829754,
@@ -1067,15 +1086,16 @@
   "name": "Archbasilica of St John Lateran",
   "in_cut": true,
   "label": "St John Lateran",
-  "camera_pill": "Via Matteo Boiardo",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 8655,
   "pin": [
    12.5055858,
    41.8857617
   ],
   "camera": [
-   12.5058196,
-   41.8872198
+   12.5055858,
+   41.8857617
   ],
   "camera_source": "Commons cluster (23 photos, mostly one photographer's series): weak, check at the gate. Moved 68 m outwards on 2026-11-10 so it is 95 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/36444: the middle of the OpenStreetMap outline 'Basilica of Saint John Lateran' (209 m across).",
@@ -1083,10 +1103,10 @@
   "text": {
    "description": "St John Lateran is the cathedral of Rome. It is also the seat of the pope as Bishop of Rome. It was founded in 324, making it the oldest public church in the city and the oldest basilica in the Western world. It was rebuilt in the late 16th century under Pope Sixtus V, and the big façade was completed in 1735 under Clement XII.\n\nFor a phone photographer, the appeal is scale and order. The façade is a broad, formal frontage with a long Latin inscription naming Clement XII and the dedication to Christ the Saviour. That makes a good detail shot as well as a wide one. Because the building is so large, you will rarely fit all of it in at 1x unless you stand well back.\n\nBegin with the ultra-wide (0.5x) to take in the whole frontage, then switch to 2x or more for the inscription and architectural details. Keep your phone upright and check the gridlines so the vertical lines stay straight. Wait a moment for people to move out of the foreground, or include them to show the scale. It is a working church, so be considerate when photographing near entrances.",
    "geographic_location": "St John Lateran stands next to the Lateran Palace, close to San Giovanni Metro station (Metro line A and Metro line C). The Vatican is roughly four kilometres to the north-west.",
-   "directions_text": "From San Giovanni (Metro line A or Metro line C), head west; it is about 6 minutes on foot. From the tram 3 and tram 8 stop Porta S. Giovanni/Carlo Felice, walk west for about 5 minutes. The phone icon on the map is about 95 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From San Giovanni (Metro line A or Metro line C), head west; it is about 6 minutes on foot. From the tram 3 and tram 8 stop Porta S. Giovanni/Carlo Felice, walk west for about 5 minutes. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the whole façade, then use 1x for a calmer, less stretched view. Use 2x–5x, depending on your phone, for the Latin inscription and architectural details.",
-    "where_to_stand": "Stand about 95 m north of the subject, at the phone icon on the map, and face south. Walk a little each way to find a clear view with fewer obstructions.",
+    "where_to_stand": "Stand in Piazza di San Giovanni in Laterano (in front of the main facade, facing west). The full travertine facade with its row of statues, with the church's square and the Lateran Palace framing the scene, and the obelisk in the square. Walk a little each way to find a clear view with fewer obstructions.",
     "how_to_frame": "Keep the phone upright and level, and turn on gridlines to keep the vertical edges straight. At 0.5x, keep the façade away from the edges of the frame to limit stretching. For a second shot, go to 2x and frame the inscription and the top of the façade, leaving some sky.",
     "phone_settings_tip": "Tap on the façade to set focus, then drag the exposure slider down slightly if the sky is bright, so the stonework keeps its detail. Try panorama only if you cannot step back far enough, and hold the phone steady.",
     "best_time": "Soft morning or late-afternoon light usually flatters pale stone, and arriving early may mean fewer people in the foreground."
@@ -1123,15 +1143,16 @@
   "name": "Aventine: Keyhole and Orange Garden",
   "in_cut": false,
   "label": "Aventine: Keyhole and ",
-  "camera_pill": "Giardino degli Aranci",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 10770,
   "pin": [
    12.4799081,
    41.8854258
   ],
   "camera": [
-   12.479908,
-   41.885426
+   12.4799081,
+   41.8854258
   ],
   "camera_source": "OpenStreetMap viewpoint 'Giardino degli Aranci' (node/653947448).",
   "pin_note": "",
@@ -1159,6 +1180,7 @@
   "in_cut": false,
   "label": "Arch of Constantine",
   "camera_pill": "Piazza dell'Arco di Co",
+  "nophone": false,
   "searches": 10710,
   "pin": [
    12.490605,
@@ -1190,6 +1212,7 @@
   "in_cut": false,
   "label": "Basilica of St Paul Ou",
   "camera_pill": null,
+  "nophone": false,
   "searches": 8800,
   "pin": [
    12.477222222,
@@ -1221,6 +1244,7 @@
   "in_cut": false,
   "label": "Mouth of Truth (Bocca ",
   "camera_pill": null,
+  "nophone": false,
   "searches": 7190,
   "pin": [
    12.481666666667,
@@ -1256,6 +1280,7 @@
   "in_cut": false,
   "label": "Santa Maria Maggiore",
   "camera_pill": "Piazza di Santa Maria ",
+  "nophone": false,
   "searches": 6780,
   "pin": [
    12.498611111,
@@ -1286,15 +1311,16 @@
   "name": "Janiculum terrace (Gianicolo)",
   "in_cut": false,
   "label": "Janiculum terrace (Gia",
-  "camera_pill": "Terrazza del Gianicolo",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 6760,
   "pin": [
    12.461111111,
    41.891666666
   ],
   "camera": [
-   12.461388,
-   41.891477
+   12.461111111,
+   41.891666666
   ],
   "camera_source": "OpenStreetMap viewpoint 'Terrazza del Gianicolo' (node/1001130475).",
   "pin_note": "",
@@ -1318,6 +1344,7 @@
   "in_cut": false,
   "label": "Jewish Ghetto and Thea",
   "camera_pill": null,
+  "nophone": false,
   "searches": 6670,
   "pin": [
    12.4775,

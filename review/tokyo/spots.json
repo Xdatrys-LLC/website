@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Shibuya Crossing",
   "camera_pill": "near Hachiko Exit",
+  "nophone": false,
   "searches": 144750,
   "pin": [
    139.7005723,
@@ -62,14 +63,15 @@
   "in_cut": true,
   "label": "Tokyo Skytree",
   "camera_pill": null,
+  "nophone": true,
   "searches": 129750,
   "pin": [
    139.8105771,
    35.7100105
   ],
   "camera": [
-   139.8133715,
-   35.7107414
+   139.8105771,
+   35.7100105
   ],
   "camera_source": "Commons cluster (64 photos). Moved 41 m outwards on 2026-11-10 so it is 220 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/288269147: the middle of the OpenStreetMap outline 'Tokyo Skytree' (80 m across).",
@@ -77,10 +79,10 @@
   "text": {
    "description": "Tokyo Skytree is a broadcasting and observation tower in Sumida, and at 634 m it is the tallest tower in Japan. It reached that height in early 2011 and opened to the public on 22 May 2012. The number is a word game: 6, 3 and 4 can be read as \"Musashi\", an old name for the region. The lattice is painted a bluish-white shade called \"Skytree White\", based on a traditional Japanese colour. The base is a three-legged structure, which gives the tower a distinctive shape from the street.\n\nIt photographs well because it is so tall and so clean in outline, with plain sky behind it on a clear day. At night the LED lighting alternates daily between a sky-blue pattern and a purple one, so the tower can look quite different from one evening to the next.\n\nTall subjects are easiest when you keep the phone upright and level. Tilting it upwards makes the tower lean inwards. Step back to the edge of the open space if you can, and include some foreground, such as a lamp post or a passer-by, to give a sense of height. The observation decks are a separate matter, so check the official site before you go if you plan to go up.",
    "geographic_location": "Tokyo Skytree stands in Sumida, in the east of Tokyo, about seven km north-east of Tokyo Station. The nearest stations are Oshiage (Toei Asakusa Line) and Oshiage (SKYTREE) (Tokyo Metro Hanzōmon Line), both a short walk to the east of the tower. It is the centerpiece of a large commercial development owned by Tobu Railway.",
-   "directions_text": "The closest station is Oshiage (Toei Asakusa Line), about 3 minutes on foot from the phone icon on the map, with the tower to the west. Oshiage (SKYTREE) (Tokyo Metro Hanzōmon Line) is about 4 minutes on foot. The phone icon on the map is about 220 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Oshiage (SKYTREE) (Tokyo Metro Hanzōmon Line) is about 4 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) if you want the whole tower from this close. The default lens (1x) works for the upper part or a tighter, simpler shot. A telephoto lens (2x-5x, depending on your phone) is good for the top section against the sky.",
-    "where_to_stand": "Stand about 220 m east of the subject, at the phone icon on the map, and face west. The tower will be straight ahead of you.",
+    "where_to_stand": "Stand on 吾妻橋 (Azumabashi Bridge) (Taito City (west) side, near Toei Asakusa Station). The tower rising above the Sumida River with the golden Asahi Beer building and flame sculpture in the same frame. The tower will be straight ahead of you.",
     "how_to_frame": "Turn on your gridlines and line up the tower with a vertical line to keep it from leaning. Hold the phone upright and level, then raise your arms rather than tilting the phone back. Leave some sky above the tip and add a little foreground at the bottom for scale.",
     "phone_settings_tip": "Tap the tower to set focus, then slide the exposure down slightly so the white lattice does not wash out against bright sky. After dark, use night mode and hold the phone steady against a railing or your body so the lights stay sharp.",
     "best_time": "Morning, when the sun is behind you in the east and lights the side of the tower facing you. Dusk and after dark are good for the illumination, which alternates daily between sky blue and purple."
@@ -112,6 +114,7 @@
   "in_cut": true,
   "label": "Tokyo Tower",
   "camera_pill": "Tokyo Tower Street",
+  "nophone": false,
   "searches": 109150,
   "pin": [
    139.74544,
@@ -168,6 +171,7 @@
   "in_cut": true,
   "label": "Akihabara",
   "camera_pill": null,
+  "nophone": false,
   "searches": 87400,
   "pin": [
    139.77305556,
@@ -226,6 +230,7 @@
   "in_cut": true,
   "label": "Shibuya Sky",
   "camera_pill": null,
+  "nophone": false,
   "searches": 80500,
   "pin": [
    139.7022873,
@@ -276,6 +281,7 @@
   "in_cut": true,
   "label": "Sensō-ji",
   "camera_pill": "near Nakamise Street",
+  "nophone": false,
   "searches": 51400,
   "pin": [
    139.79675,
@@ -328,6 +334,7 @@
   "in_cut": true,
   "label": "Meiji Shrine",
   "camera_pill": "near Main Approach",
+  "nophone": false,
   "searches": 49700,
   "pin": [
    139.6991667,
@@ -379,15 +386,16 @@
   "name": "Golden Gai",
   "in_cut": true,
   "label": "Golden Gai",
-  "camera_pill": "Four Seasons Pathway",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 45250,
   "pin": [
    139.7046894,
    35.6940637
   ],
   "camera": [
-   139.7043078,
-   35.6941063
+   139.7046894,
+   35.6940637
   ],
   "camera_source": "Commons cluster (4 photos), weak. Moved 7 m outwards on 2026-11-10 so it is 10 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/16562139: the middle of the OpenStreetMap outline 'Shinjuku Golden Gai' (145 m across).",
@@ -395,10 +403,10 @@
   "text": {
    "description": "Golden Gai is a tight huddle of tiny bars in Shinjuku, made up of six narrow alleys joined by passageways barely wide enough for one person. More than 200 little bars, clubs and eateries are squeezed in, most of them in two-storey buildings only a few feet wide, with steep stairs up to a second bar or a small flat. It photographs well because it shows a side of Tokyo that has mostly been redeveloped away: wider roads and tall buildings now surround it. Up close you get crowded signs, posters plastered over ramshackle walls and dim, moody light. The area dates back to at least the 1960s for some of its bars, and it survived the 1980s, when many Tokyo buildings were set on fire so developers could buy the land, because supporters took turns guarding it at night. One important point before you lift your phone: the alleys are private roads, and the sources say that taking photographs or video on the street needs permission from the area's business promotion association. Please check the current rules and any signs on the spot, and respect them. Most bars don't open until about 9 or 10 pm, so the area is very quiet by day and in the early evening. Keep your phone low-key, avoid pointing it at customers or into doorways, and never block a narrow passage.",
    "geographic_location": "Golden Gai is in the Kabukicho part of Shinjuku, Tokyo, between the Shinjuku City Office and Hanazono Shrine. It lies about 355 m north of Shinjuku-sanchome station.",
-   "directions_text": "The nearest station is Shinjuku-sanchome (Toei Shinjuku Line, Tokyo Metro Fukutoshin Line and Tokyo Metro Marunouchi Line). Golden Gai is about 355 m to the north of it, about 6 minutes on foot. Shinjuku-nishiguchi (Toei Oedo Line) is also close: Golden Gai is about 507 m to the east of it, about 8 minutes on foot. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest station is Shinjuku-sanchome (Toei Shinjuku Line, Tokyo Metro Fukutoshin Line and Tokyo Metro Marunouchi Line). Golden Gai is about 355 m to the north of it, about 6 minutes on foot. Shinjuku-nishiguchi (Toei Oedo Line) is also close: Golden Gai is about 507 m to the east of it, about 8 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the narrow lane and the buildings leaning in on both sides. Switch to the default lens (1x) for more natural-looking signs and doorways. If your phone has a telephoto (2x-5x), use it to pick out a single sign or lantern from a distance rather than walking up to someone's door.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Stay where you are allowed to be and keep out of the way of doors and passers-by.",
+    "where_to_stand": "Stand right at the subject (from the alley mouth nearest Hanazono Shrine, looking down the main lane). The lantern-lit, two-storey wooden bar buildings receding down a narrow alley, with signs and overhead wires layered above. Stay where you are allowed to be and keep out of the way of doors and passers-by.",
     "how_to_frame": "Turn on gridlines and line up the alley so the vertical edges of the buildings stay straight. Let the lane lead the eye into the picture, and include a few signs and posters for colour. Keep people in the frame to a minimum, and avoid close-ups of customers' faces.",
     "phone_settings_tip": "Tap to focus on the brightest sign, then drag the exposure slider down a little so the lights don't wash out. In the evening, use night mode and hold the phone steady against a wall or your elbow. Wait for any people to pass, as night mode blurs anything that moves.",
     "best_time": "Since most bars open only around 9 or 10 pm, the alleys are quiet and easy to frame by day and in the early evening. After dark the signs and lights come on and the mood changes completely. Whichever you choose, check the photography rules first."
@@ -435,6 +443,7 @@
   "in_cut": true,
   "label": "teamLab Planets",
   "camera_pill": null,
+  "nophone": false,
   "searches": 42800,
   "pin": [
    139.789728,
@@ -480,6 +489,7 @@
   "in_cut": true,
   "label": "Ueno Park",
   "camera_pill": "near Ice house",
+  "nophone": false,
   "searches": 34750,
   "pin": [
    139.7711111,
@@ -533,6 +543,7 @@
   "in_cut": true,
   "label": "Kabukichō",
   "camera_pill": "near Yasukuni Street",
+  "nophone": false,
   "searches": 34200,
   "pin": [
    139.705,
@@ -594,6 +605,7 @@
   "in_cut": true,
   "label": "Takeshita Street",
   "camera_pill": null,
+  "nophone": false,
   "searches": 28450,
   "pin": [
    139.7053357,
@@ -652,6 +664,7 @@
   "in_cut": true,
   "label": "Rainbow Bridge",
   "camera_pill": "near South route",
+  "nophone": false,
   "searches": 24000,
   "pin": [
    139.7636111,
@@ -710,6 +723,7 @@
   "in_cut": true,
   "label": "Shinjuku Gyoen",
   "camera_pill": null,
+  "nophone": false,
   "searches": 23050,
   "pin": [
    139.71,
@@ -768,6 +782,7 @@
   "in_cut": true,
   "label": "Ginza",
   "camera_pill": "near Higashi-Ginza",
+  "nophone": false,
   "searches": 22250,
   "pin": [
    139.765007,
@@ -820,6 +835,7 @@
   "in_cut": true,
   "label": "Tocho Observatory",
   "camera_pill": null,
+  "nophone": false,
   "searches": 21450,
   "pin": [
    139.6915594,
@@ -876,6 +892,7 @@
   "in_cut": true,
   "label": "Yoyogi Park",
   "camera_pill": null,
+  "nophone": false,
   "searches": 21000,
   "pin": [
    139.697685,
@@ -929,6 +946,7 @@
   "in_cut": true,
   "label": "Imperial Palace",
   "camera_pill": "Imperial Palace Main G",
+  "nophone": false,
   "searches": 19950,
   "pin": [
    139.7527,
@@ -986,6 +1004,7 @@
   "in_cut": true,
   "label": "Omoide Yokocho",
   "camera_pill": "near Omoide-yokochō",
+  "nophone": false,
   "searches": 16980,
   "pin": [
    139.6995016,
@@ -1026,6 +1045,7 @@
   "in_cut": false,
   "label": "Hachikō",
   "camera_pill": "near Hachiko Square",
+  "nophone": false,
   "searches": 22250,
   "pin": [
    139.7009281,
@@ -1078,6 +1098,7 @@
   "in_cut": false,
   "label": "Tsukiji Market",
   "camera_pill": "near Kanni-dori",
+  "nophone": false,
   "searches": 13990,
   "pin": [
    139.7704732,
@@ -1104,6 +1125,7 @@
   "in_cut": false,
   "label": "Yasukuni Shrine",
   "camera_pill": null,
+  "nophone": false,
   "searches": 11580,
   "pin": [
    139.742692,
@@ -1135,6 +1157,7 @@
   "in_cut": false,
   "label": "Roppongi Hills",
   "camera_pill": null,
+  "nophone": false,
   "searches": 8460,
   "pin": [
    139.73,
@@ -1166,6 +1189,7 @@
   "in_cut": false,
   "label": "Zōjō-ji",
   "camera_pill": null,
+  "nophone": false,
   "searches": 6390,
   "pin": [
    139.748376,

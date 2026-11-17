@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Hohensalzburg",
   "camera_pill": null,
+  "nophone": false,
   "searches": 14000,
   "pin": [
    13.0479132,
@@ -58,6 +59,7 @@
   "in_cut": true,
   "label": "Mirabell Gardens",
   "camera_pill": null,
+  "nophone": false,
   "searches": 9020,
   "pin": [
    13.0420521,
@@ -114,6 +116,7 @@
   "in_cut": true,
   "label": "Mozart's Birthplace",
   "camera_pill": null,
+  "nophone": false,
   "searches": 7310,
   "pin": [
    13.0435411,
@@ -172,6 +175,7 @@
   "in_cut": true,
   "label": "Leopoldskron",
   "camera_pill": null,
+  "nophone": false,
   "searches": 6320,
   "pin": [
    13.0386807,
@@ -223,6 +227,7 @@
   "in_cut": true,
   "label": "Salzburg Cathedral",
   "camera_pill": null,
+  "nophone": false,
   "searches": 4610,
   "pin": [
    13.046606,
@@ -275,15 +280,16 @@
   "name": "Nonnberg Abbey",
   "in_cut": true,
   "label": "Nonnberg Abbey",
-  "camera_pill": "Kapuzinerberg",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1470,
   "pin": [
    13.0508625,
    47.7959646
   ],
   "camera": [
-   13.052946,
-   47.80032
+   13.0508625,
+   47.7959646
   ],
   "camera_source": "Researched viewpoint 'Kapuzinerberg' (3 web pages); placed at OpenStreetMap 'Kapuzinerberg' (way/10192072): edge nearest the subject (1729 m across).",
   "pin_note": "Position from OpenStreetMap way/65411780: the middle of the OpenStreetMap outline 'Benediktinen Frauenstift Nonnberg' (208 m across).",
@@ -291,10 +297,10 @@
   "text": {
    "description": "Nonnberg Abbey is a Benedictine convent that sits on the slope below Hohensalzburg Fortress. It was founded around 712/715 by Saint Rupert and is described as the oldest continuously existing nunnery in the German-speaking world. It is part of Salzburg's UNESCO-listed historic centre, and Maria von Trapp's story, which became The Sound of Music, began here. From the old city-wall platform on Kapuzinerberg you look across the rooftops to the abbey from a raised position, with the dome of the Kajetanerkirche at the left edge of the frame. That layering of church and convent is what makes the picture work, and it shows the abbey as part of the town rather than as a lone building. The abbey is some way off, so it will look small at the default lens (1x). Zoom in to pick it out, and keep a little rooftop and sky for context. The abbey interior is closed to visitors apart from the church and cemetery, so the views here are from outside. If you want a second angle, Nonnberggasse, at the abbey gate, looks over the Nonntal district toward the Untersberg, with the gate and walls in the foreground.",
    "geographic_location": "Nonnberg Abbey stands on the lower slope of the Festungsberg in Salzburg's Old Town, directly beneath Hohensalzburg Fortress and above the Nonntal district.",
-   "directions_text": "No public transport stop is listed for this spot, so walk from the Old Town towards Kapuzinerberg, the hill park on the north side of the city. The phone icon on the map is the old city-wall platform near the Kapuzinerkloster. From there the abbey lies about 500 m to the south. Kapuzinerberg has several paths, so follow the map to the platform itself. The phone icon on the map is about 510 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No public transport stop is listed for this spot, so walk from the Old Town towards Kapuzinerberg, the hill park on the north side of the city. From there the abbey lies about 500 m to the south. Kapuzinerberg has several paths, so follow the map to the platform itself. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the telephoto (2x-5x, depending on your phone) to bring the abbey closer. Use the default lens (1x) for a wider shot that includes the city rooftops.",
-    "where_to_stand": "Stand about 510 m north of the subject, in Kapuzinerberg (the phone icon on the map), and face south. Near the Kapuzinerkloster. From here the abbey is to the south across the city, and the Kajetanerkirche dome sits at the left edge of the frame.",
+    "where_to_stand": "Stand in Kapuzinerberg (platform on the old city walls near the Kapuzinerkloster). The abbey seen across the city from a raised position, with the Kajetanerkirche dome at the left edge of the frame. Near the Kapuzinerkloster. From here the abbey is to the south across the city, and the Kajetanerkirche dome sits at the left edge of the frame.",
     "how_to_frame": "Switch on gridlines and put the abbey on one of the crossing points, with the Kajetanerkirche dome kept just inside the left edge. Include some rooftops in the foreground to give a sense of depth. If you want a closer, more intimate view, Nonnberggasse at the abbey gate is an alternative, with the gate and walls in the foreground.",
     "phone_settings_tip": "Tap the abbey to set focus, then drag the exposure slider down a little so the sky keeps its detail. Hold the phone steady with both hands, or rest it on the wall, when you use the zoom.",
     "best_time": "As a general tip, morning or late afternoon usually gives softer light and clearer detail on the walls."
@@ -331,6 +337,7 @@
   "in_cut": true,
   "label": "Alter Markt",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1360,
   "pin": [
    13.0450588,
@@ -381,6 +388,7 @@
   "in_cut": true,
   "label": "Mönchsberg",
   "camera_pill": null,
+  "nophone": false,
   "searches": 740,
   "pin": [
    13.05,
@@ -441,6 +449,7 @@
   "in_cut": true,
   "label": "Kapuzinerberg",
   "camera_pill": null,
+  "nophone": false,
   "searches": 720,
   "pin": [
    13.0570519,
@@ -494,15 +503,16 @@
   "name": "St. Peter's Abbey and Cemetery",
   "in_cut": true,
   "label": "St. Peter's Cemetery",
-  "camera_pill": "Petersfriedhof",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 320,
   "pin": [
    13.0448283,
    47.7971088
   ],
   "camera": [
-   13.045453,
-   47.796722
+   13.0448283,
+   47.7971088
   ],
   "camera_source": "Researched viewpoint 'Petersfriedhof' (3 web pages); placed at OpenStreetMap 'Petersfriedhof' (relation/1017091): middle (135 m across).",
   "pin_note": "Position from OpenStreetMap way/777959820: the middle of the OpenStreetMap outline 'Erzabtei Sankt Peter' (236 m across).",
@@ -510,10 +520,10 @@
   "text": {
    "description": "St Peter's Abbey is a Benedictine monastery at the foot of the Mönchsberg, founded in 696 by Saint Rupert. It is described as the oldest monastery in the German-speaking area with a continuous history since its foundation. The Romanesque church went up from about 1130 and was dedicated in 1147. Its onion-domed steeple dates from 1756, and the interior took on its Rococo look between 1760 and 1782.\n\nFor photos, the best part is the cemetery, the Petersfriedhof. Its oldest surviving graves date from 1288 and 1300, and it centres on the Late Gothic St Margaret's Chapel. Wrought-iron crosses and old gravestones sit in the foreground, the abbey church fills the middle, and Hohensalzburg Fortress rises on the cliff behind. That layered view is what makes the place work on a phone. Guides also say it is quieter than the old town streets.\n\nStart wide, then step in. Use the ultra-wide (0.5x) for the whole scene and the default lens (1x) for a calmer composition. Keep the graves low in the frame as a foreground. If you want a second angle, the small Margarethenkapelle framed by graves is worth a few frames. This is a working burial ground, so keep your distance from mourners and private graves, and take photos quietly.",
    "geographic_location": "St Peter's Abbey sits at the northern foot of the Mönchsberg in Salzburg. The cemetery lies at the foot of the hill below Hohensalzburg Fortress.",
-   "directions_text": "No public-transport stop is listed for this spot. The abbey is at the northern foot of the Mönchsberg, below the fortress hill, and the cemetery lies there. From the abbey itself, the phone icon on the map is about 1 minute on foot. The phone icon on the map is about 65 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No public-transport stop is listed for this spot. The abbey is at the northern foot of the Mönchsberg, below the fortress hill, and the cemetery lies there. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the full view of graves, church and fortress together. Switch to the default lens (1x) for a more natural look. Use the telephoto (2x-5x, depending on your phone) to pick out the church tower, the fortress on the cliff, or the details of the chapel.",
-    "where_to_stand": "Stand about 65 m south-east of the subject, at Petersfriedhof (the phone icon on the map), and face north-west. From here the graves fill the foreground, the abbey church fills the middle, and Hohensalzburg Fortress rises behind.",
+    "where_to_stand": "Stand right at the subject (inside the cemetery, looking back toward the abbey church and up toward the fortress). The abbey church and the graves in the foreground, with Hohensalzburg Fortress rising on the cliff behind. From here the graves fill the foreground, the abbey church fills the middle, and Hohensalzburg Fortress rises behind.",
     "how_to_frame": "Turn on the gridlines and put the church on one of the vertical lines. Keep the graves and crosses along the bottom edge for depth, and leave room at the top for the fortress. Crouch slightly so the foreground looks fuller. For a different view, the small Gothic Margarethenkapelle framed by graves also shows the abbey church and cathedral in the wider scene.",
     "phone_settings_tip": "Tap on the church to set focus, then drag the exposure slider down a little so the sky keeps its colour and the stonework doesn't wash out. The shade under the trees and arcades can be darker than the sky, so check both before you shoot.",
     "best_time": "Early morning or late afternoon, according to one guide, when the light is softer."
@@ -550,6 +560,7 @@
   "in_cut": true,
   "label": "Richterhöhe",
   "camera_pill": null,
+  "nophone": false,
   "searches": 310,
   "pin": [
    13.0402815,
@@ -601,6 +612,7 @@
   "in_cut": true,
   "label": "Steingasse",
   "camera_pill": null,
+  "nophone": false,
   "searches": 280,
   "pin": [
    13.0508446,
@@ -651,6 +663,7 @@
   "in_cut": true,
   "label": "Staatsbrücke",
   "camera_pill": null,
+  "nophone": false,
   "searches": 210,
   "pin": [
    13.0446103,
@@ -701,15 +714,16 @@
   "name": "Residenzplatz and its fountain",
   "in_cut": true,
   "label": "Residenzplatz",
-  "camera_pill": "Residenzbrunnen",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 150,
   "pin": [
    13.0461545,
    47.7985232
   ],
   "camera": [
-   13.046654,
-   47.798475
+   13.0461545,
+   47.7985232
   ],
   "camera_source": "Researched viewpoint 'Residenzbrunnen' (2 web pages); placed at OpenStreetMap 'Residenzbrunnen' (way/155037925): middle (36 m across).",
   "pin_note": "Position from OpenStreetMap relation/1633555: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -717,10 +731,10 @@
   "text": {
    "description": "Residenzplatz is a wide paved square in Salzburg, and its Baroque fountain is the obvious subject. The classic photo puts the full fountain in the foreground with Salzburg Cathedral behind it. The Residenz buildings frame both from the sides. That layering of water, stone and church towers is what makes it work so well on a phone. Everything sits close together, so one wide frame tells the whole story.\n\nThe ultra-wide lens (0.5x) is the easiest way to fit the fountain and the cathedral into one picture. If you want a calmer, tighter view of the fountain alone, switch to the default lens (1x) and step back a little. The square is open at all hours, but street performers, horse carriages and the Christmas market can crowd the fountain. Temporary stages and structures have also blocked the view at times, for example in September. In winter the fountain is sometimes boarded up, so you may not see the water at all. For the cleanest shot, go early in the morning or in the evening. As an alternative, step back into the square itself and photograph the fountain set within the open paving, with the Baroque facades and church towers framing it from the sides.",
    "geographic_location": "Residenzplatz is in Salzburg, with the Residenz buildings around it and the cathedral on the far side of the fountain.",
-   "directions_text": "Head for Residenzplatz in Salzburg. From the phone icon on the map it is a short walk to the fountain itself. The phone icon on the map is about 40 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for Residenzplatz in Salzburg. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) so the whole fountain and the cathedral fit in one frame. Switch to the default lens (1x) for a tighter, less stretched view of the fountain.",
-    "where_to_stand": "Stand about 40 m east of the subject, at Residenzbrunnen (the phone icon on the map), and face west. The fountain lies to the west of you. From here the full Baroque fountain fills the foreground, with Salzburg Cathedral behind it and the Residenz buildings framing the scene.",
+    "where_to_stand": "Stand right at the subject (stand in front of the fountain, facing the cathedral side). The full Baroque fountain in the foreground with the Salzburg Cathedral behind it, framed by the surrounding Residenz buildings. The fountain lies to the west of you. From here the full Baroque fountain fills the foreground, with Salzburg Cathedral behind it and the Residenz buildings framing the scene.",
     "how_to_frame": "Switch on gridlines and put the fountain on one of the vertical lines, with the cathedral rising behind it. Keep the phone level so the buildings do not lean. If you want a different view, step back into Residenzplatz and photograph the fountain within the wide square, with the facades and church towers at the sides.",
     "phone_settings_tip": "Tap on the fountain to set focus and exposure. Then drag the exposure slider down slightly if the sky is bright, so the stone detail and the cathedral stay clear.",
     "best_time": "Before 9:00 or after 20:00 to avoid the crowds. In summer, golden hour is roughly 18:30-20:00."
@@ -753,6 +767,7 @@
   "in_cut": true,
   "label": "Kapitelplatz",
   "camera_pill": null,
+  "nophone": false,
   "searches": 90,
   "pin": [
    13.0464908,
@@ -804,6 +819,7 @@
   "in_cut": true,
   "label": "Kollegienkirche",
   "camera_pill": null,
+  "nophone": false,
   "searches": 60,
   "pin": [
    13.0430874,
@@ -854,6 +870,7 @@
   "in_cut": true,
   "label": "Linzer Gasse",
   "camera_pill": null,
+  "nophone": false,
   "searches": 50,
   "pin": [
    13.0467418,
@@ -904,15 +921,16 @@
   "name": "Makartsteg love-lock bridge",
   "in_cut": true,
   "label": "Makartsteg",
-  "camera_pill": "Elisabethkai",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 50,
   "pin": [
    13.0421839,
    47.8017602
   ],
   "camera": [
-   13.042044,
-   47.802483
+   13.0421839,
+   47.8017602
   ],
   "camera_source": "Researched viewpoint 'Elisabethkai' (1 web pages); placed at OpenStreetMap 'Elisabethkai' (way/130627662): point nearest the subject (396 m long).",
   "pin_note": "Position from OpenStreetMap way/28481471: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -920,10 +938,10 @@
   "text": {
    "description": "This is a footbridge over the Salzach known for the padlocks on its railings. Its official name is Marko-Feingold-Steg, after it was renamed in 2021 from Makartsteg, and both names are used locally and on maps. Against the Old Town roofs and Hohensalzburg Fortress, the padlocks make a good foreground for a phone photo.\n\nA recommended alternative to shooting on the bridge is the riverside quay, Elisabethkai, on the east (new town) bank next to the bridge. It is a quieter alternative that puts the bridge in a wider scene. From there the footbridge sits in the foreground, with the Old Town roofs and the fortress behind it, so you get the whole scene in one frame. The other choice is to stand on the bridge and shoot along the lock-covered railing towards the rooftops and the fortress on its cliff, with the river below.\n\nThe padlocks are removed from time to time when the railings get too heavy, so the locks you see may differ from older photos. Walk along the quay for a few minutes and try a couple of spots before you settle. Keep the bridge slightly off-centre so the fortress has room above the roofs, and watch for people walking across, who add a sense of scale.",
    "geographic_location": "The bridge crosses the Salzach river in central Salzburg. A recommended viewpoint, the quay Elisabethkai, runs along the new town (east) bank beside it.",
-   "directions_text": "Make your way to the new town bank of the Salzach, on the riverside quay called Elisabethkai, next to the footbridge. No public transport stops are listed for this spot, so walking from the Old Town or the centre of Salzburg is the simplest option. The bridge lies about 1 minute on foot to the south of the phone icon on the map. The phone icon on the map is about 80 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Make your way to the new town bank of the Salzach, on the riverside quay called Elisabethkai, next to the footbridge. No public transport stops are listed for this spot, so walking from the Old Town or the centre of Salzburg is the simplest option. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to fit the bridge, the Old Town roofs and the fortress in one frame. Switch to ultra-wide (0.5x) if you are close and the bridge gets cut off. Use telephoto (2x-5x, depending on your phone) for a tighter shot of the fortress above the roofs.",
-    "where_to_stand": "Stand about 80 m north of the subject, on Elisabethkai (the phone icon on the map), and face south. From here the footbridge fills the foreground, with the Old Town roofs and Hohensalzburg Fortress behind it. If you want a different angle, the bridge itself, Marko-Feingold-Steg, lets you look through the lock-covered railing towards the rooftops and the fortress.",
+    "where_to_stand": "Stand on Elisabethkai (east (new town) bank, on the riverside quay next to the bridge). The footbridge in the foreground with the Old Town roofs and Hohensalzburg Fortress behind it, shot from the river bank. From here the footbridge fills the foreground, with the Old Town roofs and Hohensalzburg Fortress behind it. If you want a different angle, the bridge itself, Marko-Feingold-Steg, lets you look through the lock-covered railing towards the rooftops and the fortress.",
     "how_to_frame": "Turn on gridlines and place the bridge along the lower third, keeping the horizon level. Leave the fortress above the roofs rather than cropping it. For a close-up variation, step onto the bridge and shoot along the railing so the padlocks lead towards the fortress.",
     "phone_settings_tip": "Tap on the bridge or the roofs to set focus, then drag the exposure slider down a little so the sky keeps its colour and the locks stay sharp. Take a few frames in case people walk through.",
     "best_time": "Soft morning or evening light is usually kinder to the roofs and the fortress."
@@ -955,6 +973,7 @@
   "in_cut": true,
   "label": "Giselakai",
   "camera_pill": null,
+  "nophone": false,
   "searches": 40,
   "pin": [
    13.0539909,
@@ -1004,26 +1023,27 @@
   "name": "Getreidegasse",
   "in_cut": false,
   "label": "Getreidegasse",
-  "camera_pill": "Museum der Moderne",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2160,
   "pin": [
    13.0425483,
    47.8000373
   ],
   "camera": [
-   13.038299,
-   47.800903
+   13.0425483,
+   47.8000373
   ],
   "camera_source": "Researched viewpoint 'Museum der Moderne' (2 web pages); placed at OpenStreetMap 'Museum der Moderne' (way/23193071): middle (60 m across).",
   "pin_note": "Position from OpenStreetMap way/104908655: the middle of the OpenStreetMap line 'Getreidegasse' (279 m long).",
   "notes": "",
   "text": {
-   "description": "Getreidegasse is the old shopping street in Salzburg's Altstadt, and it is one of the city's busiest. Tall, narrow townhouses stand shoulder to shoulder, and wrought-iron guild signs hang above the shopfronts. That mix of signs, rooflines and a lane that seems to close in is why it photographs so well. The street is mentioned as far back as about 1150, when it had a different name, and it was a trading street long before it became a shopping one. Mozart was born at No. 9, and the family lived there until 1773. The building has housed a Mozart museum since 1880. Many of the houses hide passageways and courtyards, so look for gaps between the shops.\n\nThe phone icon on the map is the viewing platform on the Mönchsberg, next to the Museum der Moderne. From up here you look down over the roofs onto the Getreidegasse, with the Festival Hall and the far side of the Salzach beyond. It is quieter than the street itself, and you get there by a short lift ride from the Old Town rather than a climb. Use this view for the whole-street picture. Then go down and take the close-up shots at street level, where the guild signs and Mozart's yellow facade make good details. The street is crowded from late morning, so go early if you want it clear of people.",
+   "description": "Getreidegasse is the old shopping street in Salzburg's Altstadt, and it is one of the city's busiest. Tall, narrow townhouses stand shoulder to shoulder, and wrought-iron guild signs hang above the shopfronts. That mix of signs, rooflines and a lane that seems to close in is why it photographs so well. The street is mentioned as far back as about 1150, when it had a different name, and it was a trading street long before it became a shopping one. Mozart was born at No. 9, and the family lived there until 1773. The building has housed a Mozart museum since 1880. Many of the houses hide passageways and courtyards, so look for gaps between the shops.\n\nFrom up here you look down over the roofs onto the Getreidegasse, with the Festival Hall and the far side of the Salzach beyond. It is quieter than the street itself, and you get there by a short lift ride from the Old Town rather than a climb. Use this view for the whole-street picture. Then go down and take the close-up shots at street level, where the guild signs and Mozart's yellow facade make good details. The street is crowded from late morning, so go early if you want it clear of people.",
    "geographic_location": "Getreidegasse is in the Old Town (Altstadt) of Salzburg, one block back from the Salzach river.",
-   "directions_text": "Make your way to the Old Town first. The Museum der Moderne terrace is reached by a short lift ride up the Mönchsberg from the Old Town. The phone icon on the map is about 330 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Make your way to the Old Town first. The Museum der Moderne terrace is reached by a short lift ride up the Mönchsberg from the Old Town. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "From the terrace, use the telephoto (2x-5x, depending on your phone) to pick out the rooftops and the line of the street. Use the default lens (1x) for the wider view with the Festival Hall and river. At street level, the ultra-wide (0.5x) suits the narrow lane and tall facades.",
-    "where_to_stand": "Stand about 330 m west of the subject, on Museum der Moderne (the phone icon on the map), and face east. From here you look east and down onto the roofs and the Getreidegasse, with the Festival Hall and the left bank of the Salzach beyond.",
+    "where_to_stand": "Stand on Museum der Moderne (viewing platform on the Mönchsberg, next to the museum). An elevated view down onto the roofs and the Getreidegasse, with the Festival Hall and the left bank of the Salzach beyond. From here you look east and down onto the roofs and the Getreidegasse, with the Festival Hall and the left bank of the Salzach beyond.",
     "how_to_frame": "Switch on gridlines and put the line of the street along one of the lower grid lines, so the roofs fill the frame and the Festival Hall sits in the distance. Keep the horizon level. For an alternative, go down to the street. There you can shoot along the lane toward the western end with the guild signs on both sides, or frame Mozart's yellow birthplace as a bright accent in the middle of the street.",
     "phone_settings_tip": "Tap on the roofs to focus, then slide the exposure down a little if the sky is bright, so the roofs keep their colour. At street level, hold the phone steady and take a few frames, so you have one without people walking through.",
     "best_time": "Go early in the morning if you want the street at street level with few people, because it gets crowded from late morning through the day. The terrace is quieter, but check the lift times first."

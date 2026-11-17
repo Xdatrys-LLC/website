@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Notre-Dame Basilica",
   "camera_pill": "near Rue Saint-Jacques",
+  "nophone": false,
   "searches": 33455,
   "pin": [
    -73.5560015,
@@ -61,6 +62,7 @@
   "in_cut": true,
   "label": "Kondiaronk Belvedere",
   "camera_pill": "Belvédère Kondiaronk",
+  "nophone": false,
   "searches": 10400,
   "pin": [
    -73.58705,
@@ -116,15 +118,16 @@
   "name": "Habitat 67",
   "in_cut": true,
   "label": "Habitat 67",
-  "camera_pill": "Cité-du-Havre",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 10130,
   "pin": [
    -73.5436434,
    45.4998732
   ],
   "camera": [
-   -73.543048,
-   45.493714
+   -73.5436434,
+   45.4998732
   ],
   "camera_source": "Researched viewpoint 'Cité-du-Havre' (2 web pages); placed at OpenStreetMap 'Cité du Havre' (node/4379567271): point.",
   "pin_note": "Position from OpenStreetMap way/440195613: the middle of the OpenStreetMap outline 'Habitat '67' (301 m across).",
@@ -132,10 +135,10 @@
   "text": {
    "description": "Habitat 67 is a stack of concrete boxes beside the Saint Lawrence River, and it looks like nothing else in Montreal. Architect Moshe Safdie developed it from his university thesis, and it was built for the Expo 67 world's fair. It has 354 identical prefabricated concrete units, arranged into three pyramids that rise up to 12 storeys. The units make up 146 homes, and each one has a garden terrace on the roof of the unit below. That is why the building photographs so well: the repeated shapes, the shifting shadows and the green terraces give you plenty of pattern and depth. Guides describe the Cité-du-Havre walkway as a suggested viewpoint, where you can fit the downtown towers behind the building, which shows how unusual it is against the modern skyline. Habitat 67 is a private residential complex, so plan to photograph it from public sidewalks and public spots nearby. Guided tours are offered if you want to see more, but check the official site before you go. Take a few wide shots for the whole scene, then step in closer for details of the stacked modules and the plants on the terraces. If the light is flat, concentrate on the edges and shadows, where the repeated shapes stand out best.",
    "geographic_location": "Habitat 67 stands at Cité du Havre, on the Saint Lawrence River, about 1.4 km south-east of Place-d'Armes Métro station, next to the Marc-Drouin Quay. Its address is 2600 Avenue Pierre-Dupuy.",
-   "directions_text": "The nearest stations are Place-d'Armes Métro station (Orange line) and Champ-de-Mars Métro station (Orange line). Habitat 67 lies to the south-east of both, roughly 1.4 km from Place-d'Armes and roughly 1.5 km from Champ-de-Mars. Walking to the complex is not easy, so check current maps first. Since 2023 the 777 Casino bus route has also served Habitat 67, but check the current timetable before you go. The phone icon on the map is about 540 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stations are Place-d'Armes Métro station (Orange line) and Champ-de-Mars Métro station (Orange line). Habitat 67 lies to the south-east of both, roughly 1.4 km from Place-d'Armes and roughly 1.5 km from Champ-de-Mars. Walking to the complex is not easy, so check current maps first. Since 2023 the 777 Casino bus route has also served Habitat 67, but check the current timetable before you go. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) for the main view with the city behind. Switch to telephoto (2x or 3x, depending on your phone) for close shots of the stacked modules. Ultra-wide (0.5x) is only worth trying if you are very close and want the whole pyramid in one frame.",
-    "where_to_stand": "Stand about 540 m south of the subject, in Cité-du-Havre (the phone icon on the map), and face north. A separate suggested viewpoint is the public Cité-du-Havre walkway, which is not the phone-icon location. Guides describe it as a spot where you can get the building in the foreground with the downtown towers rising behind it.",
+    "where_to_stand": "Stand in Cité-du-Havre (public walkway facing the complex, on the Cité-du-Havre side). Habitat 67 in the foreground, with downtown towers rising behind it, especially good at blue hour. A separate suggested viewpoint is the public Cité-du-Havre walkway, which is not the phone-icon location. Guides describe it as a spot where you can get the building in the foreground with the downtown towers rising behind it.",
     "how_to_frame": "Turn on gridlines and place the stacked modules in the lower half of the frame so the towers show above them. Keep the vertical lines straight by holding the phone level. For a different view, the Grand Quai du Port de Montréal shows the building in profile across the river. The Pont de la Concorde gives a symmetrical wide view, but check it is open to the public first.",
     "phone_settings_tip": "Tap on the concrete to set focus, then drag the exposure slider down slightly so the sky does not wash out. At dusk, turn on night mode and hold the phone as still as you can, bracing your elbows against your body or resting it on a solid ledge.",
     "best_time": "One guide recommends blue hour (the short period just after sunset or before sunrise), when the building and the downtown lights both show up on your phone."
@@ -173,26 +176,27 @@
   "name": "Olympic Stadium and tower",
   "in_cut": true,
   "label": "Olympic Stadium",
-  "camera_pill": "Esplanade Sun Life",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 7950,
   "pin": [
    -73.5516418,
    45.5578041
   ],
   "camera": [
-   -73.550755,
-   45.556483
+   -73.5516418,
+   45.5578041
   ],
   "camera_source": "Researched viewpoint 'Esplanade Financière Sun Life' (4 web pages); placed at our map tiles: 'Esplanade Sun Life' (pois).",
   "pin_note": "Position from OpenStreetMap way/108505523: the middle of the OpenStreetMap outline 'Olympic Stadium' (405 m across).",
   "notes": "",
   "text": {
-   "description": "The Olympic Stadium, nicknamed \"The Big O\", was built in the mid-1970s as the main venue for the 1976 Summer Olympics. The name also nods to the doughnut shape of its permanent roof ring. Its curving, sculpted concrete looks unlike any other building in the city, and that is what makes it fun to photograph. It was designed by the French architect Roger Taillibert, who drew on plant and animal forms. Built into the north side of the stadium is the Montreal Tower, which leans at 45 degrees and rises 165 metres. It is the world's tallest inclined tower, and it was finished a full decade after the stadium opened. From the phone icon on the map on the Esplanade Financière Sun Life, a multi-level public plaza, the open platforms leave a clear view across to the stadium and the leaning tower. Because the stadium is so large, a single frame can feel cramped when you are close. Step back to the edge of the plaza and use the ultra-wide lens, and keep the tower's lean as a strong diagonal. Sunrise and sunset are the times suggested for good light. A second option is the street corner at Sherbrooke, where you can include the Olympic rings sculpture in the frame. The plaza can be changed by event setups, so the view may look slightly different from day to day.",
+   "description": "The Olympic Stadium, nicknamed \"The Big O\", was built in the mid-1970s as the main venue for the 1976 Summer Olympics. The name also nods to the doughnut shape of its permanent roof ring. Its curving, sculpted concrete looks unlike any other building in the city, and that is what makes it fun to photograph. It was designed by the French architect Roger Taillibert, who drew on plant and animal forms. Built into the north side of the stadium is the Montreal Tower, which leans at 45 degrees and rises 165 metres. It is the world's tallest inclined tower, and it was finished a full decade after the stadium opened. Because the stadium is so large, a single frame can feel cramped when you are close. Step back to the edge of the plaza and use the ultra-wide lens, and keep the tower's lean as a strong diagonal. Sunrise and sunset are the times suggested for good light. A second option is the street corner at Sherbrooke, where you can include the Olympic rings sculpture in the frame. The plaza can be changed by event setups, so the view may look slightly different from day to day.",
    "geographic_location": "In Olympic Park, in the Hochelaga-Maisonneuve district of Montreal. The stadium sits next to Maisonneuve Park, and the Botanical Garden lies just to the west across Sherbrooke Street.",
-   "directions_text": "From Pie IX Métro station (Métro Green line), the stadium is about 400 m to the north. From Viau Métro station (Métro Green line), the stadium is about 500 m to the south-west. Walk into Olympic Park and out onto the open plaza of the Esplanade Financière Sun Life. From the phone icon on the map on the plaza, the stadium and tower are to the north-west. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "From Pie IX Métro station (Métro Green line), the stadium is about 400 m to the north. From Viau Métro station (Métro Green line), the stadium is about 500 m to the south-west. Walk into Olympic Park and out onto the open plaza of the Esplanade Financière Sun Life. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the stadium and the leaning tower into one frame. Switch to the default lens (1x) for a calmer, less stretched view. Use telephoto (2x-5x, depending on your phone) for details of the tower and the roof ring.",
-    "where_to_stand": "Stand in Esplanade Financière Sun Life, right in front of the subject: the phone icon on the map marks the spot. This is the Olympic Park plaza, facing the stadium and tower. The stadium is to the north-west of you. From here you get a wide-angle frame of the stadium and the leaning tower across the open platforms of the esplanade.",
+    "where_to_stand": "Stand in Esplanade Financière Sun Life (Olympic Park plaza, facing the stadium and tower). A wide-angle frame of the stadium and the leaning tower across the open platforms of the esplanade. This is the Olympic Park plaza, facing the stadium and tower. The stadium is to the north-west of you. From here you get a wide-angle frame of the stadium and the leaning tower across the open platforms of the esplanade.",
     "how_to_frame": "Turn on gridlines and use them to keep the horizon level, so the tower's 45-degree lean stands out as the one deliberate diagonal. Let the platforms of the esplanade fill the foreground to give a sense of scale. For a different view, try the street corner at Sherbrooke, where you can include the Olympic rings sculpture beside the stadium.",
     "phone_settings_tip": "Tap the sky or the tower to set focus, then drag the exposure slider down a little so the bright sky does not wash out the pale concrete. Take a few shots at 0.5x and 1x, because the stadium is very large.",
     "best_time": "Sunrise and sunset are suggested for the light. Visit when the plaza is not set up for an event, so the view stays open."
@@ -228,15 +232,16 @@
   "name": "Montreal Botanical Garden",
   "in_cut": true,
   "label": "Botanical Garden",
-  "camera_pill": "Jardin de Chine",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 6045,
   "pin": [
    -73.5568056,
    45.5572222
   ],
   "camera": [
-   -73.558653,
-   45.559209
+   -73.5568056,
+   45.5572222
   ],
   "camera_source": "Researched viewpoint 'Jardin de Chine' (3 web pages); placed at OpenStreetMap 'Le Jardin de Chine' (way/1263570621): middle (223 m across).",
   "pin_note": "Position from OpenStreetMap way/87382664: large area 'Montreal Botanical Garden' (1848 m across): previous pin kept, it lies inside.",
@@ -244,10 +249,10 @@
   "text": {
    "description": "The Montreal Botanical Garden covers 75 hectares of themed gardens and greenhouses, and it was named a National Historic Site of Canada in 2008. For phone photos, the best part is the Chinese Garden. It is built in the style of a Ming dynasty garden and covers 2.5 hectares. Winding paths lead past an artificial mountain, ponds and Chinese-style buildings. It was built in 1990 and 1991 by 50 artisans from the Shanghai Institute of Landscape Design and Architecture, and the project brought 500 tonnes of stone from Lake Tai in China. The red pavilions, arched bridges and lanterns sit right beside the water, so you can shoot the buildings and their reflections together. The guides we looked at rank it as the most photogenic corner of the grounds. It is also good in the evening, when the lit lanterns glow behind the pavilions. If you have time, the Japanese Garden nearby is a quieter scene of ponds, stone lanterns and wooden bridges. Keep in mind that the outdoor gardens are bare and often under snow from about November to about April, so the colour is best in the warmer months. The greenhouses stay open all year. Go slowly, because the best pictures here come from small changes in position: a step to the side to catch the reflection, or a lower angle to bring a bridge into the frame.",
    "geographic_location": "The garden is in Maisonneuve Park, in the borough of Rosemont–La Petite-Patrie, at the corner of Pie-IX and Sherbrooke Streets. It faces Montreal's Olympic Stadium.",
-   "directions_text": "Take the Métro Green line to Pie IX station. From there it is about 530 m on foot to the garden, which lies to the north-west of the station; the entrance is at 4101 rue Sherbrooke Est. Viau station, also on the Métro Green line, is about 870 m away, with the garden to the south-west. The Chinese Garden is the recommended viewpoint inside the grounds, so check the garden map at the entrance to find it. The phone icon on the map is about 260 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the Métro Green line to Pie IX station. From there it is about 530 m on foot to the garden, which lies to the north-west of the station; the entrance is at 4101 rue Sherbrooke Est. Viau station, also on the Métro Green line, is about 870 m away, with the garden to the south-west. The Chinese Garden is the recommended viewpoint inside the grounds, so check the garden map at the entrance to find it. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the pavilions, bridge and water together, then switch to the default lens (1x) for a calmer, more natural view. Use telephoto (2x-5x, depending on your phone) for lantern details and roof corners.",
-    "where_to_stand": "Stand about 260 m north-west of the subject, at Jardin de Chine (the phone icon on the map), and face south-east. Once inside the grounds, the Chinese Garden is the suggested scene to look for, with its Ming-style red pavilions, arched bridges and lanterns reflected in the water.",
+    "where_to_stand": "Stand right at the subject (inside the garden, near the central pond and pavilions). Ming-style red pavilions, arched bridges and lanterns reflected in the water of the Chinese Garden, with the lit lanterns as a backdrop at dusk. Once inside the grounds, the Chinese Garden is the suggested scene to look for, with its Ming-style red pavilions, arched bridges and lanterns reflected in the water.",
     "how_to_frame": "Turn on gridlines and put the water's edge on a lower line, so the reflection fills the bottom third of the picture. Include a bridge or a lantern in the foreground to add depth. Try a vertical frame for a tall pavilion and a horizontal one for the whole pond. If you want a second scene, the Japanese Garden has reflective ponds, stone lanterns and arched wooden bridges that suit a tight, quiet shot.",
     "phone_settings_tip": "Tap the brightest red part of a pavilion to focus, then slide the exposure down a little so the reds keep their detail. At dusk, use night mode and hold the phone still, for example braced on a railing. Take a Live Photo to catch ripples on the water, and pick the best frame afterwards.",
     "best_time": "Golden hour or an overcast day gives even tones. Dusk is the time for the lit lanterns, but check the official site for evening opening and lantern dates before you plan it. The outdoor gardens are bare and often snowy from about November to about April."
@@ -280,15 +285,16 @@
   "name": "Old Port of Montreal",
   "in_cut": true,
   "label": "Old Port",
-  "camera_pill": "Quai de l'Horloge",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 5990,
   "pin": [
    -73.552386,
    45.504886
   ],
   "camera": [
-   -73.546733,
-   45.50964
+   -73.552386,
+   45.504886
   ],
   "camera_source": "Researched viewpoint 'Quai de l'Horloge' (3 web pages); placed at OpenStreetMap 'Quai de l'Horloge' (node/6341436246): point.",
   "pin_note": "Position from OpenStreetMap way/83255355: large area 'Old Port' (2038 m across): previous pin kept, it lies inside.",
@@ -296,10 +302,10 @@
   "text": {
    "description": "The Old Port is Montreal's historic harbour, running for more than 2 km along the Saint Lawrence River beside Old Montreal. French fur traders were using it as a trading post as early as 1611. Port activity moved east in 1976, and the area was redeveloped in the early 1990s. Today it is a place for walking, cycling and events, and it draws about six million visitors a year.\n\nIt works well for phone photos because there is so much to frame in one spot: the river, the long quays, the white Clock Tower and the Jacques-Cartier Bridge behind it. The most familiar view is from Quai de l'Horloge (Clock Tower Pier) at the eastern entrance of the port. Put the tower in the foreground, with the bridge rising behind it and the water and quay beside you. Guides recommend staying on until sunset, when the tower and bridge are both lit.\n\nIf you have time for a second view, try rue de la Commune for La Grande Roue (the ferris wheel, the tallest in Canada, opened 2017) lit against a darkening sky. Parc de la Cité-du-Havre gives a view of the port skyline across the water, possibly with a reflection. Check that this viewpoint is still open when you go. Ground-level shots of the wheel cost nothing, but riding it is paid.\n\nKeep the horizon level with the gridlines on, and wipe your lens before you start, as river spray and fingerprints soften evening shots.",
    "geographic_location": "The Old Port lies on the Saint Lawrence waterfront in Montreal, right next to Old Montreal. The Clock Tower Pier is at its eastern entrance.",
-   "directions_text": "From Place-d'Armes Métro station (Métro Orange line), the Old Port is about 590 m to the east. From Champ-de-Mars Métro station (also the Orange line), it is about 650 m to the south-east. Once at the river, follow the waterfront to Quai de l'Horloge at the eastern end of the port. The phone icon on the map is about 690 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Place-d'Armes Métro station (Métro Orange line), the Old Port is about 590 m to the east. From Champ-de-Mars Métro station (also the Orange line), it is about 650 m to the south-east. Once at the river, follow the waterfront to Quai de l'Horloge at the eastern end of the port. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the classic frame of the Clock Tower with the bridge behind. Use the ultra-wide (0.5x) for the long quay and the open sky. Try 2x or 3x if your phone has a telephoto lens, to bring the bridge closer behind the tower.",
-    "where_to_stand": "Stand about 690 m north-east of the subject, on Quai de l'Horloge (the phone icon on the map), and face south-west. For the classic frame, walk to Quai de l'Horloge, the Clock Tower Pier, at the eastern entrance of the port. There the white Clock Tower is in the foreground and the Jacques-Cartier Bridge sits behind it.",
+    "where_to_stand": "Stand on Quai de l'Horloge (Clock Tower Pier, at the eastern entrance of the port). The white Clock Tower in the foreground with the Jacques-Cartier Bridge behind it, and the river and port along the quay. For the classic frame, walk to Quai de l'Horloge, the Clock Tower Pier, at the eastern entrance of the port. There the white Clock Tower is in the foreground and the Jacques-Cartier Bridge sits behind it.",
     "how_to_frame": "Turn on the gridlines and put the tower on one third line with the bridge rising behind it. Keep some water or quay in the lower part of the frame. For a second view, walk to rue de la Commune and photograph La Grande Roue at dusk, or to Parc de la Cité-du-Havre for the skyline across the water.",
     "phone_settings_tip": "Tap the tower to focus, then slide the exposure down a little so the evening sky keeps its colour. After sunset, switch on night mode and rest your elbows on a rail or your phone against a solid surface to keep it steady.",
     "best_time": "Sunset and the period just after, when the Clock Tower and the bridge are lit."
@@ -333,26 +339,27 @@
   "name": "Saint Joseph's Oratory",
   "in_cut": true,
   "label": "St Joseph's Oratory",
-  "camera_pill": "Chemin Queen-Mary",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 4920,
   "pin": [
    -73.617264,
    45.4924417
   ],
   "camera": [
-   -73.62007,
-   45.493688
+   -73.617264,
+   45.4924417
   ],
   "camera_source": "Researched viewpoint 'Chemin Queen-Mary' (3 web pages); placed at the stretch of Chemin Queen-Mary nearest the subject (our map tiles).",
   "pin_note": "Position from OpenStreetMap node/1458999228: the OpenStreetMap point 'The Oratory Museum'.",
   "notes": "",
   "text": {
-   "description": "Saint Joseph's Oratory is the big copper-domed church that sits on the Westmount Summit of Mount Royal, and it is the highest building in Montreal and can be seen from many kilometres away. It is a Roman Catholic basilica and national shrine, and it is Canada's largest church. Brother André founded it in 1904, starting with a tiny chapel. The basilica grew in stages over the following decades, and the large dome, modelled on Florence Cathedral, was finished in 1941. The Oratory rises more than 30 metres above the summit of Mount Royal, so the dome stands out against the sky.\n\nIt photographs well because the building comes with its own composition: a long central stairway, an open grassy axis and trees on either side all lead the eye up to the dome. The phone icon on the map is on Chemin Queen-Mary, opposite the foot of that stairway. From here the whole facade and the stairs fit into one frame. If you have time for a second shot, the Jardin du Chemin de la Croix shows the dome rising above flower beds and tall trees.\n\nThe dome and lantern have been under renovation, so scaffolding or building works may appear in your photo, and parts of the grounds can be closed or limited, especially in winter. Check current access before you go.",
+   "description": "Saint Joseph's Oratory is the big copper-domed church that sits on the Westmount Summit of Mount Royal, and it is the highest building in Montreal and can be seen from many kilometres away. It is a Roman Catholic basilica and national shrine, and it is Canada's largest church. Brother André founded it in 1904, starting with a tiny chapel. The basilica grew in stages over the following decades, and the large dome, modelled on Florence Cathedral, was finished in 1941. The Oratory rises more than 30 metres above the summit of Mount Royal, so the dome stands out against the sky.\n\nIt photographs well because the building comes with its own composition: a long central stairway, an open grassy axis and trees on either side all lead the eye up to the dome. From here the whole facade and the stairs fit into one frame. If you have time for a second shot, the Jardin du Chemin de la Croix shows the dome rising above flower beds and tall trees.\n\nThe dome and lantern have been under renovation, so scaffolding or building works may appear in your photo, and parts of the grounds can be closed or limited, especially in winter. Check current access before you go.",
    "geographic_location": "The Oratory is at 3800 Queen Mary Road in the Côte-des-Neiges neighbourhood, on the Westmount Summit of Mount Royal in Montreal.",
-   "directions_text": "The nearest station is Côte-des-Neiges Métro station on the Métro Blue line. The Oratory is about 670 m from there, to the south-east. Snowdon Métro station (Métro Blue line and Orange line) is a little further, about 1.1 km away, with the Oratory to the north-east. Once you reach the grounds, head for Chemin Queen-Mary and the foot of the main central stairway. The phone icon on the map is about 260 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest station is Côte-des-Neiges Métro station on the Métro Blue line. The Oratory is about 670 m from there, to the south-east. Snowdon Métro station (Métro Blue line and Orange line) is a little further, about 1.1 km away, with the Oratory to the north-east. Once you reach the grounds, head for Chemin Queen-Mary and the foot of the main central stairway. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole dome and the long stairway into one frame. Switch to the default lens (1x) for a calmer, less stretched view, and to telephoto (2x-5x, depending on your phone) for details of the dome.",
-    "where_to_stand": "Stand about 260 m north-west of the subject, on Chemin Queen-Mary (the phone icon on the map), and face south-east. The Oratory is to the south-east of this point. From there you look up the open grassy axis and see the full copper dome and the stairs, framed by the trees and garden beds on either side.",
+    "where_to_stand": "Stand on Chemin Queen-Mary (opposite the foot of the main central stairway, looking up the sacred axis toward the basilica). The full copper dome and the long central stairway rising toward the basilica, framed by the flanking trees and garden beds. The Oratory is to the south-east of this point. From there you look up the open grassy axis and see the full copper dome and the stairs, framed by the trees and garden beds on either side.",
     "how_to_frame": "Turn on the gridlines and put the stairway on the centre line so it leads straight up to the dome. Keep the phone level so the building doesn't lean. Let the trees and garden beds frame the sides. For a different view, try the Jardin du Chemin de la Croix, where the dome rises above the flower beds.",
     "phone_settings_tip": "Tap the dome to focus, then lower the exposure slider a little so the sky stays blue and the copper keeps its colour. Take one wide shot and one telephoto shot, and check the edges for scaffolding or cranes.",
     "best_time": "Go in daylight and clear weather, when the dome stands out against the sky. Early morning is likely to be quieter on the stairs."
@@ -390,15 +397,16 @@
   "name": "Montreal Biosphere",
   "in_cut": true,
   "label": "Biosphere",
-  "camera_pill": "Passerelle du Cosmos",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 4280,
   "pin": [
    -73.5314326,
    45.5140963
   ],
   "camera": [
-   -73.530618,
-   45.512971
+   -73.5314326,
+   45.5140963
   ],
   "camera_source": "Researched viewpoint 'Passerelle du Cosmos' (3 web pages); placed at OpenStreetMap 'Passerelle du Cosmos' (way/439916153): point nearest the subject (205 m long).",
   "pin_note": "Position from OpenStreetMap way/26288030: the middle of the OpenStreetMap outline 'Biosphere' (107 m across).",
@@ -406,10 +414,10 @@
   "text": {
    "description": "The Montreal Biosphere is a huge steel-lattice dome on Saint Helen's Island, in Parc Jean-Drapeau. It began as the United States pavilion at Expo 67, and Buckminster Fuller designed the dome. It was about 76 metres across and 62 metres high, and it still reads clearly as a giant ball made of triangles. In 1976 a fire burned away its acrylic skin, leaving only the steel frame you see today. Since 1995 it has housed a museum about the environment, and it sometimes lights up in colours on special occasions.\n\nIt photographs well because the shape is so graphic. A phone can pick out the pattern of the lattice, and the water and greenery around the dome give it a clean setting. The front lawn is the obvious place to shoot from, but it can be busy. A calmer alternative is the Passerelle du Cosmos, the footbridge over the Lemoyne channel, where you can frame the dome across the water. On some shots the Tour de Lévis fits into the same picture. Take a few frames at different distances: one wide shot with plenty of sky and water, and one closer, tighter shot of the lattice pattern. Keep the phone level so the lines of the bridge and shoreline stay straight.",
    "geographic_location": "The Biosphere is on Saint Helen's Island (Île Sainte-Hélène) in Parc Jean-Drapeau, in the St. Lawrence River, in the middle of the park's lawns and paths. The Lemoyne channel separates this island from Île Notre-Dame.",
-   "directions_text": "Take the Métro Yellow line to Jean-Drapeau station. The Biosphere is about 230 m to the north-east of the station. If you want a different view, the Passerelle du Cosmos over the Lemoyne channel is a separate alternative viewpoint. Check the map as you go, because the park's paths wind about. The phone icon on the map is about 100 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the Métro Yellow line to Jean-Drapeau station. The Biosphere is about 230 m to the north-east of the station. If you want a different view, the Passerelle du Cosmos over the Lemoyne channel is a separate alternative viewpoint. Check the map as you go, because the park's paths wind about. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to show the whole dome. If you want the dome and the Tour de Lévis together, try 2x or 3x if your phone has it. Use the ultra-wide (0.5x) only if you go close to the dome itself, and keep the dome central so the edges do not stretch.",
-    "where_to_stand": "Stand about 100 m south-east of the subject, on Passerelle du Cosmos (the phone icon on the map), and face north-west. On some shots the Tour de Lévis may fit into the same frame. For a quieter alternative, try the Passerelle du Cosmos, the footbridge over the Lemoyne channel between Île Sainte-Hélène and Île Notre-Dame; keep to the footway and stay clear of any traffic.",
+    "where_to_stand": "Stand on Passerelle du Cosmos (the footbridge over the Lemoyne channel between Île Sainte-Hélène and Île Notre-Dame). The dome seen across the water, with the Tour de Lévis in the same frame on some shots. On some shots the Tour de Lévis may fit into the same frame. For a quieter alternative, try the Passerelle du Cosmos, the footbridge over the Lemoyne channel between Île Sainte-Hélène and Île Notre-Dame; keep to the footway and stay clear of any traffic.",
     "how_to_frame": "Put the dome in the middle or slightly to one side, and leave some sky above it and water below. Switch on the gridlines to keep the horizon straight. For a different view, the Biosphere's front lawn shows the full lattice against the sky, with the park's green lawns and the nearby St. Lawrence River around it.",
     "phone_settings_tip": "Tap the dome to focus, then drag the exposure slider down a little so the sky does not wash out the steel. If you shoot after dark when the dome is lit, hold the phone steady with both hands, or brace it against a solid surface, and let night mode do its work.",
     "best_time": "Daytime gives clear views of the lattice. The dome is sometimes lit up on special occasions, so evening may suit you for night shots; there is no set schedule, so do not rely on it."
@@ -446,26 +454,27 @@
   "name": "Bonsecours Market",
   "in_cut": true,
   "label": "Bonsecours Market",
-  "camera_pill": "Quai Jacques-Cartier",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2105,
   "pin": [
    -73.5515527,
    45.5089674
   ],
   "camera": [
-   -73.548798,
-   45.507351
+   -73.5515527,
+   45.5089674
   ],
   "camera_source": "Researched viewpoint 'Quai Jacques-Cartier' (3 web pages); placed at OpenStreetMap 'Quai Jacques-Cartier' (way/677248943): middle (377 m across); moved 5 m off buildings.",
   "pin_note": "Position from OpenStreetMap way/87389029: the middle of the OpenStreetMap outline 'Bonsecours Market' (177 m across).",
   "notes": "",
   "text": {
-   "description": "Bonsecours Market is a long, two-storey Neo-Classical building topped with a silver dome, standing in Old Montreal at 350 Rue Saint-Paul. It opened in 1847 and was designed by the British architect William Footner. For more than a century it was the city's main public market. It also housed Montreal City Hall from 1852 to 1878, and it briefly hosted the Parliament of United Canada in 1849. It became a National Historic Site of Canada in 1984. Today it holds shops, cafés and event rooms.\n\nIt photographs well because the building is long, symmetrical and easy to read, and the dome gives the skyline a clear focal point. The classic view is from the Old Port side, where the building faces the water. From the phone icon on the map, on Quai Jacques-Cartier, you look back across the waterfront promenade to the dome and the long facade, with the river in the foreground. For a different feel, walk up to rue Saint-Paul. There the columned north facade and the dome are framed by old stone buildings. Keep your phone level so the long roofline stays straight. Try one wide shot with the river and sky, then a tighter shot of the dome.",
+   "description": "Bonsecours Market is a long, two-storey Neo-Classical building topped with a silver dome, standing in Old Montreal at 350 Rue Saint-Paul. It opened in 1847 and was designed by the British architect William Footner. For more than a century it was the city's main public market. It also housed Montreal City Hall from 1852 to 1878, and it briefly hosted the Parliament of United Canada in 1849. It became a National Historic Site of Canada in 1984. Today it holds shops, cafés and event rooms.\n\nIt photographs well because the building is long, symmetrical and easy to read, and the dome gives the skyline a clear focal point. The classic view is from the Old Port side, where the building faces the water. For a different feel, walk up to rue Saint-Paul. There the columned north facade and the dome are framed by old stone buildings. Keep your phone level so the long roofline stays straight. Try one wide shot with the river and sky, then a tighter shot of the dome.",
    "geographic_location": "Bonsecours Market is on Rue Saint-Paul in Old Montreal, on the city side of the Old Port. The waterfront viewpoint is just to the south-east of the building.",
-   "directions_text": "From Champ-de-Mars Métro station (Métro Orange line), the market is to the east, about 6 minutes on foot. Place-d'Armes Métro station (Métro Orange line) is another option, with the market to the north-east. To reach the phone icon on the map, walk south-east from the market towards the Old Port waterfront and Quai Jacques-Cartier, about 5 minutes on foot. The phone icon on the map is about 250 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Champ-de-Mars Métro station (Métro Orange line), the market is to the east, about 6 minutes on foot. Place-d'Armes Métro station (Métro Orange line) is another option, with the market to the north-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) for the main view from the quay. Switch to the telephoto lens (2x-3x, depending on your phone) to isolate the dome. Use the ultra-wide (0.5x) only on rue Saint-Paul, where you are close to the building.",
-    "where_to_stand": "Stand about 250 m south-east of the subject, on Quai Jacques-Cartier (the phone icon on the map), and face north-west. On the Old Port waterfront, and look back towards the market. From here you see the silver dome and the long Neo-Classical facade rising behind the promenade, with the river in the foreground.",
+    "where_to_stand": "Stand on Quai Jacques-Cartier (Old Port waterfront, looking back toward the market). The silver dome and long Neo-Classical facade rising behind the waterfront promenade, with the river in the foreground. On the Old Port waterfront, and look back towards the market. From here you see the silver dome and the long Neo-Classical facade rising behind the promenade, with the river in the foreground.",
     "how_to_frame": "Turn on gridlines and place the facade along the lower third of the frame, so the dome and sky have room above. Keep the phone level so the roofline stays straight. Include some water or promenade in front for depth. As an alternative, rue Saint-Paul shows the columned north facade and the dome head-on, framed by the old stone buildings around it.",
     "phone_settings_tip": "Tap the dome to set focus, then slide the exposure down a little so the bright metal keeps its detail against the sky. If the light is fading, hold the phone steady against your body or a railing and let night mode do its work.",
     "best_time": "Sunset, when low light falls on the dome, according to one visitor guide."
@@ -501,15 +510,16 @@
   "name": "Chinatown gate",
   "in_cut": true,
   "label": "Chinatown",
-  "camera_pill": "near Rue Clark",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2035,
   "pin": [
    -73.5608,
    45.50759
   ],
   "camera": [
-   -73.561457,
-   45.508674
+   -73.5608,
+   45.50759
   ],
   "camera_source": "Researched viewpoint 'Boulevard Saint-Laurent' (3 web pages); placed at crossing of Boulevard Saint-Laurent and Boulevard René-Lévesque (our map tiles).",
   "pin_note": "Position from Wikidata Q175067: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -517,10 +527,10 @@
   "text": {
    "description": "Chinatown's paifang are the ceremonial gateways that mark the edges of the neighbourhood. This one is the north gate on Boulevard Saint-Laurent, painted red and gold and guarded at its base by a pair of lions. It photographs well because the street runs straight towards it, so you get a clean, symmetrical view with the gate filling the middle of the frame and the city around it.\n\nMontreal has four paifang, more than any other Chinatown in Canada. Chinatown itself took its name in 1902, and it centres on De la Gauchetière Street, between René-Lévesque Boulevard and Viger Avenue. The part of De la Gauchetière that runs through the neighbourhood is pedestrian-only, and on some summer weekends it turns into a lively outdoor fair. In 2022 it was announced that the neighbourhood would receive heritage status from the province.\n\nFor your photo, stand on Saint-Laurent just south of René-Lévesque and look north along the street. Keep the phone level so the gate's roofline stays straight, and let the lions sit in the lower part of the frame. If you have time, walk into De la Gauchetière for a second shot: the western arch looks good down the pedestrian street, with shopfronts and lanterns leading towards it. The southern gate, at the Viger end of Saint-Laurent, also has guardian lions. Check the street signs when you arrive, so you know which gate you are standing at.",
    "geographic_location": "In central Montreal, in Chinatown (Quartier chinois), on Boulevard Saint-Laurent just south of René-Lévesque Boulevard. It sits close to Place-d'Armes and the pedestrian stretch of De la Gauchetière Street.",
-   "directions_text": "Start at Place-d'Armes Métro station (Métro Orange line) and head north-west; the Chinatown gate is about 3 minutes on foot. From Champ-de-Mars Métro station (also Métro Orange line), head south-west; it is a short walk of a few minutes (440 m). The phone icon on the map is on Boulevard Saint-Laurent just south of René-Lévesque, so follow the street signs towards the red-and-gold gate. The phone icon on the map is about 130 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Place-d'Armes Métro station (Métro Orange line) and head north-west; the Chinatown gate is about 3 minutes on foot. From Champ-de-Mars Métro station (also Métro Orange line), head south-west; it is a short walk of a few minutes (440 m). The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the straight-on view of the gate. Switch to the ultra-wide (0.5x) if you want more of the street and the buildings either side. The telephoto (2x or more) is good for the lions and the gate's decoration.",
-    "where_to_stand": "Stand about 130 m north-west of the subject, at the corner of Boulevard Saint-Laurent and Boulevard René-Lévesque (the phone icon on the map), and face south-east. From here you see the red-and-gold gate head-on, with the guardian lions at its base and the street leading towards it. The heart of Chinatown and De la Gauchetière Street lie to the south-east.",
+    "where_to_stand": "Stand at the corner of Boulevard Saint-Laurent and Boulevard René-Lévesque (shoot from Saint-Laurent just south of René-Lévesque, looking north at the paifang). The ornate red-and-gold north paifang framed head-on along Saint-Laurent, with the guardian lions at its base and the street running toward it. From here you see the red-and-gold gate head-on, with the guardian lions at its base and the street leading towards it. The heart of Chinatown and De la Gauchetière Street lie to the south-east.",
     "how_to_frame": "Turn on the gridlines and put the gate's centre on the middle vertical line so it looks balanced. Keep the phone upright and level to avoid leaning verticals. Include a little of the street in the lower part of the frame to give a sense of depth. For a different angle, try the western arch down De la Gauchetière Street.",
     "phone_settings_tip": "Tap the gate to focus, then lower the exposure slider slightly so the red and gold stay rich against a bright sky. If you shoot in the evening, use night mode and hold the phone steady against a lamp post or your own body.",
     "best_time": "Daytime gives the clearest view of the colours and details. Early in the day is likely to be quieter on the street, and the pedestrian street can be busy on summer weekends."
@@ -559,15 +569,16 @@
   "name": "Place Jacques-Cartier",
   "in_cut": true,
   "label": "Place Jacques-Cartier",
-  "camera_pill": "rue de la Commune",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1610,
   "pin": [
    -73.5530196,
    45.5078526
   ],
   "camera": [
-   -73.551943,
-   45.507578
+   -73.5530196,
+   45.5078526
   ],
   "camera_source": "Researched viewpoint 'rue de la Commune' (1 web pages); placed at the stretch of rue de la Commune nearest the subject (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/87148492: the middle of the OpenStreetMap outline 'Place Jacques-Cartier' (175 m across).",
@@ -575,10 +586,10 @@
   "text": {
    "description": "Place Jacques-Cartier is the long, sloping square at the heart of Old Montreal, running downhill from Montreal City Hall and rue Notre-Dame to the Old Port. The ground was once the formal gardens of the Château Vaudreuil, built in 1723. After the château burned down in 1803 the space became a public market square, and in 1847 it was renamed for the explorer Jacques Cartier. At the top stands Nelson's Column, raised in 1809 as Montreal's oldest public monument. The column on show now is a copy, because the original was taken away in 1997 to protect it from the weather.\n\nIt photographs well because the slope lets you see the whole scene at once. Café terraces, flower baskets, street artists and strolling visitors fill the foreground, and the 19th-century City Hall spire rises behind them. In summer the square is car-free, so you can frame the crowd without traffic in the way. Around Christmas the street is lined with lighted trees, which gives a different look.\n\nThe best-known view is from the bottom of the square, looking up the hill. For a second angle, try the top end on rue Notre-Dame and shoot downhill across the paved square towards the Old Port, with the old stone buildings framing each side. Take a few shots with people in them and a few without, as the square changes a lot from hour to hour.",
    "geographic_location": "Place Jacques-Cartier is in Old Montreal (Vieux-Montréal), on the slope between Montreal City Hall and rue Notre-Dame at the top and rue de la Commune beside the Old Port at the bottom.",
-   "directions_text": "From Champ-de-Mars Métro station (Orange line), walk about 360 m south-east to reach the square. From Place-d'Armes Métro station (Orange line), walk about 560 m east. Once there, head down the slope to rue de la Commune and turn round to face the square. The phone icon on the map is about 10 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Champ-de-Mars Métro station (Orange line), walk about 360 m south-east to reach the square. From Place-d'Armes Métro station (Orange line), walk about 560 m east. Once there, head down the slope to rue de la Commune and turn round to face the square. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole slope with the spire at the top. Switch to the ultra-wide (0.5x) if the terraces and crowd fill your view and you want more of the street. Try telephoto (2x-5x, depending on your phone) to pull the City Hall spire closer to the people in front of it.",
-    "where_to_stand": "Stand about 10 m east of the subject, on rue de la Commune (the phone icon on the map), and face west. Face north, up the square, so the street rises away from you towards City Hall and its spire.",
+    "where_to_stand": "Stand on rue de la Commune (stand on the Old Port side, facing north up the square). The square sloping up from the river toward City Hall, with the 19th-century City Hall spire rising in the background. Face north, up the square, so the street rises away from you towards City Hall and its spire.",
     "how_to_frame": "Use the gridlines to keep the buildings upright, and place the spire near a vertical line with the crowd and terraces below it. Let the sides of the square lead the eye uphill. For a different view, the top of the square on rue Notre-Dame gives a downhill shot towards the Old Port.",
     "phone_settings_tip": "Tap on the people or terraces to set focus, then slide the exposure down a little if the sky is bright so the spire keeps its detail. Take a quick Live Photo or a few frames in a row, so you can pick the one with the best spacing between passers-by.",
     "best_time": "Choose daytime in summer, when the square is car-free and the terraces and street artists are out. For fewer people in the frame, go earlier in the day. At Christmas, the lighted trees look best at dusk, when you can try night mode, holding the phone steady against a wall or railing."
@@ -616,15 +627,16 @@
   "name": "Mary, Queen of the World Cathedral",
   "in_cut": true,
   "label": "Mary Queen of the World",
-  "camera_pill": "Dorchester Square",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1400,
   "pin": [
    -73.5688518,
    45.4994197
   ],
   "camera": [
-   -73.570894,
-   45.499578
+   -73.5688518,
+   45.4994197
   ],
   "camera_source": "Researched viewpoint 'Dorchester Square' (3 web pages); placed at OpenStreetMap 'Square Dorchester' (way/21260050): middle (210 m across).",
   "pin_note": "Position from OpenStreetMap node/12717551093: the OpenStreetMap point 'Cathedral Basilica of Mary Queen of the World and Saint James'.",
@@ -632,10 +644,10 @@
   "text": {
    "description": "Mary, Queen of the World Cathedral is a large domed church right in the middle of downtown Montreal, and it looks unlike most of its glass-and-concrete neighbours. Bishop Ignace Bourget chose to base it on a scaled-down version of St Peter's Basilica in Rome, and the copper-green dome and columned front are the reason it photographs so well. The building is 101 m long and 46 m wide, and the dome reaches 77 m at its highest point. Work began in 1875 and the church was consecrated in 1894, first under the name of Saint James. It became a minor basilica in 1919, took its present name in 1955, and was named a National Historic Site of Canada in 2000. For a phone photo, the open green space of Dorchester Square gives a clear gap in front of the building, so you can fit the facade and dome in one frame without too much clutter. The tall modern towers close by can make the cathedral look smaller than it is, so choose an angle that keeps them to the edges. Take a wide shot first, then a closer one of the dome and the columns. Repair work has been done on the front steps and entrance porch in recent years, so the view of the front may look different from older pictures.",
    "geographic_location": "It stands in downtown Montreal at the corner of René-Lévesque Boulevard and Metcalfe Street, on Cathedral Street. It faces Dorchester Square and forms the eastern edge of Place du Canada, close to Central Station.",
-   "directions_text": "The nearest Métro station is Bonaventure on the Orange line, about 3 minutes on foot, with the cathedral to the north-west. From Peel on the Métro Green line, walk east for about 8 minutes. Dorchester Square is the green space across from the cathedral on its south-west side. The phone icon on the map is about 160 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest Métro station is Bonaventure on the Orange line, about 3 minutes on foot, with the cathedral to the north-west. From Peel on the Métro Green line, walk east for about 8 minutes. Dorchester Square is the green space across from the cathedral on its south-west side. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole facade and dome into one frame, then switch to the default lens (1x) for a more natural look. Use telephoto (2x-5x, depending on your phone) for the dome and the columns.",
-    "where_to_stand": "Stand about 160 m west of the subject, in Dorchester Square (the phone icon on the map), and face east. The cathedral lies to the east, across the green space of the square. From here your photo shows the main facade and dome, framed by the open lawn in front.",
+    "where_to_stand": "Stand in Dorchester Square (across from the cathedral, on its south-west side). The cathedral's main facade and dome, framed across the square's green space. The cathedral lies to the east, across the green space of the square. From here your photo shows the main facade and dome, framed by the open lawn in front.",
     "how_to_frame": "Turn on the gridlines and put the dome roughly on a vertical line, with the facade level against the horizontal lines. Let the green of the square fill the bottom of the frame and keep the nearby towers to the edges. For a different view, try Place du Canada, which shows the main dome with the two smaller domes beside it, or Rue de la Cathédrale for a closer, street-level frame.",
     "phone_settings_tip": "Tap on the facade to set focus, then drag the exposure slider down a little if the sky is washing out. Hold the phone upright to keep the walls from leaning, and wipe the lens before you shoot.",
     "best_time": "Soft morning or late-afternoon light is usually kinder to the stonework than midday sun. In the evening you can try night mode, but keep the phone steady against something solid."
@@ -671,15 +683,16 @@
   "name": "La Grande Roue de Montréal",
   "in_cut": true,
   "label": "La Grande Roue",
-  "camera_pill": "rue de la Commune Est",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1375,
   "pin": [
    -73.5486577,
    45.5084815
   ],
   "camera": [
-   -73.55106,
-   45.509149
+   -73.5486577,
+   45.5084815
   ],
   "camera_source": "Researched viewpoint 'rue de la Commune Est' (2 web pages); placed at the stretch of rue de la Commune Est nearest the subject (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/1097403710: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -687,10 +700,10 @@
   "text": {
    "description": "La Grande Roue de Montréal is a giant observation wheel on the edge of the Old Port, and it works well as a photo subject because the whole steel structure is easy to read against the sky. The spokes and cabins make a strong circular shape, and when the wheel is lit they add a bit of colour to the scene. The wheel sits at 362 rue de la Commune Est, so the street runs right beside it. The classic pictures are taken either from the Old Port quays or from the street below, looking up at the wheel. Tourism Montréal also points out the walkway leading up to the wheel as a good spot for photos.\n\nFor the classic look-up shot, walk to the foot of the wheel on rue de la Commune Est and tilt the phone up so the whole wheel rises above the road, with the spokes and cabins framed against the sky. If you have time, there are two other views worth a look. Bassin Bonsecours can give a reflection of the wheel in still water, with Bonsecours Market nearby, though the reflection pool is described as a summer feature. Quai Jacques-Cartier gives a wider panorama with the wheel, Old Montreal and the skyline behind it. The quays can be busy in summer, so be patient and wait for a gap in the crowd. Whether you can ride the wheel, and when it runs, may vary, so check the official site before you go.",
    "geographic_location": "In Montreal's Old Port, at the edge of Old Montreal, on rue de la Commune Est close to Bassin Bonsecours and Bonsecours Market.",
-   "directions_text": "The nearest station is Champ-de-Mars Métro station on the Métro Orange line. It is about 630 m away, so walk east towards the Old Port; allow roughly 10 minutes. Place-d'Armes Métro station, also on the Métro Orange line, is about 900 m away, again to the east. Once you reach rue de la Commune Est, the wheel is hard to miss. The phone icon on the map is about 190 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest station is Champ-de-Mars Métro station on the Métro Orange line. It is about 630 m away, so walk east towards the Old Port; allow roughly 10 minutes. Place-d'Armes Métro station, also on the Métro Orange line, is about 900 m away, again to the east. Once you reach rue de la Commune Est, the wheel is hard to miss. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) if you are close, so the full wheel fits in the frame. Step back and use the default lens (1x) for a more natural look. If you are on a quay, a 2x-5x telephoto will pick out the cabins and spokes.",
-    "where_to_stand": "Stand about 190 m west of the subject, on rue de la Commune Est (the phone icon on the map), and face east. For the classic look-up shot, walk to the foot of the wheel on rue de la Commune Est, with the spokes and cabins framed against the sky. For a different view, try Bassin Bonsecours for a reflection of the wheel in the water, or Quai Jacques-Cartier for a wider panorama with Old Montreal and the skyline behind it.",
+    "where_to_stand": "Stand on rue de la Commune Est (at the foot of the wheel, looking up from the street below). The full steel structure of the wheel rising above the street, with the lit spokes and cabins framed against the sky. For the classic look-up shot, walk to the foot of the wheel on rue de la Commune Est, with the spokes and cabins framed against the sky. For a different view, try Bassin Bonsecours for a reflection of the wheel in the water, or Quai Jacques-Cartier for a wider panorama with Old Montreal and the skyline behind it.",
     "how_to_frame": "Switch on gridlines and hold the phone as level as you can, so the street doesn't tilt in the frame. Tilt up gently and keep the wheel centred, leaving a little sky around the rim. If a tall wheel looks distorted when you tilt, step back a few paces and use 1x instead. Use the ultra-wide only when you cannot move further away.",
     "phone_settings_tip": "Tap on the spokes to set focus, then slide the exposure down a little so the sky stays rich and the metal doesn't wash out. In the evening, try night mode on the lit wheel, and rest your elbows on something steady to avoid blur.",
     "best_time": "Late afternoon, when golden light catches the metal spokes. After dark the lights also look good, but check the official site first, since night shots depend on when the wheel is operating."
@@ -726,15 +739,16 @@
   "name": "Lachine Canal",
   "in_cut": true,
   "label": "Lachine Canal",
-  "camera_pill": "Woonerf Saint-Pierre",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1300,
   "pin": [
    -73.6116667,
    45.4583333
   ],
   "camera": [
-   -73.593579,
-   45.467915
+   -73.6116667,
+   45.4583333
   ],
   "camera_source": "Researched viewpoint 'Terrasse Saint-Ambroise' (1 web pages); placed at our map tiles: 'de la Côte-Saint-Paul / Saint-Ambroise' (pois).",
   "pin_note": "Position from OpenStreetMap relation/1741066: large area 'Lachine Canal' (11908 m across): previous pin kept, it lies inside.",
@@ -742,10 +756,10 @@
   "text": {
    "description": "The Lachine Canal is a long waterway that cuts through the south-west of the Island of Montreal. It runs 14.5 kilometres from the Old Port to Lake Saint-Louis, through Lachine, LaSalle and the Sud-Ouest. Work began on 17 July 1821 and the canal opened in 1825. It was dug to bypass the Lachine Rapids, which had forced people and goods to make a long portage. In the 1840s it was deepened and factories lined its banks, which is why you now see old industrial buildings beside calm water. For photographs, the best-known view is from Terrasse Saint-Ambroise in Saint-Henri. From there you look across the water to the tall silos of the former Canada Malting plant, with the small pink house sitting on top of them. The canal water forms the foreground of the picture. Two other viewpoints are worth knowing: The Decko, which has red Adirondack chairs and the Farine Five Roses sign, and Place des Bassins, a green-space view toward the former Redpath sugar plant. The Canada Malting site is reported to be structurally unsafe. A controlled demolition of the front section is planned, though the pink house itself is meant to be kept, and part of Rue Saint-Ambroise has been closed. Check current access before you go, and keep to open, public spots.",
    "geographic_location": "The canal crosses the south-west of Montreal, from the Old Port through the Sud-Ouest and LaSalle to Lachine. The photo spot described here, Terrasse Saint-Ambroise, is beside the canal in the Saint-Henri area.",
-   "directions_text": "The nearest Métro stations to the canal are Angrignon and Monk, both on the Métro Green line. They are about 1.5 km (Angrignon) and about 1.6 km (Monk) from the canal, in a straight line. The phone icon on the map is along the canal. Terrasse Saint-Ambroise is the viewpoint in Saint-Henri, which lies along the canal towards the Old Port. Check current access around Rue Saint-Ambroise before you set off. The phone icon on the map is about 1.8 km north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest Métro stations to the canal are Angrignon and Monk, both on the Métro Green line. They are about 1.5 km (Angrignon) and about 1.6 km (Monk) from the canal, in a straight line. Terrasse Saint-Ambroise is the viewpoint in Saint-Henri, which lies along the canal towards the Old Port. Check current access around Rue Saint-Ambroise before you set off. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the canal, the silos and the pink house together. Then try telephoto (2x or more, depending on your phone) to pick out the pink house on top of the silos. Use ultra-wide (0.5x) only if you want a lot of sky and water, and keep the silos away from the edges of the frame because the corners can stretch.",
-    "where_to_stand": "Stand about 1.8 km north-east of the subject, on Terrasse Saint-Ambroise (the phone icon on the map), and face south-west. Beside the canal in Saint-Henri. From the edge of the terrace you look straight across the water to the old Canada Malting silos with the small pink house on top. It is a bar terrace, so you do not need to buy anything to look from the edge.",
+    "where_to_stand": "Stand on Terrasse Saint-Ambroise (beside the canal in Saint-Henri). The canal with the industrial silos of the former Canada Malting plant and the small pink house on top of them. Beside the canal in Saint-Henri. From the edge of the terrace you look straight across the water to the old Canada Malting silos with the small pink house on top. It is a bar terrace, so you do not need to buy anything to look from the edge.",
     "how_to_frame": "Turn on gridlines and put the waterline on the lower third, so the silos and pink house fill the upper part. Keep the pink house just off-centre so it reads clearly against the sky. For a different view, The Decko shows the canal basin with the Farine Five Roses sign and red chairs in the foreground. Place des Bassins looks across the water toward the former Redpath sugar plant.",
     "phone_settings_tip": "Tap on the pink house to focus, then drag the exposure slider down a little so the sky keeps its colour and the silos do not wash out. Take a Live Photo too, in case something moves on the water. Hold the phone with both hands and keep your elbows in.",
     "best_time": "Late afternoon is recommended, when the sunset light falls on the scene with the pink house in the background. If you stay after sunset, try night mode and brace your phone against a railing or your body."
@@ -779,15 +793,16 @@
   "name": "Montreal City Hall",
   "in_cut": true,
   "label": "City Hall",
-  "camera_pill": "Place Vauquelin",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1120,
   "pin": [
    -73.5541436,
    45.5088268
   ],
   "camera": [
-   -73.554709,
-   45.508404
+   -73.5541436,
+   45.5088268
   ],
   "camera_source": "Researched viewpoint 'Place Vauquelin' (3 web pages); placed at OpenStreetMap 'Place Vauquelin' (relation/1542744): middle (87 m across).",
   "pin_note": "Position from OpenStreetMap way/20919180: the middle of the OpenStreetMap outline 'Hôtel de Ville de Montréal' (103 m across).",
@@ -795,10 +810,10 @@
   "text": {
    "description": "Montreal City Hall is a five-storey building in the Second Empire style, with a steep mansard roof and a central tower. It was designed by Henri-Maurice Perrault and Alexander Cowper Hutchison and built between 1872 and 1878. A fire in March 1922 left only the outer walls standing. The inside was rebuilt as a new steel-framed building, and the roof was remodelled in a Beaux-Arts style with copper in place of slate. It reopened in 1926. In 1967 Charles de Gaulle gave his \"Vive le Québec libre\" speech from its balcony. It is a National Historic Site of Canada, designated in 1984.\n\nIt photographs well because the front is so ordered and symmetrical, and because the square next to it gives you room to step back. The classic picture is taken from Place Vauquelin: the fountain in the middle of the square, the City Hall facade behind it, and the square's trees framing the top of the shot. If you want something different, Place Jacques-Cartier shows the spire rising above the streetscape from the south end. The park behind the building, Parc du Champ-de-Mars, shows the rear with its terrace and extension.\n\nThe facade has been under restoration, listed as running from 2017 to 2024, and it may be partly scaffolded, so check current conditions before you go. Weekday mornings and golden hour are the times most often recommended for fewer people.",
    "geographic_location": "In Old Montreal, on Notre-Dame Street East, between Place Jacques-Cartier and the Champ-de-Mars park. Place Vauquelin is the square next to City Hall.",
-   "directions_text": "The nearest stop is Champ-de-Mars Métro station on the Métro Orange line, about 3 minutes on foot, with City Hall to the south-east. You can also use Place-d'Armes Métro station on the Métro Orange line, about 7 minutes on foot, heading north-east. Walk to Place Vauquelin, the square next to the building, and go to the top of its stairs by the fountain. The phone icon on the map is about 25 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stop is Champ-de-Mars Métro station on the Métro Orange line, about 3 minutes on foot, with City Hall to the south-east. You can also use Place-d'Armes Métro station on the Métro Orange line, about 7 minutes on foot, heading north-east. Walk to Place Vauquelin, the square next to the building, and go to the top of its stairs by the fountain. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the fountain-and-facade view. Switch to ultra-wide (0.5x) only if trees or scaffolding force you to stand too close. Use telephoto (2x-5x, depending on your phone) for the spire from Place Jacques-Cartier or for details of the roof.",
-    "where_to_stand": "Stand about 25 m south-west of the subject, in Place Vauquelin (the phone icon on the map), and face north-east. At the top of the stairs in front of the fountain. Your photo shows the fountain in the middle of the square with the City Hall facade behind it, framed by the trees.",
+    "where_to_stand": "Stand in Place Vauquelin (top of the stairs, in front of the fountain). The fountain in the middle of the square with the City Hall facade behind it, framed by the square's trees. At the top of the stairs in front of the fountain. Your photo shows the fountain in the middle of the square with the City Hall facade behind it, framed by the trees.",
     "how_to_frame": "Switch on gridlines and put the fountain on the lower third, with the central tower on the middle vertical line, so the symmetrical facade stays straight. Keep your phone level so the building does not lean. For a second option, walk to the south end of Place Jacques-Cartier and zoom in on the spire above the rooftops, or go round to Parc du Champ-de-Mars for the rear of the building with its terrace.",
     "phone_settings_tip": "Tap the facade to focus, then drag the exposure slider down a little so the sky does not wash out and the stonework keeps its detail. If the fountain is running, a Live Photo can catch the movement of the water.",
     "best_time": "Weekday mornings are said to be quieter, and golden hour is often recommended. Check whether the facade is still scaffolded before you plan the visit."
@@ -834,15 +849,16 @@
   "name": "Rue Saint-Paul",
   "in_cut": true,
   "label": "Rue Saint-Paul",
-  "camera_pill": "near Rue Bonsecours",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1005,
   "pin": [
    -73.551923,
    45.5087482
   ],
   "camera": [
-   -73.551447,
-   45.509751
+   -73.551923,
+   45.5087482
   ],
   "camera_source": "Researched viewpoint 'Rue Saint-Paul' (2 web pages); placed at crossing of Rue Saint-Paul and Rue Bonsecours (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/4320487: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -850,10 +866,10 @@
   "text": {
    "description": "Rue Saint-Paul is a cobbled street lined with older stone buildings, and the corner with Rue Bonsecours is a good place to see it at its best. Looking west from here, the street leads the eye straight to the dome of Marché Bonsecours. The dome catches the sun while the narrow street stays in shade, and that contrast is what makes the picture work. The stone facades on either side act as a natural frame, so the shot needs little fixing. Photographers and walking guides single this corner out as a photo stop.\n\nThe street is busy and partly open to vehicles. A 2008 plan to make it car-free was dropped, so expect some traffic, and keep an eye on it while you line up your shot. Weekends are crowded, and early morning is the usual advice for a clearer view.\n\nWalk to the corner, keep the dome in the middle of the frame and let the cobbles run into the foreground. If you want a second angle, Rue Saint-Amable shows the cobblestone textures and the shopfronts where Rue Saint-Paul meets the side street. Look for the cobbles, the shopfronts and the older stone walls, which all add to the sense of an old street. Take a few frames with and without people in them, as passers-by can add scale.",
    "geographic_location": "Rue Saint-Paul is in Montreal's historic district, and the view is from the corner with Rue Bonsecours, close to Marché Bonsecours.",
-   "directions_text": "Take the Métro Orange line to Champ-de-Mars Métro station; the street is to the south-east, about 380 m away. Place-d'Armes Métro station (also on the Orange line) is a little further away, to the south-west of the street. The shot is taken from the corner of Rue Saint-Paul and Rue Bonsecours, so head for that corner and face west. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the Métro Orange line to Champ-de-Mars Métro station; the street is to the south-east, about 380 m away. Place-d'Armes Métro station (also on the Orange line) is a little further away, to the south-west of the street. The shot is taken from the corner of Rue Saint-Paul and Rue Bonsecours, so head for that corner and face west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the street, the facades and the dome together. Switch to 2x telephoto if your phone has it, to bring the dome closer. The ultra-wide (0.5x) suits the shopfronts and cobbles, but it will make the dome look small.",
-    "where_to_stand": "Stand at the corner of Rue Saint-Paul and Rue Bonsecours, right in front of the subject: the phone icon on the map marks the spot. The shot is taken from the corner of Rue Saint-Paul and Rue Bonsecours looking west, so walk to that corner and face west. The cobbled street runs ahead towards the sunlit dome of Marché Bonsecours, with the older stone facades on either side. Stay on the pavement and watch for vehicles.",
+    "where_to_stand": "Stand at the corner of Rue Saint-Paul and Rue Bonsecours (corner of Saint-Paul and Bonsecours, looking west, with Marché Bonsecours on the south side). A view along the cobbled street toward the sunlit dome of Marché Bonsecours, with the street's older stone facades on either side. The shot is taken from the corner of Rue Saint-Paul and Rue Bonsecours looking west, so walk to that corner and face west. The cobbled street runs ahead towards the sunlit dome of Marché Bonsecours, with the older stone facades on either side. Stay on the pavement and watch for vehicles.",
     "how_to_frame": "Turn on the gridlines and put the dome on the centre line, with the street's edges leading towards it. Keep the phone level so the facades don't lean. For a different angle, try Rue Saint-Amable, where the cobblestones and shopfronts of Rue Saint-Paul are framed by the side street.",
     "phone_settings_tip": "Tap the bright dome to focus, then drag the exposure slider down a little so the sky and dome keep their detail and the shaded street does not turn too dark. Take a second shot tapping on the shaded street, and pick the one you prefer.",
     "best_time": "Early morning is the usual advice, because the street is quieter and you will have fewer people in the frame. Weekends are crowded."
@@ -878,26 +894,27 @@
   "name": "Mount Royal Cross",
   "in_cut": true,
   "label": "Mount Royal Cross",
-  "camera_pill": "Voie Camillien-Houde",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 820,
   "pin": [
    -73.5879016,
    45.5088387
   ],
   "camera": [
-   -73.592444,
-   45.510434
+   -73.5879016,
+   45.5088387
   ],
   "camera_source": "Researched viewpoint 'Belvédère Camillien-Houde' (2 web pages); placed at OpenStreetMap 'Belvédère Camillien-Houde' (way/410948563): middle (135 m across).",
   "pin_note": "Position from OpenStreetMap node/1330276952: the OpenStreetMap point 'Mount Royal Cross'.",
   "notes": "",
   "text": {
-   "description": "The Mount Royal Cross stands at the northeastern peak of Mount Royal and looks out over the eastern part of the Island of Montreal. It is a steel structure, 31.4 metres tall, with arms spanning 11 metres. It sits about 252 metres above the St. Lawrence River. The first cross on the mountain was raised in 1643 by Paul Chomedey de Maisonneuve, the founder of Ville-Marie. The present illuminated cross dates from 1924 and passed to the city in 1929. It is normally lit in white, but the LED lighting can change colour for special occasions. That makes it a good subject after dark as well as by day.\n\nFor this spot, the phone icon on the map is Belvédère Camillien-Houde, a quieter terrace reached by a short path just past the cross and then down the stairs. From here the view looks east toward the Olympic Stadium. Guides describe it as a calmer alternative to the busy main lookout. The cross is a short walk to the south-east, so treat this as a viewpoint for the eastern skyline. If you want the cross itself filling the frame against the sky, with the city beyond, walk over to the cross as well. Next to the cross, a plaque marks a time capsule buried in 1992, which makes a nice small detail shot. Take your photos, then check the park's current conditions before you set out.",
+   "description": "The Mount Royal Cross stands at the northeastern peak of Mount Royal and looks out over the eastern part of the Island of Montreal. It is a steel structure, 31.4 metres tall, with arms spanning 11 metres. It sits about 252 metres above the St. Lawrence River. The first cross on the mountain was raised in 1643 by Paul Chomedey de Maisonneuve, the founder of Ville-Marie. The present illuminated cross dates from 1924 and passed to the city in 1929. It is normally lit in white, but the LED lighting can change colour for special occasions. That makes it a good subject after dark as well as by day.\n\nFrom here the view looks east toward the Olympic Stadium. Guides describe it as a calmer alternative to the busy main lookout. The cross is a short walk to the south-east, so treat this as a viewpoint for the eastern skyline. If you want the cross itself filling the frame against the sky, with the city beyond, walk over to the cross as well. Next to the cross, a plaque marks a time capsule buried in 1992, which makes a nice small detail shot. Take your photos, then check the park's current conditions before you set out.",
    "geographic_location": "On the northeastern peak of Mount Royal, in the park above downtown Montreal. The viewpoint terrace is a short walk from the cross.",
-   "directions_text": "Take the Métro Green line to Peel Métro station or McGill Métro station. From either, the cross is to the north-west, roughly 1.4 km on foot, on top of Mount Royal. The phone icon on the map is about 400 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the Métro Green line to Peel Métro station or McGill Métro station. From either, the cross is to the north-west, roughly 1.4 km on foot, on top of Mount Royal. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the wide eastward view. Switch to telephoto (2x-5x, depending on your phone) to pick out the Olympic Stadium. Use ultra-wide (0.5x) only if you are close to the cross itself.",
-    "where_to_stand": "Stand about 400 m north-west of the subject, on Belvédère Camillien-Houde (the phone icon on the map), and face south-east. From here you look east toward the Olympic Stadium, with the cross a short walk away to the south-east. This is a quieter spot than the main lookout.",
+    "where_to_stand": "Stand on Belvédère Camillien-Houde (reached by a short path just past the cross, then down the stairs). A quieter eastward view toward the Olympic Stadium, with the cross nearby on the walk up; no source confirms the cross is framed from this spot. From here you look east toward the Olympic Stadium, with the cross a short walk away to the south-east. This is a quieter spot than the main lookout.",
     "how_to_frame": "Turn on gridlines and place the horizon on the upper or lower third line, so the sky or the city gets the space. Put the Olympic Stadium off-centre and keep any terrace edge or barrier out of the bottom of the frame. If you want the cross as the subject, walk back and shoot it from close in with ultra-wide (0.5x), holding the phone low and angled up so it stands tall against the sky.",
     "phone_settings_tip": "Tap on the stadium or skyline to focus, then drag the exposure slider down a little so the sky keeps its colour. After dark, use night mode, hold the phone as steady as you can by bracing your elbows against your body, and wait for the capture to finish.",
     "best_time": "If you want the lit cross, go around dusk or after dark, but check the park conditions first as the trails may be unlit."
@@ -933,15 +950,16 @@
   "name": "Jacques Cartier Bridge",
   "in_cut": true,
   "label": "Jacques Cartier Bridge",
-  "camera_pill": "Quai de l'Horloge",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 685,
   "pin": [
    -73.535,
    45.5208333
   ],
   "camera": [
-   -73.546733,
-   45.50964
+   -73.535,
+   45.5208333
   ],
   "camera_source": "Researched viewpoint 'Quai de l'Horloge' (3 web pages); placed at OpenStreetMap 'Quai de l'Horloge' (node/6341436246): point.",
   "pin_note": "Position from OpenStreetMap way/1208000499: large area 'Pont Jacques-Cartier' (2781 m across): previous pin kept, it lies inside.",
@@ -949,10 +967,10 @@
   "text": {
    "description": "The Jacques Cartier Bridge is a long steel truss cantilever bridge that carries traffic over the St Lawrence River from Montreal to Longueuil on the south shore. It steps across Île Sainte-Hélène halfway over. It opened in May 1930 as the Harbour Bridge and took its present name in 1934, 400 years after Jacques Cartier's first voyage up the river. Including the approach viaducts it is about 3.4 km long, so you will rarely fit all of it in one frame. It was nicknamed \"the crooked bridge\" because of the bends in its route. The bridge photographs best from a distance, where its criss-crossed steelwork reads as one long shape against the sky and water. The classic postcard angle is from Quai de l'Horloge in the Old Port, where the Clock Tower stands in the foreground and the bridge spans the river behind it. Go around sunset and stay a little after, as the bridge lights come on and the colours change from night to night. For something different, the island riverbank on Île Sainte-Hélène gives a close, almost full-height view of the steelwork. The Pont de la Concorde shows the bridge with the city skyline and Habitat 67 in the same frame. The bridge is far from the pier, so treat it as a backdrop and use the tower to give the picture a clear foreground.",
    "geographic_location": "The bridge leaves the east side of central Montreal, near the Old Port and the Pied-du-Courant area, and crosses the St Lawrence via Île Sainte-Hélène (Parc Jean-Drapeau) to Longueuil. The viewpoint, Quai de l'Horloge, is on the Old Port waterfront, with the bridge to its north-east.",
-   "directions_text": "For the Quai de l'Horloge viewpoint, head for the Old Port waterfront in Montreal and walk out along the pier to the Clock Tower. The bridge is to the north-east from there. If you would rather see it up close, Jean-Drapeau Métro station (Métro Yellow line) is about 945 m from the bridge, which lies to the north of the station. On the south shore, Longueuil–Université-de-Sherbrooke Métro station (Métro Yellow line) is about 1.1 km away, with the bridge to the south-west. The phone icon on the map is about 1.5 km south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "For the Quai de l'Horloge viewpoint, head for the Old Port waterfront in Montreal and walk out along the pier to the Clock Tower. The bridge is to the north-east from there. If you would rather see it up close, Jean-Drapeau Métro station (Métro Yellow line) is about 945 m from the bridge, which lies to the north of the station. On the south shore, Longueuil–Université-de-Sherbrooke Métro station (Métro Yellow line) is about 1.1 km away, with the bridge to the south-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) so the Clock Tower and the bridge both fit. Then try telephoto (2x or more, depending on your phone) to make the bridge look larger behind the tower. Use ultra-wide (0.5x) only if you want a lot of sky and water, as it makes the bridge look small and distant.",
-    "where_to_stand": "Stand about 1.5 km south-west of the subject, on Quai de l'Horloge (the phone icon on the map), and face north-east. From the pier you see the Clock Tower in the foreground with the Jacques Cartier Bridge spanning the river behind it. Place yourself so the tower sits slightly off-centre and the bridge runs across the background.",
+    "where_to_stand": "Stand on Quai de l'Horloge. The Clock Tower in the foreground with the Jacques Cartier Bridge spanning the river behind it. From the pier you see the Clock Tower in the foreground with the Jacques Cartier Bridge spanning the river behind it. Place yourself so the tower sits slightly off-centre and the bridge runs across the background.",
     "how_to_frame": "Turn on gridlines and put the tower on one third line and the bridge along the upper third. Keep the horizon level, as the long bridge makes any tilt obvious. For a different view, the island riverbank on Île Sainte-Hélène gives a close shot of the steelwork, and the Pont de la Concorde shows the bridge with the skyline and Habitat 67.",
     "phone_settings_tip": "Tap the bridge to set focus, then drag the exposure slider down a little at sunset so the sky keeps its colour. After dark, use night mode and brace your elbows against a rail or the ground, as it needs a few seconds of stillness to catch the lights.",
     "best_time": "Sunset and the period just after, when the bridge lights come on. Stay until the last light if you can, as the sky colour and the bridge lighting both change in those minutes."
@@ -991,15 +1009,16 @@
   "name": "Saint-Louis Square",
   "in_cut": true,
   "label": "Saint-Louis Square",
-  "camera_pill": "Square Saint-Louis",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 645,
   "pin": [
    -73.5699712,
    45.5169718
   ],
   "camera": [
-   -73.569825,
-   45.517117
+   -73.5699712,
+   45.5169718
   ],
   "camera_source": "Researched viewpoint 'Square Saint-Louis' (3 web pages); placed at OpenStreetMap 'Square Saint-Louis' (way/4889343): middle (232 m across).",
   "pin_note": "Position from OpenStreetMap way/4889343: the middle of the OpenStreetMap outline 'Square Saint-Louis' (233 m across).",
@@ -1007,10 +1026,10 @@
   "text": {
    "description": "Square Saint-Louis is a small, leafy park in the Plateau Mont Royal, and it is one of the easiest places in the city to get a good phone photo of Victorian Montreal. The cast-iron fountain in the middle is the centrepiece. It is one of the city's earliest public fountains, made by Jordan L. Mott, with two basins stacked one above the other. Around the park stand Victorian-style rowhouses, and behind the fountain they make a tidy, colourful backdrop with the trees. The square was created in 1876 on the site of the city's old reservoir, which went out of use in 1852, and it is named after the brothers Emmanuel and Jean-Baptiste Saint-Louis. There are also two small busts of writers (Octave Crémazie and Émile Nelligan) if you like details. For the classic picture, stand in the central fountain area and look across the park, so the fountain sits in front of the houses and the trees fill the sides of the frame. Keep the fountain slightly off-centre and let the paths lead the eye towards it. If you have time, walk to the edge of the square for a second shot of the rowhouses with the greenery along one side. A seasonal café in the gazebo is open roughly May to October, so it may not be there in winter. Summer brings mosquitoes, and weekends are busy, so early in the day is more relaxed.",
    "geographic_location": "Square Saint-Louis is in the Plateau Mont Royal district of Montreal. Its eastern edge fronts onto Saint Denis Street, and Victorian rowhouses face the park on its other sides.",
-   "directions_text": "Take the Métro Orange line to Sherbrooke and walk south-west for about 240 m (a few minutes on foot) to reach the square. Berri-UQAM (Métro Green line, Orange line and Yellow line) is also possible, but it is about 690 m away to the east of the square, so allow longer. Street names around the square are not always shown the same way, so check the north and west sides on the map before you go. The phone icon on the map is about 20 m north-east of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the Métro Orange line to Sherbrooke and walk south-west for about 240 m (a few minutes on foot) to reach the square. Berri-UQAM (Métro Green line, Orange line and Yellow line) is also possible, but it is about 690 m away to the east of the square, so allow longer. Street names around the square are not always shown the same way, so check the north and west sides on the map before you go. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the fountain framed by the houses. Switch to ultra-wide (0.5x) if you want the whole row of rowhouses and the trees in one shot. The telephoto (2x-5x, depending on your phone) is good for a tighter shot of the fountain's two basins.",
-    "where_to_stand": "Stand about 20 m north-east of the numbered pin, at the phone icon on the map, and face south-west. In the central fountain area, and look across the park. From here the photo shows the cast-iron fountain with the Victorian rowhouses and trees behind it.",
+    "where_to_stand": "Stand in Square Saint-Louis (central fountain area, looking across the park). The cast-iron fountain in the middle of the square, with the surrounding Victorian rowhouses and trees behind it. In the central fountain area, and look across the park. From here the photo shows the cast-iron fountain with the Victorian rowhouses and trees behind it.",
     "how_to_frame": "Turn on gridlines and place the fountain on one of the third lines, with the rowhouses along the upper part of the frame. Keep your phone level so the building fronts do not lean. For a second picture, walk to rue du Square-Saint-Louis for the brightly coloured rowhouses with the park's greenery at the edge, or go to avenue Laval for a view down the length of the park with the fountain in the distance.",
     "phone_settings_tip": "Tap the fountain to set focus, then drag the exposure slider down slightly so the sky and the water do not wash out. If the fountain is running, try a Live Photo to catch the movement of the water.",
     "best_time": "Early morning or golden hour gives softer light and fewer people. Autumn adds colour from the foliage."
@@ -1050,6 +1069,7 @@
   "in_cut": false,
   "label": "Place d'Armes",
   "camera_pill": null,
+  "nophone": false,
   "searches": 590,
   "pin": [
    -73.5572833,

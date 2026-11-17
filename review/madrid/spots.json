@@ -4,15 +4,16 @@
   "name": "Royal Palace of Madrid",
   "in_cut": true,
   "label": "Royal Palace",
-  "camera_pill": "Jardines de Sabatini",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 37700,
   "pin": [
    -3.71416667,
    40.41805556
   ],
   "camera": [
-   -3.713507,
-   40.421508
+   -3.71416667,
+   40.41805556
   ],
   "camera_source": "Researched viewpoint 'Jardines de Sabatini' (4 web pages); placed at OpenStreetMap 'Jardines de Sabatini' (node/1439703617): point.",
   "pin_note": "Position from the Wikipedia article 'Royal Palace of Madrid'.",
@@ -20,10 +21,10 @@
   "text": {
    "description": "The Royal Palace of Madrid is the official residence of the Spanish royal family, though it is used mainly for state ceremonies rather than as a home. It is also the largest palace in Western Europe, with 3,418 rooms. The Alcázar, built on the site of a Muslim-era fortress, burned down on Christmas Eve 1734, and the present building went up between 1738 and 1755. The north side is where it photographs best. The Jardines de Sabatini lie along that facade, on ground once used for the royal stables, and their clipped hedges and still water give you a tidy, symmetrical foreground. The palace itself is built from grey granite and white limestone, so it reads as a calm, pale block against the sky and stays clear on a small screen. From the gardens you can fit the long facade, the hedges and the reflecting pool into one frame. In late afternoon the stone takes on a warm glow and the sky has more colour. Stand back from the pool so the water adds depth without crowding the picture. If you have time for a second angle, the Campo del Moro on the west side shows the palace rising above lawns and a fountain. Whichever spot you choose, take a few frames and compare them later.",
    "geographic_location": "The palace stands on Calle de Bailén in the western part of central Madrid, east of the Manzanares River and close to the Plaza de Oriente. The Jardines de Sabatini run along its north side.",
-   "directions_text": "From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R) the palace is about 400 m on foot, to the west. Walk along Calle de Bailén to reach the Jardines de Sabatini on the north side, which is where the phone icon on the map is. From Príncipe Pío Metro station (Metro line 10, Metro line 6 and Metro line R) it is about 550 m on foot, to the south-east. The phone icon on the map is about 390 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R) the palace is about 400 m on foot, to the west. From Príncipe Pío Metro station (Metro line 10, Metro line 6 and Metro line R) it is about 550 m on foot, to the south-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the facade and pool together. Switch to ultra-wide (0.5x) if you want the whole width of the hedges and water, and use telephoto (2x or more) for details of the stonework.",
-    "where_to_stand": "Stand about 390 m north of the subject, in Jardines de Sabatini (the phone icon on the map), and face south. On the north side of the palace, reached along Calle de Bailén.",
+    "where_to_stand": "Stand in Jardines de Sabatini (north side of the palace, reached along Calle de Bailén). The palace's north facade framed by symmetrical hedges and a reflecting pool in the foreground, with the best light in late afternoon or at sunset. On the north side of the palace, reached along Calle de Bailén.",
     "how_to_frame": "Turn on the gridlines and keep the palace centred, so the symmetry of the hedges and pool looks deliberate. Crouch a little to bring the water into the lower part of the frame. For a different view, the Campo del Moro shows the palace's western facade above the lawns, and you can often frame it to keep trees out.",
     "phone_settings_tip": "Tap the palace stonework to focus, then slide the exposure down a touch so the sky keeps its colour and the pale limestone does not turn white. Keep the phone level, because tilted verticals are obvious on such a formal building.",
     "best_time": "Late afternoon or sunset, when the stone glows and the sky has more colour. Arrive a little before dusk, as the gardens may close then."
@@ -64,15 +65,16 @@
   "name": "Puerta del Sol",
   "in_cut": true,
   "label": "Puerta del Sol",
-  "camera_pill": "near Calle Preciados",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 19140,
   "pin": [
    -3.7026184,
    40.417019
   ],
   "camera": [
-   -3.703876,
-   40.416863
+   -3.7026184,
+   40.417019
   ],
   "camera_source": "Researched viewpoint 'Puerta del Sol' (2 web pages); placed at OpenStreetMap 'Puerta del Sol' (relation/7424032): middle (225 m across).",
   "pin_note": "Position from OpenStreetMap relation/7424032: 'El Oso y el Madroño', the best-known feature inside 'Puerta del Sol' (225 m across).",
@@ -80,10 +82,10 @@
   "text": {
    "description": "Puerta del Sol is one of Madrid's best-known and busiest squares, and it is easy to see why people photograph it. The plaza opens out in a gentle semicircle, with the old Post Office (the Casa de Correos) and its clock tower closing the view. The name means \"Gate of the Sun\". It comes from a gate in Madrid's 15th-century city wall, which faced east and was decorated with a rising sun. The clock is the one whose bells mark the Twelve Grapes at New Year. The Post Office building was designed by Jacques Marquet and built between 1766 and 1768. Set into the pavement in front of it is the Km 0 plaque, the point from which Spain's road distances are measured. On the east side of the square, the bronze bear reaching up to the strawberry tree is the symbol of Madrid. Until 2009 it stood on the north side, so check its exact position on the map. Since 2020 the square has been pedestrianised, so you can step back and frame your shot without worrying about traffic. The most popular photo is taken from the west end, where you enter from Calle del Arenal, looking east across the plaza to the clock tower. The square is almost always crowded, so go early in the morning if you want a cleaner shot. A second good picture is the bear with the busy square behind it.",
    "geographic_location": "Puerta del Sol is in the very centre of Madrid, in the old town. The Plaza Mayor is just to the southwest, and the Palacio Real is further west.",
-   "directions_text": "Take the Metro to Sol Metro station (Metro line 1, Metro line 2 or Metro line 3). The phone icon on the map is on the west side of the square, only a minute or so from the station exits. From there, the bear statue is about 1 minute on foot to the east. Sevilla Metro station (Metro line 2) is also close, about 4 minutes on foot, with the square to the west. The phone icon on the map is about 110 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the Metro to Sol Metro station (Metro line 1, Metro line 2 or Metro line 3). From there, the bear statue is about 1 minute on foot to the east. Sevilla Metro station (Metro line 2) is also close, about 4 minutes on foot, with the square to the west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the whole square. Use the default lens (1x) for the bear and the Km 0 plaque. Try telephoto (2x or more, depending on your phone) to pick out the clock tower.",
-    "where_to_stand": "Stand about 110 m west of the subject, in Puerta del Sol (the phone icon on the map), and face east. From here you look east across the semicircular plaza, with the Casa de Correos clock tower as the backdrop. The bear statue is to the east of this spot, so walk over to it for a closer shot.",
+    "where_to_stand": "Stand in Puerta del Sol (west end, entering from Calle del Arenal). The semicircular plaza opening eastward, with the Casa de Correos clock tower as the backdrop. From here you look east across the semicircular plaza, with the Casa de Correos clock tower as the backdrop. The bear statue is to the east of this spot, so walk over to it for a closer shot.",
     "how_to_frame": "Switch on the gridlines and line the clock tower up with the centre of the frame. Keep the horizon level so the buildings do not lean. For a second picture, go to the bear and frame it against the square's activity. Or find the Km 0 plaque in the pavement with the Casa de Correos building behind it.",
     "phone_settings_tip": "Tap the clock tower to focus and lower the exposure slider a little if the sky looks washed out. At the ultra-wide setting, keep people out of the edges of the frame, where faces can look stretched. In the evening, use night mode and hold the phone steady against your body.",
     "best_time": "Early morning, when the square is relatively empty and the low eastern sun lights the Casa de Correos."
@@ -122,15 +124,16 @@
   "name": "Mercado de San Miguel",
   "in_cut": true,
   "label": "Mercado de San Miguel",
-  "camera_pill": "Plaza de San Miguel",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 14480,
   "pin": [
    -3.7090184,
    40.415363
   ],
   "camera": [
-   -3.709336,
-   40.415435
+   -3.7090184,
+   40.415363
   ],
   "camera_source": "Researched viewpoint 'Plaza de San Miguel' (1 web pages); placed at OpenStreetMap 'Plaza de San Miguel' (relation/5662178): middle (114 m across).",
   "pin_note": "Position from OpenStreetMap way/4518846: the middle of the OpenStreetMap outline 'Mercado de San Miguel' (66 m across).",
@@ -138,10 +141,10 @@
   "text": {
    "description": "The Mercado de San Miguel is a covered market just off Plaza Mayor, and its wrought-iron and glass frame is what makes it so easy to photograph. It opened in 1916 and was designed by the Spanish architect Alfonso Dubé, who took inspiration from Les Halles in Paris. The building covers 1,764 square metres over two floors. Before it was built, the square held a 13th-century church, which was demolished in 1809, and later an open-air fish market. The market was renovated and reopened in 2009, and today it works as a gourmet tapas hall with dozens of stalls.\n\nFrom outside, the big glass panels and slim iron columns give you clean lines and plenty of reflections. The best exterior shot is from the far western end of Plaza de San Miguel, where you can step back far enough to fit the whole facade into one wide frame. Go early on a weekday if you can, before tour groups arrive from Plaza Mayor. Inside, the iron and glass roof and the rows of busy stalls make good pictures too. Crowds are heaviest around midday and in the evening, so a quiet morning gives you the most room. If you want close shots of a stall or its produce, ask the vendor first.",
    "geographic_location": "In the centre of Madrid, on Plaza de San Miguel, right next to Plaza Mayor and between Puerta del Sol and the Royal Palace.",
-   "directions_text": "From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R), walk south for about 5 minutes on foot to reach the market. From La Latina Metro station (Metro line 5), walk north for about 7 minutes on foot. Head for the phone icon on the map, which is on the western side of the market, in the square. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R), walk south for about 5 minutes on foot to reach the market. From La Latina Metro station (Metro line 5), walk north for about 7 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the full facade from the square. Switch to the default lens (1x) for a more natural look. Use the telephoto (2x-5x, depending on your phone) for details such as ironwork, lettering and the glass panels.",
-    "where_to_stand": "Stand in Plaza de San Miguel, right in front of the subject: the phone icon on the map marks the spot. At the far western end of the square, and step back until the whole facade fits. The market is to the east of you from there. From this spot you can take the whole iron-and-glass front of the 1916 market hall in one wide shot.",
+    "where_to_stand": "Stand in Plaza de San Miguel (far western end of the square, stepping back for the full facade). The whole iron-and-glass facade of the 1916 market hall framed in one wide exterior shot. At the far western end of the square, and step back until the whole facade fits. The market is to the east of you from there. From this spot you can take the whole iron-and-glass front of the 1916 market hall in one wide shot.",
     "how_to_frame": "Turn on the gridlines and line the vertical iron columns up with them so the building does not lean. Keep your phone level, and leave a little space around the roof line. If you go inside as well, point the phone upwards for the iron and glass ceiling with light coming through. You can also take a wide shot along the rows of stalls to show how busy the hall is.",
     "phone_settings_tip": "Tap the brightest part of the glass, then lower the exposure slider a little so the sky does not wash out. Indoors, try Night mode if the light is dim, and hold the phone steady against a pillar or your body.",
     "best_time": "Early on a weekday morning, before the square fills with groups. The market is busiest from about noon to 2pm and from 7pm to 9pm."
@@ -178,26 +181,27 @@
   "name": "Temple of Debod",
   "in_cut": true,
   "label": "Temple of Debod",
-  "camera_pill": "Templo de Debod",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 9800,
   "pin": [
    -3.717547,
    40.424085
   ],
   "camera": [
-   -3.717671,
-   40.424054
+   -3.717547,
+   40.424085
   ],
   "camera_source": "Researched viewpoint 'Templo de Debod' (3 web pages); placed at OpenStreetMap 'Templo de Debod' (relation/6432785): middle (29 m across); moved 5 m off buildings.",
   "pin_note": "Position from OpenStreetMap way/549109296: the middle of the OpenStreetMap outline 'Templo de Debod' (100 m across).",
   "notes": "",
   "text": {
-   "description": "The Temple of Debod is an ancient Nubian temple that now stands in Madrid's Parque del Oeste, close to the Royal Palace. It was first built in the early 2nd century BC, about 15 km south of Aswan in Egypt, and was later extended to a small temple of roughly 12 by 15 metres. Egypt gave it to Spain in 1968 as thanks for help in saving monuments threatened by the Aswan High Dam. It was taken apart and rebuilt here in 1970–1972, and it opened to the public in 1972. It is the only Egyptian temple of its kind in Spain.\n\nIt photographs well because the pale stone gateways and temple sit in an open space with a shallow reflecting pool in front. On a calm day the pool doubles the temple, with sky and the Casa de Campo hills behind. Because the phone icon on the map is on the pool's edge, you can take the classic reflection shot with nothing more than your phone held low over the water.\n\nThe pool's south edge is a good place to get the whole temple and its reflection without people walking through the frame. For a different picture, the viewpoint beside the temple looks over the treetops towards the Royal Palace. One guide suggests a wider view of the temple from elsewhere in Parque del Oeste, with fewer people in the shot. The pool is sometimes partly drained for maintenance, so look at recent visitor photos if the reflection matters to you.",
+   "description": "The Temple of Debod is an ancient Nubian temple that now stands in Madrid's Parque del Oeste, close to the Royal Palace. It was first built in the early 2nd century BC, about 15 km south of Aswan in Egypt, and was later extended to a small temple of roughly 12 by 15 metres. Egypt gave it to Spain in 1968 as thanks for help in saving monuments threatened by the Aswan High Dam. It was taken apart and rebuilt here in 1970–1972, and it opened to the public in 1972. It is the only Egyptian temple of its kind in Spain.\n\nIt photographs well because the pale stone gateways and temple sit in an open space with a shallow reflecting pool in front. On a calm day the pool doubles the temple, with sky and the Casa de Campo hills behind.\n\nThe pool's south edge is a good place to get the whole temple and its reflection without people walking through the frame. For a different picture, the viewpoint beside the temple looks over the treetops towards the Royal Palace. One guide suggests a wider view of the temple from elsewhere in Parque del Oeste, with fewer people in the shot. The pool is sometimes partly drained for maintenance, so look at recent visitor photos if the reflection matters to you.",
    "geographic_location": "The temple stands in the Parque del Oeste, on the western side of central Madrid, a short walk from the Royal Palace.",
-   "directions_text": "From Príncipe Pío Metro station (Metro line 10, Metro line 6 and Metro line R) head north-east; it is about 380 m on foot. From Ventura Rodríguez Metro station (Metro line 3) walk south-west, about 470 m on foot. Once at the temple, go to the west side and follow the south edge of the reflecting pool to the phone icon on the map. The phone icon on the map is about 10 m west of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "From Príncipe Pío Metro station (Metro line 10, Metro line 6 and Metro line R) head north-east; it is about 380 m on foot. From Ventura Rodríguez Metro station (Metro line 3) walk south-west, about 470 m on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the temple and its reflection together. Switch to the ultra-wide (0.5x) if you want more sky and pool, or if you are close and the building will not fit. Use telephoto (2x or more) for the carved gateway details.",
-    "where_to_stand": "Stand about 10 m west of the numbered pin, at the phone icon on the map, and face east. Go to the Templo de Debod, on the west side, along the south edge of the reflecting pool. From here the temple's western facade is mirrored in the still water, with the sky and the Casa de Campo hills behind it.",
+    "where_to_stand": "Stand right at the subject (west side, along the south edge of the reflecting pool). The temple's western facade mirrored in the still shallow pool, with the sky and the Casa de Campo hills behind it. Go to the Templo de Debod, on the west side, along the south edge of the reflecting pool. From here the temple's western facade is mirrored in the still water, with the sky and the Casa de Campo hills behind it.",
     "how_to_frame": "Crouch and hold the phone low, close to the water, so the reflection fills the lower half of the picture. Turn on gridlines and place the water's edge on a lower line so the temple and its reflection stay level. If you want a different view, the viewpoint beside the temple looks over the treetops towards the Royal Palace.",
     "phone_settings_tip": "Tap the temple to set focus, then slide the exposure down a little so the sky keeps its colour and the stone does not wash out. Wait for ripples to settle and take a few frames.",
     "best_time": "About 30 to 60 minutes before sunset, or early morning on a still day when the water is calmest."
@@ -233,15 +237,16 @@
   "name": "Puerta de Alcalá",
   "in_cut": true,
   "label": "Puerta de Alcalá",
-  "camera_pill": "Calle de Alfonso XII",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 8730,
   "pin": [
    -3.6887274,
    40.4200158
   ],
   "camera": [
-   -3.689023,
-   40.419681
+   -3.6887274,
+   40.4200158
   ],
   "camera_source": "Researched viewpoint 'Plaza de la Independencia' (2 web pages); placed at OpenStreetMap 'Plaza de la Independencia' (way/131443349): middle (32 m across).",
   "pin_note": "Position from OpenStreetMap way/174805987: the middle of the OpenStreetMap outline 'Puerta de Alcala' (46 m across).",
@@ -249,10 +254,10 @@
   "text": {
    "description": "The Puerta de Alcalá is a neo-classical gate standing in the middle of the Plaza de la Independencia, with traffic circling around it. It began as a gate in the old Walls of Philip IV. King Charles III commissioned Francesco Sabatini to build it around 1774, and it was inaugurated in 1778. It replaced an older, smaller gate nearby. The carved details are in white stone from Colmenar, and most of the structure is Segovia granite. The date is written on the central plaque in Roman numerals. Look closely at the stonework and you can still see marks left by a burst of cannon shrapnel.\n\nIt photographs well because the five arches are easy to read and the pale stone stands out against the sky and the trees behind. The usual advice is to use the pavements around the square and, if you need a fuller view, step back across the roundabout. From there the whole gate fits in one frame, with the traffic circle and trees behind it. The square is tight and busy, so a wider view helps. If you have time, a second option is the main entrance of the Parque del Buen Retiro, which gives a more symmetrical view through the park's wrought-iron gates.\n\nWork has been reported around the monument in 2025-2026, which can block part of the view. If one side is fenced off, try another corner of the square. Stay on the pavements and use the crossings rather than stepping into the road.",
    "geographic_location": "The gate stands in the Plaza de la Independencia, near the centre of Madrid. It is just a short distance from the main entrance to the Parque del Buen Retiro, and Calle de Alcalá runs through the square.",
-   "directions_text": "Take Metro line 2 to Retiro Metro station, then walk west. The gate is about 200 m away, roughly 3 minutes on foot. From Banco de España Metro station, also on Metro line 2, the gate lies to the east, about 535 m away, roughly 7 minutes on foot. The phone icon on the map is about 30 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take Metro line 2 to Retiro Metro station, then walk west. The gate is about 200 m away, roughly 3 minutes on foot. From Banco de España Metro station, also on Metro line 2, the gate lies to the east, about 535 m away, roughly 7 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) if the pavement is crowded or you cannot step back far. Otherwise use the default lens (1x) from further back. Use telephoto (2x or more) only for details such as the carving and the central plaque.",
-    "where_to_stand": "Stand about 30 m south-west of the subject, in Plaza de la Independencia (the phone icon on the map), and face north-east. On the pavements around the monument. From here the photo shows the full five-arched gate against the sky, with the traffic circle and trees behind it. Step back across the roundabout if you want a fuller view of the whole gate.",
+    "where_to_stand": "Stand in Plaza de la Independencia (sidewalks around the monument, stepping back across the roundabout toward the Retiro side). The full five-arched gate framed against the sky, with the traffic circle and the surrounding trees in the background. On the pavements around the monument. From here the photo shows the full five-arched gate against the sky, with the traffic circle and trees behind it. Step back across the roundabout if you want a fuller view of the whole gate.",
     "how_to_frame": "Turn on gridlines and line up the central arch with the middle of the frame so the gate looks symmetrical. Keep your phone level so the columns do not lean. For a different view, try the main entrance of the Parque del Buen Retiro, which frames the gate through the park's iron gates.",
     "phone_settings_tip": "Tap the gate to focus, then slide the exposure down a little so the pale stone keeps its detail and the sky stays blue. At blue hour, use night mode and hold the phone steady against a railing or your chest.",
     "best_time": "Early morning means fewer people in your shot. Sunset and blue hour give the warmest light."
@@ -283,15 +288,16 @@
   "name": "Plaza Mayor",
   "in_cut": true,
   "label": "Plaza Mayor",
-  "camera_pill": "near Calle de Zaragoza",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 6170,
   "pin": [
    -3.7073773,
    40.4154033
   ],
   "camera": [
-   -3.706997,
-   40.415395
+   -3.7073773,
+   40.4154033
   ],
   "camera_source": "Researched viewpoint 'Plaza Mayor' (2 web pages); placed at OpenStreetMap 'Plaza Mayor' (relation/16657232): middle (156 m across).",
   "pin_note": "Position from OpenStreetMap relation/16657232: 'Equestrian statue of Phillip III', the best-known feature inside 'Plaza Mayor' (156 m across).",
@@ -299,10 +305,10 @@
   "text": {
    "description": "Plaza Mayor is a large, enclosed rectangular square in the middle of old Madrid, and it is easy to photograph because everything around you is so regular. It measures 129 metres by 94 metres and is lined with matching buildings. 237 balconies look down onto it, and arched entrances lead in from the surrounding streets. At the centre stands a bronze statue of King Philip III on horseback, made in 1616 and moved here in 1848. On the north side, the Casa de la Panadería is the section between two towers, and it carries painted decoration added in 1992. The square was built between 1617 and 1619, then rebuilt after a major fire in 1790. The architect Juan de Villanueva's design gives the square much of the look it has today. The matching rows of windows, arcades and balconies pull the eye towards the far side, so even a quick phone shot looks tidy and balanced. Come early if you want empty cobbles, as the square is a busy tourist spot later in the day. In winter a Christmas market fills much of the space, and on Sunday mornings there is a stamp and coin collectors' market. Both change how the square looks, so expect stalls in your frame at those times.",
    "geographic_location": "Plaza Mayor is in the old centre of Madrid, a few blocks from Puerta del Sol. Sobrino de Botín restaurant stands just beside it on Arco de Cuchilleros street.",
-   "directions_text": "From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R), walk south-east for about 340 m. From Sol Metro station (Metro line 1, Metro line 2 and Metro line 3), head south-west for about 376 m. Step into the square through any of its arched entrances, then look for the phone icon on the map. The phone icon on the map is about 30 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R), walk south-east for about 340 m. From Sol Metro station (Metro line 1, Metro line 2 and Metro line 3), head south-west for about 376 m. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for a natural view of the square. Switch to ultra-wide (0.5x) if you move into an arcade corner and want the whole square in one frame. Use 2x or more, if your phone has it, to pick out the statue or the painted facade.",
-    "where_to_stand": "Stand about 30 m east of the subject, in Plaza Mayor (the phone icon on the map), and face west. From here the statue sits in the open square ahead of you, with the surrounding facades rising behind it. As an optional alternative, move to one of the corner arches and look diagonally across the square, where the painted facades recede in perspective towards the far side.",
+    "where_to_stand": "Stand in Plaza Mayor (from the corner arches, looking diagonally across the square). The full square with its painted facades receding in perspective toward the far side, with the equestrian statue of Philip III near the centre. From here the statue sits in the open square ahead of you, with the surrounding facades rising behind it. As an optional alternative, move to one of the corner arches and look diagonally across the square, where the painted facades recede in perspective towards the far side.",
     "how_to_frame": "Turn on gridlines and keep the verticals of the buildings straight. From where you stand, put the statue near the centre of the shot. If you try the corner-arch alternative, use the arches to frame the top and sides of the picture. For a different view, try the Casa de la Panadería from below in morning light. You could also shoot the arch at Arco de Cuchilleros as you step through it, with the square opening up ahead.",
     "phone_settings_tip": "Tap the brightest facade to focus, then lower the exposure slider a little so the sky and painted walls keep their colour. If you use ultra-wide, keep people away from the edges of the frame, because they can look stretched.",
     "best_time": "Before 8 am, when the cobblestones are empty. Late afternoon is also good, when the western facades catch warm light."
@@ -341,15 +347,16 @@
   "name": "Retiro Park and the Crystal Palace",
   "in_cut": true,
   "label": "Retiro Park",
-  "camera_pill": "Palacio de Cristal",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 5020,
   "pin": [
    -3.6838889,
    40.415
   ],
   "camera": [
-   -3.68219,
-   40.413694
+   -3.6838889,
+   40.415
   ],
   "camera_source": "Researched viewpoint 'Palacio de Cristal' (3 web pages); placed at OpenStreetMap 'Palacio de Cristal' (way/23596451): middle (67 m across); moved 15 m off buildings.",
   "pin_note": "Position from OpenStreetMap relation/13616929: large area 'El Retiro Park' (1794 m across): previous pin kept, it lies inside.",
@@ -357,10 +364,10 @@
   "text": {
    "description": "The Palacio de Cristal is a glass-and-iron pavilion beside its own small pond in Madrid's Retiro Park, and it is one of the most photogenic corners of the whole park. It was built in 1887 for the Philippine Islands Exhibition, designed by Ricardo Velázquez Bosco and inspired by the Crystal Palace in London. It was first used to show flowers from the Philippine archipelago. Today it hosts art exhibitions. The park around it covers about 1.4 square kilometres. It belonged to the Spanish monarchy until 1868, when it became public, and since 2021 it has been part of a UNESCO World Heritage Site together with the Paseo del Prado.\n\nThe pavilion photographs well because of the pond. On a calm day the dome, the glass and the surrounding trees are mirrored in the water, which gives you a classic postcard view with very little effort. Keep a little distance from the water's edge so the pond fills the foreground and the palace sits behind it. Reflections depend on the water being still. The central fountain is sometimes switched off and sometimes raised, and when it is running it can break up the mirror effect. Weekends can get busy, so arriving early helps. If you have time for a second view, the colonnade of the Monumento a Alfonso XII over the Great Pond is a good alternative. Drones are reported as prohibited in the park.",
    "geographic_location": "Inside the Retiro Park (Parque del Buen Retiro), Madrid, on the edge of the city centre near the Alcalá Gate and the Museo del Prado.",
-   "directions_text": "The nearest stations are Ibiza (Metro line 9) and Retiro (Metro line 2). From Ibiza Metro station the park point on the map is to the south-west, about 550 m or roughly 7 minutes on foot. From Retiro Metro station it is to the south, about 650 m or roughly 8 minutes on foot. Once inside the park, follow the paths towards the pond and the glass pavilion. The phone icon on the map is about 200 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stations are Ibiza (Metro line 9) and Retiro (Metro line 2). From Ibiza Metro station the park point on the map is to the south-west, about 550 m or roughly 7 minutes on foot. From Retiro Metro station it is to the south, about 650 m or roughly 8 minutes on foot. Once inside the park, follow the paths towards the pond and the glass pavilion. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the full view of the palace and its reflection. Switch to ultra-wide (0.5x) if you are close to the water, or to telephoto (2x-5x, depending on your phone) for the dome and its reflection on their own.",
-    "where_to_stand": "Stand about 200 m south-east of the subject, at Palacio de Cristal (the phone icon on the map), and face north-west. From here you see the glass-and-iron pavilion standing behind the still water, with its dome and the trees reflected in the pond. The wider park point on the map lies to the north-west of this spot.",
+    "where_to_stand": "Stand right at the subject (across the small pond, on the side away from the entrance). The glass-and-iron pavilion standing behind the still pond, with its dome and trees reflected in the water. From here you see the glass-and-iron pavilion standing behind the still water, with its dome and the trees reflected in the pond. The wider park point on the map lies to the north-west of this spot.",
     "how_to_frame": "Stand a little back from the water so the pond fills the lower part of the picture and the palace sits behind it. Switch on gridlines and line the palace up with the centre of the frame so the reflection mirrors it evenly. For a different view, the Monumento a Alfonso XII over the Great Pond is a good alternative.",
     "phone_settings_tip": "Tap the palace to focus, then slide the exposure down a touch so the bright glass keeps its detail. Take a few shots in a row, because ripples change the reflection from one moment to the next.",
     "best_time": "Morning for calmer reflections; late afternoon for warmer light."
@@ -397,26 +404,27 @@
   "name": "Gran Vía and the Metropolis Building",
   "in_cut": true,
   "label": "Metropolis Building",
-  "camera_pill": "near Calle de Alcalá",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 3710,
   "pin": [
    -3.6974767,
    40.4187656
   ],
   "camera": [
-   -3.696557,
-   40.418766
+   -3.6974767,
+   40.4187656
   ],
   "camera_source": "Researched viewpoint 'Gran Vía y Calle de Alcalá' (4 web pages); placed at crossing of Calle de Alcalá and Gran Vía (our map tiles).",
   "pin_note": "Position from OpenStreetMap relation/4655046: the middle of the OpenStreetMap outline 'Edificio Metrópolis' (54 m across).",
   "notes": "Merged: the Metropolis is the classic Gran Vía photo.",
   "text": {
-   "description": "The Metropolis Building is the grand corner block where Calle de Alcalá meets Gran Vía, and it is a well-known Madrid landmark. It was designed by the French architects Jules and Raymond Février for the insurance company La Unión y el Fénix, and it was inaugurated on 21 January 1911. The Beaux-Arts style was unusual in Madrid at the time. Ornate colonnaded upper floors carry statues representing Mining, Agriculture, Industry and Commerce. The round dome on top is covered in 30,000 leaves of 24-carat gold, and a statue by Mariano Benlliure stands at its foot. The winged figure you see on the dome today replaced an earlier statue, which was taken away in 1972.\n\nIt photographs well because the corner is rounded and the dome sits above it, with the boulevard running away from it. From the phone icon on the map, you look up at the corner and the dome rises above the street. Several guides name this junction as the classic spot. It is also a busy corner, so an early start or a short wait for a gap in the traffic helps a lot. For a different view, try Plaza de Cibeles, where the dome shows at a distance against the sky, or Plaza de Callao, where Gran Vía looks like a long canyon of facades leading to the dome.",
+   "description": "The Metropolis Building is the grand corner block where Calle de Alcalá meets Gran Vía, and it is a well-known Madrid landmark. It was designed by the French architects Jules and Raymond Février for the insurance company La Unión y el Fénix, and it was inaugurated on 21 January 1911. The Beaux-Arts style was unusual in Madrid at the time. Ornate colonnaded upper floors carry statues representing Mining, Agriculture, Industry and Commerce. The round dome on top is covered in 30,000 leaves of 24-carat gold, and a statue by Mariano Benlliure stands at its foot. The winged figure you see on the dome today replaced an earlier statue, which was taken away in 1972.\n\nIt photographs well because the corner is rounded and the dome sits above it, with the boulevard running away from it. Several guides name this junction as the classic spot. It is also a busy corner, so an early start or a short wait for a gap in the traffic helps a lot. For a different view, try Plaza de Cibeles, where the dome shows at a distance against the sky, or Plaza de Callao, where Gran Vía looks like a long canyon of facades leading to the dome.",
    "geographic_location": "In central Madrid, on the corner where Calle de Alcalá meets Gran Vía. The building's official address is on Calle de Alcalá, not Gran Vía. It is a short walk from Banco de España Metro station.",
-   "directions_text": "Take Metro line 2 to Banco de España Metro station and walk west along Calle de Alcalá; it is a short walk. Sevilla Metro station, also on Metro line 2, is a short walk to the south-west of the building, so you will approach the junction with the building ahead of you. Either way, you are heading for the corner of Calle de Alcalá and Gran Vía. The phone icon on the map is about 55 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take Metro line 2 to Banco de España Metro station and walk west along Calle de Alcalá; it is a short walk. Sevilla Metro station, also on Metro line 2, is a short walk to the south-west of the building, so you will approach the junction with the building ahead of you. Either way, you are heading for the corner of Calle de Alcalá and Gran Vía. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the corner, the dome and the street in one frame. Switch to the default lens (1x) for a cleaner, less stretched view of the dome. Use the telephoto (2x-5x, depending on your phone) to pick out the statue and the gold of the dome.",
-    "where_to_stand": "Stand about 55 m east of the subject, at the corner of Calle de Alcalá and Gran Vía (the phone icon on the map), and face west. At Gran Vía y Calle de Alcalá, on the junction facing the building's corner. The Metropolis is to the west of you. From here the photo shows the dome and its winged Victory statue, looking up at the corner with the boulevard running away from it. Keep to the pavement and cross only at the lights.",
+    "where_to_stand": "Stand at the corner of Calle de Alcalá and Gran Vía (junction, facing the Metropolis Building's corner). The Metropolis dome and its winged Victory statue, looking up at the corner with the boulevard running away from it. At Gran Vía y Calle de Alcalá, on the junction facing the building's corner. The Metropolis is to the west of you. From here the photo shows the dome and its winged Victory statue, looking up at the corner with the boulevard running away from it. Keep to the pavement and cross only at the lights.",
     "how_to_frame": "Turn on the gridlines and keep the vertical lines of the facade straight to stop the building leaning. Tilt up just enough to put the dome near the centre of the frame, with a little sky above it. Wait for a gap in the traffic and passers-by if you want a clean street. Plaza de Cibeles is a good alternative for a more distant view of the dome.",
     "phone_settings_tip": "Tap on the dome or the sky to set focus, then drag the exposure slider down a little so the lit gold does not turn pale. At blue hour, use night mode and hold the phone still against a wall or lamp post. Check the verticals on the screen before you move on.",
     "best_time": "Blue hour, when the lit dome stands out against a deep blue sky. Early morning is also recommended by one guide for low sun on the facade, and an early start helps you avoid the traffic."
@@ -453,15 +461,16 @@
   "name": "Almudena Cathedral",
   "in_cut": true,
   "label": "Almudena Cathedral",
-  "camera_pill": "Plaza de la Armería",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2800,
   "pin": [
    -3.714495,
    40.4157109
   ],
   "camera": [
-   -3.714429,
-   40.416347
+   -3.714495,
+   40.4157109
   ],
   "camera_source": "Researched viewpoint 'Plaza de la Armería' (3 web pages); placed at OpenStreetMap 'Plaza de la Armería' (way/1202333088): middle (165 m across).",
   "pin_note": "Position from OpenStreetMap relation/75658: the middle of the OpenStreetMap outline 'Catedral de la Almudena' (171 m across).",
@@ -469,10 +478,10 @@
   "text": {
    "description": "Almudena Cathedral is Madrid's cathedral, and it sits directly opposite the Royal Palace. That is the whole appeal for a photograph: a pale, classical-looking building with towers and a dome, standing close to the palace's grey and white façade. Work began in 1883 and the cathedral was not consecrated until 1993, by Pope John Paul II. Building was interrupted by the Spanish Civil War. When it restarted in 1950, the exterior was adapted to a baroque style to sit comfortably beside the palace, which is why the two buildings look like a pair. Inside, the style is Neo-Gothic and surprisingly modern, but the best phone pictures are taken outside. The easiest place is Plaza de la Armería, where the main façade, towers and dome fit into one frame with the palace beside them. The square is open to the public and free. Early morning or late afternoon gives softer light on the stonework than the glare of midday. If you have time for a second angle, the Jardines de Sabatini show the cathedral across formal gardens and pools. One travel page also suggests the Puente de Segovia for a wider skyline view across the Manzanares valley. Photography inside may be restricted during services, so keep your best shots for outside.",
    "geographic_location": "In the old centre of Madrid, directly opposite the Royal Palace and close to Calle Mayor.",
-   "directions_text": "The nearest station is Ópera Metro station (Metro line 2, Metro line 5 and Metro line R). The cathedral is to the south-west of it, about 500 m away. La Latina Metro station (Metro line 5) is a little further, about 700 m away, with the cathedral to the north-west. From either station, head for the Royal Palace and the square in front of the cathedral. The phone icon on the map is about 25 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest station is Ópera Metro station (Metro line 2, Metro line 5 and Metro line R). The cathedral is to the south-west of it, about 500 m away. La Latina Metro station (Metro line 5) is a little further, about 700 m away, with the cathedral to the north-west. From either station, head for the Royal Palace and the square in front of the cathedral. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) from the square. Switch to the ultra-wide (0.5x) if you cannot fit the towers and dome in with the palace, and use telephoto (2x-5x, depending on your phone) for close pictures of the towers and dome.",
-    "where_to_stand": "Stand about 25 m north of the subject, in Plaza de la Armería (the phone icon on the map), and face south. From there the cathedral lies to the south, and you see its main façade framed against the Royal Palace, with the towers and dome in the same frame.",
+    "where_to_stand": "Stand in Plaza de la Armería. The cathedral's main façade framed against the Royal Palace, with the towers and dome visible in one frame. From there the cathedral lies to the south, and you see its main façade framed against the Royal Palace, with the towers and dome in the same frame.",
     "how_to_frame": "Turn on gridlines and keep the phone level, so the towers do not lean. Place the façade on one side of the frame and the palace on the other, so the pairing is clear. If you want a softer, greener composition, try the Jardines de Sabatini, where the cathedral is seen across the gardens and pools.",
     "phone_settings_tip": "Tap the sky or the pale stonework to set focus, then slide the exposure down a little so the light façade does not wash out. Take a few frames in case people walk through.",
     "best_time": "Early morning or late afternoon, to avoid harsh midday sunlight."
@@ -509,26 +518,27 @@
   "name": "Plaza de Cibeles",
   "in_cut": true,
   "label": "Cibeles",
-  "camera_pill": "Paseo del Prado",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2740,
   "pin": [
    -3.69305556,
    40.41916667
   ],
   "camera": [
-   -3.692859,
-   40.419104
+   -3.69305556,
+   40.41916667
   ],
   "camera_source": "Researched viewpoint 'Paseo del Prado' (3 web pages); placed at the stretch of Paseo del Prado nearest the subject (our map tiles).",
   "pin_note": "Position from Wikidata Q1537446: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "",
   "text": {
-   "description": "Plaza de Cibeles is the big junction where Calle de Alcalá, Paseo de Recoletos and Paseo del Prado meet, and it has become a symbol of Madrid. In the middle sits the fountain of Cybele, a Phrygian goddess, in a neo-classical group of marble sculpture. Around it stand four grand buildings: the Bank of Spain, the Palacio de Buenavista, the Palace of Linares and the Cybele Palace, which is the seat of the Madrid City Council. The square was first called Plaza de Madrid, then Plaza de Castelar in 1900, before taking its present name. It is also traditionally where Real Madrid celebrate their victories, with the team captain placing a flag and scarf on the statue.\n\nIt photographs well because the fountain and the palace line up as one composition, with plenty of stone detail and a wide sky. The phone icon on the map is on Paseo del Prado, a little way back from the fountain, where you can fit the fountain and the palace behind it into one frame. Traffic is the main difficulty, especially around midday, so be patient and take the shot when there is a gap. If you want a different angle, Calle de Alcalá gives a symmetrical view across the square, and the steps of the Banco de España give a higher, quieter one. Check for temporary barriers or building work around the fountain before you go.",
+   "description": "Plaza de Cibeles is the big junction where Calle de Alcalá, Paseo de Recoletos and Paseo del Prado meet, and it has become a symbol of Madrid. In the middle sits the fountain of Cybele, a Phrygian goddess, in a neo-classical group of marble sculpture. Around it stand four grand buildings: the Bank of Spain, the Palacio de Buenavista, the Palace of Linares and the Cybele Palace, which is the seat of the Madrid City Council. The square was first called Plaza de Madrid, then Plaza de Castelar in 1900, before taking its present name. It is also traditionally where Real Madrid celebrate their victories, with the team captain placing a flag and scarf on the statue.\n\nIt photographs well because the fountain and the palace line up as one composition, with plenty of stone detail and a wide sky. Traffic is the main difficulty, especially around midday, so be patient and take the shot when there is a gap. If you want a different angle, Calle de Alcalá gives a symmetrical view across the square, and the steps of the Banco de España give a higher, quieter one. Check for temporary barriers or building work around the fountain before you go.",
    "geographic_location": "Plaza de Cibeles is in central Madrid, where the districts of Centro, Retiro and Salamanca meet. It sits at the crossing of Calle de Alcalá with Paseo de Recoletos and Paseo del Prado, next to the Bank of Spain and the Cybele Palace.",
-   "directions_text": "The nearest station is Banco de España Metro station (Metro line 2), about 3 minutes on foot; the square lies to the east of it. Chueca Metro station (Metro line 5) is about 9 minutes on foot, with the square to the south-east. From either station, walk to Paseo del Prado and stand on its western pavement, just south of the junction. The phone icon on the map is about 20 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest station is Banco de España Metro station (Metro line 2), about 3 minutes on foot; the square lies to the east of it. Chueca Metro station (Metro line 5) is about 9 minutes on foot, with the square to the south-east. From either station, walk to Paseo del Prado and stand on its western pavement, just south of the junction. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the fountain with the Cybele Palace rising behind it. Switch to the ultra-wide (0.5x) only if you need more of the square, and keep the horizon level so the buildings do not lean. Use the telephoto (2x or more) for details such as the statue or the palace facade.",
-    "where_to_stand": "Stand about 20 m south-east of the subject, on Paseo del Prado (the phone icon on the map), and face north-west. On the western pavement slightly south of the junction. You get the full fountain with the palace behind it and not much traffic in the way.",
+    "where_to_stand": "Stand on Paseo del Prado (western pavement, slightly south of the junction). The full fountain in front with Cibeles Palace rising behind it, framed without much traffic in the way. On the western pavement slightly south of the junction. You get the full fountain with the palace behind it and not much traffic in the way.",
     "how_to_frame": "Turn on the gridlines and put the fountain on the lower third, with the palace filling the space above. Wait for a gap in the traffic before you press the shutter. For a symmetrical view, try Calle de Alcalá. For a quieter, higher angle, try the steps of the Banco de España.",
     "phone_settings_tip": "Tap on the palace facade to set focus, then lower the exposure slider a little if the sky is bright and the stone is washing out. Live Photos can help you pick a moment when cars are out of the frame. In the evening, use night mode and hold the phone steady against a lamp post or your body.",
     "best_time": "Early morning, before traffic builds, when the eastern light falls on the palace. Midday is the hardest time for clean shots because of traffic."
@@ -567,15 +577,16 @@
   "name": "Madrid Río and the Toledo Bridge",
   "in_cut": true,
   "label": "Madrid Río",
-  "camera_pill": "Puente de Toledo",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1390,
   "pin": [
    -3.7117,
    40.3985
   ],
   "camera": [
-   -3.715754,
-   40.397804
+   -3.7117,
+   40.3985
   ],
   "camera_source": "Researched viewpoint 'Puente de Toledo' (1 web pages); placed at OpenStreetMap 'Puente de Toledo' (way/321554831): point nearest the subject (307 m long).",
   "pin_note": "Position from the Wikipedia article 'Madrid Río'.",
@@ -583,10 +594,10 @@
   "text": {
    "description": "Madrid Río is a long riverside park along the Manzanares, and the Puente de Toledo is one of the best places to take it in. The park exists because the M-30 bypass road was buried underground along this stretch. That freed the riverbanks for public use and enjoyment and joined up neighbourhoods the road had cut apart. The design won an international ideas competition in 2005, and the park later received Harvard's Veronica Rudge Green Prize in Urban Design in 2015. Herons and kingfishers are now regular visitors to the river.\n\nFor a phone photo, the bridge gives you layers. On the north side, next to the fountains, an old stone fountain can sit close to the lens in the foreground. Behind it the long, modern Arganzuela footbridge reaches away, with the green park below. That old-and-new contrast is what makes the picture. Turn to look along the bridge itself and you get the nine arches and the statues set in the central niches, which make good close subjects. For a wider view, face the river and take in the Manzanares banks and the park spreading out beside it.\n\nThe bridge can be busy with walkers, so wait a moment for a gap rather than rushing. Keep the phone level, using the gridlines, so the long lines of the bridge and footbridge stay straight. A second angle is the shaded cobbled ramp at Glorieta del Marqués de Vadillo, which leads up to the bridge with its arches ahead.",
    "geographic_location": "On the Manzanares river in southern central Madrid, in the Madrid Río park, with the Arganzuela district on one bank and Latina, Carabanchel and Usera on the other. The nearest Metro stations are Pirámides and Marqués de Vadillo.",
-   "directions_text": "From Pirámides Metro station (Metro line 5), walk south towards the river; it is about 400 m in a straight line. From Marqués de Vadillo Metro station (also Metro line 5) it is about 450 m, heading east. Once you reach the bridge, go to the north side, next to the fountains. The phone icon on the map is about 350 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Pirámides Metro station (Metro line 5), walk south towards the river; it is about 400 m in a straight line. From Marqués de Vadillo Metro station (also Metro line 5) it is about 450 m, heading east. Once you reach the bridge, go to the north side, next to the fountains. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the fountain-and-footbridge view. Switch to ultra-wide (0.5x) for the arches and the river. Use telephoto (2x-5x, depending on your phone) for the statues in the niches.",
-    "where_to_stand": "Stand about 350 m west of the subject, on Puente de Toledo (the phone icon on the map), and face east. The bridge viewpoint is a separate place: on the Puente de Toledo, on the north side next to the fountains. From there you see an old stone fountain close by, the modern Arganzuela footbridge in the distance, and the green park of Madrid Río below.",
+    "where_to_stand": "Stand on Puente de Toledo (north side, next to the fountains). An old stone fountain in the foreground, the modern Arganzuela footbridge in the distance, and the green park base of Madrid Río below. The bridge viewpoint is a separate place: on the Puente de Toledo, on the north side next to the fountains. From there you see an old stone fountain close by, the modern Arganzuela footbridge in the distance, and the green park of Madrid Río below.",
     "how_to_frame": "Place the fountain stone low in the frame and let the footbridge run back behind it, so the old and new sit together. Turn on the gridlines and line up the footbridge with a horizontal line. For a different shot, look along the bridge to catch the nine arches and the statues. The cobbled ramp at Glorieta del Marqués de Vadillo is a good alternative viewpoint.",
     "phone_settings_tip": "Tap the fountain to focus, then drag the exposure slider down a little if the sky is bright, so the stone keeps its detail. Try portrait mode on a statue, but check the edges of the figure afterwards.",
     "best_time": "Late afternoon is a good bet for softer light on the stone and the river. Early morning is likely to be quieter on the bridge."
@@ -627,15 +638,16 @@
   "name": "Sabatini Gardens",
   "in_cut": true,
   "label": "Sabatini Gardens",
-  "camera_pill": "Jardines de Sabatini",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1190,
   "pin": [
    -3.7139708,
    40.4205579
   ],
   "camera": [
-   -3.713507,
-   40.421508
+   -3.7139708,
+   40.4205579
   ],
   "camera_source": "Researched viewpoint 'Jardines de Sabatini' (4 web pages); placed at OpenStreetMap 'Jardines de Sabatini' (node/1439703617): point.",
   "pin_note": "Position from OpenStreetMap relation/2061818: the middle of the OpenStreetMap outline 'Jardines de Sabatini' (279 m across).",
@@ -643,10 +655,10 @@
   "text": {
    "description": "The Sabatini Gardens are a formal garden beside the Royal Palace, and they are one of the easiest places in Madrid to get a tidy, symmetrical phone photo. The garden sits where the palace stables once stood. It is named after Francesco Sabatini, the 18th-century Italian architect who designed those stables and other work at the palace. Clearing of the old buildings began in 1933, the gardens were finished in the late 1970s, and King Juan Carlos I opened them to the public in 1978.\n\nThe style is neoclassical: sharply clipped hedges and trees in geometric patterns, with fountains and statues of Spanish kings. The garden has three terraces. The first has a long pool at its centre that works like a mirror, and that pool is the reason most people come to take photos. Standing by it and looking south, you can line up the palace façade with its reflection, with hedges and sculptures framing the foreground. A wider view of the palace rising above the garden is also worth a frame, and so is the view back from the Calle de Bailén entrance, where the lawns and hedges lead the eye to the palace.\n\nStay on the paths and keep off the flowerbeds. Take a few frames at different heights, since a low phone near the water gives the strongest reflection. Wipe your lens before you start, because a smudge shows up on the bright stonework.",
    "geographic_location": "In central Madrid on the north side of the Royal Palace, with an entrance on Calle de Bailén and steps up to Cuesta de San Vicente, close to Plaza de España and Príncipe Pío.",
-   "directions_text": "From Príncipe Pío Metro station (Metro line 10, Metro line 6 and Metro line R), walk east for about 460 m. From Plaza de España Metro station (Metro line 10 and Metro line 3), head south-west for about 470 m. Once you are in the gardens, head to the phone icon on the map on the north side, face south towards the palace, then walk to the central pool for the reflection shot. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "From Príncipe Pío Metro station (Metro line 10, Metro line 6 and Metro line R), walk east for about 460 m. From Plaza de España Metro station (Metro line 10 and Metro line 3), head south-west for about 470 m. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the reflection of the palace in the pool. Switch to the ultra-wide (0.5x) for the whole garden, and to telephoto (2x or more, depending on your phone) to pick out statues or the palace roofline.",
-    "where_to_stand": "Stand at Jardines de Sabatini, right in front of the subject: the phone icon on the map marks the spot. Then walk to the central reflecting pool for the reflection shot. From the pool, the long water surface reflects the palace façade, with clipped hedges and sculptures in the foreground.",
+    "where_to_stand": "Stand right at the subject (central reflecting pool on the garden's north-south axis, standing to look south toward the palace). The long formal pool reflects the palace's north façade, with clipped hedges and sculptures framing the foreground. Then walk to the central reflecting pool for the reflection shot. From the pool, the long water surface reflects the palace façade, with clipped hedges and sculptures in the foreground.",
     "how_to_frame": "Turn on the gridlines and put the pool down the middle of the frame so the hedges mirror each other left and right. Crouch and hold the phone low over the water to enlarge the reflection. For an alternative, try a wider view of the palace above the garden, or the view from the Calle de Bailén entrance, where the lawns lead the eye back to the palace.",
     "phone_settings_tip": "Tap the palace to focus, then pull the exposure slider down a little so the sky and pale stone keep their detail. Wait for the water to settle between ripples before you take the shot. Live Photos can help you pick the stillest reflection.",
     "best_time": "In winter, early morning gives direct light on the façade. In summer, late afternoon is better. A calm, bright day gives the clearest reflection."
@@ -684,26 +696,27 @@
   "name": "Puerta de Toledo",
   "in_cut": true,
   "label": "Puerta de Toledo",
-  "camera_pill": "Puente de Toledo",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1130,
   "pin": [
    -3.7116221,
    40.4067222
   ],
   "camera": [
-   -3.714568,
-   40.400432
+   -3.7116221,
+   40.4067222
   ],
   "camera_source": "Researched viewpoint 'Puente de Toledo' (2 web pages); placed at OpenStreetMap 'Puente de Toledo' (way/321554831): point nearest the subject (307 m long).",
   "pin_note": "Position from OpenStreetMap way/335232793: the middle of the OpenStreetMap outline 'Puerta de Toledo' (32 m across).",
   "notes": "",
   "text": {
-   "description": "The Puerta de Toledo is a big granite triumphal arch with three openings and a sculpture group on top. It stands on a landscaped traffic island at the end of Calle de Toledo. It was one of nineteen city gates in the walls of Philip IV. Work began in 1812 and finished in 1827, and it was declared a Bien de Interés Cultural in 1996. That mix of age, size and symmetry makes it easy to photograph. The arch is bold and simple, and the open space around it means you can step back for a full frame.\n\nThe phone icon on the map is on the Puente de Toledo, the bridge over the Madrid Río park. From here the gate sits across the park, with trees, paths and open sky around it. It is a quieter spot than the roundabout, though the gate looks smaller in the frame. If you want the full arch with its three openings and the sculptures above, walk up to the Glorieta de la Puerta de Toledo and shoot from the pavement. Calle de Toledo gives a good city-street view, with the gate at the end of the road.\n\nThe gate is on a busy roundabout, so cross only at marked crossings and don't step into the road for a better angle. Its lit appearance at night is praised, so an evening shot from the roundabout is also worth trying.",
+   "description": "The Puerta de Toledo is a big granite triumphal arch with three openings and a sculpture group on top. It stands on a landscaped traffic island at the end of Calle de Toledo. It was one of nineteen city gates in the walls of Philip IV. Work began in 1812 and finished in 1827, and it was declared a Bien de Interés Cultural in 1996. That mix of age, size and symmetry makes it easy to photograph. The arch is bold and simple, and the open space around it means you can step back for a full frame.\n\nFrom here the gate sits across the park, with trees, paths and open sky around it. It is a quieter spot than the roundabout, though the gate looks smaller in the frame. If you want the full arch with its three openings and the sculptures above, walk up to the Glorieta de la Puerta de Toledo and shoot from the pavement. Calle de Toledo gives a good city-street view, with the gate at the end of the road.\n\nThe gate is on a busy roundabout, so cross only at marked crossings and don't step into the road for a better angle. Its lit appearance at night is praised, so an evening shot from the roundabout is also worth trying.",
    "geographic_location": "The gate stands on a roundabout at the end of Calle de Toledo, which leads toward the old centre of Madrid. The Madrid Río park and the Puente de Toledo lie to the south.",
-   "directions_text": "For the gate itself, take Metro line 5 to Puerta de Toledo station. The gate is about 1 minute on foot from there. The phone icon on the map is about 740 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "For the gate itself, take Metro line 5 to Puerta de Toledo station. The gate is about 1 minute on foot from there. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the park and the gate together. Then try telephoto (2x-5x, depending on your phone) to bring the arch closer, as it looks small from the bridge. Use the ultra-wide (0.5x) only if you move to the roundabout and want the whole arch and its setting.",
-    "where_to_stand": "Stand about 740 m south of the subject, on Puente de Toledo (the phone icon on the map), and face north. The gate is north of you, across the Madrid Río park. Look along the bridge and over the greenery to the arch. Stay on the pavement and keep clear of traffic.",
+    "where_to_stand": "Stand on Puente de Toledo. The gate seen across the Madrid Río park from the bridge, which is an elevated, open-air vantage point over the surrounding area. The gate is north of you, across the Madrid Río park. Look along the bridge and over the greenery to the arch. Stay on the pavement and keep clear of traffic.",
     "how_to_frame": "Turn on gridlines and put the arch near the centre or on one of the vertical lines, with the park in the foreground for depth. Keep the phone level so the arch's vertical lines stay straight. For a closer view of the sculptures and three openings, use the roundabout instead, where the full arch fits in the frame.",
     "phone_settings_tip": "Tap the arch to focus, then slide the exposure down a little if the sky is bright so the stone keeps its detail. For a night shot from the roundabout, switch on night mode and rest your elbows on something firm or hold the phone with both hands to keep it steady.",
     "best_time": "Sunset is the suggested time for the bridge viewpoint. The roundabout is also worth a visit after dark, when the gate is lit."
@@ -742,6 +755,7 @@
   "in_cut": true,
   "label": "Campo del Moro",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1060,
   "pin": [
    -3.7176886,
@@ -796,15 +810,16 @@
   "name": "Plaza de Oriente",
   "in_cut": true,
   "label": "Plaza de Oriente",
-  "camera_pill": "near Plaza de Oriente",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1000,
   "pin": [
    -3.7121002,
    40.4191745
   ],
   "camera": [
-   -3.713202,
-   40.418337
+   -3.7121002,
+   40.4191745
   ],
   "camera_source": "Researched viewpoint 'Plaza de Oriente' (4 web pages); placed at OpenStreetMap 'Plaza de Oriente' (relation/4777910): middle (338 m across).",
   "pin_note": "Position from OpenStreetMap relation/4777910: 'Cabo Luis Noval', the best-known feature inside 'Plaza de Oriente' (339 m across).",
@@ -812,10 +827,10 @@
   "text": {
    "description": "Plaza de Oriente is a long, formal square in the historic centre of Madrid, laid out with gardens, paths and rows of stone statues, with the Royal Palace closing off one side. It was designed in 1844 by Narciso Pascual y Colomer, after King Joseph I had ordered the medieval houses on the site to be pulled down. The square holds statues of 44 Spanish kings from the medieval period, and a monument to Philip IV stands at its heart.\n\nIt photographs well because everything lines up. The statues run in neat rows towards the palace facade, so the picture almost composes itself, and the open space around it keeps the buildings from feeling crowded. Shooting low among the statues, rather than from the path, gives a slightly theatrical look, with the kings in the foreground and the palace behind them.\n\nThe main shot is from the centre of the square, near the statue of Philip IV, looking towards the Royal Palace. Go early in the morning if you can, when the light is clear and there are fewer visitors in your frame. Part of the flowerbeds now has a tulip garden donated in April 2025, so the foreground may look different from one season to the next.\n\nIf you want a straight-on view of the palace facade with clipped hedges in front, the Jardines de Sabatini are a good second stop. That view shows the palace rather than the square itself.",
    "geographic_location": "Plaza de Oriente is in the historic centre of Madrid, between the Royal Palace to the west and the Teatro Real to the east. The Royal Monastery of la Encarnación is at its northern end.",
-   "directions_text": "Start at Ópera Metro station (Metro line 2, Metro line 5 and Metro line R). The square is to the north-west, about 4 minutes on foot. Santo Domingo Metro station (Metro line 2) also works, with the square to the south-west, about 6 minutes on foot. Once in the square, walk to its centre and look for the statue of Philip IV. The phone icon on the map is about 130 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Ópera Metro station (Metro line 2, Metro line 5 and Metro line R). The square is to the north-west, about 4 minutes on foot. Santo Domingo Metro station (Metro line 2) also works, with the square to the south-west, about 6 minutes on foot. Once in the square, walk to its centre and look for the statue of Philip IV. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the palace and the rows of statues together. Switch to ultra-wide (0.5x) if you crouch low among the statues, or to telephoto (2x or more) to pick out a single king against the facade.",
-    "where_to_stand": "Stand about 130 m south-west of the subject, in Plaza de Oriente (the phone icon on the map), and face north-east. From here the formal gardens and the rows of kings' statues frame the palace facade.",
+    "where_to_stand": "Stand in Plaza de Oriente (centre of the square, near the equestrian statue of Philip IV, looking toward the Royal Palace). The formal gardens and rows of kings' statues framing the Royal Palace facade, shot from among the statues. From here the formal gardens and the rows of kings' statues frame the palace facade.",
     "how_to_frame": "Turn on gridlines and use the rows of statues as leading lines towards the palace. Crouch and hold the phone low so a statue fills one side of the frame. Keep the palace facade level. For a different view, the Jardines de Sabatini give a straight-on shot of the palace facade.",
     "phone_settings_tip": "Tap the palace facade to focus, then slide the exposure down a little if the sky is bright so the stonework keeps its detail. If you try a close statue against the palace, portrait mode can soften the background, but check the edges.",
     "best_time": "Early morning, before most visitors arrive, for clean light and a quieter square. Sunrise silhouettes of the statues are also suggested."
@@ -854,15 +869,16 @@
   "name": "Plaza de España",
   "in_cut": true,
   "label": "Plaza de España",
-  "camera_pill": "Monumento a Cervantes",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 920,
   "pin": [
    -3.7129012,
    40.4228902
   ],
   "camera": [
-   -3.712615,
-   40.423179
+   -3.7129012,
+   40.4228902
   ],
   "camera_source": "Researched viewpoint 'Monumento a Cervantes' (2 web pages); placed at OpenStreetMap 'Monumento a Cervantes' (way/548797040): middle (37 m across).",
   "pin_note": "Position from OpenStreetMap way/4308024: the middle of the OpenStreetMap outline 'Plaza de España' (425 m across).",
@@ -870,10 +886,10 @@
   "text": {
    "description": "Plaza de España is a large, open square at the western end of the Gran Vía, and its centrepiece is the monument to Miguel de Cervantes. A seated figure of the writer sits above statues of Don Quixote and Sancho Panza, with other characters from the novel around the base. In front is a rectangular pond, and behind it rise the Torre de Madrid (142 m, built 1957) and the Edificio España (117 m, built 1953). That mix of stone sculpture, water and two tall buildings is one of the best-known views in the city, and it fits neatly on a phone screen. The monument was made to mark the third centenary of the publication of the second part of Don Quixote (1915) and the centenary of Cervantes's death (1916). The square is planted mostly with olive trees, a nod to the La Mancha countryside in the story. It reopened to pedestrians on 22 November 2021 after more than two years of renovation, so the paths are now easy to wander. Stand a few steps back from the monument on the plaza's paths and look towards the towers. Keep the monument large in the foreground and let the two buildings fill the background. If other visitors are in the way, move to a different path and try again rather than waiting. For a wider view back over the square, the Templo de Debod is worth a look, although from there the square is distant rather than a close frame.",
    "geographic_location": "Plaza de España is in central Madrid, at the western end of the Gran Vía. The Royal Palace is a short walk to the south.",
-   "directions_text": "Take Metro line 3 or Metro line 10 to Plaza de España Metro station, which sits on the eastern corner of the square. From there it is about 4 minutes on foot to the middle of the plaza, heading south-west. Ventura Rodríguez Metro station (Metro line 3) is another option, about 7 minutes on foot, with the square to the south. The phone icon on the map is about 40 m north-east of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "Take Metro line 3 or Metro line 10 to Plaza de España Metro station, which sits on the eastern corner of the square. From there it is about 4 minutes on foot to the middle of the plaza, heading south-west. Ventura Rodríguez Metro station (Metro line 3) is another option, about 7 minutes on foot, with the square to the south. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the monument, the pond and both towers in one frame. Switch to the default lens (1x) for a calmer, more natural look, or to the telephoto (2x or more, depending on your phone) to pick out the monument sculpture or the tops of the towers.",
-    "where_to_stand": "Stand about 40 m north-east of the numbered pin, at the phone icon on the map, and face south-west. Stand a few steps back from the monument on the plaza's paths and face the towers, with the middle of the square just to the south-west. If you want less crowd in the picture, move to a different path.",
+    "where_to_stand": "Stand right at the subject (stand a few steps back from the monument, on the plaza's paths, looking toward the towers). The Cervantes monument in the foreground with the Torre de Madrid and Edificio España rising behind it. Stand a few steps back from the monument on the plaza's paths and face the towers, with the middle of the square just to the south-west. If you want less crowd in the picture, move to a different path.",
     "how_to_frame": "Put the monument in the foreground with the Torre de Madrid and Edificio España rising behind it. Switch on the gridlines and line them up with the buildings so the towers stand upright. Include a slice of the pond at the bottom of the frame. For a different view, the Templo de Debod looks back across the city towards the square, with the Royal Palace and Casa de Campo nearby.",
     "phone_settings_tip": "Tap the monument to focus, then drag the exposure slider down slightly so the sky does not wash out. Keep the phone level to avoid leaning towers. Portrait mode is not needed here.",
     "best_time": "Early morning gives cleaner, less crowded compositions."
@@ -912,15 +928,16 @@
   "name": "Plaza de la Villa",
   "in_cut": true,
   "label": "Plaza de la Villa",
-  "camera_pill": "near Calle del Cordón",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 710,
   "pin": [
    -3.7104079,
    40.4152191
   ],
   "camera": [
-   -3.7105413,
-   40.4146706
+   -3.7104079,
+   40.4152191
   ],
   "camera_source": "Commons cluster (13 photos). Moved 34 m outwards on 2026-11-10 so it is 30 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/4319474: the middle of the OpenStreetMap outline '' (76 m across).",
@@ -928,10 +945,10 @@
   "text": {
    "description": "Plaza de la Villa is a small square in the oldest part of Madrid, just off the Calle Mayor. It photographs well because several very different old buildings stand close together, so you can get a lot of history into one frame. The Casa de los Lujanes and its tower date from the 15th century and are described as the oldest civil building in Madrid. The Casa de Cisneros is 16th-century, and the Casa de la Villa was the old city hall. In the square stands a statue of Álvaro de Bazán by Mariano Benlliure, inaugurated on 19 December 1891. The square was chosen for it partly because its small size makes the statue stand out. The square is only about 76 m across, so you will not be able to step far back. Use the ultra-wide lens (0.5x) to take in the façades and the statue together. Switch to the default lens (1x) for a calmer, less stretched view of one building. If you want a detail, such as the tower or a doorway, the telephoto lens (2x or more) lets you pick it out without walking into the middle of the square. Turn on the gridlines to keep the vertical lines straight, and take a second shot with the statue small in the foreground and the buildings behind it.",
    "geographic_location": "In the Palacio neighbourhood of Madrid's Centro District, in the old centre, next to the Calle Mayor.",
-   "directions_text": "From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R), walk south to the square; it is about 317 m away. From La Latina Metro station (Metro line 5), head north-west; it is about 434 m away. The phone icon on the map is about 30 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R), walk south to the square; it is about 317 m away. From La Latina Metro station (Metro line 5), head north-west; it is about 434 m away. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the whole square, then use the default lens (1x) for a more natural view. Use telephoto (2x-5x, depending on your phone) for the tower and building details.",
-    "where_to_stand": "Stand about 30 m south of the subject, at the phone icon on the map, and face north. Once you are there, you can walk a few steps in for different angles.",
+    "where_to_stand": "Stand in Plaza de la Villa (near the Casa de la Villa, on the west side of the square). A wide view of the whole square, with the Casa de la Villa's facade, the Casa de Cisneros, and the Torre de los Lujanes framing the Bazán statue. Once you are there, you can walk a few steps in for different angles.",
     "how_to_frame": "Turn on the gridlines and line up the edges of the buildings with the vertical lines. Put the statue of Álvaro de Bazán low in the frame, with the old façades rising behind it. For a second shot, step in and frame the Casa de los Lujanes tower on its own.",
     "phone_settings_tip": "Tap the brightest façade to set focus, then drag the exposure slider down slightly so the sky and the stonework keep their detail. Keep your phone upright to limit leaning verticals.",
     "best_time": "Go early in the morning, when the square tends to be quieter, or in soft light later in the day. Avoid the middle of the day if you want to avoid harsh shadows across the small square."
@@ -972,6 +989,7 @@
   "in_cut": true,
   "label": "Bellas Artes rooftop",
   "camera_pill": null,
+  "nophone": false,
   "searches": 610,
   "pin": [
    -3.6964999,
@@ -1027,26 +1045,27 @@
   "name": "Arco de Cuchilleros",
   "in_cut": true,
   "label": "Arco de Cuchilleros",
-  "camera_pill": "Calle de Cuchilleros",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 180,
   "pin": [
    -3.7080289,
    40.4148816
   ],
   "camera": [
-   -3.708028,
-   40.414531
+   -3.7080289,
+   40.4148816
   ],
   "camera_source": "Researched viewpoint 'Calle de Cuchilleros' (2 web pages); placed at the stretch of Calle de Cuchilleros nearest the subject (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/5930458: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "",
   "text": {
-   "description": "The Arco de Cuchilleros is an arch on the edge of Plaza Mayor, where a steep staircase drops down to Calle de Cuchilleros. It photographs well because the elements line up. The arch sits at the top of the steps, tall leaning facades rise on both sides, and the restaurant street fills the foreground. That gives a phone picture real depth, with a natural frame inside the frame.\n\nThe view most worth taking is from the bottom of the steep steps, looking up at the arch. Go to the phone icon on the map and face north, and the arch is just ahead of you. From here you get the staircase leading the eye upwards and the old buildings closing in on either side. Two other angles are worth a try if you have time. One is from Cava de San Miguel, the lower street, which shows how much higher the square is than the street. The other is from the Plaza Mayor side, where you can shoot through or from the arcades and frame the arch from above.\n\nThis is a busy tourist area with restaurant terraces on Calle de Cuchilleros and Cava de San Miguel, so expect crowds, especially in summer. The steps are steep, so take care if you stand on them, and try not to block people while you take your shot.",
+   "description": "The Arco de Cuchilleros is an arch on the edge of Plaza Mayor, where a steep staircase drops down to Calle de Cuchilleros. It photographs well because the elements line up. The arch sits at the top of the steps, tall leaning facades rise on both sides, and the restaurant street fills the foreground. That gives a phone picture real depth, with a natural frame inside the frame.\n\nThe view most worth taking is from the bottom of the steep steps, looking up at the arch. From here you get the staircase leading the eye upwards and the old buildings closing in on either side. Two other angles are worth a try if you have time. One is from Cava de San Miguel, the lower street, which shows how much higher the square is than the street. The other is from the Plaza Mayor side, where you can shoot through or from the arcades and frame the arch from above.\n\nThis is a busy tourist area with restaurant terraces on Calle de Cuchilleros and Cava de San Miguel, so expect crowds, especially in summer. The steps are steep, so take care if you stand on them, and try not to block people while you take your shot.",
    "geographic_location": "In the old centre of Madrid, on the edge of Plaza Mayor, just above Calle de Cuchilleros and close to Cava de San Miguel.",
-   "directions_text": "From La Latina Metro station (Metro line 5), it is about 350 m on foot; the arch lies to the north. From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R), it is about 370 m on foot, with the arch to the south. Head for the foot of the steep staircase on Calle de Cuchilleros, which is the phone icon on the map. The phone icon on the map is about 30 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From La Latina Metro station (Metro line 5), it is about 350 m on foot; the arch lies to the north. From Ópera Metro station (Metro line 2, Metro line 5 and Metro line R), it is about 370 m on foot, with the arch to the south. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole staircase, the arch and the leaning facades in one frame. Switch to the default lens (1x) for a more natural look with less edge stretching. Use the telephoto (2x-5x, depending on your phone) for a tighter shot of the arch itself.",
-    "where_to_stand": "Stand about 30 m south of the subject, on Calle de Cuchilleros (the phone icon on the map), and face north. Facing the arch to the north. From here the arch is framed by its staircase and the tall leaning facades on either side, with the restaurant street in front of you.",
+    "where_to_stand": "Stand on Calle de Cuchilleros (bottom of the steep steps, facing the arch). The arch framed by its steep staircase and the tall leaning facades on either side, with the restaurant street in front. Facing the arch to the north. From here the arch is framed by its staircase and the tall leaning facades on either side, with the restaurant street in front of you.",
     "how_to_frame": "Turn on the gridlines and line up the arch in the centre, using the staircase as a leading line. Hold the phone level so the facades do not lean even more than they do already. If you want a different angle, try the view from Cava de San Miguel, which shows the height difference between the street and the square above.",
     "phone_settings_tip": "Tap on the arch to set focus, then drag the exposure slider down a little so the bright sky above does not wash out the stonework. If the street is dim, night mode can help, but hold the phone steady against a wall or rail while it works.",
     "best_time": "Go early in the day if you can, as the street is likely to be quieter before the restaurant terraces fill up. Expect crowds in summer whatever the time."
@@ -1080,26 +1099,27 @@
   "name": "Basilica of San Francisco el Grande",
   "in_cut": true,
   "label": "San Francisco el Grande",
-  "camera_pill": "Faro de Moncloa",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 120,
   "pin": [
    -3.7145249,
    40.4104164
   ],
   "camera": [
-   -3.71904,
-   40.435783
+   -3.7145249,
+   40.4104164
   ],
   "camera_source": "Researched viewpoint 'Faro de Moncloa' (1 web pages); placed at OpenStreetMap 'Faro de Moncloa' (node/12355286722): point.",
   "pin_note": "Position from OpenStreetMap way/28702618: the middle of the OpenStreetMap outline 'Real Basílica de San Francisco el Grande' (104 m across).",
   "notes": "",
   "text": {
-   "description": "The Royal Basilica of San Francisco el Grande is a Roman Catholic church in the Palacio neighbourhood of central Madrid. It is best known for its huge dome. The church is neoclassical, built in the second half of the 18th century on the site of an older Franciscan convent, and it was designed by Francisco Cabezas, Antonio Pló and Francesco Sabatini in turn. The dome is 33 metres across and 58 metres high, and it is reportedly the fourth biggest in Europe. It was named a minor basilica in 1963 and a national historic-artistic monument in 1980.\n\nOn this map the phone icon on the map is the Faro de Moncloa terrace, which gives a quieter, distant view. From there the basilica's dome is one of three Madrid silhouettes you can fit into one frame, alongside the Royal Palace and the Almudena Cathedral. A Madrid sunset guide recommends the spot for exactly that reason. The basilica is small in the picture, so treat it as a skyline photo rather than a portrait of the building.\n\nIf you want the building itself, go to the street in front of it. There the full neoclassical front is framed with the dome behind. Another option is the edge of the Jardines de San Francisco, where the basilica sits beside the gardens with a sculpture in the foreground.",
+   "description": "The Royal Basilica of San Francisco el Grande is a Roman Catholic church in the Palacio neighbourhood of central Madrid. It is best known for its huge dome. The church is neoclassical, built in the second half of the 18th century on the site of an older Franciscan convent, and it was designed by Francisco Cabezas, Antonio Pló and Francesco Sabatini in turn. The dome is 33 metres across and 58 metres high, and it is reportedly the fourth biggest in Europe. It was named a minor basilica in 1963 and a national historic-artistic monument in 1980.\n\nFrom there the basilica's dome is one of three Madrid silhouettes you can fit into one frame, alongside the Royal Palace and the Almudena Cathedral. A Madrid sunset guide recommends the spot for exactly that reason. The basilica is small in the picture, so treat it as a skyline photo rather than a portrait of the building.\n\nIf you want the building itself, go to the street in front of it. There the full neoclassical front is framed with the dome behind. Another option is the edge of the Jardines de San Francisco, where the basilica sits beside the gardens with a sculpture in the foreground.",
    "geographic_location": "The basilica is in the Palacio neighbourhood of central Madrid. Its main front faces the Plaza of San Francisco, where Bailén, the Gran Vía de San Francisco and the Carrera de San Francisco meet.",
-   "directions_text": "The easiest way to reach the basilica itself is by Metro line 5. From Puerta de Toledo Metro station it lies to the north-west, about 475 m away. From La Latina Metro station it lies to the west, about 570 m away. The Faro de Moncloa viewpoint is a long way to the north of the basilica, on the far side of the city centre, so use it for the distant skyline view rather than as a stop on the way. The phone icon on the map is about 2.8 km north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The easiest way to reach the basilica itself is by Metro line 5. From Puerta de Toledo Metro station it lies to the north-west, about 475 m away. From La Latina Metro station it lies to the west, about 570 m away. The Faro de Moncloa viewpoint is a long way to the north of the basilica, on the far side of the city centre, so use it for the distant skyline view rather than as a stop on the way. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the whole skyline with the Royal Palace and the Almudena Cathedral. Then zoom to the telephoto (3x-5x, depending on your phone) to bring the dome closer. The ultra-wide (0.5x) will make the dome tiny, so save it for other spots.",
-    "where_to_stand": "Stand about 2.8 km north of the subject, on Faro de Moncloa (the phone icon on the map), and face south. The basilica lies to the south from here. Look for the view where its dome sits beside the Royal Palace and the Almudena Cathedral in a distant skyline.",
+    "where_to_stand": "Stand on Faro de Moncloa. A distant skyline view in which the basilica's dome appears alongside the Royal Palace and the Almudena Cathedral. The basilica lies to the south from here. Look for the view where its dome sits beside the Royal Palace and the Almudena Cathedral in a distant skyline.",
     "how_to_frame": "Turn on gridlines and put the skyline along one of the lower lines, so the sky has room above it. Try one wide shot with all three silhouettes, then a zoomed shot of the dome. For a closer, front-on picture of the building, use the street in front of the basilica instead. The edge of the Jardines de San Francisco is another alternative.",
     "phone_settings_tip": "Tap on the skyline to focus, then drag the exposure slider down a little so the sky keeps its colour. Hold the phone steady with both hands when zoomed in, and take a few shots in case one is blurred.",
     "best_time": "Madrid sunset guides recommend this viewpoint, so aim for the hour before sunset, when the skyline is warmly lit. Night mode can help if you stay on until it is dusk."
@@ -1138,6 +1158,7 @@
   "in_cut": false,
   "label": "Atocha garden",
   "camera_pill": null,
+  "nophone": false,
   "searches": 50,
   "pin": [
    -3.6893,

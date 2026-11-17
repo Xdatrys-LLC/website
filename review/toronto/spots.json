@@ -4,15 +4,16 @@
   "name": "CN Tower",
   "in_cut": true,
   "label": "CN Tower",
-  "camera_pill": "Roundhouse Park",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 122900,
   "pin": [
    -79.3871153,
    43.6425012
   ],
   "camera": [
-   -79.385304,
-   43.641387
+   -79.3871153,
+   43.6425012
   ],
   "camera_source": "Researched viewpoint 'Roundhouse Park' (2 web pages); placed at OpenStreetMap 'Roundhouse Park' (way/197447516): middle (336 m across).",
   "pin_note": "Position from OpenStreetMap node/368385388: the OpenStreetMap point 'CN Tower Edge Walk'.",
@@ -20,10 +21,10 @@
   "text": {
    "description": "The CN Tower is Toronto's signature landmark, a 553.3-metre communications and observation tower that was completed in 1976. It stands on the former Railway Lands in downtown Toronto, and its name comes from Canadian National, the railway company that built it. For 32 years, from 1975 until 2007, it was the world's tallest free-standing structure. It still photographs well because of its simple outline: one slender concrete shaft, a pod near the top and a thin antenna above. Up close it is almost too tall to fit in a phone frame, so the trick is to step back. Roundhouse Park is a short walk from the base, with open space around you and room to include the whole tower from bottom to antenna. Keep the phone upright, use the gridlines to line the shaft up with a vertical line, and leave a little sky above the antenna. A bit of the park, a path or a bench in the lower part of the frame gives a sense of scale. If you want a second angle, Harbourfront Park on the waterfront offers a symmetrical view across open lawns. Please be aware that the observation levels are a paid attraction, and the tower itself is not visible from inside it.",
    "geographic_location": "The CN Tower is in downtown Toronto, on the former Railway Lands just south of Front Street and close to the Harbourfront. Roundhouse Park sits a short walk south-east of the tower's base.",
-   "directions_text": "From Union station (Line 1 subway), the tower is about 11 minutes on foot to the south-west, and St. Andrew station (Line 1 subway) is about 10 minutes away. By streetcar 509, get off at Rees Street, about 7 minutes on foot from the tower, or at Harbourfront Centre, about 9 minutes on foot. Roundhouse Park is just south-east of the tower, so allow a few extra minutes to reach the phone icon on the map. The phone icon on the map is about 190 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Union station (Line 1 subway), the tower is about 11 minutes on foot to the south-west, and St. Andrew station (Line 1 subway) is about 10 minutes away. By streetcar 509, get off at Rees Street, about 7 minutes on foot from the tower, or at Harbourfront Centre, about 9 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole tower in one frame, then try the default lens (1x) for a cleaner look with less stretching at the edges. Telephoto (2x-5x) is good for a close-up of the pod and antenna.",
-    "where_to_stand": "Stand about 190 m south-east of the subject, in Roundhouse Park (the phone icon on the map), and face north-west. From there the tower is to the north-west, and standing back from its base lets the full structure fit in the frame, with space around you away from the busiest crowds near the entrance.",
+    "where_to_stand": "Stand in Roundhouse Park (a short walk south of the tower, away from its base). The whole tower fits in frame from a little distance, with room to use a wide-angle lens. From there the tower is to the north-west, and standing back from its base lets the full structure fit in the frame, with space around you away from the busiest crowds near the entrance.",
     "how_to_frame": "Hold the phone upright, switch on the gridlines and keep the tower's shaft on one vertical line so it doesn't lean. Leave a little sky above the antenna and use the park's grass or paths at the bottom of the frame. For a different view, Harbourfront Park gives a direct, symmetrical line of sight to the tower across open lawns.",
     "phone_settings_tip": "Tap on the tower to set focus, then drag the exposure slider down a little so the sky stays blue and the shaft keeps its detail. Wipe the lens first, as ultra-wide shots show smudges easily.",
     "best_time": "Early morning or late afternoon usually means softer light and fewer people. At dusk, steady your phone and use night mode for the tower against the darkening sky."
@@ -61,15 +62,16 @@
   "name": "Casa Loma",
   "in_cut": true,
   "label": "Casa Loma",
-  "camera_pill": "Austin Terrace",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 31455,
   "pin": [
    -79.4093896,
    43.6780969
   ],
   "camera": [
-   -79.409644,
-   43.678618
+   -79.4093896,
+   43.6780969
   ],
   "camera_source": "Researched viewpoint 'Austin Terrace' (2 web pages); placed at the stretch of Austin Terrace nearest the subject (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/198471666: the middle of the OpenStreetMap outline 'Casa Loma' (95 m across).",
@@ -77,10 +79,10 @@
   "text": {
    "description": "Casa Loma is a Gothic Revival, castle-style mansion on a hill in midtown Toronto. It was built between 1911 and 1914 as a home for the financier Sir Henry Pellatt, to designs by the architect E. J. Lennox. With 98 rooms, it was the largest private residence in Canada when it was built, and it now operates as a museum. It sits 66 metres above Lake Ontario, which is why the towers and battlements stand out so clearly above the neighbouring streets.\n\nIt photographs well because the stonework, turrets and towers give you plenty of shapes to work with, and the quiet, tree-lined residential street in front gives a pleasing setting. From Austin Terrace you can frame the front of the castle without going inside, with the towers rising above the trees. If you want a different feel, the Baldwin Steps climb the slope towards the castle's western side, and Spadina Park shows the building on its grassy rise with more space around it.\n\nThe formal front gardens are not open all year, and the view from the top of the towers needs a ticket, so keep your plans flexible. Take a few frames from the street first, then decide whether to go in. Wipe your phone lens before you start, as city dust and fingerprints show up as haze on pale stonework.",
    "geographic_location": "Casa Loma stands on a hill in midtown Toronto, north-west of Dupont station and north of Spadina Road. Austin Terrace is the quiet residential street beside it.",
-   "directions_text": "The easiest way is to take the Line 1 subway to Dupont station. The castle is north-west of the station, about 6 minutes on foot. Alternatively, take the Line 2 subway or streetcar 512 to Bathurst station, then walk north-east for about 8-10 minutes. Head up the hill, and the castle's towers will guide you the rest of the way. The phone icon on the map is about 35 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The easiest way is to take the Line 1 subway to Dupont station. The castle is north-west of the station, about 6 minutes on foot. Alternatively, take the Line 2 subway or streetcar 512 to Bathurst station, then walk north-east for about 8-10 minutes. Head up the hill, and the castle's towers will guide you the rest of the way. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole front of the castle. Switch to the ultra-wide (0.5x) if the street is narrow and you cannot fit the towers in. Use telephoto (2x-5x, depending on your phone) for towers, windows and stonework.",
-    "where_to_stand": "Stand about 35 m north of the subject, on Austin Terrace (the phone icon on the map), and face south. From here you see the castle's front facade framed by the tree-lined street, with the towers and stonework above. Keep to the pavement and stay clear of driveways.",
+    "where_to_stand": "Stand on Austin Terrace (street-side view looking southeast at the castle's front). The castle's front facade framed by the tree-lined residential street, with the building's towers and stonework in view. From here you see the castle's front facade framed by the tree-lined street, with the towers and stonework above. Keep to the pavement and stay clear of driveways.",
     "how_to_frame": "Turn on gridlines and line a tower up with a vertical grid line so the walls don't lean. Let the trees and the street frame the castle at the sides. For a different angle, try the Baldwin Steps, which lead up towards the castle's western side, or Spadina Park for the castle on its grassy slope. Check both positions on the map first.",
     "phone_settings_tip": "Tap on the stonework to set focus, then drag the exposure slider down a little so the sky doesn't wash out and the walls keep their colour. Take a few shots at 0.5x, 1x and 2x so you can pick the best one later.",
     "best_time": "Try mid to late afternoon, when the front of the castle may catch softer light. Trees along the street can screen the building when in leaf, so you may get a clearer view of the stonework in late autumn, winter or early spring."
@@ -117,26 +119,27 @@
   "name": "Royal Ontario Museum (the Crystal)",
   "in_cut": true,
   "label": "Royal Ontario Museum",
-  "camera_pill": "near Bloor Street West",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 21700,
   "pin": [
    -79.394695,
    43.6676944
   ],
   "camera": [
-   -79.39413,
-   43.668701
+   -79.394695,
+   43.6676944
   ],
   "camera_source": "Researched viewpoint 'Bloor Street West and Queen's Park' (4 web pages); placed at crossing of Bloor Street West and Queen's Park (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/4942687: the middle of the OpenStreetMap outline 'Royal Ontario Museum' (217 m across).",
   "notes": "Photographed from outside: the Michael Lee-Chin Crystal.",
   "text": {
-   "description": "The Royal Ontario Museum is one of the largest museums in North America, and its Michael Lee-Chin Crystal is the part that stops people on the pavement. Daniel Libeskind designed it as a cluster of tilted, angular prisms of aluminium and glass. It was added to the older stone museum building, which opened in 1914, and the Crystal's architectural opening took place on 2 June 2007. The pairing is why it photographs so well: sharp modern shapes sit right up against heavy, rounded stonework, and both fit in one frame.\n\nThe phone icon on the map is about 35 m north of the subject. From there you look south across the Crystal's northern face, with the older stone wing beside it. The contrast between old and new reads most clearly from this spot. Dusk is the favourite time, when the lit glass glows against the darkening sky.\n\nThe museum is also being renovated at the moment, with work continuing into 2026, so parts of the building may look different from older pictures. Take a few frames from the phone icon on the map, then walk along Bloor Street West towards Avenue Road for a second view. There you can see the Crystal's angles and the north front of the East Wing together along the line of the street. Watch for pedestrians and keep your phone close to you on a busy pavement.",
+   "description": "The Royal Ontario Museum is one of the largest museums in North America, and its Michael Lee-Chin Crystal is the part that stops people on the pavement. Daniel Libeskind designed it as a cluster of tilted, angular prisms of aluminium and glass. It was added to the older stone museum building, which opened in 1914, and the Crystal's architectural opening took place on 2 June 2007. The pairing is why it photographs so well: sharp modern shapes sit right up against heavy, rounded stonework, and both fit in one frame.\n\nFrom there you look south across the Crystal's northern face, with the older stone wing beside it. The contrast between old and new reads most clearly from this spot. Dusk is the favourite time, when the lit glass glows against the darkening sky.\n\nThe museum is also being renovated at the moment, with work continuing into 2026, so parts of the building may look different from older pictures. There you can see the Crystal's angles and the north front of the East Wing together along the line of the street. Watch for pedestrians and keep your phone close to you on a busy pavement.",
    "geographic_location": "The museum is in Toronto's University district, just north of Queen's Park and next to the University of Toronto's St. George campus. Its main entrance is on Bloor Street West.",
-   "directions_text": "Take the Line 1 subway to Museum station, whose north-western entrance serves the museum directly. From there it is about 2 minutes on foot to the museum, then a short walk to the phone icon on the map on Bloor Street West. Alternatively, get off at St. George (Line 1 subway or Line 2 subway) and walk east, roughly 4-5 minutes (about 340 m). The phone icon on the map is about 35 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the Line 1 subway to Museum station, whose north-western entrance serves the museum directly. Alternatively, get off at St. George (Line 1 subway or Line 2 subway) and walk east, roughly 4-5 minutes (about 340 m). The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to show the Crystal beside the older stone wing. Switch to ultra-wide (0.5x) if you want the whole tilting form in one frame from the pavement. Use the telephoto (2x-5x, depending on your phone) for close shots of the angled glass and edges.",
-    "where_to_stand": "Stand about 35 m north of the subject, at the corner of Bloor Street West and Queen's Park (the phone icon on the map), and face south. From here you look across the Crystal's northern face, with its angled aluminium-and-glass prisms rising over Bloor Street and the older stone wing of the museum beside it. As an alternative, try Bloor Street West and Avenue Road for the Crystal's sharp angles and the East Wing's north front along the street line.",
+    "where_to_stand": "Stand at the corner of Bloor Street West and Queen's Park (sidewalk at the southwest corner, looking across the Crystal's northern face). The angled aluminum-and-glass prisms of the Crystal rising over Bloor Street, set against the older stone wing of the museum. From here you look across the Crystal's northern face, with its angled aluminium-and-glass prisms rising over Bloor Street and the older stone wing of the museum beside it. As an alternative, try Bloor Street West and Avenue Road for the Crystal's sharp angles and the East Wing's north front along the street line.",
     "how_to_frame": "Switch on the gridlines and line up the stone wing and the Crystal so each fills about half the frame, to show the contrast between old and new. Keep the phone level so the vertical lines don't lean too much, and use 0.5x only when you can't fit the whole building in at 1x. From the Avenue Road corner, use the line of the street as a lead-in towards the Crystal.",
     "phone_settings_tip": "Tap on the lit part of the glass to set focus, then drag the exposure slider down a little so the bright panels don't wash out. At dusk, turn on night mode and hold the phone steady against a lamp post or your own arms to keep the lines sharp.",
     "best_time": "Dusk, when the lit glass glows against the darkening sky."
@@ -175,15 +178,16 @@
   "name": "St. Lawrence Market",
   "in_cut": true,
   "label": "St. Lawrence Market",
-  "camera_pill": "Front Street East",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 19340,
   "pin": [
    -79.3715745,
    43.6487389
   ],
   "camera": [
-   -79.371924,
-   43.649172
+   -79.3715745,
+   43.6487389
   ],
   "camera_source": "Researched viewpoint 'Front Street East' (2 web pages); placed at the stretch of Front Street East nearest the subject (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/24626769: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -191,10 +195,10 @@
   "text": {
    "description": "St. Lawrence Market is a busy food market in the St. Lawrence neighbourhood of downtown Toronto. For photographs, the most useful view is the main South Market building on the south side of Front Street East. Its brick façade and arched windows make a solid, balanced frame, and the street in front adds some life to the picture. On a market day, people walking past give the shot a sense of scale and activity.\n\nOne thing to know before you go: the North Market building was rebuilt and reopened in 2025, so it may look different from older photos you have seen online. Saturday mornings are the busiest and most colourful time, but the crowds can block a clean view of the building. If you want a quieter frame of the architecture, aim for an early weekday morning.\n\nFor a second picture, walk to Wellington Street East. From there the market and the neighbourhood sit in the foreground, with the downtown skyline rising behind. The flatiron Gooderham Building is close by and can fit into the same frame. Keep the phone level so the façade doesn't lean, and take a few frames as people move through the scene. The interior is dim, so treat this as an outdoor photo stop and check current access and any construction on Front Street before you set off.",
    "geographic_location": "In the St. Lawrence neighbourhood of downtown Toronto, on Front Street East, with the Gooderham Building a short walk away.",
-   "directions_text": "The nearest Line 1 subway stop is King station, about 500 m away, roughly a 6-minute walk, with the market to the east. You can also take streetcar 503 to Wellington Street East, about 3 minutes on foot to the east. From Union station (about 780 m) it is roughly a 10-minute walk, with the market to the north-east of the station. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest Line 1 subway stop is King station, about 500 m away, roughly a 6-minute walk, with the market to the east. You can also take streetcar 503 to Wellington Street East, about 3 minutes on foot to the east. From Union station (about 780 m) it is roughly a 10-minute walk, with the market to the north-east of the station. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the façade and the street in front of it. Use the ultra-wide (0.5x) only if crowds or the pavement force you too close, and keep the phone level. Try telephoto (2x or more, depending on your phone) for the arched windows and brickwork.",
-    "where_to_stand": "Stand on Front Street East, right in front of the subject: the phone icon on the map marks the spot. From here the market's brick front and arched windows face you, with the street and any market crowds in the foreground. Look towards the south-east.",
+    "where_to_stand": "Stand on Front Street East (south side, across from the South Market's main façade). The market's brick façade and arched windows with the street and weekend crowds in front, framed for a street-level shot. From here the market's brick front and arched windows face you, with the street and any market crowds in the foreground. Look towards the south-east.",
     "how_to_frame": "Turn on gridlines and line the building's edges up with them so the façade stays straight. Leave a little street in the bottom of the frame to show the market atmosphere. For a different view, walk to Wellington Street East and shoot with the neighbourhood in front and the downtown skyline behind, including the Gooderham Building.",
     "phone_settings_tip": "Tap on the brickwork to set focus, then slide the exposure down a touch if the sky is bright, so the brick keeps its colour. Take a few shots in a row when people are walking past, then pick the clearest one.",
     "best_time": "Early morning on a weekday gives the cleanest frames. Saturday mornings are the most colourful, but crowds can block the view."
@@ -227,15 +231,16 @@
   "name": "Hockey Hall of Fame building",
   "in_cut": true,
   "label": "Hockey Hall of Fame",
-  "camera_pill": "near Yonge Street",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 15715,
   "pin": [
    -79.3774173,
    43.6470452
   ],
   "camera": [
-   -79.376942,
-   43.646869
+   -79.3774173,
+   43.6470452
   ],
   "camera_source": "Researched viewpoint 'Our Game' (3 web pages); placed at crossing of Yonge Street and Front Street West (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/62255416: the middle of the OpenStreetMap outline 'Hockey Hall of Fame' (43 m across).",
@@ -243,10 +248,10 @@
   "text": {
    "description": "The Hockey Hall of Fame is Toronto's museum of ice hockey, and its stone-fronted home sits on the corner of Yonge and Front Streets. It forms part of Brookfield Place and includes the historic Bank of Montreal building, which gives the corner its grand, old-fashioned look. This location opened on 18 June 1993. Inside, the exhibition space covers 4,700 square metres, though for this spot you only need the street outside.\n\nThe building photographs well because of the bronze 'Our Game' sculpture on the corner. It shows players leaping over the boards, and guides call it one of the most photographed sights in Toronto. Standing by it gives you a ready-made foreground. The carved stone facade fills the background, so the shot has a clear subject up close and plenty of architecture behind it.\n\nIf you want a second angle, walk to Yonge Street. From there the corner building angles towards you, and the Bank of Montreal facade and its rooftop dome show up the street. Front Street West gives a diagonal view of the carved stonework and the street-level entrance. Take your time at each, as pavements here can be busy. Exterior renovations were reported in mid-2024, so scaffolding or hoarding may cover part of the facade. Check current conditions before you go, and be ready to shift your angle if something is in the way.",
    "geographic_location": "The building is in downtown Toronto, at the north-west corner of Yonge Street and Front Street, within Brookfield Place. It is a short walk from Union station and King station.",
-   "directions_text": "From King station (Line 1 subway), the building is to the south, about 3 minutes on foot. From Union station (Line 1 subway) it is to the north-east, about 4 minutes on foot. Streetcar 509 stops at Union Station, about 3 minutes on foot away, and streetcar 503 stops at Yonge Street, King Station, about 4 minutes on foot away. Once you reach the corner of Yonge and Front, look for the bronze sculpture outside the building. The phone icon on the map is about 15 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From King station (Line 1 subway), the building is to the south, about 3 minutes on foot. From Union station (Line 1 subway) it is to the north-east, about 4 minutes on foot. Streetcar 509 stops at Union Station, about 3 minutes on foot away, and streetcar 503 stops at Yonge Street, King Station, about 4 minutes on foot away. Once you reach the corner of Yonge and Front, look for the bronze sculpture outside the building. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the sculpture with the facade behind it. Switch to ultra-wide (0.5x) if pavement space is tight, and keep the phone level so the stonework doesn't lean. Use telephoto (2x or more, depending on your phone) for carved details across the street.",
-    "where_to_stand": "Stand about 15 m south-east of the subject, at the corner of Yonge Street and Front Street West (the phone icon on the map), and face north-west. The players leap in the foreground and the Hall's stone facade rises behind them, to the north-west of you.",
+    "where_to_stand": "Stand at the corner of Yonge Street and Front Street West (outside the building on the corner, by the bronze sculpture). The bronze 'Our Game' sculpture of players leaping over the boards in the foreground, with the Hall's stone facade behind it. The players leap in the foreground and the Hall's stone facade rises behind them, to the north-west of you.",
     "how_to_frame": "Put the sculpture low in the frame and let the facade fill the space behind it. Turn on gridlines and place the players on one of the lower lines. For a different view, try Yonge Street, where the corner building angles towards you with the Bank of Montreal dome up the street. Front Street West gives a diagonal view of the carved stonework and entrance.",
     "phone_settings_tip": "Tap the sculpture to focus, then drag the exposure slider down slightly so the bronze and the pale stone both keep their detail. Take a few frames, as people often walk through the shot.",
     "best_time": "Early in the day is likely to be quieter on the pavement. The Yonge Street side faces east, so morning light should fall on it. Whatever the time, check the facade is not covered by scaffolding."
@@ -277,15 +282,16 @@
   "name": "Distillery District",
   "in_cut": true,
   "label": "Distillery District",
-  "camera_pill": "near Tank House Lane",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 12175,
   "pin": [
    -79.3592896,
    43.650177
   ],
   "camera": [
-   -79.359539,
-   43.650295
+   -79.3592896,
+   43.650177
   ],
   "camera_source": "Researched viewpoint 'LOVE sculpture at Trinity Street and Tank House Lane' (3 web pages); placed at crossing of Trinity Street and Tank House Lane (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/379296804: the middle of the OpenStreetMap outline 'Distillery District' (460 m across).",
@@ -293,10 +299,10 @@
   "text": {
    "description": "The Distillery District is a car-free quarter of brick-paved lanes and Victorian factory buildings on the lower east side of downtown Toronto. It was once the Gooderham and Worts Distillery, founded in 1832. Today more than forty heritage buildings across about 13 acres hold cafés, galleries, shops and restaurants. It is described as the largest collection of Victorian-era industrial architecture in North America, and it became a National Historic Site of Canada in 1988. The photos work because everything is built from the same warm brick, and there are no cars to spoil the frame. The big red LOVE sculpture on the corner of Trinity Street and Tank House Lane is the district's best-known photo. Its bright colour stands out against the dark warehouse walls, with the cobbled lanes leading away behind it. Trinity Street is the widest street and often works as a small public square, so there is room to step back and fit the whole scene in. Weekday mornings are calmest. Weekends and the Winter Village season (roughly November to early January) bring much bigger crowds, especially later in the day. If you have time, walk on to the corner of Mill Street and Trinity Street for a view of several old distillery buildings together, or to Case Goods Lane for a narrow brick lane with string lights overhead.",
    "geographic_location": "The Distillery District sits on the lower east side of downtown Toronto. It is bordered by Parliament Street to the west, Mill Street to the north and Cherry Street to the east.",
-   "directions_text": "The nearest Line 1 subway station is King, about 24 minutes on foot, with the district to the east. By streetcar, get off at Lower River Street (streetcar 503), about 13 minutes on foot, and walk south. Sackville Street (streetcars 306, 501, 503, 505 and 506) is about 15 minutes on foot, also with the district to the south. Once inside, head for the corner of Trinity Street and Tank House Lane. The phone icon on the map is about 25 m north-west of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest Line 1 subway station is King, about 24 minutes on foot, with the district to the east. By streetcar, get off at Lower River Street (streetcar 503), about 13 minutes on foot, and walk south. Sackville Street (streetcars 306, 501, 503, 505 and 506) is about 15 minutes on foot, also with the district to the south. Once inside, head for the corner of Trinity Street and Tank House Lane. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the sculpture, the brick walls and the lane in one frame. Then switch to the default lens (1x) for a more natural look. Try 2x for tighter shots of brick details and the sculpture's shape.",
-    "where_to_stand": "Stand about 25 m north-west of the numbered pin, at the phone icon on the map, and face south-east. From here your photo shows the red sculpture against the brick warehouse walls, framed by the cobbled lanes. The middle of the district lies a short way to the south-east.",
+    "where_to_stand": "Stand at the corner of Trinity Street and Tank House Lane (by the large red LOVE sculpture on the corner). The big red LOVE sculpture in front of the brick warehouse walls, framed by the cobblestone lanes. From here your photo shows the red sculpture against the brick warehouse walls, framed by the cobbled lanes. The middle of the district lies a short way to the south-east.",
     "how_to_frame": "Turn on gridlines and put the sculpture on one third of the frame, with the brick walls and lane filling the rest. Crouch slightly to keep the sculpture clear of passers-by. If you want something different, walk to the corner of Mill Street and Trinity Street, where several old distillery buildings come together in one view.",
     "phone_settings_tip": "Tap the sculpture to focus, then lower the exposure slider a little so the red stays rich and the brick does not wash out. Keep the phone level so the building edges stay straight. In the evening, use night mode on Case Goods Lane and hold the phone steady against a wall or rail.",
     "best_time": "Weekday mornings, before the lanes fill with shoppers and brunch crowds. Evenings suit the lit-up lanes, but they are busier."
@@ -335,15 +341,16 @@
   "name": "Kensington Market",
   "in_cut": true,
   "label": "Kensington Market",
-  "camera_pill": "near Augusta Avenue",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 10390,
   "pin": [
    -79.4006778,
    43.6547722
   ],
   "camera": [
-   -79.402658,
-   43.656097
+   -79.4006778,
+   43.6547722
   ],
   "camera_source": "Researched viewpoint 'Garden Car' (3 web pages); placed at crossing of Augusta Avenue and Oxford Street (our map tiles).",
   "pin_note": "Position from OpenStreetMap relation/11879671: large area 'Kensington Market' (1034 m across): previous pin kept, it lies inside.",
@@ -351,10 +358,10 @@
   "text": {
    "description": "Kensington Market is a lively, mixed neighbourhood just west of Chinatown, packed with small shops, cafés and painted storefronts. It was named a National Historic Site of Canada in November 2006. The writer Robert Fulford said in 1999 that the market had probably been photographed more often than any other place in Toronto. In the 1920s it was known as the Jewish Market, and later waves of newcomers from Portugal, the Caribbean, East Asia and Latin America added to its mix of food and shopfronts. Today you also see many Victorian row houses between the shops.\n\nFor photos, start at the Garden Car, the mural-covered old car with plants growing out of it. Guides treat it as the market's unofficial mascot. Behind it you get the bright painted fronts that make the area so easy to shoot on a phone. The car is only there in warmer months, so it may be missing in winter. Check before you go. The best street scenes run along Augusta Avenue and nearby Nassau Street, Baldwin Street and Kensington Avenue. If the car is away, the same colourful frontages still make good pictures. For a different view, Graffiti Alley is full of murals, and the Kensington Parking Garage looks over the low rooftops towards the CN Tower. Murals change often, so a wall you saw online may look different.",
    "geographic_location": "Kensington Market is in Downtown Toronto, west of Spadina Avenue and Chinatown, between College Street to the north and Dundas Street West to the south. Its main shopping streets are Augusta Avenue, Nassau Street, Baldwin Street and Kensington Avenue.",
-   "directions_text": "The nearest streetcar stop is Augusta Avenue (streetcar 306, streetcar 501 and streetcar 506), about 4 minutes on foot from the market, which lies to the north of the stop. From St. Patrick on the Line 1 subway, walk west for about 1 km. From Queen's Park (Line 1 subway, streetcar 306 and streetcar 506), walk south-west for about 1 km. The Garden Car is the recommended subject near there. The phone icon on the map is about 220 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest streetcar stop is Augusta Avenue (streetcar 306, streetcar 501 and streetcar 506), about 4 minutes on foot from the market, which lies to the north of the stop. From St. Patrick on the Line 1 subway, walk west for about 1 km. From Queen's Park (Line 1 subway, streetcar 306 and streetcar 506), walk south-west for about 1 km. The Garden Car is the recommended subject near there. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) at the Garden Car so the car and the painted storefronts behind it sit naturally together. Switch to the ultra-wide (0.5x) in narrow Graffiti Alley, where you can't step back. At the Kensington Parking Garage, use the telephoto (2x or more, depending on your phone) to pull the CN Tower closer.",
-    "where_to_stand": "Stand about 220 m north-west of the subject, at the corner of Augusta Avenue and Oxford Street (the phone icon on the map), and face south-east. The Garden Car, at its corner, is the main subject when it is out. The photo shows the old car with plants growing from it and the painted storefronts behind.",
+    "where_to_stand": "Stand at the corner of Augusta Avenue and Oxford Street (at the corner, on the mural-covered car). The mural-covered old car with plants growing out of it, with the market's painted storefronts behind it. The Garden Car, at its corner, is the main subject when it is out. The photo shows the old car with plants growing from it and the painted storefronts behind.",
     "how_to_frame": "Turn on gridlines and put the car on one third of the frame, with the colourful shopfronts filling the rest. Keep your phone level so the buildings don't lean. If you have time, Graffiti Alley is a good second stop for close-up street-art frames, and the Kensington Parking Garage gives a skyline panorama over the rooftops.",
     "phone_settings_tip": "Tap the car or a bright mural to focus, then slide the exposure down slightly so the colours stay rich and the sky doesn't wash out. In the narrow alley, try Live Photos to catch people walking through the scene.",
     "best_time": "Early in the day, on a weekday, is usually calmer. Pedestrian Sundays from May to October bring large crowds that can block views along Augusta Avenue. The Garden Car is only out in warmer months."
@@ -392,15 +399,16 @@
   "name": "Allan Gardens Conservatory",
   "in_cut": true,
   "label": "Allan Gardens",
-  "camera_pill": "near Jarvis Street",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 7230,
   "pin": [
    -79.3747576,
    43.6616785
   ],
   "camera": [
-   -79.376709,
-   43.662425
+   -79.3747576,
+   43.6616785
   ],
   "camera_source": "Researched viewpoint 'Jarvis Street and Carlton Street corner' (1 web pages); placed at crossing of Jarvis Street and Carlton Street (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/33405981: the middle of the OpenStreetMap outline 'Allan Gardens Conservatory' (150 m across).",
@@ -408,10 +416,10 @@
   "text": {
    "description": "Allan Gardens Conservatory is a cluster of glass greenhouses in a city park, just east of Jarvis Street. The centrepiece is the Palm House, a glass-and-iron domed building completed in 1910 after a fire in 1902 destroyed the earlier pavilion on the site. Altogether the conservatory covers about 1,500 square metres and has six greenhouses, with wings added in the 1920s, in 1956-57 and in 2003. The park itself goes back to land given to the Toronto Horticultural Society in 1858, and it opened to the public in 1860. It was renamed Allan Gardens in 1901.\n\nIt photographs well because the pale glass roofs stand out against the trees and lawns, and the dome gives you a clear shape to build a picture around. The best approach shot comes as you enter from the Jarvis Street and Carlton Street corner, where the Palm House canopy and its wings first rise above the park. Frame it with a path or a few trees in the foreground so the building sits comfortably in its setting. Inside, the glass dome seen from below, ringed by palms and tropical plants, is the other picture to look for. Quick personal photos are fine, but longer shoots that need set-up have to be booked. Stay on the paths and keep out of the plant beds. Some exterior work may be under way, so check the City of Toronto page before you go.",
    "geographic_location": "Allan Gardens Conservatory sits in the Garden District of Toronto, inside Allan Gardens park. The park is bounded by Carlton Street to the north, Sherbourne Street to the east, Gerrard Street to the south and Jarvis Street to the west.",
-   "directions_text": "From College station on the Line 1 subway, walk east for about 650 m (roughly 8 minutes on foot) to reach the conservatory. From the Church Street stop (streetcar 306, 501, 503, 505 and 506) the conservatory is about 540 m to the north-east, roughly 7 minutes on foot. From the Sherbourne Street stop (same streetcars) it is about 550 m to the north-west, also roughly 7 minutes on foot. For the approach shot, go first to the Jarvis Street and Carlton Street corner at the north-west of the park. The phone icon on the map is about 90 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From College station on the Line 1 subway, walk east for about 650 m (roughly 8 minutes on foot) to reach the conservatory. From the Church Street stop (streetcar 306, 501, 503, 505 and 506) the conservatory is about 540 m to the north-east, roughly 7 minutes on foot. From the Sherbourne Street stop (same streetcars) it is about 550 m to the north-west, also roughly 7 minutes on foot. For the approach shot, go first to the Jarvis Street and Carlton Street corner at the north-west of the park. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) for the approach shot of the Palm House and its wings. Switch to ultra-wide (0.5x) inside the dome to fit in the palms and the curve of the glass. Use telephoto (2x or more, depending on your phone) for details such as the roof ribs or single plants.",
-    "where_to_stand": "Stand about 90 m north-west of the subject, at the corner of Jarvis Street and Carlton Street (the phone icon on the map), and face south-east. From here the large glass-and-metal canopy and its wings rise above the park, which makes a good approach shot. If you want an alternative, go inside and look up at the Palm House dome from below, framed by palms and tropical plants.",
+    "where_to_stand": "Stand at the corner of Jarvis Street and Carlton Street (walk west from the corner into the park). The large glass-and-metal Palm House canopy and its extended wings rising above the park as you enter from the Jarvis side. From here the large glass-and-metal canopy and its wings rise above the park, which makes a good approach shot. If you want an alternative, go inside and look up at the Palm House dome from below, framed by palms and tropical plants.",
     "how_to_frame": "Turn on gridlines and keep the building off-centre, with a path or trees in the foreground to show it in its park. Keep the phone level so the glass edges don't lean. Inside, stand under the dome, point the phone upwards and let the palms form a frame around the glass.",
     "phone_settings_tip": "Tap on the glass roof to focus, then lower the exposure slider a little if the sky is bright, so the roof keeps its detail. Wipe your lens before shooting indoors, as warm, humid air can mist it.",
     "best_time": "Daylight suits both pictures. Soft or slightly overcast light is kinder to the glass outside, and brighter daylight gives the dome interior a better glow."
@@ -449,26 +457,27 @@
   "name": "Union Station",
   "in_cut": true,
   "label": "Union Station",
-  "camera_pill": "Front Street West",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 6210,
   "pin": [
    -79.380381,
    43.6445345
   ],
   "camera": [
-   -79.380825,
-   43.645611
+   -79.380381,
+   43.6445345
   ],
   "camera_source": "Researched viewpoint 'Front Street West' (1 web pages); placed at the stretch of Front Street West nearest the subject (our map tiles).",
   "pin_note": "Position from OpenStreetMap node/6997477908: the OpenStreetMap point 'Toronto Union Station'.",
   "notes": "The 1927 building.",
   "text": {
-   "description": "Union Station is Toronto's grand railway hall, and from Front Street West it reads as one long, perfectly symmetrical wall of pale limestone. The central colonnade has 22 columns, each about 12 m high, and the whole building stretches roughly 229 m along the street. That gives you strong lines, repeating shapes and a natural frame. It was built in 1927 in the Beaux-Arts style and has been a National Historic Site of Canada since 1975. The phone icon on the map puts you on Front Street West, west of Bay Street, looking at the main facade head-on. This is the classic view. The columns work like a frame around the entrance, and in the evening the lighting on the stonework makes the scene especially rewarding. Front Street is busy, so wait for gaps in the traffic and the pedestrians before you shoot. If you have a few minutes spare, walk to the corner of Bay Street and Front Street West. From there you look south-west along the building, and the CN Tower can sometimes be seen behind it, depending on the weather. Inside, the vaulted Great Hall ceiling is a good wide shot from the middle of the floor.",
+   "description": "Union Station is Toronto's grand railway hall, and from Front Street West it reads as one long, perfectly symmetrical wall of pale limestone. The central colonnade has 22 columns, each about 12 m high, and the whole building stretches roughly 229 m along the street. That gives you strong lines, repeating shapes and a natural frame. It was built in 1927 in the Beaux-Arts style and has been a National Historic Site of Canada since 1975. This is the classic view. The columns work like a frame around the entrance, and in the evening the lighting on the stonework makes the scene especially rewarding. Front Street is busy, so wait for gaps in the traffic and the pedestrians before you shoot. If you have a few minutes spare, walk to the corner of Bay Street and Front Street West. From there you look south-west along the building, and the CN Tower can sometimes be seen behind it, depending on the weather. Inside, the vaulted Great Hall ceiling is a good wide shot from the middle of the floor.",
    "geographic_location": "Union Station is in downtown Toronto on Front Street West, between Bay Street and York Street, with the Fairmont Royal York Hotel directly across the street. The Entertainment District begins just across Bay Street.",
-   "directions_text": "Take the Line 1 subway to Union station, which is right beside the building; from the station it is about 2 minutes on foot to the phone icon on the map on Front Street West. Streetcar 509 also stops at Union Station, about 3 minutes on foot away. Once outside, stay on the street side facing the building so the whole facade is ahead of you to the south. The phone icon on the map is about 120 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Streetcar 509 also stops at Union Station, about 3 minutes on foot away. Once outside, stay on the street side facing the building so the whole facade is ahead of you to the south. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) from the kerb or the pavement so the whole colonnade fits. Use the ultra-wide (0.5x) only if you are close or want to include more sky, and keep the phone level so the columns don't lean. Use the telephoto (2x-5x, depending on your phone) for the column tops and the stonework.",
-    "where_to_stand": "Stand about 120 m north of the subject, on Front Street West (the phone icon on the map), and face south. West of Bay Street, and face south towards the main facade. The photo shows the whole restored front with its central colonnade as a frame. This is the classic head-on view.",
+    "where_to_stand": "Stand on Front Street West (west of Bay Street, facing the main facade). The full recently restored main facade with its central colonnade, which can be framed dramatically, especially at night under architectural lighting. West of Bay Street, and face south towards the main facade. The photo shows the whole restored front with its central colonnade as a frame. This is the classic head-on view.",
     "how_to_frame": "Turn on gridlines and line the centre of the entrance up with the middle of the frame, so the symmetry does the work. Keep the phone upright and level to keep the vertical lines straight. Wait for a gap in the traffic and the pedestrians. For a different angle, walk to the corner of Bay Street and Front Street West and shoot south-west along the facade, with the CN Tower in the background if it is visible.",
     "phone_settings_tip": "Tap on the lit stonework to set focus, then slide the exposure down a little so the lights don't burn out. After dark, use night mode and brace your elbows against your body, or rest the phone on a solid surface, to keep it steady.",
     "best_time": "Evening, when the building is lit, gives the most dramatic result. Daytime also works well because the pale limestone shows its detail clearly."
@@ -503,15 +512,16 @@
   "name": "Nathan Phillips Square and the Toronto Sign",
   "in_cut": true,
   "label": "Nathan Phillips Square",
-  "camera_pill": "near Queen Street West",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 5480,
   "pin": [
    -79.3835677,
    43.6523843
   ],
   "camera": [
-   -79.381733,
-   43.65189
+   -79.3835677,
+   43.6523843
   ],
   "camera_source": "Researched viewpoint 'Queen Street West and Bay Street' (1 web pages); placed at crossing of Queen Street West and Bay Street (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/198500757: 'TORONTO', the best-known feature inside 'Nathan Phillips Square' (360 m across).",
@@ -519,10 +529,10 @@
   "text": {
    "description": "Nathan Phillips Square is the wide public forecourt of Toronto's New City Hall, and the lit TORONTO sign is its favourite photo stop. The letters stand about three metres tall and are raised above the water, with the curved City Hall towers rising behind them. The square opened in 1965 and was designed by the City Hall architect Viljo Revell with landscape architect Richard Strong. At 4.85 hectares, it is Canada's largest city square. The sign itself is usually busy, so this map suggests a calmer angle from the corner of Queen Street West and Bay Street, looking west. From there the illuminated towers and the sign sit in the distance, and the moving traffic in front adds streaks of light after dark. It makes a more dramatic picture than a straight shot from inside the crowd. If you want the close-up as well, the sign is just along the way, with the towers behind it. In winter the reflecting pool becomes a skating rink, which changes the foreground around the sign. The letters are sometimes changed for events, so the colours can vary from visit to visit. Guides disagree on exactly where the sign sits in the square, so check its spot on the map before you walk over.",
    "geographic_location": "In downtown Toronto, in front of New City Hall, where Queen Street West meets Bay Street. The square is the open plaza between the City Hall towers and the street.",
-   "directions_text": "From Osgoode station (Line 1 subway), the sign is to the north-east, about 5 minutes on foot. From Queen station (Line 1 subway), it is to the west, also about 5 minutes on foot. Streetcar 501 stops at 160 York Street, about 5 minutes on foot to the south of the sign. Streetcars 306, 503, 505 and 506 stop at Bay Street, about 340 m (a few minutes on foot) to the north of the sign, so the sign is to the south of that stop. The phone icon on the map is about 160 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Osgoode station (Line 1 subway), the sign is to the north-east, about 5 minutes on foot. From Queen station (Line 1 subway), it is to the west, also about 5 minutes on foot. Streetcar 501 stops at 160 York Street, about 5 minutes on foot to the south of the sign. Streetcars 306, 503, 505 and 506 stop at Bay Street, about 340 m (a few minutes on foot) to the north of the sign, so the sign is to the south of that stop. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the towers, the sign and the traffic in one frame. Switch to the default lens (1x) for a calmer, less stretched look. Use the telephoto (2x-5x, depending on your phone) if you want to pull the sign and the towers closer without moving.",
-    "where_to_stand": "Stand about 160 m east of the subject, at the corner of Queen Street West and Bay Street (the phone icon on the map), and face west. From here you see the illuminated towers and the sign in the distance, with street traffic in the foreground. The sign lies to the west of this corner.",
+    "where_to_stand": "Stand at the corner of Queen Street West and Bay Street (facing west toward the City Hall towers). The illuminated City Hall towers and the sign in the distance, with light trails from street traffic in the foreground. From here you see the illuminated towers and the sign in the distance, with street traffic in the foreground. The sign lies to the west of this corner.",
     "how_to_frame": "Turn on gridlines and put the towers on one side third of the frame, with the road leading the eye toward them. Keep the phone level so the towers don't lean. For a close-up of the sign with the towers behind it, walk into the square afterwards. In winter, include the skating rink as foreground if it is there.",
     "phone_settings_tip": "After dark, use night mode and hold the phone very still, braced against a railing or post, so passing traffic shows as soft light trails. Tap on the lit towers to focus, then drag the exposure slider down a little so the lights don't wash out. During the day, use the default lens (1x) with gridlines.",
     "best_time": "Dusk and the hour after it, when the towers are lit and the traffic is still busy, give the best mood. Daytime works well for a clear, bright shot of the sign."
@@ -563,26 +573,27 @@
   "name": "Toronto Islands and the skyline view",
   "in_cut": true,
   "label": "Toronto Islands",
-  "camera_pill": "Centre Island Pier",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 3730,
   "pin": [
    -79.3786111,
    43.6208333
   ],
   "camera": [
-   -79.3716,
-   43.61644
+   -79.3786111,
+   43.6208333
   ],
   "camera_source": "Researched viewpoint 'Centre Island Pier' (2 web pages); placed at OpenStreetMap 'Centre Island Pier' (way/985659382): middle (134 m across); moved 35 m off water.",
   "pin_note": "Position from OpenStreetMap relation/10705563: large area 'Toronto Islands' (5126 m across): previous pin kept, it lies inside.",
   "notes": "The classic skyline view is from the islands.",
   "text": {
-   "description": "The Toronto Islands are a chain of 15 small islands in Lake Ontario, just off the downtown shore. They shelter Toronto Harbour, and they give you the best distance for a skyline photo: the whole city lined up across open water. The islands were once a sandy peninsula and became true islands after a violent storm in 1858. Today they hold parkland, beaches and a car-free residential community, the largest of its kind in an urban area in North America. For this spot, the phone icon on the map is the end of Centre Island Pier. From there you face north across the harbour and see a wide sweep of downtown, with the CN Tower and the Financial District towers. It is a more sweeping view than the usual island postcard. Because the towers sit a good way off, the water in front does a lot of the work. Keep some of it in the frame and the skyline looks calm and orderly, not crowded. Start with the ultra-wide (0.5x) for the full sweep, then switch to the default lens (1x) for a tidier picture. If you have time, Olympic Island Park gives another open view of the CN Tower and Rogers Centre. Hanlan's Point offers a less usual angle that includes passing planes.",
+   "description": "The Toronto Islands are a chain of 15 small islands in Lake Ontario, just off the downtown shore. They shelter Toronto Harbour, and they give you the best distance for a skyline photo: the whole city lined up across open water. The islands were once a sandy peninsula and became true islands after a violent storm in 1858. Today they hold parkland, beaches and a car-free residential community, the largest of its kind in an urban area in North America. From there you face north across the harbour and see a wide sweep of downtown, with the CN Tower and the Financial District towers. It is a more sweeping view than the usual island postcard. Because the towers sit a good way off, the water in front does a lot of the work. Keep some of it in the frame and the skyline looks calm and orderly, not crowded. Start with the ultra-wide (0.5x) for the full sweep, then switch to the default lens (1x) for a tidier picture. If you have time, Olympic Island Park gives another open view of the CN Tower and Rogers Centre. Hanlan's Point offers a less usual angle that includes passing planes.",
    "geographic_location": "The Toronto Islands lie in Lake Ontario just south of downtown Toronto, across the harbour from the waterfront. Centre Island has a pier whose end looks north across the harbour at the city.",
-   "directions_text": "From downtown Toronto, make your way to Jack Layton Ferry Terminal on the harbour front. Take the public ferry to the islands and check the ferry schedule on the official ferry site before you go. From the ferry landing, follow the paths to Centre Island Pier and walk to its far end. Do not use the pedestrian tunnel to the airport, as it leads to a secure area and not to the parks. The phone icon on the map is about 750 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From downtown Toronto, make your way to Jack Layton Ferry Terminal on the harbour front. Take the public ferry to the islands and check the ferry schedule on the official ferry site before you go. From the ferry landing, follow the paths to Centre Island Pier and walk to its far end. Do not use the pedestrian tunnel to the airport, as it leads to a secure area and not to the parks. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole skyline from the end of the pier. Then use the default lens (1x) for a cleaner, less stretched view. If your phone has a telephoto (2x-5x), use it to pick out the CN Tower and the nearby towers.",
-    "where_to_stand": "Stand about 750 m south-east of the subject, on Centre Island Pier (the phone icon on the map), and face north-west. From there the photo shows a wide sweep of the downtown skyline, with the CN Tower and the Financial District towers in view.",
+    "where_to_stand": "Stand on Centre Island Pier (end of the pier, facing north across the harbour). A wide sweep of the downtown skyline across the harbour, with the CN Tower and Financial District towers in view. From there the photo shows a wide sweep of the downtown skyline, with the CN Tower and the Financial District towers in view.",
     "how_to_frame": "Turn on gridlines and line the horizon up with one of them so the water and city stay level. Leave a band of water in the bottom third of the frame to give the towers some space. For a different version, try Olympic Island Park for a clear view of the CN Tower and Rogers Centre, or Hanlan's Point for an angle that includes planes.",
     "phone_settings_tip": "Tap on the towers to set focus, then slide the exposure down a little if the sky looks washed out. Panorama mode can also work well on the pier, so move slowly and keep the phone level.",
     "best_time": "Late afternoon, roughly 4 to 7 p.m., when the western sun lights the glass of the city's towers."
@@ -621,26 +632,27 @@
   "name": "Toronto Music Garden",
   "in_cut": true,
   "label": "Toronto Music Garden",
-  "camera_pill": "Queens Quay West",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2215,
   "pin": [
    -79.39416667,
    43.63694444
   ],
   "camera": [
-   -79.394227,
-   43.637253
+   -79.39416667,
+   43.63694444
   ],
   "camera_source": "Researched viewpoint 'Queens Quay West' (1 web pages); placed at the stretch of Queens Quay West nearest the subject (our map tiles).",
   "pin_note": "Position from Wikidata Q123438767: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "",
   "text": {
-   "description": "Toronto Music Garden is a public park on Toronto's waterfront, along Queens Quay West. What makes it work for a phone is the mix of soft planting, curved paths and a city skyline just behind. From the kerb on Queens Quay West you can catch a streetcar passing in front of the garden. Keep the tram slightly blurred and the greenery sharp, and the picture says as much about the city as about the park.\n\nInside the garden there are two more pictures worth taking. From the amphitheatre steps, the CN Tower rises above the curved paths and grasses. The round wrought-iron Music Pavilion also makes a good foreground, with the downtown towers standing behind it. If you only have time for one, start at the phone icon on the map, then walk in for the others.\n\nThe garden is free to enter. Take casual phone photos as you would in any park. If you are planning a group or commercial shoot, permit rules may apply, so check with the City first.\n\nOn the street side, stay on the pavement and watch for traffic and trams while you wait for the right moment. Inside, step aside to let others pass while you line up a shot. Overcast days suit the greenery well, because the colours stay even and the sky is easy to expose.",
+   "description": "Toronto Music Garden is a public park on Toronto's waterfront, along Queens Quay West. What makes it work for a phone is the mix of soft planting, curved paths and a city skyline just behind. From the kerb on Queens Quay West you can catch a streetcar passing in front of the garden. Keep the tram slightly blurred and the greenery sharp, and the picture says as much about the city as about the park.\n\nInside the garden there are two more pictures worth taking. From the amphitheatre steps, the CN Tower rises above the curved paths and grasses. The round wrought-iron Music Pavilion also makes a good foreground, with the downtown towers standing behind it. If you only have time for one, start then walk in for the others.\n\nThe garden is free to enter. Take casual phone photos as you would in any park. If you are planning a group or commercial shoot, permit rules may apply, so check with the City first.\n\nOn the street side, stay on the pavement and watch for traffic and trams while you wait for the right moment. Inside, step aside to let others pass while you line up a shot. Overcast days suit the greenery well, because the colours stay even and the sky is easy to expose.",
    "geographic_location": "The garden is on Queens Quay West, along Toronto's waterfront, just east of the Spadina Avenue streetcar stop.",
-   "directions_text": "The nearest Line 1 subway stop is St. Andrew station, about 18 minutes on foot to the south-west; Union station is a similar distance. For a shorter walk, streetcar 509 stops at Spadina Avenue; Queens Quay West (about 4 minutes on foot, to the west) and at Dan Leckie Way (about 3 minutes on foot, to the east). Walk to the garden's edge on Queens Quay West, where the phone icon on the map is. The phone icon on the map is about 35 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest Line 1 subway stop is St. Andrew station, about 18 minutes on foot to the south-west; Union station is a similar distance. For a shorter walk, streetcar 509 stops at Spadina Avenue; Queens Quay West (about 4 minutes on foot, to the west) and at Dan Leckie Way (about 3 minutes on foot, to the east). The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) for the streetcar in front of the garden. Switch to ultra-wide (0.5x) inside for the pavilion with the towers behind. Use the telephoto (2x-5x, depending on your phone) to bring the CN Tower closer from the amphitheatre steps.",
-    "where_to_stand": "Stand about 35 m north of the subject, on Queens Quay West (the phone icon on the map), and face south. From here you can photograph a streetcar passing in motion blur in front of the green space. For a second view, go into the garden: from the amphitheatre steps the CN Tower rises above the curved paths and grasses, and the round Music Pavilion in the foreground has the downtown towers behind it.",
+    "where_to_stand": "Stand on Queens Quay West (curb along the garden's edge). A streetcar passing in motion blur in front of the garden, a city-life counterpoint to the green space. From here you can photograph a streetcar passing in motion blur in front of the green space. For a second view, go into the garden: from the amphitheatre steps the CN Tower rises above the curved paths and grasses, and the round Music Pavilion in the foreground has the downtown towers behind it.",
     "how_to_frame": "Turn on the gridlines and place the garden's greenery on the lower third, with the streetcar crossing the middle. Keep your elbows tucked in and wait for a tram to arrive. For the CN Tower, place it on a vertical grid line and let the curving path lead the eye towards it. Take a few frames of each so you can pick the best.",
     "phone_settings_tip": "Tap the garden to focus and drag the exposure slider down a little so the sky keeps its colour. For the streetcar, take a Live Photo or a quick burst and choose the frame with the nicest blur. Keep the phone steady against your body or a solid support.",
     "best_time": "Soft morning or late-afternoon light is kinder to the planting and the towers than harsh midday sun. An overcast day also works well for the garden itself."
@@ -666,15 +678,16 @@
   "name": "High Park",
   "in_cut": true,
   "label": "High Park",
-  "camera_pill": "Grenadier Pond",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2175,
   "pin": [
    -79.4633625,
    43.6460812
   ],
   "camera": [
-   -79.467424,
-   43.643733
+   -79.4633625,
+   43.6460812
   ],
   "camera_source": "Researched viewpoint 'Grenadier Pond' (3 web pages); placed at OpenStreetMap 'Grenadier Pond' (way/174225267): edge nearest the subject (1366 m across); moved 5 m off water.",
   "pin_note": "Position from OpenStreetMap way/14344414: large area 'High Park' (2288 m across): previous pin kept, it lies inside.",
@@ -682,10 +695,10 @@
   "text": {
    "description": "High Park is one of Toronto's largest parks, and it makes a good change of pace from the city streets. It opened to the public in 1876 on land left to the city by John George Howard, and it covers 161 hectares. About a third of it is still natural, including a rare oak savannah. For photos, the best place to start is Grenadier Pond on the western edge. The pond covers 14.2 hectares, so there is plenty of open water. On a calm day it reflects the trees along the shore, and you get blossom in spring and autumn colour in the fall. The path at pond level is also a quieter option than the busier hilltop areas. Two other spots are worth a look if you have time. The Maple Leaf Flower Bed has a red maple-leaf-shaped planting in the foreground, with hedges, trees and the lake behind. Hillside Gardens has rows of pink cherry trees, which are only worth visiting from late April to early May. On the hillside along the pond's eastern shore you will find the gardens and a grove of cherry trees. Keep to the paths, and do not pull branches or climb trees for a picture. Leave the shot to the view, and let the water do the work: a low, steady phone held near the edge of the path gives the cleanest reflections.",
    "geographic_location": "High Park lies west of downtown Toronto, stretching south from Bloor Street West to The Queensway, just north of Lake Ontario. Grenadier Pond forms its western edge, near Ellis Park Road.",
-   "directions_text": "One easy way is streetcar 506 to High Park Loop, the nearest tram stop, then about 8 minutes on foot heading south-west into the park. You can also take the Line 2 subway to High Park station, about 15 minutes on foot to the middle of the park, or to Keele station, about 18 minutes on foot. From the middle of the park, Grenadier Pond is on the western side, near Ellis Park Road and Valleymede Road. The phone icon on the map is about 420 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "One easy way is streetcar 506 to High Park Loop, the nearest tram stop, then about 8 minutes on foot heading south-west into the park. You can also take the Line 2 subway to High Park station, about 15 minutes on foot to the middle of the park, or to Keele station, about 18 minutes on foot. From the middle of the park, Grenadier Pond is on the western side, near Ellis Park Road and Valleymede Road. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole pond and the trees along the shore. Switch to the default lens (1x) for a cleaner, more natural look at the reflections. Use telephoto (2x-5x, depending on your phone) to pick out a patch of blossom or autumn colour on the far bank.",
-    "where_to_stand": "Stand about 420 m south-west of the subject, in Grenadier Pond (the phone icon on the map), and face north-east. On the pond's shore near Ellis Park Road and Valleymede Road. From here you look across the pond's water, with the trees reflected in it and the blossom or autumn colour along the shore. The middle of High Park lies to the north-east of this spot.",
+    "where_to_stand": "Stand in Grenadier Pond (lakeshore near Ellis Park Road and Valleymede Road). The pond's water and reflections of the surrounding trees, with blossoms or autumn colour across the shore. On the pond's shore near Ellis Park Road and Valleymede Road. From here you look across the pond's water, with the trees reflected in it and the blossom or autumn colour along the shore. The middle of High Park lies to the north-east of this spot.",
     "how_to_frame": "Turn on gridlines and put the water's edge on the lower third line, so the reflections fill the frame. Include a little shoreline or a branch in the foreground for depth. For a second view, try the Maple Leaf Flower Bed, with the red leaf shape in the foreground and the lake behind it.",
     "phone_settings_tip": "Tap the water or the trees to focus, then drag the exposure slider down a little so the sky does not wash out and the colours stay rich. Hold the phone steady, or lean on a railing or post, so the reflections stay sharp.",
     "best_time": "Early morning, or about 1.5 hours before sunset. For blossom, go in late April to early May. Autumn colour also works well here."
@@ -724,6 +737,7 @@
   "in_cut": true,
   "label": "Trinity Bellwoods",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1480,
   "pin": [
    -79.4148225,
@@ -779,15 +793,16 @@
   "name": "Old City Hall",
   "in_cut": true,
   "label": "Old City Hall",
-  "camera_pill": "Nathan Phillips Square",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1180,
   "pin": [
    -79.3817686,
    43.6526544
   ],
   "camera": [
-   -79.383842,
-   43.652708
+   -79.3817686,
+   43.6526544
   ],
   "camera_source": "Researched viewpoint 'Nathan Phillips Square' (4 web pages); placed at OpenStreetMap 'Nathan Phillips Square' (way/198500757): middle (359 m across).",
   "pin_note": "Position from OpenStreetMap relation/3116: the middle of the OpenStreetMap outline 'Old City Hall' (153 m across).",
@@ -795,10 +810,10 @@
   "text": {
    "description": "Old City Hall is a big Romanesque civic building of sandstone and other stone in three colours, finished in 1899. It was the home of Toronto's city council until 1966 and then served as a court house until 2023. Its clock tower, which stands 103.6 metres high after the restoration, is the part everyone photographs. The tower sits off-centre on the front, and it closes the view along Bay Street from Front Street. The building photographs well because the texture is so rich: arches, carved stone, bronze gargoyles (replicas added in 2002) and, if you look under the eaves, the architect's name carved into the stonework all the way round. It was designated a National Historic Site in 1984. It was nearly demolished in the 1960s for a shopping scheme, but public protest saved it, and the Eaton Centre was built around it instead. The modern City Hall and its pool sit just across the street, so you can set old and new in one frame. At the foot of the steps on Queen Street is the Cenotaph, put up in 1925. The best view is from the square opposite, where you can fit the whole width of the facade in. Walk closer afterwards for details of the stonework and the tower.",
    "geographic_location": "In Downtown Toronto, on the corner of Queen and Bay streets, directly across Bay Street from Nathan Phillips Square and the present City Hall. The Eaton Centre was built right beside it.",
-   "directions_text": "The nearest Line 1 subway stop is Queen station, and the building is about 3 minutes on foot to the west of it. From Osgoode station on Line 1 subway it is about 6-7 minutes on foot, heading north-east. If you arrive by streetcar, get off at Bay Street (streetcar 306, 503, 505 or 506) and walk about 5 minutes with the building to the south of the stop. The phone icon on the map is about 110 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest Line 1 subway stop is Queen station, and the building is about 3 minutes on foot to the west of it. From Osgoode station on Line 1 subway it is about 6-7 minutes on foot, heading north-east. If you arrive by streetcar, get off at Bay Street (streetcar 306, 503, 505 or 506) and walk about 5 minutes with the building to the south of the stop. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the full width of the facade. Switch to ultra-wide (0.5x) if you want more of the pool and square in the foreground. Use telephoto (2x-5x, depending on your phone) for the clock tower, gargoyles and carved stone.",
-    "where_to_stand": "Stand about 110 m west of the subject, in Nathan Phillips Square (the phone icon on the map), and face east. Across Bay Street from the building, near the reflecting pool and the TORONTO sign. Old City Hall lies to the east from here. You see the whole width of the Romanesque facade with the off-centre clock tower rising above it, and the modern City Hall towers and the pool in the foreground. This is the classic postcard angle.",
+    "where_to_stand": "Stand in Nathan Phillips Square (across Queen Street from the building, near the reflecting pool and the TORONTO sign). The full width of the Romanesque facade with the clock tower rising above the centre, with the modern City Hall towers and the pool in the foreground. Across Bay Street from the building, near the reflecting pool and the TORONTO sign. Old City Hall lies to the east from here. You see the whole width of the Romanesque facade with the off-centre clock tower rising above it, and the modern City Hall towers and the pool in the foreground. This is the classic postcard angle.",
     "how_to_frame": "Turn on gridlines and line the tower up with a vertical line so it does not lean. Hold the phone level, as tilting upwards bends the building. Use the pool or the TORONTO sign as a foreground to give a sense of scale. Then walk across the street for close-ups of the carved stone and gargoyles with the telephoto lens.",
     "phone_settings_tip": "Tap on the stonework to focus, then drag the exposure slider down a little so the sky does not wash out and the tower keeps its colour. If the pool is still, try a shot that includes its reflection.",
     "best_time": "Try a bright, clear day when the sun is on the front of the building, or a softer hour near sunset for warmer stone. Early morning is usually quieter on the square."
@@ -835,15 +850,16 @@
   "name": "Graffiti Alley",
   "in_cut": true,
   "label": "Graffiti Alley",
-  "camera_pill": "near Portland Street",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1170,
   "pin": [
    -79.3979231,
    43.6480305
   ],
   "camera": [
-   -79.401264,
-   43.647353
+   -79.3979231,
+   43.6480305
   ],
   "camera_source": "Researched viewpoint 'Rush Lane' (2 web pages); placed at crossing of Rush Lane and Portland Street (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/460841680: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -851,10 +867,10 @@
   "text": {
    "description": "Graffiti Alley is a long lane lined with murals and wall art, and it works well for phone photos because the paintings fill both sides and pull the eye down the lane. From the Rush Lane corner you get a long run of murals receding ahead of you, which gives pictures a strong sense of depth. Walk on and you can also take a close, straight-on shot of the full aquarium mural, which wraps across the window sashes of a building. The walls are described as unofficial rather than designated legal graffiti walls, so what you see can change, and parked vehicles sometimes hide parts of the art. Construction can also block the road at times. Expect weekend crowds and buskers. If people keep walking into your frame, step back a little and shoot from farther away rather than waiting for a clear gap. A good plan is to start at Rush Lane and walk east, so you meet the art in a sensible order. Go early in the morning if you can, when fewer people are about. Another good spot is the entrance from Augusta Avenue, where the first murals open up along the lane ahead. Neither the aquarium building nor the Augusta entrance has an official name, so use the street names and look for the artwork when you navigate.",
    "geographic_location": "Graffiti Alley is a lane of murals in central Toronto, a short walk from the Spadina Avenue streetcar stop. It is reached from Rush Lane and from Augusta Avenue.",
-   "directions_text": "The easiest start is the Spadina Avenue streetcar stop (streetcar 501, among others), about 350 m away, with the alley to the south. The Peter Street stop (streetcar 501) is also about 350 m away, with the alley to the west. From Osgoode station on the Line 1 subway it is about 1 km on foot, heading west. Head for the Rush Lane corner, which is the phone icon on the map. The phone icon on the map is about 150 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The easiest start is the Spadina Avenue streetcar stop (streetcar 501, among others), about 350 m away, with the alley to the south. The Peter Street stop (streetcar 501) is also about 350 m away, with the alley to the west. From Osgoode station on the Line 1 subway it is about 1 km on foot, heading west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the long view down the lane, then switch to the default lens (1x) for the aquarium mural. Try the telephoto (2x or more, depending on your phone) to pick out a single mural and keep passers-by out of the frame.",
-    "where_to_stand": "Stand about 150 m west of the subject, at the corner of Rush Lane and Portland Street (the phone icon on the map), and face east. From here the murals run away from you down the lane and the wall art fills the frame. For the close, frontal aquarium mural, move to a spot on Rush Lane directly facing it.",
+    "where_to_stand": "Stand at the corner of Rush Lane and Portland Street (corner at the east end of the alley, then walk east back along the murals). A long run of murals receding down the lane, with the alley's wall art filling the frame. From here the murals run away from you down the lane and the wall art fills the frame. For the close, frontal aquarium mural, move to a spot on Rush Lane directly facing it.",
     "how_to_frame": "Turn on gridlines and line the lane up with the lines so the walls look straight. Keep the lane's perspective leading into the distance, and wait for a quiet moment rather than cropping people out afterwards. For the aquarium mural, stand square on and keep the phone level so the window sashes stay straight. The Augusta Avenue entrance is a good alternative if you want the first murals opening up ahead.",
     "phone_settings_tip": "Tap on a bright part of a mural to set focus, then use the exposure slider to stop the sky or light walls washing out. Ultra-wide shots can bend straight edges near the corners, so keep important details away from the edges.",
     "best_time": "Early morning, when foot traffic is lighter."
@@ -887,6 +903,7 @@
   "in_cut": true,
   "label": "Gooderham Building",
   "camera_pill": "near Front Street East",
+  "nophone": false,
   "searches": 985,
   "pin": [
    -79.3742889,
@@ -943,6 +960,7 @@
   "in_cut": true,
   "label": "Riverdale Park",
   "camera_pill": "near Broadview Avenue",
+  "nophone": false,
   "searches": 710,
   "pin": [
    -79.3552965,
@@ -996,6 +1014,7 @@
   "in_cut": true,
   "label": "Fort York",
   "camera_pill": "near Bathurst Street",
+  "nophone": false,
   "searches": 680,
   "pin": [
    -79.4033248,
@@ -1050,26 +1069,27 @@
   "name": "Sugar Beach",
   "in_cut": true,
   "label": "Sugar Beach",
-  "camera_pill": "near Queens Quay East",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 520,
   "pin": [
    -79.3675359,
    43.64333
   ],
   "camera": [
-   -79.36824,
-   43.6443345
+   -79.3675359,
+   43.64333
   ],
   "camera_source": "Commons cluster (17 photos). Moved 41 m outwards on 2026-11-10 so it is 40 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/172728952: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "",
   "text": {
-   "description": "Sugar Beach is a small sandy beach-style park on Toronto's central waterfront, and it is a cheerful place to take photos. The scene is built from bold, simple shapes: pale sand, open water and the harbour beyond. That mix of sand and water gives your pictures a clear sense of place that a plain skyline shot lacks. The phone icon on the map is about 40 m north-west of the subject. From there you can fit the sand and the water into one frame, with people adding scale. Walk down onto the sand afterwards for lower, closer shots. Keep the horizon level using your phone's gridlines, and check that the edges of the frame are clear of stray bags or bins. On a busy day, wait a moment for a gap in the crowd, or let a few people stay in the shot to give it life. Try going when it is quieter if you want a clearer view.",
+   "description": "Sugar Beach is a small sandy beach-style park on Toronto's central waterfront, and it is a cheerful place to take photos. The scene is built from bold, simple shapes: pale sand, open water and the harbour beyond. That mix of sand and water gives your pictures a clear sense of place that a plain skyline shot lacks. From there you can fit the sand and the water into one frame, with people adding scale. Walk down onto the sand afterwards for lower, closer shots. Keep the horizon level using your phone's gridlines, and check that the edges of the frame are clear of stray bags or bins. On a busy day, wait a moment for a gap in the crowd, or let a few people stay in the shot to give it life. Try going when it is quieter if you want a clearer view.",
    "geographic_location": "Sugar Beach is on Toronto's central waterfront, on the harbour side of the city's downtown, roughly 800 m east of the Queens Quay Island Ferry Docks stop.",
-   "directions_text": "The nearest tram stop is Wellington Street East (streetcar 503), about 790 m on foot, with the beach to the south-east. Queens Quay - Island Ferry Docks (streetcar 509) is about 790 m away, with the beach to the east. Union station on the Line 1 subway is about 1.05 km away, to the east, and King station on the Line 1 subway is about 1.03 km away, to the south-east. The phone icon on the map is about 40 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest tram stop is Wellington Street East (streetcar 503), about 790 m on foot, with the beach to the south-east. Queens Quay - Island Ferry Docks (streetcar 509) is about 790 m away, with the beach to the east. Union station on the Line 1 subway is about 1.05 km away, to the east, and King station on the Line 1 subway is about 1.03 km away, to the south-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the full beach scene. Switch to the ultra-wide (0.5x) when you are close to the sand and want it to fill the frame. Use telephoto (2x-5x, depending on your phone) to pick out details or people on the sand without walking into them.",
-    "where_to_stand": "Stand about 40 m north-west of the subject, at the phone icon on the map, and face south-east. This gives a wide view of the whole scene. For close-ups, walk towards the sand afterwards.",
+    "where_to_stand": "Stand right at the subject (on the sand, facing the umbrellas with the Redpath factory behind). The pink umbrellas and Muskoka chairs on the white sand, with the Redpath Sugar factory silhouette and the lake or skyline behind. This gives a wide view of the whole scene. For close-ups, walk towards the sand afterwards.",
     "how_to_frame": "Turn on gridlines and put the horizon on a lower or upper line, not the middle. Use the edge of the sand or the waterline as a lead-in. Crouch a little for the ultra-wide close shots so the sand fills the foreground.",
     "phone_settings_tip": "Tap the brightest part of the sky or the sand to focus, then slide the exposure down a little so the white sand does not wash out. Try Live Photos to catch a person walking through.",
     "best_time": "Mornings and the hour before sunset usually give softer light and fewer people. Midday sun on pale sand can be harsh, so use the exposure slider."

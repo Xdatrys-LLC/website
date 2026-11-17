@@ -4,15 +4,16 @@
   "name": "Vasa Museum",
   "in_cut": true,
   "label": "Vasa Museum",
-  "camera_pill": "Galärparken",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 38000,
   "pin": [
    18.0913692,
    59.3280807
   ],
   "camera": [
-   18.092879,
-   59.327742
+   18.0913692,
+   59.3280807
   ],
   "camera_source": "Researched viewpoint 'Galärparken' (3 web pages); placed at OpenStreetMap 'Galärparken' (way/236128556): middle (312 m across).",
   "pin_note": "Position from OpenStreetMap way/27288534: the middle of the OpenStreetMap outline 'Vasa Museum' (198 m across).",
@@ -20,10 +21,10 @@
   "text": {
    "description": "The Vasa Museum (Vasamuseet) sits on the island of Djurgården and houses the 64-gun warship Vasa, which sank on her maiden voyage in 1628. It is the only almost fully intact 17th-century ship ever salvaged. The museum opened on 15 June 1990, and from outside it is easy to pick out. A large copper roof carries stylised masts that show how tall Vasa stood when fully rigged. Some of the walls are clad in wooden panels painted dark red, blue, tar black, ochre yellow and dark green, which gives you colour and texture to work with.\n\nThe best outdoor photo is from the waterfront edge of Galärparken, a free, leafy park right beside the museum. From there you see the roofline and masts with boats moored in the harbour in front. Four other museum ships lie in that harbour: the ice breaker Sankt Erik, the lightvessel Finngrundet, the torpedo boat Spica and the rescue boat Bernhard Ingelsson. They make good foreground interest. Leave a little space around the roof and masts so the shape reads clearly. Photographing the ship itself means going inside, where it can be seen from six levels. Check the official site for photo rules and ticket details before you go.",
    "geographic_location": "On the island of Djurgården in Stockholm, on the harbour waterfront.",
-   "directions_text": "Head for the island of Djurgården in Stockholm and look for the Vasa Museum. Galärparken is right beside the museum, and the phone icon on the map is on its waterfront edge. From there the museum's middle is to the north-west, about 2 minutes on foot. The phone icon on the map is about 45 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for the island of Djurgården in Stockholm and look for the Vasa Museum. From there the museum's middle is to the north-west, about 2 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole roofline with the boats in front. Switch to ultra-wide (0.5x) if you are close and the roof and masts will not fit. Use telephoto (2x-5x, depending on your phone) to pick out the masts and roof detail.",
-    "where_to_stand": "Stand about 45 m south-east of the subject, in Galärparken (the phone icon on the map), and face north-west. The museum lies to the north-west. From here the photo shows the museum's copper roof and the boats moored in the harbour in front of it.",
+    "where_to_stand": "Stand in Galärparken (waterfront edge of the park, facing the museum). The museum's striking copper roof and the boats moored in the harbour in front of it. The museum lies to the north-west. From here the photo shows the museum's copper roof and the boats moored in the harbour in front of it.",
     "how_to_frame": "Turn on gridlines and place the roofline along the upper third, with the moored boats along the bottom. Keep the phone level so the masts stand upright. If you want an alternative, the museum's front exterior shows the copper bowsprit above the roof, with the harbour and vintage ships behind.",
     "phone_settings_tip": "Tap the roof to set focus, then slide the exposure down a little if the sky is washing out the copper. Take a few shots at different zoom levels, because telephoto and the default lens (1x) give quite different results here.",
     "best_time": "Softer morning or late-afternoon light usually flatters the roof and the water. Midday sun can cause glare off the harbour."
@@ -59,6 +60,7 @@
   "in_cut": true,
   "label": "Stortorget",
   "camera_pill": null,
+  "nophone": false,
   "searches": 10600,
   "pin": [
    18.0708073,
@@ -115,6 +117,7 @@
   "in_cut": true,
   "label": "ABBA The Museum",
   "camera_pill": null,
+  "nophone": false,
   "searches": 9890,
   "pin": [
    18.0965467,
@@ -167,6 +170,7 @@
   "in_cut": true,
   "label": "Djurgården",
   "camera_pill": null,
+  "nophone": false,
   "searches": 8170,
   "pin": [
    18.1166667,
@@ -222,6 +226,7 @@
   "in_cut": true,
   "label": "Skansen",
   "camera_pill": null,
+  "nophone": false,
   "searches": 8040,
   "pin": [
    18.101,
@@ -275,6 +280,7 @@
   "in_cut": true,
   "label": "Strömkajen",
   "camera_pill": null,
+  "nophone": false,
   "searches": 6470,
   "pin": [
    18.076587,
@@ -323,6 +329,7 @@
   "in_cut": true,
   "label": "City Hall",
   "camera_pill": null,
+  "nophone": false,
   "searches": 4280,
   "pin": [
    18.0548845,
@@ -376,6 +383,7 @@
   "in_cut": true,
   "label": "Fotografiska",
   "camera_pill": null,
+  "nophone": false,
   "searches": 4140,
   "pin": [
    18.0847007,
@@ -429,6 +437,7 @@
   "in_cut": true,
   "label": "Royal Palace",
   "camera_pill": null,
+  "nophone": false,
   "searches": 3800,
   "pin": [
    18.0716277,
@@ -486,14 +495,15 @@
   "in_cut": true,
   "label": "Kungsträdgården",
   "camera_pill": null,
+  "nophone": true,
   "searches": 1790,
   "pin": [
    18.071629,
    59.331128
   ],
   "camera": [
-   18.071289,
-   59.331743
+   18.071629,
+   59.331128
   ],
   "camera_source": "Researched viewpoint 'Kungsträdgården' (3 web pages); placed at OpenStreetMap 'Kungsträdgården' (way/4490189): middle (390 m across).",
   "pin_note": "Position from OpenStreetMap way/4490189: the middle of the OpenStreetMap outline 'King's Garden' (391 m across).",
@@ -501,10 +511,10 @@
   "text": {
    "description": "Kungsträdgården, known to locals as Kungsan, is a long, tree-lined park in the middle of Stockholm. In late April its cherry trees turn the paths into a pink tunnel, which makes it one of the city's best-loved spring photo spots. The blossom avenue is the classic frame. Stand underneath and point your phone up into the canopy so the pink flowers sit against the sky. It can get very busy at peak bloom, so go early if you can. For a more layered shot, try oversized wooden chess pieces in the foreground with blossom branches above. Another option is swans on the water with the city buildings behind and a couple on the shore. The park has a long history. It was first recorded in 1430 as the king's cabbage garden and later became a royal pleasure garden. The tree-lined avenues arrived in the 1860s. Molin's Fountain and the statues of Charles XII and Charles XIII are good subjects outside blossom season. In 2004, 285 new linden trees were planted. In winter there is an ice rink, which gives you a different kind of photo. The blossom depends on the spring weather, so timing varies from year to year.",
    "geographic_location": "Kungsträdgården is in central Stockholm, a short walk from the Royal Palace and the Old Town. Strömgatan quay runs along its southern edge, and Hamngatan with the NK department store lies to the north.",
-   "directions_text": "No stop is listed for this spot, so start from the Old Town and Royal Palace, or from NK on Hamngatan, and walk to the park. The phone icon on the map is about 1 minute on foot from the middle of the park. The phone icon on the map is about 70 m north of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "No stop is listed for this spot, so start from the Old Town and Royal Palace, or from NK on Hamngatan, and walk to the park. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) for the blossom tunnel and tilt the phone upward. Switch to ultra-wide (0.5x) if you want more of the canopy and the path in one frame. A 2x telephoto setting suits a tighter shot of the blossom against the sky.",
-    "where_to_stand": "Stand about 70 m north of the numbered pin, at the phone icon on the map, and face south. The middle of the park lies to the south. From here you look up through the tunnel of pink blossom over the paths, with the sky showing between the branches.",
+    "where_to_stand": "Stand in Kungsträdgården (blossom avenue inside the park, shooting up into the canopy). A pink cherry-blossom canopy over the park's paths, best framed by looking upward toward the blossoms against the sky. The middle of the park lies to the south. From here you look up through the tunnel of pink blossom over the paths, with the sky showing between the branches.",
     "how_to_frame": "Hold the phone close to your chest and point it up so the branches arch over the top of the frame. Turn on gridlines to keep the avenue symmetrical. For a different composition, try the oversized chess pieces in the foreground with blossom above, or the swans on the water with the city buildings behind. Both are in other parts of the park.",
     "phone_settings_tip": "Tap on the blossom to focus, then drag the exposure slider down a little so the sky does not wash out the pink. Live Photos can catch petals moving in the breeze.",
     "best_time": "Late April, when the blossom is usually out. Go early in the morning to beat the crowds. Outside spring, the fountains, trees and winter ice rink are the main subjects."
@@ -539,15 +549,16 @@
   "name": "Monteliusvägen viewpoint",
   "in_cut": true,
   "label": "Monteliusvägen",
-  "camera_pill": "Mariaberget",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1770,
   "pin": [
    18.0604556,
    59.3207312
   ],
   "camera": [
-   18.058696,
-   59.320727
+   18.0604556,
+   59.3207312
   ],
   "camera_source": "Researched viewpoint 'Mariaberget' (2 web pages); placed at OpenStreetMap 'Mariaberget' (way/24606774): middle (383 m across).",
   "pin_note": "Position from OpenStreetMap way/144024295: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -555,10 +566,10 @@
   "text": {
    "description": "Monteliusvägen is a cobbled path with a view across the water to Stockholm's City Hall. From the lookout at Mariaberget you see the City Hall across the water. From along the Monteliusvägen path, Gamla Stan's rooftops and spires and Riddarholmen come into view, with the City Hall tower off to one side. The cobbled lane and the houses along it make a good foreground, so the picture feels like a street scene as well as a view.\n\nOne photo guide says the lookout at Mariaberget is the main spot, but suggests walking on to the far side of the path. From there you can include the cobbles and the houses, which makes a more interesting composition. The best spot along the path is a matter of taste, so take a few steps between shots and compare. If you want wider, more open views over the water and the skyline from a different angle, Skinnarviksberget is another viewpoint nearby. It is informal rock with no railing, so take care there.\n\nThe path is not salted in winter, and the boardwalk sections can be slippery, so wear shoes with grip in cold weather. Stay behind the edge while you take photos, and keep the phone strap or wrist loop on if you have one.",
    "geographic_location": "Along a path that looks across the water to the City Hall and Gamla Stan.",
-   "directions_text": "No Underground or tram stop is listed for this spot. Guides give different approach routes (some mention Bastugatan steps, others Klevgränd or Mariatorget), so check the map before you set out. Check the name Mariaberget on the map too. The phone icon on the map is about 100 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground or tram stop is listed for this spot. Guides give different approach routes (some mention Bastugatan steps, others Klevgränd or Mariatorget), so check the map before you set out. Check the name Mariaberget on the map too. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the City Hall across the water. Switch to ultra-wide (0.5x) when you walk to the far side of the path and want the cobbled lane, the houses and the view in one frame. Use telephoto (2x-5x, depending on your phone) to pick out the City Hall tower or Gamla Stan's spires.",
-    "where_to_stand": "Stand about 100 m west of the subject, on Mariaberget (the phone icon on the map), and face east. After your first photos, walk on to the far side of the path to include the cobbled lane and the houses lining it.",
+    "where_to_stand": "Stand on Mariaberget (the observation area at the main lookout on the path, then continuing on to the far side of the path). The City Hall across the water, with the cobblestone path and the houses lining it in the foreground. After your first photos, walk on to the far side of the path to include the cobbled lane and the houses lining it.",
     "how_to_frame": "Turn on gridlines and place the cobbled path or the row of houses along the lower third, with the City Hall across the water in the upper part. Keep the horizon level, because the water makes any tilt obvious. For a second picture, from along the Monteliusvägen path, take in Gamla Stan and Riddarholmen and let the City Hall tower sit to one side. Skinnarviksberget is an alternative if you want a wider skyline view.",
     "phone_settings_tip": "Tap the City Hall or the sky to set focus, then drag the exposure slider down slightly if the sky looks washed out. Use the ultra-wide lens only when the lane really helps the picture, because it can make distant landmarks look small. In low light, night mode helps, but rest your elbows on something steady and wait for it to finish.",
     "best_time": "There is no set best time. In winter, avoid icy mornings, because the path is not salted and the boardwalk sections can be slippery."
@@ -582,6 +593,7 @@
   "in_cut": true,
   "label": "Slussen",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1650,
   "pin": [
    18.07263889,
@@ -640,15 +652,16 @@
   "name": "Nordic Museum",
   "in_cut": true,
   "label": "Nordic Museum",
-  "camera_pill": "Djurgårdsbron",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1620,
   "pin": [
    18.0938649,
    59.3291448
   ],
   "camera": [
-   18.093856,
-   59.331115
+   18.0938649,
+   59.3291448
   ],
   "camera_source": "Researched viewpoint 'Djurgårdsbron' (2 web pages); placed at OpenStreetMap 'Djurgårdsbron' (way/421206372): middle (67 m across).",
   "pin_note": "Position from OpenStreetMap way/348345482: the middle of the OpenStreetMap outline 'Nordic Museum' (169 m across).",
@@ -656,10 +669,10 @@
   "text": {
    "description": "The Nordic Museum (Nordiska museet) is a large, castle-like building on Djurgården, the island in central Stockholm. It tells the everyday cultural history of Sweden from 1520 to the present day. Artur Hazelius, who also founded the open-air museum Skansen, started the collection in the 1870s. The building we see now was designed by Isak Gustaf Clason and finished in 1907, after a construction period of 19 years. It was meant to be even bigger, about three times the size that was actually built. Its look comes from Dutch-influenced Danish Renaissance buildings such as Frederiksborg Palace, and brick and granite give the walls a warm, solid texture. Inside, a huge main hall 126 metres long runs up to the roof. It is dominated by a giant sculpture of King Gustav Vasa.\n\nIt photographs well from across the water. From the Strandvägen end of Djurgårdsbron you can fit the palace-style facade into one frame with the water in front of it, which gives a calm, uncluttered foreground. Stand at the bridge abutment, keep your phone level and let the building fill the middle of the picture. If you have time, Skeppsholmsbron shows the museum with Djurgården's trees and the harbour around it. Galärparken gives a waterfront view across Djurgården toward Strandvägen and Skeppsholmen, with the museum nearby.",
    "geographic_location": "On Djurgården, the island in central Stockholm, just across the water from the Strandvägen waterfront. The best view of it is from Djurgårdsbron, the bridge that leads onto the island.",
-   "directions_text": "No Underground or tram stops are listed for this spot, so head for Strandvägen in central Stockholm and then go by taxi or hired scooter to the Strandvägen end of Djurgårdsbron. That is where the phone icon on the map sits. From there the museum is about 4 minutes on foot to the south, across the bridge and onto Djurgården. The phone icon on the map is about 150 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground or tram stops are listed for this spot, so head for Strandvägen in central Stockholm and then go by taxi or hired scooter to the Strandvägen end of Djurgårdsbron. From there the museum is about 4 minutes on foot to the south, across the bridge and onto Djurgården. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the whole facade across the water. Switch to telephoto (2x-3x, depending on your phone) for the towers and roofline, and keep the ultra-wide (0.5x) for the alternative viewpoints, where you may be closer and want more sky and water.",
-    "where_to_stand": "Stand about 150 m north of the subject, on Djurgårdsbron (the phone icon on the map), and face south. From here you look south across the water to the museum's palace-style facade.",
+    "where_to_stand": "Stand on Djurgårdsbron (Strandvägen end, from the bridge abutment). The museum's palace-style facade seen across the water from the Strandvägen side of the bridge. From here you look south across the water to the museum's palace-style facade.",
     "how_to_frame": "Turn on gridlines and line the building up so its vertical edges run parallel to the grid lines. Put the facade in the middle of the frame, with a band of water along the bottom. If you want a different view, try Skeppsholmsbron or Galärparken.",
     "phone_settings_tip": "Tap on the facade to set focus and exposure. Because you are looking south, the sky behind the building can be bright, so drag the exposure slider down a little if the sky is washing out, but check that the facade does not become too dark. Take a few frames in case a passer-by or vehicle crosses the foreground.",
     "best_time": "Looking south, the midday sun is ahead of you, so around late morning to early afternoon expect backlight on the facade. An overcast day gives softer, more even light, and on a sunny day a small exposure adjustment helps. A clear, calm day gives the best reflections in the water."
@@ -693,15 +706,16 @@
   "name": "Riddarholmen Church",
   "in_cut": true,
   "label": "Riddarholmen Church",
-  "camera_pill": "Evert Taubes terrass",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1410,
   "pin": [
    18.0645851,
    59.3246365
   ],
   "camera": [
-   18.061837,
-   59.325108
+   18.0645851,
+   59.3246365
   ],
   "camera_source": "Researched viewpoint 'Evert Taubes terrass' (3 web pages); placed at OpenStreetMap 'Evert Taubes Terrass' (way/26224594): middle (190 m across).",
   "pin_note": "Position from OpenStreetMap way/23841420: the middle of the OpenStreetMap outline 'Riddarholm Church' (74 m across).",
@@ -709,10 +723,10 @@
   "text": {
    "description": "Riddarholmen Church is one of the oldest buildings in Stockholm, with parts dating back to the late 13th century, when it was built as a Franciscan friary. After the Reformation it became a Lutheran church. The congregation was dissolved in 1807, and today the church is used only for burials and commemorations. Most Swedish monarchs are laid to rest here. The church mixes Gothic and baroque styles. The slim cast-iron spire is the part you will spot from far away. It replaced an earlier spire that was destroyed by lightning in 1835.\n\nThe church photographs best as part of a wider scene. From Evert Taube's Terrace on the west side of the island, you look over Riddarfjärden bay to Stockholm City Hall and the Söder heights, with the spire rising on the island. Guides name this as the island's finest open view and the spot most often chosen for sunset pictures. For a close portrait of the building, two other places work well. Birger Jarls torg shows the whole church front and spire, and from the northern part of the island you can also fit in the pink Stenbock palaces. Schering Rosenhanes gränd shows the church up a cobbled lane, with the winding path leading the eye towards it.\n\nThe church interior is closed in the cooler months, so plan for outside shots and check the official site before you go if you hope to go in.",
    "geographic_location": "On the island of Riddarholmen in central Stockholm, close to the Royal Palace. The terrace sits on the island's west shore, facing Riddarfjärden bay.",
-   "directions_text": "No station is listed for this spot, so start from the Royal Palace and head for the island of Riddarholmen next door. Walk to the west shore of the island to reach the phone icon on the map on Evert Taube's Terrace. From there the church is a short stroll to the east, about 3 minutes on foot. The phone icon on the map is about 130 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station is listed for this spot, so start from the Royal Palace and head for the island of Riddarholmen next door. From there the church is a short stroll to the east, about 3 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the bay, City Hall and the sky together. Switch to the default lens (1x) for a cleaner, more natural view. Use the telephoto (2x-5x, depending on your phone) to pick out the spire or City Hall on its own.",
-    "where_to_stand": "Stand about 130 m west of the subject, on Evert Taubes terrass (the phone icon on the map), and face east. From here your photo takes in Riddarfjärden bay in front of you, with Stockholm City Hall and the Söder heights across the water and the church spire rising on the island.",
+    "where_to_stand": "Stand on Evert Taubes terrass (west side of Riddarholmen island). Riddarfjärden bay in front, with Stockholm City Hall and Söder heights across the water and the church spire rising on the island. From here your photo takes in Riddarfjärden bay in front of you, with Stockholm City Hall and the Söder heights across the water and the church spire rising on the island.",
     "how_to_frame": "Turn on the gridlines and put the water along the lower third, so the skyline and spire sit above it. For a close-up of the church itself, walk to Birger Jarls torg for the whole front and spire. Schering Rosenhanes gränd gives a more intimate shot of the church framed by cobblestones.",
     "phone_settings_tip": "Tap the sky or the far shore to focus, then drag the exposure slider down a little so the sunset colours don't wash out. If the light fades, try night mode and rest your phone on the terrace railing or a wall to keep it steady.",
     "best_time": "Sunset, per guides, when the view across the bay is at its best."
@@ -746,6 +760,7 @@
   "in_cut": true,
   "label": "Nationalmuseum",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1140,
   "pin": [
    18.0781811,
@@ -799,6 +814,7 @@
   "in_cut": true,
   "label": "Mårten Trotzigs gränd",
   "camera_pill": null,
+  "nophone": false,
   "searches": 380,
   "pin": [
    18.0727916,
@@ -852,6 +868,7 @@
   "in_cut": true,
   "label": "Skeppsholmsbron",
   "camera_pill": null,
+  "nophone": false,
   "searches": 140,
   "pin": [
    18.0791316,
@@ -903,6 +920,7 @@
   "in_cut": true,
   "label": "Logårdstrappan",
   "camera_pill": null,
+  "nophone": false,
   "searches": 120,
   "pin": [
    18.0734898,
@@ -953,6 +971,7 @@
   "in_cut": false,
   "label": "Storkyrkan",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1540,
   "pin": [
    18.0704018,
@@ -1008,6 +1027,7 @@
   "in_cut": false,
   "label": "German Church",
   "camera_pill": null,
+  "nophone": false,
   "searches": 70,
   "pin": [
    18.0717048,

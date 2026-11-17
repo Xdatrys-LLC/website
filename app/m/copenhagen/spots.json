@@ -4,15 +4,16 @@
   "name": "Tivoli Gardens",
   "in_cut": true,
   "label": "Tivoli Gardens",
-  "camera_pill": "Vesterbrogade",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 68700,
   "pin": [
    12.5685354,
    55.6735144
   ],
   "camera": [
-   12.545695,
-   55.671559
+   12.5685354,
+   55.6735144
   ],
   "camera_source": "Researched viewpoint 'Vesterbrogade' (2 web pages); placed at OpenStreetMap 'Vesterbrogade' (way/495927322): point nearest the subject (419 m long).",
   "pin_note": "Position from OpenStreetMap way/314752241: the middle of the OpenStreetMap outline 'Tivoli Gardens' (545 m across).",
@@ -20,10 +21,10 @@
   "text": {
    "description": "Tivoli Gardens is an amusement park and pleasure garden right in the middle of Copenhagen. It opened on 15 August 1843, which makes it the second-oldest operating amusement park in the world. From the start it mixed flower gardens, cafés and rides with buildings in the style of an imaginary Orient, and coloured lamps lit the grounds after dark. That mix is why it photographs so well. The Moorish-style Nimb building and the park gate make a bold, symmetrical front, and in the evening the lit arches and lanterns give you a ready-made subject. The wooden roller coaster Rutschebanen dates from 1914 and is still running. The Chinese-style pantomime theatre has stood here since 1874. The park is also the most visited in Scandinavia, with 4.25 million visitors in 2024, so expect people in your shots at busy times. For the classic front view, stand on the pavement on Vesterbrogade outside the main entrance, in front of the Nimb building. Stand square-on to the Nimb facade and fit in the gate and the lit arches. If you have time for a second angle, Rådhuspladsen gives a wider view from the city side. Tivoli Lake shows the Chinese Pagoda and Tivoli Castle reflected in the water at dusk, but that spot is inside the park, so you need an entry ticket.",
    "geographic_location": "Tivoli Gardens is in central Copenhagen, next to the Central rail station. The main entrance and the Nimb building face Vesterbrogade.",
-   "directions_text": "Start from the Central rail station area in downtown Copenhagen, because the park sits right beside it. Head to the main entrance on Vesterbrogade, on the park's street side. This entrance is the viewpoint for the classic front shot. Rådhuspladsen, the second viewpoint, is on the city side of the park. The phone icon on the map is about 1.3 km west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from the Central rail station area in downtown Copenhagen, because the park sits right beside it. Head to the main entrance on Vesterbrogade, on the park's street side. This entrance is the viewpoint for the classic front shot. Rådhuspladsen, the second viewpoint, is on the city side of the park. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) from the pavement, so the facade and gate keep a natural shape. If the pavement is crowded and you cannot step back, switch to the ultra-wide (0.5x) to fit the whole front in. Keep the phone level so the edges do not lean.",
-    "where_to_stand": "Stand about 1.3 km west of the subject, on Vesterbrogade (the phone icon on the map), and face east. On the pavement outside the main entrance, in front of the Nimb building. From here you see the Moorish-style Nimb facade and the park gate straight on, with the lit arches and lanterns as the main subject after dark.",
+    "where_to_stand": "Stand on Vesterbrogade (on the pavement outside the main entrance, in front of the Nimb building). The Moorish-style Nimb facade and the park gate, framed straight on, with the lit arches and lanterns as the focus after dark. On the pavement outside the main entrance, in front of the Nimb building. From here you see the Moorish-style Nimb facade and the park gate straight on, with the lit arches and lanterns as the main subject after dark.",
     "how_to_frame": "Turn on gridlines and line up the centre of the gate with the middle of the frame, with the facade filling the upper part. Wait for a gap in the passers-by, or let a few people stay in the lower corner to show scale. For a different view, try Rådhuspladsen for the park's skyline and lights in the distance with the square in front. Tivoli Lake, inside the park, is the choice for reflections of the Pagoda and Tivoli Castle.",
     "phone_settings_tip": "After dark, let night mode do its work and brace your elbows against your body or a railing. Tap on the brightest lit arches to set focus, then slide the exposure down a little so the lights keep their colour and detail instead of burning out. Take a few frames and keep the sharpest one.",
     "best_time": "After dark, when the facade is lit. If you would rather have fewer people in the frame, an early-morning visit is quieter, but the lights will not be the main feature then."
@@ -64,15 +65,16 @@
   "name": "Nyhavn",
   "in_cut": true,
   "label": "Nyhavn",
-  "camera_pill": "Nyhavnsbroen",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 24300,
   "pin": [
    12.5909092,
    55.6797367
   ],
   "camera": [
-   12.591298,
-   55.679629
+   12.5909092,
+   55.6797367
   ],
   "camera_source": "Researched viewpoint 'Nyhavnsbroen' (3 web pages); placed at OpenStreetMap 'Nyhavnsbroen' (way/4375853): middle (29 m across).",
   "pin_note": "Position from OpenStreetMap relation/6476337: the middle of the OpenStreetMap outline 'Nyhavn' (429 m across).",
@@ -80,10 +82,10 @@
   "text": {
    "description": "Nyhavn is the old canal harbour in the middle of Copenhagen, lined with tall, brightly painted townhouses and moored wooden ships. It was dug between 1670 and 1675 under King Christian V and was once a busy, rowdy port. Today the quay is pedestrianised and the old ships are part of a heritage harbour. It photographs well because the colours, the water and the masts all sit in one straight line, so even a quick snap looks composed. The north side has the oldest house, No. 9, dating from 1681. Hans Christian Andersen lived at several addresses here, including No. 67. The classic picture is taken from the bridge over the canal, where the full row of houses, boats and water fits in one frame. If the bridge is too crowded, Inderhavnsbroen, the footbridge and cycle bridge across the harbour mouth, gives a view of Nyhavn from the water side. Expect people on the quayside and café terraces, so leave a little space around your subject and take a few shots as the crowd shifts. Keep the phone steady against the railing, and wipe the lens first, as harbour air can leave a faint film on it.",
    "geographic_location": "Nyhavn is in central Copenhagen, running from the square Kongens Nytorv down to the Inner Harbour, just south of the Royal Playhouse.",
-   "directions_text": "Start at Kongens Nytorv, the square at the inner end of Nyhavn. The Kongens Nytorv Metro station is at the far side of the square and is served by all four Copenhagen Metro lines. Walk along the canal towards the harbour and use the map to find the bridge and the phone icon on the map. If you arrive by harbour bus, the stop is next to the Royal Playhouse at the mouth of Nyhavn. The phone icon on the map is about 25 m south-east of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Kongens Nytorv, the square at the inner end of Nyhavn. The Kongens Nytorv Metro station is at the far side of the square and is served by all four Copenhagen Metro lines. If you arrive by harbour bus, the stop is next to the Royal Playhouse at the mouth of Nyhavn. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for natural-looking houses. Switch to ultra-wide (0.5x) if the bridge is busy and you cannot step back. Use telephoto (2x-5x, depending on your phone) for details such as a single boat, a mast or a row of window frames.",
-    "where_to_stand": "Stand about 25 m south-east of the numbered pin, at the phone icon on the map, and face north-west. The aim is a photo that shows the full row of coloured canal houses, the moored wooden boats and the water in one frame.",
+    "where_to_stand": "Stand on Nyhavnsbroen (bridge at the canal's inner end; sources disagree on which end, so check on the map). The full row of coloured canal houses with moored wooden boats and the water in one frame. The aim is a photo that shows the full row of coloured canal houses, the moored wooden boats and the water in one frame.",
     "how_to_frame": "Turn on gridlines and line the quay up with one of the lower grid lines so the houses stay upright. Put the boats in the lower third and the houses in the middle, with a little sky above. For a different view, walk to Inderhavnsbroen for Nyhavn seen across the water; it opens for boats, so stand clear of the central section when the horn sounds.",
     "phone_settings_tip": "Tap on the houses to focus, then drag the exposure slider down slightly so the sky and the bright colours do not wash out. Take a Live Photo too, as boats and passers-by can give you a better frame than the still you aimed for.",
     "best_time": "One guide recommends late afternoon. The north-side houses are said to catch good light mainly in the morning and early afternoon in summer, and the terraces fill up from late morning, so going early means fewer people."
@@ -115,6 +117,7 @@
   "in_cut": true,
   "label": "Rosenborg Castle",
   "camera_pill": null,
+  "nophone": false,
   "searches": 21790,
   "pin": [
    12.57745,
@@ -168,6 +171,7 @@
   "in_cut": true,
   "label": "Amalienborg",
   "camera_pill": null,
+  "nophone": false,
   "searches": 10360,
   "pin": [
    12.5931335,
@@ -220,15 +224,16 @@
   "name": "Christiansborg Palace",
   "in_cut": true,
   "label": "Christiansborg",
-  "camera_pill": "Marmorbroen",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 9280,
   "pin": [
    12.5790529,
    55.6757157
   ],
   "camera": [
-   12.576775,
-   55.674901
+   12.5790529,
+   55.6757157
   ],
   "camera_source": "Researched viewpoint 'Marmorbroen' (3 web pages); placed at OpenStreetMap 'Marmorbroen' (way/379074390): middle (44 m across).",
   "pin_note": "Position from OpenStreetMap way/25992657: the middle of the OpenStreetMap outline 'Christiansborg Palace' (398 m across).",
@@ -236,10 +241,10 @@
   "text": {
    "description": "Christiansborg Palace sits on the islet of Slotsholmen in the middle of Copenhagen, and it is the one building where Denmark's Parliament, the Prime Minister's Office and the Supreme Court all work under one roof. It is also the third palace on this site. The first castle here was built in 1167, and the current Neo-baroque building was put up between 1907 and 1928 after two earlier palaces were lost to fires, in 1794 and 1884. Its granite-faced walls, copper roof and tall central tower make a big, solid subject, and it is large enough that you will want to stand back to fit it in. Guides call the stone bridge Marmorbroen the classic angle for a phone shot. From there the palace gate, the castle square and the main building line up in a neat, centred composition, with the bridge's balustrades and lanterns in the foreground and the canal below. The tower is 106 metres tall and is the tallest in the city, so it works well as the high point of a vertical shot. Parts of the palace are open to the public, including the ruins of the older castles beneath it, but the outside view from the bridge needs no ticket. Take a wide shot first, then move in on details such as the lanterns or the gate.",
    "geographic_location": "Christiansborg Palace is on the islet of Slotsholmen in central Copenhagen, surrounded by canals.",
-   "directions_text": "No Underground, train or tram stop is given for this spot, so head for Slotsholmen in central Copenhagen. Once you reach the phone icon on the map, the middle of the palace is to the north-east, about 3 minutes on foot. Follow the map from there. The phone icon on the map is about 20 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground, train or tram stop is given for this spot, so head for Slotsholmen in central Copenhagen. Follow the map from there. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the symmetrical view of the gate and main building. Switch to the ultra-wide (0.5x) if the palace will not fit, or to the telephoto (2x or more) to pick out the tower and the gate.",
-    "where_to_stand": "Stand about 20 m south-west of the subject, on Marmorbroen (the phone icon on the map), and face north-east. Guides recommend Marmorbroen, and from the middle of that bridge the view is described as a centred one of the palace gate, the castle square and the main building, framed by the stone balustrades and lanterns. The exact best spot can vary, so check on the day and adjust your position a little to find the cleanest view.",
+    "where_to_stand": "Stand on Marmorbroen. A symmetrical, centred view of the palace gate, the castle square and the main building, framed by the stone balustrades and lanterns of the bridge. Guides recommend Marmorbroen, and from the middle of that bridge the view is described as a centred one of the palace gate, the castle square and the main building, framed by the stone balustrades and lanterns. The exact best spot can vary, so check on the day and adjust your position a little to find the cleanest view.",
     "how_to_frame": "Turn on the gridlines and put the palace gate on the centre line, so the shot looks symmetrical. If you are on Marmorbroen, let the bridge's balustrades and lanterns fill the foreground, and include the canal if it is calm enough to show reflections. For a different angle, Højbro Plads shows the palace tower above the canal with the Marble Bridge in the middle distance.",
     "phone_settings_tip": "Tap on the palace walls to set focus, then drag the exposure slider down a little if the sky is bright, so the sky keeps its colour and the building does not turn too dark. Keep the phone level so the tower stays upright.",
     "best_time": "Sunrise or golden hour, when the light is softest on the water."
@@ -272,15 +277,16 @@
   "name": "Freetown Christiania",
   "in_cut": true,
   "label": "Christiania",
-  "camera_pill": "Prinsessegade",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 8690,
   "pin": [
    12.5997222,
    55.6736111
   ],
   "camera": [
-   12.59762,
-   55.674393
+   12.5997222,
+   55.6736111
   ],
   "camera_source": "Researched viewpoint 'Prinsessegade' (2 web pages); placed at OpenStreetMap 'Prinsessegade' (way/776583734): point nearest the subject (150 m long).",
   "pin_note": "Position from OpenStreetMap way/250989045: large area 'Freetown Christiania' (1827 m across): previous pin kept, it lies inside.",
@@ -288,10 +294,10 @@
   "text": {
    "description": "Freetown Christiania is a self-governing community in the Christianshavn part of Copenhagen. It began in 1971, when people moved into a disused military base, and it now covers about 7.7 hectares with roughly 850 to 1,000 residents. The area takes in old barracks and part of the 17th-century ramparts that Christianshavn still keeps. The ramparts date from 1617 and are counted among the finest surviving defence works of their age. Four gunpowder storehouses from 1779–1780 also still stand there.\n\nFor a first photo, start at the main red steel gate on Prinsessegade. It is the community's symbolic entrance, and the painted entry area and the start of the lanes make a strong, colourful frame. Guides say photographing the gate itself is allowed. It gets busy later in the day, so an early visit gives a cleaner picture.\n\nPhotography rules here are mixed. Do not photograph Pusher Street or any signed no-photo zone, and ask residents before photographing them or their homes. If you want a calmer view afterwards, Christianshavns Vold shows the lake and canal with the self-built houses beyond the water. Dyssebroen has colourful waterfront houses and tree-lined paths. Keep your phone away from faces and front doors, and look for signs as you go.",
    "geographic_location": "Christiania sits in the Christianshavn district of Copenhagen, on the island of Amager. It occupies the former barracks and part of the old ramparts, with its main gate on Prinsessegade.",
-   "directions_text": "No Metro, train or tram stop is listed close by; head for Prinsessegade and the red gate in the Christianshavn area. From the phone icon on the map at the gate, the heart of the community lies to the south-east, about 3 minutes on foot. Follow the signs once you are inside. The phone icon on the map is about 160 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Metro, train or tram stop is listed close by; head for Prinsessegade and the red gate in the Christianshavn area. Follow the signs once you are inside. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the default lens (1x) for the red gate and the entrance plaza. Switch to the ultra-wide (0.5x) if the gate and painted entry area will not fit. Use telephoto (2x or more) for painted walls and details, not for people.",
-    "where_to_stand": "Stand about 160 m north-west of the subject, on Prinsessegade (the phone icon on the map), and face south-east. From here you see the gate, the entrance plaza with its painted entry area, and the start of the lanes, with the main part of the community to the south-east.",
+    "where_to_stand": "Stand on Prinsessegade (at the main red steel gate, the community's entrance). The gate and entrance plaza, with the painted entry area and the start of the community's lanes. From here you see the gate, the entrance plaza with its painted entry area, and the start of the lanes, with the main part of the community to the south-east.",
     "how_to_frame": "Turn on gridlines and place the gate in the centre or on one third line, keeping the painted entry area in the lower part of the frame. Wait a moment for people to pass so the gate stays clear. For a different view, Christianshavns Vold shows the canal and the community's houses across the water.",
     "phone_settings_tip": "Tap the gate to focus, then lower the exposure slider a little if the sky is bright, so the red and the paint colours do not wash out. Do not point the phone at Pusher Street or at signed no-photo areas.",
     "best_time": "Before about 09:30 gives a cleaner shot of the gate, according to one guide. It tends to be busy later in the day."
@@ -330,6 +336,7 @@
   "in_cut": true,
   "label": "Little Mermaid",
   "camera_pill": null,
+  "nophone": false,
   "searches": 8380,
   "pin": [
    12.5992896,
@@ -383,6 +390,7 @@
   "in_cut": true,
   "label": "Kastellet",
   "camera_pill": null,
+  "nophone": false,
   "searches": 7030,
   "pin": [
    12.5937449,
@@ -432,15 +440,16 @@
   "name": "Strøget",
   "in_cut": true,
   "label": "Strøget",
-  "camera_pill": "Amagertorv",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 6870,
   "pin": [
    12.575,
    55.679
   ],
   "camera": [
-   12.579001,
-   55.678794
+   12.575,
+   55.679
   ],
   "camera_source": "Researched viewpoint 'Amagertorv' (4 web pages); placed at OpenStreetMap 'Amagertorv' (way/24721845): middle (212 m across).",
   "pin_note": "Position from OpenStreetMap relation/1629331: large area 'Strøget' (1089 m across): previous pin kept, it lies inside.",
@@ -448,10 +457,10 @@
   "text": {
    "description": "Strøget is Copenhagen's long car-free shopping street, running through the middle of the old city for about 1.1 km. It is really a chain of streets and small squares rather than one straight line, and the best-looking part for a phone photo is Amagertorv. Here the Stork Fountain (Storkespringvandet) sits in the open, and the pedestrian street runs away from you with shopfronts on both sides. The paving helps too: Amagertorv was resurfaced in 1993 in a granite pattern designed by the artist Bjørn Nørgaard, which gives you an interesting foreground. The street became pedestrian-only on 17 November 1962, at first as a trial, and the change was made permanent in 1964. Because it is closed to cars, you can stand in the street and take your time over the shot. It gets very busy, though. Around 80,000 people can use it on a summer day. If you want clear pavement and a calm scene, go early in the morning. If you want a second angle, Nytorv has the columned courthouse facade closing the view at the end of the street. The ILLUM rooftop gives a raised view down over Amagertorv, with Christiansborg Palace beyond the rooftops, but it is inside a department store, so check the official site before you go.",
    "geographic_location": "Strøget runs through the centre of Copenhagen's old city, between City Hall Square (Rådhuspladsen) in the west and Kongens Nytorv in the east. Amagertorv, the square with the Stork Fountain, is one of the pedestrian squares along it.",
-   "directions_text": "Amagertorv is one of the squares along Strøget, and the Stork Fountain stands on it. Kongens Nytorv, the large square at the eastern end of Strøget, has a Metro station, which is a useful place to arrive. From there, follow the pedestrian streets to the fountain and check a map on your phone. The phone icon on the map is about 250 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Amagertorv is one of the squares along Strøget, and the Stork Fountain stands on it. Kongens Nytorv, the large square at the eastern end of Strøget, has a Metro station, which is a useful place to arrive. From there, follow the pedestrian streets to the fountain and check a map on your phone. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x), which gives a natural view of the street. Switch to the ultra-wide (0.5x) if you want more of the patterned paving and the shopfronts on both sides. Use the telephoto (2x-5x, depending on your phone) for details such as the fountain or people further down the street.",
-    "where_to_stand": "Stand about 250 m east of the subject, in Amagertorv (the phone icon on the map), and face west. Face along the street so the pedestrian way runs away from you, with the patterned pavement in the foreground and the shopfronts framing both sides.",
+    "where_to_stand": "Stand in Amagertorv (stand by the Stork Fountain (Storkespringvandet) and face along the street). The fountain square with the pedestrian street running away from you, with patterned pavement and shopfronts framing the scene. Face along the street so the pedestrian way runs away from you, with the patterned pavement in the foreground and the shopfronts framing both sides.",
     "how_to_frame": "Switch on the gridlines and keep the street centred, with the vertical lines of the buildings straight. Crouch a little so more of the granite pattern fills the lower part of the picture. For a different view, Nytorv shows the columned courthouse facade at the end of the street, and the ILLUM rooftop looks down over Amagertorv.",
     "phone_settings_tip": "Tap on the fountain or a shopfront to set focus, then use the exposure slider to stop bright sky or shop windows washing out. Take a few frames, as people keep walking through the scene. Live Photos can help you pick a moment with fewer people in the way.",
     "best_time": "Early morning, before the crowds build up, when the paving is nearly empty. Midday is very crowded."
@@ -484,15 +493,16 @@
   "name": "The Black Diamond (Royal Library)",
   "in_cut": true,
   "label": "Black Diamond",
-  "camera_pill": "Cirkelbroen",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 4080,
   "pin": [
    12.5831814,
    55.6735566
   ],
   "camera": [
-   12.583703,
-   55.67242
+   12.5831814,
+   55.6735566
   ],
   "camera_source": "Researched viewpoint 'Cirkelbroen' (2 web pages); placed at OpenStreetMap 'Cirkelbroen' (way/419513906): middle (43 m across).",
   "pin_note": "Position from OpenStreetMap relation/19856927: the middle of the OpenStreetMap outline 'Den Sorte Diamant' (193 m across).",
@@ -500,10 +510,10 @@
   "text": {
    "description": "The Black Diamond is the waterfront extension to the Royal Danish Library on Slotsholmen, in central Copenhagen. It is named for its polished black granite and its tilting, irregular shape. Schmidt Hammer Lassen designed it, and it was completed in 1999, opening to the public on 15 September that year. The box leans towards the water, and a wide glazed 'crevasse' splits the facade in two.\n\nIt photographs well because the dark stone works like a mirror. The granite is a type called Absolute Black, mined in Zimbabwe and cut and polished in Italy, and it covers about 2,500 square metres. On a calm day the canal and sky can show in the stone, and the sloping lines make a bold shape even from a distance.\n\nOne framing worth trying is from Cirkelbroen (the Circle Bridge), which sits opposite the Black Diamond across the canal. From there the building sits across the water, with the bridge's railings and curves in the foreground. Aim at the harbour-side facade, using the bridge to add depth to the picture.\n\nFor a second angle, walk along Christians Brygge, the road beside the building, and shoot the granite and the water in front of it with the ultra-wide lens. If you go inside, the atrium has views of the harbour through the big glass front. People are studying there, so keep your phone quiet and don't use flash.",
    "geographic_location": "On Slotsholmen in central Copenhagen, on the harbour side of the Royal Library. Christians Brygge, a busy road, separates it from the library's older Holm Building.",
-   "directions_text": "No Underground, train or tram stops are listed for this spot, so I can't give a public-transport route. From there the Black Diamond is to the north. The phone icon on the map is about 110 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground, train or tram stops are listed for this spot, so I can't give a public-transport route. From there the Black Diamond is to the north. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole tilted facade and the bridge railings in the frame. If the building looks too small or the edges look stretched, switch to the default lens (1x). Use the telephoto/zoom (2x-5x, depending on your phone) for close shots of the granite and the glass crevasse.",
-    "where_to_stand": "Stand about 110 m south of the subject, on Cirkelbroen (the phone icon on the map), and face north. Across Christianshavns Kanal, and look north. From there you see the black granite harbour-side facade of the Black Diamond across the water, with the Circle Bridge in the foreground.",
+    "where_to_stand": "Stand on Cirkelbroen (across Christianshavns Kanal, facing the Black Diamond's harbour-side facade). The black granite facade of the Black Diamond across the canal, with the Circle Bridge in the foreground. Across Christianshavns Kanal, and look north. From there you see the black granite harbour-side facade of the Black Diamond across the water, with the Circle Bridge in the foreground.",
     "how_to_frame": "Turn on gridlines and keep the verticals straight so the leaning building looks deliberate. Place part of the bridge railing or curve low in the frame as a foreground. Leave some water in the picture to catch the reflection. For an alternative, walk along Christians Brygge and shoot the facade and the water in front of it with the ultra-wide lens.",
     "phone_settings_tip": "Tap on the facade to set focus, then slide the exposure down a little so the sky doesn't wash out and the black stone keeps its detail. Take a few shots at slightly different exposures. A Live Photo can catch passing boats or ripples on the canal. Indoors, leave the flash off.",
     "best_time": "Early morning or late afternoon, when the light is softer. A calm, still day gives the clearest reflections in the canal and the granite."
@@ -537,6 +547,7 @@
   "in_cut": true,
   "label": "Round Tower",
   "camera_pill": null,
+  "nophone": false,
   "searches": 3440,
   "pin": [
    12.575791,
@@ -587,6 +598,7 @@
   "in_cut": true,
   "label": "Marble Church",
   "camera_pill": null,
+  "nophone": false,
   "searches": 3220,
   "pin": [
    12.5895722,
@@ -639,26 +651,27 @@
   "name": "Børsen (the old Stock Exchange)",
   "in_cut": true,
   "label": "Børsen",
-  "camera_pill": "Børsbroen",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2950,
   "pin": [
    12.5840273,
    55.6755833
   ],
   "camera": [
-   12.584724,
-   55.675931
+   12.5840273,
+   55.6755833
   ],
   "camera_source": "Researched viewpoint 'Børsbroen' (1 web pages); placed at OpenStreetMap 'Børsbroen' (way/379074386): middle (46 m across).",
   "pin_note": "Position from OpenStreetMap node/3860938969: the OpenStreetMap point 'The Danish Chamber of Commerce'.",
   "notes": "Damaged by fire in 2024; restoration under way.",
   "text": {
-   "description": "Børsen is the old Stock Exchange, a long red-brick building on the island of Slotsholmen, right next to Christiansborg Palace. Christian IV had it built in the early 1600s, and it is a leading example of the Dutch Renaissance style in Denmark. It is about 128 m long, so the facade is a long run of red-brick gables. That is why it works as a photograph from across the water. The building is best known for its dragon spire, made of four twisted dragon tails. The spire fell in the fire of 16 April 2024, and the building is now being rebuilt. The plan uses traditional materials, including more than 800,000 handmade red bricks, with completion projected for 2029. For now, the facade and gables are the subject, not the spire, and you cannot see the interior. For the best view, use the phone icon on the map, at or near the canal-side viewpoint that guides name as Børsbroen. From the canal side you can take in the brick facade and its gables with the palace nearby. If you have time, there are two other options. Slotsholmsgade gives a contrast shot of the building against the Christiansborg tower. Knippelsbro gives a view down Børsgade toward Børsen, with street traffic in the foreground. A free visitor centre with views over the site opened in February 2026, so check the official site before you go.",
+   "description": "Børsen is the old Stock Exchange, a long red-brick building on the island of Slotsholmen, right next to Christiansborg Palace. Christian IV had it built in the early 1600s, and it is a leading example of the Dutch Renaissance style in Denmark. It is about 128 m long, so the facade is a long run of red-brick gables. That is why it works as a photograph from across the water. The building is best known for its dragon spire, made of four twisted dragon tails. The spire fell in the fire of 16 April 2024, and the building is now being rebuilt. The plan uses traditional materials, including more than 800,000 handmade red bricks, with completion projected for 2029. For now, the facade and gables are the subject, not the spire, and you cannot see the interior. From the canal side you can take in the brick facade and its gables with the palace nearby. If you have time, there are two other options. Slotsholmsgade gives a contrast shot of the building against the Christiansborg tower. Knippelsbro gives a view down Børsgade toward Børsen, with street traffic in the foreground. A free visitor centre with views over the site opened in February 2026, so check the official site before you go.",
    "geographic_location": "Børsen stands on Slotsholmen in the centre of Copenhagen, beside Christiansborg Palace. It sits on the north side of the embankment that leads toward Christianshavn.",
-   "directions_text": "No station or tram stop is listed for this spot, so walk to Slotsholmen, next to Christiansborg Palace. Head for the canal side of Børsen, at or near the viewpoint that guides call Børsbroen. From the phone icon on the map the building is to the south-west, about 1 minute on foot. The phone icon on the map is about 60 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot, so walk to Slotsholmen, next to Christiansborg Palace. Head for the canal side of Børsen, at or near the viewpoint that guides call Børsbroen. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to get the facade and gables in one frame. Use the ultra-wide (0.5x) only if you want more sky and water. Try 2x or 3x on a telephoto phone to pick out one gable or the brickwork.",
-    "where_to_stand": "Stand about 60 m north-east of the subject, on Børsbroen (the phone icon on the map), and face south-west. The red-brick Dutch Renaissance facade and its gables run along the canal in front of you, with the palace nearby.",
+    "where_to_stand": "Stand on Børsbroen (canal side, looking toward Christiansborg). The red-brick Dutch Renaissance facade and its gables along the canal, with the palace nearby. The red-brick Dutch Renaissance facade and its gables run along the canal in front of you, with the palace nearby.",
     "how_to_frame": "Turn on the gridlines and line the facade up with a horizontal line so the long building sits level. Keep a strip of canal in the foreground. Because the spire is gone, make the gables and brickwork the main subject. For a different angle, try Slotsholmsgade for Børsen against the Christiansborg tower, or Knippelsbro for the view down Børsgade.",
     "phone_settings_tip": "Tap on the brickwork to focus. Then slide the exposure down a little if the sky is washing out. Hold the phone upright and keep it level so the vertical lines do not lean.",
     "best_time": "Soft morning or evening light works best for facade photos from the canal side."
@@ -696,26 +709,27 @@
   "name": "Copenhagen Opera House",
   "in_cut": true,
   "label": "Opera House",
-  "camera_pill": "Amalienborg Slotsplads",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2070,
   "pin": [
    12.6007405,
    55.6819883
   ],
   "camera": [
-   12.593221,
-   55.683972
+   12.6007405,
+   55.6819883
   ],
   "camera_source": "Researched viewpoint 'Amalienborg Slotsplads' (1 web pages); placed at OpenStreetMap 'Amalienborg Slotsplads' (way/1307538577): middle (262 m across).",
   "pin_note": "Position from OpenStreetMap way/1088494374: the middle of the OpenStreetMap outline 'Copenhagen Opera House' (228 m across).",
   "notes": "Seen across the harbour from Amalienborg.",
   "text": {
-   "description": "Copenhagen Opera House, usually called Operaen, is Denmark's national opera house. It sits on the island of Holmen, right on the Inner Harbour, and it photographs well because of how it is lined up. The architect Henning Larsen placed it in alignment with Amalienborg and the Marble Church, so the view across the water is unusually tidy and balanced. A big glass front and a wide, flat roof give the building strong horizontal lines, and the water in front doubles them when the harbour is calm. The building opened on 15 January 2005 and has 14 floors, five of them below ground, so most of its size is out of sight. From the phone icon on the map, on Amalienborg Slotsplads, you look at the Opera straight on across the harbour, with the fountain in Amalie Garden in the foreground. Guides often call this the most symmetrical view of the building. For your phone, keep the horizon level and let the fountain and the water frame the shot. If you would like a second angle, Inderhavnsbroen gives an open view across the inner harbour with the bridge in the frame. The Opera is a working theatre with guided tours inside, so for anything beyond the outside view, check the official site before you go.",
+   "description": "Copenhagen Opera House, usually called Operaen, is Denmark's national opera house. It sits on the island of Holmen, right on the Inner Harbour, and it photographs well because of how it is lined up. The architect Henning Larsen placed it in alignment with Amalienborg and the Marble Church, so the view across the water is unusually tidy and balanced. A big glass front and a wide, flat roof give the building strong horizontal lines, and the water in front doubles them when the harbour is calm. The building opened on 15 January 2005 and has 14 floors, five of them below ground, so most of its size is out of sight. Guides often call this the most symmetrical view of the building. For your phone, keep the horizon level and let the fountain and the water frame the shot. If you would like a second angle, Inderhavnsbroen gives an open view across the inner harbour with the bridge in the frame. The Opera is a working theatre with guided tours inside, so for anything beyond the outside view, check the official site before you go.",
    "geographic_location": "The Opera House is on the island of Holmen in central Copenhagen, on the shore of the Inner Harbour and directly across the water from the royal palace of Amalienborg.",
-   "directions_text": "Head for Amalienborg Slotsplads, the square in front of the Amalienborg palace. The spot data lists no station or tram stop for this spot. From the phone icon on the map the Opera House lies to the south-east, across the harbour. Walk towards the water by the Amalie Garden fountain and you will see it straight ahead. The phone icon on the map is about 440 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for Amalienborg Slotsplads, the square in front of the Amalienborg palace. The spot data lists no station or tram stop for this spot. Walk towards the water by the Amalie Garden fountain and you will see it straight ahead. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the whole building, the water and the fountain. Try the telephoto (2x or more, depending on your phone) for a tighter shot of the glass front and roofline. The ultra-wide (0.5x) is only worth it if you want a lot of foreground.",
-    "where_to_stand": "Stand about 440 m north-west of the subject, in Amalienborg Slotsplads (the phone icon on the map), and face south-east. From here the Opera House is straight ahead across the water, to the south-east, with the fountain in Amalie Garden in front of it.",
+    "where_to_stand": "Stand in Amalienborg Slotsplads (Amalienborg side, across the harbour from the Opera House). The Opera House seen straight on across the water, with the fountain in Amalie Garden in the foreground. From here the Opera House is straight ahead across the water, to the south-east, with the fountain in Amalie Garden in front of it.",
     "how_to_frame": "Turn on the gridlines and put the Opera's roofline along one of the horizontal lines. Centre the building so the scene stays symmetrical, and place the fountain low in the frame as foreground. Check that the horizon isn't tilted. If you have time, Inderhavnsbroen is a second spot, with the bridge in the frame.",
     "phone_settings_tip": "Tap on the glass front to set focus, then drag the exposure slider down a little so the sky doesn't wash out. Zoom in on the fountain spray and hold still. A Live Photo can catch moving water.",
     "best_time": "Late afternoon or evening is likely to suit this view, because the sun will be behind you and falling on the front of the building. Calm, still days give the best reflections in the water."
@@ -755,26 +769,27 @@
   "name": "Church of Our Saviour",
   "in_cut": true,
   "label": "Church of Our Saviour",
-  "camera_pill": "Wilders Plads",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2000,
   "pin": [
    12.5942617,
    55.6729176
   ],
   "camera": [
-   12.592727,
-   55.675878
+   12.5942617,
+   55.6729176
   ],
   "camera_source": "Researched viewpoint 'Wilders Plads' (2 web pages); placed at OpenStreetMap 'Wilders Plads' (way/8128670): middle (9 m across).",
   "pin_note": "Position from OpenStreetMap way/25607908: the middle of the OpenStreetMap outline 'Church of Our Saviour, Copenhagen' (69 m across).",
   "notes": "",
   "text": {
-   "description": "The Church of Our Saviour (Vor Frelsers Kirke) is a Dutch-baroque church in Christianshavn, and it is the spire that makes it so easy to photograph. The black and gold spire reaches 90 metres, and a staircase winds around the outside of it, turning four times anticlockwise. The walls are made of red and yellow tiles in a random pattern, and the roof is covered in black-glazed tiles. The church was designed by Lambert van Haven and inaugurated in 1695. The spire was designed by Lauritz de Thurah and finished in 1752. At the very top, a 4-metre figure of Christ stands on a gilded globe. It was made with exaggerated proportions because it was meant to be seen from far away.\n\nFor a phone photo, the best approach is to keep your distance. From the phone icon on the map, on Wilders Plads, the spire rises beyond the Christianshavn Canal, with the canal-side houses in the foreground. The houses give the picture scale and a sense of place, and the water adds a calm band underneath. If you want a closer look at the spire's structure, Prinsessegade also works, as the tower is seen up close from the street corner. Stay on the ground for these shots: the tower climb is a separate activity, so check the official site before you go if you plan to do it.",
+   "description": "The Church of Our Saviour (Vor Frelsers Kirke) is a Dutch-baroque church in Christianshavn, and it is the spire that makes it so easy to photograph. The black and gold spire reaches 90 metres, and a staircase winds around the outside of it, turning four times anticlockwise. The walls are made of red and yellow tiles in a random pattern, and the roof is covered in black-glazed tiles. The church was designed by Lambert van Haven and inaugurated in 1695. The spire was designed by Lauritz de Thurah and finished in 1752. At the very top, a 4-metre figure of Christ stands on a gilded globe. It was made with exaggerated proportions because it was meant to be seen from far away.\n\nFor a phone photo, the best approach is to keep your distance. The houses give the picture scale and a sense of place, and the water adds a calm band underneath. If you want a closer look at the spire's structure, Prinsessegade also works, as the tower is seen up close from the street corner. Stay on the ground for these shots: the tower climb is a separate activity, so check the official site before you go if you plan to do it.",
    "geographic_location": "The church is in Christianshavn, the canal-lined district on the Amager side of Copenhagen's harbour, which Christian IV planned in 1617. The viewpoint on Wilders Plads is beside the Christianshavn Canal, north of the church.",
-   "directions_text": "No station or tram stop is listed for this spot, so start from Christianshavn itself and make your way to Wilders Plads, where you will find the canal. The phone icon on the map is about 320 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot, so start from Christianshavn itself and make your way to Wilders Plads, where you will find the canal. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to capture the spire, the canal and the houses together. Switch to telephoto (2x-3x, depending on your phone) for a tighter shot of the spire. Use the ultra-wide (0.5x) only from Prinsessegade, where the tower is too close to fit in otherwise.",
-    "where_to_stand": "Stand about 320 m north of the subject, in Wilders Plads (the phone icon on the map), and face south. The church spire rises beyond the Christianshavn Canal, with the canal-side houses in the foreground.",
+    "where_to_stand": "Stand in Wilders Plads. The church spire rising beyond the Christianshavn Canal, with the canal-side houses in the foreground. The church spire rises beyond the Christianshavn Canal, with the canal-side houses in the foreground.",
     "how_to_frame": "Turn on gridlines and place the spire on one of the vertical lines, with the houses along the bottom of the frame and the canal leading the eye towards it. Keep the phone level so the spire does not lean. If you want a closer view, Prinsessegade is a good alternative: the tower is seen up close from the street corner, close enough to show the spire's structure. Tilting the phone up there will make the tower lean, so step back as far as you can first.",
     "phone_settings_tip": "Tap on the spire to focus, then slide the exposure down a little so the gold detail and the sky stay clear rather than washed out. Take a few shots at 1x and 2x so you can compare them later.",
     "best_time": "Soft morning or late-afternoon light is usually kinder to the gold and the tiled walls than harsh midday sun, and a calm day gives a cleaner canal."
@@ -807,15 +822,16 @@
   "name": "Botanical Garden palm house",
   "in_cut": true,
   "label": "Botanical Garden",
-  "camera_pill": "Palmehuset",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1820,
   "pin": [
    12.5738889,
    55.6869444
   ],
   "camera": [
-   12.572969,
-   55.687508
+   12.5738889,
+   55.6869444
   ],
   "camera_source": "Researched viewpoint 'Palmehuset' (3 web pages); placed at OpenStreetMap 'Palmehuset' (way/264570191): middle (101 m across).",
   "pin_note": "Position from OpenStreetMap way/3098803: large area 'Botanical Garden' (669 m across): previous pin kept, it lies inside.",
@@ -823,10 +839,10 @@
   "text": {
    "description": "The Palm House is the centrepiece of the glasshouse complex in Copenhagen's Botanical Garden. It is a cast-iron and glass building that rises above a pond and lawn, so the water, the greenery and the glass make a tidy, layered picture. The complex dates from 1874 and was paid for by J. C. Jacobsen, the Carlsberg founder, who took his inspiration from the Crystal Palace in London. The Palm House itself is 16 metres tall, with narrow cast-iron spiral stairs up to a walkway at the top. The whole garden has been listed since 1977. The garden covers 10 hectares and is informal, so it is pleasant to wander round with your phone in hand. The best-known photo is taken from the lawn and pond in front of the glasshouse, looking up at the whole building with the water in the foreground. In autumn, fallen leaves around the pond add colour. Another option is inside: the walkway at the top gives a view down onto the palms with the glass dome overhead. That is a ticketed part of the visit, so check the official site before you go. Keep the whole building in the frame, use the pond to lead the eye upwards, and take a few shots at different distances so you have both a wide view and a close one of the ironwork.",
    "geographic_location": "In the centre of Copenhagen, inside the University of Copenhagen Botanical Garden, whose address is Gothersgade 128. The Palm House stands at the heart of the garden's old glasshouse complex.",
-   "directions_text": "No Underground, train or tram stop is listed for this spot, so head for the Botanical Garden at Gothersgade 128 in the centre of Copenhagen. Once inside, the phone icon on the map is on the lawn and pond side, and the Palm House lies to the south-east, about 1 minute on foot. The phone icon on the map is about 85 m north-west of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground, train or tram stop is listed for this spot, so head for the Botanical Garden at Gothersgade 128 in the centre of Copenhagen. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) so the whole Palm House and the pond fit in one frame. Switch to the ultra-wide (0.5x) if you are close to the water and the building gets cropped. Use telephoto (2x-5x, depending on your phone) for details such as the ironwork and the dome.",
-    "where_to_stand": "Stand about 85 m north-west of the numbered pin, at the phone icon on the map, and face south-east. Looking south-east and up at the glasshouse. From the water's edge you see the whole cast-iron and glass building rising above the pond, with garden greenery around it.",
+    "where_to_stand": "Stand right at the subject (from the lawn and pond in front of the glasshouse, looking up at it). The whole cast-iron and glass Palm House rising above the water in the foreground, with garden greenery around it. Looking south-east and up at the glasshouse. From the water's edge you see the whole cast-iron and glass building rising above the pond, with garden greenery around it.",
     "how_to_frame": "Turn on the gridlines and put the pond in the lower third, so the water leads the eye up to the glasshouse. Hold the phone level so the vertical iron frame stays straight. For a second picture, go up to the walkway inside, if you have bought a ticket, and shoot down onto the palms with the glass dome overhead.",
     "phone_settings_tip": "Tap the glass to set focus and exposure, then slide the exposure down a little so the sky and glass do not turn pale. Inside the warm hall, wipe your lens first, as it may mist up.",
     "best_time": "Soft, even light, such as a bright overcast day, helps to keep reflections on the glass under control. Autumn adds fallen leaves around the pond."
@@ -862,6 +878,7 @@
   "in_cut": true,
   "label": "Gefion Fountain",
   "camera_pill": null,
+  "nophone": false,
   "searches": 960,
   "pin": [
    12.5975772,
@@ -921,6 +938,7 @@
   "in_cut": true,
   "label": "Langelinie",
   "camera_pill": null,
+  "nophone": false,
   "searches": 710,
   "pin": [
    12.59874167,
@@ -976,6 +994,7 @@
   "in_cut": true,
   "label": "Nyboder",
   "camera_pill": null,
+  "nophone": false,
   "searches": 520,
   "pin": [
    12.5867628,
@@ -1031,6 +1050,7 @@
   "in_cut": true,
   "label": "St. Alban's Church",
   "camera_pill": null,
+  "nophone": false,
   "searches": 280,
   "pin": [
    12.596993,

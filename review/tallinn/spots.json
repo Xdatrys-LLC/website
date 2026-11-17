@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Toompea Castle",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1570,
   "pin": [
    24.737393,
@@ -57,15 +58,16 @@
   "name": "Seaplane Harbour",
   "in_cut": true,
   "label": "Seaplane Harbour",
-  "camera_pill": "Lennusadam",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1060,
   "pin": [
    24.738308,
    59.450433
   ],
   "camera": [
-   24.741745,
-   59.454146
+   24.738308,
+   59.450433
   ],
   "camera_source": "Researched viewpoint 'Lennusadam' (2 web pages); placed at OpenStreetMap 'Lennusadam' (way/813621271): edge nearest the subject (984 m across).",
   "pin_note": "Position from the Wikipedia article 'Seaplane Harbour'.",
@@ -73,10 +75,10 @@
   "text": {
    "description": "Seaplane Harbour (Lennusadam) is a maritime museum that opened in spring 2012, set in a building first put up as a hangar for seaplanes. It stands in the area of Peter the Great's Naval Fortress. The hall covers 8,000 m2 and was taken out of service in the Soviet era, and its renovation began in 2010. That history is why the place photographs well: big, plain hangar shapes sit right beside the water, and old ships are moored along the harbour edge. The museum's best-known exhibit is the 1936 submarine Lembit, and the icebreaker Suur Tõll is another of its historic vessels. Walk along the water's edge for a few steps before you shoot, because small changes in position change what lines up with the hangar. For a second angle, the Noblessner marina promenade across the cove shows the arched hangars with a grey warship moored in front of them. If you also walk to the museum itself, the open-air pier behind it is an optional extra viewpoint, with moored ships close by for the foreground. Inside the museum the hangar is dim, so plan to take your best pictures outdoors.",
    "geographic_location": "Seaplane Harbour is on Tallinn's waterfront, north of the city centre, in the old Peter the Great's Naval Fortress area. The museum building was originally a seaplane hangar and sits right on the harbour edge.",
-   "directions_text": "From central Tallinn, head north towards the waterfront and ask for Lennusadam (Seaplane Harbour). Once you have your shot, you can optionally walk to the museum and out onto the open-air pier behind it as an extra viewpoint. The phone icon on the map is about 460 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From central Tallinn, head north towards the waterfront and ask for Lennusadam (Seaplane Harbour). Once you have your shot, you can optionally walk to the museum and out onto the open-air pier behind it as an extra viewpoint. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the hangar, the water and the sky together. Use telephoto (2x-5x, depending on your phone) to pull the hangar curves and roofline closer from this distance. Switch to the ultra-wide (0.5x) only if you walk to the museum itself and the roofline will not fit.",
-    "where_to_stand": "Stand about 460 m north-east of the subject, at Lennusadam (the phone icon on the map), and face south-west. The museum lies to the south-west of you, so face that way. From this distance the hangar hull and roofline appear as a distant shape across the water. If you walk to the museum, the open-air pier behind it is a separate, closer viewpoint where moored ships can make the foreground.",
+    "where_to_stand": "Stand right at the subject (harbour side and the open-air pier behind the museum). The museum's hangar hull and seaplanes, with historic ships moored along the harbour edge in the foreground. The museum lies to the south-west of you, so face that way. From this distance the hangar hull and roofline appear as a distant shape across the water. If you walk to the museum, the open-air pier behind it is a separate, closer viewpoint where moored ships can make the foreground.",
     "how_to_frame": "Turn on gridlines, keep the horizon level, and place the hangar hull on one of the vertical lines with the water filling the lower third. If you want a different view, the Noblessner marina promenade across the cove shows the arched hangars with a grey warship in front.",
     "phone_settings_tip": "Tap on the hangar to set focus, then drag the exposure slider down a little if the sky is bright so the building does not turn into a silhouette. Don't expect good results inside the dim hangar; if you shoot indoors, use night mode and hold still.",
     "best_time": "Soft light in the early morning or late afternoon usually flatters the hangar and the water, but the spot works in most daylight."
@@ -112,6 +114,7 @@
   "in_cut": true,
   "label": "Kadriorg Palace",
   "camera_pill": null,
+  "nophone": false,
   "searches": 890,
   "pin": [
    24.7910175,
@@ -164,15 +167,16 @@
   "name": "Viru Gate",
   "in_cut": true,
   "label": "Viru Gate",
-  "camera_pill": "Musumägi",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 880,
   "pin": [
    24.7502487,
    59.436461
   ],
   "camera": [
-   24.750438,
-   59.436061
+   24.7502487,
+   59.436461
   ],
   "camera_source": "Researched viewpoint 'Musumägi' (3 web pages); placed at OpenStreetMap 'Musumägi' (way/8073173): middle (170 m across).",
   "pin_note": "Position from OpenStreetMap relation/6522415: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -180,10 +184,10 @@
   "text": {
    "description": "Viru Gate is a pair of round towers with red conical roofs, ranked 4 on the Tallinn map. The towers have a strong, simple shape. At their base the flower stalls add colour, and the ivy looks best from the park side. Most people shoot it from street level, so frames are often full of passers-by. This spot suggests a different angle. A short staircase leads up from the gate area into Musumägi, a hill park. From there you look at the gate from above and slightly to the side, with the towers rising over the crowds below. Guides describe this as a quieter, elevated alternative, and some call it an underrated photo spot. They disagree about the best side: one favours the park side, where the ivy looks best, and another prefers the flower-shop side. Try both if you have a minute. The flower stalls are seasonal and busy in peak season, so expect people in the lower part of the frame. The towers cannot be entered, so take your photos from outside. Musumägi is a hill park, so expect some uneven steps and watch your footing while you hold your phone up. Take a few frames with different amounts of the towers and the street in them, then pick your favourite later.",
    "geographic_location": "Viru Gate is on the Tallinn map. The Musumägi park viewpoint is just beside it.",
-   "directions_text": "No station or tram stop is listed for this spot, so head for Viru Gate in Tallinn. Once at the gate, take the short staircase up into Musumägi park. The phone icon on the map is about 1 minute on foot from the gate, and the gate lies to the north of it. The phone icon on the map is about 35 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for Viru Gate in Tallinn. Once at the gate, take the short staircase up into Musumägi park. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to show both towers and a little of the street. Switch to telephoto (2x-5x, depending on your phone) to pick out the red roofs and cut down the crowds. Use the ultra-wide (0.5x) only if you step closer and want the whole height of the towers.",
-    "where_to_stand": "Stand about 35 m south of the subject, in Musumägi (the phone icon on the map), and face north. Up the short staircase from the gate area. You look down on it at an angle, with the towers rising above the people at street level.",
+    "where_to_stand": "Stand in Musumägi (short staircase up from the gate area; elevated viewpoint). The gate from above and at an angle, with the towers seen over the crowds at street level. Up the short staircase from the gate area. You look down on it at an angle, with the towers rising above the people at street level.",
     "how_to_frame": "Turn on gridlines and place the two towers on one vertical line, leaving the street or the flower stalls in the lower third. Try a second shot with the ivy in the foreground. If you want the classic view with the flower stalls framing the base of the towers, look at the street-level viewpoint at Viru värav as an alternative.",
     "phone_settings_tip": "Tap the towers to focus, then slide the exposure down a little so the sky stays blue and the red roofs keep their colour. If the steps are busy, hold the phone steady with both hands and take a few frames.",
     "best_time": "Go when the park and gate area are quieter, and check the light on the day, as the angle changes through the seasons. The flower stalls are seasonal and busy in peak season."
@@ -215,6 +219,7 @@
   "in_cut": true,
   "label": "Telliskivi",
   "camera_pill": null,
+  "nophone": false,
   "searches": 800,
   "pin": [
    24.7287286,
@@ -265,6 +270,7 @@
   "in_cut": true,
   "label": "Kohtuotsa viewpoint",
   "camera_pill": null,
+  "nophone": false,
   "searches": 680,
   "pin": [
    24.7422058,
@@ -314,26 +320,27 @@
   "name": "St. Olaf's Church",
   "in_cut": true,
   "label": "St. Olaf's Church",
-  "camera_pill": "Patkuli vaateplatvorm",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 680,
   "pin": [
    24.7479037,
    59.4413733
   ],
   "camera": [
-   24.741016,
-   59.438581
+   24.7479037,
+   59.4413733
   ],
   "camera_source": "Researched viewpoint 'Patkuli vaateplatvorm' (3 web pages); placed at OpenStreetMap 'Patkuli vaateplatvorm' (node/60687756): point.",
   "pin_note": "Position from OpenStreetMap way/26889368: the middle of the OpenStreetMap outline 'St Olaf's Church' (81 m across).",
   "notes": "",
   "text": {
-   "description": "St. Olaf's is the tallest church building in Estonia, and from the cliff edge of Toompea its spire rises behind the Old Town walls and towers. That is why it photographs so well. You get stone towers in the foreground, a long slim spire behind them, and the church looks small and far away, which suits a postcard-style frame. Local postcards show this same view most often.\n\nThe church is a Baptist church today. It was Catholic first, then Lutheran after the Reformation. Its first written mention is from 1267, and the spire now stands at about 124 metres. From 1944 until 1991 the Soviet KGB used the spire as a radio tower and lookout. A local legend says the builder was a stranger named Olev who fell from the tower when the townspeople shouted his name.\n\nFor your photo, use the Toompea cliff-edge viewpoint area at the phone icon on the map. Patkuli is a viewpoint nearby, though not exactly at the phone icon. The walls and towers fill the lower half of the frame, and the spire stands up out of the middle. Turn on the gridlines and keep the spire on one of the vertical lines so it stays upright. If the area is busy, Kohtuotsa is another viewpoint on Toompea. It shows the spire above the red Old Town roofs, and in some frames the Baltic Sea behind. The tower's observation platform sits at 60 metres, but it looks down on the city rather than at the church, so it won't give you this picture.",
+   "description": "St. Olaf's is the tallest church building in Estonia, and from the cliff edge of Toompea its spire rises behind the Old Town walls and towers. That is why it photographs so well. You get stone towers in the foreground, a long slim spire behind them, and the church looks small and far away, which suits a postcard-style frame. Local postcards show this same view most often.\n\nThe church is a Baptist church today. It was Catholic first, then Lutheran after the Reformation. Its first written mention is from 1267, and the spire now stands at about 124 metres. From 1944 until 1991 the Soviet KGB used the spire as a radio tower and lookout. A local legend says the builder was a stranger named Olev who fell from the tower when the townspeople shouted his name.\n\nFor your photo, use the Toompea cliff-edge viewpoint area. The walls and towers fill the lower half of the frame, and the spire stands up out of the middle. Turn on the gridlines and keep the spire on one of the vertical lines so it stays upright. If the area is busy, Kohtuotsa is another viewpoint on Toompea. It shows the spire above the red Old Town roofs, and in some frames the Baltic Sea behind. The tower's observation platform sits at 60 metres, but it looks down on the city rather than at the church, so it won't give you this picture.",
    "geographic_location": "St. Olaf's stands in Tallinn's Old Town, to the north-east of Toompea hill. The Toompea cliff edge looks down over the Old Town walls towards it, and Patkuli is a viewpoint nearby.",
-   "directions_text": "No public transport stop is listed for this spot, so walk up to Toompea, the hill above the Old Town, and head for the phone icon on the map on the cliff edge. From there the church lies about 500 m to the north-east, if you want to walk down for a closer look. The spire is easy to spot, so keep it ahead of you as you go. The phone icon on the map is about 460 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From there the church lies about 500 m to the north-east, if you want to walk down for a closer look. The spire is easy to spot, so keep it ahead of you as you go. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start on the default lens (1x) to take in the walls, towers and spire together. Then try telephoto (2x-5x, depending on your phone) to bring the spire closer and compress the layers. Skip the ultra-wide (0.5x) here, because it makes the spire tiny.",
-    "where_to_stand": "Stand about 460 m south-west of the subject, on Patkuli vaateplatvorm (the phone icon on the map), and face north-east. From there you look over the Old Town walls and towers, with St. Olaf's spire rising behind them to the north-east.",
+    "where_to_stand": "Stand on Patkuli vaateplatvorm (Toompea cliff edge above the Old Town walls). The classic postcard view of the city walls and towers in the foreground, with St. Olaf's spire rising behind them. From there you look over the Old Town walls and towers, with St. Olaf's spire rising behind them to the north-east.",
     "how_to_frame": "Put the towers and wall in the lower part of the frame and let the spire rise out of the middle. Switch on the gridlines and keep the spire vertical. If the area is too busy, Kohtuotsa vaateplatvorm, another viewpoint on Toompea, gives a different view, with the spire above the red roofs.",
     "phone_settings_tip": "Tap on the spire to set focus, then slide the exposure down a little so the sky keeps its colour and the stone walls don't go too bright. Hold the phone steady with both hands and rest your elbows on the railing if there is one.",
     "best_time": "Early morning or late afternoon is usually calmer, and the light is softer. Patkuli and Kohtuotsa can be crowded, so go early if you want the viewpoint to yourself."
@@ -370,6 +377,7 @@
   "in_cut": true,
   "label": "Town Hall Square",
   "camera_pill": null,
+  "nophone": false,
   "searches": 670,
   "pin": [
    24.7453145,
@@ -427,14 +435,15 @@
   "in_cut": true,
   "label": "Kumu",
   "camera_pill": null,
+  "nophone": true,
   "searches": 650,
   "pin": [
    24.7958299,
    59.4363374
   ],
   "camera": [
-   24.798377,
-   59.435597
+   24.7958299,
+   59.4363374
   ],
   "camera_source": "Researched viewpoint 'KUMU' (3 web pages); placed at OpenStreetMap 'Kumu' (node/344390065): point.",
   "pin_note": "Position from OpenStreetMap way/26882906: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -442,10 +451,10 @@
   "text": {
    "description": "Kumu is Tallinn's art museum, set in Kadriorg Park, and its building is as good a photo subject as anything inside it. The front is curved and made of pale limestone and glass. The glass picks up the sky and the trees of the park, so the picture changes with the weather and with where you stand. Visitor guides single out the exterior as a subject in its own right, and say it looks different from each angle. That makes the park-side approach, looking at the curved front, the standard shot and a good place to start.\n\nOn a phone, the curve is the main thing to show. Stand back far enough to let the line of the wall sweep across the frame, and include a little sky and some park so the reflections make sense. Turn on gridlines and keep the horizon level, because the pale stone shows up any tilt. Once you have the full front, walk closer and take a second photo of a detail, such as the join between stone and glass or a reflection of the trees.\n\nThere is also an open-air courtyard framed by the building's curved limestone walls, with bronze and modern sculptures. It makes a good second photo if you go inside. The courtyard needs a museum ticket, and it is open on Mondays only in summer, through 30 September. Flash is not allowed, tripods are discouraged, and some temporary exhibitions ban photography, so check the official site before you go.",
    "geographic_location": "Kumu stands in Kadriorg Park, Tallinn.",
-   "directions_text": "No public transport stop is listed for this spot. Head for Kadriorg Park and follow the paths to the museum. The phone icon on the map is about 85 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No public transport stop is listed for this spot. Head for Kadriorg Park and follow the paths to the museum. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole curved front in from fairly close. Then switch to the default lens (1x) for a calmer, less stretched view from further back. Use telephoto (2x-5x, depending on your phone) for a close-up of the stone and glass.",
-    "where_to_stand": "Stand about 85 m south-east of the subject, at KUMU (the phone icon on the map), and face north-west. Walk on along the park-side approach for the close view. From here the photo shows the curved pale limestone and glass front, with the sky and the park reflected in it.",
+    "where_to_stand": "Stand right at the subject (park-side approach, facing the curved facade). The curved pale limestone and glass front of the museum, with the sky and the park reflected in it. Walk on along the park-side approach for the close view. From here the photo shows the curved pale limestone and glass front, with the sky and the park reflected in it.",
     "how_to_frame": "Switch on gridlines and line the base of the building up with a horizontal line so the curve does not look tilted. Leave a band of sky and some park in the frame so the reflections show. If you go into the courtyard, a second photo of its curved limestone walls with the sculptures in front works well as an alternative to the outside shot.",
     "phone_settings_tip": "Tap the glass part of the facade to set focus, then lower the exposure slider a little so the sky reflections keep their detail and the pale stone does not turn white. Do not use flash, as it is not allowed inside.",
     "best_time": "Choose a time when the sky has some cloud or colour, since the glass reflects it. Soft daylight is kinder to the pale stone than harsh midday sun."
@@ -481,26 +490,27 @@
   "name": "Kiek in de Kök",
   "in_cut": true,
   "label": "Kiek in de Kök",
-  "camera_pill": "Taani Kuninga aed",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 640,
   "pin": [
    24.7412665,
    59.4347026
   ],
   "camera": [
-   24.740947,
-   59.435535
+   24.7412665,
+   59.4347026
   ],
   "camera_source": "Researched viewpoint 'Taani Kuninga aed' (3 web pages); placed at OpenStreetMap 'Taani kuninga aed' (way/261990030): middle (78 m across).",
   "pin_note": "Position from OpenStreetMap relation/3518935: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "",
   "text": {
-   "description": "Kiek in de Kök is a round tower, and it photographs best as a tall, solid shape rising above greenery. The phone icon on the map is about 85 m north of the subject. From there, walk to the Danish King's Garden (Taani Kuninga aed), on the edge nearest the tower, for the terraced-lawn view. From the terraced lawn in front of the tower you can frame the tower above the green terraces, which gives the picture depth and a clear foreground. The garden is also where you reach the museum entrance, so most visitors walk through it before going in. It has street statues too, which make fun foreground subjects for a second shot. Because the tower stands to the south of the phone icon on the map, you are shooting towards it, so check where the sun is before you settle on a spot. Take a wide view first, with the lawn and terraces filling the lower third of the frame. Then step in and shoot a tighter picture of the tower itself. If you have time, Nunne tänav is a good alternative for the medieval wall and towers, especially at blue hour. Check the exact stretch on a map before you go. Keep your lens clean and your phone straight, as tall towers look odd when tilted.",
+   "description": "Kiek in de Kök is a round tower, and it photographs best as a tall, solid shape rising above greenery. From there, walk to the Danish King's Garden (Taani Kuninga aed), on the edge nearest the tower, for the terraced-lawn view. From the terraced lawn in front of the tower you can frame the tower above the green terraces, which gives the picture depth and a clear foreground. The garden is also where you reach the museum entrance, so most visitors walk through it before going in. It has street statues too, which make fun foreground subjects for a second shot. Take a wide view first, with the lawn and terraces filling the lower third of the frame. Then step in and shoot a tighter picture of the tower itself. If you have time, Nunne tänav is a good alternative for the medieval wall and towers, especially at blue hour. Check the exact stretch on a map before you go. Keep your lens clean and your phone straight, as tall towers look odd when tilted.",
    "geographic_location": "Kiek in de Kök is in Tallinn, close to the Danish King's Garden, where the museum entrance is reached.",
-   "directions_text": "Use a map to walk to the Danish King's Garden and the tower. Keep an eye on the map as you go. The phone icon on the map is about 85 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Use a map to walk to the Danish King's Garden and the tower. Keep an eye on the map as you go. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the terraced lawn and the whole tower in one frame. Switch to the default lens (1x) for a calmer, more natural view. Use the telephoto (2x or more, depending on your phone) for details of the tower's upper part.",
-    "where_to_stand": "Stand about 85 m north of the subject, in Taani Kuninga aed (the phone icon on the map), and face south. On its edge near the tower. The round tower rises above the green terraces in the foreground.",
+    "where_to_stand": "Stand in Taani Kuninga aed (terraced lawn in front of the tower). The round Kiek in de Kök tower rising above the green, terraced garden in the foreground. On its edge near the tower. The round tower rises above the green terraces in the foreground.",
     "how_to_frame": "Turn on gridlines and keep the tower on one of the vertical lines, with the terraces filling the bottom third. Keep the phone level so the tower does not lean. For a different view, try Nunne tänav for the medieval wall and towers, but confirm the exact stretch on a map first.",
     "phone_settings_tip": "Tap the tower to focus, then drag the exposure slider down slightly if the sky is bright, so the stonework keeps its detail. At blue hour on Nunne tänav, switch on night mode and hold the phone steady against a wall or railing.",
     "best_time": "Soft morning or late-afternoon light usually flatters the stonework. At blue hour, the walls and towers on Nunne tänav can look lovely with the city glow behind them."
@@ -530,6 +540,7 @@
   "in_cut": true,
   "label": "Patkuli viewpoint",
   "camera_pill": null,
+  "nophone": false,
   "searches": 630,
   "pin": [
    24.741016,
@@ -581,6 +592,7 @@
   "in_cut": true,
   "label": "St. Catherine's Passage",
   "camera_pill": null,
+  "nophone": false,
   "searches": 400,
   "pin": [
    24.7479807,
@@ -628,15 +640,16 @@
   "name": "Fat Margaret tower",
   "in_cut": true,
   "label": "Fat Margaret",
-  "camera_pill": "Margareeta aed",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 340,
   "pin": [
    24.7495579,
    59.442553
   ],
   "camera": [
-   24.750577,
-   59.442295
+   24.7495579,
+   59.442553
   ],
   "camera_source": "Researched viewpoint 'Margareeta aed' (2 web pages); placed at OpenStreetMap 'Margareeta aed' (way/47008494): middle (203 m across).",
   "pin_note": "Position from OpenStreetMap relation/3502080: the middle of the OpenStreetMap outline 'Fat Margaret's Tower' (35 m across).",
@@ -644,10 +657,10 @@
   "text": {
    "description": "Fat Margaret is a squat, round defensive tower at the harbour end of Tallinn's Old Town, and it is one of the most solid-looking buildings in the city. It was built between 1511 and 1530 as part of the rebuilt gate defences. The walls are about 25 metres across, 20 metres high and up to 5 metres thick, which is where the name comes from. It was also meant to impress people arriving by sea. Over the centuries it has been a gunpowder and weapons store and a prison, and since the reconstruction of 1978 to 1981 it has housed the Estonian Maritime Museum.\n\nIt photographs well because of its simple, heavy shape. A smartphone picture works best when you show the whole drum rising from something soft. The park at the foot of the tower does this well. From there the full round bulk of the tower stands above the lawn and trees, with the old town wall running alongside. One guide suggests the tower looks better from this park side than from the port side, where it was once meant to be seen. For a tighter, more upright picture, walk to Müürivahe. There the tower's face rises straight above the narrow lane, framed by the wall and nearby towers.\n\nKeep the phone level so the walls do not lean inwards, and leave a little space around the top of the tower. Passers-by often wander through the park, so take a few frames and pick the clearest one.",
    "geographic_location": "In Tallinn's Old Town, at the seaward end of Pikk tänav (Long Street), beside the town wall and close to the Great Coastal Gate. A park lies at the foot of the tower.",
-   "directions_text": "Walk to the harbour end of Pikk tänav in the Old Town; the tower is the big round building there. The spot is reached on foot within the Old Town. From the phone icon on the map in the green space at the foot of the tower, the tower is to the north-west, about 1 minute on foot. The phone icon on the map is about 50 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Walk to the harbour end of Pikk tänav in the Old Town; the tower is the big round building there. The spot is reached on foot within the Old Town. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) from the green space at the foot of the tower to show the whole tower. If the tower is too big for the frame, switch to the ultra-wide (0.5x), which also suits the narrow Müürivahe lane. Telephoto (2x-5x) is useful for the stonework and the upper wall.",
-    "where_to_stand": "Stand about 50 m south-east of the subject, in Margareeta aed (the phone icon on the map), and face north-west. The tower is to the north-west of you. From here the photo shows the full round bulk of the tower rising from the lawn and trees at its base, with the old town wall beside it. The green space at the foot of the tower gives the best view of the tower itself.",
+    "where_to_stand": "Stand in Margareeta aed (the green space at the foot of the tower). The full round bulk of the tower rising from the lawn and trees at its base, with the old town wall beside it. The tower is to the north-west of you. From here the photo shows the full round bulk of the tower rising from the lawn and trees at its base, with the old town wall beside it. The green space at the foot of the tower gives the best view of the tower itself.",
     "how_to_frame": "Turn on the gridlines and keep the phone upright so the walls stay straight. Put the tower on one of the grid's vertical lines and let the lawn and trees fill the foreground. For a more vertical shot, try the alternative at Müürivahe, where the facade rises above the narrow lane between the wall and nearby towers.",
     "phone_settings_tip": "Tap the tower's stonework to focus, then drag the exposure slider down slightly if the sky is bright, so the stone keeps its colour and the sky is not washed out.",
     "best_time": "Soft morning or late-afternoon light usually flatters the stonework more than harsh midday sun."
@@ -683,15 +696,16 @@
   "name": "St. Nicholas' Church",
   "in_cut": true,
   "label": "St. Nicholas' Church",
-  "camera_pill": "Kohtuotsa",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 300,
   "pin": [
    24.7427134,
    59.4358777
   ],
   "camera": [
-   24.742206,
-   59.437731
+   24.7427134,
+   59.4358777
   ],
   "camera_source": "Researched viewpoint 'Kohtuotsa' (3 web pages); placed at OpenStreetMap 'Kohtuotsa vaateplatvorm' (node/557300914): point.",
   "pin_note": "Position from OpenStreetMap way/26889447: the middle of the OpenStreetMap outline 'St. Nicholas Church' (86 m across).",
@@ -699,10 +713,10 @@
   "text": {
    "description": "St Nicholas' Church (Niguliste kirik) is one of the medieval landmarks of Tallinn's Old Town. Its tall tower and spire stand out above the rooftops of the Lower Town. The church was built around 1230-1275 by Westphalian merchants and was dedicated to Saint Nicholas, the patron of fishermen and sailors. The tower is now 105 metres high. A Baroque spire replaced the earlier one in the late 17th century, and the tower and spire were damaged by fire in 1982 and then restored. The church was badly damaged by bombing on 9 March 1944 and was restored over many years. Today it is the Niguliste Museum and a concert hall. Its best-known artwork is Bernt Notke's Danse Macabre. The best photo is taken from a distance, because from the church itself the spire is hard to fit into the frame. From the terrace at Kohtuotsa on the Upper Town side you look down on the spire and the Old Town roofs, with the Toompea hill around them. That makes a layered picture with the church as the clear centre. The terrace is a popular viewing spot, so expect to share the railing at busy times. If you want a second angle, the Danish King's Garden shows the church across the valley, with Toompea and the city's spires behind it.",
    "geographic_location": "St Nicholas' Church stands in Tallinn's Old Town, in the Lower Town below the Toompea hill. The Kohtuotsa terrace is on the Upper Town side, looking down over it.",
-   "directions_text": "Head for Tallinn Old Town and the Toompea hill. Kohtuotsa is on the Upper Town side, and the church lies to the south of it. From the phone icon on the map to the church it is about 3 minutes on foot. The phone icon on the map is about 180 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for Tallinn Old Town and the Toompea hill. Kohtuotsa is on the Upper Town side, and the church lies to the south of it. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the telephoto lens (2x-5x, depending on your phone) to pick out the spire and the roofs around it. Switch to the default lens (1x) if you want Toompea and more of the Old Town in the frame.",
-    "where_to_stand": "Stand about 180 m north of the subject, on Kohtuotsa (the phone icon on the map), and face south. From the terrace the church's spire and the Old Town roofs lie below you, with the Upper Town hill and Toompea around them.",
+    "where_to_stand": "Stand on Kohtuotsa (Upper Town side, looking down toward the Lower Town). The church's spire and roofs of the Old Town below, with the Upper Town hill and Toompea visible around them. From the terrace the church's spire and the Old Town roofs lie below you, with the Upper Town hill and Toompea around them.",
     "how_to_frame": "Turn on the gridlines and put the spire on one of the vertical lines, with the roofs filling the lower part of the picture. Keep the phone level so the tower does not lean. For a different angle, try the view from the Danish King's Garden, across the valley.",
     "phone_settings_tip": "Tap the spire to focus, then slide the exposure down a little if the sky looks washed out. If you zoom in, hold the phone with both hands against the railing or your body to keep it steady.",
     "best_time": "Early morning or late afternoon usually gives softer light and fewer people on the terrace."
@@ -734,15 +748,16 @@
   "name": "Toomkirik (St Mary's Cathedral)",
   "in_cut": true,
   "label": "St Mary's Cathedral",
-  "camera_pill": "Toom-Kooli",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 130,
   "pin": [
    24.7390865,
    59.4370612
   ],
   "camera": [
-   24.738578,
-   59.436295
+   24.7390865,
+   59.4370612
   ],
   "camera_source": "Researched viewpoint 'Toom-Kooli' (2 web pages); placed at OpenStreetMap 'Toom-Kooli' (way/43905251): middle (100 m across).",
   "pin_note": "Position from OpenStreetMap way/26902813: the middle of the OpenStreetMap outline 'St Mary's Cathedral' (75 m across).",
@@ -750,10 +765,10 @@
   "text": {
    "description": "St Mary's Cathedral, known in Estonian as Toomkirik, stands on Toompea hill in the medieval centre of Tallinn. It is the oldest church in Tallinn and in mainland Estonia, founded in the 13th century as a Catholic cathedral. It became Lutheran in 1561 and is now the seat of the Archbishop of Tallinn. The exterior dates from the 15th century, while the baroque spire on the western end was added in 1778-79. That mix of old stone and a later spire gives you a lot to look at.\n\nIt photographs best from the front. From the small open space in front of the building you get a straight-on view of the tower and white facade, with clean lines that suit a phone. The light is softest in the morning, and the space is quieter then, so you can frame the whole front without people crossing the shot. Keep the phone level, use the gridlines to keep the tower upright, and take a few frames at different distances. A step back usually gives the neatest composition.\n\nIf you want the Old Town rather than the cathedral, Kohtuotsa and the Bishop's Garden Viewing Platform are a short walk away. They make a good second stop, but the cathedral is barely in view from them.",
    "geographic_location": "On Toompea hill, in the medieval centre of Tallinn, on the street called Toom-Kooli. The cathedral is the oldest church in the area.",
-   "directions_text": "Head for Toompea hill in Tallinn's Old Town; there is no station or tram stop at this spot, so make your way up to Toompea on foot from the Old Town. Walk to the open space in front of the cathedral on Toom-Kooli, where the phone icon on the map is. From there the cathedral is to the north, about 1 minute on foot. The phone icon on the map is about 65 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for Toompea hill in Tallinn's Old Town; there is no station or tram stop at this spot, so make your way up to Toompea on foot from the Old Town. From there the cathedral is to the north, about 1 minute on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the straight-on view of the tower and white facade. Switch to the ultra-wide (0.5x) only if you are too close to fit the front in. Use telephoto (2x-5x, depending on your phone) for the tower and spire detail.",
-    "where_to_stand": "Stand about 65 m south of the subject, on Toom-Kooli (the phone icon on the map), and face north. From here you look straight at the tower and white facade, with the cathedral to the north.",
+    "where_to_stand": "Stand on Toom-Kooli (the frontage of the cathedral, the small open space in front of the building). A straight-on view of the cathedral's tower and white facade, best taken from the open space in front of the church. From here you look straight at the tower and white facade, with the cathedral to the north.",
     "how_to_frame": "Turn on gridlines and line the tower up with a vertical grid line so the building does not lean. Keep the whole tower in the frame, with a little space above the spire. If you use the ultra-wide (0.5x), keep the phone level, because tilting it makes the building lean. For a different view, Kohtuotsa viewing platform gives a wide look over the Lower Town roofs, though the cathedral is not the subject there.",
     "phone_settings_tip": "Tap on the white facade to set focus and exposure, then drag the exposure slider down a little so the walls keep their detail and are not washed out against the sky.",
     "best_time": "Early morning, before about 9:00 in summer, when the square is quiet and the light comes from the east."
@@ -786,6 +801,7 @@
   "in_cut": true,
   "label": "Pikk jalg",
   "camera_pill": null,
+  "nophone": false,
   "searches": 110,
   "pin": [
    24.7403418,
@@ -835,15 +851,16 @@
   "name": "Tallinn City Wall",
   "in_cut": true,
   "label": "City Wall",
-  "camera_pill": "Tornide väljak",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 110,
   "pin": [
    24.741,
    59.4351
   ],
   "camera": [
-   24.741964,
-   59.440631
+   24.741,
+   59.4351
   ],
   "camera_source": "Researched viewpoint 'Tornide väljak' (3 web pages); placed at OpenStreetMap 'Tornide väljak' (way/25663684): middle (432 m across).",
   "pin_note": "Position from Wikidata Q2089605: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -851,10 +868,10 @@
   "text": {
    "description": "Tallinn's medieval city wall is one of the reasons the Old Town is a World Heritage Site, and much of it and many of its gates still stand today. The story starts in 1265, when Margaret Sambiria ordered the first wall, which was under 5 metres tall and about 1.5 metres thick at the base. It was strengthened and enlarged over the centuries, and in the fourteenth century townspeople were required to turn out for guard duty in their armour. For photographs, the best-known view is the row of red-roofed towers lined up along the wall. The small grassy park at the foot of the wall, Tornide väljak, gives a good ground-level angle on them, with greenery in the foreground to soften all that stone. Guides suggest late afternoon for the light. One guide also mentions an opening in the wall between Kooli and Laboratooriumi streets as the way to reach the aligned-towers view. If you want a different picture, Patkuli viewing platform shows a long stretch of intact wall with rooftops, St Olaf's spire and the harbour beyond. Müürivahe is a narrow lane where the tower facades rise straight above you. Take a few frames from the park first, then walk along the wall and try a tighter shot of one tower. Keep the phone level, as the towers look best when the vertical lines stay straight.",
    "geographic_location": "The wall runs around Tallinn's Old Town in the centre of the city, and the best-known row of towers is in the Old Town and Toompea area. The park at its foot, Tornide väljak, sits right beside the wall.",
-   "directions_text": "Start from Tallinn Old Town. The phone icon on the map is about 620 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from Tallinn Old Town. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole row of towers and the grass in front. The default lens (1x) gives a calmer, less stretched look. Use the telephoto (2x-5x, depending on your phone) for a single tower or the close-up view from Müürivahe.",
-    "where_to_stand": "Stand about 620 m north of the subject, in Tornide väljak (the phone icon on the map), and face south. The grassy park at the foot of the wall, opposite the row of towers, and face roughly south towards the wall. From here you see the red-roofed towers lined up along the wall with greenery in front.",
+    "where_to_stand": "Stand in Tornide väljak (the grassy park at the foot of the wall, opposite the row of towers). A row of red-roofed defensive towers lined up along the medieval wall, with greenery in the foreground. The grassy park at the foot of the wall, opposite the row of towers, and face roughly south towards the wall. From here you see the red-roofed towers lined up along the wall with greenery in front.",
     "how_to_frame": "Turn on the gridlines and line up the wall along a horizontal grid line so the towers sit in a neat row. Let some grass fill the bottom of the frame. If you want a second view, Patkuli viewing platform shows the wall with rooftops and the harbour beyond.",
     "phone_settings_tip": "Tap on a tower to focus, then slide the exposure down a little so the red roofs and the sky keep their colour. Keep the phone upright to avoid leaning towers.",
     "best_time": "Late afternoon, when guides say the light is best here."
@@ -893,6 +910,7 @@
   "in_cut": false,
   "label": "Alexander Nevsky",
   "camera_pill": null,
+  "nophone": false,
   "searches": 700,
   "pin": [
    24.7393379,

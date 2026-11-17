@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "St Peter's Basilica",
   "camera_pill": "near Piazza San Pietro",
+  "nophone": false,
   "searches": 161800,
   "pin": [
    12.4537285,
@@ -61,6 +62,7 @@
   "in_cut": true,
   "label": "St Peter's Square",
   "camera_pill": "near Piazza San Pietro",
+  "nophone": false,
   "searches": 86200,
   "pin": [
    12.4572,
@@ -114,6 +116,7 @@
   "in_cut": true,
   "label": "Vatican Museums",
   "camera_pill": null,
+  "nophone": false,
   "searches": 54400,
   "pin": [
    12.452751,
@@ -170,6 +173,7 @@
   "in_cut": true,
   "label": "Vatican Gardens",
   "camera_pill": "Via delle Fondamenta",
+  "nophone": false,
   "searches": 2810,
   "pin": [
    12.45055556,
@@ -227,6 +231,7 @@
   "in_cut": true,
   "label": "Raphael Rooms",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1210,
   "pin": [
    12.454534,
@@ -282,6 +287,7 @@
   "in_cut": true,
   "label": "Pinecone Courtyard",
   "camera_pill": null,
+  "nophone": false,
   "searches": 910,
   "pin": [
    12.45472222,
@@ -341,6 +347,7 @@
   "in_cut": true,
   "label": "Spiral Staircase",
   "camera_pill": null,
+  "nophone": false,
   "searches": 850,
   "pin": [
    12.4544,
@@ -398,6 +405,7 @@
   "in_cut": true,
   "label": "Gallery of Maps",
   "camera_pill": null,
+  "nophone": false,
   "searches": 460,
   "pin": [
    12.4542073,
@@ -453,6 +461,7 @@
   "in_cut": false,
   "label": "Pietà",
   "camera_pill": null,
+  "nophone": false,
   "searches": 24400,
   "pin": [
    12.4545797,
@@ -510,6 +519,7 @@
   "in_cut": false,
   "label": "St Peter's Dome",
   "camera_pill": null,
+  "nophone": false,
   "searches": 3090,
   "pin": [
    12.4537285,

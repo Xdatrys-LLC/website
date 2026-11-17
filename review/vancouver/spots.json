@@ -4,15 +4,16 @@
   "name": "Capilano Suspension Bridge",
   "in_cut": true,
   "label": "Capilano Bridge",
-  "camera_pill": "Cliffwalk",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 46330,
   "pin": [
    -123.115292,
    49.3429941
   ],
   "camera": [
-   -123.113983,
-   49.343449
+   -123.115292,
+   49.3429941
   ],
   "camera_source": "Researched viewpoint 'Cliffwalk' (2 web pages); placed at OpenStreetMap 'The Cliffwalk' (way/144953728): middle (54 m across).",
   "pin_note": "Position from OpenStreetMap way/60608401: the middle of the OpenStreetMap outline 'Capilano Suspension Bridge Park' (379 m across).",
@@ -20,10 +21,10 @@
   "text": {
    "description": "The Capilano Suspension Bridge is a simple suspension bridge across the Capilano River in the District of North Vancouver. It is about 140 metres long and 70 metres above the water, so it photographs well: a thin line of deck hanging over a deep canyon, with dark forest on both sides. The first bridge was built in 1889 by George Grant Mackay, using hemp ropes and cedar planks. The present bridge dates from a complete rebuild in 1956. It belongs to a private park that draws over 1.2 million visitors a year, so expect company on the span itself.\n\nFor a picture of the whole bridge rather than a view along it, use the Cliffwalk. This attraction was added to the park in June 2011, and its designated photo platforms along the cliff face let you frame the full bridge with the river and trees below for scale. Photo-stop signs mark where to pause. Take your shots at those marked spots and stay behind the railings. If the Cliffwalk is busy, the Nature's Edge Boardwalk is a good alternative: it shows the bridge through the rainforest trees, away from the crowds on the span.\n\nThe bridge sways when it is full of people, so pictures taken from on it can come out blurred. Taking the wide shot from the platforms avoids that.",
    "geographic_location": "In Upper Capilano, in the District of North Vancouver, inside Capilano Suspension Bridge Park on the Capilano River canyon.",
-   "directions_text": "No SkyTrain or other rail stop is close, so check the official site or a journey planner for the way to Capilano Suspension Bridge Park (3735 Capilano Road, North Vancouver). Once inside the park, head for the Cliffwalk, near the bridge end. The bridge is to the south-west of the phone icon on the map, about 2 minutes on foot. The phone icon on the map is about 110 m north-east of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "No SkyTrain or other rail stop is close, so check the official site or a journey planner for the way to Capilano Suspension Bridge Park (3735 Capilano Road, North Vancouver). Once inside the park, head for the Cliffwalk, near the bridge end. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to get the whole bridge across the canyon in one frame. Switch to ultra-wide (0.5x) only if the platform is crowded and you need to fit more in. Use telephoto (2x or more, depending on your phone) for a tighter shot of the span and the walkers on it.",
-    "where_to_stand": "Stand about 110 m north-east of the numbered pin, at the phone icon on the map, and face south-west. From here the whole suspension bridge spans the canyon, with the river and trees below to show how high it is.",
+    "where_to_stand": "Stand right at the subject (designated photo platforms along the cliff face, near the bridge end). The whole suspension bridge spanning the canyon, with the river and trees below for scale. From here the whole suspension bridge spans the canyon, with the river and trees below to show how high it is.",
     "how_to_frame": "Turn on gridlines and put the bridge deck along the lower third line, so the trees and river fill the rest. Keep the railing out of the corners of the frame, and wait for gaps in the crowd on the span. For a quieter, more natural view, the Nature's Edge Boardwalk shows the bridge through the forest trees.",
     "phone_settings_tip": "Tap on the bridge to set focus, then drag the exposure slider down a little if the sky is bright, so the deck and trees keep their detail. Take a few frames, as the bridge moves when busy. In winter, if you stay for the Canyon Lights display, use night mode and hold the phone as still as you can against a rail or your body.",
     "best_time": "Choose a time of day when the park is quieter, as fewer people on the span give a cleaner picture. Soft, even light on a bright overcast day also works well under the trees. Check the official site before you go for current hours and the winter Canyon Lights times."
@@ -62,15 +63,16 @@
   "name": "Gastown and the Steam Clock",
   "in_cut": true,
   "label": "Gastown",
-  "camera_pill": "near Cambie Street",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 27340,
   "pin": [
    -123.10889,
    49.2843841
   ],
   "camera": [
-   -123.108804,
-   49.284318
+   -123.10889,
+   49.2843841
   ],
   "camera_source": "Researched viewpoint 'Water Street' (3 web pages); placed at crossing of Water Street and Cambie Street (our map tiles).",
   "pin_note": "Position set at the correction gate (2026-11-15T10:00).",
@@ -78,10 +80,10 @@
   "text": {
    "description": "Gastown is Vancouver's oldest neighbourhood, named after \"Gassy\" Jack Deighton, a Yorkshire seaman who opened a saloon here in 1867. Its best-known photo subject is the steam clock on the corner of Water and Cambie Streets. The clock was built in 1977 over a steam grate, and it runs on steam from the downtown heating network. Steam also sounds its whistles, which play a Westminster-style chime. It has four faces, a domed top and, on a cold day, plumes of steam, with the brick heritage buildings of Water Street behind. That mix of old brick and a quirky machine is why it photographs so well. Gastown became a National Historic Site of Canada in 2009. The clock itself is a modern invention, though it is promoted as a heritage feature.\n\nArrive three or four minutes before a quarter hour to catch the whistle and the steam. Crowds gather, especially at the top of the hour and at midday in summer, so be patient and keep out of the walking path. If you have time, Maple Tree Square and the narrow Blood Alley are worth a few more frames, particularly after dark when the lamps are lit.",
    "geographic_location": "In Gastown, in the north-west part of the Downtown Eastside next to Downtown Vancouver, at the corner of Water Street and Cambie Street, just back from the Burrard Inlet waterfront.",
-   "directions_text": "Take the SkyTrain Expo Line or Canada Line to Waterfront station, then head south-east; it is about 3 minutes on foot. Alternatively, use Granville station on the SkyTrain Expo Line and walk north-east, about 6 minutes on foot. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the SkyTrain Expo Line or Canada Line to Waterfront station, then head south-east; it is about 3 minutes on foot. Alternatively, use Granville station on the SkyTrain Expo Line and walk north-east, about 6 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole clock with the brick buildings behind it. Switch to 2x or 3x telephoto if you want the dome and steam without the crowd around the base.",
-    "where_to_stand": "Stand at the corner of Water Street and Cambie Street, right in front of the subject: the phone icon on the map marks the spot. From here the full clock with its domed top and steam plumes sits against the brick heritage buildings behind it. Stay out of the pedestrian walking path while you shoot.",
+    "where_to_stand": "Stand at the corner of Water Street and Cambie Street (south side of Water Street, facing the clock). The full clock with its domed top and steam plumes, set against the brick heritage buildings of Water Street behind it. From here the full clock with its domed top and steam plumes sits against the brick heritage buildings behind it. Stay out of the pedestrian walking path while you shoot.",
     "how_to_frame": "Turn on gridlines and keep the clock upright in the centre or just off to one side, leaving space above the dome for the steam. For an alternative, try Maple Tree Square with its Victorian brick corners and a view down Carrall Street. The Gassy Jack statue is no longer there to frame.",
     "phone_settings_tip": "Tap on the clock to set focus, then drag the exposure slider down a little so the steam stays white and the sky does not wash out. Turn on Live Photos or motion to catch the steam moving. After dark, use night mode and hold the phone steady against your body or a wall.",
     "best_time": "Arrive 3-4 minutes before a quarter hour for the whistle. The steam shows best on cold days, from late autumn to March. Crowds gather especially at the top of the hour and at midday in summer."
@@ -117,26 +119,27 @@
   "name": "Stanley Park and the Seawall",
   "in_cut": true,
   "label": "Stanley Park",
-  "camera_pill": "Prospect Point",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 23440,
   "pin": [
    -123.14,
    49.3
   ],
   "camera": [
-   -123.141326,
-   49.314044
+   -123.14,
+   49.3
   ],
   "camera_source": "Researched viewpoint 'Prospect Point' (4 web pages); placed at OpenStreetMap 'Prospect Point' (node/39606311): point.",
   "pin_note": "Position from OpenStreetMap way/37063023: large area 'Stanley Park' (4080 m across): previous pin kept, it lies inside.",
   "notes": "'stanley park' alone also means parks in Liverpool and Blackpool.",
   "text": {
-   "description": "Stanley Park is a 405-hectare public park that fills the north-western half of Vancouver's downtown peninsula, with Burrard Inlet on one side and English Bay on the other. For photos it works as a set of different views rather than one picture: dark forest, rocky shoreline, beaches, and the long Seawall that runs around the edge. Opened in September 1888, it was Vancouver's first park. Much of it is still thick forest, with about half a million trees, some as tall as 76 metres. The phone icon on the map is Prospect Point, the lookout at the park's northern tip. Guides call it the park's signature lookout. From here you look down on the Lions Gate Bridge, with Burrard Inlet, the North Shore mountains and the forest edge behind it. If you have time to walk on, two other pictures are worth a try. Brockton Point Lighthouse, the park's easternmost point, has totem poles beside it and the harbour behind. Siwash Rock is a lone sea stack with one tree on top, near Third Beach. In the viewpoint photos, keep the bridge and the mountains as your main subjects and let the trees frame one side. The Seawall is busy in summer, so shoot quickly and step out of the way of walkers and cyclists.",
+   "description": "Stanley Park is a 405-hectare public park that fills the north-western half of Vancouver's downtown peninsula, with Burrard Inlet on one side and English Bay on the other. For photos it works as a set of different views rather than one picture: dark forest, rocky shoreline, beaches, and the long Seawall that runs around the edge. Opened in September 1888, it was Vancouver's first park. Much of it is still thick forest, with about half a million trees, some as tall as 76 metres. Guides call it the park's signature lookout. From here you look down on the Lions Gate Bridge, with Burrard Inlet, the North Shore mountains and the forest edge behind it. If you have time to walk on, two other pictures are worth a try. Brockton Point Lighthouse, the park's easternmost point, has totem poles beside it and the harbour behind. Siwash Rock is a lone sea stack with one tree on top, near Third Beach. In the viewpoint photos, keep the bridge and the mountains as your main subjects and let the trees frame one side. The Seawall is busy in summer, so shoot quickly and step out of the way of walkers and cyclists.",
    "geographic_location": "Stanley Park covers the north-western end of Vancouver's downtown peninsula, beside the West End and Coal Harbour neighbourhoods. Prospect Point is at the park's northern tip, right above the Lions Gate Bridge.",
-   "directions_text": "The nearest SkyTrain station on the map is Burrard (SkyTrain Expo Line), about 2.2 km (roughly half an hour on foot) from Stanley Park. Prospect Point is about 1.6 km further north through the park. If you would rather not walk that far, take a taxi to Prospect Point. The nearest ferry stop is Maritime Museum Dock (False Creek Ferries), about 2.4 km from the park. The phone icon on the map is about 1.6 km north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest SkyTrain station on the map is Burrard (SkyTrain Expo Line), about 2.2 km (roughly half an hour on foot) from Stanley Park. Prospect Point is about 1.6 km further north through the park. If you would rather not walk that far, take a taxi to Prospect Point. The nearest ferry stop is Maritime Museum Dock (False Creek Ferries), about 2.4 km from the park. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole scene of bridge, inlet and mountains. Use telephoto (2x-5x, depending on your phone) to pick out the bridge towers or the far mountain ridges. Switch to ultra-wide (0.5x) for the forest and shoreline at the lighthouse or Siwash Rock.",
-    "where_to_stand": "Stand about 1.6 km north of the subject, in Prospect Point (the phone icon on the map), and face south. From here the bridge sits against Burrard Inlet, with the North Shore mountains and the forest edge behind it. This is the clearest place in the park for the bridge with mountains behind it.",
+    "where_to_stand": "Stand in Prospect Point (northern tip of Stanley Park, lookout above the Lions Gate Bridge). The Lions Gate Bridge framed against the Burrard Inlet, the North Shore mountains and the forest edge. From here the bridge sits against Burrard Inlet, with the North Shore mountains and the forest edge behind it. This is the clearest place in the park for the bridge with mountains behind it.",
     "how_to_frame": "Turn on gridlines and place the bridge deck along a lower third line, so the mountains fill the upper part of the frame. Include a strip of dark treetop in one corner to give depth. If you walk on, Brockton Point Lighthouse and its totem poles make a good second picture, and Siwash Rock makes a good third from the Seawall.",
     "phone_settings_tip": "Tap the bridge to focus, then slide the exposure down a little so the sky keeps its colour. When the bridge lights come on at dusk, use night mode and brace your elbows against your body or a solid surface for a few seconds. On the Seawall the inner lane is for pedestrians and bikes go one way only, so step aside before you stop to shoot.",
     "best_time": "Late afternoon into dusk, when the bridge lights come on against the fading sky."
@@ -170,26 +173,27 @@
   "name": "Canada Place",
   "in_cut": true,
   "label": "Canada Place",
-  "camera_pill": "Jack Poole Plaza",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 20400,
   "pin": [
    -123.111338,
    49.2886157
   ],
   "camera": [
-   -123.1174,
-   49.289478
+   -123.111338,
+   49.2886157
   ],
   "camera_source": "Researched viewpoint 'Jack Poole Plaza' (2 web pages); placed at OpenStreetMap 'Jack Poole Plaza' (relation/14257010): middle (235 m across).",
   "pin_note": "Position from OpenStreetMap way/223635729: the middle of the OpenStreetMap outline 'Canada Place' (552 m across).",
   "notes": "",
   "text": {
-   "description": "Canada Place sits on the Burrard Inlet waterfront, and its roof of white fabric sails makes it one of the easiest buildings in Vancouver to recognise in a photo. It is also the main cruise ship terminal for the region, so there is often a large ship moored alongside. It houses the Pan Pacific Vancouver hotel, part of the Vancouver Convention Centre and the Flyover virtual flight ride. The site began as the Canadian Pacific Railway's Pier B–C, built in 1927. The building was developed on the Pier B–C site in the 1980s, and during Expo 86 it housed the Canada Pavilion, which hosted more than 5 million visitors. For a slightly different view, the phone icon on the map is on Jack Poole Plaza, next to Canada Place and around the Olympic Cauldron. From there you can put the cauldron in the foreground with the harbour and Canada Place alongside it. It is usually quieter than the main waterfront. The sails may not fit in this frame, so check on your screen when you arrive. If you want the sails as the main subject, walk over to Canada Place itself, or look across Coal Harbour from the Vancouver Convention Centre. If you are nearby at noon, the Heritage Horns on the hotel roof play the first four notes of O Canada, which you can hear across downtown.",
+   "description": "Canada Place sits on the Burrard Inlet waterfront, and its roof of white fabric sails makes it one of the easiest buildings in Vancouver to recognise in a photo. It is also the main cruise ship terminal for the region, so there is often a large ship moored alongside. It houses the Pan Pacific Vancouver hotel, part of the Vancouver Convention Centre and the Flyover virtual flight ride. The site began as the Canadian Pacific Railway's Pier B–C, built in 1927. The building was developed on the Pier B–C site in the 1980s, and during Expo 86 it housed the Canada Pavilion, which hosted more than 5 million visitors. From there you can put the cauldron in the foreground with the harbour and Canada Place alongside it. It is usually quieter than the main waterfront. The sails may not fit in this frame, so check on your screen when you arrive. If you want the sails as the main subject, walk over to Canada Place itself, or look across Coal Harbour from the Vancouver Convention Centre. If you are nearby at noon, the Heritage Horns on the hotel roof play the first four notes of O Canada, which you can hear across downtown.",
    "geographic_location": "Canada Place is on the downtown waterfront of Vancouver, on the Burrard Inlet beside Coal Harbour and close to Waterfront station.",
-   "directions_text": "Start at Waterfront station (SkyTrain Expo Line and Canada Line) and walk north to Canada Place, about 5 minutes on foot. From the middle of Canada Place, the phone icon on the map on Jack Poole Plaza is to the west, about 7 minutes on foot along the waterfront. Burrard station (SkyTrain Expo Line) is another option, to the south-west of Canada Place, but it is a longer walk. The phone icon on the map is about 270 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Waterfront station (SkyTrain Expo Line and Canada Line) and walk north to Canada Place, about 5 minutes on foot. Burrard station (SkyTrain Expo Line) is another option, to the south-west of Canada Place, but it is a longer walk. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) so the cauldron, the harbour and Canada Place all fit in one frame. Use the ultra-wide (0.5x) if you want to stand close to the cauldron and still include the building. Try telephoto (2x or more) for a tighter shot of the sails.",
-    "where_to_stand": "Stand about 270 m west of the subject, in Jack Poole Plaza (the phone icon on the map), and face east. Canada Place lies to the east. From here the cauldron is in the foreground, with the harbour and the building beside it.",
+    "where_to_stand": "Stand in Jack Poole Plaza (next to Canada Place, around the Olympic Cauldron). The Olympic Cauldron in the foreground with the harbour and Canada Place alongside it. Canada Place lies to the east. From here the cauldron is in the foreground, with the harbour and the building beside it.",
     "how_to_frame": "Turn on gridlines and put the cauldron on one third of the frame, with the harbour and Canada Place filling the rest. Check that the sails are in the shot before you take it, as they may not be. For the full sail-shaped roof with cruise ships and the North Shore mountains behind, try Canada Place itself. For the sails across the water, try the Vancouver Convention Centre.",
     "phone_settings_tip": "Tap on the cauldron to focus, then drag the exposure slider down slightly if the bright white roof or sky looks washed out. Wipe your lens first, as harbour air can leave a film on it.",
     "best_time": "Morning or late afternoon usually gives softer light on the white roof. On cruise ship days and event days it is busier, so earlier in the day is calmer."
@@ -227,6 +231,7 @@
   "in_cut": true,
   "label": "Granville Island",
   "camera_pill": "near Johnston Street",
+  "nophone": false,
   "searches": 18720,
   "pin": [
    -123.1341667,
@@ -285,26 +290,27 @@
   "name": "Science World",
   "in_cut": true,
   "label": "Science World",
-  "camera_pill": "Cambie Street Bridge",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 18140,
   "pin": [
    -123.1036801,
    49.2734218
   ],
   "camera": [
-   -123.114856,
-   49.273353
+   -123.1036801,
+   49.2734218
   ],
   "camera_source": "Researched viewpoint 'Cambie Street Bridge' (3 web pages); placed at OpenStreetMap 'Cambie Street Bridge' (way/23188859): point nearest the subject (588 m long).",
   "pin_note": "Position from OpenStreetMap way/37084312: the middle of the OpenStreetMap outline 'Science World' (136 m across).",
   "notes": "Photographed from outside: the geodesic dome on False Creek.",
   "text": {
-   "description": "Science World is the silver geodesic dome at the eastern end of False Creek, and it is easy to spot from across the water. It was built as the Expo Centre for the 1986 world's fair. Its Buckminster Fuller-inspired design was by Expo's chief architect, Bruno Freschi. After the fair it became a science centre, which opened as Science World on 6 May 1989. The round shape stands out against the sky and the water, so it works as a simple, bold subject even on a phone.\n\nThe best view is from the phone icon on the map, out on the Cambie Street Bridge. From about halfway along the sidewalk you see the dome side-on across False Creek, with the eastern shoreline in front and the downtown skyline behind. That gives the photo three layers: water, dome and city. The bridge is free to walk and usually quiet in the evenings.\n\nIf you want a different angle, Quayside Marina shows the dome reflected in the water with moored boats in front, and Habitat Island frames it across the water with the seawall and boardwalk platforms in the foreground. The seawall decks right beside the dome have been fenced off since February 2025, and banner screens have been added over the fencing, so check current conditions before you go. The dome's exterior was also dressed as a soccer ball in May 2026, and its lighting may change from time to time.",
+   "description": "Science World is the silver geodesic dome at the eastern end of False Creek, and it is easy to spot from across the water. It was built as the Expo Centre for the 1986 world's fair. Its Buckminster Fuller-inspired design was by Expo's chief architect, Bruno Freschi. After the fair it became a science centre, which opened as Science World on 6 May 1989. The round shape stands out against the sky and the water, so it works as a simple, bold subject even on a phone.\n\nFrom about halfway along the sidewalk you see the dome side-on across False Creek, with the eastern shoreline in front and the downtown skyline behind. That gives the photo three layers: water, dome and city. The bridge is free to walk and usually quiet in the evenings.\n\nIf you want a different angle, Quayside Marina shows the dome reflected in the water with moored boats in front, and Habitat Island frames it across the water with the seawall and boardwalk platforms in the foreground. The seawall decks right beside the dome have been fenced off since February 2025, and banner screens have been added over the fencing, so check current conditions before you go. The dome's exterior was also dressed as a soccer ball in May 2026, and its lighting may change from time to time.",
    "geographic_location": "Science World sits at the eastern end of False Creek in Vancouver, beside Main Street–Science World SkyTrain station and the Ken Spencer Science Park. The Cambie Street Bridge viewpoint is to the west, looking back along the water.",
-   "directions_text": "Take the SkyTrain Expo Line to Main Street–Science World station; the dome is about 4 minutes on foot to the west. If you come by water, Aquabus and False Creek Ferries stop at Village Dock, about 3 minutes on foot from the dome, which lies to the north-east. The phone icon on the map on the Cambie Street Bridge is east-to-west across the creek from the dome, about 13 minutes on foot to the west of it. The phone icon on the map is about 760 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the SkyTrain Expo Line to Main Street–Science World station; the dome is about 4 minutes on foot to the west. If you come by water, Aquabus and False Creek Ferries stop at Village Dock, about 3 minutes on foot from the dome, which lies to the north-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) so the dome, the water and the skyline all fit in one frame. Try telephoto (2x-5x, depending on your phone) for a tighter shot of the dome with the city stacked behind it. The ultra-wide (0.5x) makes the dome look small from this distance, so use it only for a wide view of the shoreline.",
-    "where_to_stand": "Stand about 760 m west of the subject, on Cambie Street Bridge (the phone icon on the map), and face east. Walking about halfway out along the sidewalk.",
+    "where_to_stand": "Stand on Cambie Street Bridge (walk about halfway out along the sidewalk). Science World across the water of False Creek, with the eastern False Creek shoreline in the foreground and the downtown skyline behind. Walking about halfway out along the sidewalk.",
     "how_to_frame": "Turn on gridlines and place the dome on one of the vertical lines, with the water filling the lower third. Keep the horizon level so the dome looks balanced. Leave a little of the shoreline in the foreground for depth. For a different view, Quayside Marina gives a reflection with boats in front, and Habitat Island frames the dome with the seawall in the foreground.",
     "phone_settings_tip": "Tap on the dome to set focus, then slide the exposure down a little so the silver surface keeps its detail against the sky. In the evening, switch on night mode and brace your elbows on the railing to keep the phone steady.",
     "best_time": "Evening is a good choice, as the bridge is usually quiet then and the dome may be lit up. Check current conditions before you go, because the lighting may change."
@@ -344,15 +350,16 @@
   "name": "Hotel Vancouver",
   "in_cut": true,
   "label": "Hotel Vancouver",
-  "camera_pill": "near Howe Street",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 14590,
   "pin": [
    -123.121059,
    49.2837422
   ],
   "camera": [
-   -123.1184531,
-   49.2833109
+   -123.121059,
+   49.2837422
   ],
   "camera_source": "Commons cluster (2 photos), weak. Moved 5 m outwards on 2026-11-10 so it is 150 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/139571554: the middle of the OpenStreetMap outline 'Fairmont Hotel Vancouver' (152 m across).",
@@ -360,10 +367,10 @@
   "text": {
    "description": "The Hotel Vancouver, officially the Fairmont Hotel Vancouver, is the big château-style hotel with the steep copper roof that dominates the skyline on West Georgia Street. It opened in May 1939 and is counted among Canada's grand railway hotels. It was designed by John Smith Archibald and John Schofield. Building began in 1929 but stalled during the Great Depression, and it was rushed to completion in time for the 1939 royal tour. At 112.47 metres and 17 floors, it was Vancouver's tallest building until the TD Tower was finished in 1972.\n\nIt photographs well because of its details. The pitched roof with dormers, the carved stonework, and the gargoyles and relief sculptures all give you something to look at, and the tall mass stands out clearly against the glass towers around it.\n\nFor a phone, think of two pictures. One is the whole building, with the roofline and a little sky above it. The other is a close-up of the roof, dormers or stonework. Keep your phone upright for the full height of the building, and turn it sideways if you want street life and trees in the foreground. Pedestrians and traffic nearby change constantly, so take a few frames and pick the one with a clear view.",
    "geographic_location": "In Downtown Vancouver's Financial District, at 900 West Georgia Street. It sits north-west of the Vancouver Art Gallery and Robson Square, and south of Christ Church Cathedral.",
-   "directions_text": "From Burrard station (SkyTrain Expo Line) the hotel is to the south-west, about 230 m away. From Vancouver City Centre station (Canada Line) it is to the north-west, about 250 m away. The phone icon on the map is about 150 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Burrard station (SkyTrain Expo Line) the hotel is to the south-west, about 230 m away. From Vancouver City Centre station (Canada Line) it is to the north-west, about 250 m away. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole building. Switch to telephoto (2x-5x, depending on your phone) for the copper roof, dormers and carved details. Use the ultra-wide (0.5x) only if you move much closer and want the full height in one shot.",
-    "where_to_stand": "Stand about 150 m east of the subject, at the phone icon on the map, and face west. From there the hotel is in front of you and you can fit most of its width and height in the frame.",
+    "where_to_stand": "Stand at Park Place Tower (stand facing south, so the hotel appears behind the red ornaments). The red Christmas ornaments in the foreground with the Fairmont Hotel Vancouver in the background. From there the hotel is in front of you and you can fit most of its width and height in the frame.",
     "how_to_frame": "Turn on the gridlines and keep the vertical lines of the building straight by holding the phone upright and level. Leave a little sky above the roof. Include a tree or a bit of street in the foreground to give a sense of scale. Then zoom in for a second frame of the roof and dormers.",
     "phone_settings_tip": "Tap the hotel to focus, then drag the exposure slider down slightly if the sky is bright, so the stonework and roof keep their detail. In low light, use night mode and brace your elbows against your body to keep it steady.",
     "best_time": "Mornings may suit this angle best, as the sun is in the east and behind you when you face west. Dusk, when the building and street lights come on, is good for night mode."
@@ -400,26 +407,27 @@
   "name": "Vancouver Art Gallery",
   "in_cut": true,
   "label": "Vancouver Art Gallery",
-  "camera_pill": "West Georgia Street",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 6390,
   "pin": [
    -123.1206248,
    49.2828495
   ],
   "camera": [
-   -123.119955,
-   49.283173
+   -123.1206248,
+   49.2828495
   ],
   "camera_source": "Researched viewpoint 'šxʷƛ̓ənəq Xwtl’e7énḵ Square' (1 web pages); placed at OpenStreetMap 'šxʷƛ̓ənəq Xwtl’e7énḵ Square' (way/599115063): middle (136 m across).",
   "pin_note": "Position from OpenStreetMap node/12620960872: the OpenStreetMap point 'Vancouver Art Gallery'.",
   "notes": "The neoclassical building and its steps.",
   "text": {
-   "description": "The Vancouver Art Gallery is housed in a former courthouse, and that is what makes it work as a photograph. Francis Rattenbury designed the neoclassical building after winning a design competition in 1905. It opened as a provincial courthouse in 1911, and the courts moved out in 1979. It became a National Historic Site of Canada in 1980, and the gallery moved in during 1983. With about 15,300 square metres of floor space, it is the largest art museum in Western Canada by building size.\n\nFrom the phone icon on the map, you look at the front of the building with its outdoor staircase rising towards the doors. The stone columns, the steps and the symmetrical front give your picture strong lines, and people sitting on the stairs add a sense of scale. The gallery itself lists these north-facade stairs as a photo backdrop. If you want a second angle, Robson Square across the street shows the facade with the sunken plaza in front of it.\n\nThe outside of the building is free to photograph. Inside, touring exhibitions may restrict photography, so check before you take your phone out in the galleries. Robson Street on the south side can be busy with seating and street performers, which can crowd a shot from that side.",
+   "description": "The Vancouver Art Gallery is housed in a former courthouse, and that is what makes it work as a photograph. Francis Rattenbury designed the neoclassical building after winning a design competition in 1905. It opened as a provincial courthouse in 1911, and the courts moved out in 1979. It became a National Historic Site of Canada in 1980, and the gallery moved in during 1983. With about 15,300 square metres of floor space, it is the largest art museum in Western Canada by building size.\n\nThe stone columns, the steps and the symmetrical front give your picture strong lines, and people sitting on the stairs add a sense of scale. The gallery itself lists these north-facade stairs as a photo backdrop. If you want a second angle, Robson Square across the street shows the facade with the sunken plaza in front of it.\n\nThe outside of the building is free to photograph. Inside, touring exhibitions may restrict photography, so check before you take your phone out in the galleries. Robson Street on the south side can be busy with seating and street performers, which can crowd a shot from that side.",
    "geographic_location": "In the centre of downtown Vancouver, next to Robson Square. The building sits beside Robson Street, which has an underground passage linking the gallery to the rest of the square.",
-   "directions_text": "From Vancouver City Centre station (Canada Line), walk north-west for about 3 minutes on foot to reach the gallery. From Burrard station (SkyTrain Expo Line), the gallery is to the south, about 5 minutes on foot. Then go round to the square on the gallery's north side, where the outside stairs are, and stand where you can see the whole staircase. The phone icon on the map is about 60 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Vancouver City Centre station (Canada Line), walk north-west for about 3 minutes on foot to reach the gallery. From Burrard station (SkyTrain Expo Line), the gallery is to the south, about 5 minutes on foot. Then go round to the square on the gallery's north side, where the outside stairs are, and stand where you can see the whole staircase. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole facade and staircase. Switch to ultra-wide (0.5x) if people or the square's edge stop you getting far enough back. Use telephoto (2x or more, depending on your phone) for the column tops and stonework.",
-    "where_to_stand": "Stand about 60 m north-east of the subject, in šxʷƛ̓ənəq Xwtl’e7énḵ Square (the phone icon on the map), and face south-west. On the north side of the gallery at the outside stairs. From here the gallery's neoclassical front, with its outdoor staircase rising towards the building, is to the south-west. This is the most direct frontal view of the building.",
+    "where_to_stand": "Stand in šxʷƛ̓ənəq Xwtl’e7énḵ Square (north facade, at the outside stairs). The gallery's neoclassical front with its outdoor staircase rising toward the building. On the north side of the gallery at the outside stairs. From here the gallery's neoclassical front, with its outdoor staircase rising towards the building, is to the south-west. This is the most direct frontal view of the building.",
     "how_to_frame": "Turn on gridlines and line up the columns and the edges of the steps with the vertical lines, so the building doesn't lean. Keep the phone level and at chest height, and let the staircase lead the eye up to the doors. For a different view, walk over to Robson Square and shoot the facade across the sunken plaza.",
     "phone_settings_tip": "Tap the stone facade to focus, then slide the exposure down a little if the sky is bright, so the sky does not wash out. Wait for a gap in the crowd on the steps, or include a few people to show the size of the building.",
     "best_time": "Photograph the outside whenever you pass, as it is open to all."
@@ -451,15 +459,16 @@
   "name": "Kitsilano Beach",
   "in_cut": true,
   "label": "Kitsilano Beach",
-  "camera_pill": "Burrard Bridge",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 5425,
   "pin": [
    -123.1551111,
    49.2738889
   ],
   "camera": [
-   -123.143942,
-   49.27334
+   -123.1551111,
+   49.2738889
   ],
   "camera_source": "Researched viewpoint 'Burrard Bridge' (3 web pages); placed at OpenStreetMap 'Burrard Bridge' (way/492631024): edge nearest the subject (887 m across).",
   "pin_note": "Position from OpenStreetMap way/86339711: large area 'Kitsilano Beach' (677 m across): previous pin kept, it lies inside.",
@@ -467,10 +476,10 @@
   "text": {
    "description": "Kitsilano Beach sits on English Bay in the Kitsilano neighbourhood and is one of the most popular beaches in Vancouver. Its Squamish name, X̱epx̱páy̓em, is usually translated as \"having red cedar\". The beach has a long, gentle curve of sand, with playground and beach volleyball courts toward its northern edge. Behind the water you get the West End and downtown towers, Stanley Park and the North Shore mountains, which gives a phone camera plenty of layers to work with.\n\nThe best way to see the whole scene is from a little way off, on Burrard Bridge. From the bridge's northern sidewalk you can fit Sunset Beach, English Bay and Stanley Park into one wide frame, with the bridge's Art Deco railings leading the eye into the picture. For a closer, livelier shot, walk down to Kitsilano Beach Park and shoot across the sand and the people to the skyline. Elsje Point is a quieter, more open alternative with the city and mountains behind.\n\nA few facts to enjoy while you are there: the area was first known as \"Greer's Beach\", after the settler Sam Greer, and the name Kitsilano began appearing in advertisements in 1905. The beach is home to Kitsilano Pool, a salt-water outdoor pool said to be the longest in Canada, which opens from May to September. The old bath house was replaced in 2005 by a modern building with a restaurant on top.",
    "geographic_location": "Kitsilano Beach is on English Bay in the Kitsilano neighbourhood of Vancouver, about 800 m west of the stand-here point.",
-   "directions_text": "The nearest stop is Maritime Museum Dock (False Creek Ferries), about 800 m on foot, with the beach to the south-west. The phone icon on the map is about 810 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stop is Maritime Museum Dock (False Creek Ferries), about 800 m on foot, with the beach to the south-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) on the bridge to catch the railings, the bay and Stanley Park together. Switch to the default lens (1x) for a calmer view, and use the telephoto (2x-5x, depending on your phone) to pick out the skyline or the mountains.",
-    "where_to_stand": "Stand about 810 m east of the subject, on Burrard Bridge (the phone icon on the map), and face west. About one third of the way down from the Kitsilano end, on the northern edge, using the sidewalk.",
+    "where_to_stand": "Stand on Burrard Bridge (about one third of the way down from the Kitsilano end, on the northern edge of the bridge). Sunset Beach, English Bay and Stanley Park in one frame, with the bridge's Art Deco railings as a foreground line. About one third of the way down from the Kitsilano end, on the northern edge, using the sidewalk.",
     "how_to_frame": "Switch on gridlines and place the railings along a lower third so they lead into the bay. If you want people and sand in the foreground, walk down to Kitsilano Beach Park and shoot towards the West End towers and the mountains. Elsje Point is a quieter alternative for an open view of the bay and skyline.",
     "phone_settings_tip": "Tap the sky or the water to set focus, then drag the exposure slider down a little so the sunset colours do not wash out. Keep to the sidewalk and stay out of the bike lanes.",
     "best_time": "Sunset."
@@ -508,15 +517,16 @@
   "name": "Vancouver House",
   "in_cut": true,
   "label": "Vancouver House",
-  "camera_pill": "near Granville Bridge",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 3875,
   "pin": [
    -123.1308122,
    49.274869
   ],
   "camera": [
-   -123.130214,
-   49.274467
+   -123.1308122,
+   49.274869
   ],
   "camera_source": "Researched viewpoint 'Granville Street Bridge' (2 web pages); placed at our map tiles: 'Granville Bridge' (roads).",
   "pin_note": "Position from OpenStreetMap way/742009401: the middle of the OpenStreetMap outline 'Vancouver House' (148 m across).",
@@ -524,10 +534,10 @@
   "text": {
    "description": "Vancouver House is a tall residential tower that looks different from every side. Danish architect Bjarke Ingels based the design on a triangle. The tower starts as a narrow triangular footprint at the bottom and slowly widens into a rectangle as it climbs. The shape comes from the awkward triangle of land it sits on, just east of the Howe Street on-ramp to the Granville Street Bridge. That makes it a good subject for a phone. The base is tucked tightly beside the bridge, and the upper floors lean out above it. The east and west faces are covered in box-shaped balconies that give the walls a honeycomb texture, which catches the light well in close-up. Construction began in 2016 and finished a little later than planned, in 2020. A public artwork called Spinning Chandelier stands near the tower and can add foreground interest if you pass it. The best all-round view is from the Granville Street Bridge, near the tower's base, with False Creek and the Yaletown side of the water behind it. From there you can tilt the phone upwards to show the tower rising, or step back and include the water. If you want the tower as part of the wider skyline instead, David Lam Park across the inlet is a good alternative.",
    "geographic_location": "Vancouver House stands at the downtown end of the Granville Street Bridge, just east of the Howe Street on-ramp and beside False Creek. It is close to the Yaletown waterfront.",
-   "directions_text": "The nearest stop is the Aquabus at Hornby Terminal, about 270 m away, where the tower is to the east. Granville Island Terminal (Aquabus) is also close, with the tower to the north-east. Once you are at the east end of the Granville Street Bridge, the tower is just to the north-west of the phone icon on the map. The phone icon on the map is about 45 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stop is the Aquabus at Hornby Terminal, about 270 m away, where the tower is to the east. Granville Island Terminal (Aquabus) is also close, with the tower to the north-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the tower's triangular base and the bridge in one frame. Switch to the default lens (1x) for a more natural view with the water. Use the telephoto (2x-5x, depending on your phone) for the balcony pattern higher up.",
-    "where_to_stand": "Stand about 45 m south-east of the subject, on Granville Street Bridge (the phone icon on the map), and face north-west. The tower is to the north-west. From here the photo shows the tower's triangular base beside the bridge, with False Creek and the Yaletown side of the water in view.",
+    "where_to_stand": "Stand on Granville Street Bridge (east end, near the Vancouver House base). The tower's triangular base beside the bridge, with False Creek and the Yaletown side of the water in view. The tower is to the north-west. From here the photo shows the tower's triangular base beside the bridge, with False Creek and the Yaletown side of the water in view.",
     "how_to_frame": "Turn on gridlines and line a vertical edge of the tower up with a grid line, so the building does not look as if it is falling over. With the ultra-wide, keep the tower in the middle of the frame, because it can stretch at the edges. Include a little of the bridge or the water to show how the base fits into its site. For a different view, David Lam Park across the inlet shows the tower among the Yaletown skyline.",
     "phone_settings_tip": "Tap on the building to set focus, then slide the exposure down a little at sunrise or sunset so the sky keeps its colour. Try night mode after dark, and hold the phone against the railing or your body to keep it steady.",
     "best_time": "Sunrise and sunset are the recommended times for views over the water from the bridge."
@@ -567,6 +577,7 @@
   "in_cut": true,
   "label": "Vancouver Lookout",
   "camera_pill": null,
+  "nophone": false,
   "searches": 3775,
   "pin": [
    -123.1118682,
@@ -617,14 +628,15 @@
   "in_cut": true,
   "label": "Lost Lagoon",
   "camera_pill": null,
+  "nophone": true,
   "searches": 3580,
   "pin": [
    -123.140559,
    49.295954
   ],
   "camera": [
-   -123.143077,
-   49.294346
+   -123.140559,
+   49.295954
   ],
   "camera_source": "Commons cluster (4 photos), weak.",
   "pin_note": "Position from OpenStreetMap relation/17060821: large area 'Lost Lagoon' (750 m across): previous pin kept, it lies inside.",
@@ -632,10 +644,10 @@
   "text": {
    "description": "Lost Lagoon is a calm, shallow-looking lake right beside the entrance to Stanley Park, west of Georgia Street. It is artificial, about 16.6 hectares, and a 1.75 km trail runs all the way round it. Before the causeway was built it was a tidal mudflat. Its Squamish name, Ch'ekxwa'7lech, means \"gets dry at times\". It became a freshwater lake in 1929 and was officially named Lost Lagoon in 1922. The name comes from a poem by Pauline Johnson.\n\nIt photographs well because there is always something to put in the frame: open water, birds, the trees along the shore and the lit fountain, which was built for Vancouver's golden jubilee in 1936 and restored for Expo in 1986. Canada geese, ducks and great blue herons nest here, and turtles are often seen on the northern shore.\n\nFor phone photos, keep it simple. Use the trail to walk to the angle you like, and look for a foreground such as a railing, reeds or overhanging branches to give the picture depth. Water birds move quickly, so be ready and take a few shots. If you want a wide, open view, stay back from the water's edge and let the lake fill the lower half of the frame. The Lost Lagoon Nature House, an old boathouse at the south-east corner, is a good extra stop if you have time.",
    "geographic_location": "Lost Lagoon is at the entrance to Stanley Park, just west of Georgia Street, on the edge of downtown Vancouver. The park's main paths and the Lost Lagoon Nature House are around the lake.",
-   "directions_text": "The nearest SkyTrain station is Burrard (SkyTrain Expo Line). The lagoon is about 1.9 km to the north-west on foot. The False Creek Ferries stop at Maritime Museum Dock is about 2 km away, to the south of the lagoon. From either, head north or north-west towards the Stanley Park entrance. Once you are at the lagoon, the phone icon on the map is about 4 minutes on foot from the middle of the lake, to the south-west. The phone icon on the map is about 260 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest SkyTrain station is Burrard (SkyTrain Expo Line). The lagoon is about 1.9 km to the north-west on foot. The False Creek Ferries stop at Maritime Museum Dock is about 2 km away, to the south of the lagoon. From either, head north or north-west towards the Stanley Park entrance. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for natural-looking views of the water. Switch to the ultra-wide (0.5x) for the whole sweep of the lagoon. Use telephoto (2x-5x, depending on your phone) for herons, ducks and the fountain.",
-    "where_to_stand": "Stand about 260 m south-west of the subject, at the phone icon on the map, and face north-east. Face north-east towards the lake and let the open water fill the frame.",
+    "where_to_stand": "Stand on Lost Lagoon Lookout. The Jubilee Fountain in the middle of the lagoon with the lagoon and its surroundings around it. Face north-east towards the lake and let the open water fill the frame.",
     "how_to_frame": "Turn on gridlines and put the water line on the lower third, with trees or sky above it. Use a railing, branch or reeds at the edge of the frame for depth. Zoom in for birds rather than walking close, so you don't disturb them.",
     "phone_settings_tip": "Tap on the brightest part of the scene to focus, then slide the exposure down a little so the sky keeps its colour. For birds, hold your finger on the shutter or use Live Photos/motion and pick the best frame afterwards. In the evening, try night mode on the lit fountain, holding the phone steady against a rail or your chest.",
     "best_time": "Early morning or the hour before sunset usually gives softer light and calmer water. For the lit fountain, go in the evening."
@@ -673,15 +685,16 @@
   "name": "Lions Gate Bridge",
   "in_cut": true,
   "label": "Lions Gate Bridge",
-  "camera_pill": "Prospect Point Lookout",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 3440,
   "pin": [
    -123.13833333,
    49.31527778
   ],
   "camera": [
-   -123.141326,
-   49.314044
+   -123.13833333,
+   49.31527778
   ],
   "camera_source": "Researched viewpoint 'Prospect Point Lookout' (4 web pages); placed at our map tiles: 'Prospect Point' (pois).",
   "pin_note": "Position from the Wikipedia article 'Lions Gate Bridge'.",
@@ -689,10 +702,10 @@
   "text": {
    "description": "Lions Gate Bridge is the long green suspension bridge that carries traffic over the narrow entrance to Burrard Inlet, linking Vancouver with the North Shore. It opened in 1938 and is officially called the First Narrows Bridge. The name comes from the Lions, a pair of mountain peaks to the north. Its main span is 473 metres, its tower stands 111 metres tall, and ships pass underneath with 61 metres of clearance. It was named a National Historic Site of Canada in 2005. A pair of cast concrete lions guard the south approach, and since 1986 decorative lights have made the bridge a distinctive landmark after dark.\n\nIt photographs well because the setting does half the work: water below, forested slopes and mountains behind, and a steady stream of boats and ships. The best-known view is from Prospect Point Lookout, the main lookout area at the north-east tip of Stanley Park. From there you can fit the whole length of the bridge in the frame, with the North Shore mountains behind it and Burrard Inlet below. Guides call it the classic postcard view. The lookout is free to reach and photograph, and there is a café nearby. Sunset and late afternoon suit it best, when the sun falls on the bridge. If you have time, the Stanley Park Seawall gives a low, dramatic view of the concrete footings and steelwork. Ambleside Park, on the North Shore, shows the bridge from a low angle but is a separate trip.",
    "geographic_location": "The bridge crosses the First Narrows at the northern edge of Stanley Park in Vancouver, running from the park's Prospect Point side across to the North Shore. The best-known viewing spot, Prospect Point Lookout, is at the north-east tip of the park.",
-   "directions_text": "No SkyTrain station or ferry stop is close enough to give a reliable walking time. Prospect Point is at the north-east tip of Stanley Park. Prospect Point has paid parking, but the lookout itself is free. The phone icon on the map is about 260 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No SkyTrain station or ferry stop is close enough to give a reliable walking time. Prospect Point is at the north-east tip of Stanley Park. Prospect Point has paid parking, but the lookout itself is free. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to get the whole bridge, the mountains and the water in one frame. Then switch to the default lens (1x) for a tidier view, and use the telephoto (2x-5x, depending on your phone) to pick out the tower, the cables or a ship passing underneath.",
-    "where_to_stand": "Stand about 260 m south-west of the subject, on Prospect Point Lookout (the phone icon on the map), and face north-east. The main lookout area at the north-east tip of Stanley Park. You see its full length, the North Shore mountains behind it, Burrard Inlet below and ships passing underneath.",
+    "where_to_stand": "Stand on Prospect Point Lookout (main lookout area at the north-east tip of Stanley Park). The full length of the bridge, with the North Shore mountains behind it, Burrard Inlet below, and ships passing underneath. The main lookout area at the north-east tip of Stanley Park. You see its full length, the North Shore mountains behind it, Burrard Inlet below and ships passing underneath.",
     "how_to_frame": "Turn on gridlines and place the bridge deck along a lower third line, so the mountains and sky fill the rest of the frame. Wait for a ship to move under the span for a sense of scale. For a different angle, the Stanley Park Seawall gives a low view of the footings and steelwork, and sometimes a reflection in puddles after rain.",
     "phone_settings_tip": "Tap the bridge to focus, then slide the exposure down a little so the sky keeps its colour and the green steel is not washed out. Live Photos can catch moving ships and passing traffic. At dusk, use night mode and brace your phone on a rail or wall to keep it steady.",
     "best_time": "Sunset or late afternoon, when the bridge is lit by the sun. After dark the bridge's lights also show up well."
@@ -731,15 +744,16 @@
   "name": "Dr. Sun Yat-Sen Classical Chinese Garden",
   "in_cut": true,
   "label": "Sun Yat-Sen Garden",
-  "camera_pill": "Dr. Sun Yat-Sen Park",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2060,
   "pin": [
    -123.1037291,
    49.2795438
   ],
   "camera": [
-   -123.102998,
-   49.279581
+   -123.1037291,
+   49.2795438
   ],
   "camera_source": "Researched viewpoint 'Dr. Sun Yat-Sen Park' (2 web pages); placed at OpenStreetMap 'Doctor Sun Yat-Sen Park' (way/37057834): middle (95 m across); moved 10 m off water.",
   "pin_note": "Position from OpenStreetMap way/456158488: the middle of the OpenStreetMap outline 'Doctor Sun Yat-Sen Classical Chinese Garden' (75 m across).",
@@ -747,10 +761,10 @@
   "text": {
    "description": "This is a Chinese garden in the middle of Vancouver's Chinatown, and the first one built outside Asia. It opened on 24 April 1986, in time for Expo 86. The inner garden was designed with help from experts from Suzhou in China, and its still, green pond is the thread that ties everything together. Craggy rocks, curved roofs, bridges and carefully chosen plants are set around the water. The outer Dr. Sun Yat-Sen Park is a separate public park that shares the pond, and its free side lets you photograph the pond without buying a ticket. It photographs well because the traditional roofs and the water sit in front of modern towers, so one frame shows old and new Vancouver together. Koi swim near the edge, and on a still day the pond can mirror the buildings and sky. Keep your phone handheld, as the garden doesn't allow tripods or selfie sticks. For a different view, try the Nine-Bend Stone Arch Bridge for reflections under the arch, or the East Pender Street entrance for the gate and the Chinese lion against the street. Go slowly, because the best pictures are of small details and quiet corners.",
    "geographic_location": "In Chinatown, Vancouver, at 578 Carrall Street, close to Pender Street and Keefer Street. The garden and the park next to it share the same pond.",
-   "directions_text": "From Stadium–Chinatown station on the SkyTrain Expo Line, walk east for about 7 minutes. If you arrive by water, Plaza of Nations Dock (Aquabus and False Creek Ferries) is about 12 minutes on foot, heading north-east. The phone icon on the map is on the park side, with the garden just to its west. The phone icon on the map is about 45 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Stadium–Chinatown station on the SkyTrain Expo Line, walk east for about 7 minutes. If you arrive by water, Plaza of Nations Dock (Aquabus and False Creek Ferries) is about 12 minutes on foot, heading north-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the pond, the roofs and the towers in one frame. Switch to the default lens (1x) for a more natural view, and use telephoto (2x-5x, depending on your phone) for the koi, roof details and the skyline behind.",
-    "where_to_stand": "Stand about 45 m east of the subject, in Dr. Sun Yat-Sen Park (the phone icon on the map), and face west. Stand on Dr. From here you look west across the green pond and koi, with the classical roofs in front of the downtown towers.",
+    "where_to_stand": "Stand in Dr. Sun Yat-Sen Park (koi pond side, reached through the second entrance). The garden's green pond and koi, with the modern downtown towers rising behind the classical roofs. Stand on Dr. From here you look west across the green pond and koi, with the classical roofs in front of the downtown towers.",
     "how_to_frame": "Turn on gridlines and keep the water's edge level along one line, with the roofs on another and the towers above. Crouch a little to bring the koi and any reflections into the foreground. If you want an alternative, try the Nine-Bend Stone Arch Bridge for reflections under the arch.",
     "phone_settings_tip": "Tap the roofs to focus, then slide the exposure down a touch so the sky keeps its colour and the dark wood doesn't wash out. Wait for a calm moment on the water before you press the shutter. Live Photos can catch the koi moving.",
     "best_time": "Early or late in the day usually gives softer light and fewer people. A calm, still day is best for reflections in the pond."
@@ -783,15 +797,16 @@
   "name": "English Bay",
   "in_cut": true,
   "label": "English Bay",
-  "camera_pill": "Inukshuk",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2055,
   "pin": [
    -123.1437131,
    49.2864801
   ],
   "camera": [
-   -123.143728,
-   49.284306
+   -123.1437131,
+   49.2864801
   ],
   "camera_source": "Researched viewpoint 'Inukshuk' (4 web pages); placed at OpenStreetMap 'Inukshuk' (node/648527819): point.",
   "pin_note": "Position from OpenStreetMap way/86340299: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -799,10 +814,10 @@
   "text": {
    "description": "English Bay is the wide, curving stretch of water on the west side of downtown Vancouver, and the best-known picture here is the Inukshuk, a stone figure standing on the spit and looking out over the bay. Its balanced shape reads clearly as a dark silhouette, so it works well as a foreground subject. Behind it you get open water and, across the bay, the North Shore mountains. The beach side faces west, which is why this is a favourite place for sunset photos. The shot works best when you keep it simple: one figure, a calm horizon and a colourful sky. Crowds are the main difficulty. The beach and the Inukshuk get very busy in summer and during the Celebration of Light fireworks, so arrive early to claim a clear spot. If the Inukshuk is too busy, Sunset Beach Park gives sunset over the water with the yachts of Vanier Park in the middle distance and the Burrard Bridge overhead. Jericho Pier, a few kilometres west, gives a wide view of the West End and downtown skyline across the bay, with the Inukshuk visible on the left and Kits Point on the right. Wherever you stand, take a few frames as the light changes, because the colour can shift quickly in the last half hour before sunset.",
    "geographic_location": "English Bay is on the western edge of downtown Vancouver, where the West End meets the water. The Inukshuk stands on the spit at the bay's edge; the classic view looks west across the bay.",
-   "directions_text": "The nearest stop is Maritime Museum Dock (False Creek Ferries), with English Bay about 896 m to the north, or about 15 minutes on foot. Aquatic Centre Dock (False Creek Ferries) is about 1,200 m away to the south-east of the bay, roughly 20 minutes on foot. Head north from Maritime Museum Dock, or north-west from Aquatic Centre Dock, to reach the bay's shore, then look for the stone figure on the spit. The phone icon on the map is about 20 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest stop is Maritime Museum Dock (False Creek Ferries), with English Bay about 896 m to the north, or about 15 minutes on foot. Aquatic Centre Dock (False Creek Ferries) is about 1,200 m away to the south-east of the bay, roughly 20 minutes on foot. Head north from Maritime Museum Dock, or north-west from Aquatic Centre Dock, to reach the bay's shore, then look for the stone figure on the spit. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the Inukshuk against the water. Switch to ultra-wide (0.5x) if the sky is the star, and try 2x to pull the North Shore mountains closer behind the figure.",
-    "where_to_stand": "Stand about 20 m south of the subject, at Inukshuk (the phone icon on the map), and face north. For the classic west-facing sunset shot, stand beside the sculpture on the spit, looking west across the bay, where the figure can be silhouetted in the foreground against the water, the sunset and the North Shore mountains. The Inukshuk's exact spot may shift with crowds.",
+    "where_to_stand": "Stand right at the subject (beside the sculpture on the spit, facing west toward the bay). Sunset over English Bay with the Inukshuk silhouetted in the foreground against the water and North Shore mountains. For the classic west-facing sunset shot, stand beside the sculpture on the spit, looking west across the bay, where the figure can be silhouetted in the foreground against the water, the sunset and the North Shore mountains. The Inukshuk's exact spot may shift with crowds.",
     "how_to_frame": "Switch on gridlines and place the Inukshuk on one of the vertical lines, with the horizon on a lower line so the sky fills the frame. Crouch a little so the figure sits against the sky and water rather than other people. If it is too crowded, Sunset Beach Park is a good alternative for sunset over the water.",
     "phone_settings_tip": "Tap the bright part of the sky to focus, then slide the exposure down a little so the colours stay rich and the Inukshuk turns into a clean silhouette. Try a Live Photo to catch the moment the sun drops.",
     "best_time": "Golden hour, just before sunset. Arrive early in summer and on fireworks nights to get a clear spot."
@@ -823,15 +838,16 @@
   "name": "Prospect Point",
   "in_cut": true,
   "label": "Prospect Point",
-  "camera_pill": "Stanley Park Seawall",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1630,
   "pin": [
    -123.1413263,
    49.3140439
   ],
   "camera": [
-   -123.139473,
-   49.31278
+   -123.1413263,
+   49.3140439
   ],
   "camera_source": "Researched viewpoint 'Stanley Park Seawall' (3 web pages); placed at OpenStreetMap 'Stanley Park Seawall' (way/774858740): point nearest the subject (695 m long).",
   "pin_note": "Position from OpenStreetMap node/39606311: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -839,10 +855,10 @@
   "text": {
    "description": "Prospect Point is the lookout on the north side of Stanley Park, where Lions Gate Bridge runs out over Burrard Inlet towards the North Shore mountains. From the lookout you see the bridge from above, with ships passing below. It is the obvious photo, and it is usually busy, with cruise ships and crowds common. For a more dramatic frame, walk down to the Stanley Park Seawall, directly beneath the bridge on its north side. From there the view looks up at the massive concrete footings and the steelwork rising over the water, which gives a very different picture from the one everyone takes at the top. The lookout itself is free, though parking nearby is paid. The way down is a steep trail from the lookout, or you can join the seawall just before the bridge. The seawall is also a cycling route, and riders are asked to dismount on the curve, so keep clear of the path when you stop to take a picture. There is a lighthouse at Prospect Point too. Photographers disagree on whether it works best close up or from a little distance, and it will not appear in every frame of the bridge from below.",
    "geographic_location": "Prospect Point is on the northern edge of Stanley Park in Vancouver, beside Lions Gate Bridge. The seawall viewpoint is just below it, on the water's edge under the bridge.",
-   "directions_text": "Prospect Point is at the northern tip of Stanley Park, far from any SkyTrain station: walk or cycle the Seawall, or check the official Stanley Park information for other ways to get there. From the lookout, take the steep trail down, or join the seawall just before the bridge. The phone icon on the map is about 190 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Prospect Point is at the northern tip of Stanley Park, far from any SkyTrain station: walk or cycle the Seawall, or check the official Stanley Park information for other ways to get there. From the lookout, take the steep trail down, or join the seawall just before the bridge. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the footings and steelwork rising overhead. Switch to the default lens (1x) for a calmer, more natural view, and use telephoto (2x-5x, depending on your phone) to pick out details of the steel against the sky.",
-    "where_to_stand": "Stand about 190 m south-east of the subject, in Stanley Park Seawall (the phone icon on the map), and face north-west. From here your phone looks up at the bridge's massive concrete footings and steelwork rising over the water.",
+    "where_to_stand": "Stand in Stanley Park Seawall (seawall path directly beneath the Lions Gate Bridge, on the north side). The bridge from below, with its massive concrete footings and steelwork rising over the water. From here your phone looks up at the bridge's massive concrete footings and steelwork rising over the water.",
     "how_to_frame": "Turn on gridlines and hold the phone low and tilted up, so the bridge lines lead across the frame. Keep some water or the path at the bottom of the picture to give a sense of scale. If you also want the classic view, take a second shot from the Prospect Point lookout, with the bridge running down towards the mountains.",
     "phone_settings_tip": "Tap the brightest part of the sky or bridge to focus, then drag the exposure slider down a little so the steelwork keeps its detail rather than turning into a dark silhouette. Hold the phone steady against your body or a railing.",
     "best_time": "The lookout is often crowded when cruise ships are in, and the seawall is generally less crowded than the lookout. Check the weather first, because the view of the bridge and mountains needs reasonable visibility."
@@ -865,26 +881,27 @@
   "name": "Marine Building",
   "in_cut": true,
   "label": "Marine Building",
-  "camera_pill": "West Pender Street",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1255,
   "pin": [
    -123.1169932,
    49.2874702
   ],
   "camera": [
-   -123.11784,
-   49.286591
+   -123.1169932,
+   49.2874702
   ],
   "camera_source": "Researched viewpoint 'Burrard Street' (1 web pages); placed at crossing of Burrard Street and Pender Street (our map tiles).",
   "pin_note": "Position from OpenStreetMap way/125579375: the middle of the OpenStreetMap outline 'Marine Building' (86 m across).",
   "notes": "",
   "text": {
-   "description": "The Marine Building is an Art Deco office tower at 355 Burrard Street in Downtown Vancouver, close to the Financial District. It opened in 1930 and was the city's tallest skyscraper until 1939, at 97.8 metres and 22 floors. Its name comes from the sea-themed decoration all over it. The architects wanted it to look like a great crag rising from the sea, clinging with sea plants and animals, tinted sea-green and touched with gold. That is why it photographs so well: the tower rises like a crag from the sea, and the green and gold detail catches the eye.\n\nThe best all-round view is from the phone icon on the map, at the corner of Burrard and Pender. From there you can look up and fit the whole height of the tower and its upper facade into one frame. That makes it a good choice if you want the building rather than just the doorway.\n\nIf you also want detail, walk to the entrance and photograph the ornate arch straight on. It is decorated with terracotta sea creatures, ships and carvings. Inside, the lobby has more marine motifs, but this is a working office building with no public galleries. Check the official site before you go, and look out for any scaffolding on the facade, which could spoil the shot.",
+   "description": "The Marine Building is an Art Deco office tower at 355 Burrard Street in Downtown Vancouver, close to the Financial District. It opened in 1930 and was the city's tallest skyscraper until 1939, at 97.8 metres and 22 floors. Its name comes from the sea-themed decoration all over it. The architects wanted it to look like a great crag rising from the sea, clinging with sea plants and animals, tinted sea-green and touched with gold. That is why it photographs so well: the tower rises like a crag from the sea, and the green and gold detail catches the eye.\n\nFrom there you can look up and fit the whole height of the tower and its upper facade into one frame. That makes it a good choice if you want the building rather than just the doorway.\n\nIf you also want detail, walk to the entrance and photograph the ornate arch straight on. It is decorated with terracotta sea creatures, ships and carvings. Inside, the lobby has more marine motifs, but this is a working office building with no public galleries. Check the official site before you go, and look out for any scaffolding on the facade, which could spoil the shot.",
    "geographic_location": "In Downtown Vancouver on Burrard Street, near the Financial District.",
-   "directions_text": "The nearest station is Burrard station on the SkyTrain Expo Line, about 280 m away, with the tower to the north-east. Waterfront station (Canada Line and SkyTrain Expo Line) is about 350 m away, with the tower to the north-west. Walk to the corner of Burrard and Pender and look up at the tower to the north-east. The phone icon on the map is about 90 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The nearest station is Burrard station on the SkyTrain Expo Line, about 280 m away, with the tower to the north-east. Waterfront station (Canada Line and SkyTrain Expo Line) is about 350 m away, with the tower to the north-west. Walk to the corner of Burrard and Pender and look up at the tower to the north-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the full height of the tower in from the street corner. Switch to the default lens (1x) for a more natural look. Use the telephoto (2x-5x, depending on your phone) for the upper facade and its green and gold detail.",
-    "where_to_stand": "Stand about 90 m south-west of the subject, at the corner of Burrard Street and Pender Street (the phone icon on the map), and face north-east. Stand on Burrard Street, at the corner of Burrard and Pender, and look up at the tower to the north-east. From here the photo shows the full height of the tower and its upper facade, rather than just the entrance.",
+    "where_to_stand": "Stand at the corner of Burrard Street and Pender Street (Corner of Burrard and Pender, looking up at the tower). The full height of the tower and its upper facade, seen from the street corner. Stand on Burrard Street, at the corner of Burrard and Pender, and look up at the tower to the north-east. From here the photo shows the full height of the tower and its upper facade, rather than just the entrance.",
     "how_to_frame": "Turn on the gridlines and line the tower up with a vertical line so the sides do not lean too much. Hold the phone as upright as you can, because tilting it back makes the tower look like it is falling backwards. Leave a little sky above the top. If you want the entrance as well, walk to the ornate arch with its terracotta sea creatures and shoot it straight on as a second picture.",
     "phone_settings_tip": "Tap on the tower's facade to set focus, then slide the exposure down a little so the sky does not turn white and the green and gold detail stays clear. Take a few shots at different zoom levels, then pick the best one.",
     "best_time": "Daylight is best for seeing the facade colours. Check the weather, as a bright but slightly hazy sky works better than harsh midday sun."
@@ -920,6 +937,7 @@
   "in_cut": true,
   "label": "Olympic Cauldron",
   "camera_pill": null,
+  "nophone": false,
   "searches": 885,
   "pin": [
    -123.1174001,
@@ -972,15 +990,16 @@
   "name": "Siwash Rock",
   "in_cut": true,
   "label": "Siwash Rock",
-  "camera_pill": "Stanley Park Seawall",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 790,
   "pin": [
    -123.156058,
    49.308775
   ],
   "camera": [
-   -123.138955,
-   49.311925
+   -123.156058,
+   49.308775
   ],
   "camera_source": "Researched viewpoint 'Stanley Park Seawall' (3 web pages); placed at OpenStreetMap 'Stanley Park Seawall' (way/774858740): point nearest the subject (695 m long).",
   "pin_note": "Position from the Wikipedia article 'Siwash Rock'.",
@@ -988,10 +1007,10 @@
   "text": {
    "description": "Siwash Rock is a slim sea stack standing just off the shore in Stanley Park, with a small Douglas fir on top. It is only 15 to 18 metres tall, but it rises straight out of English Bay, so it makes a clean, simple subject against open water and the North Shore beyond. It is also the only sea stack of its kind in the Vancouver area. It formed about 32 million years ago, when magma pushed up through the park's softer sandstone and mudstone and set as hard basalt. The sea has worn away the softer rock around it and left the stack standing. The rock is also tied to a Squamish legend, and its Squamish name is Slhx̱i7lsh. A plaque near the rock tells the story of Skalsh, who was transformed as a reward for unselfishness. The original fir on top died in the dry summer of 1965, and new saplings took root a few years later. For a phone photo, the paved seawall path is the best place to stand, because it curves around the rock and gives you several angles. A lookout up on the cliff is also an option, but a tree partly blocks its view. Allow time for the walk and try a few positions along the path. Late afternoon and early evening suit the rock best, when it stands out against the water and the sky.",
    "geographic_location": "Siwash Rock is on the western side of Stanley Park in Vancouver, just off the shore of English Bay. It sits between Third Beach and Prospect Point.",
-   "directions_text": "Siwash Rock is on the Seawall on the west side of Stanley Park, a long way from any SkyTrain station, so walk or cycle the Seawall to reach it. Head for Stanley Park and aim for the seawall path between Third Beach and Prospect Point. Pay parking is available near Third Beach and the rock. Once on the seawall, follow the path until the rock comes into view out in the water. The phone icon on the map is about 1.3 km east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Siwash Rock is on the Seawall on the west side of Stanley Park, a long way from any SkyTrain station, so walk or cycle the Seawall to reach it. Head for Stanley Park and aim for the seawall path between Third Beach and Prospect Point. Pay parking is available near Third Beach and the rock. Once on the seawall, follow the path until the rock comes into view out in the water. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to show the rock with the bay and the North Shore around it. Switch to telephoto (2x-5x, depending on your phone) for a tighter shot of the rock and its fir. Keep the ultra-wide (0.5x) for when you want a lot of sky and water, but the rock will look small.",
-    "where_to_stand": "Stand about 1.3 km east of the subject, in Stanley Park Seawall (the phone icon on the map), and face west. The paved path between Third Beach and Prospect Point. The telephoto lens is useful at that distance. For closer, wider views, walk west along the seawall toward the rock, where you can see the sea stack rising from English Bay with its Douglas fir top, set against the water and the North Shore.",
+    "where_to_stand": "Stand in Stanley Park Seawall (paved seawall path on the south-east side of the rock, between Third Beach and Prospect Point). The sea stack rising from English Bay, with its Douglas fir top, set against the water and the North Shore, framed from the seawall path. The paved path between Third Beach and Prospect Point. The telephoto lens is useful at that distance. For closer, wider views, walk west along the seawall toward the rock, where you can see the sea stack rising from English Bay with its Douglas fir top, set against the water and the North Shore.",
     "how_to_frame": "Turn on gridlines and put the rock on one of the vertical lines, with the horizon level along a horizontal line. Leave some open water around it so it stands apart. The seawall curves around the rock, so take a few steps along the path and try a different angle. For another view, the Siwash Rock Viewpoint on the cliff looks down on the rock and across English Bay. Third Beach shows the rock in the distance with the water and mountains behind it.",
     "phone_settings_tip": "Tap on the rock to focus, then slide the exposure down a little so the sky keeps its colour and the rock turns into a dark silhouette. Try a Live Photo to catch the movement of the water. Wipe the lens first, as sea air can leave a haze on it.",
     "best_time": "Late afternoon and early evening, when the rock can be photographed as a silhouette against the sunset over the Strait of Georgia."
@@ -1028,6 +1047,7 @@
   "in_cut": true,
   "label": "Totem poles",
   "camera_pill": null,
+  "nophone": false,
   "searches": 765,
   "pin": [
    -123.116953,

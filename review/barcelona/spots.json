@@ -4,26 +4,27 @@
   "name": "Sagrada Família",
   "in_cut": true,
   "label": "Sagrada Família",
-  "camera_pill": "Carrer de la Marina",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 351700,
   "pin": [
    2.1742801,
    41.4035047
   ],
   "camera": [
-   2.1751942,
-   41.40433
+   2.1742801,
+   41.4035047
   ],
   "camera_source": "Commons cluster (194 photos). Moved 39 m outwards on 2026-11-10 so it is 65 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/9194723: the middle of the OpenStreetMap outline 'Basilica of the Holy Family' (157 m across).",
   "notes": "",
   "text": {
-   "description": "The Sagrada Família is the great basilica designed by Antoni Gaudí in Barcelona's Eixample district. Building began in 1882, and Gaudí took over the design the following year and gave it his own mix of Gothic and flowing Art Nouveau forms. He worked on it for the rest of his life and is buried in the crypt. When he died in 1926 it was far from finished, and work has carried on ever since. The central Tower of Jesus Christ is 172.5 m high, which makes this the tallest church in the world. Parts of the building, including the Nativity façade and the Crypt, are part of a UNESCO World Heritage listing for Gaudí's works.\n\nIt photographs well because nothing else looks like it. Dozens of carved spires, textured stonework and sculpted detail give your phone plenty to work with, even in a quick snap. The sheer height is the main challenge, so decide early whether you want the whole building or just a detail. From the phone icon on the map you are very close, so the towers will lean inwards if you tilt the phone upwards. That can look dramatic, but if you want straighter lines, step back and keep the phone level. Expect other visitors in the frame, so be patient and shoot in the gaps.",
+   "description": "The Sagrada Família is the great basilica designed by Antoni Gaudí in Barcelona's Eixample district. Building began in 1882, and Gaudí took over the design the following year and gave it his own mix of Gothic and flowing Art Nouveau forms. He worked on it for the rest of his life and is buried in the crypt. When he died in 1926 it was far from finished, and work has carried on ever since. The central Tower of Jesus Christ is 172.5 m high, which makes this the tallest church in the world. Parts of the building, including the Nativity façade and the Crypt, are part of a UNESCO World Heritage listing for Gaudí's works.\n\nIt photographs well because nothing else looks like it. Dozens of carved spires, textured stonework and sculpted detail give your phone plenty to work with, even in a quick snap. The sheer height is the main challenge, so decide early whether you want the whole building or just a detail. That can look dramatic, but if you want straighter lines, step back and keep the phone level. Expect other visitors in the frame, so be patient and shoot in the gaps.",
    "geographic_location": "The Sagrada Família stands in the Eixample district of Barcelona. Sagrada Família Metro station is right beside it.",
-   "directions_text": "Take Metro line L5 or Metro line L2 to Sagrada Família Metro station, which is about 1 minute on foot from the basilica, with the basilica to the south of the station. If you are coming by tram, tram T4 stops at Sicília, about 6 minutes on foot from the basilica, which lies to the north of the stop. Tram T4 also stops at Monumental Metro station (also on Metro line L2), about 9 minutes on foot from the basilica, which lies to the north-west. The phone icon on the map is about 65 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take Metro line L5 or Metro line L2 to Sagrada Família Metro station, which is about 1 minute on foot from the basilica, with the basilica to the south of the station. If you are coming by tram, tram T4 stops at Sicília, about 6 minutes on foot from the basilica, which lies to the north of the stop. Tram T4 also stops at Monumental Metro station (also on Metro line L2), about 9 minutes on foot from the basilica, which lies to the north-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit more of the towers into the frame from close up. Switch to the default lens (1x) for a more natural view of the façade. Use the telephoto (2x-5x, depending on your phone) to pick out spires and carved details high above you.",
-    "where_to_stand": "Stand about 65 m north-east of the subject, at the phone icon on the map, and face south-west. If you want the whole building in one shot, walk a little further back from this point.",
+    "where_to_stand": "Stand in Plaça de Gaudí (far end of the reflecting pond, opposite the Nativity façade). The Nativity façade and its towers rising above the pond, mirrored in the water when the surface is calm. If you want the whole building in one shot, walk a little further back from this point.",
     "how_to_frame": "Turn on gridlines and use them to keep the vertical lines of the towers straight. Hold the phone as level as you can rather than tilting it far upwards. Look for a foreground element, such as people or a tree, to give the huge building some scale. For a close-up, fill the frame with the stone carving rather than trying to include everything.",
     "phone_settings_tip": "Tap on the stonework to set focus, then drag the exposure slider down slightly so the bright sky does not wash out the detail. If you want the full height in one frame, try panorama mode held vertically, moving slowly and steadily.",
     "best_time": "Early morning usually gives softer light and fewer people in your shots. Around midday the sun is high and the light can be harsh on the stone."
@@ -61,6 +62,7 @@
   "in_cut": true,
   "label": "Park Güell",
   "camera_pill": null,
+  "nophone": false,
   "searches": 107450,
   "pin": [
    2.1527778,
@@ -112,26 +114,27 @@
   "name": "Barcelona Cathedral",
   "in_cut": true,
   "label": "Cathedral",
-  "camera_pill": "near Plaça de l'Àngel",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 50450,
   "pin": [
    2.1763464,
    41.3839272
   ],
   "camera": [
-   2.178229,
-   41.3840709
+   2.1763464,
+   41.3839272
   ],
   "camera_source": "Commons cluster (158 photos). Moved 50 m outwards on 2026-11-10 so it is 100 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/3298476: the middle of the OpenStreetMap outline 'Cathedral of Santa Eulalia' (155 m across).",
   "notes": "",
   "text": {
-   "description": "Barcelona Cathedral, properly the Cathedral of the Holy Cross and Saint Eulalia, is the seat of the archbishop of Barcelona and the centrepiece of the old Gothic Quarter. The present building was begun on 1 May 1298 and took about 150 years, with the cloister finished in 1448. The tall neo-Gothic façade that many visitors picture was added later and completed in 1913, so the front looks younger than the sides. It photographs well because the towers, pointed pinnacles and carved gargoyles give you plenty of detail, and the stone looks different in every kind of light. The sources give the bell towers as 54 metres high, with the tallest point, the central lantern tower (cimborio), reaching 70 metres. Inside the cloister, 13 white geese are kept, one for each year of Saint Eulalia's life according to tradition. That is a charming small subject if you go in. The phone icon on the map is about 100 m east of the subject. From here you see the eastern end of the building rather than the façade. The streets around are narrow, so you will probably be tilting your phone upwards, and the cathedral will not fit in one shot unless you step back. Take a wide view first, then move to closer shots of the stonework and sculpture. Expect other visitors to wander through your frame, so be patient and take a few shots. Right next to it: Gothic Quarter and the Bishop's Bridge.",
+   "description": "Barcelona Cathedral, properly the Cathedral of the Holy Cross and Saint Eulalia, is the seat of the archbishop of Barcelona and the centrepiece of the old Gothic Quarter. The present building was begun on 1 May 1298 and took about 150 years, with the cloister finished in 1448. The tall neo-Gothic façade that many visitors picture was added later and completed in 1913, so the front looks younger than the sides. It photographs well because the towers, pointed pinnacles and carved gargoyles give you plenty of detail, and the stone looks different in every kind of light. The sources give the bell towers as 54 metres high, with the tallest point, the central lantern tower (cimborio), reaching 70 metres. Inside the cloister, 13 white geese are kept, one for each year of Saint Eulalia's life according to tradition. That is a charming small subject if you go in. From here you see the eastern end of the building rather than the façade. The streets around are narrow, so you will probably be tilting your phone upwards, and the cathedral will not fit in one shot unless you step back. Take a wide view first, then move to closer shots of the stonework and sculpture. Expect other visitors to wander through your frame, so be patient and take a few shots. Right next to it: Gothic Quarter and the Bishop's Bridge.",
    "geographic_location": "The cathedral stands in the Gothic Quarter (Barri Gòtic) in Barcelona's old town, a short walk from Jaume I Metro station.",
-   "directions_text": "Take Metro line L4 to Jaume I Metro station, which is 194 m from the cathedral, about 3 minutes on foot, and walk west towards it. Liceu Metro station (Metro line L3) is also nearby: the cathedral is 392 m to the north-east of it, about 6 minutes on foot. The phone icon on the map is about 100 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take Metro line L4 to Jaume I Metro station, which is 194 m from the cathedral, about 3 minutes on foot, and walk west towards it. Liceu Metro station (Metro line L3) is also nearby: the cathedral is 392 m to the north-east of it, about 6 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole view. Switch to the ultra-wide (0.5x) if you are squeezed into a narrow street and cannot fit the towers in. Use the telephoto/zoom (2x-5x, depending on your phone) for the gargoyles, pinnacles and stone carving higher up.",
-    "where_to_stand": "Stand about 100 m east of the subject, at the phone icon on the map, and face west. If the view is blocked by people, move a few steps sideways rather than closer.",
+    "where_to_stand": "Stand in Pla de la Seu (centre of the square, facing the main west façade). The cathedral's main façade and doorway filling the frame, the classic full-cathedral postcard shot. If the view is blocked by people, move a few steps sideways rather than closer.",
     "how_to_frame": "Turn on the gridlines and keep the towers upright against the vertical lines. Leave a little sky above the highest point so the central lantern tower is not cut off. Take one wide shot, then one zoomed-in shot of the sculpture and stonework as a detail.",
     "phone_settings_tip": "Tap on the stonework to set focus, then slide the exposure down a little if the sky is bright so the sky does not turn white. When you tilt the phone up, the lines will lean inwards, so hold it as level as you can and step back rather than tilt more.",
     "best_time": "Morning is likely to be best from the east, as the sun should be behind you and light the stone. Early or late in the day, there are usually fewer people."
@@ -170,6 +173,7 @@
   "in_cut": true,
   "label": "Casa Batlló",
   "camera_pill": "Passeig de Gràcia (lat",
+  "nophone": false,
   "searches": 45950,
   "pin": [
    2.1647614,
@@ -225,7 +229,8 @@
   "name": "La Rambla",
   "in_cut": true,
   "label": "La Rambla",
-  "camera_pill": "near La Rambla",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 33100,
   "pin": [
    2.173056,
@@ -239,12 +244,12 @@
   "pin_note": "Position from Wikidata Q850593 (coordinate location).",
   "notes": "",
   "text": {
-   "description": "La Rambla is the tree-lined pedestrian street that runs for about 1.2 kilometres from Plaça de Catalunya down to the Christopher Columbus Monument at Port Vell. It sits between the old Barri Gòtic to the east and El Raval to the west. It photographs well because of the long view down the middle of the promenade: plane trees overhead, newspaper and flower kiosks, pavement cafés and a steady flow of people. It began as a seasonal stream bed. The city walls were extended to take it in from 1377, and by 1440 the stream had been diverted and the Rambla slowly turned into a street. Look down as well as up: the paving is laid to ripple like water, which is a nice nod to that past. There is also a mosaic by Joan Miró set into the promenade. The Liceu opera house is close to the phone icon on the map, so it makes a handy landmark when you line up a shot. The street is busy for much of the day and late into the evening, so plan for people in your frame. Use them as part of the scene, with movement and colour, rather than waiting for a clear gap. Keep the phone steady against your chest or a railing, and take a few frames in a row so one catches a good moment. Check the horizon and tree trunks against the gridlines so the street doesn't lean.",
+   "description": "La Rambla is the tree-lined pedestrian street that runs for about 1.2 kilometres from Plaça de Catalunya down to the Christopher Columbus Monument at Port Vell. It sits between the old Barri Gòtic to the east and El Raval to the west. It photographs well because of the long view down the middle of the promenade: plane trees overhead, newspaper and flower kiosks, pavement cafés and a steady flow of people. It began as a seasonal stream bed. The city walls were extended to take it in from 1377, and by 1440 the stream had been diverted and the Rambla slowly turned into a street. Look down as well as up: the paving is laid to ripple like water, which is a nice nod to that past. There is also a mosaic by Joan Miró set into the promenade. The street is busy for much of the day and late into the evening, so plan for people in your frame. Use them as part of the scene, with movement and colour, rather than waiting for a clear gap. Keep the phone steady against your chest or a railing, and take a few frames in a row so one catches a good moment. Check the horizon and tree trunks against the gridlines so the street doesn't lean.",
    "geographic_location": "La Rambla is in central Barcelona, on the boundary between the Barri Gòtic and El Raval. The subject sits on the stretch near the Liceu opera house and Liceu Metro station, between Plaça de Catalunya to the north and the port to the south.",
-   "directions_text": "Take Metro line L3 to Liceu Metro station. The subject is only 2 m from the station, to its south-west, so it is less than a minute on foot. Jaume I Metro station (Metro line L4) is 552 m from the subject, about 9 minutes on foot, with the subject to the south-west of the station. Liceu Metro station is much closer. The phone icon on the map is about 140 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take Metro line L3 to Liceu Metro station. The subject is only 2 m from the station, to its south-west, so it is less than a minute on foot. Jaume I Metro station (Metro line L4) is 552 m from the subject, about 9 minutes on foot, with the subject to the south-west of the station. Liceu Metro station is much closer. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for a natural view down the street. Switch to ultra-wide (0.5x) if you want the full canopy of trees and both rows of kiosks, and to telephoto (2x-5x, depending on your phone) to pack the crowd and the street into a tighter, more layered picture.",
-    "where_to_stand": "Stand about 140 m north of the subject, at the phone icon on the map, and face north.",
+    "where_to_stand": "Stand right at the subject (base of the monument at the seaward end, facing up the boulevard). The length of La Rambla running uphill toward Plaça de Catalunya, with the surrounding neighbourhoods visible on either side.",
     "how_to_frame": "Switch on the gridlines and put the centre of the promenade on the middle vertical line, with the tree trunks running parallel on either side. Keep the horizon level. Include a kiosk or café table in the foreground for depth, and look down for a frame that shows the wavy paving.",
     "phone_settings_tip": "Tap on the middle of the street to set focus, then drag the exposure slider down slightly so the bright sky between the leaves doesn't wash out. For a busy scene, try a Live Photo and pick the best frame afterwards.",
     "best_time": "Early morning is usually the calmest time for a clearer view. In the evening the street lamps and shop lights come on, and night mode can handle the lower light, though the crowds will be larger."
@@ -278,6 +283,7 @@
   "in_cut": true,
   "label": "Plaça de Catalunya",
   "camera_pill": "Plaça de Catalunya",
+  "nophone": false,
   "searches": 25330,
   "pin": [
    2.1707541,
@@ -335,6 +341,7 @@
   "in_cut": true,
   "label": "La Pedrera",
   "camera_pill": "Carrer de Provença",
+  "nophone": false,
   "searches": 22500,
   "pin": [
    2.1612779,
@@ -390,6 +397,7 @@
   "in_cut": true,
   "label": "La Boqueria",
   "camera_pill": "Passatge dels Coloms",
+  "nophone": false,
   "searches": 22320,
   "pin": [
    2.1715777,
@@ -448,6 +456,7 @@
   "in_cut": true,
   "label": "Barceloneta",
   "camera_pill": "near Carrer del Gas",
+  "nophone": false,
   "searches": 21705,
   "pin": [
    2.192971,
@@ -496,6 +505,7 @@
   "in_cut": true,
   "label": "Ciutadella",
   "camera_pill": "Passeig de Joaquim Ren",
+  "nophone": false,
   "searches": 20260,
   "pin": [
    2.1875,
@@ -553,6 +563,7 @@
   "in_cut": true,
   "label": "Montjuïc Castle",
   "camera_pill": "near Camí del Mar",
+  "nophone": false,
   "searches": 16775,
   "pin": [
    2.1661111,
@@ -610,6 +621,7 @@
   "in_cut": true,
   "label": "Magic Fountain",
   "camera_pill": "Avinguda de la Reina M",
+  "nophone": false,
   "searches": 13440,
   "pin": [
    2.1517385,
@@ -667,6 +679,7 @@
   "in_cut": true,
   "label": "Bunkers del Carmel",
   "camera_pill": null,
+  "nophone": false,
   "searches": 12370,
   "pin": [
    2.1615417,
@@ -723,6 +736,7 @@
   "in_cut": true,
   "label": "Palau Güell",
   "camera_pill": "near La Rambla",
+  "nophone": false,
   "searches": 11650,
   "pin": [
    2.1742337,
@@ -777,6 +791,7 @@
   "in_cut": true,
   "label": "Tibidabo",
   "camera_pill": null,
+  "nophone": false,
   "searches": 9710,
   "pin": [
    2.118914,
@@ -827,6 +842,7 @@
   "in_cut": true,
   "label": "Casa Vicens",
   "camera_pill": "Carrer de les Caroline",
+  "nophone": false,
   "searches": 9400,
   "pin": [
    2.1506176,
@@ -882,15 +898,16 @@
   "name": "Barcelona Pavilion",
   "in_cut": true,
   "label": "Barcelona Pavilion",
-  "camera_pill": "Avinguda de Francesc F",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 8045,
   "pin": [
    2.1499629,
    41.3705487
   ],
   "camera": [
-   2.1500171,
-   41.3701531
+   2.1499629,
+   41.3705487
   ],
   "camera_source": "Commons cluster (3 photos), weak. Moved 14 m outwards on 2026-11-10 so it is 30 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/67917935: the middle of the OpenStreetMap outline 'Pavelló Mies van der Rohe' (37 m across).",
@@ -898,10 +915,10 @@
   "text": {
    "description": "The Barcelona Pavilion is a small, calm building of stone, glass and steel, designed by Ludwig Mies van der Rohe and Lilly Reich as the German Pavilion for the 1929 International Exposition. It was taken down in 1930 and rebuilt between 1983 and 1986, using the original drawings and the footings found on the site. It is important in the history of modern architecture, and that is easy to see in a photo. Flat roof plates seem to hover over slim chrome-clad columns. Walls of marble and onyx slide past one another, and the whole building sits on a travertine base beside pools. Those pools are the main reason it photographs well. They reflect the clean horizontal lines, and the building is designed as a series of views, so almost every angle gives you a tidy composition. The small pool holds Georg Kolbe's sculpture Alba (\"Dawn\"), which makes a good second subject once you have your wide shot. Take a few steps either way, because the layout changes the picture quickly. Keep your phone level so the long horizontal lines stay straight, and look for reflections in the water, glass and polished stone. Inside, the walls are close together, so expect to shoot in short, tight frames rather than one big view.",
    "geographic_location": "The pavilion is in Barcelona, close to Barcelona-Plaça Espanya Metro station and Espanya Metro station, on the route towards the Poble Espanyol, on the grounds of the 1929 exhibition.",
-   "directions_text": "From Barcelona-Plaça Espanya Metro station (Metro line L8) the pavilion is about 7 minutes on foot, to the south. Walk south. From Espanya Metro station (Metro line L1 and Metro line L3) the pavilion is about 9 minutes on foot, also to the south. Walk south. The phone icon on the map is about 30 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Barcelona-Plaça Espanya Metro station (Metro line L8) the pavilion is about 7 minutes on foot, to the south. Walk south. From Espanya Metro station (Metro line L1 and Metro line L3) the pavilion is about 9 minutes on foot, also to the south. Walk south. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the overall view of the roof, columns and pools. Switch to ultra-wide (0.5x) if you are close to the water and cannot fit the building in. Use telephoto (2x-5x, depending on your phone) for the sculpture and for details such as the column reflections and stone patterns.",
-    "where_to_stand": "Stand about 30 m south of the subject, at the phone icon on the map, and face north.",
+    "where_to_stand": "Stand on Avinguda Marquès de Comillas (Turn right off the approach to the Palau Nacional steps; stand on the street facing the pavilion, opposite CaixaForum). The pavilion's front facade seen straight on from the street, with CaixaForum across the avenue.",
     "how_to_frame": "Turn the gridlines on and line up the roof edge and the base with the horizontal lines, so the building looks calm and level. Put the water in the lower part of the frame to catch the reflection. Then move closer and use 2x or more to frame Alba against the marble or glass.",
     "phone_settings_tip": "Tap on a mid-tone wall to set focus, then drag the exposure slider down a little so the bright stone does not wash out. If you shoot Alba, tap on the figure itself so it stays sharp.",
     "best_time": "Early morning or late afternoon usually gives softer light and fewer people in your frame, but check the official site for visiting times before you go."
@@ -938,6 +955,7 @@
   "in_cut": true,
   "label": "Palau de la Música",
   "camera_pill": null,
+  "nophone": false,
   "searches": 2090,
   "pin": [
    2.1752258,
@@ -993,6 +1011,7 @@
   "in_cut": true,
   "label": "Camp Nou",
   "camera_pill": "near museum entrance",
+  "nophone": false,
   "searches": 1730,
   "pin": [
    2.1228138,
@@ -1049,6 +1068,7 @@
   "in_cut": false,
   "label": "Bishop's Bridge",
   "camera_pill": "near Carrer del Bisbe",
+  "nophone": false,
   "searches": 46050,
   "pin": [
    2.1764432,
@@ -1102,6 +1122,7 @@
   "in_cut": false,
   "label": "MNAC",
   "camera_pill": "Carrer Mirador del Pal",
+  "nophone": false,
   "searches": 7290,
   "pin": [
    2.15331,
@@ -1133,6 +1154,7 @@
   "in_cut": false,
   "label": "Sant Pau",
   "camera_pill": "Carrer de Cartagena",
+  "nophone": false,
   "searches": 3250,
   "pin": [
    2.17444444,
@@ -1164,6 +1186,7 @@
   "in_cut": false,
   "label": "Columbus Monument",
   "camera_pill": "Avinguda de les Drassa",
+  "nophone": false,
   "searches": 1940,
   "pin": [
    2.17776111,
@@ -1195,6 +1218,7 @@
   "in_cut": false,
   "label": "Santa Maria del Mar",
   "camera_pill": "Plaça de Santa Maria",
+  "nophone": false,
   "searches": 780,
   "pin": [
    2.18194444,

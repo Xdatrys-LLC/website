@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Castle",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1970,
   "pin": [
    14.3154285,
@@ -58,6 +59,7 @@
   "in_cut": true,
   "label": "St. Vitus Church",
   "camera_pill": null,
+  "nophone": false,
   "searches": 90,
   "pin": [
    14.31614,
@@ -112,6 +114,7 @@
   "in_cut": true,
   "label": "Svornosti Square",
   "camera_pill": null,
+  "nophone": false,
   "searches": 70,
   "pin": [
    14.3150032,
@@ -162,6 +165,7 @@
   "in_cut": true,
   "label": "Latrán",
   "camera_pill": null,
+  "nophone": false,
   "searches": 60,
   "pin": [
    14.3175123,
@@ -213,15 +217,16 @@
   "name": "Castle Gardens",
   "in_cut": true,
   "label": "Castle Gardens",
-  "camera_pill": "Plášťový most",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 60,
   "pin": [
    14.3085795,
    48.811854
   ],
   "camera": [
-   14.312968,
-   48.812616
+   14.3085795,
+   48.811854
   ],
   "camera_source": "Researched viewpoint 'Plášťový most' (4 web pages); placed at OpenStreetMap 'Plášťový most' (way/39231535): middle (47 m across).",
   "pin_note": "Position from OpenStreetMap node/12633930459: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -229,10 +234,10 @@
   "text": {
    "description": "The Castle Gardens are part of the castle complex in Český Krumlov, and the best way to photograph them is from the bridge that leads in. From the garden end of Plášťový most (the Cloak Bridge), where the upper covered passage runs into the garden, you see the arcaded bridge framing the entrance. Beyond it are the castle buildings and the red roofs of the town. The arches give your photo a natural frame, and the roofs and towers behind them show where you are. Guides describe the Cloak Bridge as one of the most typical Krumlov views and a route into the garden. Walking across the outside of the bridge is free, but the bridge interior is only on the guided castle tour route. Opening hours for the garden vary by season, so check before you go. If you want the garden itself, step inside to Zámecká zahrada. There the stepped terrace and cascade fountain sit in the foreground, with the castle and garden walls behind. For a different angle, Seminární zahrada looks across the Vltava to the castle and its towers, with the terracotta roofs of the Old Town beside them. The garden is not clearly visible from there. Keep the bridge arches straight in your frame and let the roofs fill the background.",
    "geographic_location": "The Castle Gardens are on the castle side of Český Krumlov, beside the castle complex and reached over the Plášťový most (Cloak Bridge).",
-   "directions_text": "Head for the Cloak Bridge, Plášťový most, and go to the garden end, where the upper covered passage leads into the garden. The phone icon on the map is about 330 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for the Cloak Bridge, Plášťový most, and go to the garden end, where the upper covered passage leads into the garden. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to frame the arcaded bridge with the castle buildings and red roofs behind it. Switch to the ultra-wide (0.5x) if you want the bridge and more of the garden entrance in one frame. Use the telephoto (2x or more, depending on your phone) to pick out the roofs and castle details beyond the arches.",
-    "where_to_stand": "Stand about 330 m east of the subject, on Plášťový most (the phone icon on the map), and face west. Where the upper covered passage leads into the garden. From here your photo shows the arcaded bridge framing the entrance to the garden, with the castle buildings and the town's red roofs beyond.",
+    "where_to_stand": "Stand on Plášťový most (garden end of the bridge, where the upper covered passage leads into the garden). The arcaded bridge framing the entrance to the garden, with the castle buildings and red roofs of the town visible beyond. Where the upper covered passage leads into the garden. From here your photo shows the arcaded bridge framing the entrance to the garden, with the castle buildings and the town's red roofs beyond.",
     "how_to_frame": "Turn on the gridlines and line up the bridge arches with the vertical lines so the arcade looks straight. Keep the castle buildings and red roofs in the upper part of the frame. For a close-up of the garden, go inside to Zámecká zahrada and shoot the terrace and cascade fountain with the castle behind. Seminární zahrada across the Vltava is an alternative for a view of the castle and towers with the Old Town roofs.",
     "phone_settings_tip": "Tap the brightest part of the sky or the roofs to focus, then lower the exposure slider a little so the covered passage does not wash out the sky. If the arches are in shade, check that the roofs behind still look bright.",
     "best_time": "Visit when the garden is open, since hours vary by season."
@@ -264,26 +269,27 @@
   "name": "Barber's Bridge (Lazebnický most)",
   "in_cut": true,
   "label": "Barber's Bridge",
-  "camera_pill": "Latrán",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 60,
   "pin": [
    14.3157062,
    48.811815
   ],
   "camera": [
-   14.317512,
-   48.812746
+   14.3157062,
+   48.811815
   ],
   "camera_source": "Researched viewpoint 'Latrán' (2 web pages); placed at OpenStreetMap 'Latrán' (node/1599136525): point.",
   "pin_note": "Position from OpenStreetMap way/759607097: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "",
   "text": {
-   "description": "Barber's Bridge (Lazebnický most) crosses the river in the old part of Český Krumlov. The classic views are looking out from the bridge, but this spot is about photographing the bridge itself. The best way to do that is from Latrán, the street guides describe as the main walking route to the bridge. As you walk down towards the river, the bridge closes the far end of the street, with the castle rising beyond it. That layering of street, bridge and castle is what makes the picture work on a phone. The street leads the eye straight to the bridge, and the castle gives the frame a clear background.\n\nStand on Latrán at the Spičák end, at the phone icon on the map, and look south-west along the street. The bridge is a short walk ahead of you. Keep the bridge in the centre and let the street edges frame it. If you want a second picture, walk onto the bridge for the view of the castle and river. The bridge isn't in that frame, so it only works if you want it as a foreground element.\n\nThe bridge has been closed for reconstruction in the past, so check it is open before you plan your walk. Whatever you find, the street view of the bridge from Latrán is worth taking.",
+   "description": "Barber's Bridge (Lazebnický most) crosses the river in the old part of Český Krumlov. The classic views are looking out from the bridge, but this spot is about photographing the bridge itself. The best way to do that is from Latrán, the street guides describe as the main walking route to the bridge. As you walk down towards the river, the bridge closes the far end of the street, with the castle rising beyond it. That layering of street, bridge and castle is what makes the picture work on a phone. The street leads the eye straight to the bridge, and the castle gives the frame a clear background.\n\nStand on Latrán at the Spičák end and look south-west along the street. The bridge is a short walk ahead of you. Keep the bridge in the centre and let the street edges frame it. If you want a second picture, walk onto the bridge for the view of the castle and river. The bridge isn't in that frame, so it only works if you want it as a foreground element.\n\nThe bridge has been closed for reconstruction in the past, so check it is open before you plan your walk. Whatever you find, the street view of the bridge from Latrán is worth taking.",
    "geographic_location": "In the old town of Český Krumlov, where the street Latrán runs down towards the river and ends at the bridge. The castle rises behind the bridge when seen from the Spičák end of the street.",
-   "directions_text": "Walk into the old town of Český Krumlov and down Latrán towards the river. The phone icon on the map is about 150 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Walk into the old town of Český Krumlov and down Latrán towards the river. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) so the bridge, the street edges and the castle all fit in one frame. If the street is crowded or you can't step back, the ultra-wide (0.5x) fits more in. Use the telephoto (2x-5x, depending on your phone) to bring the castle and bridge closer together.",
-    "where_to_stand": "Stand about 150 m north-east of the subject, on Latrán (the phone icon on the map), and face south-west. On Latrán, at the Spičák end, where the bridge closes the street. From here you see the bridge with the castle rising beyond it.",
+    "where_to_stand": "Stand on Latrán (approach from Spičák end, where the bridge closes the street). The bridge seen at the far end of the street as you walk toward the river, with the castle rising beyond it. On Latrán, at the Spičák end, where the bridge closes the street. From here you see the bridge with the castle rising beyond it.",
     "how_to_frame": "Switch on gridlines and put the bridge on the centre line, with the street's building edges on both sides as a frame. Keep the camera level so the street doesn't lean. For a second shot, walk onto the bridge to photograph the castle and river, though the bridge itself won't be in that frame.",
     "phone_settings_tip": "Tap on the bridge to set focus, then drag the exposure slider down slightly so the sky and castle keep their detail. Take a few frames while people walk through, and keep the one with the clearest view of the bridge.",
     "best_time": "Early morning or later in the evening is likely to leave fewer people in the street, so the bridge is easier to frame cleanly."
@@ -309,26 +315,27 @@
   "name": "Minorite Monastery",
   "in_cut": true,
   "label": "Minorite Monastery",
-  "camera_pill": "Seminární zahrada",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 60,
   "pin": [
    14.31889,
    48.81299
   ],
   "camera": [
-   14.317276,
-   48.81062
+   14.31889,
+   48.81299
   ],
   "camera_source": "Researched viewpoint 'Seminární zahrada' (2 web pages); placed at OpenStreetMap 'Seminární zahrada' (way/37607223): middle (42 m across).",
   "pin_note": "Position from OpenStreetMap: Minoritský klášter: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "",
   "text": {
-   "description": "The Minorite Monastery is a good example of Český Krumlov's layered skyline. From the phone icon on the map it is not a single building you frame on its own. Its garden and brewery rise among the houses to the right of the castle, so the monastery sits in the same picture as the castle complex, the river and the Old Town rooftops. That is why it works well on a phone: one frame tells the story of the town, with the monastery as a quieter detail beside the famous castle.\n\nThe viewpoint is Seminární zahrada, a park across the Vltava from the castle. It is a good place to see the monastery and castle together, with the river between you and them. Start with a wide view to take in the whole scene, then look to the right of the castle for the monastery garden and the roofs around it. A tighter second shot of that corner makes a nice contrast to the wide one.\n\nKeep the horizon level, use the gridlines, and let the river or the rooftops fill the lower part of the frame so the picture has depth. If people walk through your view, wait a moment and take another. Whether you can go inside the monastery is a separate question, so check the official site before you go.",
+   "description": "The Minorite Monastery is a good example of Český Krumlov's layered skyline. Its garden and brewery rise among the houses to the right of the castle, so the monastery sits in the same picture as the castle complex, the river and the Old Town rooftops. That is why it works well on a phone: one frame tells the story of the town, with the monastery as a quieter detail beside the famous castle.\n\nThe viewpoint is Seminární zahrada, a park across the Vltava from the castle. It is a good place to see the monastery and castle together, with the river between you and them. Start with a wide view to take in the whole scene, then look to the right of the castle for the monastery garden and the roofs around it. A tighter second shot of that corner makes a nice contrast to the wide one.\n\nKeep the horizon level, use the gridlines, and let the river or the rooftops fill the lower part of the frame so the picture has depth. If people walk through your view, wait a moment and take another. Whether you can go inside the monastery is a separate question, so check the official site before you go.",
    "geographic_location": "In Český Krumlov, in the park called Seminární zahrada on the opposite bank of the Vltava from the castle. The monastery itself lies among the houses to the right of the castle as you look across the river.",
-   "directions_text": "Start from the Old Town of Český Krumlov and head for Seminární zahrada, the park across the Vltava from the castle. The phone icon on the map is about 290 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from the Old Town of Český Krumlov and head for Seminární zahrada, the park across the Vltava from the castle. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the full scene of castle, river and rooftops, then switch to the default lens (1x) for a cleaner view of the garden and brewery among the houses. Use telephoto (2x-5x, depending on your phone) to isolate the monastery to the right of the castle.",
-    "where_to_stand": "Stand about 290 m south-west of the subject, in Seminární zahrada (the phone icon on the map), and face north-east. Across the Vltava from the castle. Look north-east and you will see the monastery garden and brewery among the houses to the right of the castle, with the castle complex, the river and the Old Town rooftops in the same frame.",
+    "where_to_stand": "Stand in Seminární zahrada (across the Vltava from the castle). The monastery garden and brewery rise among the houses to the right of the castle, with the castle complex, the river and the Old Town rooftops in the same frame. Across the Vltava from the castle. Look north-east and you will see the monastery garden and brewery among the houses to the right of the castle, with the castle complex, the river and the Old Town rooftops in the same frame.",
     "how_to_frame": "Put the castle on the left and the monastery garden and brewery on the right, with the river across the lower part of the frame. Turn on the gridlines to keep the horizon straight. Then take a tighter shot of just the monastery and its neighbouring roofs.",
     "phone_settings_tip": "Tap on the monastery roofs to set focus, then drag the exposure slider down a little if the sky is bright so the buildings keep their colour. Try 2x or 3x for the close-up rather than pinching in further, which tends to look soft.",
     "best_time": "Early morning or late afternoon usually gives softer light and fewer people, but the view works at any time of day. Check the light on the day, as it changes with the season."
@@ -358,6 +365,7 @@
   "in_cut": true,
   "label": "Seminary Garden",
   "camera_pill": null,
+  "nophone": false,
   "searches": 30,
   "pin": [
    14.3172763,
@@ -405,15 +413,16 @@
   "name": "Rafting on the Vltava weir",
   "in_cut": true,
   "label": "Vltava weir",
-  "camera_pill": "Jelení lávka",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 30,
   "pin": [
    14.3129833,
    48.8062934
   ],
   "camera": [
-   14.313471,
-   48.812196
+   14.3129833,
+   48.8062934
   ],
   "camera_source": "Researched viewpoint 'Jelení lávka' (3 web pages); placed at OpenStreetMap 'Jelení lávka' (way/760743635): middle (52 m across).",
   "pin_note": "Position from OpenStreetMap way/586690430: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -421,10 +430,10 @@
   "text": {
    "description": "This is the weir on the Vltava just below Český Krumlov castle, known as Jez U Jelení lávky. Its wide sluice is where rafts and canoes run down the river, and rafts shooting the wide passage of the weir make a good spectacle, which is what makes the spot worth a photo. Visitors often stop to watch it, and the rafts passing through make a lively scene.\n\nThe best view is from Jelení lávka, the footbridge over the weir. From there you are above the water and close to it, so the rafts, paddles and spray all fit into one frame. The left bank of the weir is the other place where people gather to watch.\n\nRafting trips on the river generally run from May to September, so outside that season the water may be empty of boats. If you arrive and nothing is happening, wait a few minutes.\n\nFor your phone, keep your arms steady on the bridge rail and decide beforehand where in the frame the raft will appear. Tap the water just where the raft will come through so the focus is ready before it arrives. Keep other people's heads out of the foreground, and take a few shots as each raft passes rather than relying on one.",
    "geographic_location": "The weir is on the Vltava below the castle in Český Krumlov, and the Jelení lávka footbridge crosses it.",
-   "directions_text": "No station or tram stop is listed for this spot. From the phone icon on the map, walk south towards the river below the castle and look for the footbridge over the weir. The phone icon on the map is about 640 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) on the footbridge so you get the weir, the river and the raft together. Switch to telephoto (2x-5x, depending on your phone) to pick out one raft and its paddlers as it comes through the sluice. The ultra-wide (0.5x) works if you want the whole weir and the castle above it, but boats will look small.",
-    "where_to_stand": "Stand about 640 m north of the subject, on Jelení lávka (the phone icon on the map), and face south. The place to shoot from is Jelení lávka, the footbridge over the weir below the castle. From the bridge you look down on the wide sluice, where the rafts and canoes run through close to the water. The left bank of the weir is a second place to watch from.",
+    "where_to_stand": "Stand on Jelení lávka (footbridge over the weir Jez U Jelení lávky, below the castle). Rafts and canoes running the wide sluice of the weir, seen from above and close to the water. The place to shoot from is Jelení lávka, the footbridge over the weir below the castle. From the bridge you look down on the wide sluice, where the rafts and canoes run through close to the water. The left bank of the weir is a second place to watch from.",
     "how_to_frame": "Turn on gridlines and place the sluice on one of the lower lines, leaving room above for the raft to drop into the frame. Shoot along the flow of the water so the raft heads towards you or across the frame, not away. Keep the bridge rail out of the picture, or use it only as a soft foreground edge.",
     "phone_settings_tip": "Tap the water at the point where the raft will pass to lock focus, then slide the exposure down a little so the white water doesn't turn pale. Turn on Live Photos or motion so you can pick the best frame afterwards. Wipe the lens first, as spray can leave marks.",
     "best_time": "Choose a daytime visit between May and September, when rafting trips generally run."
@@ -457,6 +466,7 @@
   "in_cut": true,
   "label": "Schiele Centrum",
   "camera_pill": null,
+  "nophone": false,
   "searches": 0,
   "pin": [
    14.31320278,
@@ -517,6 +527,7 @@
   "in_cut": true,
   "label": "Linecká",
   "camera_pill": null,
+  "nophone": false,
   "searches": 0,
   "pin": [
    14.3156849,
@@ -570,6 +581,7 @@
   "in_cut": false,
   "label": "Castle Tower",
   "camera_pill": null,
+  "nophone": false,
   "searches": 70,
   "pin": [
    14.3159222,
@@ -620,6 +632,7 @@
   "in_cut": false,
   "label": "Cloak Bridge",
   "camera_pill": null,
+  "nophone": false,
   "searches": 90,
   "pin": [
    14.3129676,

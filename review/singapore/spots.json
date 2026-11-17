@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Marina Bay Sands",
   "camera_pill": "Fullerton Promenade",
+  "nophone": false,
   "searches": 169050,
   "pin": [
    103.86,
@@ -63,6 +64,7 @@
   "in_cut": true,
   "label": "Sentosa",
   "camera_pill": "Serapong Course Road",
+  "nophone": false,
   "searches": 56350,
   "pin": [
    103.83,
@@ -120,14 +122,15 @@
   "in_cut": true,
   "label": "Gardens by the Bay",
   "camera_pill": null,
+  "nophone": true,
   "searches": 55750,
   "pin": [
    103.8646591,
    1.2845289
   ],
   "camera": [
-   103.8652558,
-   1.2837316
+   103.8646591,
+   1.2845289
   ],
   "camera_source": "Commons cluster (166 photos). Moved 42 m outwards on 2026-11-10 so it is 50 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/171142595: the middle of the OpenStreetMap outline 'Flower Dome' (192 m across).",
@@ -135,10 +138,10 @@
   "text": {
    "description": "Gardens by the Bay is a 105-hectare waterfront park next to Marina Reservoir, and the Supertree Grove sits in its largest section, Bay South Garden. That garden opened on 29 June 2012 and was designed by Grant Associates. Its plan takes its idea from an orchid, with the Supertrees placed as the 'blooms' where paths and links meet. The Supertrees also do a job: they help vent hot air and cool circulated water for the two big glass conservatories, the Flower Dome and the Cloud Forest, nearby.\n\nThe grove photographs well because the tall, tree-like structures give you strong vertical shapes against open sky, and the paths around them lead the eye upwards. Gardens by the Bay is a popular attraction, with over 50 million visitors by 2018, so expect other people in your frames and treat them as scale rather than a problem.\n\nHold the phone upright, keep the grid lines on, and line the tallest trunks up with a vertical grid line so they don't lean. Take one wide shot from the marked point, then walk closer and shoot straight up for a more abstract picture. Check your lens is clean before you start, as humid air can leave a faint film on it.",
    "geographic_location": "The map's subject point is the middle of the Flower Dome, in Bay South Garden, part of Gardens by the Bay in Singapore's Central Region, next to Marina Reservoir and the Marina South area. The Supertree Grove is in the same garden.",
-   "directions_text": "From Gardens by the Bay MRT station (MRT Thomson–East Coast Line), the middle of the Flower Dome is about 686 metres away to the north-west, about 11 minutes on foot. From Bayfront MRT station (MRT Circle Line and MRT Downtown Line) it is about 677 metres to the north-east, about 11 minutes on foot. The phone icon on the map is about 50 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "From Gardens by the Bay MRT station (MRT Thomson–East Coast Line), the middle of the Flower Dome is about 686 metres away to the north-west, about 11 minutes on foot. From Bayfront MRT station (MRT Circle Line and MRT Downtown Line) it is about 677 metres to the north-east, about 11 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole grove in from the marked point. Then switch to the default lens (1x) for a calmer view with less edge stretching. Use telephoto (2x-5x, depending on your phone) to pick out the tops of individual Supertrees.",
-    "where_to_stand": "Stand about 50 m south-east of the subject, at the phone icon on the map, and face north-west. You are far enough back to see the Supertrees as a group rather than one at a time.",
+    "where_to_stand": "Stand right at the subject (southern end of the grove, looking north toward the Marina Bay Sands towers). The tall Supertrees rise in the foreground with Marina Bay Sands behind them, and at night the lit trees fill the frame. You are far enough back to see the Supertrees as a group rather than one at a time.",
     "how_to_frame": "Turn on the gridlines and line the tallest trunks up with a vertical line so they stay straight. Keep the phone level and avoid tilting it upwards from the marked point. For a second shot, walk in close, point the phone up, and use the Supertrees' shapes as a pattern. Wait a moment for people to move through the foreground, or include them to show size.",
     "phone_settings_tip": "Tap the brightest part of the sky or the structures to set focus, then drag the exposure slider down slightly so the sky keeps its colour. If you shoot after dark, use night mode and brace your elbows against your body or a railing to keep the phone still.",
     "best_time": "Early morning is usually quieter, and the hour around dusk suits the grove best as the sky darkens. Check the official site for any evening light displays."
@@ -177,6 +180,7 @@
   "in_cut": true,
   "label": "Raffles Hotel",
   "camera_pill": "near Bras Basah Road",
+  "nophone": false,
   "searches": 44750,
   "pin": [
    103.8546412,
@@ -233,6 +237,7 @@
   "in_cut": true,
   "label": "Sri Mariamman",
   "camera_pill": "near South Bridge Road",
+  "nophone": false,
   "searches": 29790,
   "pin": [
    103.8452072,
@@ -289,6 +294,7 @@
   "in_cut": true,
   "label": "Merlion",
   "camera_pill": "Fullerton Promenade",
+  "nophone": false,
   "searches": 24650,
   "pin": [
    103.8545532,
@@ -346,6 +352,7 @@
   "in_cut": true,
   "label": "Botanic Gardens",
   "camera_pill": "Upper Palm Valley Road",
+  "nophone": false,
   "searches": 16400,
   "pin": [
    103.8162,
@@ -397,15 +404,16 @@
   "name": "Singapore Flyer",
   "in_cut": true,
   "label": "Singapore Flyer",
-  "camera_pill": "near Marina Promenade",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 15290,
   "pin": [
    103.8631305,
    1.2894105
   ],
   "camera": [
-   103.8646146,
-   1.2909106
+   103.8631305,
+   1.2894105
   ],
   "camera_source": "Commons cluster (9 photos), weak. Moved 73 m outwards on 2026-11-10 so it is 160 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/230082125: the middle of the OpenStreetMap outline 'Singapore Flyer' (155 m across).",
@@ -413,10 +421,10 @@
   "text": {
    "description": "The Singapore Flyer is a giant observation wheel in Marina Centre, along the Marina Promenade, and it is one of the easiest landmarks in the city to spot from a distance. It opened officially on 15 April 2008 and stands 165 metres tall. On completion that made it the tallest Ferris wheel in the world, though taller ones have since been built. Its 28 air-conditioned capsules are mounted on the outside of the rim, so the wheel keeps a clean, open outline against the sky, which suits a phone photo. A full turn takes about 32 minutes.\n\nFrom this distance the wheel is so large that you will struggle to fit all of it into the frame with anything but the widest lens. That is useful, because you can pick between a full view of the wheel with some sky around it and a closer, tighter shot of the rim and capsules. Look for a foreground such as a railing, a tree or a passer-by to give the picture a sense of scale. Keep your phone upright for the full height of the wheel, or turn it sideways if you want to include more of the surroundings. If you plan to ride, the capsules are air-conditioned. The views from the top are worth saving your battery for.",
    "geographic_location": "The Singapore Flyer is in the Downtown Core district, in Marina Centre, along the Marina Promenade. Its centre is at about 1.2894° N, 103.8631° E, and the wheel is roughly 155 m across.",
-   "directions_text": "Start at Promenade MRT station, which is on the MRT Circle Line and the MRT Downtown Line. From there the Flyer is to the south-east, about 7 minutes on foot (roughly 450 m in a straight line). The phone icon on the map is about 160 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Promenade MRT station, which is on the MRT Circle Line and the MRT Downtown Line. From there the Flyer is to the south-east, about 7 minutes on foot (roughly 450 m in a straight line). The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the ultra-wide (0.5x) to fit the whole wheel into the frame from where you stand. Switch to the default lens (1x) for a calmer, more natural view with a little sky around it. If your phone has telephoto (2x-5x), use it to pick out the capsules along the rim.",
-    "where_to_stand": "Stand about 160 m north-east of the subject, at the phone icon on the map, and face south-west. If the whole wheel does not fit, take a few steps back rather than tilting the phone upwards, which makes the wheel lean.",
+    "where_to_stand": "Stand in Dragonfly Lake (Dragonfly Lake boardwalk and Dragonfly bridge, inside Gardens by the Bay). The Flyer's wheel rising behind the lit Supertrees and lake fountains, all in one frame. If the whole wheel does not fit, take a few steps back rather than tilting the phone upwards, which makes the wheel lean.",
     "how_to_frame": "Turn on the gridlines and put the wheel's centre near one of the vertical lines, with the base of the wheel on the lower line. For the full height, hold the phone upright. Include a person, tree or railing in the foreground to show how big the wheel is. For a closer shot, use telephoto on the rim and capsules.",
     "phone_settings_tip": "Tap on the wheel to set focus, then drag the exposure slider down slightly if the sky looks washed out. After dark, switch on night mode and rest your elbows on a railing or wall to keep the phone steady. Take a few shots, since the capsules move.",
     "best_time": "Early morning or late afternoon usually gives softer light and a calmer sky. After dark the wheel should be lit, which suits night mode. Check the weather first, since cloud or haze can flatten the view."
@@ -454,6 +462,7 @@
   "in_cut": true,
   "label": "Little India",
   "camera_pill": "near Kerbau Road",
+  "nophone": false,
   "searches": 12180,
   "pin": [
    103.8518,
@@ -505,26 +514,27 @@
   "name": "ArtScience Museum",
   "in_cut": true,
   "label": "ArtScience Museum",
-  "camera_pill": "near The Esplanade",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 11290,
   "pin": [
    103.8592603,
    1.2860633
   ],
   "camera": [
-   103.8545321,
-   1.2890801
+   103.8592603,
+   1.2860633
   ],
   "camera_source": "Commons cluster (4 photos), weak. Moved 42 m outwards on 2026-11-10 so it is 580 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/14314416: the middle of the OpenStreetMap outline 'ArtScience Museum' (122 m across).",
   "notes": "",
   "text": {
-   "description": "The ArtScience Museum sits on the waterfront of Marina Bay Sands, and its shape is the reason to photograph it. The building is said to recall an open lotus flower, with a round base in the middle and ten curving extensions, or \"fingers\", reaching out from it. Moshe Safdie designed it, and the outer skin is fibre-reinforced plastic over a steel lattice. The pale, sculpted form stands out clearly against sky and water, so it makes a tidy subject even for a quick snap.\n\nThe museum opened on 17 February 2011 and is the largest private museum in Singapore. Inside, it mostly shows touring exhibitions, plus a permanent show called Future World made with the art collective teamLab. Skylights at the fingertips let daylight into the galleries, which explains the openings you can see in the roof shapes.\n\nThe phone icon on the map is about 580 m north-west of the subject. That distance suits a phone well, because you can include the curved fingers and the surroundings without any distortion from standing too close. Keep the horizon level, using the gridlines, and let the water take up the lower part of the picture. If other people wander into the foreground, wait a moment or take a few frames. Wipe the lens before you start, as a smudge shows up badly against a bright sky.",
+   "description": "The ArtScience Museum sits on the waterfront of Marina Bay Sands, and its shape is the reason to photograph it. The building is said to recall an open lotus flower, with a round base in the middle and ten curving extensions, or \"fingers\", reaching out from it. Moshe Safdie designed it, and the outer skin is fibre-reinforced plastic over a steel lattice. The pale, sculpted form stands out clearly against sky and water, so it makes a tidy subject even for a quick snap.\n\nThe museum opened on 17 February 2011 and is the largest private museum in Singapore. Inside, it mostly shows touring exhibitions, plus a permanent show called Future World made with the art collective teamLab. Skylights at the fingertips let daylight into the galleries, which explains the openings you can see in the roof shapes.\n\nThat distance suits a phone well, because you can include the curved fingers and the surroundings without any distortion from standing too close. Keep the horizon level, using the gridlines, and let the water take up the lower part of the picture. If other people wander into the foreground, wait a moment or take a few frames. Wipe the lens before you start, as a smudge shows up badly against a bright sky.",
    "geographic_location": "The museum is part of the Marina Bay Sands resort on the Marina Bay waterfront, in the Downtown Core of Singapore's Central Area.",
-   "directions_text": "Take the MRT to Bayfront MRT station (MRT Circle Line or MRT Downtown Line); the museum is to the north, about 7 minutes on foot. Once there, face south-east to see the museum ahead of you. The phone icon on the map is about 580 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the MRT to Bayfront MRT station (MRT Circle Line or MRT Downtown Line); the museum is to the north, about 7 minutes on foot. Once there, face south-east to see the museum ahead of you. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the whole building and the water. If your phone has a telephoto lens (2x-5x), try 2x or 3x to fill more of the frame with the lotus shape. Use the ultra-wide (0.5x) only if you want a lot of foreground, as it makes the museum look small and far away.",
-    "where_to_stand": "Stand about 580 m north-west of the subject, at the phone icon on the map, and face south-east. Stay put rather than walking closer, because this distance keeps the full shape in view.",
+    "where_to_stand": "Stand on Helix Bridge (the viewing platform on the bridge, reached from the Raffles Avenue side; the second platform along that approach). The lotus-shaped museum at eye level across the bay, with the bridge curve and the water in the foreground. Stay put rather than walking closer, because this distance keeps the full shape in view.",
     "how_to_frame": "Place the museum off-centre using the gridlines, with the horizon on the lower third line. Include some water or sky so the curved fingers have room around them. Keep the phone level so the building does not appear to lean.",
     "phone_settings_tip": "Tap on the museum to set focus, then drag the exposure slider down a little if the sky is bright, so the pale building keeps its detail. At dusk, switch on night mode and rest your elbows on a rail or wall to keep the phone steady.",
     "best_time": "Late afternoon into dusk usually gives softer light and a more colourful sky, and the area tends to be lit after dark. Early morning is often calmer if you want fewer people in the frame."
@@ -565,6 +575,7 @@
   "in_cut": true,
   "label": "Chinatown",
   "camera_pill": "near South Bridge Road",
+  "nophone": false,
   "searches": 10085,
   "pin": [
    103.8441667,
@@ -617,6 +628,7 @@
   "in_cut": true,
   "label": "Fort Canning",
   "camera_pill": "near Cox Terrace",
+  "nophone": false,
   "searches": 7590,
   "pin": [
    103.8465965,
@@ -673,6 +685,7 @@
   "in_cut": true,
   "label": "Buddha Tooth Relic",
   "camera_pill": "near Sago Lane",
+  "nophone": false,
   "searches": 7580,
   "pin": [
    103.8444324,
@@ -731,6 +744,7 @@
   "in_cut": true,
   "label": "Haji Lane",
   "camera_pill": "near Arab Street",
+  "nophone": false,
   "searches": 7260,
   "pin": [
    103.85908,
@@ -791,6 +805,7 @@
   "in_cut": true,
   "label": "Clarke Quay",
   "camera_pill": "near North Boat Quay",
+  "nophone": false,
   "searches": 6940,
   "pin": [
    103.84608889,
@@ -850,6 +865,7 @@
   "in_cut": true,
   "label": "Sultan Mosque",
   "camera_pill": "near Bussorah Street",
+  "nophone": false,
   "searches": 5920,
   "pin": [
    103.8589824,
@@ -906,6 +922,7 @@
   "in_cut": true,
   "label": "National Gallery",
   "camera_pill": "Supreme Court Lane",
+  "nophone": false,
   "searches": 5315,
   "pin": [
    103.8514709,
@@ -963,6 +980,7 @@
   "in_cut": true,
   "label": "Cloud Forest",
   "camera_pill": null,
+  "nophone": false,
   "searches": 5285,
   "pin": [
    103.8660342,
@@ -1013,15 +1031,16 @@
   "name": "Helix Bridge",
   "in_cut": true,
   "label": "Helix Bridge",
-  "camera_pill": "near Raffles Avenue",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 4950,
   "pin": [
    103.8604428,
    1.2874768
   ],
   "camera": [
-   103.8601523,
-   1.289948
+   103.8604428,
+   1.2874768
   ],
   "camera_source": "Commons cluster (10 photos). Moved 136 m outwards on 2026-11-10 so it is 140 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/18007977: the middle of the OpenStreetMap outline 'The Helix Bridge' (280 m across).",
@@ -1029,10 +1048,10 @@
   "text": {
    "description": "The Helix Bridge is a pedestrian bridge across the Marina Bay waterfront, joining Marina Centre with Marina South. Its steel frame is built as two spiralling helices that wind around the walkway, so it looks like a twisting DNA strand. That repeating curved pattern is what makes it so easy to photograph. It gives you strong lines, a clear shape against the sky and plenty of depth in a single frame.\n\nThe bridge opened on 24 April 2010, but only half of it at first because building work was still going on at Marina Bay Sands. The whole bridge was open by 18 July 2010. It is made from about 650 tonnes of duplex stainless steel. Small coloured letters (c, g, a and t) are set into the structure and stand for the four bases of DNA. They light up in red and green at night, and lights also pick out the spiral.\n\nFour viewing platforms along the bridge look over the skyline and the bay, so you can also photograph the city from the bridge itself. Start there for a full view of the spiral, then walk onto the bridge for close-up details of the steel and the lettering. Keep the lens clean, as a smudge shows badly on the bright lights at night. Allow a little time, because the light changes the look of the steel quite a lot.",
    "geographic_location": "The Helix Bridge is in the Marina Bay area of central Singapore. It links Marina Centre with Marina South, next to the bay and close to Marina Bay Sands.",
-   "directions_text": "Take the MRT to Promenade MRT station, which is on the MRT Circle Line and the MRT Downtown Line. From there the bridge is to the south, about 10 minutes on foot. The phone icon on the map is about 140 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Take the MRT to Promenade MRT station, which is on the MRT Circle Line and the MRT Downtown Line. From there the bridge is to the south, about 10 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole spiral into one frame. Then switch to the default lens (1x) for a more natural view. Use the telephoto (2x-5x, depending on your phone) to pick out details such as the lettering or a section of the steel curve.",
-    "where_to_stand": "Stand about 140 m north of the subject, at the phone icon on the map, and face south. From here the whole bridge is in front of you. For close-ups, walk onto the bridge and use the viewing platforms.",
+    "where_to_stand": "Stand right at the subject (first viewing platform, on the side nearest The Float @ Marina Bay). The bridge's double-helix curve in the foreground with Marina Bay Sands rising behind it. From here the whole bridge is in front of you. For close-ups, walk onto the bridge and use the viewing platforms.",
     "how_to_frame": "Turn on gridlines and line up the bridge's long axis with one of the lines so the spiral leads the eye into the frame. Crouch slightly and use the ultra-wide lens to stretch the curves. Try one shot from where you stand and another from a platform with the skyline behind.",
     "phone_settings_tip": "Tap on the bridge to focus, then drag the exposure slider down a little so the lights and steel do not burn out. After dark, use night mode and hold the phone steady against the railing, or brace your elbows against your body, until the shot finishes.",
     "best_time": "Around dusk and into the evening, when the bridge lights are on and the sky still has some colour."
@@ -1069,6 +1088,7 @@
   "in_cut": true,
   "label": "Henderson Waves",
   "camera_pill": "Telok Blangah Drive",
+  "nophone": false,
   "searches": 3440,
   "pin": [
    103.8155,
@@ -1128,6 +1148,7 @@
   "in_cut": false,
   "label": "Esplanade",
   "camera_pill": "near The Esplanade",
+  "nophone": false,
   "searches": 2580,
   "pin": [
    103.85527778,
@@ -1159,6 +1180,7 @@
   "in_cut": false,
   "label": "Pinnacle@Duxton",
   "camera_pill": null,
+  "nophone": false,
   "searches": 960,
   "pin": [
    103.84138889,

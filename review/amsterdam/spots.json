@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Anne Frank House",
   "camera_pill": "near Prinsengracht",
+  "nophone": false,
   "searches": 194300,
   "pin": [
    4.8840933,
@@ -61,6 +62,7 @@
   "in_cut": true,
   "label": "Rijksmuseum",
   "camera_pill": "Paulus Potterstraat",
+  "nophone": false,
   "searches": 77700,
   "pin": [
    4.8851305,
@@ -111,6 +113,7 @@
   "in_cut": true,
   "label": "Vondelpark",
   "camera_pill": "near Vondelpark",
+  "nophone": false,
   "searches": 22700,
   "pin": [
    4.868,
@@ -163,6 +166,7 @@
   "in_cut": true,
   "label": "Dam Square",
   "camera_pill": "near Dam",
+  "nophone": false,
   "searches": 16655,
   "pin": [
    4.8936888,
@@ -215,6 +219,7 @@
   "in_cut": true,
   "label": "NEMO",
   "camera_pill": null,
+  "nophone": false,
   "searches": 15755,
   "pin": [
    4.9121113,
@@ -265,6 +270,7 @@
   "in_cut": true,
   "label": "A'DAM Lookout",
   "camera_pill": null,
+  "nophone": false,
   "searches": 10805,
   "pin": [
    4.9021378,
@@ -304,15 +310,16 @@
   "name": "The Jordaan",
   "in_cut": true,
   "label": "Jordaan",
-  "camera_pill": "Tweede Egelantiersdwar",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 10195,
   "pin": [
    4.8816667,
    52.3763889
   ],
   "camera": [
-   4.882381,
-   52.376261
+   4.8816667,
+   52.3763889
   ],
   "camera_source": "Commons cluster (3 photos), weak.",
   "pin_note": "Position from OpenStreetMap relation/12011952: large area 'Jordaan' (2342 m across): previous pin kept, it lies inside.",
@@ -320,10 +327,10 @@
   "text": {
    "description": "The Jordaan is a neighbourhood of narrow streets, small canals and tall gabled houses, and it is one of the easiest parts of Amsterdam to enjoy with a phone in your hand. It was begun in 1612 under the name Het Nieuwe Werck (The New Work), and its streets follow older ditches and paths. That is why it sits at a different angle from the rest of the city, and why you keep finding unexpected corners and crooked views. Most of the streets and canals are named after trees and flowers, so look out for the names on the corner signs.\n\nThe photographs here come from the small details as much as the wide views. Many houses carry a carved stone tablet above the door showing a trade, such as a pig for a butcher or scissors for a tailor. The first of these were made in the 16th century. The area also has many hofjes, which are inner courtyards built as charity housing for elderly women. Many are now homes, so look from the entrance and keep your voice down. Some open on summer Sundays for free concerts.\n\nUse the canal or street to lead the eye into the picture, and add a bicycle, a bridge or a doorway for scale. Then walk slowly and shoot the tablets, window boxes and house fronts up close. Markets are held at Noordermarkt, Westerstraat and Lindengracht, which can add colour if you are passing on a market day.",
    "geographic_location": "The Jordaan is a neighbourhood in the Amsterdam-Centrum borough, west of the Prinsengracht canal. It is bounded by the Brouwersgracht to the north, the Leidsegracht to the south and the Singelgracht to the west.",
-   "directions_text": "Amsterdam has metro lines and many trams, both run by GVB, and trams are usually the easiest. The nearest stop is Marnixplein (tram 5 and tram 13). From there, head south-east and it is about 4 minutes on foot. You can also use the Bloemgracht tram stop (tram 5 and tram 13) and walk north-east, which is about 7 minutes on foot. From Rokin station (metro 52, tram 14 and tram 4) it is about 17 minutes on foot to the north-west, and from Centraal Station (metro 51, metro 52, metro 53, metro 54, tram 14, tram 17, tram 2, tram 24, tram 26 and tram 4) it is about 21 minutes on foot to the west. The phone icon on the map is about 50 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Amsterdam has metro lines and many trams, both run by GVB, and trams are usually the easiest. The nearest stop is Marnixplein (tram 5 and tram 13). From there, head south-east and it is about 4 minutes on foot. You can also use the Bloemgracht tram stop (tram 5 and tram 13) and walk north-east, which is about 7 minutes on foot. From Rokin station (metro 52, tram 14 and tram 4) it is about 17 minutes on foot to the north-west, and from Centraal Station (metro 51, metro 52, metro 53, metro 54, tram 14, tram 17, tram 2, tram 24, tram 26 and tram 4) it is about 21 minutes on foot to the west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for street scenes that look natural. Switch to the ultra-wide (0.5x) in the tightest lanes or when a canal and the full house fronts will not fit. Use the telephoto (2x-5x, depending on your phone) for stone tablets, gable tops and details across the water.",
-    "where_to_stand": "Stand about 50 m east of the subject, at the phone icon on the map, and face west. From there you can shoot along the street or canal towards it.",
+    "where_to_stand": "Stand on Bloemgracht (bridge at the Eerste Bloemdwarsstraat junction). A long view along the Bloemgracht's row of tall 17th-century merchant houses, with the water and bridge railings in the foreground. From there you can shoot along the street or canal towards it.",
     "how_to_frame": "Turn on the gridlines and place the canal edge or street along a line so it leads the eye into the picture. Keep the vertical lines of the houses straight by holding the phone level. Add a bicycle, a bridge or a doorway in the foreground for a sense of scale.",
     "phone_settings_tip": "Tap on the brightest house front to focus, then drag the exposure slider down a little so the sky and brickwork keep their colour. Try portrait mode for a close-up of a doorway or flower box, with the background softly blurred.",
     "best_time": "Early morning or late afternoon, when the streets tend to be calmer and the light is softer along the canals."
@@ -361,15 +368,16 @@
   "name": "Begijnhof",
   "in_cut": true,
   "label": "Begijnhof",
-  "camera_pill": "near Raadhuisstraat",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 5520,
   "pin": [
    4.8900557,
    52.3694324
   ],
   "camera": [
-   4.8870573,
-   52.3735286
+   4.8900557,
+   52.3694324
   ],
   "camera_source": "Commons cluster (23 photos). Moved 46 m outwards on 2026-11-10 so it is 450 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/26658363: the middle of the OpenStreetMap outline 'Begijnhof' (131 m across).",
@@ -377,10 +385,10 @@
   "text": {
    "description": "The Begijnhof is a quiet courtyard of tall, narrow Amsterdam houses around grassy areas, with a green on each side of the chapel, set just inside the Singel canal. It began as a béguinage, a community for religious women, and is one of the oldest courtyards of its kind in the city. It is also the only inner court in Amsterdam that dates from the Middle Ages. Today it is still mostly private homes, with two churches among them: the English Reformed Church and the Catholic Miracle Church. It photographs well because it feels so different from the busy streets outside. You get green space framed by 47 individual town houses, most with 17th- or 18th-century fronts, and many gable stones to look for. The house at number 34 is a restored wooden building dating from about 1420, said to be the oldest wooden house in Amsterdam. The ground here sits about a metre below the surrounding old centre, because it is still at medieval street level. For phone photos, keep the whole courtyard in one frame to show the setting, then move in for details such as gable stones, doorways and the wooden house. Remember that people live here, so keep your voice low and stay out of doorways and private entrances.",
    "geographic_location": "The Begijnhof is in Amsterdam's old centre, inside the Singel canal and close to the Rokin and Spui area. It is tucked behind the street frontage, so you reach it through a gateway.",
-   "directions_text": "Amsterdam has metro lines and many trams, both run by GVB, and trams are usually the easiest. The nearest stop is Rokin (tram 14, tram 4 and metro 52): the Begijnhof is to the south-west, about 3 minutes on foot. From the Koningsplein tram stop (tram 17, tram 2 and tram 24) walk north for about 3 minutes on foot. From the Paleisstraat tram stop (tram 17, tram 2 and tram 24) walk south for about 5 minutes on foot. If you come from Nieuwmarkt (metro 51, metro 53 and metro 54), head west for about 13 minutes on foot. The phone icon on the map is about 450 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Amsterdam has metro lines and many trams, both run by GVB, and trams are usually the easiest. The nearest stop is Rokin (tram 14, tram 4 and metro 52): the Begijnhof is to the south-west, about 3 minutes on foot. From the Koningsplein tram stop (tram 17, tram 2 and tram 24) walk north for about 3 minutes on foot. From the Paleisstraat tram stop (tram 17, tram 2 and tram 24) walk south for about 5 minutes on foot. If you come from Nieuwmarkt (metro 51, metro 53 and metro 54), head west for about 13 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the grassy areas and the rows of tall houses, then switch to the default lens (1x) for a more natural look. Use the telephoto (2x-5x, depending on your phone) for gable stones, windows and the wooden house, so you can stay well back from people's front doors.",
-    "where_to_stand": "Stand about 450 m north-west of the subject, at the phone icon on the map, and face south-east. Use it as your starting point, then head south-east into the courtyard. Once inside, stand on the path near one of the greens so the houses surround you.",
+    "where_to_stand": "Stand right at the subject (inside the gate, on the main path looking toward the chapel). The full courtyard with the gabled almshouse fronts and the chapel at the far end, with the garden beds in the foreground. Use it as your starting point, then head south-east into the courtyard. Once inside, stand on the path near one of the greens so the houses surround you.",
     "how_to_frame": "Turn on the gridlines and keep the vertical lines of the houses straight, so the tall fronts don't lean inwards. Put the grass or path in the lower third to lead the eye towards the houses. For a detail shot, frame one gable stone or doorway and leave some wall around it.",
     "phone_settings_tip": "Tap the brightest wall to set focus, then drag the exposure slider down a little so the brickwork and sky keep their detail. If the courtyard is empty, try a Live Photo and pick the frame without people in it.",
     "best_time": "Early in the day or later in the afternoon is usually calmer and gives softer light. A bright overcast day also suits the courtyard, because the light is even and shadows are gentle."
@@ -420,6 +428,7 @@
   "in_cut": true,
   "label": "Leidseplein",
   "camera_pill": "Kleine-Gartmanplantsoe",
+  "nophone": false,
   "searches": 5430,
   "pin": [
    4.8827605,
@@ -477,26 +486,27 @@
   "name": "De Gooyer windmill",
   "in_cut": true,
   "label": "De Gooyer",
-  "camera_pill": "near Zeeburgerstraat",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 4850,
   "pin": [
    4.9261523,
    52.3667975
   ],
   "camera": [
-   4.926027,
-   52.366371
+   4.9261523,
+   52.3667975
   ],
   "camera_source": "Commons cluster (1 photos), weak.",
   "pin_note": "Position from OpenStreetMap node/33057057: kept: no OpenStreetMap object carries this Wikidata ID.",
   "notes": "Pin at the mill's street address (Funenkade 5; address from Claude's memory, found in OpenStreetMap): check at the gate.",
   "text": {
-   "description": "De Gooyer is a windmill in the east of central Amsterdam, close to the water on Funenkade. A traditional windmill is easy to photograph because its shape is so simple: a tall tapering body, a cap and sails against the sky. Almost every shot has a clear subject, even with a phone.\n\nThe phone icon on the map is about 50 m south of the subject. That is close enough to fill the frame with the mill but far enough to include some sky and the foreground. You will not need to walk far to try several versions of the picture.\n\nStart with a wide view that shows the whole mill, sails included, with a little space around it. Then step in or use the zoom for a tighter shot of the sails or the cap. If there is water, railings or a path in front of you, use it as a leading line so the picture has depth. Take a few shots at different heights, one standing and one with the phone held lower. Check the edges of the screen for lamp posts, signs and parked bikes before you press the shutter. A clear sky makes the sails stand out well, but a cloudy day also works for a calm, even picture.",
+   "description": "De Gooyer is a windmill in the east of central Amsterdam, close to the water on Funenkade. A traditional windmill is easy to photograph because its shape is so simple: a tall tapering body, a cap and sails against the sky. Almost every shot has a clear subject, even with a phone.\n\nThat is close enough to fill the frame with the mill but far enough to include some sky and the foreground. You will not need to walk far to try several versions of the picture.\n\nStart with a wide view that shows the whole mill, sails included, with a little space around it. Then step in or use the zoom for a tighter shot of the sails or the cap. If there is water, railings or a path in front of you, use it as a leading line so the picture has depth. Take a few shots at different heights, one standing and one with the phone held lower. Check the edges of the screen for lamp posts, signs and parked bikes before you press the shutter. A clear sky makes the sails stand out well, but a cloudy day also works for a calm, even picture.",
    "geographic_location": "De Gooyer stands on Funenkade, in the Centrum district on the east side of Amsterdam, just by the Hoogte Kadijk tram stop (tram 1) and a short walk from the Pontanusstraat tram stop (tram 14 and 19).",
-   "directions_text": "Trams are usually the easiest way. Take tram 1 to Hoogte Kadijk; the windmill is to the east of the stop, about 2 minutes on foot. Tram 14 or 19 to Pontanusstraat also works, with the windmill to the north-west, again about 2 minutes on foot. By metro, Weesperplein (metro 51, 53 and 54, also tram 1, 7 and 19) is about 1.4 km away, about 22 minutes on foot, with the windmill to the north-east. Waterlooplein (metro 51, 53 and 54, also tram 14) is about 1.6 km away, about 26 minutes on foot, with the windmill to the east. The phone icon on the map is about 50 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Trams are usually the easiest way. Take tram 1 to Hoogte Kadijk; the windmill is to the east of the stop, about 2 minutes on foot. Tram 14 or 19 to Pontanusstraat also works, with the windmill to the north-west, again about 2 minutes on foot. By metro, Weesperplein (metro 51, 53 and 54, also tram 1, 7 and 19) is about 1.4 km away, about 22 minutes on foot, with the windmill to the north-east. Waterlooplein (metro 51, 53 and 54, also tram 14) is about 1.6 km away, about 26 minutes on foot, with the windmill to the east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for a natural view of the whole windmill. Try the ultra-wide (0.5x) only if you want to include more of the foreground, and use telephoto (2x-5x, depending on your phone) for the sails and cap.",
-    "where_to_stand": "Stand about 50 m south of the subject, at the phone icon on the map, and face north.",
+    "where_to_stand": "Stand on Funenkade (directly in front of the mill, on the street side). The full height of the octagonal wooden body and cap rising above the brick canal-street roofline, with the sails spreading over the street.",
     "how_to_frame": "Turn on the gridlines and place the windmill on one of the vertical lines, with some sky above the sails. Keep the phone level so the tower does not lean. Include a bit of the water or path in the foreground for depth.",
     "phone_settings_tip": "Tap on the windmill to set focus, then drag the exposure slider down slightly if the sky is bright, so the sky keeps its colour and the mill does not turn into a silhouette.",
     "best_time": "Soft light early or late in the day is usually kinder than harsh midday sun. Early morning is also likely to be quieter."
@@ -525,6 +535,7 @@
   "in_cut": true,
   "label": "Bloemenmarkt",
   "camera_pill": "near Koningsplein",
+  "nophone": false,
   "searches": 3830,
   "pin": [
    4.8914137,
@@ -580,6 +591,7 @@
   "in_cut": true,
   "label": "Oude Kerk",
   "camera_pill": "near Warmoesstraat",
+  "nophone": false,
   "searches": 3570,
   "pin": [
    4.8980636,
@@ -635,6 +647,7 @@
   "in_cut": true,
   "label": "Rembrandtplein",
   "camera_pill": null,
+  "nophone": false,
   "searches": 3020,
   "pin": [
    4.8965948,
@@ -692,15 +705,16 @@
   "name": "EYE Filmmuseum",
   "in_cut": true,
   "label": "EYE Filmmuseum",
-  "camera_pill": "near IJpromenade",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2570,
   "pin": [
    4.900812,
    52.384335
   ],
   "camera": [
-   4.90121,
-   52.38432
+   4.900812,
+   52.384335
   ],
   "camera_source": "Commons cluster (1 photos), weak.",
   "pin_note": "Position from OpenStreetMap node/12662916563: the OpenStreetMap point 'Eye Filmmuseum'.",
@@ -708,10 +722,10 @@
   "text": {
    "description": "EYE Filmmuseum is Amsterdam's film archive, museum and cinema, housed in a modern building on the waterfront. It stands in the Overhoeks neighbourhood on the north bank. It was designed by Delugan Meissl Associated Architects and officially opened on 4 April 2012 by Queen Beatrix. Inside are two gallery spaces and four cinemas, though for photography it is the outside that matters.\n\nThe building has a bold, angular, pale look, and the water beside it gives it open space around it. That makes it easy to photograph from a short distance without crowds of other buildings in the way. Take a wide frame first to show the whole shape, then step in for smaller details such as edges, windows and reflections.\n\nThe museum grew from a Dutch film archive founded in 1946 and moved to this waterfront home after a 2009 merger of several film organisations. That history is a nice thing to know when you are standing in front of it, but you do not need it to get a good picture.\n\nKeep your phone level so the long lines do not lean, and use the gridlines to help. Wipe the lens before you start, as waterside air can leave a film on it. Check the official site before you go if you want to go inside.",
    "geographic_location": "EYE Filmmuseum is in the Overhoeks neighbourhood on the north bank of Amsterdam's waterfront, about 670 m north of Centraal Station.",
-   "directions_text": "Start at Centraal Station (metro 51, metro 52, metro 53, metro 54, tram 2, tram 4, tram 14, tram 17, tram 24 and tram 26 all stop there; trams are usually the easiest). The museum lies to the north, on the north bank of the waterfront, about 11 minutes on foot. Check a map app for the current route. Once there, walk to the phone icon on the map, which is just east of the building. The phone icon on the map is about 25 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Centraal Station (metro 51, metro 52, metro 53, metro 54, tram 2, tram 4, tram 14, tram 17, tram 24 and tram 26 all stop there; trams are usually the easiest). The museum lies to the north, on the north bank of the waterfront, about 11 minutes on foot. Check a map app for the current route. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole building in from this close. Switch to the default lens (1x) for a more natural look, and use telephoto (2x-5x, depending on your phone) for details such as corners and windows.",
-    "where_to_stand": "Stand about 25 m east of the subject, at the phone icon on the map, and face west.",
+    "where_to_stand": "Stand on IJpromenade (directly in front of the museum's façade). Close-up views of the white angular façade, with low camera angles bringing out the building's geometry and the water at its base.",
     "how_to_frame": "Turn on gridlines and line the building's main edges up with them so the lines stay straight. Leave a little sky and water in the frame to give the shape some breathing room. Then take a second, closer shot of a single corner or angle.",
     "phone_settings_tip": "Tap the building to focus, then drag the exposure slider down slightly if the sky is bright, so the building keeps its detail. Hold the phone steady with both hands and tuck your elbows in.",
     "best_time": "Early morning or the hour before sunset usually gives softer light. After dark, night mode can work well if the building is lit, but brace your phone against something steady."
@@ -749,26 +763,27 @@
   "name": "National Maritime Museum and the Amsterdam ship",
   "in_cut": true,
   "label": "Maritime Museum",
-  "camera_pill": "near Oosterdok",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 2445,
   "pin": [
    4.9146807,
    52.3718969
   ],
   "camera": [
-   4.911934,
-   52.3742014
+   4.9146807,
+   52.3718969
   ],
   "camera_source": "Commons cluster (11 photos). Moved 75 m outwards on 2026-11-10 so it is 240 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/1287492683: the middle of the OpenStreetMap outline 'The National Maritime Museum' (172 m across).",
   "notes": "",
   "text": {
-   "description": "The Maritime Museum (Het Scheepvaartmuseum) sits in a broad, symmetrical 17th-century building that began as a naval storehouse. It was designed by Daniël Stalpaert and finished in 1656, and the museum moved in during 1973. After a long renovation it reopened on 2 October 2011. The old storehouse is a big, plain-faced block of brick and stone. It photographs well because its straight lines and even rows of windows give you a tidy, balanced picture.\n\nThe extra draw is a replica of the Amsterdam, moored outside. The original was an 18th-century ship that sailed between the Netherlands and the East Indies, and the replica was built between 1985 and 1990. Its tall masts and rigging give the building a lively foreground, and they make a good contrast with the calm, square lines behind.\n\nThe phone icon on the map is about 240 m north-west of the subject. That is quite a distance, so think of this as a view of the whole scene rather than a close-up. Try to include some water or sky around the ship so it has room to breathe. If people are walking past, wait for a gap rather than trying to avoid them all. For close-ups of the rigging or the façade, walk closer once you have the wide view.\n\nIf you want to go inside the museum or step aboard the ship, check the museum's official site for entry details before you go.",
+   "description": "The Maritime Museum (Het Scheepvaartmuseum) sits in a broad, symmetrical 17th-century building that began as a naval storehouse. It was designed by Daniël Stalpaert and finished in 1656, and the museum moved in during 1973. After a long renovation it reopened on 2 October 2011. The old storehouse is a big, plain-faced block of brick and stone. It photographs well because its straight lines and even rows of windows give you a tidy, balanced picture.\n\nThe extra draw is a replica of the Amsterdam, moored outside. The original was an 18th-century ship that sailed between the Netherlands and the East Indies, and the replica was built between 1985 and 1990. Its tall masts and rigging give the building a lively foreground, and they make a good contrast with the calm, square lines behind.\n\nThat is quite a distance, so think of this as a view of the whole scene rather than a close-up. Try to include some water or sky around the ship so it has room to breathe. If people are walking past, wait for a gap rather than trying to avoid them all. For close-ups of the rigging or the façade, walk closer once you have the wide view.\n\nIf you want to go inside the museum or step aboard the ship, check the museum's official site for entry details before you go.",
    "geographic_location": "The museum is in Amsterdam, with the replica of the Amsterdam moored right outside it. It is near the Muziekgebouw (tram 26) and Artis (tram 14) tram stops.",
-   "directions_text": "Amsterdam's trams (run by GVB) are usually the easiest way to get here. The nearest stop is Muziekgebouw (tram 26), about 605 m away, or about 10 minutes on foot, and the museum lies to the south of it. From Artis (tram 14) it is about 632 m, or about 10 minutes on foot, with the museum to the north. From the metro, Nieuwmarkt (metro 51, metro 53, metro 54) is about 930 m away, or about 15 minutes on foot, with the museum to the east. Waterlooplein (metro 51, metro 53, metro 54, tram 14) is about 976 m away, or about 16 minutes on foot, with the museum to the north-east. The phone icon on the map is about 240 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Amsterdam's trams (run by GVB) are usually the easiest way to get here. The nearest stop is Muziekgebouw (tram 26), about 605 m away, or about 10 minutes on foot, and the museum lies to the south of it. From Artis (tram 14) it is about 632 m, or about 10 minutes on foot, with the museum to the north. From the metro, Nieuwmarkt (metro 51, metro 53, metro 54) is about 930 m away, or about 15 minutes on foot, with the museum to the east. Waterlooplein (metro 51, metro 53, metro 54, tram 14) is about 976 m away, or about 16 minutes on foot, with the museum to the north-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole scene. Because you are about 242 m away, switch to the telephoto (2x-5x, depending on your phone) to bring the building and the ship closer. Use the ultra-wide (0.5x) only if you walk closer and want to fit the masts and the façade into one frame.",
-    "where_to_stand": "Stand about 240 m north-west of the subject, at the phone icon on the map, and face south-east. Face that way, and move a few steps along the waterside if something blocks the view.",
+    "where_to_stand": "Stand on Scheepvaartmuseum jetty (quayside beside the replica ship, outside the North Wing exit). The full-length hull and rigging of the replica East Indiaman Amsterdam, with the museum building rising behind it. Face that way, and move a few steps along the waterside if something blocks the view.",
     "how_to_frame": "Turn on gridlines and place the museum's horizon line on the lower third so the ship's masts reach up into the sky. Keep the building's vertical edges parallel to the grid lines so it does not lean. Leave a little water in the foreground for depth.",
     "phone_settings_tip": "Tap the museum on the screen to set focus, then slide the exposure down slightly so the sky does not turn white. At 3x or 5x, hold the phone with both hands and lean on a rail or wall if one is nearby to avoid blur.",
     "best_time": "Soft morning or late-afternoon light usually flatters the brickwork. In the evening, try night mode and hold very still."
@@ -805,6 +820,7 @@
   "in_cut": true,
   "label": "Hortus Botanicus",
   "camera_pill": "near Plantage Parklaan",
+  "nophone": false,
   "searches": 2260,
   "pin": [
    4.907916,
@@ -862,6 +878,7 @@
   "in_cut": true,
   "label": "Damrak",
   "camera_pill": "near Oudebrugsteeg",
+  "nophone": false,
   "searches": 1935,
   "pin": [
    4.8981,
@@ -918,26 +935,27 @@
   "name": "Magere Brug (Skinny Bridge)",
   "in_cut": true,
   "label": "Magere Brug",
-  "camera_pill": "near Kerkstraat",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1915,
   "pin": [
    4.9023606,
    52.3636134
   ],
   "camera": [
-   4.9013478,
-   52.3631115
+   4.9023606,
+   52.3636134
   ],
   "camera_source": "Commons cluster (3 photos), weak. Moved 41 m outwards on 2026-11-10 so it is 45 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/601096321: the middle of the OpenStreetMap outline 'Magere Brug' (87 m across).",
   "notes": "",
   "text": {
-   "description": "The Magere Brug, or Skinny Bridge, is a white wooden drawbridge across the River Amstel, at the point where Kerkstraat meets the river between the Keizersgracht and the Prinsengracht. It photographs well because the whole bridge fits neatly in one frame: pale timber, a lifting centre section and water on both sides. In the evening about 1,200 light bulbs come on and outline it against the dusk, which is when most visitors want a picture.\n\nThe first bridge here dates from 1691 and had 13 arches. Locals nicknamed it the skinny bridge because it was so narrow. The present bridge was built in 1934 to a design by Piet Kramer, and it has been limited to pedestrians and cyclists since 2003. The centre section lifts many times a day for river traffic, and it was operated by hand until 1994. Sightseeing boats are low enough to pass underneath when it is closed. Locals also think of it as Amsterdam's most romantic bridge.\n\nThe phone icon on the map is about 45 m south-west of the subject. From there you see it side-on with some of the river in front, so you get the whole structure without needing to be close. If the centre section lifts while you are there, keep shooting: a raised bridge with a boat passing makes a livelier picture. Expect cyclists and walkers crossing, so wait a moment for a gap, or let them add some life to the scene.",
+   "description": "The Magere Brug, or Skinny Bridge, is a white wooden drawbridge across the River Amstel, at the point where Kerkstraat meets the river between the Keizersgracht and the Prinsengracht. It photographs well because the whole bridge fits neatly in one frame: pale timber, a lifting centre section and water on both sides. In the evening about 1,200 light bulbs come on and outline it against the dusk, which is when most visitors want a picture.\n\nThe first bridge here dates from 1691 and had 13 arches. Locals nicknamed it the skinny bridge because it was so narrow. The present bridge was built in 1934 to a design by Piet Kramer, and it has been limited to pedestrians and cyclists since 2003. The centre section lifts many times a day for river traffic, and it was operated by hand until 1994. Sightseeing boats are low enough to pass underneath when it is closed. Locals also think of it as Amsterdam's most romantic bridge.\n\nFrom there you see it side-on with some of the river in front, so you get the whole structure without needing to be close. If the centre section lifts while you are there, keep shooting: a raised bridge with a boat passing makes a livelier picture. Expect cyclists and walkers crossing, so wait a moment for a gap, or let them add some life to the scene.",
    "geographic_location": "The Magere Brug crosses the River Amstel in central Amsterdam, linking the two banks at Kerkstraat between the Keizersgracht and the Prinsengracht. It lies about 364 m south of Waterlooplein, roughly 6 minutes on foot.",
-   "directions_text": "Trams are usually the easiest way to get here, but the nearest stop of all is the Waterlooplein station (metro 51, metro 53, metro 54 and tram 14), about 6 minutes on foot, heading south. From Weesperplein (metro 51, metro 53, metro 54, tram 1, tram 19 and tram 7) it is about 8 minutes on foot, heading north-west. From the Rembrandtplein tram stop (tram 14 and tram 4) allow about 8 minutes on foot, heading south-east, and from the Frederiksplein tram stop (tram 1, tram 19, tram 4 and tram 7) about 8 minutes on foot, heading north-east. The phone icon on the map is about 45 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Trams are usually the easiest way to get here, but the nearest stop of all is the Waterlooplein station (metro 51, metro 53, metro 54 and tram 14), about 6 minutes on foot, heading south. From Weesperplein (metro 51, metro 53, metro 54, tram 1, tram 19 and tram 7) it is about 8 minutes on foot, heading north-west. From the Rembrandtplein tram stop (tram 14 and tram 4) allow about 8 minutes on foot, heading south-east, and from the Frederiksplein tram stop (tram 1, tram 19, tram 4 and tram 7) about 8 minutes on foot, heading north-east. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) from where you stand to get the whole bridge and some water in the frame. Use telephoto (2x or more, depending on your phone) for a tighter shot of the lifting section and the lights. Ultra-wide (0.5x) only works well if you walk closer, otherwise the bridge looks small and distant.",
-    "where_to_stand": "Stand about 45 m south-west of the subject, at the phone icon on the map, and face north-east. Turn on the gridlines and line the bridge's deck up with a horizontal line.",
+    "where_to_stand": "Stand on Amsteldijk (east bank of the Amstel, just south of the bridge). The full span of the white bridge centred in the frame, with its lit structure reflected in the river, especially after dark. Turn on the gridlines and line the bridge's deck up with a horizontal line.",
     "how_to_frame": "Place the bridge slightly off-centre and leave some water in the foreground. Keep the bridge's horizontal line level with the gridlines so it doesn't look tilted. If a boat approaches or the centre section lifts, take a few shots in a row. If you take Live Photos, you can pick the best moment later.",
     "phone_settings_tip": "Tap on the bridge to focus, then drag the exposure slider down a little so the lit bulbs stay sharp and don't wash out. After dark, use night mode and rest your phone on a wall or railing, if there is one, to stay steady. Moving boats and passers-by may blur in night mode, so take a few shots.",
     "best_time": "Early evening, when the bulbs are on and the sky still has some colour, gives the most atmospheric result. Daytime also works if you want to show the white timber clearly."
@@ -975,6 +993,7 @@
   "in_cut": true,
   "label": "Munttoren",
   "camera_pill": "near Muntplein",
+  "nophone": false,
   "searches": 490,
   "pin": [
    4.8932111,
@@ -1029,15 +1048,16 @@
   "name": "Westerkerk",
   "in_cut": false,
   "label": "Westerkerk",
-  "camera_pill": "near Keizersgracht",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1835,
   "pin": [
    4.8839338,
    52.3745445
   ],
   "camera": [
-   4.8847296,
-   52.373982
+   4.8839338,
+   52.3745445
   ],
   "camera_source": "Commons cluster (24 photos). Moved 32 m outwards on 2026-11-10 so it is 50 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/99205257: the middle of the OpenStreetMap outline 'Westerkerk' (76 m across).",
@@ -1045,10 +1065,10 @@
   "text": {
    "description": "The Westerkerk is a big Protestant church on the western edge of the canal ring, just beside the Jordaan, between the Prinsengracht and the Keizersgracht. It was built between 1620 and 1631 to designs by Hendrick de Keyser and finished by his son Pieter. At about 58 metres long and 29 metres wide, it is still the largest church in the Netherlands built for Protestants. The real draw for a photo is the Westertoren, the tower, which at 87 metres is the tallest church tower in Amsterdam. It ends in a spire topped with the Imperial Crown of Austria of Maximilian I, a shape that is easy to recognise even in a small phone frame.\n\nBecause the tower is so tall, the main challenge is fitting it in without it looking squashed. Include a little of the street or canal edge in the foreground to give a sense of scale, and keep the phone upright and level so the walls do not lean inwards too much. Once you have the full view, switch to a zoom lens and take a tighter shot of the crown and upper tower. The brickwork and stone details look best in soft, even light. The church is still a working place of worship, so be considerate of anyone going in or out while you take your pictures.",
    "geographic_location": "The Westerkerk is in central Amsterdam, in the westernmost part of the Grachtengordel (canal ring) in the Centrum district. It sits between the Prinsengracht and the Keizersgracht, right next to the Jordaan. Its position on the map is the middle of the church's outline, which is about 76 m across.",
-   "directions_text": "The easiest approach is by tram: from the Marnixplein tram stop (tram 13 or tram 5) the Westerkerk lies to the south-east, about 8 minutes on foot. From the Bloemgracht tram stop (also tram 13 or tram 5) it lies to the east, also about 8 minutes on foot. If you come by metro, Rokin (metro 52, tram 14 and tram 4) is the nearest station, with the church to the north-west, about 12 minutes on foot. Centraal Station (metro 51, metro 52, metro 53, metro 54, tram 2, tram 4, tram 14, tram 17, tram 24 and tram 26) is a longer walk, with the church to the west, about 20 minutes on foot. The phone icon on the map is about 50 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The easiest approach is by tram: from the Marnixplein tram stop (tram 13 or tram 5) the Westerkerk lies to the south-east, about 8 minutes on foot. From the Bloemgracht tram stop (also tram 13 or tram 5) it lies to the east, also about 8 minutes on foot. If you come by metro, Rokin (metro 52, tram 14 and tram 4) is the nearest station, with the church to the north-west, about 12 minutes on foot. Centraal Station (metro 51, metro 52, metro 53, metro 54, tram 2, tram 4, tram 14, tram 17, tram 24 and tram 26) is a longer walk, with the church to the west, about 20 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to get the whole church and tower into one frame from close range. Then use the default lens (1x) for a calmer, less stretched view, and the telephoto (2x-5x, depending on your phone) for the crown and upper tower.",
-    "where_to_stand": "Stand about 50 m south-east of the subject, at the phone icon on the map, and face north-west.",
+    "where_to_stand": "Pick a spot with a clear, open view of the subject.",
     "how_to_frame": "Turn on gridlines and line the tower up with a vertical line. Keep the phone as upright as you can, because tilting it upwards makes the tower lean. Leave a little foreground at the bottom for scale, then take a second, tighter shot of the spire with the telephoto.",
     "phone_settings_tip": "Tap on the tower to set focus, then slide the exposure down a touch so the sky stays blue and the brick keeps its detail. If you take a Live Photo, it can catch passing cyclists or boats.",
     "best_time": "Early morning or late afternoon usually gives softer light on the brick and stone, and tends to be calmer around the church."
@@ -1087,6 +1107,7 @@
   "in_cut": false,
   "label": "Seven Bridges",
   "camera_pill": "near Reguliersgracht",
+  "nophone": false,
   "searches": 430,
   "pin": [
    4.8958,

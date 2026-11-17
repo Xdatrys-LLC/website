@@ -4,15 +4,16 @@
   "name": "Kiyomizu-dera",
   "in_cut": true,
   "label": "Kiyomizu-dera",
-  "camera_pill": "奥の院",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 80800,
   "pin": [
    135.7844643,
    34.9945297
   ],
   "camera": [
-   135.785574,
-   34.994573
+   135.7844643,
+   34.9945297
   ],
   "camera_source": "Researched viewpoint '奥の院' (4 web pages); placed at OpenStreetMap '奥ノ院' (way/102164641): middle (26 m across).",
   "pin_note": "Position from OpenStreetMap way/336641107: the middle of the OpenStreetMap outline 'Kiyomizu-dera' (532 m across).",
@@ -20,10 +21,10 @@
   "text": {
    "description": "Kiyomizu-dera, the 'Pure Water Monastery', is a Buddhist temple on the wooded slopes of Mount Otowa in eastern Kyoto, and it is part of the Historic Monuments of Ancient Kyoto UNESCO World Heritage Site. Its Main Hall has a wide wooden stage held up on tall timber scaffolding. Seen from across the valley, that stage looks as if it hangs out over the trees. The current Main Hall dates from 1633, when it was rebuilt after a fire in 1629. In the Edo period, people believed that surviving a 13-metre jump from the stage would grant a wish. 234 jumps were recorded, most of them survived, and the practice was banned in 1872.\n\nThe classic photo is the stage seen head-on from the Okuno-in Hall, which sits across the ravine to the north of the Main Hall. From there you get the stage and its scaffolding with trees in the foreground and the city or hills behind. If you have time, there are two other good angles. The small vermilion Koyasu Pagoda makes a colourful foreground with the Main Hall complex across the valley. Down by the Otowa Waterfall you can look up at the scaffolding from below. Okuno-in can be busy, so go early and be patient. Look carefully at your frame for people and branches before you press the shutter. Photography is not allowed inside the Main Hall's inner sanctum.",
    "geographic_location": "Kiyomizu-dera stands on the Higashiyama hillside in eastern Kyoto, on the slopes of Mount Otowa. The temple complex is large, about 530 m across, and includes the Main Hall, the Otowa Waterfall and several smaller shrines.",
-   "directions_text": "Head for the Higashiyama area of eastern Kyoto and make for the temple on the hillside. Once inside the grounds, leave the Main Hall and follow the walking path around the hillside to reach Okuno-in. From the phone icon on the map, the middle of the temple is about 2 minutes on foot to the west. The phone icon on the map is about 100 m east of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for the Higashiyama area of eastern Kyoto and make for the temple on the hillside. Once inside the grounds, leave the Main Hall and follow the walking path around the hillside to reach Okuno-in. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the whole stage, the trees and the view behind. Then try the telephoto (2x-5x, depending on your phone) to pick out the timber scaffolding and bring the stage closer. Keep the ultra-wide (0.5x) for the pagoda or waterfall views, where you want to include a lot of foreground.",
-    "where_to_stand": "Stand about 100 m east of the numbered pin, at the phone icon on the map, and face west. Across the ravine to the north of the Main Hall. From the balcony you see the Main Hall's wooden stage head-on across the valley, with trees in front and the city or mountains behind. As an alternative, the Koyasu Pagoda gives a small vermilion foreground with the Main Hall complex beyond.",
+    "where_to_stand": "Stand at 奥の院 (Okuno-in Hall, across the ravine to the north of the Main Hall). The Main Hall's wooden stage seen head-on from across the valley, with trees in the foreground and the city or mountains behind. Across the ravine to the north of the Main Hall. From the balcony you see the Main Hall's wooden stage head-on across the valley, with trees in front and the city or mountains behind. As an alternative, the Koyasu Pagoda gives a small vermilion foreground with the Main Hall complex beyond.",
     "how_to_frame": "Turn on the gridlines and place the stage along a lower line, leaving room for the trees in front and the view behind. Keep your phone level so the timber scaffolding looks straight. For a second picture, move to the Koyasu Pagoda and put its red roof in the foreground. At the Otowa Waterfall, point the phone upwards to catch the scaffolding above the streams of water. Check the edges of the frame for other visitors' heads or phones before you shoot.",
     "phone_settings_tip": "Tap on the stage to set focus, then drag the exposure slider down slightly if the sky behind is bright. Take a few quick frames, as the balcony can be crowded. Tripods are restricted on the stage, but you will not need one for daytime phone photos.",
     "best_time": "Early morning, before the crowds build up around 10 a.m. Some guides also suggest the last hour before closing, so check the temple's current opening times on the official site."
@@ -59,6 +60,7 @@
   "in_cut": true,
   "label": "Kinkaku-ji",
   "camera_pill": null,
+  "nophone": false,
   "searches": 68800,
   "pin": [
    135.7296995,
@@ -116,6 +118,7 @@
   "in_cut": true,
   "label": "Fushimi Inari",
   "camera_pill": null,
+  "nophone": false,
   "searches": 55000,
   "pin": [
    135.7737731,
@@ -169,6 +172,7 @@
   "in_cut": true,
   "label": "Nishiki Market",
   "camera_pill": null,
+  "nophone": false,
   "searches": 50300,
   "pin": [
    135.7647681,
@@ -220,6 +224,7 @@
   "in_cut": true,
   "label": "Nijo Castle",
   "camera_pill": null,
+  "nophone": false,
   "searches": 27300,
   "pin": [
    135.7475,
@@ -275,6 +280,7 @@
   "in_cut": true,
   "label": "Yasaka Shrine",
   "camera_pill": null,
+  "nophone": false,
   "searches": 22700,
   "pin": [
    135.7782667,
@@ -325,14 +331,15 @@
   "in_cut": true,
   "label": "Ginkaku-ji",
   "camera_pill": null,
+  "nophone": true,
   "searches": 15080,
   "pin": [
    135.7984034,
    35.0269348
   ],
   "camera": [
-   135.7998143,
-   35.02651
+   135.7984034,
+   35.0269348
   ],
   "camera_source": "Commons cluster (23 photos). Moved 82 m outwards on 2026-11-10 so it is 55 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/105817561: the middle of the OpenStreetMap outline 'Ginkaku-ji temple' (285 m across).",
@@ -340,10 +347,10 @@
   "text": {
    "description": "Ginkaku-ji, the Temple of the Silver Pavilion, is a Zen temple whose official name is Jishō-ji. It began as a retirement villa for the shogun Ashikaga Yoshimasa, with plans dating from 1460, and became a temple after his death in 1490. The main building is the two-storey Kannon-den, started in 1482. Despite its nickname it was never covered in silver foil, and its plain, unfinished look is linked to the idea of wabi-sabi. That quiet look is why it photographs well. You get a simple wooden pavilion, a pond, mossy wooded grounds and a well-known sand garden, which includes a carefully formed sand mound said to stand for Mount Fuji. The buildings and ponds were planned around their surroundings, so the views were designed with care. Look for the pavilion with its pond reflection, the moss under the trees, and the sand garden with its mound. Take a few wide scene-setting shots first, then move in on details such as roof lines, moss and sand textures. Keep your phone steady against a rail or your own elbows when light is dim under the trees.",
    "geographic_location": "Ginkaku-ji is in Kyoto's Sakyo ward, at the foot of the Higashiyama hills on the eastern side of the city.",
-   "directions_text": "No station or tram stop is listed for this spot, so check a local map or transport app for the best way to reach Sakyo ward. The phone icon on the map is about 55 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot, so check a local map or transport app for the best way to reach Sakyo ward. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the pavilion and pond. Switch to ultra-wide (0.5x) for the mossy garden and the sand garden, and use telephoto (2x-5x, depending on your phone) for roof details and sand textures.",
-    "where_to_stand": "Stand about 55 m east of the subject, at the phone icon on the map, and face west.",
+    "where_to_stand": "Stand right at the subject (south end of the pond). The Silver Pavilion (Kannon Hall) across the pond, framed by greenery and reflected in still water.",
     "how_to_frame": "Turn on gridlines and place the pavilion on one third of the frame, leaving the pond in the rest to catch the reflection. For the sand garden, crouch low and, if any lines are visible in the sand, use them to lead the eye towards the sand mound. Keep the phone level so the horizontal lines of the building stay straight.",
     "phone_settings_tip": "Tap to focus on the pavilion, then lower the exposure slider slightly so the sky and the pond reflection keep their detail. Wipe the lens first, and turn on Live Photos if you want a few moving ripples on the water.",
     "best_time": "Soft, even light, such as early in the day or on a lightly overcast day, suits the moss and the pavilion. Rain or damp weather can make the moss look richer, but protect your phone."
@@ -386,6 +393,7 @@
   "in_cut": true,
   "label": "Gion",
   "camera_pill": null,
+  "nophone": false,
   "searches": 12820,
   "pin": [
    135.775051,
@@ -441,14 +449,15 @@
   "in_cut": true,
   "label": "Philosopher's Path",
   "camera_pill": null,
+  "nophone": true,
   "searches": 12600,
   "pin": [
    135.7961667,
    35.0251278
   ],
   "camera": [
-   135.795046,
-   35.027189
+   135.7961667,
+   35.0251278
   ],
   "camera_source": "Commons cluster (4 photos), weak.",
   "pin_note": "Position from OpenStreetMap relation/18344117: large area 'Philosopher's Walk' (1400 m across): previous pin kept, it lies inside.",
@@ -456,10 +465,10 @@
   "text": {
    "description": "The Philosopher's Walk is a pedestrian path that follows a canal lined with cherry trees, running between Ginkaku-ji and Nanzen-ji in eastern Kyoto. It began as a path in 1890 and was extended in 1912, and it follows a shallow irrigation channel that carries water from the Lake Biwa Canal. The name comes from two Kyoto University professors and philosophers, Nishida Kitaro and Hajime Tanabe, who are thought to have walked it for daily exercise.\n\nIt photographs well because the scene is simple: still water, a narrow path and trees leaning over both. The line of the canal leads the eye along the frame, so even a quick snap looks composed. The whole walk takes about 30 minutes, though many people stop to visit the temples and shrines on the way, including Hōnen-in, Ōtoyo Shrine and Eikan-dō Zenrin-ji. On the northern part there are good views of the nearby Daimonji hill, which is a handy background if you turn away from the canal.\n\nFor photos, keep the canal edge on one side of the frame and let the path run diagonally into the distance. Add a person walking in the middle distance to give a sense of scale. The path is popular with tourists and locals, especially at cherry blossom time, so expect other walkers in your shots. Wait a moment for a gap, or use people as part of the scene.",
    "geographic_location": "In Kyoto, along a canal between Ginkaku-ji and Nanzen-ji.",
-   "directions_text": "No station or tram stop is listed for this spot. Use the map to reach the phone icon on the map. From there it is about 4 minutes on foot to the subject, heading south-east on the map and following the path beside the canal where it runs that way. The whole path is about 30 minutes' walk end to end. The phone icon on the map is about 250 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot. From there it is about 4 minutes on foot to the subject, heading south-east on the map and following the path beside the canal where it runs that way. The whole path is about 30 minutes' walk end to end. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for natural views along the canal. Switch to ultra-wide (0.5x) when the trees arch overhead, and to telephoto (2x-5x, depending on your phone) to pick out a stretch of blossom or the Daimonji hill.",
-    "where_to_stand": "Stand about 250 m north-west of the subject, at the phone icon on the map, and face south-east. Stay on the path, close to the water's edge, and keep clear of the flow of walkers.",
+    "where_to_stand": "Stand on Suirokaku (rear of the Nanzen-ji grounds, on the canal side of the red-brick arches). The red-brick Meiji-era aqueduct arches carrying canal water, with the canal and temple greenery around them. Stay on the path, close to the water's edge, and keep clear of the flow of walkers.",
     "how_to_frame": "Turn on gridlines and place the canal on a lower third line so the path leads into the frame. Hold the phone at chest height for a low, flowing view along the water, or lift it slightly to include more branches. Wait for a gap in the crowd, or let a single walker stand in as a scale figure.",
     "phone_settings_tip": "Tap on the brightest part of the sky or blossom to focus, then drag the exposure slider down a little so the petals and sky keep their detail. A Live Photo can catch falling blossom or a ripple on the water.",
     "best_time": "Cherry blossom (hanami) season is the busiest and the most colourful. Whatever the season, going early in the day is likely to give you a quieter path."
@@ -495,6 +504,7 @@
   "in_cut": true,
   "label": "Sannenzaka",
   "camera_pill": null,
+  "nophone": false,
   "searches": 11600,
   "pin": [
    135.7813178,
@@ -545,6 +555,7 @@
   "in_cut": true,
   "label": "Ryoan-ji",
   "camera_pill": null,
+  "nophone": false,
   "searches": 7600,
   "pin": [
    135.7183333,
@@ -600,14 +611,15 @@
   "in_cut": true,
   "label": "To-ji",
   "camera_pill": null,
+  "nophone": true,
   "searches": 7180,
   "pin": [
    135.7477411,
    34.981035
   ],
   "camera": [
-   135.749663,
-   34.9817507
+   135.7477411,
+   34.981035
   ],
   "camera_source": "Commons cluster (4 photos), weak. Moved 146 m outwards on 2026-11-10 so it is 45 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/359896810: the middle of the OpenStreetMap outline 'To-ji Temple' (485 m across).",
@@ -615,10 +627,10 @@
   "text": {
    "description": "Tō-ji's five-storey pagoda is the tallest wooden tower in Japan, at 54.8 metres (180 feet). It is the landmark of the temple, which sits in Kyoto's Minami-ku ward. The temple was founded in 796, soon after the capital moved to Heian-kyō, and it is the only one of the three Buddhist temples first allowed in the city that still survives. The pagoda you see now dates from 1643, when the third Tokugawa shōgun, Iemitsu, ordered its rebuilding. Earlier versions were destroyed several times. It became a National Treasure in 1952, and the temple is part of the UNESCO-listed Historic Monuments of Ancient Kyoto. The pagoda photographs well because it is so tall and its outline is so clear. The tiers of eaves step neatly upwards, and the whole shape looks good against open sky. On a phone the main challenge is height. Stepping back and keeping the phone upright helps you fit more in, and zooming in lets you pick out the layered roofs. Include a bit of the temple grounds, trees or water in the foreground to give a sense of scale. The pagoda is normally closed to visitors, though you can usually see inside from outside. On the 21st of each month the grounds hold a well-known flea market, which is lively and good for atmosphere but busier, so plan your framing around people.",
    "geographic_location": "In Kyoto's Minami-ku ward, near the junction of Ōmiya Street and Kujō Street, south-west of Kyōto Station. The temple stands close to where the old Rashōmon gate once marked the southern edge of the Heian capital.",
-   "directions_text": "There is no station or tram stop right at this spot, so start from Kyōto Station and head south-west towards the junction of Ōmiya Street and Kujō Street, where Tō-ji stands. The phone icon on the map is about 45 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "There is no station or tram stop right at this spot, so start from Kyōto Station and head south-west towards the junction of Ōmiya Street and Kujō Street, where Tō-ji stands. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to see the whole pagoda. Switch to telephoto (2x-5x, depending on your phone) to pick out the stacked roofs, or use ultra-wide (0.5x) if you are close and want to include the grounds in front.",
-    "where_to_stand": "Stand about 45 m north-east of the subject, at the phone icon on the map, and face south-west.",
+    "where_to_stand": "Stand in Hyotan Pond (west of the five-story pagoda, inside the temple grounds). The pagoda rising above the pond and its surrounding trees, with a mirror reflection on calm mornings or evenings.",
     "how_to_frame": "Turn on gridlines and line up the central axis of the pagoda with a vertical grid line, keeping the phone upright rather than tilted back so the sides stay straight. Leave a little sky above the top spire, and include a tree, wall or pond edge at the bottom for depth. Wait for a gap in the crowd if you can.",
     "phone_settings_tip": "Tap the pagoda to focus, then slide the exposure down a touch so the sky does not wash out and the wood and tiles keep their detail. If you use a Live Photo, hold still for a moment before and after the shot.",
     "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Expect more visitors on the 21st of each month, when the flea market is held."
@@ -652,6 +664,7 @@
   "in_cut": true,
   "label": "Yasaka Pagoda",
   "camera_pill": null,
+  "nophone": false,
   "searches": 5800,
   "pin": [
    135.7792488,
@@ -702,6 +715,7 @@
   "in_cut": true,
   "label": "Daigo-ji",
   "camera_pill": null,
+  "nophone": false,
   "searches": 4760,
   "pin": [
    135.8217778,
@@ -761,6 +775,7 @@
   "in_cut": true,
   "label": "Pontocho",
   "camera_pill": null,
+  "nophone": false,
   "searches": 4740,
   "pin": [
    135.771111,
@@ -816,6 +831,7 @@
   "in_cut": true,
   "label": "Kyoto Tower",
   "camera_pill": null,
+  "nophone": false,
   "searches": 4030,
   "pin": [
    135.7593295,
@@ -872,25 +888,26 @@
   "in_cut": true,
   "label": "Heian Shrine",
   "camera_pill": null,
+  "nophone": true,
   "searches": 2810,
   "pin": [
    135.782831,
    35.0161267
   ],
   "camera": [
-   135.7815487,
-   35.0143464
+   135.782831,
+   35.0161267
   ],
   "camera_source": "Commons cluster (11 photos). Moved 148 m outwards on 2026-11-10 so it is 80 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/619903245: the middle of the OpenStreetMap outline 'Heian Shrine' (398 m across).",
   "notes": "",
   "text": {
-   "description": "Heian Shrine is a Shinto shrine in Kyoto's Okazaki area, and it is one of the most photogenic places on the map because of its bright red buildings and very large gate. It was built for the 1895 exhibition marking 1,100 years since Kyoto (then Heian-kyō) was founded. It is a partial copy of the old Heian Palace at 5/8 of the original size, designed by Itō Chūta. The big red entrance gate copies the palace's Outenmon, and the shrine's torii is one of the largest in Japan. The shrine also has a Japanese-style garden covering about half the grounds, with ponds fed by water from the Lake Biwa Canal. Part of the shrine burned down in 1976, including the main sanctuary, and it was rebuilt three years later with donations. From the phone icon on the map, the middle of the shrine is a short walk away. The strong red against sky, white gravel and green trees gives you a clear, simple picture even on a basic phone. Stand back far enough to fit the whole gate in, then move closer for roof corners, painted beams and gravel patterns. Keep people in the frame for a sense of scale, but wait a moment for a gap if the courtyard is busy. If you visit on 22 October, the Jidai Matsuri festival procession ends at the shrine, which gives you extra colour for photos.",
+   "description": "Heian Shrine is a Shinto shrine in Kyoto's Okazaki area, and it is one of the most photogenic places on the map because of its bright red buildings and very large gate. It was built for the 1895 exhibition marking 1,100 years since Kyoto (then Heian-kyō) was founded. It is a partial copy of the old Heian Palace at 5/8 of the original size, designed by Itō Chūta. The big red entrance gate copies the palace's Outenmon, and the shrine's torii is one of the largest in Japan. The shrine also has a Japanese-style garden covering about half the grounds, with ponds fed by water from the Lake Biwa Canal. Part of the shrine burned down in 1976, including the main sanctuary, and it was rebuilt three years later with donations. The strong red against sky, white gravel and green trees gives you a clear, simple picture even on a basic phone. Stand back far enough to fit the whole gate in, then move closer for roof corners, painted beams and gravel patterns. Keep people in the frame for a sense of scale, but wait a moment for a gap if the courtyard is busy. If you visit on 22 October, the Jidai Matsuri festival procession ends at the shrine, which gives you extra colour for photos.",
    "geographic_location": "Heian Shrine is in the Okazaki area of Sakyō-ku, Kyoto. It sits beside Okazaki Park, with the Kyoto Municipal Museum of Art and the National Museum of Modern Art nearby.",
-   "directions_text": "Head for the Okazaki area of Sakyō-ku, around Okazaki Park, by taxi or hired scooter. Walk north-east towards the middle of the shrine area. The phone icon on the map is about 80 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for the Okazaki area of Sakyō-ku, around Okazaki Park, by taxi or hired scooter. Walk north-east towards the middle of the shrine area. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the gate and courtyard as you see them. Switch to the ultra-wide (0.5x) if you are close and want the whole gate and sky in one frame. Use telephoto (2x-5x, depending on your phone) for roof details, carvings and the red-and-white colour contrast.",
-    "where_to_stand": "Stand about 80 m south-west of the subject, at the phone icon on the map, and face north-east. From here you look towards the middle of the shrine area.",
+    "where_to_stand": "Stand on Jingū-michi (south side, looking north toward the great torii). The roughly 24 m torii framed along the approach avenue, with the vermilion gate at the far end for scale. From here you look towards the middle of the shrine area.",
     "how_to_frame": "Turn on gridlines and place the gate on one of the vertical lines so the roofline sits level. Hold the phone steady and keep it upright so the pillars don't lean. Leave some gravel in the foreground to lead the eye in. For a closer picture, use telephoto on one roof corner against the sky.",
     "phone_settings_tip": "Tap the red building to focus, then slide the exposure down a little if the sky looks washed out. This keeps the red rich and the white walls from glaring. If you are shooting people in front of the gate, try portrait mode only when they are a few steps from the building.",
     "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Overcast days also suit the strong red colour."
@@ -929,15 +946,16 @@
   "name": "Tofuku-ji",
   "in_cut": true,
   "label": "Tofuku-ji",
-  "camera_pill": "臥雲橋",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 1330,
   "pin": [
    135.7740944,
    34.97705
   ],
   "camera": [
-   135.772891,
-   34.977485
+   135.7740944,
+   34.97705
   ],
   "camera_source": "Researched viewpoint '臥雲橋' (4 web pages); placed at OpenStreetMap '臥雲橋' (way/260121351): middle (21 m across).",
   "pin_note": "Position from OpenStreetMap way/768987591: large area 'Tōfuku-ji' (638 m across): previous pin kept, it lies inside.",
@@ -945,10 +963,10 @@
   "text": {
    "description": "Tōfuku-ji is a large Zen temple in Kyoto's Higashiyama-ku, founded in 1236 by the imperial chancellor Kujō Michiie. It is one of the Kyoto Gozan, the \"five great Zen temples\" of the city. Its main gate is the oldest sanmon in Japan and a National Treasure, and the complex has 24 sub-temples today. For photographers, though, the draw is the maple-filled Sengyokukan ravine. The temple has a great many Japanese maples, and looking at the autumn leaves from the Tsūten-kyō bridge is a long-standing tradition. The best-known picture is taken from the covered bridge Gaunkyo (臥雲橋). From there you look back up the ravine and see the covered Tsutenkyo walkway framed by the trees. The view works because the walkway gives the scene a clear focal point, and the trees fill the rest of the frame with colour. The temple is busiest in the autumn leaf season, so expect crowds then. In the peak weeks, some parts may have ticketed entry, and photography on the bridges may be limited, so check the official site before you go. Keep your phone ready, work quickly in busy spells, and don't block the path while you shoot.",
    "geographic_location": "Tōfuku-ji is in Higashiyama-ku, Kyoto, with the Sengyokukan ravine and its covered bridges on the approach path. Sennyū-ji, another large temple, is nearby.",
-   "directions_text": "No station or tram stop is listed for this spot, so check a map app for the best route to Tōfuku-ji in Higashiyama-ku, Kyoto, then follow the approach path towards the ravine and the covered bridge Gaunkyo (臥雲橋). The phone icon on the map is a little north-west of the temple, about 2 minutes on foot from it. Allow extra time in the autumn leaf season, when the paths are busy. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot, so check a map app for the best route to Tōfuku-ji in Higashiyama-ku, Kyoto, then follow the approach path towards the ravine and the covered bridge Gaunkyo (臥雲橋). Allow extra time in the autumn leaf season, when the paths are busy. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to take in the whole ravine with the walkway framed by maples. Then try the telephoto (2x-5x, depending on your phone) to pick out the covered Tsutenkyo walkway and its trees. Use the ultra-wide (0.5x) only if people crowd the bridge and you want a broader scene.",
-    "where_to_stand": "Stand on 臥雲橋, right in front of the subject: the phone icon on the map marks the spot. From here you look back up the Sengyokukan ravine and see the covered Tsutenkyo walkway set against the maple-filled valley. The temple lies to the south-east of you.",
+    "where_to_stand": "Stand on 臥雲橋 (Covered bridge on the approach path, a little downstream of Tsutenkyo). Looking back up the Sengyokukan ravine, the covered Tsutenkyo walkway is framed against the maple-filled valley. From here you look back up the Sengyokukan ravine and see the covered Tsutenkyo walkway set against the maple-filled valley. The temple lies to the south-east of you.",
     "how_to_frame": "Turn on gridlines and line the walkway up with a horizontal grid line so it sits level. Let the maples fill the foreground and the sides of the frame. Guides describe this as the classic postcard angle. If you want a different view, Tsutenkyo itself gives a sweeping look down over the red maples, with temple roofs among the trees. Selfie sticks and tripods are reportedly banned on the bridge, so hold your phone with both hands and keep it steady.",
     "phone_settings_tip": "Tap the brightest leaves to focus, then lower the exposure slider slightly so the reds stay rich and don't wash out. Take a few shots in a row, because people move through the frame quickly.",
     "best_time": "Early morning, when guides say the light is soft and the crowds are thinner. The peak autumn season runs from mid-November to early December and is the busiest."
@@ -985,6 +1003,7 @@
   "in_cut": true,
   "label": "Higashi Hongan-ji",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1080,
   "pin": [
    135.758384,
@@ -1038,6 +1057,7 @@
   "in_cut": true,
   "label": "Shinsen-en",
   "camera_pill": null,
+  "nophone": false,
   "searches": 30,
   "pin": [
    135.7480678,

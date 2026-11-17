@@ -5,6 +5,7 @@
   "in_cut": true,
   "label": "Edinburgh Castle",
   "camera_pill": null,
+  "nophone": false,
   "searches": 93800,
   "pin": [
    -3.200602,
@@ -58,6 +59,7 @@
   "in_cut": true,
   "label": "Arthur's Seat",
   "camera_pill": null,
+  "nophone": false,
   "searches": 53300,
   "pin": [
    -3.161603,
@@ -111,6 +113,7 @@
   "in_cut": true,
   "label": "Royal Mile",
   "camera_pill": null,
+  "nophone": false,
   "searches": 22400,
   "pin": [
    -3.1855556,
@@ -166,6 +169,7 @@
   "in_cut": true,
   "label": "Holyrood Palace",
   "camera_pill": null,
+  "nophone": false,
   "searches": 21500,
   "pin": [
    -3.1720663,
@@ -220,6 +224,7 @@
   "in_cut": true,
   "label": "St Giles' Cathedral",
   "camera_pill": null,
+  "nophone": false,
   "searches": 11370,
   "pin": [
    -3.1908556,
@@ -276,15 +281,16 @@
   "name": "Calton Hill",
   "in_cut": true,
   "label": "Calton Hill",
-  "camera_pill": "Princes Street Gardens",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 9860,
   "pin": [
    -3.1822564,
    55.9555565
   ],
   "camera": [
-   -3.199495,
-   55.95025
+   -3.1822564,
+   55.9555565
   ],
   "camera_source": "Researched viewpoint 'Princes Street Gardens' (2 web pages); placed at OpenStreetMap 'Princes Street Gardens' (node/13444424887): point.",
   "pin_note": "Position from OpenStreetMap node/1149620440: the OpenStreetMap point 'Calton Hill'.",
@@ -292,10 +298,10 @@
   "text": {
    "description": "Calton Hill sits at the east end of Princes Street, a rocky hill in the middle of Edinburgh and part of the city's UNESCO World Heritage Site. Its skyline is crowded with monuments, including the National Monument, the Nelson Monument and the old Royal High School, so even from a distance it is easy to pick out. Views of the hill, and from it, have long been used in photographs and paintings of the city. In 1787 the artist Robert Barker was inspired by walking here and created the world's first panorama, a 360-degree view of Edinburgh painted from the City Observatory tower.\n\nMost advice covers the view from the top, but this spot shows the hill itself. Stand on the Mound, the slope that divides the east and west gardens of Princes Street Gardens, and look to the north-east. Calton Hill sits in the distance with the Scott Monument and the Old Town in the same wide frame. That layering of foreground, spires and hill is what makes the photo work. One photo-spot guide suggests this view could work well at sunrise.\n\nIf you want a different angle, Castle Esplanade shows the hill far off behind the city. Regent Road shows the steep southern flank rising straight above the road, with its cliff face. That last one is thinly covered, so judge it on the spot.",
    "geographic_location": "Calton Hill is in central Edinburgh, beyond the east end of Princes Street and between the districts of Greenside and Abbeyhill. This photo is taken from the Mound in Princes Street Gardens, looking back towards it.",
-   "directions_text": "Head for the Mound in Princes Street Gardens, the slope between the east and west gardens, in the middle of the city. The phone icon on the map is on the Mound, and Calton Hill lies to the north-east, at the far end of Princes Street. The phone icon on the map is about 1.2 km south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Head for the Mound in Princes Street Gardens, the slope between the east and west gardens, in the middle of the city. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the Scott Monument, the Old Town and the hill together. Then try the telephoto (2x-5x, depending on your phone) to bring Calton Hill closer and make its monuments easier to see.",
-    "where_to_stand": "Stand about 1.2 km south-west of the subject, in Princes Street Gardens (the phone icon on the map), and face north-east. From here, face north-east and Calton Hill is in the distance with the Scott Monument and the Old Town beside it.",
+    "where_to_stand": "Stand in Princes Street Gardens (the Mound, the slope dividing the east and west gardens). Calton Hill in the distance to the east, with the Scott Monument and the Old Town in the same wide frame. From here, face north-east and Calton Hill is in the distance with the Scott Monument and the Old Town beside it.",
     "how_to_frame": "Turn on gridlines and put the hill on one of the upper thirds, with the Scott Monument as a strong shape in the foreground. Keep the phone level so the skyline does not tilt. If you want a different view, Castle Esplanade shows the hill far off behind the city, and Regent Road shows its steep southern side.",
     "phone_settings_tip": "Tap on the hill to set focus, then drag the exposure slider down a little so the sky keeps its colour. A panorama can sweep across the whole skyline, but move slowly and keep the phone upright.",
     "best_time": "Sunrise, according to one photo-spot guide. Check the sunrise time for your date, and arrive a little early to find your spot."
@@ -332,15 +338,16 @@
   "name": "Dean Village",
   "in_cut": true,
   "label": "Dean Village",
-  "camera_pill": "Hawthornbank Lane",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 9690,
   "pin": [
    -3.2182207,
    55.9522594
   ],
   "camera": [
-   -3.216904,
-   55.951793
+   -3.2182207,
+   55.9522594
   ],
   "camera_source": "Researched viewpoint 'Hawthornbank Lane' (3 web pages); placed at OpenStreetMap 'Hawthornbank Lane' (way/412714341): middle (35 m across).",
   "pin_note": "Position from OpenStreetMap node/248497841: the OpenStreetMap point 'Dean Village'.",
@@ -348,10 +355,10 @@
   "text": {
    "description": "Dean Village sits in a deep valley just north-west of the city centre, yet it feels a world away from the traffic above. For more than 800 years it was a grain-milling community on the Water of Leith, and at one time it had eleven working mills. Today the old mill buildings, warehouses and workers' cottages have been turned into homes, and the stone houses, river and little bridges make a very tidy scene for a phone camera. The best-known angle is from the bottom of Hawthornbank Lane, by the river. From there you can fit Well Court and the neighbouring stone houses into one frame, and on a still day the water adds reflections. The old crossing at the foot of Bell's Brae is believed to stand on the site of ancient river crossings, and the current bridge dates from the early 18th century. High above, Thomas Telford's Dean Bridge was built in 1831-2 and opened in 1833. It stands 106 feet above the water, so the village lies far below the road. Take your time on the uneven path at water level. People live here, so keep your voice down, stay off doorsteps and keep drones at home. If you have time, Bell's Brae Bridge gives a second view of Well Court's red sandstone clock tower, and Dean Bridge gives a wide look down onto the village.",
    "geographic_location": "Dean Village lies just north-west of Edinburgh city centre, in the valley of the Water of Leith below Dean Bridge, close to the West End and Belford Road.",
-   "directions_text": "No station or tram stop is listed close by, so start from the West End of Edinburgh and go north-west towards the Dean Bridge area. Head down into the valley by the steep Bell's Brae to reach the river and the old bridge. From the village centre, the phone icon on the map is about 2 minutes on foot to the south-east, at the bottom of Hawthornbank Lane. The phone icon on the map is about 95 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed close by, so start from the West End of Edinburgh and go north-west towards the Dean Bridge area. Head down into the valley by the steep Bell's Brae to reach the river and the old bridge. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to show the houses, river and bridge together. Switch to ultra-wide (0.5x) if you are close to the water and the frame feels tight. Use 2x or more (telephoto, depending on your phone) to pick out Well Court's details without leaning over the water.",
-    "where_to_stand": "Stand about 95 m south-east of the subject, on Hawthornbank Lane (the phone icon on the map), and face north-west. At the bottom of the lane by the river, where steps lead down to the water. From here you look across the river to Well Court and the stone houses, with the bridges and water in view. Dean Village itself is to the north-west.",
+    "where_to_stand": "Stand on Hawthornbank Lane (bottom of the lane, at the riverside (steps down to water level)). Well Court and the stone houses framed over the river, with reflections in still water. At the bottom of the lane by the river, where steps lead down to the water. From here you look across the river to Well Court and the stone houses, with the bridges and water in view. Dean Village itself is to the north-west.",
     "how_to_frame": "Turn on gridlines and place the river along the lower third, so the houses fill the middle of the picture and any reflection has room. Go down to the water's edge for a lower, more dramatic view, but take care on the uneven path. Shoot Well Court from outside the gate, because the courtyard is private. For a different view, try Bell's Brae Bridge for the clock tower, or Dean Bridge for a wide look down on the village.",
     "phone_settings_tip": "Tap the water or the stonework to focus, then slide the exposure down a little so the sky doesn't wash out. Wipe your lens first, as the valley can be damp. Try a Live Photo, which may catch a ripple, and pick the calmest moment.",
     "best_time": "Early morning or late afternoon, when the light is softest. Still water gives the best reflections."
@@ -387,14 +394,15 @@
   "in_cut": true,
   "label": "National Museum",
   "camera_pill": null,
+  "nophone": true,
   "searches": 9460,
   "pin": [
    -3.1894049,
    55.9469882
   ],
   "camera": [
-   -3.1880226,
-   55.947771
+   -3.1894049,
+   55.9469882
   ],
   "camera_source": "Commons cluster (75 photos). Moved 91 m outwards on 2026-11-10 so it is 30 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/467226683: the middle of the OpenStreetMap outline 'National Museum of Scotland' (218 m across).",
@@ -402,10 +410,10 @@
   "text": {
    "description": "The National Museum of Scotland is two connected buildings side by side on Chambers Street: the Victorian former Royal Museum and the modern Museum of Scotland. This spot is about the roof terrace and what you can photograph around it. The terrace may offer a higher, more open vantage point, with the museum's own stonework and roofline close by and the city around it. The older building was begun in 1861 and partly opened in 1866. It has a Venetian Renaissance façade and a cast-iron central hall that rises the full height of the building. The modern building opened in 1998, so the contrast between old and new is part of the picture. The Royal Museum building reopened on 29 July 2011 after a three-year restoration. The museum is free to enter and was Scotland's most visited attraction in 2025, so expect other people in your frame. On a phone, the easiest wins are wide, layered shots that include the roofline and the city beyond, plus close details of the stonework and rooftops. Keep the horizon level using the gridlines, and tap on the brightest part of the scene to stop the sky washing out. Roof terrace access and arrangements are not confirmed here, so check the official site before you go.",
    "geographic_location": "In central Edinburgh, on Chambers Street beside the junction with George IV Bridge. The museum sits next to the University of Edinburgh's buildings.",
-   "directions_text": "No station or tram stop is listed for this spot, so head for Chambers Street, by the George IV Bridge junction in central Edinburgh. Follow the museum's own signs and ask staff at the entrance how to reach the roof terrace. The phone icon on the map is about 30 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for Chambers Street, by the George IV Bridge junction in central Edinburgh. Follow the museum's own signs and ask staff at the entrance how to reach the roof terrace. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the roofline and the sweep of the city. Switch to the default lens (1x) for a natural view, and use telephoto/zoom (2x-5x, depending on your phone) to pick out distant rooftops, spires and stonework.",
-    "where_to_stand": "Stand about 30 m north-east of the subject, at the phone icon on the map, and face south-west. Turn around to take in the wider view from the same spot.",
+    "where_to_stand": "Stand right at the subject (Level 7 deck of the modern museum wing; stand on the terrace and shoot back toward the building's modern structure and the sandstone blocks). The terrace deck itself, with its decking, sandstone blocks, plantings and parapet, framed against the Old Town skyline behind it. Turn around to take in the wider view from the same spot.",
     "how_to_frame": "Turn on the gridlines and place the horizon on the upper or lower third line. Use a nearby parapet, chimney or roof edge as a foreground to give depth, and keep the verticals straight so buildings don't lean. Try one wide shot and one zoomed detail from the same spot. If you want a sweep of the skyline, try panorama mode and move slowly and evenly.",
     "phone_settings_tip": "Tap on the sky or the brightest area, then slide the exposure down a little so the clouds keep their detail. Clean the lens with a soft cloth before you start. Turn on Live Photos or motion if you want a short moving clip of the scene.",
     "best_time": "Choose a dry, clear day when the terrace is open. Early morning or late afternoon usually gives softer light and fewer people."
@@ -441,6 +449,7 @@
   "in_cut": true,
   "label": "Waverley Bridge",
   "camera_pill": null,
+  "nophone": false,
   "searches": 7120,
   "pin": [
    -3.1916356,
@@ -494,6 +503,7 @@
   "in_cut": true,
   "label": "Scott Monument",
   "camera_pill": null,
+  "nophone": false,
   "searches": 6840,
   "pin": [
    -3.1932609,
@@ -553,25 +563,26 @@
   "in_cut": true,
   "label": "Greyfriars Bobby",
   "camera_pill": null,
+  "nophone": true,
   "searches": 6670,
   "pin": [
    -3.1927179,
    55.9468378
   ],
   "camera": [
-   -3.1901684,
-   55.9469606
+   -3.1927179,
+   55.9468378
   ],
-  "camera_source": "Commons cluster (52 photos). Moved 75 m outwards on 2026-11-10 so it is 85 m from the subject's edge, as the text says.",
+  "camera_source": "Commons cluster (52 photos). Moved 32 m outwards on 2026-11-10 so it is 45 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/298677: the middle of the OpenStreetMap outline 'Greyfriars Kirkyard' (266 m across).",
   "notes": "",
   "text": {
    "description": "Greyfriars Kirkyard is the old graveyard around Greyfriars Kirk, on the southern edge of Edinburgh's Old Town beside George Heriot's School. It photographs well because so much is packed into one space: weathered headstones, carved wall monuments, tombs with domes and railings, and the church behind. Burials began in the 1560s, and the Franciscan friary that gave the place its name was dissolved in 1560. The National Covenant was signed in the kirk in 1638, and in the 1840s early photographers David Octavius Hill and Robert Adamson used the graveyard as a setting for their portraits. Many visitors come for Greyfriars Bobby, the dog said to have guarded his master's grave. Bobby's headstone stands at the entrance, put up by the Dog Aid Society in 1981, and his statue is opposite the gate at the junction of George IV Bridge and Candlemaker Row. The grave of his master, John Gray, known as \"Auld Jock\", lies on the eastern path about 30 m north of the entrance. For photos, look for repeating lines of headstones, the carved mural monuments along the old walls, and the Kirk as a backdrop. Keep to the paths, stay quiet near graves, and wait a moment for people to move out of your frame. The whole kirkyard is a protected category A listed site.",
    "geographic_location": "In Edinburgh's Old Town, at its southern edge, next to George Heriot's School. The Bobby statue is at the junction of George IV Bridge and Candlemaker Row.",
-   "directions_text": "No station or tram stop is listed for this spot, so start from the Old Town and walk to the junction of George IV Bridge and Candlemaker Row, where the Greyfriars Bobby statue stands opposite the kirkyard gate. From the phone icon on the map, the middle of the kirkyard is about 1 minute away, about 1 minute on foot. The phone icon on the map is about 85 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No station or tram stop is listed for this spot, so start from the Old Town and walk to the junction of George IV Bridge and Candlemaker Row, where the Greyfriars Bobby statue stands opposite the kirkyard gate. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the whole scene of headstones with the Kirk behind. Use the default lens (1x) for single monuments and the entrance. Use telephoto (2x-5x, depending on your phone) for carved details on the wall monuments, without stepping off the paths.",
-    "where_to_stand": "Stand about 85 m east of the subject, at the phone icon on the map, and face west.",
+    "where_to_stand": "Stand at the corner of Candlemaker Row and George IV Bridge (southern end of George IV Bridge, on the pavement opposite the National Museum of Scotland). The small bronze Skye Terrier on its fountain, with the Kirkyard gate and Old Town buildings behind it.",
     "how_to_frame": "Switch on gridlines and use the paths as leading lines into the picture. Keep the horizon level, since the old stones and walls look odd if the frame is tilted. For Bobby, take one wide shot of the gate and street, then step closer with the default lens (1x) for the headstone, keeping other visitors out of the frame where you can.",
     "phone_settings_tip": "Tap on the stonework to focus, then drag the exposure slider down a little so the sky does not wash out and the stone keeps its texture. In shade or dull light, tap the darkest area and hold your phone steady, or use night mode briefly for a sharper result.",
     "best_time": "Soft, overcast light or early in the day tends to suit stone and carving, and there are usually fewer people around then."
@@ -605,6 +616,7 @@
   "in_cut": true,
   "label": "Grassmarket",
   "camera_pill": null,
+  "nophone": false,
   "searches": 5310,
   "pin": [
    -3.196259,
@@ -665,6 +677,7 @@
   "in_cut": true,
   "label": "Victoria Street",
   "camera_pill": null,
+  "nophone": false,
   "searches": 4470,
   "pin": [
    -3.1937686,
@@ -717,6 +730,7 @@
   "in_cut": true,
   "label": "Princes St Gardens",
   "camera_pill": null,
+  "nophone": false,
   "searches": 3480,
   "pin": [
    -3.2029944,
@@ -777,14 +791,15 @@
   "in_cut": true,
   "label": "Circus Lane",
   "camera_pill": null,
+  "nophone": true,
   "searches": 2720,
   "pin": [
    -3.2050046,
    55.9581034
   ],
   "camera": [
-   -3.205572,
-   55.957065
+   -3.2050046,
+   55.9581034
   ],
   "camera_source": "Researched viewpoint 'North West Circus Place' (3 web pages); placed at OpenStreetMap 'North West Circus Place' (way/23103089): point nearest the subject (136 m long).",
   "pin_note": "Position from OpenStreetMap way/7841743: kept: no OpenStreetMap object carries this Wikidata ID.",
@@ -792,10 +807,10 @@
   "text": {
    "description": "Circus Lane is a narrow, cobbled residential lane that bends gently between rows of mews houses, with flower displays and climbing greenery along the way. The curve leads your eye along the lane, and St Stephen's church with its clock tower stands in the background. This makes it an easy place to get a postcard-style photo on a phone. A walking guide calls the view from the North West Circus Place end the most recognisable one and the classic composition most visitors aim for. Another guide prefers the Stockbridge side as an approach, so both ends are worth a look. Stand at the end where the lane opens out and face back along the curve towards the church. Use the default lens (1x) for the main shot. Keep the clock tower in the upper third of the frame, with the cobbles and flowers filling the foreground. Early morning, around 7am to 9am, is the quietest time. The lane is narrow and people live here, so it is hard to keep others out of the frame. Cars can drive down it, so step onto the pavement when one passes, and be discreet around residents' windows and doors. Try a second shot from the junction, where the clock tower is framed over the lane.",
    "geographic_location": "Circus Lane is in Edinburgh, about 121 m north of the stand-here point on North West Circus Place.",
-   "directions_text": "There are no stations or tram stops listed close by, so start from Waverley station, which is about 20 minutes on foot from the lane. The walk from Princes Street is similar. From the phone icon on the map, the lane is to the north, about 2 minutes on foot. The phone icon on the map is about 55 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "There are no stations or tram stops listed close by, so start from Waverley station, which is about 20 minutes on foot from the lane. The walk from Princes Street is similar. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the classic view along the curve. Try 2x if your phone has it, which pulls the clock tower closer. Use the ultra-wide (0.5x) only for a low shot of the cobbles and flowers, as it makes the tower look small.",
-    "where_to_stand": "Stand about 55 m south of the subject, on North West Circus Place (the phone icon on the map), and face north. At the end where the lane opens out, and face back along the curve towards the church. From here you see the curve of the cobbled lane, the mews houses and flower displays, with St Stephen's church and its clock tower in the background.",
+    "where_to_stand": "Stand on North West Circus Place (the end where the lane opens out, facing back along the curve toward the church). The curve of the cobbled lane, the mews houses and flower displays, with St Stephen's church and its clock tower in the background. At the end where the lane opens out, and face back along the curve towards the church. From here you see the curve of the cobbled lane, the mews houses and flower displays, with St Stephen's church and its clock tower in the background.",
     "how_to_frame": "Turn on the gridlines and place the lane's curve on one side of the frame, with the clock tower near the upper third. Keep your phone level so the houses stay upright. For a different version, walk to the junction and photograph the clock tower framed over the lane, or try the Stockbridge end, which another guide prefers.",
     "phone_settings_tip": "Tap on the cobbles or the houses to set focus, then drag the exposure slider down a little so the sky and tower keep their detail. Take a few shots in a row, and use a Live Photo if you want to choose a moment when no one is in the frame.",
     "best_time": "Early morning, around 7am to 9am, when there are fewer people."
@@ -829,6 +844,7 @@
   "in_cut": true,
   "label": "Dynamic Earth",
   "camera_pill": null,
+  "nophone": false,
   "searches": 1880,
   "pin": [
    -3.174423,
@@ -882,6 +898,7 @@
   "in_cut": true,
   "label": "Canongate Kirk",
   "camera_pill": null,
+  "nophone": false,
   "searches": 460,
   "pin": [
    -3.1796202,
@@ -935,6 +952,7 @@
   "in_cut": true,
   "label": "Queen Mary's Bath House",
   "camera_pill": null,
+  "nophone": false,
   "searches": 180,
   "pin": [
    -3.174193,
@@ -989,6 +1007,7 @@
   "in_cut": true,
   "label": "Scotsman Steps",
   "camera_pill": null,
+  "nophone": false,
   "searches": 100,
   "pin": [
    -3.1885284,
@@ -1037,6 +1056,7 @@
   "in_cut": true,
   "label": "Scottish Parliament",
   "camera_pill": null,
+  "nophone": false,
   "searches": 0,
   "pin": [
    -3.174864,

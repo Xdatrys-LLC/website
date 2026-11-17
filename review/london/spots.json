@@ -4,26 +4,27 @@
   "name": "Buckingham Palace",
   "in_cut": true,
   "label": "Buckingham Palace",
-  "camera_pill": "near Queens Gardens",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 211650,
   "pin": [
    -0.1426584,
    51.5008342
   ],
   "camera": [
-   -0.1403156,
-   51.5021297
+   -0.1426584,
+   51.5008342
   ],
   "camera_source": "Commons cluster (146 photos). Moved 87 m outwards on 2026-11-10 so it is 130 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/5208404: the middle of the OpenStreetMap outline 'Buckingham Palace' (310 m across).",
   "notes": "Changing of the Guard happens here (days not checked).",
   "text": {
-   "description": "Buckingham Palace is the official London residence and administrative headquarters of the monarch, and it is one of the easiest big buildings to photograph on the map. The long, pale stone front fits neatly into a phone frame, and the open space in front gives you room to step back. The palace grew from Buckingham House, a large townhouse built in 1703 for the Duke of Buckingham and Normanby. George III bought it in 1761, and in the early 19th century the architects John Nash and Edward Blore enlarged it around a central courtyard. The East Front, the part with the balcony where the royal family traditionally greets the crowds, was one of the last major additions. The palace has 775 rooms, and its garden is the largest private garden in London. The phone icon on the map is about 130 m north-east of the subject. From there you look south-west towards the building and can get the whole width in one shot, with the balcony, flagpole and any guards or crowds adding life to the frame. Expect other visitors in your picture, especially around ceremonial events. Take a few frames at different zoom levels, then check them on screen for tilted rooflines. Some of the palace's state rooms open to visitors in summer, so check the official site before you go if you want to go inside.",
+   "description": "Buckingham Palace is the official London residence and administrative headquarters of the monarch, and it is one of the easiest big buildings to photograph on the map. The long, pale stone front fits neatly into a phone frame, and the open space in front gives you room to step back. The palace grew from Buckingham House, a large townhouse built in 1703 for the Duke of Buckingham and Normanby. George III bought it in 1761, and in the early 19th century the architects John Nash and Edward Blore enlarged it around a central courtyard. The East Front, the part with the balcony where the royal family traditionally greets the crowds, was one of the last major additions. The palace has 775 rooms, and its garden is the largest private garden in London. From there you look south-west towards the building and can get the whole width in one shot, with the balcony, flagpole and any guards or crowds adding life to the frame. Expect other visitors in your picture, especially around ceremonial events. Take a few frames at different zoom levels, then check them on screen for tilted rooflines. Some of the palace's state rooms open to visitors in summer, so check the official site before you go if you want to go inside.",
    "geographic_location": "Buckingham Palace is in the City of Westminster, in central London.",
-   "directions_text": "Start at Victoria Underground station (Circle line, District line and Victoria line) and head north. The palace is about 487 metres away, which is about 8 minutes on foot. The phone icon on the map is about 130 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Victoria Underground station (Circle line, District line and Victoria line) and head north. The palace is about 487 metres away, which is about 8 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the full front of the palace. If you are close and the building will not fit, switch to the ultra-wide (0.5x). Use the telephoto (2x-5x, depending on your phone) for details such as the balcony, the roofline or the flag.",
-    "where_to_stand": "Stand about 130 m north-east of the subject, at the phone icon on the map, and face south-west.",
+    "where_to_stand": "Stand on The Mall (looking west from the eastern end, toward the palace). A tree-lined view down the avenue with the Queen Victoria Memorial and the palace in the distance, including the flower beds.",
     "how_to_frame": "Turn on the gridlines and line up the palace's horizontal edges with them so the building does not lean. Keep the phone level and at chest height, and leave some foreground, such as the open space, railings or people, to give a sense of scale. For a tighter shot, zoom to 2x or 3x and frame just the central balcony.",
     "phone_settings_tip": "Tap on the palace front to set focus, then slide the exposure down a touch if the sky is bright, so the pale stone keeps its detail. Take a couple of shots in quick succession when people or flags are moving, and pick the sharpest.",
     "best_time": "Early in the day is usually quieter, which gives you a cleaner view with fewer people in front of the palace. If you want a livelier picture, ceremonial events draw crowds, but you will have less room, so check the official site for dates."
@@ -61,6 +62,7 @@
   "in_cut": true,
   "label": "Big Ben",
   "camera_pill": "near Public Stairs",
+  "nophone": false,
   "searches": 196650,
   "pin": [
    -0.1245735,
@@ -116,26 +118,27 @@
   "name": "Tower of London",
   "in_cut": true,
   "label": "Tower of London",
-  "camera_pill": "near Petty Wales",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 126200,
   "pin": [
    -0.0760976,
    51.5081557
   ],
   "camera": [
-   -0.0788537,
-   51.5087307
+   -0.0760976,
+   51.5081557
   ],
   "camera_source": "Commons cluster (60 photos). Moved 61 m outwards on 2026-11-10 so it is 95 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/370870741: the middle of the OpenStreetMap outline 'Tower of London' (327 m across).",
   "notes": "",
   "text": {
-   "description": "The Tower of London is a medieval castle on the north bank of the Thames, and it makes a good subject because so many different shapes sit together: the pale White Tower in the middle, ringed by lower towers and walls. William the Conqueror built the White Tower in 1078, and it still rises about 27 metres at its southern battlements. The castle was later extended with two rings of defensive walls, and the whole site covers almost 12 acres. Over the centuries it has been a royal palace, a prison, an armoury, a treasury and the home of the Crown Jewels. Today it is a World Heritage Site, cared for by the charity Historic Royal Palaces.\n\nThe phone icon on the map is about 95 m west of the subject. That is far enough to fit a good part of the walls and towers into one frame, and near enough to pick out the stonework. The mix of old stone, battlements and the open space in front gives you layers to work with, which suits a phone camera well. Try one wide shot to show the scale, then a closer one of a single tower or section of wall. Keep your phone straight so the vertical walls don't lean, and take a few frames, as people often walk through the foreground.",
+   "description": "The Tower of London is a medieval castle on the north bank of the Thames, and it makes a good subject because so many different shapes sit together: the pale White Tower in the middle, ringed by lower towers and walls. William the Conqueror built the White Tower in 1078, and it still rises about 27 metres at its southern battlements. The castle was later extended with two rings of defensive walls, and the whole site covers almost 12 acres. Over the centuries it has been a royal palace, a prison, an armoury, a treasury and the home of the Crown Jewels. Today it is a World Heritage Site, cared for by the charity Historic Royal Palaces.\n\nThat is far enough to fit a good part of the walls and towers into one frame, and near enough to pick out the stonework. The mix of old stone, battlements and the open space in front gives you layers to work with, which suits a phone camera well. Try one wide shot to show the scale, then a closer one of a single tower or section of wall. Keep your phone straight so the vertical walls don't lean, and take a few frames, as people often walk through the foreground.",
    "geographic_location": "The Tower of London stands on the north bank of the River Thames in the London Borough of Tower Hamlets. It sits just east of the City of London, beyond the open space of Tower Hill.",
-   "directions_text": "Start at Tower Hill Underground station (Circle line and District line), which is about 3 minutes on foot from the Tower, with the castle to the south. Tower Gateway (DLR, the Docklands Light Railway) is about 5 minutes on foot away, with the Tower to the south-west. The phone icon on the map is about 95 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Tower Hill Underground station (Circle line and District line), which is about 3 minutes on foot from the Tower, with the castle to the south. Tower Gateway (DLR, the Docklands Light Railway) is about 5 minutes on foot away, with the Tower to the south-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the whole scene. Switch to ultra-wide (0.5x) if you want more of the walls and the sky in the frame. Use telephoto (2x-5x, depending on your phone) to pick out the White Tower, battlements or a single turret from where you stand.",
-    "where_to_stand": "Stand about 95 m west of the subject, at the phone icon on the map, and face east. From here you can see the walls and towers together without much of the foreground getting in the way.",
+    "where_to_stand": "Stand in Trinity Square Gardens (south-facing part of the gardens at the top of Tower Hill). The Tower's stone turrets and medieval walls framed by greenery and lampposts in the foreground. From here you can see the walls and towers together without much of the foreground getting in the way.",
     "how_to_frame": "Turn on gridlines and line the tops of the walls up with a horizontal line, so the towers don't lean. Leave a little space around the top of the highest tower rather than cropping tight. For a second shot, zoom in on one tower and let the stone texture fill the frame.",
     "phone_settings_tip": "Tap on the stonework to set focus, then slide the exposure down a touch if the sky is bright and the walls look dark. Panorama mode can work for the long line of walls, but hold the phone steady and wait for passers-by to clear.",
     "best_time": "Early morning or late afternoon usually gives softer light on the stone and fewer people in the frame. Check the weather first, as an overcast day can flatten the stone but also gives even light with no harsh shadows."
@@ -172,6 +175,7 @@
   "in_cut": true,
   "label": "London Eye",
   "camera_pill": null,
+  "nophone": false,
   "searches": 94000,
   "pin": [
    -0.1196765,
@@ -227,15 +231,16 @@
   "name": "Borough Market",
   "in_cut": true,
   "label": "Borough Market",
-  "camera_pill": "near Park Street",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 82150,
   "pin": [
    -0.090417,
    51.505612
   ],
   "camera": [
-   -0.0921675,
-   51.5053299
+   -0.090417,
+   51.505612
   ],
   "camera_source": "Commons cluster (50 photos). Moved 56 m outwards on 2026-11-10 so it is 70 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/24282400: the middle of the OpenStreetMap outline 'Borough Market' (221 m across).",
@@ -243,10 +248,10 @@
   "text": {
    "description": "Borough Market is one of London's oldest and largest food markets, and it is a rewarding place for phone photos because so much happens in a small area. Stalls piled with fruit, cheese, bread and pastries sit under Victorian roofs and railway arches, with trains passing overhead. A market has stood on or near this site since at least the 12th century, although the present buildings date from the 1850s. The main design was by Henry Rose in 1851, and an Art Deco entrance was added on Southwark Street in 1932. One detail worth looking for is the South Portico, which came from the Floral Hall at Covent Garden and was re-erected here in 2004. It is now Grade II listed. The market also trades beneath the arches of the railway viaduct, which gives you strong lines, dark arches and bright stall displays in the same frame. It has appeared in films including Bridget Jones's Diary. For photos, start with a wide view to show the roofs and the busy walkways, then move in on colourful produce. Stalls are close together, so step to the side of the walkway before you stop to shoot, and ask a stallholder before taking a close photo of them. The retail market is closed on Mondays, so plan your visit for another day.",
    "geographic_location": "Borough Market is in Southwark, on the south bank of the Thames, just south of Southwark Cathedral and close to the southern end of London Bridge. It lies between Borough High Street and Southwark Street, and London Bridge Underground station is only a short walk away. The map marks the middle of the market's outline, which is about 221 m across.",
-   "directions_text": "Start at London Bridge Underground station (Jubilee line and Northern line) and walk west to the market, about 2 minutes on foot. Alternatively, from Borough Underground station (Northern line), the market is to the north, about 9 minutes on foot. The phone icon on the map is about 70 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at London Bridge Underground station (Jubilee line and Northern line) and walk west to the market, about 2 minutes on foot. Alternatively, from Borough Underground station (Northern line), the market is to the north, about 9 minutes on foot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the roofs, arches and crowds. Then switch to the default lens (1x) for stalls and signs, and use the telephoto (2x-5x, depending on your phone) for details such as pastries or cheeses from a polite distance.",
-    "where_to_stand": "Stand about 70 m west of the subject, at the phone icon on the map, and face east. Keep to the edge of the walkway so you do not block people.",
+    "where_to_stand": "Stand right at the subject (under the Victorian iron-and-glass roof, shooting up at the structure). The market's wrought-iron and glass roof framing the stalls, with light falling through in shafts. Keep to the edge of the walkway so you do not block people.",
     "how_to_frame": "Turn on the gridlines and use the lines of the roof and arches to lead the eye into the picture. Include a stall in the foreground to add colour and a sense of scale. For food close-ups, move closer or use the telephoto lens rather than leaning over the stall.",
     "phone_settings_tip": "Tap on a bright part of the scene to focus, then lower the exposure slider a little so the lit stalls do not wash out against the darker arches. Portrait mode suits single items of food. If a covered area is dim, try night mode and hold the phone steady against your body or a post.",
     "best_time": "Visit earlier in the day, when the walkways are usually quieter and you have more room to frame a shot. Come on any day except Monday, when the retail market is closed."
@@ -283,6 +288,7 @@
   "in_cut": true,
   "label": "Covent Garden",
   "camera_pill": "Covent Garden Piazza",
+  "nophone": false,
   "searches": 72200,
   "pin": [
    -0.1227216,
@@ -340,6 +346,7 @@
   "in_cut": true,
   "label": "Tower Bridge",
   "camera_pill": "near Tower Bridge",
+  "nophone": false,
   "searches": 64800,
   "pin": [
    -0.0753662,
@@ -396,6 +403,7 @@
   "in_cut": true,
   "label": "The Shard",
   "camera_pill": null,
+  "nophone": false,
   "searches": 64350,
   "pin": [
    -0.0864382,
@@ -453,6 +461,7 @@
   "in_cut": true,
   "label": "British Museum",
   "camera_pill": null,
+  "nophone": false,
   "searches": 59300,
   "pin": [
    -0.1268767,
@@ -502,26 +511,27 @@
   "name": "Victoria and Albert Museum",
   "in_cut": true,
   "label": "V&A",
-  "camera_pill": "near Thurloe Place",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 56150,
   "pin": [
    -0.1721152,
    51.4969111
   ],
   "camera": [
-   -0.1697532,
-   51.4965957
+   -0.1721152,
+   51.4969111
   ],
   "camera_source": "Commons cluster (127 photos). Moved 118 m outwards on 2026-11-10 so it is 50 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap relation/29795: the middle of the OpenStreetMap outline 'Victoria and Albert Museum' (316 m across).",
   "notes": "",
   "text": {
-   "description": "The Victoria and Albert Museum, usually called the V&A, is the world's largest museum of applied arts, decorative arts and design, with a collection of more than 2.8 million objects. The South Kensington site covers 12.5 acres and has over 145 galleries. That is far too much to cover in one visit, so a few well-chosen pictures work better than trying to photograph everything.\n\nThe story behind the place adds interest to your photos. The museum grew out of the Government School of Design, set up in 1832, and moved to this part of London in 1857. Queen Victoria officially opened it on 20 June 1857. Henry Cole even persuaded the authorities to rename the area South Kensington, because the old name, Brompton, was thought unattractive.\n\nFrom the phone icon on the map you can take in the museum's frontage and its surroundings in one go. Stand back, keep the building square to you, and use the gridlines to keep the vertical lines straight. Then step closer for details such as doorways, stonework and people passing through the entrance. Inside, galleries are often dimly lit, so hold the phone steady against your body or a wall.\n\nEntrance to the museum is free. Even so, check the official site before you go for current access and any special exhibitions.",
+   "description": "The Victoria and Albert Museum, usually called the V&A, is the world's largest museum of applied arts, decorative arts and design, with a collection of more than 2.8 million objects. The South Kensington site covers 12.5 acres and has over 145 galleries. That is far too much to cover in one visit, so a few well-chosen pictures work better than trying to photograph everything.\n\nThe story behind the place adds interest to your photos. The museum grew out of the Government School of Design, set up in 1832, and moved to this part of London in 1857. Queen Victoria officially opened it on 20 June 1857. Henry Cole even persuaded the authorities to rename the area South Kensington, because the old name, Brompton, was thought unattractive.\n\nStand back, keep the building square to you, and use the gridlines to keep the vertical lines straight. Then step closer for details such as doorways, stonework and people passing through the entrance. Inside, galleries are often dimly lit, so hold the phone steady against your body or a wall.\n\nEntrance to the museum is free. Even so, check the official site before you go for current access and any special exhibitions.",
    "geographic_location": "The museum is in South Kensington, in the Royal Borough of Kensington and Chelsea, in London. It sits in the area that Prince Albert planned as a group of museums and colleges.",
-   "directions_text": "Start at South Kensington station (Circle, District and Piccadilly lines on the Underground). The museum is about 5 minutes on foot from the station (about 326 m), to the north. If you are coming from Gloucester Road station (also Circle, District and Piccadilly lines on the Underground), the museum is to the east, about 14 minutes on foot (about 853 m). The phone icon on the map is about 50 m east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at South Kensington station (Circle, District and Piccadilly lines on the Underground). The museum is about 5 minutes on foot from the station (about 326 m), to the north. If you are coming from Gloucester Road station (also Circle, District and Piccadilly lines on the Underground), the museum is to the east, about 14 minutes on foot (about 853 m). The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for a natural view of the building. Switch to ultra-wide (0.5x) if you are close and the frontage will not fit. Use the telephoto lens (2x-5x, depending on your phone) for carvings, windows and other details.",
-    "where_to_stand": "Stand about 50 m east of the subject, at the phone icon on the map, and face west.",
+    "where_to_stand": "Stand right at the subject (in front of the main entrance facade, Cromwell Road frontage). The terracotta main facade with the central tower and crown spire, framed straight-on from the pavement across Cromwell Road.",
     "how_to_frame": "Switch on the gridlines and line up the building's vertical edges with them so the walls do not lean. Leave a little space at the bottom for people walking past, which gives a sense of scale. Then take a closer, tighter shot of one detail.",
     "phone_settings_tip": "Tap the building to focus, then slide the exposure down a little if the sky is bright, so the stonework does not wash out. In dim galleries, let night mode work and keep the phone still until it finishes.",
     "best_time": "Soft morning or late-afternoon light is usually kinder to the building than harsh midday sun. Arriving early also tends to mean fewer people in your shots."
@@ -553,6 +563,7 @@
   "in_cut": true,
   "label": "Trafalgar Square",
   "camera_pill": null,
+  "nophone": false,
   "searches": 50000,
   "pin": [
    -0.12793,
@@ -610,6 +621,7 @@
   "in_cut": true,
   "label": "Piccadilly Circus",
   "camera_pill": "near Piccadilly Circus",
+  "nophone": false,
   "searches": 41700,
   "pin": [
    -0.1344859,
@@ -667,15 +679,16 @@
   "name": "Tate Modern",
   "in_cut": true,
   "label": "Tate Modern",
-  "camera_pill": "near Castle Yard",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 33250,
   "pin": [
    -0.0995125,
    51.5075455
   ],
   "camera": [
-   -0.1013502,
-   51.5067931
+   -0.0995125,
+   51.5075455
   ],
   "camera_source": "Commons cluster (65 photos). Moved 93 m outwards on 2026-11-10 so it is 60 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/24642569: the middle of the OpenStreetMap outline 'Tate Modern' (211 m across).",
@@ -683,10 +696,10 @@
   "text": {
    "description": "Tate Modern is the national gallery of international modern and contemporary art, and it sits inside the former Bankside Power Station on the south bank of the Thames. That is why it photographs so well: the building is a huge, plain brick block with a tall central chimney, and it looks more like a cathedral of industry than a gallery. Sir Giles Gilbert Scott designed the power station, and it was built in two stages between 1947 and 1963. It was about 200 m long, and the chimney stands 99 m high. The power station closed in 1981, and the gallery opened in the converted building on 11 May 2000. A ten-storey tower, 65 m high, was added on the south side and opened in 2016. It has a sloping brick-latticework face that echoes the old brickwork, so you can get old and new in one picture. The building is directly across the river from St Paul's Cathedral. Step back as far as the space allows and shoot upwards to include the chimney. Look for strong vertical and horizontal lines, such as brick edges and the glass roof extension, and use them to keep your picture tidy. People walking past give a useful sense of scale. Inside is a separate matter, as the rules for photography and tickets can change, so check the official site before you go.",
    "geographic_location": "Tate Modern is in the Bankside area of the London Borough of Southwark, on the south bank of the Thames. It is directly across the river from St Paul's Cathedral. The map places its centre at about 51.5075 N, 0.0995 W, in the middle of the building's outline, which is about 211 m across.",
-   "directions_text": "Start at Blackfriars Underground station (Circle line and District line), about 537 m from the middle of the gallery, which is about 9 minutes on foot. Head south-east from the station. Mansion House Underground station (the same two lines) is also close, about 566 m away, which is about 9 minutes on foot, and the gallery is to its south-west. Once you are near, the tall brick chimney is easy to spot. The phone icon on the map is about 60 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Blackfriars Underground station (Circle line and District line), about 537 m from the middle of the gallery, which is about 9 minutes on foot. Head south-east from the station. Mansion House Underground station (the same two lines) is also close, about 566 m away, which is about 9 minutes on foot, and the gallery is to its south-west. Once you are near, the tall brick chimney is easy to spot. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the whole long brick front, then switch to the default lens (1x) for a more natural view. Use telephoto (2x-5x, depending on your phone) for details such as the brickwork pattern or the top of the chimney.",
-    "where_to_stand": "Stand about 60 m south-west of the subject, at the phone icon on the map, and face north-east. If you can, step back a few paces to fit in more of the height.",
+    "where_to_stand": "Stand on Millennium Bridge (south (Bankside) end of the bridge, facing back toward the museum). Tate Modern's brick chimney and glass walls framed by the bridge's railings, with the river in the foreground. If you can, step back a few paces to fit in more of the height.",
     "how_to_frame": "Turn on gridlines and keep the chimney straight and upright so the building does not seem to lean. Tilt the phone up only as much as you need to, because tilting too far makes the walls slope inwards. Leave some sky above the chimney, and include a few passers-by at the bottom of the frame to show how big the building is.",
     "phone_settings_tip": "Tap the brick wall to focus, then drag the exposure slider down slightly so the sky does not turn white. If you want the full width, try panorama mode and move the phone slowly and level.",
     "best_time": "Early morning or late afternoon usually gives softer light on the brick and fewer people in the foreground. If you are there at dusk, try night mode and hold the phone steady against something solid."
@@ -725,26 +738,27 @@
   "name": "Harrods",
   "in_cut": true,
   "label": "Harrods",
-  "camera_pill": "near Brompton Road",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 32300,
   "pin": [
    -0.1629066,
    51.4991858
   ],
   "camera": [
-   -0.1636085,
-   51.4997214
+   -0.1629066,
+   51.4991858
   ],
   "camera_source": "Commons cluster (32 photos). Moved 65 m outwards on 2026-11-10 so it is 10 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/25739565: the middle of the OpenStreetMap outline 'Harrods' (239 m across).",
   "notes": "A department store: most searches are shopping; the lit-up front is the photo subject. Doubtful as a photo-spot figure.",
   "text": {
-   "description": "Harrods is the big department store on Brompton Road in Knightsbridge, and its sheer scale is what makes it so photogenic. The building was designed by C. W. Stephens for Charles Digby Harrod and opened in 1905. It stands on the site where his father, Charles Henry Harrod, took over a small shop in 1849, and an earlier store there was destroyed by fire. Today it is described as the largest department store in Europe, with around 1.1 million square feet of selling space, and its building has been Grade II* listed since 1969. About 15 million people were said to visit each year as of 2023, so expect people in the foreground of most shots.\n\nThe phone icon on the map is about 10 m north-west of the subject. From there you can take in a good stretch of the long frontage, with the repeating windows and ornate stonework giving the picture a strong rhythm. Keep your phone level so the vertical lines stay straight. Include a little street life, such as a passing bus or people on the pavement, to give a sense of scale and of the busy Knightsbridge setting. Then step closer for a second, tighter shot of one section of the façade, a doorway or a window display.\n\nThe store is a working shop, so only photograph from public pavements unless you have checked the rules for going inside.",
+   "description": "Harrods is the big department store on Brompton Road in Knightsbridge, and its sheer scale is what makes it so photogenic. The building was designed by C. W. Stephens for Charles Digby Harrod and opened in 1905. It stands on the site where his father, Charles Henry Harrod, took over a small shop in 1849, and an earlier store there was destroyed by fire. Today it is described as the largest department store in Europe, with around 1.1 million square feet of selling space, and its building has been Grade II* listed since 1969. About 15 million people were said to visit each year as of 2023, so expect people in the foreground of most shots.\n\nFrom there you can take in a good stretch of the long frontage, with the repeating windows and ornate stonework giving the picture a strong rhythm. Keep your phone level so the vertical lines stay straight. Include a little street life, such as a passing bus or people on the pavement, to give a sense of scale and of the busy Knightsbridge setting. Then step closer for a second, tighter shot of one section of the façade, a doorway or a window display.\n\nThe store is a working shop, so only photograph from public pavements unless you have checked the rules for going inside.",
    "geographic_location": "Harrods sits on Brompton Road in Knightsbridge, London, a short walk from Knightsbridge Underground station and near Hyde Park.",
-   "directions_text": "Start at Knightsbridge Underground station (Piccadilly line). Harrods is about 4 minutes on foot, to the south-west of the station. From Hyde Park Corner Underground station (Piccadilly line) it is about 12 minutes on foot, with the store again to the south-west. The phone icon on the map is about 10 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at Knightsbridge Underground station (Piccadilly line). Harrods is about 4 minutes on foot, to the south-west of the station. From Hyde Park Corner Underground station (Piccadilly line) it is about 12 minutes on foot, with the store again to the south-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the most natural-looking building, with the least bending of the edges. Switch to ultra-wide (0.5x) only if pavement crowds or the distance stop you fitting the whole frontage in. Use telephoto (2x-5x, depending on your phone) for details such as window displays and stonework.",
-    "where_to_stand": "Stand about 10 m north-west of the subject, at the phone icon on the map, and face south-east. Keep your back to the road as far as the pavement safely allows, and don't step into traffic for a better angle.",
+    "where_to_stand": "Stand at the corner of Brompton Road and Hans Road (pavement on the opposite side of Brompton Road from the store, at the crossing near the Harrods corner). A wide-angle view of the full Brompton Road facade, with the store lit up in the evening and the street and traffic in the foreground. Keep your back to the road as far as the pavement safely allows, and don't step into traffic for a better angle.",
     "how_to_frame": "Turn on your gridlines and line up the building's vertical edges with them. Hold the phone level and at chest height to avoid leaning walls. Leave a little pavement and street in the bottom of the frame to give a sense of scale, then take a second shot with telephoto on a single section of façade.",
     "phone_settings_tip": "Tap the brightest part of the stonework to focus, then drag the exposure slider down slightly so the pale façade keeps its detail and the sky doesn't wash out. After dark, hold the phone steady against a wall or railing and let night mode do its work.",
     "best_time": "Early morning usually means fewer people on the pavement. Late afternoon gives softer light on the stonework, and after dark the building is lit up, which suits night mode."
@@ -786,6 +800,7 @@
   "in_cut": true,
   "label": "Camden Market",
   "camera_pill": "Regent's Canal towpath",
+  "nophone": false,
   "searches": 30300,
   "pin": [
    -0.14638889,
@@ -838,6 +853,7 @@
   "in_cut": true,
   "label": "Notting Hill",
   "camera_pill": "near Portobello Road",
+  "nophone": false,
   "searches": 24250,
   "pin": [
    -0.2051174,
@@ -892,6 +908,7 @@
   "in_cut": true,
   "label": "Sky Garden",
   "camera_pill": null,
+  "nophone": false,
   "searches": 23700,
   "pin": [
    -0.0835443,
@@ -949,6 +966,7 @@
   "in_cut": true,
   "label": "Battersea Power Stn",
   "camera_pill": null,
+  "nophone": false,
   "searches": 22950,
   "pin": [
    -0.1445412,
@@ -1005,6 +1023,7 @@
   "in_cut": true,
   "label": "Natural History Museum",
   "camera_pill": null,
+  "nophone": false,
   "searches": 21750,
   "pin": [
    -0.1762089,
@@ -1060,15 +1079,16 @@
   "name": "St Paul's Cathedral",
   "in_cut": true,
   "label": "St Paul's",
-  "camera_pill": "near Creed Lane",
+  "camera_pill": null,
+  "nophone": true,
   "searches": 21500,
   "pin": [
    -0.0984789,
    51.5137736
   ],
   "camera": [
-   -0.1010628,
-   51.5137136
+   -0.0984789,
+   51.5137736
   ],
   "camera_source": "Commons cluster (101 photos). Moved 58 m outwards on 2026-11-10 so it is 100 m from the subject's edge, as the text says.",
   "pin_note": "Position from OpenStreetMap way/369161987: the middle of the OpenStreetMap outline 'St Paul's Cathedral' (179 m across).",
@@ -1076,10 +1096,10 @@
   "text": {
    "description": "St Paul's Cathedral is the big domed church on Ludgate Hill, the highest point of the City of London. Sir Christopher Wren designed it in the English Baroque style, and it was completed in 1710 as part of the rebuilding after the Great Fire of London. The cathedral is 111 m (365 ft) high, topped by its dome. It was the tallest building in London from 1710 to 1963 and is still counted among the highest domes in the world. That height and the pale stonework make it easy to recognise, and it is a gift for a phone camera because the shape reads clearly even in a small frame.\n\nThe distance gives you room to fit a lot of the building in one shot, with the dome rising behind the front. The main challenge is size: up close, the building is too tall for a single frame unless you use a wide lens and tilt the phone upwards. Stepping back is usually better than leaning back. Keep the phone upright and level, and use the gridlines to stop the columns leaning inwards. People will walk through your picture, so take a few frames and pick the one with the cleanest foreground.\n\nThe cathedral is a working church with daily services, so be quiet and respectful near the doors. Photography inside may be restricted, so check the official site before you go.",
    "geographic_location": "St Paul's Cathedral stands on Ludgate Hill in the City of London, at the highest point of the old city, with the middle of its outline at about 51.51377° N, 0.09848° W.",
-   "directions_text": "Start at St. Paul's Underground station on the Central line; the cathedral is about 3 minutes on foot, to the south of the station. From Mansion House Underground station (Circle and District lines) it is about 5 minutes on foot, heading north-west. The phone icon on the map is about 100 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start at St. Paul's Underground station on the Central line; the cathedral is about 3 minutes on foot, to the south of the station. From Mansion House Underground station (Circle and District lines) it is about 5 minutes on foot, heading north-west. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) from where you stand. Switch to ultra-wide (0.5x) if you move closer and the top of the dome will not fit. Use telephoto (2x-5x, depending on your phone) for details such as the dome or the carved stonework.",
-    "where_to_stand": "Stand about 100 m west of the subject, at the phone icon on the map, and face east.",
+    "where_to_stand": "Stand on Millennium Bridge (Southbank end, standing just left of the bridge in front of Tate Modern, looking north). The cathedral's dome sits at the far end of the bridge's straight line, with the Thames and the bridge's steel lines framing it.",
     "how_to_frame": "Turn on gridlines and line up the columns and towers with the vertical lines so the building does not lean. Keep the dome in the upper part of the frame and leave some open ground at the bottom for scale. Try one wide shot and one closer shot with the telephoto.",
     "phone_settings_tip": "Tap the pale stonework to focus, then slide the exposure down a little so the stone keeps its detail against a bright sky. Panorama mode is worth trying if you stay at this distance, but hold the phone upright and turn slowly.",
     "best_time": "Early morning usually has fewer people. In the afternoon or at golden hour the west front may catch warmer light. In dim light, use night mode and brace your elbows against your body to keep the phone steady."
@@ -1118,6 +1138,7 @@
   "in_cut": false,
   "label": "Westminster Abbey",
   "camera_pill": null,
+  "nophone": false,
   "searches": 474700,
   "pin": [
    -0.1275,
@@ -1149,6 +1170,7 @@
   "in_cut": false,
   "label": "Canary Wharf",
   "camera_pill": "near Jubilee Plaza",
+  "nophone": false,
   "searches": 469400,
   "pin": [
    -0.0225,
@@ -1180,6 +1202,7 @@
   "in_cut": false,
   "label": "Primrose Hill",
   "camera_pill": "Primrose Hill Road",
+  "nophone": false,
   "searches": 310500,
   "pin": [
    -0.1608,
@@ -1211,6 +1234,7 @@
   "in_cut": false,
   "label": "Leadenhall Market",
   "camera_pill": "near Leadenhall Street",
+  "nophone": false,
   "searches": 263580,
   "pin": [
    -0.0835,
@@ -1242,6 +1266,7 @@
   "in_cut": false,
   "label": "St James's Park",
   "camera_pill": "near Horse Guards Road",
+  "nophone": false,
   "searches": 258080,
   "pin": [
    -0.135,
@@ -1273,6 +1298,7 @@
   "in_cut": false,
   "label": "Somerset House",
   "camera_pill": "The Edmond J. Safra Fo",
+  "nophone": false,
   "searches": 256500,
   "pin": [
    -0.1178,
@@ -1304,6 +1330,7 @@
   "in_cut": false,
   "label": "Kensington Palace",
   "camera_pill": "near Studio Walk",
+  "nophone": false,
   "searches": 243900,
   "pin": [
    -0.18833333,
@@ -1335,6 +1362,7 @@
   "in_cut": false,
   "label": "Greenwich",
   "camera_pill": "near St Alfege Passage",
+  "nophone": false,
   "searches": 224400,
   "pin": [
    -0.0147,
@@ -1366,6 +1394,7 @@
   "in_cut": false,
   "label": "Marble Arch",
   "camera_pill": "near Cumberland Gate",
+  "nophone": false,
   "searches": 216300,
   "pin": [
    -0.15888,
@@ -1397,6 +1426,7 @@
   "in_cut": false,
   "label": "Millennium Bridge",
   "camera_pill": "near Millennium Bridge",
+  "nophone": false,
   "searches": 145100,
   "pin": [
    -0.098438,
@@ -1428,6 +1458,7 @@
   "in_cut": false,
   "label": "Hyde Park",
   "camera_pill": "near Serpentine Road",
+  "nophone": false,
   "searches": 76500,
   "pin": [
    -0.16361111,
@@ -1459,6 +1490,7 @@
   "in_cut": false,
   "label": "Abbey Road",
   "camera_pill": "near Abbey Road",
+  "nophone": false,
   "searches": 51880,
   "pin": [
    -0.17833333,
