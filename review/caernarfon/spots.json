@@ -178,15 +178,15 @@
   "nophone": true,
   "searches": 50,
   "pin": [
-   -4.2663,
-   53.1381
+   -4.2767906,
+   53.1409099
   ],
   "camera": [
-   -4.2663,
-   53.1381
+   -4.2767906,
+   53.1409099
   ],
   "camera_source": "Researched viewpoint 'Hole In the Wall Street' (1 web pages); placed at our map tiles: 'The Hole in the Wall' (pois); moved 5 m off buildings.",
-  "pin_note": "Position from the Wikipedia article 'Caernarfon town walls'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Medieval walls still enclosing the old town.",
   "text": {
    "description": "Caernarfon's town walls are easy to overlook next to the castle, which is part of their appeal. They form a nearly complete ring around the old town, built between 1283 and 1292 under Edward I at the same time as the castle. The circuit is 734 m long and includes eight towers and two medieval gatehouses. Today the walls are looked after by Cadw as part of the UNESCO World Heritage Site. This spot is a quieter view of the wall at Castle Ditch, near Hole In the Wall Street.\n\nThe walls photograph well because they are rough, weathered stonework with a lot of texture, and a close view shows how solid they are. They also carry a good story. They were badly damaged in the 1294 revolt and repaired the following year, and the town's defences later held out against Owain Glyndŵr's attacks in 1403 and 1404. Houses once crowded against the walls and hid them in many places, so a clear stretch like this is worth a few frames.\n\nKeep the wall as your main subject. Use the line of the stonework to lead the eye along the frame, and include a doorway, a window or a passer-by for scale. If you want a wider picture afterwards, the Aber Swing Bridge shows the castle, town walls and harbour together, and Greengate Street has another stretch of wall running beside the road.",
@@ -209,9 +209,7 @@
     "url": "https://en.wikipedia.org/wiki/Caernarfon_town_walls"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 766 m away (Caernarfon Town Walls): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/4.jpg",
@@ -277,9 +275,9 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 101,
   "name": "Porth yr Aur",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Porth yr Aur",
   "camera_pill": "near Sowth o Ffrans",
   "nophone": false,
@@ -327,7 +325,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/101.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",

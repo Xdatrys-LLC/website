@@ -32,6 +32,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "caernarfon",
+  "place": "Caernarfon",
+  "country": "United Kingdom",
+  "spots": 5,
+  "mb": 1.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "cardiff",
   "place": "Cardiff",
   "country": "United Kingdom",
