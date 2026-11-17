@@ -696,6 +696,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "santorini",
+  "place": "Santorini",
+  "country": "Greece",
+  "spots": 15,
+  "mb": 3.2,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "seoul",
   "place": "Seoul",
   "country": "South Korea",
