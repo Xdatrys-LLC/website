@@ -88,6 +88,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "detroit",
+  "place": "Detroit",
+  "country": "United States",
+  "spots": 20,
+  "mb": 9.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "dresden",
   "place": "Dresden",
   "country": "",
