@@ -58,19 +58,19 @@
   "name": "Church of St. Vitus",
   "in_cut": true,
   "label": "St. Vitus Church",
-  "camera_pill": null,
+  "camera_pill": "near Kostelní",
   "nophone": false,
   "searches": 90,
   "pin": [
-   14.31614,
-   48.81016
+   14.3161472,
+   48.8101353
   ],
   "camera": [
-   14.31584,
-   48.8104
+   14.3158024,
+   48.8103529
   ],
   "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-14).",
-  "pin_note": "Position from OpenStreetMap: svatý Vít: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "pin_note": "Position set at the correction gate (2026-11-17T21:04).",
   "notes": "",
   "text": {
    "description": "The Church of St. Vitus is a church in Český Krumlov, and the second-ranked spot on the Český Krumlov map.\n\nIf buildings are close by, use them to frame the church. Take one shot with the whole building in view, then step in and look for architectural details. If the church fills only part of the screen, use the zoom rather than walking into the road. Keep your phone upright for the taller parts of the building and turn it sideways if you want to show the church among its surroundings. Switch on the gridlines to keep the verticals straight. Tilting the phone upwards makes the walls lean inwards, so hold it level and crop later if you need to. If other visitors wander into the frame, wait a moment and take a few shots.",
@@ -94,9 +94,7 @@
   "checker_problems": 9,
   "code_check_failures": [],
   "sources": [],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/2.jpg",
