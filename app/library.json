@@ -64,6 +64,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "cusco",
+  "place": "Cusco",
+  "country": "Peru",
+  "spots": 12,
+  "mb": 2.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "dresden",
   "place": "Dresden",
   "country": "",

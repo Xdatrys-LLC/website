@@ -1,0 +1,907 @@
+{
+ "Sacsayhuamán": {
+  "rank": 1,
+  "card": {
+   "hook": "Plot twist: the most famous stone walls in Cusco are the background act here, and a big white statue gets top billing. Come up for the view, and the whole city is laid out below you.",
+   "stand_here": "Stand at Cristo Blanco, the hilltop viewpoint beside the statue, which is close by and south-east of the walls. Face out over Cusco and its valley, and keep the white statue off to one side.",
+   "zoom": "Use zoom 0.5x for the full valley with the statue close in the foreground, or zoom 1x for a more natural view of the city. Turn north-west and try zoom 2x to 5x (depending on your phone) to pick out the distant walls.",
+   "make_it_pop": "Tap the city, then drag the brightness slider down a touch (darker) so the sky keeps its colour at sunset.",
+   "best_time": "Sunset, according to guides. Get there a little early so you can find a spot and try a few framings.",
+   "selfie_here": "For a selfie, head into the site and try the top tier of the zigzag walls, with the stonework behind you. The carved rock staircase known as the Inca Throne also makes a good close-up backdrop. Use the front camera, and try zoom 0.5x to fit more stone over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the green central esplanade and frame you with the zigzag walls behind you.",
+   "rules_and_safety": "The archaeological site needs a ticket, so check the official site before you go. Photos or filming for commercial use need permission from the site authorities. Go slowly on the hill.",
+   "challenge": "Take one wide shot and one zoomed shot toward the walls, then see which one tells the better story of the day.",
+   "good_to_know": "Sacsayhuamán is an Inca citadel at about 3,701 metres, on a steep hill above Cusco. Its dry stone walls use huge blocks cut to fit tightly together without mortar. Cusco and Sacsayhuamán were listed together as a UNESCO World Heritage Site in 1983.",
+   "stand_here_before_gps_rule": "Stand at Cristo Blanco, the hilltop viewpoint beside the statue, which is close by and south-east of the walls. Face out over Cusco and its valley, and keep the white statue off to one side."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Upper section of the zigzag walls",
+     "detail": "on the top tier of the stone walls, with the stonework behind you",
+     "why": "A travel guide lists the upper section of the walls among the best photo spots at the site.",
+     "sources": [
+      {
+       "title": "What to see in Sacsayhuamán: recommended tour of terraces, walls and viewpoints - Marvelous Peru",
+       "url": "https://www.marvelousperu.com/en/blog-en/what-to-see-in-sacsayhuaman-recommended-tour-of-terraces-walls-and-viewpoints/"
+      }
+     ]
+    },
+    {
+     "name": "Inca Throne",
+     "detail": "on the carved rock staircase known as the Inca Throne, inside the complex",
+     "why": "This carved staircase in living rock is a distinctive, close-up backdrop that a photography-focused guide highlights.",
+     "sources": [
+      {
+       "title": "Sacsayhuaman: Emotion, History, and Panoramic Views - Conde Nast Traveler",
+       "url": "https://conde.travel/sacsayhuaman-emotion-history-panoramic-views-cusco/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Central esplanade",
+    "detail": "stand on the green esplanade in front of the zigzag walls and frame the visitor with the walls behind them",
+    "sources": [
+     {
+      "title": "What to see in Sacsayhuamán: recommended tour of terraces, walls and viewpoints - Marvelous Peru",
+      "url": "https://www.marvelousperu.com/en/blog-en/what-to-see-in-sacsayhuaman-recommended-tour-of-terraces-walls-and-viewpoints/"
+     },
+     {
+      "title": "Sacsayhuaman: Emotion, History, and Panoramic Views - Conde Nast Traveler",
+      "url": "https://conde.travel/sacsayhuaman-emotion-history-panoramic-views-cusco/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photos or filming for commercial use need permission from the site authorities.",
+     "sources": [
+      {
+       "title": "Sacsayhuaman for First-Timers 2026: What to See and How to Go - peruvian.travel",
+       "url": "https://www.peruvian.travel/sacsayhuaman-first-timers-2026/"
+      }
+     ]
+    }
+   ],
+   "safety": "Go slowly on the hill.",
+   "notes": "No page I found states a selfie stick or tripod rule for Sacsayhuamán. The selfie stick and tripod bans I found apply to Machu Picchu, so I left them out. The selfie spots come from single blog or guide pages, and none gives an exact camera direction, so the positions are approximate. The Inca Throne is described as a feature, not explicitly as a photo spot. The esplanade placement for the passer-by is my reading of the photo-spot list and the description of the zigzag walls on the esplanade."
+  },
+  "cost_usd": 0.0591,
+  "at": "2026-11-17 00:28"
+ },
+ "Coricancha": {
+  "rank": 2,
+  "card": {
+   "hook": "Picture a wall that was once covered in sheets of gold. Today it's dark, curved Inca stone with a colonial church sitting right on top, and that odd pairing is the whole charm.",
+   "stand_here": "Stand on the pavement of Avenida El Sol, facing the temple's street side. You want the curved Inca wall in front of you with the church and convent alongside it.",
+   "zoom": "Start at 1x to fit the curved wall and the church above it. If the pavement is too narrow to step back, switch to 0.5x. Then try 2x or more (depends on your phone) for close-ups of the tightly fitted stone blocks.",
+   "make_it_pop": "Turn on the gridlines and run the curve of the wall along a lower line, with the church rising above it.",
+   "best_time": "Go in the morning if you can, since soft morning light suits the garden terraces inside. Going earlier or later in the day also means fewer people and less traffic in your frame.",
+   "selfie_here": "Inside the site, stand beside the octagonal fountain in the central courtyard, with the arches and the church tower behind you. Use the front camera, try 0.5x if your phone has it, and let the stone and arches fill in over your shoulder. The garden terraces and stone steps are a good second spot.",
+   "ask_someone": "Hand your phone to a passer-by on the Avenida El Sol pavement, where they can see the whole temple, and stand with the curved wall behind you.",
+   "rules_and_safety": "Photography is generally allowed in the courtyards and Inca stonework areas, but not of the Cusco School paintings, and it's typically restricted inside the Church of Santo Domingo. Inside is a ticketed site, so check the official site for prices and opening hours, and that the garden and courtyard are open that day. On the pavement, keep your phone steady against your body and stay aware of the people around you.",
+   "challenge": "Find the spot where the dark Inca curve meets the colonial church, and get both in one shot without the building leaning.",
+   "good_to_know": "Coricancha means 'golden temple' in Quechua, and it was the most important temple of the Inca Empire. After the Spanish conquest it was largely taken apart, and its stones became the foundation of the Church and Convent of Santo Domingo, built in the 17th century after the 1650 earthquake. The Inca stone has stood through major earthquakes that damaged the church above it.",
+   "stand_here_before_gps_rule": "Stand on the pavement of Avenida El Sol, facing the temple's street side. You want the curved Inca wall in front of you with the church and convent alongside it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Qorikancha outdoor gardens (Gardens of the Sun)",
+     "detail": "on the terraces and the descending stone steps of the outdoor garden inside the site, with the temple walls around you",
+     "why": "Photo guides single out the garden terraces as a good setting, and soft morning light suits them.",
+     "sources": [
+      {
+       "title": "Exploring Cusco through the lens",
+       "url": "https://theartofphotographyisfun.blogspot.com/p/exploring-cusco-through-lens.html"
+      },
+      {
+       "title": "Qorikancha (Coricancha) Cusco: Inca Sun Temple Guide",
+       "url": "https://www.accesstravel.com/en-US/ViatorAttraction/Index/937/3366"
+      }
+     ]
+    },
+    {
+     "name": "Qorikancha courtyard by the octagonal fountain",
+     "detail": "in the central courtyard, standing beside the octagonal fountain with the arches and the church tower behind you",
+     "why": "Guides describe the courtyard's Inca stone walls and colonial arches as a strong backdrop for close shots.",
+     "sources": [
+      {
+       "title": "Exploring Cusco through the lens",
+       "url": "https://theartofphotographyisfun.blogspot.com/p/exploring-cusco-through-lens.html"
+      },
+      {
+       "title": "Qorikancha (Coricancha) Cusco: Inca Sun Temple Guide",
+       "url": "https://www.accesstravel.com/en-US/ViatorAttraction/Index/937/3366"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Avenida El Sol, the pavement facing the temple",
+    "detail": "on the Avenida El Sol side of the complex, where a passer-by can see the whole Inca temple and the garden side from the street",
+    "sources": [
+     {
+      "title": "Exploring Cusco through the lens",
+      "url": "https://theartofphotographyisfun.blogspot.com/p/exploring-cusco-through-lens.html"
+     },
+     {
+      "title": "Coricancha: The Inca Temple of the Sun in Cusco",
+      "url": "https://www.boletoperu.pe/travel-blog/coricancha-the-inca-temple-of-the-sun"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is generally allowed in the outdoor courtyards and Inca stonework areas of the Coricancha site museum.",
+     "sources": [
+      {
+       "title": "Coricancha: The Inca Temple of the Sun in Cusco",
+       "url": "https://www.boletoperu.pe/travel-blog/coricancha-the-inca-temple-of-the-sun"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is typically restricted inside the Church of Santo Domingo, which is part of the same complex.",
+     "sources": [
+      {
+       "title": "Coricancha: The Inca Temple of the Sun in Cusco",
+       "url": "https://www.boletoperu.pe/travel-blog/coricancha-the-inca-temple-of-the-sun"
+      }
+     ]
+    }
+   ],
+   "safety": "Cusco is generally considered safe, but visitors should keep their camera secured and stay aware of their surroundings, especially in crowded areas. (This is general Cusco advice, not specific to Coricancha.)",
+   "notes": "No page I found mentions selfie sticks or tripods, so no rule is given for them. The spots come from travel blogs and a tour operator guide, not an official site map, so confirm the garden and courtyard are open on the day. The Access Travel guide also mentions rooftop access, which other sources do not support, so I left it out. The ask-someone spot is based on a blog remark that the temple can be seen clearly from Avenida El Sol, not on a precise photo position. The 'landmark behind' for the courtyard spot includes the adjoining Santo Domingo arches, which are part of the same complex."
+  },
+  "cost_usd": 0.0515,
+  "at": "2026-11-17 00:29"
+ },
+ "Museo de Arte Precolombino, Cusco": {
+  "rank": 101,
+  "card": {
+   "hook": "You're standing in front of a stone mansion that has been an Inca ceremonial courthouse, a conquistador's prize and a viceroy's home, and now it holds about 450 ancient treasures. Not bad for one doorway.",
+   "stand_here": "Head for Plazoleta de las Nazarenas in Cusco's San Blas district, where the phone icon sits right at the museum. Face the front of the building and, if there's room, take a step or two back so the whole frontage fits.",
+   "zoom": "Start at zoom 1x for the building as you see it. If the frontage won't fit, tap 0.5x, or step back and go back to 1x if the edges look stretched. Try 2x or 5x (depending on your phone) for carved and stone details.",
+   "make_it_pop": "Turn on gridlines and line up the edges of the walls with them so the building doesn't lean.",
+   "best_time": "Morning or late afternoon usually gives softer, warmer light on the walls. At midday the shadows get harder, so look for shaded details instead.",
+   "selfie_here": "Switch to the front camera, tap 0.5x to fit more in, and hold the phone a little above eye level with the museum front over your shoulder. Check that the doorway isn't cut off before you tap.",
+   "ask_someone": "Ask a passer-by to stand on the plazoleta across from the museum entrance, while you stand in front of the facade so it fills the background.",
+   "rules_and_safety": "Photography is allowed at this museum, but flash is not. If you go inside, ask staff whether photos are okay in the galleries.",
+   "challenge": "Take one wide shot of the whole frontage, then find one close-up detail of the stone or entrance that you'd never notice from across the plazoleta.",
+   "good_to_know": "The building began as an Inca ceremonial courthouse. In 1580 the conquistador Alonso Díaz acquired it, and it was built over in Colonial style as the home of the Viceroy Hernandez de Cabrera. After falling into ruin, it was restored and re-opened as a museum in June 2003. Inside, ten galleries hold around 450 pieces from the Larco Museum in Lima, covering 1250 BC to AD 1532.",
+   "stand_here_before_gps_rule": "Head for Plazoleta de las Nazarenas in Cusco's San Blas district, where the phone icon sits right at the museum. Face the front of the building and, if there's room, take a step or two back so the whole frontage fits."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": {
+    "name": "Plazoleta de las Nazarenas, facing the museum's front facade",
+    "detail": "Stand on the plazoleta across from the museum entrance, with the facade behind the passer-by's subject (the page places the museum on this plazoleta, at number 231, a few minutes' walk from the Plaza de Armas)",
+    "sources": [
+     {
+      "title": "Nickkembel Travels: The Best (and Worst!) Museums in Cusco, Peru",
+      "url": "https://www.nickkembel.com/best-museums-in-cusco/"
+     },
+     {
+      "title": "Museo de Arte Precolombino Cusco (Cusco Peru tourism)",
+      "url": "https://www.cuscoperu.com/en/travel/cusco/museums/pre-columbian-art-museum/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is allowed at this museum, but flash is not (no flash).",
+     "sources": [
+      {
+       "title": "Nickkembel Travels: The Best (and Worst!) Museums in Cusco, Peru",
+       "url": "https://www.nickkembel.com/best-museums-in-cusco/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a spot where a visitor poses with the museum behind them, so I left selfie_spots empty rather than guess. The Nickkembel page does name the Wall of the Seven Snakes (Muro de las Siete Culebras) on the side of the plaza near the museum, but it only mentions it as something to look for, not as a photo spot, so I did not list it. The ask-someone spot is based on the museum facing the Plazoleta de las Nazarenas; no page calls a specific standing point there a photo spot, so the exact position is my inference from that. No page I found mentions selfie-stick or tripod rules for this museum, so no rule on those is given. Search coverage was thin (two searches), so a fuller check of local photo guides could still turn up a selfie spot."
+  },
+  "cost_usd": 0.0433,
+  "at": "2026-11-17 00:29"
+ },
+ "Cusco Cathedral": {
+  "rank": 3,
+  "card": {
+   "hook": "Those two towers look a bit short and sturdy, and that's the charm. The upper parts of the design were changed after the 1650 earthquake, so you get a calm, solid shape that fills your phone screen nicely.",
+   "stand_here": "Stand in the Plaza de Armas, right in front of Cusco Cathedral, and face it across the open plaza and its gardens. This is the classic postcard angle, and you can step back as far as you need.",
+   "zoom": "Start at zoom 1x to get the whole facade, towers and gardens in one shot. If people or trees crowd the edges, try zoom 0.5x. For the towers, doorways and stonework, zoom 2x to 5x works well, depending on your phone.",
+   "make_it_pop": "Switch on the gridlines and line the towers up with the vertical lines so the building doesn't lean, then use the gardens as a foreground.",
+   "best_time": "Early morning, before about 7 a.m., is the quietest time and the light is softer. After dark the facades are lit, which gives the cathedral a very different mood (use night mode and hold your phone steady against your body).",
+   "selfie_here": "Use the front camera, switch to zoom 0.5x if your phone has it, and hold it at arm's length with the cathedral towers over your shoulder. Tilt the phone up a little so the towers fit in with your face.",
+   "ask_someone": "",
+   "rules_and_safety": "The cathedral is a working church, so the interior and some outside areas may have restrictions. Check the official site before you go. The plaza in front is open public space.",
+   "challenge": "Can you get both towers standing perfectly straight on the gridlines, with a bit of garden at the bottom and nobody's head in the way?",
+   "good_to_know": "The Spanish built the cathedral between 1560 and 1664 on the site of an Inca palace, the Kiswarkancha of the ruler Viracocha. Some of its red granite blocks were reused from the fortress of Sacsayhuamán. The historic centre of Cusco has been a UNESCO World Heritage Site since 1983.",
+   "stand_here_before_gps_rule": "Stand in the Plaza de Armas, right in front of Cusco Cathedral, and face it across the open plaza and its gardens. This is the classic postcard angle, and you can step back as far as you need."
+  },
+  "selfie_research": null,
+  "cost_usd": 0.0557,
+  "at": "2026-11-17 00:30"
+ },
+ "Mercado Central de San Pedro": {
+  "rank": 4,
+  "card": {
+   "hook": "Forget monuments for a minute: the best shot here might be a tidy pyramid of produce with a stallholder chatting behind it. Mercado Central de San Pedro is Cusco's working market, so the pictures are in the small scenes.",
+   "stand_here": "The phone icon sits on Mercado Central de San Pedro itself, so you're in position the moment you arrive. Stand at the edge of an aisle or just inside an entrance, out of everyone's way, and face a stall with the aisle running back behind it.",
+   "zoom": "Start at zoom 1x for natural-looking stall shots. Drop to 0.5x when an aisle is too tight to fit the whole scene, and use 2x to 5x (depending on your phone) to pick out details from a polite distance.",
+   "make_it_pop": "Turn on the gridlines, tap the brightest colour on screen, then slide the brightness down a touch so the bright patch at the entrance doesn't wash out.",
+   "best_time": "Morning is usually the liveliest, with the most stalls set up and the most going on. Quieter moments make it easier to shoot without blocking anyone, and it's worth checking the official local information for opening times before you go.",
+   "selfie_here": "Flip to the front camera and put a colourful stall behind your shoulder. Use 0.5x if the aisle is tight so more of the scene fits in, and keep your elbows in.",
+   "ask_someone": "Ask a passer-by to shoot from the street in front of the main entrance on Calle Tupac Amaru while you stand near the entrance, so the doorway and the size of the market fit in the frame.",
+   "rules_and_safety": "Aisles can be narrow and crowded, so keep your phone close to your body when you're not shooting and step aside for people working. Ask before taking a close portrait of a stallholder (a smile and a gesture to your phone usually works), and stay aware of your surroundings.",
+   "challenge": "Find the tidiest pyramid of produce in the market and line it up on the gridlines, then buy something small from the stall as a thank-you.",
+   "good_to_know": "Mercado Central de San Pedro is Cusco's central market, and it's a place for everyday life rather than monuments. Expect people serving, chatting and carrying goods. We don't have history or size figures for it, so check the official local information if you want those.",
+   "stand_here_before_gps_rule": "The phone icon sits on Mercado Central de San Pedro itself, so you're in position the moment you arrive. Stand at the edge of an aisle or just inside an entrance, out of everyone's way, and face a stall with the aisle running back behind it."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": {
+    "name": "Main entrance of Mercado Central de San Pedro, Calle Tupac Amaru (Thupaq Amaru 477)",
+    "detail": "On the street in front of the market's main entrance, where a wide frame can take in the entrance and the market's scale. The page gives this as a good wide shot, not a stated camera position, so the exact standing point is an inference.",
+    "sources": [
+     {
+      "title": "San Pedro Market Cusco: Complete Visitor Guide",
+      "url": "https://machupicchuperutours.com/en/san-pedro-market-cusco-the-complete-guide-to-cuscos-most-authentic-market/"
+     },
+     {
+      "title": "Mercado Central de San Pedro — Cusco City Guide",
+      "url": "https://cuscounlocked.com/things-to-do/tours/mercado-central-de-san-pedro/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Do not flash expensive cameras around, and stay aware of your surroundings in the market.",
+   "notes": "No page I found names a spot where a visitor takes a selfie with the market behind them, so selfie_spots is empty. The closest candidate is a roof terrace that one page says has views over the market, but that page describes a view down onto the market, not a backdrop for a selfie, so I left it out. The ask-someone spot is based on a page's advice to take a wide shot of the main entrance; no page gives a specific position for a passer-by. Pages also disagree on opening hours (one says 6:00 to 19:00 daily, another says 6:30 to 18:00 Monday to Saturday), so check before visiting. No page I found states rules on selfie sticks or tripods. Sources are travel blogs and tour sites, not official city pages."
+  },
+  "cost_usd": 0.0462,
+  "at": "2026-11-17 00:30"
+ },
+ "Twelve-angled stone": {
+  "rank": 5,
+  "card": {
+   "hook": "Yes, you're about to join a crowd to stare at a wall, and it's worth it. Look for the one stone whose edges twist into twelve corners, with its neighbours cut to hug it tight.",
+   "stand_here": "Stand on Cuesta de San Blas and walk down the slope toward the centre. Face the wall as it comes into view at an angle at the bottom, with the narrow lane leading into your frame.",
+   "zoom": "Start at zoom 1x to get the wall and the lane together. If the street is busy and you can't step back, try zoom 0.5x. For a tighter shot of the stone from a polite distance, use zoom 2x or more (higher zooms depend on your phone).",
+   "make_it_pop": "Tap the stone, then drag the slider to make the picture a little darker so the pale stonework keeps its texture and the sky doesn't turn white.",
+   "best_time": "Go early in the day, when the lane is likely to be quieter. Check how the sun falls on the wall when you arrive.",
+   "selfie_here": "Use Hatun Rumiyoc Street, about halfway up from Plaza de Armas, where the stone sits in the right-hand wall. Stand in the narrow lane with the stone and wall behind you, use the front camera (try 0.5x), and let the wall fill the space over your shoulder.",
+   "ask_someone": "Ask a passer-by on Hatun Rumiyoc Street to shoot you beside the stone with the whole wall in frame.",
+   "rules_and_safety": "Photos are fine, but please don't touch or lean on the stones. Take your shot, then step back so others can see.",
+   "challenge": "Get the Inca stonework below and the colonial wall above in one frame, with the lane running diagonally in, then count the twelve corners.",
+   "good_to_know": "The twelve-angled stone is a single block of green diorite set into the lower part of an old Inca wall. That wall once belonged to an Inca palace, and today it forms the outer side of the Archbishop's Palace. The stone isn't huge, so a close-up of it alone can look flat. A wider view tells you more.",
+   "stand_here_before_gps_rule": "Stand on Cuesta de San Blas and walk down the slope toward the centre. Face the wall as it comes into view at an angle at the bottom, with the narrow lane leading into your frame."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Hatun Rumiyoc Street, the stretch of the Inca wall with the twelve-angled stone",
+     "detail": "On Hatun Rumiyoc Street, about halfway up from Plaza de Armas, where the stone sits on the right-hand wall; stand in the narrow lane with the stone and wall behind you",
+     "why": "Sources agree the stone is on the right-hand wall roughly halfway up the lane, and one guide recommends wide, context shots that keep the stone within its wall and street.",
+     "sources": [
+      {
+       "title": "The Twelve Angled Stone in Cusco: Inca Genius Explained (Alpaca Expeditions)",
+       "url": "https://www.alpacaexpeditions.com/the-twelve-angled-stone-in-cusco-inca-genius-explained/"
+      },
+      {
+       "title": "The Twelve Angled Stone Cusco: Inca Wonder You Must Visit (Inkatime Tours)",
+       "url": "https://inkatimetours.com/the-twelve-angled-stone-a-living-symbol-of-inca-perfection-in-cusco/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Hatun Rumiyoc Street, beside the stone",
+    "detail": "On Hatun Rumiyoc Street next to the stone, where the costumed 'Inca who protects the stone' stands daily from about 7 am to 7 pm; ask a passer-by to shoot you with the whole wall in frame",
+    "sources": [
+     {
+      "title": "Stone of 12 Angles (Machu Picchu Terra)",
+      "url": "https://www.machupicchuterra.com/cusco/cusco-city/stone-12-angles/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photographing the stone is allowed, but do not touch it; visitors are asked not to touch the structure.",
+     "sources": [
+      {
+       "title": "Stone of 12 Angles (Machu Picchu Terra)",
+       "url": "https://www.machupicchuterra.com/cusco/cusco-city/stone-12-angles/"
+      },
+      {
+       "title": "Meet the Famous Stone of the 12 Angles in Cusco (Salkantay Trek Machu Picchu)",
+       "url": "https://www.salkantaytrekmachu.com/en/travel-blog/stone-of-the-12-angles"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are generally prohibited in the narrow street area (one guide's page only; no official source found).",
+     "sources": [
+      {
+       "title": "The Twelve Angled Stone Cusco: Inca Wonder You Must Visit (Inkatime Tours)",
+       "url": "https://inkatimetours.com/the-twelve-angled-stone-a-living-symbol-of-inca-perfection-in-cusco/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The pages do not name an exact standing point across the lane for the selfie, so the selfie spot is the stone's own location on the street. The ask-someone spot is the same stretch; the pages do not give exact positions for the passer-by. Tips for the costumed Inca are from one blog, which says some tourists pay a tip to be photographed with him. Best time of day conflicts between sources (early morning, late afternoon, or evening). No page mentions selfie-stick rules. Coordinates were not checked against any page."
+  },
+  "cost_usd": 0.0507,
+  "at": "2026-11-17 00:31"
+ },
+ "Church of San Blas": {
+  "rank": 6,
+  "card": {
+   "hook": "You climb a cobbled lane past craft workshops, the street squeezes in, and then it opens onto a tiny square with a church sitting right at the end. That's San Blas, and the whole neighbourhood seems to lean in to help your photo.",
+   "stand_here": "Stand on Plazoleta de San Blas, the small cobbled square at the foot of the San Blas slope, and face the church front. That puts the facade, the cobbles and a slice of the lanes around it all in one frame.",
+   "zoom": "The square is small, so start at zoom 0.5x to fit the whole facade without backing into a doorway or a stall. Then go to 1x for a natural look, or 2x to 5x (depending on your phone) for doors and stonework.",
+   "make_it_pop": "Turn on gridlines, keep the facade upright and put the cobbles in the lower third. Hold the phone level so the walls don't lean.",
+   "best_time": "Early morning or late afternoon gives softer light and a quieter square. Late afternoon is the one a local photo guide singles out for this plaza.",
+   "selfie_here": "Take it on Plaza San Blas with the church front behind you. Use the front camera, try 0.5x so the facade fits over your shoulder, and aim for late afternoon when the light softens.",
+   "ask_someone": "Ask a passer-by to stand on the square facing the south side of the church so the whole building fits, while you pose in front of it.",
+   "rules_and_safety": "Photography is generally not allowed inside the church, so keep your shots outside, and don't use flash in there. The stone streets up to San Blas can be slippery after rain, so wear proper footwear.",
+   "challenge": "Get one shot of the whole facade at 0.5x, then walk closer and find one door or stone detail at 2x that nobody else in the square is photographing.",
+   "good_to_know": "San Blas is a church on a small cobbled square in the artisan quarter, just above Cusco's historic centre. Streets lined with craft workshops climb away on every side, and you arrive on foot through those lanes. For a wider view with the church as one landmark among many, the Mirador de San Blas looks over the red-tiled roofs of the centre.",
+   "stand_here_before_gps_rule": "Stand on Plazoleta de San Blas, the small cobbled square at the foot of the San Blas slope, and face the church front. That puts the facade, the cobbles and a slice of the lanes around it all in one frame."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Plaza San Blas (the square in front of the Church of San Blas)",
+     "detail": "on the cobbled square, with the church front behind you; the square itself is the spot named in the sources",
+     "why": "A guide calls the small plaza that holds the church an excellent photo spot, best in late afternoon when the light softens.",
+     "sources": [
+      {
+       "title": "Where to Take the Best Photos in Cusco",
+       "url": "https://www.wordtheque.com/where-to-take-the-best-photos-in-cusco/"
+      },
+      {
+       "title": "San Blas Church, Peru",
+       "url": "https://www.sacred-destinations.com/peru/cusco-san-blas-church"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "South side of Iglesia de San Blas, on Plaza San Blas",
+    "detail": "stand on the square facing the south side of the church so the whole building fits in the frame",
+    "sources": [
+     {
+      "title": "San Blas Church, Peru",
+      "url": "https://www.sacred-destinations.com/peru/cusco-san-blas-church"
+     },
+     {
+      "title": "Plaza San Blas in Cusco, Cuzco",
+      "url": "https://mindtrip.ai/attraction/cusco-south-peru/plaza-san-blas/at-RghQV2cp"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is generally not allowed inside San Blas Church, so take pictures outside only.",
+     "sources": [
+      {
+       "title": "San Blas Church (2025)",
+       "url": "https://www.airial.travel/attractions/peru/cusco/san-blas-church-5ysjeVu2"
+      }
+     ]
+    },
+    {
+     "rule": "Flash should not be used inside the church.",
+     "sources": [
+      {
+       "title": "Exacting A Stiff Uphill Walk to San Blas Cusco Peru: Tips 1",
+       "url": "https://www.kondorpathtours.com/blog/a-stiff-uphill-walk-to-san-blas-cusco-peru/"
+      }
+     ]
+    }
+   ],
+   "safety": "The stone surface on the steep streets up to San Blas can be slippery after rain, so wear proper footwear.",
+   "notes": "The selfie spot and the passer-by spot are both on Plaza San Blas; the exact stance (church behind you) is inferred from the square, not described step by step on any page. The Sacred Destinations page gives the church at 13.5149° S, 71.9744° W, roughly 0.9 km from the position you supplied (-13.51828, -71.98210), so check that the map pin matches the church before sending visitors. No page stated any rule on selfie sticks or tripods, so none is reported. The Plaza San Blas address on one page is Cuesta de San Blas, Cusco 08003."
+  },
+  "cost_usd": 0.045,
+  "at": "2026-11-17 00:31",
+  "selfie_pos": [
+   -13.5151764,
+   -71.9742158
+  ],
+  "selfie_note": "Plaza San Blas (OpenStreetMap: Plaza San Blas, San Blas, Mollococha, Cuzco, Distrito de Cus)"
+ },
+ "Inka Museum": {
+  "rank": 7,
+  "card": {
+   "hook": "The Inka Museum is the kind of building that makes you slow down: old stone walls, a narrow Cusco street, and a long story packed into one frontage. It was once Huáscar's home, and you can see the age in the stone.",
+   "stand_here": "Stand on Cuesta del Almirante right at the phone icon, which marks the museum building itself. Face the frontage, and step back along the street if you need more of it in the frame.",
+   "zoom": "Start at 1x for a natural view of the whole frontage. If the building won't fit, switch to 0.5x. Then try 2x to 5x (depending on your phone) for doorways, carved stone and upper windows.",
+   "make_it_pop": "Turn on the gridlines and line up the wall edges with the vertical lines so the building stands straight and doesn't lean.",
+   "best_time": "Go earlier or later in the day rather than midday, when the light is flat and harsh. A Cusco morning or afternoon suits the old stonework best.",
+   "selfie_here": "Stand beside the tall Inca statue at the museum entrance, with the museum doorway behind you. Use the front camera, switch to 0.5x if your phone has it, and hold the phone a little lower so the doorway fits over your shoulder.",
+   "ask_someone": "Hand your phone to a passer-by at the corner of Ataúd and Córdoba del Tucumán streets, where the museum's corner balcony sits, and ask them to step back until the balcony and the façade both fit behind you.",
+   "rules_and_safety": "Photography rules inside the museum differ between guides: one says it's banned, another says it's allowed without flash. Check on arrival, and remember the street outside is public.",
+   "challenge": "Take three shots in a row: the whole frontage, a doorway, then the texture of the wall. Can you make them look like a mini photo story?",
+   "good_to_know": "The Inka Museum is the archaeological museum of the National University of San Antonio Abad of Cusco, and it sits in the 17th-century Casa del Almirante. The site was once Huáscar's home, later the last viceroy's palace and then Marshal Santa Cruz's Government House. The museum was founded in 1920 and shows keros, textiles, mummies, tools, weapons and goldsmithing.",
+   "stand_here_before_gps_rule": "Stand on Cuesta del Almirante right at the phone icon, which marks the museum building itself. Face the frontage, and step back along the street if you need more of it in the frame."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Tall Inca figure at the museum entrance",
+     "detail": "beside the tall Inca statue that stands at the museum entrance, with the museum doorway behind",
+     "why": "A guide page names this entrance figure as a spot where visitors meet and pose, so it is the only photo spot that clearly places the museum behind the visitor.",
+     "sources": [
+      {
+       "title": "Inca Museum, Cusco - The Only Peru Guide",
+       "url": "https://www.theonlyperuguide.com/peru-guide/cusco/highlights/inca-museum-cusco/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Corner of Ataúd and Córdoba del Tucumán streets",
+    "detail": "the street corner where the museum's corner balcony sits; the page does not give a specific standing point for the photographer, so position the passer-by to fit the corner balcony and façade in frame",
+    "sources": [
+     {
+      "title": "Inka Museum Cusco: A Must-See Before or After Machu Picchu",
+      "url": "https://www.andesperuexpeditions.com/inka-museum-cusco/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Taking photographs inside the museum is prohibited, according to one guide; another guide says photography is allowed without flash, so check on arrival.",
+     "sources": [
+      {
+       "title": "Inka Museum of Cusco",
+       "url": "https://www.machupicchuterra.com/cusco/cusco-city/inka-museum-cusco/"
+      },
+      {
+       "title": "The Best (and Worst!) Museums in Cusco, Peru - Nickkembel Travels",
+       "url": "https://www.nickkembel.com/best-museums-in-cusco/"
+      }
+     ]
+    },
+    {
+     "rule": "If you need to carry special equipment such as a camera tripod, consult the museum in advance.",
+     "sources": [
+      {
+       "title": "[2026 Cusco Attraction] Inka Museum Travel Guide & Travel Experiences",
+       "url": "https://sg.trip.com/moments/poi-inka-museum-100844/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Sources are thin for selfie spots. No page describes a spot with the museum behind the visitor except the entrance figure, and the ask-someone spot is a corner named in a photo-oriented guide but without a stated shooting position. The Plaza Tricentenario viewpoint over Plaza de Armas was excluded because no page places the museum in that view. Photo rules conflict between sources (inside photography banned versus allowed without flash), so verify on arrival. The given coordinates were not checked against any page."
+  },
+  "cost_usd": 0.0444,
+  "at": "2026-11-17 00:32"
+ },
+ "Plaza de Armas, Cusco": {
+  "rank": 8,
+  "card": {
+   "hook": "Cusco's main square is so big that if you stand in the middle, you'll miss most of it. Step back, and the lamps, balconies and buildings all fall into place around you.",
+   "stand_here": "Stand near Calle Triunfo, about 95 m east of the subject, at the phone icon on the map. Face west so you look across the open square to the buildings on the far side.",
+   "zoom": "Start at 1x and turn on the gridlines. Try 0.5x if you want more buildings and sky, or 2x or higher (depends on your phone) for details across the square.",
+   "make_it_pop": "If the sky is bright, tap a darker part of the scene and drag the slider down a little so it's darker and the sky doesn't wash out.",
+   "best_time": "Early morning is usually calmer, with fewer people in your shot. Around dusk the lights come on, and night mode can give a warm, even picture.",
+   "selfie_here": "Head to the central fountain with the Pachacútec statue, where the Cathedral stands behind it. Use the front camera (try 0.5x if your phone has it) and keep the Cathedral over your shoulder. A travel guide calls this a favourite spot for group pictures, and at sunset the water reflects the Cathedral.",
+   "ask_someone": "Ask a passer-by to stand on the steps of the Iglesia de la Compañía de Jesús and shoot across the square while you pose at the fountain.",
+   "rules_and_safety": "The square is an open public space, but access and events can vary, so be ready for changes on the day.",
+   "challenge": "Wait for a gap in the crowd, then catch one person crossing the square right on a gridline, like a tiny street-theatre star.",
+   "good_to_know": "The Plaza de Armas is the main square of Cusco, in the historic heart of the old town. It's the natural starting point for a walk around the city centre. The lamps and balconies around the edges frame the view nicely.",
+   "stand_here_before_gps_rule": "Stand near Calle Triunfo, about 95 m east of the subject, at the phone icon on the map. Face west so you look across the open square to the buildings on the far side."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Central fountain of the Plaza de Armas (Pachacútec statue)",
+     "detail": "in the middle of the plaza, at the fountain with the Cathedral behind it",
+     "why": "A travel guide calls the fountain a favorite spot for group pictures, and the fountain's water reflects the Cathedral at sunset.",
+     "sources": [
+      {
+       "title": "Cusco's Plaza de Armas: The complete guide to your visit",
+       "url": "https://responsibletrekking.com/blog/explore/cusco-plaza-armas"
+      },
+      {
+       "title": "Cusco's Most Photogenic Spots - Viagens Machu Picchu Blog",
+       "url": "https://blog.viajesmachupicchu.travel/en/most-instagrammable-spots-in-cusco-peru/"
+      }
+     ]
+    },
+    {
+     "name": "Balcony of Cappuccino Café, second floor, facing the Plaza",
+     "detail": "a second-floor balcony café overlooking the square; the blog names Cappuccino Café as an example",
+     "why": "A balcony gives an elevated view that puts the whole plaza behind the visitor. The blog does not say the café's street address, so confirm the exact café on a map.",
+     "sources": [
+      {
+       "title": "Cusco's Most Photogenic Spots - Viagens Machu Picchu Blog",
+       "url": "https://blog.viajesmachupicchu.travel/en/most-instagrammable-spots-in-cusco-peru/"
+      },
+      {
+       "title": "The Most Instagrammable Places You Must See in Cusco, Peru",
+       "url": "https://www.salkantaytrekking.com/blog/most-instagrammable-places-cusco/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Steps of the Iglesia de la Compañía de Jesús (Church of the Society of Jesus), Plaza de Armas",
+    "detail": "on the church steps, shooting across the square toward the visitor by the fountain",
+    "sources": [
+     {
+      "title": "Photographing Cusco: Best Spots for Capturing the City's Stunning Architecture and Landscapes",
+      "url": "https://www.niclasglud.com/blog/photographing-cusco-best-spots-for-capturing-the-citys-stunning-architecture-and-landscapes"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "The sources are travel blogs and tourism pages, and none gives an exact spot for a selfie with the whole plaza behind the visitor. The 'ask someone' spot is from a photographer's tip to shoot from the church steps for a sweeping view of the plaza; the blog does not say a passer-by should stand there. The Cathedral front is also named as a good photo point, but the sources describe it as a view of the plaza and gardens, not as a selfie backdrop, so I left it out. No page gave selfie stick or tripod rules, and no page gave a safety point."
+  },
+  "cost_usd": 0.0459,
+  "at": "2026-11-17 00:33"
+ },
+ "Church of the Society of Jesus, Cusco": {
+  "rank": 9,
+  "card": {
+   "hook": "Everyone on the Plaza de Armas seems to wander into your shot just as you press the button, but the warm pink stone of this church still steals the show. Be patient and you'll get it.",
+   "stand_here": "Stand near Hauqaypata, about 30 m north-west of the church, at the phone icon on the map. Face south-east and keep the church in the middle of your screen.",
+   "zoom": "Start at zoom 0.5x to fit the whole front and both towers. Then try 1x for a less stretched look, and 2x to 5x (depending on your phone) for the carved central section.",
+   "make_it_pop": "Turn on the gridlines and line the two towers up with the vertical lines so the building stands straight.",
+   "best_time": "Early morning usually means fewer people on the square. Soft light in the morning or late afternoon makes the pink stone glow. After dark, try night mode if the front is lit.",
+   "selfie_here": "Climb the church's front steps and turn around, so the facade is behind you and the square is in view. Use the front camera at 0.5x and hold your phone a little high to fit the church over your shoulder. For a second option, take a selfie at the Pachacuti statue fountain in the Plaza de Armas, with the church in the background.",
+   "ask_someone": "Ask a passer-by to stand across the Plaza de Armas facing the church front while you stand on the steps, so they can fit the whole building in with you.",
+   "rules_and_safety": "Several visitors report that photos aren't allowed inside the church, so check the official site for visiting rules and dress modestly if you go in. Take care on the steep stairs between levels inside.",
+   "challenge": "Get both towers standing perfectly straight with nobody walking through your picture. Bonus points if you manage it on a busy day.",
+   "good_to_know": "The church stands on the site of Amarucancha, an Inca palace that belonged to the ruler Huayna Capac. The first church was badly damaged in the 1650 earthquake, then rebuilt and finished in 1673. The Flemish Jesuit Jean-Baptiste Gilles is named as its architect, and the whole church is built of pink basalt and andesite.",
+   "stand_here_before_gps_rule": "Stand near Hauqaypata, about 30 m north-west of the church, at the phone icon on the map. Face south-east and keep the church in the middle of your screen."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front steps of the Iglesia de la Compañía de Jesús (facing the Plaza de Armas)",
+     "detail": "on the church's front steps, with the facade behind you and the square in view",
+     "why": "A photography guide suggests shooting from these steps to take in the whole plaza, which puts the church directly behind the person in the frame.",
+     "sources": [
+      {
+       "title": "Photographing Cusco: Best Spots for Capturing the City's Stunning Architecture and Landscapes (Niclas Glud Photography)",
+       "url": "https://www.niclasglud.com/blog/photographing-cusco-best-spots-for-capturing-the-citys-stunning-architecture-and-landscapes"
+      }
+     ]
+    },
+    {
+     "name": "Pachacuti statue fountain (Monumento al Inca), Plaza de Armas",
+     "detail": "at the Pachacuti monument in the Plaza de Armas, with the church in the background",
+     "why": "A travel blog's photo of this statue shows the church behind it, so it works as a backdrop for a selfie.",
+     "sources": [
+      {
+       "title": "Top 10 Most Instagrammable Places in Cusco (Wanderluster Princess)",
+       "url": "https://wanderlusterprincess.com/top-10-most-instagrammable-places-in-cusco/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Plaza de Armas (Main Square), facing the church facade",
+    "detail": "stand across the square from the church's front facade and frame the whole building; the blogs say the shots are good from the main square, and early morning is quieter",
+    "sources": [
+     {
+      "title": "Church of the Company of Jesus of Cusco (Salkantay Trek Machu Picchu blog)",
+      "url": "https://salkantaytrekmachu.com/en/travel-blog/company-of-jesus-cusco-peru"
+     },
+     {
+      "title": "Top 10 Most Instagrammable Places in Cusco (Wanderluster Princess)",
+      "url": "https://wanderlusterprincess.com/top-10-most-instagrammable-places-in-cusco/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Be cautious of steep stairs when moving between levels inside the church.",
+   "notes": "No page states any selfie stick or tripod rule, so none are listed. Several pages say photography is not allowed inside the church, though one reviewer reports photos allowed from a balcony reached by a ladder-like climb, so that is not a selfie spot to rely on. Only the Pachacuti spot appears in just one blog's photo caption, so it is less well confirmed than the steps. The 'steps' source describes a photographer's view of the plaza, not an explicit selfie tip, so the steps are inferred for a selfie with the church behind. The 'Green Door of the church' mentioned by one blog has no named location, so I left it out."
+  },
+  "cost_usd": 0.0574,
+  "at": "2026-11-17 00:33"
+ },
+ "Qenko": {
+  "rank": 10,
+  "card": {
+   "hook": "Walk a slow lap around the big rock before you lift your phone, because the carved surfaces look completely different from every side. Q'enqo means \"zig-zag\" in Quechua, so go and find yours.",
+   "stand_here": "Stand right at the subject, in the semi-circular Amphitheater area inside the site. Face the carved monolith and the stone-walled curve, with the valley behind them.",
+   "zoom": "Start at zoom 1x to fit the Amphitheater and the monolith together. Tap 0.5x for the whole curve of the stonework and the valley, then try 2x-5x (depending on your phone) for the carved steps and the rock surface.",
+   "make_it_pop": "Turn on the gridlines, put the monolith on one of the vertical lines, tap it, then slide the brightness down a little so the pale stone keeps its detail against the bright sky.",
+   "best_time": "Go early morning or late afternoon, when the light is softer and the crowds are thinner. You'll get calmer pictures and a better chance at an empty frame.",
+   "selfie_here": "Try the Q'enqo Eucalyptus Forest (Bosque de los Eucaliptos), among the trees just in front of the ruins and a few metres away. Use the front camera at 0.5x and turn so the ruins are over your shoulder, though it's worth checking the angle on your screen as you go.",
+   "ask_someone": "Ask a friendly passer-by to stand in the open area in front of the curved outer wall with its 19 niches and step back far enough to fit the wall and the large upright stone block in the frame, while you pose near the wall.",
+   "rules_and_safety": "Photography inside the underground chambers may be restricted, so check the signs on site before you take your phone out. It's a ticketed site covered by the Cusco tourist ticket, so check the official site for current ticket rules and opening times.",
+   "challenge": "Find the angle where the monolith sits on a gridline and the valley fills the space behind it, then take one shot and one more after you've walked round to the other side.",
+   "good_to_know": "Q'enqo is counted among the largest huacas, or holy places, in the Cusco Region, and it is thought to have been used for sacrifices and mummification. Inside the rock, a tunnel leads past a channel to a small room with a ceremonial table and niches on either side. One niche is said to have held mummies, and another a large silver plate that threw sunlight into the room.",
+   "stand_here_before_gps_rule": "Stand right at the subject, in the semi-circular Amphitheater area inside the site. Face the carved monolith and the stone-walled curve, with the valley behind them."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Q'enqo Eucalyptus Forest (Bosque de los Eucaliptos), next to the Q'enqo archaeological complex",
+     "detail": "among the eucalyptus trees in the forest, which sits in front of the archaeological complex and a few meters from the ruins",
+     "why": "The forest is the only spot the sources tie to the ruins' immediate surroundings, so a selfie there can frame the site behind you, though no page confirms the exact angle.",
+     "sources": [
+      {
+       "title": "Qenqo archaeological complex in Cusco - Terandes",
+       "url": "https://terandes.com/en/blog/cusco/archaeological-sites/qenqo/"
+      },
+      {
+       "title": "Qenqo Archaeological Complex - cuscoperu.com",
+       "url": "https://www.cuscoperu.com/en/travel/cusco/archaeological-centers/qenqo/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Amphitheatre area of the Q'enqo archaeological complex",
+    "detail": "from the open area in front of the curved outer wall with its 19 niches, stepping back far enough to fit the wall and the large upright stone block in the frame",
+    "sources": [
+     {
+      "title": "Qenqo Archaeological Complex - cuscoperu.com",
+      "url": "https://www.cuscoperu.com/en/travel/cusco/archaeological-centers/qenqo/"
+     },
+     {
+      "title": "Qenko - The Only Peru Guide",
+      "url": "https://www.theonlyperuguide.com/peru-guide/cusco/highlights/qenko-3/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot was supported: the pages name the forest and the amphitheatre but none states a camera position with the ruins behind the visitor, so the placement is an inference from their descriptions. The ask-someone spot is also not an exact camera position from any page. Sources disagree on distance from Cusco (about 3-4 km, 4 km, and 6 km in different pages), so verify on a map. Coverage is from blogs of varying age (some 2-8 years old), and no page covered selfie stick or tripod rules."
+  },
+  "cost_usd": 0.0478,
+  "at": "2026-11-17 00:34"
+ },
+ "Santa Catalina Convent": {
+  "rank": 11,
+  "card": {
+   "hook": "Here's a nice surprise: you don't need a huge open view to get the Santa Catalina Convent in your photo. A short, easy distance does the job, and your phone loves that.",
+   "stand_here": "Stand at Santa Catalina Angosta, about 40 m north-west of the subject, at the phone icon on the map, and face south-east. The convent is right there in front of you.",
+   "zoom": "Start at zoom 1x to get the convent as you see it. If the whole frontage won't fit, step back a little or switch to zoom 0.5x. Then try zoom 2x to 5x (depending on your phone) for the stonework and any signs.",
+   "make_it_pop": "Turn on your gridlines and line up the edge of the building with a vertical line so the walls don't lean.",
+   "best_time": "Morning or late afternoon usually gives softer light on the walls and fewer harsh shadows. Midday sun can be strong and contrasty.",
+   "selfie_here": "Try the Plazoleta Santa Catalina, the small square the convent faces, standing by the fountain with its bronze sculpture in the middle. Use the front camera at 0.5x and hold it a bit low so the convent sits over your shoulder. It's a good guess rather than a proven selfie spot, so have a play and see what works.",
+   "ask_someone": "",
+   "rules_and_safety": "Sources disagree on photos inside the convent: the official page says no photography inside the church and convent, while a review says the courtyard is fine. Check the signs when you arrive, and don't touch the exhibits.",
+   "challenge": "Get one shot where the building's edge sits perfectly on a gridline, then one close-up of a detail nobody else would notice.",
+   "good_to_know": "Santa Catalina Convent is in Cusco, and the main photo shows it from the small square beside it, the Plazoleta Santa Catalina. We don't have dated history or measurements to share. For the story behind the building, check the official site or ask a local guide. Check the official site before you go for visiting arrangements, too.",
+   "stand_here_before_gps_rule": "Stand at Santa Catalina Angosta, about 40 m north-west of the subject, at the phone icon on the map, and face south-east. The convent is right there in front of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Inner courtyard (patio interno) of the Santa Catalina convent",
+     "detail": "inside the convent, in the courtyard area where the visitor can keep the convent's arches and walls behind them",
+     "why": "A visitor review says photos of and from the courtyard are allowed, and another guide calls the courtyards beautifully lit, though neither describes a specific selfie position and other sources forbid photos inside.",
+     "sources": [
+      {
+       "title": "Museo de Vida Monástica - Monasterio de Santa Catalina del Cusco (Tripadvisor reviews)",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g294314-d548324-Reviews-or30-Museo_de_Vida_Monastica_Monasterio_de_Santa_Catalina_del_Cusco-Cusco_Cusco_Re.html"
+      },
+      {
+       "title": "Convent of Santa Catalina de Siena (2025)",
+       "url": "https://www.airial.travel/attractions/peru/cusco/convent-of-santa-catalina-de-siena-2sx3pq99"
+      }
+     ]
+    },
+    {
+     "name": "Plazoleta Santa Catalina, at the puma fountain in the middle of the square",
+     "detail": "on the small square the convent faces, standing by the central fountain with its bronze sculpture",
+     "why": "A guide places the convent on this square with the fountain at its centre, so a visitor standing by the fountain could have the convent behind; no page calls it a selfie spot, so this is a lower-confidence pick.",
+     "sources": [
+      {
+       "title": "Santa Catalina Convent - Antipode Peru",
+       "url": "https://antipode-peru.com/en-map-santa-catalina-convent"
+      },
+      {
+       "title": "File:Plazoleta Santa Catalina, Cusco 02.jpg - Wikimedia Commons",
+       "url": "https://commons.wikimedia.org/wiki/File:Plazoleta_Santa_Catalina,_Cusco_02.jpg"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "The official Santa Catalina Church and Convent page says photography is not allowed inside the church and convent, and visitors must not touch the exhibits.",
+     "sources": [
+      {
+       "title": "Santa Catalina Church and Convent",
+       "url": "https://www.cuscoperu.com/en/travel/cusco/temples-convents/santa-catalina-church/"
+      }
+     ]
+    },
+    {
+     "rule": "A travel guide says photos are not allowed inside the church and convent, and that a guide can be hired at the entrance gate for an extra fee.",
+     "sources": [
+      {
+       "title": "Church of Santa Catalina in Cusco",
+       "url": "https://www.machupicchuterra.com/cusco/cusco-city/church-santa-catalina-cusco/"
+      }
+     ]
+    },
+    {
+     "rule": "A visitor review says photos are not allowed inside but photos of and from the courtyard are permitted.",
+     "sources": [
+      {
+       "title": "Museo de Vida Monástica - Monasterio de Santa Catalina del Cusco (Tripadvisor reviews)",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g294314-d548324-Reviews-or30-Museo_de_Vida_Monastica_Monasterio_de_Santa_Catalina_del_Cusco-Cusco_Cusco_Re.html"
+      }
+     ]
+    },
+    {
+     "rule": "A travel guide says photography is permitted in the convent and its courtyards, with the rooms of mannequins offering photo opportunities.",
+     "sources": [
+      {
+       "title": "Convent of Santa Catalina de Siena (2025)",
+       "url": "https://www.airial.travel/attractions/peru/cusco/convent-of-santa-catalina-de-siena-2sx3pq99"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The sources conflict on whether photos are allowed inside the convent: the official Cusco page and another guide say no, while a review and a booking guide say courtyard photos are allowed. Check signs on arrival. No page I found names a specific outdoor spot with the convent behind a visitor, and no page names a spot where a passer-by should photograph a visitor with the whole convent in frame, so ask_someone_spot is null. No page gave rules about selfie sticks or tripods. The given coordinates lie close to the Plazoleta Santa Catalina area on one Wikimedia listing, but I did not verify the exact position."
+  },
+  "cost_usd": 0.0467,
+  "at": "2026-11-17 00:34"
+ },
+ "Church of San Francisco, Cusco": {
+  "rank": 12,
+  "card": {
+   "hook": "Cusco has plenty of showy churches, and San Francisco isn't trying to compete. Its plainer stone face and single seven-bell tower make a calm, clean photo, and the square in front is usually quieter than the Plaza de Armas.",
+   "stand_here": "Stand on Plaza San Francisco, right in front of the church facade, about 300 metres southwest of the Plaza de Armas (roughly 5 minutes on foot). The church is to the west of you, so face west and let the colonial buildings frame it on either side.",
+   "zoom": "Start at zoom 1x for a straight-on shot of the facade and tower. Go to 0.5x if you want more of the square and its old buildings. Zoom 2x to 5x (depending on your phone) gets you close to the carved stonework and the tower.",
+   "make_it_pop": "Switch on the gridlines and line the tower and facade edges up with the vertical lines so the building doesn't lean.",
+   "best_time": "Early morning or late afternoon gives softer light and fewer people on the square. Check that the facade is lit rather than in shadow when you arrive.",
+   "selfie_here": "Take it on Plaza San Francisco, on the square directly in front of the church with the facade behind you. Use the front camera, try 0.5x to squeeze in the tower, and tilt the phone up a little so the church fills the background.",
+   "ask_someone": "Ask a passer-by to stand across the square facing the church front, while you stand in front of the facade, so the whole church and bell tower fit in the frame.",
+   "rules_and_safety": "Photo rules inside the church vary from one visitor account to the next, so check before you raise your phone, and don't use flash in churches and museums. Keep your phone secure and stay aware of your surroundings in crowded spots.",
+   "challenge": "Get the tower perfectly straight against the gridlines, then take a second shot with a bit of the colonial buildings as a frame. Which one wins?",
+   "good_to_know": "The Franciscans moved to this site in 1549, and the church was built from 1572 onwards. It was rebuilt in the 1640s and finished again in 1652 after the 1650 earthquake. The convent next door has a museum with a very large 17th-century painting of the order's family tree. The church has been part of Cusco's UNESCO-listed historic centre since 1983.",
+   "stand_here_before_gps_rule": "Stand on Plaza San Francisco, right in front of the church facade, about 300 metres southwest of the Plaza de Armas (roughly 5 minutes on foot). The church is to the west of you, so face west and let the colonial buildings frame it on either side."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Plaza San Francisco, in front of the church facade",
+     "detail": "on the square directly in front of the church's front, with the Baroque facade behind you",
+     "why": "The square sits in front of the church, and sources single out the grand facade and the tranquil plaza as the scene's strongest draws.",
+     "sources": [
+      {
+       "title": "Iglesia de San Francisco en Cusco (Machu Picchu Terra)",
+       "url": "https://www.machupicchuterra.com/cusco/cusco-city/church-san-francisco/"
+      },
+      {
+       "title": "San Francisco Square in Cusco (Machu Picchu Sacred)",
+       "url": "https://blog.machupicchusacred.com/en/cusco/streets-squares/san-francisco-square/"
+      },
+      {
+       "title": "San Francisco Church and Convent (Airial)",
+       "url": "https://airial.travel/attractions/peru/cusco/san-francisco-church-and-convent-7pJwzsE5"
+      }
+     ]
+    },
+    {
+     "name": "Convent courtyard with birds (inside the ticketed complex)",
+     "detail": "in the courtyard of the convent, inside the paid museum entrance",
+     "why": "A courtyard is described as picturesque, and one guide says it is the only area inside where photography is permitted, so it is a lower-risk backdrop.",
+     "sources": [
+      {
+       "title": "San Francisco Church and Convent (Airial)",
+       "url": "https://airial.travel/attractions/peru/cusco/san-francisco-church-and-convent-7pJwzsE5"
+      },
+      {
+       "title": "50 Fun Things to Do in Cusco (Nickkembel Travels)",
+       "url": "https://www.nickkembel.com/cusco-things-to-do/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Plaza San Francisco, across the square from the church front",
+    "detail": "a passer-by stands on the plaza, facing the church front, to fit the whole facade and bell tower in the frame",
+    "sources": [
+     {
+      "title": "Plaza San Francisco, Cusco, Peru 360 Panorama (360Cities)",
+      "url": "https://www.360cities.net/es/image/plaza-san-francisco-cusco-peru"
+     },
+     {
+      "title": "Iglesia de San Francisco en Cusco (Machu Picchu Terra)",
+      "url": "https://www.machupicchuterra.com/cusco/cusco-city/church-san-francisco/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography inside the church is not allowed according to one visitor account; photos are permitted only in the courtyard.",
+     "sources": [
+      {
+       "title": "50 Fun Things to Do in Cusco (Nickkembel Travels)",
+       "url": "https://www.nickkembel.com/cusco-things-to-do/"
+      }
+     ]
+    },
+    {
+     "rule": "Flash is often prohibited in churches and museums, so use higher ISO instead.",
+     "sources": [
+      {
+       "title": "Where to Take the Best Photos in Cusco (Wordtheque)",
+       "url": "https://www.wordtheque.com/where-to-take-the-best-photos-in-cusco/"
+      },
+      {
+       "title": "How to Capture Cusco Like a Pro Photographer (Wordtheque)",
+       "url": "https://www.wordtheque.com/how-to-capture-cusco-like-a-pro-photographer/"
+      }
+     ]
+    }
+   ],
+   "safety": "Keep your camera secure and stay aware of your surroundings, especially in crowded areas.",
+   "notes": "No source names an exact selfie position; the plaza placements are inferred from pages that place the church on Plaza San Francisco and describe it as a photo subject, so check them on the map. Photo rules conflict: Airial says photography is generally permitted inside, while Nick Kembel says it is not allowed inside the church, and Wheree says it is allowed in designated areas. The courtyard spot sits inside the ticketed complex, and no source says a courtyard backdrop includes the church. Tripod and selfie-stick rules were not found for this site. The Santa Ana viewpoint offers a church skyline view, but it is a distant view rather than a selfie spot, so I left it out."
+  },
+  "cost_usd": 0.0584,
+  "at": "2026-11-17 00:35"
+ },
+ "Colcampata": {
+  "rank": 102,
+  "card": {
+   "hook": "Three layers in one shot: neat Inca walls up close, a church bell tower behind them, and Cusco's rooftops rolling away beyond. The square is small, so you can take your time over the framing.",
+   "stand_here": "Stand in Plaza San Cristóbal, the small square in front of the San Cristóbal church where the Inca walls stand, and face north towards the walls. If a fence or wire cuts across the view, shuffle a few steps along the square until the walls are clear.",
+   "zoom": "Start at 1x so the walls, bell tower and rooftops all sit together. Go to 2x or more to pick out the stonework or crop out a stray wire, and try 0.5x if you're right up against the walls (keep the phone level so the lines don't lean).",
+   "make_it_pop": "Turn on gridlines, put the walls along the lower third with the bell tower standing upright beside them, then tap the stonework and slide it a touch darker so the sky keeps its colour.",
+   "best_time": "Sunset is the recommended time for good light over the city, and one guide suggests sunrise. If the light is fading, switch on night mode.",
+   "selfie_here": "In the small square of San Cristóbal, use the front camera and let the two stacked Inca walls fill the background behind you. For a close-up, try the stretch of Inca wall just to the right of the church, the one with 11 niches.",
+   "ask_someone": "",
+   "rules_and_safety": "The climb is steep and cobbled and the altitude is about 3,400 m, so go slowly, bring water and wear sturdy shoes. Plaza San Cristóbal is a free public square.",
+   "challenge": "Can you get the bell tower standing straight beside the walls with not a single wire in the frame?",
+   "good_to_know": "Colcampata is what's left of the old Inca palace foundations, with the San Cristóbal church built on top. It's an archaeological site declared a National Cultural Heritage of Peru. The name comes from Quechua and points to an elevated place or edge, which suits the hillside.",
+   "stand_here_before_gps_rule": "Stand in Plaza San Cristóbal, the small square in front of the San Cristóbal church where the Inca walls stand, and face north towards the walls. If a fence or wire cuts across the view, shuffle a few steps along the square until the walls are clear."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Small square of San Cristóbal, in front of the Colcampata Inca walls",
+     "detail": "in the small square beside the San Cristóbal church, with the two superimposed Inca walls as the backdrop",
+     "why": "A blog visitor describes the spot as having two imposing Inca walls stacked on each other, so the walls can frame the selfie.",
+     "sources": [
+      {
+       "title": "7 most instagrammable places in Cusco, Peru - Auri Peru",
+       "url": "https://www.auriperu.com/7-instagrammable-places-in-cusco/"
+      },
+      {
+       "title": "The 4 Best Viewpoints in Cusco: A Guide to Views and Routes",
+       "url": "https://machupicchutravelers.com/en/best-viewpoints-in-cusco/"
+      }
+     ]
+    },
+    {
+     "name": "Inca wall to the right of the San Cristóbal church",
+     "detail": "the stretch of Inca wall immediately to the right of the church, which has 11 niches",
+     "why": "Fodor's identifies this wall and its niches as a distinctive stone feature, which makes it a good background for a close-up selfie.",
+     "sources": [
+      {
+       "title": "Colcampata Review - Cusco and the Sacred Valley Peru - Sights",
+       "url": "https://www.fodors.com/world/south-america/peru/cusco-and-the-sacred-valley/things-to-do/sights/reviews/colcampata-169623"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "Wear sturdy shoes, because the terrain is steep and can be uneven in places.",
+   "notes": "No source I found gives a specific spot from which a passer-by can photograph the visitor with the whole Colcampata landmark, so ask_someone_spot is null. The Cristo Blanco viewpoint is described as sitting above the Colcampata neighbourhood, but no page gives a photo position for the landmark from there. The provided coordinates (-13.51290, -71.97970) match the GPS point on the Aroundus page within rounding. Sources describe the walls at the San Cristóbal church/square, so the two selfie spots are both at that church, and I did not find a separate site entrance. No page mentioned selfie-stick or tripod rules."
+  },
+  "cost_usd": 0.0568,
+  "at": "2026-11-17 00:35"
+ }
+}

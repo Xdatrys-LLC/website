@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "cusco", "title": "Cusco: 12 photo spots (pilot review)", "place": "Cusco", "bounds": [-71.99, -13.5235, -71.968, -13.505], "center": [-71.979, -13.51425], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/cusco/{z}/{x}/{y}.pbf"};
