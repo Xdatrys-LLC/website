@@ -32,6 +32,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "brussels",
+  "place": "Brussels",
+  "country": "Belgium",
+  "spots": 18,
+  "mb": 22.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "caernarfon",
   "place": "Caernarfon",
   "country": "United Kingdom",

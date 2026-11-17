@@ -1,0 +1,980 @@
+[
+ {
+  "rank": 1,
+  "name": "Grand Place",
+  "in_cut": true,
+  "label": "Grand Place",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 32500,
+  "pin": [
+   4.352524,
+   50.8466947
+  ],
+  "camera": [
+   4.352499,
+   50.846655
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap way/3517898: the middle of the OpenStreetMap outline 'Grand Place' (162 m across).",
+  "notes": "The ornate guildhall square at the heart of Brussels.",
+  "text": {
+   "description": "The Grand-Place is the central square of Brussels, and it is hard to take a poor photo here. The ground is entirely paved and measures 68 by 110 metres, so the buildings rise straight up around you on every side. They include the Baroque guildhalls of the old Guilds of Brussels, the Flamboyant Town Hall, and the neo-Gothic King's House (or Bread House), which holds the Brussels City Museum. Most of the square was destroyed in the French bombardment of 1695. Only the Town Hall's façade and tower survived, and the houses around it were rebuilt in the years afterwards and modified in the centuries that followed. The Town Hall's spire is about 96 metres high and is topped by a statue of Saint Michael, so it makes a strong vertical subject. The square has been a UNESCO World Heritage Site since 1998. In August of every even year a huge flower carpet is laid out in the centre, and at Christmas and New Year a tree and festive events fill the space. For phone photos, the best views come from standing in the middle and turning slowly on the spot. Shoot the Town Hall to the south, then the King's House opposite, then the guildhall façades along the sides. Keep your phone upright for the tower and across for the rows of houses. Wipe your lens first, and take a few frames in each direction, because the view changes with every quarter-turn.",
+   "geographic_location": "In the old centre of Brussels, Belgium, in the square that holds the city's Town Hall. St Nicholas' Church is close by.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for the old centre of Brussels and walk to the square. The Town Hall with its tall spire is on the south side, so it is easy to find from anywhere on the square. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit whole façades and the tall tower in one frame. Use the default lens (1x) for general views, and the telephoto (2x-5x, depending on your phone) for carvings and details high up on the buildings.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Face south for the Town Hall and its spire, then turn to face the King's House across the square.",
+    "how_to_frame": "Turn on the gridlines and line the Town Hall tower up with a vertical grid line so it does not lean. Hold the phone upright and tilt it back slightly for the spire, using the ultra-wide (0.5x) if you cannot fit it in. For the guildhalls, switch to landscape and keep the phone level so the rooflines stay straight. If you want people in the picture, wait for a gap in the crowd. A Live Photo can catch a moment of movement, such as a tour group crossing the square.",
+    "phone_settings_tip": "Tap the sky or the façade to set focus, then drag the exposure slider down a little if the bright sky is washing out the stonework. After dark, use night mode and brace your elbows against your body to keep the phone steady.",
+    "best_time": "Early in the morning is usually quietest. After dark, use night mode and check what lighting is on when you get there. Check ahead for events, as the flower carpet and Christmas decorations change how the square looks."
+   },
+   "access_note": "The Grand-Place is a paved public square, but events such as the flower carpet or Christmas celebrations can change access, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Grand-Place",
+    "url": "https://en.wikipedia.org/wiki/Grand-Place"
+   }
+  ],
+  "pin_flags": [
+   "square/garden without a main feature: pin at its middle"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 18 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Atomium",
+  "in_cut": true,
+  "label": "Atomium",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 22700,
+  "pin": [
+   4.3415005,
+   50.8949213
+  ],
+  "camera": [
+   4.3415005,
+   50.8949213
+  ],
+  "camera_source": "Researched viewpoint 'Place de l'Atomium' (3 web pages); placed at our map tiles: 'Place de l'Atomium - Atomiumplein' (pois).",
+  "pin_note": "Position from OpenStreetMap relation/19189218: the middle of the OpenStreetMap outline 'Atomium' (139 m across).",
+  "notes": "A giant iron-crystal model from the 1958 World's Fair.",
+  "text": {
+   "description": "The Atomium is Brussels' great steel atom: nine shiny spheres joined by tubes, standing 102 metres tall. It was built as the centrepiece of the 1958 World's Fair and was only meant to last six months, but people liked it so much that it stayed. The spheres are 18 metres across, and together they show an iron crystal magnified 165 billion times. After a renovation in 2004–2006 the spheres were re-clad in stainless steel, so they catch the sky and change colour as the light changes.\n\nIt photographs well because the shape is so bold and simple. From the plaza at its foot you can look straight up and see the spheres and tubes converging overhead, which gives a strong, almost abstract picture. Step back along Boulevard du Centenaire and you get the whole structure rising out of the park, and a person in the frame shows how big it is. Parc de Laeken offers a quieter view, with the Atomium seen through trees.\n\nThe plaza is wide and open, so there is room to move around and try a few angles. At night the spheres are lit by LEDs, which makes a different kind of picture. Inside, only some of the spheres are open to visitors, but you do not need to go in to get good photos of the outside.",
+   "geographic_location": "The Atomium stands on the Heysel/Heizel Plateau in Laeken, in the northern part of the City of Brussels. It is opposite the Centenary Palace of the Brussels Expo exhibition centre.",
+   "directions_text": "Check a local journey planner for the best way to reach the Heysel plateau in Laeken, in the north of Brussels. Head for Place de l'Atomium, at the meeting of Boulevard du Centenaire and Avenue de l'Atomium. Once you are on the plaza, the Atomium is hard to miss. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) on the plaza, because the structure is huge and you will be standing close. Use the default lens (1x) from Boulevard du Centenaire for the whole structure, and telephoto (2x-5x, depending on your phone) for the trees-and-spheres view from Parc de Laeken.",
+    "where_to_stand": "Stand in Place de l'Atomium. Looking up from the plaza at the base of the structure, with the spheres and connecting tubes converging overhead. The Atomium is right beside you, to the west. From here you look up from the base, with the spheres and connecting tubes converging overhead.",
+    "how_to_frame": "Hold the phone low, tilt it up and let the tubes lead the eye towards the spheres. Switch on gridlines and line up one of the tubes with a grid line to keep the shot tidy. For the full-structure shot, walk back along Boulevard du Centenaire and include a person for scale. Parc de Laeken is a quieter alternative, with trees framing the spheres.",
+    "phone_settings_tip": "Tap on a sphere to set focus, then slide the exposure down a little so the bright steel keeps its detail against the sky. In the evening, try night mode and hold the phone steady against a bench or railing.",
+    "best_time": "Check the light before you go, as the best time of day depends on the weather and the season. The spheres are lit at night, so an evening visit gives a different mood."
+   },
+   "access_note": "The plaza, the boulevard and the outside of the Atomium are free and open to the public; going inside is ticketed, so check the official site before you go."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Atomium",
+    "url": "https://en.wikipedia.org/wiki/Atomium"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Zairon",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Laeken_Atomium_06.jpg",
+   "from": "Wikidata Q180901 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Manneken Pis",
+  "in_cut": true,
+  "label": "Manneken Pis",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 19400,
+  "pin": [
+   4.3499932,
+   50.8449861
+  ],
+  "camera": [
+   4.349993,
+   50.844986
+  ],
+  "camera_source": "Researched viewpoint 'Rue de l'Étuve' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap node/240866019: the OpenStreetMap point 'Manneken Pis'.",
+  "notes": "The tiny bronze fountain statue of a urinating boy.",
+  "text": {
+   "description": "Manneken Pis is a small bronze boy, only 55.5 cm tall, set in a stone niche on a street corner in the middle of Brussels. It is one of the city's best-known symbols, and visitors tend to be surprised by how small it is. That is part of the fun. The current sculpture goes back to a design by Jérôme Duquesnoy the Elder from 1619. The blue stone niche in rocaille style was added in 1770, and wrought iron railings protect the whole corner. The figure on the street today is a replica from 1965, and the original is kept in the Brussels City Museum. It photographs well because it is always changing. The boy is regularly dressed in costumes, and his wardrobe runs to around a thousand outfits, so no two visits look quite the same. The subject is the statue itself, so stand a few steps away on the Rue de l'Étuve side, off to one side of the crowd, and shoot at a gentle three-quarter angle rather than head-on. From there you get the boy, the niche and the grille together, with the street and passers-by around him. That gives you the classic postcard view. If you want a tighter picture of the niche and railing, try the corner of Rue du Chêne instead. Be patient, as people tend to gather for a quick photo and then move on.",
+   "geographic_location": "Manneken Pis stands in central Brussels, at the corner where Rue du Chêne meets the pedestrian Rue de l'Étuve. It is a short walk from the Grand-Place.",
+   "directions_text": "Start from the Grand-Place, the main square. From there it is about five minutes on foot to the corner of Rue de l'Étuve and Rue du Chêne. If you are coming from further away, make your way to the Grand-Place area and walk the rest. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the statue and its niche with some street around it. If the crowd is in the way, use telephoto (2x-3x) to fill the frame with the niche from a little further back. The ultra-wide (0.5x) lens shows more of the street but makes the statue look tiny.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. The subject is the statue itself. Step a few metres away along Rue de l'Étuve, a little to one side, and you will see the bronze boy in his stone niche behind the iron grille, set high on the corner, with the street and passers-by around him.",
+    "how_to_frame": "Turn on gridlines and put the niche on one of the vertical lines, keeping the grille at the bottom of the frame. Shooting from the side at a three-quarter angle gives a cleaner picture than facing the statue head-on with the group. For a more compressed shot, with less of the shopfronts and more of the statue, try the view from Rue du Chêne.",
+    "phone_settings_tip": "Tap on the statue to set focus, then drag the exposure slider down a touch if the bright street or sky washes out the bronze. Take a few shots, as people walk through the frame constantly.",
+    "best_time": "Early morning is the best bet, when the crowd is thinner. Expect it to be busier on feast days."
+   },
+   "access_note": "The statue stands on a street corner and can be seen from the pavement, but it sits behind railings; check the official site before you go for any special events or changes."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Manneken Pis",
+    "url": "https://en.wikipedia.org/wiki/Manneken_Pis"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "Myrabella",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bruxelles_Manneken_Pis.jpg",
+   "from": "Wikidata Q152072 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "King Baudouin Stadium",
+  "in_cut": true,
+  "label": "King Baudouin Stadium",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 12310,
+  "pin": [
+   4.3341471,
+   50.8957329
+  ],
+  "camera": [
+   4.333493,
+   50.895411
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap way/253875451: the middle of the OpenStreetMap outline 'King Baudouin Stadium' (372 m across).",
+  "notes": "Belgium's national football stadium at Heysel.",
+  "text": {
+   "description": "The King Baudouin Stadium is Belgium's national stadium and the largest in the country, with room for 50,093 spectators. It sits on the Heysel/Heizel Plateau in the north-west of the City of Brussels. It was first opened in 1930 to a design by the architect Joseph Van Neck, who was also chief architect of the 1935 Brussels International Exposition. It was rebuilt and reopened on 23 August 1995. Of the original stadium, only a renovated gateway near the main entrance remains. The stadium has hosted European club finals and the opening match of Euro 2000. It is also the home of the Memorial Van Damme athletics meeting.\n\nFor a phone photograph, its appeal is its sheer scale: a big, curved, modern structure with clean lines, set beside the Atomium and the Bruparck leisure area. A wide shot works best, showing the stadium with some open space or sky around it so people can see how large it is. The old gateway is a good small subject for a second picture, because it shows how much of the stadium has changed. If the area is busy with an event, expect more people in your frame and perhaps some restrictions on where you can stand. Keep your shots simple, with level lines and nothing cut off awkwardly, and take a few extra frames in case someone walks through.",
+   "geographic_location": "In the north-western part of the City of Brussels, on the Heysel/Heizel Plateau. It stands on the edge of Bruparck, the entertainment park that contains the Atomium, Mini-Europe and the Kinepolis cinema.",
+   "directions_text": "No Underground, tram or train stop is given for this spot, so head by taxi or hired scooter for the Heysel/Heizel Plateau in the north-west of the City of Brussels. Ask for Bruparck or avenue de Marathon / Marathonlaan, where the stadium stands. The phone icon on the map is about 60 m south-west of the numbered pin. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the whole stadium, because it is a very large building. Use the default lens (1x) for a more natural view, and the telephoto (2x-5x, depending on your phone) for details such as the old gateway or the stand edges.",
+    "where_to_stand": "Stand about 60 m south-west of the numbered pin, at the phone icon on the map, and face north-east. The point is very close to the stadium, so you may need to move back along open ground to fit the whole building in.",
+    "how_to_frame": "Turn on the gridlines and line up the roofline or the base of the stand with a horizontal grid line so the building does not look tilted. Leave some sky above it, and include a person or two at the bottom of the frame to give a sense of scale. For a second picture, move closer to the main entrance and use the default lens (1x) on the renovated old gateway.",
+    "phone_settings_tip": "Tap the brightest part of the stand to set focus, then lower the exposure slider a little if the sky is washing out. If you can't fit it all in, the panorama mode works well for a long façade. Hold the phone steady and sweep slowly.",
+    "best_time": "Soft, even light on a bright overcast day or later in the afternoon will show the structure well. Midday sun can create hard shadows and glare on the pale surfaces. Avoid match or event days if you want a clear frame."
+   },
+   "access_note": "The surroundings are an open public area, but entry to the stadium itself depends on events, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /€|\\beuros?\\b|\\$/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "King Baudouin Stadium",
+    "url": "https://en.wikipedia.org/wiki/King_Baudouin_Stadium"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 17 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Mini-Europe",
+  "in_cut": true,
+  "label": "Mini-Europe",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 4890,
+  "pin": [
+   4.3387061,
+   50.8941705
+  ],
+  "camera": [
+   4.3387061,
+   50.8941705
+  ],
+  "camera_source": "Researched viewpoint 'Atomium' (3 web pages); placed at our map tiles: 'Atomium' (pois); moved 5 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/208501459: the middle of the OpenStreetMap outline 'Mini-Europe' (277 m across).",
+  "notes": "A miniature park of European landmarks beneath the Atomium.",
+  "text": {
+   "description": "Mini-Europe is a miniature park in Bruparck, right at the foot of the Atomium. It shows about 80 cities and 350 buildings from across Europe at 1:25 scale, spread over roughly 24,000 square metres of paths, dwarf trees and flowerbeds. It opened in 1989 and has grown ever since. The Trevi Fountain model was added in 2019 for its 30th anniversary. Some models move, including trains, windmills, gondolas and an erupting Mount Vesuvius.\n\nThe best way to see the whole park at once is from above, and that means the Atomium. The models form a colourful patchwork, with the grounds and the surrounding city beyond. The Atomium's top-sphere deck is a ticketed attraction, so this is a plan-ahead shot rather than a casual stop.\n\nFor a close-up alternative, go into Mini-Europe itself. There you can frame the tiny landmarks in the foreground with the Atomium rising behind them. Either way, the scale is what makes the picture work, so include something to judge it by, such as a path, a tree or the buildings around the park.\n\nBoth places are ticketed and the park closes for winter, so check the official sites for dates before you go.",
+   "geographic_location": "Mini-Europe sits on the Heysel/Heizel site in Brussels, inside the Bruparck entertainment park, at the foot of the Atomium.",
+   "directions_text": "There are no Underground, tram or train stops listed for this spot in our data, so check a journey planner for the best way to reach the Heysel/Heizel area and Bruparck. Once you are at the Atomium, the middle of Mini-Europe is to the south-west, about 3 minutes on foot. Follow the signs for Bruparck and the park entrance, and check the official sites for current entry arrangements. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x), held close to the glass, to take in the whole park. Switch to telephoto (2x-5x, depending on your phone) to pick out a few favourite models. Use the ultra-wide (0.5x) only if the window is big enough to avoid the frame showing at the edges.",
+    "where_to_stand": "Stand at Atomium (from inside one of the upper spheres, looking back toward the park). A bird's-eye view of Mini-Europe's models laid out below, with the park's grounds and nearby city around them. In one of the upper spheres, at a window that looks back toward the park. From there you see the models laid out below like a map, with the park's grounds and the nearby city around them.",
+    "how_to_frame": "Turn on gridlines and put the edge of the park on a lower third line. Leave the city and sky in the upper part of the frame so the photo shows how small the models are. If you want a second view, photograph the miniature landmarks from inside Mini-Europe with the Atomium rising behind them.",
+    "phone_settings_tip": "Press the lens gently against the window, or stand close to it, to cut reflections, and tap the models to set focus. Then drag the exposure slider down a little if the sky is washing out. Panorama can work for a sweeping view, but hold still and move slowly because of the curved windows.",
+    "best_time": "Late afternoon or sunset gives the warmest light, according to the Brussels tourism guide's advice on the top-sphere deck."
+   },
+   "access_note": "Both Mini-Europe and the Atomium's top-sphere deck are ticketed attractions, and the park closes each winter, so check the official sites before you go.",
+   "claims_not_in_sources": [
+    "Pressing a phone close to a window or standing near it usually reduces reflections in the picture.",
+    "From the upper spheres of the Atomium, some windows look back toward the park (based on one blogger's account).",
+    "The Atomium's windows may be curved or small enough that an ultra-wide shot could show the frame edges.",
+    "The middle of the park is about 3 minutes on foot from the Atomium (205 m x 1.3 / 80 m per minute); the park entrance may be a different distance."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Mini-Europe",
+    "url": "https://en.wikipedia.org/wiki/Mini-Europe"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "Gellerj",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mini_Europe_Birds_Eye.jpg",
+   "from": "Wikidata Q1067006 main image"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Royal Palace of Brussels",
+  "in_cut": true,
+  "label": "Royal Palace",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 4030,
+  "pin": [
+   4.3624455,
+   50.8419287
+  ],
+  "camera": [
+   4.3624455,
+   50.8419287
+  ],
+  "camera_source": "Researched viewpoint 'Parc de Bruxelles' (2 web pages); placed at our map tiles: 'Parc de Bruxelles - Warandepark' (pois).",
+  "pin_note": "Position from OpenStreetMap relation/3299902: the middle of the OpenStreetMap outline 'Royal Palace' (310 m across).",
+  "notes": "The official palace of the Belgian king.",
+  "text": {
+   "description": "The Royal Palace is the King's official palace in the middle of Brussels, though the royal family actually lives at Laeken, in the north of the city. Its long, calm, neoclassical front is what you are photographing: a row of tall windows, a central porch of columns and a balcony running along the first floor. The front has two stages. In the early 19th century the Dutch king William I had the old mansions joined up behind a neoclassical facade, and the present facade was built after 1900 on the initiative of Leopold II. The palace stands on the old Coudenberg hill, where a medieval palace of the Dukes of Brabant once stood.\n\nIt photographs best from across the road in Parc de Bruxelles. Stand at the mid-park bandstand and the formal garden's central path leads your eye straight to the palace, so the whole width of the building fits in one frame, with lawns and trees in front. This view works all year, even when the palace is closed to visitors. If you want a close, symmetrical shot, cross to Place des Palais and put the central gate in the middle of the frame. For a wider scene, Place Royale shows the palace beyond the square, with the church of Saint-Jacques-sur-Coudenberg and the statue of Godfrey of Bouillon. Keep your phone level, as the palace's straight lines show any tilt.",
+   "geographic_location": "In the centre of Brussels, on the south side of Parc de Bruxelles, with the long square Place des Palais between the park and the palace front. Place Royale is nearby.",
+   "directions_text": "Walk to the north entrance of Parc de Bruxelles on Rue Royale. The palace lies to the south, about 120 m from the bandstand. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) from the bandstand to take in the whole facade. Switch to the ultra-wide (0.5x) only if you are close to the palace on Place des Palais and cannot fit the front in. Use the telephoto (2x or more) for the central porch and balcony.",
+    "where_to_stand": "Stand in Parc de Bruxelles (mid-park bandstand, facing south toward the palace; start from the north entrance on Rue Royale). The whole long neoclassical facade of the palace, framed by the formal garden's central path. Start from the north entrance on Rue Royale. From here the whole long neoclassical facade is framed by the formal garden's central path.",
+    "how_to_frame": "Put the central path in the middle of the frame so it leads up to the palace, and switch on gridlines to keep the horizon and the roofline level. Leave a little lawn and a few trees at the bottom edge for depth. For a close, symmetrical shot, go to Place des Palais and centre the gate. Place Royale gives a wider view with the palace in the distance.",
+    "phone_settings_tip": "Tap the palace to focus, then slide the exposure down a little if the sky is bright, so the pale stone keeps its detail. Take a few shots in a row, as walkers often cross the path.",
+    "best_time": "Late afternoon is recommended for the light on the facade. Sundays around the changing of the guard may be busy on Place des Palais, so the park view is calmer."
+   },
+   "access_note": "The park and the squares in front of the palace are open public space, so you can photograph the exterior all year. The palace interior is open only for a short period in summer, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "The default lens (1x) from the bandstand should fit the whole facade in one frame.",
+    "The ultra-wide (0.5x) helps if you stand close to the palace on Place des Palais.",
+    "Parc de Bruxelles and Place des Palais are open public spaces that can be photographed from outside the palace.",
+    "Walkers may pass along the central path and appear in shots.",
+    "The changing of the guard on Sundays at 14:30 may crowd Place des Palais (from a single guide, so check before you go)."
+   ]
+  },
+  "checker_problems": 6,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Royal Palace of Brussels",
+    "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Brussels"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "Diego Delso",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Palacio_Real,_Bruselas,_B%C3%A9lgica,_2021-12-15,_DD_55.jpg",
+   "from": "Wikidata Q635307 main image"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Mont des Arts",
+  "in_cut": true,
+  "label": "Mont des Arts",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 3280,
+  "pin": [
+   4.3576023,
+   50.8439874
+  ],
+  "camera": [
+   4.3576023,
+   50.8439874
+  ],
+  "camera_source": "Researched viewpoint 'Mont des Arts' (4 web pages); placed at our map tiles: 'Mont des Arts - Kunstberg' (roads); moved 5 m off buildings.",
+  "pin_note": "Position from OpenStreetMap relation/7769914: the middle of the OpenStreetMap outline 'Mont des Arts - Kunstberg' (218 m across).",
+  "notes": "Terraced gardens with a classic view over the old town.",
+  "text": {
+   "description": "The Mont des Arts is a terraced public garden in the middle of Brussels. The Mont des Arts complex includes the Royal Library of Belgium (KBR) and the Square – Brussels Convention Centre. The photo here is the classic one: formal gardens and a fountain in the foreground, then the rooftops of the lower town, with the Town Hall tower on the Grand-Place rising in the distance. A first garden opened in 1910 and was inaugurated by King Albert I. The layout you see today dates from a major rebuild between 1954 and 1969, with a geometric garden by the landscape architect René Pechère. The big fountain at the foot of the terraces was restored in 2017, and further work finished in April 2025. The view works well because the straight lines of the terraces lead your eye towards the tower. Stand on the upper terrace, on the central axis and slightly back from the railing above the main staircase, so the steps and fountain fill the lower part of the frame. Aim for the hour before sunset or the first hours after sunrise, when the light is warmest and it is quieter. For a different angle, try Place de l'Albertine at the bottom: old gabled houses sit in front, with the Town Hall tower behind and the hillside as a backdrop. Drones are not allowed on the square.",
+   "geographic_location": "In the centre of Brussels, between Place Royale at the top and Place de l'Albertine and Boulevard de l'Empereur at the bottom. The Mont des Arts complex includes the Royal Library of Belgium (KBR) and the Square – Brussels Convention Centre.",
+   "directions_text": "No Underground, tram or train stop is listed for this spot, so walk in from Place Royale at the top of the garden or Place de l'Albertine at the bottom. From there, the middle of the gardens is about 1 minute on foot to the west. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the full view of gardens, fountain and skyline. Switch to the ultra-wide (0.5x) if you want the whole staircase and terraces. Use telephoto (2x to 5x, depending on your phone) to pull the Town Hall tower closer.",
+    "where_to_stand": "Stand on Mont des Arts (upper terrace, central axis, slightly back from the railing above the main staircase). The gardens and fountain in the foreground, with the rooftops of the lower town and the Town Hall tower on the Grand-Place in the distance. On the central axis and slightly back from the railing above the main staircase, and look down the garden towards the lower town.",
+    "how_to_frame": "Turn on the gridlines and put the tower on one of the vertical lines, with the fountain and garden paths filling the bottom third. Staying slightly back from the railing keeps the railing out of the shot and lets the terraces lead the eye. For a second option, go down to Place de l'Albertine and shoot up, with the gabled houses in front and the Town Hall tower behind them.",
+    "phone_settings_tip": "Tap the sky or the tower to focus, then slide the exposure down a little so the sky keeps its colour. If a Live Photo or motion option is on, hold still for a second after pressing the shutter, because the fountain looks nice in motion.",
+    "best_time": "The hour before sunset, or the first hours after sunrise, when the light is warmest and the crowds are thinner."
+   },
+   "access_note": "The garden is an open public space that is open at all hours; for the Royal Library, its rooftop terrace or the glass lift, check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Mont des Arts",
+    "url": "https://en.wikipedia.org/wiki/Mont_des_Arts"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Ank Kumar",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Brussels_view_from_Mont_des_Arts,_Brussels,_Belgium_(cropped).jpg",
+   "from": "Wikidata Q1865794 main image"
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Parc du Cinquantenaire",
+  "in_cut": true,
+  "label": "Cinquantenaire Arch",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 2580,
+  "pin": [
+   4.3927778,
+   50.8405556
+  ],
+  "camera": [
+   4.3927778,
+   50.8405556
+  ],
+  "camera_source": "Researched viewpoint 'Parc du Cinquantenaire' (2 web pages); placed at our map tiles: 'Parc du Cinquantenaire - Jubelpark' (pois); moved 10 m off buildings.",
+  "pin_note": "Position from OpenStreetMap relation/555230: large area 'Parc du Cinquantenaire - Jubelpark' (1045 m across): previous pin kept, it lies inside.",
+  "notes": "A monumental triumphal arch in a large park.",
+  "text": {
+   "description": "The Parc du Cinquantenaire (Jubelpark in Dutch) is a large public park of about 30 hectares at the eastern edge of Brussels' European Quarter. Its big U-shaped complex of halls was built for the 1880 National Exhibition, which marked fifty years of Belgian independence. The centrepiece is the triple arch, finished in 1905 and inaugurated by Leopold II on 27 September 1905. A bronze quadriga called Brabant Raising the National Flag sits on top. The architect Gédéon Bordiau began the project, and after his death in 1904 Charles Girault turned the design into the triple arch you see today.\n\nFor a phone photo, the best idea here is to use the arch's own openings as a frame. From inside the park, on the central axis, looking back toward the arch through its arches, the stone lines of the colonnade lead the eye in and the lawns fill the foreground. It is a calmer, more graphic picture than the usual view from the avenue. The park is big, so you have room to move a few steps left or right until the openings line up symmetrically.\n\nIf you want the full arch with the bronze quadriga against the sky, Place du Cinquantenaire is the alternative. The lawns are in front and the colonnades spread out on either side. Switch on the gridlines to keep the verticals straight, and keep a little sky above the arch so the sculpture isn't cut off.",
+   "geographic_location": "In the easternmost part of the European Quarter in Brussels, in the large park surrounding the Cinquantenaire Arch. The museum halls border the park on both sides of the arch.",
+   "directions_text": "Head for the European Quarter in the east of Brussels, where the park is easy to spot because of the arch and the long halls on either side. By taxi or hired scooter, ask for the Parc du Cinquantenaire (Jubelpark). Once inside, walk onto the central axis. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the arch, the colonnade and the lawns together. Use the default lens (1x) for a cleaner view through the openings, and the telephoto (2x-5x, depending on your phone) to pick out the sculpture and the architectural details.",
+    "where_to_stand": "Stand in Parc du Cinquantenaire (inside the park on the central axis, looking back toward the arch through its arches). The arch framed by its own openings, with tighter lines from the colonnade and the lawns in the foreground. The subject lies to the south-west of this point. From here the arch is framed by its own openings, with tight lines from the colonnade and the lawns in the foreground.",
+    "how_to_frame": "Centre yourself so the openings sit symmetrically, and use the gridlines to keep the columns upright. Let the lawn fill the bottom of the frame. For a different view, try Place du Cinquantenaire, which gives the full arch with the quadriga against the sky.",
+    "phone_settings_tip": "Tap on the stone of the arch to set focus, then lower the exposure slider a little so the sky stays blue and the bronze doesn't turn into a dark silhouette. Take a few shots as people walk past, then pick the one with the cleanest frame.",
+    "best_time": "Early morning, when the light is softer and fewer people are crossing the lawns."
+   },
+   "access_note": "The park is an open public space, but the museums in the buildings around it have their own entry rules, so check the official site before you go."
+  },
+  "checker_problems": 0,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Cinquantenaire",
+    "url": "https://en.wikipedia.org/wiki/Cinquantenaire"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "User:Ben2",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Parc_du_Cinquantenaire_30-05-06.JPG",
+   "from": "Wikidata Q1101790 main image"
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Royal Saint-Hubert Galleries",
+  "in_cut": true,
+  "label": "St-Hubert Galleries",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1800,
+  "pin": [
+   4.3550589,
+   50.8477402
+  ],
+  "camera": [
+   4.355059,
+   50.84774
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap relation/4097534: the middle of the OpenStreetMap outline 'Galeries royales Saint-Hubert - Koninklijke Sint-Hubertusgalerijen' (242 m across).",
+  "notes": "A glass-roofed 19th-century shopping arcade.",
+  "text": {
+   "description": "The Royal Saint-Hubert Galleries are three glass-roofed shopping arcades in central Brussels: the King's Gallery, the Queen's Gallery and the Princes' Gallery. Together they run for roughly 213 metres. The architect Jean-Pierre Cluysenaar designed them, and they were built between 1846 and 1847, opening on 20 June 1847. The Italianate façades have arched shopfronts divided by pilasters, with two upper floors above. The roof is a delicate cast-iron frame filled with glass panes. The galleries were made a historic monument in 1986.\n\nThey photograph well because everything points the same way. The two façades face each other, the shopfronts repeat in a steady rhythm, and the roof draws the eye along the passage. Since the phone icon on the map is in the middle of the arcade, you can shoot along it in either direction, then turn round and compare the two views. Look for the motto Omnibus omnia (\"Everything for everybody\") on the pediment of the façade. It makes a good detail shot.\n\nKeep your phone level and use the gridlines so the verticals of the pilasters stay straight. Wipe the lens before you start, as shop windows and glass create reflections and a smudge shows up quickly. Walkers will pass through the frame, so take a few shots, or a Live Photo, and pick the one with the best gaps. Step into the side of the arcade if you want a clear view without blocking the way.",
+   "geographic_location": "In the centre of Brussels, just off the Grand-Place/Grote Markt. The arcade sits in the block between Rue du Marché aux Herbes and Rue de la Montagne, and Rue des Bouchers lies on its western side.",
+   "directions_text": "Head for the Grand-Place/Grote Markt, which is the nearest well-known landmark, and walk to the block just beside it, between Rue du Marché aux Herbes/Grasmarkt and Rue de la Montagne/Bergstraat. The arcade entrances open from the streets around this block. If you are coming from further away, go by taxi or hired scooter to the Grand-Place area and finish on foot. The phone icon on the map is in the middle of the arcade. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit in the long perspective and the glass roof. Then use the default lens (1x) for a more natural look, and the telephoto (2x or more, depending on your phone) for details such as shopfronts and the pediment motto.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Face along the passage in either direction and keep to the side so you do not block people walking through.",
+    "how_to_frame": "Centre yourself between the two façades so the lines of shopfronts and the roof ribs meet in the middle of the picture. Turn on gridlines and line up the pilasters with the vertical lines. Leave some of the glass roof in the top of the frame to show the scale.",
+    "phone_settings_tip": "Tap on the shopfronts to focus, then lower the exposure slider a little if the bright glass roof looks washed out. In the evening, or if the light is low, try night mode and hold the phone steady against a pilaster or your body.",
+    "best_time": "Earlier in the day is usually calmer, with fewer people in the frame. The glass roof lets in daylight, and the arcade also looks good when the lights are on later."
+   },
+   "access_note": "This is a covered arcade with shops, cafés and theatres that people walk through; check the official site before you go for any opening times or restrictions.",
+   "claims_not_in_sources": [
+    "The arcade is usually quieter earlier in the day than in the afternoon.",
+    "The glass roof lets daylight into the arcade, and the passage looks good lit up later in the day.",
+    "Shop windows and the glass roof can cause reflections and bright areas that a phone may overexpose.",
+    "The arcade can be entered from the streets around the block, and you can walk through it on foot."
+   ]
+  },
+  "checker_problems": 0,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Royal Saint-Hubert Galleries",
+    "url": "https://en.wikipedia.org/wiki/Royal_Saint-Hubert_Galleries"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "Diego Delso",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Galeries_royales_Saint-Hubert,_Bruselas,_B%C3%A9lgica,_2021-12-14,_DD_04-06_HDR.jpg",
+   "from": "Wikidata Q1491935 main image"
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Jeanneke Pis",
+  "in_cut": true,
+  "label": "Jeanneke Pis",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1490,
+  "pin": [
+   4.3541145,
+   50.8485237
+  ],
+  "camera": [
+   4.354114,
+   50.848524
+  ],
+  "camera_source": "Researched viewpoint 'Jeanneke Pis' (5 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap node/249292417: the OpenStreetMap point 'Jeanneke Pis'.",
+  "notes": "The female counterpart of Manneken Pis, tucked in an alley.",
+  "text": {
+   "description": "Jeanneke Pis is a very small bronze fountain statue of a little girl with short pigtails, squatting on a blue-grey limestone basin. She is only about 50 centimetres tall, so the first surprise for many visitors is how tiny she is. She was commissioned in 1985 by Denis-Adrien Debouvrie, who owned restaurants in the alley, and was put in place in 1987 as a female counterpart to Manneken Pis. She sits in a niche at the end of Impasse de la Fidélité, a narrow cul-de-sac of about 30 metres, and iron bars now protect her. Visitors have long tossed coins into the basin, and the coins go to charitable causes.\n\nThe picture works because of the setting: a tight alley, the bars in front, and the statue tucked at the far end. Stand right in front of the iron grille and shoot straight on, through the bars, so the girl and her basin fill the middle of the frame. Getting low, to her level, gives a more friendly view and keeps the bars from hiding her. Bars and restaurants line the alley, so a wider shot back along it adds some context. The alley is narrow and can be busy, so be patient and take a few frames while people move through. Don't confuse her with Zinneke Pis, the dog statue, which is elsewhere in the city.",
+   "geographic_location": "Jeanneke Pis is in central Brussels, just north of the Grand-Place/Grote Markt. She sits at the end of Impasse de la Fidélité, a small alley off the restaurant-lined Rue des Bouchers.",
+   "directions_text": "Start from the Grand-Place/Grote Markt and walk north to Rue des Bouchers/Beenhouwersstraat. Turn into Impasse de la Fidélité/Getrouwheidsgang, the narrow alley leading north, and walk to the far end. If you are coming from further away, go by taxi to the Grand-Place area and walk the last part. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) from right in front of the grille. It fits the statue, the basin and a little of the alley end without distorting the bars. The ultra-wide (0.5x) is only useful if you want to show the whole alley, but it will stretch the edges. Telephoto (2x) can help if people are crowding the front.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here the bronze girl squatting on her limestone basin is framed by the iron bars and the end of the alley.",
+    "how_to_frame": "Shoot straight on through the bars and hold the phone low, near the statue's level. Switch on gridlines and place her in the centre or on a third. For a second picture, step back into Impasse de la Fidélité and take in the narrow alley with the bars and restaurants around it.",
+    "phone_settings_tip": "Tap on the statue to focus so the phone doesn't pick the bars instead, then slide the exposure down a touch if the wet bronze looks bright. Keep the lens close to the bars only if the focus stays on her. Live Photos can catch the trickle of water.",
+    "best_time": "Early morning or late evening, when there are fewer people in the alley."
+   },
+   "access_note": "The statue is in a public alley behind a gate and is viewed through the bars; the gate may be shut at certain times, so check on arrival."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Jeanneke Pis",
+    "url": "https://en.wikipedia.org/wiki/Jeanneke_Pis"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "Aw58",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bruksela,_Jeanneke_Pis_-_Siusiaj%C4%85ca_dziewczynka.jpg",
+   "from": "Wikidata Q152360 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Belgian Comic Strip Center",
+  "in_cut": true,
+  "label": "Comic Strip Center",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1170,
+  "pin": [
+   4.360134,
+   50.8512513
+  ],
+  "camera": [
+   4.360134,
+   50.851251
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/87493075: the middle of the OpenStreetMap outline 'Belgian Comic Strip Center' (77 m across).",
+  "notes": "A comics museum in a Horta-designed Art Nouveau building.",
+  "text": {
+   "description": "The Belgian Comic Strip Center is a museum of Belgian comics, set in a former fabric store designed by the architect Victor Horta. The building opened in 1906 as the Magasins Waucquez, built for the textile merchant Charles Waucquez, and it is the only surviving example of a series of department stores Horta designed. For a phone photographer, the appeal is the front: a symmetrical, gently concave stone façade with tall vertical pilasters and curved arches over the main openings, with wrought iron guards at ground level and decorative railings above. It is a calm, graceful frontage that sits well in a straight-on shot.\n\nThe building was protected as a monument in 1975 and restored in the late 1980s, and the museum was inaugurated in 1989. Inside, there is a central atrium, a monumental stone staircase with iron railings, stained glass and marble mosaic floors, so it is worth asking at the entrance what you may photograph indoors.\n\nFor the outside shot, stand in the street and keep your phone level so the pilasters stay upright. The façade is wide, so if you cannot step back far enough, the ultra-wide (0.5x) may help you fit it all in, though it can stretch the edges. The default lens (1x; the lens the camera app opens with) gives a more natural look. Switch on the gridlines and line up the centre of the entrance with the middle of the frame. If you want a detail of the arches or ironwork, step back and use the telephoto.",
+   "geographic_location": "In central Brussels, on rue des Sables (Zandstraat), in the city-centre area of the Belgian comics museums. Another comics museum, the Marc Sleen Museum, stood directly across the street.",
+   "directions_text": "No station or tram stop is listed for this spot, so start from the centre of Brussels and head to rue des Sables (Zandstraat), or take a taxi or hired scooter to the door. The phone icon on the map marks the centre of the museum building, so once you arrive, the façade is best shot from the street in front of it. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x; the lens the camera app opens with) for a natural view of the façade. Use the ultra-wide (0.5x) if you cannot step back far enough to fit it all in, and the telephoto (2x-5x, depending on your phone) for details of the arches and railings.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. For the photo, stand on rue des Sables in front of the façade and step back as far as the pavement allows, to give the whole frontage room in the frame.",
+    "how_to_frame": "Turn on the gridlines and keep the phone upright and level so the vertical pilasters don't lean. Centre the entrance on the middle line to bring out the symmetry. For a second picture, move in close with the telephoto on the curved arches or wrought ironwork.",
+    "phone_settings_tip": "Tap the stone façade to focus, then slide the exposure down a little if the sky is bright, so the stone keeps its detail rather than washing out.",
+    "best_time": "Soft, even daylight suits the stone façade best; an overcast day or the hours when the street is not in harsh contrast works well. Earlier in the day is often quieter on the pavement."
+   },
+   "access_note": "The building is a museum, so check the official site before you go for entry and photography rules. The façade can be photographed from the street."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Belgian Comic Strip Center",
+    "url": "https://en.wikipedia.org/wiki/Belgian_Comic_Strip_Center"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "Ramón",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Centre_Belge_de_la_Bande_Dessin%C3%A9e_-_30.jpg",
+   "from": "Wikidata Q815542 main image"
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Palace of Justice, Brussels",
+  "in_cut": true,
+  "label": "Palace of Justice",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1100,
+  "pin": [
+   4.3514974,
+   50.8366013
+  ],
+  "camera": [
+   4.3514974,
+   50.8366013
+  ],
+  "camera_source": "Researched viewpoint 'Place Poelaert' (4 web pages); placed at our map tiles: 'Place Poelaert - Poelaertplein' (roads).",
+  "pin_note": "Position from OpenStreetMap way/169173072: the middle of the OpenStreetMap outline 'Palace of Justice' (308 m across).",
+  "notes": "A colossal courthouse with a huge dome.",
+  "text": {
+   "description": "The Palace of Justice is Brussels' main law court, and it is built on a scale that makes everything around it look small. Joseph Poelaert designed it in a mixed, Greco-Roman-inspired style, and it went up between 1866 and 1883. It covers about 26,000 square metres and is reputed to be the largest building put up in the 19th century. It stands on the Galgenberg hill (Gallows Mount), between the upper and lower town. The dome was destroyed in the Second World War and rebuilt higher than before. Renovation has been under way since 1984, so scaffolding hides parts of the building and your photo may not match older postcards. That is worth knowing before you arrive, but the huge steps, columns and stonework still make a strong picture. Start on Place Poelaert, in front of the main entrance. From here you look straight up at the front of the building, with the city falling away behind you. Step back as far as the square allows so the whole width fits in. Keep the scaffolding in mind when you frame the shot: tighter crops of columns, steps and carved detail often look cleaner than the full front. For a quieter angle, walk to Minimenstraat for a side view with the dome above.",
+   "geographic_location": "The Palace of Justice stands on Place Poelaert in the Marolles district, in the southern part of Brussels' city centre. It sits on a hill between the upper and lower town.",
+   "directions_text": "From the middle of Brussels, head for Place Poelaert in the Marolles district. If you are in the lower town, the lifts known as the Poelaert Elevators (Ascenseur des Marolles) climb up to the square. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) to fit the full front and steps in from the square. Switch to the default lens (1x) for a calmer, less stretched view of the columns and entrance. Use telephoto (2x-5x, depending on your phone) to pick out the dome and carved details.",
+    "where_to_stand": "Stand in Place Poelaert (in front of the main entrance and peristyle, looking up at the facade). The full monumental front of the courthouse with its steps and columns, with the city falling away behind you. In front of the main entrance and its columned porch, and look up at the facade. From here you see the whole monumental front with its steps and columns, and the city drops away behind you.",
+    "how_to_frame": "Turn on gridlines and line the columns up with the vertical lines so the building does not lean. Keep the steps in the lower part of the picture to show how big it is. For a different view, try Minimenstraat for a side angle of the large facade with the lit dome above, or the walkway by the Ascenseur des Marolles for the west facade. Check the exact spot on the ground for the walkway.",
+    "phone_settings_tip": "Tap the stone on the facade to set focus, then slide the exposure down a little so the sky does not turn white. At dusk, try night mode and hold the phone against a wall or railing to keep it steady.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people on the steps. If you try the Ascenseur des Marolles walkway, low sun suits the west facade best."
+   },
+   "access_note": "Place Poelaert is an open public square, but the Palace of Justice is a working courthouse, so check the official site before you go if you want to go inside."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Palace of Justice, Brussels",
+    "url": "https://en.wikipedia.org/wiki/Palace_of_Justice%2C_Brussels"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "Mussklprozz",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Br%C3%BCsselJustizpalast.jpg",
+   "from": "Wikidata Q850537 main image"
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Cathedral of St. Michael and St. Gudula",
+  "in_cut": true,
+  "label": "St. Michael Cathedral",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1060,
+  "pin": [
+   4.3600964,
+   50.8478412
+  ],
+  "camera": [
+   4.3600964,
+   50.8478412
+  ],
+  "camera_source": "Researched viewpoint 'Parvis Sainte-Gudule' (2 web pages); placed at our map tiles: 'Place Sainte-Gudule - Sinter-Goedeleplein' (roads).",
+  "pin_note": "Position from OpenStreetMap way/13431536: the middle of the OpenStreetMap outline 'Saint Michael and Gudula Cathedral' (129 m across).",
+  "notes": "The Gothic cathedral of Brussels.",
+  "text": {
+   "description": "The Cathedral of St. Michael and St. Gudula is a medieval Catholic church in central Brussels, and a major example of Brabantine Gothic architecture. The two patron saints of the City of Brussels are its namesakes. Building began in the 11th century, and by the 16th century it had largely reached the Gothic form you see today. It is a big building, about 110 metres long, and its twin towers are more than 60 metres high. It also serves as Belgium's national church, so it is often used for royal weddings and state ceremonies.\n\nIt photographs well because of the open space in front. The large forecourt, the Parvis Sainte-Gudule, was laid out in the mid-20th century when the North–South railway connection was built nearby. It gives you room to step back and fit the whole west facade into one shot, with its three portals, gables and towers. The stone is carved and detailed, so the facade looks good even on a grey day. There are benches on the square, so you can take your time.\n\nFor a simple, reliable photo, stand in the middle of the square, turn on your phone's gridlines and line up the towers with the vertical lines. Then walk closer and zoom in on the gargoyles and pinnacles. For a different view, the elevated garden at Mont des Arts shows the cathedral from a distance and from above.",
+   "geographic_location": "The cathedral is in central Brussels, on the Parvis Sainte-Gudule, a wide forecourt just east of the Boulevard de l'Impératrice.",
+   "directions_text": "No Underground, tram or train stop is listed for this spot. The Parvis Sainte-Gudule is the large forecourt in front of the cathedral's west facade, just east of the Boulevard de l'Impératrice. Once you are the cathedral lies to the north-east, about 1 minute on foot. If you prefer a view from further away, Mont des Arts is the alternative. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to get the whole twin-towered facade in the frame. Switch to the ultra-wide (0.5x) if you are close to the building or want more of the square in the shot. Use the telephoto (2x-5x, depending on your phone) for the towers, gargoyles and pinnacles.",
+    "where_to_stand": "Stand in Parvis Sainte-Gudule (in front of the west facade). The twin-towered Gothic west facade filling the frame across the open square. In front of the west facade. From here the Gothic west facade fills the frame across the open space.",
+    "how_to_frame": "Switch on gridlines and keep the two towers vertical so the building does not appear to lean. Hold the phone level, and use the open square to include some foreground. If you want a second view, Mont des Arts shows the cathedral from above and at a distance, from the garden rather than street level.",
+    "phone_settings_tip": "Tap on the facade to set focus, then lower the exposure slider slightly if the sky is bright, so the stone detail does not wash out. Use Live Photos if people are walking across the square, then choose the best frame afterwards.",
+    "best_time": "Try the afternoon or early evening, when the sun is likely to fall on the west-facing facade. Go early in the morning if you want fewer people on the square."
+   },
+   "access_note": "The forecourt is an open public square. For the interior, check the official site before you go, as access may be restricted during services or events, and tripods and flash are not permitted inside."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [
+   "banned term /(?<!allow )(?<!or )(?<!no )\\btripods?\\b(?! (are|is) not allowed)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Cathedral of St. Michael and St. Gudula",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_St._Michael_and_St._Gudula"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "Donaldytong",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:(Belgium)_St._Michael_%26_St._Gudula_Cathedral_Tower,_Brussels.jpg",
+   "from": "Wikidata Q269654 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Magritte Museum",
+  "in_cut": true,
+  "label": "Magritte Museum",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 800,
+  "pin": [
+   4.358796,
+   50.8424182
+  ],
+  "camera": [
+   4.358796,
+   50.842418
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap node/9026522736: the OpenStreetMap point 'Musée Magritte Museum'.",
+  "notes": "The world's largest collection of René Magritte's works.",
+  "text": {
+   "description": "The Magritte Museum fills the Hôtel du Lotto, a late 18th-century neoclassical townhouse on the Place Royale/Koningsplein in Brussels' Royal Quarter. It is a calm, symmetrical building with a stately front, so it frames neatly on a phone screen. The pale façade and tall windows give you clean lines, and you can step back as far as the surroundings safely allow. Nearby you can also fit in the street scene and the neighbouring buildings around the square.\n\nThe building went up after the Palace of Coudenberg burned down in 1731. Over time it served as a hotel and a jeweller's shop before becoming a museum. The façades and porticoes around the square were given heritage protection in 1951. The museum opened to the public on 2 June 2009 and shows some 200 works by the surrealist René Magritte, including The Empire of Light. It is one of the Royal Museums of Fine Arts of Belgium.\n\nFor photos, start with a wide view of the whole front, then move closer for details such as the doorway, the windows and the stonework. Keep the phone level so the vertical lines stay straight; the gridlines help. Surrealist art makes a fun theme, so look for playful angles, such as a person standing in front of the building for scale. Photography rules inside the galleries can differ, so check the official site before you go.",
+   "geographic_location": "The museum is in the Royal Quarter of central Brussels, on the Place Royale/Koningsplein. It stands across the street from the Musical Instruments Museum (MIM) and not far from the Royal Palace.",
+   "directions_text": "No Underground, tram or train stop is listed for this spot, so start from the Royal Quarter around the Place Royale in central Brussels. If you are coming from elsewhere in the city, make your way to the Place Royale/Koningsplein. The phone icon on the map is at the museum's position on the map, so once you are on the square you are in the right place. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole façade and some of the square, then use the default lens (1x) for a more natural view. Try the telephoto (2x or more, depending on your phone) for doorway and window details.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. If you need more of the front in the frame, step back as far as the surroundings safely allow.",
+    "how_to_frame": "Turn on the gridlines and line up the edges of the building with the vertical lines so it does not lean. Centre the entrance for a formal, symmetrical shot, or stand to one side for a diagonal view along the row of façades. Keep the lens clear of people walking past by waiting a moment.",
+    "phone_settings_tip": "Tap the façade to focus, then slide the exposure down a little if the sky is bright, so the stonework keeps its detail. After dark, switch on night mode and hold the phone steady against your body or a wall.",
+    "best_time": "Morning or late afternoon usually gives softer light on stone façades than the middle of the day. Early on a weekday is likely to be quieter on the square."
+   },
+   "access_note": "Check the official site before you go for visiting details and for the photography rules inside the museum."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Magritte Museum",
+    "url": "https://en.wikipedia.org/wiki/Magritte_Museum"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "Warburg",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:BRX-mus%C3%A9e-magritte.2.JPG",
+   "from": "Wikidata Q943581 main image"
+  }
+ },
+ {
+  "rank": 15,
+  "name": "National Basilica of the Sacred Heart",
+  "in_cut": true,
+  "label": "Sacred Heart Basilica",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 710,
+  "pin": [
+   4.3170008,
+   50.8670606
+  ],
+  "camera": [
+   4.3170008,
+   50.8670606
+  ],
+  "camera_source": "Researched viewpoint 'Parc Elisabeth' (3 web pages); placed at our map tiles: 'Pharmacie Parc Elisabeth' (pois); moved 5 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/30163817: the middle of the OpenStreetMap outline 'National Basilica of the Sacred Heart' (177 m across).",
+  "notes": "A huge Art Deco basilica with a panoramic terrace.",
+  "text": {
+   "description": "The National Basilica of the Sacred Heart sits at the head of Parc Elisabeth on the Koekelberg plateau, and its green copper dome and twin towers are easy to spot above the trees. It is a huge Art Deco church with neo-Byzantine touches, built of brick and reinforced concrete with a pale stone trim. King Leopold II laid the first stone in 1905, but the two world wars interrupted the work and the building was only completed in 1970. The dome rises 89 metres, the two towers by the entrance are 65 metres high, and it is the largest church in Belgium.\n\nThe building photographs best from the park, with the lawn sloping up towards it. Guides recommend the walk up from Simonis metro because the grass and trees make a natural frame, and the dome and towers rise above them as you get closer. For a closer and more head-on view, the forecourt (Parvis de la Basilique) shows the full facade and dome, though that spot is less well confirmed, so check it on site.\n\nThe building is so big that you will not fit all of it in from close up. Walk back along the lawn and keep the whole church in view. Put a tree or the edge of a path in the foreground, and check the dome is not cut off at the top. The paid gallery under the dome gives a view over the city rather than of the basilica itself, so it is not needed for this photo.",
+   "geographic_location": "In the north-west of Brussels, on the Koekelberg plateau at the head of Parc Elisabeth, between the municipalities of Koekelberg and Ganshoren.",
+   "directions_text": "Guides suggest the park walk from Simonis metro up through Parc Elisabeth, with the basilica ahead of you. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the whole building with lawn and trees in front. Switch to telephoto (2x or 3x, depending on your phone) to bring the dome and twin towers closer. Use ultra-wide (0.5x) only if you move to the forecourt, where the building is too big for the default lens.",
+    "where_to_stand": "Stand in Parc Elisabeth (sloping lawn on the approach from Simonis metro, facing the basilica). The basilica's green dome and twin towers rising above the sloping lawn and trees, framed from the park as you walk toward the church. You will see the green dome and twin towers rising above the lawn and trees. As a separate, more general suggestion, the sloping lawn of Parc Elisabeth on the approach from Simonis metro also gives a natural frame of grass and trees around the basilica.",
+    "how_to_frame": "Turn on the gridlines and put the dome and towers on the upper line, with the lawn filling the lower third. Use a tree or the curve of a path as a side frame. Keep the phone level so the towers stay upright. For a closer, head-on view of the Art Deco facade, try the forecourt (Parvis de la Basilique) instead.",
+    "phone_settings_tip": "Tap on the green dome to set focus, then drag the exposure slider down a little if the sky is bright so the copper keeps its colour. Hold the phone steady with both hands when using the telephoto.",
+    "best_time": "Pick a clear day, when the sky is a plain backdrop for the green dome. Soft morning or late-afternoon light is usually kinder to the brick than harsh midday sun."
+   },
+   "access_note": "The park is open public space, but the basilica is a place of worship with its own visiting arrangements and a paid dome gallery, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Soft morning or late-afternoon light is usually kinder to the brick, and a clear sky gives a plain backdrop for the green dome.",
+    "From about 170 m away the basilica looks small on the default lens (1x), so the 2x or 3x telephoto helps.",
+    "The basilica is too large to fit in the frame from the forecourt on the default lens (1x), so ultra-wide helps there.",
+    "Simonis metro is the nearest metro station to the park walk, as given in the viewpoint notes."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Basilica of the Sacred Heart, Brussels",
+    "url": "https://en.wikipedia.org/wiki/Basilica_of_the_Sacred_Heart%2C_Brussels"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/15.jpg",
+   "artist": "Giles Laurent",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:1001_Basilica_of_the_Sacred_Heart_in_Brussels_Photo_by_Giles_Laurent.jpg",
+   "from": "Wikidata Q846006 main image"
+  }
+ },
+ {
+  "rank": 16,
+  "name": "Royal Greenhouses of Laeken",
+  "in_cut": true,
+  "label": "Royal Greenhouses",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 510,
+  "pin": [
+   4.3602778,
+   50.8883333
+  ],
+  "camera": [
+   4.3602778,
+   50.8883333
+  ],
+  "camera_source": "Researched viewpoint 'Parc Royal de Laeken' (2 web pages); placed at our map tiles: 'Avenue du Parc Royal - Koninklijk Parklaan' (roads).",
+  "pin_note": "Position from OpenStreetMap relation/13551930: large area 'Royal Greenhouses of Laeken' (663 m across): previous pin kept, it lies inside.",
+  "notes": "Glass-and-iron greenhouses open to the public in spring.",
+  "text": {
+   "description": "The Royal Greenhouses of Laeken are a huge group of glass-and-iron pavilions, domes and long covered galleries in the grounds of the Royal Palace. King Leopold II commissioned them, and they were built between 1874 and 1905, first to designs by the architect Alphonse Balat. The whole complex covers about 2.5 hectares of floor space and looks a little like a glass town set in a hilly landscape. The largest building is the round Winter Garden, about 57 metres across and 25 metres high. Close by is the long, neoclassical Orangery, which dates from 1817 to 1819.\n\nThe complex photographs well because the curved glass roofs and slender metal ribs catch the sky, and the palace sits right beside them. From the gardens you can show the glass shapes with lawn and trees in front, which gives the picture depth. Try one wide shot for the whole scene, then a closer one of a single dome or roofline.\n\nThe greenhouses are part of the private royal gardens and open to visitors for about three weeks each spring (roughly late April to May), so plan around that. Only part of the park is open, so stay on the marked path. Expect other visitors to be in your shots. If the Orangery is in view, its façade with the garden and the orange tree outside makes a good second picture.",
+   "geographic_location": "The greenhouses are in Laeken, in the northern part of the City of Brussels, within the grounds of the Royal Palace of Laeken. The Parc Royal de Laeken viewpoint is on the palace side of the glasshouses.",
+   "directions_text": "Head for Laeken in the northern part of Brussels and follow the official visitor route. From there the greenhouses are to the south-east, about 5 minutes on foot. Check the official site before you go, because the route is open only during the spring opening period. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the glasshouses beside the palace. Switch to ultra-wide (0.5x) if you want more of the garden in front, and use the telephoto (2x-5x, depending on your phone) to pick out a single dome or roofline.",
+    "where_to_stand": "Stand in Parc Royal de Laeken (Royal Gardens, on the palace side of the greenhouses). The glass greenhouses rising beside the royal palace, seen across the gardens. The greenhouses lie to the south-east of you. From here you look across the gardens at the glass houses rising next to the royal palace.",
+    "how_to_frame": "Turn on gridlines and keep the roof edges level. Put some lawn or path in the lower part of the frame, with the glass and the palace above it. Take one wide frame and one tighter telephoto frame of a single dome. The Orangery, with its façade, the garden in front and the orange tree outside, is a good second option.",
+    "phone_settings_tip": "Tap on the glass to set focus, then drag the exposure slider down a little so the bright sky doesn't wash out the roofs. Wipe the lens first. Hold the phone with both hands and rest your elbows against your body, since crowds make a stand impractical.",
+    "best_time": "Afternoon or evening light is suggested, because the palace façade faces north-west. Check the spring opening dates first, as the viewpoint is reached during that period."
+   },
+   "access_note": "The greenhouses open to the public only for a few weeks in spring, the interior needs a ticket, and only part of the royal park is open, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Large glass roofs can reflect the sky, so a lower exposure setting helps keep the sky from washing out.",
+    "Ultra-wide (0.5x) can fit more of the garden in front of the greenhouses when you are close.",
+    "A tripod is not practical in the crowds (this also fits advice to hold the phone steadily)."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Royal Greenhouses of Laeken",
+    "url": "https://en.wikipedia.org/wiki/Royal_Greenhouses_of_Laeken"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/16.jpg",
+   "artist": "William Helsen from Antwerp, Belgium",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Laken_greenhouse_dome.jpg",
+   "from": "Wikidata Q1644661 main image"
+  }
+ },
+ {
+  "rank": 17,
+  "name": "Church of Our Lady of Victories at the Sablon",
+  "in_cut": true,
+  "label": "Notre-Dame du Sablon",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 480,
+  "pin": [
+   4.3562079,
+   50.8403539
+  ],
+  "camera": [
+   4.3562079,
+   50.8403539
+  ],
+  "camera_source": "Researched viewpoint 'Jardin du Petit Sablon' (2 web pages); placed at our map tiles: 'Petit Sablon - Kleine Zavel' (pois).",
+  "pin_note": "Position from OpenStreetMap way/22407928: the middle of the OpenStreetMap outline 'Église Notre-Dame des Victoires au Sablon - Onze-Lieve-Vrouw-ter-Zavelkerk' (97 m across).",
+  "notes": "A Gothic church on the antiques square.",
+  "text": {
+   "description": "The Church of Our Lady of Victories at the Sablon is a Catholic church in the Sablon district of Brussels, and one of the three Gothic churches still standing in the centre of the city. Building began around 1400 and took about a century. The result is late Brabantine Gothic, with tall windows, pinnacles and openwork balustrades. Much of the carved decoration you see on the outside was added in the 19th century and early 20th century, and 57 statues were put in place between 1917 and 1937. The two towers planned for the nave were never finished, so the roofline is lower and more broken than you might expect. That helps a photo: the busy stonework, gables and turrets give the picture plenty of texture. The church was listed as a historic monument in 1936. The best everyday view is from the Jardin du Petit Sablon, directly across the road, where the park's trees and railings frame the Gothic front. Stand at the edge of the park, look across the road, and let the trees and railings sit at the sides of the frame. If cars or trams cross the view, wait a moment and take several shots. For a different angle, try Place du Grand Sablon for a side-on view, or Rue de la Régence for a head-on look at the main front.",
+   "geographic_location": "In the Sablon district of central Brussels, along the Rue de la Régence, roughly halfway between the Place Royale and the Palace of Justice. It stands directly across the road from the Petit Sablon park.",
+   "directions_text": "The church is on the Rue de la Régence in the Sablon, between the Place Royale and the Palace of Justice, across from the Square du Petit Sablon. Once there, go to the Jardin du Petit Sablon, across the road from the church. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole front. Switch to ultra-wide (0.5x) only if you are too close to fit it in, and keep the phone level so the walls do not lean. Use 2x if you want a closer shot of the carved details and statues.",
+    "where_to_stand": "Stand in Jardin du Petit Sablon (across the road from the church, facing it). The church's Gothic front and carved exterior, framed by the park's trees and railings. From there the church is directly across the road, to the west. The photo shows its Gothic front and carved stonework, framed by the park's trees and railings.",
+    "how_to_frame": "Turn so the church sits in the middle and use the trees and railings as a frame at the sides. Switch on gridlines to keep the vertical lines straight. As alternatives, Place du Grand Sablon gives a side-on view of the facade from the pavement seating of the café, and Rue de la Régence gives a head-on view of the main front and portal.",
+    "phone_settings_tip": "Tap the stonework to focus, then slide the exposure down a little if the sky is bright and washing out the detail. Take a few frames, since traffic and people pass through the view.",
+    "best_time": "Choose a time when the front of the church is lit rather than in shadow, and try early in the day for fewer people. Check the light on the day, as it can change quickly."
+   },
+   "access_note": "The outside can be photographed from the public street and the park opposite; the inside is a place of worship, so check the official site before you go for visiting arrangements and dress expectations.",
+   "claims_not_in_sources": [
+    "The front of the church is best photographed when it is lit by the sun rather than in shadow.",
+    "Early in the day there are usually fewer people around.",
+    "Holding the phone level and using gridlines helps keep the vertical lines of the building straight.",
+    "Traffic and passers-by may cross the view from the park."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Church of Our Lady of Victories at the Sablon",
+    "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_of_Victories_at_the_Sablon"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/17.jpg",
+   "artist": "Voyager747",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ko%C5%9Bci%C3%B3%C5%82_Notre-Dame_du_Sablon_w_Brukseli.jpg",
+   "from": "Wikidata Q2002492 main image"
+  }
+ },
+ {
+  "rank": 18,
+  "name": "Bourse Palace",
+  "in_cut": true,
+  "label": "La Bourse",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 170,
+  "pin": [
+   4.3504169,
+   50.8479524
+  ],
+  "camera": [
+   4.3504169,
+   50.8479524
+  ],
+  "camera_source": "Researched viewpoint 'Place de la Bourse' (2 web pages); placed at our map tiles: 'Place de la Bourse - Beursplein' (pois).",
+  "pin_note": "Position from OpenStreetMap way/13494623: the middle of the OpenStreetMap outline 'Bourse' (115 m across).",
+  "notes": "The neoclassical former stock exchange.",
+  "text": {
+   "description": "The Bourse Palace was built as Brussels' stock exchange and is now home to the Belgian Beer World museum. Its front is covered in columns, carvings and sculpture, so it gives you a lot to photograph without going inside. The architect was Léon-Pierre Suys, and the building went up between 1868 and 1873 on the Boulevard Anspach, on the site of the old Butter Market. The style mixes neo-Renaissance and Second Empire ideas, which is why it looks so richly decorated. Look for the allegorical figures on the facade, the friezes between the columns, and the pair of lion sculptures beside the main staircase. The sculptors included Jacques and Jean-Joseph Jacquet, and the young Auguste Rodin may have worked on some of the friezes.\n\nThe best place to photograph it is Place de la Bourse, the pedestrianised square in front. You can walk back far enough to fit the whole building in one frame. Start at the foot of the front steps and face the columned facade. From there you can also tilt your phone up to catch the carvings between the columns. Keep the phone level so the columns stay upright rather than leaning inwards. Take a wide shot first, then a closer one of the sculpture details. If you want a different view, try Boulevard Anspach, where the building closes the view along the street and the steps make a good foreground.",
+   "geographic_location": "The Bourse Palace stands in the centre of Brussels, halfway along the Boulevard Anspach. It gives its name to the Place de la Bourse, the square in front of it.",
+   "directions_text": "No Underground or tram stop is listed for this spot, so walk in to the Boulevard Anspach area in the centre of Brussels. Go to the Place de la Bourse, which is the square in front of the building. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the full facade from the square. Switch to ultra-wide (0.5x) if the crowds or café tables stop you stepping back, or if you want the steps and lions in the foreground. Use telephoto (2x or more, depending on your phone) for the carvings and sculptures.",
+    "where_to_stand": "Stand in Place de la Bourse (Foot of the front steps, facing the columned facade). The full neoclassical facade and columns of the Bourse, framed from the pedestrianised square. Face south-east towards the columned facade. From here the full facade and its columns fit in one frame. Looking up from the foot of the steps also shows the carvings between the columns well.",
+    "how_to_frame": "Turn on gridlines and line the columns up with the vertical lines so the building doesn't lean. Take one wide shot of the whole elevation, then a tighter shot of the sculpture details. For a second view, walk to Boulevard Anspach and shoot with the steps in the foreground, using the ultra-wide (0.5x) lens.",
+    "phone_settings_tip": "Tap the facade to focus, then slide the exposure down a little if the sky is bright, so the stonework keeps its detail. Live Photos can help if people walk through the frame, because you can choose the best moment afterwards.",
+    "best_time": "Early morning before about 10:00, or the golden hour before dusk, when the light is cleaner. Avoid midday on summer weekends, when café furniture and crowds fill the square."
+   },
+   "access_note": "The square is open public space, but the building is now a museum, so check the official site before you go if you want to go inside."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Bourse Palace",
+    "url": "https://en.wikipedia.org/wiki/Bourse_Palace"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/18.jpg",
+   "artist": "Guy Delsaut",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Front_of_Brussels_Stock_Exchange_2023_cropped.jpg",
+   "from": "Wikidata Q28485845 main image"
+  }
+ }
+]
