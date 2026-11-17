@@ -1,1 +1,1 @@
-window.MAPCFG = {"key": "bergen", "title": "Bergen: 18 photo spots (pilot review)", "place": "Bergen", "bounds": [5.295, 60.384, 5.35, 60.408], "center": [5.3225, 60.396], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bergen/{z}/{x}/{y}.pbf"};
+window.MAPCFG = {"key": "bergen", "title": "Bergen: 17 photo spots (pilot review)", "place": "Bergen", "bounds": [5.295, 60.384, 5.35, 60.408], "center": [5.3225, 60.396], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bergen/{z}/{x}/{y}.pbf"};

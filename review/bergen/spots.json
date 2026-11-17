@@ -829,55 +829,6 @@
  },
  {
   "rank": 16,
-  "name": "KODE Art Museums",
-  "in_cut": true,
-  "label": "KODE Art Museums",
-  "camera_pill": "Rasmus Meyers allé",
-  "nophone": false,
-  "searches": 180,
-  "pin": [
-   5.330025,
-   60.388981
-  ],
-  "camera": [
-   5.325182,
-   60.390123
-  ],
-  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
-  "pin_note": "Position from OSM N4933204886 (Lysverket Art Museum): kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "A group of art museums along the lake, including the Rasmus Meyer and Stenersen collections.",
-  "text": {
-   "description": "KODE is Bergen's group of art museums, and the subject here is the museum buildings in the city centre. The phone icon on the map is about 290 m north-west of the subject. That makes it a good spot for a simple, tidy photo to remember the visit by, especially if you plan to go inside afterwards.\n\nThe subject is about 295 metres away, to the south-east, so it will look fairly small in a default-lens photo. Decide what the picture is about before you press the shutter. It might be the museum frontage with some sky above it, or a wider street scene with people walking through. Turn on the gridlines and line up the building with one of the vertical lines so it doesn't look as if it is leaning. Wait for a gap if people walk through the frame, or let them stay in the picture to give a sense of scale.\n\nBergen's weather changes quickly, so check the sky before you set up. Overcast light is kind to building fronts, and wet pavements can add a pleasant reflection. If you want pictures inside the galleries, rules on photography can differ from room to room, so check the official site before you go.",
-   "geographic_location": "In the centre of Bergen.",
-   "directions_text": "Keep the map open and head for the museum. The phone icon on the map is about 290 m north-west of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the whole scene. Then try telephoto (2x-5x, depending on your phone) to bring the museum closer without walking towards it. The ultra-wide (0.5x) is useful only if you step in close and want to fit in the whole frontage.",
-    "where_to_stand": "Stand about 290 m north-west of the subject, at the phone icon on the map, and face south-east.",
-    "how_to_frame": "Switch on gridlines and put the building on a vertical line to keep the edges straight. Leave a little foreground, such as the pavement or some trees, to give depth. Take one wide shot and one zoomed shot so you have both the setting and the building.",
-    "phone_settings_tip": "Tap the building to focus, then drag the exposure slider down slightly if the sky is bright and washing out. Hold the phone with both hands and keep your elbows tucked in for sharper zoomed shots.",
-    "best_time": "Soft daylight on an overcast day or in the morning gives even colours on the building. In the evening, use night mode if the light fades, and hold still for the full exposure."
-   },
-   "access_note": "Check the official KODE website for visiting information before you go."
-  },
-  "checker_problems": 5,
-  "code_check_failures": [],
-  "sources": [],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/16.jpg",
-   "artist": "© Xdatrys LLC",
-   "licence": "",
-   "licence_url": "",
-   "source_url": "",
-   "from": "Own photo, taken 1 m from the phone icon",
-   "zoom": 2.0
-  }
- },
- {
-  "rank": 17,
   "name": "Haakon's Hall",
   "in_cut": true,
   "label": "Haakon's Hall",
@@ -921,7 +872,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -931,7 +882,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Permanenten (KODE 4)",
   "in_cut": true,
   "label": "KODE 4 Permanenten",
@@ -975,12 +926,61 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
    "source_url": "",
    "from": "Own photo, taken 5 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 101,
+  "name": "KODE Art Museums",
+  "in_cut": false,
+  "label": "KODE Art Museums",
+  "camera_pill": "Rasmus Meyers allé",
+  "nophone": false,
+  "searches": 180,
+  "pin": [
+   5.330025,
+   60.388981
+  ],
+  "camera": [
+   5.325182,
+   60.390123
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OSM N4933204886 (Lysverket Art Museum): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "A group of art museums along the lake, including the Rasmus Meyer and Stenersen collections.",
+  "text": {
+   "description": "KODE is Bergen's group of art museums, and the subject here is the museum buildings in the city centre. The phone icon on the map is about 290 m north-west of the subject. That makes it a good spot for a simple, tidy photo to remember the visit by, especially if you plan to go inside afterwards.\n\nThe subject is about 295 metres away, to the south-east, so it will look fairly small in a default-lens photo. Decide what the picture is about before you press the shutter. It might be the museum frontage with some sky above it, or a wider street scene with people walking through. Turn on the gridlines and line up the building with one of the vertical lines so it doesn't look as if it is leaning. Wait for a gap if people walk through the frame, or let them stay in the picture to give a sense of scale.\n\nBergen's weather changes quickly, so check the sky before you set up. Overcast light is kind to building fronts, and wet pavements can add a pleasant reflection. If you want pictures inside the galleries, rules on photography can differ from room to room, so check the official site before you go.",
+   "geographic_location": "In the centre of Bergen.",
+   "directions_text": "Keep the map open and head for the museum. The phone icon on the map is about 290 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene. Then try telephoto (2x-5x, depending on your phone) to bring the museum closer without walking towards it. The ultra-wide (0.5x) is useful only if you step in close and want to fit in the whole frontage.",
+    "where_to_stand": "Stand about 290 m north-west of the subject, at the phone icon on the map, and face south-east.",
+    "how_to_frame": "Switch on gridlines and put the building on a vertical line to keep the edges straight. Leave a little foreground, such as the pavement or some trees, to give depth. Take one wide shot and one zoomed shot so you have both the setting and the building.",
+    "phone_settings_tip": "Tap the building to focus, then drag the exposure slider down slightly if the sky is bright and washing out. Hold the phone with both hands and keep your elbows tucked in for sharper zoomed shots.",
+    "best_time": "Soft daylight on an overcast day or in the morning gives even colours on the building. In the evening, use night mode if the light fades, and hold still for the full exposure."
+   },
+   "access_note": "Check the official KODE website for visiting information before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 1 m from the phone icon",
    "zoom": 2.0
   }
  }
