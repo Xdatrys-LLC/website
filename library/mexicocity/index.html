@@ -1,0 +1,325 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Mexico City Attractions Map: 18 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Mexico City tourist map of 18 top photo spots, including Frida Kahlo Museum and Plaza Garibaldi: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in mexico city, mexico city attractions, mexico city tourist map, map of mexico city attractions, best views in mexico city, mexico city frida kahlo museum, garibaldi, museo nacional de antropologia">
+<link rel="canonical" href="https://xdatrys.com/library/mexicocity/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Mexico City Attractions Map: 18 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Mexico City tourist map of 18 top photo spots, including Frida Kahlo Museum and Plaza Garibaldi: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/mexicocity/">
+<meta property="og:image" content="https://xdatrys.com/library/mexicocity/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="696">
+<meta property="og:image:alt" content="Frida Kahlo Museum, Mexico City: the cobalt-blue house in Coyoacán where the artist was born. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/mexicocity/","url":"https://xdatrys.com/library/mexicocity/","name":"Mexico City Attractions Map: 18 Best Photo Spots | Xdatrys","description":"A Mexico City tourist map of 18 top photo spots, including Frida Kahlo Museum and Plaza Garibaldi: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/mexicocity/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Mexico City"},"mainEntity":{"@type":"ItemList","name":"Mexico City photo spots","numberOfItems":18,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Frida Kahlo Museum","description":"The Frida Kahlo Museum, better known as La Casa Azul (the Blue House), is the cobalt-blue house in Coyoacán where the artist was born, grew up and later died.","geo":{"@type":"GeoCoordinates","latitude":19.3551508,"longitude":-99.1624056},"alternateName":["Mexico City Frida Kahlo Museum","Casa Azul"],"image":"https://xdatrys.com/library/mexicocity/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Plaza Garibaldi","description":"From there the nine large letters spelling GARIBALDI sit beside the maguey plant, with mariachi groups and other performers usually in the frame, so the sign, the people and the atmosphere all read at once.","geo":{"@type":"GeoCoordinates","latitude":19.4407292,"longitude":-99.1390698},"alternateName":["Mexico City Plaza Garibaldi","Garibaldi"],"image":"https://xdatrys.com/library/mexicocity/photos/2.jpg"}},{"@type":"ListItem","position":4,"item":{"@type":"TouristAttraction","name":"National Museum of Anthropology","description":"The National Museum of Anthropology is the largest and most visited museum in Mexico, with 3.7 million visitors in 2024.","geo":{"@type":"GeoCoordinates","latitude":19.4260815,"longitude":-99.1865176},"alternateName":["Mexico City Anthropology Museum","Museo Nacional de Antropologia","Anthropology Museum"],"image":"https://xdatrys.com/library/mexicocity/photos/4.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/mexicocity/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Mexico City","item":"https://xdatrys.com/library/mexicocity/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Mexico City?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Frida Kahlo Museum, Plaza Garibaldi and Zócalo. They are ranked by how often people search for them. The full map has 18."}},{"@type":"Question","name":"Where should I stand to photograph the Frida Kahlo Museum?","acceptedAnswer":{"@type":"Answer","text":"Stand at the corner of Londres and Allende (corner of the cobalt facade facing the Londres and Allende junction). Start with the default lens (1x) for the whole corner facade."}},{"@type":"Question","name":"When is the best time to photograph Plaza Garibaldi?","acceptedAnswer":{"@type":"Answer","text":"The square is liveliest in the evening, and Friday or Saturday night from 11:00 p.m. is a good choice for the full atmosphere."}},{"@type":"Question","name":"How do I get to Museo de Antropología?","acceptedAnswer":{"@type":"Answer","text":"Head for Chapultepec Park and the museum's entrance on the Paseo de la Reforma side."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Mexico City</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/mexicocity/?gate" style="color:#E100FF">✏️ Review all 18 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>18 photo spots in Mexico City: where to stand and how to shoot them on your phone</h1>
+  <p>18 photo spots on one map. Spots 1, 2 and 4 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 15 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 18 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/mexicocity/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 18 photo spots in Mexico City"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 18 of the most-searched sights in Mexico City as photo spots, ranked by how often people search for them: Frida Kahlo Museum, Plaza Garibaldi, Zócalo, Museo de Antropología and Palacio de Bellas Artes lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Frida Kahlo Museum</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Museo_Frida_Kahlo.JPG" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Frida Kahlo Museum, Mexico City: the cobalt-blue house in Coyoacán where the artist was born. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: No machine-readable author provided. Nachtwächter assumed..., <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Frida Kahlo Museum, better known as La Casa Azul (the Blue House), is the cobalt-blue house in Coyoacán where the artist was born, grew up and later died. It was built in 1904 and has since been simplified to the plainer facade you see today. Diego Rivera gave the house and its contents to be turned into a museum in her honour, and it has been open as one since 1958. It is among the most visited museums in Mexico City, with around 25,000 visitors a month, so expect company. The house is built around a central courtyard garden, but from the street you see only the strong blue walls.</p><p>It photographs well because the colours do the work for you. The deep blue is set off by red trim, green barred windows and a large tree overhanging the street, and the corner position lets you show two walls at once. The best view is from the corner of Londres and Allende, where the full facade fits in one frame. If the entrance is busy, Calle Allende gives a calmer view of the blue wall from the side. Weekday mornings are quieter than weekends and holidays, when the queue at the entrance can be long. Keep your phone level so the vertical lines stay straight, and leave a little pavement and sky in the frame so the house does not look cramped.</p>
+    <p><b>Where it is:</b> The museum is in Colonia del Carmen, in the Coyoacán borough of Mexico City. It stands on the corner of Londres and Allende streets.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole corner facade. Switch to ultra-wide (0.5x) if the pavement is narrow or you want to include the tree and the sky. Use 2x if you want a closer shot of the windows and trim without stepping into the road.</p>
+      <p><b>Where to stand:</b> Stand at the corner of Londres and Allende (corner of the cobalt facade facing the Londres and Allende junction). The full cobalt-blue corner facade of Casa Azul with red trim, green barred windows and a large tree above the street. Stand on Londres y Allende, at the corner of the cobalt facade facing the junction. From this corner you see the whole blue corner facade, with its red trim, green barred windows and the large tree above the street.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the corner of the house up with one vertical line so the walls stay straight. Keep the tree at the top of the frame and leave a little pavement at the bottom. For a quieter alternative with fewer people in the shot, walk along Calle Allende and photograph the blue wall from the side.</p>
+      <p><b>Settings tip:</b> Tap the blue wall to focus, then slide the exposure down a touch so the blue stays rich and the sky does not wash out. Try a Live Photo if people are passing, so you can pick the best moment afterwards.</p>
+      <p><b>Best time:</b> Late afternoon, roughly 3:30 to 5:00 pm, should give side light on the facade, but check it on the day. Weekday mornings are calmer for crowds, though the entrance side may be in shade.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Plaza Garibaldi</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:PLAZA_EN_GARIBALDI.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Plaza Garibaldi, Mexico City: photo spot" loading="lazy"></a>
+      <figcaption>Photo: JEDIKNIGHT1970, <a href="https://creativecommons.org/licenses/by/2.5" target="_blank" rel="noopener license">CC BY 2.5</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>From there the nine large letters spelling GARIBALDI sit beside the maguey plant, with mariachi groups and other performers usually in the frame, so the sign, the people and the atmosphere all read at once. It is the postcard view of the square. The plaza was called Plaza Santa Cecilia until 1920, when it was renamed after Lt. Col. Peppino Garibaldi, who fought in the Mexican Revolution. Mariachi players have gathered here since the 1920s, when the Salón Tenampa, still on the north side of the square, became the place to hear them. The square was remodelled after 2009, so older photos with the kiosk no longer match what you will see. Keep your shot simple: let the letters fill the lower or middle of the frame and leave room above for the buildings and sky. For a different angle, the patio at the Museo del Tequila y el Mezcal looks over the square from slightly below street level, though you may need museum access, so check the official site before you go. If you ask musicians to pose, some may expect a small tip. Keep an eye on your phone and bag while you shoot.</p>
+    <p><b>Where it is:</b> Plaza Garibaldi is in the historic centre of Mexico City, on Eje Central (Lázaro Cárdenas), a few blocks north of the Palacio de Bellas Artes.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the letters with the performers behind. Switch to the ultra-wide (0.5x) if you are close to the letters and want the whole sign and the market front in one frame. Use 2x telephoto, if your phone has it, for musicians at a distance.</p>
+      <p><b>Where to stand:</b> Stand at Mercado San Camilito (in front of the market, beside the large GARIBALDI letters). The nine large letters spelling GARIBALDI with the maguey, mariachi groups and performers in the frame, so the square&#39;s signature sign reads clearly in one shot. The square itself lies to the south of you, so the letters, the maguey and the groups of mariachis fall into one view.</p>
+      <p><b>Framing:</b> Turn on gridlines and line the letters up with a horizontal grid line so they sit level. Include a few musicians or passers-by for scale and life, and avoid cutting the end letters off. If you want a calmer alternative, try the quieter Callejón de la Amargura, an older-looking alley nearby.</p>
+      <p><b>Settings tip:</b> Tap on the letters to focus, then drag the exposure slider down a little so bright signs and lights don&#39;t wash out in the evening. In low light, try night mode and hold the phone steady against your body. Moving musicians may blur, so take a few shots.</p>
+      <p><b>Best time:</b> The square is liveliest in the evening, and Friday or Saturday night from 11:00 p.m. is a good choice for the full atmosphere. For a calmer shot with fewer people in front of the letters, visit in daylight.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-4">
+    <h3><span class="n">4</span>National Museum of Anthropology</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Musee_National_Anthropologie-Entree.jpg" target="_blank" rel="noopener"><img src="photos/4.jpg" alt="National Museum of Anthropology, Mexico City: the largest and most visited museum in Mexico. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: kornemuz, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The National Museum of Anthropology is the largest and most visited museum in Mexico, with 3.7 million visitors in 2024. It stands in Chapultepec Park and opened in 1964. Its architects, Pedro Ramírez Vázquez, Jorge Campuzano and Rafael Mijares Alcérreca, built the exhibition halls around a big central courtyard. The best-known feature there is El Paraguas, &#39;the umbrella&#39;: a huge square concrete canopy held up by one slender pillar, with a large reflecting pool in the courtyard. Water falls around the column, so the scene has movement as well as strong shapes.</p><p>It photographs well because everything lines up: the canopy overhead, the carved column, the reflecting pool and the visitors walking beneath. These give you a sense of scale. The museum has 23 exhibition rooms and covers almost 8 hectares, so the courtyard is a calm centre in a very large building. Outside, the gardens around the halls hold outdoor exhibits, including the Olmec colossal heads.</p><p>For a phone, this is an easy place to get a striking picture. Stand under the canopy, include a little of the pool and a few people, and keep the column upright in the frame. Flash is not allowed, and tripods should be treated as banned, so hold the phone steady with both hands and rest your elbows against your body. The courtyard is inside the museum, so check the official site before you go for tickets, hours and photography rules.</p>
+    <p><b>Where it is:</b> The museum is inside Chapultepec Park in Mexico City, in the area between Paseo de la Reforma and Mahatma Gandhi Street. Its entrance faces Paseo de la Reforma.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the whole canopy, the column and the pool into one frame. Use the default lens (1x) for a calmer, more natural view. Try telephoto (2x or more, depending on your phone) for the carved details on the column.</p>
+      <p><b>Where to stand:</b> Stand right at the subject (central courtyard, under the canopy, just inside the entrance). The cantilevered umbrella canopy on its single column, with water falling around it and the reflecting pool and visitors in the frame. In the central courtyard under the canopy, just inside the entrance. From here the camera sees the umbrella on its single column, the water falling around it, the reflecting pool and visitors moving through the frame.</p>
+      <p><b>Framing:</b> Turn on gridlines and line the column up with a vertical line so it stands straight. Leave some of the pool and a few people in the lower part of the picture to show scale. For a second view, a free option is Paseo de la Reforma, which shows the museum facade and entrance with the park trees around it.</p>
+      <p><b>Settings tip:</b> Switch flash off, as it is not allowed. Tap on the shaded underside of the canopy to focus, then nudge the exposure slider down if the bright sky is washing out. A Live Photo can capture the falling water, and you can pick the best frame afterwards.</p>
+      <p><b>Best time:</b> Early morning or late afternoon light suits garden photos. Check the official site for current hours before you go.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(4)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>15 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">3</span>Zócalo <small>· members</small></li>
+    <li><span class="n">5</span>Palacio de Bellas Artes <small>· members</small></li>
+    <li><span class="n">6</span>Chapultepec Castle <small>· members</small></li>
+    <li><span class="n">7</span>Museo Soumaya <small>· members</small></li>
+    <li><span class="n">8</span>Templo Mayor <small>· members</small></li>
+    <li><span class="n">9</span>Angel of Independence <small>· members</small></li>
+    <li><span class="n">10</span>National Palace <small>· members</small></li>
+    <li><span class="n">11</span>Monument to the Revolution <small>· members</small></li>
+    <li><span class="n">12</span>House of Tiles <small>· members</small></li>
+    <li><span class="n">13</span>Alameda Central <small>· members</small></li>
+    <li><span class="n">14</span>Torre Latinoamericana <small>· members</small></li>
+    <li><span class="n">15</span>Mexico City Metropolitan Cathedral <small>· members</small></li>
+    <li><span class="n">16</span>Palacio Postal <small>· members</small></li>
+    <li><span class="n">17</span>National Museum of Art <small>· members</small></li>
+    <li><span class="n">18</span>Centro Coyoacán <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Mexico City?</summary><p>The first three on this map are Frida Kahlo Museum, Plaza Garibaldi and Zócalo. They are ranked by how often people search for them. The full map has 18.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the Frida Kahlo Museum?</summary><p>Stand at the corner of Londres and Allende (corner of the cobalt facade facing the Londres and Allende junction). Start with the default lens (1x) for the whole corner facade.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Plaza Garibaldi?</summary><p>The square is liveliest in the evening, and Friday or Saturday night from 11:00 p.m. is a good choice for the full atmosphere.</p></details>
+  <details class="faq"><summary>How do I get to Museo de Antropología?</summary><p>Head for Chapultepec Park and the museum&#39;s entrance on the Paseo de la Reforma side.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Frida_Kahlo_Museum" target="_blank" rel="noopener">Frida Kahlo Museum</a>, <a href="https://en.wikipedia.org/wiki/Plaza_Garibaldi" target="_blank" rel="noopener">Plaza Garibaldi</a>, <a href="https://en.wikipedia.org/wiki/National_Museum_of_Anthropology_%28Mexico%29" target="_blank" rel="noopener">National Museum of Anthropology (Mexico)</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"mexicocity","place":"Mexico City","bounds":[-99.215,19.345,-99.115,19.465],"center":[-99.16499999999999,19.405],"english":false,"vatican":false,"tiles":"/r2tiles/mexicocity/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 4"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

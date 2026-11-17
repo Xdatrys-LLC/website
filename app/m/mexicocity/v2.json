@@ -1,0 +1,1458 @@
+{
+ "Frida Kahlo Museum": {
+  "rank": 1,
+  "card": {
+   "hook": "You don't need to be clever here, because the colours do the work for you: cobalt-blue walls, red trim, green barred windows and a big tree hanging over the street. Just don't be surprised if about 25,000 other people a month had the same idea.",
+   "stand_here": "Stand at the corner of Londres and Allende, with the house about 30 m to the north, so face north. From this corner you get the whole blue corner facade in one frame, showing two walls at once.",
+   "zoom": "Start at 1x for the full corner. If the pavement is narrow or you want the tree and sky in too, tap 0.5x. Use 2x for a closer shot of the windows and trim without stepping into the road.",
+   "make_it_pop": "Tap the blue wall, then slide it a touch darker so the blue stays rich and the sky doesn't wash out.",
+   "best_time": "Late afternoon, roughly 3:30 to 5:00 pm, should give side light on the facade, but check it on the day. Weekday mornings are calmer for crowds, though the entrance side may be in shade.",
+   "selfie_here": "Inside the courtyard garden, turn to the front camera and stand with the blue walls and greenery behind you, though you'll probably share the view with other visitors. Another classic is posing beside the sign that says Frida and Diego lived in this house. Sources don't say exactly where it is, so keep an eye out when you arrive.",
+   "ask_someone": "Hand your phone to a passer-by and ask them to stand on the pavement at the Londres and Allende corner, stepping back until the blue corner facade and the tree fill the frame, while you pose in front of the house.",
+   "rules_and_safety": "The outside can be photographed from the public street, but the museum is ticketed and has its own photo rules, so check the official site before you go. Inside, selfie sticks go in the cloakroom with your bag, flash and video are not allowed, and photos without flash are OK in the patios and gardens.",
+   "challenge": "Get the red trim, the green barred windows and the blue wall all in one frame, then see if you can sneak the tree in at the top too.",
+   "good_to_know": "La Casa Azul is where Frida Kahlo was born, grew up and later died. It was built in 1904 and has since been simplified to the plainer facade you see today. Diego Rivera gave the house and its contents to be turned into a museum in her honour, and it has been open as one since 1958.",
+   "stand_here_before_gps_rule": "Stand at the corner of Londres and Allende, with the house about 30 m to the north, so face north. From this corner you get the whole blue corner facade in one frame, showing two walls at once."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Courtyard garden of Casa Azul, in front of the blue walls",
+     "detail": "in the inner courtyard garden, with the cobalt walls and greenery behind you",
+     "why": "<cite index=\"8-14\">The greenery against the blue walls makes it a lovely spot for a photo, though you'll probably be sharing the view with other visitors.</cite>",
+     "sources": [
+      {
+       "title": "Frida Kahlo Museum: Tickets, Tips & Inside Casa Azul (Get Lost in Mexico City)",
+       "url": "https://getlostinmexicocity.com/frida-kahlo-museum/"
+      },
+      {
+       "title": "frida kahlo museum photos: A Deep Dive into Casa Azul's Visual Story (Wonderful Museums)",
+       "url": "https://www.wonderfulmuseums.com/museum/frida-kahlo-museum-photos/"
+      }
+     ]
+    },
+    {
+     "name": "Wall sign 'Frida y Diego vivieron en esta casa' at the house",
+     "detail": "beside the sign reading that Frida and Diego lived in this house; the sources do not say exactly which wall or door it is on",
+     "why": "<cite index=\"12-7\">The sign reading that Frida and Diego lived in this house is a classic photo next to which you can pose.</cite>",
+     "sources": [
+      {
+       "title": "La Casa Azul, Visiting Frida Kahlo's Unique House (Lolo Mercadito)",
+       "url": "https://lolomercadito.com/blogs/news/la-casa-azul-visiting-frida-kahlos-unique-house"
+      },
+      {
+       "title": "Frida Kahlo Museum: Casa Azul in Coyoacán (Beconfused)",
+       "url": "https://beconfused.com/2023/frida-kahlo-museum-in-coyoacan/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Corner of Londres and Allende streets, facing the blue house",
+    "detail": "on the pavement at the Londres and Allende corner, stepping back so the blue corner facade and the tree above the street fill the frame",
+    "sources": [
+     {
+      "title": "Frida Kahlo Museum (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum"
+     },
+     {
+      "title": "Casa Azul: Frida Kahlo's Home and Museum (The History of Art)",
+      "url": "https://www.thehistoryofart.org/frida-kahlo/the-blue-house-frida-kahlo-museum/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Selfie sticks must be left at the cloakroom with your bag, so bring only a phone in hand for photos.",
+     "sources": [
+      {
+       "title": "Frida Kahlo Museum Tickets 2026: Casa Azul + Coyoacan Tours (Go2 Mexico)",
+       "url": "https://go2-mexico.com/mexico-city-frida-kahlo-tour/"
+      },
+      {
+       "title": "How to Visit the Frida Kahlo Museum: Tickets, Rules and What to Expect (City Art Tours Mexico)",
+       "url": "https://cityarttoursmexico.com/frida-kahlo-museum-guide"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are not allowed and flash and video are prohibited.",
+     "sources": [
+      {
+       "title": "Frida Kahlo Museum Tickets 2026: Casa Azul + Coyoacan Tours (Go2 Mexico)",
+       "url": "https://go2-mexico.com/mexico-city-frida-kahlo-tour/"
+      },
+      {
+       "title": "A Complete 2026 Frida Kahlo Museum Tour Guide (Rutopia)",
+       "url": "https://www.rutopia.com/en/blog/a-complete-2026-frida-kahlo-museum-tour-guide"
+      }
+     ]
+    },
+    {
+     "rule": "Photos without flash are allowed in the patios and gardens, and video recording is prohibited including in the garden.",
+     "sources": [
+      {
+       "title": "How to Visit the Frida Kahlo Museum: Tickets, Rules and What to Expect (City Art Tours Mexico)",
+       "url": "https://cityarttoursmexico.com/frida-kahlo-museum-guide"
+      }
+     ]
+    },
+    {
+     "rule": "A paid photo permit (reported as 70 MXN) covers stills in the permanent exhibition only, not the temporary exhibition rooms or the gift shop.",
+     "sources": [
+      {
+       "title": "Frida Kahlo Museum Tickets 2026: Casa Azul + Coyoacan Tours (Go2 Mexico)",
+       "url": "https://go2-mexico.com/mexico-city-frida-kahlo-tour/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Sources conflict on the photo permit fee: Go2 Mexico gives 70 MXN, while Mexico Insider gives 30 pesos (an older guide). Location of the 'Frida y Diego' sign is not pinned down by any page; check on arrival. The ask-someone spot is my inference from pages placing the house on the Londres/Allende corner, not a page-stated photographer position. Parque Frida Kahlo has a bronze Frida statue photo spot, but it does not put the museum behind the photographed person, so I left it out. The 'photo spot near the Tehuana collection' mentioned by Voyage Mexique is inside the museum with no findable location, so I omitted it."
+  },
+  "cost_usd": 0.0636,
+  "at": "2026-11-17 11:39"
+ },
+ "Plaza Garibaldi": {
+  "rank": 2,
+  "card": {
+   "hook": "Picture nine giant letters, a spiky maguey plant and a mariachi band tuning up right behind them. That's the Plaza Garibaldi postcard, and you can get it in one shot.",
+   "stand_here": "Stand in front of Mercado San Camilito, beside the big GARIBALDI letters. The middle of the square is to the south of this spot, about 2 minutes on foot, so face south and let the letters, the maguey and the musicians fall into one view.",
+   "zoom": "Start at zoom 1x for the letters with the performers behind. If you're close to the letters, tap zoom 0.5x to fit the whole sign and the market front in. Use zoom 2x, if your phone has it, for musicians farther away.",
+   "make_it_pop": "Turn on gridlines and line the letters up with a horizontal line so they sit level, and don't cut off the end letters.",
+   "best_time": "The square is liveliest in the evening, and Friday or Saturday night from 11:00 p.m. is a good choice for the full atmosphere. Want fewer people in front of the letters? Come in daylight.",
+   "selfie_here": "Take it at the giant GARIBALDI letters, on the side facing the market, which one guide calls an Instagram hotspot. Use the front camera (or zoom 0.5x on the back one), and keep the letters over your shoulder so the mariachis and dancers fill the background.",
+   "ask_someone": "",
+   "rules_and_safety": "Ask before taking close-ups of mariachi bands. If you ask a band to pose, agree on a tip first (one guide suggests 50-100 MXN). The streets around the plaza can feel less safe at night, so stay on the main plaza in well-lit areas and keep your phone and bag close.",
+   "challenge": "Can you get all nine letters level in the frame, with a musician mid-strum behind them and no cut-off letters?",
+   "good_to_know": "The plaza was called Plaza Santa Cecilia until 1920, when it was renamed after Lt. Col. Peppino Garibaldi, who fought in the Mexican Revolution. Mariachi players have gathered here since the 1920s, when the Salón Tenampa, still on the north side of the square, became the place to hear them. The square was remodelled after 2009, so older photos with the kiosk won't match what you see.",
+   "stand_here_before_gps_rule": "Stand in front of Mercado San Camilito, beside the big GARIBALDI letters. The middle of the square is to the south of this spot, about 2 minutes on foot, so face south and let the letters, the maguey and the musicians fall into one view."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Giant GARIBALDI letters sign, in front of Mercado San Camilito",
+     "detail": "at the monumental letters spelling out the plaza's name, on the side facing the market",
+     "why": "One guide calls this an Instagram hotspot, with the lettered sign framed by mariachi groups and dancers that surround the iconic details, so the plaza's energy fills the background.",
+     "sources": [
+      {
+       "title": "Plaza Garibaldi by Night",
+       "url": "https://www.cooltourismical.com/plaza-garibaldi-mexico-city.html"
+      }
+     ]
+    },
+    {
+     "name": "Downstairs patio of the Museo del Tequila y el Mezcal",
+     "detail": "the downstairs patio of the tequila museum on the plaza's edge",
+     "why": "A traveler review calls this the best place on the plaza, and the museum sits on a corner of the square, so it may give a view of the plaza behind you.",
+     "sources": [
+      {
+       "title": "Plaza Garibaldi, Colonia Roma (Postcard)",
+       "url": "https://www.postcard.inc/places/plaza-garibaldi-mexico-city"
+      },
+      {
+       "title": "Plaza Garibaldi - Tripadvisor",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g150800-d153024-Reviews-Plaza_Garibaldi-Mexico_City_Central_Mexico_and_Gulf_Coast.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Ask permission before taking close-up or professional-style photos of mariachi bands; a small tip is sometimes expected.",
+     "sources": [
+      {
+       "title": "Plaza Garibaldi Mexico City (2026), airial",
+       "url": "https://airial.travel/attractions/mexico/ciudad-de-m%C3%A9xico/plaza-garibaldi-mexico-city-CA2MMjv2"
+      }
+     ]
+    },
+    {
+     "rule": "If you ask a band to pose or play for your camera, a guide suggests a tip of 50–100 MXN, and you should agree on the amount before posing.",
+     "sources": [
+      {
+       "title": "Garibaldi Mariachi Guide Mexico City 2026",
+       "url": "https://www.mexicocity-trip.com/guides/garibaldi-mariachi-guide/"
+      }
+     ]
+    }
+   ],
+   "safety": "The surrounding streets can feel less safe, especially at night, so stay on the main plaza and in well-lit areas.",
+   "notes": "No page gave a passer-by spot for photographing a visitor with the whole plaza, so ask_someone_spot is null. The letters-sign spot combines a cooltourismical description of an 'Instagram hotspot right in front of the market' with a separate description of the nine letters; the sources do not explicitly link them, so verify on the ground. The tequila-museum patio is based on a general 'best place on the plaza' remark, not a photo-specific recommendation. No page mentioned selfie-stick or tripod rules. A page mentions the MUTEM rooftop bar with a sightline over the plaza, but it describes a view rather than a selfie spot, so I left it out."
+  },
+  "cost_usd": 0.0479,
+  "at": "2026-11-17 11:39"
+ },
+ "Zócalo": {
+  "rank": 3,
+  "card": {
+   "hook": "Don't try to squeeze the whole Zócalo into one photo, because it's a 240 m by 240 m square and it will win. Pick one big building instead and let it be the star.",
+   "stand_here": "Stand on the edge of the plaza in front of the Catedral Metropolitana's main facade, on the north side of the Zócalo, and face north so the facade fills your screen. The flagpole and the middle of the square will be behind you to the south.",
+   "zoom": "Start at zoom 1x to get the whole cathedral facade with some plaza in front. Then try 2x to 5x (depending on your phone) for the carved doors and tile patterns, or 0.5x if you want the facade plus a big sweep of open square.",
+   "make_it_pop": "Turn on the gridlines to keep the facade straight, then tap the facade and drag the slider a touch darker so the sky doesn't wash out the carved stonework.",
+   "best_time": "Check whether an event is setting up before you line up your shot, because stages and temporary arenas can block the view. If something is in the way, shift a few steps until you find a clear line, and take a few frames in case people walk through.",
+   "selfie_here": "For a wide backdrop, try the terrace of the Gran Hotel Ciudad de México, next to the Zócalo, with the square spread out below you. Use the front camera at 0.5x to fit more in, and keep the plaza over your shoulder. It's more of a panorama than a close-up, so hold the phone a little further out. The rooftop of Círculo Mexicano, just behind the cathedral's dome, is another option. Both are reached through the hotel or restaurant.",
+   "ask_someone": "Ask your helper to stand on the cathedral's western steps, up above the plaza, while you stand out in the square with the National Palace behind you.",
+   "rules_and_safety": "Cars drive around the Zócalo fast and sometimes run red lights, so watch the traffic when you cross. One review suggests arriving by subway instead. The cathedral is a place of worship, so check the official site before you go if you want to go inside.",
+   "challenge": "Zoom in and get a shot of just the carved doors with nobody walking through, then see how long you can wait for the gap.",
+   "good_to_know": "Long before the Spanish arrived, this was the heart of the Aztec city of Tenochtitlan, and the Templo Mayor site is just a block away. The cathedral was built in the latter half of the 16th century, and its three portals face south over the plaza. The name Zócalo means 'plinth': a column was planned as a monument to independence, but only the base was ever built.",
+   "stand_here_before_gps_rule": "Stand on the edge of the plaza in front of the Catedral Metropolitana's main facade, on the north side of the Zócalo, and face north so the facade fills your screen. The flagpole and the middle of the square will be behind you to the south."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Rooftop terrace of the Gran Hotel Ciudad de México",
+     "detail": "on the hotel's terrace, using the square below as the panoramic backdrop (near the Gran Hotel next to the Zócalo)",
+     "why": "A terrace overlooking the plaza gives the Zócalo as a wide backdrop for a selfie, though the sources describe it as a panorama rather than a close selfie frame.",
+     "sources": [
+      {
+       "title": "Best Places to Take Pictures in Mexico (ShotKit)",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      },
+      {
+       "title": "In the Zócalo, use a restaurant terrace for a panoramic background (CDMX Travel: 10 places to use your selfie stick)",
+       "url": "https://cdmxtravel.com/en/top-experiences/10-places-to-use-your-selfie-stick/"
+      }
+     ]
+    },
+    {
+     "name": "Rooftop of Círculo Mexicano",
+     "detail": "on the rooftop, which sits just behind the Metropolitan Cathedral's dome and next to the Templo Mayor ruins",
+     "why": "The rooftop offers a close view of the square and its surroundings, so the Zócalo can sit behind you in a selfie.",
+     "sources": [
+      {
+       "title": "Beyond the hashtag: Exploring CDMX's top 10 Instagrammed locations (Mexico News Daily)",
+       "url": "https://mexiconewsdaily.com/lifestyle/beyond-the-hashtag-exploring-cdmxs-top-10-instagrammed-locations/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Western steps of the Metropolitan Cathedral",
+    "detail": "the passer-by stands on the cathedral's western steps, elevated above the plaza, to frame the visitor in the square with the National Palace behind them",
+    "sources": [
+     {
+      "title": "Mexico City Photography Guide: Mastering Iconic Perspectives",
+      "url": "https://www.machupicchu.org/mexico-city-photography-guide-mastering-iconic-perspectives.htm"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are prohibited inside the Metropolitan Cathedral.",
+     "sources": [
+      {
+       "title": "Mexico City Photography Guide: Mastering Iconic Perspectives",
+       "url": "https://www.machupicchu.org/mexico-city-photography-guide-mastering-iconic-perspectives.htm"
+      }
+     ]
+    }
+   ],
+   "safety": "Cars drive around the Zócalo at high speed and sometimes run red lights, so one review recommends arriving by subway instead.",
+   "notes": "None of the pages describes a spot where the Zócalo is directly behind the visitor at street level; the two selfie spots are rooftop/terrace views, and the Gran Hotel terrace is described as a panorama. The Círculo Mexicano and Gran Hotel terraces are reached through hotel or restaurant access, and no street address for either was named in the sources beyond the hotel's location next to the Zócalo. The machupicchu.org guide is a weak source (its text is partly garbled and it is commercial), so the ask-someone spot needs checking on site. No page gave a selfie-stick rule for the Zócalo; CDMX Travel only suggests using one there. Drone restrictions in the Zócalo were mentioned by one page but are outside the selfie-stick/tripod scope."
+  },
+  "cost_usd": 0.0547,
+  "at": "2026-11-17 11:40"
+ },
+ "National Museum of Anthropology": {
+  "rank": 4,
+  "card": {
+   "hook": "One slim pillar holds up a giant square concrete roof, and water pours around it like a curtain. It looks a bit like a magic trick, and it's the star of the museum's courtyard.",
+   "stand_here": "Stand in the central courtyard, right under the canopy of El Paraguas (\"the umbrella\"), just inside the entrance. Face the column and take in the pool and the water falling around it.",
+   "zoom": "Start at zoom 0.5x to fit the whole canopy, the column and the pool in one shot. Switch to 1x for a calmer, more natural look, then try 2x or higher (depends on your phone) to catch the carving on the column.",
+   "make_it_pop": "Turn on gridlines and line the column up with a vertical line so it stands straight, then keep a bit of pool and a few people at the bottom of the frame to show how big it all is.",
+   "best_time": "Early morning or late afternoon light is lovely for garden photos. The courtyard is inside the museum, so check the official site for current hours, and for whether the fountain is running, before you go.",
+   "selfie_here": "Take your selfie in the central courtyard in front of the umbrella fountain, with the galleries behind you. Use the front camera, try 0.5x if your phone offers it, and let the umbrella peek over your shoulder.",
+   "ask_someone": "For a full-building shot, ask someone to stand back just outside the main entrance on Paseo de la Reforma until the front of the building fills the frame, while you pose in front of it.",
+   "rules_and_safety": "Flash is not allowed, and selfie sticks aren't permitted (one traveller had theirs handed in at the entrance), so hold your phone with both hands and keep your elbows tucked in. Check the official site for tickets and photography rules.",
+   "challenge": "Get the column perfectly straight on a gridline, with one stranger walking under the umbrella for scale. Bonus points if they don't notice they're famous now.",
+   "good_to_know": "The National Museum of Anthropology is the largest and most visited museum in Mexico, with 3.7 million visitors in 2024. It opened in 1964 in Chapultepec Park, with 23 exhibition rooms built around this big courtyard. Outside, the gardens hold outdoor exhibits, including the Olmec colossal heads.",
+   "stand_here_before_gps_rule": "Stand in the central courtyard, right under the canopy of El Paraguas (\"the umbrella\"), just inside the entrance. Face the column and take in the pool and the water falling around it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Central courtyard, in front of the umbrella fountain (El Paraguas)",
+     "detail": "in the central courtyard, standing in front of the umbrella-shaped fountain with the surrounding galleries behind you",
+     "why": "The courtyard's umbrella fountain is named by a photo-spot guide as one of the best photo spots, and the surrounding galleries make a strong backdrop. <cite index=\"1-1\">One of the best photo spots at the National Museum of Anthropology in Mexico City is the central courtyard, which features the iconic umbrella fountain.</cite> <cite index=\"1-8\">The courtyard is surrounded by the museum's impressive galleries and provides a great backdrop for photos.</cite>",
+     "sources": [
+      {
+       "title": "Nat'l Museum of Anthropology Mexico City (Access Travel)",
+       "url": "https://www.accesstravel.com/index/ViatorAttraction/Index/628/12407"
+      },
+      {
+       "title": "Stock photos: Mexico City Museo Nacional De Antropologia (Getty Images)",
+       "url": "https://www.gettyimages.in/photos/mexico-city-museo-nacional-de-antropologia"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Outside the front entrance, facing the building on Paseo de la Reforma",
+    "detail": "just outside the main entrance, where the front of the building fills the frame (museum address: Av. Paseo de la Reforma s/n, Polanco, Chapultepec)",
+    "sources": [
+     {
+      "title": "Museo Nacional de Antropología. (Suitcase and World)",
+      "url": "http://www.suitcaseandworld.com/2011/07/museo-nacional-de-antropologia.html"
+     },
+     {
+      "title": "Chapultepec, Naturaleza y Cultura - Museo Nacional de Antropología",
+      "url": "https://chapultepec.cultura.gob.mx/oferta-cultural/museo-nacional-de-antropologia/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Selfie sticks are not permitted at the museum; one guide also says tripods are not allowed.",
+     "sources": [
+      {
+       "title": "Nat'l Museum of Anthropology Mexico City (Access Travel)",
+       "url": "https://www.accesstravel.com/index/ViatorAttraction/Index/628/12407"
+      },
+      {
+       "title": "Museo Nacional de Antropologia - Mexico Blog",
+       "url": "https://www.mexicocity.com/blog/2015/08/31/must-visit-museo-nacional-de-antropologia/"
+      }
+     ]
+    },
+    {
+     "rule": "A traveller's blog reports that selfie sticks were handed in at the entrance before entering the galleries.",
+     "sources": [
+      {
+       "title": "Mexico City: Part I – Things to do and how to get to them (World Travelers Union)",
+       "url": "https://worldtravelersunion.com/2017/07/03/mexico-city-part-i-things-to-do-and-how-to-get-to-them/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot is given: the other blog-named selfie (with the Sacrificial Stone) is inside the Aztec hall, so the museum is not the backdrop and it was excluded. The ask-someone spot is based on a 2011 blog account of photographing the front facade; no page gives a precise standing point. The courtyard fountain runs on a schedule, and one visitor reported it was not working on their visit, so check before going. Rules conflict slightly: one guide says photography is generally allowed without flash, while others ban selfie sticks and tripods."
+  },
+  "cost_usd": 0.0503,
+  "at": "2026-11-17 11:41"
+ },
+ "Palacio de Bellas Artes": {
+  "rank": 5,
+  "card": {
+   "hook": "Picture a pale marble palace with a golden dome, peeking out from behind a line of park trees. That's the Palacio de Bellas Artes, and the trees are the secret to making it look good.",
+   "stand_here": "Stand in the Alameda Central, on the main east-west path at roughly the midpoint. Face east: the palace is straight ahead, with the dome behind a line of trees.",
+   "zoom": "Start at zoom 1x so the trees, facade and dome all fit. Then try zoom 2x to bring the dome closer. Only use zoom 0.5x if you're right beside the building and can't step back.",
+   "make_it_pop": "Tap the white marble on the screen, then slide it a little darker so the facade keeps its detail instead of turning bright white.",
+   "best_time": "Early morning, when the facade catches direct light.",
+   "selfie_here": "Head to the front plaza by the main entrance, facing Av. Juárez, and put the building behind you. Use the front camera (try 0.5x to fit more of the palace in), and wait for a gap in the crowd so other tourists stay out of your shot.",
+   "ask_someone": "Ask a passer-by to stand on the plaza slightly to the left of the path leading up to the building, so the whole facade fits in the frame, while you pose in front of the entrance.",
+   "rules_and_safety": "Flash photography is prohibited in most areas of the palace. It gets crowded, so keep an eye on your belongings and keep valuables safe.",
+   "challenge": "Find the four Pegasus sculptures on the plaza side and get a close-up of one with the marble behind it.",
+   "good_to_know": "Work began in 1904 under Italian architect Adamo Boari, but the heavy building sank into the soft ground and the Revolution halted construction in 1913. It was finished under Federico Mariscal and opened on 29 November 1934. It's sometimes called the \"art cathedral of Mexico\".",
+   "stand_here_before_gps_rule": "Stand in the Alameda Central, on the main east-west path at roughly the midpoint. Face east: the palace is straight ahead, with the dome behind a line of trees."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front plaza of the Palacio de Bellas Artes, by the main entrance facing Av. Juárez",
+     "detail": "on the plaza in front of the main facade, with the building behind you; wait for a gap in the crowd",
+     "why": "One guide says the palace looks most imposing from the front, but the area is busy, so you may need to wait for people to pass to get a selfie without other tourists.",
+     "sources": [
+      {
+       "title": "How to Get the Best Pictures of Palacio de Bellas Artes, Mexico City (Quirky Travel Guy)",
+       "url": "https://quirkytravelguy.com/palacio-de-bellas-artes-from-every-angle/"
+      },
+      {
+       "title": "Palacio de Bellas Artes Mexico City (Access Travel)",
+       "url": "https://www.accesstravel.com/en-US/ViatorAttraction/Index/628/3268"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Front of the Palacio de Bellas Artes, to the left of the main approach",
+    "detail": "on the plaza in front of the main entrance, slightly to the left of the path leading up to the building, so the whole facade fits in the frame",
+    "sources": [
+     {
+      "title": "15 Best Instagram Spots in Mexico City: A Photographer's Guide (Faroway)",
+      "url": "https://www.faroway.ai/blog/best-instagram-spots-in-mexico-city"
+     },
+     {
+      "title": "Palacio de Bellas Artes Mexico City (Access Travel)",
+      "url": "https://www.accesstravel.com/en-US/ViatorAttraction/Index/628/3268"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are generally prohibited at the Palacio de Bellas Artes, and photography with flash is also prohibited in most areas.",
+     "sources": [
+      {
+       "title": "Palacio de Bellas Artes Mexico City - Visiting Hours (Audiala)",
+       "url": "https://audiala.com/en/mexico/mexico-city/bellas-artes"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are not allowed on the streets of the historic centre without a permit, so a tripod is best avoided for outdoor shots near the palace.",
+     "sources": [
+      {
+       "title": "Best Places to Take Pictures in Mexico (Shotkit)",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      }
+     ]
+    }
+   ],
+   "safety": "Keep valuables safe and watch your belongings when it is crowded, especially around the palace.",
+   "notes": "No page I found names a spot where the palace is directly behind a visitor's selfie; the selfie spot above is inferred from general front-of-building advice, so check it on the ground. The Sears department store café terraces across Av. Juárez (7th or 8th floor) and the Torre Latinoamericana observation deck are good elevated photo spots of the palace, but the sources describe them for views of the building, not selfies with it behind you, so I left them out. Access Travel's 'reflecting pool in front of the palace' is not supported by other sources, so I did not use it. Sources disagree on the Sears café floor (7th vs 8th), and several guides are old (some about 8 years). The selfie stick ban I found applies to the MUNAL museum, not the Palacio, so I did not report it as a rule here."
+  },
+  "cost_usd": 0.0566,
+  "at": "2026-11-17 11:41"
+ },
+ "Chapultepec Castle": {
+  "rank": 6,
+  "card": {
+   "hook": "Picture one long, dead-straight avenue running away from you, with the city skyline at the far end. That's the view from the castle terrace, and guides call it the classic postcard shot of Mexico City.",
+   "stand_here": "Stand on the east terrace of Chapultepec Castle and face Paseo de la Reforma. The boulevard should run straight away from you towards the city centre.",
+   "zoom": "Start at zoom 0.5x to fit the whole length of Reforma in one frame. Then try 1x for a tidier skyline, and 2x to 5x (depends on your phone) to pick out the monuments in the traffic circles.",
+   "make_it_pop": "Turn on the gridlines and run the boulevard along the middle line, then tap the boulevard and slide it a little darker so the sky doesn't wash out.",
+   "best_time": "Go in the morning. Guides say afternoon light washes out the boulevard.",
+   "selfie_here": "Take your selfie on the east terrace, facing down Paseo de la Reforma, and arrive in the morning so the sun is behind you. Use the front camera and try zoom 0.5x to squeeze in more of the view. For a second option, the Altar a la Patria monument in the park has the castle visible in the background of the shot.",
+   "ask_someone": "Ask a passer-by to shoot upward from the foot of the hill beside the Niños Héroes monument, so the whole castle profile shows against the sky behind you.",
+   "rules_and_safety": "Entry to the terraces is through paid museum entry, so check the official site for current days, hours and ticket rules. Selfie sticks are listed as prohibited, and staff enforce this at the entrance. Phone photos are fine, but keep the flash off inside the museum. The castle sits on a steep hill with many stairs and uneven surfaces, and a shuttle train (with a fee) goes up the hill.",
+   "challenge": "Zoom in to 5x and try to spot every monument in the traffic circles along Reforma. Bonus points if you can get one in the shot with your thumbs-up in the corner.",
+   "good_to_know": "The castle sits on top of Chapultepec Hill, about 2,325 metres above sea level, and began in 1785 as a stately home for a Spanish viceroy. It later became a military academy, the home of Emperor Maximilian and Empress Carlota, and a presidential residence. It has been the National Museum of History since 1939. Maximilian also ordered the straight boulevard that links the castle to the city centre, first called Paseo de la Emperatriz and now Paseo de la Reforma.",
+   "stand_here_before_gps_rule": "Stand on the east terrace of Chapultepec Castle and face Paseo de la Reforma. The boulevard should run straight away from you towards the city centre."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "East terrace overlooking Paseo de la Reforma (Chapultepec Castle)",
+     "detail": "on the castle's east terrace, facing down Paseo de la Reforma; arrive in the morning so the sun is behind you",
+     "why": "A guide calls this the classic castle terrace shot, and facing the boulevard puts the castle behind you in the frame.",
+     "sources": [
+      {
+       "title": "Chapultepec Castle Guide 2026",
+       "url": "https://www.mexicocity-trip.com/guides/chapultepec-castle-guide/"
+      }
+     ]
+    },
+    {
+     "name": "Altar a la Patria, Bosque de Chapultepec",
+     "detail": "at the Altar a la Patria monument in the park, with the castle visible in the background",
+     "why": "A photo guide notes this monument shows the castle in the back of the shot, though it does not say which side to stand on.",
+     "sources": [
+      {
+       "title": "Best Places to Take Pictures in Mexico",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Foot of the hill near the Niños Héroes monument",
+    "detail": "at the base of Chapultepec Hill beside the Niños Héroes monument, shooting upward so the whole castle profile shows against the sky",
+    "sources": [
+     {
+      "title": "Chapultepec Castle Guide 2026",
+      "url": "https://www.mexicocity-trip.com/guides/chapultepec-castle-guide/"
+     },
+     {
+      "title": "Best Places to Take Pictures in Mexico",
+      "url": "https://shotkit.com/take-pictures-mexico/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "No selfie sticks or tripods are allowed inside the castle rooms, and staff enforce this at the entrance.",
+     "sources": [
+      {
+       "title": "How to Visit Chapultepec Castle: Tickets, Hours, Tours & Everything You Need to Know (2026)",
+       "url": "https://www.chapultepeccastletours.com/blog/how-to-visit-chapultepec-castle/"
+      },
+      {
+       "title": "Plan Your Visit - Chapultepec Castle Tours & Tickets 2026",
+       "url": "https://www.chapultepeccastletours.com/visiting/"
+      }
+     ]
+    },
+    {
+     "rule": "The official museum information lists tripods, monopods and selfie sticks as prohibited photographic equipment.",
+     "sources": [
+      {
+       "title": "Castillo de Chapultepec precio y horarios 2026: lo esencial",
+       "url": "https://www.chapultepec.org.mx/en/visita-y-guia-practica/castillo-de-chapultepec-precio-y-horarios"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods and selfie sticks are not permitted at the castle.",
+     "sources": [
+      {
+       "title": "Chapultepec Castle Tickets, Hours & Tours in Mexico City",
+       "url": "https://www.mexico-city-tours.com/national-museum-of-anthropology-tickets/chapultepec-castle/"
+      }
+     ]
+    },
+    {
+     "rule": "A blog advises leaving selfie sticks and tripods at the lockers after paying the entry fee, and says staff may ask you to pour out drinks if you bring them to the entrance.",
+     "sources": [
+      {
+       "title": "How to Spend One Day at Chapultepec Park, Mexico City",
+       "url": "https://kittiaroundtheworld.com/how-to-spend-one-day-at-chapultepec-park-mexico-city-best-things-to-do/"
+      }
+     ]
+    }
+   ],
+   "safety": "The castle sits on a steep hill with many stairs and uneven surfaces, so visitors with mobility issues may find it hard; a fee shuttle train goes up the hill.",
+   "notes": "Sources conflict: one ticket site says no photography of any kind is allowed, while the official museum page and others say phone photos without flash are fine. The Reforma terrace spot is described as a view shot, and the claim that the castle is behind you is my inference. The Altar a la Patria source only says the castle is visible in the back of the photo, so the standing position is unconfirmed. The passer-by spot rests on a single guide. Rules about tripods and selfie sticks may apply mainly inside the rooms; outdoor terrace rules are not stated."
+  },
+  "cost_usd": 0.0664,
+  "at": "2026-11-17 11:42"
+ },
+ "Museo Soumaya": {
+  "rank": 7,
+  "card": {
+   "hook": "Picture a 46-metre curve of shiny metal with no ordinary windows, and you've got the Museo Soumaya. It changes with the light, so it's one of those spots where your phone does most of the work.",
+   "stand_here": "Stand in Plaza Carso, in the open plaza in front of the museum entrance. The museum is to the south-west of you, about 2 minutes on foot, so face south-west and step back until the whole building fits.",
+   "zoom": "Start at zoom 1x for the full facade. If you can't step back far enough, drop to 0.5x. Then go to 2x–5x (depending on your phone) to fill the frame with tiles.",
+   "make_it_pop": "Tap the bright part of the facade, then slide it a little darker so the shiny tiles keep their detail and colour.",
+   "best_time": "Go in the late afternoon, or the 30 minutes before sunset. The tiles on the facade you're facing turn a warm amber-gold.",
+   "selfie_here": "Try the terrace of the Loma Linda restaurant in Plaza Carso, where a photo shows the museum in view behind you. Use the front camera, switch to 0.5x if you can, and keep the building over your shoulder. It's a paid venue, so you may need to be a customer.",
+   "ask_someone": "Ask a passer-by to stand back in the open Plaza Carso and frame the whole museum facade with you in front of it.",
+   "rules_and_safety": "The plaza outside is open public space. The Museo Jumex terrace may be ticketed or restricted, so check the official site first, and check it for the museum's current opening times too.",
+   "challenge": "Take two shots from the same spot: the whole curvy building, then a close-up of nothing but hexagons. Bonus points if the second one looks like abstract art.",
+   "good_to_know": "The facade is covered in 16,000 hexagonal aluminium tiles. The building is 46 metres high, has six floors and opened to the public in 2011. The architect was Fernando Romero.",
+   "stand_here_before_gps_rule": "Stand in Plaza Carso, in the open plaza in front of the museum entrance. The museum is to the south-west of you, about 2 minutes on foot, so face south-west and step back until the whole building fits."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Terrace of Loma Linda restaurant, Plaza Carso",
+     "detail": "on the restaurant's terrace, with the museum in view behind you (the listing photo is titled 'Museo Soumaya desde la terraza')",
+     "why": "A terrace photo page shows the museum framed from this named Plaza Carso spot, so it is a plausible place to have the facade in the background.",
+     "sources": [
+      {
+       "title": "Museo Soumaya desde la terraza - Picture of Loma Linda Plaza Carso, Tripadvisor",
+       "url": "https://www.tripadvisor.co.nz/LocationPhotoDirectLink-g150800-d4802727-i186878013-Loma_Linda_Plaza_Carso-Mexico_City_Central_Mexico_and_Gulf_Coast.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Plaza Carso (the plaza next to Museo Soumaya)",
+    "detail": "the neighboring plaza, where a passer-by can frame the whole museum facade; the sources do not give an exact standing point",
+    "sources": [
+     {
+      "title": "Museo Soumaya - Plaza Carso, Mexico City, Architect Magazine",
+      "url": "https://www.architectmagazine.com/design/buildings/museo-soumaya-plaza-carso-mexico-city_o/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot was supported by the pages found: the Loma Linda terrace page is a photo listing, not a guide, and the restaurant is a paid venue (one reviewer called it expensive), so you may need to be a customer. No page names a specific selfie point outside the museum, and the ask-someone spot is only a named plaza that a photo shows, not a precise standing point. A Wikimedia photo lists a camera position at 19.440336, -99.204653, but it is unnamed, so I left it out. No page states a selfie-stick or tripod rule; one guide mentions selfie sticks only as a crowd detail. Indoor personal photography is reported as generally permitted, but that is not a selfie-stick rule and I did not include it under rules."
+  },
+  "cost_usd": 0.0459,
+  "at": "2026-11-17 11:42"
+ },
+ "Templo Mayor": {
+  "rank": 8,
+  "card": {
+   "hook": "Here's a fun one: the best view of a 700-year-old temple comes with a menu. From the El Mayor terrace you look straight down on the Templo Mayor, with its stone layers stacked up like a very old cake.",
+   "stand_here": "Stand on the El Mayor restaurant terrace at República de Argentina 15, on the corner of Justo Sierra. Face south-west, where the ruins lie below you.",
+   "zoom": "Start at 0.5x to fit the whole excavated area in. Switch to 1x for a cleaner, less stretched look, then try 2x to 5x (depending on your phone) to pick out the platforms and sculptures.",
+   "make_it_pop": "Turn on your gridlines and put the ruins in the lower two-thirds of the frame, with a little of the Centro Histórico buildings for scale.",
+   "best_time": "Go early in the morning. The ruins have almost no shade, so it's much more comfortable than midday.",
+   "selfie_here": "On the El Mayor terrace, use the front camera at 0.5x and tuck the Templo Mayor excavations in behind your shoulder. The rooftop cafeteria of the Porrúa bookstore on Justo Sierra also overlooks the site, and a photo guide praises its panoramic view.",
+   "ask_someone": "Ask a passer-by at the northeastern corner of the ruins to take your photo, so the cathedral shows up in the background.",
+   "rules_and_safety": "The ruins are a ticketed site, so check the official site before you go. Photos without flash are allowed. The El Mayor terrace is a restaurant, so you're expected to order something.",
+   "challenge": "Count how many layers of stonework you can spot from the terrace. Then try to find a serpent head up close once you're inside.",
+   "good_to_know": "This was the main temple of the Mexica people in their capital, Tenōchtitlan, which is now Mexico City. It was dedicated to Huītzilōpōchtli, god of war, and Tlāloc, god of rain and agriculture. It was rebuilt six times, each stage over the one before. Full excavation began in 1978, after workers found a huge carved stone disk of the goddess Coyolxauhqui.",
+   "stand_here_before_gps_rule": "Stand on the El Mayor restaurant terrace at República de Argentina 15, on the corner of Justo Sierra. Face south-west, where the ruins lie below you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Terrace of the El Mayor restaurant, corner of República de Argentina and Justo Sierra",
+     "detail": "on the restaurant terrace, facing the Templo Mayor excavations across the street",
+     "why": "A reviewer describes it as a beautiful view onto the excavations, and a photo guide names this terrace as its recommended shot.",
+     "sources": [
+      {
+       "title": "View onto Templo Mayor - Picture of El Mayor, Mexico City - Tripadvisor",
+       "url": "https://www.tripadvisor.com/LocationPhotoDirectLink-g150800-d1581679-i379633885-El_Mayor-Mexico_City_Central_Mexico_and_Gulf_Coast.html"
+      },
+      {
+       "title": "Most beautiful icons in Mexico City that you have to visit",
+       "url": "https://picurphoto.com/best-photo-spots-downtown-mexico-city/"
+      }
+     ]
+    },
+    {
+     "name": "Rooftop cafeteria of the Porrúa bookstore, Justo Sierra Street",
+     "detail": "on the bookstore's rooftop cafeteria, which overlooks the site",
+     "why": "A photo guide says this rooftop gives a great panoramic view of the Templo Mayor, which suits a selfie with the ruins behind.",
+     "sources": [
+      {
+       "title": "Best Places to Take Pictures in Mexico",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Northeastern corner of the Templo Mayor ruins",
+    "detail": "from the northeastern corner of the archaeological site, with the cathedral visible in the background",
+    "sources": [
+     {
+      "title": "Templo Mayor, Mexico City, Mexico",
+      "url": "https://www.traveladventures.org/continents/americas/templo-mayor.html"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a selfie stick or tripod rule for Templo Mayor, so none is listed. One museum page says non-flash photography is permitted inside the museum, which is not a selfie or tripod rule. The El Mayor and Porrúa sources are 1 to 3+ years old, so confirm the terrace and rooftop are still open and accessible. The Porrúa rooftop is a viewpoint from across the street and I did not confirm that the visitor can frame the ruins directly behind them. The ask-someone spot is inferred from a photo caption, not a page that advises passers-by to stand there, so verify it on site. A door on Justo Sierra was left out because no page shows it with the landmark behind. Search budget was limited, so the list may be incomplete."
+  },
+  "cost_usd": 0.0594,
+  "at": "2026-11-17 11:43"
+ },
+ "Angel of Independence": {
+  "rank": 9,
+  "card": {
+   "hook": "A gold figure on top of a 36-metre column, with city traffic swirling round her feet. She looks great, but the trick is to step back and let the long, straight avenue do the framing.",
+   "stand_here": "Use the crosswalks to reach the median strip (camellón) on the Chapultepec side of Paseo de la Reforma. Face east, with the Angel's column in front of you and the avenue stretching behind it.",
+   "zoom": "Start at 1x so you get the column with the avenue running away behind it. Then try 2x to see how the modern towers sit beside the column. Use 0.5x only if you end up close and want the whole column in the shot.",
+   "make_it_pop": "Turn on your gridlines and put the column on one of the vertical lines, so the avenue leads the eye straight to it.",
+   "best_time": "Go on a Sunday morning, when Reforma is closed to cars and it's much easier to shoot. After dark, switch on night mode and tuck your elbows into your body to keep the phone steady.",
+   "selfie_here": "Try the southwest corner of the roundabout (Glorieta del Ángel). A guide calls it the cleanest angle with the least traffic. Use the front camera at 0.5x and let the golden column rise over your shoulder.",
+   "ask_someone": "Ask someone to wait at the crosswalk on the Chapultepec (west) side of the roundabout, then stand with the column behind you while they shoot back toward you.",
+   "rules_and_safety": "The roundabout is busy, so cross only at crosswalks and when the lights allow it, and never step into the traffic lanes. Fencing or renovation boarding has been reported around the base, so close shots and the marble steps may be blocked.",
+   "challenge": "Keep the gold Angel clear of the buildings behind her, so she stands out against the sky like she owns the place.",
+   "good_to_know": "The Angel of Independence (officially the Monumento a la Independencia) was finished in 1910 for the centenary of the start of Mexico's War of Independence. The 6.7-metre bronze Nike on top is covered in 24k gold and was restored in 2006. A mausoleum for independence heroes lies beneath the column.",
+   "stand_here_before_gps_rule": "Use the crosswalks to reach the median strip (camellón) on the Chapultepec side of Paseo de la Reforma. Face east, with the Angel's column in front of you and the avenue stretching behind it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Southwest corner of the roundabout (Glorieta del Ángel)",
+     "detail": "at the southwest corner of the traffic circle around the column, with the monument behind you",
+     "why": "A guide calls this the cleanest angle with the least traffic, so the golden column can sit behind you without cars crowding the frame.",
+     "sources": [
+      {
+       "title": "Angel of Independence - Mexico City Guide",
+       "url": "https://mexicocity-guide.com/attractions/angel/"
+      }
+     ]
+    },
+    {
+     "name": "Marble steps at the base of the column",
+     "detail": "on the steps at the foot of the monument, facing out toward Paseo de la Reforma",
+     "why": "Visitors describe sitting and photographing themselves on these steps beneath the statue, which keeps the whole column in the background.",
+     "sources": [
+      {
+       "title": "The Angel of Independence - Postcard Inc",
+       "url": "https://www.postcard.inc/places/the-angel-of-independence-mexico-city-QWBjhD4PkZ_"
+      },
+      {
+       "title": "The Angel of Independence - Aidventuro",
+       "url": "https://www.aidventuro.com/attractions/mexico-city/the-angel-of-independence"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Pedestrian crossing on Paseo de la Reforma heading toward Chapultepec",
+    "detail": "the crosswalk on Reforma on the Chapultepec (west) side of the roundabout; the photographer shoots back toward the visitor with the column behind them",
+    "sources": [
+     {
+      "title": "Angel of Independence, Mexico City - Nomado Travel",
+      "url": "https://www.nomadotravel.app/en/attractions/monumento-a-la-independencia"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Crossing to the monument means crossing several lanes of fast traffic around the roundabout, so timing matters, especially at rush hour.",
+   "notes": "No page I found states any rule about selfie sticks or tripods, so none are listed. Most sources describe angles for photographing the monument rather than selfies, so the selfie spots are inferred from those photo positions. The ask-someone position is also inferred from a 'frontal shot' tip, not from a page describing a passer-by photo. The Nomado Travel and Mexico City Guide pages share near-identical wording, so they may not be independent. Construction around the plaza was reported in June 2025 (airial.travel), so access to the base may be limited. Sunday ciclovía closures of Reforma (noted in several pages) could change the spots on weekend mornings."
+  },
+  "cost_usd": 0.0504,
+  "at": "2026-11-17 11:43"
+ },
+ "Chapultepec": {
+  "rank": 101,
+  "card": {
+   "hook": "Most people head for the classic east terrace at Chapultepec Castle. The south garden terrace is quieter and, many say, more atmospheric: a lake, a forest and, on a clear winter day, volcanoes on the horizon.",
+   "stand_here": "Stand on the south garden terrace of Castillo de Chapultepec, right at the phone icon on the map (the castle grounds have paid entry). Face the park lake, with the volcanoes off to the southeast.",
+   "zoom": "Start at 0.5x to get the terrace, lake and trees all in one frame, then try 1x for a more natural look. On a clear day, go to 2x or 5x (depending on your phone) to pick out the volcanoes.",
+   "make_it_pop": "Turn on the gridlines and put the lake on the lower third, then tap the lake and slide it a little darker so the sky keeps its colour.",
+   "best_time": "Clear winter days are your best bet for seeing the volcanoes. Earlier in the day is often calmer on the terrace, but check the castle's opening times first.",
+   "selfie_here": "On the castle terrace, use the front camera and turn so the building's architecture frames you from behind, with the forest in view. Want the castle in the background instead? Try standing in front of the Altar a la Patria monument.",
+   "ask_someone": "Stand at the foot of the castle hill beside the Niños Héroes monument with the castle above you, and ask a passer-by to shoot upward.",
+   "rules_and_safety": "Selfie sticks aren't permitted inside the castle, and one older guide says to leave them at the second gate. Policies can change, so check on arrival. The castle grounds are ticketed, so check the official site for tickets and opening times.",
+   "challenge": "Find a bit of balustrade or a leafy plant for the foreground, then see if you can get the lake, the forest and a volcano all in one shot.",
+   "good_to_know": "Chapultepec means 'at the grasshopper hill' in Nahuatl, and Aztec rulers used the hill as a retreat. The castle on top was built in 1785 and later became home to Mexico's heads of state. It's also where the young cadets known as the Niños Héroes made their stand in 1847.",
+   "stand_here_before_gps_rule": "Stand on the south garden terrace of Castillo de Chapultepec, right at the phone icon on the map (the castle grounds have paid entry). Face the park lake, with the volcanoes off to the southeast."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Chapultepec Castle terrace",
+     "detail": "on the castle's own terrace, using the building's architecture as the frame behind you, with the forest in view",
+     "why": "One guide describes the castle terrace as having spectacular forest views and architecture that frames a selfie well.",
+     "sources": [
+      {
+       "title": "10 places to use your selfie stick · Top experiences · CDMX",
+       "url": "https://cdmxtravel.com/en/top-experiences/10-places-to-use-your-selfie-stick/"
+      }
+     ]
+    },
+    {
+     "name": "Altar a la Patria",
+     "detail": "in front of the Altar a la Patria monument, with the Castillo de Chapultepec visible in the back",
+     "why": "A photo guide lists this monument as a best spot, with the castle visible behind it.",
+     "sources": [
+      {
+       "title": "Best Places to Take Pictures in Mexico",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      },
+      {
+       "title": "Chapultepec Castle Mexico City (2026)",
+       "url": "https://airial.travel/attractions/mexico/ciudad-de-m%C3%A9xico/chapultepec-castle-mexico-city-iupI4QML"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Base of the hill near the Niños Héroes monument",
+    "detail": "at the foot of the castle hill beside the Niños Héroes monument, so the visitor stands in front of the castle and you shoot upward",
+    "sources": [
+     {
+      "title": "Chapultepec Castle Guide 2026",
+      "url": "https://www.mexicocity-trip.com/guides/chapultepec-castle-guide/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods and selfie sticks are not permitted inside the castle.",
+     "sources": [
+      {
+       "title": "Chapultepec Castle Tickets, Hours & Tours in Mexico City",
+       "url": "https://www.mexico-city-tours.com/national-museum-of-anthropology-tickets/chapultepec-castle/"
+      },
+      {
+       "title": "Plan Your Visit - Chapultepec Castle Tours & Tickets 2026",
+       "url": "https://www.chapultepeccastletours.com/visiting/"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods and selfie sticks must be left at the second gate with guards, free of charge, before entering the castle (one older guide).",
+     "sources": [
+      {
+       "title": "Chapultepec Castle: Facts & Photos - Christobel Travel",
+       "url": "https://christobeltravel.com/chapultepec-castle-facts-photos/"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are not allowed in Chapultepec park itself, according to one photography guide.",
+     "sources": [
+      {
+       "title": "Best Places to Take Pictures in Mexico",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page names a spot where the castle sits directly behind the visitor's selfie; the Altar a la Patria entry is a monument photo with the castle in the background. Tripod rules conflict: one guide says smaller tripods might be allowed inside the castle grounds, and another says tripods can't be used in the park. The leave-at-gate detail comes from a 2016-era guide, so check current policy on arrival."
+  },
+  "cost_usd": 0.0624,
+  "at": "2026-11-17 11:44"
+ },
+ "National Palace": {
+  "rank": 10,
+  "card": {
+   "hook": "You'll probably catch yourself walking backwards across the Zócalo, trying to fit this whole red palace in your screen. It runs for more than 200 metres, so it's a fair struggle.",
+   "stand_here": "Stand on the west side of the Zócalo (Plaza de la Constitución) and face east. The palace is straight ahead, about 220 m away, roughly 3 minutes on foot across the open square.",
+   "zoom": "Start at 1x with your phone held sideways to get the whole facade. Try 0.5x if you want more square and sky, or if people crowd the edges. Then go to 2x-5x (depending on your phone) for the central balcony, the bell and the two towers.",
+   "make_it_pop": "Turn on gridlines and line the roofline up with a horizontal line, so the long facade doesn't tilt and the towers don't lean.",
+   "best_time": "Go early in the morning, when guides say the crowds are thinner. The facade may get more direct light later in the day, so if the sun is low behind the building, tap the palace and drag the slider to make the picture a bit darker, so the red stone keeps its colour.",
+   "selfie_here": "Stand out on the open Zócalo with the palace facade behind you. Use the front camera, and try 0.5x if your phone has it, so the long red front fits over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand at the square's northeast corner and shoot toward the palace, so the whole building fits in the frame with you in front of it.",
+   "rules_and_safety": "The palace is a working government building and only some parts are open to visitors, so check the official site for interior access and photo rules. The Zócalo often hosts events, and a temporary ice rink has sometimes blocked the classic view.",
+   "challenge": "Get both towers, the central balcony and a clear band of open square in one straight, level shot, with no tilt and no stranger's head.",
+   "good_to_know": "The balcony above the central doorway is where the president gives the Grito on the evening of 15 September, just before 11pm, and rings the bell Father Miguel Hidalgo used to call for rebellion. The site has been a seat of power since the Aztec ruler Moctezuma II had his \"New Houses\" here, and some of that older building material was reused. Today it's also the president's official residence, with Diego Rivera's murals inside.",
+   "stand_here_before_gps_rule": "Stand on the west side of the Zócalo (Plaza de la Constitución) and face east. The palace is straight ahead, about 220 m away, roughly 3 minutes on foot across the open square."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Zócalo (Plaza de la Constitución), on the open plaza facing the palace facade",
+     "detail": "On the east side of the Zócalo, standing on the open square with the palace's facade behind you",
+     "why": "A guide says the plaza gives the best angles for a full view of the building's facade, and the palace sits on the square's east side.",
+     "sources": [
+      {
+       "title": "Palacio Nacional Mexico City (2026), Airial Travel",
+       "url": "https://airial.travel/attractions/dominican-republic/santo-domingo/palacio-nacional-mexico-city-nYLvzFzW"
+      },
+      {
+       "title": "Plaza de la Constitución Mexico City (2026), Airial Travel",
+       "url": "https://airial.travel/attractions/spain/albacete/plaza-de-la-constituci%C3%B3n-mexico-city-5zhPqojp"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Northeast corner of the Zócalo",
+    "detail": "Ask the passer-by to stand at the square's northeast corner and shoot toward the palace so the whole building fits in the frame",
+    "sources": [
+     {
+      "title": "File:Palacio Nacional from NE corner of Zocalo, Mexico City.jpg, Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_from_NE_corner_of_Zocalo,_Mexico_City.jpg"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot was supported by a page that places a visitor in front of the palace. The Zócalo is also described as hosting large events, so the view may be blocked on some days. A Change of Place blog mentions a 'giant platform for selfies' next to the Mayan calendar, but it is not tied to the National Palace in any source I found, so I left it out. Nomadotravel recommends a second-floor balcony for photographing the Rivera staircase mural, which is an interior mural shot rather than a selfie with the palace behind, so I left it out too. No page I found states selfie stick or tripod rules for the National Palace. A tripod and permit rule on theshops.mx refers to a different historic-centre building, so I did not use it. Interior photography rules are also unclear: one page says photos are restricted in mural rooms, and others say the public areas are open. Verify on site."
+  },
+  "cost_usd": 0.0461,
+  "at": "2026-11-17 11:44",
+  "selfie_pos": [
+   19.4326468,
+   -99.1331985
+  ],
+  "selfie_note": "Zócalo (OpenStreetMap: Plaza de la Constitución, Centro, Ciudad de México, Cuauhtém)"
+ },
+ "Monument to the Revolution": {
+  "rank": 11,
+  "card": {
+   "hook": "Picture a 67 m stone arch with a copper dome, and kids splashing in fountains right in front of it. That's Plaza de la República, and it's a lot more fun than a normal monument stop.",
+   "stand_here": "Stand in Plaza de la República, across the plaza from the monument, with the fountains in front of you. Face west and you'll see the whole arch and its copper dome.",
+   "zoom": "Start at zoom 0.5x to fit the whole arch with the fountains in front. Switch to 1x for a cleaner shot of just the monument, then try 2x to 5x (depending on your phone) for the dome and stone sculptures.",
+   "make_it_pop": "Tap the monument, then drag the slider to make it a little darker so the sky stays blue and the stone keeps its detail.",
+   "best_time": "Early morning or late afternoon usually gives softer light and fewer people in the plaza. Check the sky first, because the dome and stone look best against blue or lightly clouded sky.",
+   "selfie_here": "Head to the plaza side in front of the arch, beside the geyser-style fountains, and turn your back to the monument. Use the front camera, try 0.5x so the arch fits behind you, and let the lively plaza fill in the rest.",
+   "ask_someone": "Ask a passer-by to stand across the plaza facing the monument's front, with the fountains in the foreground, while you pose by the fountains so the whole arch fits in the frame.",
+   "rules_and_safety": "The plaza is an open public square. The observation deck is a paid entry, so check the official site before you go.",
+   "challenge": "Turn on Live Photo and catch a splash of fountain water with the dome peeking out above it.",
+   "good_to_know": "At 67 m, this is the tallest triumphal arch in the world. It began as a grand legislative palace under President Porfirio Díaz, with the first stone laid in 1910, but the Revolution stopped the work and the shell stood unfinished for about twenty-five years. It became a monument in the 1930s, was finished in 1938, and several key figures of the Revolution are buried inside.",
+   "stand_here_before_gps_rule": "Stand in Plaza de la República, across the plaza from the monument, with the fountains in front of you. Face west and you'll see the whole arch and its copper dome."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Plaza de la República, by the fountains in front of the monument",
+     "detail": "on the plaza side in front of the arch, beside the geyser-style fountains, with the monument behind you",
+     "why": "A photo guide singles out this front view, with the fountains in the foreground, as the strongest angle, and the lively plaza adds people and movement to the shot.",
+     "sources": [
+      {
+       "title": "Best Places to Take Pictures in Mexico",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      },
+      {
+       "title": "Photo Essay Mexico City's Monumento la Revolucion — Everyday Tourist",
+       "url": "https://everydaytourist.ca/globe-trekking-international-travel/mexico-city-photo-essay-monumento-a-la-revolucion"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Plaza de la República, across the plaza from the monument",
+    "detail": "a spot on the plaza facing the monument's front, with the fountains in the foreground so the whole arch fits in the frame; a guide also suggests street level with people in the foreground",
+    "sources": [
+     {
+      "title": "Best Places to Take Pictures in Mexico",
+      "url": "https://shotkit.com/take-pictures-mexico/"
+     },
+     {
+      "title": "Monument to the Revolution in Mexico City: Complete Visitor Guide (2026)",
+      "url": "https://mexicotravelplan.com/monument-to-the-revolution-mexico-city/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "One location guide recommends bringing a tripod and a wide-angle lens for this site. It is a suggestion, not a restriction, and no page on this search states a selfie stick rule.",
+     "sources": [
+      {
+       "title": "Monumento a la Revolucion, Mexico City, Mexico (Location Scout)",
+       "url": "https://www.locationscout.net/mexico/3764-monumento-a-la-revolucion-mexico-city/19993"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The selfie spot is inferred from a photo guide describing the best front view, not from a page that names a selfie spot; treat it as a suggestion. The coordinates you gave match the monument's location on a 1940s–1950s photo record, so the spots above are on the plaza in front of it. Flash and drone restrictions were mentioned only for the museum and generally, and are not selfie-stick rules. Some sources are over two years old, so check current access and plaza conditions before going."
+  },
+  "cost_usd": 0.046,
+  "at": "2026-11-17 11:45"
+ },
+ "House of Tiles": {
+  "rank": 12,
+  "card": {
+   "hook": "Picture a whole palace wearing blue-and-white Talavera tiles like a very fancy shirt, right in the middle of a busy pedestrian street. You can't really miss it, and honestly, why would you want to?",
+   "stand_here": "Head for the pedestrian stretch of Avenida Francisco I. Madero and walk about 94 m north-east along it to reach the tiled facade at Madero 4. Stand on the street directly in front and face the building, so you can frame the whole front head-on.",
+   "zoom": "Start at 1x to fit the whole facade in from the street. If the pavement is narrow and the front won't fit, switch to 0.5x. Use 2x to zoom in on a patch of tiles or one of the balconies.",
+   "make_it_pop": "Tap the tiles, then drag the brightness slider down a touch so the blue stays rich and the white doesn't wash out.",
+   "best_time": "Go before 9am, when the light hits the tiles cleanly and the street is quieter. Midday light is flat, and the pavement gets crowded with people and vendors.",
+   "selfie_here": "Stand on the sidewalk outside the tiled facade at Madero 4 with the building behind you, since that's where visitors commonly pause for selfies. Use the front camera, switch to 0.5x if your phone has it, and let the blue-and-white wall fill the background over your shoulder.",
+   "ask_someone": "Walk along Madero to the corner with Filomeno Mata, where the blue-and-white house comes into view, and ask a passer-by to photograph you in front of the facade from there (check the spot on the ground, as crowds and layouts change).",
+   "rules_and_safety": "The facade is fine to photograph from the public pedestrian street. The courtyard is a restaurant space, so check the official site for interior access and photo rules, and be considerate of the diners if you go in.",
+   "challenge": "Take one straight-on shot with the gridlines lined up, then walk along Madero and take a second one at an angle. Which one would you frame?",
+   "good_to_know": "The House of Tiles (Casa de los Azulejos) is at Madero 4, and guides call it the most photographed building on this street. The tiles sit against the old palace's carved stone windows and balconies, so even a quick picture has lots of detail. Inside, the tiled courtyard has arches and balconies, and there's a mural by Orozco on the upper staircase.",
+   "stand_here_before_gps_rule": "Head for the pedestrian stretch of Avenida Francisco I. Madero and walk about 94 m north-east along it to reach the tiled facade at Madero 4. Stand on the street directly in front and face the building, so you can frame the whole front head-on."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Avenida Francisco I. Madero, sidewalk in front of the tiled facade (Madero 4)",
+     "detail": "on the sidewalk outside the blue-and-white tiled facade at Madero 4, with the building behind you",
+     "why": "Visitors commonly pause outside the tiled facade to take a selfie, and the facade is the building's most photographed side.",
+     "sources": [
+      {
+       "title": "Casa de los Azulejos - Restaurant in Centro, Mexico City (Postcard)",
+       "url": "https://www.postcard.inc/places/the-house-of-tiles-mexico-city-lxX4sJbDiGl"
+      },
+      {
+       "title": "Places in the Historic Center of Mexico City (The shops)",
+       "url": "https://theshops.mx/en/lugares-del-centro-historico-en-cdmx-para-tus-fotos-de-instagram/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Madero street at the corner of Filomeno Mata",
+    "detail": "walk along Madero until the corner with Filomeno Mata, where the blue-and-white house comes into view; the passer-by photographs you in front of the facade from there",
+    "sources": [
+     {
+      "title": "Casa de los Azulejos 360 Panorama (360Cities)",
+      "url": "https://www.360cities.net/en/image/casa-de-los-azulejos-mexico-df"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot is clearly supported; the sources do not name a second spot with the building behind the visitor. The ask-someone spot is my inference from a directions page (the corner is named as where the house is seen), not a page that says where a photographer should stand, so check it on the ground. The 360Cities page dates from 2009. Blogs suggest mornings (before about 9am) for the best light and fewer crowds, but no page names a photo position from that. One review says cameras are not permitted in the dining area 'by Mexican law', according to the security chief, which is a reviewer's report of a management claim rather than a verified rule; it is not about selfie sticks or tripods, so I left it out."
+  },
+  "cost_usd": 0.0465,
+  "at": "2026-11-17 11:45"
+ },
+ "Alameda Central": {
+  "rank": 13,
+  "card": {
+   "hook": "Picture a big white curve of marble glowing against a wall of green trees, right in the middle of downtown Mexico City. That's the Hemiciclo a Juárez, and it's an easy photo win.",
+   "stand_here": "Stand right at the Hemiciclo a Juárez, southeast side, facing Avenida Juárez, on the south edge of Alameda Central. Look toward the monument so the white curve fills your view.",
+   "zoom": "Start at 1x so the curve and lines look natural. If you're close and the whole curve won't fit, switch to 0.5x. For the fountain figure with the tower behind, try 2x to bring the tower closer.",
+   "make_it_pop": "Turn on gridlines and line up the middle of the monument with the middle of the frame, with trees as a border on each side.",
+   "best_time": "Go in the morning or at dusk, when the light is soft and the monument looks bright without harsh glare. At dusk, let night mode do its thing.",
+   "selfie_here": "Take your selfie at the Hemiciclo a Juárez, on the park's south side. Use the front camera, try 0.5x, and tuck the big white monument in behind your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "If it's your first visit, go by day, since evenings call for more care. It's a public park, but check the official site before you go in case of works or temporary closures.",
+   "challenge": "Once you've got the monument, wander into the park and find two more shots: a fountain lady with her pitcher and the Torre Latinoamericana behind her, and the Bellas Artes dome framed by trees down a path.",
+   "good_to_know": "Alameda Central is the oldest public park in the Americas, laid out in 1592. The Hemiciclo honours Benito Juárez, one of Mexico's most beloved presidents. A 2012 renewal brought new marble paving and new trees, so the park looks fresh and bright.",
+   "stand_here_before_gps_rule": "Stand right at the Hemiciclo a Juárez, southeast side, facing Avenida Juárez, on the south edge of Alameda Central. Look toward the monument so the white curve fills your view."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Hemiciclo a Juárez, south edge of Alameda Central",
+     "detail": "at the monument on the park's south side, facing Avenida Juárez. <cite index=\"12-1\">It is a large white semi-circular monument to Benito Juárez, one of Mexico's most beloved presidents.</cite>",
+     "why": "<cite index=\"14-12\">The Hemiciclo a Juárez provides a striking backdrop, and the fountains scattered throughout the park add to the scenery.</cite> <cite index=\"16-1\">It is best photographed in the soft light of morning or at dusk.</cite>",
+     "sources": [
+      {
+       "title": "Alameda Central - Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Mexico_City_Alameda_Central"
+      },
+      {
+       "title": "Alameda Central: Mexico City's Oldest Public Park and Its Many Attractions (Mar Around the World)",
+       "url": "https://www.markaroundtheworld.com/post/alameda-central-mexico-city-s-oldest-public-park-and-its-many-attractions"
+      },
+      {
+       "title": "Alameda Central, Mexico City: Visitor Guide (Audiala)",
+       "url": "https://audiala.com/en/mexico/mexico-city/alameda-central"
+      }
+     ]
+    },
+    {
+     "name": "Main east-west path inside the park, around the midpoint",
+     "detail": "<cite index=\"7-11\">Position yourself on the main east-west path inside the park, roughly at the midpoint</cite>",
+     "why": "<cite index=\"7-1\">The best exterior photographs of the Palacio de Bellas Artes use the Alameda's tree line as a foreground frame.</cite> This source describes a shot aimed at the palace, so treat it as a park-interior spot, not a confirmed park-behind selfie.",
+     "sources": [
+      {
+       "title": "Alameda Central: Over 400 Years at the Heart of Mexico City (Nomado Travel)",
+       "url": "https://www.nomadotravel.app/en/attractions/alameda-central"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "<cite index=\"3-10\">Maybe on nights need to be careful, if you go for first time just go by day.</cite>",
+   "notes": "No source gives a spot where a visitor stands with the park itself directly behind them, so the selfie spots are the best-supported monument and park-interior locations, not verified park-behind positions. No page names a passer-by spot that shows the whole park, so ask_someone_spot is null. The Sears café terrace across the street and the Alameda esplanade in front of Palacio de Bellas Artes appear in sources, but only as views of the palace, not of the whole park. No page states selfie stick or tripod rules. One source says photographing performers requires asking permission, but it is not a selfie-stick rule, so I left it out."
+  },
+  "cost_usd": 0.0475,
+  "at": "2026-11-17 11:46"
+ },
+ "Torre Latinoamericana": {
+  "rank": 14,
+  "card": {
+   "hook": "Tilt your phone up at the Torre Latinoamericana and just keep tilting. This slim steel tower came through the big 1985 quake without damage while buildings nearby were harmed, and it still looks calm about it.",
+   "stand_here": "Stand at the Torre Latinoamericana itself: the phone icon sits right in the middle of its outline, in downtown Mexico City. Face the tower from its base and shoot upwards, then step back across the street to fit the whole building in.",
+   "zoom": "Start at zoom 0.5x to fit the whole tower in from close up, then go to 1x for a natural look. Try 2x or 5x (depending on your phone) to pick out the upper floors.",
+   "make_it_pop": "Turn on gridlines and line the tower up with a vertical line so it doesn't lean.",
+   "best_time": "Pick a clear day, because haze or cloud flattens the view. Late afternoon into dusk suits both the tower and the city lights, and night mode helps if you brace your elbows on something steady.",
+   "selfie_here": "Try the pedestrian stretch of Francisco I. Madero street, where the tower rises at the far end of the avenue. Use the front camera at 0.5x and keep the tower over your shoulder. It's our suggestion rather than a known selfie spot, so check the exact spot on the map.",
+   "ask_someone": "For a full-length shot, ask a passer-by to shoot from across the intersection in front of the Palacio de Bellas Artes, looking up at the tower from street level, and check the map first for the exact spot.",
+   "rules_and_safety": "The tower is a working office building with a public observation deck on the 44th floor, so check the official site before you go for access and tickets. Up on the deck, press your phone close to the glass to cut reflections.",
+   "challenge": "Get the tower dead straight on a gridline with a bit of street at the bottom, and no leaning allowed.",
+   "good_to_know": "The Torre Latinoamericana is 166 m tall and opened on 30 April 1956. It was Mexico's tallest completed building for almost 27 years, until 1982. Many locals see it as a symbol of safety.",
+   "stand_here_before_gps_rule": "Stand at the Torre Latinoamericana itself: the phone icon sits right in the middle of its outline, in downtown Mexico City. Face the tower from its base and shoot upwards, then step back across the street to fit the whole building in."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Madero Street, pedestrian stretch facing the tower at the far end",
+     "detail": "on the pedestrianized Francisco I. Madero street, with the tower rising at the avenue's far end; the corner with Eje Central Lázaro Cárdenas is the tower's base",
+     "why": "A photographer's shot of pedestrians on Madero with the tower at the avenue's end shows it works as a backdrop, but no page calls it a selfie spot, so treat it as a suggestion.",
+     "sources": [
+      {
+       "title": "Torre Latinoamericana: The Skyscraper That Survived 1985 (Have Camera Will Travel)",
+       "url": "https://havecamerawilltravel.com/field-notes/torre-latinoamericana-mexico-city-mexico/"
+      },
+      {
+       "title": "Torre Latinoamericana (Mexico City Guide)",
+       "url": "https://mexicocity-guide.com/attractions/latin_american_tower/"
+      },
+      {
+       "title": "Torre Latinoamericana (Nomadic Backpacker)",
+       "url": "https://www.nomadicbackpacker.com/latin-american-tower-mexico-city.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Street-level intersection in front of the Palacio de Bellas Artes",
+    "detail": "across the intersection in front of the Palacio de Bellas Artes, looking up at the tower from street level",
+    "sources": [
+     {
+      "title": "Torre Latinoamericana: The Best Views in Mexico City (I Could Show You the World)",
+      "url": "https://icouldshowyoutheworld.com/torre-latinoamericana-the-best-views-in-mexico-city/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "The pages I found do not name a dedicated selfie spot for this tower. The Madero Street entry comes from photo captions and a tower-view description, not a selfie guide, so the visitor's position is inferred. The Bellas Artes entry is a page's photo of the tower taken from street level, not a stance for a visitor; a passer-by there would be framing the tower, but the page does not say the visitor should stand there. The only tower-related photo tip I found is that the observation-deck windows are glass and cause reflections; that is not a selfie-stick or tripod rule. No page I found states any selfie stick or tripod rule for this tower, so none are listed. The Bellas Artes framing and Madero backdrop are not on the tower's own grounds, so check the exact placement on a map before going."
+  },
+  "cost_usd": 0.0607,
+  "at": "2026-11-17 11:46"
+ },
+ "Mexico City Metropolitan Cathedral": {
+  "rank": 15,
+  "card": {
+   "hook": "This cathedral took just under 250 years to build, so it never quite picked one style, and that's what makes the stone front so fun to look at. The Zócalo gives you plenty of room to step back and fit all of it in.",
+   "stand_here": "Stand in the Plaza de la Constitución, in the middle of the plaza, facing north toward the cathedral facade. You'll get the full stone front with both bell towers, the main entrance and the giant flag pole.",
+   "zoom": "Start at zoom 0.5x if you're close or want the whole front plus some sky. From further back, zoom 1x looks more natural. Try zoom 2x to 5x (depending on your phone) for a bell tower or the carved portals.",
+   "make_it_pop": "Turn on the gridlines and line the towers up with the vertical lines, holding your phone level so they don't lean.",
+   "best_time": "Go early if you can. Morning light is warmer on the stone and there are fewer people in your frame.",
+   "selfie_here": "Stand on the tile patterns in front of the cathedral, on the square's north side, with the doors and stonework right behind you. Or stand by the big flagpole at the centre of the plaza and turn so the cathedral is behind you. Use the front camera at 0.5x and let the towers peek over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on Madero Street facing the cathedral's front, and ask them to step back as far as the plaza allows so the full facade fits behind you.",
+   "rules_and_safety": "Outside photos are fine, but inside skip the flash and don't take photos during mass. Photography is restricted in the crypts. Drones are generally restricted in central Mexico City, including around the Zócalo. Events can close off or crowd the square, so check before you plan your shot.",
+   "challenge": "Get both towers standing perfectly straight on the gridlines, with one tiny person in the foreground to show how huge the place is.",
+   "good_to_know": "The cathedral was built between 1573 and 1813, so you'll spot Gothic, Baroque, Churrigueresque and Neoclassical styles in the stonework. It stands on the old Aztec sacred precinct, close to the Templo Mayor. It's about 59 metres wide and 67 metres to the tips of its two bell towers.",
+   "stand_here_before_gps_rule": "Stand in the Plaza de la Constitución, in the middle of the plaza, facing north toward the cathedral facade. You'll get the full stone front with both bell towers, the main entrance and the giant flag pole."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Zócalo (Plaza de la Constitución), tiled area in front of the cathedral facade",
+     "detail": "on the tile patterns in front of the cathedral, on the square's north side",
+     "why": "A guide names the tile patterns in front of the cathedral as a good stop, and the impressive exterior and wooden doors sit right behind them.",
+     "sources": [
+      {
+       "title": "The Most Instagrammable Spots in Mexico City - Ready Set Jet Set",
+       "url": "https://readysetjetset.net/mexico-city-instagram-spots/"
+      }
+     ]
+    },
+    {
+     "name": "Zócalo, centre of the square by the Mexican flagpole",
+     "detail": "by the large flagpole at the centre of the plaza, turned so the cathedral is behind you",
+     "why": "A guide lists the cathedral and the colossal flagpole at the square's centre as one of the best photo subjects in the city, so this spot can frame you with the cathedral behind; the framing itself is my inference.",
+     "sources": [
+      {
+       "title": "Top 10 Places to Take Photos in Mexico City - Flytographer",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-mexico-city/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Madero Street, northern side of the Zócalo",
+    "detail": "on Madero Street, which runs along the north side of the Zócalo, facing the front of the cathedral; the photographer should step back as far as the plaza allows to fit the full facade",
+    "sources": [
+     {
+      "title": "Metropolitan Cathedral, Mexico City - Have Camera Will Travel (Google-translated copy)",
+      "url": "https://translate.google.com/translate?u=https%3A%2F%2Fhavecamerawilltravel.photography%2Fmetropolitan-cathedral-mexico-city-mexico%2F&hl=es&sl=en&tl=es&client=srp"
+     },
+     {
+      "title": "Catedral Metropolitana Mexico City: Americas' Largest Cathedral - Bazar Travels",
+      "url": "https://bazartravels.com/places/catedral-metropolitana-de-la-ciudad-de-mexico/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are usually discouraged inside the cathedral to protect the artwork.",
+     "sources": [
+      {
+       "title": "Metropolitan Cathedral in Mexico City: A Symbol of Faith and History - Vibe Adventures",
+       "url": "https://blog.vibeadventures.com/metropolitan-cathedral-in-mexico-city-complete-guide/"
+      }
+     ]
+    },
+    {
+     "rule": "Outside photography is fine, but flash should be avoided inside, especially during services, and photos should not be taken during mass.",
+     "sources": [
+      {
+       "title": "Metropolitan Cathedral Mexico City (2026) - Airial",
+       "url": "https://airial.travel/attractions/mexico/ciudad-de-m%C3%A9xico/metropolitan-cathedral-mexico-city-b4O5jgsN"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is restricted in the crypts, and the Crypt of the Archbishops may have its own restrictions to check with staff about.",
+     "sources": [
+      {
+       "title": "Metropolitan Cathedral in Mexico City: A Symbol of Faith and History - Vibe Adventures",
+       "url": "https://blog.vibeadventures.com/metropolitan-cathedral-in-mexico-city-complete-guide/"
+      },
+      {
+       "title": "Metropolitan Cathedral Mexico City (2026) - Airial",
+       "url": "https://airial.travel/attractions/mexico/ciudad-de-m%C3%A9xico/metropolitan-cathedral-mexico-city-b4O5jgsN"
+      }
+     ]
+    }
+   ],
+   "safety": "Drone photography is generally restricted in central Mexico City, especially around historical sites and public squares like the Zócalo, for safety and preservation reasons.",
+   "notes": "Sources conflict on interior photography: one Airial text says no photography is allowed except in the crypt, while its FAQ says photography is generally permitted with no flash. The Madero Street wording came from a Google-translated copy of the Have Camera Will Travel page. Selfie spot 2 is an inference from a page that names the flagpole and cathedral as photo subjects, not a page stating it as a selfie spot. No page found gave selfie-stick rules, so none are listed."
+  },
+  "cost_usd": 0.051,
+  "at": "2026-11-17 11:47",
+  "selfie_pos": [
+   19.4326468,
+   -99.1331985
+  ],
+  "selfie_note": "Zócalo (OpenStreetMap: Plaza de la Constitución, Centro, Ciudad de México, Cuauhtém)"
+ },
+ "Paseo de la Reforma": {
+  "rank": 102,
+  "card": {
+   "hook": "There's a bronze huntress with water jets around her, right in the middle of one of Mexico City's biggest avenues. Start here and you get the classic Reforma shot without the Ángel crowds.",
+   "stand_here": "Stand at the Fuente de la Diana Cazadora, about halfway along Paseo de la Reforma, using the pavements around the fountain. Face the Diana statue so her water jets sit in front of the wide avenue and its trees. From here, the old-centre end of the avenue lies to the north-east, about 2.3 km away in that direction.",
+   "zoom": "Start at zoom 1x to get the statue with the avenue and trees around her. Try 0.5x to fit in more avenue and tree canopy, or 2x (or higher, if your phone has it) for a tighter shot of the statue and her jets.",
+   "make_it_pop": "Turn on the gridlines and put the statue on one of the lines, then tap her and slide the brightness down a little so the jets and sky don't wash out.",
+   "best_time": "Go after dark, when the sculpture is lit. For fewer cars, aim for a Sunday morning, when the main downtown stretch is usually closed to traffic.",
+   "selfie_here": "Take it at the Diana fountain on its traffic circle, at the Reforma and Sevilla intersection. Use the front camera, try 0.5x, and let the statue and the avenue fill the space over your shoulder.",
+   "ask_someone": "For the Ángel instead, ask a passer-by to stand on the southwest corner of the Ángel de la Independencia roundabout and frame you in front of the monument so the whole thing fits.",
+   "rules_and_safety": "Traffic is heavy, so stay on the pavements and marked crossings, and wait for a gap before stepping into the road. Photography is generally fine in public spaces, but respect private property and any photo rules inside museums. Keep the phone strap on your wrist.",
+   "challenge": "Can you catch the water jets and the whole statue in one shot, with the avenue's trees leading the eye behind her?",
+   "good_to_know": "Reforma was laid out in the 1860s under Emperor Maximilian, who wanted a grand European-style boulevard linking the city centre with Chapultepec Castle. It was first named after his wife, Empress Carlota, and became Paseo de la Reforma in 1872. Today it's lined with hotels, offices and some of the city's tallest towers.",
+   "stand_here_before_gps_rule": "Stand at the Fuente de la Diana Cazadora, about halfway along Paseo de la Reforma, using the pavements around the fountain. Face the Diana statue so her water jets sit in front of the wide avenue and its trees. From here, the old-centre end of the avenue lies to the north-east, about 2.3 km away in that direction."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Diana the Huntress Fountain (Fuente de la Diana Cazadora), Reforma and Sevilla traffic circle",
+     "detail": "at the Reforma and Sevilla intersection, on the statue's traffic circle, where the fountain sits in the middle of the avenue",
+     "why": "Blogs call the Diana statue a popular photo stop, and it is set in a traffic circle along Reforma, so it works as a backdrop for a selfie.",
+     "sources": [
+      {
+       "title": "A Guide to Paseo de la Reforma in Mexico City: Monuments, Museums, and More",
+       "url": "https://www.markaroundtheworld.com/post/a-guide-to-paseo-de-la-reforma-in-mexico-city-monuments-museums-and-more"
+      },
+      {
+       "title": "Mexico City: Paseo de la Reforma walk",
+       "url": "https://www.eternalspringcdmx.com/p/mexico-city-paseo-de-la-reforma-walk"
+      }
+     ]
+    },
+    {
+     "name": "Ángel de la Independencia roundabout, southwest corner",
+     "detail": "on the southwest corner of the Ángel roundabout on Paseo de la Reforma, with the monument in the frame",
+     "why": "A guide says this corner gives the cleanest monument shot without traffic, and a selfie taken there keeps the Angel in the background.",
+     "sources": [
+      {
+       "title": "Angel of Independence",
+       "url": "https://mexicocity-guide.com/attractions/angel/"
+      },
+      {
+       "title": "Best Places to Take Pictures in Mexico",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Ángel de la Independencia roundabout, southwest corner",
+    "detail": "the passer-by stands on the southwest corner of the roundabout and frames the visitor in front of the Angel so the whole monument fits",
+    "sources": [
+     {
+      "title": "Angel of Independence",
+      "url": "https://mexicocity-guide.com/attractions/angel/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is generally allowed in public spaces along Paseo de la Reforma, but respect private property and any photo rules inside museums or private establishments.",
+     "sources": [
+      {
+       "title": "Paseo de la Reforma Mexico City (2026)",
+       "url": "https://airial.travel/attractions/mexico/ciudad-de-m%C3%A9xico/paseo-de-la-reforma-mexico-city-lYBDqz_Q"
+      }
+     ]
+    },
+    {
+     "rule": "On Sunday mornings Reforma is closed to cars for bike rides and walking, which makes it easier to stand and shoot there.",
+     "sources": [
+      {
+       "title": "My Top 15 Mexico City Photo Spots",
+       "url": "https://thelifestylehunter.com/top-15-mexico-city-photo-spots/"
+      },
+      {
+       "title": "Mexico City: Paseo de la Reforma walk",
+       "url": "https://www.eternalspringcdmx.com/p/mexico-city-paseo-de-la-reforma-walk"
+      }
+     ]
+    }
+   ],
+   "safety": "Traffic around the Ángel roundabout is dangerous: one visitor describes darting across lanes to reach the monument, so wait for gaps in traffic before stepping into the road.",
+   "notes": "The given coordinates (19.43444, -99.15194) were not matched to a named spot in any source, so confirm they sit on the stretch of Reforma you mean. No source describes exactly where a selfie should be framed, so both selfie spots are based on general photo-spot advice rather than selfie-specific placement. The ask-someone spot reuses the Ángel roundabout's southwest corner, which a source recommends for a clean monument photo; that is my inference for a passer-by's position. No page states rules on selfie sticks or tripods, so none are listed. Several sources are old (one is about 5,900 days old) and the Sunday closure may not apply on every day."
+  },
+  "cost_usd": 0.0489,
+  "at": "2026-11-17 11:48"
+ },
+ "Palacio Postal": {
+  "rank": 16,
+  "card": {
+   "hook": "You're standing in a post office and you're about to say 'wow' out loud. Step into the main hall, look up, and watch the gold galleries stack away over your head.",
+   "stand_here": "Stand in the middle of the ground-floor hall of the Palacio Postal, right where the phone icon sits, so there's no further walk once you're inside. Face straight ahead, then point your phone up.",
+   "zoom": "Start at zoom 0.5x so the whole atrium and all its galleries fit in one frame. Switch to 1x for the staircase and the ironwork details, and try 2x or 5x to pick out the ceiling (higher zooms depend on your phone).",
+   "make_it_pop": "Turn on gridlines, tap a mid-bright patch of the gold ironwork, then drag the brightness slider down a little so the gold keeps its detail.",
+   "best_time": "Go when the building is open and the hall is quieter, so you get a clear view of the floor. Interiors can be dim, so hold your elbows against your body to keep steady.",
+   "selfie_here": "Stand in front of the sprawling stairs in the main hall, which you reach through the north-side entrance for the Post Museum. Use the front camera, hold it a bit low, and let the stairs and gold trim fill the background. For a street selfie, stand on the front steps on Calle de Tacuba facing Bellas Artes, with the Postal Palace behind you.",
+   "ask_someone": "",
+   "rules_and_safety": "Photography is generally allowed inside, but skip the flash and follow any signs. Entry to the interior may be ticketed or restricted, so check the official site before you go.",
+   "challenge": "Get the galleries perfectly symmetrical on both sides, with the vertical lines dead straight, and then see if a friend can spot the one thing you tilted.",
+   "good_to_know": "The atrium rises through stacked galleries of gilded ironwork under an ornate ceiling. From outside, the pale, ornate facade looks best from the corner of Eje Central Lázaro Cárdenas and Calle de Tacuba, which makes a nice opening shot before you go in.",
+   "stand_here_before_gps_rule": "Stand in the middle of the ground-floor hall of the Palacio Postal, right where the phone icon sits, so there's no further walk once you're inside. Face straight ahead, then point your phone up."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front steps of the Palacio Postal, Calle de Tacuba 1 corner with Eje Central",
+     "detail": "on the front steps of the Postal Palace, turned to face the Palacio de Bellas Artes across the street",
+     "why": "A guide says standing on these steps gives a straight-on view of Bellas Artes, so the Postal Palace is behind you in the frame.",
+     "sources": [
+      {
+       "title": "Palacio Postal Mexico City: The Postal Palace (Nomadotravel)",
+       "url": "https://www.nomadotravel.app/en/attractions/palacio-de-correos"
+      }
+     ]
+    },
+    {
+     "name": "Main hall staircase inside the Palacio Postal",
+     "detail": "in front of the sprawling stairs in the main hall, entered through the north-side entrance for the Post Museum",
+     "why": "A blog recommends taking a picture in front of the grand stairs and gold-trimmed interior, which gives a staircase-backed selfie indoors.",
+     "sources": [
+      {
+       "title": "29 Best Instagram Spots Around Mexico City + Map (Slight North)",
+       "url": "https://slightnorth.com/instagram-spots-around-mexico-city/"
+      },
+      {
+       "title": "Mexico City's 23 Best Unique Photo Spots (Half Half Travel)",
+       "url": "https://www.halfhalftravel.com/travel-guides/mexico-city-photo-spots.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Photography is generally allowed inside the Palacio Postal; avoid flash in exhibition areas.",
+     "sources": [
+      {
+       "title": "Palacio Postal Mexico City (2026) (Airial)",
+       "url": "https://airial.travel/attractions/mexico/ciudad-de-m%C3%A9xico/palacio-postal-mexico-city-cy8lvbeX"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a spot for a passer-by to photograph a visitor with the whole Palacio Postal facade in frame, so ask_someone_spot is null. The steps suggestion comes from a single less-known guide and is inferred to be a selfie with the building behind; the interior staircase spot is a general recommendation, not a stated selfie position. No page I found states selfie stick or tripod rules. Opening hours differ between sources, so check before visiting."
+  },
+  "cost_usd": 0.0447,
+  "at": "2026-11-17 11:48"
+ },
+ "National Museum of Art": {
+  "rank": 17,
+  "card": {
+   "hook": "A bronze horse and rider are parked in front of a huge pale palace, and somehow they don't fight for attention. That's El Caballito and MUNAL, and one photo catches both.",
+   "stand_here": "Stand in Plaza Manuel Tolsá, in front of the El Caballito statue, and face north toward the museum's main facade. The facade is only a short walk away, so you don't need to back up any further.",
+   "zoom": "Start at zoom 0.5x to fit the whole facade and the statue together, then switch to 1x for a cleaner, less stretched look. For a close-up of the horse and rider or the facade details, try 2x to 5x, depending on your phone.",
+   "make_it_pop": "Turn on the gridlines to keep the building's edges straight, and if the pale stone looks washed out, tap the facade and slide a little darker.",
+   "best_time": "Morning or late afternoon gives softer light and gentler shadows on the facade than the middle of the day.",
+   "selfie_here": "Stay on Plaza Manuel Tolsá, out front, and turn so the Chiluca stone facade is behind you. Use the front camera at 0.5x and hold your arm a little high so the building rises over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand at the Calle de Tacuba end of the plaza while you stand across the plaza, so the full facade fits behind you.",
+   "rules_and_safety": "The museum doesn't allow selfie sticks, and photos inside must be taken without flash. Inside, photo sessions for personal or commercial use aren't authorized, and a separate photo permit is required, so check the official MUNAL page before you go. The plaza out front is often the scene of city protests, according to a museum guide.",
+   "challenge": "Put El Caballito on the left or right of your frame so the museum's front door stays in view, then take a second, closer shot with the statue big and the facade soft behind it, like a postcard.",
+   "good_to_know": "The building was designed by Italian architect Silvio Contri as the Palace of Communications, built to show Mexico's commitment to modernisation. It has been an art museum since 1982 and holds more than 3,000 works of Mexican art. The statue has stood in its present spot since 1979.",
+   "stand_here_before_gps_rule": "Stand in Plaza Manuel Tolsá, in front of the El Caballito statue, and face north toward the museum's main facade. The facade is only a short walk away, so you don't need to back up any further."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Plaza Manuel Tolsá, in front of the museum's exterior facade",
+     "detail": "on the plaza out front, with the Chiluca stone facade behind you; the page says the facade is a main photo attraction",
+     "why": "The exterior facade is named as one of the main photo attractions, and the museum sits on this plaza at Tacuba 8.",
+     "sources": [
+      {
+       "title": "Places in the Historic Center of Mexico City - The shops",
+       "url": "https://theshops.mx/en/lugares-del-centro-historico-en-cdmx-para-tus-fotos-de-instagram/"
+      },
+      {
+       "title": "Review of Plaza Manuel Tolsá (Afar)",
+       "url": "https://www.afar.com/places/national-art-museum-munal-centro"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Plaza Manuel Tolsá, at the Calle de Tacuba end of the plaza",
+    "detail": "the page places the museum to the north of the plaza, facing the equestrian statue; the photographer stands across the plaza so the full facade fits in frame",
+    "sources": [
+     {
+      "title": "Review of Plaza Manuel Tolsá (Afar)",
+      "url": "https://www.afar.com/places/national-art-museum-munal-centro"
+     },
+     {
+      "title": "Plaza Manuel Tolsá - Park in Centro, Mexico City (Postcard)",
+      "url": "https://www.postcard.inc/places/plaza-manuel-tolsa-cuauhtemoc"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Selfie sticks, tripods, stabilizers and extra lights are not allowed at the museum (official MUNAL page, in Spanish).",
+     "sources": [
+      {
+       "title": "Museo Nacional de Arte (munal.mx visita)",
+       "url": "https://munal.mx/en/visita"
+      }
+     ]
+    },
+    {
+     "rule": "Visitors may take photos of their visit without flash; photo sessions for personal or commercial use are not authorized.",
+     "sources": [
+      {
+       "title": "Museo Nacional de Arte (munal.mx visita)",
+       "url": "https://munal.mx/en/visita"
+      }
+     ]
+    },
+    {
+     "rule": "A separate photo permit is required, listed on the official page at $30 pesos, and it covers photos without flash and without a tripod.",
+     "sources": [
+      {
+       "title": "Museo Nacional de Arte (munal.mx visita)",
+       "url": "https://munal.mx/en/visita"
+      }
+     ]
+    }
+   ],
+   "safety": "The Plaza Tolsá out front is often the scene of city protests, according to a museum guide.",
+   "notes": "Only one selfie spot was supported by a page; the second slot is empty. The ask-someone position is my inference from the Afar description of the plaza layout, not a stated photo spot. Sources disagree on the photo permit: munal.mx lists $30 pesos, CDMX Secreta says $5 on top of admission, and Mexico City Streets (2019) cites 500 pesos. Museumsmexico says tripods 'often require permission', which conflicts with the official ban. Mexico City Streets calls a 'shining anvil' building a selfie magnet, but that describes a different museum (Fernando Romero's building), so I excluded it. The coordinates given match MUNAL's Wikipedia entry."
+  },
+  "cost_usd": 0.0494,
+  "at": "2026-11-17 11:49"
+ },
+ "Centro Coyoacán": {
+  "rank": 18,
+  "card": {
+   "hook": "The pin says \"Centro Coyoacán\", so you might expect a mall. The mall is gone, and the photo you want is in a leafy garden down the road with a bronze coyote fountain.",
+   "stand_here": "Stand in Jardín Centenario, in front of the bronze Fuente de los Coyotes in the middle of the garden. The old mall site is to the north-west of it, about 1.3 km away. Face the fountain so the trees and arches wrap around it.",
+   "zoom": "Start at 1x so you get the fountain plus the trees and arches. If the fountain looks small or the crowd gets in the way, tap 0.5x. Use 2x for details of the Jardín Hidalgo kiosco from a distance.",
+   "make_it_pop": "Turn on gridlines and put the fountain on the centre line, then tap the fountain and slide it a little darker so the bronze keeps its detail against the bright sky.",
+   "best_time": "Early morning is lovely light and the least crowded. After dark the fountain is lit up, so use night mode and hold still for a second or two.",
+   "selfie_here": "Stand beside the Fuente de los Coyotes in the middle of the park, with the arches of the former convent behind you. Use the front camera, and try 0.5x to fit more of the arches in.",
+   "ask_someone": "Ask a passer-by to stand on the Avenida Francisco Sosa side of the old atrium gates, while you stand at the gates so they and the park frame you, with the church behind.",
+   "rules_and_safety": "The Jardín Hidalgo kiosco may be under restoration, so scaffolding could hide it. Check before you go.",
+   "challenge": "Get the fountain dead centre, an arch on each side, and not one stranger's elbow in the shot.",
+   "good_to_know": "Guides name this the most photographed spot in Coyoacán. For a second picture, Jardín Hidalgo is just across the way, with its 19th-century kiosco, stained-glass cupola and bronze eagle, and the historic town hall behind. The Centro Coyoacán mall opened in 1989 as the first mall of El Palacio de Hierro, designed by Javier Sordo Madaleno. It closed on 19 September 2022, and its site is being absorbed into the neighbouring Mítikah complex.",
+   "stand_here_before_gps_rule": "Stand in Jardín Centenario, in front of the bronze Fuente de los Coyotes in the middle of the garden. The old mall site is to the north-west of it, about 1.3 km away. Face the fountain so the trees and arches wrap around it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Fuente de los Coyotes, Jardín Centenario",
+     "detail": "beside the bronze coyote fountain in the middle of the park, with the arches of the former convent behind you",
+     "why": "The coyote fountain is the park's best-known feature and sits in the centre of the garden, so it is the most recognisable subject. Early morning is the least crowded time.",
+     "sources": [
+      {
+       "title": "Fuente de los Coyotes - Wonder & Sundry",
+       "url": "https://wonderandsundry.com/travelrecommendation/fuente-de-los-coyotes/"
+      },
+      {
+       "title": "Jardín Centenario - Wonder & Sundry",
+       "url": "https://wonderandsundry.com/travelrecommendation/jardin-centenario/"
+      },
+      {
+       "title": "Best Places to Take Pictures in Mexico",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      }
+     ]
+    },
+    {
+     "name": "Arches of the former convent, Jardín Centenario",
+     "detail": "under or beside the arches that once belonged to the San Juan Bautista convent, at the park's edge",
+     "why": "Sources name the arches as a photo highlight of the park, and they are the historic architecture that ties the photo to the Centro de Coyoacán setting.",
+     "sources": [
+      {
+       "title": "Best Places to Take Pictures in Mexico",
+       "url": "https://shotkit.com/take-pictures-mexico/"
+      },
+      {
+       "title": "Jardín Centenario - Wonder & Sundry",
+       "url": "https://wonderandsundry.com/travelrecommendation/jardin-centenario/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Gates at the head of Avenida Francisco Sosa, Jardín Centenario",
+    "detail": "at the old atrium gates where Avenida Francisco Sosa begins; the photographer stands on the avenue side so the gates and park frame the visitor, with the church behind",
+    "sources": [
+     {
+      "title": "Jardín Centenario - Mexico City government (CDMX)",
+      "url": "https://mexicocity.cdmx.gob.mx/venues/jardin-centenario/?lang=en"
+     },
+     {
+      "title": "Coyoacán Mexico City (2026) - Airial",
+      "url": "https://airial.travel/attractions/mexico/mexico-city/coyoac%C3%A1n-mexico-city-DlJgmLvA"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Coordinates 19.35995, -99.16895 are about 1.3 km north-west of Jardín Centenario (the fountain photo on Wikimedia Commons is taken at about 19.3492, -99.1636). Confirm the landmark is Jardín Centenario before using these spots. The compositions ('with the arches behind', 'photographer on the avenue side') are inferred from the named places, not described in the sources. No source found states selfie-stick or tripod rules for Coyoacán. One guide (Shotkit) says many historic places in Coyoacán ban professional photo equipment, but it does not name these spots or mention tripods or selfie sticks, so I left it out of rules. Only one search per spot type was possible, so coverage is limited."
+  },
+  "cost_usd": 0.0602,
+  "at": "2026-11-17 11:49",
+  "selfie_pos": [
+   19.3491634,
+   -99.1635576
+  ],
+  "selfie_note": "Fuente de los Coyotes, Jardín Centenario (OpenStreetMap: Fuente de los Coyotes, Andador Jardín del Centenario, Coyoac)"
+ }
+}

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "mexicocity", "title": "Mexico City: 18 photo spots (pilot review)", "place": "Mexico City", "bounds": [-99.215, 19.345, -99.115, 19.465], "center": [-99.16499999999999, 19.405], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/mexicocity/{z}/{x}/{y}.pbf"};

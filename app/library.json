@@ -392,6 +392,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "mexicocity",
+  "place": "Mexico City",
+  "country": "Mexico",
+  "spots": 18,
+  "mb": 13.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "miamibeach",
   "place": "Miami Beach",
   "country": "United States",
