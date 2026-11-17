@@ -784,6 +784,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "zurich",
+  "place": "Zurich",
+  "country": "Switzerland",
+  "spots": 20,
+  "mb": 9.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "alesund",
   "place": "Ålesund",
   "country": "",
