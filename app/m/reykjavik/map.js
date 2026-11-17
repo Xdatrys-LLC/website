@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "reykjavik", "title": "Reykjavik: 20 photo spots (pilot review)", "place": "Reykjavik", "bounds": [-21.955, 64.11, -21.895, 64.158], "center": [-21.924999999999997, 64.134], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/reykjavik/{z}/{x}/{y}.pbf", "tz": "Atlantic/Reykjavik", "rail": false, "app": true};

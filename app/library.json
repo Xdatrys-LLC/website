@@ -208,6 +208,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "reykjavik",
+  "place": "Reykjavik",
+  "country": "Iceland",
+  "spots": 20,
+  "mb": 4.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "rome",
   "place": "Rome",
   "country": "Italy",
