@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "losangeles", "title": "Venice Beach: 16 photo spots (pilot review)", "place": "Venice Beach", "bounds": [-118.48, 33.965, -118.436, 33.994], "center": [-118.458, 33.9795], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/losangeles/{z}/{x}/{y}.pbf"};

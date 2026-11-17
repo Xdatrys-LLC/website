@@ -144,6 +144,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "newyorkcity",
+  "place": "New York City",
+  "country": "United States",
+  "spots": 20,
+  "mb": 26.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "paris",
   "place": "Paris",
   "country": "France",

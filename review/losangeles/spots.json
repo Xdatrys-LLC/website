@@ -1,0 +1,861 @@
+[
+ {
+  "rank": 1,
+  "name": "Venice Beach",
+  "in_cut": true,
+  "label": "Venice Beach",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 16700,
+  "pin": [
+   -118.45916667,
+   33.99083333
+  ],
+  "camera": [
+   -118.45916667,
+   33.99083333
+  ],
+  "camera_source": "Researched viewpoint 'Venice Beach' (3 web pages); placed at crossing of Pacific Avenue and Windward Avenue (our map tiles).",
+  "pin_note": "Position from the Wikipedia article 'Venice, Los Angeles'.",
+  "notes": "Wide sandy beach with lifeguard towers and sunsets.",
+  "text": {
+   "description": "Venice is a seaside neighbourhood of Los Angeles, and the neon-style Venice sign on Windward Avenue is the picture most visitors come away with. Seen from across the street, the sign sits in front of an arched colonnade, with the neighbourhood entrance behind it. The arches give the shot a clear frame and a bit of old-resort character, which is why it works so well on a phone.\n\nA little history helps explain the mood. Developer Abbot Kinney founded Venice in 1905 as a beach resort modelled on the Italian city, with canals, a pier and an arcaded business street in Venetian style. It was an independent city until 1926, when Los Angeles annexed it. Today the long Ocean Front Walk promenade, about 2.5 miles (4 km), is lined with performers, fortune-tellers and vendors.\n\nFor the photo, cross Windward Avenue so the sign and arches fill the background and the crowd stays behind you. The junction is busy, so keep an eye on the cars and don't step back into the road while framing. If you'd like a wide beach view with the coastline and palm trees as well, Venice Pier is another standard view. Muscle Beach, with its outdoor gym, is another popular picture.",
+   "geographic_location": "In Venice, a coastal neighbourhood in the Westside region of Los Angeles. The sign marks the entrance to the neighbourhood at Windward Avenue, and the subject is near the boardwalk.",
+   "directions_text": "Venice is on the coast, about 14 miles (23 km) west of central Los Angeles, and no public-transport stop is listed for this spot. Head for the Windward Avenue entrance to the neighbourhood. Cross Windward Avenue at the sign to take the photo. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) so the sign and arches look natural. Switch to ultra-wide (0.5x) only if the pavement is too narrow to step back, and keep the sign away from the edges of the frame, where it can stretch.",
+    "where_to_stand": "Stand at the corner of Pacific Avenue and Windward Avenue (stand across Windward Avenue, facing inland). The neon-style Venice sign framed against the arched colonnade, with the neighborhood entrance behind it. Cross Windward Avenue at the sign, so the neon-style Venice sign is framed against the arched colonnade, with the neighbourhood entrance behind it.",
+    "how_to_frame": "Turn on the gridlines and put the sign on one of the lines, with the arches running behind it. Keep the crowd behind you rather than in the picture. For a wide beach view with palm trees, try Venice Pier as an alternative.",
+    "phone_settings_tip": "Tap the sign to focus, then slide the exposure down a little so the neon colours stay rich and the sky doesn't wash out. Take a few frames between passing cars.",
+    "best_time": "Early morning, when the light comes from the east and the midday glare hasn't yet set in."
+   },
+   "access_note": "This is an open street corner in a public neighbourhood, but traffic at the junction is busy, so take care when crossing."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Venice, Los Angeles",
+    "url": "https://en.wikipedia.org/wiki/Venice%2C_Los_Angeles"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=suburb): check the pin",
+   "phone far from subject (956 m)",
+   "OpenStreetMap object 852 m away (Venice): earlier pin kept, check"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "unknown",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Beach_bikepath_in_the_Venice_Beach_park,_California.jpg",
+   "from": "Wikidata Q773853 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Marina del Rey Harbor",
+  "in_cut": true,
+  "label": "Marina del Rey",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 4120,
+  "pin": [
+   -118.4527778,
+   33.9794444
+  ],
+  "camera": [
+   -118.4527778,
+   33.9794444
+  ],
+  "camera_source": "Researched viewpoint 'Burton W. Chace Park' (2 web pages); placed at our map tiles: 'Burton Chace Park' (pois); moved 5 m off water.",
+  "pin_note": "Position from OpenStreetMap relation/10845310: large area 'Marina del Rey' (3784 m across): previous pin kept, it lies inside.",
+  "notes": "One of the largest small-craft harbors in the world, full of boats.",
+  "text": {
+   "description": "Marina del Rey is a huge, calm harbour on the Los Angeles coast, just south-east of Venice. It is North America's largest man-made small-craft harbour, with slips for roughly 5,000 boats. Before it was built, the land was a salt marsh fed by Ballona Creek. The harbour was formally dedicated on 10 April 1965. That history is hard to imagine today, when masts and piers fill the water in every direction.\n\nIt photographs well because the scene is wide and layered. Rows of sailboats and piers sit in the foreground, flat water reflects the sky, and the Palos Verdes hills are often visible in the distance. The best easy view from land is the waterfront lawn at Burton W. Chace Park, where you get open views across the water and boats.\n\nFor phone photos, think of it as a landscape with a lot of repeating shapes. Boats and piers make natural lines that lead the eye across the picture. Early morning gives soft light. Sunset gives a warm sky that reflects in the harbour. If you want a second angle, Fisherman's Village has brightly painted buildings and a lighthouse beside the boats, and Marina Beach has very still water that mirrors the sky. Parking at the park and at Fisherman's Village is paid and tends to fill up at weekends, so an earlier start helps.",
+   "geographic_location": "Marina del Rey Harbor lies south-east of Venice and north of Playa del Rey, close to the mouth of Ballona Creek. The best land-based view is from the waterfront lawn of Burton W. Chace Park on the marina's edge.",
+   "directions_text": "There are no Underground-style stations or tram stops listed for this spot, so check a local map or journey planner for the best way to get from Venice south-east towards Marina del Rey. Look for Burton W. Chace Park on the marina waterfront. Parking at the park is paid and the lot can fill up at weekends, so arriving early is easier. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole harbour, then switch to the default lens (1x) for a calmer, more natural view. Use telephoto (2x-5x, depending on your phone) to pick out a single boat, pier or the distant hills.",
+    "where_to_stand": "Stand in Burton W. Chace Park (waterfront lawn along the marina edge). Sailboats and piers spread across the harbor, with the Palos Verdes hills often visible in the background. Chace Park, on the waterfront lawn along the marina edge. From here you look out over sailboats and piers spread across the harbour, with the Palos Verdes hills often visible behind. The harbour area marked on the map is to the north-west of you.",
+    "how_to_frame": "Turn on gridlines and place the waterline on the lower or upper third, depending on whether the water or the sky is more interesting. Use a pier or a row of boats as a leading line from the bottom of the frame into the distance. For a different view, Fisherman's Village shows painted buildings and a lighthouse against the boats, and Marina Beach gives a quiet, mirror-like water scene.",
+    "phone_settings_tip": "Tap on the boats to focus, then slide the exposure down a little at sunset so the sky keeps its colour. Try a panorama along the waterline, moving slowly and keeping the phone level. Keep an eye out for moving boats, which can blur in a panorama.",
+    "best_time": "Early morning for soft light, or sunset for a warm evening sky over the water."
+   },
+   "access_note": "Burton W. Chace Park is a public waterfront park, but parking there is paid and fills up at weekends, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "The waterfront lawn at Burton W. Chace Park is a public park that is open to walk into without an entry fee.",
+    "Moving boats can blur in a panorama taken on a phone."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Marina del Rey, California",
+    "url": "https://en.wikipedia.org/wiki/Marina_del_Rey%2C_California"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin",
+   "phone far from subject (706 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "unknown",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marina_Del_Rey_Looking_South.jpg",
+   "from": "Wikidata Q988140 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Mother's Beach",
+  "in_cut": true,
+  "label": "Mother's Beach",
+  "camera_pill": "near Palawan Way",
+  "nophone": false,
+  "searches": 3810,
+  "pin": [
+   -118.458376,
+   33.980963
+  ],
+  "camera": [
+   -118.457688,
+   33.982315
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OSM W27294347 (Mother's Beach): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Calm, sheltered beach beside the marina, popular with families.",
+  "text": {
+   "description": "Mother's Beach is a stop for a relaxed, everyday beach scene rather than a grand landmark. The appeal is simple: sand, open sky and people going about their day, which gives a phone camera plenty to work with. You do not need a clever angle here. A clear foreground, such as a patch of sand, a footprint trail or a bench edge, plus a calm horizon line will make the picture feel natural and uncluttered.\n\nThe phone icon on the map is about 160 m north-east of the subject. This gives you some distance to see the whole scene instead of crowding in on one patch of sand. Walk a little closer if you want more detail, but keep the shoreline or the sweep of the beach in view so the picture says where you are.\n\nBeaches are bright places, and bright sand can fool a phone into darkening the whole picture. Tap on something mid-toned and nudge the exposure slider down slightly if the sand looks washed out. Keep the phone level using the gridlines, and check the edges for stray bags or signs before you press the shutter. If people are in the shot, a quick burst or a Live Photo helps you pick the moment when everyone is well placed.",
+   "geographic_location": "Mother's Beach is within the Venice Beach map area, a short walk from the stand-here point on its north-east side.",
+   "directions_text": "The phone icon on the map is about 160 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the beach. Switch to ultra-wide (0.5x) if you want more sand and sky in the frame, and use 2x if you want to pick out a detail from where you stand.",
+    "where_to_stand": "Stand about 160 m north-east of the subject, at the phone icon on the map, and face south-west. Walk a little nearer if you want a closer shot.",
+    "how_to_frame": "Turn on the gridlines and place the horizon or shoreline on one of the horizontal lines. Keep a clear piece of sand or path in the foreground to lead the eye into the scene. Hold the phone level so the horizon does not slope.",
+    "phone_settings_tip": "Tap on a mid-toned area to focus, then lower the exposure slider a touch if the sand is glaring. Try a Live Photo if there is movement, such as walkers or waves, and choose the best frame afterwards.",
+    "best_time": "Morning or late afternoon usually gives softer light than midday, and the beach may be quieter then."
+   },
+   "access_note": "Check the official site before you go for any local rules or access restrictions."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 16 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Muscle Beach Venice",
+  "in_cut": true,
+  "label": "Muscle Beach",
+  "camera_pill": "near Ocean Front Walk",
+  "nophone": false,
+  "searches": 2970,
+  "pin": [
+   -118.472593,
+   33.985456
+  ],
+  "camera": [
+   -118.472956,
+   33.986072
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OSM W35565736 (Muscle Beach Venice): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Open-air gym where bodybuilders have trained by the beach for decades.",
+  "text": {
+   "description": "Muscle Beach Venice is a spot on the Venice Beach map, and it can be a good place for people photos. If people are exercising here, there may be action to shoot, and the beach setting adds a sense of place without much effort. Because it is a busy public spot, the pictures tend to work best when they show a bit of the surroundings as well as the main subject.\n\nThe phone icon on the map is about 75 m north-west of the subject. From there, look south-east. A little distance helps you capture the atmosphere and keep strangers small in the frame, rather than pointing your phone at individuals up close.\n\nTake a few wide shots first to set the scene, then zoom in on details such as any equipment or the shapes of the structures. If people are training, wait a moment for a clear, natural pose. Be considerate: if someone is clearly working out, avoid close-ups of them unless they are happy for you to take them.",
+   "geographic_location": "On the Venice Beach seafront.",
+   "directions_text": "Follow the map to Muscle Beach Venice for the final stretch. The phone icon on the map is about 75 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene. Switch to the ultra-wide (0.5x) if the area is busy and you want to include more of the surroundings, and use telephoto (2x-5x, depending on your phone) for details from a distance.",
+    "where_to_stand": "Stand about 75 m north-west of the subject, at the phone icon on the map, and face south-east. This gives you a clear view of the whole area without being in the middle of the crowd.",
+    "how_to_frame": "Turn on gridlines and keep the horizon level. Place the main subject or action on a third of the frame, and leave some space around it so it does not look cramped. Try one wide shot and one closer zoomed shot of the same scene.",
+    "phone_settings_tip": "Tap on the main subject to focus, then drag the exposure slider down slightly if the sky or sand looks too bright. Try a Live Photo when someone is in motion, so you can choose the best moment afterwards.",
+    "best_time": "Late afternoon usually gives softer, warmer light, and the sun should then be behind you rather than in your lens. Early morning is generally quieter."
+   },
+   "access_note": "This appears to be an open public beachfront area, but check any signs on site for access rules."
+  },
+  "checker_problems": 7,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Venice Canals Footbridges",
+  "in_cut": true,
+  "label": "Canal Footbridges",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 2890,
+  "pin": [
+   -118.4589,
+   33.9718
+  ],
+  "camera": [
+   -118.4589,
+   33.9718
+  ],
+  "camera_source": "Researched viewpoint 'Carroll Canal' (1 web pages); placed at crossing of Carroll Canal and Eastern Canal (our map tiles).",
+  "pin_note": "Position from Wikidata Q113486665: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Arched footbridges over the Grand Canal and Linnie Canal.",
+  "text": {
+   "description": "The Venice Canals are a small network of waterways with arched footbridges, lined with houses, gardens and palms. They were built by Abbot Kinney as part of his Venice of California development, and they are still fed with water from the Pacific through a tide gate at Ballona Lagoon. That history is easy to feel on a stroll, because the bridges, the walkways and the water are all close together.\n\nThe best phone picture here is at Carroll Canal, where two canal walkways meet. From the corner you can see a footbridge framed by flowering bougainvillea, with still water reflecting the houses and palms beside it. The curve of the bridge gives the photo a clear centre, and the reflection doubles it.\n\nFor a wider view down the water, the Dell Avenue crossings are worth a look. They are car bridges rather than footbridges, so use them for the long canal view, not for the footbridge itself. Some of the nine walking bridges are worn, and the city has no renovation plans for them, so a few may be closed or look tired.\n\nThis is a residential historic district. Stay on the public walkways, don't block a bridge while you line up a shot, and keep away from private docks, yards and close-up pictures of residents. Take your time, shoot a few frames, then move on so others can use the corner.",
+   "geographic_location": "The canals are in the Venice neighbourhood of Los Angeles, in a grid of narrow waterways and walkways between the houses. The Carroll Canal corner is where two of the canal walkways meet.",
+   "directions_text": "There are no stations or tram stops listed near the canals, so head to the Venice canals area and walk to the Carroll Canal corner. Once you are on the canal walkways, everything is on foot, so wear comfortable shoes and follow the paths between the bridges. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole footbridge, the flowers and the reflection from the corner. Then switch to the default lens (1x) for a tidier, more natural view of the bridge and its reflection. If your phone has a telephoto (2x-5x), use it to pick out a single arch or some blossom without stepping onto private ground.",
+    "where_to_stand": "Stand at the corner of Carroll Canal and Eastern Canal (intersection of the two canal walkways). A footbridge framed by flowering bougainvillea with the still canal water reflecting the houses and palms beside it. Stand on the Carroll Canal corner, at the intersection of the two canal walkways. From here the photo shows a footbridge framed by flowering bougainvillea, with the still canal water reflecting the houses and palms beside it. The walkways are public, so you can stand at the corner without going near private property.",
+    "how_to_frame": "Turn on gridlines and place the bridge arch near the centre, so its reflection fills the lower half of the frame. Let the bougainvillea hang in from one corner as a natural frame. For a longer view of arched bridges and reflections down the water, try the Dell Avenue crossings as a second option. Keep clear of private docks and gardens, and leave residents out of close-up frames.",
+    "phone_settings_tip": "Tap the bougainvillea or the bridge to focus, then slide the exposure down a touch so the flowers stay rich and the sky doesn't wash out. Hold the phone steady and wait for ripples to settle before you press the shutter. A Live Photo can catch ducks on the banks if any wander past.",
+    "best_time": "Calm water gives the best reflections, so try a quiet moment when the canal is still. Soft morning or late-afternoon light also suits the flowers and the houses."
+   },
+   "access_note": "The canal walkways are public and open to walk along, but some footbridges may be closed or worn, so check the official city information before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Ballona Lagoon",
+    "url": "https://en.wikipedia.org/wiki/Ballona_Lagoon"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (1675 m)"
+  ],
+  "at_spot": false,
+  "photo": null
+ },
+ {
+  "rank": 6,
+  "name": "Venice Canals",
+  "in_cut": true,
+  "label": "Venice Canals",
+  "camera_pill": "Carroll Canal Walk",
+  "nophone": false,
+  "searches": 2070,
+  "pin": [
+   -118.466189,
+   33.9841779
+  ],
+  "camera": [
+   -118.467581,
+   33.984931
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap node/358828800: the OpenStreetMap point 'Venice Canal Historic District'.",
+  "notes": "Quiet canals with small bridges, ducks and flowered gardens.",
+  "text": {
+   "description": "The Venice Canals are a small network of man-made waterways running between family homes in the Venice neighbourhood of Los Angeles. Developer Abbot Kinney built them in 1905 as part of his Venice of America, hoping to give this stretch of coast the feel of Venice, Italy. Early on, lit canals, gondoliers and arched bridges drew a lot of publicity. Many canals were filled in during 1929 to make room for roads, which reduced thirteen canals to six. The ones left were renovated in 1992 and re-opened in 1993. The surrounding district was listed on the National Register of Historic Places in 1982.\n\nThe scene suits a phone camera because it is made of simple, repeating shapes: still water, small footbridges, gardens leaning over the banks and houses reflected below. The mix of older cottages and large modern houses gives you variety without moving far. Look for a bridge or a bend in the canal to act as a frame, and let the reflection fill the lower half of the picture.\n\nMove slowly, as the best view is often just beyond the next bridge. The homes are private, so keep your phone pointed at the water and the bridges rather than into windows or gardens.",
+   "geographic_location": "The canals lie in the coastal Venice neighbourhood of Los Angeles, a residential area. The area is made up of small canals with homes on both banks.",
+   "directions_text": "From there, the canals are 153 m to the south-east, about 2 minutes on foot. Walk slowly along the public paths and watch for the next bridge or bend. The phone icon on the map is about 150 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the water, bridge and houses. Switch to ultra-wide (0.5x) for a narrow canal where you want the whole bank and its reflection in one frame. If your phone has telephoto (2x-5x), use it for details such as a footbridge, a garden or a reflection.",
+    "where_to_stand": "Stand about 150 m north-west of the subject, at the phone icon on the map, and face south-east. Walk that way and pick a spot beside the water where a bridge or a bend sits in the middle distance.",
+    "how_to_frame": "Turn on the gridlines and place the water's edge on a lower line, so the reflection and the houses take up about equal space. Put a footbridge or a curve in the canal slightly off-centre to give the picture depth. Crouching a little lowers your viewpoint and makes the reflection stronger.",
+    "phone_settings_tip": "Tap on the brightest part of the sky or the houses to focus. Then drag the exposure slider down a little so the highlights stay clear and the water keeps its colour. Wait for the surface to settle before taking the shot. Portrait mode works well for a close-up of a plant or railing against the blurred water.",
+    "best_time": "Morning or late afternoon tends to give softer light and calmer reflections, and it is usually quieter on the paths."
+   },
+   "access_note": "This is a residential area with public walkways beside the water, so be considerate of residents and follow any posted signs."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Venice Canal Historic District",
+    "url": "https://en.wikipedia.org/wiki/Venice_Canal_Historic_District"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=neighbourhood): check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 4 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Venice Beach Boardwalk",
+  "in_cut": true,
+  "label": "Venice Boardwalk",
+  "camera_pill": "near Speedway",
+  "nophone": false,
+  "searches": 1250,
+  "pin": [
+   -118.4703,
+   33.983
+  ],
+  "camera": [
+   -118.474231,
+   33.987944
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from Wikidata Q112871534: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "The lively seafront promenade of street performers, stalls and murals.",
+  "text": {
+   "description": "The Venice Beach Boardwalk is a two-mile promenade that runs alongside the sand. It links up with the Santa Monica Boardwalk in the north and ends at Marina del Rey in the south. It photographs well because so much happens along one strip: skaters, cyclists, volleyball games and street life, with the beach and sea on one side. Along the way you pass Muscle Beach Venice, the Venice Beach Skatepark, a stretch of the Beach Bike Path and the Venice Art Walls, so there is plenty to frame. It is also very busy. The Boardwalk draws roughly 10 million visitors a year, and Barbie and Nightcrawler were among the films shot here. That means lively pictures, but you will often have people crossing your shot. Start with a wide view of the promenade to show the scale, then move closer for the details: a skater mid-turn, a painted wall, a net with players behind it. Keep your phone steady and take a few frames of anything moving, as one of them is usually sharper. Walk a little way along the strip and look back, because each stretch has a different mix of colour and activity. Watch for cyclists and skaters on the bike path, and keep your belongings close while you stop to shoot.",
+   "geographic_location": "The Boardwalk is in Venice Beach, running along the back of the beach. Santa Monica lies to the north and Marina del Rey to the south.",
+   "directions_text": "No station or tram stop is listed for this spot. Follow the promenade south-east to reach the marked position. The phone icon on the map is about 660 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) for the long promenade and the crowd, and the default lens (1x) for everyday street scenes. Try telephoto (2x-5x, depending on your phone) for skaters, performers and painted walls from a polite distance.",
+    "where_to_stand": "Stand about 660 m north-west of the subject, at the phone icon on the map, and face south-east. Walk on to the marked position for a closer look.",
+    "how_to_frame": "Turn on gridlines and place the promenade on a diagonal line so it leads the eye into the picture. Keep the beach on one side and the buildings or stalls on the other. For action shots, wait for a gap in the crowd, or use a Live Photo to catch the best moment.",
+    "phone_settings_tip": "Tap to focus on your main subject, then slide the exposure down a little so bright sand and sky don't wash out. In portrait mode, use it for a single person or performer, with the crowd blurred behind.",
+    "best_time": "Early morning is usually calmer, and the light is soft. Late afternoon is good for warm light over the sea. At midday the boardwalk is at its busiest."
+   },
+   "access_note": "The Boardwalk is a promenade beside the beach; check the official site for local rules or closures before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Venice Beach Boardwalk",
+    "url": "https://en.wikipedia.org/wiki/Venice_Beach_Boardwalk"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Abbot Kinney Boulevard",
+  "in_cut": true,
+  "label": "Abbot Kinney Blvd",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 740,
+  "pin": [
+   -118.453327,
+   33.98843
+  ],
+  "camera": [
+   -118.453327,
+   33.98843
+  ],
+  "camera_source": "Researched viewpoint 'Windward Avenue' (1 web pages); placed at OpenStreetMap 'Windward Avenue' (way/13371777): point nearest the subject (390 m long).",
+  "pin_note": "Position from OSM W403712272 (Abbot Kinney Boulevard): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Trendy street of boutiques, murals and cafes.",
+  "text": {
+   "description": "Abbot Kinney Boulevard is a lively shopping street in Venice, lined with storefronts, galleries and people, and it photographs best as a street scene. A quieter, more distinctive subject nearby is the large 'Touch of Venice' mural on a wall along Windward Avenue, close to the boulevard. It is one of the area's most famous artworks, painted in a style that echoes the opening of a well-known 1958 film. The mural fills a big wall, so it gives you a bold, colourful backdrop without the bustle of the main street.\n\nIf you want the boulevard, walk round to Abbot Kinney Boulevard for the view along the street, with its shopfronts, galleries and passers-by receding into the distance. A third option is the colourful street-art murals at 1429 Abbot Kinney Blvd, which look good framed against the boulevard's storefronts.\n\nStart with the mural, then take wider shots on the boulevard. Weekday mornings are quieter, which helps if you want a clear view without people walking through the frame. Street parking nearby is metered and strictly enforced, so read the signs carefully. There is also a flat-rate car park at Venice Boulevard and Electric Avenue.",
+   "geographic_location": "In the Venice district of Los Angeles, on and around Abbot Kinney Boulevard. The mural is on a wall on Windward Avenue, close to the boulevard.",
+   "directions_text": "Head for Abbot Kinney Boulevard; no station or tram stop is listed for this spot. Windward Avenue is close to the boulevard, and the mural is on a wall along that street. If you drive, street parking is metered and strictly enforced, and there is a flat-rate car park at Venice Boulevard and Electric Avenue. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) to fit the whole mural in when you are close to the wall. The default lens (1x) gives a more natural look with less stretching at the edges. On the boulevard, the default lens (1x) suits shopfront scenes, and telephoto (2x-5x) is useful for picking out details from across the street.",
+    "where_to_stand": "Stand on Windward Avenue (near Abbot Kinney Boulevard, at the 'Touch of Venice' mural). The large 'Touch of Venice' mural on a wall of the street, a quieter subject than the boulevard itself. For the mural, stand on Windward Avenue, near Abbot Kinney Boulevard, in front of the 'Touch of Venice' mural. From the mural you see the large painting on the wall, a quieter subject than the boulevard itself.",
+    "how_to_frame": "Turn on gridlines and line up the edges of the mural with them so the wall looks straight. Step back as far as the pavement allows, then take one wide shot of the whole mural and one closer shot of a section. For a different picture, walk to Abbot Kinney Boulevard and shoot along the street, or look at the murals at 1429 Abbot Kinney Blvd against the storefronts.",
+    "phone_settings_tip": "Tap the mural to focus, then slide the exposure down a little if the sky or a bright wall is washing out the colours. Hold the phone level, as tilting it makes the wall lean.",
+    "best_time": "Weekday mornings are quieter, so you are more likely to get a clear view of the wall and the street."
+   },
+   "access_note": "The mural is on a public street and the boulevard is an ordinary street, but parking is metered and strictly enforced, so check the signs before you leave your car."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (2256 m)"
+  ],
+  "at_spot": false,
+  "photo": null
+ },
+ {
+  "rank": 9,
+  "name": "Venice Beach Skatepark",
+  "in_cut": true,
+  "label": "Venice Skate Park",
+  "camera_pill": "near Speedway",
+  "nophone": false,
+  "searches": 630,
+  "pin": [
+   -118.4755092,
+   33.987076
+  ],
+  "camera": [
+   -118.473481,
+   33.987339
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap relation/10311632: the middle of the OpenStreetMap outline 'Venice Skate Park' (81 m across).",
+  "notes": "Concrete bowls right on the sand, with skaters in action.",
+  "text": {
+   "description": "Venice Beach Skatepark is a public skatepark near where Windward Avenue meets Ocean Front Walk in Venice, Los Angeles. It opened in late 2009 and is officially named the Dennis \"Polar Bear\" Agnew Memorial Skatepark, after a well-known skater. The site covers about 16,000 square feet. It mixes steps and rails with bowls that look like empty swimming pools. It was built after a long local campaign led by Jesse Martinez, and paid for with money from the sale of surplus city property in Venice.\n\nIt photographs well because it is full of curves, hard edges and movement. The smooth bowls make strong shapes, and skaters give the scene scale and energy. If you want a close shot of a trick, zoom in rather than walking into the skating area.\n\nKeep your phone to the side of the park, stay clear of the bowls and rails, and never step in front of a skater. Wait for a rider to start a run before you press the shutter. Keep the horizon level using the gridlines, and include a bit of the surrounding beach so the picture says Venice rather than just \"skatepark\".",
+   "geographic_location": "The skatepark is in the Venice district of Los Angeles, near the corner of Windward Avenue and Ocean Front Walk.",
+   "directions_text": "No Underground, train or tram stop is listed for this spot, so head for the Windward Avenue and Ocean Front Walk area of Venice, by taxi or hired scooter if you are coming from further away. From there the park is about 3 minutes on foot to the west, if you want to get closer. The phone icon on the map is about 160 m east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole park and its surroundings. Switch to telephoto (2x-5x, depending on your phone) to pick out a single skater or a bowl from a distance. Use the ultra-wide (0.5x) only if you get close to the edge and want to fit in a lot of the scene.",
+    "where_to_stand": "Stand about 160 m east of the subject, at the phone icon on the map, and face west. Stay on the public side of the edge, away from the riding area.",
+    "how_to_frame": "Turn on gridlines and place the park's curves along the lower third, with sky or beach above. At 1x the park will look small, so a 2x or 3x zoom usually gives a better shot. Wait for a skater to enter a bowl so the shape of the bowl and the rider's pose are both in the frame.",
+    "phone_settings_tip": "Tap on a skater to set focus, then slide the exposure down a little so the pale concrete does not turn white. Turn on Live Photos to catch a trick, then choose the best moment afterwards.",
+    "best_time": "Morning, when the sun is behind you and lights the park, is usually easiest. Later in the day the low sun can shine toward your phone and cause glare. Skaters are usually more active when it is dry."
+   },
+   "access_note": "This is a public skatepark in Venice, but check the official site before you go for any current rules or closures.",
+   "claims_not_in_sources": [
+    "From the stand-here point, which is east of the park, the morning sun is behind the photographer and the late-day sun is low in the west, towards the lens.",
+    "Skaters are usually more active in dry weather.",
+    "The skatepark can be seen from the public side of its edge, and the riding area is used by skaters and should be kept clear."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Venice Beach Skatepark",
+    "url": "https://en.wikipedia.org/wiki/Venice_Beach_Skatepark"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 9 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Fisherman's Village",
+  "in_cut": true,
+  "label": "Fisherman's Village",
+  "camera_pill": "near Fiji Way",
+  "nophone": false,
+  "searches": 380,
+  "pin": [
+   -118.44633,
+   33.9728
+  ],
+  "camera": [
+   -118.446199,
+   33.972441
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from Wikidata Q5454904: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "New England-style waterfront shops and restaurants.",
+  "text": {
+   "description": "Fisherman's Village is a small waterfront cluster of shops and restaurants built to look like a New England fishing village, which is an unexpected sight on the Southern California coast. It has five brightly painted wooden buildings, a lighthouse, a fountain and a promenade running along the harbour, with working boat docks beside it. That mix of bold colour, white-painted details and rows of masts makes an easy, cheerful phone photo.\n\nThe promenade looks out over a very large harbour. About 5,300 boats, yachts and commercial vessels are berthed across 21 marinas, so there is nearly always something floating in the background. Some TV scenes have been filmed here too. Scenes involving the Bluth Banana Stand from Arrested Development were filmed next to the lighthouse.\n\nThe phone icon on the map is about 40 m south of the subject. That is far enough to fit the buildings and the water into one frame without any fuss. Try one wide shot that includes the painted fronts, the lighthouse and a few masts. Then step closer for details such as a doorway, a window or a boat's bow. Keep the horizon level and look for the lighthouse as a strong vertical against the sky. If people wander through, wait a moment, as the promenade is usually easy to shoot in short gaps.",
+   "geographic_location": "Fisherman's Village sits on the harbour waterfront in Marina del Rey, in Los Angeles County. It is next to the boat docks and the harbour promenade.",
+   "directions_text": "There are no rail or tram stops listed for this spot. Follow the waterfront promenade towards the lighthouse and the painted buildings. The phone icon on the map is about 40 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the painted buildings, the promenade and the water together. Use the default lens (1x) for a more natural view of the lighthouse and fronts. Try telephoto (2x-5x, depending on your phone) for masts, boat details and signs.",
+    "where_to_stand": "Stand about 40 m south of the subject, at the phone icon on the map, and face north. This gives you enough room to include the colourful fronts and some harbour in the same shot without tilting your phone up.",
+    "how_to_frame": "Turn on gridlines and line the lighthouse and building edges up with the vertical lines so nothing leans. Put the water and boats in the lower part of the frame and the coloured buildings above them. Then walk closer for a second shot of a single bright facade or a doorway.",
+    "phone_settings_tip": "Tap on a painted wall to set focus, then slide the exposure down a little if the sky looks washed out, so the colours stay rich. Wipe the lens first, as sea air can leave a film on it.",
+    "best_time": "Morning or late afternoon usually gives softer light and gentler shadows on the buildings. Midday sun can be harsh on the white trim and bright paint."
+   },
+   "access_note": "The waterfront promenade is a public walking area with shops, restaurants and boat services, but individual businesses may have their own hours and rules, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Morning or late afternoon light is usually softer than midday light for photographing the buildings.",
+    "The promenade is usually easy to photograph in short gaps between passers-by.",
+    "Sea air can leave a film on a phone lens.",
+    "The lighthouse works as a strong vertical in the frame."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Fisherman's Village",
+    "url": "https://en.wikipedia.org/wiki/Fisherman%27s_Village"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 6 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Venice Sign",
+  "in_cut": true,
+  "label": "Venice Sign",
+  "camera_pill": "near Windward Avenue",
+  "nophone": false,
+  "searches": 240,
+  "pin": [
+   -118.472361,
+   33.987613
+  ],
+  "camera": [
+   -118.472797,
+   33.987453
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OSM N6795952888 (Venice Sign): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "The neon arch over Windward Avenue at the boardwalk.",
+  "text": {
+   "description": "The Venice Sign is a photo spot on the Venice Beach map, and it works well as a quick \"I was here\" picture.\n\nThe sign is about 44 metres away, so you can fit it into the frame with some of its surroundings. From there you can take a wide picture that shows the sign in context, or step closer for a tighter shot with a person in front of it.\n\nTake several shots in case people walk through the frame. Keep your phone upright if you want to include the full height of the sign, or turn it sideways to include more of the surroundings. Keep walkways clear for other people and stay out of traffic areas. Check the gridlines in your camera settings so the sign sits straight and level.",
+   "geographic_location": "In the Venice Beach area of Los Angeles.",
+   "directions_text": "From there the sign is 44 m to the north-east, about 1 minute on foot. The phone icon on the map is about 45 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the sign and its surroundings. Switch to the ultra-wide (0.5x) if you want to include more of the surroundings or fit in a group of people. If you can't get close, the telephoto (2x) works well to pick out the sign without moving closer.",
+    "where_to_stand": "Stand about 45 m south-west of the subject, at the phone icon on the map, and face north-east.",
+    "how_to_frame": "Turn on the gridlines and line up the sign with the top third of the frame, leaving room for people below. Keep the phone level so the sign does not lean. For a group photo, walk a little closer and use the ultra-wide (0.5x) so everyone fits without distortion at the edges.",
+    "phone_settings_tip": "Tap the sign on the screen to focus, then slide the exposure control down slightly if the sky is bright and the sign looks washed out. Take a few shots in a row to get a sharp, well-composed frame.",
+    "best_time": "Early morning is usually quieter, with fewer people in the frame. In the evening, switch on night mode if the light is low, and hold the phone steady against something solid."
+   },
+   "access_note": "Access conditions are not confirmed; check locally before you go.",
+   "claims_not_in_sources": [
+    "Early morning is usually quieter than other times of day.",
+    "Access conditions at the sign are not confirmed."
+   ]
+  },
+  "checker_problems": 9,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Venice Fishing Pier",
+  "in_cut": true,
+  "label": "Venice Pier",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 160,
+  "pin": [
+   -118.46916667,
+   33.97777778
+  ],
+  "camera": [
+   -118.470611,
+   33.976917
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from Wikidata Q114493228: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Long pier at the south end of Venice Beach with views up the coast.",
+  "text": {
+   "description": "Venice Fishing Pier is a long concrete pier that runs out into the Pacific from the Venice Beach Boardwalk in Venice, Los Angeles. It works well for phone photos because the straight line of the deck, the railings and the lamp posts lead the eye out to sea, and the beach, the water and the sky give you plenty of space around it. The current structure dates from around 1963. It was closed in the 1980s after storm damage and structural problems, then reopened in 1997 after a restoration. The pier is about 1,300 feet (roughly 400 metres) long. It draws between 28,000 and 30,000 visitors a day, so expect people in many frames. The pier has appeared in several films, including the 1993 thriller Falling Down. Stand back on the sand or boardwalk for a wide view, then walk closer for details such as anglers, railings and the waves around the pilings. Keep your phone strap on and stay clear of the water's edge when waves are running.",
+   "geographic_location": "On the Venice Beach Boardwalk in Venice, Los Angeles, where the boardwalk meets the Pacific shoreline.",
+   "directions_text": "No Underground or tram stops are listed for this spot, so plan to reach it on foot around the Venice Beach Boardwalk area in Venice. The phone icon on the map is about 160 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the full length of the pier and plenty of sky into one frame. Switch to the default lens (1x) for a natural, balanced view. Use the telephoto (2x-5x, depending on your phone) to pick out details such as anglers, railings or waves breaking around the pilings.",
+    "where_to_stand": "Stand about 160 m south-west of the subject, at the phone icon on the map, and face north-east. From here you can see it as a whole structure rather than a close-up of one section.",
+    "how_to_frame": "Turn on gridlines and place the pier along a lower or upper third line, so the deck leads the eye away from you. Keep the horizon level, because the sea makes any tilt obvious. Wait for a gap in the crowd, or include a few people on purpose to show the pier's size. Walk closer for a second shot of railings and fishing activity.",
+    "phone_settings_tip": "Tap the pier to set focus, then drag the exposure slider down slightly so the sky keeps its colour and the concrete does not wash out. Try a Live Photo to catch moving waves and walkers, then pick the best frame.",
+    "best_time": "Late afternoon into sunset usually suits this view, as the ocean lies to the west. Early morning is often quieter, if you want fewer people in the shot."
+   },
+   "access_note": "The pier is part of the Venice Beach Boardwalk area, but check the official site before you go for current access arrangements and any restrictions."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Venice Fishing Pier",
+    "url": "https://en.wikipedia.org/wiki/Venice_Fishing_Pier"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 0.5
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Venice Beach Basketball Courts",
+  "in_cut": true,
+  "label": "Basketball Courts",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 100,
+  "pin": [
+   -118.45916667,
+   33.99083333
+  ],
+  "camera": [
+   -118.466887,
+   33.995044
+  ],
+  "camera_source": "Researched viewpoint 'Venice Beach Basketball Courts' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from the Wikipedia article 'Venice, Los Angeles' (found by searching for the spot's name).",
+  "notes": "Famous streetball courts beside the boardwalk.",
+  "text": {
+   "description": "The Venice Beach Basketball Courts are open-air courts beside Ocean Front Walk, the 2.5-mile (4 km) pedestrian promenade where performers, fortune-tellers and vendors set up. They are widely described as the most photographed outdoor court in the world. The reason is simple: you get a game in progress, palm trees, a big Californian sky and the beach all in one frame. Venice itself was founded in 1905 by Abbot Kinney as a seaside resort and became part of Los Angeles in 1926. The promenade still keeps some of that holiday-crowd atmosphere.\n\nThe classic picture is taken from on the courts, looking south toward the handball courts. The boardwalk and the ocean are behind you, so what you see is palm trees, open sky, the players, and the handball courts beyond. Sometimes a helicopter drifts across the distance. Keep to the side of the playing area and let the game carry on around you.\n\nThere are no lights on the courts, so plan to shoot before sunset. At weekend afternoons people gather several deep along the fence, so arriving early gives you a clearer view. Golden hour gives warm, dramatic light, while midday gives bright, clean colour. Take a few wide scene-setting shots first, then move in on the action.",
+   "geographic_location": "In the Venice Beach area of Los Angeles, beside Ocean Front Walk, the promenade, near 18th Avenue. The handball courts are just to the south.",
+   "directions_text": "No Underground, tram or train stops are listed nearby. The access point is the public parking lot near 18th Avenue and Ocean Front Walk, which is also where you will find the courts. The phone icon on the map marks the place to shoot from, so check your position against the courts when you arrive. The phone icon on the map is about 850 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the classic view of the courts, palms and sky. Switch to ultra-wide (0.5x) if you want the whole scene including the handball courts. Use telephoto (2x-5x, depending on your phone) for close shots of players from the edge.",
+    "where_to_stand": "Stand about 850 m north-west of the subject, at the phone icon on the map, and face south-east. For the classic view, shoot from the courts looking south toward the handball courts, so the boardwalk and the ocean are behind you. The shot shows the courts, palm trees and clear sky, with the handball courts beyond.",
+    "how_to_frame": "Turn on gridlines and place the far hoop or the line of palm trees on a third. Keep the horizon level and leave plenty of sky. Hold the phone at chest height for a natural view, or crouch a little to make the palms look taller. If a helicopter or a dunk appears, you will get it in the frame without needing to recompose.",
+    "phone_settings_tip": "Tap on the players to set focus, then drag the exposure slider down slightly so the bright sky keeps its colour. Try Live Photos or motion to catch a jump shot, and pick the best frame afterwards.",
+    "best_time": "Golden hour for warm, dramatic light, or midday for bright, clear shots. The courts have no lights, so shoot before sunset, and arrive early at weekends to beat the crowds."
+   },
+   "access_note": "These are outdoor courts beside a public promenade, but check the official site before you go for any rules on use, events or filming."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Venice, Los Angeles",
+    "url": "https://en.wikipedia.org/wiki/Venice%2C_Los_Angeles"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=suburb): check the pin",
+   "OpenStreetMap object 852 m away (Venice): earlier pin kept, check"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "unknown",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Beach_bikepath_in_the_Venice_Beach_park,_California.jpg",
+   "from": "Wikidata Q773853 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Burton Chace Park",
+  "in_cut": true,
+  "label": "Burton Chace Park",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 60,
+  "pin": [
+   -118.4451477,
+   33.9770773
+  ],
+  "camera": [
+   -118.446321,
+   33.976643
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap way/22372513: the middle of the OpenStreetMap outline 'Burton Chace Park' (360 m across).",
+  "notes": "Waterfront park at the end of the main channel with marina views.",
+  "text": {
+   "description": "Burton Chace Park is the largest public park in Marina del Rey, a grassy point of land with water on three sides. It covers about 10 acres (4 hectares) and is named after Burton W. Chace, a former Mayor of Long Beach and Los Angeles County Supervisor. That open setting is what makes it easy to photograph on a phone. You get wide lawns, a long stretch of sky and the boats of the marina all in one frame, with very little clutter to work around.\n\nA green knoll rises in the middle of the park, and it is described as a place from which the whole community can be seen. That makes it a good spot for a sweeping view across the harbour. The park also has docks for visiting boats, picnic areas and shelters, so there are plenty of small details to pick out: rigging, hulls, benches and people relaxing by the water.\n\nThe park hosts local events such as the Marina del Rey Holiday Boat Parade, MarinaFest and the Marina Summer Concerts. If you visit on one of those days, expect more activity and more people in your shots. Start with a wide view of the water and lawn, then move in on boats or reflections for variety. Keep the horizon level using your gridlines, and tap on the brightest part of the scene so the sky keeps its colour.",
+   "geographic_location": "Burton Chace Park is in Marina del Rey, on Mindanao Way near Admiralty Way. The park sits on a point of land with water on three sides.",
+   "directions_text": "No public transport stops are listed for this spot, so check a local map or journey planner for how to reach Burton Chace Park on Mindanao Way, near Admiralty Way. The phone icon on the map is about 120 m south-west of the numbered pin. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in lawn, water and sky together, then switch to the default lens (1x) for a more natural view. Use the telephoto (2x-5x, depending on your phone) to pick out individual boats or masts across the water.",
+    "where_to_stand": "Stand about 120 m south-west of the numbered pin, at the phone icon on the map, and face north-east.",
+    "how_to_frame": "Turn on the gridlines and place the horizon on the upper or lower line, depending on whether the sky or the water is more interesting. Include some lawn or a path in the foreground to give the picture depth. For a wider view of the harbour, walk up the green knoll in the middle of the park and try a panorama, moving the phone slowly and steadily.",
+    "phone_settings_tip": "Tap on the sky or water to set focus, then slide the exposure down slightly if the sky looks washed out. Try a Live Photo for moving water and flags, and keep your elbows tucked in for steadier shots at 2x or above.",
+    "best_time": "Late afternoon usually gives softer, warmer light on the water and boats. Event days bring more people, so go on a quieter day if you want empty lawns."
+   },
+   "access_note": "This is a public park, but the docks and event areas may have their own rules, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Late afternoon light is usually softer and warmer on the water.",
+    "Event days are likely to be busier than ordinary days.",
+    "Boats, masts and rigging are normally visible around the park's water edge."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Chace Park",
+    "url": "https://en.wikipedia.org/wiki/Chace_Park"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 11 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 15,
+  "name": "Venice Art Walls",
+  "in_cut": true,
+  "label": "Venice Graffiti Walls",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 30,
+  "pin": [
+   -118.47491,
+   33.98642
+  ],
+  "camera": [
+   -118.47491,
+   33.98642
+  ],
+  "camera_source": "Researched viewpoint 'Ocean Front Walk' (2 web pages); placed at crossing of Ocean Front Walk and Windward Avenue (our map tiles).",
+  "pin_note": "Position from Wikidata Q117018968: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Legal graffiti walls that change constantly.",
+  "text": {
+   "description": "The Venice Art Walls are a run of free-standing concrete walls and cones on the sand beside the Venice Beach Boardwalk, covered from top to bottom in layers of graffiti and murals. The colours and lettering change all the time, so no two visits give you quite the same picture. The walls stand between Windward and Market, and the writing on them goes back to the 1960s, though painting here only became properly legal in the last couple of decades. Since 2012 the walls have been managed by Setting the Pace, a graffiti production company that curates the work and organises mural workshops for students and young artists. On weekends you can often watch artists adding new work, which makes for lively photos with a bit of story in them. The walls photograph well because the bright paint sits against pale sand, the sea and palm trees. Standing on the boardwalk edge gives you the walls at a slight angle with the beach spread out in front, which is an easy way to show the whole scene without getting in among the people. If you want the close-up view, you can walk down onto the sand. Keep your phone steady and take a few frames, as passers-by often wander through. Look for one wall with a strong colour and use it as your main subject, then step back for a wider shot.",
+   "geographic_location": "On the beach side of Ocean Front Walk in Venice, Los Angeles, at the Windward Avenue corner of the Venice Beach Boardwalk. The walls sit on the sand just west of the boardwalk.",
+   "directions_text": "No Underground, train or tram stop is listed for this spot, so head for the Venice Beach Boardwalk and walk to the Windward Avenue corner of Ocean Front Walk. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the walls, the sand and the beach in one frame. Switch to the default lens (1x) for a more natural look, and use telephoto (2x-5x, depending on your phone) to pick out a single mural or a painter at work.",
+    "where_to_stand": "Stand at the corner of Ocean Front Walk and Windward Avenue (Beach side of Ocean Front Walk at the Windward Avenue corner). The walls seen from the boardwalk edge at a slight angle, with the sand and beach in the foreground. Stand on Ocean Front Walk, on the beach side at the Windward Avenue corner. From here the walls are to the south-west and you see them at a slight angle, with the sand and beach in the foreground. If you want a closer, head-on view, the walls themselves are also a good place to shoot from, down on the sand.",
+    "how_to_frame": "Turn on the gridlines and line up a wall along one third of the frame, leaving sand and sky for the rest. Keep the horizon level. Hold your phone low to make the foreground sand lead the eye to the paint. For a closer view, walk down onto the sand and shoot straight at a single wall.",
+    "phone_settings_tip": "Tap on the brightest mural to focus, then drag the exposure slider down a little so the colours stay rich and the sky does not wash out. Use portrait mode if a friend stands in front of a wall.",
+    "best_time": "Weekends are best if you want to see artists painting, and murals tend to look freshest after a weekend. Late afternoon usually gives warm, softer light across the beach."
+   },
+   "access_note": "The walls are on a public beach next to the boardwalk, but painting is only for permitted artists and the rules can change, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Venice Art Walls",
+    "url": "https://en.wikipedia.org/wiki/Venice_Art_Walls"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": null
+ },
+ {
+  "rank": 16,
+  "name": "Ballona Lagoon",
+  "in_cut": true,
+  "label": "Ballona Lagoon",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 30,
+  "pin": [
+   -118.4589,
+   33.9718
+  ],
+  "camera": [
+   -118.4589,
+   33.9718
+  ],
+  "camera_source": "Researched viewpoint 'Lighthouse Street Bridge' (4 web pages); placed at our map tiles: 'Lighthouse Street' (roads).",
+  "pin_note": "Position from Wikidata Q113486665: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Tidal lagoon with footbridges and wildlife.",
+  "text": {
+   "description": "Ballona Lagoon is a narrow, shallow tidal channel and marsh of about 16 acres on the Marina Peninsula, running for roughly a mile behind the beach. A tide gate feeds it with water from the Pacific, and it flows on into the Venice Canals. It is a calm, quiet scene with reeds, native planting and still water, and it looks very different from the busy boardwalk nearby.\n\nThe recommended viewpoint is the Lighthouse Street Bridge. It is a vintage arched bridge for pedestrians and cyclists only, built by Abbot Kinney as part of his Venice of California development. From midspan you can look along the water, with marsh on the banks and houses behind. Despite the name, there has never been a lighthouse here. The streets in this neighbourhood are named after nautical terms in alphabetical order.\n\nThe lagoon was restored from the late 1980s, with major work in 1996-97. That brought back native plants and created habitat for birds such as snowy egrets and great blue herons, so keep your phone ready for a bird on the water's edge. Part of the beach next door is a fenced nesting site for a small seabird, so stay outside any fencing.\n\nFor a second view, walk onto the Ballona Lagoon Marine Preserve Trail and look back across the water at the lagoon edge, the wetland plants and the bridge. Some stretches of the path are unpaved, so wear comfortable shoes.",
+   "geographic_location": "Ballona Lagoon lies on the Marina Peninsula in the southern part of Venice Beach, on the inland side of the beach strip. It runs parallel to Via Marina and leads north-west towards the Venice Canals.",
+   "directions_text": "No rail or tram stop is listed for this spot, so head for the Venice Beach or Marina Peninsula area and finish by taxi or hired scooter. Ask to be dropped at the Lighthouse Street Bridge over the lagoon. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the channel and the banks. Use the ultra-wide (0.5x) if you want the bridge's arch in the frame, for example from the trail. Use telephoto (2x-5x, depending on your phone) for birds, and don't walk closer to them.",
+    "where_to_stand": "Stand on Lighthouse Street Bridge (pedestrian bridge across the lagoon, midspan). The lagoon's narrow water channel running toward the Venice Canals, with the surrounding marsh and houses along the banks. Head to the Lighthouse Street Bridge and stand at midspan. From the bridge you can look along the narrow water channel, which runs towards the Venice Canals to the north-west, with marsh and houses along the banks.",
+    "how_to_frame": "Turn on gridlines and line the channel up with a vertical grid line so the water leads the eye into the picture. Keep a little of the bridge rail or arch in the corner for scale. For a second view, go to the Ballona Lagoon Marine Preserve Trail and shoot back across the water at the wetland plants and the bridge. If the bridge is busy, wait a moment for people and bikes to pass.",
+    "phone_settings_tip": "Tap on the water or the far bank to focus, then slide the exposure down a little if the sky is bright and the water looks washed out. For birds, use the telephoto and tap on the bird before shooting. Live Photos can help if the bird moves.",
+    "best_time": "Early morning or late afternoon usually gives softer light on the water and fewer people on the path. Mid-tide or high tide tends to look best, as the water covers more of the mud."
+   },
+   "access_note": "The bridge and the lagoon-side walkway are open to the public on foot (the bridge is pedestrian and bicycle only), but stay out of fenced nesting areas and check the official site before you go for any local restrictions."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Ballona Lagoon",
+    "url": "https://en.wikipedia.org/wiki/Ballona_Lagoon"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": null
+ }
+]

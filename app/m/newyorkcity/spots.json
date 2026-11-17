@@ -1,0 +1,1122 @@
+[
+ {
+  "rank": 1,
+  "name": "Statue of Liberty",
+  "in_cut": true,
+  "label": "Statue of Liberty",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 283700,
+  "pin": [
+   -74.0445435,
+   40.6892433
+  ],
+  "camera": [
+   -74.0445435,
+   40.6892433
+  ],
+  "camera_source": "Researched viewpoint 'The Battery' (3 web pages); placed at OpenStreetMap 'The Battery Woodland' (way/672481934): middle (224 m across).",
+  "pin_note": "Position from OpenStreetMap way/32965412: the middle of the OpenStreetMap outline 'Statue of Liberty' (136 m across).",
+  "notes": "Photographed from Battery Park or the ferry.",
+  "text": {
+   "description": "The Statue of Liberty is a huge copper-clad figure of a robed, crowned woman holding a torch high in her right hand. In her left she carries a tablet inscribed with the date of the Declaration of Independence, 4 July 1776, in Roman numerals. She was a gift from the people of France, designed by the sculptor Frédéric Auguste Bartholdi, with an inner metal framework built by Gustave Eiffel. She was dedicated on 28 October 1886 and stands on Liberty Island, once called Bedloe's Island, in New York Harbour. Since 1933 she has been looked after by the National Park Service.\n\nThe free land view most guides recommend is from The Battery, at the southern tip of Manhattan. From the waterfront path you look across open water to the statue, with the park's greenery framing the scene. The railings and benches give you several angles without leaving the park. The statue is a long way off, so she will look small at the default lens (1x). Use that setting for a wide, scenic shot with the trees and water, then zoom in for a closer portrait of her. Come with realistic expectations: this is a view across the harbour, not a close-up. If you want to see her from behind, with the torch raised over the water and the Lower Manhattan skyline beside her, Liberty State Park is the usual alternative.",
+   "geographic_location": "The statue stands on Liberty Island in New York Harbour, about 3 km south-west of The Battery. The Battery, at the very southern end of Manhattan, is the classic free land view of her, according to guides.",
+   "directions_text": "Head for The Battery, the waterfront park at the southern tip of Manhattan. Once in the park, follow the waterfront path. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to show the harbour, the greenery and the statue together. Then switch to telephoto (2x-5x, depending on your phone) for a closer view of her, because she is a long way across the water. Keep the ultra-wide (0.5x) for the park and waterfront around you, not for the statue itself.",
+    "where_to_stand": "Stand in The Battery (southern tip of Manhattan, waterfront path; the spot marked 'Statue of Liberty Viewpoint' on the park map). Lady Liberty across the harbor with the water and park greenery framing her in the distance. Along the waterfront path.",
+    "how_to_frame": "Turn on gridlines and place the statue on one of the grid intersections, with water filling the lower part of the frame. Use the waterfront railings or a bench as a foreground edge. If you want a different view, take the Staten Island Ferry, which boards at Whitehall Terminal, for moving-deck shots of the statue passing by, framed with the harbour and skyline. A telephoto helps there.",
+    "phone_settings_tip": "Tap on the statue to focus, then slide the exposure down a little if the sky is bright, so she keeps her detail. Hold the phone against the railing to keep zoomed shots steady. Take a few Live Photos, as boats and water often move through the frame.",
+    "best_time": "One guide suggests fall and winter sunsets, when the sun can line up behind the statue. At other times of year, check where the light falls on the day, and look out for clear weather so she stays sharp at a distance."
+   },
+   "access_note": "The Battery is a public park with a free waterfront view; visiting Liberty Island itself, or going inside the statue, is a separate matter, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "From The Battery the statue looks small at the default lens (1x), because of the distance across the harbour.",
+    "A telephoto lens (2x-5x) gives a closer view of the statue from The Battery.",
+    "Pressing the phone against a railing helps keep zoomed shots steady.",
+    "Boats and water movement make Live Photos worthwhile at this spot.",
+    "Hazy or cloudy weather reduces clarity at this distance."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Statue of Liberty",
+    "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (2880 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Christian David",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Liberty_and_a_sightseeing_boat,_Liberty_Island,_New_York.jpg",
+   "from": "Wikidata Q9202 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Central Park",
+  "in_cut": true,
+  "label": "Central Park",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 252600,
+  "pin": [
+   -73.9652778,
+   40.7822222
+  ],
+  "camera": [
+   -73.9652778,
+   40.7822222
+  ],
+  "camera_source": "Researched viewpoint 'Gapstow Bridge' (3 web pages); placed at OpenStreetMap 'Gapstow Bridge' (way/546663191): middle (28 m across); moved 10 m off water.",
+  "pin_note": "Position from OpenStreetMap way/427818536: large area 'Central Park' (4778 m across): previous pin kept, it lies inside.",
+  "notes": "Manhattan's huge park with Bethesda Terrace and the lake.",
+  "text": {
+   "description": "Central Park is the first landscaped park in the United States, laid out by Frederick Law Olmsted and Calvert Vaux, whose 'Greensward Plan' won the design competition in 1858. The first areas opened that same year and the park was finished in 1876. It covers 843 acres, about 2.5 miles from north to south and 0.5 miles across. The lakes, lawns and woods look natural, but almost all of it was built by hand. That is why it is so easy to photograph: water, trees and stone bridges come in ready-made frames. Because the park is so big, the best phone photo is one classic view, not the whole park. Stand on the shoreline just east of the bridge and you can fit the stone bridge, the Pond and the trees in the foreground, with Midtown towers and the Plaza Hotel behind. Guides rate it among the park's best skyline frames. If you have time, Bow Bridge over the Lake is a second classic, and Turtle Pond, with Belvedere Castle above it, is the closest recommended view to the middle of the park. Exact spots can vary, so check a current park map on the day.",
+   "geographic_location": "Central Park is in Manhattan, between the Upper West Side and the Upper East Side, with Harlem to the north and Midtown to the south. Gapstow Bridge is at the Pond, inside the park near the Fifth Avenue entrance.",
+   "directions_text": "No station or tram stop is listed for this spot, so start in Midtown Manhattan and go on foot or by taxi towards the Fifth Avenue entrance of Central Park, near Central Park South (59th Street). Gapstow Bridge is just inside, at the edge of the Pond. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to get the bridge, the Pond and the skyline in one frame. Try the telephoto (2x-5x, depending on your phone) to pull the Midtown towers closer behind the bridge. Use the ultra-wide (0.5x) only if you want a lot of foreground water and trees.",
+    "where_to_stand": "Stand on Gapstow Bridge (shoreline east of the bridge at the Pond's edge). The stone bridge, the Pond and trees in the foreground, with Midtown towers and the Plaza Hotel behind. On the shoreline east of the bridge at the Pond's edge. From there the stone bridge and the trees are in front of you, and the Midtown towers and the Plaza Hotel stand behind them. The middle of the park lies off to the north-east.",
+    "how_to_frame": "Turn on gridlines and place the bridge on one of the lower thirds, with the Pond filling the bottom of the frame and the towers along the top. Keep the phone level so the buildings don't lean. Branches at the edge of the picture can frame the scene. For a second view, Bow Bridge over the Lake is a classic alternative.",
+    "phone_settings_tip": "Tap the water or the bridge to focus, then slide the exposure down a little so the sky doesn't wash out. Try a Live Photo for a moment when a duck or a bird passes through the frame.",
+    "best_time": "Early morning, when guides say it is less crowded."
+   },
+   "access_note": "Central Park is an open public park; check the official Central Park Conservancy site before you go for any current closures or rules."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Central Park",
+    "url": "https://en.wikipedia.org/wiki/Central_Park"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin",
+   "phone far from subject (1843 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Ed Yourdon from New York City, USA",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Southwest_corner_of_Central_Park,_looking_east,_NYC.jpg",
+   "from": "Wikidata Q160409 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Grand Central Terminal",
+  "in_cut": true,
+  "label": "Grand Central",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 147000,
+  "pin": [
+   -73.9771792,
+   40.7528064
+  ],
+  "camera": [
+   -73.977179,
+   40.752806
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap node/7099182377: the OpenStreetMap point 'Grand Central Terminal'.",
+  "notes": "Beaux-Arts station with the celestial ceiling.",
+  "text": {
+   "description": "Grand Central Terminal is the big Beaux-Arts railway station at 42nd Street and Park Avenue in Midtown Manhattan. It opened in 1913 on the site of two earlier stations, and it is still a working commuter terminal. It has 44 platforms, more than any other railway station in the world, though they are all underground. About 21.6 million people visited in 2018, not counting train and subway passengers. That says a lot about how popular it is with visitors.\n\nIt photographs well because of the Main Concourse. This huge hall covers roughly 35,000 square feet and is nearly always full of people crossing it. At its centre is the information booth, topped with a four-sided brass clock. The clock is the easiest single subject to pick out, and the departure boards at the south end of the hall make a good busy backdrop.\n\nFor a phone, think in three shots. First, a wide view of the hall with the crowd moving through it. Second, a tighter shot of the clock and booth. Third, a detail such as a board, a sign or a figure crossing the floor. Keep your phone straight, because the architecture looks best with upright walls and symmetrical lines. Move around the concourse a little between shots, since a few steps left or right changes the background a lot. Be ready to step aside, as this is a commuter route and people will be walking through constantly.",
+   "geographic_location": "Grand Central Terminal is in Midtown Manhattan, New York City, at the corner of 42nd Street and Park Avenue. Its 42nd Street facade carries the full name of the terminal.",
+   "directions_text": "Head for Midtown Manhattan, at 42nd Street and Park Avenue. The terminal connects directly to the New York City Subway's Grand Central–42nd Street station. If you prefer, go by taxi or hired scooter and ask for Grand Central Terminal. Once inside, follow the signs to the Main Concourse, the large central hall. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide lens (0.5x) to fit in the concourse and its crowds. Switch to the default lens (1x) for the information booth and clock. Use the telephoto (2x or more, depending on your phone) to pick out details such as the clock face or the departure boards.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Walk into the Main Concourse and pick a spot with a clear view of the central information booth and its clock, and keep a little distance from the busiest walking lines.",
+    "how_to_frame": "Turn on gridlines and line up the walls and windows so they stay upright. Place the clock in the centre for a balanced shot, or off to one side with the crowd filling the rest of the frame. Try one wide shot and one close shot of the same view.",
+    "phone_settings_tip": "Tap on the brightest part of the scene to focus, then slide the exposure down a touch so windows and lamps do not wash out. If you want people to look blurred and moving, try Live Photos and pick a long-exposure effect afterwards. Use night mode only if the light is low, and hold the phone steady against your body.",
+    "best_time": "The concourse is usually busy, and trains arrive very frequently at morning rush hour. If you want fewer people in the frame, try a quieter time outside the commuter peaks. If you want lively movement, go when it is busy."
+   },
+   "access_note": "This is a working railway terminal with shops and restaurants. Check the official site before you go for opening hours and any access or photography rules.",
+   "claims_not_in_sources": [
+    "Quieter times outside the commuter peaks are likely to mean fewer people in the concourse.",
+    "Live Photos on many phones offer a long-exposure effect that blurs moving people."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Grand Central Terminal",
+    "url": "https://en.wikipedia.org/wiki/Grand_Central_Terminal"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "Fcb981 ; Eric Baetscher (attribution required)",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Image-Grand_central_Station_Outside_Night_2.jpg",
+   "from": "Wikidata Q11290 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Empire State Building",
+  "in_cut": true,
+  "label": "Empire State Building",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 113800,
+  "pin": [
+   -73.9856676,
+   40.7484468
+  ],
+  "camera": [
+   -73.9856676,
+   40.7484468
+  ],
+  "camera_source": "Researched viewpoint 'Washington Street' (3 web pages); placed at OpenStreetMap 'Washington Street' (way/226193933): point nearest the subject (338 m long).",
+  "pin_note": "Position from OpenStreetMap way/34633854: the middle of the OpenStreetMap outline 'Empire State Building' (183 m across).",
+  "notes": "Art Deco skyscraper icon of Midtown.",
+  "text": {
+   "description": "The Empire State Building is a 102-storey Art Deco skyscraper in Midtown Manhattan, designed by Shreve, Lamb & Harmon. Building started in March 1930 and it opened on 1 May 1931, just over thirteen months later. With its antenna it reaches 443 metres, and its pale limestone walls give it a soft, blonde look. The tower steps in as it rises, which gives it a tidy, symmetrical outline that is easy to recognise even from far away.\n\nThe classic phone shot here is not taken at the foot of the tower. From Washington Street in DUMBO, the tower appears in the distance, framed by the arch and ironwork of the Manhattan Bridge. The bridge acts like a picture frame, so the photo works without any clever editing. Guides often describe it as one of the most photographed spots in the city, so expect other people lining up the same view, and check for crowds or street works before you go.\n\nOnce you are on Washington Street, take a moment to line up the arch. If you would like a different angle, Herald Square gives you the tower rising straight up behind the street-level buildings, with Macy's nearby. Bryant Park shows just the tip of the tower above the trees and buildings around it.\n\nTake a few frames with slightly different framing. A small step left or right changes how the tower sits inside the arch.",
+   "geographic_location": "The Empire State Building stands on the west side of Fifth Avenue, between West 33rd and 34th Streets, in the Midtown South area of Manhattan. The suggested photo spot is on Washington Street in DUMBO, Brooklyn, by the Manhattan Bridge.",
+   "directions_text": "For the photo view, head for the DUMBO area of Brooklyn beside the Manhattan Bridge and look for Washington Street. If you want to visit the building itself, the nearest Subway station is 34th Street–Herald Square, one block west. Check the official site before you go if you plan to go up to the observatories. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) so the whole bridge arch fits around the tower. If the tower looks too small, try the telephoto (2x or 3x, depending on your phone) and keep the arch in the edges of the frame. The ultra-wide (0.5x) makes the tower tiny, so only use it if you want the bridge to be the main subject.",
+    "where_to_stand": "Stand on Washington Street. The Empire State Building framed in the arch and ironwork of the Manhattan Bridge, seen from the DUMBO street. Brooklyn, by the Manhattan Bridge. From here the Empire State Building appears framed in the arch and ironwork of the Manhattan Bridge.",
+    "how_to_frame": "Turn on the gridlines and place the tower near the centre of the arch, keeping the phone level so the bridge edges stay straight. Move a step or two sideways until the arch sits evenly around the tower. For a different view, Herald Square and Bryant Park both show the tower from street level in Manhattan.",
+    "phone_settings_tip": "Tap on the tower to set focus, then drag the exposure slider down a little so the sky and the tower's pale stone don't wash out. Take a few shots in case people walk through the frame.",
+    "best_time": "Sunset, when warm light comes from the west."
+   },
+   "access_note": "Washington Street is a street viewpoint with no entry fee, but check for crowds or street works before you go. The Empire State Building's observatories are a paid visit, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "From Washington Street the tower is some distance away, so it appears small unless you zoom."
+   ]
+  },
+  "checker_problems": 6,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Empire State Building",
+    "url": "https://en.wikipedia.org/wiki/Empire_State_Building"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (1949 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "Sam Valadi",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_(aerial_view).jpg",
+   "from": "Wikidata Q9188 main image"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Times Square",
+  "in_cut": true,
+  "label": "Times Square",
+  "camera_pill": "near Duffy Square",
+  "nophone": false,
+  "searches": 110900,
+  "pin": [
+   -73.9859233,
+   40.7571777
+  ],
+  "camera": [
+   -73.984994,
+   40.759102
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap way/702540318: the middle of the OpenStreetMap outline 'Times Square' (205 m across).",
+  "notes": "Neon billboards and crowds at the Crossroads of the World.",
+  "text": {
+   "description": "Times Square is the bowtie-shaped plaza in Midtown Manhattan where Broadway, Seventh Avenue and 42nd Street meet. Together with Duffy Square at its northern end, it runs five blocks, from 42nd to 47th Street. It is the centre of the Theater District and is lit around the clock by huge digital billboards. An estimated 50 million visitors come each year, so expect plenty of people in every frame.\n\nThe area was once called Longacre Square. It was renamed Times Square in April 1904 after The New York Times moved into a new tower here, now known as One Times Square. The New Year's Eve ball drop on that building's roof began in 1907. At the northern end, Duffy Square has a statue of Father Francis P. Duffy, one of George M. Cohan, and the TKTS booth for same-day theatre tickets.\n\nIt photographs well because the screens, signs and crowds give you colour and movement in almost any direction. The billboards stack up on both sides and the street narrows into the distance. Keep your phone strap round your wrist, take a few seconds to look for a gap in the crowd, and shoot a few frames rather than one. Stay out of the roadway and keep to the pedestrian areas.",
+   "geographic_location": "Times Square is in Midtown Manhattan, in the heart of the Theater District, between West 42nd and West 47th Streets where Broadway crosses Seventh Avenue. Duffy Square forms its northern triangle.",
+   "directions_text": "The Times Square–42nd Street and 42nd Street–Port Authority Bus Terminal subway stations serve the area. The phone icon on the map is about 230 m north of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene. Switch to ultra-wide (0.5x) if you want the billboards on both sides in one frame. Use telephoto (2x-5x, depending on your phone) to pick out a single screen or a detail above the crowd.",
+    "where_to_stand": "Stand about 230 m north of the subject, at the phone icon on the map, and face south.",
+    "how_to_frame": "Turn on gridlines and line the street up with a vertical grid line so the buildings do not lean. Put the busiest screens on one side and leave a little space for the crowd on the other. Take the ultra-wide shot from a little lower to make the signs look taller. A short Live Photo can capture the moving lights and people.",
+    "phone_settings_tip": "The screens are very bright, so tap one to focus and then slide the exposure down a little to keep the colours from washing out. After dark, try night mode and hold the phone steady against your body or a railing. If people are moving fast, turn night mode off so they do not blur.",
+    "best_time": "Dusk and the hour after it usually work best, when the screens are glowing and the sky still has some colour. The area is lit all night. Mornings are generally calmer if you want fewer people in the shot."
+   },
+   "access_note": "Times Square is an open public pedestrian area, but events and street works can change what is open, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Times Square",
+    "url": "https://en.wikipedia.org/wiki/Times_Square"
+   }
+  ],
+  "pin_flags": [
+   "square/garden without a main feature: pin at its middle"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 5 m from the phone icon",
+   "zoom": null
+  }
+ },
+ {
+  "rank": 6,
+  "name": "St. Patrick's Cathedral",
+  "in_cut": true,
+  "label": "St. Patrick's Cathedra",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 55200,
+  "pin": [
+   -73.9764293,
+   40.7586351
+  ],
+  "camera": [
+   -73.9764293,
+   40.7586351
+  ],
+  "camera_source": "Researched viewpoint 'Rockefeller Plaza' (2 web pages); placed at OpenStreetMap 'Rockefeller Plaza' (relation/7164794): middle (274 m across).",
+  "pin_note": "Position from OpenStreetMap way/266010379: the middle of the OpenStreetMap outline 'Saint Patrick’s Cathedral' (115 m across).",
+  "notes": "Neo-Gothic cathedral on Fifth Avenue.",
+  "text": {
+   "description": "St. Patrick's Cathedral is a Catholic cathedral in Midtown Manhattan, and it sits on a full city block between Fifth Avenue, Madison Avenue, 50th Street and 51st Street. James Renwick Jr. designed it, and it is the largest Gothic Revival Catholic cathedral in North America. Building began in 1858, paused during the American Civil War, and finished in 1878. It was dedicated in 1879, and the spires were added in 1888. The towers on the Fifth Avenue front rise to about 100 metres, and the walls are clad in marble.\n\nThe cathedral photographs well because its pale, pointed Gothic front stands among glass-and-steel towers. It is also directly across from Rockefeller Center, so you can frame the church with a bronze statue in the foreground. One good angle is from Rockefeller Plaza, standing behind the Atlas statue, so the cathedral appears behind Atlas as if he were holding it up. If you would rather fill the frame with the white front and spires, walk down to Fifth Avenue itself. For a quieter view of the stone side walls, try the corner of 51st Street and Madison Avenue, away from the busiest part of Fifth Avenue.\n\nThe building has been under restoration scaffolding in past years, so check how the outside looks before planning your photo. Expect people walking through your shot on the pavement, so shoot a few frames in a row.",
+   "geographic_location": "In Midtown Manhattan, New York City, on the block bounded by Fifth Avenue, Madison Avenue, 50th Street and 51st Street. It stands directly across Fifth Avenue from Rockefeller Center.",
+   "directions_text": "Head for Rockefeller Center in Midtown Manhattan and get as close to Rockefeller Plaza as you can. From there the cathedral is to the east, across Fifth Avenue, about 3 minutes on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to fit Atlas and the cathedral in one frame. Then try telephoto (2x or 3x, depending on your phone) to bring the church closer behind the statue. Use ultra-wide (0.5x) only from Fifth Avenue, if you want the whole front and spires.",
+    "where_to_stand": "Stand in Rockefeller Plaza (across Fifth Avenue, standing behind the Atlas statue). The cathedral framed behind the bronze Atlas figure, which appears to hold up the church in the picture. Across Fifth Avenue from the cathedral, behind the Atlas statue. From here the cathedral is to the east. Looking back over the bronze figure, the church sits behind him and he appears to hold it up.",
+    "how_to_frame": "Turn on gridlines and put Atlas on one side of the frame, with the spires rising behind him. Move a step or two left or right until the statue and the church line up. If you want a different view, Fifth Avenue gives you the white marble front with the towers around it, and 51st Street and Madison Avenue gives a side view of the stone walls.",
+    "phone_settings_tip": "Tap on the cathedral to set focus, then drag the exposure slider down a little so the pale marble keeps its detail. Take a few shots, because people will walk through the frame.",
+    "best_time": "Choose a time when the pavement is quieter, such as early in the day, so fewer people cross your shot. Afternoon light is likely to fall on the Fifth Avenue front."
+   },
+   "access_note": "The outside can be photographed from the street, but the cathedral is a working place of worship; interior photography is allowed for personal use except during services, with flash, tripods and the Lady Chapel restricted, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(?<!allow )(?<!or )(?<!no )\\btripods?\\b(?! (are|is) not allowed)/"
+  ],
+  "sources": [
+   {
+    "title": "St. Patrick's Cathedral (New York City)",
+    "url": "https://en.wikipedia.org/wiki/St._Patrick%27s_Cathedral_%28New_York_City%29"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "MoTabChoir01",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:StPatCathExt1.jpg",
+   "from": "Wikidata Q624556 main image"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Brooklyn Bridge",
+  "in_cut": true,
+  "label": "Brooklyn Bridge",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 40900,
+  "pin": [
+   -73.9964,
+   40.7057
+  ],
+  "camera": [
+   -73.9964,
+   40.7057
+  ],
+  "camera_source": "Researched viewpoint 'Empire Fulton Ferry Park' (3 web pages); placed at OpenStreetMap 'Empire Fulton Ferry' (way/95163097): middle (256 m across).",
+  "pin_note": "Position from OpenStreetMap way/375157262: large area 'Brooklyn Bridge' (1081 m across): previous pin kept, it lies inside.",
+  "notes": "Historic stone-and-steel suspension bridge.",
+  "text": {
+   "description": "The Brooklyn Bridge is an icon of New York City and a major tourist attraction, and the view from Brooklyn's waterfront shows why. It opened on 24 May 1883 as the first fixed crossing of the East River, and at the time it was the longest suspension bridge in the world. The main span is 486 metres (1,595.5 ft) long. John A. Roebling designed it, and his son Washington Roebling and Washington's wife, the engineer Emily Warren Roebling, carried the work through to completion. The stone towers have pointed neo-Gothic arches, and the web of cables gives you plenty of lines and patterns to work with.\n\nFrom Empire Fulton Ferry Park you see the bridge in side profile, with Lower Manhattan and the river behind it. The Jane's Carousel pavilion often fits into the frame as well. The park sits right under the bridge's Brooklyn-side approach, so you can take a few steps between shots and watch the light change from golden hour into dusk and night. Try a wide shot first, then move in on a tower with the cables fanning out around it. If you want a different angle, the pedestrian walkway puts a tower in the centre of the frame, and Pebble Beach gives you the bridge at water level. The walkway is busy, so be ready for people walking through your shot.",
+   "geographic_location": "The Brooklyn Bridge spans the East River between Lower Manhattan and Brooklyn.",
+   "directions_text": "Head for the Brooklyn waterfront in DUMBO and the park beside the water, under the bridge's Brooklyn-side approach. Search for Empire Fulton Ferry Park on your map app. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the bridge in side profile with the skyline behind. Switch to the ultra-wide (0.5x) if you want the carousel pavilion and more of the waterfront in the frame. Use the telephoto (2x-5x, depending on your phone) to pick out a tower and its cables.",
+    "where_to_stand": "Stand in Empire Fulton Ferry Park (Brooklyn waterfront, under the bridge's Brooklyn-side approach). The bridge in side profile with Lower Manhattan and the river behind it, often with the Jane's Carousel pavilion in the frame. On the Brooklyn waterfront right at the base of the bridge. From here you can often include the Jane's Carousel pavilion in the frame.",
+    "how_to_frame": "Turn on the gridlines and set the bridge along one of the lower lines, with the river or the waterfront in the foreground. Keep the horizon level. If the carousel pavilion is in view, use it as a foreground detail on one side. For a different view, the pedestrian walkway centres a tower with the cables fanning out, and Pebble Beach gives a low shot with the rocks in front.",
+    "phone_settings_tip": "Tap the tower to set focus, then drag the exposure slider down a little so the sky keeps its colour at golden hour. After dark, use night mode and rest your phone on a wall or rail so it stays still. Take a few frames, as boats and people move through the scene.",
+    "best_time": "Golden hour through blue hour, as the view keeps changing into dusk and night."
+   },
+   "access_note": "This is a waterfront park, but check the official site before you go for any restrictions; tripods are reportedly not allowed on the bridge walkway itself, although monopods are."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(?<!allow )(?<!or )(?<!no )\\btripods?\\b(?! (are|is) not allowed)/"
+  ],
+  "sources": [
+   {
+    "title": "Brooklyn Bridge",
+    "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Taken by Jeffrey Bary, uploaded by CPacker",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:NYCBrooklynBridge.jpg",
+   "from": "Wikidata Q125006 main image"
+  }
+ },
+ {
+  "rank": 8,
+  "name": "New York Public Library",
+  "in_cut": true,
+  "label": "NY Public Library",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 35300,
+  "pin": [
+   -73.9822334,
+   40.7532134
+  ],
+  "camera": [
+   -73.9822334,
+   40.7532134
+  ],
+  "camera_source": "Researched viewpoint 'Bryant Park' (3 web pages); placed at OpenStreetMap 'Bryant Park' (way/22727025): middle (292 m across).",
+  "pin_note": "Position from OpenStreetMap way/265302076: the middle of the OpenStreetMap outline 'Stephen A. Schwarzman Building' (185 m across).",
+  "notes": "Main branch with marble lions on Fifth Avenue.",
+  "text": {
+   "description": "The Stephen A. Schwarzman Building is the main branch of the New York Public Library, and most people simply call it the New York Public Library. Carrère and Hastings built it in the Beaux-Arts style, and it opened on 23 May 1911. It stands on the site of the old Croton Reservoir, directly beside Bryant Park. The marble facade is richly detailed, and the Fifth Avenue entrance is guarded by a pair of stone lions.\n\nThe steps and the lions are the classic shot, but this spot suggests a softer, greener one. From Bryant Park, the library's pale stone rises behind the lawn and trees. The green of the park sets off the stone, and the building looks calm rather than crowded.\n\nKeep the trees and lawn in the foreground and let the facade sit in the upper part of the frame. If you also want the classic version, the foot of the front steps on Fifth Avenue shows the lions and the whole facade together. The corner of Fifth Avenue and West 42nd Street shows the whole building with street life in front. For a quiet interior shot, check the official site before you go, as photography inside has limits.",
+   "geographic_location": "In Midtown Manhattan, on Fifth Avenue between East 40th and 42nd Streets, directly east of Bryant Park.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for Midtown Manhattan and Bryant Park. From there the library is to the south-east, about 2 minutes on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in lawn, trees and facade together. Use telephoto (2x or 3x) to pick out the stonework and compress the view, and the ultra-wide (0.5x) only if you want a sweeping, leafy foreground.",
+    "where_to_stand": "Stand in Bryant Park (west side of the park, facing the library's west facade across 42nd Street). The library's stone facade rising behind the green lawn and trees of Bryant Park, a softer, greener alternative to the steps. From here the photo shows the library's stone facade rising behind the green lawn and trees, a softer alternative to the front steps.",
+    "how_to_frame": "Turn on gridlines and place the library along the upper third, with grass or tree canopy filling the lower part of the frame. Keep the phone level so the building's vertical lines stay straight. For the classic view, the foot of the front steps on Fifth Avenue frames the facade between the stone lions, and the corner of Fifth Avenue and West 42nd Street shows the whole building with street life in front.",
+    "phone_settings_tip": "Tap on the stone facade to set focus, then slide the exposure down a little if the sky is bright so the marble keeps its detail. Take a few frames at 1x and 2x so you can choose later.",
+    "best_time": "Early morning or late afternoon usually gives softer light on the stone and a quieter park. Midday sun can flatten the facade."
+   },
+   "access_note": "Bryant Park is an open public space, but check the official site before you go for the library's own rules, especially for photography inside."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "New York Public Library Main Branch",
+    "url": "https://en.wikipedia.org/wiki/New_York_Public_Library_Main_Branch"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "ajay_suresh",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:New_York_Public_Library_-_Main_Branch_(51396225599).jpg",
+   "from": "Wikidata Q7013887 main image"
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Katz's Delicatessen",
+  "in_cut": true,
+  "label": "Katz's Delicatessen",
+  "camera_pill": "near Ludlow Street",
+  "nophone": false,
+  "searches": 25900,
+  "pin": [
+   -73.987353,
+   40.7223431
+  ],
+  "camera": [
+   -73.987311,
+   40.722337
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap node/1915398676: the OpenStreetMap point 'Katz's Delicatessen'.",
+  "notes": "Historic Lower East Side deli known for pastrami.",
+  "text": {
+   "description": "Katz's Delicatessen is a Lower East Side institution, and its painted sign is a distinctive feature to photograph. The deli stands at 205 East Houston Street, on the south-west corner where Houston meets Ludlow Street, and it has been trading since 1888. It is best known for pastrami on rye. Over the years the sign has become part of the story: according to the story, a signmaker asked Harry Tarowsky what the sign should say and he replied \"Katz's, that's all\", which the signmaker misinterpreted. Film fans also know the place from When Harry Met Sally... (1989). A sign inside marks the table where that scene was set.\n\nIt photographs well because the corner gives you plenty to work with: the lettering, the shopfront, the street life and the busy crossing in one frame. Because the building sits on a corner, you can stand fairly close and still show both streets. The deli is a working restaurant, so the pavement and doorway can be busy. Take a few frames while people move through, rather than waiting for a perfectly empty shot. Keep your phone steady against your body, tap the sign to focus, and check the edges of the frame so that lamp posts and passers-by don't cut through the lettering. If you go inside, ask staff before photographing, as it is a busy dining room.",
+   "geographic_location": "On the Lower East Side of Manhattan, at the south-west corner of East Houston Street and Ludlow Street.",
+   "directions_text": "Start from the Lower East Side, the neighbourhood around Houston and Ludlow Streets, and head for the address, 205 East Houston Street. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the sign, the shopfront and the corner into one frame, since you will be standing very close. Switch to the default lens (1x) for a more natural look with less stretching at the edges. If your phone has telephoto (2x-5x), use it to pick out details such as the lettering from the pavement.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Face west towards the shopfront and keep your back to the street as far as it is safe to do so.",
+    "how_to_frame": "Turn on the gridlines and line up the sign with the top third of the frame, so the lettering sits straight and the street fills the lower part. Hold the phone level to keep the vertical lines of the building from leaning. For a second version, step back slightly and include the corner of Houston and Ludlow Streets to show the setting.",
+    "phone_settings_tip": "Tap on the sign to set focus, then slide the exposure down a little if the sky or bright lettering looks washed out. Try Live Photos or motion if you want to catch people passing the doorway, then pick the best frame afterwards.",
+    "best_time": "Daytime gives the clearest view of the painted lettering. Around dusk, switch on night mode and hold the phone steady if the street lighting is dim. Quieter spells on the pavement are easier outside the usual meal times."
+   },
+   "access_note": "The outside of the deli can be photographed from the public pavement, but it is a working restaurant, so check the official site before you go for opening times and access."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Katz's Delicatessen",
+    "url": "https://en.wikipedia.org/wiki/Katz%27s_Delicatessen"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 3 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Top of the Rock",
+  "in_cut": true,
+  "label": "Top of the Rock",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 24600,
+  "pin": [
+   -73.9793409,
+   40.759029
+  ],
+  "camera": [
+   -73.979341,
+   40.759029
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/145341256: the middle of the OpenStreetMap outline 'GE Building' (119 m across).",
+  "notes": "Observation deck with skyline views including the Empire State Building.",
+  "text": {
+   "description": "Top of the Rock is the observation deck at the top of 30 Rockefeller Plaza, the tall Art Deco tower at the centre of Rockefeller Center in Midtown Manhattan. The tower was completed in 1933, has 66 storeys and stands roughly 260 metres high. Raymond Hood was the lead architect. The deck opened in the mid-1930s, so people have been coming up here for photographs for a very long time.\n\nIt photographs well for two reasons. From the deck you look out over Midtown's grid of streets and skyscrapers. From the ground, the tower's limestone face, with its stepped-back upper floors and flat top, makes a strong shape to look up at. The building has a flat roof rather than a spire, which gives clean, simple lines against the sky.\n\nThe main entrance is on Rockefeller Plaza, a private pedestrian street running through the complex. Below street level in front of it is the Lower Plaza. This is a good place to stop for a wide shot of the tower before you go up.\n\nFor your phone, take one photo of the whole tower from the plaza and a few from the deck. Keep the phone steady against your body, and use the gridlines to keep the tall edges of the building straight. Check the official site for current access and opening details before you go.",
+   "geographic_location": "In Midtown Manhattan, on the block bounded by Sixth Avenue, 49th Street, Rockefeller Plaza and 50th Street, in the middle of Rockefeller Center. Radio City Music Hall is just to the north.",
+   "directions_text": "Make your way to Rockefeller Center in Midtown Manhattan and look for 30 Rockefeller Plaza, the tallest building in the complex. The main entrance is on Rockefeller Plaza, the pedestrian street on the east side of the building. Check a current map or the official site for how to get there. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) at the foot of the tower to fit the whole height in. Use the default lens (1x) for general views from the deck. Use the telephoto (2x-5x, depending on your phone) to pick out single buildings in the skyline.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. For the tower, stand on Rockefeller Plaza or the Lower Plaza in front of the main entrance and tilt the phone up. For the view, shoot from the observation deck at the top.",
+    "how_to_frame": "From the plaza, turn the phone upright (portrait) and switch on gridlines so the edges of the tower stay straight and the stepped top sits near the upper edge. From the deck, stand close to the barrier and let the streets run diagonally through the frame. Zoom in on one or two buildings instead of trying to fit everything in.",
+    "phone_settings_tip": "Tap on the sky or skyline to set focus, then slide the exposure down a little so the sky keeps its colour. If the deck has glass, hold the phone close to it, away from lights behind you, to cut reflections. Use night mode for city lights after dark and hold still while it works.",
+    "best_time": "Late afternoon into dusk is a good choice, because you can catch daylight and city lights in one visit. Check the official site for visiting times before you go."
+   },
+   "access_note": "Check the official site for current access and opening details before you go.",
+   "claims_not_in_sources": [
+    "The deck views look out over Midtown's streets and skyscrapers.",
+    "Glass or barriers at an observation deck can cause reflections in phone photos.",
+    "Late afternoon to dusk gives a mix of daylight and city lights."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "30 Rockefeller Plaza",
+    "url": "https://en.wikipedia.org/wiki/30_Rockefeller_Plaza"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "David Shankbone",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:GE_Building_by_David_Shankbone.JPG",
+   "from": "Wikidata Q680614 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "One World Trade Center",
+  "in_cut": true,
+  "label": "One World Trade Center",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 23100,
+  "pin": [
+   -74.0130438,
+   40.712949
+  ],
+  "camera": [
+   -74.0130438,
+   40.712949
+  ],
+  "camera_source": "Researched viewpoint 'Brooklyn Bridge Park Pier 1' (4 web pages); placed at OpenStreetMap 'Brooklyn Bridge Park Greenway' (way/1257921507): point nearest the subject (383 m long).",
+  "pin_note": "Position from OpenStreetMap node/4097207416: the OpenStreetMap point 'One World Observatory'.",
+  "notes": "Tallest building in the US next to the 9/11 Memorial.",
+  "text": {
+   "description": "One World Trade Center is the tallest building in the United States. Its spire reaches 1,776 feet (541 m), a height chosen to echo the year of the Declaration of Independence. David Childs of Skidmore, Owings & Merrill designed it, and it opened on 3 November 2014 as the main building of the rebuilt World Trade Center. It stands on the north-west corner of the 16-acre site in Lower Manhattan.\n\nThe tower photographs well from across the water, where you can see its full height without craning your neck. The best-known view is from Brooklyn Bridge Park Pier 1, on the Harbor View Lawn at the northern end, near the Brooklyn Bridge. From there the Lower Manhattan skyline stretches across the East River, with the tower in the frame and the bridge close by. The lawn is free and easy to reach on foot along the waterfront.\n\nThe tower is a long way off, so it will look small at the default lens (1x). Zoom in a little, or include the water and skyline as part of the picture. For a different angle, the Brooklyn Bridge puts its stone pylons and cables in the foreground. Grand Street in Jersey City gives a direct view across the Hudson from the Jersey City shore, but check access there before you go. Pier 1 and the bridge get very busy around sunset, so arrive early and allow extra time.",
+   "geographic_location": "One World Trade Center is at the north-west corner of the World Trade Center site in Lower Manhattan, New York City, between West Street and Washington Street.",
+   "directions_text": "Head for Brooklyn Bridge Park Pier 1 on the Brooklyn waterfront, just by the Brooklyn Bridge, and go to the Harbor View Lawn at the northern end. No public transport is listed for this spot, but it can be reached on foot along the waterfront paths from the nearest well-known areas, Lower Manhattan or the Brooklyn waterfront. Once you are on the lawn, face north-west across the river to find the tower. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the telephoto (2x-5x, depending on your phone) to pick out One World Trade Center from the rest of the skyline. Use the default lens (1x) for the whole river-and-skyline scene. Switch to the ultra-wide (0.5x) only if you want the bridge towering in the foreground.",
+    "where_to_stand": "Stand on Brooklyn Bridge Park Pier 1 (Harbor View Lawn at the northern end, near the Brooklyn Bridge). Lower Manhattan's skyline across the East River, with One World Trade Center in the frame, and the Brooklyn Bridge nearby. On the Harbor View Lawn at the northern end, near the Brooklyn Bridge. From here Lower Manhattan's skyline lies across the East River to the north-west, with One World Trade Center in the frame and the Brooklyn Bridge nearby.",
+    "how_to_frame": "Turn on gridlines and put the tower on one of the vertical lines, with the river along the lower third. Keep your phone upright and level so the tall tower doesn't lean. For a different angle, the Brooklyn Bridge itself puts its pylons and cables in front of the skyline. Grand Street in Jersey City gives a direct view across the Hudson from the Jersey City shore, but check access before you go.",
+    "phone_settings_tip": "Tap on the tower or the sky and drag the exposure slider down slightly so the sky keeps its colour and the buildings don't wash out. As the light fades, use night mode. Brace your elbows against your body or rest the phone on a rail, and hold still until the shot finishes.",
+    "best_time": "Sunset into blue hour. This is also when Pier 1 and the bridge are busiest, so arrive early."
+   },
+   "access_note": "Brooklyn Bridge Park Pier 1 is a free public park, but check the official site before you go for any closures.",
+   "claims_not_in_sources": [
+    "The tower will look small at the default lens (1x) from Pier 1 because it is almost 2 km away.",
+    "Gridlines and a level phone help keep tall buildings from looking tilted.",
+    "Night mode needs the phone held steady for a few seconds.",
+    "Brooklyn Bridge Park lies on the Brooklyn waterfront across the East River from Lower Manhattan."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "One World Trade Center",
+    "url": "https://en.wikipedia.org/wiki/One_World_Trade_Center"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (1858 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "Pedro Szekely from Los Angeles, USA",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:One_World_Trade_Center,_New_York_(33224081040).jpg",
+   "from": "Wikidata Q11245 main image"
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Museum of Modern Art (MoMA)",
+  "in_cut": true,
+  "label": "MoMA",
+  "camera_pill": "near West 54th Street",
+  "nophone": false,
+  "searches": 22900,
+  "pin": [
+   -73.9775974,
+   40.7616071
+  ],
+  "camera": [
+   -73.977251,
+   40.761503
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap way/278346578: the middle of the OpenStreetMap outline 'MoMA' (124 m across).",
+  "notes": "Famous modern art museum with a sculpture garden.",
+  "text": {
+   "description": "The Museum of Modern Art, usually just called MoMA, sits on 53rd Street in Midtown Manhattan, between Fifth and Sixth Avenues. Its collection runs from the late 19th century to today and covers painting, sculpture, photography, film, architecture and design, with more than 200,000 works in all. The institution began in 1929, when three friends, led by Abby Aldrich Rockefeller, started it in rented rooms on Fifth Avenue. It opened to the public just nine days after the Wall Street Crash. In 1939 it moved to its present West 53rd Street site, and later building work, including a major renovation completed in 2019, has added a good deal of gallery space. Over 2.6 million people visited in 2024, so expect company outside.\n\nFor a phone photographer this is more a street-level architecture stop than a single postcard view. The building is large, so the aim is to catch its character: the entrance area, the lines of the facade, and the people going in and out. Use the gridlines to keep vertical edges straight, and tilt the phone as little as you can. A small step back often fixes a leaning-building look. Inside the museum, photography rules can vary by gallery, so look for signs or ask staff before you start shooting.",
+   "geographic_location": "MoMA is in Midtown Manhattan, on 53rd Street between Fifth Avenue and Sixth Avenue.",
+   "directions_text": "No station or tram stop is listed for this spot, so start from the Fifth Avenue and 53rd Street corner in Midtown Manhattan, or from Sixth Avenue on the western side, and walk along 53rd Street. The phone icon on the map is about 30 m east of the numbered pin. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the building and the entrance area. Switch to the ultra-wide (0.5x) if the pavement is crowded and you cannot step back. Use the telephoto (2x-5x, depending on your phone) for details such as signs, window reflections and people at the door.",
+    "where_to_stand": "Stand about 30 m east of the numbered pin, at the phone icon on the map, and face west.",
+    "how_to_frame": "Turn on the gridlines and line up the building's vertical edges with them. Keep the phone level and upright so the walls do not seem to lean. Let a few passers-by walk into the lower part of the frame to show the scale. Check the screen for your own reflection if you shoot towards glass.",
+    "phone_settings_tip": "Tap on a mid-bright part of the building to set focus, then slide the exposure down a little if the sky is bright, so the facade does not go dull. Keep the lens clean, as city pavements are dusty.",
+    "best_time": "Daylight with even cloud or soft sun keeps reflections and harsh shadows down, and earlier in the day is usually quieter. After dark, night mode can work for any lit areas; rest your elbows on something steady."
+   },
+   "access_note": "Check the museum's own information before you go for entry and photography rules; the street outside is public."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Museum of Modern Art",
+    "url": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 14 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Chrysler Building",
+  "in_cut": true,
+  "label": "Chrysler Building",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 19300,
+  "pin": [
+   -73.9753727,
+   40.7516245
+  ],
+  "camera": [
+   -73.9753727,
+   40.7516245
+  ],
+  "camera_source": "Researched viewpoint 'Lexington Avenue' (1 web pages); placed at the stretch of Lexington Avenue nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap way/42500770: the middle of the OpenStreetMap outline 'Chrysler Building' (118 m across).",
+  "notes": "Art Deco skyscraper with a stainless steel crown.",
+  "text": {
+   "description": "The Chrysler Building is an Art Deco skyscraper in East Midtown, Manhattan, designed by William Van Alen and finished in 1930. It stands 1,046 feet (319 m) tall and was the world's tallest building for 11 months after it opened. What makes it work in a photo is the top. The crown and the needle are clad in bright Nirosta stainless steel, and the rising, narrowing curves seem to dissolve into the sky. Lower down, look for the gargoyle-like ornaments on the 31st floor and the eagles on the 61st.\n\nThe classic view is from Lexington Avenue, looking north from around East 38th Street. From there the whole tower rises above the avenue and nothing blocks the crown or spire. The street gives you a strong vertical line to lead the eye upwards, and the setbacks in the walls show clearly as the tower steps in. This position is approximate, so walk a few steps either way and check the framing on your screen.\n\nIf you have time for a second shot, East 42nd Street at Vanderbilt Avenue puts the tower in the same frame as the Grand Central facade. The corner of 44th Street and 3rd Avenue gives a closer, quieter view of the spire. Keep to the pavement and watch for traffic and other pedestrians while you frame your photo.",
+   "geographic_location": "In East Midtown, Manhattan, on the eastern side of Lexington Avenue between 42nd and 43rd Streets. The Grand Hyatt New York hotel and the Graybar Building are across the avenue.",
+   "directions_text": "Head for East Midtown, where the Chrysler Building stands at the corner of 42nd Street and Lexington Avenue. For the classic full-height view, you can instead walk south along Lexington Avenue to around East 38th Street and turn to look north. This position is approximate, so check the framing on your screen. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to show the tower rising above the avenue. Then try telephoto (2x-5x, depending on your phone) to bring the crown and spire closer. Telephoto also keeps the building looking natural and avoids stretching it.",
+    "where_to_stand": "Stand on Lexington Avenue (looking north from around East 38th Street). The full height of the tower rises above the avenue with nothing blocking the crown and spire. You are close to the base here, so tilt the phone up or step back to fit more of the tower in. For the classic full-height view, walk south along Lexington Avenue to around East 38th Street and look north; this position is approximate.",
+    "how_to_frame": "Turn on gridlines to keep the frame straight. From the classic East 38th Street view, line the avenue up with a vertical grid line so the tower stands straight, and keep the phone upright and level, because tilting it back makes the building lean. From where you stand you are close, so tilt up gently or step back, and expect some lean in the vertical lines. Leave a little sky above the spire. Try a second shot with the default lens (1x) that includes the street, and a tighter telephoto shot of just the crown. For a different view, try East 42nd Street at Vanderbilt Avenue, where the tower sits beside the Grand Central facade.",
+    "phone_settings_tip": "Tap on the bright steel of the crown to set focus, then drag the exposure slider down a little so the sky stays blue and the metal keeps its detail. Avoid the ultra-wide lens (0.5x) here, as it makes the tower look small and distorted.",
+    "best_time": "Choose a clear day when the sky is blue behind the spire. Early morning has fewer people on the pavement. In the evening, try night mode with the phone braced against a lamp post or wall."
+   },
+   "access_note": "The exterior can be photographed from the public street, but the lobby is a working office entrance, so check the official site before you go if you want to go inside.",
+   "claims_not_in_sources": [
+    "Looking north along Lexington Avenue, the tower's south-facing side is usually in sunlight for much of a clear day.",
+    "Early morning is usually quieter on the pavements of East Midtown.",
+    "The tower is lit at night, so night mode can work for photos of it.",
+    "East 38th Street is a few blocks south of the Chrysler Building along Lexington Avenue.",
+    "Grand Central is near East 42nd Street and Vanderbilt Avenue."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Chrysler Building",
+    "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "w:User:Overand derivative work: Overand (talk)",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_by_David_Shankbone_Retouched.jpg",
+   "from": "Wikidata Q11274 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "The High Line",
+  "in_cut": true,
+  "label": "The High Line",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 11300,
+  "pin": [
+   -74.005,
+   40.7483
+  ],
+  "camera": [
+   -74.005,
+   40.7483
+  ],
+  "camera_source": "Researched viewpoint 'The Standard, High Line' (1 web pages); placed at our map tiles: 'The High Line' (pois); moved 10 m off buildings.",
+  "pin_note": "Position from OpenStreetMap relation/7141751: large area 'The High Line' (2032 m across): previous pin kept, it lies inside.",
+  "notes": "Elevated park on a former rail line.",
+  "text": {
+   "description": "The High Line is a 1.45-mile (2.33 km) elevated park built on an old New York Central Railroad spur on the West Side of Manhattan. It opened in stages from June 2009, and the Spur, an extension near Tenth Avenue, opened in 2019. It photographs well because the path is a long, narrow ribbon of planting and old rail lines running between city buildings, and the city keeps showing up around the edges of your shot. Guides differ on the best section. One recommended architectural spot is at the southern end, where the park passes right under The Standard, High Line hotel, and the building's bold structure spans the walkway above you. Looking up at it gives strong lines, with the path leading away into the picture. If you want something different, 10th Avenue Square looks down on street traffic and passers-by with buildings behind. The Spur, further north, is a wide platform that looks out over the Hudson Yards towers, with plantings in the foreground. Plantings and art displays change through the year, so what you photograph may differ from older pictures you have seen. Stop for a moment at the edge of the path rather than stopping in the middle, because it can get busy and people need to walk past.",
+   "geographic_location": "The High Line is on the West Side of Manhattan, running from the Meatpacking District at Gansevoort Street north through Chelsea to the Hudson Yards area near 34th Street.",
+   "directions_text": "From there the High Line itself is about 57 m, or roughly 1 minute on foot, to the north along the elevated path. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) so you can fit the path and the buildings on either side in one frame. Switch to the default lens (1x) for a calmer, less stretched look.",
+    "where_to_stand": "Stand at The Standard, High Line (underneath the hotel where it straddles the park). Looking up at the hotel's bold structure spanning the elevated walkway, with the path leading away into the frame. From here you can shoot along the elevated path with the planting and the city buildings around it.",
+    "how_to_frame": "Turn on gridlines and line up the path with the grid so it runs into the picture. Hold the phone steady and keep it level so the lines stay straight. For a different view, try The Standard, High Line hotel at the southern end for its strong architectural lines, 10th Avenue Square for the street below, or The Spur for the Hudson Yards towers with the High Line's plantings in front.",
+    "phone_settings_tip": "Tap on a bright part of the sky or the buildings to set focus, then drag the exposure slider down a little so the sky does not wash out. Use the default lens (1x) if the edges of the ultra-wide look too stretched.",
+    "best_time": "Pick a time when the sky is bright enough to show the outline of the buildings clearly."
+   },
+   "access_note": "The High Line is a public park, but opening hours and entrances can change by season, so check the official site before you go."
+  },
+  "checker_problems": 7,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "High Line",
+    "url": "https://en.wikipedia.org/wiki/High_Line"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "Wil Fyfordy",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Highline_02.jpg",
+   "from": "Wikidata Q843869 main image"
+  }
+ },
+ {
+  "rank": 15,
+  "name": "Flatiron Building",
+  "in_cut": true,
+  "label": "Flatiron Building",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 10600,
+  "pin": [
+   -73.9898627,
+   40.7411179
+  ],
+  "camera": [
+   -73.9898627,
+   40.7411179
+  ],
+  "camera_source": "Researched viewpoint 'Flatiron Plaza' (4 web pages); placed at OpenStreetMap 'Flatiron Public Plaza' (way/474864229): middle (83 m across).",
+  "pin_note": "Position from OpenStreetMap way/264768896: the middle of the OpenStreetMap outline 'Flatiron Building' (68 m across).",
+  "notes": "Triangular landmark at Fifth Avenue and Broadway.",
+  "text": {
+   "description": "The Flatiron Building is a 22-storey, 307-foot (93.6 m) steel-framed tower that opened in 1902. It was designed by Daniel Burnham and Frederick P. Dinkelberg and fills a triangular block where Fifth Avenue and Broadway meet. The name comes from the shape, which recalls an old cast-iron clothes iron. In its early days some locals called it \"Burnham's Folly\" because they doubted it would stand up. It has since become one of New York's best-known buildings, and the sharp northern peak is the part that photographs best.\n\nFrom here the whole wedge is in front of you, with Fifth Avenue running down one side and Broadway down the other. The base is limestone and the upper floors are glazed terracotta, so you can see a change of texture and colour as your eye moves up. Other angles are worth trying if the plaza is busy: Madison Square Park gives you the tower above the trees, and Fifth Avenue puts the round clock in front of the angular wedge.\n\nThe building has no public interior or observation deck, so all your pictures will be taken from the street. It has also been converted to homes, so check whether there is any work on the exterior when you arrive. Go early if you can, as the plaza fills up later in the day.",
+   "geographic_location": "In the Flatiron District of Manhattan, at the south end of Madison Square, on the triangular block between Fifth Avenue and Broadway. The viewpoint is on the plaza just to the north, where East 23rd Street crosses.",
+   "directions_text": "The 23rd Street subway station (R and W trains) has entrances next to the building. From there, walk to the plaza on the north side of the building, across 23rd Street. Madison Square Park is just behind the plaza, so you can't miss it. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the whole wedge from Fifth Avenue to Broadway. Switch to the ultra-wide (0.5x) if people or traffic force you to stand close. Use the telephoto (2x-5x, depending on your phone) for the rounded peak and the terracotta detail.",
+    "where_to_stand": "Stand in Flatiron Plaza (north side of the building, across 23rd Street from the point, with Madison Square Park behind you). The full wedge of the building with Fifth Avenue on one side and Broadway on the other, shot looking north. On the north side of the building across 23rd Street, with Madison Square Park behind you. Face south-west towards the narrow peak. From here the building spreads out like a wedge, with Fifth Avenue on one side and Broadway on the other.",
+    "how_to_frame": "Switch on the gridlines and set the peak on a central line so the two long faces fall away evenly on each side. Hold the phone level, as tilting it up makes the tower lean in the frame. For a different view, walk into Madison Square Park to catch the building above the tree line. Or go down Fifth Avenue to put the round clock in front of the wedge.",
+    "phone_settings_tip": "Tap the sky or the pale upper walls to set focus, then drag the exposure slider down a little so the terracotta keeps its detail. At night, use night mode and rest your elbows on something steady to cut blur. Traffic light trails can add interest.",
+    "best_time": "Early morning, before about 9am, when the plaza is quieter and the eastern face is lit. Midday and weekend afternoons are busy."
+   },
+   "access_note": "The plaza and surrounding streets are open public space, but the building has no public interior or observation deck, so check the official site before you go for any exterior work.",
+   "claims_not_in_sources": [
+    "From the plaza on the north side, you face south-west towards the building's peak.",
+    "Keeping the phone level reduces the leaning-tower effect when shooting a tall building from close by.",
+    "Resting your elbows on something steady helps reduce blur in night mode."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Flatiron Building",
+    "url": "https://en.wikipedia.org/wiki/Flatiron_Building"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/15.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 54 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 16,
+  "name": "Washington Square Park",
+  "in_cut": true,
+  "label": "Washington Square Park",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 5480,
+  "pin": [
+   -73.9975848,
+   40.730886
+  ],
+  "camera": [
+   -73.9975848,
+   40.730886
+  ],
+  "camera_source": "Researched viewpoint 'Fifth Avenue' (1 web pages); placed at OpenStreetMap '461 Fifth Avenue' (way/265424383): middle (55 m across); moved 15 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/22899302: the middle of the OpenStreetMap outline 'Washington Square Park' (429 m across).",
+  "notes": "Greenwich Village park with the marble arch.",
+  "text": {
+   "description": "Washington Square Park is a 9.75-acre public park in Greenwich Village, Lower Manhattan, run by NYC Parks. It sits at the foot of Fifth Avenue and is dominated by the Washington Square Arch at its northern gateway. The arch is marble, stands 77 feet (23 m) tall and was modelled on the Arc de Triomphe in Paris. Stanford White designed it, and it replaced a temporary plaster-and-wood arch put up in 1889 for the centenary of George Washington's inauguration. The park's fountain area has long been a popular gathering spot. Much of the ground is paved, but there are trees, flower beds and winding paths.\n\nThe usual photo is the arch from inside the park. That is too far away to frame the arch and the park together, so treat it as a starting point and head south-west to the park for the photo. The arch is a strong, simple shape, so the picture works well with very little fiddling. Wait a moment for a gap in the people and traffic.\n\nThere are two good angles once you are there. One is the arch from inside the park with the fountain in front of it. The other is looking up Fifth Avenue through the archway, where the Empire State Building can be seen on clear days. An older report said the arch had been fenced off, so a close-up from right beside or under it may not be possible. Check current conditions when you arrive.",
+   "geographic_location": "Washington Square Park is in Greenwich Village, in Lower Manhattan, at the southern end of Fifth Avenue. The Washington Square Arch stands just north of the park, over the avenue.",
+   "directions_text": "Head for Greenwich Village in Lower Manhattan and look for the Washington Square Arch at the foot of Fifth Avenue. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) so the arch, trees and park all sit naturally in the frame. Try the ultra-wide (0.5x) if you want more of the arch and the surrounding buildings, but keep the arch away from the edges of the picture, where it can look stretched. A 2x or 3x telephoto setting pulls the fountain in the distance a little closer.",
+    "where_to_stand": "Stand on Fifth Avenue (north of the arch, turned around to face south back toward the park). The arch framing the view back into the park, with trees and the fountain in the distance. That is too far to frame the arch and the fountain, so use it as a starting point and head to the park. For the main shot, stand inside the park facing the arch, with the fountain in front of it.",
+    "how_to_frame": "Switch on the gridlines and place the arch in the middle so the frame looks balanced, with the fountain in front. Hold the phone level so the arch's sides stay straight. For a different view, look straight up Fifth Avenue through the archway.",
+    "phone_settings_tip": "Tap the arch to focus, then slide the exposure down slightly so the bright marble doesn't wash out. A Live Photo can help you pick a moment when nobody walks across the frame.",
+    "best_time": "Choose a quieter time of day, such as early in the morning, when there are fewer people and less traffic in the shot."
+   },
+   "access_note": "The park is a public space run by NYC Parks with a curfew from midnight to 6 a.m. Drones need a permit, and conditions around the arch can change, so check the official NYC Parks site before you go.",
+   "claims_not_in_sources": [
+    "Early morning is usually quieter, with fewer people and less traffic in the view.",
+    "A Live Photo can help you pick a frame with no one walking through it."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Washington Square Park",
+    "url": "https://en.wikipedia.org/wiki/Washington_Square_Park"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (2754 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/16.jpg",
+   "artist": "Isabella Ruffalo-Burgat",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Washington_Square_Arch-Isabella.jpg",
+   "from": "Wikidata Q909592 main image"
+  }
+ },
+ {
+  "rank": 17,
+  "name": "Little Island",
+  "in_cut": true,
+  "label": "Little Island",
+  "camera_pill": "Northwest Overlook",
+  "nophone": false,
+  "searches": 2970,
+  "pin": [
+   -74.0106418,
+   40.7420218
+  ],
+  "camera": [
+   -74.010687,
+   40.74231
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap way/833335529: the middle of the OpenStreetMap outline 'Little Island' (187 m across).",
+  "notes": "Floating park on the Hudson River with sunset views.",
+  "text": {
+   "description": "Little Island is a small park built out over the Hudson River, just off Manhattan's west side. It sits on 132 pot-shaped supports called \"tulips\", which stand at different heights. The designers wanted the whole thing to look like a floating leaf or a wave, and from the walkways you can see how the ground rolls up and down. It covers 2.4 acres, and it opened on 21 May 2021 after several years of delays and lawsuits. Heatherwick Studio designed it, and the planting is by Signe Nielsen.\n\nFor photos, the appeal is the mix of shapes and colour. Winding paths climb to the highest parts of the island. There are lawns, a white-flowered \"secret garden\", and overlooks at the northwest, southwest and southeast corners. Planting is arranged in colour groups, such as yellows and golds set against lavender and purple, so close-up shots work well. Looking back, you also get the river and the Manhattan waterfront.\n\nThe phone icon on the map is about 30 m north of the numbered pin. From there, the middle of the island is about 32 m to the south. Use the default lens (1x) for the lawns and paths, then step to the edge of a walkway for the river views. The island holds around a thousand people at once, so wait a moment for a gap in the crowd. It is a public park with its own rules, so check the official site before you go.",
+   "geographic_location": "Little Island is in Hudson River Park on Manhattan's west side, on the water beside the Meatpacking District and Chelsea. It is near the corner of West Street and West 13th Street.",
+   "directions_text": "Simply head for West Street near West 13th Street, in the Meatpacking District/Chelsea area. From Hudson River Park, cross the footbridge at West 14th Street (or the one at Little West 12th Street) onto the island. The phone icon on the map is about 30 m north of the numbered pin. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the lawns, paths and the shape of the island. Switch to ultra-wide (0.5x) for the sweep of the tulip pots and the rolling ground. Use telephoto (2x-5x, depending on your phone) for planting details and for the skyline across the water.",
+    "where_to_stand": "Stand about 30 m north of the numbered pin, at the phone icon on the map, and face south. Face south to take in the lawns and the rising paths.",
+    "how_to_frame": "Turn on gridlines and place a winding path along a diagonal line so the eye follows it up the slope. Keep a patch of colourful planting in the foreground and the river or the skyline beyond. Hold the phone low to the ground, if the space allows, to make the pots and the hills look taller. For a version with fewer people, try a close-up of flowers with the 2x-5x lens.",
+    "phone_settings_tip": "Tap the brightest part of the sky to set focus, then drag the exposure slider down a little so the sky keeps its colour and the planting stays rich. In portrait mode, a flower or a tulip-pot edge in the foreground gets a soft, blurred background.",
+    "best_time": "Early morning is calmer, and the evening usually gives softer light across the river. Weekdays are likely to be quieter than weekends. Check the official site for the park's current opening hours."
+   },
+   "access_note": "Little Island is a public park in Hudson River Park, reached by footbridges; check the official site before you go for opening times and any visiting rules.",
+   "claims_not_in_sources": [
+    "Evening light over the river is usually softer and warmer, since the park faces west.",
+    "Early mornings and weekdays are usually less crowded than weekends.",
+    "The stand-here point is on the northern side of the island, within the island outline.",
+    "Holding the phone low to the ground can make the pots and hills look taller."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Little Island at Pier 55",
+    "url": "https://en.wikipedia.org/wiki/Little_Island_at_Pier_55"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/17.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 15 m from the phone icon",
+   "zoom": 0.7
+  }
+ },
+ {
+  "rank": 18,
+  "name": "Columbus Circle",
+  "in_cut": true,
+  "label": "Columbus Circle",
+  "camera_pill": "near Columbus Circle",
+  "nophone": false,
+  "searches": 2010,
+  "pin": [
+   -73.9819137,
+   40.7680872
+  ],
+  "camera": [
+   -73.982491,
+   40.768185
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap way/109269254: the middle of the OpenStreetMap outline 'Columbus Circle' (92 m across).",
+  "notes": "Traffic circle with the Columbus monument at the corner of Central Park.",
+  "text": {
+   "description": "Columbus Circle is a busy traffic circle at the southwest corner of Central Park in Manhattan, where Eighth Avenue, Broadway, Central Park South (West 59th Street) and Central Park West meet. At its centre stands the Christopher Columbus monument, which gives the circle its name and is listed on the National Register of Historic Places. The circle was planned as part of Frederick Law Olmsted's 1857 vision for Central Park, and the monument was placed at the centre in 1892. It is also the point from which official highway distances from New York City are measured.\n\nFor a phone photo, the appeal is the mix of old and new: a tall monument in the middle, traffic swirling round it, and the edge of Central Park beside it. The circle is about 92 metres across, so you can take in the whole shape from the edge without needing to go close.\n\nKeep the monument central and let the traffic and surrounding streets fill the rest of the frame. Turn on gridlines to keep the verticals straight. Take a few frames, because passing vehicles change the picture from one second to the next. Stay on the pavement and use the pedestrian crossings rather than stepping into the road.",
+   "geographic_location": "Columbus Circle is in Manhattan, at the southwest corner of Central Park, where the Theater District, Hell's Kitchen and the Lincoln Square part of the Upper West Side meet.",
+   "directions_text": "The 59th Street–Columbus Circle station sits underneath the circle and is served by the 1, 2, 3, A, B, C and D trains. Head for the junction of Broadway and Central Park South. The phone icon on the map is about 20 m west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the circle and the monument together. Switch to the ultra-wide (0.5x) if you want more of the surrounding streets, or the telephoto (2x-5x, depending on your phone) to pick out the monument's detail.",
+    "where_to_stand": "Stand about 20 m west of the subject, at the phone icon on the map, and face east.",
+    "how_to_frame": "Put the monument in the centre or on a third line of the gridlines, with the surrounding streets and buildings filling the background. Hold the phone level so the buildings do not lean. For a tighter shot, zoom in on the monument rather than walking into the traffic.",
+    "phone_settings_tip": "Tap on the monument to set focus, then slide the exposure down a little if the sky is bright, so the detail does not wash out. Try a Live Photo to catch the moving traffic and pick the best frame afterwards.",
+    "best_time": "Early morning is usually calmer, and around dusk the lights come on, so use night mode if it gets dark."
+   },
+   "access_note": "This is an open public junction on busy city streets, so use the pedestrian crossings and check the official site before you go if you plan anything beyond a quick photo stop.",
+   "claims_not_in_sources": [
+    "Early morning is usually calmer at Columbus Circle than later in the day.",
+    "Street and building lights come on around dusk, which suits night mode.",
+    "There are pedestrian crossings around the circle that visitors can use."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Columbus Circle",
+    "url": "https://en.wikipedia.org/wiki/Columbus_Circle"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/18.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 13 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 19,
+  "name": "Lincoln Center",
+  "in_cut": true,
+  "label": "Lincoln Center",
+  "camera_pill": "near Lasdon Colonnade",
+  "nophone": false,
+  "searches": 1650,
+  "pin": [
+   -73.9841327,
+   40.7726232
+  ],
+  "camera": [
+   -73.982985,
+   40.772664
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap way/86216911: the middle of the OpenStreetMap outline 'Lincoln Center for the Performing Arts' (440 m across).",
+  "notes": "Performing arts campus with the fountain plaza.",
+  "text": {
+   "description": "Lincoln Center is a large cluster of concert halls, theatres and open plazas on the Upper West Side of Manhattan, in the Lincoln Square neighbourhood. It covers about 16.3 acres, has thirty indoor and outdoor venues and welcomes around five million visitors a year. It is home to the New York Philharmonic, the Metropolitan Opera, the New York City Ballet and the Juilliard School. It was built in the 1950s and 1960s as part of a big urban renewal scheme. The first three buildings opened in 1962, 1964 and 1966. The Charles Revson Fountain opened in 1964 and was redesigned in 2009. The stretch of West 65th Street that runs through the site is now called Leonard Bernstein Place.\n\nFor a phone photo, the appeal is the scale. The buildings stand around open paved space, so you can step back and fit a good deal into the frame. The fountain makes a natural centrepiece, and the lit-up facades suit an evening shot. The whole campus is about 440 metres across, so don't try to capture everything in one picture. Take a wide view first, then move closer for details such as a facade, the fountain or the people crossing the plaza. If the plaza is busy, wait a moment for a gap, or use people to give a sense of scale. The Metropolitan Opera House and the Philharmonic's hall, now David Geffen Hall, are among the center's main buildings, so you have several strong subjects on the site.",
+   "geographic_location": "Lincoln Center sits in the Lincoln Square neighbourhood on the Upper West Side of Manhattan, New York City.",
+   "directions_text": "Head for Lincoln Square on the Upper West Side. From there, the middle of the complex is about 97 m to the west, roughly 2 minutes on foot. The phone icon on the map is about 95 m east of the numbered pin. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the full width of the plaza and the buildings around it. Switch to the default lens (1x) for a more natural look, and use telephoto (2x-5x, depending on your phone) for details such as the fountain, a facade or the people in the plaza.",
+    "where_to_stand": "Stand about 95 m east of the numbered pin, at the phone icon on the map, and face west.",
+    "how_to_frame": "Turn on the gridlines and line up the edges of the buildings with the vertical lines so they don't lean. Keep some open paved space in the lower part of the frame to give depth, and add a few people for scale. For a tighter shot, zoom in on one building front instead of trying to fit the whole campus in.",
+    "phone_settings_tip": "Tap on the brightest building front to set focus, then drag the exposure slider down a little so the lit facades don't wash out. Try a Live Photo near the fountain to catch the movement of the water.",
+    "best_time": "Early evening, when the lights come on and the sky still has some colour, usually gives the most atmospheric result. Use night mode after dark, and hold the phone steady against your body or a solid surface."
+   },
+   "access_note": "Check the official Lincoln Center site before you go for visitor information.",
+   "claims_not_in_sources": [
+    "The fountain is a natural centrepiece for photos, and the buildings are lit in the evening.",
+    "Early evening gives the best light, with the sky still showing some colour as the building lights come on."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Lincoln Center",
+    "url": "https://en.wikipedia.org/wiki/Lincoln_Center"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/19.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 12 m from the phone icon",
+   "zoom": null
+  }
+ },
+ {
+  "rank": 20,
+  "name": "Moynihan Train Hall",
+  "in_cut": true,
+  "label": "Moynihan Train Hall",
+  "camera_pill": "near 8th Avenue",
+  "nophone": false,
+  "searches": 760,
+  "pin": [
+   -73.9953414,
+   40.7513041
+  ],
+  "camera": [
+   -73.994484,
+   40.750688
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-16).",
+  "pin_note": "Position from OpenStreetMap way/928018701: the middle of the OpenStreetMap outline 'Moynihan Train Hall' (227 m across).",
+  "notes": "Bright glass-roofed hall across from Penn Station.",
+  "text": {
+   "description": "Moynihan Train Hall is the newer western entrance to Penn Station, built inside part of the James A. Farley Building, the old main post office on Eighth Avenue. The Farley Building opened in 1914 and was designed by McKim, Mead & White, the same architects as the original Penn Station. That explains the grand Beaux-Arts stonework outside. The train hall itself opened on 1 January 2021 and was designed by Skidmore, Owings & Merrill.\n\nThe main reason to photograph it is the big, bright concourse. A glass skylight about 28 metres (92 ft) above the floor fills it with daylight, and a four-faced clock stands in the middle. Look up for Kehinde Wiley's stained-glass ceiling artwork, Go. At the 31st Street entrance, a sculpture called The Hive shows skyscrapers hanging from the ceiling, which makes a playful detail shot.\n\nBecause it is a working station, aim for simple, uncluttered frames. Use the clock or the skylight as an anchor and let people walking through give a sense of scale. Outside, the long stone frontage on Eighth Avenue suits a wide shot taken from across the street. Keep clear of queues and walkways, and be considerate when other travellers are in your frame.",
+   "geographic_location": "In Midtown Manhattan, on the west side of Eighth Avenue between 31st and 33rd Streets, inside the James A. Farley Building directly across the avenue from the older part of Penn Station.",
+   "directions_text": "Start from Penn Station: the Farley Building is on the opposite side of Eighth Avenue, so cross at the lights and you are at the hall's frontage. From elsewhere in Midtown, head to Eighth Avenue at 31st Street. The phone icon on the map is about 35 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the glass roof and the full width of the concourse, and for the long stone frontage if you can only step back a little. Use the default lens (1x) for more natural-looking shots of the clock and people. Switch to telephoto (2x-5x, depending on your phone) for the ceiling artwork and the hanging skyscrapers of The Hive.",
+    "where_to_stand": "Stand about 35 m south-east of the subject, at the phone icon on the map, and face north-west. Then walk the short distance to the entrance for the interior shots.",
+    "how_to_frame": "Turn on gridlines and keep the vertical lines of the columns and the frontage straight, holding the phone level so the building does not lean. Inside, put the clock in the centre or on a third, with the skylight above it. Tilt up for a ceiling shot. For a people shot, wait for a gap in the crowd and let a few travellers walk through the lower part of the frame.",
+    "phone_settings_tip": "Tap the brightest part of the skylight area, then slide the exposure down a little so the glass roof does not turn pure white. Tap on a person or the clock to refocus if the phone chooses the wrong thing.",
+    "best_time": "Daytime, when daylight comes through the skylight and shows the architecture clearly; mid-morning or mid-afternoon often avoids the busiest travel rush."
+   },
+   "access_note": "This is a working railway station that is open to the public, but opening times and any rules on photography can change, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "From the stand-here point the viewer looks north-west towards the Farley Building, probably from the Eighth Avenue side near 31st Street.",
+    "Penn Station is directly across Eighth Avenue from the Farley Building and the hall.",
+    "Daylight through the glass skylight makes the concourse brightest in the daytime.",
+    "Mid-morning or mid-afternoon often avoids the busiest travel rush.",
+    "Rules on photography in the station may change."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Moynihan Train Hall",
+    "url": "https://en.wikipedia.org/wiki/Moynihan_Train_Hall"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/20.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 1 m from the phone icon",
+   "zoom": 1.0
+  }
+ }
+]
