@@ -8,23 +8,23 @@
   "nophone": false,
   "searches": 22260,
   "pin": [
-   -59.6369,
-   13.1731
+   -59.637669,
+   13.1694749
   ],
   "camera": [
    -59.637669,
    13.169475
   ],
   "camera_source": "Researched viewpoint 'Sandy Lane Beach' (4 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from the Wikipedia article 'Sandy Lane (resort)'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Famous luxury resort and beach south of Holetown.",
   "text": {
    "description": "Sandy Lane is a five-star beachfront resort close to Holetown and Paynes Bay. Ronald Tree, a former British politician, opened it in 1961 as a luxury hotel and golf course on what had been a sugar plantation. The original resort was pulled down after a group of Irish businessmen bought it in 1998, and it was rebuilt over about three years. Today it has 113 guestrooms and suites, a five-bedroom villa, four restaurants, seven bars and three golf courses. Tiger Woods married here in 2004.\n\nFor a phone photo, the best scene is not the hotel building but the beach along the resort frontage. The hotel's pink loungers and parasols make a bright foreground against pale sand and calm turquoise water, and the shoreline gives you a natural line running across the frame. Stand on the public sand, about 412 m south of the hotel, rather than in the hotel's lounger area, which belongs to the hotel. Keep the horizon level using your gridlines, and let the loungers fill the lower third of the picture. Tap on the water or the loungers to set focus, then slide the exposure down a touch if the sand looks washed out. The beach can be busy, so an early visit may give you fewer people in the frame.",
    "geographic_location": "Sandy Lane is a beachfront resort close to Holetown and Paynes Bay.",
-   "directions_text": "No Underground, tram or rail stops serve this spot. Head to Sandy Lane Beach, then follow the pathway to the right of the One Sandy Lane development down to the public sand. The phone icon on the map is about 410 m south of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground, tram or rail stops serve this spot. Head to Sandy Lane Beach, then follow the pathway to the right of the One Sandy Lane development down to the public sand. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the loungers and parasols with sea behind them. Switch to the ultra-wide (0.5x) to take in more of the beach and water, keeping the horizon level so it does not bend at the edges. If your phone has a telephoto lens (2x-5x), use it to pick out a neat row of parasols.",
-    "where_to_stand": "Stand about 410 m south of the subject, at the phone icon on the map, and face north. From here the photo shows the hotel's pink loungers and parasols along the resort frontage, with white sand and calm turquoise water stretching along the frame. The hotel itself lies to the north. Stay on the public sand and out of the hotel's lounger area.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here the photo shows the hotel's pink loungers and parasols along the resort frontage, with white sand and calm turquoise water stretching along the frame. The hotel itself lies to the north. Stay on the public sand and out of the hotel's lounger area.",
     "how_to_frame": "Turn on the gridlines and put the horizon on the upper third line, so the loungers and sand fill the lower two-thirds. Crouch a little to bring the parasols up against the sea and sky. Try to keep other beachgoers at the edges of the frame, or wait for a gap.",
     "phone_settings_tip": "Tap on the loungers to lock focus, then drag the exposure slider down slightly to keep the sand from turning white. Take a Live Photo too, as the moving water can give you a nicer frame to choose from.",
     "best_time": "Late afternoon toward sunset, when the golden light is strongest. For fewer people in the frame, go early in the morning."
@@ -43,9 +43,7 @@
     "url": "https://en.wikipedia.org/wiki/Sandy_Lane_%28resort%29"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 412 m away (Sandy Lane Hotel): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": {
    "file": "photos/1.jpg",

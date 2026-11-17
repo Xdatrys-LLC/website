@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "holetown", "title": "Holetown: 6 photo spots (pilot review)", "place": "Holetown", "bounds": [-59.65, 13.168, -59.628, 13.208], "center": [-59.638999999999996, 13.187999999999999], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/holetown/{z}/{x}/{y}.pbf", "tz": "America/Barbados", "rail": false, "app": true};
