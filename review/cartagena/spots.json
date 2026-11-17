@@ -470,62 +470,6 @@
  },
  {
   "rank": 10,
-  "name": "Palace of the Inquisition",
-  "in_cut": true,
-  "label": "Palace of Inquisition",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 120,
-  "pin": [
-   -75.55135556,
-   10.42290833
-  ],
-  "camera": [
-   -75.55135556,
-   10.42290833
-  ],
-  "camera_source": "Researched viewpoint 'Plaza de Bolívar' (3 web pages); placed at OpenStreetMap 'Plaza de Bolívar' (way/49666837): middle (53 m across).",
-  "pin_note": "Position from Wikidata Q9054598: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Baroque colonial building with a famous carved stone portal.",
-  "text": {
-   "description": "The Palace of the Inquisition is an eighteenth-century building in Spanish Colonial style with Baroque touches, completed in 1770. It was the seat of the Holy Office of the Inquisition in Cartagena. The tribunal had been decreed under Philip III of Spain and was established in 1610, and it sat for more than two centuries, until 1821. Today the palace is the Museo Histórico de Cartagena.\n\nIt photographs well because of its pale walls, its stone gateway and the wooden balconies above, all set against the open space of the square in front. From across the square you can fit the whole façade into one frame, with the Cathedral and other colonial buildings close by, which gives the picture a sense of place. A phone copes well with this kind of wide, calm scene.\n\nStand in the square, face south and keep your phone upright so the full height of the building fits. Use the gridlines to keep the walls straight, as tilting the phone makes the building lean. Take one wide shot first, then move closer for a second picture of the stone doorway and balconies. People often wander through the square, so wait a moment for a gap, or include them to show the scale of the place. Entering the museum is ticketed, but these outside views are free.",
-   "geographic_location": "The palace stands in Cartagena's historic centre and faces the square known as Plaza de Bolívar (also called Parque de Bolívar), with the Cathedral and other colonial buildings nearby.",
-   "directions_text": "No station or tram stops are listed for this spot. Walk across the open square towards the building's balconies and stone doorway. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the whole façade. Switch to the ultra-wide (0.5x) if people or trees crowd the square and you cannot step back far enough. Use telephoto (2x-5x, depending on your phone) for the doorway and balconies.",
-    "where_to_stand": "Stand in Plaza de Bolívar (across the square from the palace front). The palace's full façade framed across the open square, with the building's balconies and the Cathedral and other colonial buildings nearby in the same frame. From here the photo shows the palace's full façade framed across the open square, with its balconies and the Cathedral and other colonial buildings in the same frame. The palace is to the south of you.",
-    "how_to_frame": "Turn on the gridlines and line the palace walls up with the vertical lines so the building does not lean. Keep a little square in the foreground to give depth. For a closer alternative, go up to the Palacio de la Inquisición doorway itself and take a tight shot of the carved stone entrance with the wooden balconies above it.",
-    "phone_settings_tip": "Tap on the palace wall to set focus, then slide the exposure down a little if the bright sky is washing out the white walls. Take a few shots so you have a choice when people walk through.",
-    "best_time": "Morning or late afternoon usually gives gentler light and fewer crowds in the square than midday."
-   },
-   "access_note": "The palace is a museum with an entry fee, so check the official site before you go for entry details; the square in front, where you take these photos, is an open public space."
-  },
-  "checker_problems": 2,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Palace of the Inquisition (Cartagena, Colombia)",
-    "url": "https://en.wikipedia.org/wiki/Palace_of_the_Inquisition_%28Cartagena%2C_Colombia%29"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/10.jpg",
-   "artist": "© Xdatrys LLC",
-   "licence": "",
-   "licence_url": "",
-   "source_url": "",
-   "from": "Own photo, taken 13 m from the phone icon",
-   "zoom": 0.7
-  }
- },
- {
-  "rank": 11,
   "name": "Church of Santo Domingo",
   "in_cut": true,
   "label": "Santo Domingo Church",
@@ -571,7 +515,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "Øyvind Holmstad",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -580,7 +524,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Convento de la Popa",
   "in_cut": true,
   "label": "Convento de la Popa",
@@ -632,7 +576,7 @@
   "photo": null
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Parque de Bolívar",
   "in_cut": true,
   "label": "Parque de Bolívar",
@@ -671,7 +615,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "© Xdatrys LLC",
    "licence": "",
    "licence_url": "",
@@ -681,9 +625,65 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 101,
+  "name": "Palace of the Inquisition",
+  "in_cut": false,
+  "label": "Palace of Inquisition",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 120,
+  "pin": [
+   -75.55135556,
+   10.42290833
+  ],
+  "camera": [
+   -75.55135556,
+   10.42290833
+  ],
+  "camera_source": "Researched viewpoint 'Plaza de Bolívar' (3 web pages); placed at OpenStreetMap 'Plaza de Bolívar' (way/49666837): middle (53 m across).",
+  "pin_note": "Position from Wikidata Q9054598: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Baroque colonial building with a famous carved stone portal.",
+  "text": {
+   "description": "The Palace of the Inquisition is an eighteenth-century building in Spanish Colonial style with Baroque touches, completed in 1770. It was the seat of the Holy Office of the Inquisition in Cartagena. The tribunal had been decreed under Philip III of Spain and was established in 1610, and it sat for more than two centuries, until 1821. Today the palace is the Museo Histórico de Cartagena.\n\nIt photographs well because of its pale walls, its stone gateway and the wooden balconies above, all set against the open space of the square in front. From across the square you can fit the whole façade into one frame, with the Cathedral and other colonial buildings close by, which gives the picture a sense of place. A phone copes well with this kind of wide, calm scene.\n\nStand in the square, face south and keep your phone upright so the full height of the building fits. Use the gridlines to keep the walls straight, as tilting the phone makes the building lean. Take one wide shot first, then move closer for a second picture of the stone doorway and balconies. People often wander through the square, so wait a moment for a gap, or include them to show the scale of the place. Entering the museum is ticketed, but these outside views are free.",
+   "geographic_location": "The palace stands in Cartagena's historic centre and faces the square known as Plaza de Bolívar (also called Parque de Bolívar), with the Cathedral and other colonial buildings nearby.",
+   "directions_text": "No station or tram stops are listed for this spot. Walk across the open square towards the building's balconies and stone doorway. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole façade. Switch to the ultra-wide (0.5x) if people or trees crowd the square and you cannot step back far enough. Use telephoto (2x-5x, depending on your phone) for the doorway and balconies.",
+    "where_to_stand": "Stand in Plaza de Bolívar (across the square from the palace front). The palace's full façade framed across the open square, with the building's balconies and the Cathedral and other colonial buildings nearby in the same frame. From here the photo shows the palace's full façade framed across the open square, with its balconies and the Cathedral and other colonial buildings in the same frame. The palace is to the south of you.",
+    "how_to_frame": "Turn on the gridlines and line the palace walls up with the vertical lines so the building does not lean. Keep a little square in the foreground to give depth. For a closer alternative, go up to the Palacio de la Inquisición doorway itself and take a tight shot of the carved stone entrance with the wooden balconies above it.",
+    "phone_settings_tip": "Tap on the palace wall to set focus, then slide the exposure down a little if the bright sky is washing out the white walls. Take a few shots so you have a choice when people walk through.",
+    "best_time": "Morning or late afternoon usually gives gentler light and fewer crowds in the square than midday."
+   },
+   "access_note": "The palace is a museum with an entry fee, so check the official site before you go for entry details; the square in front, where you take these photos, is an open public space."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Palace of the Inquisition (Cartagena, Colombia)",
+    "url": "https://en.wikipedia.org/wiki/Palace_of_the_Inquisition_%28Cartagena%2C_Colombia%29"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 13 m from the phone icon",
+   "zoom": 0.7
+  }
+ },
+ {
+  "rank": 102,
   "name": "Old Boots (Monumento a los Zapatos Viejos)",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Old Boots",
   "camera_pill": null,
   "nophone": true,
@@ -733,7 +733,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/102.jpg",
    "artist": "JuanGris (Lucía Estévez)",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",

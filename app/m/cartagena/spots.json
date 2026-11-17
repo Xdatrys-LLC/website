@@ -1,0 +1,744 @@
+[
+ {
+  "rank": 1,
+  "name": "Plaza de la Trinidad",
+  "in_cut": true,
+  "label": "Plaza de la Trinidad",
+  "camera_pill": "Plaza de La Trinidad",
+  "nophone": false,
+  "searches": 1170,
+  "pin": [
+   -75.545398,
+   10.420614
+  ],
+  "camera": [
+   -75.545661,
+   10.420828
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OSM W49458304 (Plaza de La Trinidad): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Lively square in colourful Getsemaní.",
+  "text": {
+   "description": "Plaza de la Trinidad is a town square in Cartagena, and it is an easy first stop for a phone photographer. Squares like this work well because everything is at eye level: building fronts, open paving, trees or benches if there are any, and people crossing the space. That gives you a ready-made scene with depth and a sense of place. Start with the whole square in view, then move in on details. Look for a strong foreground such as a bench edge, a lamp post or a patch of sunlit paving, and place the buildings behind it. Wait a moment for people to walk through the frame, which makes the picture feel lived-in. If it is busy, a few well-timed shots of figures crossing the open space often work better than trying to keep the square empty. Take one wide shot, one at the default lens (1x) with a clear subject, and one close detail such as a doorway, a colourful wall or a shaded corner. Keep the phone level, since straight lines on buildings look odd when tilted. This note sticks to what you can see and photograph on the spot.",
+   "geographic_location": "Plaza de la Trinidad is a square in Cartagena.",
+   "directions_text": "Use the map to find Plaza de la Trinidad. No Underground, tram or train stops are listed for this spot, so get there on foot or by whichever local transport you prefer. From there the middle of the square is about 37 m to the south-east. The phone icon on the map is about 35 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole square, then switch to the default lens (1x) for a more natural view. If you have a telephoto (2x-5x), use it from where you stand to pick out a single detail on the far side.",
+    "where_to_stand": "Stand about 35 m north-west of the subject, at the phone icon on the map, and face south-east. That gives you the full width of the square with the buildings behind it.",
+    "how_to_frame": "Turn on gridlines and line up the buildings' vertical edges with them so they stay straight. Put some paving or a bench in the foreground, and leave the people crossing the square as part of the scene. Then move closer for one detail shot.",
+    "phone_settings_tip": "Tap on the brightest part of the scene to focus, then slide the exposure down a little so the sky and sunlit walls keep their colour. Try a Live Photo while people walk through, then pick the best frame.",
+    "best_time": "Early morning or late afternoon usually gives softer light and gentler shadows than midday. If the light drops, use night mode and hold the phone steady against something."
+   },
+   "access_note": "This looks like an open public square, but check local signs for any restrictions."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Castillo San Felipe de Barajas",
+  "in_cut": true,
+  "label": "Castillo San Felipe",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 770,
+  "pin": [
+   -75.5390753,
+   10.4227143
+  ],
+  "camera": [
+   -75.5390753,
+   10.4227143
+  ],
+  "camera_source": "Researched viewpoint 'Calle de la Media Luna' (3 web pages); placed at the stretch of Calle de la Media Luna nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap way/49551791: the middle of the OpenStreetMap outline 'Castillo San Felipe de Barajas' (384 m across).",
+  "notes": "The largest Spanish colonial fortress in the Americas, on San Lázaro hill.",
+  "text": {
+   "description": "Castillo San Felipe de Barajas is the great fortress of Cartagena. It sits on Cerro San Lázaro, a hill that once let the Spanish watch for attackers coming by land or sea. Building began in 1639 and the fort was expanded in the years after, under Spanish supervision and with African slave labour. It was first called the Castillo de San Lázaro. The plan is triangular, with walls that are wide at the base and narrow towards the top, and the castle stands about 41 metres above sea level. UNESCO listed it in 1984, together with Cartagena's historic centre.\n\nThis spot suggests a calm way to photograph it from outside. Those rooftops give the picture scale and a sense of the fort looming over the old town. It is also a free alternative to the ticketed ramparts.\n\nIf you want the wider view from inside, the fort's own walls give a panorama of the flag, the city and the Caribbean coast. Only some of the tunnels are open, so check on arrival. The hill has very little shade, so a morning or late-afternoon visit is more comfortable.",
+   "geographic_location": "The fort stands on Cerro San Lázaro in Cartagena.",
+   "directions_text": "Head for Getsemaní and look for Calle de la Media Luna, where the old wall sections run. From there the fort lies to the east, about 4 minutes on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to include the rooftops, wall and hilltop fort together. Switch to telephoto (2x-5x, depending on your phone) to pick out the fort's walls. Use the ultra-wide (0.5x) only if you want a lot of street and rooftops, as it makes the fort look small.",
+    "where_to_stand": "Stand on Calle de la Media Luna (along the remaining wall sections of Getsemaní, toward the fort on the hill). The fort on its hill seen across the Getsemaní wall, with the colonial rooftops in the foreground. The fort sits on its hill beyond the rooftops.",
+    "how_to_frame": "Turn on the gridlines and put the fort on the upper third, with the rooftops filling the lower part. Keep the horizon level. If you also visit the fort itself, the walls give a wide panorama with the flag and the coast, and the Túnel Magistral entrance frames the approach to the hill.",
+    "phone_settings_tip": "Tap the fort to set focus, then drag the exposure slider down slightly so the sky does not wash out the stonework. Take a few shots with different zoom levels so you can pick the best one later.",
+    "best_time": "Go in the morning or late afternoon, when there is less glare and it is more comfortable to be out in the open. Late afternoon may suit best, as the sun should be behind you and fall on the fort."
+   },
+   "access_note": "Calle de la Media Luna is a public street; the fort itself appears to be a visitor site where entry and tunnel access may be restricted, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "In the afternoon the sun is in the west, behind someone looking east from the stand-here point, so it should light the fort's face.",
+    "The fort is about 4 minutes on foot from the stand-here point, calculated from the straight-line distance; the actual route to the entrance may be longer."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Castillo San Felipe de Barajas",
+    "url": "https://en.wikipedia.org/wiki/Castillo_San_Felipe_de_Barajas"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Panorama_Castillo_San_Felipe_de_Barajas_CTG_11_2019_2864.jpg",
+   "from": "Wikidata Q91110 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Bocagrande",
+  "in_cut": true,
+  "label": "Bocagrande",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 650,
+  "pin": [
+   -75.5533333,
+   10.405
+  ],
+  "camera": [
+   -75.5533333,
+   10.405
+  ],
+  "camera_source": "Researched viewpoint 'Plaza Bocagrande' (1 web pages); placed at OpenStreetMap 'Centro Comercial Plaza Bocagrande' (way/1175331449): middle (163 m across); moved 30 m off buildings.",
+  "pin_note": "Position from OpenStreetMap relation/1643328: large area 'Bocagrande' (2909 m across): previous pin kept, it lies inside.",
+  "notes": "Skyscraper peninsula and beach area, photographed here from the bay.",
+  "text": {
+   "description": "Bocagrande is the high-rise seaside district on the peninsula just south of Cartagena's walled city. Its name comes from the wide channel mouth between El Laguito and the island of Tierra Bomba. It is known for big hotels, apartment towers and a long beach, so the photo here is the skyline: a line of tall glass and concrete against the Caribbean. One of its towers, at the Hotel Estelar, rises to 202 m and is said to be the tallest in Colombia. The district is also split into zones, including Castillogrande, South Bocagrande and El Lagüito, each with its own feel.\n\nThe best way to capture it on a phone is to look along the shore from the balcony at Plaza Bocagrande. A guide describes it as an open balcony with unobstructed views of the sea and the towers. Aim for sunset, which one guide names as the best light. Keep the horizon level with the gridlines, and let the towers sit on one side of the frame with sea and sky filling the rest. If you want the old city walls in the same picture, a second viewpoint, Terraza Municipal, looks across the small bay with the walls and the towers together. Check that either spot is still open to the public before you plan your visit.",
+   "geographic_location": "Bocagrande sits on the peninsula immediately south of the walled city of Cartagena, between the old centre and the Caribbean shore.",
+   "directions_text": "The walled city (Ciudad Amurallada) lies just north of Bocagrande, and the peninsula sits directly south of it. Head for Plaza Bocagrande. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole skyline and the sea in one frame. Use the default lens (1x) for a cleaner, less stretched view of the towers. Try the telephoto (2x-5x, depending on your phone) to pick out a single tall building or a slice of the waterfront.",
+    "where_to_stand": "Stand in Plaza Bocagrande. Looking out from a balcony toward the Caribbean with Bocagrande's high-rise skyline rising along the shore. At the balcony looking out toward the Caribbean.",
+    "how_to_frame": "Turn on the gridlines and set the horizon on the lower third line so the towers and sky get most of the picture. Include a little of the balcony edge or some people in the foreground to give a sense of scale. If you want the old city walls behind the towers, Terraza Municipal is an alternative viewpoint across the small bay.",
+    "phone_settings_tip": "Tap on the towers to focus, then slide the exposure down a little so the sunset sky keeps its colour. If the phone offers night mode, use it once the light fades and hold the phone against the railing to keep it steady.",
+    "best_time": "Sunset, according to one guide. Arrive a little early so you can find a spot at the balcony and try a few frames as the light changes."
+   },
+   "access_note": "Plaza Bocagrande is described as a free, open balcony, but check the official site before you go to confirm it is still open to the public."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Bocagrande",
+    "url": "https://en.wikipedia.org/wiki/Bocagrande"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin",
+   "phone far from subject (708 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "poirpom",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cartagena_skyline,_Colombia.jpg",
+   "from": "Wikidata Q28459598 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Plaza de la Aduana",
+  "in_cut": true,
+  "label": "Plaza de la Aduana",
+  "camera_pill": "Plaza de la Aduana",
+  "nophone": false,
+  "searches": 380,
+  "pin": [
+   -75.550283,
+   10.422145
+  ],
+  "camera": [
+   -75.550466,
+   10.421975
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OSM W25447592 (Plaza de la aduana): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "The oldest and largest square in the old town, with a Columbus statue.",
+  "text": {
+   "description": "Plaza de la Aduana is a town square in Cartagena, and it works well as a quick, easy photo stop. Squares like this tend to give you open space, which means you can step back and fit the surrounding buildings into one frame without strangers' heads filling the foreground.\n\nOn a phone, the square suits a simple approach. Start with a wide view that shows the open ground and the buildings around it, then move in for details such as doorways, balconies, shutters, street lamps or trees, if there are any. If people are crossing the square at a distance, include them, because a small figure gives the scene a sense of scale.\n\nTake a few frames from different spots, because the light changes the look of the buildings and the ground considerably. Wipe your lens before you start, since a smudge shows up as a soft glow in bright sun. Keep the phone level, use the gridlines to keep verticals straight, and watch for bright sky, which can make the buildings look dark unless you lower the exposure slightly.",
+   "geographic_location": "Plaza de la Aduana is a square in Cartagena.",
+   "directions_text": "No public transport stops are listed for this spot, so head for the square in Cartagena by whatever route suits you. The phone icon on the map is about 30 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole square and the buildings around it, but keep it level to avoid stretched edges. Then switch to the default lens (1x) for a more natural view, and use the telephoto (2x-5x, depending on your phone) for details.",
+    "where_to_stand": "Stand about 30 m south-west of the subject, at the phone icon on the map, and face north-east. Stand there for your main shot, then walk a few steps to either side to change the angle.",
+    "how_to_frame": "Turn on the gridlines and line up building edges with the vertical lines so they do not lean. Put the open ground in the lower third and the building fronts and sky above. If there is a doorway, lamp or tree branch nearby, try a second shot with it at the edge of the frame for depth.",
+    "phone_settings_tip": "Tap to focus on the buildings, then drag the exposure slider down a little if the sky is bright, so the colours stay rich and the sky does not wash out. Try a Live Photo if people are crossing the square, then choose the best frame afterwards.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Midday sun can create hard shadows, so use it for close-up details rather than wide views."
+   },
+   "access_note": "Access rules for the square are not confirmed, so check any signs on site.",
+   "claims_not_in_sources": [
+    "Early morning and late afternoon usually give softer light and fewer people than midday.",
+    "Access rules and opening arrangements for the square are not confirmed."
+   ]
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 17 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Las Bóvedas",
+  "in_cut": true,
+  "label": "Las Bóvedas",
+  "camera_pill": "near Carrera 2",
+  "nophone": false,
+  "searches": 370,
+  "pin": [
+   -75.546504,
+   10.429897
+  ],
+  "camera": [
+   -75.546714,
+   10.429761
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OSM W96518747 (Playa de las Bóvedas): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Row of 23 colonial vaults in the city wall, now souvenir shops.",
+  "text": {
+   "description": "Las Bóvedas is spot number 5 on this Cartagena map, and it suits a quick, relaxed phone stop. Start with a wide shot to show the whole scene and how the subject sits in its surroundings. Then move closer for details, or include a person walking past for scale. If the light is strong, tap on a mid-tone part of the scene to focus and pull the exposure slider down a little. That keeps the bright areas from washing out and the shaded areas from turning to black.\n\nTry both orientations. Vertical shots suit tall features and horizontal ones suit anything that stretches across the view. Switch on the gridlines to keep the verticals and horizons straight.",
+   "geographic_location": "Las Bóvedas is on the Cartagena map.",
+   "directions_text": "No Underground, train or tram stop is listed for this spot. The subject is about 27 m to the north-east of it, a short walk away. The phone icon on the map is about 25 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole scene, then switch to the default lens (1x) for a natural view. Use the telephoto/zoom (2x-5x, depending on your phone) for close details.",
+    "where_to_stand": "Stand about 25 m south-west of the subject, at the phone icon on the map, and face north-east.",
+    "how_to_frame": "Use the gridlines to keep the horizon and any vertical lines level. Place the main subject on one of the grid intersections rather than dead centre, and leave some space around it. For variety, step closer and frame a single detail, with a person in the shot for scale.",
+    "phone_settings_tip": "Tap on the subject to focus, then drag the exposure slider down slightly if the sky or sunlit areas look too bright. In shaded areas, tap on the darker part so details don't vanish. A Live Photo can catch passers-by moving through the scene.",
+    "best_time": "Early morning or late afternoon, when the sun is lower and the light is softer and warmer. Midday sun can create harsh contrast between bright and shaded areas."
+   },
+   "access_note": "No access details are listed for this spot."
+  },
+  "checker_problems": 10,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 9 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Plaza de los Coches",
+  "in_cut": true,
+  "label": "Plaza de los Coches",
+  "camera_pill": "Calle del Arzobispado",
+  "nophone": false,
+  "searches": 300,
+  "pin": [
+   -75.549353,
+   10.423104
+  ],
+  "camera": [
+   -75.550314,
+   10.423194
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OSM W25447589 (Plaza de los coches): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Arcaded square just inside the Clock Tower gate.",
+  "text": {
+   "description": "Plaza de los Coches is a square in Cartagena, and it can work well as a phone photo spot if you have room to step back and fit the buildings around it into the frame. Look for everyday scenes and the buildings around the square. The phone icon on the map is about 110 m west of the subject. From there you look east across the space. Check how much space you have to step back, then switch to the ultra-wide (0.5x) lens for the whole square. Use the default lens (1x) for a calmer, more natural view of a single building. Use a zoom lens (2x-5x) to pick out architectural details without having to walk closer. Keep the phone level with the gridlines on so the vertical walls do not lean. Tap the brightest part of the sky or wall and drag the exposure slider down a little so the colours stay rich and the sky does not wash out. Wait a moment for people to move through, or include them on purpose to give the picture a sense of scale and life.",
+   "geographic_location": "Plaza de los Coches is a square in Cartagena.",
+   "directions_text": "The phone icon on the map is about 110 m west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole square in. Then switch to the default lens (1x) for a natural view, and to telephoto (2x-5x, depending on your phone) for details.",
+    "where_to_stand": "Stand about 110 m west of the subject, at the phone icon on the map, and face east. From there you see the square opening out in front of you. Walk the last minute or two on foot to take close-ups inside it.",
+    "how_to_frame": "Turn on gridlines and line a building edge up with a vertical line so the walls stay straight. Keep a little foreground, such as the paving, to lead the eye into the square. Use 2x-5x to isolate architectural details.",
+    "phone_settings_tip": "Tap on the brightest wall or sky to set focus, then slide the exposure down a touch to protect the highlights. Use portrait mode for a person standing in the square, and Live Photos if you want a moving moment to choose from later.",
+    "best_time": "Early morning or late afternoon usually gives softer light. After dark, night mode can work if you hold the phone steady against a wall or post."
+   },
+   "access_note": "Check access on the day."
+  },
+  "checker_problems": 9,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Cartagena Cathedral",
+  "in_cut": true,
+  "label": "Cathedral",
+  "camera_pill": "near Parque de Bolívar",
+  "nophone": false,
+  "searches": 270,
+  "pin": [
+   -75.55073,
+   10.423665
+  ],
+  "camera": [
+   -75.551066,
+   10.423092
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap way/49666923: the middle of the OpenStreetMap outline 'Catedral de Santa Catalina de Alejandría' (71 m across).",
+  "notes": "Fortress-like cathedral with a tall tower, beside Parque de Bolívar.",
+  "text": {
+   "description": "Cartagena Cathedral is the big church of the historic centre, officially dedicated to Saint Catherine of Alexandria. It is the seat of the Archbishop of Cartagena de Indias, one of the oldest bishoprics in the Americas. It photographs well because the plain, solid walls and the tall tower make a strong shape against the sky, and the surrounding streets give you a sense of the old town around it.\n\nThe building went up between 1577 and 1612, replacing a modest church of wood and reeds. In 1586, while it was still being built, the English privateer Francis Drake attacked the church, causing severe damage that delayed its completion. The tower and dome were refurbished in 1908 by the French architect Gaston Lelarge, but the main portal, balconies and cornices are original from the colonial period.\n\nFor your phone, start with a wide view so the tower and the body of the church fit together, then move in for details such as the portal and the balconies. Look at the screen before you shoot, as people and passing traffic often wander into the frame. Take a few frames from slightly different spots, because moving a few steps changes how the tower sits above the roofline. If you want a close-up of the stonework, use a gentle zoom rather than walking too close and tilting the phone upwards, which makes the walls lean inwards.",
+   "geographic_location": "In the historic centre of Cartagena, next to Parque de Bolívar. The cathedral stands at a street corner among the old colonial buildings.",
+   "directions_text": "No Underground, tram or train stops are listed for this spot, so start from the historic centre of Cartagena and head for the cathedral tower. The phone icon on the map is about 50 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the tower and walls into one frame. Then switch to the default lens (1x) for a more natural view, and try the telephoto (2x-5x, depending on your phone) for the tower top and the portal.",
+    "where_to_stand": "Stand about 50 m south-west of the subject, at the phone icon on the map, and face north-east. From here you can take in the building from a distance, with room to include the tower. Walk a little closer if you want the portal and balconies to fill the frame.",
+    "how_to_frame": "Turn on the gridlines and line up the tower with a vertical line so it stands straight. Include a bit of street or a nearby building at the edge to show how big the cathedral is. Then take a second shot with the telephoto on the tower and dome, which Gaston Lelarge refurbished in 1908.",
+    "phone_settings_tip": "Tap on the stonework to focus, then lower the exposure slider a little so the sky stays blue and the walls keep their detail. Check that the tower is not leaning before you take the shot.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people around the cathedral."
+   },
+   "access_note": "The cathedral is a working place of worship, so expect modest dress and limited visiting times for the interior; check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Cartagena Cathedral, Colombia",
+    "url": "https://en.wikipedia.org/wiki/Cartagena_Cathedral%2C_Colombia"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 3 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Iglesia de San Pedro Claver",
+  "in_cut": true,
+  "label": "San Pedro Claver",
+  "camera_pill": "Calle San Juan de Dios",
+  "nophone": false,
+  "searches": 170,
+  "pin": [
+   -75.5512139,
+   10.421776
+  ],
+  "camera": [
+   -75.551558,
+   10.421978
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap way/955128421: the middle of the OpenStreetMap outline 'Iglesia de San Pedro Claver' (64 m across).",
+  "notes": "Jesuit church and convent named after the saint who aided enslaved Africans.",
+  "text": {
+   "description": "The Iglesia de San Pedro Claver is a Spanish Colonial church in Cartagena de Indias, and it forms part of a group of religious buildings with the Cloister of San Pedro Claver and the archaeological museum. It was built between 1580 and 1654. It has changed names over the centuries: first the church of San Juan de Dios, then the church of San Ignacio de Loyola from 1622, and now the church of San Pedro Claver. The dome was removed in 1921 and replaced by Gastón Lelarge, so the roofline you see today is not the original one. In 2022 a new mausoleum was dedicated behind the resting place of the Saint.\n\nIt photographs well because it is a large, solid building with a strong outline, and it works as a clear subject against the sky. The outline is about 64 m across, so you will need to think about how much of it you want in the frame. Keep your phone level and use the gridlines so the walls and roofline do not lean. Try one wide shot to show the whole building, then a closer one of the upper parts and the dome. Check for people and vehicles in the frame before you press the shutter.",
+   "geographic_location": "The church is in Cartagena de Indias, in Colombia. It is part of a group of religious buildings that includes the Cloister of San Pedro Claver and the archaeological museum.",
+   "directions_text": "No Underground, tram or similar stops are listed for this spot, so plan your own route to the church in Cartagena de Indias. The church is 44 m to the south-east of it, which is about 1 minute on foot. The phone icon on the map is about 15 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the church. Switch to ultra-wide (0.5x) if you cannot fit the whole building in. Use the telephoto (2x-5x, depending on your phone) for the dome and upper walls.",
+    "where_to_stand": "Stand about 15 m north-west of the subject, at the phone icon on the map, and face south-east. Face south-east and the church will be straight ahead of you.",
+    "how_to_frame": "Turn on the gridlines and line up the vertical edges of the walls with them. Take a wide shot first, with the whole church and a little street in front. Then zoom in for a second shot of the dome and roofline. If the ultra-wide makes the building lean, step back and use the default lens (1x) instead.",
+    "phone_settings_tip": "Tap the church to focus, then slide the exposure down a little if the sky is bright, so the walls keep their colour and the sky does not turn white. Zoom in only as far as you need, as strong zoom can look soft.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people in the shot, but check how the light falls on the building on the day."
+   },
+   "access_note": "The church is a place of worship and part of a group of buildings with a cloister and museum, so entry rules and any ticketing may vary: check the official site before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Iglesia de San Pedro Claver, Cartagena",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_San_Pedro_Claver%2C_Cartagena"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 9,
+  "name": "San Sebastián del Pastelillo Fort",
+  "in_cut": true,
+  "label": "Fuerte del Pastelillo",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 170,
+  "pin": [
+   -75.5438316,
+   10.4139979
+  ],
+  "camera": [
+   -75.543832,
+   10.413998
+  ],
+  "camera_source": "Researched viewpoint 'Fuerte de San Sebastián del Pastelillo' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap way/54977866: the middle of the OpenStreetMap outline 'San Sebastián del Pastelillo Fort' (165 m across).",
+  "notes": "Bay-side colonial fort in Manga, now home to the fishing club.",
+  "text": {
+   "description": "San Sebastián del Pastelillo is a colonial fort on the water's edge in Cartagena de Indias. Its thick stone walls, rows of old cannons and open view across the bay make it a good place for a phone photo. The fort was built between 1741 and 1744 on the orders of Viceroy Sebastián de Eslava, who gave it his name. 'Pastelillo' comes from the fort's shape, which people thought looked like a cake. It was meant to guard the city against pirate ships and to stop smuggling. The cannons are still there: eight on the second level, once covering the approach to Manga Island, and seven on the third, which looked over the rest of the island and the road towards San Lázaro Hill. Since 1943 the fort has belonged to the Cartagena Fishing Club, and today it also holds a restaurant and yacht club. The best photo is taken from the front ramparts facing the bay, near the old cannons and the gate. Put the weathered stone and the cannons in the foreground, and let the water and the Bocagrande skyline fill the background. That gives a clear sense of place: old defences in front, modern city behind. Golden hour, as the sun gets low, suits the stone best. Because the ramparts belong to a working venue, expect other visitors, and possibly parked cars, in the background of some angles.",
+   "geographic_location": "The fort is in the Manga district of Cartagena, on Avenida Miramar, right on the bay. It faces the Bocagrande skyline across the water.",
+   "directions_text": "No Underground, tram or train stop serves this spot, so head for the Manga area and then to Avenida Miramar. The phone icon on the map is at the fort itself, with the fort's walls and cannons directly around you. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the walls, cannons and bay into one frame. Use the default lens (1x) for a cleaner, more natural view, and the telephoto (2x-5x, depending on your phone) to pick out the Bocagrande skyline.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Stand on the front ramparts of the Fuerte de San Sebastián del Pastelillo, facing the bay, near the old cannons and the gate. From there the stone walls and cannons are in the foreground, with the bay and the Bocagrande skyline behind them.",
+    "how_to_frame": "Turn on gridlines and place the cannons along the lower third, so the skyline sits across the upper part of the frame. Crouch a little to make the cannons look larger against the water. For a second view, the pier of Muelle Restaurante Club de Pesca shows the fort's pier and the marina boats framed against the water.",
+    "phone_settings_tip": "Tap the sky or water to focus, then drag the exposure slider down slightly so the sky keeps its colour and the stone doesn't wash out. If the sun is low and strong, try both a normal shot and a darker one.",
+    "best_time": "Golden hour, in the run-up to sunset and during it, is recommended for the ramparts."
+   },
+   "access_note": "The fort is run as a restaurant and yacht club, so access to the ramparts and terrace may depend on the venue being open; check opening hours before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "San Sebastián del Pastelillo Fort",
+    "url": "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n_del_Pastelillo_Fort"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": null
+ },
+ {
+  "rank": 10,
+  "name": "Church of Santo Domingo",
+  "in_cut": true,
+  "label": "Santo Domingo Church",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 120,
+  "pin": [
+   -75.5524,
+   10.4242
+  ],
+  "camera": [
+   -75.5524,
+   10.4242
+  ],
+  "camera_source": "Researched viewpoint 'Plaza de Santo Domingo' (3 web pages); placed at OpenStreetMap 'Plaza de Santo Domingo' (way/110342708): middle (49 m across).",
+  "pin_note": "Position from Wikidata Q5912167: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Oldest church in the city; the square outside has Botero's Reclining Woman sculpture.",
+  "text": {
+   "description": "The Church of Santo Domingo stands on the Plaza de Santo Domingo, and the square is what makes the photo. The church has a coral-stone facade, and in front of it sits a Botero reclining bronze figure. Together they make a ready-made foreground and background, with open space around them so you can step back and fit both in. One guide suggests a second angle, which is less certain: crouch low and shoot slightly upward at the church tower and bell tower for a quieter picture than the full facade. Guides treat the square as the classic frame, and it is easy to see why. The stone is warm in clean morning light, and the sculpture gives the scene a sense of scale. The plaza gets busy, and the sculpture is a popular stop for visitors, especially around midday. If you can, arrive early, when the square is nearly empty and you can frame the shot without strangers walking through it. Late afternoon, around golden hour, is the next best choice. Keep a little patience: the best shots tend to come after a minute or two of watching where people are walking. If you go inside, look for posted signs about photography and keep your flash off, particularly during Mass.",
+   "geographic_location": "The church is in Cartagena, on the Plaza de Santo Domingo, and the square sits directly in front of its facade. The subject is the church itself.",
+   "directions_text": "No Underground, train or tram stops are listed for this spot, so simply head for the Plaza de Santo Domingo in Cartagena. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the facade and the Botero figure together. Switch to the ultra-wide (0.5x) if the square is crowded and you need to fit more in, and use telephoto (2x-3x) for the tower and facade details.",
+    "where_to_stand": "Stand in Plaza de Santo Domingo (far western edge of the plaza, facing east toward the church facade). The coral-stone church facade with the Botero reclining bronze figure in the foreground, framed by the open square. The classic view of the coral-stone facade with the Botero reclining bronze figure in the foreground is described from a different position, so move around the open square until the sculpture sits in front of the facade.",
+    "how_to_frame": "Turn on the gridlines and, once the sculpture is in view, place it on a lower third, with the facade rising behind it. Keep the phone level so the church edges stay straight. For a different picture, one guide suggests crouching and tilting the phone slightly upward to catch the church tower and bell tower, which makes a quieter alternative to the full facade shot, though this tip is less certain. Stepping back from the plaza edges can also give you leading lines across the paving.",
+    "phone_settings_tip": "Tap the stone facade to set focus and exposure, then slide the exposure down a little if the sky is bright, so the stone keeps its colour. Use Live Photos if people keep walking through, as you can pick the clearest frame afterwards.",
+    "best_time": "Before 8:00 in the morning, when the square is nearly empty and the light is clean. Golden hour is the next best choice. Midday is the busiest time around the sculpture."
+   },
+   "access_note": "The square is an open public space, but the church is a place of worship, so entry is generally free through attending Mass; check the official site before you go and follow any signs about photography inside."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Church of Santo Domingo, Cartagena",
+    "url": "https://en.wikipedia.org/wiki/Church_of_Santo_Domingo%2C_Cartagena"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "Øyvind Holmstad",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:St_Dominic_Church_CT1.jpg",
+   "from": "Wikidata Q5912167 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Convento de la Popa",
+  "in_cut": true,
+  "label": "Convento de la Popa",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 120,
+  "pin": [
+   -75.5255,
+   10.4192
+  ],
+  "camera": [
+   -75.5255,
+   10.4192
+  ],
+  "camera_source": "Researched viewpoint 'Convento de Santa Cruz de la Popa' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from Wikidata Q30594314: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Hilltop convent with a courtyard and the best view over the city.",
+  "text": {
+   "description": "Convento de la Popa, also called Convento de Santa Cruz de la Popa, sits at the top of Mount la Popa. It is a white-walled convent with a chapel and a cloister, and it photographs well in two quite different ways. Inside, the leafy patio has stone arches, white walls and hanging plants, with bougainvillea adding colour. Outside, the views stretch over Cartagena's rooftops, the historic centre, the port and the Caribbean coast.\n\nThe story behind it adds interest to your pictures. A wooden chapel was raised here in 1607, and the convent followed a year later. The name La Popa comes from the shape of the building, which resembles a galley, with the church standing at the stern end. The complex was attacked more than once over the centuries, and the Augustinians only got it back in 1961. Today it houses a Religious Museum. Each February, pilgrims climb the hill on foot for the feast of the Virgen de la Candelaria.\n\nFor your phone, start in the courtyard. It is a calmer spot than the wide city views, and the arcade gives you ready-made frames. Then take a few shots of the panorama with the white convent walls in the foreground. Keep your pictures to public areas, and be discreet if a service is under way.",
+   "geographic_location": "The convent stands at the top of Mount la Popa in Cartagena de Indias, on the hill that looks out over the city, its historic centre and its port.",
+   "directions_text": "There is no Underground, tram or railway station nearby, so start from the historic centre of Cartagena and go by taxi to the top of Mount la Popa. A taxi is the sensible choice, as walking up the hill road is discouraged for safety. Ask the driver for Convento de la Popa (Convento de Santa Cruz de la Popa). The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) in the courtyard for natural-looking arches and walls. Switch to ultra-wide (0.5x) if you want the whole arcade in one frame, and use 2x or more for details such as flowers or carved stone.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From there you can photograph the arcaded courtyard with its white walls, hanging plants and bougainvillea, framed by the stone arches.",
+    "how_to_frame": "Turn on the gridlines and line up an arch so it frames the plants and the white walls. Keep the vertical lines straight. If you want the wider view, the panorama viewpoint is a good alternative. It shows Cartagena's rooftops, historic centre, port and coastline, with the convent walls in the foreground.",
+    "phone_settings_tip": "Tap on the flowers to set focus, then slide the exposure down a little so the white walls keep their detail. Wipe the lens before you start, and try a Live Photo if a breeze is moving the plants.",
+    "best_time": "Mid-morning or early afternoon, when one guide says the garden is in full bloom."
+   },
+   "access_note": "The convent is a ticketed site and a religious place where photography may be restricted during services, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "A taxi is the usual and safest way to reach the top of the hill.",
+    "Photography is generally allowed in public areas of the convent but may be restricted during religious services.",
+    "The convent is ticketed, and opening times or last entry may be limited, so visitors should check before going.",
+    "Drones are generally not permitted."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Convento de la Popa",
+    "url": "https://en.wikipedia.org/wiki/Convento_de_la_Popa"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": null
+ },
+ {
+  "rank": 12,
+  "name": "Parque de Bolívar",
+  "in_cut": true,
+  "label": "Parque de Bolívar",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 100,
+  "pin": [
+   -75.551261,
+   10.423277
+  ],
+  "camera": [
+   -75.551261,
+   10.423277
+  ],
+  "camera_source": "Researched viewpoint 'Parque de Bolívar' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OSM W25447599 (Parque de Bolívar): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Shady plaza with the Simón Bolívar statue, next to the cathedral.",
+  "text": {
+   "description": "Parque de Bolívar, also called Plaza de Bolívar, is a shady city park, and the bronze statue of Simón Bolívar on horseback stands at its centre. The statue is the obvious subject. It photographs well because palm and shade trees frame it, with benches and paths leading the eye towards it. Walk a little further and the picture changes. At the park's edge the cathedral tower rises above the trees, which gives you a colonial backdrop to the greenery. Elsewhere in the park a fountain and small patches of garden make a calmer, shadier scene with local life around it. Start with the monument, then look for a quieter angle.\n\nFor the statue, stand in front of it, or sit on one of the benches nearby so the trees close in around the monument. Keep the horse and rider in the middle of the frame and let the foliage fill the top corners. Leave a bit of path or bench in the foreground to give the picture depth. If someone walks through, wait a few seconds and take another shot.\n\nVendors and people in costume may ask for payment if you photograph them, so be polite and clear if you do not want to pay. It is also easy to forget your bag while you are looking at your screen, so keep your belongings close.",
+   "geographic_location": "Parque de Bolívar is a park in Cartagena, with the cathedral tower rising above the trees at its edge.",
+   "directions_text": "There are no Underground, train or tram stops for this spot, so navigate to Parque de Bolívar on your phone's map. Once you are in the park, walk to the centre, where the statue of Simón Bolívar on horseback stands. The phone icon on the map is right at the statue, so you do not need to walk any further. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Begin with the default lens (1x) for the statue framed by trees. Switch to the ultra-wide (0.5x) to fit in more of the park, with the benches and paths in the foreground. Use telephoto (2x or more, depending on your phone) to pick out the cathedral tower above the trees or to tighten the shot on the horse and rider.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here the bronze horse and rider are the main subject, with palm and shade trees around them and the park's benches and paths in the foreground. For a variation, sit on one of the benches, where the trees frame the monument just as well.",
+    "how_to_frame": "Turn on gridlines and put the statue on the central line, with the trees closing in at the top and sides. Keep the benches and path low in the frame as foreground. For a second picture, move to the park's edge and frame the cathedral tower above the trees. For a calmer scene, find the fountain and its greenery and shoot away from the monument.",
+    "phone_settings_tip": "Tap on the statue to set focus, then drag the exposure slider down a little so the bronze keeps its detail and the bright sky does not wash out. In dappled shade, check the screen for blown-out patches of sun before you shoot.",
+    "best_time": "Visitor numbers vary through the day, so pick a time when the park is quieter if you want a clear view of the statue. For the shadier fountain scene, any time when the trees give good cover will do."
+   },
+   "access_note": "The park is an open public space and no ticket is needed for it."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 28 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Palace of the Inquisition",
+  "in_cut": false,
+  "label": "Palace of Inquisition",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 120,
+  "pin": [
+   -75.55135556,
+   10.42290833
+  ],
+  "camera": [
+   -75.55135556,
+   10.42290833
+  ],
+  "camera_source": "Researched viewpoint 'Plaza de Bolívar' (3 web pages); placed at OpenStreetMap 'Plaza de Bolívar' (way/49666837): middle (53 m across).",
+  "pin_note": "Position from Wikidata Q9054598: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Baroque colonial building with a famous carved stone portal.",
+  "text": {
+   "description": "The Palace of the Inquisition is an eighteenth-century building in Spanish Colonial style with Baroque touches, completed in 1770. It was the seat of the Holy Office of the Inquisition in Cartagena. The tribunal had been decreed under Philip III of Spain and was established in 1610, and it sat for more than two centuries, until 1821. Today the palace is the Museo Histórico de Cartagena.\n\nIt photographs well because of its pale walls, its stone gateway and the wooden balconies above, all set against the open space of the square in front. From across the square you can fit the whole façade into one frame, with the Cathedral and other colonial buildings close by, which gives the picture a sense of place. A phone copes well with this kind of wide, calm scene.\n\nStand in the square, face south and keep your phone upright so the full height of the building fits. Use the gridlines to keep the walls straight, as tilting the phone makes the building lean. Take one wide shot first, then move closer for a second picture of the stone doorway and balconies. People often wander through the square, so wait a moment for a gap, or include them to show the scale of the place. Entering the museum is ticketed, but these outside views are free.",
+   "geographic_location": "The palace stands in Cartagena's historic centre and faces the square known as Plaza de Bolívar (also called Parque de Bolívar), with the Cathedral and other colonial buildings nearby.",
+   "directions_text": "No station or tram stops are listed for this spot. Walk across the open square towards the building's balconies and stone doorway. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole façade. Switch to the ultra-wide (0.5x) if people or trees crowd the square and you cannot step back far enough. Use telephoto (2x-5x, depending on your phone) for the doorway and balconies.",
+    "where_to_stand": "Stand in Plaza de Bolívar (across the square from the palace front). The palace's full façade framed across the open square, with the building's balconies and the Cathedral and other colonial buildings nearby in the same frame. From here the photo shows the palace's full façade framed across the open square, with its balconies and the Cathedral and other colonial buildings in the same frame. The palace is to the south of you.",
+    "how_to_frame": "Turn on the gridlines and line the palace walls up with the vertical lines so the building does not lean. Keep a little square in the foreground to give depth. For a closer alternative, go up to the Palacio de la Inquisición doorway itself and take a tight shot of the carved stone entrance with the wooden balconies above it.",
+    "phone_settings_tip": "Tap on the palace wall to set focus, then slide the exposure down a little if the bright sky is washing out the white walls. Take a few shots so you have a choice when people walk through.",
+    "best_time": "Morning or late afternoon usually gives gentler light and fewer crowds in the square than midday."
+   },
+   "access_note": "The palace is a museum with an entry fee, so check the official site before you go for entry details; the square in front, where you take these photos, is an open public space."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Palace of the Inquisition (Cartagena, Colombia)",
+    "url": "https://en.wikipedia.org/wiki/Palace_of_the_Inquisition_%28Cartagena%2C_Colombia%29"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 13 m from the phone icon",
+   "zoom": 0.7
+  }
+ },
+ {
+  "rank": 102,
+  "name": "Old Boots (Monumento a los Zapatos Viejos)",
+  "in_cut": false,
+  "label": "Old Boots",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 60,
+  "pin": [
+   -75.53762,
+   10.42128
+  ],
+  "camera": [
+   -75.53762,
+   10.42128
+  ],
+  "camera_source": "Researched viewpoint 'Baluarte de Santo Domingo' (1 web pages); placed at OpenStreetMap 'Baluarte de Santo Domingo' (way/1031619548): middle (106 m across).",
+  "pin_note": "Position from Wikidata Q121296712: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Bronze boots sculpture near the Clock Tower gate.",
+  "text": {
+   "description": "Old Boots is a pair of large bronze boots with laces, set on a cement base among neatly pruned bushes in Getsemaní. One boot stands upright and the other lies flat on the ground, which gives you two different shapes to work with. The sculpture honours the Colombian poet Luis Carlos López, who compared Cartagena to a pair of old boots in his poem A mi Ciudad Nativa. The first version was made of enamelled cement by Tito Lombana in 1957. It was demolished in 1992 to make way for the Heredia Bridge, and his brother Hector Lombana rebuilt it in bronze in 1994. The Castillo San Felipe de Barajas rises behind the boots, so the classic photo puts the boots large in the foreground and the fortress above them. The boots will look small from there, so treat them as part of a golden-hour scene, and go to the monument itself for the close-up. Expect the bronze to be very hot in the sun, and queues if people are climbing inside the boots. Keep your phone in a pocket or on a wrist strap when you lean in close.",
+   "geographic_location": "The boots are in the Getsemaní neighbourhood of Cartagena, near Media Luna, below the Castillo San Felipe de Barajas. The Baluarte de Santo Domingo is a fortification walkway to the west, about 1.8 km away.",
+   "directions_text": "There are no stations or tram stops listed nearby. The boots are in Getsemaní, near Media Luna. If you start from the Baluarte de Santo Domingo, the boots lie about 1.8 km to the east. The Castillo San Felipe de Barajas rising behind the monument helps you spot it from a distance. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "At the Baluarte de Santo Domingo, use the telephoto lens (2x-5x, depending on your phone) to pull the distant boots into the scene, and the default lens (1x) for the wider view. At the monument itself, the default lens (1x) suits the boots and fortress together, and the ultra-wide (0.5x) suits a low, dramatic angle.",
+    "where_to_stand": "Stand on Baluarte de Santo Domingo (fortification walkway overlooking the monument). An elevated view down onto the boots, with the Caribbean sea beyond, suited to golden-hour shots. On the fortification walkway overlooking the monument. From this raised walkway you look east toward the monument and the fortress, and golden-hour light suits the scene. For the classic close view, walk to the monument and shoot with the fortress behind the boots. Calle de la Media Luna gives a street-level view of the boots framed by the colonial streets of Getsemaní.",
+    "how_to_frame": "From the bastion, turn on the gridlines and set the boots on a third, with the fortress and sky filling the rest of the frame. Zoom in only as far as your phone stays sharp. At the monument, crouch and use the ultra-wide to make the boots look big against the fortress. Keep the upright boot on one third of the frame and let the lying boot lead the eye towards it.",
+    "phone_settings_tip": "Tap on the boots to focus, then slide the exposure down slightly so the sky keeps its colour at sunset. Use the telephoto lens only in good light, and hold the phone steady against the wall to avoid blur.",
+    "best_time": "Sunset is the recommended time at the Baluarte de Santo Domingo, for warm golden-hour light. At the monument itself, early or late in the day should mean fewer people and less heat from the bronze."
+   },
+   "access_note": "The monument stands outdoors in Getsemaní, and the Baluarte de Santo Domingo is a fortification walkway, so check the official site before you go for any local rules, including on flying drones.",
+   "claims_not_in_sources": [
+    "The Baluarte de Santo Domingo is a fortification walkway about 1.8 km west of the monument, and the boots appear small from there.",
+    "The bronze can get very hot in the sun.",
+    "There are often queues of people climbing inside the boots.",
+    "Early or late in the day usually means fewer people at the monument.",
+    "Drone use may be restricted near the fortress."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Old Boots",
+    "url": "https://en.wikipedia.org/wiki/Old_Boots"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (1831 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/102.jpg",
+   "artist": "JuanGris (Lucía Estévez)",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Castillo_de_San_Felipe_de_Barajas_y_Monumento_a_los_zapatos_viejos.JPG",
+   "from": "Wikidata Q121296712 main image"
+  }
+ }
+]
