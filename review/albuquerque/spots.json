@@ -1,0 +1,830 @@
+[
+ {
+  "rank": 1,
+  "name": "Explora",
+  "in_cut": true,
+  "label": "Explora",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 3660,
+  "pin": [
+   -106.664054,
+   35.09748
+  ],
+  "camera": [
+   -106.664054,
+   35.09748
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OSM W303778908 (Explora): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Hands-on science center and children's museum.",
+  "text": {
+   "description": "Explora is a spot on the Albuquerque map, and the building itself is the main thing to photograph here. The phone icon on the map sits at the mapped position of the subject, so you can take your first shots as soon as you arrive. Start with a wide view that shows the whole frontage and a little of the sky, then move closer for details such as signs, entrance doors, shapes and colours. These details make good second and third photos and help your set tell the story of the visit. Pick a moment when few people are in front of the building so the frontage stays clear. If visitors do walk through the frame, you can use them to show scale. Walk a few steps left or right to avoid reflections in glass and to keep the lines of the walls straight. Take a quick test shot, check the edges for stray bins, signs or cars, and retake if needed. Stay out of any restricted areas to get a better angle. If you plan to go inside, check the official site before you go, because rules on photography and entry can change.",
+   "geographic_location": "Explora is in Albuquerque, New Mexico.",
+   "directions_text": "No train or tram stop is listed for this spot, so follow the map to the phone icon on the map. Once you arrive, you are already standing at the photo spot. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Begin with the default lens (1x) for a natural view of the frontage. Switch to the ultra-wide (0.5x) if you cannot step back far enough to fit the whole building in. Use the telephoto (2x-5x, depending on your phone) for signs and architectural details.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Step back as far as is safe and allowed to fit the whole building in, or move in close for details.",
+    "how_to_frame": "Turn on the gridlines and line up the edges of the walls with the vertical lines so the building does not lean. Leave a band of sky above the roofline. Then take a closer shot of one detail, such as the entrance or the signage.",
+    "phone_settings_tip": "Tap on the building to set focus, then drag the exposure slider down a little if the sky is bright, so it stays blue and the walls keep their detail. Keep the ultra-wide shots level, because tilting the phone makes edges look distorted.",
+    "best_time": "Soft light in the morning or late afternoon usually gives the nicest colour on the walls. Midday sun can create harsh shadows and glare on glass."
+   },
+   "access_note": "Access and any rules for photography inside may vary, so check the official site before you go."
+  },
+  "checker_problems": 8,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": null
+ },
+ {
+  "rank": 2,
+  "name": "University of New Mexico",
+  "in_cut": true,
+  "label": "University of New Mexi",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1690,
+  "pin": [
+   -106.6311307,
+   35.0674212
+  ],
+  "camera": [
+   -106.6311307,
+   35.0674212
+  ],
+  "camera_source": "Researched viewpoint 'UNM Duck Pond' (3 web pages); placed at our map tiles: 'Duck Pond' (pois); moved 10 m off water.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
+  "notes": "Pueblo Revival campus with Zimmerman Library and Hodgin Hall.",
+  "text": {
+   "description": "The University of New Mexico is Albuquerque's flagship university, and its main campus covers about 800 acres in the middle of the city. For a visitor with a phone, the draw is the look of the place: low, earth-toned Pueblo Revival buildings with stucco walls, wooden beams and towers, set among trees and desert planting. The style goes back to the early 1900s, when president William G. Tight introduced it, and it was later developed across the campus by the Santa Fe architect John Gaw Meem. The university itself was founded in 1889. A good place to start is the UNM Duck Pond, a shaded, landscaped pond with footbridges. Water, shade and buildings together give you a calm picture with plenty of layers. Two other good frames are Mesa Vista Hall, for its tower and courtyard, and Zimmerman Library, where desert plants and stone steps make a natural foreground. Keep your phone low and level, let the foreground plants or the bridge rails lead the eye into the picture, and take a few frames from slightly different heights.",
+   "geographic_location": "The University of New Mexico's main campus sits in central Albuquerque, New Mexico. The UNM Duck Pond is within the campus greenery, west of the central academic buildings.",
+   "directions_text": "No Underground, tram or rail stop is listed for this spot, so check a map app for the route to the campus. From there, the central campus point on the map lies about 370 m to the east, a short walk of around 5 minutes. Campus parking may be paid, so check the official site before you go. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the pond, the bridges and the trees. Switch to ultra-wide (0.5x) when you want the footbridge and buildings in one frame. Use telephoto (2x-5x, depending on your phone) for tower tops, wooden beams and other architectural details.",
+    "where_to_stand": "Stand in UNM Duck Pond. A shaded, landscaped pond with footbridges and the surrounding campus greenery, framed with some of the Pueblo Revival buildings. From here you can photograph the shaded pond, the footbridges and the surrounding campus greenery, with some of the Pueblo Revival buildings in the frame. The main campus point is to the east.",
+    "how_to_frame": "Turn on the gridlines and put the water or a footbridge in the lower third, with the buildings and trees above. If you want a second view, Mesa Vista Hall shows the tower, courtyard, stucco walls and beams, and Zimmerman Library works well with the desert plants and stone steps in the foreground.",
+    "phone_settings_tip": "Tap on the brightest building wall to set focus, then lower the exposure slider a little so the sky and stucco do not wash out. Dark water and shade can look heavy, so check the result and nudge the slider back up if needed.",
+    "best_time": "Late afternoon or golden hour is recommended for the pond, and it is also described as especially beautiful in the evening."
+   },
+   "access_note": "The campus is a working university, and photography may be restricted during official team events or practices, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "University of New Mexico",
+    "url": "https://en.wikipedia.org/wiki/University_of_New_Mexico"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Kenneth C. Zirkel",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hodgin_Hall,_University_of_New_Mexico.jpg",
+   "from": "Wikidata Q1190812 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "KiMo Theater",
+  "in_cut": true,
+  "label": "KiMo Theater",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 500,
+  "pin": [
+   -106.652561,
+   35.0848183
+  ],
+  "camera": [
+   -106.652561,
+   35.0848183
+  ],
+  "camera_source": "Researched viewpoint 'Central Avenue NW' (2 web pages); placed at OpenStreetMap 'Central Avenue Northwest' (way/1110950979): middle (112 m across).",
+  "pin_note": "Position from OpenStreetMap node/366378268: the OpenStreetMap point 'KiMo Theater'.",
+  "notes": "Pueblo Deco movie palace from 1927 on Central Avenue.",
+  "text": {
+   "description": "The KiMo Theatre is a 1927 cinema and stage theatre on the corner of Central Avenue and Fifth Street, built in a style called Pueblo Deco. It mixes the rounded, adobe-like forms of Pueblo Revival buildings with the tall vertical lines of Art Deco. That mix is why the front photographs so well: it is a three-storey stucco building that steps back as it rises, with a row of terracotta shields above the third-floor windows. A replica of the original neon sign, 24 feet (7.3 m) tall, went up in 2011, and it gives the street frontage a strong vertical to build a picture around. The name 'Kimo' was chosen in a 1927 newspaper competition and means 'mountain lion'. The theatre opened that September, was restored by the city after a fire-damaged spell in the 1970s, and still stages performances. For the widest view, use the sidewalk directly across Central Avenue from the façade, where you can get the whole stepped front in one frame. A second option is the 5th Street NW side, looking along Central Avenue, which shows the corner position with the marquee angled against the street. In the evening, the lit marquee and neon sign stand out well against the sky. Stay well back from the kerb, as Central Avenue is a busy road.",
+   "geographic_location": "The KiMo sits on the northeast corner of Central Avenue and Fifth Street in central Albuquerque, right on the Central Avenue frontage.",
+   "directions_text": "There are no stations or tram stops listed nearby, so head for the centre of Albuquerque and make for Central Avenue at Fifth Street. Once you reach it, cross to the sidewalk directly opposite for the full-façade view. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) from the sidewalk across Central Avenue. If the pavement is too narrow to fit the whole front in, switch to ultra-wide (0.5x). Use telephoto (2x or more) for details such as the terracotta shields above the third-floor windows.",
+    "where_to_stand": "Stand on Central Avenue NW (sidewalk directly across Central Avenue from the façade). The full stepped Pueblo Deco front of the theater, shot wide from the opposite side of the road. Walk east from there to the sidewalk directly across Central Avenue from the façade. From that opposite sidewalk you see the full stepped Pueblo Deco front, shot wide from across the road.",
+    "how_to_frame": "Turn on gridlines and line the building's vertical edges up with them so the front looks straight. Keep the whole stepped outline and the tall neon sign in the frame. For a different angle, walk to 5th Street NW and look along Central Avenue to catch the marquee and façade against the street.",
+    "phone_settings_tip": "Tap the front of the building to focus, then drag the exposure slider down a little so the sky and any bright signs do not wash out. In the evening, use night mode on the lit marquee and neon, and hold the phone steady against a wall or post.",
+    "best_time": "Morning, roughly 9 to 11 a.m., is recommended for the façade, as late afternoon light comes from behind the building. The lit marquee and neon look best at dusk and after dark."
+   },
+   "access_note": "The outside can be photographed from the public sidewalk, but for anything inside, or for performance times, check the official site before you go.",
+   "claims_not_in_sources": [
+    "The theatre is in central (downtown) Albuquerque.",
+    "Morning light between about 9 and 11 a.m. suits the façade, and late-afternoon light is backlit (from a single blog guide).",
+    "The lit marquee and neon sign look best at dusk or after dark.",
+    "Central Avenue carries traffic, so photographers should stay back from the kerb.",
+    "Ultra-wide (0.5x) can stretch or tilt vertical lines at the edges of the frame, so use the gridlines to keep them straight.",
+    "Interior photography may be restricted during performances."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "KiMo Theater",
+    "url": "https://en.wikipedia.org/wiki/KiMo_Theater"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (436 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 69 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Old Town Albuquerque",
+  "in_cut": true,
+  "label": "Old Town",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 230,
+  "pin": [
+   -106.6708594,
+   35.095046
+  ],
+  "camera": [
+   -106.6708594,
+   35.095046
+  ],
+  "camera_source": "Researched viewpoint 'Old Town Plaza' (4 web pages); placed at OpenStreetMap 'Old Town Plaza' (way/167797303): middle (76 m across); moved 5 m off buildings.",
+  "pin_note": "Position from OpenStreetMap node/151530443: the OpenStreetMap point 'Old Town'.",
+  "notes": "Historic adobe plaza founded in 1706.",
+  "text": {
+   "description": "Old Town is where Albuquerque began. The Spanish settlement was recognised as a town in 1706, and about ten blocks of low adobe buildings still gather around the plaza. It photographs well because everything sits in one easy frame: the tree-lined walkways, the central gazebo and the church behind them. San Felipe de Neri Church, built in 1793, stands on the plaza's north side, and its twin bell towers give the scene a clear focal point. The historic cannons and the gazebo make good foreground details, so the plaza works as a postcard-style view with plenty of depth. Old Town is full of restaurants, shops and galleries, and the Albuquerque Museum of Art and History is here too. It is also known for its luminaria displays at Christmas, especially on Christmas Eve. The plaza is busy with visitors and shoppers, especially in the afternoon, so mornings or weekdays are the easiest times for clear shots. Golden hour is the time most guides recommend. Once you have the wide view, walk over to the church for a closer shot of the adobe facade, or to Plaza Don Luis for its fountain and the chile-hung wall nearby. Give yourself time to wander: the best pictures are often a few steps off the main square.",
+   "geographic_location": "Old Town is the historic original centre of Albuquerque, in the area roughly bounded by Rio Grande Boulevard, Mountain Road, 19th Street and Central Avenue. Its heart is Old Town Plaza, with San Felipe de Neri Church on the north side.",
+   "directions_text": "No Underground, tram or station stops are listed for this spot, so go by taxi or hired scooter to Old Town, within the area bounded by Rio Grande Boulevard, Mountain Road, 19th Street and Central Avenue. Once there, head for the plaza at the centre. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the classic view of the church above the plaza. Switch to ultra-wide (0.5x) if the plaza is crowded and you want to fit in the gazebo, trees and towers from close in. Use the telephoto (2x-5x, depending on your phone) to pick out the twin towers and facade without the crowds.",
+    "where_to_stand": "Stand in Old Town Plaza (south end of the plaza, looking north toward the church). The church's twin bell towers and facade rising above the plaza's central gazebo and tree-lined walkways. At the south end, and look north toward the church.",
+    "how_to_frame": "Switch on gridlines and keep the towers upright against the vertical lines, so the facade does not lean. Put the gazebo or a cannon in the lower part of the frame as foreground, with the church behind. For a different angle, try the church garden or courtyard for a close view of the adobe facade, or Plaza Don Luis for the fountain and the chile-hung wall.",
+    "phone_settings_tip": "Tap the church facade to set focus, then drag the exposure slider down a little so the sky stays blue and the adobe keeps its colour. If people walk through your frame, take a Live Photo or a quick burst and pick the cleanest moment.",
+    "best_time": "Golden hour, according to several guides. For fewer people, go in the morning or on a weekday."
+   },
+   "access_note": "The plaza is an open public space; for the church, photography inside is generally allowed if you are discreet and use no flash, but services can limit access, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Walking from the middle of Old Town to the stand-here point takes about 2 minutes (calculated from the 148 m distance).",
+    "Taxis or hired scooters are a practical way to reach Old Town when no station or tram stop is given.",
+    "Dragging the exposure slider down slightly helps keep the sky and adobe colours in a bright scene.",
+    "Gridlines help keep the towers vertical."
+   ]
+  },
+  "checker_problems": 0,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Old Town Albuquerque",
+    "url": "https://en.wikipedia.org/wiki/Old_Town_Albuquerque"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=suburb): check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "User:PerryPlanet",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Oldtown_albuquerque_plaza.jpg",
+   "from": "Wikidata Q7085263 main image"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Frontier Restaurant",
+  "in_cut": true,
+  "label": "Frontier Restaurant",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 170,
+  "pin": [
+   -106.619,
+   35.08
+  ],
+  "camera": [
+   -106.619,
+   35.08
+  ],
+  "camera_source": "Researched viewpoint 'Central Avenue SE' (2 web pages); placed at OpenStreetMap 'Central Avenue Southeast' (way/165351075): point nearest the subject (286 m long).",
+  "pin_note": "Position from Wikidata Q17443092: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Landmark diner across from UNM, known for sweet rolls.",
+  "text": {
+   "description": "Frontier Restaurant is a long-standing New Mexican restaurant on Central Avenue, close to the main University of New Mexico campus. It photographs well because the barn-shaped building, the street and the campus all show up in one frame, which gives a good sense of this stretch of the old Route 66 road. The Rainosek family opened it in 1971 in a former barn-shaped restaurant building, and by 1989 it had grown into the neighbouring buildings to make five dining rooms covering about 740 square metres. Inside, it is decorated with more than 100 Western-themed artworks, including several portraits of John Wayne. The outside is the easiest thing to capture on a phone. Cross to the sidewalk opposite so the whole frontage fits in, and let the university campus show on the left side of the frame. Turn on the gridlines so the building stands straight and the avenue runs level. Wait for a gap in the traffic and pedestrians if you want a clean shot of the front. A second option is to move closer and frame the front and corner sign against the sky and mountains. If you want to take photos inside, be polite to staff and other diners, and check the official site before you go.",
+   "geographic_location": "Frontier Restaurant is on Central Avenue SE in Albuquerque, directly across from the University of New Mexico's main campus. It sits in the university district, on the old Route 66 line through the city.",
+   "directions_text": "There are no stations or tram stops listed nearby, so head for the University of New Mexico main campus on Central Avenue SE. Cross to the sidewalk opposite the restaurant to take the street view. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole frontage and some of the campus on the left of the frame. Use the default lens (1x) for a more natural view, and the telephoto (2x-5x, depending on your phone) for the corner sign.",
+    "where_to_stand": "Stand on Central Avenue SE (sidewalk across from the restaurant, looking east along the avenue with the University of New Mexico on the left). A wider street view of the restaurant on Central Avenue with the UNM campus visible alongside, the setting that Wikipedia uses for its photo of the restaurant. Looking east along Central Avenue SE, with the UNM campus on your left. The wider street view shows the restaurant together with the UNM campus, which is the setting used in Wikipedia's photo.",
+    "how_to_frame": "Turn on the gridlines and line the building up with the vertical lines so it stands straight. Include a strip of the avenue to show the street setting. For a second photo, move closer and frame the front and corner sign against the sky and mountains.",
+    "phone_settings_tip": "Tap on the building to set focus, then slide the exposure down a little if the sky is bright so the sign and walls keep their colour. Wait for a gap in the traffic before you press the shutter.",
+    "best_time": "Choose a time when the front is evenly lit and the sidewalk is quieter. Early morning or late afternoon is usually softer than midday."
+   },
+   "access_note": "The street and sidewalk are public, but the restaurant is a business, so check the official site before you go if you want to photograph inside.",
+   "claims_not_in_sources": [
+    "Early morning or late afternoon light is usually softer than midday.",
+    "Traffic and pedestrians on Central Avenue may interrupt a clean shot of the front.",
+    "Staff and other diners may not want to be photographed inside."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Frontier Restaurant",
+    "url": "https://en.wikipedia.org/wiki/Frontier_Restaurant"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (808 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "John Phelan",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Central_Avenue_at_the_Frontier_Restaurant,_Albuquerque_NM.jpg",
+   "from": "Wikidata Q17443092 main image"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Indian Pueblo Cultural Center",
+  "in_cut": true,
+  "label": "Indian Pueblo Center",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 130,
+  "pin": [
+   -106.6589236,
+   35.1103308
+  ],
+  "camera": [
+   -106.658924,
+   35.110331
+  ],
+  "camera_source": "Researched viewpoint 'Indian Pueblo Cultural Center' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap relation/7091339: the middle of the OpenStreetMap outline 'Indian Pueblo Cultural Center' (138 m across).",
+  "notes": "Museum and gathering place of the 19 New Mexico pueblos.",
+  "text": {
+   "description": "The Indian Pueblo Cultural Center is owned and run by the 19 Indian Pueblos of New Mexico. It opened in August 1976 to look after and share Pueblo culture, history and art. The campus has a museum, galleries, a restaurant and a shop, so there is plenty to see besides the photos. The best pictures here are of people rather than walls. On weekends, traditional dance groups perform in the courtyard, with the building and its murals around them. That gives you a real cultural scene rather than a plain shot of a building. The centre's dances and artist demonstrations are open to the public on Saturday and Sunday, and visitor guides say photography is permitted in the courtyard. For a wide establishing shot, step back and frame the front facade and main entrance. On a quieter day, the courtyard and garden make calm pictures with the Pueblo-style walls behind. A few courtesies matter. Flash, tripods and large cameras are not allowed in the galleries. Some dance groups ask that their images are not posted on social media, so check before you share. The murals are copyrighted, so personal photos are fine but commercial use needs permission. Leave room around the dancers and keep your phone steady rather than pushing to the front.",
+   "geographic_location": "The centre is in Albuquerque, on a campus that also holds its museum, galleries, restaurant, library and shop. Other Pueblo-owned businesses, including the Avanyu Plaza business hub, are nearby.",
+   "directions_text": "No Underground, tram or rail stops are listed for this spot. Set your map to the phone icon on the map. Once on the campus, head for the courtyard where the dances take place. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for dancers and the courtyard as a whole. Switch to telephoto (2x-3x, depending on your phone) to get closer to the dancers without stepping into their space. Save the ultra-wide (0.5x) for the front facade, where you need to fit the whole building in.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you see the dancers with the centre's building and murals around them. Choose a spot at the edge of the audience so you do not block anyone's view.",
+    "how_to_frame": "Keep the dancers in the middle third and let the building and murals fill the background. Turn on gridlines to keep the walls straight. If you want an alternative, walk to the front of the building and use 0.5x for a wide shot of the facade and main entrance. Or shoot the quieter courtyard and garden with the Pueblo-style walls behind.",
+    "phone_settings_tip": "Tap the dancers to focus, then drag the exposure slider down a little if bright walls or sky wash out the picture. Try a Live Photo to catch the movement of the dance. Do not use flash in the galleries.",
+    "best_time": "Weekends, when dance groups perform in the courtyard. Check the centre's events calendar for times."
+   },
+   "access_note": "This is a cultural centre with a museum, so entry rules and opening days may vary; check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(?<!allow )(?<!or )(?<!no )\\btripods?\\b(?! (are|is) not allowed)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Indian Pueblo Cultural Center",
+    "url": "https://en.wikipedia.org/wiki/Indian_Pueblo_Cultural_Center"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "Chris English",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Indian_Pueblo_Cultural_Center_-_panoramio_(1).jpg",
+   "from": "Wikidata Q6021290 main image"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "National Museum of Nuclear Science & History",
+  "in_cut": true,
+  "label": "Nuclear Museum",
+  "camera_pill": "La Entrada Southeast",
+  "nophone": false,
+  "searches": 120,
+  "pin": [
+   -106.5344172,
+   35.0657999
+  ],
+  "camera": [
+   -106.533476,
+   35.065296
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap way/166135436: the middle of the OpenStreetMap outline 'National Museum of Nuclear Science and History' (254 m across).",
+  "notes": "Museum with an outdoor park of aircraft, missiles and a B-52.",
+  "text": {
+   "description": "The National Museum of Nuclear Science & History tells the story of the Atomic Age, from early work on the atom to the Manhattan Project and later nuclear history. It opened in this purpose-built home on 4 April 2009 and stands in southeast Albuquerque. The main building has 16 permanent indoor exhibit areas, and about nine acres of outdoor space hold military aircraft, missiles, vehicles and the sail of the nuclear submarine USS James K. Polk. That outdoor collection is what makes the place work for photos: big, odd shapes against a wide sky, with plenty of room to step back.\n\nStart with a wide view of the building and the open ground in front of it. Then move closer for single objects such as a missile or aircraft, and keep the sky in the frame to show how large they are. Indoor exhibits may have their own photo rules, so ask staff before you shoot inside. Check the official site before you go for visiting arrangements.",
+   "geographic_location": "In southeast Albuquerque, near the intersection of Eubank and Southern Boulevards, in the Sandia Science and Technology Park. It is close to Kirtland Air Force Base and Sandia National Laboratories.",
+   "directions_text": "No Underground, tram or train stop is listed for this spot. The museum is near Eubank and Southern Boulevards in the south-east of Albuquerque. The phone icon on the map is about 100 m south-east of the numbered pin. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) for the whole building and the outdoor exhibits together. Use the default lens (1x) for most shots, and the telephoto (2x-5x, depending on your phone) for details on aircraft and missiles.",
+    "where_to_stand": "Stand about 100 m south-east of the numbered pin, at the phone icon on the map, and face north-west. From here you can fit the building and the open ground around it into one frame before walking closer.",
+    "how_to_frame": "Turn on the gridlines and place the horizon on the lower third line so the sky fills the top. For outdoor displays, crouch a little and tilt the phone up slightly to make them look bigger. Step in close for a single object, and keep the building behind it for context.",
+    "phone_settings_tip": "Tap the brightest part of the sky to focus, then slide the exposure down a little so the sky keeps its colour. Use portrait mode for close shots of smaller objects only if the background is clean.",
+    "best_time": "Morning or late afternoon usually gives softer light and longer shadows on the outdoor displays than the middle of the day."
+   },
+   "access_note": "The museum is a ticketed attraction with outdoor and indoor exhibits, so check the official site before you go for visiting arrangements."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "National Museum of Nuclear Science & History",
+    "url": "https://en.wikipedia.org/wiki/National_Museum_of_Nuclear_Science_%26_History"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 4 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 8,
+  "name": "San Felipe de Neri Church",
+  "in_cut": true,
+  "label": "San Felipe de Neri",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 120,
+  "pin": [
+   -106.6700564,
+   35.0966706
+  ],
+  "camera": [
+   -106.6700564,
+   35.0966706
+  ],
+  "camera_source": "Researched viewpoint 'Old Town Plaza' (3 web pages); placed at OpenStreetMap 'Old Town Plaza' (way/167797303): middle (76 m across); moved 5 m off buildings.",
+  "pin_note": "Position from OpenStreetMap node/357579800: the OpenStreetMap point 'San Felipe de Neri Catholic Church'.",
+  "notes": "Adobe church on Old Town Plaza, built in 1793.",
+  "text": {
+   "description": "San Felipe de Neri Church stands on the north side of Old Town Plaza and is one of the oldest surviving buildings in Albuquerque. The church was built in 1793 and is the only building in Old Town proven to date to the Spanish colonial period. It has been in continuous use for over 200 years and is still a working parish church. The thick adobe walls are older than the twin bell towers, which were added around 1861 in a simple Gothic Revival style using local materials. The mix of earthy adobe and Victorian touches is what makes the front so pleasing to photograph.\n\nThe plaza gives you open space to step back, so the whole facade and both towers fit in one frame, with trees and paths leading the eye towards the doors. Guides often call this Old Town's most famous photo op, and they recommend the plaza at sunset as especially beautiful. If you want a closer picture, walk up to the entrance and porch and photograph the doorway and the base of the towers.\n\nOne practical warning: the church complex may be undergoing extensive renovation inside and out, so scaffolding or fencing may get in the way of the facade. Look at the front when you arrive and adjust your angle if you need to. Please be considerate of worshippers and keep clear of the doors around Mass times.",
+   "geographic_location": "The church is in Old Town, Albuquerque, on the north side of Old Town Plaza. Its address is 2005 North Plaza NW.",
+   "directions_text": "Head for Old Town and the plaza itself. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the whole facade and both towers across the plaza. Use the ultra-wide (0.5x) only if you are close and want the doorway and towers together. Use 2x or more to pick out the towers and details without walking closer.",
+    "where_to_stand": "Stand in Old Town Plaza (inside the plaza, facing the church on its north side). The church's adobe facade with its twin bell towers framed across the open plaza. From here the church's adobe facade and twin bell towers are framed across the open plaza.",
+    "how_to_frame": "Turn on gridlines and place the church on the central third, with the towers kept upright and the path or plaza ground filling the lower part of the picture. Hold the phone level so the towers do not lean. For a second picture, walk up to the front entrance and porch for a closer shot of the doorway and the base of the towers. If scaffolding or fencing is up, try a slightly different angle or a tighter zoom on the parts that are clear.",
+    "phone_settings_tip": "Tap on the church wall to focus, then slide the exposure down a touch so the bright sky does not wash out the adobe. If the light is strong, Live Photos can help you pick a frame with no one in front of the doors.",
+    "best_time": "Sunset is the time guides recommend for the plaza. Check the church front when you arrive, as the light and any renovation work will affect how it looks."
+   },
+   "access_note": "The plaza and the exterior views are outdoors and free to enjoy, but this is a working place of worship, so Mass times can limit interior access; check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "San Felipe de Neri Church",
+    "url": "https://en.wikipedia.org/wiki/San_Felipe_de_Neri_Church"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "Camerafiend at en.wikipedia",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:San_Felipe_de_Neri_Church_Albuquerque.jpg",
+   "from": "Wikidata Q2617682 main image"
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Albuquerque Museum",
+  "in_cut": true,
+  "label": "Albuquerque Museum",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 60,
+  "pin": [
+   -106.6682967,
+   35.0976128
+  ],
+  "camera": [
+   -106.668297,
+   35.097613
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/208651155: the middle of the OpenStreetMap outline 'The Albuquerque Museum of Art & History' (158 m across).",
+  "notes": "Art and history museum with a sculpture garden.",
+  "text": {
+   "description": "The Albuquerque Museum is the city's public art and history museum, set in the Old Town area. It is a good stop for photographs because the building and its grounds give you a mix of architecture, outdoor sculpture and Southwest character in one place. The museum looks after art of the American Southwest and the history of Albuquerque and the Middle Rio Grande Valley, and it has an outdoor sculpture garden on its grounds.\n\nThe building was designed by local architect Antoine Predock and opened in 1979. A major expansion by Rohde May Keller McNamara Architecture was finished in 2005, so you will see more than one era of design on the site. The outline of the museum is around 158 m across, which is large enough that you can choose between a wide view of the whole frontage or closer shots of single details such as doorways, walls and sculptures.\n\nFor a phone, a simple approach works best. Start with a wide shot to show the building in its setting, then move closer for textures and shapes. Look for sculptures that you can place in the foreground, with the museum behind them. Take a few frames from different spots in the garden rather than one from the entrance. Photography rules can differ inside galleries, so check the official site before you go if you plan to shoot indoors.",
+   "geographic_location": "The museum is in the Old Town area of Albuquerque, New Mexico. It stands on the site of a former truck terminal.",
+   "directions_text": "No stations or tram stops are listed for this spot, so check a local map for how to reach the Old Town area, then head for the museum, which is a large building complex and easy to spot. The phone icon on the map is at the museum itself, so once you arrive you are already at the right place. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) for the long frontage and the wider garden views, and the default lens (1x) for most other shots. Switch to the telephoto (2x-5x, depending on your phone) for sculpture details and architectural features.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. To frame the building, step out to the edge of the grounds or into the sculpture garden and turn back towards the museum. From there you can take in the frontage and the grounds.",
+    "how_to_frame": "Turn on gridlines and line up the building edges with them so the walls stay straight. Place a sculpture or planting in the foreground to add depth, and leave some space around the building so it does not look cramped. For details, step closer and frame one feature at a time.",
+    "phone_settings_tip": "Tap the brightest wall to focus, then lower the exposure slider slightly if the sky or pale surfaces look washed out. Portrait mode can work for a sculpture close-up if you want the background softened.",
+    "best_time": "Morning or late afternoon usually gives softer light and gentler shadows on the building, and arriving early gives you time to try several spots."
+   },
+   "access_note": "The museum is a public, city-run site and the grounds and galleries may have their own visiting arrangements, so check the official site before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Albuquerque Museum of Art and History",
+    "url": "https://en.wikipedia.org/wiki/Albuquerque_Museum_of_Art_and_History"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 77 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Nob Hill",
+  "in_cut": true,
+  "label": "Nob Hill",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 60,
+  "pin": [
+   -106.6044444,
+   35.0797222
+  ],
+  "camera": [
+   -106.6044444,
+   35.0797222
+  ],
+  "camera_source": "Researched viewpoint '66 Diner' (2 web pages); placed at OpenStreetMap 'Route 66 Diner' (node/1843951676): point; moved 10 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/394522404: large area 'Nob Hill' (2287 m across): previous pin kept, it lies inside.",
+  "notes": "Historic Route 66 district with neon signs.",
+  "text": {
+   "description": "Nob Hill is not one hill but a neighbourhood: a lively strip of shops, bars, galleries and restaurants along Central Avenue, which was once U.S. Route 66, with leafy residential streets around it. It sits just east of the University of New Mexico and grew up between about 1925 and 1950. Central became Route 66 in 1937, and travellers and locals have shared the street ever since. The name came from a developer, D.K.B. Sellers, who borrowed it from a fashionable area of San Francisco. In 1947 the district also gained Albuquerque's first modern shopping centre, at Central and Carlisle.\n\nFor photographs, this is a street-scene stop rather than a skyline view. The best frame is the 66 Diner, a former 1946 Phillips station at 1405 Central Ave NE, with its shield-shaped Route 66 neon sign and neon along the roofline. It makes a bold, instantly readable picture. If you have time, two other frames suit the area. One is the Nob Hill Shopping Center, looking east down Central with its turret and neon-lit shopfronts. The other is the Nob Hill Gateway, a turquoise-and-pink neon arch over the avenue, which is best at night. Check the arch's position on the map before you set off, as guides disagree slightly. Keep to the pavement, because Central is busy with traffic.",
+   "geographic_location": "Nob Hill is in central Albuquerque, along Central Avenue just east of the University of New Mexico. Its boundaries run roughly from Girard Boulevard in the west to Washington Street in the east.",
+   "directions_text": "There are no stations or tram stops to start from, so head for the University of New Mexico area and follow Central Avenue east into Nob Hill. The ABQ RIDE 66 Central bus runs along Central Avenue, and there is a Rapid Ride station at Central and Carlisle. Once you are on Central Avenue, look for the neon. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start on the default lens (1x) to take in the whole diner, with its sign and roofline neon. Switch to the ultra-wide (0.5x) if the pavement is narrow and you can't step back far enough. Use telephoto (2x-5x, depending on your phone) for a tighter shot of the shield sign alone.",
+    "where_to_stand": "Stand at 66 Diner (front facade at 1405 Central Ave NE). The former 1946 Phillips station with its shield-shaped Route 66 neon marquee and roofline neon lighting. From here you see the former 1946 Phillips station with its shield-shaped Route 66 marquee and the neon along the roofline. The heart of Nob Hill lies to the east along Central Avenue.",
+    "how_to_frame": "Turn on gridlines and place the shield sign on one of the upper lines, with the roofline neon running across the frame. Keep the camera level so the building doesn't lean. For a second picture, walk east to the Nob Hill Shopping Center and shoot along Central Avenue towards the turret, or go to the Nob Hill Gateway arch for a night shot.",
+    "phone_settings_tip": "Tap on the sign to focus, then lower the exposure slider a little so the neon keeps its colour instead of turning into white glare. After dark, use night mode and brace your elbows against your body or a solid post to keep the shot sharp. Live Photos can catch passing traffic, but keep clear of the traffic lanes.",
+    "best_time": "Dusk and after dark suit the neon best. Some guides say the signs switch off around midnight, and some motel signs have been restored or repainted, so check they are lit on the night."
+   },
+   "access_note": "Central Avenue and its pavements are public, so you can photograph the signs from the street, but individual businesses keep their own hours, so check the official site before you go if you plan to go inside.",
+   "claims_not_in_sources": [
+    "Neon signs generally look best at dusk and after dark.",
+    "The 66 Diner's front can be photographed from the public pavement outside.",
+    "Individual businesses on Central Avenue set their own opening times."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Nob Hill, Albuquerque, New Mexico",
+    "url": "https://en.wikipedia.org/wiki/Nob_Hill%2C_Albuquerque%2C_New_Mexico"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin",
+   "phone far from subject (2402 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "Camerafiend",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Nob_Hill_street_fair_Albuquerque.JPG",
+   "from": "Wikidata Q7045560 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "New Mexico State Fair",
+  "in_cut": true,
+  "label": "State Fair",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 50,
+  "pin": [
+   -106.57475,
+   35.08291667
+  ],
+  "camera": [
+   -106.57475,
+   35.08291667
+  ],
+  "camera_source": "Researched viewpoint 'Central Avenue' (2 web pages); placed at the stretch of Central Avenue nearest the subject (our map tiles).",
+  "pin_note": "Position from Wikidata Q7010243: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Annual state fair and fairgrounds.",
+  "text": {
+   "description": "The New Mexico State Fair is Albuquerque's big September fair, held at Expo New Mexico on Central Avenue. It has carnival rides, rodeos, concerts, farm animals, horses and New Mexican food, so there is always something lively to photograph. The fair began in 1881, but the present grounds were built in 1936-38 with Works Progress Administration funding, and the first fair here was in 1938. The site covers about 210 acres. Several of the original adobe buildings survive, including the Agricultural Building, Fine Arts Building, Horse Barn and Cattle Barn. Tingley Coliseum, an 11,800-seat indoor arena, opened in 1957. A boxcar from the 1949 Merci Train, a gift from France, also stands on the grounds.\n\nFor a phone photo, the best-value scene is the annual State Fair Parade. It comes down Central Avenue with floats, horse riders and lowriders, and spectators line the kerb. You stand with the crowd and shoot what passes, which suits a phone well. Wait for the colourful floats and riders to come level with you, and keep the spectators in the frame to show the atmosphere. If you go into the fairgrounds, Main Street is a good alternative. It is the fair's central avenue, with a large American flag hung over it. Parade days and fair dates change from year to year, so check the official site before you go.",
+   "geographic_location": "The fairgrounds are in eastern Albuquerque, in the International District. They sit between Central Avenue, Lomas Boulevard, San Pedro Drive and Louisiana Boulevard.",
+   "directions_text": "From central Albuquerque, head east along Central Avenue towards the fairgrounds. Check the fair's dates and parade schedule first, as the parade only runs on certain days. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for floats and the crowd along the kerb. Switch to telephoto (2x-5x, depending on your phone) for close shots of riders and lowriders without stepping into the road. Use the ultra-wide (0.5x) only if you are close and want the whole street.",
+    "where_to_stand": "Stand on Central Avenue (stretch at Alvarado, along the parade route). Parade floats, horse riders and lowriders coming down the avenue, with spectators lining the curb. From the kerb you see floats, horse riders and lowriders coming down the avenue, with spectators lining the edge. The fairgrounds are to the north.",
+    "how_to_frame": "Turn on gridlines and place the avenue along one of the lines, with the approaching parade filling the frame. Include a few spectators in the foreground for scale. For a different view, go inside the fair and photograph Main Street with the large American flag hanging over it, if entry is open to you.",
+    "phone_settings_tip": "Tap on a float or rider to lock focus, then slide the exposure down a little if the sky is bright. Live Photos or motion can catch a passing float well. Hold the phone steady with both hands, as everything is moving.",
+    "best_time": "Go on a parade day during the September fair, and check the official parade schedule for the start time. If you are not there for the parade, the street itself is much less interesting for photos."
+   },
+   "access_note": "Central Avenue is a public street, but the parade is only on certain days, so check the official site for parade dates and fairgrounds entry details before you go.",
+   "claims_not_in_sources": [
+    "The parade is held on specific days only, not every day of the fair.",
+    "Spectators can watch the parade from the kerb along Central Avenue."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "New Mexico State Fair",
+    "url": "https://en.wikipedia.org/wiki/New_Mexico_State_Fair"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (695 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "Steve Terrell from Santa Fe, USA",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:New_Mexico_State_Fair_2010.jpg",
+   "from": "Wikidata Q7010243 main image"
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Isotopes Park",
+  "in_cut": true,
+  "label": "Isotopes Park",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 30,
+  "pin": [
+   -106.6290352,
+   35.0699293
+  ],
+  "camera": [
+   -106.629035,
+   35.069929
+  ],
+  "camera_source": "Researched viewpoint 'Isotopes Park' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap way/215342548: the middle of the OpenStreetMap outline 'Isotopes Park' (175 m across).",
+  "notes": "Minor league ballpark of the Albuquerque Isotopes.",
+  "text": {
+   "description": "Isotopes Park, officially Rio Grande Credit Union Field at Isotopes Park, is the ballpark of the Albuquerque Isotopes baseball team. It is also home to New Mexico United soccer. It is a friendly, colourful subject, and the best free photos come from walking around the outside. The stucco walls and Southwestern colours stand out, and the Sandia Mountains frame the view as you go round the building.\n\nA few facts help explain what you see. The stadium holds 13,279 people. The playing field sits above 5,100 feet (1,555 m), which is why the ball carries so well here. The park replaced the old Albuquerque Sports Stadium, and only the playing field survives from that earlier ground. Inside the ballpark, statues of Homer, Marge, Lisa and Bart Simpson stand on the concourse. A 2001 episode of The Simpsons about a team called the Springfield Isotopes inspired the real team's name.\n\nFor your photos, take a slow lap of the outside and look for places where the building's lines lead towards the mountains. A shot with the stadium in the foreground and the Sandia Mountains behind makes a good souvenir of the city. The views from inside the ground, across the diamond with the mountains behind the outfield, are the other classic pictures. These generally need a game ticket, so check the Isotopes schedule if you want them.",
+   "geographic_location": "Isotopes Park is in Albuquerque, New Mexico. Its main gates are on Avenida Cesar Chavez SE.",
+   "directions_text": "No train or tram stop is listed near the park, so the simplest way is to get there by road from central Albuquerque. Head for the main gates on Avenida Cesar Chavez SE. Once there, the exterior is easy to walk around on foot. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) when you are close to the walls, to fit in the stucco frontage and the sky. Use the default lens (1x) for general views with the mountains behind. Switch to telephoto (2x-5x, depending on your phone) to pull the Sandia Mountains closer to the stadium.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Walk out to the outside of the building, for example near the main gates on Avenida Cesar Chavez SE, to take the exterior shots. From there you can photograph the stucco exterior and its Southwestern colours with the Sandia Mountains behind as you move round the building.",
+    "how_to_frame": "Turn on the gridlines and put the stadium wall on the lower third, with the mountains and sky above. Keep the phone level so the walls don't lean. If you get inside on a game day, the other popular view is across the diamond with the Sandia Mountains rising behind the outfield. The berm gives a wide view of the field and stadium, with the Simpsons-style statues for context.",
+    "phone_settings_tip": "Tap on the wall to set focus, then drag the exposure slider down a little so the sky and mountains keep their colour. Avoid flash if you photograph players close up.",
+    "best_time": "Around sunset, when the Sandia Mountains turn pink behind the stadium. The ballpark views at that time depend on games being played, and the season runs through the summer."
+   },
+   "access_note": "The outside of the stadium can be walked around, but views from inside the ballpark generally need a game ticket, so check the official site before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Isotopes Park",
+    "url": "https://en.wikipedia.org/wiki/Isotopes_Park"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "Matthew.kowal",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:New_Mexico_United_v._LA_Galaxy_II_at_Isotopes_Park_on_17_August_2019.jpg",
+   "from": "Wikidata Q3155623 main image"
+  }
+ },
+ {
+  "rank": 13,
+  "name": "New Mexico Museum of Natural History and Science",
+  "in_cut": true,
+  "label": "Natural History Museum",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 30,
+  "pin": [
+   -106.6658262,
+   35.0978956
+  ],
+  "camera": [
+   -106.665826,
+   35.097896
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap relation/20827165: the middle of the OpenStreetMap outline 'New Mexico Museum of Natural History & Science' (163 m across).",
+  "notes": "Dinosaurs, a volcano exhibit and a planetarium.",
+  "text": {
+   "description": "The New Mexico Museum of Natural History and Science sits just outside Old Town in Albuquerque, and the best outdoor photo is at the entrance, where two bronze dinosaurs stand guard. They are a Pentaceratops called Spike and an Albertosaurus called Alberta, made by the artist David A. Thomas and put in place in 1985 and 1987. They make a good subject because you can place a family member or friend next to them and the scale becomes obvious at once. The museum opened on 11 January 1986 on a site of roughly 4.8 acres, and it was set up partly so that New Mexico's dinosaur fossils could stay in the state. The outside of the building also has \"A Walk Through New Mexico\", a landscape display of the state's geology and terrain, which gives you a second, calmer subject for a wider shot. Inside there are eight halls that run from the birth of the Universe to the Ice Age, with dinosaur skeletons in the Jurassic Age of Super Giants hall, plus a planetarium. Inside photography rules can differ between galleries and exhibits, so look for signs or ask at the desk. For a good result outside, step back so the whole statue fits in the frame, keep the horizon level using the gridlines, and tap on the animal's face to set focus before you take the shot.",
+   "geographic_location": "In Albuquerque, New Mexico, close to Old Town.",
+   "directions_text": "No stations or tram stops are listed for this spot. Start from Old Town Albuquerque, which is the nearest well-known area, and head to the museum nearby. The phone icon on the map is at the middle of the museum's outline, and the bronze dinosaurs are at the entrance, so make your way to the entrance for the photo. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the dinosaur statues with a person beside them. Switch to the ultra-wide (0.5x) if you want the statue and the building behind it in a single frame.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Walk to the entrance to find them, then choose the side with the cleanest background.",
+    "how_to_frame": "Turn on the gridlines and place the dinosaur on one of the lines, with the building in the background. Crouch a little and hold the phone low so the statue looks larger against the sky. With the ultra-wide, keep the phone level and keep people away from the edges of the frame, because wide lenses stretch things there.",
+    "phone_settings_tip": "Tap on the statue to focus, then slide the exposure down a touch if the sky is bright so the bronze keeps its detail. Portrait mode works well for a person standing near a statue, as long as you stay a few steps away from them.",
+    "best_time": "Early or late in the day, when the sun is lower and the bronze looks warmer. Mid-afternoon sun may cast hard shadows on the statues."
+   },
+   "access_note": "The museum is a public facility of the New Mexico Department of Cultural Affairs; entry to the exhibits is likely ticketed, so check the official site before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "New Mexico Museum of Natural History and Science",
+    "url": "https://en.wikipedia.org/wiki/New_Mexico_Museum_of_Natural_History_and_Science"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "John Phelan",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:New_Mexico_Museum_of_Natural_History_and_Science,_Albuquerque_NM.jpg",
+   "from": "Wikidata Q3329691 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "The Pit (arena)",
+  "in_cut": true,
+  "label": "The Pit",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 30,
+  "pin": [
+   -106.6321619,
+   35.0667742
+  ],
+  "camera": [
+   -106.6321619,
+   35.0667742
+  ],
+  "camera_source": "Researched viewpoint 'University Stadium' (3 web pages); placed at OpenStreetMap 'University Stadium' (way/664199247): middle (285 m across).",
+  "pin_note": "Position from OpenStreetMap way/168082968: the middle of the OpenStreetMap outline 'The Pit' (230 m across).",
+  "notes": "Famous basketball arena of the New Mexico Lobos.",
+  "text": {
+   "description": "The Pit is the University of New Mexico's basketball arena, and from the outside it is a building with a surprise. It opened in 1966 as University Arena, but students were calling it \"The Pit\" before the first game. The playing floor sits 37 feet (11 m) below street level, so most of the arena is underground. Its 338-by-300-foot (103 m × 91 m) roof was built first, just above street level, and the bowl was dug out beneath it. That is why you see a low, wide building from the street rather than a tall stadium.\n\nFor a phone photo, the best view is the east side, looking west across University Blvd SE. From University Stadium you can fit in the glass tower and the curved roofline of the east facade, with the sky above. It is the classic outside view of the building. The main entrance has a street-level glass front with two wolf statues in the foreground, which makes a good second shot, more of a close-up with a bit of fun in it.\n\nThe arena holds 15,411 for basketball, but you will not see that from outside, so concentrate on the shapes: the roof curve, the glass and the straight lines of the facade. Take a wide shot first, then move closer for details. On event days there may be crowds or restrictions, so check before you go.",
+   "geographic_location": "The Pit is on the University of New Mexico's South Campus in Albuquerque, on University Blvd SE.",
+   "directions_text": "No station or tram stop is listed nearby, so travel by road to the UNM South Campus area and head for University Stadium on University Blvd SE. From there the arena is to the west, about 357 m away, a short walk. For the entrance shot with the wolf statues, walk across to the arena's main front. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole east facade, the glass tower and the curved roof from across the street. Then switch to the default lens (1x) for a tidier crop. Use the telephoto (2x-5x, depending on your phone) for details such as the glass tower or the roof edge.",
+    "where_to_stand": "Stand at University Stadium (east side of The Pit, across University Blvd SE, looking west). The arena's east facade with its glass tower and curved roof, as shown in a 2011 photo on Wikipedia. On the east side of The Pit, across University Blvd SE, and look west. From there you see the arena's east facade with its glass tower and curved roof.",
+    "how_to_frame": "Turn on gridlines and line up the glass tower against a vertical line so the facade does not lean. Leave some sky above the curved roof. Keep traffic and signs on University Blvd SE out of the lower edge, or let the road lead the eye towards the building. For a different shot, walk to the main entrance and photograph the glass front with the two wolf statues in the foreground.",
+    "phone_settings_tip": "Tap on the glass facade to set focus, then slide the exposure down a little if the sky is bright, so the building keeps its detail. Take a few frames at slightly different zoom levels, and hold the phone level to keep the lines straight.",
+    "best_time": "As an assumption, the east-facing front will generally be lit by morning sun. Event days may be busy, so check the arena's schedule first."
+   },
+   "access_note": "You can photograph the outside from the street, but event days and entry rules at University Stadium and the arena may limit access, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "The east-facing front will generally be lit by morning sun (an assumption).",
+    "Event days may bring crowds or restrictions around the arena and University Stadium."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "The Pit (arena)",
+    "url": "https://en.wikipedia.org/wiki/The_Pit_%28arena%29"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "PerryPlanet",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pit_mainentrance.jpg",
+   "from": "Wikidata Q7757281 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Rio Grande Zoo",
+  "in_cut": false,
+  "label": "Rio Grande Zoo",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 50,
+  "pin": [
+   -106.6627,
+   35.0776
+  ],
+  "camera": [
+   -106.6627,
+   35.0776
+  ],
+  "camera_source": "Researched viewpoint 'Rio Grande Zoo' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from Wikidata Q370775: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Zoo in the Albuquerque BioPark beside the Rio Grande.",
+  "text": {
+   "description": "The Rio Grande Zoo is the original name of what is now the ABQ BioPark Zoo, part of the Albuquerque Biological Park. It was founded in 1927 and covers 64 acres, so most of the photo opportunities are inside the gates. The one outdoor subject worth knowing about before you go is the entrance area. The metal sculptures near the gate are a highlight, and they make a simple, friendly first picture of the day. There is no recommended view of the zoo from a separate public spot outside, so treat the entrance as your main exterior shot.\n\nA few facts help you plan the rest of the visit. The zoo opens with Flamingo Crossing, a moated island of Caribbean flamingos among bamboo. Penguin Chill opened in July 2019 and has an outdoor deck overlooking the zoo's main park, as well as underwater viewing areas and a glass floor. A narrow-gauge railroad links the zoo to the other BioPark sites, and a walk right through the zoo is about 2.27 miles (3.65 km).\n\nFor the entrance, stand back far enough to fit the sculptures and the gate together, then move closer for a tighter shot of one sculpture. Keep people out of the frame by waiting a few seconds between groups. Visitors may photograph for personal use. Commercial work needs a permit from the BioPark.",
+   "geographic_location": "The zoo is in Albuquerque, New Mexico, at 903 10th St SW, and is one of the facilities of the Albuquerque Biological Park. The narrow-gauge railroad connects it to the park's other sites.",
+   "directions_text": "Head to the main entrance at 903 10th St SW using your usual local transport. Check the address on your map app before you set off. Once you are at the gate, the phone icon on the map is right at the entrance area. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the sculptures and gate. Switch to the ultra-wide (0.5x) if you want the whole entrance area, but keep the sculptures away from the edges of the frame, where they can look stretched. Use the telephoto (2x or more, depending on your phone) for details of a single sculpture.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here the photo shows the entrance area with the metal sculptures near the gate. This is the only zoo-specific outdoor photo spot, so check the layout on arrival.",
+    "how_to_frame": "Turn on the gridlines and place a sculpture on one of the lines, with the gate behind it for context. Take one wide shot of the whole entrance and one close shot of a sculpture. Crouch a little to make the sculptures look larger against the sky. There is no second recommended viewpoint outside the zoo.",
+    "phone_settings_tip": "Tap on a sculpture to focus, then drag the exposure slider down slightly if the sky is washing out. Portrait mode works well on a single sculpture if you stand close enough.",
+    "best_time": "Morning or late afternoon usually gives softer light on metal than the middle of the day. Arriving soon after opening also tends to mean fewer people in the shot."
+   },
+   "access_note": "The zoo is a managed attraction with an entrance, so check the official site before you go for entry details; personal photography is fine, but commercial work needs a BioPark permit."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /at the gate/"
+  ],
+  "sources": [
+   {
+    "title": "ABQ BioPark Zoo",
+    "url": "https://en.wikipedia.org/wiki/ABQ_BioPark_Zoo"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "en:User:Cburnett",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rio_Grande_Zoo_main_entrance.jpg",
+   "from": "Wikidata Q370775 main image"
+  }
+ }
+]

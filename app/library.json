@@ -1,5 +1,13 @@
 [
  {
+  "key": "albuquerque",
+  "place": "Albuquerque",
+  "country": "United States",
+  "spots": 14,
+  "mb": 10.3,
+  "photo": null
+ },
+ {
   "key": "amsterdam",
   "place": "Amsterdam",
   "country": "Netherlands",
