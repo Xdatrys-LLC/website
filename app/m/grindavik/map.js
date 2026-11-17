@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "grindavik", "title": "Grindavík: 4 photo spots (pilot review)", "place": "Grindavík", "bounds": [-22.475, 63.832, -22.37, 63.892], "center": [-22.4225, 63.862], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/grindavik/{z}/{x}/{y}.pbf", "tz": "Atlantic/Reykjavik", "rail": false, "app": true};
