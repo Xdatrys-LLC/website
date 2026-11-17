@@ -144,6 +144,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "miamibeach",
+  "place": "Miami Beach",
+  "country": "United States",
+  "spots": 15,
+  "mb": 3.2,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "milan",
   "place": "Milan",
   "country": "Italy",

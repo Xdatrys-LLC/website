@@ -1,0 +1,320 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Miami Beach Attractions Map: 15 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 15 best photo spots in Miami Beach, including Lincoln Road, Fontainebleau and Ocean Drive. Where to stand, phone tips, directions. First 3 free.">
+<meta name="keywords" content="lincoln road, miami beach fontainebleau, ocean drive">
+<link rel="canonical" href="https://xdatrys.com/library/miamibeach/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Miami Beach Attractions Map: 15 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 15 best photo spots in Miami Beach, including Lincoln Road, Fontainebleau and Ocean Drive. Where to stand, phone tips, directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/miamibeach/">
+<meta property="og:image" content="https://xdatrys.com/library/miamibeach/photos/1.jpg">
+<meta property="og:image:width" content="270"><meta property="og:image:height" content="480">
+<meta property="og:image:alt" content="Lincoln Road, Miami Beach: the pedestrian shopping street of South Beach. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/miamibeach/","url":"https://xdatrys.com/library/miamibeach/","name":"Miami Beach Attractions Map: 15 Best Photo Spots | Xdatrys","description":"Map of the 15 best photo spots in Miami Beach, including Lincoln Road, Fontainebleau and Ocean Drive. Where to stand, phone tips, directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/miamibeach/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Miami Beach"},"mainEntity":{"@type":"ItemList","name":"Miami Beach photo spots","numberOfItems":15,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Lincoln Road","description":"Lincoln Road is the pedestrian shopping street of South Beach, a long, car-free mall running east to west between 16th Street and 17th Street.","geo":{"@type":"GeoCoordinates","latitude":25.7905556,"longitude":-80.1363889},"alternateName":["Miami Beach Lincoln Road","Lincoln Road Mall"],"image":"https://xdatrys.com/library/miamibeach/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Fontainebleau Miami Beach","description":"The Fontainebleau is one of Miami Beach's best-known mid-century hotels, designed by Morris Lapidus and opened in 1954.","geo":{"@type":"GeoCoordinates","latitude":25.8182533,"longitude":-80.1220381},"alternateName":["Miami Beach Fontainebleau","Fontainebleau Hotel"],"image":"https://xdatrys.com/library/miamibeach/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Ocean Drive","description":"Ocean Drive is a major street in South Beach, the southern part of Miami Beach.","geo":{"@type":"GeoCoordinates","latitude":25.776755,"longitude":-80.131434},"alternateName":["Miami Beach Ocean Drive"],"image":"https://xdatrys.com/library/miamibeach/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/miamibeach/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Miami Beach","item":"https://xdatrys.com/library/miamibeach/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Miami Beach?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Lincoln Road, Fontainebleau and Ocean Drive. They are ranked by how often people search for them. The full map has 15."}},{"@type":"Question","name":"Where should I stand to photograph Lincoln Road?","acceptedAnswer":{"@type":"Answer","text":"Stand about 210 m east of Lincoln Road, at the phone icon on the map, and face west. Start with the default lens (1x) for the street as you see it."}},{"@type":"Question","name":"When is the best time to photograph the Fontainebleau?","acceptedAnswer":{"@type":"Answer","text":"Night, at blue hour, when the facade is lit and the sky still has some colour."}},{"@type":"Question","name":"How do I get to Ocean Drive?","acceptedAnswer":{"@type":"Answer","text":"No station or tram stop is listed for this spot."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Miami Beach</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/miamibeach/?gate" style="color:#E100FF">✏️ Review all 15 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>15 photo spots in Miami Beach: where to stand and how to shoot them on your phone</h1>
+  <p>15 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 12 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 15 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/miamibeach/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 15 photo spots in Miami Beach"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 15 of the most-searched sights in Miami Beach as photo spots, ranked by how often people search for them: Lincoln Road, Fontainebleau, Ocean Drive, Eden Roc Hotel and New World Center lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Lincoln Road</h3>
+    <figure><img src="photos/1.jpg" alt="Lincoln Road, Miami Beach: the pedestrian shopping street of South Beach. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 0.5x</figcaption></figure>
+    <p>Lincoln Road is the pedestrian shopping street of South Beach, a long, car-free mall running east to west between 16th Street and 17th Street. It was a mangrove forest until 1912, when Carl Fisher cleared a strip across the island from the ocean side to Biscayne Bay. In the 1950s the architect Morris Lapidus redesigned it in his Miami Modern (&#34;MiMo&#34;) style, with gardens, fountains, shelters and an amphitheatre. It had its grand opening as a pedestrian mall on 28 November 1960, and it was added to the National Register of Historic Places in 2011.</p><p>For photos, the mall gives you a long straight view with cafe tables, palms, shop fronts and people strolling, so the scene has plenty of depth. Street performers and the mix of old and new buildings add variety, and the Lapidus shapes and planted areas make good foreground detail. Walk a little further to find the garden-style western block by Raymond Jungles, a good place for greenery shots. It is a busy place, so allow time to wait for a gap in the crowd, and watch your bag and phone when you stop to compose.</p>
+    <p><b>Where it is:</b> Lincoln Road is in South Beach, in the southern part of Miami Beach. The mall runs between 16th Street and 17th Street, from Washington Avenue in the east to Alton Road in the west.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the street as you see it. Switch to the ultra-wide (0.5x) for the full width of the mall with tables and palms. Use telephoto (2x or more, depending on your phone) to pick out a performer, a shop front or a detail of the planting.</p>
+      <p><b>Where to stand:</b> Stand about 210 m east of the subject, at the phone icon on the map, and face west.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the street up with the centre so the shop fronts lead the eye down the mall. Keep your phone level, as tilting will bend the vertical lines of the buildings. Put some tables or planters in the foreground for depth, and wait for a gap in the crowd if you want a clear view. For a closer shot, try a side-on view of a garden or fountain area.</p>
+      <p><b>Settings tip:</b> Tap on the street or a person to set focus, then slide the exposure down a touch if the sky is washing out. If a stranger is clearly the subject, try portrait mode; otherwise stay with the normal photo mode. After dark, night mode helps with the shop and restaurant lights, but hold the phone against something steady.</p>
+      <p><b>Best time:</b> Early morning is the quietest time for clear views of the street. In the late afternoon and evening the mall is livelier and the lights come on, but you will be facing west, towards the low sun, so use the exposure slider.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Fontainebleau Miami Beach</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Miami_Beach_FL_Fontainebleau01.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Fontainebleau Miami Beach, Miami Beach: one of Miami Beach&#39;s best-known mid-century hotels. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Ebyabe, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Fontainebleau is one of Miami Beach&#39;s best-known mid-century hotels, designed by Morris Lapidus and opened in 1954. Its big curved oceanfront wing is the shape everyone remembers, and it is the reason the hotel works so well in a photo. From Collins Avenue you can line the curve up down the street, and it looks best when the building is lit at dusk or after dark. The hotel has a long film history too. It appears in the opening aerial shot after the credits of the 1964 James Bond film Goldfinger. Its architecture has also been recognised: in 2012 the American Institute of Architects&#39; Florida Chapter ranked it first on its list of Florida&#39;s 100 places, and it joined the National Register of Historic Places in December 2008. That was the same year it reopened after a renovation of about $1 billion, which added newer towers while keeping Lapidus&#39;s original look. For a phone photo, stand on the pavement of Collins Avenue and look north, so the curved front sits to your right and leads the eye down the avenue. Keep the vertical lines straight with the gridlines. Wait for the lights to come on rather than shooting in flat daylight. An alternative is the hotel&#39;s Ocean Lawn on the oceanfront side, which gives sunrise light with the Atlantic in front, but it is hotel property.</p>
+    <p><b>Where it is:</b> The Fontainebleau sits on Collins Avenue in Miami Beach, Florida, on the oceanfront side of the avenue.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to frame the curved facade down the avenue. Try the ultra-wide (0.5x) if you want more of the street and sky, but keep the building away from the edges of the frame, where it can stretch. The telephoto (2x or more) is useful for picking out the curve of the front from further back.</p>
+      <p><b>Where to stand:</b> Stand on Collins Avenue (looking north along Collins Avenue toward the curved oceanfront facade). The hotel&#39;s curved Lapidus facade framed down the avenue, most striking when the building is lit at night. The hotel&#39;s long curved oceanfront front is to the east, on your right, and should lead into the picture.</p>
+      <p><b>Framing:</b> Turn on the gridlines and use the avenue&#39;s edge as a guide line, keeping the building&#39;s verticals upright. Leave some dark sky above the roofline. If you have time at the Ocean Lawn on the oceanfront side, it gives a different view of the building with the sea and sunrise in front, but it is hotel property, so check the official site before you go.</p>
+      <p><b>Settings tip:</b> Use night mode once the light drops, and hold the phone steady with your elbows tucked in. Tap on the lit facade to focus, then slide the exposure down a little so the lights do not wash out. Take a few shots, as passing traffic will change each one.</p>
+      <p><b>Best time:</b> Night, at blue hour, when the facade is lit and the sky still has some colour.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Ocean Drive</h3>
+    <figure><img src="photos/3.jpg" alt="Ocean Drive, Miami Beach: a major street in South Beach. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Ocean Drive is a major street in South Beach, the southern part of Miami Beach. It runs north from South Pointe, just south of 1st Street, up to 15th Street, close to the Atlantic. It sits at the centre of the Miami Art Deco District, which has about 900 preserved buildings and is on the National Register of Historic Places. The street was developed in the 1920s and 1930s, and the rounded Streamline Moderne style dominates it. That is what you are photographing: rows of pastel hotel fronts, curved corners, neon signs and café terraces, all lined up along one straight street. The 1939 Colony Hotel is described as the most photographed Art Deco hotel here, and it makes an easy anchor for a picture. The Carlyle appeared in The Birdcage (1996), and the Clevelander is another popular Art Deco hotel. The street is long, so pick one stretch and keep your picture simple. A wide shot down the pavement shows the whole line of buildings, while a closer shot of a single sign, balcony or doorway shows the detail. Pavements and terraces get busy, so look for gaps between people or include them for a sense of life.</p>
+    <p><b>Where it is:</b> Ocean Drive is in the South Beach district at the southern end of Miami Beach. It runs from South Pointe to 15th Street, starting about a quarter mile west of the Atlantic at its southern end, and lies just south-east of Lincoln Road.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for most street views. Switch to ultra-wide (0.5x) when you want a whole hotel front, or when you are close to a building. Use telephoto (2x-5x, depending on your phone) to pick out a sign or rooftop detail further down the street.</p>
+      <p><b>Where to stand:</b> Stand about 510 m north of the subject, at the phone icon on the map, and face south. From there the line of Art Deco buildings leads your eye down the road. Walk south for closer pictures of individual hotels.</p>
+      <p><b>Framing:</b> Turn on gridlines and keep the vertical lines of the buildings straight. Place the street along a diagonal to give the picture depth. For a single hotel, stand square-on to the front and use the 1x lens. For a more relaxed street scene, include a few pedestrians or café tables for scale.</p>
+      <p><b>Settings tip:</b> Tap on a pastel wall to set focus, then lower the exposure slider slightly so the colours stay rich and neon signs do not blow out. After dark, use night mode and rest your elbows against something firm to keep the shot sharp.</p>
+      <p><b>Best time:</b> Early morning is usually quieter, with softer light on the facades. Around dusk and after dark the neon signs come on and the street looks quite different.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>12 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Eden Roc Miami Beach Hotel <small>· members</small></li>
+    <li><span class="n">5</span>New World Center <small>· members</small></li>
+    <li><span class="n">6</span>Casa Casuarina <small>· members</small></li>
+    <li><span class="n">7</span>Joe&#39;s Stone Crab <small>· members</small></li>
+    <li><span class="n">8</span>Delano Miami Beach Hotel <small>· members</small></li>
+    <li><span class="n">9</span>Lummus Park <small>· members</small></li>
+    <li><span class="n">10</span>South Pointe Park <small>· members</small></li>
+    <li><span class="n">11</span>Bass Museum <small>· members</small></li>
+    <li><span class="n">12</span>Española Way <small>· members</small></li>
+    <li><span class="n">13</span>Holocaust Memorial of the Greater Miami Jewish Federation <small>· members</small></li>
+    <li><span class="n">14</span>Wolfsonian–FIU <small>· members</small></li>
+    <li><span class="n">15</span>Miami Beach Community Church <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Miami Beach?</summary><p>The first three on this map are Lincoln Road, Fontainebleau and Ocean Drive. They are ranked by how often people search for them. The full map has 15.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Lincoln Road?</summary><p>Stand about 210 m east of Lincoln Road, at the phone icon on the map, and face west. Start with the default lens (1x) for the street as you see it.</p></details>
+  <details class="faq"><summary>When is the best time to photograph the Fontainebleau?</summary><p>Night, at blue hour, when the facade is lit and the sky still has some colour.</p></details>
+  <details class="faq"><summary>How do I get to Ocean Drive?</summary><p>No station or tram stop is listed for this spot.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Lincoln_Road" target="_blank" rel="noopener">Lincoln Road</a>, <a href="https://en.wikipedia.org/wiki/Fontainebleau_Miami_Beach" target="_blank" rel="noopener">Fontainebleau Miami Beach</a>, <a href="https://en.wikipedia.org/wiki/Ocean_Drive_%28South_Beach%29" target="_blank" rel="noopener">Ocean Drive (South Beach)</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"miamibeach","place":"Miami Beach","bounds":[-80.145,25.76,-80.118,25.822],"center":[-80.13149999999999,25.791],"english":false,"vatican":false,"tiles":"/r2tiles/miamibeach/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>
