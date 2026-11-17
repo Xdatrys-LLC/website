@@ -1004,9 +1004,9 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 101,
   "name": "Bosingak",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Bosingak Belfry",
   "camera_pill": null,
   "nophone": true,
@@ -1056,7 +1056,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/101.jpg",
    "artist": "Steve46814 (talk)",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",

@@ -1,1 +1,1 @@
-window.MAPCFG = {"key": "seoul", "title": "Seoul: 19 photo spots (pilot review)", "place": "Seoul", "bounds": [126.96, 37.505, 127.11, 37.59], "center": [127.035, 37.5475], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/seoul/{z}/{x}/{y}.pbf"};
+window.MAPCFG = {"key": "seoul", "title": "Seoul: 18 photo spots (pilot review)", "place": "Seoul", "bounds": [126.96, 37.505, 127.11, 37.59], "center": [127.035, 37.5475], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/seoul/{z}/{x}/{y}.pbf"};

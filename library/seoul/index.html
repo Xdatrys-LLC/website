@@ -1,0 +1,323 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Seoul: 18 Photo Spots &amp; Best Views | Xdatrys</title>
+<meta name="description" content="18 top Seoul attractions as photo spots, including Gyeongbokgung and Namdaemun Gate: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in seoul, seoul attractions, seoul tourist map, map of seoul attractions, best views in seoul, best photo spots in seoul, seoul gyeongbokgung, namdaemun, seoul namdaemun market">
+<link rel="canonical" href="https://xdatrys.com/library/seoul/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Seoul: 18 Photo Spots &amp; Best Views | Xdatrys">
+<meta property="og:description" content="18 top Seoul attractions as photo spots, including Gyeongbokgung and Namdaemun Gate: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/seoul/">
+<meta property="og:image" content="https://xdatrys.com/library/seoul/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Gyeongbokgung Palace, Seoul: now one of the most significant tourist attractions in South Korea. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/seoul/","url":"https://xdatrys.com/library/seoul/","name":"Things to Do in Seoul: 18 Photo Spots & Best Views | Xdatrys","description":"18 top Seoul attractions as photo spots, including Gyeongbokgung and Namdaemun Gate: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/seoul/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Seoul"},"mainEntity":{"@type":"ItemList","name":"Seoul photo spots","numberOfItems":18,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Gyeongbokgung Palace","description":"Gyeongbokgung was the first royal palace of the Joseon dynasty, established in 1395, and it is now one of the most significant tourist attractions in South Korea.","geo":{"@type":"GeoCoordinates","latitude":37.579884,"longitude":126.9768},"alternateName":["Seoul Gyeongbokgung"],"image":"https://xdatrys.com/library/seoul/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Sungnyemun (Namdaemun)","description":"Sungnyemun, also called Namdaemun or the South Great Gate, is the southern gate of the old Seoul City Wall.","geo":{"@type":"GeoCoordinates","latitude":37.5599862,"longitude":126.9753604},"alternateName":["Seoul Namdaemun","Namdaemun","Sungnyemun"],"image":"https://xdatrys.com/library/seoul/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Namdaemun Market","description":"Namdaemun Market is a big, busy traditional market right beside Namdaemun, the main southern gate of the old city.","geo":{"@type":"GeoCoordinates","latitude":37.559485,"longitude":126.9773414},"alternateName":["Seoul Namdaemun Market"]}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/seoul/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Seoul","item":"https://xdatrys.com/library/seoul/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Seoul?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Gyeongbokgung, Namdaemun Gate and Namdaemun Market. They are ranked by how often people search for them. The full map has 18."}},{"@type":"Question","name":"Where should I stand to photograph Gyeongbokgung?","acceptedAnswer":{"@type":"Answer","text":"Stand about 70 m south of Gyeongbokgung, at the phone icon on the map, and face north. Start with the default lens (1x) for the main view."}},{"@type":"Question","name":"When is the best time to photograph Namdaemun Gate?","acceptedAnswer":{"@type":"Answer","text":"Evening or night, when the city-view lighting is on and the gate is lit up."}},{"@type":"Question","name":"How do I get to Namdaemun Market?","acceptedAnswer":{"@type":"Answer","text":"Head for Namdaemun, the old city's main southern gate, which the market sits beside."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Seoul</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/seoul/?gate" style="color:#E100FF">✏️ Review all 18 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>18 photo spots in Seoul: where to stand and how to shoot them on your phone</h1>
+  <p>18 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 15 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 18 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/seoul/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 18 photo spots in Seoul"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 18 of the most-searched sights in Seoul as photo spots, ranked by how often people search for them: Gyeongbokgung, Namdaemun Gate, Namdaemun Market, Gwanghwamun Square and N Seoul Tower lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Gyeongbokgung Palace</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Gyeongbokgung Palace, Seoul: now one of the most significant tourist attractions in South Korea. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: 서울관광 아카이브, <a href="http://www.kogl.or.kr/info/licenseType1.do" target="_blank" rel="noopener license">KOGL Type 1</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Gyeongbokgung was the first royal palace of the Joseon dynasty, established in 1395, and it is now one of the most significant tourist attractions in South Korea. It photographs well because the grounds are large and open, with long stretches of tiled roofs, stone paving and timber halls that give your pictures plenty of depth and pattern. The palace flourished under Sejong the Great, and Hangul, the Korean script, was developed here during his reign. It has a turbulent story too. It was burned down in 1592 during the Imjin War and left unused for around 270 years, then rebuilt in the 1860s. During the colonial period most of its roughly 500 buildings were sold off or demolished, and by 1945 only 40 pre-colonial buildings remained. Restoration since the 1980s has recreated dozens of them. For photos, plan on a mix of wide views and close details. Start with a wide shot to show the scale of the courtyards, then move in on painted eaves, doorways and stonework. A changing of the guard ceremony takes place twice a day, which adds colour and movement if you time your visit for it. Please be considerate when people wander into your frame. Check the official site for current visiting arrangements before you go.</p>
+    <p><b>Where it is:</b> Gyeongbokgung Palace is in Seoul, South Korea, and covers a large area.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the main view. Switch to ultra-wide (0.5x) if you want a courtyard and the buildings around it in one frame. Use telephoto (2x-5x, depending on your phone) for roof ends, painted beams and carved details.</p>
+      <p><b>Where to stand:</b> Stand about 70 m south of the subject, at the phone icon on the map, and face north.</p>
+      <p><b>Framing:</b> Turn on gridlines and line up the main hall or gate on a vertical line, keeping the horizon level so the long rooflines do not slope. Include a bit of paving in the foreground to add depth. Take one wide shot and then zoom in for a few detail shots. Wait a moment for people to pass if you want a clearer view.</p>
+      <p><b>Settings tip:</b> Tap on the building to set focus, then slide the exposure down slightly if the sky is bright, so the roof colours do not wash out. Try a Live Photo for the guard ceremony or for moving crowds.</p>
+      <p><b>Best time:</b> Early morning or late afternoon usually gives softer light and fewer people. The palace is open at night for part of the year, so check the official site for dates before planning an evening visit.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Sungnyemun (Namdaemun)</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Sungnyemun_Gate,_front,_2013.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Sungnyemun (Namdaemun), Seoul: the southern gate of the old Seoul City Wall. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: DoulosCore, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Sungnyemun, also called Namdaemun or the South Great Gate, is the southern gate of the old Seoul City Wall. It stands in Jung District, with the busy Namdaemun Market right beside it. The gate was first built in 1398 and rebuilt in 1447. It was named South Korea&#39;s National Treasure No. 1 in 1962. In February 2008 a fire destroyed the wooden upper storey, and after a long restoration the gate reopened in May 2013. It photographs well because the two-tiered tiled roof sits in the middle of a modern city of traffic, towers and market streets. That contrast is the picture.</p><p>From up there you look down over the station and the streets towards Namdaemun Market, and the gate appears as part of the wider scene rather than filling the frame. This makes a calmer alternative to standing at street level. For a close, full view of the gate, walk over and shoot from outside it. It is framed by the surrounding city and lit up in the evening. Keep the gate itself in the frame rather than cropping the roof, and use the city lights around it to add depth.</p>
+    <p><b>Where it is:</b> Sungnyemun is in Jung District in central Seoul, between Seoul Station and Seoul Plaza, with Namdaemun Market next to it.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole scene of station, streets and gate. Then try telephoto (2x-5x, depending on your phone) to bring the gate closer. Use ultra-wide (0.5x) only if you want the walkway and the city in the same frame.</p>
+      <p><b>Where to stand:</b> Stand in 서울로7017 (elevated walkway over Seoul Station, reached by lift, stairs or ramp). A looking-down view over Seoul Station and the streets toward Namdaemun Market, with the gate in the wider scene. The elevated walkway over Seoul Station. From here you look down over the station and the streets towards Namdaemun Market, with the gate in the wider scene to the north-west.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the gate on one of the lines, with the streets leading towards it. If the gate looks small, zoom in rather than walking away from the railing. For a full, close view of the two-storey wooden roof, shoot from outside the gate itself instead.</p>
+      <p><b>Settings tip:</b> Tap the gate to focus, then lower the exposure slider a little so the lit roof and city lights do not wash out. In the evening, switch on night mode and rest your elbows on the railing to keep the phone steady.</p>
+      <p><b>Best time:</b> Evening or night, when the city-view lighting is on and the gate is lit up.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Namdaemun Market</h3>
+    
+    <p>Namdaemun Market is a big, busy traditional market right beside Namdaemun, the main southern gate of the old city. It opened in 1414, in the Joseon period, which makes it one of the oldest markets in Korea that still operates. Fires have destroyed it several times, including one during the Korean War, and each time it was rebuilt to roughly the same size. Today it is modernised but still lively. A 2016 count by the Seoul Institute listed about 5,200 stores and 9,090 workers across roughly 64,600 square metres. That scale is what makes it good for photos. You get crowded lanes, stacked goods, hanging signs and people at work, all in strong colour and close to hand. A phone suits this kind of picture well. Take one wide shot to show the busy lane, then move in on the details: a pile of goods, a handwritten sign, a vendor&#39;s hands. Keep your elbows in, step to the side of the walkway before you stop, and ask before you photograph anyone up close, since these are people&#39;s workplaces. Check the exposure after each shot, because bright signs and dark awnings can fool the camera.</p>
+    <p><b>Where it is:</b> In central Seoul, next to Namdaemun, the main southern gate of the old city.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for lane scenes. Switch to ultra-wide (0.5x) in tight, crowded aisles, and to telephoto (2x or more, depending on your phone) for stall details without leaning into people&#39;s space.</p>
+      <p><b>Where to stand:</b> Stand on Kalguksu Alley (narrow lane of noodle stalls inside Namdaemun Market). Vendors&#39; bowls of handmade noodle soup in a narrow lane, with rising steam and colorful ingredients in the foreground.</p>
+      <p><b>Framing:</b> Turn on gridlines and line a lane up with the centre so it leads the eye into the picture. Take one wide shot of the whole scene, then a closer one of a single stall or product. Keep the phone straight to avoid leaning walls.</p>
+      <p><b>Settings tip:</b> Tap on a mid-tone area to set focus, then drag the exposure slider down slightly so bright signs and lights don&#39;t wash out. Try portrait mode on goods piled on a stall, and use Live Photos for moving crowds.</p>
+      <p><b>Best time:</b> Earlier in the day usually means fewer people and easier framing, and the market has long been known for its morning trade. Daylight also keeps colours true, so use night mode only if you shoot after dark.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>15 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Gwanghwamun Square <small>· members</small></li>
+    <li><span class="n">5</span>N Seoul Tower <small>· members</small></li>
+    <li><span class="n">6</span>Bukchon Hanok Village <small>· members</small></li>
+    <li><span class="n">7</span>Gwangjang Market <small>· members</small></li>
+    <li><span class="n">8</span>Lotte World Tower <small>· members</small></li>
+    <li><span class="n">9</span>Cheonggyecheon <small>· members</small></li>
+    <li><span class="n">10</span>Insa-dong <small>· members</small></li>
+    <li><span class="n">11</span>Changdeokgung Palace <small>· members</small></li>
+    <li><span class="n">12</span>Dongdaemun Design Plaza <small>· members</small></li>
+    <li><span class="n">13</span>Jogyesa Temple <small>· members</small></li>
+    <li><span class="n">14</span>Gwanghwamun Gate <small>· members</small></li>
+    <li><span class="n">15</span>Deoksugung Palace <small>· members</small></li>
+    <li><span class="n">16</span>Jongmyo Shrine <small>· members</small></li>
+    <li><span class="n">17</span>Myeongdong Cathedral <small>· members</small></li>
+    <li><span class="n">18</span>Seoullo 7017 <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Seoul?</summary><p>The first three on this map are Gyeongbokgung, Namdaemun Gate and Namdaemun Market. They are ranked by how often people search for them. The full map has 18.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Gyeongbokgung?</summary><p>Stand about 70 m south of Gyeongbokgung, at the phone icon on the map, and face north. Start with the default lens (1x) for the main view.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Namdaemun Gate?</summary><p>Evening or night, when the city-view lighting is on and the gate is lit up.</p></details>
+  <details class="faq"><summary>How do I get to Namdaemun Market?</summary><p>Head for Namdaemun, the old city&#39;s main southern gate, which the market sits beside.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Gyeongbokgung" target="_blank" rel="noopener">Gyeongbokgung</a>, <a href="https://en.wikipedia.org/wiki/Namdaemun" target="_blank" rel="noopener">Namdaemun</a>, <a href="https://en.wikipedia.org/wiki/Namdaemun_Market" target="_blank" rel="noopener">Namdaemun Market</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"seoul","place":"Seoul","bounds":[126.96,37.505,127.11,37.59],"center":[127.035,37.5475],"english":false,"vatican":false,"tiles":"/r2tiles/seoul/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

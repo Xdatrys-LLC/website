@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "seville", "title": "Seville: 19 photo spots (pilot review)", "place": "Seville", "bounds": [-6.012, 37.364, -5.975, 37.412], "center": [-5.993499999999999, 37.388], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/seville/{z}/{x}/{y}.pbf"};
