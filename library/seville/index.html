@@ -1,0 +1,326 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Seville Attractions Map: 19 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Seville tourist map of 19 top photo spots, including Real Alcázar and Plaza de España: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in seville, seville attractions, seville tourist map, map of seville attractions, best views in seville, best photo spots in seville, seville alcazar, plaza de españa, santa cruz seville">
+<link rel="canonical" href="https://xdatrys.com/library/seville/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Seville Attractions Map: 19 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Seville tourist map of 19 top photo spots, including Real Alcázar and Plaza de España: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/seville/">
+<meta property="og:image" content="https://xdatrys.com/library/seville/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="375">
+<meta property="og:image:alt" content="Real Alcázar of Seville, Seville: a royal palace. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/seville/","url":"https://xdatrys.com/library/seville/","name":"Seville Attractions Map: 19 Best Photo Spots | Xdatrys","description":"A Seville tourist map of 19 top photo spots, including Real Alcázar and Plaza de España: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/seville/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Seville"},"mainEntity":{"@type":"ItemList","name":"Seville photo spots","numberOfItems":19,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Real Alcázar of Seville","description":"The Real Alcázar is a royal palace in the heart of Seville, and it is still one of the official residences of the Spanish royal family.","geo":{"@type":"GeoCoordinates","latitude":37.3844261490673,"longitude":-5.99118662585353},"alternateName":["Seville Alcazar"],"image":"https://xdatrys.com/library/seville/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Plaza de España","description":"Plaza de España is a huge half-circle of brick and tile on the edge of Maria Luisa Park.","geo":{"@type":"GeoCoordinates","latitude":37.37694444,"longitude":-5.98694444},"alternateName":["Seville Plaza de Espana"],"image":"https://xdatrys.com/library/seville/photos/2.jpg"}},{"@type":"ListItem","position":6,"item":{"@type":"TouristAttraction","name":"Santa Cruz","description":"Santa Cruz is the old Jewish quarter of Seville, a tight knot of whitewashed lanes, small squares and orange trees next to the Cathedral and the Real Alcázar.","geo":{"@type":"GeoCoordinates","latitude":37.385,"longitude":-5.9902778},"alternateName":["Santa Cruz Neighborhood"],"image":"https://xdatrys.com/library/seville/photos/6.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/seville/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Seville","item":"https://xdatrys.com/library/seville/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Seville?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Real Alcázar, Plaza de España and Seville Cathedral. They are ranked by how often people search for them. The full map has 19."}},{"@type":"Question","name":"Where should I stand to photograph the Real Alcázar?","acceptedAnswer":{"@type":"Answer","text":"Stand in Plaza del Triunfo (centre of the square, facing the Puerta del León). Start with the default lens (1x) to fit the gate and walls in one frame."}},{"@type":"Question","name":"When is the best time to photograph Plaza de España?","acceptedAnswer":{"@type":"Answer","text":"Early morning gives the emptiest frames, but one guide says the sun rises behind the main building, so much of the plaza stays in shade until late morning. Crowds build from about 10–11 AM, and the central bridges get busy then."}},{"@type":"Question","name":"How do I get to Barrio Santa Cruz?","acceptedAnswer":{"@type":"Answer","text":"There is no Underground or tram stop right at this spot, so head for the Cathedral and Giralda area and walk into the quarter's lanes."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Seville</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/seville/?gate" style="color:#E100FF">✏️ Review all 19 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>19 photo spots in Seville: where to stand and how to shoot them on your phone</h1>
+  <p>19 photo spots on one map. Spots 1, 2 and 6 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 16 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 19 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/seville/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 19 photo spots in Seville"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 19 of the most-searched sights in Seville as photo spots, ranked by how often people search for them: Real Alcázar, Plaza de España, Seville Cathedral, Metropol Parasol and Casa de Pilatos lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Real Alcázar of Seville</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Patio_de_las_doncellas001.JPG" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Real Alcázar of Seville, Seville: a royal palace. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: لا روسا, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Real Alcázar is a royal palace in the heart of Seville, and it is still one of the official residences of the Spanish royal family. The site began as an Islamic-era citadel in the 10th century. After the Castilian conquest in 1248 it was rebuilt again and again, and the best-known part today is the richly decorated Mudéjar palace built by Pedro I in the 1360s. Together with the neighbouring Cathedral and the General Archive of the Indies, it was made a UNESCO World Heritage Site in 1987.</p><p>For a phone photo, the outside is the easiest place to start. From the middle of Plaza del Triunfo you can step back far enough to fit the main gate, the Puerta del León, and the long brick walls into one frame, with the Cathedral and the Giralda close by. The square is open, so you have room to find the angle you want. Early morning is the time guides recommend, because the facade catches direct sun.</p><p>If you want a second picture, try Calle Agua, a narrow whitewashed lane with the palace wall on one side and bougainvillea overhead. The Jardines de Murillo also work well: palm and orange trees and tiled benches sit in front of the outer wall. The Patio de Banderas, just outside the palace exit, is free to enter and gives a good view of the Giralda, but it fills up with people leaving the palace.</p>
+    <p><b>Where it is:</b> In the historic centre of Seville, right beside the Cathedral and the General Archive of the Indies. Plaza del Triunfo faces the Alcázar&#39;s main gate, the Puerta del León, across the open square.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to fit the gate and walls in one frame. Switch to ultra-wide (0.5x) if the square is busy and you cannot step back any further. Use telephoto (2x-5x, depending on your phone) for details of the gate and the brickwork.</p>
+      <p><b>Where to stand:</b> Stand in Plaza del Triunfo (centre of the square, facing the Puerta del León). The Alcázar&#39;s main gate and brick walls framed across the open square, with the Cathedral and Giralda close by. Guides recommend the centre of Plaza del Triunfo, facing the Puerta del León, as the viewpoint for the main gate and brick walls, with the Cathedral and Giralda close by.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the gate up with the centre of the frame, keeping the walls straight and level. Step back until the whole entrance fits. For a different picture, try Calle Agua, where the whitewashed lane and bougainvillea lead the eye along the palace wall.</p>
+      <p><b>Settings tip:</b> Tap on the sunlit wall to set focus, then lower the exposure slider a little so the brick keeps its colour and the sky does not wash out.</p>
+      <p><b>Best time:</b> Early morning, when the facade catches direct sun.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Plaza de España</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Plaza de España, Seville: a huge half-circle of brick and tile on the edge of Maria Luisa Park. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Carlos Delgado, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Plaza de España is a huge half-circle of brick and tile on the edge of Maria Luisa Park. It was built in 1928 for the Ibero-American Exposition of 1929 and designed by Aníbal González. It mixes Baroque, Renaissance and Moorish-inspired styles, which gives it plenty of detail for a phone camera. A canal curves in front of the building, and four bridges cross it, each standing for one of the ancient kingdoms of Spain. The Vicente Traver fountain sits in the centre, and the tiled alcoves along the walls each represent a different province of Spain.</p><p>The plaza photographs well because everything is symmetrical and curved. From the upper gallery balconies above the arcades, near the central section, you get a high, wide view with the canal, the central fountain and both towers in one frame. That extra height is why several guides rate it as the most iconic wide view of the square. Staircases at several points along the building lead up to the gallery. Back at ground level, the curved facade reflected in the canal makes a good second shot, and the sweep of the building leads the eye into the frame. The tiled alcoves are popular for portraits. The plaza has also appeared in films, including Star Wars: Episode II – Attack of the Clones. Water features are sometimes drained, which changes the canal shots, so be ready to focus on the architecture instead.</p>
+    <p><b>Where it is:</b> Plaza de España is in the southern part of central Seville, on the edge of Maria Luisa Park, which was the main site of the 1929 exposition.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the whole curve of the plaza, the canal and both towers in one frame. Use the default lens (1x) for a calmer, less stretched view of the central section. Switch to the telephoto (2x-5x, depending on your phone) for the towers, the tilework and the alcoves.</p>
+      <p><b>Where to stand:</b> Stand at Plaza de España (upper gallery balconies above the arcades, near the central section). A high, wide overview of the whole plaza, with the canal, central fountain and both towers in one frame. The place to shoot from is the upper gallery balconies above the arcades, near the central section, which you reach by the staircases along the building. From the gallery, look out over the balustrade to see the canal, the central fountain and both towers together.</p>
+      <p><b>Framing:</b> Turn on gridlines and line up the fountain with the middle of the frame so the symmetry looks deliberate. Keep the canal in the lower third and let the curve of the building run across the top. For a different shot, go back to ground level by the canal and bridge and photograph the semicircular facade with its reflection in the water.</p>
+      <p><b>Settings tip:</b> Tap on the brightest part of the facade to focus, then lower the exposure slider slightly so the sky and the brick keep their detail. Hold the phone level against the gridlines, because the curved lines show any tilt. Portrait mode works well for people in front of the tiled alcoves.</p>
+      <p><b>Best time:</b> Early morning gives the emptiest frames, but one guide says the sun rises behind the main building, so much of the plaza stays in shade until late morning. Crowds build from about 10–11 AM, and the central bridges get busy then.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-6">
+    <h3><span class="n">6</span>Santa Cruz</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Santa_Cruz_(1).jpg" target="_blank" rel="noopener"><img src="photos/6.jpg" alt="Santa Cruz, Seville: the old Jewish quarter of Seville. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Vanbasten 23, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Santa Cruz is the old Jewish quarter of Seville, a tight knot of whitewashed lanes, small squares and orange trees next to the Cathedral and the Real Alcázar. When Ferdinand III of Castile took the city, he gathered Seville&#39;s Jewish community into this one neighbourhood. After 1492 the area declined, and it was renewed in the 18th century. The best place to start with a phone is the Plaza de Santa Cruz. The square takes its name from a Mudéjar church that once stood here. It was pulled down during the Napoleonic Wars, and the old floor became the square. The painter Murillo was buried in that church. In the middle stands the wrought-iron Cruz de la Cerrajería, set in a small raised garden with steps, hedged paths and orange trees around it. That gives you a neat, layered picture: dark ironwork against pale walls, with greenery framing it. Guides describe it as a quiet, shaded spot. It is also pleasant in the morning, before the tour groups arrive. Take a wide shot of the whole square first, then step closer for the cross and the foliage. Keep an eye on the background, because people tend to wander through. Afterwards, wander the lanes towards the Cathedral side for narrow, shadowy street scenes where a vertical frame works well.</p>
+    <p><b>Where it is:</b> Santa Cruz is in the old centre of Seville, between the Jardines de Murillo, the Real Alcázar and Calle Mateos Gago, right beside the Cathedral and the Giralda. The Plaza de Santa Cruz is a small square inside the quarter.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the cross and its garden. Use the ultra-wide (0.5x) for the whole square or the narrowest lanes, and the telephoto (2x-5x, depending on your phone) for the ironwork and orange-tree details.</p>
+      <p><b>Where to stand:</b> Stand in Plaza de Santa Cruz (inside the raised central garden, on the paths beside the wrought-iron cross). The wrought-iron Cruz de la Cerrajería standing in the middle of the square, with orange trees and the surrounding hedged paths around it. Inside the raised central garden on the paths beside the wrought-iron cross.</p>
+      <p><b>Framing:</b> Turn on the gridlines and put the cross on one of the vertical lines, with the hedges and orange trees filling the sides. Crouch slightly so the cross stands out against the pale walls behind it. The ultra-wide works well for the square, but keep the cross away from the edges, where it can stretch.</p>
+      <p><b>Settings tip:</b> Tap on the cross to focus, then slide the exposure down a little so the white walls and bright sky stay detailed and the ironwork stays dark. In the shady lanes, hold the phone steady and let night mode help if the light is low.</p>
+      <p><b>Best time:</b> Early in the morning, before the tour groups arrive, is quieter. Soft light in the early morning or late afternoon is kinder than harsh midday sun.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(6)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>16 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">3</span>Seville Cathedral <small>· members</small></li>
+    <li><span class="n">4</span>Metropol Parasol <small>· members</small></li>
+    <li><span class="n">5</span>Casa de Pilatos <small>· members</small></li>
+    <li><span class="n">7</span>Giralda <small>· members</small></li>
+    <li><span class="n">8</span>Hotel Alfonso XIII <small>· members</small></li>
+    <li><span class="n">9</span>Torre del Oro <small>· members</small></li>
+    <li><span class="n">10</span>Triana <small>· members</small></li>
+    <li><span class="n">11</span>Parque de María Luisa <small>· members</small></li>
+    <li><span class="n">12</span>Palace of the Countess of Lebrija <small>· members</small></li>
+    <li><span class="n">13</span>Alamillo Bridge <small>· members</small></li>
+    <li><span class="n">14</span>Puente de Isabel II <small>· members</small></li>
+    <li><span class="n">15</span>Plaza Nueva <small>· members</small></li>
+    <li><span class="n">16</span>Basilica of La Macarena <small>· members</small></li>
+    <li><span class="n">17</span>Hospital de la Caridad <small>· members</small></li>
+    <li><span class="n">18</span>Royal Tobacco Factory <small>· members</small></li>
+    <li><span class="n">19</span>Plaza de América <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Seville?</summary><p>The first three on this map are Real Alcázar, Plaza de España and Seville Cathedral. They are ranked by how often people search for them. The full map has 19.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the Real Alcázar?</summary><p>Stand in Plaza del Triunfo (centre of the square, facing the Puerta del León). Start with the default lens (1x) to fit the gate and walls in one frame.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Plaza de España?</summary><p>Early morning gives the emptiest frames, but one guide says the sun rises behind the main building, so much of the plaza stays in shade until late morning. Crowds build from about 10–11 AM, and the central bridges get busy then.</p></details>
+  <details class="faq"><summary>How do I get to Barrio Santa Cruz?</summary><p>There is no Underground or tram stop right at this spot, so head for the Cathedral and Giralda area and walk into the quarter&#39;s lanes.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville" target="_blank" rel="noopener">Alcázar of Seville</a>, <a href="https://en.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a%2C_Seville" target="_blank" rel="noopener">Plaza de España, Seville</a>, <a href="https://en.wikipedia.org/wiki/Santa_Cruz%2C_Seville" target="_blank" rel="noopener">Santa Cruz, Seville</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"seville","place":"Seville","bounds":[-6.012,37.364,-5.975,37.412],"center":[-5.993499999999999,37.388],"english":false,"vatican":false,"tiles":"/r2tiles/seville/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 6"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>
