@@ -72,6 +72,14 @@
   "photo": null
  },
  {
+  "key": "boulder",
+  "place": "Boulder",
+  "country": "United States",
+  "spots": 13,
+  "mb": 4.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "bridgetown",
   "place": "Bridgetown",
   "country": "Barbados",
