@@ -221,9 +221,7 @@
     "country": "England",
     "city": "Holy Island",
     "aliases": [
-      "Holy Island",
-      "United Kingdom",
-      "UK"
+      "Holy Island"
     ],
     "search_phrases": [
       "lindisfarne photos",
@@ -249,9 +247,7 @@
     "country": "England",
     "city": "Holy Island",
     "aliases": [
-      "Lindisfarne Castle",
-      "United Kingdom",
-      "UK"
+      "Lindisfarne Castle"
     ],
     "search_phrases": [
       "lindisfarne harbour photos"
@@ -407,10 +403,7 @@
     ],
     "country": "Scotland",
     "city": "Edinburgh",
-    "aliases": [
-      "United Kingdom",
-      "UK"
-    ],
+    "aliases": [],
     "search_phrases": [
       "edinburgh castle photo spots",
       "edinburgh castle photos",
@@ -439,9 +432,7 @@
     "country": "Scotland",
     "city": "Edinburgh",
     "aliases": [
-      "photo spots in Edinburgh",
-      "United Kingdom",
-      "UK"
+      "photo spots in Edinburgh"
     ],
     "search_phrases": [
       "best photo spots in edinburgh",
@@ -468,9 +459,7 @@
     "city": "Edinburgh",
     "aliases": [
       "photo spots in Edinburgh",
-      "Edinburgh photo",
-      "United Kingdom",
-      "UK"
+      "Edinburgh photo"
     ],
     "search_phrases": [
       "best photo spots in edinburgh",
@@ -651,9 +640,7 @@
     ],
     "country": "Czech Republic",
     "city": "Prague",
-    "aliases": [
-      "Czechia"
-    ],
+    "aliases": [],
     "search_phrases": [
       "prague castle photo spots",
       "prague castle photos",
@@ -683,8 +670,7 @@
     "city": "Cesky Krumlov",
     "aliases": [
       "Czech Krumlov",
-      "Český Krumlov",
-      "Czechia"
+      "Český Krumlov"
     ],
     "search_phrases": [
       "cesky krumlov photo spot",
@@ -872,9 +858,7 @@
     "country": "Wales",
     "city": "Caernarfon",
     "aliases": [
-      "United Kingdom",
-      "Caernarfon",
-      "UK"
+      "Caernarfon"
     ],
     "search_phrases": [
       "caernarfon castle photos"
@@ -1057,10 +1041,7 @@
     ],
     "country": "Scotland",
     "city": "Kirkwall",
-    "aliases": [
-      "United Kingdom",
-      "UK"
-    ],
+    "aliases": [],
     "search_phrases": [
       "st magnus cathedral photos"
     ],
@@ -1223,9 +1204,7 @@
     ],
     "country": "Czech Republic",
     "city": "Prague",
-    "aliases": [
-      "Czechia"
-    ],
+    "aliases": [],
     "search_phrases": [
       "charles bridge photo spot",
       "charles bridge photos",
@@ -1373,9 +1352,7 @@
     ],
     "country": "Curaçao",
     "city": "Willemstad",
-    "aliases": [
-      "Curacao"
-    ],
+    "aliases": [],
     "search_phrases": [
       "queen emma bridge curaçao",
       "queen emma bridge photos"
@@ -1528,7 +1505,6 @@
     ],
     "search_phrases": [
       "burj khalifa photo spots",
-      "burj khalifa photos",
       "burj khalifa photo spot",
       "best views in dubai",
       "best photo spots in dubai"
@@ -1636,16 +1612,17 @@
     ],
     "country": "United States",
     "city": "Wyoming",
-    "aliases": [],
+    "aliases": [
+      "Old Faithful",
+      "Yellowstone",
+      "USA"
+    ],
     "search_phrases": [
       "yellowstone photo spots",
       "yellowstone photos",
       "yellowstone photography",
-      "yellowstone photography tour",
-      "yellowstone photography workshop",
-      "yellowstone photography guide",
-      "yellowstone photography prints",
-      "yellowstone photography tour winter"
+      "best views in yellowstone national park",
+      "best photo spots in yellowstone national park"
     ],
     "misspellings": []
   },
