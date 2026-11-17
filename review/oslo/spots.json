@@ -506,15 +506,15 @@
   "nophone": true,
   "searches": 2750,
   "pin": [
-   10.74083333,
-   59.91305556
+   10.731887,
+   59.9158356
   ],
   "camera": [
-   10.74083333,
-   59.91305556
+   10.731887,
+   59.9158356
   ],
   "camera_source": "Researched viewpoint 'Stortinget' (2 web pages); placed at OpenStreetMap 'Stortinget' (way/29132806): middle (121 m across); moved 20 m off buildings.",
-  "pin_note": "Position from the Wikipedia article 'Karl Johans gate'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Main promenade from the station to the Royal Palace.",
   "text": {
    "description": "Karl Johans gate is the main street of Oslo, and it photographs best as one long straight view. It runs uphill from the Parliament building (Stortinget) to the yellow Royal Palace, and the wide avenue, the palace at the top and the open sky above make a simple, balanced frame. The western part of the street was built in the 1840s to link the newly built palace with the rest of the city. It was named Karl Johans gate in 1852, after the recently deceased King Charles III John, who was also King Charles XIV John of Sweden. When the Parliament building was finished in 1866, two formerly separate streets were joined and the whole length took the name. An equestrian statue of the king stands in front of the palace, added in 1875. Guides point to the front plaza of Stortinget as one of the best places to shoot the avenue, and it is also a natural spot to pause out of the flow of people. From there, the palace sits at the top of the street and catches the morning sun on its facade. If you want a higher, wider view, Slottsparken gives an elevated look back down the street. Studenterlunden, beside the National Theatre, gives a closer frame with trees and the busy avenue. The street is also the main route for Norway's Constitution Day celebrations on 17 May, so it can look very different on that day.",
@@ -539,10 +539,7 @@
     "url": "https://en.wikipedia.org/wiki/Karl_Johans_gate"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (543 m)",
-   "OpenStreetMap object 587 m away (Karl Johans gate): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/10.jpg",
