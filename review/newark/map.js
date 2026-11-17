@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "newark", "title": "Newark: 16 photo spots (pilot review)", "place": "Newark", "bounds": [-74.186, 40.724, -74.148, 40.772], "center": [-74.167, 40.748], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/newark/{z}/{x}/{y}.pbf"};

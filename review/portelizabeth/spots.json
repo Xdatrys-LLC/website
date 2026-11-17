@@ -1,0 +1,368 @@
+[
+ {
+  "rank": 1,
+  "name": "Port Elizabeth waterfront",
+  "in_cut": true,
+  "label": "Port Elizabeth",
+  "camera_pill": "near Front Street",
+  "nophone": false,
+  "searches": 22200,
+  "pin": [
+   -61.2352667,
+   13.011307
+  ],
+  "camera": [
+   -61.235825,
+   13.009675
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap node/5476206161: the OpenStreetMap point 'Port Elizabeth'.",
+  "notes": "The main town of Bequia, with its harbour-front promenade and colourful shops.",
+  "text": {
+   "description": "Port Elizabeth is a town on Bequia, one of the Grenadines islands, and its waterfront is the natural place to start taking pictures. The town is the capital of Grenadines Parish. It was named in 1937 after Princess Elizabeth, later Queen Elizabeth II, to mark the coronation of her parents. That royal link gives you a nice small story to put in a caption alongside your photos.\n\nThe waterfront works well for a phone because the scene has clear layers: water and any boats in the foreground, the shoreline and buildings in the middle, and the island's hills and sky behind. You do not need to hunt for a special angle. Stand back a little, find a line such as the water's edge or a path, and let it lead the eye into the frame.\n\nFor a wide view, use the ultra-wide lens (0.5x) and keep the horizon level with the gridlines switched on. For a closer, tidier picture, switch to the default lens (1x) and pick out one boat, one colourful building or one person walking along the front. If you want details such as ropes, signs or boat names, the telephoto (2x-5x, depending on your phone) lets you take them from a distance without crowding anyone.\n\nTap the screen on the brightest part of the scene to set focus, then pull the exposure slider down a touch so the sky keeps its colour. Wipe the lens first, as sea air can leave a haze on it.",
+   "geographic_location": "On the shoreline of the town of Port Elizabeth, on the island of Bequia in the Grenadines. The town is the capital of Grenadines Parish.",
+   "directions_text": "The map gives no Underground, train or tram stops for this island, so start from Port Elizabeth town itself. From there the waterfront is about 191 m to the north, about 3 minutes on foot. The phone icon on the map is about 190 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the main view. Use the ultra-wide (0.5x) for a sweeping shot of the whole front, and the telephoto (2x-5x, depending on your phone) for details such as boats or signs.",
+    "where_to_stand": "Stand about 190 m south of the subject, at the phone icon on the map, and face north. Walk the few minutes up to the water's edge if you want to be closer.",
+    "how_to_frame": "Turn on the gridlines and place the horizon on the upper or lower third line, keeping it level. Include something in the foreground, such as a boat, a rail or a path, to give the picture depth. Try one wide frame and one closer frame of a single subject.",
+    "phone_settings_tip": "Tap on the brightest part of the scene to focus, then slide the exposure down slightly so the sky does not wash out. Try a Live Photo if boats or people are moving, and choose the best frame afterwards.",
+    "best_time": "Early morning or late afternoon usually gives softer light and gentler colours than the middle of the day."
+   },
+   "access_note": "This looks like an open public waterfront area, but check the official site before you go if you plan to enter any jetty, harbour area or private property.",
+   "claims_not_in_sources": [
+    "The waterfront faces the sea and is likely to have boats and water in view.",
+    "Early morning and late afternoon light is usually softer and more flattering than midday light.",
+    "The waterfront is generally an open public space, though some jetties or harbour areas may be restricted.",
+    "Sea air can leave a haze or smear on a phone lens."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Port Elizabeth, Saint Vincent and the Grenadines",
+    "url": "https://en.wikipedia.org/wiki/Port_Elizabeth%2C_Saint_Vincent_and_the_Grenadines"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=town): check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 17 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Princess Margaret Beach",
+  "in_cut": true,
+  "label": "Princess Margaret Beac",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1070,
+  "pin": [
+   -61.240861,
+   13.0014
+  ],
+  "camera": [
+   -61.240512,
+   13.002244
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OSM W474673052 (Princess Margaret Bay Beach): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "A beach of golden sand with calm water, a short walk from the town.",
+  "text": {
+   "description": "Princess Margaret Beach is a stretch of shoreline in Port Elizabeth, and it is the second stop on this map. It suits a phone camera well because the scene is simple: shoreline, water and sky arranged in clean horizontal bands. That makes it easy to compose a picture that reads clearly even on a small screen.\n\nStart with a wide view from where you stand, then walk south towards the beach for a closer angle. Look for something in the foreground, such as a boat or a curve of the shoreline, to lead the eye towards the water.\n\nKeep the horizon level by switching on the gridlines. Tap the brightest part of the sky to set exposure, then use the exposure slider to bring the sky down slightly so the colours of the sea hold up. Bright water and sky can fool the phone into making the picture too dark or too bright, so check the preview and adjust it a little if needed.\n\nA few people in the frame give a sense of scale. Keep your phone strap on near the water, and wipe the lens with a dry cloth before shooting, as sea air leaves a faint film that softens pictures.",
+   "geographic_location": "Princess Margaret Beach is on the shoreline at Port Elizabeth, a short walk from the point on the map where you stand to take the photo.",
+   "directions_text": "From there the beach is about 100 metres to the south, a short walk. Head south. The phone icon on the map is about 100 m north of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the sweep of shoreline and sky, then try the default lens (1x) for a more natural view. Use the telephoto (2x-5x, depending on your phone) to pick out a boat or a detail on the water.",
+    "where_to_stand": "Stand about 100 m north of the subject, at the phone icon on the map, and face south.",
+    "how_to_frame": "Switch on gridlines and place the horizon on the upper or lower third line, depending on whether the sky or the water is more interesting. Keep the horizon straight, and include a foreground object to add depth.",
+    "phone_settings_tip": "Tap the sea or sky to focus, then drag the exposure slider down a little if the sky looks washed out. Try a Live Photo to catch moving water, and use panorama for a wide sweep of the shore, moving slowly and keeping the phone level.",
+    "best_time": "Early morning or the hour before sunset usually gives softer light and more colour than the middle of the day. Midday sun can make the water glare, so use the exposure slider."
+   },
+   "access_note": "A beach is normally open public space, but check local signs or the official tourism site before you go."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 9 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Moonhole",
+  "in_cut": true,
+  "label": "Moonhole",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 710,
+  "pin": [
+   -61.2751601,
+   12.9916697
+  ],
+  "camera": [
+   -61.277447,
+   12.992978
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap node/1228341374: the OpenStreetMap point 'Moonhole'.",
+  "notes": "A community of stone houses built into the rocky cliffs at the western end of the island.",
+  "text": {
+   "description": "Moonhole is a small, unusual community at the western end of Bequia, in the Grenadines. It takes its name from a huge natural arch in the volcanic rock, through which the setting moon can sometimes be seen. Thomas and Gladys Johnston, who had retired from advertising in New York, founded it in the 1960s. They built open-sided stone houses with the help of masons from nearby Paget Farm, using whalebones, native hardwoods and objects recovered from the sea. The land is now a private nature preserve of roughly 30 acres, looked after by a conservation trust.\n\nFor a phone photographer, the appeal is the contrast between the rugged arch, the steep coastal hillside and the hand-built houses that seem to grow out of the rock. Look for layers: sea in the foreground, the arch or rocky shore in the middle, and the green slope behind. Respect the privacy of the community and shoot from where you are allowed to be, and treat the houses as people's homes, so do not point your phone into private windows or gardens.",
+   "geographic_location": "Moonhole sits on the narrow western tip of the island of Bequia, in the Grenadines, on a steep coastal slope close to the sea. The village of Paget Farm is nearby.",
+   "directions_text": "No rail or tram stops are listed for this spot. Moonhole is on the western tip of Bequia, near the village of Paget Farm. The phone icon on the map is about 290 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to show the setting, then switch to telephoto (2x-5x, depending on your phone) to bring the arch and the shoreline closer. Use the ultra-wide (0.5x) only if you are close enough to the rocks to want a dramatic sweep.",
+    "where_to_stand": "Stand about 290 m north-west of the subject, at the phone icon on the map, and face south-east. Because of the distance, treat the arch as a distant feature in a wider coastal view rather than a close-up.",
+    "how_to_frame": "Turn on gridlines and place the shoreline on a lower line, with the arch or rock face on a third. Include some sea or foliage in the foreground to give a sense of scale. Zoom to 3x or 5x for a tighter shot of the arch if your phone has it.",
+    "phone_settings_tip": "Tap the arch to focus, then drag the exposure slider down slightly so the sky and sea keep their colour and the dark rock does not wash out. Hold the phone with both hands and rest your elbows against your body for steadier zoomed shots.",
+    "best_time": "The moon can sometimes be seen through the arch as it sets, so a clear evening or night with a moon is the special-occasion option; try night mode and hold very still. For ordinary daytime photos, the softer light of early morning or late afternoon usually flatters the rock and the sea."
+   },
+   "access_note": "Moonhole is a private community and nature preserve, so stay out of private grounds and respect residents."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Moonhole",
+    "url": "https://en.wikipedia.org/wiki/Moonhole"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Lower Bay",
+  "in_cut": true,
+  "label": "Lower Bay",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 650,
+  "pin": [
+   -61.246512,
+   12.99699
+  ],
+  "camera": [
+   -61.246512,
+   12.99699
+  ],
+  "camera_source": "Researched viewpoint 'Lower Bay Beach' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OSM W397317812 (Lower Bay): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "A long white sand beach with palm trees and beach bars.",
+  "text": {
+   "description": "Lower Bay is a broad, golden curve of sand with clear, calm water, and it is often described as a quieter alternative to Princess Margaret Beach. For a phone photo it offers a simple, layered scene: pale sand in front, turquoise shallows in the middle, a green hillside behind and sailboats resting offshore. The calm water keeps reflections and boat shapes tidy, so even a quick snap looks clean.\n\nThe best place to take it is the southern end of the beach, by the fishing village. From here you can show the whole sweep of the bay with the hillside as a backdrop. The fishing village at this end also gives you some local life to include if you want a photo with more character than an empty beach.\n\nPractical advice: start with a wide shot to take in the bay, then move closer for a second picture with a boat or the water's edge as the focus. Check the lens is clean before you start, as sand and sun cream easily smear it. Keep the horizon level using the gridlines, and take a few frames, because small boats drift and a better composition may appear a minute later. Wear shoes you can take off easily if you want to walk down to the water.",
+   "geographic_location": "Lower Bay is a beach on the Port Elizabeth map, with a fishing village at the southern end of the beach.",
+   "directions_text": "No public transport stop is listed for this spot. The spot is the Lower Bay beach location on the map. Once at the beach, walk to its southern end, by the fishing village, to reach the phone icon on the map. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the natural view of sand, water and hillside. Switch to the ultra-wide (0.5x) to take in the whole curve of the bay. Use telephoto/zoom (2x-5x, depending on your phone) to pick out a single sailboat on the water.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you look across the white sand and calm turquoise water, with the green hillside behind and sailboats offshore.",
+    "how_to_frame": "Turn on gridlines and place the horizon on the upper or lower line so the sand or the water fills most of the picture. Keep a strip of dry sand in the foreground for depth and let the hillside close the top of the frame. For a second picture, move in on a boat and leave plenty of empty water around it.",
+    "phone_settings_tip": "Tap on the water or the sand to set focus, then drag the exposure slider down a little so the white sand keeps its detail. For a long sweep of beach, panorama mode works well if you pan slowly and keep your phone level.",
+    "best_time": "Earlier or later in the day usually means gentler light and fewer people on the sand."
+   },
+   "access_note": "No closures or restrictions were found for this spot, and there is no charge."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "Dillan Payne",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bay_TTC_Subway_station_(2025-01-18)_03.jpg",
+   "from": "Wikidata Q812059 main image, found by searching Wikipedia for the spot's name ('Bay station'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Fort Hamilton",
+  "in_cut": true,
+  "label": "Fort Hamilton",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 40,
+  "pin": [
+   -61.246314,
+   13.011348
+  ],
+  "camera": [
+   -61.246314,
+   13.011348
+  ],
+  "camera_source": "Researched viewpoint 'Fort Hamilton' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OSM N12142354600 (Fort Hamilton): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "An old fort on the headland with cannons and views over the harbour.",
+  "text": {
+   "description": "Fort Hamilton is an old hilltop battery above Port Elizabeth, on Bequia in the Grenadines. Not much of it survives: a few cannons and a stone wall remain, but they make good foreground subjects, and the height gives you a wide view over the water. Two views are worth taking. Facing the harbour, the surviving cannons sit in front of Admiralty Bay, with the boats and the town spread out below. This is the obvious photo, and the better-known one. For something a little different, walk to the western or southwestern edge of the battery and look toward the cays. Put a cannon or a stretch of the stone wall in the foreground, and West Cay and Big Cay show up in the distance off Bequia's southwestern coast. This second view is quieter and gives a different composition from the harbour panorama. Stay low and close to a cannon so that it looks large against the sea. Keep the horizon level using the gridlines. There are no amenities on the hilltop and the road up is narrow and steep, so wear sturdy shoes and bring water. The site is a bit worn in places, so expect a simple, unpolished setting rather than a restored attraction. Allow enough time to try both directions, and check the sky before you set off, because a clear day makes the distant cays much easier to pick out.",
+   "geographic_location": "On a hilltop overlooking Admiralty Bay, above Port Elizabeth on the island of Bequia.",
+   "directions_text": "No Underground, train or tram stops are given for this spot. The fort is on a hilltop above Port Elizabeth, reached by a narrow, steep road. You can get up by taxi, or walk up if you are comfortable with a steep climb. Once at the fort, the phone icon on the map is at the battery itself. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the cannon and wall in the foreground with the sea behind. Switch to the ultra-wide (0.5x) for the full sweep of the bay and harbour. Use telephoto (2x-5x) to pull West Cay and Big Cay closer.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. The subject is right at this spot, so you are already in position. Use a cannon or the stone wall as your foreground, with West Cay and Big Cay far off the southwestern coast.",
+    "how_to_frame": "Place a cannon or a section of the wall low in the frame and let the two cays sit near the horizon. Turn on gridlines and keep the horizon level. For the alternative view, turn towards Admiralty Bay and frame the surviving cannons with the harbour boats and Port Elizabeth below.",
+    "phone_settings_tip": "Tap on the distant cays to set focus, then slide the exposure down a little so the sky keeps its colour. If the cannon is very close, tap on it first and check that the background is still sharp enough.",
+    "best_time": "Choose a clear day so the distant cays stand out. Morning or late afternoon usually gives softer light than midday."
+   },
+   "access_note": "The hilltop is reached by a narrow, steep road with no amenities; check the official site before you go for any access rules."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "JeffreyW75 at English Wikipedia",
+   "licence": "GFDL",
+   "licence_url": "http://www.gnu.org/copyleft/fdl.html",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fort_Hamilton_Community_Club.jpg",
+   "from": "Wikidata Q5471273 main image, found by searching Wikipedia for the spot's name ('Fort Hamilton'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Belmont Beach",
+  "in_cut": true,
+  "label": "Belmont Beach",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 30,
+  "pin": [
+   -61.238847,
+   13.00483
+  ],
+  "camera": [
+   -61.238721,
+   13.004975
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OSM W397317813 (Belmont Beach): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "A quiet beach along the bay with a view of the hillside town.",
+  "text": {
+   "description": "Belmont Beach is a stretch of shoreline in Port Elizabeth, number 7 on this map. It suits a phone because the scene is simple: sand, water and sky give you clean layers, and if any people or boats happen to be in view in the distance, they can add scale without cluttering the frame. Walk to the point, turn to the south-west and the beach is right in front of you.\n\nTake a wide shot first to show the whole beach, then step in for a closer one. A strip of foreground, such as a patch of sand, a rock or the line left by the waves, gives the picture depth. Keep the horizon level by switching on your phone's gridlines. If the sky is bright, tap the water or sand to focus and slide the exposure down a little so the colours stay rich rather than washed out. Wipe the lens with a dry cloth before you start, as sea air and sunscreen leave smears. Take a few frames, as the light and the waves change quickly.",
+   "geographic_location": "Belmont Beach is on the shoreline of Port Elizabeth, on the water's edge. It is the beach itself, so look for the sand and the sea rather than a building or a landmark.",
+   "directions_text": "The phone icon on the map is about 20 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the beach. Switch to ultra-wide (0.5x) if you want the whole sweep of sand and sea. Use telephoto (2x or more, depending on your phone) to pick out a detail such as the pattern of the waves, or a boat on the water if one is there.",
+    "where_to_stand": "Stand about 20 m north-east of the subject, at the phone icon on the map, and face south-west.",
+    "how_to_frame": "Turn on gridlines and place the horizon on the top or bottom line, not in the middle. Keep a little foreground in the bottom of the frame for depth. Try one wide shot with the ultra-wide lens (0.5x), then a tighter one with the default lens (1x) or zoom.",
+    "phone_settings_tip": "Tap on the sand or water to set focus, then drag the exposure slider down slightly if the sky is bright. A Live Photo can catch moving waves. If you shoot near sunset or after dark, let night mode do its work and hold the phone steady against your body for a couple of seconds.",
+    "best_time": "Early morning or late afternoon usually gives softer, more flattering light than the middle of the day."
+   },
+   "access_note": "This is a beach, so it should be open public space, but check local signs or the official tourism site before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 21 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Admiralty Bay",
+  "in_cut": false,
+  "label": "Admiralty Bay",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 230,
+  "pin": [
+   -61.25,
+   13.0
+  ],
+  "camera": [
+   -61.249464,
+   13.003328
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from Wikidata Q31866371: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "A sheltered bay full of yachts and sailboats, with the town along its shore.",
+  "text": {
+   "description": "Admiralty Bay is the largest bay on Bequia, in Saint Vincent and the Grenadines, and it is the setting for Port Elizabeth itself. The town sits in the north-east corner and spreads around the water's edge, so one wide view takes in the waterfront, the anchored boats and the hills behind. That is what makes it easy to photograph on a phone. The bay covers more than a third of the island's west coast and stretches about 4 km, which is why it works best as a broad scene rather than a single detail.\n\nIt has long been a safe place for ships to anchor, including in hurricane season, and early on it drew shipwrights and chandlers. Today it is still the island's main harbour for pleasure craft, with a deeper harbour in the north for visiting ships. A picture of the bay even appears on the back of the 2019 East Caribbean ten-dollar note.\n\nThe phone icon on the map is about 370 m north of the subject. From there the bay opens out about 375 m to the south. Keep the water in the lower half of the frame, let the moored boats give a sense of scale, and include a strip of shoreline or hillside so the picture shows where you are. Wait for a moment when no one walks into the foreground, or use a passer-by on purpose to add life.",
+   "geographic_location": "On the west coast of Bequia, the bay wraps around Port Elizabeth, the island's main settlement, which lies in its north-east corner. Lower Bay and Princess Margaret Beach are further round the shore to the south.",
+   "directions_text": "No railway or tram stops are near this spot. The phone icon on the map is about 370 m north of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the full sweep of the bay. Switch to the default lens (1x) for a more natural look, and use telephoto (2x-5x, depending on your phone) to pick out a single boat or a stretch of shoreline.",
+    "where_to_stand": "Stand about 370 m north of the subject, at the phone icon on the map, and face south. Face south and keep the water in front of you.",
+    "how_to_frame": "Turn on the gridlines and put the horizon on the upper or lower third line, not in the middle. Place a few moored boats in the lower half of the frame for depth. Keep the phone level so the horizon stays straight, as wide lenses make tilting obvious. A panorama also suits this long, curving shoreline; sweep slowly and keep the phone upright.",
+    "phone_settings_tip": "Tap on the water or boats to focus, then drag the exposure slider down a little if the sky is bright, so it doesn't wash out. Wipe the lens first, as sea air can leave a film that causes hazy shots.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer harsh reflections on the water than midday."
+   },
+   "access_note": "The bay is part of the open waterfront and shore of Port Elizabeth, but check locally before going onto private jetties or boat areas."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Admiralty Bay, Bequia",
+    "url": "https://en.wikipedia.org/wiki/Admiralty_Bay%2C_Bequia"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 11 m from the phone icon",
+   "zoom": 2.0
+  }
+ }
+]
