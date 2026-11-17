@@ -1,0 +1,312 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>El Yunque Attractions Map: 7 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 7 best photo spots in El Yunque, including El Yunque Forest and La Coca Falls: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="el yunque national forest, la coca falls, yokahu tower">
+<link rel="canonical" href="https://xdatrys.com/library/riogrande/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="El Yunque Attractions Map: 7 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 7 best photo spots in El Yunque, including El Yunque Forest and La Coca Falls: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/riogrande/">
+<meta property="og:image" content="https://xdatrys.com/library/riogrande/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="250">
+<meta property="og:image:alt" content="El Yunque National Forest, El Yunque: a tropical rainforest in the Sierra de Luquillo mountains. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/riogrande/","url":"https://xdatrys.com/library/riogrande/","name":"El Yunque Attractions Map: 7 Best Photo Spots | Xdatrys","description":"Map of the 7 best photo spots in El Yunque, including El Yunque Forest and La Coca Falls: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/riogrande/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"El Yunque"},"mainEntity":{"@type":"ItemList","name":"El Yunque photo spots","numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"El Yunque National Forest","description":"El Yunque is a tropical rainforest in the Sierra de Luquillo mountains, in the north-east of Puerto Rico.","geo":{"@type":"GeoCoordinates","latitude":18.3166667,"longitude":-65.7833333},"alternateName":["El Yunque Rainforest"],"image":"https://xdatrys.com/library/riogrande/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"La Coca Falls","description":"La Coca Falls is a waterfall in El Yunque, a rainforest setting where water, rock and thick green leaves fill the frame together.","geo":{"@type":"GeoCoordinates","latitude":18.318296,"longitude":-65.771149},"alternateName":["El Yunque la Coca Falls","Coca Falls"],"image":"https://xdatrys.com/library/riogrande/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Yokahú Tower","description":"Yokahú Tower is an observation tower in El Yunque National Forest on the island of Puerto Rico.","geo":{"@type":"GeoCoordinates","latitude":18.312512,"longitude":-65.770238},"alternateName":["El Yunque Yokahu Tower","Yokahu"],"image":"https://xdatrys.com/library/riogrande/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/riogrande/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"El Yunque","item":"https://xdatrys.com/library/riogrande/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in El Yunque?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are El Yunque Forest, La Coca Falls and Yokahú Tower. They are ranked by how often people search for them. The full map has 7."}},{"@type":"Question","name":"Where should I stand to photograph El Yunque Forest?","acceptedAnswer":{"@type":"Answer","text":"Stand at Torre Yokahú (top of the tower, reached by its stairs off PR-191). Start with the ultra-wide (0.5x) for the full sweep of canopy, ridges and sky."}},{"@type":"Question","name":"When is the best time to photograph La Coca Falls?","acceptedAnswer":{"@type":"Answer","text":"Soft, even light, such as an overcast spell or when the falls are in shade, tends to keep the water and the leaves both looking natural. Harsh sun can create bright patches."}},{"@type":"Question","name":"How do I get to Yokahú Tower?","acceptedAnswer":{"@type":"Answer","text":"No Underground, train or tram stops are listed for this spot, so plan to reach El Yunque National Forest by taxi or hired scooter from the nearest town or from your base in the area."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: right; width: 34%; margin: 2px 0 6px 10px; }
+  .pop .thumb img { width: 100%; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › El Yunque</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/riogrande/?gate" style="color:#E100FF">✏️ Review all 7 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>7 photo spots in El Yunque: where to stand and how to shoot them on your phone</h1>
+  <p>7 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 4 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 7 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/riogrande/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 7 photo spots in El Yunque"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 7 of the most-searched sights in El Yunque as photo spots, ranked by how often people search for them: El Yunque Forest, La Coca Falls, Yokahú Tower, La Mina Falls and Britton Tower lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>El Yunque National Forest</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Puerto_Rico_El_Yunque_1.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="El Yunque National Forest, El Yunque: a tropical rainforest in the Sierra de Luquillo mountains. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Stan Shebs, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>El Yunque is a tropical rainforest in the Sierra de Luquillo mountains, in the north-east of Puerto Rico. It is the only tropical rainforest in the US National Forest System, and the U.S. Forest Service has managed it since 1903. The Spanish Crown had already set the land aside in 1876 to protect its soil and water, which makes it one of the oldest forest reserves in the Western Hemisphere. Today it covers about 28,500 acres and gets roughly 1.2 million visitors a year.</p><p>For photographs, the easiest high viewpoint is Torre Yokahú, a tower beside the road. From the top you look out over the rainforest canopy, the mountains around it and, on clear days, the coastline and the ocean. Guides describe it as the easiest high viewpoint to reach, with a parking area close by and only a short climb up the stairs. The view is wide and layered, with green ridges fading into haze.</p><p>Two other viewpoints are worth knowing about if you are a keen walker. Torre Mount Britton gives a more rugged view with mist and cloud around the peaks, and Los Picachos gives a 360-degree view out to the eastern shore. Both need a hike, so they suit a longer day.</p><p>Cloud often hides the high points, so aim for a clear morning. Sunrise and sunset are the best times at the tower.</p>
+    <p><b>Where it is:</b> El Yunque National Forest lies in the Sierra de Luquillo in north-east Puerto Rico, mostly in the municipalities of Río Grande, Luquillo and Naguabo.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) for the full sweep of canopy, ridges and sky. Use the default lens (1x) for a more natural view. Use the telephoto (2x-5x, depending on your phone) to pick out a single peak, a ridge in the mist or a stretch of coast.</p>
+      <p><b>Where to stand:</b> Stand at Torre Yokahú (top of the tower, reached by its stairs off PR-191). A panoramic view over the rainforest canopy, the surrounding mountains and, on clear days, the coastline and the ocean. Reached by the stairs off PR-191. From the top you can see over the rainforest canopy, the surrounding mountains and, on clear days, the coastline and the ocean.</p>
+      <p><b>Framing:</b> Turn on the gridlines and put the horizon on the upper or lower third line. Keep the tower rail out of the frame, or use it at one edge to give a sense of height. Try a slow panorama along the ridgeline, holding the phone upright and moving steadily. If you are fit and the trails are open, Torre Mount Britton and Los Picachos give higher, more dramatic views.</p>
+      <p><b>Settings tip:</b> Tap on the green hills to focus, then slide the exposure down a little so the sky keeps its detail. In misty conditions, a Live Photo can capture cloud moving across the peaks. Wipe your lens before shooting, as the air can be damp.</p>
+      <p><b>Best time:</b> Sunrise or sunset at the tower. A clear morning is best, as the high points are often hidden by mist and cloud.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>La Coca Falls</h3>
+    <figure><img src="photos/2.jpg" alt="La Coca Falls, El Yunque: photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>La Coca Falls is a waterfall in El Yunque, a rainforest setting where water, rock and thick green leaves fill the frame together. That mix suits a phone camera well. The white water gives a clear focal point, and the dark rock and bright foliage around it give the picture depth.</p><p>The falls are close enough to frame without zooming much. Start with the default lens (1x) and turn on the gridlines. Put the main drop on one of the vertical lines rather than dead centre, and leave a little foreground, such as leaves or rocks, to give a sense of depth.</p><p>If the view is tighter than you would like, switch to the ultra-wide (0.5x) to take in more of the surrounding forest. If something is in the way, try the telephoto (2x or more, depending on your phone) to pick out just the stream of water. Rainforest light can be uneven, with pale sky above and deep shade below, so tap on the water and slide the exposure down a touch to stop the white water turning into a blank patch. Wipe your lens first, as spray and humidity can leave a soft haze on the glass.</p><p>Take a few shots from the same place at different zoom levels, then pick the one that best shows the falls and the green around them.</p>
+    <p><b>Where it is:</b> La Coca Falls is inside El Yunque, in the rainforest setting that the map covers.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole waterfall. Use the ultra-wide (0.5x) if you want more of the forest around it, or the telephoto (2x or more, depending on your phone) to isolate the water.</p>
+      <p><b>Where to stand:</b> Stand about 50 m north of the subject, at the phone icon on the map, and face south.</p>
+      <p><b>Framing:</b> Turn on the gridlines and place the main drop of water on a vertical line instead of in the middle. Keep a little foreground, such as leaves, at the edge of the frame for depth. Keep the phone level so the rock edges don&#39;t tilt.</p>
+      <p><b>Settings tip:</b> Tap on the water to focus, then slide the exposure down slightly so the white water keeps its detail. Try a Live Photo to catch the movement and pick the best frame afterwards. Wipe the lens first, as spray can blur it.</p>
+      <p><b>Best time:</b> Soft, even light, such as an overcast spell or when the falls are in shade, tends to keep the water and the leaves both looking natural. Harsh sun can create bright patches.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Yokahú Tower</h3>
+    <figure><img src="photos/3.jpg" alt="Yokahú Tower, El Yunque: an observation tower in El Yunque National Forest. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 0.5x</figcaption></figure>
+    <p>Yokahú Tower is an observation tower in El Yunque National Forest on the island of Puerto Rico. It was built in 1963 by Frank H. Wadsworth, then Forest Supervisor and Director of the IITF. It stands 69 feet (21 metres) tall at about 1,575 feet (480 m) above sea level, and it is one of only two observation towers in the forest. The other is Mount Britton Tower, which sits higher and is often wrapped in cloud. Yokahú is generally thought to give the better view, and it is easier to reach because there is a car park close by.</p><p>For a phone photographer there are two good pictures here. The first is the tower itself: a tall, solid shape against green forest and sky. The second is the view from the top, if you can go up, with ridges of rainforest rolling away below you. Switch to the ultra-wide lens (0.5x) to fit the whole structure in, and keep your phone level so the sides do not lean inwards too much. If the tower is open, take a second set of photos from the top using the default lens (1x) for the wide view and the telephoto lens for details in the valleys. Check the weather before you go, because cloud can hide the distance quickly.</p>
+    <p><b>Where it is:</b> Yokahú Tower is inside El Yunque National Forest, on the island of Puerto Rico. There is a car park nearby.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide lens (0.5x) for the whole tower from close range. Use the default lens (1x) for a more natural look. If you climb the tower, the telephoto lens (2x-5x, depending on your phone) is good for picking out ridges and treetops.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. Step back a little if there is room, and angle the phone upwards to catch the full height.</p>
+      <p><b>Framing:</b> Turn on gridlines and line a vertical edge of the tower up with one of the lines to keep it straight. Leave some sky above the top. For the view from the platform, include a foreground edge of railing or tree canopy to give a sense of depth, and try a panorama across the forest if the air is clear.</p>
+      <p><b>Settings tip:</b> Tap on the tower to focus, then slide the exposure down slightly so the sky does not turn white. In misty conditions, tap on a distant ridge and nudge exposure up a little for a softer, clearer layer of hills.</p>
+      <p><b>Best time:</b> Check the sky and weather before you go, as a clear spell gives the best distant views.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>4 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>La Mina Falls <small>· members</small></li>
+    <li><span class="n">5</span>Mount Britton Tower <small>· members</small></li>
+    <li><span class="n">6</span>El Yunque (Puerto Rico) <small>· members</small></li>
+    <li><span class="n">7</span>Baño Grande <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in El Yunque?</summary><p>The first three on this map are El Yunque Forest, La Coca Falls and Yokahú Tower. They are ranked by how often people search for them. The full map has 7.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph El Yunque Forest?</summary><p>Stand at Torre Yokahú (top of the tower, reached by its stairs off PR-191). Start with the ultra-wide (0.5x) for the full sweep of canopy, ridges and sky.</p></details>
+  <details class="faq"><summary>When is the best time to photograph La Coca Falls?</summary><p>Soft, even light, such as an overcast spell or when the falls are in shade, tends to keep the water and the leaves both looking natural. Harsh sun can create bright patches.</p></details>
+  <details class="faq"><summary>How do I get to Yokahú Tower?</summary><p>No Underground, train or tram stops are listed for this spot, so plan to reach El Yunque National Forest by taxi or hired scooter from the nearest town or from your base in the area.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/El_Yunque_National_Forest" target="_blank" rel="noopener">El Yunque National Forest</a>, <a href="https://en.wikipedia.org/wiki/Yokah%C3%BA_Tower" target="_blank" rel="noopener">Yokahú Tower</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"riogrande","place":"El Yunque","bounds":[-65.8,18.295,-65.755,18.345],"center":[-65.7775,18.32],"english":false,"vatican":false,"tiles":"/r2tiles/riogrande/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

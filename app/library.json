@@ -192,6 +192,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "riogrande",
+  "place": "El Yunque",
+  "country": "Puerto Rico",
+  "spots": 7,
+  "mb": 1.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "florence",
   "place": "Florence",
   "country": "Italy",
