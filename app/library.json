@@ -256,6 +256,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "trondheim",
+  "place": "Trondheim",
+  "country": "Norway",
+  "spots": 11,
+  "mb": 4.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "vancouver",
   "place": "Vancouver",
   "country": "Canada",

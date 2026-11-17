@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "trondheim", "title": "Trondheim: 11 photo spots (pilot review)", "place": "Trondheim", "bounds": [10.37, 63.42, 10.418, 63.455], "center": [10.393999999999998, 63.4375], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/trondheim/{z}/{x}/{y}.pbf", "tz": "Europe/Oslo", "rail": true, "app": true};
