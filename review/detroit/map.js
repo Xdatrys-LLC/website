@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "detroit", "title": "Detroit: 20 photo spots (pilot review)", "place": "Detroit", "bounds": [-83.095, 42.318, -82.955, 42.375], "center": [-83.025, 42.3465], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/detroit/{z}/{x}/{y}.pbf"};

@@ -368,6 +368,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "vienna",
+  "place": "Vienna",
+  "country": "Austria",
+  "spots": 20,
+  "mb": 20.2,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "alesund",
   "place": "Ålesund",
   "country": "",
