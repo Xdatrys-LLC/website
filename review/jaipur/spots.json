@@ -110,64 +110,6 @@
  },
  {
   "rank": 3,
-  "name": "Rambagh Palace, Jaipur",
-  "in_cut": true,
-  "label": "Rambagh Palace",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 5490,
-  "pin": [
-   75.8081,
-   26.8981
-  ],
-  "camera": [
-   75.8081,
-   26.8981
-  ],
-  "camera_source": "Researched viewpoint 'Rambagh Palace' (2 web pages); placed at OpenStreetMap 'Taj Rambagh Palace' (way/397085651): edge nearest the subject (732 m across).",
-  "pin_note": "Position from Wikidata Q7289168: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Former royal residence, now a luxury hotel with gardens.",
-  "text": {
-   "description": "Rambagh Palace is a pale pink sandstone palace with marble detail, set in about 47 acres of gardens on the southern side of Jaipur. It began in 1835 as a modest garden house. By 1925 it had grown into the main home of Maharaja Sawai Man Singh II, and after independence it became India's first luxury palace hotel. Taj Hotels has run it since 1972. It photographs well because the roofline is so busy: domes, cupolas and chhatris stand out against the sky, and the long arched verandahs and carved balconies give you plenty of repeating shapes. Open lawns in front let you step back and take in the whole frontage. On one side, Moti Dungri Fort can be seen behind the grounds. Peacocks roam the lawns, so keep your phone ready for a bird walking across the foreground. Take a wide shot of the whole façade first, then move in on the rooftop details. If you have time, the verandah and the formal gardens, with their fountains and lawns, make good second pictures. The palace is a working hotel, so it is best to treat the photos as a visit to someone's grounds: be quiet, keep to the public areas and follow any staff instructions.",
-   "geographic_location": "Rambagh Palace stands south of Jaipur's old walled city, on Bhawani Singh Road, about 8 km outside the city walls. It sits in its own large gardens.",
-   "directions_text": "There are no Underground, rail or tram stops to give you a starting point, so head south from Jaipur's old walled city towards Bhawani Singh Road, by taxi or hired scooter. The palace is about 8 km outside the city walls. Ask your driver for Rambagh Palace and its main gate. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) for the full façade and lawn, then switch to the default lens (1x) for a cleaner, less stretched view. Use the telephoto (2x-5x, depending on your phone) to pick out the domes, cupolas and chhatris against the sky.",
-    "where_to_stand": "Stand right at the subject (front and side façade, from the palace lawns). The palace's domes, cupolas and chhatris framed against the sky, with the lawns in the foreground and Moti Dungri Fort visible in the background on one side. From here you see the front and side façade, with the domes, cupolas and chhatris against the sky, the lawn in front and Moti Dungri Fort in the background on one side.",
-    "how_to_frame": "Turn on the gridlines and put the roofline on the upper line so the domes have sky around them. Keep a strip of lawn in the foreground to give a sense of scale, and wait for a peacock to walk through if one appears. For a different view, try the verandah's arched frontage or the formal gardens, if you are allowed in.",
-    "phone_settings_tip": "Tap the sky or the pink sandstone to set focus, then drag the exposure slider down slightly so the sky stays blue and the stone does not wash out. Use the telephoto for the roofline details.",
-    "best_time": "Golden hour, according to one guide. Peacocks are often seen in the evening light."
-   },
-   "access_note": "Rambagh Palace is a private, working luxury hotel, so access to the grounds, the lawns and the verandah may depend on a booking or a visit as a guest or diner; check the official site before you go.",
-   "claims_not_in_sources": [
-    "The ultra-wide lens helps fit the whole width of the façade into one picture from the lawn.",
-    "Lowering the exposure slightly helps keep the sky blue against pale stone.",
-    "A taxi or hired scooter is the practical way to reach the palace from the old city."
-   ]
-  },
-  "checker_problems": 0,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Rambagh Palace, Jaipur",
-    "url": "https://en.wikipedia.org/wiki/Rambagh_Palace%2C_Jaipur"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/3.jpg",
-   "artist": "Chainwit.",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Rambagh_Palace_hotel_Jaipur_lobby_courtyard.jpg",
-   "from": "Wikidata Q7289168 main image"
-  }
- },
- {
-  "rank": 4,
   "name": "Jal Mahal",
   "in_cut": true,
   "label": "Jal Mahal",
@@ -214,7 +156,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/4.jpg",
+   "file": "photos/3.jpg",
    "artist": "Jakub Hałun",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -223,7 +165,7 @@
   }
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "City Palace, Jaipur",
   "in_cut": true,
   "label": "City Palace",
@@ -267,7 +209,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
@@ -276,7 +218,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Nahargarh Fort",
   "in_cut": true,
   "label": "Nahargarh Fort",
@@ -284,23 +226,23 @@
   "nophone": false,
   "searches": 2510,
   "pin": [
-   75.81549,
-   26.937255
+   75.81653,
+   26.940034
   ],
   "camera": [
    75.816,
    26.939828
   ],
   "camera_source": "Commons cluster (13 photos).",
-  "pin_note": "Position from Wikidata Q2723401: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Hilltop fort with sunset views over the city.",
   "text": {
    "description": "Nahargarh Fort sits on the edge of the Aravalli Hills, looking down over Jaipur. It was built mainly in 1734 by Maharaja Sawai Jai Singh as a retreat on the ridge above the city. With Amber Fort and Jaigarh Fort, it once formed a defensive ring around Jaipur, and walls ran across the hills to link the forts. The name means 'abode of tigers'. Local belief ties it to Nahar Singh Bhomia, whose spirit is said to have disturbed the building work until a temple was raised in his memory. The fort was extended in 1868, and a range of palaces was added in the 1880s and 1890s. Several films, including Rang De Basanti, Shuddh Desi Romance and Sonar Kella, were shot here. For a phone, the appeal is the mix of old stone walls, the hillside and the open sky. The fort is long and low rather than tall, so it suits a wide frame that shows the ridge it stands on. Use that distance to show the fort as part of the hillside rather than filling the frame with it. Keep the phone level, since the walls have strong horizontal lines. Check the official site before you go, as entry rules and closing times can change.",
    "geographic_location": "Nahargarh Fort is on the ridge of the Aravalli Hills above Jaipur, overlooking the city. It is one of the three hill forts, with Amber Fort and Jaigarh Fort, that once guarded Jaipur.",
-   "directions_text": "No Underground, tram or rail stop is listed for this spot, so plan your own way to the fort on the ridge above Jaipur. From there, face south to see the fort. The phone icon on the map is about 290 m north of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No Underground, tram or rail stop is listed for this spot, so plan your own way to the fort on the ridge above Jaipur. From there, face south to see the fort. The phone icon on the map is about 55 m south-west of the subject. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for a natural view of the fort and the hillside. Switch to ultra-wide (0.5x) if the walls do not fit in the frame. Use telephoto (2x-5x, depending on your phone) to pick out bastions, battlements or a stretch of wall.",
-    "where_to_stand": "Stand about 290 m north of the subject, at the phone icon on the map, and face south. At that distance it will look fairly small in the default lens (1x), so zoom in a little or use the landscape around it to give it scale.",
+    "where_to_stand": "Stand about 55 m south-west of the subject, at the phone icon on the map, and face north-east. At that distance it will look fairly small in the default lens (1x), so zoom in a little or use the landscape around it to give it scale.",
     "how_to_frame": "Turn on gridlines and place the line of the walls along the lower or upper third, leaving room for sky or hillside. Keep the phone level so the long horizontal walls do not tilt. Try a 2x-3x shot that isolates the fort against the ridge, then a wider shot of the whole setting.",
     "phone_settings_tip": "Tap on the stonework to set focus, then slide the exposure down a little if the sky is bright, so the walls keep their colour. If the light is flat, a Live Photo can catch a moment of cloud or birds.",
     "best_time": "Early morning or late afternoon usually gives softer, warmer light on stone. Around midday, facing south, the fort may be backlit and the sky washed out."
@@ -317,12 +259,10 @@
     "url": "https://en.wikipedia.org/wiki/Nahargarh_Fort"
    }
   ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "Yoge cool",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -331,7 +271,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Jantar Mantar, Jaipur",
   "in_cut": true,
   "label": "Jantar Mantar",
@@ -375,7 +315,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Knowledge Seeker",
    "licence": "Public domain",
    "licence_url": "",
@@ -384,7 +324,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Birla Mandir, Jaipur",
   "in_cut": true,
   "label": "Birla Mandir",
@@ -428,7 +368,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "Jean-Marc Astesana from Voisins le Bretonneux, France",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -437,7 +377,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Jaigarh Fort",
   "in_cut": true,
   "label": "Jaigarh Fort",
@@ -445,23 +385,23 @@
   "nophone": false,
   "searches": 1250,
   "pin": [
-   75.8507,
-   26.9859
+   75.8453997,
+   26.9846903
   ],
   "camera": [
    75.84616,
    26.986083
   ],
   "camera_source": "Commons cluster (14 photos).",
-  "pin_note": "Position from the Wikipedia article 'Jaigarh Fort'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Fort on the Cheel ka Teela ridge above Amber Fort.",
   "text": {
-   "description": "Jaigarh Fort sits on a rocky ridge of the Aravalli hills called Cheel ka Teela, the Hill of Eagles, looking down on Amer Fort and Maota Lake. It is also known as Victory Fort. The walls are thick and built of red sandstone, and the fort stretches about 3 km from north to south and about 1 km across. That makes it a long, strong shape against the sky, which is why it photographs well from a distance. Construction began around the middle of the eleventh century, and later rulers added to it. Jai Singh II built palace apartments here. The fort was also a cannon foundry, and it is home to the Jaivana cannon, which was once the largest cannon on wheels in the world. The fort stands roughly 400 m above Amer Fort, so views from inside look out over the hills and down on the palace below. For your phone, the best picture from the phone icon on the map is the fort as a whole: its walls and ramparts running along the ridge. Use the phone icon on the map for this, then go up to the fort if you want close-ups of gateways, courtyards and the cannon. Keep the horizon level with the gridlines so the long wall does not seem to tilt. Check the official site before you go for entry rules.",
+   "description": "Jaigarh Fort sits on a rocky ridge of the Aravalli hills called Cheel ka Teela, the Hill of Eagles, looking down on Amer Fort and Maota Lake. It is also known as Victory Fort. The walls are thick and built of red sandstone, and the fort stretches about 3 km from north to south and about 1 km across. That makes it a long, strong shape against the sky, which is why it photographs well from a distance. Construction began around the middle of the eleventh century, and later rulers added to it. Jai Singh II built palace apartments here. The fort was also a cannon foundry, and it is home to the Jaivana cannon, which was once the largest cannon on wheels in the world. The fort stands roughly 400 m above Amer Fort, so views from inside look out over the hills and down on the palace below. Keep the horizon level with the gridlines so the long wall does not seem to tilt. Check the official site before you go for entry rules.",
    "geographic_location": "Jaigarh Fort is on the hills above Amer, about 10 km from Jaipur city. It stands high over Amer Fort and Maota Lake.",
-   "directions_text": "The fort is near Amer, a short turn off the Jaipur–Delhi Highway. You can also climb to it from Amer Fort on a steep hill track. The phone icon on the map is about 450 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The fort is near Amer, a short turn off the Jaipur–Delhi Highway. You can also climb to it from Amer Fort on a steep hill track. The phone icon on the map is about 170 m north-east of the subject. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) to show the fort on its ridge. Switch to telephoto (2x-5x, depending on your phone) to pick out ramparts and gateways. Use ultra-wide (0.5x) only if you move close inside the fort.",
-    "where_to_stand": "Stand about 450 m west of the subject, at the phone icon on the map, and face east. The ridge and its walls will be in front of you at a distance.",
+    "where_to_stand": "Stand about 170 m north-east of the subject, at the phone icon on the map, and face south-west. The ridge and its walls will be in front of you at a distance.",
     "how_to_frame": "Switch on gridlines and put the ridge line on the lower third, leaving room for sky above. Use the telephoto lens to compress the walls and towers into a tighter picture. Keep any foreground hills or trees at the edges so they frame the fort rather than cover it.",
     "phone_settings_tip": "Tap on the sandstone walls to set focus, then drag the exposure slider down a little so the sky keeps its colour. Hold the phone steady with both hands when using telephoto.",
     "best_time": "Late afternoon is likely to suit this view, as the sun would be behind you and light the walls with a warm tone. Midday haze can flatten the distant ridge."
@@ -481,12 +421,10 @@
     "url": "https://en.wikipedia.org/wiki/Jaigarh_Fort"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 542 m away (Jaighar Fort): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Ashwin Kumar from Bangalore, India",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -495,7 +433,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Albert Hall Museum",
   "in_cut": true,
   "label": "Albert Hall Museum",
@@ -539,7 +477,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Anjaliup79",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -548,7 +486,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Raj Mandir Cinema",
   "in_cut": true,
   "label": "Raj Mandir Cinema",
@@ -592,7 +530,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "Chainwit.",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -601,7 +539,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Galtaji",
   "in_cut": true,
   "label": "Galta Ji Temple",
@@ -641,7 +579,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "China Crisis",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -650,67 +588,7 @@
   }
  },
  {
-  "rank": 13,
-  "name": "Govind Dev Ji Temple",
-  "in_cut": true,
-  "label": "Govind Dev Ji Temple",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 400,
-  "pin": [
-   75.8239547,
-   26.9288302
-  ],
-  "camera": [
-   75.8239547,
-   26.9288302
-  ],
-  "camera_source": "Researched viewpoint 'Jai Niwas Garden' (4 web pages); placed at our map tiles: 'Jai Niwas' (pois); moved 10 m off buildings.",
-  "pin_note": "Position from Wikidata Q5589834: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Important Krishna temple in the City Palace grounds.",
-  "text": {
-   "description": "Govind Dev Ji is a Hindu temple dedicated to Radha and Krishna, set inside the City Palace complex in Jaipur. Maharaja Jai Singh II, who founded the city, brought the deities from Vrindavan in the 18th century. The deity was installed in a building in gardens behind his palace, and a permanent temple was built there later. For a phone photo, the draw is the temple's sandstone and marble exterior with green garden planting around it, which gives you a calm, colourful frame in a busy part of the city. Its Satsang Hall also holds a Guinness World Record, awarded in 2009, as the world's widest concrete building. It has a single roof span of 119 feet with no pillars, but this is an interior feature, so don't expect to photograph it from outside. Photography of the main deity and inside the sanctum is prohibited, and the rules for the outer halls and gardens are described differently in different places, so ask staff on site before you raise your phone. The garden is the safest open-air place to start. Take a wide first shot of the whole building, then move closer for details such as carved stonework and the colour contrast between stone and leaves. Keep your phone away from worshippers' faces and be discreet during prayer times.",
-   "geographic_location": "Govind Dev Ji Temple stands within the City Palace complex in Jaipur, Rajasthan. The garden around it lies behind and beside the temple building.",
-   "directions_text": "No listed railway, Underground or tram stop is near the temple, so check local transport options to the City Palace complex in Jaipur. The temple is inside the complex, and Jalebi Chowk is the square from which its entrance area is approached. Once inside, follow signs or ask staff for the way to the temple and to Jai Niwas Garden. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) to show the temple with the garden around it. Use the telephoto lens (2x-5x, depending on your phone) for carved details and the stone's texture without walking up to the building.",
-    "where_to_stand": "Stand in Jai Niwas Garden (garden around the temple, behind/beside the temple building). The temple's sandstone and marble exterior, framed by the surrounding green garden. For close photos of the temple, use Jai Niwas Garden, the garden around the temple, behind and beside the building, where you can see the sandstone and marble exterior with green planting. This open-air spot is the safest place to take photos.",
-    "how_to_frame": "Turn on gridlines and keep the temple's vertical lines straight against them. In the garden, use trees and planting at the edges of the frame to make a natural border. If you want a second angle, Jalebi Chowk shows the entrance area and approach to the temple within the City Palace complex.",
-    "phone_settings_tip": "Tap on the stone to set focus, then use the exposure slider to bring the brightness down slightly so the pale marble keeps its detail. Use the ultra-wide lens (0.5x) only if you can't fit the building in, and keep the camera level to avoid leaning walls.",
-    "best_time": "Morning or late afternoon usually gives softer light on the stone. Temple prayer times vary, so confirm them locally if you want to see the temple at its busiest or quietest."
-   },
-   "access_note": "This is a working place of worship inside the City Palace complex, so check the official site before you go for access, entry arrangements and photography rules.",
-   "claims_not_in_sources": [
-    "Morning or late afternoon usually gives softer light on stone buildings.",
-    "Dress modestly and be discreet around worshippers at a working temple.",
-    "Jalebi Chowk is a square from which the temple's entrance area is approached.",
-    "Staff on site can direct visitors to the garden and answer photography questions."
-   ]
-  },
-  "checker_problems": 5,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Govind Dev Ji Temple",
-    "url": "https://en.wikipedia.org/wiki/Govind_Dev_Ji_Temple"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (2090 m)"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/13.jpg",
-   "artist": "Jakub Hałun",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Govind_Dev_Ji_Temple,_Jaipur,_20191218_1059_9092.jpg",
-   "from": "Wikidata Q5589834 main image"
-  }
- },
- {
-  "rank": 14,
+  "rank": 12,
   "name": "Sisodiya Rani Bagh",
   "in_cut": true,
   "label": "Sisodiya Rani Bagh",
@@ -755,7 +633,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/12.jpg",
    "artist": "Shishir.k 96",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -764,7 +642,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 13,
   "name": "Moti Dungri",
   "in_cut": true,
   "label": "Moti Dungri",
@@ -813,7 +691,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/13.jpg",
    "artist": "Chainwit.",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -822,7 +700,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 14,
   "name": "Jagat Shiromani Temple, Amer",
   "in_cut": true,
   "label": "Jagat Shiromani Temple",
@@ -866,7 +744,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/14.jpg",
    "artist": "Chetan",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -875,7 +753,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 15,
   "name": "Badi Chaupar",
   "in_cut": true,
   "label": "Badi Chaupar",
@@ -923,7 +801,7 @@
   "photo": null
  },
  {
-  "rank": 18,
+  "rank": 16,
   "name": "Kanak Vrindavan",
   "in_cut": true,
   "label": "Kanak Vrindavan",
@@ -967,12 +845,130 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/16.jpg",
    "artist": "ArishG",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:ManSagarCompoundSDIM1479-Jaipur.jpg",
    "from": "Wikidata Q12417933 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Rambagh Palace, Jaipur",
+  "in_cut": false,
+  "label": "Rambagh Palace",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 5490,
+  "pin": [
+   75.8081,
+   26.8981
+  ],
+  "camera": [
+   75.8081,
+   26.8981
+  ],
+  "camera_source": "Researched viewpoint 'Rambagh Palace' (2 web pages); placed at OpenStreetMap 'Taj Rambagh Palace' (way/397085651): edge nearest the subject (732 m across).",
+  "pin_note": "Position from Wikidata Q7289168: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Former royal residence, now a luxury hotel with gardens.",
+  "text": {
+   "description": "Rambagh Palace is a pale pink sandstone palace with marble detail, set in about 47 acres of gardens on the southern side of Jaipur. It began in 1835 as a modest garden house. By 1925 it had grown into the main home of Maharaja Sawai Man Singh II, and after independence it became India's first luxury palace hotel. Taj Hotels has run it since 1972. It photographs well because the roofline is so busy: domes, cupolas and chhatris stand out against the sky, and the long arched verandahs and carved balconies give you plenty of repeating shapes. Open lawns in front let you step back and take in the whole frontage. On one side, Moti Dungri Fort can be seen behind the grounds. Peacocks roam the lawns, so keep your phone ready for a bird walking across the foreground. Take a wide shot of the whole façade first, then move in on the rooftop details. If you have time, the verandah and the formal gardens, with their fountains and lawns, make good second pictures. The palace is a working hotel, so it is best to treat the photos as a visit to someone's grounds: be quiet, keep to the public areas and follow any staff instructions.",
+   "geographic_location": "Rambagh Palace stands south of Jaipur's old walled city, on Bhawani Singh Road, about 8 km outside the city walls. It sits in its own large gardens.",
+   "directions_text": "There are no Underground, rail or tram stops to give you a starting point, so head south from Jaipur's old walled city towards Bhawani Singh Road, by taxi or hired scooter. The palace is about 8 km outside the city walls. Ask your driver for Rambagh Palace and its main gate. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the full façade and lawn, then switch to the default lens (1x) for a cleaner, less stretched view. Use the telephoto (2x-5x, depending on your phone) to pick out the domes, cupolas and chhatris against the sky.",
+    "where_to_stand": "Stand right at the subject (front and side façade, from the palace lawns). The palace's domes, cupolas and chhatris framed against the sky, with the lawns in the foreground and Moti Dungri Fort visible in the background on one side. From here you see the front and side façade, with the domes, cupolas and chhatris against the sky, the lawn in front and Moti Dungri Fort in the background on one side.",
+    "how_to_frame": "Turn on the gridlines and put the roofline on the upper line so the domes have sky around them. Keep a strip of lawn in the foreground to give a sense of scale, and wait for a peacock to walk through if one appears. For a different view, try the verandah's arched frontage or the formal gardens, if you are allowed in.",
+    "phone_settings_tip": "Tap the sky or the pink sandstone to set focus, then drag the exposure slider down slightly so the sky stays blue and the stone does not wash out. Use the telephoto for the roofline details.",
+    "best_time": "Golden hour, according to one guide. Peacocks are often seen in the evening light."
+   },
+   "access_note": "Rambagh Palace is a private, working luxury hotel, so access to the grounds, the lawns and the verandah may depend on a booking or a visit as a guest or diner; check the official site before you go.",
+   "claims_not_in_sources": [
+    "The ultra-wide lens helps fit the whole width of the façade into one picture from the lawn.",
+    "Lowering the exposure slightly helps keep the sky blue against pale stone.",
+    "A taxi or hired scooter is the practical way to reach the palace from the old city."
+   ]
+  },
+  "checker_problems": 0,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Rambagh Palace, Jaipur",
+    "url": "https://en.wikipedia.org/wiki/Rambagh_Palace%2C_Jaipur"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Chainwit.",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rambagh_Palace_hotel_Jaipur_lobby_courtyard.jpg",
+   "from": "Wikidata Q7289168 main image"
+  }
+ },
+ {
+  "rank": 102,
+  "name": "Govind Dev Ji Temple",
+  "in_cut": false,
+  "label": "Govind Dev Ji Temple",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 400,
+  "pin": [
+   75.8239547,
+   26.9288302
+  ],
+  "camera": [
+   75.8239547,
+   26.9288302
+  ],
+  "camera_source": "Researched viewpoint 'Jai Niwas Garden' (4 web pages); placed at our map tiles: 'Jai Niwas' (pois); moved 10 m off buildings.",
+  "pin_note": "Position from Wikidata Q5589834: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Important Krishna temple in the City Palace grounds.",
+  "text": {
+   "description": "Govind Dev Ji is a Hindu temple dedicated to Radha and Krishna, set inside the City Palace complex in Jaipur. Maharaja Jai Singh II, who founded the city, brought the deities from Vrindavan in the 18th century. The deity was installed in a building in gardens behind his palace, and a permanent temple was built there later. For a phone photo, the draw is the temple's sandstone and marble exterior with green garden planting around it, which gives you a calm, colourful frame in a busy part of the city. Its Satsang Hall also holds a Guinness World Record, awarded in 2009, as the world's widest concrete building. It has a single roof span of 119 feet with no pillars, but this is an interior feature, so don't expect to photograph it from outside. Photography of the main deity and inside the sanctum is prohibited, and the rules for the outer halls and gardens are described differently in different places, so ask staff on site before you raise your phone. The garden is the safest open-air place to start. Take a wide first shot of the whole building, then move closer for details such as carved stonework and the colour contrast between stone and leaves. Keep your phone away from worshippers' faces and be discreet during prayer times.",
+   "geographic_location": "Govind Dev Ji Temple stands within the City Palace complex in Jaipur, Rajasthan. The garden around it lies behind and beside the temple building.",
+   "directions_text": "No listed railway, Underground or tram stop is near the temple, so check local transport options to the City Palace complex in Jaipur. The temple is inside the complex, and Jalebi Chowk is the square from which its entrance area is approached. Once inside, follow signs or ask staff for the way to the temple and to Jai Niwas Garden. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to show the temple with the garden around it. Use the telephoto lens (2x-5x, depending on your phone) for carved details and the stone's texture without walking up to the building.",
+    "where_to_stand": "Stand in Jai Niwas Garden (garden around the temple, behind/beside the temple building). The temple's sandstone and marble exterior, framed by the surrounding green garden. For close photos of the temple, use Jai Niwas Garden, the garden around the temple, behind and beside the building, where you can see the sandstone and marble exterior with green planting. This open-air spot is the safest place to take photos.",
+    "how_to_frame": "Turn on gridlines and keep the temple's vertical lines straight against them. In the garden, use trees and planting at the edges of the frame to make a natural border. If you want a second angle, Jalebi Chowk shows the entrance area and approach to the temple within the City Palace complex.",
+    "phone_settings_tip": "Tap on the stone to set focus, then use the exposure slider to bring the brightness down slightly so the pale marble keeps its detail. Use the ultra-wide lens (0.5x) only if you can't fit the building in, and keep the camera level to avoid leaning walls.",
+    "best_time": "Morning or late afternoon usually gives softer light on the stone. Temple prayer times vary, so confirm them locally if you want to see the temple at its busiest or quietest."
+   },
+   "access_note": "This is a working place of worship inside the City Palace complex, so check the official site before you go for access, entry arrangements and photography rules.",
+   "claims_not_in_sources": [
+    "Morning or late afternoon usually gives softer light on stone buildings.",
+    "Dress modestly and be discreet around worshippers at a working temple.",
+    "Jalebi Chowk is a square from which the temple's entrance area is approached.",
+    "Staff on site can direct visitors to the garden and answer photography questions."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Govind Dev Ji Temple",
+    "url": "https://en.wikipedia.org/wiki/Govind_Dev_Ji_Temple"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (2090 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/102.jpg",
+   "artist": "Jakub Hałun",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Govind_Dev_Ji_Temple,_Jaipur,_20191218_1059_9092.jpg",
+   "from": "Wikidata Q5589834 main image"
   }
  }
 ]
