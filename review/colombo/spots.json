@@ -602,15 +602,15 @@
   "nophone": true,
   "searches": 620,
   "pin": [
-   79.854182,
-   6.929434
+   79.8462444,
+   6.9270859
   ],
   "camera": [
-   79.854182,
-   6.929434
+   79.8462444,
+   6.9270859
   ],
   "camera_source": "Researched viewpoint 'Colombo City Centre' (1 web pages); placed at our map tiles: 'Colombo City Hotel' (pois); moved 10 m off buildings.",
-  "pin_note": "Position from the Wikipedia article 'Beira Lake'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Central lake with the skyline reflected in the water.",
   "text": {
    "description": "Beira Lake is a large, man-made stretch of water in the middle of Colombo, with large businesses and warehouses around its edge. The Portuguese created it as a moat to protect their fort, by joining a stream to the marshy ditch they had dug. It once covered about 1.65 km2 and is now about 0.65 km2, so what you see is a much smaller lake than the original. It photographs best when the light drops. The water is green with algae, which looks dull by day, but at blue hour the lit buildings are reflected on the surface and the whole scene becomes much more atmospheric. Storks, pelicans and monitor lizards live here, so look for birds at the water's edge. From there you look south-east towards the lake, whose central point is about 1.2 km away. If you want a closer, more traditional shot, Seema Malaka, the white temple pavilion on stilts over the water, is a good alternative, with the high-rises rising behind it. Arrive a little before sunset so you can try a few frames as the sky changes. The smell of the lake is strongest in dry weather, so don't be surprised if you notice it near the water.",
@@ -635,11 +635,7 @@
     "url": "https://en.wikipedia.org/wiki/Beira_Lake"
    }
   ],
-  "pin_flags": [
-   "large area: check the pin",
-   "phone far from subject (762 m)",
-   "OpenStreetMap object 914 m away (Beira Lake): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/12.jpg",
@@ -705,62 +701,6 @@
  },
  {
   "rank": 14,
-  "name": "Seema Malaka",
-  "in_cut": true,
-  "label": "Seema Malaka",
-  "camera_pill": null,
-  "nophone": false,
-  "searches": 530,
-  "pin": [
-   79.853257,
-   6.917623
-  ],
-  "camera": [
-   79.853257,
-   6.917623
-  ],
-  "camera_source": "Researched viewpoint 'Seema Malaka' (2 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from Wikidata Q24239464: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Floating Buddhist meditation hall on Beira Lake.",
-  "text": {
-   "description": "Seema Malaka is a Buddhist temple that sits right on Beira Lake, reached by walkways from the shore. It is used mainly for meditation and rest rather than for worship, which gives it a calm feel even though it is in the middle of the city. The temple stands on three platforms over the water, linked to the mainland and to each other by pontoon bridges. The main roof is covered in blue tiles, and the timber handrails and pavilions have a Kandyan look. The platforms hold many seated Buddha statues, each showing a different hand gesture. One side platform has a Bodhi tree grown from a branch of the Jaya Sri Maha Bodhi tree in Anuradhapura.\n\nThe temple was first built in the late 19th century, but the original structure slowly sank into the water in the 1970s. In 1976 the Sri Lankan architect Geoffrey Bawa redesigned and rebuilt it, and that is the temple you see today.\n\nIt photographs well because the buildings, statues and water all fit in one frame. For a quieter view than the main platform, walk to the lake shore at the foot of the walkway and look out at the temple with the water in front of it. Once you are on the platforms, the seated Buddha statues along the edge make a good foreground, with the timber pavilions and the lake behind. Keep a respectful distance from anyone praying or meditating.",
-   "geographic_location": "Seema Malaka stands in Beira Lake in central Colombo, a few hundred metres east of Gangaramaya Temple and about 2 kilometres south-east of Galle Face Green.",
-   "directions_text": "No train station or tram stop is listed for this spot. The temple is about 2 kilometres south-east of Galle Face Green and a few hundred metres east of Gangaramaya Temple, on Beira Lake. From the shore, the temple is reached by a narrow walkway over the water. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the temple and the lake together. Switch to the ultra-wide (0.5x) to take in more of the platforms and water, and use the telephoto (2x-5x, depending on your phone) for Buddha statues and roof details from the shore.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you see the temple sitting on the water with the lake in the foreground, a quieter angle than the main platform. A second option is on the platform itself, where the seated Buddha statues along the edge frame the timber pavilions and the lake behind.",
-    "how_to_frame": "Turn on the gridlines and place the temple along one of the lines, leaving the water in the foreground. Keep the horizon level so the platforms do not look tilted. From the platform, put a Buddha statue in the foreground and let the pavilions and lake fill the background.",
-    "phone_settings_tip": "Tap the temple to set focus, then slide the exposure down a little so the blue roof and the sky keep their colour. Use portrait mode for a close shot of a statue, and hold the phone steady with both hands.",
-    "best_time": "Early morning or late afternoon usually gives softer light and a calmer lake."
-   },
-   "access_note": "Photography is generally allowed, but you should remove your shoes before the platforms, cover your shoulders and knees, and never pose with your back to a Buddha statue; check on the day whether there is an entry fee."
-  },
-  "checker_problems": 6,
-  "code_check_failures": [
-   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Seema Malaka",
-    "url": "https://en.wikipedia.org/wiki/Seema_Malaka"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": true,
-  "photo": {
-   "file": "photos/14.jpg",
-   "artist": "AKS.9955",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Seema_Malaka_temple.JPG",
-   "from": "Wikidata Q24239464 main image"
-  }
- },
- {
-  "rank": 15,
   "name": "Colombo Lighthouse",
   "in_cut": true,
   "label": "Colombo Lighthouse",
@@ -804,7 +744,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Rehman",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -813,7 +753,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "St. Lucia's Cathedral",
   "in_cut": true,
   "label": "St. Lucia's Cathedral",
@@ -855,7 +795,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
@@ -864,7 +804,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Old Parliament Building, Colombo",
   "in_cut": true,
   "label": "Old Parliament",
@@ -910,7 +850,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "The National Archives UK",
    "licence": "No restrictions",
    "licence_url": "https://www.flickr.com/commons/usage/",
@@ -919,7 +859,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Town Hall, Colombo",
   "in_cut": true,
   "label": "Colombo Town Hall",
@@ -963,7 +903,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
@@ -972,7 +912,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Wolvendaal Church",
   "in_cut": true,
   "label": "Wolvendaal Church",
@@ -1017,12 +957,68 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
    "source_url": "https://commons.wikimedia.org/wiki/File:SL_Colombo_asv2020-01_img01_Wolvendaal_Church.jpg",
    "from": "Wikidata Q16736534 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Seema Malaka",
+  "in_cut": false,
+  "label": "Seema Malaka",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 530,
+  "pin": [
+   79.853257,
+   6.917623
+  ],
+  "camera": [
+   79.853257,
+   6.917623
+  ],
+  "camera_source": "Researched viewpoint 'Seema Malaka' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from Wikidata Q24239464: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Floating Buddhist meditation hall on Beira Lake.",
+  "text": {
+   "description": "Seema Malaka is a Buddhist temple that sits right on Beira Lake, reached by walkways from the shore. It is used mainly for meditation and rest rather than for worship, which gives it a calm feel even though it is in the middle of the city. The temple stands on three platforms over the water, linked to the mainland and to each other by pontoon bridges. The main roof is covered in blue tiles, and the timber handrails and pavilions have a Kandyan look. The platforms hold many seated Buddha statues, each showing a different hand gesture. One side platform has a Bodhi tree grown from a branch of the Jaya Sri Maha Bodhi tree in Anuradhapura.\n\nThe temple was first built in the late 19th century, but the original structure slowly sank into the water in the 1970s. In 1976 the Sri Lankan architect Geoffrey Bawa redesigned and rebuilt it, and that is the temple you see today.\n\nIt photographs well because the buildings, statues and water all fit in one frame. For a quieter view than the main platform, walk to the lake shore at the foot of the walkway and look out at the temple with the water in front of it. Once you are on the platforms, the seated Buddha statues along the edge make a good foreground, with the timber pavilions and the lake behind. Keep a respectful distance from anyone praying or meditating.",
+   "geographic_location": "Seema Malaka stands in Beira Lake in central Colombo, a few hundred metres east of Gangaramaya Temple and about 2 kilometres south-east of Galle Face Green.",
+   "directions_text": "No train station or tram stop is listed for this spot. The temple is about 2 kilometres south-east of Galle Face Green and a few hundred metres east of Gangaramaya Temple, on Beira Lake. From the shore, the temple is reached by a narrow walkway over the water. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the temple and the lake together. Switch to the ultra-wide (0.5x) to take in more of the platforms and water, and use the telephoto (2x-5x, depending on your phone) for Buddha statues and roof details from the shore.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you see the temple sitting on the water with the lake in the foreground, a quieter angle than the main platform. A second option is on the platform itself, where the seated Buddha statues along the edge frame the timber pavilions and the lake behind.",
+    "how_to_frame": "Turn on the gridlines and place the temple along one of the lines, leaving the water in the foreground. Keep the horizon level so the platforms do not look tilted. From the platform, put a Buddha statue in the foreground and let the pavilions and lake fill the background.",
+    "phone_settings_tip": "Tap the temple to set focus, then slide the exposure down a little so the blue roof and the sky keep their colour. Use portrait mode for a close shot of a statue, and hold the phone steady with both hands.",
+    "best_time": "Early morning or late afternoon usually gives softer light and a calmer lake."
+   },
+   "access_note": "Photography is generally allowed, but you should remove your shoes before the platforms, cover your shoulders and knees, and never pose with your back to a Buddha statue; check on the day whether there is an entry fee."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Seema Malaka",
+    "url": "https://en.wikipedia.org/wiki/Seema_Malaka"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "AKS.9955",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Seema_Malaka_temple.JPG",
+   "from": "Wikidata Q24239464 main image"
   }
  }
 ]
