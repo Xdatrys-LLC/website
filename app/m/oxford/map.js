@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "oxford", "title": "Oxford: 20 photo spots (pilot review)", "place": "Oxford", "bounds": [-1.282, 51.738, -1.236, 51.768], "center": [-1.259, 51.753], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/oxford/{z}/{x}/{y}.pbf", "tz": "Europe/London", "rail": false, "app": true};

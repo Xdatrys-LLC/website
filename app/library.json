@@ -1024,6 +1024,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "oxford",
+  "place": "Oxford",
+  "country": "United Kingdom",
+  "spots": 20,
+  "mb": 5.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "palermo",
   "place": "Palermo",
   "country": "Italy",
