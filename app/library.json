@@ -1288,6 +1288,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "valletta",
+  "place": "Valletta",
+  "country": "Malta",
+  "spots": 20,
+  "mb": 2.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "vancouver",
   "place": "Vancouver",
   "country": "Canada",
