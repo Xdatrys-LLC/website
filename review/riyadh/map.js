@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "riyadh", "title": "Riyadh: 10 photo spots (pilot review)", "place": "Riyadh", "bounds": [46.66, 24.62, 46.74, 24.718], "center": [46.7, 24.669], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/riyadh/{z}/{x}/{y}.pbf"};

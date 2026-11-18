@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "rotorua", "title": "Rotorua: 12 photo spots (pilot review)", "place": "Rotorua", "bounds": [176.18, -38.18, 176.3, -38.07], "center": [176.24, -38.125], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/rotorua/{z}/{x}/{y}.pbf"};
