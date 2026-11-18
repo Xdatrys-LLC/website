@@ -16,6 +16,14 @@
   "photo": null
  },
  {
+  "key": "amalfi",
+  "place": "Amalfi",
+  "country": "Italy",
+  "spots": 8,
+  "mb": 1.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "amsterdam",
   "place": "Amsterdam",
   "country": "Netherlands",
