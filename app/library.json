@@ -496,6 +496,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "melbourne",
+  "place": "Melbourne",
+  "country": "Australia",
+  "spots": 20,
+  "mb": 8.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "mexicocity",
   "place": "Mexico City",
   "country": "Mexico",

@@ -279,15 +279,15 @@
   "nophone": true,
   "searches": 4260,
   "pin": [
-   144.98033,
-   -37.8334
+   144.9803549,
+   -37.8301309
   ],
   "camera": [
-   144.98033,
-   -37.8334
+   144.9803549,
+   -37.8301309
   ],
   "camera_source": "Researched viewpoint 'Picnic Point' (1 web pages); placed at OpenStreetMap 'Picnic Point' (way/1011910840): middle (67 m across).",
-  "pin_note": "Position from the Wikipedia article 'Royal Botanic Gardens Victoria'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Large landscaped gardens with lake and city skyline views.",
   "text": {
    "description": "The Royal Botanic Gardens Victoria's Melbourne Gardens cover 38 hectares on the south side of the Yarra River. They were founded in 1846 and now hold almost 50,000 plants from about 8,500 species. The site has been on the Victorian Heritage Register since 1982. This spot is about the lake rather than any single bed or building. The Ornamental Lake was shaped around the turn of the 20th century from the old wetland. Its still water gives you a clean, open foreground, with the gardens' trees and lakeside buildings along the far bank. From Picnic Point you look across the water towards The Terrace cafe, so the picture has a clear sequence: water, tree line, then buildings. Phones cope well with this kind of scene because there is nothing close to the lens to confuse the focus. Keep the shot simple. Put the waterline on a gridline, leave some room for the sky, and wait for a quiet moment with no one walking into the frame. If you want a different view, the Ornamental Lake can also be framed as a reflective foreground with the city skyline rising beyond the trees. Guilfoyle's Volcano is another option, with cacti in the foreground and views over the city. Check the official site before you go, because some features and lookouts are closed from time to time.",
@@ -312,10 +312,7 @@
     "url": "https://en.wikipedia.org/wiki/Royal_Botanic_Gardens_Victoria"
    }
   ],
-  "pin_flags": [
-   "large area: check the pin",
-   "OpenStreetMap object 364 m away (Royal Botanic Gardens): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/6.jpg",
@@ -736,7 +733,7 @@
    "directions_text": "No tram or railway stops are listed for this spot. Head for Russell Street in central Melbourne and ask for the Old Melbourne Gaol. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the full frontage. Switch to telephoto (2x-5x, depending on your phone) for the bluestone texture and small details. Use the ultra-wide (0.5x) only if you get close to the walls and want to show their height.",
-    "where_to_stand": "Pick a spot with a clear, open view of the subject.",
+    "where_to_stand": "Stand right at the subject (Russell Street front facade, at the main entrance). The bluestone front of the gaol with its heavy iron gates, framed by the Russell Street footpath.",
     "how_to_frame": "Turn on the gridlines and line up the top of the wall with a horizontal line so the building does not lean. Keep a strip of pavement at the bottom and some sky at the top to give a sense of scale. Then zoom in for a tighter shot of stonework and windows.",
     "phone_settings_tip": "Tap the stone wall to focus, then slide the exposure down a little so the dark bluestone keeps its detail and the sky does not turn white.",
     "best_time": "Morning or a bright, slightly cloudy day should suit this view, because the stone shows its texture without harsh glare."
