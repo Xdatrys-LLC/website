@@ -1008,6 +1008,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "verona",
+  "place": "Verona",
+  "country": "Italy",
+  "spots": 19,
+  "mb": 6.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "vienna",
   "place": "Vienna",
   "country": "Austria",
