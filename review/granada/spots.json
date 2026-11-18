@@ -169,15 +169,15 @@
   "nophone": true,
   "searches": 2480,
   "pin": [
-   -3.59277778,
-   37.18083333
+   -3.5649351,
+   37.1872053
   ],
   "camera": [
-   -3.59277778,
-   37.18083333
+   -3.5649351,
+   37.1872053
   ],
   "camera_source": "Researched viewpoint 'Mirador de San Miguel Alto' (2 web pages); placed at OpenStreetMap 'Mirador de San Miguel Alto' (node/2246108726): point.",
-  "pin_note": "Position from the Wikipedia article 'Sacromonte'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Hillside quarter known for its cave houses and flamenco.",
   "text": {
    "description": "Sacromonte is the hillside neighbourhood in the east of Granada, facing the Alhambra across the valley of the Darro. It is known for its cave houses, dug into the slope and finished with whitewashed fronts. The caves are thought to date from the 16th century, and no two are the same, because each follows the shape of the hill. The area has long been associated with Granada's Romani community, who settled in the city after 1492. It also takes its name from the 'Lead Books' story of the late 1590s, which led to the building of the Abbey of Sacromonte in the 17th century.\n\nIt photographs well because the white houses, the olive-green slopes and the Alhambra all fit into one wide view. The most rewarding spot is a high terrace, the Mirador de San Miguel Alto, beside a hermitage. From there you look over the Sacromonte hillside to the Alhambra and the city below. It is a quieter, higher alternative to the lookouts closer to the houses. If you want the cave houses as the main subject, the Mirador de la Vereda de Enmedio shows them with the Alhambra behind.\n\nThe climb up is steep, so allow time and wear sensible shoes. Keep your phone and belongings close when you walk the lanes lower down.",
@@ -202,11 +202,7 @@
     "url": "https://en.wikipedia.org/wiki/Sacromonte"
    }
   ],
-  "pin_flags": [
-   "large area: check the pin",
-   "phone far from subject (2060 m)",
-   "OpenStreetMap object 2566 m away (Sacromonte): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/4.jpg",
