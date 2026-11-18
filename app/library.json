@@ -880,6 +880,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "muscat",
+  "place": "Muscat",
+  "country": "Oman",
+  "spots": 11,
+  "mb": 4.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "mykonos",
   "place": "Mykonos",
   "country": "Greece",
