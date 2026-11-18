@@ -624,6 +624,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "miami",
+  "place": "Miami",
+  "country": "United States",
+  "spots": 17,
+  "mb": 9.0,
+  "photo": null
+ },
+ {
   "key": "miamibeach",
   "place": "Miami Beach",
   "country": "United States",
