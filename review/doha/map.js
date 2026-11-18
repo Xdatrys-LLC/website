@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "doha", "title": "Doha: 12 photo spots (pilot review)", "place": "Doha", "bounds": [51.43, 25.25, 51.565, 25.385], "center": [51.4975, 25.317500000000003], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/doha/{z}/{x}/{y}.pbf"};

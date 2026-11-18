@@ -312,6 +312,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "doha",
+  "place": "Doha",
+  "country": "Qatar",
+  "spots": 12,
+  "mb": 11.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "dresden",
   "place": "Dresden",
   "country": "",
