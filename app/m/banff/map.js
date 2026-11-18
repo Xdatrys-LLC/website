@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "banff", "title": "Banff: 10 photo spots (pilot review)", "place": "Banff", "bounds": [-115.61, 51.14, -115.49, 51.21], "center": [-115.55, 51.175], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/banff/{z}/{x}/{y}.pbf", "tz": "America/Edmonton", "rail": false, "app": true};

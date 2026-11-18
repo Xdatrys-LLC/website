@@ -48,6 +48,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "banff",
+  "place": "Banff",
+  "country": "Canada",
+  "spots": 10,
+  "mb": 3.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "bangkok",
   "place": "Bangkok",
   "country": "Thailand",
