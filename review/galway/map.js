@@ -1,1 +1,1 @@
-window.MAPCFG = {"key": "galway", "title": "Galway: 15 photo spots (pilot review)", "place": "Galway", "bounds": [-9.095, 53.25, -9.03, 53.292], "center": [-9.0625, 53.271], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/galway/{z}/{x}/{y}.pbf"};
+window.MAPCFG = {"key": "galway", "title": "Galway: 14 photo spots (pilot review)", "place": "Galway", "bounds": [-9.095, 53.25, -9.03, 53.292], "center": [-9.0625, 53.271], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/galway/{z}/{x}/{y}.pbf"};

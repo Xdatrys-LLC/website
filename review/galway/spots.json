@@ -642,57 +642,6 @@
  },
  {
   "rank": 13,
-  "name": "The Hardiman",
-  "in_cut": true,
-  "label": "The Hardiman Hotel",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 40,
-  "pin": [
-   -9.047991,
-   53.273992
-  ],
-  "camera": [
-   -9.047991,
-   53.273992
-  ],
-  "camera_source": "Researched viewpoint 'Eyre Square' (2 web pages); placed at OpenStreetMap 'Eyre Square' (way/25192080): middle (210 m across).",
-  "pin_note": "Position from Wikidata Q140657483: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Historic hotel beside Eyre Square.",
-  "text": {
-   "description": "The Hardiman is a hotel on Eyre Square, in the centre of Galway. Its stone front is the kind of Victorian frontage that rewards a few steps back, and the lawns and paths of the square give you the space to take it in. The hotel opened on 16 August 1852 as the Railway Hotel. The Midland Great Western Railway built it with money left over from a famine-relief loan used to bring the Athlone to Galway line to completion. John Skipton Mulvany designed it, and the limestone facade was built under the contractor William Dargan. It has had several names since, and took its present one in 2019 from the Galway historian and scholar James Hardiman. For a phone photo, the appeal is the long, regular row of windows and the pale stone against the green of the square. Stand on the open ground in front of the hotel and let the lawn fill the lower part of the picture. That gives a sense of place and keeps passers-by from blocking the building. A very wide shot tends to make the building look small and the sky look empty. Try a slightly tighter view that takes in the full width of the frontage and a little foreground. Take a second frame with the square's paths leading towards the hotel. Treat this as a starting point and adjust the framing once you are there.",
-   "geographic_location": "The Hardiman stands at 14/15 Eyre Square, in Galway city centre, facing the square's lawns. Eyre Square's official name is John F. Kennedy Memorial Park.",
-   "directions_text": "Make your way on foot to Eyre Square in the city centre. From there it is about 2 minutes on foot to the hotel's front. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for a natural view of the facade. If you cannot step back far enough, switch to the ultra-wide (0.5x) to fit the whole width in, and keep the phone level so the building does not lean. Use 2x if you want to pick out the windows and stonework.",
-    "where_to_stand": "Stand in Eyre Square. The hotel's stone Victorian facade seen across the square's lawns and paths, from the open ground in front of it. From there the hotel lies to the south-east, and you see its stone Victorian facade across the lawns and paths of the square.",
-    "how_to_frame": "Turn on the gridlines and line the base of the building up with a lower grid line, leaving the lawn or path in the bottom third. Keep the phone upright and level so the vertical edges of the facade stay straight. Take one wide frame with the square in front and one closer frame of the frontage and windows.",
-    "phone_settings_tip": "Tap the facade to focus, then slide the exposure down slightly if the sky is bright so the pale stone keeps its detail. Take a few frames in case people walk through.",
-    "best_time": "Choose a time when the front of the building is evenly lit, such as a bright but overcast day or soft daylight, and avoid harsh shadows across the facade. Early morning is usually quieter on the square."
-   },
-   "access_note": "Eyre Square is an open public park that can be visited on foot, and the hotel is a private business, so check the official site before you go if you want to go inside.",
-   "claims_not_in_sources": [
-    "Soft, even daylight such as a bright overcast day usually suits a pale stone facade better than harsh shadow.",
-    "Early morning is usually quieter on Eyre Square.",
-    "Walking a few steps back from the building gives a better view of the whole frontage."
-   ]
-  },
-  "checker_problems": 1,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "The Hardiman",
-    "url": "https://en.wikipedia.org/wiki/The_Hardiman"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": null
- },
- {
-  "rank": 14,
   "name": "Tigh Neachtain",
   "in_cut": true,
   "label": "Tigh Neachtain",
@@ -745,7 +694,7 @@
   "photo": null
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Monument to Christopher Columbus (Galway)",
   "in_cut": true,
   "label": "Columbus Monument",
@@ -789,12 +738,63 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "unknown",
    "licence": "CC SA 1.0",
    "licence_url": "http://creativecommons.org/licenses/sa/1.0/",
    "source_url": "https://commons.wikimedia.org/wiki/File:Colombo_galway.jpg",
    "from": "Wikidata Q97357268 main image"
   }
+ },
+ {
+  "rank": 101,
+  "name": "The Hardiman",
+  "in_cut": false,
+  "label": "The Hardiman Hotel",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 40,
+  "pin": [
+   -9.047991,
+   53.273992
+  ],
+  "camera": [
+   -9.047991,
+   53.273992
+  ],
+  "camera_source": "Researched viewpoint 'Eyre Square' (2 web pages); placed at OpenStreetMap 'Eyre Square' (way/25192080): middle (210 m across).",
+  "pin_note": "Position from Wikidata Q140657483: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Historic hotel beside Eyre Square.",
+  "text": {
+   "description": "The Hardiman is a hotel on Eyre Square, in the centre of Galway. Its stone front is the kind of Victorian frontage that rewards a few steps back, and the lawns and paths of the square give you the space to take it in. The hotel opened on 16 August 1852 as the Railway Hotel. The Midland Great Western Railway built it with money left over from a famine-relief loan used to bring the Athlone to Galway line to completion. John Skipton Mulvany designed it, and the limestone facade was built under the contractor William Dargan. It has had several names since, and took its present one in 2019 from the Galway historian and scholar James Hardiman. For a phone photo, the appeal is the long, regular row of windows and the pale stone against the green of the square. Stand on the open ground in front of the hotel and let the lawn fill the lower part of the picture. That gives a sense of place and keeps passers-by from blocking the building. A very wide shot tends to make the building look small and the sky look empty. Try a slightly tighter view that takes in the full width of the frontage and a little foreground. Take a second frame with the square's paths leading towards the hotel. Treat this as a starting point and adjust the framing once you are there.",
+   "geographic_location": "The Hardiman stands at 14/15 Eyre Square, in Galway city centre, facing the square's lawns. Eyre Square's official name is John F. Kennedy Memorial Park.",
+   "directions_text": "Make your way on foot to Eyre Square in the city centre. From there it is about 2 minutes on foot to the hotel's front. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the facade. If you cannot step back far enough, switch to the ultra-wide (0.5x) to fit the whole width in, and keep the phone level so the building does not lean. Use 2x if you want to pick out the windows and stonework.",
+    "where_to_stand": "Stand in Eyre Square. The hotel's stone Victorian facade seen across the square's lawns and paths, from the open ground in front of it. From there the hotel lies to the south-east, and you see its stone Victorian facade across the lawns and paths of the square.",
+    "how_to_frame": "Turn on the gridlines and line the base of the building up with a lower grid line, leaving the lawn or path in the bottom third. Keep the phone upright and level so the vertical edges of the facade stay straight. Take one wide frame with the square in front and one closer frame of the frontage and windows.",
+    "phone_settings_tip": "Tap the facade to focus, then slide the exposure down slightly if the sky is bright so the pale stone keeps its detail. Take a few frames in case people walk through.",
+    "best_time": "Choose a time when the front of the building is evenly lit, such as a bright but overcast day or soft daylight, and avoid harsh shadows across the facade. Early morning is usually quieter on the square."
+   },
+   "access_note": "Eyre Square is an open public park that can be visited on foot, and the hotel is a private business, so check the official site before you go if you want to go inside.",
+   "claims_not_in_sources": [
+    "Soft, even daylight such as a bright overcast day usually suits a pale stone facade better than harsh shadow.",
+    "Early morning is usually quieter on Eyre Square.",
+    "Walking a few steps back from the building gives a better view of the whole frontage."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "The Hardiman",
+    "url": "https://en.wikipedia.org/wiki/The_Hardiman"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": null
  }
 ]

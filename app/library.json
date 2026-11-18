@@ -320,6 +320,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "galway",
+  "place": "Galway",
+  "country": "Ireland",
+  "spots": 14,
+  "mb": 5.0,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "gdansk",
   "place": "Gdansk",
   "country": "Poland",
