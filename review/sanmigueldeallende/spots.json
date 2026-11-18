@@ -1,0 +1,440 @@
+[
+ {
+  "rank": 1,
+  "name": "El Chorro",
+  "in_cut": true,
+  "label": "El Chorro",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 14140,
+  "pin": [
+   -100.740984,
+   20.908779
+  ],
+  "camera": [
+   -100.740984,
+   20.908779
+  ],
+  "camera_source": "Researched viewpoint 'Capilla de la Santa Cruz del Chorro' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OSM W1105705898 (El Chorro): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "The old spring and public washing place where the town began.",
+  "text": {
+   "description": "El Chorro is the hillside barrio of San Miguel de Allende, and its best-known corner is the Capilla de la Santa Cruz del Chorro, a 16th-century chapel with a small plaza in front of it. The photo works because everything sits on a slope. From the chapel's exterior atrium the town falls away below you, so one frame can hold old stonework, the open plaza and the rooftops beyond. The chapel's architecture is picturesque in its own right, and the atrium is a quieter place to take a photo than the lookout further up the hill.\n\nIf you want more variety, there are two other subjects close by. The Lavaderos del Chorro are a red colonial washing-basin complex with a tower and fountains, framed by small plazas and trees. Parque El Chorro is a wooded hillside park with winding red walls and a switchback street, and it shows the slope itself.\n\nThe climb is steep, with long flights of stairs such as the Callejón del Chorro, so allow time and wear comfortable shoes. One guide suggests visiting early in the day. Take a wide shot of the plaza first, then move closer for the chapel's details.",
+   "geographic_location": "El Chorro is a hillside barrio of San Miguel de Allende, on the slope above the town. The chapel has a small plaza, and the hillside town falls away below its exterior atrium.",
+   "directions_text": "No Underground, tram or rail stops are listed for this spot. Head to the El Chorro barrio in San Miguel de Allende and follow the climb up to the chapel. The final stretch is steep, with stairs such as the Callejón del Chorro, so allow extra time on foot. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the chapel and its plaza together. Switch to ultra-wide (0.5x) if you want more of the plaza and the town below in one frame. Use telephoto (2x or more, depending on your phone) for stonework and details.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you see the 16th-century chapel and its small plaza, with the hillside town falling away below the atrium.",
+    "how_to_frame": "Turn on the gridlines and place the chapel on one third of the frame, with the plaza and the town below filling the rest. Keep your phone level so the walls stay straight, particularly with ultra-wide. For a different view, walk down to the Lavaderos del Chorro for the red washing basins, tower and fountains, or to Parque El Chorro for its winding red walls and tree canopy.",
+    "phone_settings_tip": "Tap the chapel's walls to set focus, then lower the exposure slider slightly if the sky is washing out. Use the Live Photo option if people cross the plaza, then pick the best frame.",
+    "best_time": "Go early in the day, as one guide recommends."
+   },
+   "access_note": "The chapel is a place of worship and its access can be limited during private events, so check access before you go and dress respectfully."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Jakub Botwicz",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:El_Chorro_01.JPG",
+   "from": "Wikidata Q280346 main image, found by searching Wikipedia for the spot's name ('El Chorro'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Parroquia de San Miguel Arcángel",
+  "in_cut": true,
+  "label": "La Parroquia",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 940,
+  "pin": [
+   -100.743771,
+   20.913338
+  ],
+  "camera": [
+   -100.743771,
+   20.913338
+  ],
+  "camera_source": "Researched viewpoint 'Jardín Allende' (4 web pages); placed at OpenStreetMap 'Jardín Allende' (way/174712146): middle (79 m across).",
+  "pin_note": "Position from OSM W1171309278 (Parroquia San Miguel Arcángel): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "The pink Neo-Gothic church is the symbol of the town.",
+  "text": {
+   "description": "The Parroquia de San Miguel Arcángel is the pink church that dominates the middle of San Miguel de Allende. Its neo-Gothic façade and pointed towers are made of pink stone, so the whole front has a warm, soft colour that suits a phone camera, especially in low sun. The best-known view is from Jardín Allende, the town square, where the full façade and both towers fit into one frame with the church filling the background. Guides often call this the classic postcard angle. If the busiest walkway is crowded, step a little to one side of it and the people will stay out of your shot. For something different, Calle Aldama gives a long view down a street of colourful colonial façades, with the church's spires at the far end. El Mirador, higher up, shows the church rising above the town's rooftops. Whichever you choose, keep the phone upright and use the gridlines so the towers stay straight. Aim for golden hour or early morning, when the stone glows and the square is quieter. The church is also lit at night, so an evening shot from the square is worth trying. Plaza events can change how busy it is, so allow a little extra time.",
+   "geographic_location": "In the historic centre of San Miguel de Allende, on the south side of Jardín Allende, the main town square.",
+   "directions_text": "No public transport stop is listed nearby. The square is in the town centre, so make your way to Jardín Allende. Walk across the square towards the pink towers. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) if the façade and both towers will not fit at 1x. Switch to the default lens (1x) for a more natural look. Use telephoto (2x-5x, depending on your phone) for details of the spires and stonework.",
+    "where_to_stand": "Stand in Jardín Allende (north-west side of the plaza, across the square from the church). The full pink neo-Gothic façade and towers framed by the town square, with the church filling the background. You will be across the square from the church, which lies to the south. From here the full pink neo-Gothic façade and towers are framed by the square, with the church filling the background.",
+    "how_to_frame": "Turn on gridlines and line up the towers with the vertical lines, keeping the phone upright so they do not lean. Step slightly off the busiest walkway to keep crowds out of the frame. For a second view, try Calle Aldama, where the colonial façades lead the eye to the spires. Stand at the edge of the pavement rather than in the middle of the cobbled road.",
+    "phone_settings_tip": "Tap the pink stone to focus, then slide the exposure down a little so the sky does not wash out the colour. After dark, use night mode and hold the phone steady against a bench or wall.",
+    "best_time": "Golden hour or early morning, when the pink stone glows and the square is quieter. The church is lit at night, so an evening shot is also possible."
+   },
+   "access_note": "The façade can be photographed from the open square. Interior access is not covered here, so check locally if you want to go inside."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "https://www.flickr.com/photos/jiuguangw/",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:San_Miguel_de_Allende_sky.jpg",
+   "from": "Wikidata Q753891 main image, found by searching Wikipedia for the spot's name ('San Miguel de Allende'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Belmond Casa de Sierra Nevada",
+  "in_cut": true,
+  "label": "Casa de Sierra Nevada",
+  "camera_pill": "Calle Cuna de Allende",
+  "nophone": false,
+  "searches": 650,
+  "pin": [
+   -100.74234,
+   20.91284
+  ],
+  "camera": [
+   -100.744145,
+   20.913844
+  ],
+  "camera_source": "Commons cluster (13 photos).",
+  "pin_note": "Position from Wikidata Q18357375: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Colonial mansions turned into a famous hotel.",
+  "text": {
+   "description": "Belmond Casa de Sierra Nevada is a hotel made up of six colonial mansions in the middle of San Miguel de Allende. The buildings include a 17th-century fort, the 18th-century Casa Palma and a house said to have been the archbishop's residence in the 16th century. For a phone photographer, that mix of old stonework, colour and age is the appeal. The hotel sits among old cobbled streets and parks, so you can shoot it with the town around it rather than as an isolated building. The wider town is a UNESCO World Heritage Site, which explains why so many of the streets around here look good in a frame. Inside, the buildings are arranged around courtyards with cloisters, fountains and frescoes, but those are part of a working hotel, so treat them as a possible bonus rather than something to count on. Use that walk to take a few wider shots of the street, then move closer for details such as doorways, stone arches, wall colour and cobbles. Keep your shots to what you can see from public streets and be polite about any guests or staff who wander into the frame.",
+   "geographic_location": "In the town centre of San Miguel de Allende, among old cobbled streets and parks. The hotel is a group of colonial buildings rather than a single block.",
+   "directions_text": "Start from the town centre of San Miguel de Allende; there is no station or stop nearby, so come by taxi or hired scooter to the phone icon on the map. From there the hotel is about 218 m to the south-east, about 3 minutes on foot. Head south-east along the streets and watch for the old stone frontages. The phone icon on the map is about 220 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the street and the buildings as you find them. Switch to ultra-wide (0.5x) only if the street is narrow and you need the full height of a facade. Use telephoto (2x-5x, depending on your phone) for carved doorways, windows and rooftop details.",
+    "where_to_stand": "Stand about 220 m north-west of the subject, at the phone icon on the map, and face south-east. Take your shots from the street, looking towards the buildings.",
+    "how_to_frame": "Turn on gridlines and keep the vertical lines of walls and doorways straight. Use the cobbled street as a leading line towards the facade. If you step back a little, include a bit of the sky or a tree for balance. Hold the phone level to avoid leaning walls with the ultra-wide lens.",
+    "phone_settings_tip": "Tap on the brightest wall to set focus, then drag the exposure slider down slightly so the sunlit stone keeps its colour and does not wash out. In shaded streets, tap on a mid-tone area instead.",
+    "best_time": "Morning or late afternoon, when the light is softer and the stone and paintwork look warmer. Midday sun can make deep shadows in narrow streets."
+   },
+   "access_note": "The hotel is private property and the courtyards may be limited to guests, so check the official site before you go if you hope to see inside; the streets around it are public."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Belmond Casa de Sierra Nevada",
+    "url": "https://en.wikipedia.org/wiki/Belmond_Casa_de_Sierra_Nevada"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": null
+ },
+ {
+  "rank": 4,
+  "name": "Templo de San Francisco",
+  "in_cut": true,
+  "label": "Templo San Francisco",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 420,
+  "pin": [
+   -100.7422,
+   20.915111
+  ],
+  "camera": [
+   -100.7422,
+   20.915111
+  ],
+  "camera_source": "Researched viewpoint 'Plaza de San Francisco' (2 web pages); placed at OpenStreetMap 'Plaza de San Francisco' (way/961654797): middle (50 m across).",
+  "pin_note": "Position from OSM W677527646 (Templo de San Francisco): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Churrigueresque church with a tall tower, close to the Jardín.",
+  "text": {
+   "description": "The Templo de San Francisco in San Miguel de Allende is best photographed from the plaza in front of it, where most people take their photo. The draw is the Baroque façade, with its carved saints and Churrigueresque detail.\n\nThe plaza works well for a phone because it gives you open space in front of the church. You can stand back far enough to fit the whole façade in the frame, and the open ground makes a natural foreground. Stand in front of the main façade and look north. Use the gridlines to keep the vertical lines of the façade and doorway straight, and leave a little room above the top so the church isn't cropped.\n\nFor a second picture, walk to the corner of San Francisco and Juárez. From there you get a closer, angled view of the church's side and front, which shows more depth and texture in the stonework. Opening hours at the church vary, and rules about photography apply inside, so ask before you take pictures in the interior.",
+   "geographic_location": "The Templo de San Francisco stands at the corner of San Francisco and Juárez streets in San Miguel de Allende, facing Plaza de San Francisco. The plaza is the open space directly in front of the church.",
+   "directions_text": "Head for Plaza de San Francisco, the open space in front of the church. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) from the plaza so the whole façade fits with some open space in the foreground. Switch to the ultra-wide (0.5x) only if you are very close or want the plaza and church together, and keep the church near the middle of the frame so the edges do not stretch it. Use telephoto (2x-5x, depending on your phone) for the carved saints and the Churrigueresque detail on the façade.",
+    "where_to_stand": "Stand in Plaza de San Francisco (in front of the main façade). The Baroque façade of the church filling the frame, with the plaza and its open space in the foreground. From there the church is to the north, and the Baroque façade fills the frame with the plaza and its open space in the foreground. For a closer, angled view of the side and front, walk to the corner of San Francisco and Juárez.",
+    "how_to_frame": "Turn on the gridlines and line up the church with the central vertical line, holding the phone level so the façade does not lean. Keep a strip of open plaza at the bottom of the frame to give a sense of space. Then take a second shot with the telephoto on the carved saints. If you want something different, the angled view from the corner of San Francisco and Juárez shows the church's side and front together.",
+    "phone_settings_tip": "Tap the façade to set focus, then drag the exposure slider down a little if the sky is bright, so the carved stone keeps its detail. If people walk through the plaza, take a few shots in a row, or try a Live Photo, and pick the one with the clearest foreground.",
+    "best_time": "Early morning or late afternoon is likely to give softer light on the stonework and a calmer plaza. Check how the light falls on the façade when you arrive, as it changes through the day."
+   },
+   "access_note": "The plaza in front of the church is an open public space; the church is a place of worship with varying hours and photography rules inside, so check the official site or local notices before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "SergioYalu",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:San_Francisco_de_As%C3%ADs_-_Fachada.jpg",
+   "from": "Wikidata Q7698850 main image, found by searching Wikipedia for the spot's name ('Templo de San Francisco de Asís'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Instituto Allende",
+  "in_cut": true,
+  "label": "Instituto Allende",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 350,
+  "pin": [
+   -100.746968,
+   20.909199
+  ],
+  "camera": [
+   -100.746968,
+   20.909199
+  ],
+  "camera_source": "Researched viewpoint 'Instituto Allende' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from Wikidata Q17989128: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Art school in an 18th-century hacienda-style mansion.",
+  "text": {
+   "description": "The Instituto Allende is an art school in a very large old house a few blocks from the middle of town. The Canal family began building it in 1735 as a country residence, and in 1809 it passed to the Discalced Carmelite sisters. The art school opened in 1950 and still fills the rear of the complex and its gardens. The front is a plaza with a café and several galleries, so it is easy to wander in and look around.\n\nIt photographs well because of the layers: old stone walls, courtyards and garden corners, and then, from the back courtyard, the spires of the Parroquia de San Miguel Arcángel rising above the roofline. A local art writer rates that view among the loveliest in town. You reach it by winding through the complex, which is part of the fun. If you have time, look for colonial arches, wall murals, bougainvillea and a fountain for close-up detail shots.\n\nThe town's light drew artists here in the first place, and the school has had students from North America since the 1950s. Treat it as a working place rather than a museum. Courtyards or the terrace can close when the venue is booked for weddings or private events, so be ready to adapt. The private chapel sits behind locked grates and is not a viewpoint. Take your time, keep a gentle pace, and leave students and classes undisturbed.",
+   "geographic_location": "The Instituto Allende stands a few blocks southwest of the town centre of San Miguel de Allende. The art school occupies the rear of the building and its gardens, and the shops, galleries and café are at the front.",
+   "directions_text": "Start from the town centre of San Miguel de Allende and head southwest for a few blocks on foot; the institute is a large old building you can't easily miss. If you prefer not to walk, take a taxi. Once at the front plaza, walk through to the back of the complex to find the courtyard. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the courtyard view toward the Parroquia. Switch to telephoto (2x-5x, depending on your phone) to bring the spires closer. Use ultra-wide (0.5x) in the arched courtyard for the arches, fountain and murals, and keep your phone level so the walls don't lean.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From there the church's spires show above the building. If the courtyard is closed, the rooftop terrace is an alternative, with views over the town's rooftops to the cathedral and historic centre, but check on arrival whether you can go up.",
+    "how_to_frame": "Turn on gridlines and place the spires on one of the upper lines, with a wall or arch in the foreground to give depth. For a second picture, move closer to the arches, bougainvillea and fountain and shoot details rather than wide scenes. Keep people out of the frame where classes are in progress.",
+    "phone_settings_tip": "Tap the Parroquia to focus, then drag the exposure slider down slightly so the sky keeps its colour and the spires don't wash out. In the shaded courtyard, tap a mid-tone wall so the picture doesn't turn too dark.",
+    "best_time": "Morning or late afternoon usually gives softer light in the courtyard, but the view depends more on whether the courtyard is open than on the hour."
+   },
+   "access_note": "The front of the complex has a plaza with a café and galleries, but opening hours vary and courtyards and the terrace can close for weddings or private events, so check opening hours before you go and confirm on arrival."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Instituto Allende",
+    "url": "https://en.wikipedia.org/wiki/Instituto_Allende"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "Sanmiguelito",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Instituto_allende.JPG",
+   "from": "Wikidata Q17989128 main image"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Teatro Ángela Peralta",
+  "in_cut": true,
+  "label": "Teatro Ángela Peralta",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 140,
+  "pin": [
+   -100.745124,
+   20.915337
+  ],
+  "camera": [
+   -100.745124,
+   20.915337
+  ],
+  "camera_source": "Researched viewpoint 'Calle Mesones' (3 web pages); placed at the stretch of Calle Mesones nearest the subject (our map tiles).",
+  "pin_note": "Position from OSM W235394798 (Teatro Angela Peralta): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "19th-century theatre just off the Jardín.",
+  "text": {
+   "description": "The Teatro Ángela Peralta sits on Calle Mesones in the historic centre of San Miguel de Allende. Its classical facade dates from 1915 and is the main thing to photograph. What makes the picture work is the setting. The street is narrow and colonial, and the old buildings along it give the theatre a natural frame, so you get a sense of the town as well as the building.\n\nFrom there you walk south along the street to reach the facade. The theatre lies to the south of this point, so you are looking back along the street rather than from a distance. Once you are near the facade, you can fit the theatre front into the street, with the older buildings behind it.\n\nThe street is tight, so you will not get far back. Use the ultra-wide (0.5x) to take in the whole front, and keep your phone level so the vertical lines stay straight. For a tighter shot of the doorway and the upper part of the facade, switch to 2x. If you want a straight-on view of the facade alone, cross to the opposite side of the street near the facade, step to a spot opposite its centre and shoot from there. Mesones is also the street most visitors walk along to reach the theatre, so expect some passers-by in your frame. Wait a moment and the gap usually comes.",
+   "geographic_location": "In the historic centre of San Miguel de Allende, on Calle Mesones, where the theatre fronts the street.",
+   "directions_text": "No Underground, train or tram stops are nearby, so head for the historic centre of San Miguel de Allende and walk to Calle Mesones. The theatre is on that street. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the facade and the narrow street into one frame. Use the default lens (1x) for a more natural look, and 2x for details of the doorway and upper facade.",
+    "where_to_stand": "Stand on Calle Mesones (across the street from the theatre facade, framing the building within the historic street). The theatre front set within the narrow colonial street, with the street's old buildings in the background. From here you see the theatre front set within the narrow colonial street, with the street's old buildings behind it. Cross to the opposite side of the street near the facade for a straight-on view.",
+    "how_to_frame": "Keep the facade in the centre-lower part of the frame and let the street's old buildings fill the sides and background. Turn on gridlines and line them up with the building's vertical edges. For a straight-on picture of the facade alone, move directly opposite its centre.",
+    "phone_settings_tip": "Tap on the facade to set focus, then drag the exposure slider down slightly if the sky behind is bright, so the stonework keeps its detail. Keep the phone level to limit leaning verticals, especially at 0.5x.",
+    "best_time": "Earlier in the day is usually quieter on a narrow street, which makes a clear view of the facade easier. Check how the light falls on the front when you arrive."
+   },
+   "access_note": "The street is a public place to stand and photograph; if you want to go inside the theatre, check opening details locally before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "David Stanley from Nanaimo, Canada",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Teatro_Angela_Peralta_(26910810311).jpg",
+   "from": "Wikidata Q15850240 main image, found by searching Wikipedia for the spot's name ('Teatro Ángela Peralta, Mazatlán'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Oratorio de San Felipe Neri",
+  "in_cut": true,
+  "label": "Oratorio San Felipe",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 140,
+  "pin": [
+   -100.742108,
+   20.916465
+  ],
+  "camera": [
+   -100.742108,
+   20.916465
+  ],
+  "camera_source": "Researched viewpoint 'Plaza Cívica' (2 web pages); placed at OpenStreetMap 'Plaza civica' (way/235394551): middle (82 m across).",
+  "pin_note": "Position from OSM R15877339 (Templo del Oratorio de San Felipe Neri): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Baroque church with a pink quarry-stone facade.",
+  "text": {
+   "description": "The Oratorio de San Felipe Neri is a church in San Miguel de Allende, known for its pink baroque facade, its several towers and its dome. The pink stone gives the front a warm colour that stands out well on a phone screen, and the towers and dome make a lively outline against the sky. The easiest place to photograph it is near Plaza Cívica, the small open square by the church. From there the facade and towers fill part of the frame, and the square is a quieter place to stop than the busy street. If you want a wider view of the town, Calle Insurgentes shows the church rising above the street with the town's skyline behind it. Take a few steps back before you shoot so the towers are not cut off at the top. Turn on the gridlines and line up a tower or the edge of the facade with a vertical line, so the building does not seem to lean. Photography inside is subject to local rules and flash is discouraged, so treat the outside as your main photo and check the rules before taking out your phone indoors. If a Mass is under way, be considerate and keep your distance from anyone entering or leaving.",
+   "geographic_location": "The church is in San Miguel de Allende, near the small square called Plaza Cívica. Calle Insurgentes is another viewpoint for the church.",
+   "directions_text": "Once you are there, the church is easy to spot by its pink facade and towers. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the facade and towers together. Switch to the ultra-wide (0.5x) if the space is too tight to fit the whole front, and use the telephoto (2x or more, depending on your phone) for details of the towers and carving.",
+    "where_to_stand": "Stand in Plaza Cívica (the square next to the church; the source does not say which side). The church's facade and towers seen from the open square beside it, with the church filling part of the frame. Walk a little until the towers sit clear above the roofline.",
+    "how_to_frame": "Hold the phone upright and use the gridlines to keep the towers straight. Put the facade in the middle or slightly off-centre, and leave a little sky above the highest tower. For a different view, walk to Calle Insurgentes, where the pink facade, towers and dome rise above the street with the town's skyline behind.",
+    "phone_settings_tip": "Tap on the pink stone to set focus, then slide the exposure down a little if the sky is bright so the colour stays rich and the sky does not wash out. Skip flash, especially inside.",
+    "best_time": "Early morning or late afternoon usually gives softer light on the facade and fewer people in the square, but check how the light falls on the day."
+   },
+   "access_note": "The church is a place of worship, so dress modestly and check the official site before you go for visiting times and any rules on photography inside."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Catedrales e Iglesias/Cathedrals and Churches from Ciudad...",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Oratorio_San_Felipe_Neri,_C%C3%A1diz,_facade.jpg",
+   "from": "Wikidata Q3896772 main image, found by searching Wikipedia for the spot's name ('Iglesia del Oratorio de San Felipe Neri'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Mirador de San Miguel de Allende",
+  "in_cut": true,
+  "label": "El Mirador",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 100,
+  "pin": [
+   -100.73802,
+   20.907818
+  ],
+  "camera": [
+   -100.73802,
+   20.907818
+  ],
+  "camera_source": "Researched viewpoint 'El Mirador' (4 web pages); placed at OpenStreetMap 'Mercado artesanías el mirador' (node/5917177385): point.",
+  "pin_note": "Position from OSM N9212750518 (Mirador): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Viewpoint over the rooftops and the Parroquia spires.",
+  "text": {
+   "description": "El Mirador is the lookout most visitors head for when they want to see San Miguel de Allende from above. From the main platform the historic centre spreads out below you, with the pink Parroquia de San Miguel Arcángel as the obvious landmark and hills rising behind the town. That mix of rooftops, one recognisable church and a soft skyline is what makes the view so easy to photograph on a phone.\n\nGuides describe it as the classic panoramic spot in town, and it is the place guides recommend for a sunset or golden-hour shot. Reviewers also mention how good the city looks lit up after dark. One guide also suggests early morning.\n\nTwo practical points from visitors: tree branches can block part of the panorama, and the platform gets crowded around sunset. Arrive a little early to claim a spot, and take a step or two along the platform if a branch is in the way.\n\nFor something different, try the approach rather than the view. Callejón del Chorro, with its colourful terraced houses, plants and narrow alleys, makes a pretty frame for the climb up. Check the route on your map before setting off.\n\nKeep your phone ready for two types of shot: the wide view of the whole town, and a closer one of the church and rooftops.",
+   "geographic_location": "El Mirador is on Salida Real a Querétaro, overlooking the historic centre of San Miguel de Allende. It is a lookout on higher ground, with the town and its pink parish church spread out below.",
+   "directions_text": "No Underground, tram or similar stops are listed for this spot, so start from the historic centre of San Miguel de Allende and head to El Mirador on Salida Real a Querétaro (number 92). If you prefer to walk, the Callejón del Chorro is suggested as a scenic way up, but check the route on a map first. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole town and the hills behind it. Switch to the default lens (1x) for a more natural view, then use the telephoto (2x-5x, depending on your phone) to pick out the Parroquia and nearby rooftops.",
+    "where_to_stand": "Stand right at the subject (main lookout platform, Salida Real a Querétaro 92). Wide panorama over the historic centre, with the pink Parroquia de San Miguel Arcángel as the focal landmark and surrounding hills behind the town. For the full view, go to the main lookout platform itself, where the historic centre spreads out below, with the pink Parroquia de San Miguel Arcángel as the focal point and the hills behind the town. If branches cut into the view, shuffle along the platform until the frame is clear.",
+    "how_to_frame": "Turn on gridlines and place the Parroquia on one of the intersections, with the hills filling the upper part of the frame. Keep the horizon level. Keep any branches out of the corners, or use a small branch at the edge as a natural frame. For a different shot, take the Callejón del Chorro as an alternative on the way up, with its colourful houses, plants and narrow alleys leading the eye up the lane.",
+    "phone_settings_tip": "Tap on the town to set focus, then drag the exposure slider down slightly so the sky keeps its colour at sunset. After dark, use night mode and rest your phone on a wall or railing to keep it steady. Panorama mode also works well for the full sweep of the skyline.",
+    "best_time": "Sunset or golden hour, when the evening light is at its best and the town lights come on afterwards. Early morning is another option suggested by one guide."
+   },
+   "access_note": "El Mirador is a free public lookout, but check locally for any closures or restrictions before you go."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": null
+ },
+ {
+  "rank": 9,
+  "name": "Casa de Allende",
+  "in_cut": true,
+  "label": "Casa de Allende",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 40,
+  "pin": [
+   -100.744173,
+   20.913867
+  ],
+  "camera": [
+   -100.744173,
+   20.913867
+  ],
+  "camera_source": "Researched viewpoint 'Jardín Allende' (2 web pages); placed at OpenStreetMap 'Jardín Allende' (way/174712146): middle (79 m across).",
+  "pin_note": "Position from OSM W1105705894 (Museo Casa de Allende): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Birthplace of the independence hero Ignacio Allende.",
+  "text": {
+   "description": "Casa de Allende is the house where Ignacio Allende lived. Today it is a museum, with its address given as Cuna de Allende 1. For a visitor with a phone, the draw is the front of the building. A statue of Allende stands on a perch at second-floor level, and it gives the facade a clear focal point that is easy to spot among the nearby buildings.\n\nThe best view is from the southwest corner of Jardín Allende, about 54 m from the house. From there you look across at the facade with the statue on its second-floor perch, and the square's southwest corner frames the facade and statue. It is a short, easy spot to add to a walk around the historic centre, and it takes only a minute or two to photograph well.\n\nStart with a wide shot of the whole facade, then move in on the statue. If people are walking across the square, wait a moment for a clear gap rather than cropping them out afterwards. A second angle is worth a look: from the steps of the Iglesia de San Rafael, the house sits behind you and La Parroquia appears at the left of the frame, which makes a different kind of town photograph. The museum is a separate matter from the outside view, so check current rules with the museum before shooting indoors.",
+   "geographic_location": "Casa de Allende is in the historic centre of San Miguel de Allende, near Jardín Allende. The Iglesia de San Rafael and La Parroquia are close by.",
+   "directions_text": "No Underground or tram stops are listed for this spot, so head to the historic centre of San Miguel de Allende and go to Jardín Allende. From there the house is about 54 m away (roughly a minute on foot) to the south-west, and you can see it from the corner itself. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the facade and the statue together. Switch to telephoto (2x or more, depending on your phone) to bring the statue closer without walking into the road or crossing the square. Use ultra-wide (0.5x) only if you want a lot of the square in the frame, and keep the house away from the edges, where buildings can look stretched.",
+    "where_to_stand": "Stand in Jardín Allende (southwest corner of the square, near the Allende house, looking at its facade). The Casa de Allende facade with its statue of Ignacio Allende on the second-floor perch, framed by the square's southwest corner. The Casa de Allende is to the south-west of you, and from this corner you see its facade with the statue of Ignacio Allende on the second-floor perch.",
+    "how_to_frame": "Turn on gridlines and place the statue near an upper third line, with the facade filling the rest of the frame. Hold the phone level so the building edges stay upright. Take one wide shot and one telephoto shot of the statue. For a different view, the steps of the Iglesia de San Rafael show the house behind you and La Parroquia at the left of the frame.",
+    "phone_settings_tip": "Tap on the facade to focus, then slide the exposure down a little if the sky is bright, so the statue and stonework keep their detail. Portrait mode is not needed here.",
+    "best_time": "Choose a time when the facade is evenly lit and the square is quieter. Check how the light falls on the day, and move a few steps along the corner if glare or shadow covers the statue."
+   },
+   "access_note": "The square is an open public space; the museum inside the house may have its own entry and photography rules, so check current rules with the museum before shooting indoors."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "Lesekreis",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Isabel_Allende_Frankfurter_Buchmesse_2015_(cropped).JPG",
+   "from": "Wikidata Q83566 main image, found by searching Wikipedia for the spot's name ('Isabel Allende'): check it shows this spot"
+  }
+ }
+]

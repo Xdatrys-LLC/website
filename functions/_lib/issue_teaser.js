@@ -1,7 +1,9 @@
 // Public short version of a Pocket Lens issue page (Ifan, 2026-11-18).
 // The Pocket Lens project publishes the FULL issue to /issues/<date> unchanged. This website code shortens it as it is
 // served, so the two projects stay separate: Pocket Lens never needs to know about it.
-// Kept in full: everything above the first section (headline, intro, places, greeting) and Your Travel (the call to
+// The top of the issue keeps the headline, phone tip, date, "In this issue" and "Places in this issue" (they carry the
+// search words), and from the greeting only "Welcome back" and the "Today's Pocket Lenser" line (the reader and the
+// destination); the other greeting paragraphs are for subscribers (Ifan, 2026-11-18). Kept in full: Your Travel (the call to
 // send in a trip). Every other section keeps only its heading, the item's title and its first sentence, then the line
 // "Subscribers read the full issue: Subscribe free" (Ifan, 2026-11-18: the first version showed too much). Everyone (visitors and search engines) gets the same short page;
 // signed-in members and the owner get the full page (decided in _middleware.js).
@@ -54,6 +56,16 @@ function firstItem(body) {
   return { head, sentence };
 }
 
+function shortTop(top) {
+  const w = top.search(/<p>\s*<strong>Welcome back/);
+  if (w < 0) return top;
+  const greet = top.slice(w);
+  const paras = greet.match(/<p[^>]*>[\s\S]*?<\/p>/g) || [];
+  const keep = paras.filter((p) => /Welcome back|Today's Pocket Lenser/.test(p));
+  const divs = (greet.replace(/<p[^>]*>[\s\S]*?<\/p>/g, "").match(/<\/?div\b[^>]*>/g) || []).join("\n");
+  return top.slice(0, w) + keep.join("\n") + "\n" + SUB_LINE + "\n" + divs + "\n";
+}
+
 export function teaserIssue(html) {
   const heads = [...html.matchAll(/<h2 id="([a-z0-9-]+)"[^>]*>[\s\S]*?<\/h2>/g)];
   if (heads.length < 3) return html;
@@ -61,7 +73,7 @@ export function teaserIssue(html) {
   let endLast = html.indexOf('<div class="sub">', heads[heads.length - 1].index);
   if (endLast < 0) endLast = html.indexOf('<div class="footer">', heads[heads.length - 1].index);
   if (endLast < 0) return html;
-  let out = html.slice(0, heads[0].index);
+  let out = shortTop(html.slice(0, heads[0].index));
   heads.forEach((h, i) => {
     const start = h.index + h[0].length;
     const end = i + 1 < heads.length ? heads[i + 1].index : endLast;
