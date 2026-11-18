@@ -632,15 +632,15 @@
   "nophone": true,
   "searches": 200,
   "pin": [
-   108.222,
-   16.0919
+   108.2205586,
+   16.0951223
   ],
   "camera": [
-   108.222,
-   16.0919
+   108.2205586,
+   16.0951223
   ],
   "camera_source": "Researched viewpoint 'Đường Như Nguyệt' (2 web pages); placed at OpenStreetMap 'Đường Như Nguyệt' (way/344533399): point nearest the subject (1442 m long).",
-  "pin_note": "Position from the Wikipedia article 'Thuận Phước Bridge'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Long suspension bridge across the Hàn River mouth.",
   "text": {
    "description": "Thuận Phước Bridge is a suspension bridge that crosses the mouth of the Han River, where the river meets the sea. It is the longest suspension bridge in Vietnam: 1,850 metres long and 18 metres wide, with a main span of 405 metres and two towers 80 metres high. Building began in 2003 and the bridge was inaugurated on 19 July 2009. That scale is what makes it such a good subject. The long deck and tall towers give you strong lines to work with, and the river and sea sit in front and behind.\n\nFor a phone photo, the best view is from the water's edge rather than from the bridge itself. The riverside promenade along Đường Như Nguyệt, on the west bank upstream of the bridge, shows the bridge from below and across the river. After dark, the lit-up structure reflects on the water. If you want a close-up of the whole bridge rising over the river, the bridge's own walkways are an alternative, and the waterfront near Cảng Tiên Sa shows it with the river mouth, the bay and the green slopes of Sơn Trà behind. Whichever you choose, include some water in the frame, because the reflections and the sense of span depend on it. Keep the phone level so the deck does not appear to sag, and wipe the lens before you start.",
@@ -671,10 +671,7 @@
     "url": "https://en.wikipedia.org/wiki/Thu%E1%BA%ADn_Ph%C6%B0%E1%BB%9Bc_Bridge"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (510 m)",
-   "OpenStreetMap object 390 m away (Cầu Thuận Phước): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/13.jpg",
