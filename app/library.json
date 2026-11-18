@@ -1240,6 +1240,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "tulum",
+  "place": "Tulum",
+  "country": "Mexico",
+  "spots": 5,
+  "mb": 2.8,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "ubud",
   "place": "Ubud",
   "country": "Indonesia",

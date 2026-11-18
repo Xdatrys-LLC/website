@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "tulum", "title": "Tulum: 5 photo spots (pilot review)", "place": "Tulum", "bounds": [-87.68, 20.19, -87.3, 20.45], "center": [-87.49000000000001, 20.32], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/tulum/{z}/{x}/{y}.pbf", "tz": "America/Cancun", "rail": false, "app": true};
