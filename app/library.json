@@ -608,6 +608,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "kathmandu",
+  "place": "Kathmandu",
+  "country": "Nepal",
+  "spots": 18,
+  "mb": 12.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "kobe",
   "place": "Kobe",
   "country": "Japan",
