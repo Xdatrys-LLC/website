@@ -1,0 +1,216 @@
+[
+ {
+  "rank": 1,
+  "name": "Zauchensee lake",
+  "in_cut": true,
+  "label": "Zauchensee lake",
+  "camera_pill": "Alte Zauchenseestraße",
+  "nophone": false,
+  "searches": 1030,
+  "pin": [
+   13.456855,
+   47.293576
+  ],
+  "camera": [
+   13.455579,
+   47.298314
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from Wikidata Q3574911: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Small mountain lake with shore paths and views of the surrounding ski mountains.",
+  "text": {
+   "description": "Zauchensee lake gives its name to the whole resort village at the southern end of Altenmarkt im Pongau, in the state of Salzburg. The lake sits at about 1,339 metres above sea level, the lowest point of an area that rises to the Steinfeldspitze at 2,344 metres. That height difference is why the lake photographs well: you get open water in the foreground and mountain slopes rising behind it. The village around it is known as a ski resort and has hosted Alpine Ski World Cup races many times since 1980, so you may spot lifts and slopes in the background. The resort grew from the 1960s, when the first T-bar began running in the winter of 1964/65. In summer the area also suits hikers. It is about 536 metres north of the lake, so you look south across the area towards the water. Keep the horizon level using the gridlines, and include some shoreline or path in the foreground to give the picture depth. If the water is still, check whether the slopes show in it. Wipe the lens before you start, because cold or damp air often leaves smudges. Then take a wide shot and a closer one so you have a choice later.",
+   "geographic_location": "The lake is in Zauchensee, the southernmost part of the municipality of Altenmarkt im Pongau. The village of Zauchensee is the heart of the ski resort, with hotels and ski lifts.",
+   "directions_text": "No public transport stop is listed for this spot. Start from Altenmarkt im Pongau, the nearest town, and head south to Zauchensee. The phone icon on the map is about 540 m north of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the lake and the slopes together, then switch to the default lens (1x) for a more natural view. Use the telephoto (2x-5x, depending on your phone) to pick out a stretch of far shoreline or a ridge.",
+    "where_to_stand": "Stand about 540 m north of the subject, at the phone icon on the map, and face south. The lake and the mountain setting around it lie in that direction. Walk on towards the water if you want a closer viewpoint.",
+    "how_to_frame": "Turn on the gridlines and put the horizon on the top or bottom third line, depending on whether the sky or the water is more interesting. Keep some foreground, such as grass, a path or the water's edge, so the picture has depth. Try a landscape shot at 0.5x and a tighter 2x shot of the slopes.",
+    "phone_settings_tip": "Tap on the mountains to focus, then lower the exposure slider a little if the sky looks washed out. Use panorama mode only if you can pan slowly and keep the phone level.",
+    "best_time": "Early morning or late afternoon usually gives softer light than midday. Check which way the light falls on the day, since you will be shooting south."
+   },
+   "access_note": "The lake is part of a resort area; check the official site before you go for any local access rules or restrictions near the shore."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Zauchensee",
+    "url": "https://en.wikipedia.org/wiki/Zauchensee"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 3 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Kälberloch",
+  "in_cut": true,
+  "label": "Kälberloch",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 30,
+  "pin": [
+   13.456111,
+   47.29
+  ],
+  "camera": [
+   13.456111,
+   47.29
+  ],
+  "camera_source": "Researched viewpoint 'Gamskogel' (3 web pages); placed at OpenStreetMap 'Gamskogel' (node/2387878071): point.",
+  "pin_note": "Position from Wikidata Q20379654: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Alpine area south of the lake in the Zauchensee ski region.",
+  "text": {
+   "description": "Kälberloch is the name of a World Cup ski course on the Gamskogel, above Zauchensee, and of one of the named sections on it. It first hosted racing in 1990 and is regarded as the most demanding course on the women's World Cup circuit. The full women's downhill is just over 3 km long, with a drop of nearly 800 m from a start at about 2,176 m. The start itself is so steep that nobody can walk up to it, so you arrive by the Weltcupexpress railway.\n\nThat is also what makes it a good place for a phone photo. From the viewing platform at the women's start you look straight down the slope, and the Kälberloch section sits below you. The drop and the long, tilted line of the piste are what make the picture. It is not a classic postcard shot of the Kälberloch itself, but it shows how steep the course really is. If you prefer a second angle, the terrace of the Unterbergalm hut looks across the race slope as it runs through the snow bowl.\n\nTake a few frames at different zoom levels: a wide one for the scale of the mountain, and a closer one that picks out the course below. Keep well behind any barriers and don't lean out for a better angle, because the ground falls away sharply.",
+   "geographic_location": "Kälberloch is on the slopes of the Gamskogel in Zauchensee, part of Altenmarkt im Pongau in Salzburg. The Gamskogel viewing platform at the top of the women's World Cup start is a separate viewpoint, above the Kälberloch section of the course.",
+   "directions_text": "No Underground, tram or train stops are listed near here, so check local options for getting up to Zauchensee. From the ski area, the Weltcupexpress railway runs up to the women's start and viewing platform on the Gamskogel. It is seasonal and may charge a ticket, so check opening times locally. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the whole drop and the sweep of the mountain. Then switch to the default lens (1x) for a balanced view down the piste, and to telephoto (2x-5x, depending on your phone) to pick out the Kälberloch section below.",
+    "where_to_stand": "Stand right at the subject (viewing platform at the women's World Cup start). A view down the steep World Cup course from the start area, with the Kälberloch section below it. For a view looking down the steep course, the Gamskogel viewing platform at the women's World Cup start is a separate viewpoint, reached by the Weltcupexpress. Stay behind the barriers.",
+    "how_to_frame": "Switch on the gridlines and run the line of the piste diagonally through the frame, so the steepness reads clearly. Include a little sky or the far ridge for scale. If you want a different view, the Unterbergalm hut terrace shows the race slope running through the snow bowl.",
+    "phone_settings_tip": "Snow can fool the exposure and turn grey. Tap on a bright part of the slope, then slide the exposure slider up a little. Use panorama for the wide sweep, and hold the phone steady with both hands when you zoom.",
+    "best_time": "Go on a clear day, when you can see all the way down the course, and check the lift times first. Mornings are usually calmer for photos, but any bright, clear spell works."
+   },
+   "access_note": "The platform is reached by the Weltcupexpress railway, which is seasonal and may charge a ticket, so check opening times locally before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Kälberloch",
+    "url": "https://en.wikipedia.org/wiki/K%C3%A4lberloch"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (1973 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Altenmarkt-Zauchensee",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2017-18_Skigebiet_Zauchensee_(41).jpg",
+   "from": "Wikidata Q20379654 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Felserhütte",
+  "in_cut": true,
+  "label": "Felserhütte",
+  "camera_pill": "near Zauchenseestraße",
+  "nophone": false,
+  "searches": 20,
+  "pin": [
+   13.456815,
+   47.292906
+  ],
+  "camera": [
+   13.456892,
+   47.292765
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OSM W64946856 (Felserhütte): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Mountain hut with an outdoor terrace.",
+  "text": {
+   "description": "Felserhütte is a hut in the Zauchensee area, and it makes a simple, friendly subject for a phone photo. A hut in this mountain setting gives you an easy mix of roof lines, walls and surrounding landscape, and the scene is easy to read even on a small screen. You can be in position within a minute. Start with one wide shot to show the hut in its setting, then move in for a tighter picture of the building itself. Look for any distinctive details, such as the roofline or windows. Take a few frames at different heights, one standing and one slightly crouched, to see which gives the cleanest background. Keep an eye out for people, vehicles and signs at the edges, and step a pace to either side if they clutter the picture. If the hut is in use, be considerate of anyone nearby and avoid blocking paths or doors.",
+   "geographic_location": "Felserhütte is in the Zauchensee area, a mountain resort in the Austrian Alps.",
+   "directions_text": "No public transport stops are listed for this spot; use the map to find your way to the hut. Look north from there to see the hut in front of you. The phone icon on the map is about 15 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the hut and its surroundings. Switch to the ultra-wide (0.5x) if you can't fit the whole building in from close by. Use telephoto (2x-5x, depending on your phone) for details such as the roof or windows.",
+    "where_to_stand": "Stand about 15 m south of the subject, at the phone icon on the map, and face north.",
+    "how_to_frame": "Turn on gridlines and place the hut on one of the lower grid intersections, leaving open space above for sky or mountainside. Keep the phone level so the walls and roof don't lean. Then zoom in to 2x or more for a tighter shot of one detail.",
+    "phone_settings_tip": "Tap the hut to focus, then drag the exposure slider down slightly if the sky or any snow looks washed out. Check that the walls still look natural. Live Photos can be fun if anyone is moving around the hut.",
+    "best_time": "Morning or late afternoon usually gives softer light and gentler shadows on the walls than the middle of the day. Check the sky before you go, as clear weather will show off the hut's surroundings best."
+   },
+   "access_note": "The hut may be private or in commercial use, so check the official site or local signs before you go and stay on public paths."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 1 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Garnhofalm",
+  "in_cut": true,
+  "label": "Garnhofalm",
+  "camera_pill": "Alte Zauchenseestraße",
+  "nophone": false,
+  "searches": 0,
+  "pin": [
+   13.457058,
+   47.292908
+  ],
+  "camera": [
+   13.455622,
+   47.297565
+  ],
+  "camera_source": "Commons cluster (5 photos), weak.",
+  "pin_note": "Position from OSM W64946862 (Garnhofalm): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Alpine hut with a sunny terrace near the lake.",
+  "text": {
+   "description": "Garnhofalm is a spot on the Zauchensee map, and you photograph it from a short distance away rather than from right beside it. The name ends in \"alm\", which usually means a mountain hut or farm on an alpine pasture. That suggests a simple building set in open mountain scenery, so the best pictures are likely to show the building small within a wide landscape.\n\nThe phone icon on the map is about 530 m north of the subject. That works in your favour. Start with a wide view that includes the foreground, the slopes and the sky, then zoom in for a closer picture of the building itself. The default lens (1x) gives a natural view of the whole scene. The telephoto lens (2x to 5x, depending on your phone) brings the building closer without making you walk any further.\n\nKeep the horizon level using the gridlines in your camera app. If the sky is much brighter than the ground, tap the building to focus and then lower the exposure slider a little. Check that nothing, such as a fence post or a person, cuts across the building. Stay on any marked paths and respect any fences or private land around the hut.",
+   "geographic_location": "Garnhofalm is in the Zauchensee area, about half a kilometre south of the stand-here point (the phone icon) on the map.",
+   "directions_text": "No station or tram stop is listed for this spot, so use the map to reach the phone icon on the map. From there, Garnhofalm lies to the south, about 529 metres away, which is roughly 6 to 7 minutes on foot if you want a closer look. Follow any signed paths and keep to open public ground. The phone icon on the map is about 530 m north of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene. Then use telephoto (2x to 5x, depending on your phone) to bring the building closer. Ultra-wide (0.5x) is only worth trying if you walk closer and want to include a lot of sky and slope.",
+    "where_to_stand": "Stand about 530 m north of the subject, at the phone icon on the map, and face south.",
+    "how_to_frame": "Turn on gridlines and place the building on one of the lines, with the ground below and sky above. Include some foreground, such as grass or a path, to give a sense of distance. Take one wide shot at 1x and one tighter shot with the telephoto lens.",
+    "phone_settings_tip": "Tap the building to focus, then slide the exposure down a little if the sky looks washed out. Hold the phone with both hands, or rest your elbows on something steady, to keep telephoto shots sharp.",
+    "best_time": "Soft morning or late-afternoon light usually flatters mountain scenery, but check the weather and daylight on the day."
+   },
+   "access_note": "Access to the hut itself and the land around it may be limited, so check the official site before you go and respect any signs or fences.",
+   "claims_not_in_sources": [
+    "The ending \"-alm\" in the name usually means an alpine hut or farm on a mountain pasture.",
+    "Garnhofalm is probably a building set in open mountain scenery.",
+    "Soft morning or late-afternoon light usually flatters mountain scenery.",
+    "Roughly 6 to 7 minutes on foot is a calculation from the 529 m distance, and the route to the hut may vary, so check on the day.",
+    "There may be fences, private land or signs around the hut."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (529 m)"
+  ],
+  "at_spot": false,
+  "photo": null
+ }
+]

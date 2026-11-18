@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "quito", "title": "Quito: 17 photo spots (pilot review)", "place": "Quito", "bounds": [-78.527, -0.238, -78.465, -0.178], "center": [-78.49600000000001, -0.208], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/quito/{z}/{x}/{y}.pbf"};
