@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Xdatrys | Shot Maps for Phone Photographers</title>
-<meta name="description" content="Shot maps for travellers who photograph with their phone: the best photo spots in each city, exactly where to stand, and how to frame the shot on your phone.">
+<title>Xdatrys | Get the photo you came for: photo maps for your trip</title>
+<meta name="description" content="Going to Paris, Rome or Tokyo? Photo maps of the top sights: where to stand for the best photo or selfie, with simple smartphone tips. 3 spots on every map are free, no sign-up.">
 <link rel="icon" type="image/png" href="https://xdatrys.com/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -239,28 +239,95 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 
 <main id="main">
 
-<!-- ===== HERO ===== -->
+<style>
+/* landing4 hero: text + search on the left, a real spot card on the right (below on phones) */
+.h4{display:grid;gap:28px;align-items:center}
+@media(min-width:900px){.h4{grid-template-columns:1.05fr .95fr;gap:44px}}
+.h4 h1{font-size:clamp(34px,7.4vw,56px)}
+.h4 .ticks{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;margin:14px 0 0;padding:0;font-size:14px;font-weight:600;color:#e9e9f2}
+.h4 .ticks li::before{content:"\2713";color:#00C2FF;font-weight:800;margin-right:6px}
+.spotcard{background:#fff;color:#14141a;border-radius:18px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.45);max-width:480px;width:100%;justify-self:center}
+.spotcard .ph{position:relative}
+.spotcard .ph img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.spotcard .tag{position:absolute;left:12px;top:12px;background:#FF00FF;color:#000;font:800 13px/1 Montserrat,sans-serif;padding:7px 11px;border-radius:999px}
+.spotcard .mp img{display:block;width:100%;height:auto;aspect-ratio:460/240;object-fit:cover;border-top:1px solid #e3e3ea}
+.spotcard .rows{padding:12px 16px 4px;display:grid;gap:9px}
+.spotcard .row{display:grid;grid-template-columns:26px 1fr;gap:8px;font-size:14px;line-height:1.45}
+.spotcard .row b{display:block;font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:#6200EA}
+.spotcard .ic{font-size:18px;line-height:1.2}
+.spotcard .foot{padding:8px 16px 14px;font-size:11.5px;color:#5c5c6b;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.spotcard .foot a{color:#5c5c6b}
+.spotcard .open{display:block;margin:4px 16px 0;text-align:center;background:#14141a;color:#fff;text-decoration:none;font-weight:700;border-radius:12px;padding:11px 14px;font-size:15px}
+</style>
+<!-- ===== HERO (landing4) ===== -->
 <section class="hero" aria-labelledby="hero-h">
-  <div class="wrap">
-    <span class="eyebrow">Shot maps for phone photographers</span>
-    <h1 id="hero-h">Know exactly where to stand <span>for the shot.</span></h1>
-    <p class="lead">Shot maps for travellers who photograph with their phone: the best-known photo spots in each city, the place to stand marked on the map, and simple tips for framing the shot on your phone.</p>
+  <div class="wrap h4">
+    <div>
+      <span class="eyebrow">Photo maps for your trip</span>
+      <h1 id="hero-h">Get the photo you came for, <span>at every sight.</span></h1>
+      <p class="lead">Going to Paris, Rome or Tokyo? Our maps show the top sights, the exact spot to stand for the best photo or selfie, and simple tips for your smartphone.</p>
 
-    <form class="search" role="search" id="searchForm" autocomplete="off">
-      <label for="q">Where are you going?</label>
-      <div class="search-row">
-        <input id="q" type="search" placeholder="A city or country, e.g. Rome" aria-describedby="searchHelp" aria-controls="results">
+      <form class="search" role="search" id="searchForm" autocomplete="off">
+        <label for="q">Where are you going?</label>
+        <div class="search-row">
+          <input id="q" type="search" placeholder="A city or country, e.g. Rome" aria-describedby="searchHelp" aria-controls="results">
+        </div>
+        <p id="searchHelp" class="free-note" style="margin-top:6px">Type a city to see its map. Press Enter to open it.</p>
+        <ul class="results" id="results" aria-live="polite"></ul>
+      </form>
+      <ul class="ticks">
+        <li>3 spots on every map are free</li>
+        <li>No sign-up</li>
+        <li>Works on any smartphone</li>
+      </ul>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="/library/">See all 191 maps</a>
+        <a class="btn btn-ghost" href="#how">How it works</a>
       </div>
-      <p id="searchHelp" class="free-note" style="margin-top:6px">Type to see matching maps. Press Enter to open the first one.</p>
-      <ul class="results" id="results" aria-live="polite"></ul>
-    </form>
-
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="/library/">Browse the map library</a>
-      <a class="btn btn-primary" href="#membership" style="background:#E100FF;border-color:#E100FF">📲 The map app (members)</a>
-      <a class="btn btn-ghost" href="#how">How it works</a>
     </div>
-    <p class="free-note"><strong>3 spots on every map are free</strong>, with no account needed.</p>
+
+    <aside class="spotcard" aria-label="Example: a real spot from our Tokyo map">
+      <div class="ph">
+        <img src="/img/home/shibuya-photo.jpg" width="900" height="675" alt="Shibuya Crossing in Tokyo: crowds crossing the zebra stripes under shop signs and big video screens">
+        <span class="tag">1 · Shibuya Crossing, Tokyo</span>
+      </div>
+      <div class="mp"><img src="/img/home/hero.jpg" width="460" height="240" alt="Our map of Shibuya: a magenta pin marks Shibuya Crossing; a blue phone icon marks where to stand, about 50 m east, by the Hachiko Exit, with an arrow showing which way to face" loading="lazy"></div>
+      <div class="rows">
+        <div class="row"><span class="ic" aria-hidden="true">📍</span><div><b>Where to stand</b>About 50 m east of the crossing, by the Hachiko Exit. Face west.</div></div>
+        <div class="row"><span class="ic" aria-hidden="true">📱</span><div><b>Smartphone tip</b>Start with 1x for the whole junction, then zoom to 2x-5x to bring the crowd closer.</div></div>
+        <div class="row"><span class="ic" aria-hidden="true">🕒</span><div><b>Best time</b>Late afternoon into the evening, when the screens and shop lights stand out.</div></div>
+      </div>
+      <a class="open" href="/library/tokyo/">Open the Tokyo map (free)</a>
+      <div class="foot"><span>A real spot from our Tokyo map</span><span>Photo © Xdatrys LLC</span></div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== FEATURED MAPS ===== -->
+<section aria-labelledby="feat-h">
+  <div class="wrap">
+    <span class="eyebrow">Popular cities</span>
+    <h2 id="feat-h">Where are you going next?</h2>
+    <p class="lead">Each map starts with the sights travellers search for most. 3 spots on every map are free for everyone.</p>
+    <div class="grid" id="featured"></div>
+    <div class="more-row"><a class="btn btn-ghost" href="/library/">See all <span id="mapCount">20</span> maps</a></div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section id="how" aria-labelledby="how-h">
+  <div class="wrap how-inner">
+    <div>
+      <span class="eyebrow">How it works</span>
+      <h2 id="how-h">Three easy steps to a great photo</h2>
+      <p class="lead">Open a map on your smartphone before you go, or when you get there.</p>
+      
+    </div>
+    <ol class="steps" style="list-style:none">
+      <li class="step"><div class="n" aria-hidden="true">1</div><div><h3>Pick a sight</h3><p>Open the map of your city. The numbered pins are the top sights, starting with the ones travellers search for most.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">2</div><div><h3>Go to the best spot</h3><p>Each sight tells you where to stand for the best photo. Where we know the exact place, a blue phone icon marks it, with an arrow showing which way to face. Tap Navigate and Google Maps or Apple Maps walks you there.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Take the photo</h3><p>Every sight comes with simple smartphone tips: which zoom to use, how to frame it, and the best time to go.</p></div></li>
+    </ol>
   </div>
 </section>
 
@@ -290,45 +357,12 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
   var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
 }).catch(function () {});
 </script>
-<!-- ===== FEATURED MAPS ===== -->
-<section aria-labelledby="feat-h">
-  <div class="wrap">
-    <span class="eyebrow">From the map library</span>
-    <h2 id="feat-h">Start with a favourite city</h2>
-    <p class="lead">Each map numbers its spots from the most searched down. Three spots on every map are open to everyone.</p>
-    <div class="grid" id="featured"></div>
-    <div class="more-row"><a class="btn btn-ghost" href="/library/">See all <span id="mapCount">20</span> maps</a></div>
-  </div>
-</section>
-
-<!-- ===== HOW IT WORKS ===== -->
-<section id="how" aria-labelledby="how-h">
-  <div class="wrap how-inner">
-    <div>
-      <span class="eyebrow">How it works</span>
-      <h2 id="how-h">Three steps to the shot</h2>
-      <p class="lead">Open a map on your phone before you go, or once you arrive.</p>
-      <figure>
-        <div class="illus">
-          <img src="/img/home/hero.jpg" width="460" height="240" style="display:block;width:100%;height:auto" alt="Map of Shibuya, Tokyo: a magenta pin marks Shibuya Crossing, the subject; a cyan phone icon marks where to stand, with a dashed cyan arrow pointing from the phone to the pin.">
-        </div>
-        <figcaption class="illus-cap">Shibuya Crossing, from our Tokyo map. On the map itself the pin label shows the spot's name and the phone label names the street or square where you stand.</figcaption>
-      </figure>
-    </div>
-    <ol class="steps" style="list-style:none">
-      <li class="step"><div class="n" aria-hidden="true">1</div><div><h3>Find the spot</h3><p>Open the map for your city. Numbered magenta pins show the photo subjects, starting with the most searched.</p></div></li>
-      <li class="step"><div class="n" aria-hidden="true">2</div><div><h3>Stand at the phone icon</h3><p>The cyan phone shows where to stand, and the arrow shows which way to face. Tap Navigate to walk there with Google Maps or Apple Maps.</p></div></li>
-      <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Shoot with the tips</h3><p>Every spot has a "Shooting it on your phone" section: which lens, how to frame it, a settings tip and the best time to go.</p></div></li>
-    </ol>
-  </div>
-</section>
-
 <!-- ===== MEMBERSHIP ===== -->
 <section id="membership" aria-labelledby="mem-h">
   <div class="wrap">
     <span class="eyebrow">Membership</span>
     <h2 id="mem-h">One membership, every map</h2>
-    <p class="lead">One membership opens every spot on every map, in the Xdatrys Maps app. Cancel any time.</p>
+    <p class="lead">Free: 3 spots on every map. Members: every spot on every map, in the Xdatrys Maps app on your smartphone. Cancel any time.</p>
 
     <div class="toggle" role="group" aria-label="Billing period">
       <button type="button" id="bMonthly" aria-pressed="true">Monthly</button>
@@ -341,8 +375,9 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
         <div class="price" data-m="$9.99" data-a="$59.99"><span class="amt">$9.99</span> <small class="per">/ month</small></div>
         <div class="price-note" data-m="or $59.99 a year" data-a="about $5.00 a month, billed yearly">or $59.99 a year</div>
         <ul class="feat">
-          <li>The map library: every spot on every map, with where to stand and phone tips</li>
-          <li>The Xdatrys Maps app: maps saved on your phone, working without signal</li>
+          <li>Every spot on every map, with where to stand and smartphone tips</li>
+          <li>The Xdatrys Maps app: save maps on your phone, they work without signal</li>
+          <li>"Walk there" directions, day tours and the best selfie spots</li>
           <li>Pocket Scout guides and Pocket Eye albums, as they are added to the app</li>
         </ul>
         <a class="btn btn-primary" id="joinE" href="/join/">Join Explorer</a>
@@ -370,7 +405,7 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
 <section id="guides" aria-labelledby="gu-h">
   <div class="wrap">
     <span class="eyebrow">The Pocket Series</span>
-    <h2 id="gu-h">Guides and albums</h2>
+    <h2 id="gu-h">Travel guides and photo albums</h2>
     <p class="series-sub">The <strong>Scout</strong> photo-location guides · The <strong>Eye</strong> photo albums</p>
     <div class="series-links"><a href="https://xdatrys.gumroad.com" target="_blank" rel="noopener">Shop all guides on Gumroad<span class="sr"> (opens in a new tab)</span></a></div>
     <div class="strip" tabindex="0" role="region" aria-label="Pocket Scout guides and Pocket Eye albums, scroll sideways">
@@ -394,11 +429,11 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
   <div class="wrap nl">
     <div>
       <h2 id="nl-h" class="nl-brand">Pocket Lens</h2>
-      <div class="nl-cap">Free smartphone photography newsletter</div>
+      <div class="nl-cap">Free newsletter: travel photos on your smartphone</div>
       <img class="nl-masthead" src="https://xdatrys.com/assets/pocket-lens/PocketLensMasthead.png" alt="Pocket Lens newsletter masthead" loading="lazy">
       <ul class="nl-list">
         <li>The latest smartphone photography news</li>
-        <li>Shot techniques</li>
+        <li>Easy smartphone photo tips</li>
         <li>Latest smartphone photography hardware and software</li>
         <li>International location guide alerts</li>
         <li>First to hear when membership opens</li>
@@ -422,7 +457,7 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
     <a class="logo" href="/" aria-label="Xdatrys home"><img src="https://xdatrys.com/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="74" height="26"></a>
     <nav aria-label="Footer">
       <ul class="flinks">
-        <li><a href="/maps/">Free shot maps from our videos</a></li>
+        <li><a href="/maps/">Free photo maps from our videos</a></li>
         <li><a href="/about/">About</a></li>
         <li><a href="/privacy/">Privacy</a></li>
         <li><a href="/terms/">Terms</a></li>
