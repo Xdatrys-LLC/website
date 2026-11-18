@@ -1,1 +1,1 @@
-window.MAPCFG = {"key": "kandy", "title": "Kandy: 14 photo spots (pilot review)", "place": "Kandy", "bounds": [80.588, 7.262, 80.655, 7.31], "center": [80.6215, 7.286], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/kandy/{z}/{x}/{y}.pbf"};
+window.MAPCFG = {"key": "kandy", "title": "Kandy: 10 photo spots (pilot review)", "place": "Kandy", "bounds": [80.588, 7.262, 80.655, 7.31], "center": [80.6215, 7.286], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/kandy/{z}/{x}/{y}.pbf"};

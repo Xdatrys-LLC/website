@@ -704,6 +704,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "kandy",
+  "place": "Kandy",
+  "country": "Sri Lanka",
+  "spots": 10,
+  "mb": 3.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "kathmandu",
   "place": "Kathmandu",
   "country": "Nepal",

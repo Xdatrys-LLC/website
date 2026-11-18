@@ -112,64 +112,6 @@
  },
  {
   "rank": 3,
-  "name": "Kandy Lake",
-  "in_cut": true,
-  "label": "Kandy Lake",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 2170,
-  "pin": [
-   80.63333333,
-   7.3
-  ],
-  "camera": [
-   80.63333333,
-   7.3
-  ],
-  "camera_source": "Researched viewpoint 'Kandy View Point' (4 web pages); placed at our map tiles: 'Kandy View Garden Road' (roads).",
-  "pin_note": "Position from Wikidata Q5966035: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Artificial lake beside the temple with a walking path all around.",
-  "text": {
-   "description": "Kandy Lake is the calm, man-made centrepiece of the hill city, and it is what makes Kandy look the way it does in photographs. King Sri Wickrama Rajasinghe had it made in 1807 next to the Temple of the Tooth, turning old paddy fields into water. The shoreline has a low, white scalloped wall known as the Clouds Wall. It runs for roughly 630 metres, and its triangular openings were once used for oil lamps on festival days. A small island in the middle carries an old pavilion. The whole lake is about 3.2 km around.\n\nThe lake photographs best from above. From there the lake sits in the middle distance, with the temple, the rooftops below and the green hills around the city. Guides often call this the classic postcard view of Kandy. At lake level, the path around the water gives you shady, close-up pictures of the wall and the island instead.\n\nFor your phone, treat the water as the middle layer of the picture, with sky and hills above and the town below. Keep the horizon level using the gridlines. The platform has limited room and can be busy around sunset, so arrive a little early to claim a good spot on the platform. Roadside parking gets congested at busy times, so allow extra time if you come by car.",
-   "geographic_location": "Kandy Lake lies in the centre of Kandy, right beside the Temple of the Sacred Tooth Relic and the town's main streets.",
-   "directions_text": "Start from the centre of Kandy, beside the lake and the Temple of the Tooth. The viewing platform is on Rajapihilla Mawatha, on the hill to the south-west of the lake, so you head uphill in that direction. It is roughly 2 km from the lake and the walk is steep. A short tuk-tuk ride is the easier option. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Use the default lens (1x) for the main view, with the lake, the temple and the hills all in one frame. Switch to ultra-wide (0.5x) if you can't fit it all in or want a wider panorama. Use telephoto (2x-5x, depending on your phone) to pick out the temple roofs and the island pavilion.",
-    "where_to_stand": "Stand on Kandy View Point (viewing platform on Rajapihilla Mawatha, above the lake and city). The lake in the middle distance, the Temple of the Sacred Tooth Relic, the rooftops below and the green hills around the city, often with the single chair in the frame. The viewing platform on Rajapihilla Mawatha above the lake and city. Face north-east. The lake lies in the middle distance, with the Temple of the Sacred Tooth Relic, the rooftops below and the green hills around the city behind it.",
-    "how_to_frame": "Turn on the gridlines and put the horizon on the upper line so the lake and the rooftops fill most of the frame. Keep the water in the middle of the picture, with the temple area to one side and hills along the top. If you want a closer shot, zoom in on the island and the pale wall along the shore. A second option is the lakeside spot at Kandy Lake View Point, where the lake appears at water level with the temple and hills behind it.",
-    "phone_settings_tip": "Tap the lake or the hills to focus, then drag the exposure slider down a touch so the sky keeps its colour. As the city lights come on at dusk, try night mode and rest your elbows on a steady surface to keep the phone steady. For a sweeping view, use panorama mode and sweep slowly from left to right.",
-    "best_time": "Late afternoon to dusk is the favourite, when the city lights start to come on. Sunrise is also recommended."
-   },
-   "access_note": "Several guides describe Kandy View Point as a free public platform, but the lakeside path may close during festivals or ceremonies, so check locally before you go.",
-   "claims_not_in_sources": [
-    "A telephoto zoom can pick out the island pavilion and temple roofs from the viewpoint.",
-    "Dropping the exposure slider helps keep colour in the sky at dusk."
-   ]
-  },
-  "checker_problems": 5,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Kandy Lake",
-    "url": "https://en.wikipedia.org/wiki/Kandy_Lake"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (1997 m)"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/3.jpg",
-   "artist": "A.Savin",
-   "licence": "FAL",
-   "licence_url": "http://artlibre.org/licence/lal/en",
-   "source_url": "https://commons.wikimedia.org/wiki/File:SL_Kandy_asv2020-01_img10_Arthurs_Seat_view.jpg",
-   "from": "Wikidata Q5966035 main image"
-  }
- },
- {
-  "rank": 4,
   "name": "Queen's Hotel, Kandy",
   "in_cut": true,
   "label": "Queen's Hotel",
@@ -215,7 +157,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/4.jpg",
+   "file": "photos/3.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
@@ -224,7 +166,7 @@
   }
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "Ceylon Tea Museum",
   "in_cut": true,
   "label": "Ceylon Tea Museum",
@@ -268,7 +210,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "calflier001",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -277,55 +219,7 @@
   }
  },
  {
-  "rank": 6,
-  "name": "Helga's Folly",
-  "in_cut": true,
-  "label": "Helga's Folly",
-  "camera_pill": null,
-  "nophone": false,
-  "searches": 340,
-  "pin": [
-   80.64539722,
-   7.28477222
-  ],
-  "camera": [
-   80.645397,
-   7.284772
-  ],
-  "camera_source": "Researched viewpoint 'Helga's Folly' (3 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from Wikidata Q106433118: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Eccentric hilltop hotel with colourful, fantasy interiors.",
-  "text": {
-   "description": "Helga's Folly is an Art Nouveau boutique hotel on a hillside in Kandy, and the building itself is the photograph. It began as the family home, designed by Esme de Silva in the 1930s. In the mid-1990s her daughter, Helga de Silva Blow Perera, inherited it and gave it the name it has today. The hotel calls itself an 'anti-hotel' and is filled with antiques, murals and family photographs. That odd, crowded character is what makes the front of the building so much fun to shoot.\n\nFrom the phone icon on the map, you are at the front of the building, where the drive climbs up from Rajaphilla Mawatha. The hillside frontage, the drive leading up to it and the jungle and lake-side setting behind all fit into one frame. That gives your photo a real sense of place rather than just a close-up of a wall.\n\nThe building is a hotel and restaurant, so it is private property. Ask at reception before you start photographing. Keep your shots to the front. The rear is reported to have been damaged in a recent cyclone, so avoid framing that side. Early evening is a good time to visit because the light is soft and kind to the colours.",
-   "geographic_location": "Helga's Folly is on a hillside above Kandy, reached from Rajaphilla Mawatha (the hotel's address is 70 Rajaphilla Mawatha). It sits on a hillside with jungle and a lake-side setting behind it.",
-   "directions_text": "No public transport stops are listed for this spot, so ask for Helga's Folly on Rajaphilla Mawatha or use the hotel's address (70 Rajaphilla Mawatha, Kandy) to navigate. Once there, walk up the drive to the front of the building, where the phone icon on the map is. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the front of the building. Switch to the ultra-wide (0.5x) if the drive and the building won't fit in one frame, and use telephoto (2x-5x) for details such as murals and windows.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. You are right at the subject, so the building fills the view and the hillside and greenery sit behind it.",
-    "how_to_frame": "Turn on the gridlines and use the drive as a leading line towards the front of the building. Keep the jungle and the lake-side setting behind it in the frame. Keep your phone level so the walls don't lean, and leave out the rear of the building.",
-    "phone_settings_tip": "Tap to focus on the building's front, then slide the exposure down a little if the bright sky is washing out the sky and walls. Check the result before you move on.",
-    "best_time": "Early evening, when the light is soft."
-   },
-   "access_note": "The building is a private hotel and restaurant, so ask at reception before photographing."
-  },
-  "checker_problems": 4,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Helga's Folly",
-    "url": "https://en.wikipedia.org/wiki/Helga%27s_Folly"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": true,
-  "photo": null
- },
- {
-  "rank": 7,
+  "rank": 5,
   "name": "Kandy railway station",
   "in_cut": true,
   "label": "Kandy Railway Station",
@@ -369,7 +263,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/5.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
@@ -378,7 +272,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 6,
   "name": "Royal Palace of Kandy",
   "in_cut": true,
   "label": "Royal Palace of Kandy",
@@ -426,7 +320,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/6.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
@@ -435,63 +329,7 @@
   }
  },
  {
-  "rank": 9,
-  "name": "Udawattakele Forest Reserve",
-  "in_cut": true,
-  "label": "Udawattakele Forest",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 80,
-  "pin": [
-   80.63888889,
-   7.29944444
-  ],
-  "camera": [
-   80.63888889,
-   7.29944444
-  ],
-  "camera_source": "Researched viewpoint 'Kodimale' (4 web pages); placed at OpenStreetMap 'Kodimale Peak' (node/3416295417): point.",
-  "pin_note": "Position from Wikidata Q7876953: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Forest reserve above the lake with walking trails and monkeys.",
-  "text": {
-   "description": "Udawattakele is a 104-hectare forest on a hill ridge right in the city of Kandy. In the days of the Kandyan kings it was the \"garden above the royal palace\" and was kept for the royal family, which is why it was once called the Forbidden Forest. It became a forest reserve in 1856 and a sanctuary in 1938. Today it is known for its birds and its giant lianas, among many plant species.\n\nFor photographs, the best spot is the summit of the reserve's highest peak, known as Flag Point or Kodimale. The ridge top stands 635 metres above sea level, about 115 metres above Kandy Lake. From here you can glimpse the city and the lake through the forest canopy. The foliage filters the view, so you will find gaps and frames rather than one wide open panorama. Treat the leaves as part of the picture and let the city show through behind them.\n\nIf you have time, two other places inside the reserve suit phone photos. The Royal Pond (Kiri Muhuda), the old royal bathing pond, gives a calm, tree-framed reflection. Pus Wela, a very old giant liana winding up through the trees, makes a good tall forest-detail shot.\n\nThe climb to the summit is on a hill trail. Paths can be slippery after rain, and leeches can be a nuisance in wet weather, so wear shoes with a good grip.",
-   "geographic_location": "Udawattakele lies on a hill ridge in the city of Kandy, stretching from the Temple of the Tooth towards the Uplands and Aruppola housing areas, above Kandy Lake.",
-   "directions_text": "No Underground, tram or train stop is listed for this spot, so start from the Temple of the Tooth in central Kandy and go to the visitors' entrance on the western side of the forest, beside Tapovanaya Monastery. On foot, the entrance is about 15 to 20 minutes from the Temple of the Tooth, going north and then uphill. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the city and lake glimpsed through the trees. Use the ultra-wide (0.5x) for the forest canopy and trail. Use the telephoto (2x to 5x, depending on your phone) to pick out the lake or rooftops through a gap in the leaves.",
-    "where_to_stand": "Stand right at the subject (summit of the reserve's highest peak (Flag Point), reached by the Kodimale trail). Kandy city and lake glimpsed through the forest canopy from the highest point of the reserve. From here you look out through the forest canopy to Kandy city and lake below.",
-    "how_to_frame": "Look for a gap in the foliage and let the leaves frame the city and lake rather than hiding them. Switch on gridlines and place the lake or skyline on a lower line. If you come down to the Royal Pond, try a still-water shot with the trees around it. For Pus Wela, hold the phone upright and shoot up along the liana.",
-    "phone_settings_tip": "Tap to focus on the distant city, not the nearby leaves, then drag the exposure slider down a little so the bright sky does not wash out the view. Under the trees, use night mode only if the light is very dim, and hold the phone still against your body or a tree.",
-    "best_time": "Guides recommend morning (about 7 to 10 AM) or late afternoon."
-   },
-   "access_note": "This is a forest reserve with an entry fee, at least for foreign visitors, and trail conditions can change, so check the official site before you go."
-  },
-  "checker_problems": 4,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Udawattakele Forest Reserve",
-    "url": "https://en.wikipedia.org/wiki/Udawattakele_Forest_Reserve"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (615 m)"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/9.jpg",
-   "artist": "McKay Savage from Chennai, India",
-   "licence": "CC BY 2.0",
-   "licence_url": "https://creativecommons.org/licenses/by/2.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Sri_Lanka_-_029_-_Kandy_Temple_of_the_Tooth.jpg",
-   "from": "Wikidata Q7876953 main image"
-  }
- },
- {
-  "rank": 10,
+  "rank": 7,
   "name": "Kandy Clock Tower",
   "in_cut": true,
   "label": "Kandy Clock Tower",
@@ -541,7 +379,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/7.jpg",
    "artist": "AntanO",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -550,7 +388,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 8,
   "name": "Malwathu Maha Viharaya",
   "in_cut": true,
   "label": "Malwathu Maha Vihara",
@@ -594,7 +432,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/8.jpg",
    "artist": "calflier001",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -603,7 +441,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 9,
   "name": "Asgiri Maha Viharaya",
   "in_cut": true,
   "label": "Asgiri Maha Vihara",
@@ -651,7 +489,7 @@
   "photo": null
  },
  {
-  "rank": 13,
+  "rank": 10,
   "name": "St. Paul's Church, Kandy",
   "in_cut": true,
   "label": "St. Paul's Church",
@@ -695,7 +533,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/10.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
@@ -704,9 +542,171 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 101,
+  "name": "Kandy Lake",
+  "in_cut": false,
+  "label": "Kandy Lake",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 2170,
+  "pin": [
+   80.63333333,
+   7.3
+  ],
+  "camera": [
+   80.63333333,
+   7.3
+  ],
+  "camera_source": "Researched viewpoint 'Kandy View Point' (4 web pages); placed at our map tiles: 'Kandy View Garden Road' (roads).",
+  "pin_note": "Position from Wikidata Q5966035: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Artificial lake beside the temple with a walking path all around.",
+  "text": {
+   "description": "Kandy Lake is the calm, man-made centrepiece of the hill city, and it is what makes Kandy look the way it does in photographs. King Sri Wickrama Rajasinghe had it made in 1807 next to the Temple of the Tooth, turning old paddy fields into water. The shoreline has a low, white scalloped wall known as the Clouds Wall. It runs for roughly 630 metres, and its triangular openings were once used for oil lamps on festival days. A small island in the middle carries an old pavilion. The whole lake is about 3.2 km around.\n\nThe lake photographs best from above. From there the lake sits in the middle distance, with the temple, the rooftops below and the green hills around the city. Guides often call this the classic postcard view of Kandy. At lake level, the path around the water gives you shady, close-up pictures of the wall and the island instead.\n\nFor your phone, treat the water as the middle layer of the picture, with sky and hills above and the town below. Keep the horizon level using the gridlines. The platform has limited room and can be busy around sunset, so arrive a little early to claim a good spot on the platform. Roadside parking gets congested at busy times, so allow extra time if you come by car.",
+   "geographic_location": "Kandy Lake lies in the centre of Kandy, right beside the Temple of the Sacred Tooth Relic and the town's main streets.",
+   "directions_text": "Start from the centre of Kandy, beside the lake and the Temple of the Tooth. The viewing platform is on Rajapihilla Mawatha, on the hill to the south-west of the lake, so you head uphill in that direction. It is roughly 2 km from the lake and the walk is steep. A short tuk-tuk ride is the easier option. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the main view, with the lake, the temple and the hills all in one frame. Switch to ultra-wide (0.5x) if you can't fit it all in or want a wider panorama. Use telephoto (2x-5x, depending on your phone) to pick out the temple roofs and the island pavilion.",
+    "where_to_stand": "Stand on Kandy View Point (viewing platform on Rajapihilla Mawatha, above the lake and city). The lake in the middle distance, the Temple of the Sacred Tooth Relic, the rooftops below and the green hills around the city, often with the single chair in the frame. The viewing platform on Rajapihilla Mawatha above the lake and city. Face north-east. The lake lies in the middle distance, with the Temple of the Sacred Tooth Relic, the rooftops below and the green hills around the city behind it.",
+    "how_to_frame": "Turn on the gridlines and put the horizon on the upper line so the lake and the rooftops fill most of the frame. Keep the water in the middle of the picture, with the temple area to one side and hills along the top. If you want a closer shot, zoom in on the island and the pale wall along the shore. A second option is the lakeside spot at Kandy Lake View Point, where the lake appears at water level with the temple and hills behind it.",
+    "phone_settings_tip": "Tap the lake or the hills to focus, then drag the exposure slider down a touch so the sky keeps its colour. As the city lights come on at dusk, try night mode and rest your elbows on a steady surface to keep the phone steady. For a sweeping view, use panorama mode and sweep slowly from left to right.",
+    "best_time": "Late afternoon to dusk is the favourite, when the city lights start to come on. Sunrise is also recommended."
+   },
+   "access_note": "Several guides describe Kandy View Point as a free public platform, but the lakeside path may close during festivals or ceremonies, so check locally before you go.",
+   "claims_not_in_sources": [
+    "A telephoto zoom can pick out the island pavilion and temple roofs from the viewpoint.",
+    "Dropping the exposure slider helps keep colour in the sky at dusk."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Kandy Lake",
+    "url": "https://en.wikipedia.org/wiki/Kandy_Lake"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (1997 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "A.Savin",
+   "licence": "FAL",
+   "licence_url": "http://artlibre.org/licence/lal/en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:SL_Kandy_asv2020-01_img10_Arthurs_Seat_view.jpg",
+   "from": "Wikidata Q5966035 main image"
+  }
+ },
+ {
+  "rank": 102,
+  "name": "Helga's Folly",
+  "in_cut": false,
+  "label": "Helga's Folly",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 340,
+  "pin": [
+   80.64539722,
+   7.28477222
+  ],
+  "camera": [
+   80.645397,
+   7.284772
+  ],
+  "camera_source": "Researched viewpoint 'Helga's Folly' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from Wikidata Q106433118: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Eccentric hilltop hotel with colourful, fantasy interiors.",
+  "text": {
+   "description": "Helga's Folly is an Art Nouveau boutique hotel on a hillside in Kandy, and the building itself is the photograph. It began as the family home, designed by Esme de Silva in the 1930s. In the mid-1990s her daughter, Helga de Silva Blow Perera, inherited it and gave it the name it has today. The hotel calls itself an 'anti-hotel' and is filled with antiques, murals and family photographs. That odd, crowded character is what makes the front of the building so much fun to shoot.\n\nFrom the phone icon on the map, you are at the front of the building, where the drive climbs up from Rajaphilla Mawatha. The hillside frontage, the drive leading up to it and the jungle and lake-side setting behind all fit into one frame. That gives your photo a real sense of place rather than just a close-up of a wall.\n\nThe building is a hotel and restaurant, so it is private property. Ask at reception before you start photographing. Keep your shots to the front. The rear is reported to have been damaged in a recent cyclone, so avoid framing that side. Early evening is a good time to visit because the light is soft and kind to the colours.",
+   "geographic_location": "Helga's Folly is on a hillside above Kandy, reached from Rajaphilla Mawatha (the hotel's address is 70 Rajaphilla Mawatha). It sits on a hillside with jungle and a lake-side setting behind it.",
+   "directions_text": "No public transport stops are listed for this spot, so ask for Helga's Folly on Rajaphilla Mawatha or use the hotel's address (70 Rajaphilla Mawatha, Kandy) to navigate. Once there, walk up the drive to the front of the building, where the phone icon on the map is. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the front of the building. Switch to the ultra-wide (0.5x) if the drive and the building won't fit in one frame, and use telephoto (2x-5x) for details such as murals and windows.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. You are right at the subject, so the building fills the view and the hillside and greenery sit behind it.",
+    "how_to_frame": "Turn on the gridlines and use the drive as a leading line towards the front of the building. Keep the jungle and the lake-side setting behind it in the frame. Keep your phone level so the walls don't lean, and leave out the rear of the building.",
+    "phone_settings_tip": "Tap to focus on the building's front, then slide the exposure down a little if the bright sky is washing out the sky and walls. Check the result before you move on.",
+    "best_time": "Early evening, when the light is soft."
+   },
+   "access_note": "The building is a private hotel and restaurant, so ask at reception before photographing."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Helga's Folly",
+    "url": "https://en.wikipedia.org/wiki/Helga%27s_Folly"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": null
+ },
+ {
+  "rank": 103,
+  "name": "Udawattakele Forest Reserve",
+  "in_cut": false,
+  "label": "Udawattakele Forest",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 80,
+  "pin": [
+   80.63888889,
+   7.29944444
+  ],
+  "camera": [
+   80.63888889,
+   7.29944444
+  ],
+  "camera_source": "Researched viewpoint 'Kodimale' (4 web pages); placed at OpenStreetMap 'Kodimale Peak' (node/3416295417): point.",
+  "pin_note": "Position from Wikidata Q7876953: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Forest reserve above the lake with walking trails and monkeys.",
+  "text": {
+   "description": "Udawattakele is a 104-hectare forest on a hill ridge right in the city of Kandy. In the days of the Kandyan kings it was the \"garden above the royal palace\" and was kept for the royal family, which is why it was once called the Forbidden Forest. It became a forest reserve in 1856 and a sanctuary in 1938. Today it is known for its birds and its giant lianas, among many plant species.\n\nFor photographs, the best spot is the summit of the reserve's highest peak, known as Flag Point or Kodimale. The ridge top stands 635 metres above sea level, about 115 metres above Kandy Lake. From here you can glimpse the city and the lake through the forest canopy. The foliage filters the view, so you will find gaps and frames rather than one wide open panorama. Treat the leaves as part of the picture and let the city show through behind them.\n\nIf you have time, two other places inside the reserve suit phone photos. The Royal Pond (Kiri Muhuda), the old royal bathing pond, gives a calm, tree-framed reflection. Pus Wela, a very old giant liana winding up through the trees, makes a good tall forest-detail shot.\n\nThe climb to the summit is on a hill trail. Paths can be slippery after rain, and leeches can be a nuisance in wet weather, so wear shoes with a good grip.",
+   "geographic_location": "Udawattakele lies on a hill ridge in the city of Kandy, stretching from the Temple of the Tooth towards the Uplands and Aruppola housing areas, above Kandy Lake.",
+   "directions_text": "No Underground, tram or train stop is listed for this spot, so start from the Temple of the Tooth in central Kandy and go to the visitors' entrance on the western side of the forest, beside Tapovanaya Monastery. On foot, the entrance is about 15 to 20 minutes from the Temple of the Tooth, going north and then uphill. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the city and lake glimpsed through the trees. Use the ultra-wide (0.5x) for the forest canopy and trail. Use the telephoto (2x to 5x, depending on your phone) to pick out the lake or rooftops through a gap in the leaves.",
+    "where_to_stand": "Stand right at the subject (summit of the reserve's highest peak (Flag Point), reached by the Kodimale trail). Kandy city and lake glimpsed through the forest canopy from the highest point of the reserve. From here you look out through the forest canopy to Kandy city and lake below.",
+    "how_to_frame": "Look for a gap in the foliage and let the leaves frame the city and lake rather than hiding them. Switch on gridlines and place the lake or skyline on a lower line. If you come down to the Royal Pond, try a still-water shot with the trees around it. For Pus Wela, hold the phone upright and shoot up along the liana.",
+    "phone_settings_tip": "Tap to focus on the distant city, not the nearby leaves, then drag the exposure slider down a little so the bright sky does not wash out the view. Under the trees, use night mode only if the light is very dim, and hold the phone still against your body or a tree.",
+    "best_time": "Guides recommend morning (about 7 to 10 AM) or late afternoon."
+   },
+   "access_note": "This is a forest reserve with an entry fee, at least for foreign visitors, and trail conditions can change, so check the official site before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Udawattakele Forest Reserve",
+    "url": "https://en.wikipedia.org/wiki/Udawattakele_Forest_Reserve"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (615 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/103.jpg",
+   "artist": "McKay Savage from Chennai, India",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Sri_Lanka_-_029_-_Kandy_Temple_of_the_Tooth.jpg",
+   "from": "Wikidata Q7876953 main image"
+  }
+ },
+ {
+  "rank": 104,
   "name": "Natha Devale, Kandy",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Natha Devale",
   "camera_pill": null,
   "nophone": true,
@@ -750,7 +750,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/104.jpg",
    "artist": "A.Savin",
    "licence": "FAL",
    "licence_url": "http://artlibre.org/licence/lal/en",
