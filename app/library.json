@@ -904,6 +904,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "palermo",
+  "place": "Palermo",
+  "country": "Italy",
+  "spots": 20,
+  "mb": 4.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "arraijan",
   "place": "Panama Canal",
   "country": "Panama",

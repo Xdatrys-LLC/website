@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "palermo", "title": "Palermo: 20 photo spots (pilot review)", "place": "Palermo", "bounds": [13.328, 38.095, 13.378, 38.132], "center": [13.353, 38.1135], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/palermo/{z}/{x}/{y}.pbf", "tz": "Europe/Rome", "rail": true, "app": true};
