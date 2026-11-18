@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "riodejaneiro", "title": "Rio de Janeiro: 20 photo spots (pilot review)", "place": "Rio de Janeiro", "bounds": [-43.245, -22.995, -43.145, -22.885], "center": [-43.195, -22.94], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/riodejaneiro/{z}/{x}/{y}.pbf", "tz": "America/Sao_Paulo", "rail": true, "app": true};

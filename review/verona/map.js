@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "verona", "title": "Verona: 19 photo spots (pilot review)", "place": "Verona", "bounds": [10.972, 45.432, 11.011, 45.453], "center": [10.991499999999998, 45.4425], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/verona/{z}/{x}/{y}.pbf"};

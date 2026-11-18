@@ -808,6 +808,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "riodejaneiro",
+  "place": "Rio de Janeiro",
+  "country": "Brazil",
+  "spots": 20,
+  "mb": 12.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "rome",
   "place": "Rome",
   "country": "Italy",
