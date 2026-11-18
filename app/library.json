@@ -528,6 +528,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "lima",
+  "place": "Lima",
+  "country": "Peru",
+  "spots": 18,
+  "mb": 8.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "linz",
   "place": "Linz",
   "country": "Austria",

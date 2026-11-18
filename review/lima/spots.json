@@ -918,61 +918,6 @@
  },
  {
   "rank": 18,
-  "name": "Basilica and Convent of Nuestra Señora de la Merced",
-  "in_cut": true,
-  "label": "La Merced Church",
-  "camera_pill": "near Jirón de la Unión",
-  "nophone": false,
-  "searches": 40,
-  "pin": [
-   -77.0327,
-   -12.0483
-  ],
-  "camera": [
-   -77.032928,
-   -12.048074
-  ],
-  "camera_source": "Commons cluster (35 photos).",
-  "pin_note": "Position from Wikidata Q4867359: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Baroque church with an elaborate carved façade.",
-  "text": {
-   "description": "La Merced is one of the oldest churches in Lima, and its carved stone front is the reason to stop here. The entrance is packed with detail, with a statue of the Virgin of Mercy in a central niche and other figures around her. The Baroque style is the Lima version known as Churrigueresque. The church and convent are as old as the city itself. The current stone entrance dates from 1696, and the tower, staircase and interior balconies were rebuilt between 1759 and 1762 after earthquake damage. Early in the 20th century the front was covered in thick plaster in a French-looking style, and that was removed in 1940, so you now see the original face of the building. The church stands on Jirón de la Unión, in the historic centre, at the corner with Jirón Antonio Miró Quesada. For a phone photo this means a busy street scene with a richly carved front, so the main task is to keep the building upright and fit in as much of the entrance as you can. The phone icon on the map is only a few steps from the church, which helps in a narrow street. Take one wide shot to show the church in its setting, then a closer shot of the carved entrance and the central niche. Interiors and the cloisters may have their own visiting rules, so check the official site before you go if you plan to go inside.",
-   "geographic_location": "In the historic centre of Lima, on Jirón de la Unión at the corner with Jirón Antonio Miró Quesada.",
-   "directions_text": "No nearby station or stop is listed for this spot, so head for Jirón de la Unión 621, at the corner with Jirón Antonio Miró Quesada, in the historic centre. If you are coming from further away, go by taxi to the historic centre. The phone icon on the map is about 35 m north-west of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) because the street is narrow and the church is tall. Use the default lens (1x) for a cleaner, less stretched view of the front. The telephoto (2x-5x, depending on your phone) is good for the carved entrance and the statue in its niche.",
-    "where_to_stand": "Stand about 35 m north-west of the subject, at the phone icon on the map, and face south-east.",
-    "how_to_frame": "Turn on gridlines and line up the vertical edges of the tower and entrance with them. Keep the phone level, because tilting it up makes the building lean backwards. Leave some space around the church to show the street, then step in or zoom for a second shot of the doorway.",
-    "phone_settings_tip": "Tap the carved stonework to focus and pull the exposure slider down a little if the sky is bright, so the detail in the stone does not wash out.",
-    "best_time": "Early in the morning, when the street is quieter, is usually easiest for a clear view of the front."
-   },
-   "access_note": "The church is an active place of worship and may have set visiting times and dress expectations, so check the official site before you go."
-  },
-  "checker_problems": 3,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Basilica and Convent of Nuestra Señora de la Merced",
-    "url": "https://en.wikipedia.org/wiki/Basilica_and_Convent_of_Nuestra_Se%C3%B1ora_de_la_Merced"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/18.jpg",
-   "artist": "Rainbowasi from Lima, Peru",
-   "licence": "CC BY-SA 2.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Basilica_de_Nuestra_Se%C3%B1ora_de_la_Merced._Lima,_Per%C3%BA.jpg",
-   "from": "Wikidata Q4867359 main image"
-  }
- },
- {
-  "rank": 19,
   "name": "Archbishop's Palace, Lima",
   "in_cut": true,
   "label": "Archbishop's Palace",
@@ -1016,12 +961,67 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "Diego Delso",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Palacio_Arzobispal,_Lima,_Per%C3%BA,_2015-07-28,_DD_62.JPG",
    "from": "Wikidata Q4785597 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Basilica and Convent of Nuestra Señora de la Merced",
+  "in_cut": false,
+  "label": "La Merced Church",
+  "camera_pill": "near Jirón de la Unión",
+  "nophone": false,
+  "searches": 40,
+  "pin": [
+   -77.0327,
+   -12.0483
+  ],
+  "camera": [
+   -77.032928,
+   -12.048074
+  ],
+  "camera_source": "Commons cluster (35 photos).",
+  "pin_note": "Position from Wikidata Q4867359: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Baroque church with an elaborate carved façade.",
+  "text": {
+   "description": "La Merced is one of the oldest churches in Lima, and its carved stone front is the reason to stop here. The entrance is packed with detail, with a statue of the Virgin of Mercy in a central niche and other figures around her. The Baroque style is the Lima version known as Churrigueresque. The church and convent are as old as the city itself. The current stone entrance dates from 1696, and the tower, staircase and interior balconies were rebuilt between 1759 and 1762 after earthquake damage. Early in the 20th century the front was covered in thick plaster in a French-looking style, and that was removed in 1940, so you now see the original face of the building. The church stands on Jirón de la Unión, in the historic centre, at the corner with Jirón Antonio Miró Quesada. For a phone photo this means a busy street scene with a richly carved front, so the main task is to keep the building upright and fit in as much of the entrance as you can. The phone icon on the map is only a few steps from the church, which helps in a narrow street. Take one wide shot to show the church in its setting, then a closer shot of the carved entrance and the central niche. Interiors and the cloisters may have their own visiting rules, so check the official site before you go if you plan to go inside.",
+   "geographic_location": "In the historic centre of Lima, on Jirón de la Unión at the corner with Jirón Antonio Miró Quesada.",
+   "directions_text": "No nearby station or stop is listed for this spot, so head for Jirón de la Unión 621, at the corner with Jirón Antonio Miró Quesada, in the historic centre. If you are coming from further away, go by taxi to the historic centre. The phone icon on the map is about 35 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) because the street is narrow and the church is tall. Use the default lens (1x) for a cleaner, less stretched view of the front. The telephoto (2x-5x, depending on your phone) is good for the carved entrance and the statue in its niche.",
+    "where_to_stand": "Stand about 35 m north-west of the subject, at the phone icon on the map, and face south-east.",
+    "how_to_frame": "Turn on gridlines and line up the vertical edges of the tower and entrance with them. Keep the phone level, because tilting it up makes the building lean backwards. Leave some space around the church to show the street, then step in or zoom for a second shot of the doorway.",
+    "phone_settings_tip": "Tap the carved stonework to focus and pull the exposure slider down a little if the sky is bright, so the detail in the stone does not wash out.",
+    "best_time": "Early in the morning, when the street is quieter, is usually easiest for a clear view of the front."
+   },
+   "access_note": "The church is an active place of worship and may have set visiting times and dress expectations, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Basilica and Convent of Nuestra Señora de la Merced",
+    "url": "https://en.wikipedia.org/wiki/Basilica_and_Convent_of_Nuestra_Se%C3%B1ora_de_la_Merced"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Rainbowasi from Lima, Peru",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Basilica_de_Nuestra_Se%C3%B1ora_de_la_Merced._Lima,_Per%C3%BA.jpg",
+   "from": "Wikidata Q4867359 main image"
   }
  }
 ]
