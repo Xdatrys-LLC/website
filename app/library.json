@@ -256,6 +256,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "cambridge",
+  "place": "Cambridge",
+  "country": "United Kingdom",
+  "spots": 20,
+  "mb": 5.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "cancun",
   "place": "Cancún",
   "country": "Mexico",
