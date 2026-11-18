@@ -96,6 +96,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "beijing",
+  "place": "Beijing",
+  "country": "China",
+  "spots": 19,
+  "mb": 10.8,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "bergen",
   "place": "Bergen",
   "country": "Norway",

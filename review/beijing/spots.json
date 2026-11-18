@@ -668,15 +668,15 @@
   "nophone": true,
   "searches": 2140,
   "pin": [
-   116.38706,
-   39.93802
+   116.3763111,
+   39.9407738
   ],
   "camera": [
-   116.38706,
-   39.93802
+   116.3763111,
+   39.9407738
   ],
   "camera_source": "Researched viewpoint '银锭桥' (4 web pages); placed at OpenStreetMap '银锭桥' (way/816148132): middle (13 m across); moved 5 m off water.",
-  "pin_note": "Position from the Wikipedia article 'Shichahai'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Lakeside area with bars and old hutongs.",
   "text": {
    "description": "Shichahai is a historic area of three linked lakes, Qianhai, Xihai and Houhai, in the north of central Beijing. It covers about 147 hectares and dates back to the Jin Dynasty. Under the Yuan Dynasty it was the northern end of the Grand Canal, so it grew into a busy trading district. The name means roughly \"the lake of ten temples\", and the shores still have temples, old mansions and tall trees. For photos, the best-known spot is 银锭桥 (Yinding Bridge). Guides call it the classic Shichahai view, and it is one of the Eight Views of Yanjing, \"Yinding Viewing the Mountains\". From the bridge you look west along the water towards the Western Hills, with moored boats in the foreground and sunset light on the lake. It is a simple scene that works well on a phone: water, boats, a layer of rooftops and a soft skyline. Expect a crowd at sunset, so arrive early and be patient for a clear gap at the railing. One guide says the west side gives cleaner compositions. If you want a different angle, the terrace at 糖房咖啡 looks over the hutong roofs and Houhai, with the Drum Tower and Bell Tower in the same frame. It is a café with a minimum spend, so it is not free to use. Venue names vary, so check the signage.",
@@ -701,10 +701,7 @@
     "url": "https://en.wikipedia.org/wiki/Shichahai"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (995 m)",
-   "OpenStreetMap object 966 m away (Houhai Park): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/13.jpg",
@@ -724,15 +721,15 @@
   "nophone": true,
   "searches": 1660,
   "pin": [
-   116.39638889,
-   39.9425
+   116.3969003,
+   39.9357693
   ],
   "camera": [
-   116.39638889,
-   39.9425
+   116.3969003,
+   39.9357693
   ],
   "camera_source": "Researched viewpoint 'Drum Tower' (1 web pages); placed at OpenStreetMap 'Drum tower' (node/11934496069): point.",
-  "pin_note": "Position from the Wikipedia article 'Nanluoguxiang'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Famous restored hutong lane.",
   "text": {
    "description": "Nanluoguxiang is a narrow lane in the middle of old Beijing that gives its name to a whole neighbourhood of hutong, the traditional alleys and courtyard houses. The lane is about 800 metres long and runs from Gulou East Street in the north to Di'anmen East Street in the south. It was built in the Yuan Dynasty and took its current name in the Qing Dynasty, around 1750. Today it is lined with cafés, bars, live music venues and souvenir shops, and a few old courtyard houses linked to famous historic and literary figures. That mix is why it photographs well: grey brick, tiled roofs and shopfronts give you plenty of texture and colour. The flip side is that the main lane is very busy, so a clean, empty view of it is hard to get. For a calmer picture, you can go to the north end near the Drum Tower and shoot the red walls at the side of the tower rather than the crowded front. They frame the top of the hutong area with its grey roofline and put far fewer people in your shot. If you have time, the side lanes are worth a look too. Dong Mianhua Hutong has an arched brick gateway, grey walls and red gates. Beiluoguxiang is a quieter neighbouring hutong with a more local feel. Keep your phone ready for small details such as doorways, lanterns and rooftops, which often make better pictures than the wide crowd scene.",
@@ -755,10 +752,7 @@
     "url": "https://en.wikipedia.org/wiki/Nanluoguxiang"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (728 m)",
-   "OpenStreetMap object 750 m away (South Luogu Alley): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/14.jpg",
