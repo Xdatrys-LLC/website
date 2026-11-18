@@ -624,6 +624,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "johannesburg",
+  "place": "Johannesburg",
+  "country": "South Africa",
+  "spots": 16,
+  "mb": 6.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "kagoshima",
   "place": "Kagoshima",
   "country": "Japan",

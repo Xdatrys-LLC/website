@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "cebucity", "title": "Cebu City: 16 photo spots (pilot review)", "place": "Cebu City", "bounds": [123.868, 10.272, 123.925, 10.345], "center": [123.8965, 10.3085], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/cebucity/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,53 @@
+{
+ "Ellis Park Stadium": {
+  "rank": 1,
+  "card": {
+   "hook": "Picture almost 60,000 people making noise around one patch of grass, with you right in the middle of the stands. That's Ellis Park, and it's the kind of place where the crowd is half the photo.",
+   "stand_here": "Stand at the phone icon on the map, up in the seats inside the stadium bowl. Face the pitch so the curve of the stands wraps around the frame. You'll need a match ticket or a stadium tour to get in.",
+   "zoom": "Start at zoom 0.5x to fit the pitch, the full sweep of the stands and the crowd in one shot. Switch to 1x for a more natural view of the crowd, then try 2x to 5x (depending on your phone) for banners, players or the far stand.",
+   "make_it_pop": "Turn on the gridlines and line the pitch markings up with them, so the top of the stands sits nice and level.",
+   "best_time": "Go on a match day if you want the colour and noise of the supporters, because they make the picture. On a day without a match, the stadium tour gives you calmer conditions for shots of the empty seats and pitch.",
+   "selfie_here": "On the stadium tour, ask to take a selfie at the edge of the pitch, which one stadium guide calls a strong photo opportunity. Use the front camera, switch to 0.5x, and hold it a bit higher and wider so as much of the stadium as possible sits behind you.",
+   "ask_someone": "",
+   "rules_and_safety": "Personal, non-commercial photos are generally fine, but flash or bigger equipment may be restricted at events, so check the official site first. The area around the stadium has a rough reputation, so check current local security advice, arrive by car or ride-hail, and don't walk there on match days.",
+   "challenge": "Get the pitch markings dead straight against the gridlines, then sneak one banner or flag into the corner of the frame.",
+   "good_to_know": "Ellis Park is best known as the venue of the 1995 Rugby World Cup final, won by the Springboks. It was built in eight months on a former quarry and rubbish-dump site in Doornfontein, and the first test was played there in June 1928. It's named after J. D. Ellis, who helped make the land available, and the ground was rebuilt in the early 1980s.",
+   "stand_here_before_gps_rule": "Stand at the phone icon on the map, up in the seats inside the stadium bowl. Face the pitch so the curve of the stands wraps around the frame. You'll need a match ticket or a stadium tour to get in."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Pitch-side edge of the field on the Ellis Park stadium tour",
+     "detail": "at the edge of the pitch, on a guided tour of the stadium",
+     "why": "A stadium guide describes standing at the edge of the field as a strong photo opportunity, though the page doesn't say which way the stands face in the frame.",
+     "sources": [
+      {
+       "title": "Ellis Park Stadium - South African Rugby Union - RugbyStadiums.co.uk",
+       "url": "https://www.rugbystadiums.co.uk/ellis-park/"
+      },
+      {
+       "title": "Ellis Park Stadium - Time Out Johannesburg",
+       "url": "https://www.timeout.com/johannesburg/things-to-do/ellis-park-stadium"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Personal, non-commercial photography is generally allowed at Ellis Park, but professional equipment or flash may be restricted during certain events.",
+     "sources": [
+      {
+       "title": "Ellis Park Stadium Johannesburg (2026) - Airial",
+       "url": "https://airial.travel/attractions/south-africa/johannesburg/ellis-park-stadium-johannesburg-gXAz8I8Q"
+      }
+     ]
+    }
+   ],
+   "safety": "A Tripadvisor reviewer says the area around the stadium is in a very dodgy part of town, so keep your wits about you, especially on a night game.",
+   "notes": "Only one selfie spot could be supported by the pages found. The pages say the exterior architecture makes good shots and that selfies with the stadium in the background are common, but none names an outdoor square, corner or steps for this, so I did not add one. No page names a spot where a passer-by should stand to photograph a visitor with the whole stadium, so ask_someone_spot is null. No page gives rules on selfie sticks or tripods. Pitch-side access depends on the stadium tour, which I did not verify for current availability. The Wikidata entry gives a different street address (47 N. Park Lane) from the other pages (S Park Ln)."
+  },
+  "cost_usd": 0.0437,
+  "at": "2026-11-18 09:57"
+ }
+}
