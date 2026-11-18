@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "auckland", "title": "Auckland: 20 photo spots (pilot review)", "place": "Auckland", "bounds": [174.74, -36.885, 174.795, -36.825], "center": [174.76749999999998, -36.855000000000004], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/auckland/{z}/{x}/{y}.pbf", "tz": "Pacific/Auckland", "rail": true, "app": true};

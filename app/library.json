@@ -32,6 +32,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "auckland",
+  "place": "Auckland",
+  "country": "New Zealand",
+  "spots": 20,
+  "mb": 9.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "bali",
   "place": "Bali",
   "country": "Indonesia",
