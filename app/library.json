@@ -696,6 +696,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "queenstown",
+  "place": "Queenstown",
+  "country": "New Zealand",
+  "spots": 7,
+  "mb": 2.8,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "reykjavik",
   "place": "Reykjavik",
   "country": "Iceland",

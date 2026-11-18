@@ -1,0 +1,314 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Queenstown Attractions Map: 7 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Queenstown tourist map of 7 top photo spots, including Fergburger and Queenstown Gardens: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in queenstown, queenstown attractions, queenstown tourist map, best views in queenstown, best photo spots in queenstown, fergburger, queenstown gardens, eichardt&#39;s hotel">
+<link rel="canonical" href="https://xdatrys.com/library/queenstown/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Queenstown Attractions Map: 7 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Queenstown tourist map of 7 top photo spots, including Fergburger and Queenstown Gardens: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/queenstown/">
+<meta property="og:image" content="https://xdatrys.com/library/queenstown/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Fergburger, Queenstown: a burger restaurant on Shotover Street. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/queenstown/","url":"https://xdatrys.com/library/queenstown/","name":"Queenstown Attractions Map: 7 Best Photo Spots | Xdatrys","description":"A Queenstown tourist map of 7 top photo spots, including Fergburger and Queenstown Gardens: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/queenstown/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Queenstown"},"mainEntity":{"@type":"ItemList","name":"Queenstown photo spots","numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Fergburger","description":"Fergburger is a burger restaurant on Shotover Street in the middle of Queenstown.","geo":{"@type":"GeoCoordinates","latitude":-45.0317416,"longitude":168.6594621},"image":"https://xdatrys.com/library/queenstown/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Queenstown Gardens","description":"Queenstown Gardens fills the peninsula beside the town centre, with Lake Wakatipu on several sides.","geo":{"@type":"GeoCoordinates","latitude":-45.037704,"longitude":168.659836},"alternateName":["Queenstown Botanical Gardens"],"image":"https://xdatrys.com/library/queenstown/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Eichardt's Hotel","description":"Eichardt's Hotel stands on the corner of Marine Parade and Ballarat Street, right on the Lake Wakatipu shore, and is a significant local landmark in Queenstown.","geo":{"@type":"GeoCoordinates","latitude":-45.0328415,"longitude":168.660813},"image":"https://xdatrys.com/library/queenstown/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/queenstown/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Queenstown","item":"https://xdatrys.com/library/queenstown/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Queenstown?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Fergburger, Queenstown Gardens and Eichardt's Hotel. They are ranked by how often people search for them. The full map has 7."}},{"@type":"Question","name":"Where should I stand to photograph Fergburger?","acceptedAnswer":{"@type":"Answer","text":"Stand right at Fergburger (front entrance, 42 Shotover Street). Start with the default lens (1x) for a natural view of the shopfront."}},{"@type":"Question","name":"When is the best time to photograph Queenstown Gardens?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon or sunset, when the peaks catch golden light. Early morning is quieter, especially on sunny summer days."}},{"@type":"Question","name":"How do I get to Eichardt's Hotel?","acceptedAnswer":{"@type":"Answer","text":"The Navigate buttons below take you to the subject."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Queenstown</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/queenstown/?gate" style="color:#E100FF">✏️ Review all 7 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>7 photo spots in Queenstown: where to stand and how to shoot them on your phone</h1>
+  <p>7 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 4 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 7 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/queenstown/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 7 photo spots in Queenstown"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 7 of the most-searched sights in Queenstown as photo spots, ranked by how often people search for them: Fergburger, Queenstown Gardens, Eichardt&#39;s Hotel, TSS Earnslaw and Queenstown Hill lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Fergburger</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Fergburger_714.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Fergburger, Queenstown: a burger restaurant on Shotover Street. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Florian Bugiel, <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener license">CC BY-SA 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Fergburger is a burger restaurant on Shotover Street in the middle of Queenstown. It began in February 2001 in a garage off Cow Lane, where it was hard to find and grew mainly through word of mouth. It now sits on Shotover Street beside its bakery, Ferg Baker, which opened in 2011, and a bar that opened in July 2020. The menu is built around gourmet burgers, including lamb, venison, cod, falafel and tofu versions. For a photo, the appeal is the street scene rather than a grand view: the shopfront, the signs and the people gathering outside give a feel for everyday Queenstown. A simple wide shot of the frontage with the street leading towards it tells the story well. Keep the shop name in the frame and leave a little space around it so the shot does not look cramped. If you want a close-up of a burger or the bakery counter, ask politely and keep out of the way of other customers.</p>
+    <p><b>Where it is:</b> Fergburger is on Shotover Street in central Queenstown, next to its own bakery, Ferg Baker, and its bar.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for a natural view of the shopfront. Switch to ultra-wide (0.5x) if the pavement is narrow or you want the whole street. Use telephoto (2x or more) for details such as the signage.</p>
+      <p><b>Where to stand:</b> Stand right at the subject (front entrance, 42 Shotover Street). The shop front with the queue forming outside, framed by the street. Stay on the pavement and out of the doorway.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the shopfront up on one of the vertical lines so it looks straight. Include some of the street in the foreground. Take a second, tighter shot with the telephoto of the sign or the people outside.</p>
+      <p><b>Settings tip:</b> Tap the shopfront to focus, then drag the exposure slider down slightly if the sky is washing out. In the evening, let night mode work and hold the phone steady against a post or wall.</p>
+      <p><b>Best time:</b> Early morning is usually quieter for a clean shot of the street, while dusk gives glowing signs and shopfronts.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Queenstown Gardens</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Queenstown.Gardens.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Queenstown Gardens, Queenstown: photo spot" loading="lazy"></a>
+      <figcaption>Photo: fr:Utilisateur:FRED The original uploader was FRED at Fre..., <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Queenstown Gardens fills the peninsula beside the town centre, with Lake Wakatipu on several sides. It is a botanical garden with a large pond, tall Douglas firs and a mix of native and exotic trees. The first two oaks were planted in 1866 and the gardens opened officially in 1867. For photographs, the best place is the tip of the peninsula, which looks south across the lake. From there the water fills the foreground and The Remarkables ridge rises on the far side. Late afternoon is the time to aim for, when the peaks pick up golden light. The gardens have other good subjects too. The rose garden dates from the 1960s, when 850 bushes were planted, and the Scott Memorial from 1913 is also worth a look. Trails run through the trees with views of the mountains, the Frankton Arm and the town. For a close-up scene rather than a lake panorama, try the arched bridge framed by trees and reflected in the pond, which looks best in autumn colour. For a wider view, the gardens and lake can also be seen from One Mile Carpark above the town, with The Remarkables and Walter Peak behind. Sunny summer days are busy, so go early if you want the paths to yourself.</p>
+    <p><b>Where it is:</b> Queenstown Gardens sits on a peninsula right next to the town centre of Queenstown, with Lake Wakatipu and the Frankton Arm on its sides. The band rotunda stands near the Park Street entrance.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Begin with the default lens (1x) for the lake and ridge together. Use the ultra-wide (0.5x) if you want more foreground water or the pond and bridge. Try telephoto (2x-5x, depending on your phone) to pick out the peaks of The Remarkables.</p>
+      <p><b>Where to stand:</b> Stand in Queenstown Gardens (tip of the peninsula, facing south across the lake). Lake Wakatipu in the foreground with The Remarkables ridge across the water, best framed in late afternoon light. From here Lake Wakatipu fills the foreground and The Remarkables ridge sits across the water.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the horizon on the upper or lower third, depending on whether the water or the mountains are the main subject. Keep a little shoreline in the bottom of the frame for depth. For a different shot, move to the pond and frame the arched bridge between the autumn trees with its reflection below. The view of the gardens and lake from One Mile Carpark is another option.</p>
+      <p><b>Settings tip:</b> Tap the brightest part of the sky or the peaks to focus, then slide the exposure down a little so the golden light is not washed out. Use panorama mode only if you can pan slowly and keep the phone level.</p>
+      <p><b>Best time:</b> Late afternoon or sunset, when the peaks catch golden light. Early morning is quieter, especially on sunny summer days.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Eichardt&#39;s Hotel</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Old_Eichardt%27s_Hotel_of_Queenstown.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Eichardt&#39;s Hotel, Queenstown: a significant local landmark. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Donaldytong, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Eichardt&#39;s Hotel stands on the corner of Marine Parade and Ballarat Street, right on the Lake Wakatipu shore, and is a significant local landmark in Queenstown. The site goes back to the early gold-rush years. William Rees, one of the first European settlers here, had a woolshed on this spot, and after gold turned up in the Shotover River in 1862 he converted it into a hotel called the Queen&#39;s Arms. Albert Eichardt joined him in 1866, became sole proprietor by 1869, and his name stuck. The building is listed as a Category Two historic place. It was badly affected by the November 1999 floods, then restored and reopened as Eichardt&#39;s Private Hotel in December 2001. It photographs well because it is a solid, characterful building set against open water and mountains, with the rest of the town around it. One suggested viewpoint is the lakefront about 195 m east of the hotel, towards Queenstown Gardens, looking back towards the town. From there you can show the hotel frontage with the lake edge in front of it. A closer, street-level alternative is Marine Parade itself, which gives a straight-on view of the building with the lake and mountains behind. Take a moment to check that trees or passing traffic are not blocking the front of the building, and step a few paces along the shore if they are.</p>
+    <p><b>Where it is:</b> Eichardt&#39;s Hotel is in central Queenstown, on the lakefront at the corner of Marine Parade and Ballarat Street. The Queenstown Gardens peninsula lies a short walk to the east.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to show the hotel frontage with the lake edge and town around it. If the building looks too small, switch to telephoto (2x-5x, depending on your phone) to pick it out. Keep the ultra-wide (0.5x) for the wider lake-and-mountain scene, where the hotel will be a small part of the picture.</p>
+      <p><b>Where to stand:</b> Stand in Queenstown Gardens (lakeshore path on the peninsula, looking back toward the town centre). The hotel&#39;s lakefront frontage on Marine Parade, seen across the lake edge from the gardens, with the town around it. Queenstown Gardens is the nearby area that suggests this viewpoint. From here the hotel&#39;s lakefront frontage on Marine Parade sits among the buildings of the town, with the water in the foreground.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the hotel on one of the vertical lines so the building stands upright rather than leaning. Use the lake edge as a foreground line leading towards it. If you want a closer, straight-on shot, walk to Marine Parade, where the hotel fills more of the frame with the lake and mountains behind it.</p>
+      <p><b>Settings tip:</b> Tap on the hotel to set focus, then drag the exposure slider down a little if the sky or water is washing out. If you are there at dusk, try night mode and hold the phone steady against a railing or your body.</p>
+      <p><b>Best time:</b> Early morning or late afternoon usually gives softer, more even light than midday, and the lakeshore tends to be quieter early on.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>4 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>TSS Earnslaw <small>· members</small></li>
+    <li><span class="n">5</span>Queenstown Hill <small>· members</small></li>
+    <li><span class="n">6</span>Ben Lomond (Otago) <small>· members</small></li>
+    <li><span class="n">7</span>Edith Cavell Bridge <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Queenstown?</summary><p>The first three on this map are Fergburger, Queenstown Gardens and Eichardt&#39;s Hotel. They are ranked by how often people search for them. The full map has 7.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Fergburger?</summary><p>Stand right at Fergburger (front entrance, 42 Shotover Street). Start with the default lens (1x) for a natural view of the shopfront.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Queenstown Gardens?</summary><p>Late afternoon or sunset, when the peaks catch golden light. Early morning is quieter, especially on sunny summer days.</p></details>
+  <details class="faq"><summary>How do I get to Eichardt&#39;s Hotel?</summary><p>The Navigate buttons below take you to the subject.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Fergburger" target="_blank" rel="noopener">Fergburger</a>, <a href="https://en.wikipedia.org/wiki/Queenstown_Gardens" target="_blank" rel="noopener">Queenstown Gardens</a>, <a href="https://en.wikipedia.org/wiki/Eichardt%27s_Hotel" target="_blank" rel="noopener">Eichardt&#39;s Hotel</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"queenstown","place":"Queenstown","bounds":[168.6,-45.115,168.7,-44.98],"center":[168.64999999999998,-45.0475],"english":false,"vatican":false,"tiles":"/r2tiles/queenstown/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "queenstown", "title": "Queenstown: 7 photo spots (pilot review)", "place": "Queenstown", "bounds": [168.6, -45.115, 168.7, -44.98], "center": [168.64999999999998, -45.0475], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/queenstown/{z}/{x}/{y}.pbf"};
