@@ -1072,6 +1072,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "sapporo",
+  "place": "Sapporo",
+  "country": "Japan",
+  "spots": 15,
+  "mb": 15.8,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "seoul",
   "place": "Seoul",
   "country": "South Korea",
