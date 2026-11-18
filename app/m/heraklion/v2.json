@@ -1,0 +1,663 @@
+{
+ "Knossos Palace": {
+  "rank": 1,
+  "card": {
+   "hook": "Picture a huge stone courtyard with palace walls and columns all around it, and hardly anyone in the way. That's Knossos in the early morning, and it's the picture you want.",
+   "stand_here": "Start at the Central Court. If you can reach the upper terrace, stand there and look down into the court, because it gives the clearest view. Then walk down to the middle of the courtyard floor and face south towards Mount Juktas.",
+   "zoom": "Start at zoom 0.5x to fit the whole courtyard and its walls into one frame. Switch to 1x for a natural look, then try 2x-5x (depending on your phone) for column bases, stone steps and the shadows on the walls.",
+   "make_it_pop": "Turn on the gridlines, keep the courtyard floor in the lower third and the phone level so the walls don't lean, then tap the brightest stone wall and slide it a little darker so the pale stone keeps its detail in strong sun.",
+   "best_time": "Go early, before the tour groups arrive, so you get fewer people in your shots. Late afternoon is worth a try too, and the South Propylaeum (the entrance front) looks lovely in warm evening light.",
+   "selfie_here": "Head up the paved path to the North Portico, which two guides call the site's most popular selfie spot. Use the front camera (or 0.5x if you want more in the shot) and stand with the red columns and the bull fresco behind you.",
+   "ask_someone": "",
+   "rules_and_safety": "Personal photos with your phone are allowed. Some rooms, like the Throne Room, can only be seen from the doorway behind a rope, and flash is not allowed there. Check the official site for current opening hours, tickets and closures before you go.",
+   "challenge": "Find the Grand Staircase and take one close-up where the repeating stone landings and columns make a pattern, with no people in it.",
+   "good_to_know": "The first palace at Knossos was built around 1900 BC. After a major destruction around 1700 BC it was rebuilt on a grander scale, with a central court, monumental entrances, staircases and light wells. In 2025 Knossos was inscribed as part of the UNESCO World Heritage Site Minoan Palatial Centres.",
+   "stand_here_before_gps_rule": "Start at the Central Court. If you can reach the upper terrace, stand there and look down into the court, because it gives the clearest view. Then walk down to the middle of the courtyard floor and face south towards Mount Juktas."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "North Portico (paved path to the North Portico, Knossos Palace)",
+     "detail": "on the paved path leading up to the North Portico, with the red columns and the bull fresco behind you",
+     "why": "Two guides call this the site's most popular selfie spot, and the red columns with the bull fresco behind them are its signature backdrop.",
+     "sources": [
+      {
+       "title": "Knossos Crete • Our 6 most important things for your visit",
+       "url": "https://greece-moments.com/en/knossos-crete/"
+      },
+      {
+       "title": "How to Visit the Palace of Knossos on Crete",
+       "url": "https://islandhoppercrete.com/how-to-visit-the-palace-of-knossos-on-crete/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Tripods and monopods typically need prior permission from site management or the Hellenic Ministry of Culture; personal photos with a phone or handheld camera are allowed.",
+     "sources": [
+      {
+       "title": "Knossos Palace: History, Minoan Ruins, Facts, Access and Car Rental",
+       "url": "https://www.rental-center-crete.com/blog/landmark/archaeological/knossos/"
+      },
+      {
+       "title": "Knossos Palace (2025)",
+       "url": "https://airial.travel/attractions/greece/knossos/knossos-palace-qk5gNQOo"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot is named by the pages found; the Grand Staircase and Central Courtyard are recommended for photos but no page places a visitor in front of the palace with the landmark behind them. No page names a spot where a passer-by should stand to photograph a visitor with the whole palace in frame (the Wikimedia photo gives only raw coordinates for its camera position, and the South Propylaeum is described as a view of the entrance, not a photographer's position), so ask_someone_spot is null. No page gives selfie-stick rules, and no page mentions a safety point. The rule above is for tripods and monopods, and the permission requirement is from pages that state it. The landmark's position given (35.298, 25.163) matches the palace area."
+  },
+  "cost_usd": 0.0581,
+  "at": "2026-11-18 15:22"
+ },
+ "Heraklion Archaeological Museum": {
+  "rank": 2,
+  "card": {
+   "hook": "Look at the front of this pale, calm building and you'll see veined, multicoloured marble. It's a nod to the painted fake marble in Minoan palaces, so the museum is already dressed for the part.",
+   "stand_here": "Stand at the Heraklion Archaeological Museum itself, right at the phone icon on the map. Face the front of the building square on, so the flat facade fills your screen.",
+   "zoom": "Start at zoom 1x and step back a little to fit more of the front in. If the pavement is too narrow, switch to zoom 0.5x.",
+   "make_it_pop": "Switch on the gridlines and line up the building's horizontals with them. Hold your phone straight rather than tilting it up, so the walls don't lean in.",
+   "best_time": "Go in the morning or late afternoon, when the softer light stops the stone looking flat. Check the official site for opening times.",
+   "selfie_here": "Head into the museum garden near the ruins of the Venetian St Francis monastery. Use the front camera at 0.5x and hold it a bit low, so the museum and the old ruins sit behind your shoulder.",
+   "ask_someone": "Ask a passer-by to take your photo from Eleftherias Square, across from the museum's front, so the whole building is behind you.",
+   "rules_and_safety": "Selfies are fine inside the museum as long as you don't block other visitors. Flash is not allowed, and some exhibits can't be photographed at all, so look for the signs before you raise your phone.",
+   "challenge": "Find a patch of that veined, multicoloured marble and fill the whole frame with it. Then see if a friend can guess what it is.",
+   "good_to_know": "This is the main place to see Minoan art in Crete, with most of the finds from Knossos. The objects span about 5,500 years, from the Neolithic period to Roman times. The collection began in 1883, and Patroklos Karantinos designed the present building in the 1930s. It has stood up to earthquakes and wartime bombing.",
+   "stand_here_before_gps_rule": "Stand at the Heraklion Archaeological Museum itself, right at the phone icon on the map. Face the front of the building square on, so the flat facade fills your screen."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Heraklion Archaeological Museum garden, by the Venetian monastery ruins",
+     "detail": "in the museum garden, near the preserved ruins of the Venetian St Francis monastery",
+     "why": "The garden holds the ruins of the old monastery, so a visitor standing there can have the museum's grounds and building in the frame, though no page explicitly calls this a selfie spot.",
+     "sources": [
+      {
+       "title": "Heraklion Archaeological Museum - carcrete.com",
+       "url": "https://carcrete.com/heraklion-archaeological-museum/"
+      },
+      {
+       "title": "Heraklion Archaeological Museum (visitheraklion.eu)",
+       "url": "https://visitheraklion.eu/en/heraklion-archaeological-museum-en/"
+      },
+      {
+       "title": "Heraklion Archaeological Museum, Heraklion - GPSmyCity",
+       "url": "https://www.gpsmycity.com/attractions/heraklion-archaeological-museum-63026.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Eleftherias (Freedom) Square, eastern side, facing the museum",
+    "detail": "on Eleftherias Square, standing across from the museum's front on the east side of the square, with the building in view",
+    "sources": [
+     {
+      "title": "Eleftherias Square in Heraklion - explorecrete.com",
+      "url": "https://explorecrete.com/Heraklion/EN01-Heraklion-Eleftherias-square.html"
+     },
+     {
+      "title": "Visiting Heraklion Archaeological Museum - 15 Top Highlights",
+      "url": "https://delveintoeurope.com/visiting-heraklion-archaeological-museum/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Taking selfies is permitted inside the museum, as long as it does not obstruct other visitors.",
+     "sources": [
+      {
+       "title": "General Information - Heraklion Archaeological Museum",
+       "url": "https://heraklionmuseum.gr/en/information/"
+      }
+     ]
+    },
+    {
+     "rule": "Flash photography is prohibited to protect the artifacts.",
+     "sources": [
+      {
+       "title": "Trip.com moments: Heraklion Archaeological Museum",
+       "url": "https://us.trip.com/moments/detail/heraklion-46979-142380555/"
+      },
+      {
+       "title": "A Guide to Visiting the Crete Museum Heraklion",
+       "url": "https://www.elissos.com/crete-museum-heraklion/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot was confirmed by a page, and it is outdoors in the garden; no source names it as a selfie location, so the framing is inferred from the ruins being there. The indoor 'Prince of the Lilies' fresco was named as a photo spot, but that is inside the museum, so it does not meet the landmark-behind-you requirement and was left out. No page states rules on selfie sticks or tripods, so none are reported. The ask-someone spot is taken from pages that place the museum on the east side of Eleftherias Square; no page names an exact photo position on the square."
+  },
+  "cost_usd": 0.0576,
+  "at": "2026-11-18 15:23"
+ },
+ "Koules Fortress": {
+  "rank": 3,
+  "card": {
+   "hook": "Picture a stone fortress at the end of a long breakwater, with fishing boats bobbing in front of it like they've been told to pose. That's Koules, and it's a much better photo than you'd expect.",
+   "stand_here": "Stand on the harbour side, on the approach along the breakwater (the outer harbour mole), and face the fortress at the end of it. Walk a little way out before you start shooting, then shuffle along to find a nice arrangement of boats.",
+   "zoom": "Start at zoom 1x to get the fortress, boats and water all in one shot. If you're close to the boats and want more of them in the foreground, drop to 0.5x. Zoom 2x or 5x (depending on your phone) gets you a tighter shot of the walls.",
+   "make_it_pop": "Tap the stone walls, then slide the brightness a touch darker so the sky and water keep their colour at sunset.",
+   "best_time": "Go at sunset, when golden light falls on the stone and the walls glow. A Live Photo is worth a go too, because the boats move on the water and you can pick your favourite frame afterwards.",
+   "selfie_here": "Walk out to the tip of the breakwater by the fortress, use the front camera, and try 0.5x so more of the scene squeezes in. For something different, stand beside the Lion of St. Mark reliefs on the outer walls, which give you a recognisable detail of the fort. Check on arrival which way gives you the fortress over your shoulder.",
+   "ask_someone": "Walk out along the seafront promenade and ask a passer-by to take the fort head-on first, then again from the side.",
+   "rules_and_safety": "The breakwater is fully exposed to wind and heavy surf on stormy days, so shorten your walk out if it's windy. The rooftop is inside the ticketed fortress and opening hours change with the season, so check them before you go. Photos inside are generally fine, just be considerate of other visitors.",
+   "challenge": "Turn on your gridlines and put the fortress on an upper line, boats along the bottom and the horizon dead level. Bonus points if a boat sits exactly where you want it.",
+   "good_to_know": "Koules stands at the entrance to Heraklion's harbour, at the end of the outer breakwater. Guides rate the breakwater as the best outside vantage point, and viewing from there is free. Inside, the rooftop gives wide views over the harbour, the fishing boats and the city behind.",
+   "stand_here_before_gps_rule": "Stand on the harbour side, on the approach along the breakwater (the outer harbour mole), and face the fortress at the end of it. Walk a little way out before you start shooting, then shuffle along to find a nice arrangement of boats."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Harbour breakwater (mole) at the tip, by the fortress",
+     "detail": "out along the breakwater to its end, where the fort stands",
+     "why": "Guides point to the breakwater for sunset shots and for the view back over the city from its tip.",
+     "sources": [
+      {
+       "title": "Koules Fortress Heraklion: Is It Worth Visiting and How to Fit It Into a Heraklion Day (travelndo)",
+       "url": "https://travelndo.com/blog/koules-fortress-heraklion-worth-visiting"
+      },
+      {
+       "title": "Koules Fortress Heraklion: History & Visiting Guide (travelndo)",
+       "url": "https://travelndo.com/blog/koules-fortress-heraklion-guide"
+      },
+      {
+       "title": "Koules Fortress in Heraklion (Euroviajar)",
+       "url": "https://euroviajar.com/en/places/heraklion/koules-fortress/"
+      }
+     ]
+    },
+    {
+     "name": "Seaward wall with the Lion of St. Mark reliefs",
+     "detail": "beside the three marble Lion of St. Mark reliefs on the fortress's outer walls",
+     "why": "The reliefs are a named highlight on a city selfie-stop tour, so a visitor standing by them gets a recognisable detail of the fort.",
+     "sources": [
+      {
+       "title": "Heraklion (Crete), Greece Let's Take A Selfie - Heraklion Excursion (Norwegian Cruise Line)",
+       "url": "https://www.ncl.com/shore-excursions/HER_61/Let-s-Take-A-Selfie-Heraklion"
+      },
+      {
+       "title": "Koules Fortress, Crete: Tickets, What to See (Daiztrip)",
+       "url": "https://daiztrip.com/destinations/crete/things-to-do/koules-fortress"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Harbour seafront promenade facing the fortress head-on",
+    "detail": "walk out along the seafront promenade and have the passer-by frame the fort head-on, then from the side",
+    "sources": [
+     {
+      "title": "Koules Fortress in Heraklion (Euroviajar)",
+      "url": "https://euroviajar.com/en/places/heraklion/koules-fortress/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "The breakwater is fully exposed to wind and heavy surf on stormy days, so shorten the exterior walk if it is windy (Euroviajar).",
+   "notes": "No page I found states selfie-stick or tripod rules, so none are listed. The sources do not say which direction to face, so the 'fortress behind you' framing for the breakwater spot is my inference; check on arrival. Most sources are general travel blogs and tourism pages, and some are over a year old. The coordinates pages give for the fort (35°20'40.7\"N 25°8'12.66\"E, about 35.3446, 25.1368) are roughly 200–250 m from the position you supplied (35.34281, 25.13430), so confirm you are on the right spot."
+  },
+  "cost_usd": 0.0482,
+  "at": "2026-11-18 15:23"
+ },
+ "Morosini Fountain": {
+  "rank": 4,
+  "card": {
+   "hook": "Locals don't bother with the grand name. They just call this one \"the Lions\", and once you see four stone lions holding up the basin, you'll get why.",
+   "stand_here": "Stand right at the Morosini Fountain in the middle of Lions Square, where the phone icon on the map sits. Get down beside the basin and aim up towards the lions and the upper basin.",
+   "zoom": "Start at zoom 1x for most shots. Switch to zoom 0.5x when you're close to the basin and want the whole fountain in the frame, then try zoom 2x or 5x (depending on your phone) to pick out lion faces and carved panels.",
+   "make_it_pop": "Turn on gridlines and put one lion on a third with the upper basin above it, then tap the stonework and drag the slider to make it a touch darker if the sky is washing out the top.",
+   "best_time": "Go early in the morning, because the square can get very busy, especially at weekends and in summer. The fountain isn't always running, so if you spot water flowing, grab it for the movement and sparkle.",
+   "selfie_here": "Use the Morosini Fountain stop in Lions Square, a known selfie spot on the Heraklion tour route. Use the front camera, try zoom 0.5x, and hold the phone a bit low so the lions and basin sit over your shoulder. Walk round the basin to pick your best side.",
+   "ask_someone": "Stand by the basin and ask them to step a few metres back across the open square, so the fountain, lions and surrounding buildings all fit in the frame with you.",
+   "rules_and_safety": "The fountain is a public monument in an open square and it's free to photograph. One review warns of many intrusive beggars in the square, so keep an eye on your belongings.",
+   "challenge": "Give all four lions their moment: take one photo of each, then pick your favourite and crown it the winner.",
+   "good_to_know": "The square's official name is Eleftheriou Venizelou Square, after the Cretan statesman Eleftherios Venizelos, but almost everyone says Lions Square. Four stone lions support the main basin. Both the square and the fountain go back to the Venetian era.",
+   "stand_here_before_gps_rule": "Stand right at the Morosini Fountain in the middle of Lions Square, where the phone icon on the map sits. Get down beside the basin and aim up towards the lions and the upper basin."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Morosini Fountain stop in Lions Square (Eleftherios Venizelou Square)",
+     "detail": "the fountain's designated selfie stop on the Heraklion tour route, at the fountain in the middle of the square; the page does not say which side of the basin to use",
+     "why": "A cruise-excursion selfie tour treats the fountain as one of its official photo stops, so it is a known place to pose with the monument.",
+     "sources": [
+      {
+       "title": "Heraklion (Crete), Greece Let's Take A Selfie - Heraklion Excursion",
+       "url": "https://www.ncl.com/shore-excursions/HER_61/Let-s-Take-A-Selfie-Heraklion"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Lions Square (Eleftherios Venizelou Square), centre of the square",
+    "detail": "stand a few metres back across the open square from the fountain, so the basin, lions and surrounding buildings all fit in the frame; no page names an exact standpoint",
+    "sources": [
+     {
+      "title": "Morosini Fountain Heraklion - Crete Greece Travel Guide",
+      "url": "https://www.oreotravel.com/blog/morosini-fountain-heraklion/"
+     },
+     {
+      "title": "Morosini Fountain Lions Square (2026)",
+      "url": "https://www.airial.travel/attractions/greece/iraklio/morosini-fountain-lions-square-XL6P4fkP"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "One review warns of many intrusive beggars at the square and advises watching your belongings.",
+   "notes": "Only one selfie spot was named by a page; the sources describe the fountain and square in general terms and do not give exact standing points for either the selfie or the passer-by photo, so the detail fields for both are a square-level suggestion rather than a sourced exact position. The NCL page is a cruise-excursion listing, and the Airial advice (low angle, include people and buildings) is general photo tips, not a spot. Several pages say the fountain was often not running, which may affect the shot. No page states selfie stick or tripod rules, so none are reported. Pages give the fountain's location as Lions Square; the user's coordinates are consistent with that square."
+  },
+  "cost_usd": 0.0435,
+  "at": "2026-11-18 15:24"
+ },
+ "Historical Museum of Crete": {
+  "rank": 5,
+  "card": {
+   "hook": "This museum started life as someone's house: Minos Kalokairinos's, to be exact. Now it has a modern wing stuck on the side, and getting both in one shot is the fun part.",
+   "stand_here": "Stand right outside the Historical Museum of Crete, at the phone icon on the map, which sits at the museum building itself. If the whole front won't fit, walk back along the street a little and face the building.",
+   "zoom": "Start at zoom 1x for a natural view of the whole front. If the street is too narrow to fit it all in, switch to 0.5x. Try 2x or 5x (depending on your phone) for doorways, windows and stonework.",
+   "make_it_pop": "Turn on your gridlines and line up the building's vertical edges with them, so the walls don't lean.",
+   "best_time": "Pick a bright, dry time when the light is even across the front. Early morning or late afternoon is softer and the streets are quieter.",
+   "selfie_here": "Use the front camera, switch to 0.5x if your phone has it, and stand with the museum behind you over your shoulder. Hold the phone a little higher and step forward so the building still fits in the frame.",
+   "ask_someone": "",
+   "rules_and_safety": "Old-town lanes get narrower and the paving can be uneven, so watch your step while you back up for the shot. Photo rules inside museums vary and can change, so check the official site before you go and ask staff before photographing any displays. It's likely ticketed with set opening times, so check those too.",
+   "challenge": "Can you keep every wall dead straight against the gridlines and still get both the old building and the modern wing in one frame?",
+   "good_to_know": "The museum tells the story of Crete from the 4th century AD up to the Second World War. It was founded in 1953 by the Society of Cretan Historical Studies. Inside are two El Greco paintings, his only works in Crete, plus a 4×4 metre mock-up of mid-17th century Chandax, as Heraklion was then known under Venetian rule.",
+   "stand_here_before_gps_rule": "Stand right outside the Historical Museum of Crete, at the phone icon on the map, which sits at the museum building itself. If the whole front won't fit, walk back along the street a little and face the building."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "Evendo's guide says the old-town lanes become narrower and paving can be uneven, especially around historic buildings and harbour approaches.",
+   "notes": "No page I found names a spot where the Historical Museum of Crete is directly behind the visitor, so I have not listed a selfie spot or a photographer's position. The closest matches were the museum's cafe terrace (airial.travel says it gives views of the city and sea) and the seafront in front of the museum (TripAdvisor says there is a sea view there), but neither places the museum behind the subject, so I left them out. Evendo describes the seafront promenade running between the museum and the old harbour, but gives no photo position. Nothing I found mentions selfie sticks or tripods. On photography inside the museum, sources say flash is not allowed (airial.travel, and Crete Island Greece / Heraklion guides) and that photography without flash is partly allowed (meetcrete.com, which is about the nearby Koules fortress). The Venetian Loggia is described as a selfie spot (themediterraneantraveller.com), but it is a separate landmark and not near this museum. A better search would target a local photographer's blog or a map-based photo guide for Sofokli Venizelou Avenue.",
+   "sources": []
+  },
+  "cost_usd": 0.0576,
+  "at": "2026-11-18 15:24"
+ },
+ "Venetian Loggia": {
+  "rank": 6,
+  "card": {
+   "hook": "Most people snap the street front of the Venetian Loggia and walk on, but the best shot is hiding inside. Step into the courtyard, look up, and the old walls frame a square of open sky.",
+   "stand_here": "Stand right at the Venetian Loggia, because the phone icon on the map is at the building itself, so there's no extra walk. If the courtyard is open, stand inside and face up so the arches repeat on both sides of you.",
+   "zoom": "Use zoom 0.5x inside the courtyard to fit the arches and the sky together. Switch to 1x for the street facade, or try 2x or more to pick out the arches from where you stand if you can't step back.",
+   "make_it_pop": "Switch on gridlines, tap the wall or an arch, then drag the brightness down a little so the sky doesn't turn plain white.",
+   "best_time": "No best time is given for this spot. Take a quick test frame and check how the sky looks on your screen before you settle on your shot.",
+   "selfie_here": "In the Loggia's inner courtyard, use the front camera (try 0.5x if your phone has it) with the stone arches behind you, and tilt up a bit to catch the sky. If the courtyard is shut, the covered ground-floor arcade works too, with the building's columns behind you.",
+   "ask_someone": "Ask a passer-by to stand on the pavement of 25th August Street in front of the facade and shoot low, from ground level, while you stand in front of the arcaded front. It's a suggestion rather than a marked spot, but the building is on the right, about 50 metres down from Lion Square.",
+   "rules_and_safety": "This is the town hall, so the courtyard may be closed. Check the current status before you go, and follow any signs inside. Keep an eye on your belongings in the busy square near the Morosini Fountain, where one reviewer reported scammers.",
+   "challenge": "Take one photo of the whole front, then one close-up of the arches, and see which one your friends 'like' more.",
+   "good_to_know": "The Venetian Loggia is a two-storey building with a Doric and Ionic facade, rows of arches and pale stonework. It now houses Heraklion's town hall. Because of that, the courtyard and interior aren't always open, so check before you go.",
+   "stand_here_before_gps_rule": "Stand right at the Venetian Loggia, because the phone icon on the map is at the building itself, so there's no extra walk. If the courtyard is open, stand inside and face up so the arches repeat on both sides of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Venetian Loggia inner courtyard (patio)",
+     "detail": "in the open courtyard inside the building, with the stone arches behind you; one reviewer suggests looking up through the top of the courtyard for a sky view",
+     "why": "Bloggers call the courtyard the classic frame for pictures, and the courtyard is free to enter even though the building is City Hall.",
+     "sources": [
+      {
+       "title": "13 Perfect Instagrammable Places in Heraklion, Crete - Sofia Adventures",
+       "url": "https://sofiaadventures.com/most-instagrammable-places-in-heraklion-crete/"
+      },
+      {
+       "title": "Loggia - All You SHOULD Know Before Going (2026 Reviews)",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g189417-d669295-Reviews-Loggia-Heraklion_Crete.html"
+      }
+     ]
+    },
+    {
+     "name": "Covered ground-floor arcade of the Loggia",
+     "detail": "under the covered arches on the ground floor, with the building's columns behind you",
+     "why": "A TripAdvisor reviewer lists the covered area as one of the few picture options, which helps when the interior is closed to visitors.",
+     "sources": [
+      {
+       "title": "Loggia - All You SHOULD Know Before Going (2026 Reviews)",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g189417-d669295-Reviews-Loggia-Heraklion_Crete.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "25th August Street, pavement in front of the Loggia facade",
+    "detail": "stand on the pedestrian street in front of the Loggia's facade and shoot low, from ground level, so the whole arcaded front shows behind the visitor; the building sits on the right, about 50 metres down from Lion Square",
+    "sources": [
+     {
+      "title": "Loggia - All You SHOULD Know Before Going (2026 Reviews)",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g189417-d669295-Reviews-Loggia-Heraklion_Crete.html"
+     },
+     {
+      "title": "The 14 best photo spots in Heraklion - Wanderlog",
+      "url": "https://wanderlog.com/list/geoCategory/160591/best-photo-spots-in-heraklion"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Keep an eye on your belongings in the busy square near the Morosini Fountain, where one reviewer reported scammers.",
+   "notes": "No page names a standing point for a passer-by to photograph a visitor with the whole Loggia; the ask-someone spot is inferred from the facade's low-angle shot and the street location, so treat it as a suggestion. The Loggia's interior access conflicts across sources: one guide says the interior is open to tourists, while TripAdvisor reviewers found it closed. Airial says exterior photography is generally permitted and warns to heed any signage inside the atrium, but no page mentions selfie stick or tripod rules, so rules is empty. The safety point refers to the nearby fountain square, not the Loggia itself."
+  },
+  "cost_usd": 0.0584,
+  "at": "2026-11-18 15:25"
+ },
+ "Agios Titos Church": {
+  "rank": 7,
+  "card": {
+   "hook": "Palm trees, a pale dome and Ottoman-style windows. It looks like somewhere far to the east, but you're at a Greek Orthodox cathedral in the middle of Heraklion.",
+   "stand_here": "Head for Agios Titos Church. The phone icon sits right at the middle of the church. Walk round to the south side and face the wall with the windows, dome and palms. It's the quieter view, and it makes a nice change from the usual front shot.",
+   "zoom": "Start at zoom 1x to fit the south side, with its windows, dome and palms. If you're close and the dome is getting chopped off, tap 0.5x. For a tighter shot of the dome and windows, try 2x or higher, depending on your phone.",
+   "make_it_pop": "Turn on the gridlines and line the church walls up with the vertical lines so the building doesn't lean, then tap the stonework and drag the brightness slider darker if the sky looks washed out.",
+   "best_time": "Take a quick look at your shot on screen. If the pale walls look glary, make it a touch darker. Stepping back a few paces beats tilting the phone upwards.",
+   "selfie_here": "Go to Agios Titos Square (Plateia Agiou Titou), just outside the church. Use the front camera, switch to 0.5x if your phone has it, and keep the church facade behind you, over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on Agios Titos Square, well back from the church, so the whole building fits in the frame with you in front of it.",
+   "rules_and_safety": "It's an active place of worship, so be discreet and respectful. Photographing the outside is fine. Inside, no flash, and rules can change, so check for a sign or ask on site.",
+   "challenge": "Get the dome near the top third, palm fronds framing one side and the walls dead straight. Bonus points if nobody's head is in the way.",
+   "good_to_know": "The present building went up from 1869 as a mosque called the Yeni Cami, or 'New Mosque'. An earthquake in 1856 had destroyed the mosque that stood here before. It became a Christian church in 1925 and the minaret was taken down. In 2013 it was made a cathedral of the archdiocese of Crete.",
+   "stand_here_before_gps_rule": "Head for Agios Titos Church. The phone icon sits right at the middle of the church. Walk round to the south side and face the wall with the windows, dome and palms. It's the quieter view, and it makes a nice change from the usual front shot."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Agios Titos Square (Plateia Agiou Titou)",
+     "detail": "in the square outside the church, with the church facade behind you",
+     "why": "One travel blog's photo of the church was taken from this square, so the building serves as a backdrop for a self-portrait.",
+     "sources": [
+      {
+       "title": "Visiting Agios Titos Church Heraklion - One Of The Finest Churches In Crete",
+       "url": "https://delveintoeurope.com/agios-titos-church-heraklion/"
+      },
+      {
+       "title": "Saint Titus in Heraklion",
+       "url": "https://www.explorecrete.com/heraklion/en13-heraklion-saint-titus"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Agios Titos Square, facing the south facade",
+    "detail": "stand on the square, well back from the church, so the full building fits in the frame; the square has benches and shade and a page shows the south facade from this area",
+    "sources": [
+     {
+      "title": "Agios Titos Church (2026)",
+      "url": "https://airial.travel/attractions/greece/iraklio/agios-titos-church-N8bXEGzw"
+     },
+     {
+      "title": "Visiting Agios Titos Church Heraklion - One Of The Finest Churches In Crete",
+      "url": "https://delveintoeurope.com/agios-titos-church-heraklion/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography inside the church is generally allowed, but should be discreet, with no flash and nothing that disturbs worshippers.",
+     "sources": [
+      {
+       "title": "Agios Titos Church (2026)",
+       "url": "https://airial.travel/attractions/greece/iraklio/agios-titos-church-N8bXEGzw"
+      }
+     ]
+    },
+    {
+     "rule": "Visitors have sometimes been asked not to take photographs inside, so a sign may be posted before a service.",
+     "sources": [
+      {
+       "title": "Visiting Agios Titos Church Heraklion - One Of The Finest Churches In Crete",
+       "url": "https://delveintoeurope.com/agios-titos-church-heraklion/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot was supported by the pages found; the square outside is named, but no page names a more specific photo position. The ask-someone spot is my inference from the square and facade descriptions, not a spot a page recommends for photographing visitors, so check it on arrival. Sources conflict on indoor photography: one review says photos are allowed, another says they are not. No page mentioned selfie stick or tripod rules, or a safety point. A Wikimedia 'camera location' coordinate was excluded because it points well south of Heraklion and is not a named place."
+  },
+  "cost_usd": 0.0468,
+  "at": "2026-11-18 15:25"
+ },
+ "Martinengo Bastion": {
+  "rank": 8,
+  "card": {
+   "hook": "Heraklion's best wide shot comes with a built-in prop: a tomb. Climb to the top of the Martinengo Bastion and the old town, the Venetian harbour and the sea all spread out to the north.",
+   "stand_here": "Stand at the top of the Martinengo Bastion, right by the Kazantzakis tomb, where the phone icon on the map sits. Face north, so the tomb is low in your frame and the rooftops, harbour and sea are beyond it.",
+   "zoom": "Start at 1x for the tomb with the town behind it. Switch to 0.5x when you want more harbour and sea, and try 2x (if your phone has it) to pick out the roofs or the harbour.",
+   "make_it_pop": "Turn on gridlines, put the horizon on the upper third line, keep the phone level so the sea stays straight, and tap the sky and drag the brightness slider a touch darker to keep its colour.",
+   "best_time": "Go in early morning or late afternoon, when the light is particularly beautiful and the views are at their best.",
+   "selfie_here": "Take your selfie at the top of the bastion beside Kazantzakis's tomb, on the highest point of the walls. Use the front camera at 0.5x and tilt the phone so the town and sea sit over your shoulder.",
+   "ask_someone": "Hand your phone to a passer-by, stand in front of the city-side face of the Makasi Gate at the foot of the bastion, and ask them to shoot so the bastion rises above you.",
+   "rules_and_safety": "Photographing the tomb is generally allowed, but be quiet and respectful around it. Keep a firm grip on your phone and watch your footing at the edge of the walls, as the ground can be uneven and there may be drops.",
+   "challenge": "Try a slow panorama from old town to harbour without a single person at the edges. Strangers get stretched, so wait for a clear moment.",
+   "good_to_know": "Martinengo Bastion is part of the Venetian walls around Heraklion's old town, and several guides call it the highest point of the walls. The Kazantzakis tomb stands at the top. Down at the foot, the Makasi gate is usually a quieter spot for a close, low shot of the stone walls and the archway.",
+   "stand_here_before_gps_rule": "Stand at the top of the Martinengo Bastion, right by the Kazantzakis tomb, where the phone icon on the map sits. Face north, so the tomb is low in your frame and the rooftops, harbour and sea are beyond it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Top of the Martinengo Bastion, beside Kazantzakis's tomb on the cavalier",
+     "detail": "on the highest point of the bastion, near the tomb of Nikos Kazantzakis on the cavalier",
+     "why": "Sources describe the top as the highest point of the walls and the tomb as a popular photo subject, but none says a visitor standing there would have the bastion behind them, so treat this as a best guess.",
+     "sources": [
+      {
+       "title": "The Venetian Walls of Heraklion (explorecrete.com)",
+       "url": "https://www.explorecrete.com/heraklion/walk-venetian-walls"
+      },
+      {
+       "title": "Martinengo Bastion Heraklion & Kazantzakis Tomb Heraklion (airial.travel)",
+       "url": "https://airial.travel/attractions/greece/iraklio/martinengo-bastion-heraklion-kazantzakis-tomb-heraklion-9hiRZRfE"
+      },
+      {
+       "title": "Best Things to Do in Heraklion (getmymoments.com)",
+       "url": "https://getmymoments.com/2026/11/12/best-things-to-do-in-heraklion/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Makasi Gate (Martinengo Gate), under the Martinengo Bastion",
+    "detail": "in front of the monumental city-side facade of the Makasi Gate, at the foot of the bastion, so the bastion rises above the frame",
+    "sources": [
+     {
+      "title": "The Makasi gate under the Martinego bastion, photo from Papa (greece.com)",
+      "url": "https://www.greece.com/photos/destinations/Crete/Heraklion/City_quarter/Papa/The_Makasi_gate_under_the_Martinego_bastion/36080158"
+     },
+     {
+      "title": "Martinengo Bastion and Makasi Gate (geotour.gr)",
+      "url": "https://www.geotour.gr/listing/martinengo-bastion-and-makasi-gate/"
+     },
+     {
+      "title": "Makasi Gate (visitheraklion.eu)",
+      "url": "https://visitheraklion.eu/en/makasi-gate/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "A page says photography is generally allowed at the Kazantzakis Tomb, with visitors often photographing the tombstone and surroundings. It says nothing about selfie sticks or tripods at this site.",
+     "sources": [
+      {
+       "title": "Martinengo Bastion Heraklion & Kazantzakis Tomb Heraklion (airial.travel)",
+       "url": "https://airial.travel/attractions/greece/iraklio/martinengo-bastion-heraklion-kazantzakis-tomb-heraklion-9hiRZRfE"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No source names a spot with the bastion itself behind a visitor, so the selfie spot is inferred from the tomb and the top of the walls. The passer-by spot is the Makasi Gate, named in photo and tourism pages, but none states the exact shooting position; the Papa-area photo page is only a photo credit. The tripod restriction found in one guide (getmymoments) applies to formal archaeological enclosures such as Knossos, not to this bastion, so I did not report it as a rule here. Coordinates 35.33135, 25.13053 match the bastion's position in the mittelmeer-reise page (35.332916, 25.130476) within a short distance."
+  },
+  "cost_usd": 0.0607,
+  "at": "2026-11-18 15:26"
+ },
+ "Saint Minas Cathedral": {
+  "rank": 9,
+  "card": {
+   "hook": "Walk into the square and you can't miss it: a huge cross-shaped cathedral with a dome on a high base, towering over everything around it. It's the largest cathedral on Crete, so it's hard to lose.",
+   "stand_here": "Stand in Plateia Agiou Mina, the large paved square in front of the main (west) facade. That's about 1 minute on foot from the cathedral's centre, 48 metres to the west of it. Face east, toward the cathedral.",
+   "zoom": "Start at zoom 0.5x to fit the whole building in, because you're quite close to something big. Switch to 1x for a more natural look, then try 2x to 5x (depending on your phone) for the dome and bell towers.",
+   "make_it_pop": "Turn on the gridlines, keep the tower lines upright, and put the dome near the centre or on an upper grid line with a little sky above it.",
+   "best_time": "Go early in the morning or late in the afternoon, when the light is softer and it's usually less busy. Midday light is flat and harsh, so skip it if you can.",
+   "selfie_here": "Stand on the paved Saint Minas Square with the cathedral's main facade behind you. Use the front camera (try 0.5x if your phone has it), hold the phone a bit low and tilt up so the dome and towers peek over your shoulder.",
+   "ask_someone": "Ask a passer-by at the Martinengo Bastion to take a photo of you with the cathedral in the background, but check the framing on your map first.",
+   "rules_and_safety": "It's a working place of worship, so dress modestly and be quiet and respectful inside. Check the official site for photo rules, and skip the flash.",
+   "challenge": "Wait for a gap in the crowd and catch the dome and both bell towers in one clean shot, the picture that says 'cathedral' at a glance.",
+   "good_to_know": "The foundation stone was laid in 1862 to a design by Athanasios Moussis. Building stopped during the Cretan Revolution of 1866-1869, started again in 1883 and finished in 1895. Close by, a much smaller church of Agios Minas from 1735 still stands, and locals call it the little Agios Minas.",
+   "stand_here_before_gps_rule": "Stand in Plateia Agiou Mina, the large paved square in front of the main (west) facade. That's about 1 minute on foot from the cathedral's centre, 48 metres to the west of it. Face east, toward the cathedral."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Saint Minas Square, the large paved square in front of the cathedral",
+     "detail": "stand on the paved square in front of the cathedral's main façade, with the building behind you",
+     "why": "Sources describe the cathedral as fronted by a large paved square, so standing there puts the building directly behind you.",
+     "sources": [
+      {
+       "title": "Saint Minas in Heraklion, the patron saint of Heraklion (Explore Crete)",
+       "url": "https://www.explorecrete.com/heraklion/en08-heraklion-saint-minas"
+      },
+      {
+       "title": "The Most Instagram-Worthy Spots in Heraklion on Crete (Argophilia)",
+       "url": "https://www.argophilia.com/news/worthy-spots-in-heraklion-on-crete/219985/"
+      }
+     ]
+    },
+    {
+     "name": "Sinaitiko Cafe, off Saint Catherine Square",
+     "detail": "at the cafe's seating, looking toward the cathedral",
+     "why": "A guide calls it an Instagrammable spot with the cathedral in view, though it does not confirm the cathedral sits directly behind a standing visitor.",
+     "sources": [
+      {
+       "title": "The 14 best photo spots in Heraklion (Wanderlog)",
+       "url": "https://wanderlog.com/list/geoCategory/160591/best-photo-spots-in-heraklion"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Martinengo Bastion",
+    "detail": "a passer-by photographs the visitor from the Martinengo Bastion, with the cathedral in the background",
+    "sources": [
+     {
+      "title": "Category:Agios Minas (Heraklion) - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:Agios_Minas_(Heraklion)"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found states any rule on selfie sticks or tripods. The Martinengo Bastion spot rests only on a Wikimedia Commons photo title (a view of the cathedral from the bastion), not on a guide's advice, so check it on a map and confirm the framing before relying on it. Wanderlog reports renovation work inside the cathedral at one point, so the interior may be covered. Pages also note that photography inside is generally allowed but flash should be avoided, though this is not a selfie-stick or tripod rule."
+  },
+  "cost_usd": 0.05,
+  "at": "2026-11-18 15:26"
+ },
+ "Venetian Harbour of Heraklion": {
+  "rank": 10,
+  "card": {
+   "hook": "Picture the whole harbour laid out below you: boats bobbing, old buildings lined up, and the sea behind them. It's an easy scene, so you can relax and just take the picture.",
+   "stand_here": "Head up onto the top ramparts (the roof walkway) of Koules Fortress and face out over the harbour. You'll see the moored boats, the fortress wall right in front of you, and the sea and town beyond.",
+   "zoom": "Start at 1x for a natural view of the whole harbour. Go to 0.5x to squeeze in more sky and scene, then try 2x to 5x (depending on your phone) to pick out a few boats.",
+   "make_it_pop": "Turn on the gridlines, sit the horizon on one of them, then tap the brightest part of the sky and drag the brightness slider a touch darker so the sky doesn't wash out.",
+   "best_time": "Soft morning or late-afternoon light is kinder to water and buildings than midday sun. The fortress can get busy, so going early helps.",
+   "selfie_here": "Walk out along the causeway to the small lighthouse at the far end of the harbour mole, where the fortress is the backdrop. Use the front camera at 0.5x and keep the fortress over your shoulder. Check which way to turn when you get there, as the facing direction isn't certain.",
+   "ask_someone": "Hand your phone to someone on the yacht moorage side by the Marina cafeteria, across the water from the fortress, and ask for a shot with the fortress filling the frame.",
+   "rules_and_safety": "Follow any local signs about access rules or restrictions. The city is busy, so keep an eye on your bag and valuables.",
+   "challenge": "Take one wide shot with the horizon dead level on a gridline, then one closer shot of just a few boats. Pick your favourite later.",
+   "good_to_know": "The Venetian Harbour is the old harbour area of Heraklion, right on the waterfront in the city centre. It's where the town meets the sea. Wipe your phone lens before you start, because pocket smudges make photos look hazy.",
+   "stand_here_before_gps_rule": "Head up onto the top ramparts (the roof walkway) of Koules Fortress and face out over the harbour. You'll see the moored boats, the fortress wall right in front of you, and the sea and town beyond."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Small lighthouse at the far end of the harbour mole",
+     "detail": "at the end of the causeway past the Koules Fortress, near the lighthouse; the fortress is the backdrop (the pages do not say which way to face)",
+     "why": "The walk out to the lighthouse is described as giving views back over the old port, so it is the most likely place where the fortress sits behind a visitor.",
+     "sources": [
+      {
+       "title": "13 Perfect Instagrammable Places in Heraklion, Crete - Sofia Adventures",
+       "url": "https://sofiaadventures.com/most-instagrammable-places-in-heraklion-crete/"
+      },
+      {
+       "title": "OLD VENETIAN HARBOR OF HERAKLION: All You Need to Know BEFORE You Go (with Photos)",
+       "url": "https://www.tripadvisor.co.nz/Attraction_Review-g189417-d8766796-Reviews-Old_Venetian_Harbor_of_Heraklion-Heraklion_Crete.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Yacht moorage opposite Koules Fortress, by the Marina cafeteria",
+    "detail": "across the water from the fortress, on the yacht moorage side where the Marina cafeteria stands; the fortress fills the frame",
+    "sources": [
+     {
+      "title": "Heraklion Harbour, the Venetian harbour of Heraklion - Explore Crete",
+      "url": "https://www.explorecrete.com/heraklion/en15-heraklion-venetian-harbour"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "As the capital is busy, visitors should keep an eye on their belongings and valuables.",
+   "notes": "Doubtful: none of the pages names a spot where a visitor stands with the fortress directly behind them for a selfie; the lighthouse entry is my inference from walk descriptions, so check the facing direction on site. The ask-someone spot is based on a marina-side description, and a Withlocals photo tour also points to the fortress end of the harbour wall. The pages I found mention no rules on selfie sticks or tripods. Tripadvisor reviews say the fortress can get crowded, so arriving early is suggested."
+  },
+  "cost_usd": 0.045,
+  "at": "2026-11-18 15:27"
+ },
+ "Saint Mark's Basilica": {
+  "rank": 11,
+  "card": {
+   "hook": "Eleftheriou Venizelou Square is buzzing, but the stone front of Saint Mark's just sits there looking calm, like it's seen it all before. That calm is exactly why it photographs so well.",
+   "stand_here": "Stand on Eleftheriou Venizelou Square (Πλατεία Ελευθερίου Βενιζέλου), directly opposite the Morosini (Lions) Fountain, on the square's basilica side. Face east and the basilica is straight ahead of you.",
+   "zoom": "Start at 1x so you get the portico and the arches, with a bit of the fountain at the edge. If the square is packed and you can't step back, try zoom 0.5x. For the carved doorway and stonework, go to 2x or more (higher zooms depend on your phone).",
+   "make_it_pop": "Tap the stone façade, then slide it a little darker if the sky is bright, so the stone keeps its colour and texture.",
+   "best_time": "Early morning should mean fewer people in the square. The façade faces west, so it should catch the light in the late afternoon and evening. Check the sky on the day.",
+   "selfie_here": "Stand at the edge of the Morosini (Lions) Fountain basin with the basilica's façade directly behind you. Use the front camera, try zoom 0.5x to fit more in, and keep the church over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand at the Morosini Fountain facing the basilica across the square, while you stand in front of the façade.",
+   "rules_and_safety": "If you want to photograph inside, check the rules at the official site first.",
+   "challenge": "Take one wide shot with the portico, the arches and a corner of the fountain, then wait for a gap in the crowd so nobody walks through it.",
+   "good_to_know": "The Venetians built Saint Mark's in 1239 in the Gothic style. It was a mosque from the Ottoman conquest in 1669 until 1915, and after restoration work that began in 1956 it became a public art gallery. It's one of the few former Roman Catholic churches still standing in Crete. A minaret and a bell tower once stood here, but neither survives.",
+   "stand_here_before_gps_rule": "Stand on Eleftheriou Venizelou Square (Πλατεία Ελευθερίου Βενιζέλου), directly opposite the Morosini (Lions) Fountain, on the square's basilica side. Face east and the basilica is straight ahead of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Morosini (Lions) Fountain, Eleftheriou Venizelou Square (Lions Square)",
+     "detail": "at the edge of the fountain basin, with the Basilica's façade directly behind you",
+     "why": "The fountain sits directly across from the former basilica, so a visitor standing there can have the church in the background.",
+     "sources": [
+      {
+       "title": "Tripadvisor review: Lions Square, Morosini Fountain",
+       "url": "https://www.tripadvisor.com/ShowUserReviews-g189417-d669297-r622638891-Morosini_Fountain-Heraklion_Crete.html"
+      },
+      {
+       "title": "Tripadvisor: Morosini Fountain (Lion's Fountain) attraction page",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g189417-d669297-Reviews-Morosini_Fountain_Lion_s_Fountain-Heraklion_Crete.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Morosini Fountain side of Eleftheriou Venizelou Square (Lions Square)",
+    "detail": "Photographer stands at the Morosini Fountain facing the basilica across the square, and the visitor stands in front of the basilica façade. The pages do not name these exact standing points; this placement is my inference from the fountain being opposite the basilica.",
+    "sources": [
+     {
+      "title": "Tripadvisor review: Lions Square, Morosini Fountain",
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g189417-d669297-r622638891-Morosini_Fountain-Heraklion_Crete.html"
+     },
+     {
+      "title": "Flickr: The Basilica of Saint Mark (I), Heraklion",
+      "url": "https://www.flickr.com/photos/abariltur/30989672401"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "The landmark is the Saint Mark's Basilica in Heraklion (Eleftheriou Venizelou Square, now the Municipal Art Gallery), not the Venice basilica; the coordinates match the Heraklion church. Only one selfie spot was supported: a page mentions the ornate doorway as a good photo, but that is a photo of the doorway, not a selfie with the building behind, so I left it out. No page I found states selfie-stick or tripod rules. One gallery review says an alarm sounds if visitors come closer than 50 cm to artworks, but that is an indoor rule, not a selfie rule, so I omitted it. The ask-someone placement is my inference, not a page's instruction."
+  },
+  "cost_usd": 0.0611,
+  "at": "2026-11-18 15:28",
+  "selfie_pos": [
+   35.339285,
+   25.1331956
+  ],
+  "selfie_note": "Morosini (OpenStreetMap: Morosini Travel, 8, Πλατεία Ελευθερίου Βενιζέλου, Ηράκλειο, )"
+ }
+}
