@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "jeju", "title": "Jeju: 8 photo spots (pilot review)", "place": "Jeju", "bounds": [126.44, 33.44, 126.6, 33.54], "center": [126.52, 33.489999999999995], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/jeju/{z}/{x}/{y}.pbf", "tz": "Asia/Seoul", "rail": false, "app": true};

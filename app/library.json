@@ -600,6 +600,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "jeju",
+  "place": "Jeju",
+  "country": "South Korea",
+  "spots": 8,
+  "mb": 4.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "kagoshima",
   "place": "Kagoshima",
   "country": "Japan",
