@@ -152,6 +152,14 @@
   "photo": null
  },
  {
+  "key": "bordeaux",
+  "place": "Bordeaux",
+  "country": "France",
+  "spots": 19,
+  "mb": 10.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "boston",
   "place": "Boston",
   "country": "United States",
