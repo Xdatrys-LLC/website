@@ -200,6 +200,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "chiangmai",
+  "place": "Chiang Mai",
+  "country": "Thailand",
+  "spots": 18,
+  "mb": 7.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "cologne",
   "place": "Cologne",
   "country": "Germany",
