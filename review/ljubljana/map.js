@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "ljubljana", "title": "Ljubljana: 19 photo spots (pilot review)", "place": "Ljubljana", "bounds": [14.493, 46.0405, 14.52, 46.06], "center": [14.506499999999999, 46.050250000000005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/ljubljana/{z}/{x}/{y}.pbf"};
