@@ -248,6 +248,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "cairns",
+  "place": "Cairns",
+  "country": "Australia",
+  "spots": 6,
+  "mb": 4.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "cancun",
   "place": "Cancún",
   "country": "Mexico",
