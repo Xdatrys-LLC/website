@@ -64,15 +64,15 @@
   "nophone": true,
   "searches": 450,
   "pin": [
-   -78.51888889,
-   -0.19194444
+   -78.5370872,
+   -0.1868352
   ],
   "camera": [
-   -78.51888889,
-   -0.19194444
+   -78.5370872,
+   -0.1868352
   ],
   "camera_source": "Researched viewpoint 'Cruz Loma' (3 web pages); placed at OpenStreetMap 'Cruz Loma' (node/346124997): point.",
-  "pin_note": "Position from the Wikipedia article 'TelefériQo'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Cable car up the slope of Pichincha volcano.",
   "text": {
    "description": "The TelefériQo is a gondola lift that climbs the east side of Pichincha Volcano from the edge of Quito's city centre to the Cruz Loma lookout. It opened in July 2005 and is one of the highest aerial lifts in the world, rising from 3,117 m to 3,945 m. The ride takes about twenty minutes. That height is why it photographs so well: from the top, the city is spread out along the valley below, with the Andean volcanoes behind it when the sky is clear. The cabins can also be seen heading down the mountain towards the city. The best frame is from the main railing at the Cruz Loma lookout beside the upper station. Guides often single out this railing for wide city views, and from the top station you can also include the cable car in your shot. Itchimbia Park is a free alternative, but the cable car's line looks small from there. It is cooler and windier up top than in the city, and fog can drift in, especially in the morning. Some people feel the altitude, so go slowly and give yourself time to settle in before you start shooting. There is a public restroom, a small cafe and a few shops at the top. Check the weather before you commit to the ride.",
@@ -99,9 +99,7 @@
     "url": "https://en.wikipedia.org/wiki/Telef%C3%A9riQo"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 2102 m away (TelefériQo): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/2.jpg",
@@ -316,59 +314,6 @@
  },
  {
   "rank": 7,
-  "name": "Guápulo",
-  "in_cut": true,
-  "label": "Guápulo",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 200,
-  "pin": [
-   -78.47822,
-   -0.20272
-  ],
-  "camera": [
-   -78.47822,
-   -0.20272
-  ],
-  "camera_source": "Researched viewpoint 'Mirador de Guápulo' (4 web pages); placed at OpenStreetMap 'Mirador de Guápulo' (node/380059957): point.",
-  "pin_note": "Position from Wikidata Q1557674: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Bohemian neighbourhood in a ravine with a colonial church.",
-  "text": {
-   "description": "Guápulo is a district of Quito that drops down a steep hillside, with a colonial church and its dome at the heart of the village. It is often described as Quito's artsy, bohemian corner, with local artists and a few laid-back cafés and bars. The Spaniards originally founded it as an independent city, and every year on 7 September the neighbourhood holds the Fiestas de Guápulo, with costumes, a parade, music and fireworks. The photo works best from above. From there you look down over the church and its dome, across the Cumbayá valley and the surrounding hills. On clear days you may also see volcanoes in the distance. Start with the default lens (1x) to get the church, the village roofs and the valley together in one frame. Then zoom in to 2x or 3x for a tighter picture of the dome. The village itself is a short walk downhill if you want street-level shots, but go in daylight and keep your phone close, as visitors mention safety concerns in the area. A second viewpoint is the church itself, where you can photograph the facade against the hillside. Ask staff before taking photos inside.",
-   "geographic_location": "Guápulo is a district of Quito set behind Hotel Quito and below González Suárez. The Camino de Orellana winds down through it towards the road out to the neighbouring suburbs.",
-   "directions_text": "There is no public transport listed for this spot, so start from the Hotel Quito and González Suárez area and head to the Mirador de Guápulo at Larrea and Pasaje Stübel. That is a rough straight-line distance, and the real route down may be steeper or longer. Confirm the mirador is open before you set off. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Begin with the default lens (1x) for the church, village and valley together. Switch to 2x-3x (or up to 5x if your phone has it) to isolate the dome. Use the ultra-wide (0.5x) only if you want the whole valley, as the church will look small.",
-    "where_to_stand": "Stand on Mirador de Guápulo (Mirador at Larrea and Pasaje Stübel, hilltop above the village). Wide view over the Cumbayá valley and surrounding hills, with the Guápulo church and its dome visible below and volcanoes on clear days. The church and its dome sit below you, towards the south-east on the map, with the Cumbayá valley and hills behind and volcanoes on clear days.",
-    "how_to_frame": "Turn on gridlines and put the church dome on one of the lower intersections, leaving the valley and hills to fill the rest of the frame. Keep the horizon level. If you have time, also photograph the church facade from the Santuario de Guápulo itself, as a second view.",
-    "phone_settings_tip": "Tap on the church to set focus, then slide the exposure down a little so the sky keeps some colour. For a wide sweep of the valley, try panorama mode and move slowly. In low light after sunset, use night mode and brace your elbows against your body or a steady surface.",
-    "best_time": "Late afternoon gives good light on the church, and sunrise or sunset are also recommended. Daylight is the sensible choice for safety."
-   },
-   "access_note": "The Mirador de Guápulo is a free public viewpoint, but it has been reported as closed, so check it is open before you go; interior photography rules at the church vary, so ask staff."
-  },
-  "checker_problems": 5,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Guápulo",
-    "url": "https://en.wikipedia.org/wiki/Gu%C3%A1pulo"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/7.jpg",
-   "artist": "el grito",
-   "licence": "CC BY 2.0",
-   "licence_url": "https://creativecommons.org/licenses/by/2.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Gu%C3%A1pulo.jpg",
-   "from": "Wikidata Q1557674 main image"
-  }
- },
- {
-  "rank": 8,
   "name": "La Capilla del Hombre",
   "in_cut": true,
   "label": "Capilla del Hombre",
@@ -413,7 +358,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "Bernard Gagnon",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -422,7 +367,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Basilica and Convent of San Francisco, Quito",
   "in_cut": true,
   "label": "San Francisco Convent",
@@ -464,7 +409,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Diego Delso",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -473,7 +418,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "La Ronda Street",
   "in_cut": true,
   "label": "Calle La Ronda",
@@ -518,7 +463,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Shared Account",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -527,7 +472,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Church of La Compañía, Quito",
   "in_cut": true,
   "label": "La Compañía Church",
@@ -576,7 +521,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "Ranoutofusername",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -585,7 +530,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Plaza de San Francisco, Quito",
   "in_cut": true,
   "label": "San Francisco Square",
@@ -638,7 +583,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "David Adam Kess",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -647,7 +592,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Casa del Alabado Museum of Pre-Columbian Art",
   "in_cut": true,
   "label": "Casa del Alabado",
@@ -697,7 +642,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "Ymblanter",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -706,7 +651,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Itchimbía",
   "in_cut": true,
   "label": "Itchimbía Park",
@@ -754,7 +699,7 @@
   "photo": null
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Church and convent of San Agustín, Quito",
   "in_cut": true,
   "label": "San Agustín Convent",
@@ -801,7 +746,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "David C. S.",
    "licence": "CC BY 3.0",
    "licence_url": "https://creativecommons.org/licenses/by/3.0",
@@ -810,7 +755,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Centro Cultural Metropolitano",
   "in_cut": true,
   "label": "Centro Cultural Metro.",
@@ -855,7 +800,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "David Adam Kess",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -864,7 +809,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Basilica of La Merced, Quito",
   "in_cut": true,
   "label": "La Merced Church",
@@ -908,12 +853,65 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "User: (WT-shared) Shoestring at wts wikivoyage",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Convento_La_Merced,_Quito,_Ecuador.JPG",
    "from": "Wikidata Q18326422 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Guápulo",
+  "in_cut": false,
+  "label": "Guápulo",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 200,
+  "pin": [
+   -78.47822,
+   -0.20272
+  ],
+  "camera": [
+   -78.47822,
+   -0.20272
+  ],
+  "camera_source": "Researched viewpoint 'Mirador de Guápulo' (4 web pages); placed at OpenStreetMap 'Mirador de Guápulo' (node/380059957): point.",
+  "pin_note": "Position from Wikidata Q1557674: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Bohemian neighbourhood in a ravine with a colonial church.",
+  "text": {
+   "description": "Guápulo is a district of Quito that drops down a steep hillside, with a colonial church and its dome at the heart of the village. It is often described as Quito's artsy, bohemian corner, with local artists and a few laid-back cafés and bars. The Spaniards originally founded it as an independent city, and every year on 7 September the neighbourhood holds the Fiestas de Guápulo, with costumes, a parade, music and fireworks. The photo works best from above. From there you look down over the church and its dome, across the Cumbayá valley and the surrounding hills. On clear days you may also see volcanoes in the distance. Start with the default lens (1x) to get the church, the village roofs and the valley together in one frame. Then zoom in to 2x or 3x for a tighter picture of the dome. The village itself is a short walk downhill if you want street-level shots, but go in daylight and keep your phone close, as visitors mention safety concerns in the area. A second viewpoint is the church itself, where you can photograph the facade against the hillside. Ask staff before taking photos inside.",
+   "geographic_location": "Guápulo is a district of Quito set behind Hotel Quito and below González Suárez. The Camino de Orellana winds down through it towards the road out to the neighbouring suburbs.",
+   "directions_text": "There is no public transport listed for this spot, so start from the Hotel Quito and González Suárez area and head to the Mirador de Guápulo at Larrea and Pasaje Stübel. That is a rough straight-line distance, and the real route down may be steeper or longer. Confirm the mirador is open before you set off. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Begin with the default lens (1x) for the church, village and valley together. Switch to 2x-3x (or up to 5x if your phone has it) to isolate the dome. Use the ultra-wide (0.5x) only if you want the whole valley, as the church will look small.",
+    "where_to_stand": "Stand on Mirador de Guápulo (Mirador at Larrea and Pasaje Stübel, hilltop above the village). Wide view over the Cumbayá valley and surrounding hills, with the Guápulo church and its dome visible below and volcanoes on clear days. The church and its dome sit below you, towards the south-east on the map, with the Cumbayá valley and hills behind and volcanoes on clear days.",
+    "how_to_frame": "Turn on gridlines and put the church dome on one of the lower intersections, leaving the valley and hills to fill the rest of the frame. Keep the horizon level. If you have time, also photograph the church facade from the Santuario de Guápulo itself, as a second view.",
+    "phone_settings_tip": "Tap on the church to set focus, then slide the exposure down a little so the sky keeps some colour. For a wide sweep of the valley, try panorama mode and move slowly. In low light after sunset, use night mode and brace your elbows against your body or a steady surface.",
+    "best_time": "Late afternoon gives good light on the church, and sunrise or sunset are also recommended. Daylight is the sensible choice for safety."
+   },
+   "access_note": "The Mirador de Guápulo is a free public viewpoint, but it has been reported as closed, so check it is open before you go; interior photography rules at the church vary, so ask staff."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Guápulo",
+    "url": "https://en.wikipedia.org/wiki/Gu%C3%A1pulo"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "el grito",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Gu%C3%A1pulo.jpg",
+   "from": "Wikidata Q1557674 main image"
   }
  }
 ]

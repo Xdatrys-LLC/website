@@ -1120,6 +1120,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "quito",
+  "place": "Quito",
+  "country": "Ecuador",
+  "spots": 16,
+  "mb": 5.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "reykjavik",
   "place": "Reykjavik",
   "country": "Iceland",
