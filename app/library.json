@@ -896,6 +896,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "nairobi",
+  "place": "Nairobi",
+  "country": "Kenya",
+  "spots": 15,
+  "mb": 15.2,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "naples",
   "place": "Naples",
   "country": "Italy",
