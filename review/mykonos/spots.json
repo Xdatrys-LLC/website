@@ -154,65 +154,6 @@
  },
  {
   "rank": 4,
-  "name": "Agios Stefanos",
-  "in_cut": true,
-  "label": "Agios Stefanos Beach",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 2170,
-  "pin": [
-   25.31944444,
-   37.46888889
-  ],
-  "camera": [
-   25.31944444,
-   37.46888889
-  ],
-  "camera_source": "Researched viewpoint 'Άγιος Στέφανος' (3 web pages); placed at OpenStreetMap 'Άγιος Στέφανος' (node/1846935454): point.",
-  "pin_note": "Position from Wikidata Q4692667: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Calm beach north of town with a view back to the island's coast.",
-  "text": {
-   "description": "Agios Stefanos is a small whitewashed chapel with a red dome, standing at the far end of Agios Stefanos beach. Its name means Saint Stephen. The beach is a sandy stretch beside Tourlos, the newer harbour of Mykonos. It is busy in summer, with sunbeds, umbrellas, water sports, hotels, restaurants and cafes close by. The chapel is a calm contrast to all that. It works well on a phone because the shapes are simple: bright white walls and a red dome, with the blue bay behind and the island of Delos on the horizon. Stand at the front of the chapel, facing the sea, and you can keep the building in the foreground and let the water and Delos fill the background. The chapel is rarely open to visitors, so plan to photograph it from outside. If you want a second picture, walk onto the beach and frame the chapel and its red roof against the water. Midday sun in summer can wash out the white walls, so early morning or late afternoon gives you more detail. Sunset is the favourite time here, when the light falls over the water towards Delos. Take a few frames at different distances.",
-   "geographic_location": "Next to Tourlos, the new harbour of Mykonos, at the far end of Agios Stefanos beach. It is about 3.5 km from Mykonos town.",
-   "directions_text": "Start in Mykonos town, about 3.5 km away. You can reach the beach by regular bus from Mykonos town, or by taxi or private vehicle. Once on the sand, walk to the far end of the beach, where the chapel stands facing the sea and Delos. Walk or look south from there to the chapel. For the classic view, continue to the front of the chapel and face the sea. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the chapel with the bay and Delos behind it. Switch to ultra-wide (0.5x) if you want more of the beach and sky. If your phone has telephoto (2x-5x), try 2x or 3x for a tighter shot of the red dome against the water.",
-    "where_to_stand": "Stand right at the subject (Front of the chapel at the far end of Agios Stefanos beach, facing the sea and the island of Delos). The whitewashed chapel with its red dome in the foreground, with the blue bay and Delos behind it. From here the chapel is a distant subject to the south. For the classic view, walk to the front of the chapel at the far end of Agios Stefanos beach and face the sea, so the whitewashed chapel with its red dome is in the foreground, with the blue bay and Delos behind it. For an alternative, walk onto Agios Stefanos Beach and stand with the sun behind you, so the chapel and its red roof are framed against the water.",
-    "how_to_frame": "Turn on gridlines and place the chapel on one third of the frame, leaving the bay and Delos on the other. Keep the phone level so the horizon stays straight. Hold the phone low for a bit more sea and sky, or step back to include the whole building. The beach viewpoint, with the sun behind you, is a good second option.",
-    "phone_settings_tip": "Tap on the white wall to set focus, then drag the exposure slider down a little so the white walls keep their detail and don't turn flat. At sunset, check the horizon and Delos before you take the shot, and take a few frames as the light changes.",
-    "best_time": "Sunset is the favourite time for the view towards Delos. Early morning or late afternoon is also good. Avoid roughly 11 a.m. to 3 p.m. in summer, when glare washes out the white walls."
-   },
-   "access_note": "The beach is public and the chapel is a small place of worship that is rarely open to visitors, so photograph it from outside.",
-   "claims_not_in_sources": [
-    "Delos lies across the water in the direction of the sunset, so the sun sets towards it.",
-    "The beach can be crowded in summer, so the chapel front may be busy at sunset.",
-    "Telephoto lenses at 2x-5x depend on the phone model.",
-    "Early morning and late afternoon light is softer than midday light."
-   ]
-  },
-  "checker_problems": 7,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Agios Stefanos (Mykonos)",
-    "url": "https://en.wikipedia.org/wiki/Agios_Stefanos_%28Mykonos%29"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/4.jpg",
-   "artist": "Radosław Botev",
-   "licence": "CC BY 3.0 pl",
-   "licence_url": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Agios_Stefanos_beach_Mykonos.jpg",
-   "from": "Wikidata Q4692667 main image"
-  }
- },
- {
-  "rank": 5,
   "name": "Psarou",
   "in_cut": true,
   "label": "Psarou Beach",
@@ -254,7 +195,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "7777777kz",
    "licence": "CC BY 3.0",
    "licence_url": "https://creativecommons.org/licenses/by/3.0",
@@ -263,7 +204,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Church of Panagia Paraportiani",
   "in_cut": true,
   "label": "Paraportiani Church",
@@ -305,7 +246,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "Zitumassin",
    "licence": "Public domain",
    "licence_url": "",
@@ -314,7 +255,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Ftelia",
   "in_cut": true,
   "label": "Ftelia Beach",
@@ -362,7 +303,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Zde",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -371,7 +312,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Archaeological Museum of Mykonos",
   "in_cut": true,
   "label": "Archaeological Museum",
@@ -413,7 +354,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "Zde",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -422,7 +363,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Aegean Maritime Museum",
   "in_cut": true,
   "label": "Aegean Maritime Museum",
@@ -466,7 +407,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Zde",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -475,7 +416,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Panagia Tourliani Monastery",
   "in_cut": true,
   "label": "Panagia Tourliani",
@@ -518,12 +459,71 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Bernard Gagnon",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Monastery_of_Panagia_Tourliani_10.jpg",
    "from": "Wikidata Q12882680 main image, found by searching Wikipedia for the spot's name ('Panagia Tourliani, Mykonos'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Agios Stefanos",
+  "in_cut": false,
+  "label": "Agios Stefanos Beach",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 2170,
+  "pin": [
+   25.31944444,
+   37.46888889
+  ],
+  "camera": [
+   25.31944444,
+   37.46888889
+  ],
+  "camera_source": "Researched viewpoint 'Άγιος Στέφανος' (3 web pages); placed at OpenStreetMap 'Άγιος Στέφανος' (node/1846935454): point.",
+  "pin_note": "Position from Wikidata Q4692667: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Calm beach north of town with a view back to the island's coast.",
+  "text": {
+   "description": "Agios Stefanos is a small whitewashed chapel with a red dome, standing at the far end of Agios Stefanos beach. Its name means Saint Stephen. The beach is a sandy stretch beside Tourlos, the newer harbour of Mykonos. It is busy in summer, with sunbeds, umbrellas, water sports, hotels, restaurants and cafes close by. The chapel is a calm contrast to all that. It works well on a phone because the shapes are simple: bright white walls and a red dome, with the blue bay behind and the island of Delos on the horizon. Stand at the front of the chapel, facing the sea, and you can keep the building in the foreground and let the water and Delos fill the background. The chapel is rarely open to visitors, so plan to photograph it from outside. If you want a second picture, walk onto the beach and frame the chapel and its red roof against the water. Midday sun in summer can wash out the white walls, so early morning or late afternoon gives you more detail. Sunset is the favourite time here, when the light falls over the water towards Delos. Take a few frames at different distances.",
+   "geographic_location": "Next to Tourlos, the new harbour of Mykonos, at the far end of Agios Stefanos beach. It is about 3.5 km from Mykonos town.",
+   "directions_text": "Start in Mykonos town, about 3.5 km away. You can reach the beach by regular bus from Mykonos town, or by taxi or private vehicle. Once on the sand, walk to the far end of the beach, where the chapel stands facing the sea and Delos. Walk or look south from there to the chapel. For the classic view, continue to the front of the chapel and face the sea. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the chapel with the bay and Delos behind it. Switch to ultra-wide (0.5x) if you want more of the beach and sky. If your phone has telephoto (2x-5x), try 2x or 3x for a tighter shot of the red dome against the water.",
+    "where_to_stand": "Stand right at the subject (Front of the chapel at the far end of Agios Stefanos beach, facing the sea and the island of Delos). The whitewashed chapel with its red dome in the foreground, with the blue bay and Delos behind it. From here the chapel is a distant subject to the south. For the classic view, walk to the front of the chapel at the far end of Agios Stefanos beach and face the sea, so the whitewashed chapel with its red dome is in the foreground, with the blue bay and Delos behind it. For an alternative, walk onto Agios Stefanos Beach and stand with the sun behind you, so the chapel and its red roof are framed against the water.",
+    "how_to_frame": "Turn on gridlines and place the chapel on one third of the frame, leaving the bay and Delos on the other. Keep the phone level so the horizon stays straight. Hold the phone low for a bit more sea and sky, or step back to include the whole building. The beach viewpoint, with the sun behind you, is a good second option.",
+    "phone_settings_tip": "Tap on the white wall to set focus, then drag the exposure slider down a little so the white walls keep their detail and don't turn flat. At sunset, check the horizon and Delos before you take the shot, and take a few frames as the light changes.",
+    "best_time": "Sunset is the favourite time for the view towards Delos. Early morning or late afternoon is also good. Avoid roughly 11 a.m. to 3 p.m. in summer, when glare washes out the white walls."
+   },
+   "access_note": "The beach is public and the chapel is a small place of worship that is rarely open to visitors, so photograph it from outside.",
+   "claims_not_in_sources": [
+    "Delos lies across the water in the direction of the sunset, so the sun sets towards it.",
+    "The beach can be crowded in summer, so the chapel front may be busy at sunset.",
+    "Telephoto lenses at 2x-5x depend on the phone model.",
+    "Early morning and late afternoon light is softer than midday light."
+   ]
+  },
+  "checker_problems": 7,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Agios Stefanos (Mykonos)",
+    "url": "https://en.wikipedia.org/wiki/Agios_Stefanos_%28Mykonos%29"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Radosław Botev",
+   "licence": "CC BY 3.0 pl",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Agios_Stefanos_beach_Mykonos.jpg",
+   "from": "Wikidata Q4692667 main image"
   }
  }
 ]
