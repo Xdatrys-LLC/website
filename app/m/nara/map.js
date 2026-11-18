@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "nara", "title": "Nara: 15 photo spots (pilot review)", "place": "Nara", "bounds": [135.775, 34.66, 135.87, 34.705], "center": [135.8225, 34.6825], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/nara/{z}/{x}/{y}.pbf", "tz": "Asia/Tokyo", "rail": true, "app": true};
