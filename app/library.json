@@ -1224,6 +1224,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "seattle",
+  "place": "Seattle",
+  "country": "United States",
+  "spots": 19,
+  "mb": 11.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "seoul",
   "place": "Seoul",
   "country": "South Korea",
