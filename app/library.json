@@ -576,6 +576,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "interlaken",
+  "place": "Interlaken",
+  "country": "Switzerland",
+  "spots": 7,
+  "mb": 5.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "istanbul",
   "place": "Istanbul",
   "country": "Turkey",
