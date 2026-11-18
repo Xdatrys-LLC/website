@@ -136,6 +136,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "bruges",
+  "place": "Bruges",
+  "country": "Belgium",
+  "spots": 18,
+  "mb": 7.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "brussels",
   "place": "Brussels",
   "country": "Belgium",
