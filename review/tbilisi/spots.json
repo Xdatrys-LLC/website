@@ -440,15 +440,15 @@
   "nophone": true,
   "searches": 1130,
   "pin": [
-   44.79972222,
-   41.69416667
+   44.7955885,
+   41.7008762
   ],
   "camera": [
-   44.79972222,
-   41.69416667
+   44.7955885,
+   41.7008762
   ],
   "camera_source": "Researched viewpoint 'Mtatsminda Park' (3 web pages); placed at our map tiles: 'Mtatsminda Park Map' (pois).",
-  "pin_note": "Position from the Wikipedia article 'Rustaveli Avenue'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Main boulevard lined with grand 19th-century buildings.",
   "text": {
    "description": "Rustaveli Avenue is the main street of central Tbilisi. It starts at Freedom Square and runs for about 1.5 km, lined with the Parliament, the Opera Theatre, the Rustaveli Theatre, Kashveti Church and several museums. It was laid out in the 1840s on the orders of the Russian viceroy Mikhail Vorontsov, who wanted to give a Persian-style city a more European feel. It took its present name, after the medieval poet Shota Rustaveli, in 1918.\n\nOn this map the photo is taken from Mtatsminda Park, the hilltop park above the avenue. From up here you get a wide view of the whole city, and in the evening Rustaveli Street shows up as a line among the lights below. That makes it a good second stop after you have walked the avenue itself. The cable car to the hill leaves from behind the Academy of Sciences. It opened in 1959, closed in 1990 and reopened in October 2024.\n\nThe cable car is a paid ride, so check current operation before you go. If you would rather see the avenue at street level, Freedom Square is a good alternative. From there the whole avenue runs away from you, framed by plane trees, buses and stone apartment blocks, with the St George column close by. Works on the avenue were due to close it to traffic until the end of 2026, so parts may be fenced off.",
@@ -476,10 +476,7 @@
     "url": "https://en.wikipedia.org/wiki/Rustaveli_Avenue"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (1312 m)",
-   "OpenStreetMap object 821 m away (Shota Rustaveli Avenue): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/9.jpg",
@@ -609,23 +606,23 @@
   "nophone": false,
   "searches": 220,
   "pin": [
-   44.8075,
-   41.68611111
+   44.8039907,
+   41.6850742
   ],
   "camera": [
    44.803991,
    41.685074
   ],
   "camera_source": "Researched viewpoint 'National Botanical Garden of Georgia' (2 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from the Wikipedia article 'National Botanical Garden of Georgia'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Green valley behind Narikala with a waterfall.",
   "text": {
    "description": "This is Tbilisi's big green pocket: a wooded gorge tucked behind Narikala Fortress, with a waterfall running down through it. The photo most visitors come for is taken from the panoramic lookout just left of the main entrance gate. From there you look along the gorge to the waterfall, with the garden's trees framing both sides, and you don't need a long climb to reach it. The garden covers 161 hectares and holds more than 4,500 plant groups, so there is plenty to explore beyond the lookout. Its roots go back centuries. A French traveller, Jean Chardin, described royal gardens on this site in 1671, and it was officially established as a botanical garden in 1845. In 2018 it gained new walking and cycling lanes, which makes wandering with a phone in hand easy. For the best result, take one wide shot from the lookout, then move in closer on details such as the water, leaves and stonework. Keep the waterfall in the middle distance and let the trees make a natural frame around it. If you have time, the view down into the garden from Narikala Fortress shows the wooded valley with the Old Town roofs beyond, and there is another view of the garden from behind the Mother of Georgia statue above it.",
    "geographic_location": "In the Tsavkisis-Tskali Gorge on the southern foothills of the Sololaki Range, in the heart of Tbilisi. The main entrance sits at the foot of Narikala Fortress, just above the Old Town.",
-   "directions_text": "Start from the Old Town and head for Narikala Fortress; the garden's main entrance is at the foot of the fortress hill. By taxi or hired scooter, ask for the National Botanical Garden's main entrance. The phone icon on the map is at the lookout beside the entrance gate, and the middle of the garden lies about 5 minutes on foot to the east of it. The phone icon on the map is about 310 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Start from the Old Town and head for Narikala Fortress; the garden's main entrance is at the foot of the fortress hill. By taxi or hired scooter, ask for the National Botanical Garden's main entrance. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole gorge, then switch to the default lens (1x) for a calmer, less stretched view. Use telephoto (2x-5x, depending on your phone) to pick out the waterfall itself.",
-    "where_to_stand": "Stand about 310 m west of the subject, at the phone icon on the map, and face east. From here your photo shows a wide view of the gorge and the waterfall running through it, framed by the garden's trees.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here your photo shows a wide view of the gorge and the waterfall running through it, framed by the garden's trees.",
     "how_to_frame": "Turn on gridlines and place the waterfall on one of the vertical lines, with branches or treetops across the top corners as a frame. Keep the horizon level. For a different angle, try the view from Narikala Fortress, looking down over the wooded valley.",
     "phone_settings_tip": "Tap the waterfall to focus, then slide the exposure down a little so the bright water and sky keep their detail. If the gorge is wide and shaded, try panorama mode, moving slowly and keeping the phone upright.",
     "best_time": "Morning or late afternoon usually gives the softest light. The gorge goes into shadow early, so don't leave your main photos until just before closing time."
@@ -646,9 +643,7 @@
     "url": "https://en.wikipedia.org/wiki/National_Botanical_Garden_of_Georgia"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 313 m away (National Botanical Garden): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": {
    "file": "photos/12.jpg",
