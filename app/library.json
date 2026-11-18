@@ -1232,6 +1232,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "sandiego",
+  "place": "San Diego",
+  "country": "United States",
+  "spots": 18,
+  "mb": 10.8,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "sanfrancisco",
   "place": "San Francisco",
   "country": "United States",

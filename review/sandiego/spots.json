@@ -515,15 +515,15 @@
   "nophone": true,
   "searches": 440,
   "pin": [
-   -117.1583,
-   32.6865
+   -117.1522436,
+   32.6921272
   ],
   "camera": [
-   -117.1583,
-   32.6865
+   -117.1522436,
+   32.6921272
   ],
   "camera_source": "Researched viewpoint 'Coronado Tidelands Park' (3 web pages); placed at OpenStreetMap 'Coronado Tidelands Park' (way/44501074): edge nearest the subject (728 m across).",
-  "pin_note": "Position from the Wikipedia article 'San Diego–Coronado Bridge'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Curving blue bridge across San Diego Bay.",
   "text": {
    "description": "The San Diego–Coronado Bridge is the long, sweeping curve that carries traffic across San Diego Bay between downtown San Diego and Coronado. It opened on 3 August 1969, during the celebrations for San Diego's 200th anniversary. It is about 3.4 km (2.1 miles) long. Its curve is there for a practical reason: the Navy wanted at least 61 m (200 feet) of clearance for ships, and bending the route let the road climb gently enough to reach that height. That curve is also what makes it so good to photograph. From the Coronado bayfront you can line it up against the downtown skyline, with the roadway arching overhead and the water in front. The bridge is also known for the big murals on its eastern support pillars, part of Chicano Park. Chicano Park is a second good place to photograph if you want colour and texture rather than a skyline. Walking is not allowed on the bridge itself, so every good view is from the shoreline or below. Start at Coronado Tidelands Park and walk the bayfront path to find the angle you like. Look for the gap where the curve of the bridge sits above the buildings. Keep your phone level so the skyline does not lean. If you have time, try Cesar Chavez Park Public Pier 16 for a view of the whole arc running out over the water toward Coronado.",
@@ -546,11 +546,7 @@
     "url": "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge"
    }
   ],
-  "pin_flags": [
-   "large area: check the pin",
-   "phone far from subject (1137 m)",
-   "OpenStreetMap object 844 m away (San Diego–Coronado Bridge): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/10.jpg",
@@ -893,23 +889,23 @@
   "nophone": false,
   "searches": 40,
   "pin": [
-   -117.25194444,
-   32.7525
+   -117.2476067,
+   32.7448067
   ],
   "camera": [
    -117.247607,
    32.744807
   ],
   "camera_source": "Researched viewpoint 'Ocean Beach Tidepools' (2 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from the Wikipedia article 'Ocean Beach, San Diego'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Long fishing pier, popular for sunsets.",
   "text": {
    "description": "Ocean Beach Pier is the landmark of Ocean Beach, the laid-back beach neighbourhood where San Diego meets the Pacific at the mouth of the San Diego River. The pier has been closed to the public since storm damage, and the City of San Diego is keeping it closed while it plans a long-term replacement. That means the best photos are taken from the shore, not from the pier itself. Walk to the tidepools at the foot of Newport Avenue, below the pier, and shoot from there. From there you get a low, close view of the pier's underside and its supports, with rocks, sea life and birds in the foreground. Pelicans and gulls make good subjects. If you want the classic view instead, step back to the shore end and photograph the concrete approach and gate, with the ocean and surf stretching out beyond. Ocean Beach has been called by that name since 1887, and surfing was introduced to San Diego here in 1916, so a surfer in the frame suits the place. Go at low tide, when the tidepool area is at its best. Because the pier's status can change, check the current situation before you set out.",
    "geographic_location": "Ocean Beach Pier is in the Ocean Beach neighbourhood of San Diego, on the Pacific coast about 7 miles (11 km) north-west of downtown. It sits south of Mission Bay and directly north of Point Loma, at the foot of Newport Avenue.",
-   "directions_text": "No public transport stop is listed for this spot. Head for the Ocean Beach neighbourhood, about 7 miles (11 km) north-west of downtown San Diego. Then make your way to the foot of Newport Avenue, where the Ocean Beach Tidepools are, below the pier. The phone icon on the map is about 950 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "No public transport stop is listed for this spot. Head for the Ocean Beach neighbourhood, about 7 miles (11 km) north-west of downtown San Diego. Then make your way to the foot of Newport Avenue, where the Ocean Beach Tidepools are, below the pier. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) for the close, low view of the pier's supports. Use the default lens (1x) for the pier and surf from the shore end. Use telephoto (2x-5x, depending on your phone) for pelicans and gulls.",
-    "where_to_stand": "Stand about 950 m south-east of the subject, at the phone icon on the map, and face north-west. Walk to the Ocean Beach Tidepools at the foot of Newport Avenue, beneath the pier, and stand there. From here the photo shows the underside and supports of the pier, with sea life and birds in the foreground.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Walk to the Ocean Beach Tidepools at the foot of Newport Avenue, beneath the pier, and stand there. From here the photo shows the underside and supports of the pier, with sea life and birds in the foreground.",
     "how_to_frame": "Hold the phone low, close to the rocks, and let the pier's supports lead the eye out to sea. Switch on the gridlines to keep the horizon level. For an alternative, photograph the pier's concrete approach and gate from the shore end, with the ocean and surf beyond.",
     "phone_settings_tip": "Tap on the pier or the nearest rock to focus, then drag the exposure slider down a little so the sky does not wash out. For birds, use telephoto and take a burst or a Live Photo, so you can pick the best moment.",
     "best_time": "Low tide, when the tidepool area is at its best. Check the tide times for the day before you go."
@@ -931,10 +927,7 @@
     "url": "https://en.wikipedia.org/wiki/Ocean_Beach%2C_San_Diego"
    }
   ],
-  "pin_flags": [
-   "area name label only (place=suburb): check the pin",
-   "OpenStreetMap object 947 m away (Ocean Beach): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": {
    "file": "photos/17.jpg",
