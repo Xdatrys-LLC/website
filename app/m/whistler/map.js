@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "whistler", "title": "Whistler: 7 photo spots (pilot review)", "place": "Whistler", "bounds": [-122.995, 50.055, -122.925, 50.135], "center": [-122.96000000000001, 50.095], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/whistler/{z}/{x}/{y}.pbf", "tz": "America/Vancouver", "rail": false, "app": true};

@@ -340,15 +340,15 @@
   "nophone": true,
   "searches": 780,
   "pin": [
-   123.89901389,
-   10.29674444
+   123.893895,
+   10.294437
   ],
   "camera": [
-   123.89901389,
-   10.29674444
+   123.893895,
+   10.294437
   ],
   "camera_source": "Researched viewpoint 'Colon Street corner with Mabini Street' (1 web pages); placed at crossing of Colon Street and Mabini Street (our map tiles).",
-  "pin_note": "Position from Wikidata Q3545735: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Oldest street in the Philippines.",
   "text": {
    "description": "Colon Street is a historic street in downtown Cebu City, named after Cristóbal Colón (Christopher Columbus). It was once the heart of the city's shopping, offices and cinemas. Today it is busy, crowded and a bit run-down, which is part of its appeal for photographs: signs, shopfronts, vendors and passers-by make a lively scene. It is often called the oldest street in the Philippines, but historians dispute this. The earliest map showing it dates from 1873, and the 'oldest street' label seems to have started on postcards sold from 1910, so it is safest not to repeat the claim as settled fact in a caption. The best-known shot is the old postcard view: the grey obelisk in the foreground, with the street stretching away behind it. You can take the same view today, which makes a fun then-and-now comparison if you have an old print or an archive photo to hand. Move in closer on the obelisk and its markers for a more detailed picture, or step back to the arch that marks the start of the street. Since 2007 a night market has run here several times a year, mostly from September to January, so the street can look very different after dark. Crowds are part of the scene, so take your time and keep your phone secure in your hand or a zipped pocket.",
@@ -377,10 +377,7 @@
     "url": "https://en.wikipedia.org/wiki/Colon_Street"
    }
   ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (533 m)"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/7.jpg",
@@ -393,54 +390,6 @@
  },
  {
   "rank": 8,
-  "name": "Yap–San Diego House",
-  "in_cut": true,
-  "label": "Yap-San Diego House",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 400,
-  "pin": [
-   123.90394,
-   10.29927
-  ],
-  "camera": [
-   123.90394,
-   10.29927
-  ],
-  "camera_source": "Commons cluster (1 photos), weak.",
-  "pin_note": "Position from Wikidata Q137776754: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "One of the oldest Chinese-Filipino residences, from the late 1600s.",
-  "text": {
-   "description": "The Yap–San Diego House is a heritage house in the old Parián district of Cebu City. It is thought to be among the oldest surviving Chinese houses outside China, and one of the oldest homes in the Philippines. It was probably built between 1675 and 1700 by Don Juan Yap, a merchant from Fujian, and his wife Doña Maria Florido. Parián was the quarter where Chinese residents were required to live in Spanish colonial times.\n\nIt photographs well because it is a rare surviving piece of history with plenty of texture. The house has two storeys built of coral stone and wood, in the Bahay na bato style. It has windows on the upper level and a downward-sloping roof. The ground floor has an open-air garden. Together these give a phone camera plenty of texture to pick up.\n\nThe house is protected by the National Historical Commission of the Philippines and has been open to visitors since 2008. A descendant of the original family still looks after it, and a variety of historical artefacts are displayed inside.\n\nFor photos, start outside and take in the whole front, then move closer for the stone, the window frames and the roof edge. Inside, look for the garden and the displayed objects, and ask before taking photos indoors.",
-   "geographic_location": "The house is in the historical Parián area of Cebu City, where Chinese residents were required to live in Spanish colonial times.",
-   "directions_text": "No Underground, train or tram stops are listed for this spot, so head for the Parián area of Cebu City by taxi or hired scooter. Walk north from it to reach the front of the house. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the full front of the house. Use the ultra-wide (0.5x) only if the street is too narrow to fit it in, and keep the house centred to limit stretching. Use telephoto (2x-5x, depending on your phone) for details such as the windows, the roof edge and the stonework.",
-    "where_to_stand": "Stand at the corner of Mabini Street and Lopez Jaena Street (front facade at the corner, where the house's stone walls and the entrance meet the street). The two-storey coral-stone and wood house with its red Chinese lanterns and the large Santo Niño statue near the entrance, framed by the narrow Parian streets. Then walk up the street towards the house for closer shots.",
-    "how_to_frame": "Turn on gridlines and keep the vertical lines of the walls straight. Put the ground floor in the lower third and the windows and sloping roof above. Take one wide shot of the whole house, then close-ups of the texture. If the garden is open, frame it through the doorway to show the depth.",
-    "phone_settings_tip": "Tap the brightest wall to focus, then lower the exposure slider a little so the stone and wood keep their colour. Indoors, use night mode if the rooms are dim, and hold the phone steady against a wall or doorframe.",
-    "best_time": "Morning or late afternoon usually gives softer light and fewer harsh shadows on the front. Check locally for opening details and photography rules before you go."
-   },
-   "access_note": "The house has been open to the public since 2008, but check locally for opening arrangements, any entry rules and whether photography is allowed inside."
-  },
-  "checker_problems": 6,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Yap–San Diego House",
-    "url": "https://en.wikipedia.org/wiki/Yap%E2%80%93San_Diego_House"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": null
- },
- {
-  "rank": 9,
   "name": "Heritage of Cebu Monument",
   "in_cut": true,
   "label": "Heritage of Cebu",
@@ -486,7 +435,7 @@
   "photo": null
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Cebu Metropolitan Cathedral",
   "in_cut": true,
   "label": "Cebu Cathedral",
@@ -532,7 +481,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Patrickroque01",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -541,7 +490,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Casa Gorordo Museum",
   "in_cut": true,
   "label": "Casa Gorordo",
@@ -585,7 +534,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "CharMel Creations",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -594,7 +543,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 11,
   "name": "Carbon Market",
   "in_cut": true,
   "label": "Carbon Market",
@@ -640,7 +589,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/11.jpg",
    "artist": "User:P199",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -649,7 +598,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 12,
   "name": "Museo Sugbo",
   "in_cut": true,
   "label": "Museo Sugbo",
@@ -657,15 +606,15 @@
   "nophone": true,
   "searches": 150,
   "pin": [
-   123.9,
-   10.3
+   123.906731,
+   10.303847
   ],
   "camera": [
-   123.9,
-   10.3
+   123.906731,
+   10.303847
   ],
   "camera_source": "Researched viewpoint 'M. J. Cuenco Avenue' (1 web pages); placed at our map tiles: 'Toyota Cebu City - M. J. Cuenco' (pois); moved 30 m off buildings.",
-  "pin_note": "Position from Wikidata Q2110972: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Provincial museum in the former Cebu jail.",
   "text": {
    "description": "Museo Sugbo is Cebu's provincial heritage museum, set in the old Cárcel de Cebú, the provincial jail of Cebu for well over a century. It photographs well because the building still looks like what it was: a heavy coral-stone front wall with arched, barred windows, which shows its age at a glance. The jail was designed in 1869 by Domingo de Escondrillas, and building began around 1871. It is believed that many of its coral blocks came from the Parian church, which was demolished in 1878. The first galleries opened in 2008, after the prisoners were moved to a newer complex in 2004. For the classic photo, cross M. J. Cuenco Avenue to the far sidewalk and face the front. The wall and windows fill most of the frame, and the historical marker on the near sidewalk gives you something in the foreground. Go before mid-morning if you can, because the light is best then. Inside the gate, the courtyard walls make a strong textured backdrop for a portrait or a detail shot, and two old cannons are reported beside the entrance, though that may have changed. Take the street shot first, then decide whether to go in. Photography is generally fine outdoors, but galleries often do not allow it, so ask at the entrance.",
@@ -688,13 +637,10 @@
     "url": "https://en.wikipedia.org/wiki/Museo_Sugbo"
    }
   ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (713 m)"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/12.jpg",
    "artist": "Aries Eroles",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -703,7 +649,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 13,
   "name": "Cebu Provincial Capitol",
   "in_cut": true,
   "label": "Provincial Capitol",
@@ -749,7 +695,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/13.jpg",
    "artist": "Andrewhaimerl",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -758,7 +704,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 14,
   "name": "National Museum of the Philippines – Cebu",
   "in_cut": true,
   "label": "National Museum Cebu",
@@ -802,7 +748,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/14.jpg",
    "artist": "ericlucky290",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -811,7 +757,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 15,
   "name": "Plaza Independencia",
   "in_cut": true,
   "label": "Plaza Independencia",
@@ -850,6 +796,54 @@
    {
     "title": "Plaza Independencia (Cebu City)",
     "url": "https://en.wikipedia.org/wiki/Plaza_Independencia_%28Cebu_City%29"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": null
+ },
+ {
+  "rank": 101,
+  "name": "Yap–San Diego House",
+  "in_cut": false,
+  "label": "Yap-San Diego House",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 400,
+  "pin": [
+   123.90394,
+   10.29927
+  ],
+  "camera": [
+   123.90394,
+   10.29927
+  ],
+  "camera_source": "Commons cluster (1 photos), weak.",
+  "pin_note": "Position from Wikidata Q137776754: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "One of the oldest Chinese-Filipino residences, from the late 1600s.",
+  "text": {
+   "description": "The Yap–San Diego House is a heritage house in the old Parián district of Cebu City. It is thought to be among the oldest surviving Chinese houses outside China, and one of the oldest homes in the Philippines. It was probably built between 1675 and 1700 by Don Juan Yap, a merchant from Fujian, and his wife Doña Maria Florido. Parián was the quarter where Chinese residents were required to live in Spanish colonial times.\n\nIt photographs well because it is a rare surviving piece of history with plenty of texture. The house has two storeys built of coral stone and wood, in the Bahay na bato style. It has windows on the upper level and a downward-sloping roof. The ground floor has an open-air garden. Together these give a phone camera plenty of texture to pick up.\n\nThe house is protected by the National Historical Commission of the Philippines and has been open to visitors since 2008. A descendant of the original family still looks after it, and a variety of historical artefacts are displayed inside.\n\nFor photos, start outside and take in the whole front, then move closer for the stone, the window frames and the roof edge. Inside, look for the garden and the displayed objects, and ask before taking photos indoors.",
+   "geographic_location": "The house is in the historical Parián area of Cebu City, where Chinese residents were required to live in Spanish colonial times.",
+   "directions_text": "No Underground, train or tram stops are listed for this spot, so head for the Parián area of Cebu City by taxi or hired scooter. Walk north from it to reach the front of the house. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the full front of the house. Use the ultra-wide (0.5x) only if the street is too narrow to fit it in, and keep the house centred to limit stretching. Use telephoto (2x-5x, depending on your phone) for details such as the windows, the roof edge and the stonework.",
+    "where_to_stand": "Stand at the corner of Mabini Street and Lopez Jaena Street (front facade at the corner, where the house's stone walls and the entrance meet the street). The two-storey coral-stone and wood house with its red Chinese lanterns and the large Santo Niño statue near the entrance, framed by the narrow Parian streets. Then walk up the street towards the house for closer shots.",
+    "how_to_frame": "Turn on gridlines and keep the vertical lines of the walls straight. Put the ground floor in the lower third and the windows and sloping roof above. Take one wide shot of the whole house, then close-ups of the texture. If the garden is open, frame it through the doorway to show the depth.",
+    "phone_settings_tip": "Tap the brightest wall to focus, then lower the exposure slider a little so the stone and wood keep their colour. Indoors, use night mode if the rooms are dim, and hold the phone steady against a wall or doorframe.",
+    "best_time": "Morning or late afternoon usually gives softer light and fewer harsh shadows on the front. Check locally for opening details and photography rules before you go."
+   },
+   "access_note": "The house has been open to the public since 2008, but check locally for opening arrangements, any entry rules and whether photography is allowed inside."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Yap–San Diego House",
+    "url": "https://en.wikipedia.org/wiki/Yap%E2%80%93San_Diego_House"
    }
   ],
   "pin_flags": [
