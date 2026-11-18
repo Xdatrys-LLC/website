@@ -5,10 +5,14 @@
 //    Map tiles, the app's home screen, the library pages and everything else stay open.
 // 3. Pocket Lens issue pages (/issues/<date>, Ifan 2026-11-18): visitors and search engines get the short public version
 //    (_lib/issue_teaser.js); signed-in members and the owner get the full issue. The Pocket Lens project is not changed.
+//    Also /newsletter/issues/<date>, where Pocket Lens will publish later. /newsletter/drafts/... is for the owner only.
+// 4. /sitemap.xml, /robots.txt, /llms.txt are served from the website's own copies in /site-files/ (pipeline/site_files.py),
+//    because the Pocket Lens publisher rewrites the root files every night with only the old pages (2026-11-18).
 import { who } from "./_lib/auth.js";
 import { teaserIssue } from "./_lib/issue_teaser.js";
 
-const ISSUE = /^\/issues\/\d{4}-\d{2}-\d{2}(\.html)?\/?$/;
+const ISSUE = /^\/(newsletter\/)?issues\/\d{4}-\d{2}-\d{2}(\.html)?\/?$/;
+const SITE_FILES = { "/sitemap.xml": "/site-files/sitemap.xml", "/robots.txt": "/site-files/robots.txt", "/llms.txt": "/site-files/llms.txt" };
 
 export async function onRequest(context) {
   const { request, env } = context;
@@ -18,6 +22,10 @@ export async function onRequest(context) {
     return Response.redirect(url.toString(), 301);
   }
   const p = url.pathname;
+  if (SITE_FILES[p] && env.ASSETS) {
+    const own = await env.ASSETS.fetch(new Request(url.origin + SITE_FILES[p], request));
+    if (own.ok) return own;
+  }
   // the plain issue list written by the Pocket Lens publisher -> the website's styled list (2026-11-18, Ifan)
   if (p === "/issues" || p === "/issues/" || p === "/issues/index.html" || p === "/issues/index") {
     return Response.redirect(url.origin + "/newsletter/issues/", 301);
@@ -36,7 +44,7 @@ export async function onRequest(context) {
     out.headers.set("Vary", "Cookie");
     return out;
   }
-  const app = p.startsWith("/app/m/"), review = p.startsWith("/review/");
+  const app = p.startsWith("/app/m/"), review = p.startsWith("/review/") || p.startsWith("/newsletter/drafts/");
   if (!app && !review) return context.next();
   const w = await who(request, env);
   const allowed = review ? w.role === "owner" : (w.role === "owner" || w.role === "member");
