@@ -54,66 +54,6 @@
  },
  {
   "rank": 2,
-  "name": "Bùi Viện Street",
-  "in_cut": true,
-  "label": "Bui Vien Street",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 12200,
-  "pin": [
-   106.693979,
-   10.767421
-  ],
-  "camera": [
-   106.693979,
-   10.767421
-  ],
-  "camera_source": "Researched viewpoint 'Bùi Viện' (2 web pages); placed at crossing of Bùi Viện and Trần Hưng Đạo (our map tiles).",
-  "pin_note": "Position from Wikidata Q11334291: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Backpacker street, lively with neon at night.",
-  "text": {
-   "description": "Bùi Viện Street is a short street in the Bến Thành area, known as Ho Chi Minh City's nightlife street. It is lined with small bars and beer gardens, and most visitors come after dark. That is also when it photographs best, because the neon signs, the lit-up shopfronts and the crowd all give you colour and movement in one frame.\n\nThe street starts at a Y-junction with Trần Hưng Đạo Boulevard in the east and runs west to a T-junction with Cống Quỳnh street. The area around it, with Đề Thám, Phạm Ngũ Lão and Đỗ Quang Đẩu, is nicknamed the 'Backpacker Quarter'. The street took its present name in 1955, after the 19th-century reformer and diplomat Bùi Viện. In 2017 it was rebuilt as a walking street, and it opened on 20 August 2017 as the city's second pedestrian street, after Nguyễn Huệ Boulevard.\n\nFor the best-known shot, stand at the east entrance gate, where the street meets Trần Hưng Đạo Boulevard. Look west under the entrance arch and along the street into the neon-lit crowd. Hold the phone at eye level or slightly lower so the arch frames the scene. If you want a second view, the bar balconies give a high, overhead look down the street, with the light canopy above the crowd. Vehicles still pass through at times, so keep clear of the carriageway while you shoot.",
-   "geographic_location": "Bùi Viện Street is in the Bến Thành area of central Ho Chi Minh City. Its east end meets Trần Hưng Đạo Boulevard, next to the Trần Hưng Đạo – Nguyễn Thái Học crossroads.",
-   "directions_text": "Start from the Bến Thành area and take a taxi or hired scooter to the Trần Hưng Đạo Boulevard end of Bùi Viện Street, by the Trần Hưng Đạo – Nguyễn Thái Học crossroads. From there, the subject point on the map is about 143 m to the north-east. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the arch and the street ahead. Switch to ultra-wide (0.5x) if the pavement is crowded and you cannot step back. Use 2x if you want to pick out the signs and bring the far end of the street closer.",
-    "where_to_stand": "Stand at the corner of Bùi Viện and Trần Hưng Đạo (east entrance gate, where the street meets Trần Hưng Đạo Boulevard). The entrance arch with the street stretching west into the neon-lit crowd, shot at eye level or slightly low. From here the photo shows the entrance arch with the street stretching west into the neon-lit crowd.",
-    "how_to_frame": "Hold the phone at eye level or slightly low, with the arch around the top of the frame, and turn on the gridlines to keep the verticals straight. Let the street lead the eye away from you. For a different view, a bar balcony gives a high shot down the whole street; choose a bar on site, and use the default lens (1x) with the phone held steady against the railing.",
-    "phone_settings_tip": "Tap the brightest part of the scene to focus, then slide the exposure down a little so the neon keeps its colour instead of turning white. Night mode helps in the dark side streets, but ask people to stay still for a moment, or you will get blur. Live Photos can catch the movement of the crowd.",
-    "best_time": "After dark, when the signs and lights are on and the street is busy. The street is closed to vehicles on Saturday and Sunday evenings from 7 pm, so those evenings are the easiest for walking and framing. Check locally, as arrangements can change."
-   },
-   "access_note": "Open public street, free to walk. Vehicles still pass at times, so stay clear of the carriageway; check the official site before you go for current walking-street arrangements.",
-   "claims_not_in_sources": [
-    "The neon signs and street lighting are lit from dusk onwards, so the street looks best after dark.",
-    "The street is usually busiest in the late evening.",
-    "A bar balcony viewpoint may expect you to buy something; this varies by venue.",
-    "Phones should be held securely in a crowded street (general caution).",
-    "Night mode needs the subject to stay still for a moment to avoid blur (general phone behaviour)."
-   ]
-  },
-  "checker_problems": 2,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Bùi Viện Street",
-    "url": "https://en.wikipedia.org/wiki/B%C3%B9i_Vi%E1%BB%87n_Street"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/2.jpg",
-   "artist": "trungydang",
-   "licence": "CC BY 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by/3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:B%C3%B9i_vi%E1%BB%87n_street-Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o,_Qu%E1%BA%ADn_1,_TPHCM,_Vi%E1%BB%87t_Nam_-_panoramio.jpg",
-   "from": "Wikidata Q11334291 main image"
-  }
- },
- {
-  "rank": 3,
   "name": "Landmark 81",
   "in_cut": true,
   "label": "Landmark 81",
@@ -157,7 +97,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/3.jpg",
+   "file": "photos/2.jpg",
    "artist": "Joefrance1995",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -166,7 +106,7 @@
   }
  },
  {
-  "rank": 4,
+  "rank": 3,
   "name": "War Remnants Museum",
   "in_cut": true,
   "label": "War Remnants Museum",
@@ -213,7 +153,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/4.jpg",
+   "file": "photos/3.jpg",
    "artist": "Prenn",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -222,7 +162,7 @@
   }
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "Independence Palace",
   "in_cut": true,
   "label": "Independence Palace",
@@ -266,7 +206,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "Balon Greyjoy",
    "licence": "CC0",
    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -275,7 +215,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Nguyễn Huệ Boulevard",
   "in_cut": true,
   "label": "Nguyen Hue Walking St",
@@ -324,7 +264,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "Steffen Schmitz (more photos)",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -333,7 +273,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Hotel Majestic (Saigon)",
   "in_cut": true,
   "label": "Majestic Hotel",
@@ -375,7 +315,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Marufish",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -384,62 +324,7 @@
   }
  },
  {
-  "rank": 8,
-  "name": "Rex Hotel",
-  "in_cut": true,
-  "label": "Rex Hotel",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 4110,
-  "pin": [
-   106.7015,
-   10.77583333
-  ],
-  "camera": [
-   106.7015,
-   10.77583333
-  ],
-  "camera_source": "Researched viewpoint 'Nguyễn Huệ – Lê Thánh Tôn corner' (1 web pages); placed at crossing of Nguyễn Huệ and Lê Thánh Tôn (our map tiles).",
-  "pin_note": "Position from Wikidata Q7319215: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Famous hotel with a rooftop bar and crown sign.",
-  "text": {
-   "description": "The Rex Hotel is one of central Saigon's best-known buildings, and it photographs well because it sits right on a busy street corner, so you can see its whole shape at once. It stands at the corner of Lê Lợi Boulevard and Nguyễn Huệ Boulevard in District 1. It is a six-storey building with 286 rooms. The 1927 building began as a two-storey car showroom and garage for a French businessman, and it displayed Citroën and other European cars. It later became a hotel. During the Vietnam War it hosted the daily US military press briefings that journalists nicknamed \"The Five O'Clock Follies\", and its rooftop bar was a well-known meeting place for officials and war correspondents. It has carried the Rex name again since 1986.\n\nFrom there the hotel's corner façade and its signage sit against the street junction. Stand back a little and frame the full building rather than just the sign. Pedestrians and scooters passing through the foreground give the picture a sense of the city. If you want a second angle, Nguyễn Huệ Walking Street shows the frontage down the wide pedestrian boulevard, and Ho Chi Minh City Hall gives a more distant view of the hotel across the civic grounds.",
-   "geographic_location": "In District 1, the central district of Ho Chi Minh City, on the corner of Lê Lợi Boulevard and Nguyễn Huệ Boulevard. Lê Thánh Tôn Street also runs along the building.",
-   "directions_text": "No Underground, tram or railway stop is listed for this spot, so start from central District 1 and go to the Nguyễn Huệ and Lê Lợi boulevards, by taxi or hired scooter if you are coming from further away. From there the hotel is to the south-east, about 1 minute on foot. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for a natural view of the building. If the whole façade will not fit, switch to ultra-wide (0.5x). Use telephoto (2x-5x, depending on your phone) for details such as the signage or the upper floors.",
-    "where_to_stand": "Stand at the corner of Nguyễn Huệ and Lê Thánh Tôn (corner facing the hotel's frontage). The hotel's corner façade and signage framed against the street junction, the classic full-building angle. Face south-east towards the hotel's corner frontage. From here your photo shows the corner façade and signage framed against the street junction, which is the full-building view. Check the exact corner on the map before you set off.",
-    "how_to_frame": "Turn on the gridlines and line the building's vertical edges up with them, so the walls do not lean. Leave some street in the foreground. If you want a second view, Nguyễn Huệ Walking Street shows the frontage down the boulevard with passers-by.",
-    "phone_settings_tip": "Tap the brightest part of the sky or the sign to set exposure, then slide the exposure control down slightly so the signage does not wash out. In the evening, use night mode and hold your phone against something steady, such as a wall or a post.",
-    "best_time": "Early morning is usually calmer for a clear view of the building. After dark, the lit-up signage gives a different mood, but the junction is busy then."
-   },
-   "access_note": "The façade can be photographed from the public street, but the hotel and its arcade are commercial premises, so check the official site before you go if you want to go inside."
-  },
-  "checker_problems": 1,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Rex Hotel",
-    "url": "https://en.wikipedia.org/wiki/Rex_Hotel"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/8.jpg",
-   "artist": "Ngô Trung",
-   "licence": "CC BY-SA 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Rex_Hotel.jpg",
-   "from": "Wikidata Q7319215 main image"
-  }
- },
- {
-  "rank": 9,
+  "rank": 7,
   "name": "Saigon Central Post Office",
   "in_cut": true,
   "label": "Central Post Office",
@@ -483,7 +368,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/7.jpg",
    "artist": "Steffen Schmitz (more photos)",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -492,7 +377,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 8,
   "name": "Ho Chi Minh City Opera House",
   "in_cut": true,
   "label": "Saigon Opera House",
@@ -534,7 +419,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/8.jpg",
    "artist": "Bahnfrend",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -543,7 +428,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 9,
   "name": "Hotel Continental Saigon",
   "in_cut": true,
   "label": "Continental Hotel",
@@ -589,7 +474,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/9.jpg",
    "artist": "terence from Singapore",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -598,7 +483,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 10,
   "name": "Bitexco Financial Tower",
   "in_cut": true,
   "label": "Bitexco Tower",
@@ -640,7 +525,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/10.jpg",
    "artist": "Ngô Trung",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -649,7 +534,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 11,
   "name": "Notre-Dame Cathedral Basilica of Saigon",
   "in_cut": true,
   "label": "Notre-Dame Cathedral",
@@ -698,7 +583,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/11.jpg",
    "artist": "Diego Delso",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -707,7 +592,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 12,
   "name": "Jade Emperor Pagoda",
   "in_cut": true,
   "label": "Jade Emperor Pagoda",
@@ -751,7 +636,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/12.jpg",
    "artist": "Ymblanter",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -760,7 +645,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 13,
   "name": "Saigon Zoo and Botanical Gardens",
   "in_cut": true,
   "label": "Saigon Zoo & Gardens",
@@ -811,7 +696,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/13.jpg",
    "artist": "Hoangvantoanajc",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -820,7 +705,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 14,
   "name": "Tân Định Church",
   "in_cut": true,
   "label": "Tan Dinh Church",
@@ -869,7 +754,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/14.jpg",
    "artist": "Suicasmo",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -878,7 +763,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 15,
   "name": "Ho Chi Minh City Hall",
   "in_cut": true,
   "label": "People's Committee Hal",
@@ -922,7 +807,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/15.jpg",
    "artist": "Diego Delso",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -931,7 +816,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 16,
   "name": "Mariamman Temple, Ho Chi Minh City",
   "in_cut": true,
   "label": "Mariamman Temple",
@@ -975,7 +860,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/16.jpg",
    "artist": "Dragfyre",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -984,9 +869,124 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 101,
+  "name": "Bùi Viện Street",
+  "in_cut": false,
+  "label": "Bui Vien Street",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 12200,
+  "pin": [
+   106.693979,
+   10.767421
+  ],
+  "camera": [
+   106.693979,
+   10.767421
+  ],
+  "camera_source": "Researched viewpoint 'Bùi Viện' (2 web pages); placed at crossing of Bùi Viện and Trần Hưng Đạo (our map tiles).",
+  "pin_note": "Position from Wikidata Q11334291: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Backpacker street, lively with neon at night.",
+  "text": {
+   "description": "Bùi Viện Street is a short street in the Bến Thành area, known as Ho Chi Minh City's nightlife street. It is lined with small bars and beer gardens, and most visitors come after dark. That is also when it photographs best, because the neon signs, the lit-up shopfronts and the crowd all give you colour and movement in one frame.\n\nThe street starts at a Y-junction with Trần Hưng Đạo Boulevard in the east and runs west to a T-junction with Cống Quỳnh street. The area around it, with Đề Thám, Phạm Ngũ Lão and Đỗ Quang Đẩu, is nicknamed the 'Backpacker Quarter'. The street took its present name in 1955, after the 19th-century reformer and diplomat Bùi Viện. In 2017 it was rebuilt as a walking street, and it opened on 20 August 2017 as the city's second pedestrian street, after Nguyễn Huệ Boulevard.\n\nFor the best-known shot, stand at the east entrance gate, where the street meets Trần Hưng Đạo Boulevard. Look west under the entrance arch and along the street into the neon-lit crowd. Hold the phone at eye level or slightly lower so the arch frames the scene. If you want a second view, the bar balconies give a high, overhead look down the street, with the light canopy above the crowd. Vehicles still pass through at times, so keep clear of the carriageway while you shoot.",
+   "geographic_location": "Bùi Viện Street is in the Bến Thành area of central Ho Chi Minh City. Its east end meets Trần Hưng Đạo Boulevard, next to the Trần Hưng Đạo – Nguyễn Thái Học crossroads.",
+   "directions_text": "Start from the Bến Thành area and take a taxi or hired scooter to the Trần Hưng Đạo Boulevard end of Bùi Viện Street, by the Trần Hưng Đạo – Nguyễn Thái Học crossroads. From there, the subject point on the map is about 143 m to the north-east. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the arch and the street ahead. Switch to ultra-wide (0.5x) if the pavement is crowded and you cannot step back. Use 2x if you want to pick out the signs and bring the far end of the street closer.",
+    "where_to_stand": "Stand at the corner of Bùi Viện and Trần Hưng Đạo (east entrance gate, where the street meets Trần Hưng Đạo Boulevard). The entrance arch with the street stretching west into the neon-lit crowd, shot at eye level or slightly low. From here the photo shows the entrance arch with the street stretching west into the neon-lit crowd.",
+    "how_to_frame": "Hold the phone at eye level or slightly low, with the arch around the top of the frame, and turn on the gridlines to keep the verticals straight. Let the street lead the eye away from you. For a different view, a bar balcony gives a high shot down the whole street; choose a bar on site, and use the default lens (1x) with the phone held steady against the railing.",
+    "phone_settings_tip": "Tap the brightest part of the scene to focus, then slide the exposure down a little so the neon keeps its colour instead of turning white. Night mode helps in the dark side streets, but ask people to stay still for a moment, or you will get blur. Live Photos can catch the movement of the crowd.",
+    "best_time": "After dark, when the signs and lights are on and the street is busy. The street is closed to vehicles on Saturday and Sunday evenings from 7 pm, so those evenings are the easiest for walking and framing. Check locally, as arrangements can change."
+   },
+   "access_note": "Open public street, free to walk. Vehicles still pass at times, so stay clear of the carriageway; check the official site before you go for current walking-street arrangements.",
+   "claims_not_in_sources": [
+    "The neon signs and street lighting are lit from dusk onwards, so the street looks best after dark.",
+    "The street is usually busiest in the late evening.",
+    "A bar balcony viewpoint may expect you to buy something; this varies by venue.",
+    "Phones should be held securely in a crowded street (general caution).",
+    "Night mode needs the subject to stay still for a moment to avoid blur (general phone behaviour)."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Bùi Viện Street",
+    "url": "https://en.wikipedia.org/wiki/B%C3%B9i_Vi%E1%BB%87n_Street"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "trungydang",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:B%C3%B9i_vi%E1%BB%87n_street-Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o,_Qu%E1%BA%ADn_1,_TPHCM,_Vi%E1%BB%87t_Nam_-_panoramio.jpg",
+   "from": "Wikidata Q11334291 main image"
+  }
+ },
+ {
+  "rank": 102,
+  "name": "Rex Hotel",
+  "in_cut": false,
+  "label": "Rex Hotel",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 4110,
+  "pin": [
+   106.7015,
+   10.77583333
+  ],
+  "camera": [
+   106.7015,
+   10.77583333
+  ],
+  "camera_source": "Researched viewpoint 'Nguyễn Huệ – Lê Thánh Tôn corner' (1 web pages); placed at crossing of Nguyễn Huệ and Lê Thánh Tôn (our map tiles).",
+  "pin_note": "Position from Wikidata Q7319215: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Famous hotel with a rooftop bar and crown sign.",
+  "text": {
+   "description": "The Rex Hotel is one of central Saigon's best-known buildings, and it photographs well because it sits right on a busy street corner, so you can see its whole shape at once. It stands at the corner of Lê Lợi Boulevard and Nguyễn Huệ Boulevard in District 1. It is a six-storey building with 286 rooms. The 1927 building began as a two-storey car showroom and garage for a French businessman, and it displayed Citroën and other European cars. It later became a hotel. During the Vietnam War it hosted the daily US military press briefings that journalists nicknamed \"The Five O'Clock Follies\", and its rooftop bar was a well-known meeting place for officials and war correspondents. It has carried the Rex name again since 1986.\n\nFrom there the hotel's corner façade and its signage sit against the street junction. Stand back a little and frame the full building rather than just the sign. Pedestrians and scooters passing through the foreground give the picture a sense of the city. If you want a second angle, Nguyễn Huệ Walking Street shows the frontage down the wide pedestrian boulevard, and Ho Chi Minh City Hall gives a more distant view of the hotel across the civic grounds.",
+   "geographic_location": "In District 1, the central district of Ho Chi Minh City, on the corner of Lê Lợi Boulevard and Nguyễn Huệ Boulevard. Lê Thánh Tôn Street also runs along the building.",
+   "directions_text": "No Underground, tram or railway stop is listed for this spot, so start from central District 1 and go to the Nguyễn Huệ and Lê Lợi boulevards, by taxi or hired scooter if you are coming from further away. From there the hotel is to the south-east, about 1 minute on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the building. If the whole façade will not fit, switch to ultra-wide (0.5x). Use telephoto (2x-5x, depending on your phone) for details such as the signage or the upper floors.",
+    "where_to_stand": "Stand at the corner of Nguyễn Huệ and Lê Thánh Tôn (corner facing the hotel's frontage). The hotel's corner façade and signage framed against the street junction, the classic full-building angle. Face south-east towards the hotel's corner frontage. From here your photo shows the corner façade and signage framed against the street junction, which is the full-building view. Check the exact corner on the map before you set off.",
+    "how_to_frame": "Turn on the gridlines and line the building's vertical edges up with them, so the walls do not lean. Leave some street in the foreground. If you want a second view, Nguyễn Huệ Walking Street shows the frontage down the boulevard with passers-by.",
+    "phone_settings_tip": "Tap the brightest part of the sky or the sign to set exposure, then slide the exposure control down slightly so the signage does not wash out. In the evening, use night mode and hold your phone against something steady, such as a wall or a post.",
+    "best_time": "Early morning is usually calmer for a clear view of the building. After dark, the lit-up signage gives a different mood, but the junction is busy then."
+   },
+   "access_note": "The façade can be photographed from the public street, but the hotel and its arcade are commercial premises, so check the official site before you go if you want to go inside."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Rex Hotel",
+    "url": "https://en.wikipedia.org/wiki/Rex_Hotel"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/102.jpg",
+   "artist": "Ngô Trung",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rex_Hotel.jpg",
+   "from": "Wikidata Q7319215 main image"
+  }
+ },
+ {
+  "rank": 103,
   "name": "Xá Lợi Pagoda",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Xa Loi Pagoda",
   "camera_pill": null,
   "nophone": true,
@@ -1033,7 +1033,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/103.jpg",
    "artist": "Phan Ba",
    "licence": "Public domain",
    "licence_url": "",
@@ -1042,9 +1042,9 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 104,
   "name": "Saigon Central Mosque",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Saigon Central Mosque",
   "camera_pill": null,
   "nophone": true,
@@ -1088,7 +1088,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/104.jpg",
    "artist": "Anilakeo",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
