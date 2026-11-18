@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "kualalumpur", "title": "Kuala Lumpur: 19 photo spots (pilot review)", "place": "Kuala Lumpur", "bounds": [101.675, 3.11, 101.722, 3.25], "center": [101.6985, 3.1799999999999997], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/kualalumpur/{z}/{x}/{y}.pbf", "tz": "Asia/Kuala_Lumpur", "rail": true, "app": true};
