@@ -3,7 +3,12 @@
 // 2. Gatekeeper (Stage 3, 2026-11-16; decision 3l): the map files of the Xdatrys Maps app (/app/m/...) are sent only to
 //    signed-in members and the owner; the review and correction maps (/review/...) only to the owner.
 //    Map tiles, the app's home screen, the library pages and everything else stay open.
+// 3. Pocket Lens issue pages (/issues/<date>, Ifan 2026-11-18): visitors and search engines get the short public version
+//    (_lib/issue_teaser.js); signed-in members and the owner get the full issue. The Pocket Lens project is not changed.
 import { who } from "./_lib/auth.js";
+import { teaserIssue } from "./_lib/issue_teaser.js";
+
+const ISSUE = /^\/issues\/\d{4}-\d{2}-\d{2}(\.html)?\/?$/;
 
 export async function onRequest(context) {
   const { request, env } = context;
@@ -13,6 +18,20 @@ export async function onRequest(context) {
     return Response.redirect(url.toString(), 301);
   }
   const p = url.pathname;
+  if (ISSUE.test(p)) {
+    const res = await context.next();
+    if (!res.ok || !(res.headers.get("content-type") || "").includes("text/html")) return res;
+    const w = await who(request, env);
+    if (w.role === "owner" || w.role === "member") {
+      const full = new Response(res.body, res);
+      full.headers.set("Cache-Control", "private, max-age=0, must-revalidate");
+      return full;
+    }
+    const out = new Response(teaserIssue(await res.text()), res);
+    out.headers.delete("content-length");
+    out.headers.set("Vary", "Cookie");
+    return out;
+  }
   const app = p.startsWith("/app/m/"), review = p.startsWith("/review/");
   if (!app && !review) return context.next();
   const w = await who(request, env);
