@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "jakarta", "title": "Jakarta: 14 photo spots (pilot review)", "place": "Jakarta", "bounds": [106.785, -6.235, 106.855, -6.105], "center": [106.82, -6.17], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/jakarta/{z}/{x}/{y}.pbf"};
