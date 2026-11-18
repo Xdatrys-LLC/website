@@ -1,0 +1,327 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>San Francisco Attractions Map: 20 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A San Francisco tourist map of 20 top photo spots, including Golden Gate Bridge and Alcatraz Island. Where to stand, phone tips, directions. First 3 free.">
+<meta name="keywords" content="things to do in san francisco, san francisco attractions, san francisco tourist map, best views in san francisco, map of san francisco attractions, best photo spots in san francisco, golden gate bridge, alcatraz, fisherman&#39;s wharf">
+<link rel="canonical" href="https://xdatrys.com/library/sanfrancisco/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="San Francisco Attractions Map: 20 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A San Francisco tourist map of 20 top photo spots, including Golden Gate Bridge and Alcatraz Island. Where to stand, phone tips, directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/sanfrancisco/">
+<meta property="og:image" content="https://xdatrys.com/library/sanfrancisco/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="375">
+<meta property="og:image:alt" content="Golden Gate Bridge, San Francisco: a suspension bridge across the Golden Gate. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/sanfrancisco/","url":"https://xdatrys.com/library/sanfrancisco/","name":"San Francisco Attractions Map: 20 Best Photo Spots | Xdatrys","description":"A San Francisco tourist map of 20 top photo spots, including Golden Gate Bridge and Alcatraz Island. Where to stand, phone tips, directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/sanfrancisco/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"San Francisco"},"mainEntity":{"@type":"ItemList","name":"San Francisco photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Golden Gate Bridge","description":"The Golden Gate Bridge is a suspension bridge across the Golden Gate, the strait about a mile wide where San Francisco Bay meets the Pacific.","geo":{"@type":"GeoCoordinates","latitude":37.8197222,"longitude":-122.4786111},"alternateName":["San Francisco Golden Gate Bridge"],"image":"https://xdatrys.com/library/sanfrancisco/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Alcatraz Island","description":"Alcatraz is a small, flat-topped rock about 1.25 miles offshore in San Francisco Bay, and it is one of the most recognisable shapes on the water.","geo":{"@type":"GeoCoordinates","latitude":37.8267291,"longitude":-122.4230036},"alternateName":["San Francisco Alcatraz","Alcatraz"],"image":"https://xdatrys.com/library/sanfrancisco/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Fisherman's Wharf","description":"Fisherman's Wharf is the busy stretch of San Francisco's northern waterfront.","geo":{"@type":"GeoCoordinates","latitude":37.8081325,"longitude":-122.4165913},"alternateName":["San Francisco Fisherman's Wharf"],"image":"https://xdatrys.com/library/sanfrancisco/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/sanfrancisco/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"San Francisco","item":"https://xdatrys.com/library/sanfrancisco/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in San Francisco?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Golden Gate Bridge, Alcatraz Island and Fisherman's Wharf. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph the Golden Gate Bridge?","acceptedAnswer":{"@type":"Answer","text":"Stand on Battery Spencer (Marin Headlands side, on the north end of the bridge, reached from Conzelman Road). Start with the ultra-wide (0.5x) to fit the tower, the span and the city behind in one frame."}},{"@type":"Question","name":"When is the best time to photograph Alcatraz Island?","acceptedAnswer":{"@type":"Answer","text":"Golden hour or early morning gives the warmest light. Midday in summer can look harsh."}},{"@type":"Question","name":"How do I get to Fisherman's Wharf?","acceptedAnswer":{"@type":"Answer","text":"The Powell / Hyde cable car line ends at Aquatic Park, on the western side of the Wharf."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#newsletter">Newsletter</a></li>
+      <li><a href="/#membership">Membership</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/#newsletter">Newsletter</a></li>
+    <li><a href="/#membership">Membership</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › San Francisco</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/sanfrancisco/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in San Francisco: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/sanfrancisco/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in San Francisco"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in San Francisco as photo spots, ranked by how often people search for them: Golden Gate Bridge, Alcatraz Island, Fisherman&#39;s Wharf, Lombard Street and Ghirardelli Square lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Golden Gate Bridge</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Golden Gate Bridge, San Francisco: a suspension bridge across the Golden Gate. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Rich Niewiroski Jr., <a href="https://creativecommons.org/licenses/by/2.5" target="_blank" rel="noopener license">CC BY 2.5</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Golden Gate Bridge is a suspension bridge across the Golden Gate, the strait about a mile wide where San Francisco Bay meets the Pacific. It opened on 27 May 1937 and carries road traffic as well as people on foot and on bikes. Back then it was the longest and tallest suspension bridge in the world. The main span is 1,280 m, and the total height is 227 m. A travel guide has called it the most photographed bridge in the world, and guides call the view from Battery Spencer, on the Marin Headlands side at the north end of the bridge, the classic postcard view. From up here you look at the bridge nearly side-on and from above, with the north tower close by and San Francisco and the bay behind it. That layering of tower, span, water and city is why the view works so well on a phone. It is free, and the views are wide and open. If you want a second angle, Golden Gate Overlook shows the bridge head-on between two cypress trees, and Baker Beach shows it from the ocean side. Fog can hide the bridge completely, so check conditions before you set off.</p>
+    <p><b>Where it is:</b> The bridge links San Francisco, at the northern tip of the San Francisco Peninsula, to Marin County across the Golden Gate strait. The viewpoint is on the Marin Headlands side, at the north end of the bridge, looking back towards the city.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the tower, the span and the city behind in one frame. Then try the default lens (1x) for a cleaner, more natural view. If your phone has telephoto (2x-5x), use it to pick out the north tower or to bring the city skyline closer to the bridge.</p>
+      <p><b>Where to stand:</b> Stand on Battery Spencer (Marin Headlands side, on the north end of the bridge, reached from Conzelman Road). The bridge seen nearly side-on from above, with the north tower close and San Francisco and the bay behind it. The bridge lies to the south of you, seen nearly side-on from above, with the north tower close and San Francisco and the bay beyond. Stay behind any barriers and keep clear of the road.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line a tower up with a vertical line so the bridge doesn&#39;t look tilted. Let the span run diagonally across the frame, with the city in the gap behind it. Keep a bit of the headland in a corner to give a sense of height. For a different angle, Golden Gate Overlook gives a head-on view between two cypress trees.</p>
+      <p><b>Settings tip:</b> Tap on the bridge to set focus, then slide the exposure down a little so the sky and the paint keep their detail. If fog is rolling through, take a Live Photo and pick the best moment afterwards. Wipe the lens before you start, as sea air can leave it smeary.</p>
+      <p><b>Best time:</b> Sunrise or early morning, or sunset, when fog or soft light makes the bridge stand out.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Alcatraz Island</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Alcatraz_Island_as_seen_from_the_East.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Alcatraz Island, San Francisco: a small, flat-topped rock about 1.25 miles offshore. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Frank Schulenburg, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Alcatraz is a small, flat-topped rock about 1.25 miles offshore in San Francisco Bay, and it is one of the most recognisable shapes on the water. It began as a lighthouse site and a military fort, and from 1934 it was a federal prison. The prison closed on 21 March 1963. Today the island is run by the National Park Service and is a National Historic Landmark. It still has the oldest operating lighthouse on the West Coast, and nearly 1.4 million people visit each year. The island is only a little over 500 metres long, so from the mainland it reads as a compact shape sitting on open water. That makes it easy to frame cleanly, with the sky and bay around it. The best-placed view is from Pier 39. Walk out to the far, back side, past the sea lions, where the angle is most open and the island sits centred across the water. Zoom in rather than shooting wide, because the island looks tiny at normal zoom. Fog can hide it completely, so have a look at the bay before you walk all the way out. If you want a wider view that includes the Golden Gate Bridge, try Marina Green instead.</p>
+    <p><b>Where it is:</b> Alcatraz Island sits in San Francisco Bay, north of the city&#39;s waterfront and close to the Golden Gate strait.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the telephoto lens at 2x to 3x, whichever your phone offers. The default lens (1x) leaves the island small in a big empty frame, and the ultra-wide (0.5x) makes it smaller still.</p>
+      <p><b>Where to stand:</b> Stand on Pier 39 (far (back) side of the pier, past the sea lions). Alcatraz sits centered across open water, with the bay and sky spread behind it, shot best with a 2x to 3x phone zoom or a longer lens. At the far (back) side of the pier, past the sea lions. From there Alcatraz sits centred across open water, with the bay and sky behind it. Face north-west.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the island on the centre or lower-third line, with plenty of sky above. Keep the horizon level. Zoom in until the island fills a good part of the frame without the edges looking cramped. If you want a wider view, Marina Green shows the island with the Golden Gate Bridge and Angel Island in the same scene.</p>
+      <p><b>Settings tip:</b> Tap the island to focus, then drag the exposure slider down a little so the sky keeps its colour and the island does not wash out. Hold the phone steady against a rail or your body at 2x to 3x to avoid blur.</p>
+      <p><b>Best time:</b> Golden hour or early morning gives the warmest light. Midday in summer can look harsh. Fog can hide the island at any time, so be ready to try again.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Fisherman&#39;s Wharf</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Fishermans_Wharf_Sign,_SF,_CA,_jjron_25.03.2012.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Fisherman&#39;s Wharf, San Francisco: the busy stretch of San Francisco&#39;s northern waterfront. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: jjron, <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" target="_blank" rel="noopener license">GFDL 1.2</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Fisherman&#39;s Wharf is the busy stretch of San Francisco&#39;s northern waterfront. It began as a working fishing port, and in 1900 the state set this shoreline aside for commercial fishing boats. The fishing docks declined in the 1960s and 1970s as tourism took over, but a few old family-run seafood restaurants are still here. For a phone camera, the best frame is not one single landmark. It is the mix of historic ships, the bay and the waterfront buildings. From here you can look southwest towards Ghirardelli Square and the waterfront, with the old ships moored close by. Across the water you can also pick out the Golden Gate Bridge. The main tourist strip of the Wharf, along Jefferson Street, lies to the east. Pier 39, with its sea lion colony, is further along the same waterfront. The pier has been reported closed for renovation, so check its status before you go. If the entrance is closed, the lettered Fisherman&#39;s Wharf sign or Aquatic Park both make good alternatives. Aquatic Park has a sheltered cove, a curved pier and a Streamline Moderne bathhouse, with the bay beyond.</p>
+    <p><b>Where it is:</b> Fisherman&#39;s Wharf is on San Francisco&#39;s northern waterfront, north of Russian Hill, North Beach and Telegraph Hill.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the view towards Ghirardelli Square and the waterfront. Switch to ultra-wide (0.5x) to fit in the ships&#39; masts and rigging. Use the telephoto lens (2x-5x, depending on your phone) to pick out the Golden Gate Bridge across the water.</p>
+      <p><b>Where to stand:</b> Stand on Hyde Street Pier (pier entrance, looking southwest). Ghirardelli Square and the waterfront from the pier entrance, with the historic ships of the maritime park nearby. At the pier entrance, looking southwest. From here your photo takes in Ghirardelli Square and the waterfront, with the historic ships of the maritime park close by. The main Wharf is to the east.</p>
+      <p><b>Framing:</b> Turn on gridlines and put the waterfront along the top third of the frame. Keep a ship&#39;s hull or rigging in the foreground for depth. Turn to the water for a second shot of the Golden Gate Bridge. For a different view, Aquatic Park gives a calm cove with the curved pier and bathhouse in the foreground. The Fisherman&#39;s Wharf sign gives a street-level shot with the busy Wharf behind it.</p>
+      <p><b>Settings tip:</b> Tap on the ships to set focus, then slide the exposure down a little so the sky and water keep their colour. Wipe the lens first, as sea air can leave a film on it.</p>
+      <p><b>Best time:</b> Late afternoon usually gives softer, warmer light on the waterfront. Early morning is typically quieter if you want the ships without people.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Lombard Street <small>· members</small></li>
+    <li><span class="n">5</span>Ghirardelli Square <small>· members</small></li>
+    <li><span class="n">6</span>Pier 39 <small>· members</small></li>
+    <li><span class="n">7</span>Oracle Park <small>· members</small></li>
+    <li><span class="n">8</span>Palace of Fine Arts <small>· members</small></li>
+    <li><span class="n">9</span>Bay Bridge <small>· members</small></li>
+    <li><span class="n">10</span>Coit Tower <small>· members</small></li>
+    <li><span class="n">11</span>Dragon Gate <small>· members</small></li>
+    <li><span class="n">12</span>Transamerica Pyramid <small>· members</small></li>
+    <li><span class="n">13</span>Union Square <small>· members</small></li>
+    <li><span class="n">14</span>Japanese Tea Garden <small>· members</small></li>
+    <li><span class="n">15</span>Fort Point <small>· members</small></li>
+    <li><span class="n">16</span>Twin Peaks <small>· members</small></li>
+    <li><span class="n">17</span>Grace Cathedral <small>· members</small></li>
+    <li><span class="n">18</span>Painted Ladies <small>· members</small></li>
+    <li><span class="n">19</span>Conservatory of Flowers <small>· members</small></li>
+    <li><span class="n">20</span>Ferry Building <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in San Francisco?</summary><p>The first three on this map are Golden Gate Bridge, Alcatraz Island and Fisherman&#39;s Wharf. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the Golden Gate Bridge?</summary><p>Stand on Battery Spencer (Marin Headlands side, on the north end of the bridge, reached from Conzelman Road). Start with the ultra-wide (0.5x) to fit the tower, the span and the city behind in one frame.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Alcatraz Island?</summary><p>Golden hour or early morning gives the warmest light. Midday in summer can look harsh.</p></details>
+  <details class="faq"><summary>How do I get to Fisherman&#39;s Wharf?</summary><p>The Powell / Hyde cable car line ends at Aquatic Park, on the western side of the Wharf.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Golden_Gate_Bridge" target="_blank" rel="noopener">Golden Gate Bridge</a>, <a href="https://en.wikipedia.org/wiki/Alcatraz_Island" target="_blank" rel="noopener">Alcatraz Island</a>, <a href="https://en.wikipedia.org/wiki/Fisherman%27s_Wharf%2C_San_Francisco" target="_blank" rel="noopener">Fisherman&#39;s Wharf, San Francisco</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"sanfrancisco","place":"San Francisco","bounds":[-122.485,37.75,-122.378,37.83],"center":[-122.4315,37.79],"english":false,"vatican":false,"tiles":"/r2tiles/sanfrancisco/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

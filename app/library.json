@@ -896,6 +896,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "sanfrancisco",
+  "place": "San Francisco",
+  "country": "United States",
+  "spots": 20,
+  "mb": 15.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "sanjose",
   "place": "San José",
   "country": "Costa Rica",

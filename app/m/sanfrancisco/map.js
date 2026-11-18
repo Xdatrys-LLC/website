@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "sanfrancisco", "title": "San Francisco: 20 photo spots (pilot review)", "place": "San Francisco", "bounds": [-122.485, 37.75, -122.378, 37.83], "center": [-122.4315, 37.79], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/sanfrancisco/{z}/{x}/{y}.pbf", "tz": "America/Los_Angeles", "rail": true, "app": true};

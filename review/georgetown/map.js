@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "georgetown", "title": "George Town: 17 photo spots (pilot review)", "place": "George Town", "bounds": [100.324, 5.408, 100.349, 5.427], "center": [100.3365, 5.4175], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/georgetown/{z}/{x}/{y}.pbf"};
