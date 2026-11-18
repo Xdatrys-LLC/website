@@ -32,6 +32,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "antigua",
+  "place": "Antigua",
+  "country": "Antigua and Barbuda",
+  "spots": 11,
+  "mb": 4.8,
+  "photo": null
+ },
+ {
   "key": "athens",
   "place": "Athens",
   "country": "Greece",
