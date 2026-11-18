@@ -1176,6 +1176,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "shenzhen",
+  "place": "Shenzhen",
+  "country": "China",
+  "spots": 15,
+  "mb": 11.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "singapore",
   "place": "Singapore",
   "country": "Singapore",
