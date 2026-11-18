@@ -90,8 +90,8 @@ section+section{border-top:1px solid rgba(255,255,255,.07)}
 @media(min-width:980px){.grid{grid-template-columns:1fr 1fr 1fr}}
 .mapcard{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;text-decoration:none;color:#fff;transition:border-color .2s,transform .2s}
 .mapcard:hover{border-color:var(--cyan);transform:translateY(-2px)}
-.mapcard .top{position:relative;height:96px;background:#16202b;overflow:hidden}
-.mapcard .top svg{position:absolute;inset:0;width:100%;height:100%}
+.mapcard .top{position:relative;height:150px;background:#16202b;overflow:hidden}
+.mapcard .top svg,.mapcard .top img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .mapcard .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
 .mapcard h3{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;line-height:1.2}
 .mapcard .meta{font-size:12px;color:var(--dimmer);font-weight:600;letter-spacing:.5px;text-transform:uppercase}
@@ -310,42 +310,9 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
       <p class="lead">Open a map on your phone before you go, or once you arrive.</p>
       <figure>
         <div class="illus">
-          <svg viewBox="0 0 460 240" role="img" aria-labelledby="illusT illusD">
-            <title id="illusT">The Xdatrys pin and phone icons</title>
-            <desc id="illusD">A small street map. A magenta numbered pin marks the subject. A cyan phone icon marks where to stand, with a dashed cyan arrow pointing from the phone to the pin.</desc>
-            <!-- simple base map -->
-            <rect width="460" height="240" fill="#f2efe9"/>
-            <path d="M0 170 C 120 150, 240 200, 460 160 L460 240 L0 240Z" fill="#aad3df"/>
-            <rect x="40" y="30" width="110" height="70" rx="3" fill="#d9d0c9" stroke="#b3aaa8"/>
-            <rect x="300" y="22" width="120" height="58" rx="3" fill="#d9d0c9" stroke="#b3aaa8"/>
-            <rect x="190" y="40" width="70" height="44" rx="3" fill="#c8facc"/>
-            <path d="M0 120 L460 112" stroke="#fff" stroke-width="12"/>
-            <path d="M170 0 L180 150" stroke="#fff" stroke-width="10"/>
-            <path d="M280 0 L285 150" stroke="#fff" stroke-width="8"/>
-            <!-- dashed arrow phone -> pin -->
-            <path d="M120 150 L 318 78" stroke="#00A8CC" stroke-width="4" stroke-dasharray="10 7" fill="none"/>
-            <path d="M318 78 l-16 -1 l7 12 z" fill="#00A8CC" transform="rotate(-5 318 78)"/>
-            <!-- magenta teardrop pin, tip at (340,96) -->
-            <g transform="translate(340 96)">
-              <path d="M0 0 L-13 -30 A24 24 0 1 1 13 -30 Z" fill="#E100FF" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
-              <text x="0" y="-41" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="800" font-size="20" fill="#000">1</text>
-            </g>
-            <!-- cyan phone with tail, tail tip at (104,196) -->
-            <g transform="translate(104 196)">
-              <path d="M0 0 L-9 -22 L9 -22 Z" fill="#00D4FF" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
-              <rect x="-17" y="-78" width="34" height="56" rx="7" fill="#00D4FF" stroke="#fff" stroke-width="3"/>
-              <circle cx="0" cy="-54" r="10" fill="#fff"/>
-              <circle cx="0" cy="-54" r="6" fill="#00D4FF"/>
-              <circle cx="0" cy="-54" r="2.6" fill="#fff"/>
-            </g>
-            <!-- labels -->
-            <rect x="268" y="112" width="132" height="24" rx="12" fill="#E100FF"/>
-            <text x="334" y="129" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="12" fill="#000">The subject</text>
-            <rect x="130" y="196" width="122" height="24" rx="12" fill="#00D4FF"/>
-            <text x="191" y="213" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="12" fill="#000">Stand here</text>
-          </svg>
+          <img src="/img/home/hero.jpg" width="460" height="240" style="display:block;width:100%;height:auto" alt="Map of Shibuya, Tokyo: a magenta pin marks Shibuya Crossing, the subject; a cyan phone icon marks where to stand, with a dashed cyan arrow pointing from the phone to the pin.">
         </div>
-        <figcaption class="illus-cap">Illustration only. On a real map the pin label shows the spot's name and the phone label names the street or square where you stand.</figcaption>
+        <figcaption class="illus-cap">Shibuya Crossing, from our Tokyo map. On the map itself the pin label shows the spot's name and the phone label names the street or square where you stand.</figcaption>
       </figure>
     </div>
     <ol class="steps" style="list-style:none">
@@ -606,18 +573,10 @@ function esc(s){return s.replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"
 function url(m){return "/library/"+m.slug+"/";}
 
 /* decorative card header: soft street pattern plus a pin and phone, varied per map */
-function cardArt(i){
-  var w=[[30,60],[60,20],[45,75],[70,40],[25,30],[55,65]][i%6];
-  return '<svg viewBox="0 0 300 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">'+
-    '<rect width="300" height="96" fill="#1b2633"/>'+
-    '<path d="M0 '+(40+w[0]/3)+' L300 '+(30+w[1]/3)+'" stroke="#2c3c4e" stroke-width="9"/>'+
-    '<path d="M'+(80+w[0])+' 0 L'+(70+w[1])+' 96" stroke="#2c3c4e" stroke-width="7"/>'+
-    '<path d="M'+(190+w[1]/2)+' 0 L'+(200+w[0]/2)+' 96" stroke="#2c3c4e" stroke-width="5"/>'+
-    '<path d="M0 88 C80 '+(70+w[0]/4)+' 180 96 300 '+(74+w[1]/5)+' L300 96 L0 96Z" fill="#1e3a4f"/>'+
-    '<path d="M'+(95+w[0])+' 70 L'+(205+w[1]/2)+' 44" stroke="#00D4FF" stroke-width="2.5" stroke-dasharray="6 5"/>'+
-    '<g transform="translate('+(215+w[1]/2)+' 52)"><path d="M0 0 L-7 -16 A13 13 0 1 1 7 -16 Z" fill="#E100FF" stroke="#fff" stroke-width="2"/></g>'+
-    '<g transform="translate('+(90+w[0])+' 82)"><path d="M0 0 L-5 -12 L5 -12Z" fill="#00D4FF" stroke="#fff" stroke-width="1.5"/><rect x="-9" y="-42" width="18" height="30" rx="4" fill="#00D4FF" stroke="#fff" stroke-width="2"/><circle cx="0" cy="-29" r="5" fill="#fff"/><circle cx="0" cy="-29" r="2.6" fill="#00D4FF"/></g>'+
-    '</svg>';
+var SNAPS = ["amsterdam", "barcelona", "paris", "rome", "singapore", "tokyo"];
+function cardArt(i, slug, name){
+  if (SNAPS.indexOf(slug) >= 0) return '<img src="/img/home/' + slug + '.jpg" width="380" height="150" loading="lazy" alt="Map of ' + esc(name) + ' with its 3 free photo spots">';
+  return '';
 }
 
 function renderFeatured(){
@@ -626,7 +585,7 @@ function renderFeatured(){
     var m=MAPS.filter(function(x){return x.slug===slug;})[0]; if(!m) return;
     var more=m.spots-3;
     html+='<a class="mapcard" href="'+url(m)+'" aria-label="'+esc(m.name)+' photo spots map: '+m.spots+' spots, 3 free">'+
-      '<div class="top">'+cardArt(i)+'</div><div class="body">'+
+      '<div class="top">'+cardArt(i,m.slug,m.name)+'</div><div class="body">'+
       '<div class="meta">'+esc(m.country)+' · '+m.spots+' photo spots</div>'+
       '<h3>'+esc(m.name)+'</h3>'+
       '<ul class="spots">'+m.top.map(function(t,k){return '<li><span class="num" aria-hidden="true">'+(k+1)+'</span><span>'+esc(t)+'</span></li>';}).join("")+'</ul>'+

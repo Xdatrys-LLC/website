@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "sydney", "title": "Sydney: 20 photo spots (pilot review)", "place": "Sydney", "bounds": [151.185, -33.885, 151.232, -33.842], "center": [151.20850000000002, -33.8635], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/sydney/{z}/{x}/{y}.pbf"};
