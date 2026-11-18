@@ -1,0 +1,403 @@
+{
+ "Railay Beach": {
+  "rank": 1,
+  "card": {
+   "hook": "You can't drive to Railay. You need a boat, and that's the first sign you're in for a good day. Then you step onto Ao Phra Nang and get pale sand, calm water, a tall cliff and a little island, all in one shot.",
+   "stand_here": "Stand mid-beach on the sand at Ao Phra Nang (Phra Nang Beach). Face the limestone cliffs and the little island, Ko Rang Nok, just offshore.",
+   "zoom": "Start at zoom 0.5x to fit the cliffs, sand and sea in together. Switch to 1x for a more natural look, then try 2x or 5x (depending on your phone) to pick out Ko Rang Nok or a passing longtail boat.",
+   "make_it_pop": "Turn on your gridlines and put the horizon on a lower line so the cliffs fill the top of the frame.",
+   "best_time": "Go before 9 AM if you can. The light reaches the cliffs by then and the beach is much quieter.",
+   "selfie_here": "For a big-view selfie, try the Bat Cave photo ledge above Phra Nang Cave Beach. Use the front camera at 0.5x and the whole bay stretches out behind you. You get there by a bamboo ladder and a dark cave opening, so it's not a casual stroll.",
+   "ask_someone": "Ask a passer-by to stand on the sand facing the huge overhanging cliff at the south end of Phra Nang Beach, so the cliff and beach fit in one frame, and you stand in front of it.",
+   "rules_and_safety": "The Bat Cave and Railay Viewpoint climbs are steep and slippery, and guides say they become dangerous after rain, so wear proper footwear and skip the Viewpoint hike during or right after rain. Selfie sticks are listed as allowed on the beach, but that info is a few years old, so check locally.",
+   "challenge": "Snap a longtail boat gliding past with your horizon sitting neatly on a gridline. Bonus points if you get Ko Rang Nok in the same shot.",
+   "good_to_know": "Railay is a small peninsula cut off from the mainland by high limestone cliffs, which is why you can only reach it by boat. Its cliffs draw rock climbers from around the world, and it has been a popular Krabi beach destination since tourism began there in the 1970s. Ao Phra Nang is one of four main areas, alongside West Railay, East Railay and Ton Sai.",
+   "stand_here_before_gps_rule": "Stand mid-beach on the sand at Ao Phra Nang (Phra Nang Beach). Face the limestone cliffs and the little island, Ko Rang Nok, just offshore."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Bat Cave photo ledge, Railay (Phra Nang Bat Cave)",
+     "detail": "on the rock ledge reached by a bamboo ladder and a dark cave opening, looking out over Phra Nang Cave Beach",
+     "why": "From this high ledge the beach stretches away behind you, so the whole bay can sit in the background of a selfie.",
+     "sources": [
+      {
+       "title": "Railay Krabi: The Travel Guide to Thailand's Limestone Cliffs, Beaches & Adventure Escape",
+       "url": "https://www.hashcorner.com/en/travel/thailand/krabi/railay/"
+      },
+      {
+       "title": "[2026 Krabi Attraction] Railay Beach Travel Guide & Travel Experiences",
+       "url": "https://www.trip.com/moments/poi-railay-beach-86119/"
+      }
+     ]
+    },
+    {
+     "name": "Tew Lay Bar tree platform",
+     "detail": "on the wooden sitting area built on the branch that reaches out over the sea from Tew Lay Bar",
+     "why": "The bar's signature branch platform puts the sea and the surrounding Railay scenery behind you, and many visitors go up for a pose.",
+     "sources": [
+      {
+       "title": "Railay Krabi: The Travel Guide to Thailand's Limestone Cliffs, Beaches & Adventure Escape",
+       "url": "https://www.hashcorner.com/en/travel/thailand/krabi/railay/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Phra Nang Beach, on the sand in front of the overhanging cliff at the south end",
+    "detail": "stand on the beach facing the huge overhanging limestone cliff hung with stalactites at the southern end of Phra Nang Beach, so the cliff and beach fit into one frame",
+    "sources": [
+     {
+      "title": "Railay Beach: Krabi's Most Spectacular Beach",
+      "url": "https://mybestplacestovisit.com/asia/thailand/krabi-koh-phi-phi-koh-lanta/railay-beach/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are allowed for photography on Railay Beach.",
+     "sources": [
+      {
+       "title": "Railay Beach, Krabi, Thailand - Photos, Map & Tips For 2026",
+       "url": "https://foreverbreak.com/travel/thailand/krabi/railay-beach/"
+      }
+     ]
+    },
+    {
+     "rule": "Selfie sticks are listed as allowed on Railay Beach.",
+     "sources": [
+      {
+       "title": "Railay Beach, Krabi, Thailand - Photos, Map & Tips For 2026",
+       "url": "https://foreverbreak.com/travel/thailand/krabi/railay-beach/"
+      }
+     ]
+    }
+   ],
+   "safety": "Avoid attempting the Railay Viewpoint hike during or immediately after rain, because the rocks become very slippery and dangerous.",
+   "notes": "The rules come from a single travel page whose metadata is dated roughly seven years ago, so confirm before relying on it. The Bat Cave and Tew Lay Bar spots come from one blog each. The Phra Nang ask-someone spot is from one guide. I could not confirm that any named spot matches the position 8.01056, 98.83944 on a map. Tew Lay Bar is a commercial bar, and the page does not say whether the platform is open to non-customers."
+  },
+  "cost_usd": 0.0621,
+  "at": "2026-11-17 22:59"
+ },
+ "Ao Nang": {
+  "rank": 2,
+  "card": {
+   "hook": "Down on the sand, Ao Nang is just a beach. From up here it's the whole show at once, with limestone mountains behind and the sea and beaches stacked in layers below.",
+   "stand_here": "Stand at Ao Nang Viewpoint, the roadside lookout on the road between Ao Nang and Nopparat Thara, about 500 m before Nopparat Thara. There's roadside parking, so face out over the Ao Nang area below.",
+   "zoom": "Start at zoom 0.5x to squeeze in the mountains, beaches and sea together. Then try 1x for a calmer, more natural look. Zoom 2x to 5x (depending on your phone) picks out the limestone peaks or the boats on the water.",
+   "make_it_pop": "Turn on gridlines and put the horizon on the upper or lower line, then tap the sky and slide it a little darker so the sunset colours stay rich.",
+   "best_time": "Sunset, roughly 5:30 to 6:30 p.m., is the time to aim for. Get there a bit early to claim a spot and take a few frames as the light changes.",
+   "selfie_here": "For the classic Krabi shot, head to the big rocks at the south end of Ao Nang Beach and pose on the boulders with the limestone mountain rising behind you. Go at 6:30-7:30 a.m. or at sunset, use the front camera at 0.5x, and keep the mountain over your shoulder. The steel sailfish statue on the beach promenade, facing the sea, makes a good second selfie backdrop.",
+   "ask_someone": "Ask a passer-by in the roadside parking area to stand on the roadside side, while you stand at the edge with the town and bay spread out below you.",
+   "rules_and_safety": "Pull over only where it is safe, and respect private property. Check access to the viewpoint locally before you set out.",
+   "challenge": "Zoom in and spot a long-tail boat crossing the water far below. Bonus points if you can follow it for a few seconds.",
+   "good_to_know": "Ao Nang is one of the ten subdistricts of Mueang Krabi District. Its main street is packed with restaurants, pubs and shops aimed at tourists. Long-tail boats run from the main beach to other beaches and nearby islands, and the viewpoint is described as free to visit.",
+   "stand_here_before_gps_rule": "Stand at Ao Nang Viewpoint, the roadside lookout on the road between Ao Nang and Nopparat Thara, about 500 m before Nopparat Thara. There's roadside parking, so face out over the Ao Nang area below."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Big rocks at the south end of Ao Nang Beach",
+     "detail": "on the boulders at the southern end of the beach",
+     "why": "A Ao Nang guide calls this the classic Krabi shot, with the limestone mountain rising behind the rocks, and recommends going at 6:30-7:30 a.m. or at sunset.",
+     "sources": [
+      {
+       "title": "10 Must-Visit Spots in Ao Nang: Cafes, Photo Locations, More (Railay Eco Tour blog)",
+       "url": "https://www.railayecotour.com/en/blog/ao-nang-checkin-spots"
+      }
+     ]
+    },
+    {
+     "name": "Sailfish Sculpture on the Ao Nang Beach waterfront promenade",
+     "detail": "beside the steel sailfish statue on the main promenade, facing the sea",
+     "why": "The 10-metre sailfish sculpture is a recognised local landmark, and one reviewer says it looks striking against the sea and evening sky.",
+     "sources": [
+      {
+       "title": "Best photo spots in Ao Nang (Wanderlog list)",
+       "url": "https://wanderlog.com/list/geoCategory/161901/best-photo-spots-in-ao-nang"
+      },
+      {
+       "title": "Ao Nang Beach, Krabi, Thailand - 32 Things To Do + Photos (CK Travels)",
+       "url": "https://www.cktravels.com/things-to-do-ao-nang-beach-krabi-thailand/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Ao Nang Viewpoint, roadside parking area",
+    "detail": "on the road between Ao Nang and Nopparat Thara, about 500 m before Nopparat Thara, where a roadside parking area sits; the visitor stands at the edge with the town and bay spread out below",
+    "sources": [
+     {
+      "title": "10 Must-Visit Spots in Ao Nang: Cafes, Photo Locations, More (Railay Eco Tour blog)",
+      "url": "https://www.railayecotour.com/en/blog/ao-nang-checkin-spots"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Pull over on the inland limestone back roads only where it is safe, and stay respectful of private property.",
+   "notes": "Ao Nang is a whole town and bay rather than a single landmark, so 'landmark behind' is my interpretation: the sources describe the mountain or sea behind the spots rather than Ao Nang town itself. The passer-by spot is inferred from a viewpoint that overlooks the whole Ao Nang area, so the town would appear behind the visitor only if the photographer stands on the roadside side of the viewpoint. No source I found states rules on selfie sticks or tripods. Coordinates given in the request were not checked against the pages; the Sailfish detail (sculpture on the promenade) is confirmed by several pages, but no source gives the exact spot on the promenade."
+  },
+  "cost_usd": 0.0484,
+  "at": "2026-11-17 22:59"
+ },
+ "Tiger Cave Temple": {
+  "rank": 3,
+  "card": {
+   "hook": "A monkey strolls through your photo like it's got a reservation, and a 1,260-step staircase waits behind it. Welcome to Tiger Cave Temple, where the backdrop does half the work for you.",
+   "stand_here": "At Tiger Cave Temple (Wat Tham Suea), stand about 90 m north-west of the subject, at the phone icon on the map, and face south-east towards the temple. Take your first frames here before you walk on.",
+   "zoom": "Start at 1x for the temple buildings and statues, then try 0.5x to fit in the mountains, trees and buildings together. Use 2x to 5x (depending on your phone) for details, and for monkeys from a safe distance.",
+   "make_it_pop": "Tap the golden statue, then slide the brightness a little darker so the gold keeps its detail.",
+   "best_time": "Early morning is a sensible choice, since the climb is likely cooler and the crowds smaller. If you reach the north-west stupa at the summit early, you may get a warm golden-hour glow. Check the official site for current opening arrangements.",
+   "selfie_here": "At the top of the stairs, stand beside the giant golden Buddha with the valley and Krabi view behind it. Use the front camera at 0.5x and tilt up slightly so Buddha and view both squeeze in. The north-west stupa at the summit is another early-light spot, so check both on arrival.",
+   "ask_someone": "At the foot of the stairway, stand by the start-of-steps sign with the stairs rising behind you, and ask a passer-by to shoot so the staircase and temple both fit in the frame.",
+   "rules_and_safety": "Photography is allowed, but respect any signs that prohibit photos in certain areas. Dress modestly, covering knees and shoulders, and take your shoes off before stepping onto the tiled temple area at the summit. Monkeys are around the grounds, so don't feed or approach them, as they can be unpredictable.",
+   "challenge": "Get one shot of the stairs with a monkey in the frame (a safe distance away, please) and one of you looking suitably triumphant at the top.",
+   "good_to_know": "The temple dates back to 1975, when a monk went to meditate in the cave and saw tigers roaming around it. That's how the place got its name, and the cave is known for its tiger paw prints. The stairway has 1,260 steps up to 278 metres, and some risers are over 30 cm high, so stop and shoot on the way up rather than saving it all for the top.",
+   "stand_here_before_gps_rule": "At Tiger Cave Temple (Wat Tham Suea), stand about 90 m north-west of the subject, at the phone icon on the map, and face south-east towards the temple. Take your first frames here before you walk on."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Summit area beside the giant golden Buddha (Tiger Cave Temple top)",
+     "detail": "at the top of the stairs, standing beside the golden Buddha with the valley and Krabi view behind the Buddha",
+     "why": "Visitors who reach the summit pose beside the golden Buddha, and the view spreads out past it.",
+     "sources": [
+      {
+       "title": "Tiger Cave Temple: 10 Things I Wish I Knew Before Visiting (2026 Guide) - Be Free and Travel",
+       "url": "https://befreeandtravel.com/tiger-cave-temple-krabi/"
+      },
+      {
+       "title": "Tiger Cave Temple - Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Tiger_Cave_Temple"
+      }
+     ]
+    },
+    {
+     "name": "North-west stupa on the summit",
+     "detail": "the north-west stupa at the summit, used early in the morning",
+     "why": "A guide recommends this summit position for the best early light, so a selfie here has the golden hour glow.",
+     "sources": [
+      {
+       "title": "Tiger Cave Temple Wat Tham Suea in Krabi: Highlights & Hacks - 2026 Pack Lightly",
+       "url": "https://pack-lightly.com/thailand/krabi/tiger-cave-temple/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Foot of the stairway, by the start-of-steps sign",
+    "detail": "at the bottom of the staircase where the sign marks the start of the steps, with the stairs rising behind the visitor so the stairway and temple fit in frame",
+    "sources": [
+     {
+      "title": "Tiger Cave Temple: 10 Things I Wish I Knew Before Visiting (2026 Guide) - Be Free and Travel",
+      "url": "https://befreeandtravel.com/tiger-cave-temple-krabi/"
+     },
+     {
+      "title": "How To Visit The Tiger Cave Temple in Krabi (Wat Tham Suea) - Along Dusty Roads",
+      "url": "https://www.alongdustyroads.com/posts/tiger-cave-temple-krabi-wat-tham-suea"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is allowed, but photographers must respect any signs prohibiting photos in certain areas.",
+     "sources": [
+      {
+       "title": "Tiger Cave Temple Krabi - Access Travel",
+       "url": "https://www.accesstravel.com/en-US/ViatorAttraction/Index/348/2309"
+      }
+     ]
+    },
+    {
+     "rule": "Visitors should dress modestly, covering knees and shoulders.",
+     "sources": [
+      {
+       "title": "Tiger Cave Temple Krabi: A Spiritual Adventure in Thailand - Tripoto",
+       "url": "https://www.tripoto.com/krabi/places-to-visit/tiger-cave-temple"
+      }
+     ]
+    },
+    {
+     "rule": "Shoes must be removed before stepping onto the tiled temple area at the summit.",
+     "sources": [
+      {
+       "title": "Tiger Cave Temple Krabi - Thailand Magazine",
+       "url": "https://thailandmagazine.com/krabi/see-do/tiger-cave-temple/"
+      }
+     ]
+    }
+   ],
+   "safety": "Monkeys may be present around the grounds; do not feed or approach them, as they can be unpredictable.",
+   "notes": "No page I found names a position with the landmark directly behind a selfie-taker; the summit spots are the closest matches, so check them on arrival. The north-west stupa source is a general photography tip, not a selfie recommendation. The step count is given as 1,237 on some pages and 1,260 on others, and the passer-by spot is my inference from pages describing the stairway and its start sign, not a named photo spot. No page mentions selfie sticks or tripods. Results for a Tiger Cave Temple in Kanchanaburi were excluded as a different site."
+  },
+  "cost_usd": 0.0637,
+  "at": "2026-11-17 23:00"
+ },
+ "Wat Kaew Korawaram": {
+  "rank": 4,
+  "card": {
+   "hook": "Serpents line both sides of the staircase, and they're pointing you up a hill in the middle of Krabi Town. Climb it, then do what most people forget: turn around.",
+   "stand_here": "Stand on the hilltop terrace at the top of the naga staircase, right at the phone icon on the map. Face away from the white hall, looking back over the town toward the river.",
+   "zoom": "Start at 1x for the big town view. Tap 2x or 5x (higher zooms depend on your phone) to pick out rooftops and the river. Save 0.5x for the staircase, when you want all the nagas in one shot.",
+   "make_it_pop": "Turn on gridlines, put the horizon on the upper third line, then tap the town or river and slide a little darker so the sky keeps its colour.",
+   "best_time": "Late afternoon is the sweet spot, when the sunset light softens the hills and the town. It also makes the climb feel like a reward.",
+   "selfie_here": "Take it on the upper terrace just past the top of the naga staircase. Use the front camera at 0.5x, face out over the town roofs and keep the white temple buildings behind your shoulder. For a second one, stand on the lower steps holding the golden naga balustrade, facing down the stairs with the temple above you.",
+   "ask_someone": "Ask a passer-by to stand on the street side of Maharat Road, opposite Vogue Mall, facing the entrance staircase, while you stand on the lower steps by the naga rails. Check the frame on the spot, since the temple may sit right at the top edge.",
+   "rules_and_safety": "This is a working temple, so dress modestly and follow the posted rules. Photos are generally fine on the terrace and in the grounds, but the ordination hall has restrictions, and signs at the entrance say no professional photo shoots. The steps can be slippery when wet, so wear shoes with a good grip.",
+   "challenge": "Get one shot of the river with rooftops filling the frame, then one of the naga staircase from Maharat Road. See if the two look like they belong to the same trip.",
+   "good_to_know": "Wat Kaew Korawaram is a Buddhist temple on a hill above downtown Krabi Town, and one of the larger temples in the area. It's less famous than Wat Tham Suea (Tiger Cave Temple). You reach it from an entrance plaza off one of the town's main streets, then climb the staircase to the white ordination hall at the top.",
+   "stand_here_before_gps_rule": "Stand on the hilltop terrace at the top of the naga staircase, right at the phone icon on the map. Face away from the white hall, looking back over the town toward the river."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Hilltop terrace at the top of the naga staircase, facing out over the town",
+     "detail": "stand on the upper terrace just past the top of the naga staircase, with the white temple buildings behind you and the town roofs in front",
+     "why": "The terrace is described as a large open area with the white temple buildings on one side and views over the town, so a selfie facing outward keeps the temple behind you.",
+     "sources": [
+      {
+       "title": "White Temple - Sofitel Krabi Phokeethra",
+       "url": "https://www.sofitelkrabiphokeethra.com/krabi-destination/white-temple/"
+      },
+      {
+       "title": "Wat Kaew Korawaram, Krabi Town - Phuket Ferry",
+       "url": "https://www.phuketferry.com/wat-kaew-korawaram-krabi-town.html"
+      }
+     ]
+    },
+    {
+     "name": "Lower flight of the golden naga staircase, facing down toward Maharat Road",
+     "detail": "on the steps near the bottom of the staircase, holding the golden naga balustrade, facing down the stairs with the temple above you",
+     "why": "The golden naga sculptures line both sides of the steps and frame the subject, and the temple sits above you as the backdrop.",
+     "sources": [
+      {
+       "title": "Wat Kaew Korawaram Krabi Town - Krabi Motor Rentals",
+       "url": "https://www.krabimotorentals.com/explore-krabi/temples/wat-geaw"
+      },
+      {
+       "title": "8 Best Things to do in Krabi Town - Bucket Listly",
+       "url": "https://www.bucketlistly.blog/posts/best-things-to-do-in-krabi-town"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Maharat Road, across from Vogue Mall, facing the front staircase",
+    "detail": "stand on the street side of Maharat Road opposite Vogue Mall and face the entrance staircase so the stairs, naga rails and hilltop temple all fit in the frame",
+    "sources": [
+     {
+      "title": "Wat Kaewkorawaram Buddhist Temple - Krabi Town - KrabiNature",
+      "url": "https://krabinature.com/attractions/wat-kaewkorawaram-buddhist-temple-krabi-town/"
+     },
+     {
+      "title": "Wat Kaew Korawaram Krabi (2025) - Airial",
+      "url": "https://airial.travel/attractions/thailand/pak-nam/wat-kaew-korawaram-krabi-SKYZKK3L"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "The steps are manageable but can be slippery when wet, so wear well-gripped footwear.",
+   "notes": "No page I found states a selfie stick or tripod rule for this temple, so none is listed. One page says photography is generally permitted on the terrace and in the gardens but asks for discretion inside the ordination hall, and another says professional photo shoots are not permitted per a sign at the entrance; these are photography rules, not selfie stick or tripod rules, so I left them out as instructed. The sources disagree on the staircase: one says about 100 steps, another describes 8 flights of 8 steps, and a third says it is only a couple of minutes' climb. The first selfie spot is the top terrace, not the staircase alone. The 'ask someone' spot is across the road, so the stairs are shot from below and the temple sits above the frame's top edge; no page confirms that exact framing, so check it on the spot."
+  },
+  "cost_usd": 0.0623,
+  "at": "2026-11-17 23:01"
+ },
+ "Phra Nang Beach": {
+  "rank": 5,
+  "card": {
+   "hook": "Picture a curve of pale sand, a cliff straight out of a postcard, and longtail boats bobbing like they were hired for the shot. Phra Nang Beach has no road to it, so you've already earned the view before you take the photo.",
+   "stand_here": "Stand on Railay Viewpoint, the hilltop lookout on the trail between Phra Nang Beach and Railay East, and look south-west over Phra Nang Beach. It's a steep, unmarked climb of about 25 minutes with a scramble and a squeeze through a tunnel, so wear closed shoes and keep your phone in your pocket on the way up.",
+   "zoom": "Start at zoom 0.5x to fit the beach, Railay East and Railay West into one frame. Then try 1x for a calmer view, and 2x to 5x (depends on your phone) to pick out the cliffs, the rock islet or the longtail boats.",
+   "make_it_pop": "Turn on gridlines, put the curve of the beach along a lower line and let the limestone cliffs fill the top. Tap the brightest part of the sky or water, then drag the brightness slider down a little so the pale sand doesn't wash out.",
+   "best_time": "Check the tide before you go. One guide says the beach may not be visible at high tide, while another recommends high tide for the Bat Cave view, so pick the shot you want first.",
+   "selfie_here": "For a selfie, try the Bat Cave viewpoint at the west end of the beach. Stand where the narrow tunnel opens out, use the front camera and let the beach sit behind you. Or stand in front of the Princess Cave shrine grotto on the cliff-shaded left side of the beach, and the beach and cliffs will be behind you. Try zoom 0.5x to fit more in.",
+   "ask_someone": "At low tide, ask someone to wander out onto the small peninsula on Phra Nang Beach for a wide shot of you and the cliffs, while you stand on the beach facing them (the exact spot is approximate).",
+   "rules_and_safety": "The Bat Cave is also a rock-climbing area, so keep out of climbers' way. If you wade out to the island at low tide, watch for sharp stones and coral. The viewpoint climb is tough, so skip it if it sounds like too much.",
+   "challenge": "Take the same shot at 0.5x, 1x and 2x, then see which one makes you say 'wow' the loudest.",
+   "good_to_know": "Phra Nang Beach is in the Railay area of Krabi, next to Railay East and Railay West. Boats land at Railay, and the last stretch is a walk of about 10 minutes from Railay East. If the climb is too much, the beach is a gentler option, or you can use the Bat Cave opening as a natural frame onto the beach and Ko Rang Nok island.",
+   "stand_here_before_gps_rule": "Stand on Railay Viewpoint, the hilltop lookout on the trail between Phra Nang Beach and Railay East, and look south-west over Phra Nang Beach. It's a steep, unmarked climb of about 25 minutes with a scramble and a squeeze through a tunnel, so wear closed shoes and keep your phone in your pocket on the way up."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Bat Cave viewpoint, west end of Phra Nang Beach",
+     "detail": "at the end of the narrow tunnel through the Bat Cave, where the passage opens onto the viewpoint",
+     "why": "The tunnel opens onto a panoramic view over the beach, so the beach can sit behind you in the frame.",
+     "sources": [
+      {
+       "title": "Things to Do in Railay: Phra Nang Beach Guide (WeSeekTravel)",
+       "url": "https://www.weseektravel.com/phra-nang-beach/"
+      }
+     ]
+    },
+    {
+     "name": "Princess Cave shrine, east edge of Phra Nang Beach",
+     "detail": "in front of the shrine grotto at the entrance, on the cliff-shaded left side of the beach",
+     "why": "Visitors already crowd this spot to photograph themselves in front of the grotto, which puts the beach and cliffs in the background.",
+     "sources": [
+      {
+       "title": "Phranang Cave Beach: The Best Swimming Spot in Krabi (ThailandBeaches.org)",
+       "url": "https://thailandbeaches.org/phranang-beach-krabi/"
+      },
+      {
+       "title": "Things to Do in Railay: Phra Nang Beach Guide (WeSeekTravel)",
+       "url": "https://www.weseektravel.com/phra-nang-beach/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Small peninsula on Phra Nang Beach (reachable at low tide)",
+    "detail": "out on the small peninsula at low tide, for a wide panorama of the beach and cliffs",
+    "sources": [
+     {
+      "title": "Phra Nang Cave Beach (Phra Nang Beach), Krabi: Visit Guide & Reviews (City-Buddy)",
+      "url": "https://city-buddy.com/en/attractions/Thailand/Krabi/phra-nang-cave-beach-phra-nang-beach"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "At low tide you can wade out to the island, but watch for sharp stones and coral.",
+   "notes": "No page found states rules on selfie sticks or tripods, so none are listed. The ask-someone spot is described only as 'the small peninsula' with no exact name, and no page says which way the photographer should face, so the position is approximate. The Bat Cave and shrine selfie spots are sourced from guides that describe the views but do not explicitly say where to pose. The Princess Cave shrine is a feature of the beach rather than the beach itself, so it is included as a near-landmark spot. The Bat Cave viewpoint is on the west end and reached by a jungle path with ladders, so it is not a casual stop."
+  },
+  "cost_usd": 0.0493,
+  "at": "2026-11-17 23:01"
+ },
+ "Ko Poda": {
+  "rank": 6,
+  "card": {
+   "hook": "Picture white sand under your toes, turquoise water in the middle, and one giant limestone rock sticking out of the sea like it's waiting for its close-up. That's Ko Poda's northeast beach, and it really is the classic holiday photo.",
+   "stand_here": "Stand on the sand of the northeast beach, right where the phone icon sits, because you're already at the subject and there's no extra walk. Face the big limestone rock out in the sea in front of the island.",
+   "zoom": "Start at zoom 0.5x to fit the curve of the sand and the whole height of the rock. Switch to 1x for a calmer, more natural look. For the rock's texture, step back and use 2x or more (higher zooms depend on your phone) instead of walking closer.",
+   "make_it_pop": "Turn on gridlines, put the horizon on a lower or upper third line, and place the rock off-centre so the curve of the shoreline leads your eye to it.",
+   "best_time": "Sunset is the best moment, with the sun going down behind the rock formation. Tour groups fill the beach from late morning until about 1-2 pm, so early or late gives you cleaner shots with fewer people in them.",
+   "selfie_here": "On the beach, use the front camera at 0.5x and turn around so the big rock sits over your shoulder. For a bonus, Chicken Island Viewpoint is on Koh Kai, a neighbouring island. It's a short climb up the hill opposite the sandbank to Tub Island, and Koh Poda sits behind you in the frame.",
+   "ask_someone": "",
+   "rules_and_safety": "This is a beach on an island reached by boat, so check with your tour operator or the official site for access, boat times and any fees before you go.",
+   "challenge": "Find a patch of wet sand and use it as your foreground, with the shoreline curving off towards the rock. Bonus points if a wave rolls in during a Live Photo.",
+   "good_to_know": "Ko Poda is a small island just off the Krabi coast. The same northeast beach is also described as the best place on the island to swim, so you can pair your photos with a dip. If you want somewhere quieter, Secret Beach is a small bay with rock cliffs on both sides, reached only by boat.",
+   "stand_here_before_gps_rule": "Stand on the sand of the northeast beach, right where the phone icon sits, because you're already at the subject and there's no extra walk. Face the big limestone rock out in the sea in front of the island."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Chicken Island Viewpoint (on Koh Kai)",
+     "detail": "up the small hill opposite the sandbank to Tub Island, reached by a short climb",
+     "why": "Opposite the sandbank to Tub Island, there is a small climb up the hill that leads to Chicken Island Viewpoint. This Krabi viewpoint offers a beautiful view of Tub Island and Koh Poda in the background, so Koh Poda sits behind you in the frame.",
+     "sources": [
+      {
+       "title": "Krabi Viewpoints - The 8 Most Beautiful Views",
+       "url": "https://homeiswhereyourbagis.com/en/krabi-viewpoints/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot is supported by a page. It is on Koh Kai (Chicken Island), a neighbouring island, not on Koh Poda, and rests on a single source. No page I found gave a standing point for a passer-by to photograph a visitor with the whole Koh Poda landmark in view, so ask_someone_spot is null. Other Poda photo locations (the mast-shaped limestone 'Hin Poda' in front of the island, and the Ma Tang Ming reef shot taken with a longtail boat) were named by a trip guide, but the pages do not say where the visitor stands with Koh Poda behind them, so I left them out. No page stated any selfie stick or tripod rule, and no page gave a safety point specific to this landmark."
+  },
+  "cost_usd": 0.0473,
+  "at": "2026-11-17 23:02"
+ }
+}
