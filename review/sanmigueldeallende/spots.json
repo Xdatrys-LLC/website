@@ -101,52 +101,6 @@
  },
  {
   "rank": 3,
-  "name": "Belmond Casa de Sierra Nevada",
-  "in_cut": true,
-  "label": "Casa de Sierra Nevada",
-  "camera_pill": "Calle Cuna de Allende",
-  "nophone": false,
-  "searches": 650,
-  "pin": [
-   -100.74234,
-   20.91284
-  ],
-  "camera": [
-   -100.744145,
-   20.913844
-  ],
-  "camera_source": "Commons cluster (13 photos).",
-  "pin_note": "Position from Wikidata Q18357375: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Colonial mansions turned into a famous hotel.",
-  "text": {
-   "description": "Belmond Casa de Sierra Nevada is a hotel made up of six colonial mansions in the middle of San Miguel de Allende. The buildings include a 17th-century fort, the 18th-century Casa Palma and a house said to have been the archbishop's residence in the 16th century. For a phone photographer, that mix of old stonework, colour and age is the appeal. The hotel sits among old cobbled streets and parks, so you can shoot it with the town around it rather than as an isolated building. The wider town is a UNESCO World Heritage Site, which explains why so many of the streets around here look good in a frame. Inside, the buildings are arranged around courtyards with cloisters, fountains and frescoes, but those are part of a working hotel, so treat them as a possible bonus rather than something to count on. Use that walk to take a few wider shots of the street, then move closer for details such as doorways, stone arches, wall colour and cobbles. Keep your shots to what you can see from public streets and be polite about any guests or staff who wander into the frame.",
-   "geographic_location": "In the town centre of San Miguel de Allende, among old cobbled streets and parks. The hotel is a group of colonial buildings rather than a single block.",
-   "directions_text": "Start from the town centre of San Miguel de Allende; there is no station or stop nearby, so come by taxi or hired scooter to the phone icon on the map. From there the hotel is about 218 m to the south-east, about 3 minutes on foot. Head south-east along the streets and watch for the old stone frontages. The phone icon on the map is about 220 m north-west of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the street and the buildings as you find them. Switch to ultra-wide (0.5x) only if the street is narrow and you need the full height of a facade. Use telephoto (2x-5x, depending on your phone) for carved doorways, windows and rooftop details.",
-    "where_to_stand": "Stand about 220 m north-west of the subject, at the phone icon on the map, and face south-east. Take your shots from the street, looking towards the buildings.",
-    "how_to_frame": "Turn on gridlines and keep the vertical lines of walls and doorways straight. Use the cobbled street as a leading line towards the facade. If you step back a little, include a bit of the sky or a tree for balance. Hold the phone level to avoid leaning walls with the ultra-wide lens.",
-    "phone_settings_tip": "Tap on the brightest wall to set focus, then drag the exposure slider down slightly so the sunlit stone keeps its colour and does not wash out. In shaded streets, tap on a mid-tone area instead.",
-    "best_time": "Morning or late afternoon, when the light is softer and the stone and paintwork look warmer. Midday sun can make deep shadows in narrow streets."
-   },
-   "access_note": "The hotel is private property and the courtyards may be limited to guests, so check the official site before you go if you hope to see inside; the streets around it are public."
-  },
-  "checker_problems": 1,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Belmond Casa de Sierra Nevada",
-    "url": "https://en.wikipedia.org/wiki/Belmond_Casa_de_Sierra_Nevada"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": null
- },
- {
-  "rank": 4,
   "name": "Templo de San Francisco",
   "in_cut": true,
   "label": "Templo San Francisco",
@@ -185,7 +139,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/4.jpg",
+   "file": "photos/3.jpg",
    "artist": "SergioYalu",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -194,7 +148,7 @@
   }
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "Instituto Allende",
   "in_cut": true,
   "label": "Instituto Allende",
@@ -238,7 +192,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "Sanmiguelito",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -247,7 +201,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Teatro Ángela Peralta",
   "in_cut": true,
   "label": "Teatro Ángela Peralta",
@@ -286,7 +240,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "David Stanley from Nanaimo, Canada",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -295,7 +249,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Oratorio de San Felipe Neri",
   "in_cut": true,
   "label": "Oratorio San Felipe",
@@ -336,7 +290,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Catedrales e Iglesias/Cathedrals and Churches from Ciudad...",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -345,7 +299,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "Mirador de San Miguel de Allende",
   "in_cut": true,
   "label": "El Mirador",
@@ -388,7 +342,7 @@
   "photo": null
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "Casa de Allende",
   "in_cut": true,
   "label": "Casa de Allende",
@@ -429,12 +383,58 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Lesekreis",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Isabel_Allende_Frankfurter_Buchmesse_2015_(cropped).JPG",
    "from": "Wikidata Q83566 main image, found by searching Wikipedia for the spot's name ('Isabel Allende'): check it shows this spot"
   }
+ },
+ {
+  "rank": 101,
+  "name": "Belmond Casa de Sierra Nevada",
+  "in_cut": false,
+  "label": "Casa de Sierra Nevada",
+  "camera_pill": "Calle Cuna de Allende",
+  "nophone": false,
+  "searches": 650,
+  "pin": [
+   -100.74234,
+   20.91284
+  ],
+  "camera": [
+   -100.744145,
+   20.913844
+  ],
+  "camera_source": "Commons cluster (13 photos).",
+  "pin_note": "Position from Wikidata Q18357375: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Colonial mansions turned into a famous hotel.",
+  "text": {
+   "description": "Belmond Casa de Sierra Nevada is a hotel made up of six colonial mansions in the middle of San Miguel de Allende. The buildings include a 17th-century fort, the 18th-century Casa Palma and a house said to have been the archbishop's residence in the 16th century. For a phone photographer, that mix of old stonework, colour and age is the appeal. The hotel sits among old cobbled streets and parks, so you can shoot it with the town around it rather than as an isolated building. The wider town is a UNESCO World Heritage Site, which explains why so many of the streets around here look good in a frame. Inside, the buildings are arranged around courtyards with cloisters, fountains and frescoes, but those are part of a working hotel, so treat them as a possible bonus rather than something to count on. Use that walk to take a few wider shots of the street, then move closer for details such as doorways, stone arches, wall colour and cobbles. Keep your shots to what you can see from public streets and be polite about any guests or staff who wander into the frame.",
+   "geographic_location": "In the town centre of San Miguel de Allende, among old cobbled streets and parks. The hotel is a group of colonial buildings rather than a single block.",
+   "directions_text": "Start from the town centre of San Miguel de Allende; there is no station or stop nearby, so come by taxi or hired scooter to the phone icon on the map. From there the hotel is about 218 m to the south-east, about 3 minutes on foot. Head south-east along the streets and watch for the old stone frontages. The phone icon on the map is about 220 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the street and the buildings as you find them. Switch to ultra-wide (0.5x) only if the street is narrow and you need the full height of a facade. Use telephoto (2x-5x, depending on your phone) for carved doorways, windows and rooftop details.",
+    "where_to_stand": "Stand about 220 m north-west of the subject, at the phone icon on the map, and face south-east. Take your shots from the street, looking towards the buildings.",
+    "how_to_frame": "Turn on gridlines and keep the vertical lines of walls and doorways straight. Use the cobbled street as a leading line towards the facade. If you step back a little, include a bit of the sky or a tree for balance. Hold the phone level to avoid leaning walls with the ultra-wide lens.",
+    "phone_settings_tip": "Tap on the brightest wall to set focus, then drag the exposure slider down slightly so the sunlit stone keeps its colour and does not wash out. In shaded streets, tap on a mid-tone area instead.",
+    "best_time": "Morning or late afternoon, when the light is softer and the stone and paintwork look warmer. Midday sun can make deep shadows in narrow streets."
+   },
+   "access_note": "The hotel is private property and the courtyards may be limited to guests, so check the official site before you go if you hope to see inside; the streets around it are public."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Belmond Casa de Sierra Nevada",
+    "url": "https://en.wikipedia.org/wiki/Belmond_Casa_de_Sierra_Nevada"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": null
  }
 ]
