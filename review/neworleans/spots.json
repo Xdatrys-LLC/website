@@ -570,15 +570,15 @@
   "nophone": true,
   "searches": 230,
   "pin": [
-   -90.075325,
-   29.960821
+   -90.0715098,
+   29.9594159
   ],
   "camera": [
-   -90.075325,
-   29.960821
+   -90.0715098,
+   29.9594159
   ],
   "camera_source": "Researched viewpoint 'Basin Street' (1 web pages); placed at the stretch of Basin Street nearest the subject (our map tiles).",
-  "pin_note": "Position from Wikidata Q167251 (coordinate location).",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "The oldest cemetery in the city, with above-ground tombs.",
   "text": {
    "description": "St. Louis Cemetery No. 1 is the oldest of New Orleans' well-known cemeteries. It opened in 1789, after a fire in 1788 led to the city being redesigned, and it has been in use ever since. It covers only one square block, yet many thousands of people are buried here, mostly in above-ground tombs. The famous names include Marie Laveau, believed to lie in the Glapion family tomb, and Homer Plessy of the Plessy v. Ferguson case.\n\nFor most visitors the best free photo is from the street. The plastered brick wall along Basin Street was built with the same Spanish colonial methods as the tombs inside, and the tomb rows show just above it. The worn plaster of the brick wall, with the tomb rows just visible behind it, makes a good scene before you go in.\n\nGetting inside normally means a guided tour, so check the official site before you go. Photography is generally welcomed on tours, but the tour guide's rules come first. If you only have time for the street, the corner of St. Louis Street and Basin Street frames the tomb walls against the Tremé streets. The Basin St. Station Visitor Information Center gives a wider view of the front wall and gate from across the road. Keep your phone close to your body while you wait for traffic to clear, and stay on the pavement.",
@@ -608,9 +608,7 @@
     "url": "https://en.wikipedia.org/wiki/Saint_Louis_Cemetery"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 399 m away (Saint Louis Cemetery Number One): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/11.jpg",

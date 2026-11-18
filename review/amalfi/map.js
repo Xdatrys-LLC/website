@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "amalfi", "title": "Amalfi: 8 photo spots (pilot review)", "place": "Amalfi", "bounds": [14.59, 40.625, 14.618, 40.648], "center": [14.604, 40.6365], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/amalfi/{z}/{x}/{y}.pbf"};
