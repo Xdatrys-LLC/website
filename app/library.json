@@ -544,6 +544,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "nice",
+  "place": "Nice",
+  "country": "France",
+  "spots": 17,
+  "mb": 7.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "nuremberg",
   "place": "Nuremberg",
   "country": "Germany",
