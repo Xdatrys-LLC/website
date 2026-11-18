@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "fukuoka", "title": "Fukuoka: 15 photo spots (pilot review)", "place": "Fukuoka", "bounds": [130.34, 33.575, 130.435, 33.625], "center": [130.3875, 33.6], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/fukuoka/{z}/{x}/{y}.pbf"};

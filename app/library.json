@@ -424,6 +424,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "georgetown",
+  "place": "George Town",
+  "country": "Malaysia",
+  "spots": 16,
+  "mb": 3.2,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "grindavik",
   "place": "Grindavík",
   "country": "Iceland",

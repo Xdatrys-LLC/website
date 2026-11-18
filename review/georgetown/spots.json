@@ -793,59 +793,6 @@
  },
  {
   "rank": 16,
-  "name": "Jubilee Clock Tower",
-  "in_cut": true,
-  "label": "Clock Tower",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 40,
-  "pin": [
-   100.344194,
-   5.41939483
-  ],
-  "camera": [
-   100.344194,
-   5.41939483
-  ],
-  "camera_source": "Researched viewpoint 'Lebuh Light' (3 web pages); placed at crossing of Lebuh Light and Lebuh Pantai (our map tiles).",
-  "pin_note": "Position from Wikidata Q6301836: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "White Victorian clock tower near Fort Cornwallis.",
-  "text": {
-   "description": "The Jubilee Clock Tower, also called the Queen Victoria Memorial Clock Tower, stands where Light Street meets Beach Street, next to the moat of Fort Cornwallis. It was built to mark Queen Victoria's Diamond Jubilee and was paid for by the Chinese business leader Cheah Chen Eok. Building began in 1900, and the tower was opened on 23 July 1902. It was designed by the municipal engineer Robert Peirce in the Indo-Saracenic style, and it rises about 30 metres (97 feet) to the top of its copper-roofed cupola. Each of the 60 feet up to the clock is said to stand for one year of the Queen's reign. It photographs well because the tower is framed against the colonial street corner, with the clock face, the belfry and the cupola all easy to read from the street. The tower leans slightly after bomb damage in the Second World War, so don't be surprised if the lines look a little off. It was restored between 2019 and 2020. Because it stands in the middle of a busy roundabout, take your photos from the pavement at the corner and cross carefully. You can only see it from outside, as the interior is not open to visitors. If the junction is busy, try the quieter King Edward Place, on the museum side, for a calmer view of the tower.",
-   "geographic_location": "At the junction of Light Street and Beach Street in George Town, beside Fort Cornwallis and its moat. The tower stands in the middle of the roundabout there.",
-   "directions_text": "Head for the junction of Light Street and Beach Street in George Town, as there is no station or tram stop nearby. Take care with the traffic: the roundabout has wide avenues and no nearby pedestrian crossing. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole tower and the street corner around it into one frame. Then switch to the default lens (1x) for a more natural look, and to the telephoto (2x-5x, depending on your phone) for the clock face and cupola.",
-    "where_to_stand": "Stand at the corner of Lebuh Light and Lebuh Pantai (junction of Light Street and Beach Street, the corner by the tower). The full Moorish-style tower framed against the colonial street corner, with the clock face visible. From here the full tower is framed against the colonial street corner with the clock face visible, and the tower is just to the north-east. If the junction is busy, King Edward Place on the museum side is a quieter alternative.",
-    "how_to_frame": "Turn on gridlines and line the tower up with a vertical line, as it is tall and the lines can look tilted if you aim the phone upwards. Keep the phone level and step back a little rather than tilting it. Include a bit of the street corner and the nearby buildings to give a sense of place. For a second shot, zoom in on the clock face and the cupola.",
-    "phone_settings_tip": "Tap the clock face to set focus, then slide the exposure down slightly if the sky is bright so the tower keeps its detail. Take a few frames in case a vehicle drives through the shot.",
-    "best_time": "Daylight is best for seeing the clock face and the architectural detail. Early in the day is likely to be quieter for traffic, but check how the light falls on the day."
-   },
-   "access_note": "The tower is an open public landmark in a busy roundabout that you can view from the street; the interior is not open to visitors, so check the official site before you go if you want to confirm access."
-  },
-  "checker_problems": 4,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Jubilee Clock Tower",
-    "url": "https://en.wikipedia.org/wiki/Jubilee_Clock_Tower"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/16.jpg",
-   "artist": "Gryffindor",
-   "licence": "CC BY 2.5",
-   "licence_url": "https://creativecommons.org/licenses/by/2.5",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Victoria_Clock_Tower_Penang_Dec_2006_001.jpg",
-   "from": "Wikidata Q6301836 main image"
-  }
- },
- {
-  "rank": 17,
   "name": "Lebuh Aceh Mosque",
   "in_cut": true,
   "label": "Lebuh Aceh Mosque",
@@ -893,12 +840,65 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "CEphoto, Uwe Aranas",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Penang_Malaysia_Lebuh-Aceh-Mosque-01.jpg",
    "from": "Wikidata Q6511449 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Jubilee Clock Tower",
+  "in_cut": false,
+  "label": "Clock Tower",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 40,
+  "pin": [
+   100.344194,
+   5.41939483
+  ],
+  "camera": [
+   100.344194,
+   5.41939483
+  ],
+  "camera_source": "Researched viewpoint 'Lebuh Light' (3 web pages); placed at crossing of Lebuh Light and Lebuh Pantai (our map tiles).",
+  "pin_note": "Position from Wikidata Q6301836: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "White Victorian clock tower near Fort Cornwallis.",
+  "text": {
+   "description": "The Jubilee Clock Tower, also called the Queen Victoria Memorial Clock Tower, stands where Light Street meets Beach Street, next to the moat of Fort Cornwallis. It was built to mark Queen Victoria's Diamond Jubilee and was paid for by the Chinese business leader Cheah Chen Eok. Building began in 1900, and the tower was opened on 23 July 1902. It was designed by the municipal engineer Robert Peirce in the Indo-Saracenic style, and it rises about 30 metres (97 feet) to the top of its copper-roofed cupola. Each of the 60 feet up to the clock is said to stand for one year of the Queen's reign. It photographs well because the tower is framed against the colonial street corner, with the clock face, the belfry and the cupola all easy to read from the street. The tower leans slightly after bomb damage in the Second World War, so don't be surprised if the lines look a little off. It was restored between 2019 and 2020. Because it stands in the middle of a busy roundabout, take your photos from the pavement at the corner and cross carefully. You can only see it from outside, as the interior is not open to visitors. If the junction is busy, try the quieter King Edward Place, on the museum side, for a calmer view of the tower.",
+   "geographic_location": "At the junction of Light Street and Beach Street in George Town, beside Fort Cornwallis and its moat. The tower stands in the middle of the roundabout there.",
+   "directions_text": "Head for the junction of Light Street and Beach Street in George Town, as there is no station or tram stop nearby. Take care with the traffic: the roundabout has wide avenues and no nearby pedestrian crossing. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole tower and the street corner around it into one frame. Then switch to the default lens (1x) for a more natural look, and to the telephoto (2x-5x, depending on your phone) for the clock face and cupola.",
+    "where_to_stand": "Stand at the corner of Lebuh Light and Lebuh Pantai (junction of Light Street and Beach Street, the corner by the tower). The full Moorish-style tower framed against the colonial street corner, with the clock face visible. From here the full tower is framed against the colonial street corner with the clock face visible, and the tower is just to the north-east. If the junction is busy, King Edward Place on the museum side is a quieter alternative.",
+    "how_to_frame": "Turn on gridlines and line the tower up with a vertical line, as it is tall and the lines can look tilted if you aim the phone upwards. Keep the phone level and step back a little rather than tilting it. Include a bit of the street corner and the nearby buildings to give a sense of place. For a second shot, zoom in on the clock face and the cupola.",
+    "phone_settings_tip": "Tap the clock face to set focus, then slide the exposure down slightly if the sky is bright so the tower keeps its detail. Take a few frames in case a vehicle drives through the shot.",
+    "best_time": "Daylight is best for seeing the clock face and the architectural detail. Early in the day is likely to be quieter for traffic, but check how the light falls on the day."
+   },
+   "access_note": "The tower is an open public landmark in a busy roundabout that you can view from the street; the interior is not open to visitors, so check the official site before you go if you want to confirm access."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Jubilee Clock Tower",
+    "url": "https://en.wikipedia.org/wiki/Jubilee_Clock_Tower"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Gryffindor",
+   "licence": "CC BY 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by/2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Victoria_Clock_Tower_Penang_Dec_2006_001.jpg",
+   "from": "Wikidata Q6301836 main image"
   }
  }
 ]
