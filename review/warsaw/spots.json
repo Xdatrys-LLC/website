@@ -505,15 +505,15 @@
   "nophone": true,
   "searches": 690,
   "pin": [
-   21.01944444,
-   52.23333333
+   21.0176862,
+   52.2379687
   ],
   "camera": [
-   21.01944444,
-   52.23333333
+   21.0176862,
+   52.2379687
   ],
   "camera_source": "Researched viewpoint 'Krakowskie Przedmieście' (3 web pages); placed at crossing of Krakowskie Przedmieście and Nowy Świat (our map tiles).",
-  "pin_note": "Position from the Wikipedia article 'New World Street, Warsaw'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Elegant pedestrian-friendly street of cafés on the Royal Route.",
   "text": {
    "description": "Nowy Świat is one of Warsaw's main historic streets and part of the Royal Route, which links the Royal Castle and Old Town with the old royal residence at Wilanów. It photographs well because it is a long, fairly straight street lined with low neoclassical frontages, so the rooflines and shop fronts lead the eye into the distance. The classic picture is taken from the junction with Krakowskie Przedmieście. Here the Copernicus statue stands in the foreground and the street runs away behind it. The street looks old, but almost all of it was destroyed in the Warsaw Uprising of 1944. Afterwards it was rebuilt to look as it did in the early 19th century, when stone and brick buildings of about three storeys replaced the earlier wooden manors. Today it is lined with shops, restaurants and cafes, so you will usually find people, café tables and signs in the scene. Use them to add life to the frame, but wait a moment for a clearer gap if you want the facades on their own. Keep the phone level so the building edges stay upright, and put the statue on one side rather than in the exact centre. For a second angle, try Plac Trzech Krzyży at the far end, where the facades draw in towards Krakowskie Przedmieście, especially when the street lamps are lit in the early evening.",
@@ -543,9 +543,7 @@
     "url": "https://en.wikipedia.org/wiki/New_World_Street%2C_Warsaw"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 529 m away (Nowy Świat): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/10.jpg",

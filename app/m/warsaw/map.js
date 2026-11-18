@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "warsaw", "title": "Warsaw: 20 photo spots (pilot review)", "place": "Warsaw", "bounds": [20.97, 52.155, 21.1, 52.26], "center": [21.035, 52.207499999999996], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/warsaw/{z}/{x}/{y}.pbf", "tz": "Europe/Warsaw", "rail": true, "app": true};
