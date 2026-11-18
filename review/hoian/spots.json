@@ -1,0 +1,401 @@
+[
+ {
+  "rank": 1,
+  "name": "Japanese Bridge",
+  "in_cut": true,
+  "label": "Japanese Bridge",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 5520,
+  "pin": [
+   108.3260981,
+   15.8771565
+  ],
+  "camera": [
+   108.3260981,
+   15.8771565
+  ],
+  "camera_source": "Researched viewpoint 'Nguyễn Thị Minh Khai' (1 web pages); placed at the stretch of Nguyễn Thị Minh Khai nearest the subject (our map tiles); moved 5 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/631074476: the middle of the OpenStreetMap outline 'Chùa Cầu' (24 m across).",
+  "notes": "The iconic 16th-century covered bridge that is the symbol of Hoi An.",
+  "text": {
+   "description": "The Japanese Bridge (Chùa Cầu) is a small covered footbridge with a temple built into it, and it is a landmark of Hoi An's Ancient Town. It photographs well because the shape is so clear: a sheltered wooden walkway on brick supports, with a tiled roof in three sections, over a narrow canal. The bridge is about 18 metres long and 3 metres wide. Japanese merchants began building it in 1593 and finished in 1595, and a temple was added on top in 1653. It has been repaired and renovated several times since, so it now mixes Japanese, Vietnamese and Chinese details.\n\nIt is on Nguyễn Thị Minh Khai, at the western end of the street. From there you look east along the whole length of the bridge, with the street leading up to it. A local guide recommends going before about 6:30am, when the street is usually almost empty. Crowds build from about 19:00 onward, and the bridge is often full of people in the evening, so evening shots may include a lot of people.\n\nIf you have time, there are two other views. Trần Phú shows the full bridge face with its red roof and yellow merchant houses, reflected in the canal. Cầu An Hội, a separate bridge, shows the Japanese Bridge across the Hoai River, and it works especially well at sunset. Photographing the outside is free, but crossing the bridge or entering the temple needs a ticket.",
+   "geographic_location": "The bridge is in the old Japanese Quarter of Hoi An's Ancient Town, crossing a small canal.",
+   "directions_text": "No Underground or tram stops are listed for Hoi An, so start from the Ancient Town, the old centre of Hoi An in Da Nang, Vietnam. If you are staying outside it, go by taxi or hired scooter to the edge of the Ancient Town and finish on foot. Walk to the western end of Nguyễn Thị Minh Khai. The bridge is a very short step east of there, at the far end of the street. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) so the street and the bridge both fit in the frame. Then try telephoto (2x or more, depending on your phone) to bring the bridge closer and make the street look more compressed. Use ultra-wide (0.5x) only if you want a lot of street in front, and keep the bridge near the middle of the frame so its sides don't stretch.",
+    "where_to_stand": "Stand on Nguyễn Thị Minh Khai (western end of the street, looking east along the length of the bridge). A long, head-on view of the bridge from the Japanese Quarter side, with the street leading up to it, usually empty of people. From there you get a long, head-on view of the bridge from the Japanese Quarter side, with the street leading up to it. The bridge is directly ahead, to the east.",
+    "how_to_frame": "Turn on gridlines and put the bridge's centre on the middle vertical line, so the street and roof look balanced. Hold the phone at chest height and keep it level so the roof line stays straight. For a different view, walk to Trần Phú for the full bridge face reflected in the canal, or to Cầu An Hội for the bridge across the river at sunset.",
+    "phone_settings_tip": "Tap on the bridge to set focus, then drag the exposure slider down a little so the sky doesn't wash out. In dim early light, use night mode and brace your elbows against your body or lean on a wall to keep the phone still. Take a Live Photo too, in case a passer-by walks into the frame and you want a different moment.",
+    "best_time": "Before about 6:30am, when the street is usually almost empty. The bridge gets much busier from about 19:00 onwards."
+   },
+   "access_note": "Photographing the outside is free, but crossing the bridge or entering the temple needs the Hoi An Ancient Town ticket, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Japanese Bridge",
+    "url": "https://en.wikipedia.org/wiki/Japanese_Bridge"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Chainwit.",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:2024_H%E1%BB%99i_An_-_Japanese_Covered_Bridge_(Ch%C3%B9a_C%E1%BA%A7u)_after_renovation_-_img_11.jpg",
+   "from": "Wikidata Q1091054 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Thu Bồn River",
+  "in_cut": true,
+  "label": "Hoai River Lanterns",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 2790,
+  "pin": [
+   108.346438,
+   15.868492
+  ],
+  "camera": [
+   108.346438,
+   15.868492
+  ],
+  "camera_source": "Researched viewpoint 'Cầu An Hội' (4 web pages); placed at OpenStreetMap 'Cầu An Hội' (way/1281365650): middle (23 m across); moved 15 m off water.",
+  "pin_note": "Position from OSM W429251088 (Sông Thu Bồn): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Lantern-lit riverfront at night, with boats on the water.",
+  "text": {
+   "description": "The Thu Bồn is the river that Hoi An's Old Town looks out over, and the best way to photograph it is from a bridge, with the town laid out in front of you. From Cầu An Hội you can stand in the middle of the span and face the Old Town. From there you see its roofs and skyline across the water. As the light fades, the river reflects the buildings and the lanterns along the bank. Guides often call this one of the best sunset spots on the river, and it gives the widest view of the Old Town.\n\nThe river itself is a quiet, flat subject, so the picture works best when you include something on the far bank. Let the rooftops fill the middle of the frame and leave some water in the foreground for the reflections. If you want boats in the shot, Cầu Cẩm Nam is a good second choice. It shows traditional fishing boats and lantern boats on the river, with the Old Town skyline behind them. Further out, Cầu Cửa Đại looks over the wide river mouth, with fishing boats, sand barges and the sea on the horizon. It is some distance from the Old Town, so treat it as a separate outing.\n\nArrive a little before the light starts to go. Take a few frames while the sky is still bright, then more as the lanterns come on. It is worth checking the current situation on the bridge when you arrive.",
+   "geographic_location": "On the Thu Bồn River beside Hoi An's Old Town, at Cầu An Hội, the bridge that looks across the water to the Old Town's riverbank. The Thu Bồn itself lies further east along the river.",
+   "directions_text": "Start from the Old Town and take a taxi or hired scooter to Cầu An Hội. Once there, walk onto the span and go to the middle, so that you face the Old Town. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole skyline and its reflections. Switch to the default lens (1x) for a cleaner, less stretched view of the roofs. Use telephoto (2x to 5x, depending on your phone) to pick out lanterns or a single boat on the far bank.",
+    "where_to_stand": "Stand on Cầu An Hội (middle of the span, facing the Old Town). The Old Town's skyline and roofs across the river, with the water reflecting the buildings and lanterns as the light fades. From there the photo shows the Old Town's skyline and roofs across the river, with the water reflecting the buildings and lanterns as the light fades. The Thu Bồn itself lies further east along the water.",
+    "how_to_frame": "Switch on gridlines and put the far bank on the upper third line, with water filling the lower part of the frame so the reflections show. Keep the phone level so the rooftops do not slope. If you want boats in the picture, Cầu Cẩm Nam is an alternative viewpoint, with fishing and lantern boats in front of the Old Town skyline.",
+    "phone_settings_tip": "Tap on the brightest part of the sky or the lanterns to focus. Then drag the exposure slider down a little so the lights keep their colour instead of turning white. After dark, use night mode and brace your elbows on the railing or hold the phone with both hands, so the shot stays sharp.",
+    "best_time": "Around 5:00 to 6:30 PM for sunset and the lanterns. Sunset time changes with the season, so check it for your date."
+   },
+   "access_note": "The bridge is a public crossing and there should be no charge, but conditions can change, so check the current situation on the bridge before you go."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (2313 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Đông Sơn (thảo luận)",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:S%C3%B4ng_Thu_B%E1%BB%93n,_Qu%E1%BA%A3ng_Nam.JPG",
+   "from": "Wikidata Q1929402 main image, found by searching Wikipedia for the spot's name ('Thu Bồn River'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Fujian Assembly Hall",
+  "in_cut": true,
+  "label": "Fujian Assembly Hall",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 510,
+  "pin": [
+   108.330992,
+   15.878139
+  ],
+  "camera": [
+   108.330992,
+   15.878139
+  ],
+  "camera_source": "Researched viewpoint 'Hội quán Phúc Kiến' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OSM W320722329 (Assembly Hall of the Fujian Chinese Congregation): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Ornate Chinese temple-style assembly hall with a grand gate and courtyard.",
+  "text": {
+   "description": "The Fujian Assembly Hall (Hội quán Phúc Kiến) is a Chinese assembly hall in Hoi An, and its entrance is the part most visitors want to photograph. The outer gate, called the tam quan, has a tiled roof with dragon ornaments. It is a good subject for a phone because it is strongly symmetrical. Guides single it out as the hall's favourite photo spot, and one suggests shooting it straight on to make the most of that symmetry.\n\nThe best-known view is from Trần Phú Street, standing in front of the outer gate. From there the gate and its roof sit head-on against the street, which keeps the picture tidy and easy to frame. Once through the gate, the courtyard gives you a second kind of picture. You can look back at the porcelain-inlaid triple gate with its yin-yang tile roof and coiling dragons, with the courtyard in the foreground. Or you can turn the other way for incense coils, lanterns and the curved roofs of the hall, with the old houses behind.\n\nFor a quieter angle, try the courtyard rather than the street. Crowd levels vary, so be patient and wait for a gap. Photography is generally fine in the courtyards and outdoor areas, but be discreet inside the main hall, especially during ceremonies. Keep gridlines on to help you line up the gate, and keep the phone level so the roofline stays straight.",
+   "geographic_location": "The hall is in the Ancient Town of Hoi An, on Trần Phú Street, where its outer gate opens onto the street.",
+   "directions_text": "From Hoi An Ancient Town, head for Trần Phú Street and look for the outer gate (tam quan) of Hội quán Phúc Kiến on the street frontage. No station or tram stop serves this spot. The phone icon on the map is at the gate itself, so there is no extra walk once you arrive. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the straight-on view of the gate. Switch to ultra-wide (0.5x) if you cannot fit the whole roof in from the street, and use telephoto (2x or more) for close-ups of the dragon ornaments.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here the gate and its tiled roof with dragon ornaments are framed head-on against the street.",
+    "how_to_frame": "Stand centrally, face the gate squarely and use the gridlines to keep the roofline level and the two sides matching. Symmetry is the point of this shot. For an alternative, go into the courtyard and shoot back at the triple gate with its coiling dragons, or turn round for the incense coils, lanterns and curved roofs.",
+    "phone_settings_tip": "Tap the gate to focus, then lower the exposure slider a little if the sky behind the roof is bright, so the tiles and dragons keep their detail. Take a few frames, as people pass through the entrance.",
+    "best_time": "Go early or late in the day if you can, when it is likely to be quieter. Crowd levels in the courtyard vary, so allow a little time to wait for a clear view."
+   },
+   "access_note": "It is not confirmed whether a separate ticket is needed for the courtyard; the Ancient Town ticket may apply, so check on arrival."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /at the gate/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": null
+ },
+ {
+  "rank": 4,
+  "name": "Tan Ky House",
+  "in_cut": true,
+  "label": "Tan Ky Old House",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 450,
+  "pin": [
+   108.327831,
+   15.876455
+  ],
+  "camera": [
+   108.327831,
+   15.876455
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OSM W595299310 (National Heritage House of Tan Ky): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Well-preserved 18th-century merchant house.",
+  "text": {
+   "description": "Tan Ky House is a historic house in Hoi An that has National Heritage status. It is a good stop for photographers who enjoy details, and the interior and the character of the building are worth a look. Indoor light may be dimmer than the street outside, and a phone copes well with that if you give it a moment to adjust.\n\nThe house is a working visit rather than a wide viewpoint, so think in small frames. Look for patterns and textures, a doorway with light behind it, or lines that lead the eye inwards. Inside, the light may be low or uneven, so tap on the part of the scene you care about and slide the exposure down a little if a bright doorway washes out. Hold the phone with both hands and rest your elbows against your body or a wall to keep shots sharp.\n\nOutside, step back as far as the street allows and use the gridlines to keep the front of the building straight. Wait for a gap in passers-by if you want a clean frame, or let a few people into the shot to show the scale of the doorway. Rules on photography inside can differ from one heritage house to another, so check the official site before you go, and be considerate of other visitors and of anyone living or working there.",
+   "geographic_location": "Tan Ky House is in Hoi An, at the position shown on the map by the phone icon.",
+   "directions_text": "No stations or tram stops are listed near this spot, so use the map to reach the phone icon on the map. Use a taxi or other local transport to get close, then walk to the marker. The phone icon on the map is at the house itself, so once you reach the marker you are in the right place. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the front of the house and for doorways. Switch to ultra-wide (0.5x) inside if a room is too tight to fit in, keeping the phone level so the walls do not lean. Use the telephoto (2x-5x, depending on your phone) for details high up that you cannot get close to.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. It sits right at the house, so the subject is with you rather than across the street. Use the doorway or the front of the building as your main subject and move a step or two sideways to find the cleanest angle.",
+    "how_to_frame": "Turn on gridlines and line up the doorframe or the edges of the building with the vertical lines so it looks straight. Put a bright doorway or window at one side and an interesting detail in the foreground to give depth. For details, move in close, or use 2x and above, and keep the frame simple.",
+    "phone_settings_tip": "Tap to focus on your main subject, then slide the exposure down slightly if bright areas look washed out. If the interior is dark, hold still and let night mode work if your phone offers it. Live Photos can help you pick the sharpest frame if someone walks through the shot.",
+    "best_time": "Visit when it is quieter and the light outside is softer, such as earlier in the day, for cleaner frames. Indoor light may be dim whatever the hour, so steady hands matter more than the time."
+   },
+   "access_note": "This is a heritage house that may be ticketed or have visiting rules, so check the official site before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": null
+ },
+ {
+  "rank": 5,
+  "name": "An Hoi Bridge",
+  "in_cut": true,
+  "label": "An Hoi Bridge",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 150,
+  "pin": [
+   108.326446,
+   15.876367
+  ],
+  "camera": [
+   108.326446,
+   15.876367
+  ],
+  "camera_source": "Researched viewpoint 'Bạch Đằng' (2 web pages); placed at the stretch of Bạch Đằng nearest the subject (our map tiles).",
+  "pin_note": "Position from OSM W1281365649 (An Hoi Bridge): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Bridge to An Hoi islet and the night market, with lantern views.",
+  "text": {
+   "description": "An Hoi Bridge crosses the Thu Bon river at the edge of Hoi An's Old Town, with the yellow An Hoi shophouses behind it in the side-on view. It works well for phone photos for two reasons. The bridge has a clear, graceful shape, and in the evening the lanterns and their reflection on the water give you a lot to frame.\n\nThe tip from guides and travel blogs is not to photograph it from the bridge itself, because from the deck you cannot see the bridge. Instead, stand on the Old Town riverbank, at the north-side approach, and shoot it side-on. From there the whole span fits in the frame, with its reflection in the river and the shophouses behind it. If you want a different picture, the bridge also suits a walk-through shot: lantern posts run away along the deck with people passing between them. Another option is the yellow Old Town waterfront, with its rooftops and boats on the river in the foreground.\n\nThe bridge gets busy and crowded in the evening, from about 19:00 to 21:00, so come a little earlier if you want a clear frame, and keep an eye on your belongings while you are there. The viewpoints come mostly from travel blogs, so use your own judgement on the ground.",
+   "geographic_location": "On the Thu Bon riverbank at the edge of Hoi An's Old Town, where the An Hoi shophouses face the water. The bank at the bridge's north-side approach is the best place for the photo.",
+   "directions_text": "Head for the Old Town riverbank, at the north end of the bridge. From the Old Town, follow the Thu Bon riverbank on foot until you reach the north-side approach; the bridge is then directly in front of you to the south. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) so the whole bridge, its reflection and the shophouses sit in one frame. Switch to ultra-wide (0.5x) if the bank is crowded and you cannot step back. Use telephoto (2x or more) for a closer shot of the lanterns on the deck.",
+    "where_to_stand": "Stand on Bạch Đằng (Old Town riverbank, at the bridge's north-side approach, facing the bridge side-on). The bridge seen side-on from the riverbank, with its reflection in the Thu Bon and the An Hoi shophouses behind it. From there the bridge is seen side-on, with its reflection in the Thu Bon and the An Hoi shophouses behind it.",
+    "how_to_frame": "Turn on gridlines and put the bridge along the lower third, with the water below it so the reflection is included. Keep the phone level so the bridge doesn't lean. For a second picture, try the Nguyễn Phúc Chu waterfront for the yellow rooftops and boats, or walk onto the deck for the lantern posts with people between them.",
+    "phone_settings_tip": "Tap on the bridge to focus, then drag the exposure slider down a little so the lanterns stay bright and the sky keeps its colour. As the light fades, use night mode and hold the phone still, resting your elbows on something solid if you can.",
+    "best_time": "17:30–18:30, when the lanterns are on and the sky still has colour. It is crowded from about 19:00 to 21:00."
+   },
+   "access_note": "The riverbank is a public street, and no closures or restrictions turned up.",
+   "claims_not_in_sources": [
+    "Night mode usually needs the phone held still for a second or two to give a sharp result.",
+    "Lowering the exposure slider helps keep bright lanterns from burning out against a darker scene."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "Steffen Schmitz (more photos)",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:H%E1%BB%99i_An,_Ancient_Town,_2020-01_CN-06.jpg",
+   "from": "Wikidata Q36160 main image, found by searching Wikipedia for the spot's name ('Hội An (city)'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Hoi An Museum",
+  "in_cut": true,
+  "label": "Hoi An Museum",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 120,
+  "pin": [
+   108.3293172,
+   15.8802861
+  ],
+  "camera": [
+   108.329317,
+   15.880286
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/565592419: the middle of the OpenStreetMap outline 'Hoi An Museum' (57 m across).",
+  "notes": "Museum of local history and culture on Trần Phú street.",
+  "text": {
+   "description": "The Hội An Museum, also known as the Hội An Museum of History and Culture, is a history museum at 10B Trần Hưng Đạo. It was founded in 1989, so it has been part of the town's story for several decades. On the map its outline is about 57 m across, which makes it a fairly compact building to photograph. That suits a phone well.\n\nIt works as a photo stop because you can capture the front of the building in a single frame and then step in closer for details. Look for the textures of the walls, the doorway, any signs and the way people pass the entrance. A simple, straight-on shot of the frontage makes a good record of the visit. A second, closer picture with a person walking past gives a sense of scale.\n\nFor practical advice, switch on the gridlines so the walls and roofline stay straight. If you can't fit the whole building in, use the ultra-wide lens (0.5x), but keep it level to avoid leaning edges. Use the default lens (1x) for a natural view and the telephoto (2x or more, depending on your phone) for details. Tap the brightest wall to set focus and slide the exposure down a touch if the sky looks washed out. Whether you can go inside, and which parts you may photograph, can change, so check the official site before you go.",
+   "geographic_location": "The museum is at 10B Trần Hưng Đạo, Hội An, Vietnam.",
+   "directions_text": "No station or tram stop is listed for this spot, so navigate directly to 10B Trần Hưng Đạo using your phone's maps app. Once on that street, look for the museum frontage. The phone icon on the map is at the building itself, so you don't need to walk any further. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the frontage. Switch to the ultra-wide (0.5x) if you can't fit the whole building in, and use the telephoto (2x-5x, depending on your phone) for doors, signs and wall details.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Move to wherever you can get a clear view of the frontage, then take your first photo.",
+    "how_to_frame": "Turn on gridlines and line up the roofline with a horizontal grid line. Keep the phone upright and level so the walls don't lean. Take one wide shot of the whole building, then a closer shot of the entrance or a detail. Wait for a gap in passers-by, or include one person on purpose for scale.",
+    "phone_settings_tip": "Tap the building to focus, then drag the exposure slider down slightly if the sky is bright, so the walls keep their colour. If the light is flat, try HDR if your phone offers it.",
+    "best_time": "Morning or late afternoon usually gives softer light and fewer harsh shadows on the frontage. An overcast day also keeps the exposure even."
+   },
+   "access_note": "This is a museum, so entry rules and any ticketing may apply; check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Hội An Museum",
+    "url": "https://en.wikipedia.org/wiki/H%E1%BB%99i_An_Museum"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "Mztourist",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hoi_An_Museum_main_building.jpg",
+   "from": "Wikidata Q114397271 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Museum of Trade Ceramics",
+  "in_cut": false,
+  "label": "Trade Ceramics Museum",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 100,
+  "pin": [
+   108.32972222,
+   15.87722222
+  ],
+  "camera": [
+   108.329722,
+   15.877222
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from Wikidata Q6941034: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Old merchant house displaying ceramics found in Hoi An.",
+  "text": {
+   "description": "The Museum of Trade Ceramics sits in the old quarter of Hoi An, in central Vietnam. It tells the story of the town and the wider region through the trade that once linked it with China, India, Japan, the Philippines and Thailand. The museum is housed in a carefully restored traditional wooden house, and that building is the main reason to bring your phone out. Its timber structure and old-quarter character have been compared with houses in Kyoto, partly because of the design similarities and the town's historically important Japanese trading community.\n\nFor photographs, the appeal is the building itself: dark timber, traditional proportions and the feel of a working old-town street. The phone icon on the map marks the museum itself, so treat it as a starting point rather than a fixed viewpoint. From there, step back along the street, as space allows, to fit the frontage in, keeping the whole width of the house in view. Then step in closer for details such as carved wood, doorways and roof edges. Old-quarter streets are often narrow, so the ultra-wide lens (0.5x) helps you fit the façade in, but keep the phone level to avoid leaning walls. If you go inside, check the official site before you go for any rules on photography in the galleries, and be considerate of other visitors and of the displays.",
+   "geographic_location": "In Hoi An's old quarter, in central Vietnam, set among the traditional wooden houses of the historic town centre.",
+   "directions_text": "Plan to walk the last stretch within the old quarter of Hoi An to reach the phone icon on the map. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the frontage. Switch to the ultra-wide (0.5x) if the street is too narrow to fit the whole house in. Use telephoto (2x-5x, depending on your phone) for carved details and roof edges.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Step back along the street, as space allows, to fit the restored wooden house into your frame.",
+    "how_to_frame": "Turn on gridlines and line the vertical edges of the house up with them so the walls stay straight. Include a little of the street at the bottom for a sense of place, then take a second, closer shot of a doorway or timber detail.",
+    "phone_settings_tip": "Tap on the wooden façade to set focus, then slide the exposure down slightly if bright sky is making the timber look dull and dark. Portrait mode can work for a close detail shot, but keep an eye on the edges.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people in the street, though it is worth checking the museum's own times on the official site."
+   },
+   "access_note": "This is a museum in a historic building and is likely to be a ticketed site, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Museum of Trade Ceramics",
+    "url": "https://en.wikipedia.org/wiki/Museum_of_Trade_Ceramics"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Steffen Schmitz (more photos)",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:H%E1%BB%99i_An,_Museum_of_Trade_Ceramics,_2020-01_CN-02.jpg",
+   "from": "Wikidata Q6941034 main image"
+  }
+ },
+ {
+  "rank": 102,
+  "name": "Kim Bồng woodworking village",
+  "in_cut": false,
+  "label": "Kim Bong Village",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 0,
+  "pin": [
+   108.314,
+   15.867
+  ],
+  "camera": [
+   108.314,
+   15.867
+  ],
+  "camera_source": "Researched viewpoint 'Cam Kim Bridge' (2 web pages); placed at OpenStreetMap 'Cầu Cẩm Kim 2' (way/874812783): point nearest the subject (745 m long).",
+  "pin_note": "Position from Wikidata Q12061003: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Historic carpenters' village reached by a short ferry or road.",
+  "text": {
+   "description": "Kim Bồng is a working woodcarvers' village on the island side of the Thu Bồn River, in Cẩm Kim commune. It was settled in the 15th century and was at its busiest in the 18th, when its craftsmen built ghe bầu (large sailing boats) for Hội An's trading port and carved detail for buildings in Huế. By 2008 the village had over 200 woodworkers and 18 carving companies, and many of them help restore old buildings. The name means 'yellow floating', after jackfruit wood said to drift down the river. The village photographs well because the craft is visible. Open-fronted workshops show chisels and planes at work, finished carved pieces are on display, and boats are built and mended on the riverbank. This map takes you to Cam Kim Bridge first. From the middle of the span you get a wide view up and down the river and the island's banks, which sets the scene before you cross to the village. The village itself is not clearly visible from the bridge. Once there, keep clear of tools, and ask before photographing anyone at work. Some visitors pay to enter parts of the village, so check at the entrance and confirm opening and access details on arrival.",
+   "geographic_location": "Kim Bồng is in Cẩm Kim commune, on the island side of the Thu Bồn River, near Hội An.",
+   "directions_text": "The village lies about 1 km to the south-east of the bridge, roughly a 15-minute walk. If you would rather ride all the way, ask for 'Kim Bồng carpentry village'. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) for the full sweep of river and banks, and the default lens (1x) for a calmer, more natural view. If you reach the workshops, the telephoto (2x-5x, depending on your phone) lets you capture carved details without standing over the craftsmen.",
+    "where_to_stand": "Stand on Cam Kim Bridge (middle of the span, looking up and down the Thu Bon River). A wide view of the Thu Bon River and the island's riverbanks, with the village reached on the island side of the crossing. From here you look up and down the Thu Bồn River, with the island's riverbanks on one side. The village is to the south-east and is not clearly visible, so treat this as the opening shot and then walk or ride on.",
+    "how_to_frame": "Turn on gridlines and place the river along a lower third, leaving the sky and far bank above. Hold the phone at the rail, keeping the railing and any passing traffic out of the corners. In the village, an alternative is to shoot the riverbank shipyards, where wooden boats are built and repaired, or the open-fronted workshops. Ask before photographing people, and keep clear of tools.",
+    "phone_settings_tip": "Tap the water or sky to focus, then slide the exposure down a little so the sunset sky keeps its colour. Use a Live Photo if a boat passes. In workshops, tap on the carving rather than the bright doorway.",
+    "best_time": "Sunset, according to one guide, when the view from the bridge is said to be especially striking. Workshops are best visited in daylight."
+   },
+   "access_note": "Cam Kim Bridge is a free public crossing, but parts of the village are reported to charge entry and the workshops and shipyards are working sites, so check at the entrance and confirm opening and access details on arrival.",
+   "claims_not_in_sources": [
+    "Cam Kim Bridge is reached from Hội An by road.",
+    "The village is roughly a 15-minute walk from the bridge, estimated from the straight-line distance of about 1 km.",
+    "Gridlines and tapping to focus, with the exposure slider, will help balance a bright sunset sky over the river.",
+    "Workshops are easier to visit and photograph in daylight."
+   ]
+  },
+  "checker_problems": 6,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Kim Bồng woodworking village",
+    "url": "https://en.wikipedia.org/wiki/Kim_B%E1%BB%93ng_woodworking_village"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (1049 m)"
+  ],
+  "at_spot": false,
+  "photo": null
+ }
+]
