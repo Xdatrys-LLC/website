@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "sandiego", "title": "San Diego: 18 photo spots (pilot review)", "place": "San Diego", "bounds": [-117.27, 32.665, -117.13, 32.76], "center": [-117.19999999999999, 32.7125], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/sandiego/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "kotor", "title": "Kotor: 6 photo spots (pilot review)", "place": "Kotor", "bounds": [18.76, 42.416, 18.782, 42.432], "center": [18.771, 42.424], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/kotor/{z}/{x}/{y}.pbf"};
