@@ -163,61 +163,6 @@
  },
  {
   "rank": 4,
-  "name": "Valparaiso Downtown Commercial District",
-  "in_cut": true,
-  "label": "Downtown Valparaiso",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 30,
-  "pin": [
-   -87.06,
-   41.4675
-  ],
-  "camera": [
-   -87.06,
-   41.4675
-  ],
-  "camera_source": "Researched viewpoint 'Central Park Plaza' (3 web pages); placed at our map tiles: 'Central Park' (pois).",
-  "pin_note": "Position from Wikidata Q7912571: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Historic Franklin Street area with shops and cafes.",
-  "text": {
-   "description": "Valparaiso's downtown is a working town centre, not a museum piece. Shops, restaurants, offices and local government sit together in a compact grid of old commercial buildings. The district is anchored on the Porter County Courthouse and covers 14 blocks around the square, between Jefferson, Morgan, Monroe and Napoleon Streets. For a phone photographer the appeal is the mix: late-1800s and early-1900s commercial buildings, some in limestone, shaded pavements and a lively street scene, all within a few minutes' walk.\n\nThe courthouse is the one to look for. The current building dates from 1885 and was restored after a fire in 1934 destroyed its distinctive clock tower. The town was founded as Portersville in 1836 and renamed the following year, after Commodore David Porter's last battle off the Chilean port of Valparaíso.\n\nThe best starting point is Central Park Plaza, a grassy open space with walkways and storefronts on every side. It gives you a wide, relaxed view of the town with plenty of room to step back. The Orville Redenbacher statue at the plaza's north end makes a friendly foreground for a souvenir shot. Courthouse Square and the long view along Lincolnway are good alternatives once you have your first frames.\n\nKeep the phone level so the building lines stay straight, and take a few frames at different distances. Look for details such as arched bank windows and stone pillars as well as the wide view.",
-   "geographic_location": "In the centre of Valparaiso, Indiana, around the Porter County Courthouse square. The district runs between Jefferson, Morgan, Monroe and Napoleon Streets, and Central Park Plaza is about 150 m west of the centre of the district.",
-   "directions_text": "No Underground, train or tram stops are listed for this spot, so head for the centre of Valparaiso, by taxi or hired scooter, and aim for the courthouse square. Walk east through the streets of old shopfronts and you will reach the square. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the ultra-wide (0.5x) to take in the plaza and the buildings around it, then use the default lens (1x) for a more natural look at the storefronts. Use the telephoto (2x-5x, depending on your phone) to pick out courthouse and bank details from a distance.",
-    "where_to_stand": "Stand in Central Park Plaza (the open lawn and walkways, looking back toward the surrounding downtown buildings). A grassy open space with walkways, with the downtown storefronts and buildings surrounding it on every side. Out on the open lawn or along the walkways, and turn back to face the downtown buildings that surround it. From here you see grass and paths in front of you and the storefronts closing the frame on every side, with the centre of the district to the east.",
-    "how_to_frame": "Turn on gridlines and keep the horizon level, so the building edges stay upright. Use the paths as leading lines towards the buildings, and keep some lawn in the lower part of the frame. For a people shot, use portrait mode with the Orville Redenbacher statue at the north end of the plaza. For another view, try Courthouse Square for the courthouse framed by the old commercial blocks, or look down Lincolnway for a long view of the main street.",
-    "phone_settings_tip": "Tap on the buildings to set focus, then slide the exposure down a little if the sky is bright, so the stone and building fronts keep their colour. Try a panorama for the full sweep of the plaza, moving slowly and keeping the phone upright.",
-    "best_time": "Morning or late afternoon usually gives softer light on the fronts, and the plaza is often quieter earlier in the day."
-   },
-   "access_note": "Central Park Plaza is an open public park; check the official site before you go, as events can change how the plaza is set up."
-  },
-  "checker_problems": 4,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Valparaiso Downtown Commercial District",
-    "url": "https://en.wikipedia.org/wiki/Valparaiso_Downtown_Commercial_District"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/4.jpg",
-   "artist": "Chris Light (talk)",
-   "licence": "CC BY-SA 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Franklin_east_of_Courthouse(CLight).jpg",
-   "from": "Wikidata Q7912571 main image"
-  }
- },
- {
-  "rank": 5,
   "name": "Christopher Center",
   "in_cut": true,
   "label": "Christopher Center",
@@ -265,7 +210,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "Chris Light at English Wikipedia",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -274,9 +219,64 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 101,
+  "name": "Valparaiso Downtown Commercial District",
+  "in_cut": false,
+  "label": "Downtown Valparaiso",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 30,
+  "pin": [
+   -87.06,
+   41.4675
+  ],
+  "camera": [
+   -87.06,
+   41.4675
+  ],
+  "camera_source": "Researched viewpoint 'Central Park Plaza' (3 web pages); placed at our map tiles: 'Central Park' (pois).",
+  "pin_note": "Position from Wikidata Q7912571: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Historic Franklin Street area with shops and cafes.",
+  "text": {
+   "description": "Valparaiso's downtown is a working town centre, not a museum piece. Shops, restaurants, offices and local government sit together in a compact grid of old commercial buildings. The district is anchored on the Porter County Courthouse and covers 14 blocks around the square, between Jefferson, Morgan, Monroe and Napoleon Streets. For a phone photographer the appeal is the mix: late-1800s and early-1900s commercial buildings, some in limestone, shaded pavements and a lively street scene, all within a few minutes' walk.\n\nThe courthouse is the one to look for. The current building dates from 1885 and was restored after a fire in 1934 destroyed its distinctive clock tower. The town was founded as Portersville in 1836 and renamed the following year, after Commodore David Porter's last battle off the Chilean port of Valparaíso.\n\nThe best starting point is Central Park Plaza, a grassy open space with walkways and storefronts on every side. It gives you a wide, relaxed view of the town with plenty of room to step back. The Orville Redenbacher statue at the plaza's north end makes a friendly foreground for a souvenir shot. Courthouse Square and the long view along Lincolnway are good alternatives once you have your first frames.\n\nKeep the phone level so the building lines stay straight, and take a few frames at different distances. Look for details such as arched bank windows and stone pillars as well as the wide view.",
+   "geographic_location": "In the centre of Valparaiso, Indiana, around the Porter County Courthouse square. The district runs between Jefferson, Morgan, Monroe and Napoleon Streets, and Central Park Plaza is about 150 m west of the centre of the district.",
+   "directions_text": "No Underground, train or tram stops are listed for this spot, so head for the centre of Valparaiso, by taxi or hired scooter, and aim for the courthouse square. Walk east through the streets of old shopfronts and you will reach the square. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the plaza and the buildings around it, then use the default lens (1x) for a more natural look at the storefronts. Use the telephoto (2x-5x, depending on your phone) to pick out courthouse and bank details from a distance.",
+    "where_to_stand": "Stand in Central Park Plaza (the open lawn and walkways, looking back toward the surrounding downtown buildings). A grassy open space with walkways, with the downtown storefronts and buildings surrounding it on every side. Out on the open lawn or along the walkways, and turn back to face the downtown buildings that surround it. From here you see grass and paths in front of you and the storefronts closing the frame on every side, with the centre of the district to the east.",
+    "how_to_frame": "Turn on gridlines and keep the horizon level, so the building edges stay upright. Use the paths as leading lines towards the buildings, and keep some lawn in the lower part of the frame. For a people shot, use portrait mode with the Orville Redenbacher statue at the north end of the plaza. For another view, try Courthouse Square for the courthouse framed by the old commercial blocks, or look down Lincolnway for a long view of the main street.",
+    "phone_settings_tip": "Tap on the buildings to set focus, then slide the exposure down a little if the sky is bright, so the stone and building fronts keep their colour. Try a panorama for the full sweep of the plaza, moving slowly and keeping the phone upright.",
+    "best_time": "Morning or late afternoon usually gives softer light on the fronts, and the plaza is often quieter earlier in the day."
+   },
+   "access_note": "Central Park Plaza is an open public park; check the official site before you go, as events can change how the plaza is set up."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Valparaiso Downtown Commercial District",
+    "url": "https://en.wikipedia.org/wiki/Valparaiso_Downtown_Commercial_District"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Chris Light (talk)",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Franklin_east_of_Courthouse(CLight).jpg",
+   "from": "Wikidata Q7912571 main image"
+  }
+ },
+ {
+  "rank": 102,
   "name": "Brauer Museum of Art",
-  "in_cut": true,
+  "in_cut": false,
   "label": "Brauer Museum of Art",
   "camera_pill": null,
   "nophone": false,
@@ -318,7 +318,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/102.jpg",
    "artist": "Thomas Alexander Harrison",
    "licence": "Public domain",
    "licence_url": "",

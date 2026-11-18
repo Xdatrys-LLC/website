@@ -1504,6 +1504,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "valparaiso",
+  "place": "Valparaiso",
+  "country": "United States",
+  "spots": 4,
+  "mb": 2.0,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "vancouver",
   "place": "Vancouver",
   "country": "Canada",
