@@ -8,23 +8,23 @@
   "nophone": false,
   "searches": 2340,
   "pin": [
-   -5.90611111,
-   35.80055556
+   -5.9256665,
+   35.7915279
   ],
   "camera": [
    -5.925667,
    35.791528
   ],
   "camera_source": "Researched viewpoint 'Phare de Cap Spartel' (2 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from the Wikipedia article 'Cape Spartel'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Headland where the Atlantic meets the Mediterranean, with the lighthouse.",
   "text": {
    "description": "Cape Spartel is the headland where Morocco's Atlantic coast meets the Strait of Gibraltar. It stands about 300 metres above the sea, some 12 km west of Tangier, and is the north-westernmost point of the African continent. The red-and-white lighthouse, built under Sultan Muhammad IV in 1864, sits at the end of a cliff. It is a good subject for a phone because the tower is simple and bold. The place is also known as the point where the Mediterranean and the Atlantic are said to meet, and Spain can be seen across the strait on a clear day. The whole site was renovated in 2020-2021 and now has a maritime museum, a restaurant and a botanical garden, so there is plenty to see before or after your photos. Keep a few paces back from any cliff edge, because it is windy and the rocks can be slippery. Hold the phone with both hands, and take a few frames of each view in case the wind makes you wobble.",
    "geographic_location": "Cape Spartel is on the Atlantic coast about 12 km west of Tangier, at the north-western tip of Morocco where the Strait of Gibraltar begins.",
-   "directions_text": "There are no Underground, rail or tram stops nearby, so reach the area by road via the National Road S701 from Tangier. The lighthouse is roughly 12 to 14 km from the city. The phone icon on the map is about 2 km south-west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "There are no Underground, rail or tram stops nearby, so reach the area by road via the National Road S701 from Tangier. The lighthouse is roughly 12 to 14 km from the city. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
-    "phone_lens": "Because the tower is about 2 km away from where you stand, a telephoto (2x-3x) is the best choice if your phone has one, as it picks out the tower against the sea and the sky. Otherwise use the default lens (1x) and accept that the tower will be small in the frame, which can work well for a sense of scale. Switch to the ultra-wide (0.5x) for the wider headland and a lot of sky, or for the signpost.",
-    "where_to_stand": "Stand about 2 km south-west of the subject, at the phone icon on the map, and face north-east. From here, look north-east to find the red-and-white tower on the headland. Keep well back from any cliff edge while you take your shots.",
+    "phone_lens": "Otherwise use the default lens (1x) and accept that the tower will be small in the frame, which can work well for a sense of scale. Switch to the ultra-wide (0.5x) for the wider headland and a lot of sky, or for the signpost.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here, look north-east to find the red-and-white tower on the headland. Keep well back from any cliff edge while you take your shots.",
     "how_to_frame": "Turn on the gridlines and put the tower on one of the vertical lines, with the horizon on a horizontal line so the sea stays level. Leave some empty space beside the tower to give a sense of the distance. As an alternative, find the Cap Spartel sign, which shows the Atlantic on one side and the Mediterranean on the other. On a clear day Spain may show in the distance.",
     "phone_settings_tip": "Tap on the tower to focus, then slide the exposure down a little so the white parts and the sky keep their detail. Take a few shots in a row because of the wind, and keep your elbows tucked in to stay steady.",
     "best_time": "Choose a clear day, and check on your screen where the sun sits before you shoot, so that it is not shining straight into your lens as you look towards the tower."
@@ -45,9 +45,7 @@
     "url": "https://en.wikipedia.org/wiki/Cape_Spartel"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 2029 m away (Cape Spartel): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": {
    "file": "photos/1.jpg",
@@ -392,15 +390,15 @@
   "nophone": true,
   "searches": 240,
   "pin": [
-   -5.80944444,
-   35.78555556
+   -5.8235698,
+   35.7661083
   ],
   "camera": [
-   -5.80944444,
-   35.78555556
+   -5.8235698,
+   35.7661083
   ],
   "camera_source": "Researched viewpoint 'Rue de la Marine' (2 web pages); placed at the stretch of Rue de la Marine nearest the subject (our map tiles).",
-  "pin_note": "Position from the Wikipedia article 'Grand Mosque of Tangier'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Main mosque of the medina.",
   "text": {
    "description": "The Grand Mosque of Tangier is the main Friday mosque of the old medina, and its green-and-white tiled front is one of the most photogenic faces on the street. The doorway has radiating geometric patterns, green colouring and a wooden canopy, much of it still from the early 1800s. The minaret stands at the western corner. It is a square tower with blind arches picked out in white stucco, and green tiles and multicoloured mosaics fill the spaces between them. The site is old. It is believed to have held a Roman temple and later a church before becoming a mosque. Sultan Moulay Slimane had the building rebuilt in 1817-18, and the present mosque still follows that work. Across the street from the entrance is a public fountain with tile mosaic set in a horseshoe arch, which makes a good foreground detail. The mosque is in use and closed to non-Muslims, so the photo is taken from the street, looking up at the façade and minaret. If you cannot step back far enough to fit the building in, use the ultra-wide lens. Borj el Marsa is a nearby port terrace said to combine the mosque with the old port, Tangier Bay and the Strait of Gibraltar. Wherever you stand, keep the minaret upright by using the gridlines, and leave a little space above it so the top is not cut off.",
@@ -425,10 +423,7 @@
     "url": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Tangier"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (2525 m)",
-   "OpenStreetMap object 2510 m away (Grand Mosque of Tangier): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/8.jpg",
@@ -630,7 +625,7 @@
    "directions_text": "No Underground or tram stops are listed nearby, so head for the Marshan neighbourhood by taxi or hired scooter and ask for Mohammed Tazi Street. Keep the Marshan Palace across the street as your landmark. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for the building in its setting. Switch to the ultra-wide (0.5x) only if a wall or the street leaves you too close, and use telephoto (2x-5x) for roofs, gateways and details you can't approach.",
-    "where_to_stand": "Stay on the public street side.",
+    "where_to_stand": "Stand on Rue Shakespeare (outside the main entrance, facing the palace's street front). The palace's white street-side facade and entrance gate, with the Marshan hillside and the palace grounds behind it. Stay on the public street side.",
     "how_to_frame": "Include the boundary wall or gate and the trees behind it to show the scale of the grounds. Turn on gridlines and line up the wall or rooflines with them so the building does not lean. Take one wide frame and one tighter telephoto frame of the architecture.",
     "phone_settings_tip": "Tap to focus on the building, then drag the exposure slider down slightly if the sky is bright, so the walls keep their colour. Hold the phone steady with both hands.",
     "best_time": "Morning or late afternoon usually gives softer, more even light on walls than midday sun."

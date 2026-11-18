@@ -1320,6 +1320,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "tangier",
+  "place": "Tangier",
+  "country": "Morocco",
+  "spots": 12,
+  "mb": 3.4,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "terredehaut",
   "place": "Terre-de-Haut",
   "country": "Guadeloupe",
