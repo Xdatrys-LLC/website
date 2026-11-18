@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "beijing", "title": "Beijing: 19 photo spots (pilot review)", "place": "Beijing", "bounds": [116.34, 39.872, 116.44, 40.002], "center": [116.39, 39.937], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/beijing/{z}/{x}/{y}.pbf"};
