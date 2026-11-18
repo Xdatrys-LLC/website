@@ -1248,6 +1248,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "tahiti",
+  "place": "Tahiti",
+  "country": "French Polynesia",
+  "spots": 5,
+  "mb": 8.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "takamatsu",
   "place": "Takamatsu",
   "country": "Japan",

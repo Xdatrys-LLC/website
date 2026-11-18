@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "tahiti", "title": "Tahiti: 5 photo spots (pilot review)", "place": "Tahiti", "bounds": [-149.64, -17.88, -149.22, -17.47], "center": [-149.43, -17.674999999999997], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/tahiti/{z}/{x}/{y}.pbf", "tz": "Pacific/Tahiti", "rail": false, "app": true};
