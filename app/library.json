@@ -136,6 +136,14 @@
   "photo": null
  },
  {
+  "key": "boston",
+  "place": "Boston",
+  "country": "United States",
+  "spots": 20,
+  "mb": 10.2,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "boulder",
   "place": "Boulder",
   "country": "United States",
