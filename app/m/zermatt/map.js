@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "zermatt", "title": "Zermatt: 9 photo spots (pilot review)", "place": "Zermatt", "bounds": [7.645, 45.97, 7.8, 46.03], "center": [7.7225, 46.0], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/zermatt/{z}/{x}/{y}.pbf", "tz": "Europe/Zurich", "rail": true, "app": true};

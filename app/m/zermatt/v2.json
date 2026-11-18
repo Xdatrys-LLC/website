@@ -1,0 +1,479 @@
+{
+ "Matterhorn": {
+  "rank": 1,
+  "card": {
+   "hook": "The Matterhorn is a show-off: one sharp pyramid, nothing crowding it, sitting above the glaciers like it knows you've got a phone out. Your only job is to not cut off the tip.",
+   "stand_here": "Head to Mürini, the top of the Mürini hill in Le Petit Village on the northeast edge of Zermatt (the official site calls it Viewpoint Riedweg). Face south-west and you'll have the wooden chalets in front of you with the mountain rising behind them.",
+   "zoom": "Start at zoom 1x to get chalet rooftops and peak together, then go to zoom 5x (if your phone has it) to fill the screen with the summit. Only use zoom 0.5x if you have a really strong foreground, because it makes the mountain look small.",
+   "make_it_pop": "Turn on the gridlines, put the summit on an upper crossing, then tap the mountain and slide the brightness down a touch so the snow keeps its detail.",
+   "best_time": "Pick a clear moment and check the forecast first. If cloud is sitting on the top, wait a few minutes, because it often shifts. A Live Photo, if your phone has it, helps you catch the moment it clears.",
+   "selfie_here": "Stand beside the gold-painted locomotive 3003 at the Golden Spot on the Gornergrat platform area, reached by the overpass over the railway tracks. It's set up as a photo point with the Matterhorn in the background, so use the front camera and keep the peak over your shoulder.",
+   "ask_someone": "Hand your phone to someone on the Kirchbrücke (church bridge) over the Vispa, near the church, where the peak is framed down the main street, and ask them to get the whole mountain in.",
+   "rules_and_safety": "Check local rules and official guidance for access. Kirchbrücke fills up quickly, so be ready to share the spot.",
+   "challenge": "Find something close, like a fence, a rooftop or a street lamp, and put it in front of the peak. Then take one wide shot and one zoomed shot from the same spot.",
+   "good_to_know": "The Matterhorn stands 4,478 metres high on the border between Switzerland and Italy. The first ascent was made from Zermatt in 1865. It has been claimed to be the most photographed mountain in the world.",
+   "stand_here_before_gps_rule": "Head to Mürini, the top of the Mürini hill in Le Petit Village on the northeast edge of Zermatt (the official site calls it Viewpoint Riedweg). Face south-west and you'll have the wooden chalets in front of you with the mountain rising behind them."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Golden Spot (gilded locomotive 3003) at the Gornergrat summit area",
+     "detail": "beside the restored gold-painted historic locomotive 3003, on the Gornergrat platform area reached by the overpass over the railway tracks",
+     "why": "The gilded locomotive is set up as a photo point with the Matterhorn in the background, so a visitor standing beside it gets the peak behind them.",
+     "sources": [
+      {
+       "title": "Photopoints Zermatt - the most beautiful places for Matterhorn photos",
+       "url": "https://zermatt.swiss/en/discover-experience/villages/zermatt/photopoints"
+      },
+      {
+       "title": "The 38 best photo spots in Zermatt",
+       "url": "https://wanderlog.com/list/geoCategory/160788/-best-photo-spots-in-zermatt"
+      }
+     ]
+    },
+    {
+     "name": "Bench at Stafelalp (north face view)",
+     "detail": "on the bench at Stafelalp, reached on foot from Schwarzsee towards Stafel (in winter via piste 52)",
+     "why": "The page suggests sitting on this bench with the north face in view and using a camera timer for a bench selfie, so the mountain stays behind the visitor.",
+     "sources": [
+      {
+       "title": "The 5 Best Matterhorn Photo Spots in Zermatt - Matterhorn Chalets",
+       "url": "https://www.matterhornchalets.com/2021/04/20/the-5-best-matterhorn-photo-spots-in-zermatt/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Kirchbrücke (Church Bridge) over the Vispa, Zermatt village",
+    "detail": "on the church bridge near the church and Mountaineers' Cemetery, with the peak framed down the main street; the passer-by should stand on the bridge so the whole mountain fits in the frame (standing point inferred, not stated by the source)",
+    "sources": [
+     {
+      "title": "The Best Matterhorn Viewpoints in Zermatt (Free Spots, Lifts & Lakes) - Discover Zermatt",
+      "url": "https://discoverzermatt.com/matterhorn-viewpoints-zermatt/"
+     },
+     {
+      "title": "Matterhorn Viewpoints Zermatt: Top Scenic Spots",
+      "url": "https://www.myswisstravelpass.com/destinations-travel-tips-comparisons/matterhorn-viewpoints-zermatt-top-scenic-spots/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found states rules about selfie sticks or tripods, so none are reported. The Stafelalp bench selfie comes from a 2021 blog and its wording is ambiguous about where the camera sits relative to the mountain; check it on arrival. The passer-by standing point on Kirchbrücke is inferred from the framing described by the sources, not given by them. The Golden Spot selfie is a close match to the requested backdrop, but no page describes a selfie pose there specifically. Several sources note that Kirchbrücke and Stellisee fill up quickly and that Stellisee and Riffelsee need calm, clear weather."
+  },
+  "cost_usd": 0.0529,
+  "at": "2026-11-18 12:23"
+ },
+ "Gornergrat": {
+  "rank": 2,
+  "card": {
+   "hook": "You step off the little red train at 3,135 m and the sky is basically all mountains. There are 29 peaks over 4,000 m in view, so you'll probably say \"wow\" at least twice before you even get your phone out.",
+   "stand_here": "Stand right at Gornergrat itself, where the phone icon on the map sits, and face the mountains and the Gorner Glacier. Take a few steps along the ridge until people and buildings aren't in your way.",
+   "zoom": "Start at zoom 0.5x to fit the glacier and the whole line of peaks in one go, then 1x for a natural view. Try 2x or 5x (depending on your phone) to pick out the Matterhorn on its own.",
+   "make_it_pop": "Tap the Matterhorn, then slide the brightness down a touch so the snow and glacier stay detailed instead of turning plain white.",
+   "best_time": "Clear mornings are often your best bet, before cloud builds around the peaks. Mountain weather changes fast though, so check the forecast on the day and grab a few frames whenever the peaks clear.",
+   "selfie_here": "Head to the Grand Tour photo frame at Gornergrat station and stand with the Matterhorn behind you. The Gornergrat site says it's free and open all year. Use your front camera (try 0.5x if your phone has it) and tuck the mountain over your shoulder.",
+   "ask_someone": "Stand beside the gilded historic locomotive 3003 at Gornergrat station (the Golden Spot) with the Matterhorn behind you, and ask a fellow traveller to take your picture.",
+   "rules_and_safety": "Wind can be strong at the top, so hold onto your hat and your phone, and use both hands when you shoot. Check the official railway site before you go for running times and ticket details.",
+   "challenge": "Find a bit of ridge rock or a railing for the foreground, then see if you can make the Matterhorn look huge behind it. Bonus points if a friendly stranger ends up in the shot for scale.",
+   "good_to_know": "The Gornergrat rack railway opened in 1898 and is the highest open-air railway in Europe. It climbs almost 1,500 m from Zermatt. Near the top, the Kulm Hotel's two towers have housed astronomical observatories since the late 1960s, which makes a good second subject.",
+   "stand_here_before_gps_rule": "Stand right at Gornergrat itself, where the phone icon on the map sits, and face the mountains and the Gorner Glacier. Take a few steps along the ridge until people and buildings aren't in your way."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Grand Tour photo frame, Gornergrat station",
+     "detail": "at the Grand Tour selfie frame at Gornergrat station, with the Matterhorn behind you (the Gornergrat site says the frame is free and open all year)",
+     "why": "The Gornergrat Railway's own influencer guide lists it as a dedicated selfie frame with the Matterhorn in the background.",
+     "sources": [
+      {
+       "title": "Influencer Guide Gornergrat",
+       "url": "https://www.gornergrat.ch/en/pages/influencer-guide"
+      }
+     ]
+    },
+    {
+     "name": "Matterhorn Photo Point, Gornergrat Railway Station",
+     "detail": "behind the station building, on the right, where a red frame and a camera stand",
+     "why": "A free self-service photo point with a red frame and camera gives you a Matterhorn background without needing another person to shoot.",
+     "sources": [
+      {
+       "title": "11 Top Things to Do in Gornergrat (Zermatt, Switzerland) +Our Tips",
+       "url": "https://fullsuitcase.com/gornergrat-switzerland/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Golden Spot, Gornergrat station",
+    "detail": "beside the gilded historic locomotive 3003 at Gornergrat station, with the Matterhorn in the background",
+    "sources": [
+     {
+      "title": "Golden Spot",
+      "url": "https://zermatt.swiss/en/p/golden-spot-01tVj000005DnheIAC"
+     },
+     {
+      "title": "Influencer Guide Gornergrat",
+      "url": "https://www.gornergrat.ch/en/pages/influencer-guide"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Wind can be strong at the top, so hold onto hats and phones.",
+   "notes": "No page I found states rules about selfie sticks or tripods, so none are listed. The Grand Tour frame and the Matterhorn Photo Point may be the same spot described by different sites; I did not confirm this. The Golden Spot is a locomotive, not a selfie frame, and I found no page that names a spot where a passer-by can photograph a visitor with the whole Gornergrat station in frame. The fullsuitcase page is older (56 days) and says photos from the Photo Point carry watermarks."
+  },
+  "cost_usd": 0.0506,
+  "at": "2026-11-18 12:23"
+ },
+ "Zermatt railway station": {
+  "rank": 3,
+  "card": {
+   "hook": "You've just stepped off the train into car-free Zermatt, and your phone is already up. Hold on: the best first Matterhorn photo isn't at the station, it's a few minutes' walk away.",
+   "stand_here": "Walk up Bahnhofstrasse to Kirchplatz, a few minutes' walk from the station, and stand on the church steps or the Community Centre terrace. Face south, and the station is a short walk east, to your left.",
+   "zoom": "Start at 1x so the Matterhorn and the old wooden houses fit in one frame. If the peak looks small, step up to 2x to bring it closer.",
+   "make_it_pop": "Turn on the gridlines, put the Matterhorn on one of the upper crossing points, let the dark timber houses fill the bottom, and keep your phone level so the roofs don't slope.",
+   "best_time": "Early morning or late afternoon usually means softer light and fewer people on the steps. If cloud is hiding the peak, wait a few minutes and check again.",
+   "selfie_here": "Flip to the front camera, switch to 0.5x, and hold your phone a little higher than usual so the Matterhorn and the timber houses squeeze in over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "The station is a working railway station, so check the official site for any access or filming restrictions on platforms. Kirchplatz and the Community Centre terrace are open to the public.",
+   "challenge": "Back at the station, snap a Live Photo of a train coming or going, then see if you can find the same train in your Matterhorn shot's story later.",
+   "good_to_know": "Zermatt station is the southern end of the metre-gauge line up from Visp and Brig, and several Glacier Express trains start or finish here each day. A shuttle runs to nearby Täsch every twenty minutes, so there's usually a train coming or going. The Gornergrat Railway's valley station is directly across the street.",
+   "stand_here_before_gps_rule": "Walk up Bahnhofstrasse to Kirchplatz, a few minutes' walk from the station, and stand on the church steps or the Community Centre terrace. Face south, and the station is a short walk east, to your left."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a selfie spot with the Zermatt railway station itself behind the visitor, so I have left selfie_spots empty rather than guess. Closest finds: (a) fullsuitcase.com (11 Top Things to Do in Gornergrat) names a Matterhorn Photo Point behind and to the right of the Gornergrat Railway station, with a red frame and a camera. That is the Gornergrat summit station, about 33 minutes up the line, not the Zermatt station, so I did not use it as a selfie spot. (b) fullsuitcase.com and tourism pages say the Gornergrat Railway departs from a station directly across the street from the main Zermatt station; that is a location reference, not a photo spot. (c) waves of ontario (wavesofontario.com) says the centre of Zermatt by the train station offers a wide-open Matterhorn view, but names no exact spot. No ask-someone spot is named for a photo of the visitor with the whole station in frame. Sources consulted: blog.zermatt.ch, matterhornchalets.com, swissphotospots.com, chasinghippoz.com, rexby.com, fullsuitcase.com, wavesofontario.com. A direct check of local tourism pages for a photo point at the Zermatt station forecourt may still be worthwhile."
+  },
+  "cost_usd": 0.044,
+  "at": "2026-11-18 12:24"
+ },
+ "Zermatt–Sunnegga Funicular": {
+  "rank": 4,
+  "card": {
+   "hook": "Here's the twist with this funicular: it runs underground, so there's no dramatic line of track to photograph. What you get instead is a real Zermatt moment, with people arriving and heading up for the mountains.",
+   "stand_here": "Walk about 280 m south-west of the stand-here point to the station entrance on Vispastrasse 34. Face the entrance and keep a bit of village street around it.",
+   "zoom": "Start at zoom 1x for a natural view of the entrance. If the street feels narrow, try zoom 0.5x to fit the whole entrance in, and use zoom 2x for signs and details from a distance.",
+   "make_it_pop": "Turn on gridlines and line the entrance up with a vertical grid line so the building stands straight.",
+   "best_time": "Early morning or later in the afternoon is usually quieter, so it's easier to get a clean shot of the entrance.",
+   "selfie_here": "Save the selfie for the top. On the open ground directly outside Sunnegga station, the Matterhorn sits almost straight ahead, so turn around, use the front camera (or zoom 0.5x for more mountain) and let it fill the space over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "This is a working transport line and may be ticketed, so check the official site before you go. Keep people moving through your shot rather than blocking the doorway.",
+   "challenge": "Catch two or three people walking through the entrance while the building stays perfectly straight against your grid line.",
+   "good_to_know": "The funicular climbs 698 m to the top station at 2293 m. It's the first link on the way to the Sunnegga Paradise ski area. Doppelmayr heavily modernised it in 2013, and Zermatt Bergbahnen AG has run it since 2002.",
+   "stand_here_before_gps_rule": "Walk about 280 m south-west of the stand-here point to the station entrance on Vispastrasse 34. Face the entrance and keep a bit of village street around it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Main Matterhorn viewpoint outside Sunnegga station",
+     "detail": "on the open ground directly outside the Sunnegga mountain station, where the Matterhorn sits almost straight ahead",
+     "why": "<cite index=\"19-13\">The main viewpoint is directly outside Sunnegga station, with the Matterhorn almost straight ahead.</cite>",
+     "sources": [
+      {
+       "title": "Sunnegga - Rothorn Zermatt Guide: Tickets & Things to Do",
+       "url": "https://discoverzermatt.com/sunnegga/"
+      }
+     ]
+    },
+    {
+     "name": "Sun terrace of the Sunnegga restaurant",
+     "detail": "on the spacious sun terrace of the Sunnegga restaurant, which has a clear Matterhorn outlook",
+     "why": "<cite index=\"6-7\">From the spacious sun terrace of the restaurant, you enjoy a wonderful view of the Matterhorn.</cite>",
+     "sources": [
+      {
+       "title": "SUNNEGGA - All You SHOULD Know Before You Go 2026 (w/ Reviews)",
+       "url": "https://www.tripadvisor.co.uk/Attraction_Review-g188098-d2405210-Reviews-Sunnegga-Zermatt_Canton_of_Valais_Swiss_Alps.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "The pages I found describe Sunnegga as a Matterhorn viewpoint, but none says a visitor can stand with the funicular itself in the frame, so both selfie spots are chosen for the Matterhorn backdrop and the funicular behind you is unverified. The funicular's valley and upper stations are named as Vispastrasse 34 and Sunnegga station respectively, but no page gives a passer-by photo position for the whole funicular, so ask_someone_spot is null. No page I found states any selfie stick or tripod rule, and no safety point specific to this site was stated."
+  },
+  "cost_usd": 0.0579,
+  "at": "2026-11-18 12:24"
+ },
+ "Gornergrat Railway": {
+  "rank": 5,
+  "card": {
+   "hook": "Picture a cogwheel train rolling into a mountain platform with the Matterhorn standing right behind it. That's the whole story in one frame: train, mountain, height. Riffelalp is a good place to try for it.",
+   "stand_here": "Stand right at the subject, at the Riffelalp station on the cogwheel line, and face the platform where trains stand or arrive, with the Matterhorn in the background. It's a less certain tip than the Golden Spot, so have a look around when you arrive.",
+   "zoom": "Start at 1x for the train at the platform with the Matterhorn behind it. If your phone has 2x or 5x, try it to make the mountain look bigger behind the train. 0.5x takes in the whole station, but the Matterhorn will look small.",
+   "make_it_pop": "Turn on gridlines, put the train on one third of the frame and leave a little space ahead of it so it looks like it's rolling in. Then tap the train and drag the brightness down a touch so the sky and snow don't wash out.",
+   "best_time": "Go on a clear day, when the Matterhorn is actually showing. Trains come and go, so wait for one to roll in rather than rushing the shot, and check the timetable first.",
+   "selfie_here": "Up at Gornergrat station, the Grand Tour photo frame on the viewing platform has the Matterhorn behind you, and it's free. Or stand beside the gilded locomotive 3003 as you enter the station (the Golden Spot), which is also free. Use the front camera, hold it at arm's length, and keep the Matterhorn over your shoulder.",
+   "ask_someone": "For a photo of you with the train, ask someone to shoot from the curve on the line between Riffelalp and Riffelberg stations, where the train and Matterhorn can be photographed together, but we don't know exactly where they should stand, so check it out on site.",
+   "rules_and_safety": "Keep well back from the track edge and stay behind the platform line. Travel is ticketed and runs to timetables and seasonal closures, so check the official site before you go. The walking path up to Gornergrat can get quite icy, so walk carefully even where there are ropes.",
+   "challenge": "Catch the train arriving with Live Photos on, then scroll through to find the frame where the Matterhorn looks like it's sitting right on the roof.",
+   "good_to_know": "The Gornergrat Railway opened on 20 August 1898 and was the first electric rack railway built in Switzerland. It's about 9.3 km long and climbs nearly 1,470 m to 3,089 m, which makes it the second highest railway in Europe. That climb is why the train so often has big mountains behind it. The line usually closes for maintenance in November, and the last descent can be earlier than you expect.",
+   "stand_here_before_gps_rule": "Stand right at the subject, at the Riffelalp station on the cogwheel line, and face the platform where trains stand or arrive, with the Matterhorn in the background. It's a less certain tip than the Golden Spot, so have a look around when you arrive."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Grand Tour photo frame at Gornergrat station",
+     "detail": "on the viewing platform by Gornergrat station, at the Grand Tour frame, with the Matterhorn behind you",
+     "why": "The station's official influencer guide lists this frame as a selfie spot with the Matterhorn in the background, and it is free to use.",
+     "sources": [
+      {
+       "title": "Influencer Guide Gornergrat",
+       "url": "https://www.gornergrat.ch/en/pages/influencer-guide"
+      },
+      {
+       "title": "11 Top Things to Do in Gornergrat (Zermatt, Switzerland) +Our Tips",
+       "url": "https://fullsuitcase.com/gornergrat-switzerland/"
+      }
+     ]
+    },
+    {
+     "name": "Golden Spot, locomotive 3003 inside Gornergrat station",
+     "detail": "beside the gilded historic locomotive 3003 as you enter Gornergrat station, with the Matterhorn in the background",
+     "why": "The Gornergrat's own Golden Spot page calls it the perfect spot for a souvenir photo or selfie with the Matterhorn behind, and it is free.",
+     "sources": [
+      {
+       "title": "Golden Spot",
+       "url": "https://www.gornergrat.ch/en/stories/golden-spot"
+      },
+      {
+       "title": "Golden Spot",
+       "url": "https://zermatt.swiss/en/p/golden-spot-01tVj000005DnheIAC"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Iconic photo bend on the railway between Riffelalp and Riffelberg stations",
+    "detail": "the curve on the line between the Riffelalp and Riffelberg stations, where the train and the Matterhorn can be photographed together",
+    "sources": [
+     {
+      "title": "Influencer Guide Gornergrat",
+      "url": "https://www.gornergrat.ch/en/pages/influencer-guide"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "The walking path up to Gornergrat can get quite icy, so walk carefully even where ropes are provided at the side.",
+   "notes": "The ask-someone spot is a curve for photographing the train and Matterhorn; the source does not say where a passer-by should stand to photograph a visitor, so treat it as a rough suggestion and confirm on site. The 'Grand Tour frame' and the 'Matterhorn Photo Point' with a red frame behind Gornergrat station may be the same spot, as the Fullsuitcase page describes both in the same place. Sources do not mention selfie-stick or tripod rules. Only one source gives the icy-path warning, and it is a review quote on a travel list page."
+  },
+  "cost_usd": 0.0518,
+  "at": "2026-11-18 12:25"
+ },
+ "Riffelsee": {
+  "rank": 6,
+  "card": {
+   "hook": "Picture a mountain that's brilliant at standing perfectly still, then a lake that can't quite manage it. The Matterhorn gets its mirror image here, but only when the water holds its breath.",
+   "stand_here": "Stand at the Riffelsee, right where the phone icon sits on the map, at the rocky edge of the water. Face the Matterhorn across the lake so its east and northeast faces line up with the reflection.",
+   "zoom": "Start at zoom 1x so the peak and its reflection fit in one frame. Try zoom 0.5x to get more of the rocky edge in front, or zoom 2x to pick out just the mountain and its twin.",
+   "make_it_pop": "Turn on gridlines to keep the horizon level, then tap the mountain and drag the slider to make it a little darker so the snow keeps its detail.",
+   "best_time": "Go early in the morning, when the water is most likely to be still. The lake is frozen in winter and early spring, so there's no reflection then, and even in summer it can skip a day, so try more than once if you can.",
+   "selfie_here": "Try a boulder at the water's edge, reached by one of the paths down from the overlook, with the Matterhorn behind you. Use the front camera at zoom 0.5x and let the mountain peek over your shoulder. Check on site that the spot works for you, as no guide calls it a selfie spot.",
+   "ask_someone": "Ask a passer-by to stand at the overlook just past the trail junction up to Rotenboden, while you go down to the shore in front of the Matterhorn.",
+   "rules_and_safety": "This is a nature protection zone, so keep to the paths. Check the drone rules if you're thinking of flying one.",
+   "challenge": "Take three shots a few seconds apart and pick the one where the ripples have given up and the Matterhorn looks like it's been printed twice.",
+   "good_to_know": "The Riffelsee sits below the Riffelhorn at 2757 m, and it covers just 0.45 ha, so it's a small lake. You reach it from Rotenboden station on the Gornergrat Bahn (2815 m). If the water is rippled, the lower lake is about 5 minutes further down the Riffelalp path, and guides describe it as the quieter option.",
+   "stand_here_before_gps_rule": "Stand at the Riffelsee, right where the phone icon sits on the map, at the rocky edge of the water. Face the Matterhorn across the lake so its east and northeast faces line up with the reflection."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Far shore of Riffelsee",
+     "detail": "on the far shore of the lake, reached by walking around the water rather than from the Rotenboden side",
+     "why": "Guides describe the far shore as a strong spot for Matterhorn views, though none of them describe it as a selfie location.",
+     "sources": [
+      {
+       "title": "Hiking to Riffelsee Lake in Zermatt, Switzerland",
+       "url": "https://www.journeyera.com/riffelsee-lake-hike-zermatt/"
+      },
+      {
+       "title": "How to Visit Riffelsee in Zermatt (+ How to Hike From Gornergrat to Riffelsee and Beyond!) — Dirty Shoes & Epic Views",
+       "url": "https://www.dirtyshoesandepicviews.com/blog/riffelsee-zermatt"
+      }
+     ]
+    },
+    {
+     "name": "Rock at the shore of Riffelsee, reached by a herd path",
+     "detail": "on a boulder at the water's edge, reached by taking any herd path down from the overlook",
+     "why": "Blog photos show visitors standing on rocks at the shoreline with the Matterhorn in view, and the author suggests these paths lead to the best views.",
+     "sources": [
+      {
+       "title": "How to Visit Riffelsee in Zermatt (+ How to Hike From Gornergrat to Riffelsee and Beyond!) — Dirty Shoes & Epic Views",
+       "url": "https://www.dirtyshoesandepicviews.com/blog/riffelsee-zermatt"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Overlook where the Alpine Garden path ends (above Riffelsee)",
+    "detail": "the passer-by stands at the overlook just past the trail junction up to Rotenboden, and the visitor goes down a herd path to the shore in front of the Matterhorn",
+    "sources": [
+     {
+      "title": "How to Visit Riffelsee in Zermatt (+ How to Hike From Gornergrat to Riffelsee and Beyond!) — Dirty Shoes & Epic Views",
+      "url": "https://www.dirtyshoesandepicviews.com/blog/riffelsee-zermatt"
+     },
+     {
+      "title": "Riffelseeweg (No. 21)",
+      "url": "https://zermatt.swiss/en/p/riffelsee-lake-trail-nr-21-01tVj000005Ew9KIAS"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No source found mentions selfies, selfie sticks, or tripod rules at Riffelsee; the spots come from general photo-spot guides, so the 'landmark behind you' positioning is inferred and should be checked on site. Sources disagree on the best spot: one says the far shore, another says the herd paths to the shore, and a third says the lake's edge is unphotogenic without the Matterhorn. Riffelsee is frozen in winter and reflections depend on calm weather. A smaller unnamed lake below Riffelsee is mentioned by several sources but has no name, so it is not listed. The Zermatt tourism page confirms the lake and Matterhorn reflection but gives no specific standing points."
+  },
+  "cost_usd": 0.0499,
+  "at": "2026-11-18 12:25"
+ },
+ "Schwarzsee (Zermatt)": {
+  "rank": 7,
+  "card": {
+   "hook": "Picture a tiny white chapel sitting right at the edge of a dark little lake, with the Matterhorn rising behind it. That's Schwarzsee, and at about half a hectare it's a quick, easy stop for a big-payoff photo.",
+   "stand_here": "Stand at the phone icon on the map, right by the water at Schwarzsee, beside the cable car station. Face the chapel of Maria zum Schnee so the Matterhorn is behind it and the lake is in front.",
+   "zoom": "Start at zoom 1x to get the chapel, lake and mountain all in one shot. Go to 0.5x for more sky and shoreline, or try 2x to 5x (depending on your phone) to bring the Matterhorn closer behind the chapel.",
+   "make_it_pop": "Switch on the gridlines, put the chapel on one of the lines, and hold your phone low near the water so the reflection fills the bottom of the frame.",
+   "best_time": "Early morning is best, because the wind is usually calm and the water is like glass. Late afternoon and golden hour are good too. If a breeze breaks up the reflection, wait a few minutes or come back later.",
+   "selfie_here": "Head to the Zermatt Sign, a couple of minutes' walk from the Schwarzsee gondola station, on the hill. It sits in front of the peak, so use the front camera (try 0.5x) and keep the sign and the Matterhorn over your shoulder. There's also an official photopoint at the Schwarzsee lift station if you'd like a ready-made spot.",
+   "ask_someone": "Ask a passer-by to take your photo from the Matterhorn Glacier Trail, just south of the lake, where the whole lake fits in the frame.",
+   "rules_and_safety": "One visitor review says the snow-covered path on the hike from Trockener Steg to Schwarzsee can be slippery, so wear proper hiking shoes. Getting up here needs the ticketed cable car from Zermatt, so check the official site for times and tickets.",
+   "challenge": "Get three shots of the same chapel: one wide, one close with just the chapel and its mirror image, and one at the Zermatt Sign. Then pick a winner.",
+   "good_to_know": "Schwarzsee means \"Black Lake\" in German, and it sits at about 2,552 m above Zermatt. The chapel's name, Maria zum Schnee, means Mary of the Snows. In winter the lake can freeze and the chapel sits close to the pistes, so it looks very different from summer.",
+   "stand_here_before_gps_rule": "Stand at the phone icon on the map, right by the water at Schwarzsee, beside the cable car station. Face the chapel of Maria zum Schnee so the Matterhorn is behind it and the lake is in front."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Zermatt Sign near the Schwarzsee gondola station",
+     "detail": "a couple of minutes' walk from the Schwarzsee gondola station, on the hill, with the Matterhorn rising behind the sign",
+     "why": "The sign is placed in front of the peak, so a self-portrait there gets the mountain as its backdrop.",
+     "sources": [
+      {
+       "title": "Zermatt Sign - Winter, Switzerland (Rexby)",
+       "url": "https://www.rexby.com/swissfamilyfun/ttd/fun-matterhorn-photospot"
+      },
+      {
+       "title": "The Best Matterhorn Viewpoints in Zermatt (Free Spots, Lifts & Lakes) - Discover Zermatt",
+       "url": "https://discoverzermatt.com/matterhorn-viewpoints-zermatt/"
+      }
+     ]
+    },
+    {
+     "name": "Official photopoint at the Schwarzsee lift station",
+     "detail": "the resort's photopoint at the Schwarzsee lift station",
+     "why": "It is a ready-made spot where visitors can be photographed with the Matterhorn without needing a camera of their own.",
+     "sources": [
+      {
+       "title": "The 5 Best Matterhorn Photo Spots in Zermatt - Matterhorn Chalets",
+       "url": "https://www.matterhornchalets.com/2021/04/20/the-5-best-matterhorn-photo-spots-in-zermatt/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Matterhorn Glacier Trail, just south of Schwarzsee lake",
+    "detail": "on the Matterhorn Glacier Trail just south of the lake, where the whole lake can be framed",
+    "sources": [
+     {
+      "title": "10 Viewpoints in Zermatt (Matterhorn Famous & Unique Views) - Wanderin Europe",
+      "url": "https://wanderineurope.com/10-viewpoints-in-zermatt-matterhorn-famous-unique-views/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "One visitor review warns that the snow-covered path on the hike from Trockener Steg to Schwarzsee can be slippery, so proper hiking shoes are needed.",
+   "notes": "Sources disagree on what the lake shows. Some say the Matterhorn mirrors in Schwarzsee (zermatt.com, tourismattractions.net), while Wanderin Europe says the lake mirrors the Maria zum Schnee chapel, not the Matterhorn, and Yogictravel says there is no Matterhorn view at lake level. The 'official photopoint' page does not name the Zermatt Sign, so it may be the same spot; I could not confirm that. No page I found gives selfie stick or tripod rules. The ask-someone spot is a trail reference from a single guide, and no exact map pin was found for any spot."
+  },
+  "cost_usd": 0.0524,
+  "at": "2026-11-18 12:26"
+ },
+ "Rotenboden railway station": {
+  "rank": 8,
+  "card": {
+   "hook": "Most people step off the train at Rotenboden and photograph the platform. Don't. The real postcard is a short stroll downhill, where a little lake is waiting with a mountain in its pocket.",
+   "stand_here": "Stand on the shore of the Riffelsee, a short walk downhill from the station. The station is about 267 m to the north-east of you, so face that way and look around to see where the Matterhorn sits in your view.",
+   "zoom": "Start at zoom 0.5x to fit the lake, the station and the Matterhorn all together. Then try 1x for a calmer, more natural look, and 2x or 5x (depending on your phone) to pull in far-off details.",
+   "make_it_pop": "Turn on gridlines and put the horizon on the upper third line so the water fills most of the picture, then tap the mountain and drag the slider to make it a little darker so the sky and snow keep their detail.",
+   "best_time": "Go early in the morning, before the wind picks up, for the stillest lake and the best chance of a reflection. If the water is rippled or covered in snow the view is still good, but the reflection won't show up.",
+   "selfie_here": "Try the small rocky area right after you step off the train, with the station behind you. Use the front camera at 0.5x and hold it a little higher so you get a big slice of the scenery. A guide says it gives a dynamic Matterhorn backdrop and is quiet compared with busier Gornergrat viewpoints.",
+   "ask_someone": "About 15 minutes down Scenic Trail 15, where the tracks make an S-shaped bend near the railway side fork, ask a passer-by to take your photo while you stand by the bend with the Matterhorn in the background.",
+   "rules_and_safety": "The rocky area beside the station isn't especially steep, but climb it with a little caution. The ground is rocky and high up, so watch your footing while you hold your phone. The Gornergrat railway is a ticketed service, so check the official site before you go.",
+   "challenge": "Take one shot with the horizon on the upper third line and a little shoreline at the edge. Bonus points if a walker heading for the Monte Rosa Hut wanders into the frame.",
+   "good_to_know": "Rotenboden sits at 2,815 m on the Gornergrat railway, the rack line that climbs from Zermatt to the Gornergrat summit. It's the second highest open-air railway station in Europe, after Gornergrat on the same line. A trail also leaves the station towards the Monte Rosa Hut, across the Gorner Glacier.",
+   "stand_here_before_gps_rule": "Stand on the shore of the Riffelsee, a short walk downhill from the station. The station is about 267 m to the north-east of you, so face that way and look around to see where the Matterhorn sits in your view."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Rocky outcrop just outside Rotenboden station",
+     "detail": "on the small rocky area right after you step off the train, with the station behind you and the Matterhorn in front",
+     "why": "A guide says this rock area is an easy climb and gives a dynamic Matterhorn backdrop, and it is quiet compared with busier Gornergrat viewpoints.",
+     "sources": [
+      {
+       "title": "Capture Stunning Views of the Matterhorn Without the Crowds: Discover the Hidden Gem Spot 'Rotenboden' - Kosupa Travel",
+       "url": "https://en.kosupatravel.com/entry/2025/06/04/capture-stunning-views-of-the-matterhorn-without-the-crowds-discover-the-hidden-gem-spot-rotenboden"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Railway curve on the Scenic Trail 15 between Gornergrat and Rotenboden",
+    "detail": "on the trail about 15 minutes down from the station, where the tracks make an S-shaped bend near the railway side fork, with the Matterhorn in the background",
+    "sources": [
+     {
+      "title": "Zermatt Today's weather / Train station guide - Trip.com",
+      "url": "https://www.trip.com/moments/type-destination-zermatt-726-train-station-9/"
+     },
+     {
+      "title": "Best Hike at Gornergrat, Zermatt: Scenic Trail Nr. 15 to Rotenboden - Full Suitcase",
+      "url": "https://fullsuitcase.com/gornergrat-scenic-trail/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "The rocky area beside the station is not especially steep, but a guide advises climbing it with a little caution, and high-altitude photography calls for sufficient attention to safety.",
+   "notes": "Only one selfie spot had a source that puts the station behind the visitor; the Riffelsee lake shore (named by several guides) has the Matterhorn reflection but no station backdrop, so I left it out. The ask-someone spot is the railway S-bend on the Scenic Trail, which the sources describe as a good angle for the train and Matterhorn, but none says the station itself is in frame; it is also not right beside the station, so treat it as approximate. Coordinates for the station are 45.98451, 7.76524 as given; the sources give the station at about 45°59'4\"N, 7°45'55\"E, which matches. No page stated any selfie stick or tripod rules, so rules is empty. The Gornergrat summit's Grand Tour selfie frame is not near Rotenboden and was not included."
+  },
+  "cost_usd": 0.052,
+  "at": "2026-11-18 12:26"
+ },
+ "Matterhorn Museum": {
+  "rank": 9,
+  "card": {
+   "hook": "Walk in and you're suddenly in a tiny mountain village: a church, a hotel, huts and granaries, 14 houses in all. It's far more photogenic than your average museum.",
+   "stand_here": "Head for the phone icon on the map, which sits right at the museum itself. Take your first photo from there, then wander around the buildings for different angles.",
+   "zoom": "Zoom 1x works for most of the buildings and displays. Switch to zoom 0.5x to squeeze a whole group of houses into one frame, and try zoom 2x-5x (depending on your phone) for carved wood, signs and small objects in cases.",
+   "make_it_pop": "Turn on gridlines and line them up with the walls so the old timber buildings don't lean.",
+   "best_time": "We can't promise a magic hour for this one. Check the museum's official site for opening times before you go.",
+   "selfie_here": "Try the church steps at Kirchplatz, or the Community Centre terrace facing south, where old wooden houses sit in front of the Matterhorn. Use the front camera, try zoom 0.5x, and keep the mountain over your shoulder. The museum is next to Kirchplatz but may not be in the frame, so check the shot on the spot.",
+   "ask_someone": "",
+   "rules_and_safety": "Check the museum's own rules on photography inside before you go, and keep other visitors out of your frame where you can.",
+   "challenge": "Find a doorway or window and frame one of the little huts through it, a picture inside your picture.",
+   "good_to_know": "The museum is built to look like a village and tells the story of the Matterhorn and how tourism grew up around Zermatt. It also covers the first ascent by Edward Whymper and his party. Look out for the stone from the summit: astronaut Claude Nicollier carried two into space on the Space Shuttle Endeavour in 1993. One is on display here, and the other went back to the top of the mountain.",
+   "stand_here_before_gps_rule": "Head for the phone icon on the map, which sits right at the museum itself. Take your first photo from there, then wander around the buildings for different angles."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Kirchplatz church steps and Community Centre terrace",
+     "detail": "on the church steps at Kirchplatz, or on the Community Centre terrace facing south",
+     "why": "The source describes this as a central Matterhorn photo point with old wooden houses in the foreground, and places the museum next to Kirchplatz, but it does not say the museum is in the frame.",
+     "sources": [
+      {
+       "title": "Viewpoint Kirchplatz and the Community Centre terrace",
+       "url": "https://zermatt.swiss/en/p/viewpoint-kirchplatz-the-community-centre-terrace-01tVj000005DnJTIA0"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a spot where a visitor stands with the Matterhorn Museum (Zermatlantis) behind them, or a spot where a passer-by can frame the whole museum. The museum is underground beneath a glass dome at Kirchplatz 11, so it has little street-level facade to photograph. The only selfie candidate is the Kirchplatz viewpoint, which the source presents as a Matterhorn shot, so treat it as a fallback and check the framing on the spot. No page states selfie stick or tripod rules."
+  },
+  "cost_usd": 0.0642,
+  "at": "2026-11-18 12:27"
+ }
+}

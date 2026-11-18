@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "tangier", "title": "Tangier: 12 photo spots (pilot review)", "place": "Tangier", "bounds": [-5.925, 35.755, -5.775, 35.81], "center": [-5.85, 35.7825], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/tangier/{z}/{x}/{y}.pbf"};

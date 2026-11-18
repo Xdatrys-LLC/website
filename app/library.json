@@ -1464,6 +1464,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "zermatt",
+  "place": "Zermatt",
+  "country": "Switzerland",
+  "spots": 9,
+  "mb": 3.9,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "zurich",
   "place": "Zurich",
   "country": "Switzerland",
