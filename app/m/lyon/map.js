@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "lyon", "title": "Lyon: 19 photo spots (pilot review)", "place": "Lyon", "bounds": [4.8, 45.725, 4.87, 45.785], "center": [4.835, 45.754999999999995], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/lyon/{z}/{x}/{y}.pbf", "tz": "Europe/Paris", "rail": true, "app": true};
