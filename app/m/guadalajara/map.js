@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "guadalajara", "title": "Guadalajara: 11 photo spots (pilot review)", "place": "Guadalajara", "bounds": [-3.185, 40.622, -3.148, 40.65], "center": [-3.1665, 40.635999999999996], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/guadalajara/{z}/{x}/{y}.pbf", "tz": "Europe/Madrid", "rail": true, "app": true};

@@ -488,6 +488,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "guadalajara",
+  "place": "Guadalajara",
+  "country": "Spain",
+  "spots": 11,
+  "mb": 3.0,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "guangzhou",
   "place": "Guangzhou",
   "country": "China",
