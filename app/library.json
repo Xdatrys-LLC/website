@@ -824,6 +824,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "sydney",
+  "place": "Sydney",
+  "country": "Australia",
+  "spots": 20,
+  "mb": 7.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "takamatsu",
   "place": "Takamatsu",
   "country": "Japan",
