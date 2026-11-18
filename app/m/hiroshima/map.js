@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "hiroshima", "title": "Hiroshima: 15 photo spots (pilot review)", "place": "Hiroshima", "bounds": [132.435, 34.375, 132.49, 34.41], "center": [132.4625, 34.3925], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/hiroshima/{z}/{x}/{y}.pbf", "tz": "Asia/Tokyo", "rail": true, "app": true};

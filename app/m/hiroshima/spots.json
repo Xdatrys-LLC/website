@@ -1,0 +1,798 @@
+[
+ {
+  "rank": 1,
+  "name": "Hiroshima Peace Memorial Museum",
+  "in_cut": true,
+  "label": "Peace Memorial Museum",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 22400,
+  "pin": [
+   132.4525361,
+   34.3916345
+  ],
+  "camera": [
+   132.4525361,
+   34.3916345
+  ],
+  "camera_source": "Researched viewpoint '平和大通り' (3 web pages); placed at OpenStreetMap '平和大通り' (way/28489431): point nearest the subject (279 m long).",
+  "pin_note": "Position from OpenStreetMap relation/9521566: the middle of the OpenStreetMap outline 'Hiroshima Peace Memorial Museum' (183 m across).",
+  "notes": "Museum documenting the bombing and its aftermath.",
+  "text": {
+   "description": "The Hiroshima Peace Memorial Museum sits in Hiroshima Peace Memorial Park in central Hiroshima. It documents the atomic bombing of the city in the Second World War. It opened in August 1955, and the main building was designed by Kenzō Tange. Its raised main block on pilotis (supporting legs) has a calm, simple outline that photographs well from a distance. Visitors have come in large numbers: between 1955 and 2005 about 53 million people visited, over a million a year on average. The museum was renovated in 1994 and again from 2014. The East Wing reopened in 2017, and the Main Hall reopened in April 2019 after seismic strengthening. The spot for a phone photo of the exterior is a separate place near the museum, across 平和大通り (Peace Boulevard), opposite the main building. From there you see the whole raised block face-on, with the park entrance in view. The distance suits the museum's quiet, solemn character, and everything fits in one frame without tilting your phone upwards. Two other good angles are inside the park. One is beyond the Cenotaph, where the park's axis leads the eye to the building. The other is beside the Gates of Peace, where the glass gates sit in the foreground with the museum behind. Interior photography is restricted, and rules can vary by exhibit, so treat this as an exterior shot. Keep a respectful distance and avoid blocking the entrance or the pavements.",
+   "geographic_location": "The museum is in Hiroshima Peace Memorial Park in central Hiroshima. The park entrance is in view from across Peace Boulevard.",
+   "directions_text": "No tram stop or station is given for this spot. For the across-the-road view, which is a separate spot near the museum, head for Hiroshima Peace Memorial Park in central Hiroshima, then look for 平和大通り (Peace Boulevard) and the raised main building of the museum. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) so the whole raised building fits in the frame. If traffic or railings crowd the foreground, try 2x to crop in on the building. Use the ultra-wide (0.5x) only if you are too close to fit the whole building in.",
+    "where_to_stand": "Stand on 平和大通り (across the boulevard, opposite the museum's main building). The raised main building on its pilotis, seen frontally from the far side of the road, with the park entrance in view. The spot across the road is separate: stand on 平和大通り (Peace Boulevard), on the far side of the road from the museum's main building. From there you see the raised main building on its pilotis straight on, with the park entrance in view.",
+    "how_to_frame": "Turn on gridlines and line the building up so the pilotis (the supporting legs) and the roofline run level with the grid. Leave a little space around the building so it looks calm and uncrowded. For a different angle, try inside the park from beyond the Cenotaph, or by the Gates of Peace with the glass gates in the foreground.",
+    "phone_settings_tip": "Tap the building to set focus, then lower the exposure slider slightly if the sky is bright, so the building keeps its detail. Take a photo at 1x first, then a second at 2x to compare.",
+    "best_time": "Daylight is best, and a bright overcast sky or morning light usually shows the building's lines cleanly. Early in the day there is usually less traffic and fewer people in front of the building."
+   },
+   "access_note": "The view from across the boulevard is from a public street, but the museum itself is a ticketed site with timed entry windows, so check the official site before you go."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Hiroshima Peace Memorial Museum",
+    "url": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Museum"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (1908 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Taisyo",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Museum_2008_01.JPG",
+   "from": "Wikidata Q1200076 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Atomic Bomb Dome",
+  "in_cut": true,
+  "label": "Atomic Bomb Dome",
+  "camera_pill": "near 元安橋北歩道",
+  "nophone": false,
+  "searches": 21000,
+  "pin": [
+   132.45358,
+   34.3954714
+  ],
+  "camera": [
+   132.4536611,
+   34.394886
+  ],
+  "camera_source": "Commons cluster (30 photos). Moved 23 m outwards on 2026-11-10 so it is 45 m from the subject's edge, as the text says.",
+  "pin_note": "Position from OpenStreetMap relation/1506282: the middle of the OpenStreetMap outline 'Genbaku Dome' (60 m across).",
+  "notes": "The ruined exhibition hall that survived the 1945 atomic bomb, a UNESCO World Heritage Site.",
+  "text": {
+   "description": "The Atomic Bomb Dome, also called the Genbaku Dome, is the ruin of a building that was finished in April 1915 as an exhibition hall, designed by the Czech architect Jan Letzel. On 6 August 1945 the first atomic bomb used in war exploded about 600 metres above the ground and 150 metres to one side of it. Because the blast came almost from directly overhead, parts of the walls and the bare metal frame of the dome stayed standing. In 1966 Hiroshima City Council resolved to preserve it permanently, and it was added to the UNESCO World Heritage List in 1996. It is kept as a preserved ruin, and a metal frame inside helps hold it steady.\n\nIt photographs well because the shape is instantly readable. The skeletal dome, broken brick and exposed structure stand out clearly against an open sky, and the surrounding park leaves room to step back and fit the whole building in. The default lens (1x) gives a straightforward record of the whole building, and a gentle zoom picks out the dome frame. This is a place of remembrance, so take your photos quietly and keep paths clear for other visitors. Wait a moment for people to move out of the frame rather than asking them to.",
+   "geographic_location": "The Atomic Bomb Dome stands in Hiroshima Peace Memorial Park, which was laid out around it, next to the Aioi Bridge. It is the main landmark of the park.",
+   "directions_text": "There is no station or tram stop right at this spot, so start from Hiroshima Peace Memorial Park, where the Dome is the main landmark beside the Aioi Bridge. If you are coming from elsewhere in the city, head to Hiroshima Peace Memorial Park and then walk to the Dome. The phone icon on the map is about 45 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole ruin with some sky and ground around it. Use the telephoto (2x-5x, depending on your phone) for the dome frame and the broken brickwork. Keep the ultra-wide (0.5x) for when you walk closer and the building no longer fits.",
+    "where_to_stand": "Stand about 45 m south of the subject, at the phone icon on the map, and face north. From here the whole ruin fits comfortably in the default lens (1x) frame.",
+    "how_to_frame": "Turn on the gridlines and place the dome frame on the upper third, with the base of the walls on the lower line. Hold the phone level so the walls do not lean. Wait for gaps in the foot traffic to keep the foreground clear. For a different view, walk a little way round the ruin and use the telephoto for details of the exposed structure.",
+    "phone_settings_tip": "Tap on the brick walls to set focus, then lower the exposure slider slightly so the sky keeps its colour and the ruin does not look washed out. Skip portrait mode here. It works poorly on a large building and is not suited to a memorial.",
+    "best_time": "Early morning usually means fewer people in front of the ruin. The city holds an annual Peace Memorial Ceremony at the memorial, so check the date and expect crowds then. If you visit after dark, use night mode and rest your elbows against your body or a solid surface to keep the phone steady."
+   },
+   "access_note": "The Dome is an outdoor memorial in a public park, but access and any viewing restrictions can change, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Hiroshima Peace Memorial",
+    "url": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Oilstreet",
+   "licence": "CC BY 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by/2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
+   "from": "Wikidata Q231140 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Hiroshima Peace Memorial Park",
+  "in_cut": true,
+  "label": "Peace Memorial Park",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 18100,
+  "pin": [
+   132.4524,
+   34.3927
+  ],
+  "camera": [
+   132.452294,
+   34.392413
+  ],
+  "camera_source": "Commons cluster (15 photos).",
+  "pin_note": "Position from OpenStreetMap relation/1971933: large area 'Hiroshima Peace Memorial Park' (798 m across): previous pin kept, it lies inside.",
+  "notes": "Park with the Cenotaph and Flame of Peace, aligned with the Dome.",
+  "text": {
+   "description": "Hiroshima Peace Memorial Park is a broad, quiet memorial park in the centre of Hiroshima. It remembers the people who died in the atomic bombing of 6 August 1945, and it was designed by the architect Kenzō Tange. Before the bombing, this was one of the city's busiest shopping and housing districts. Today it is open ground with memorials, museums and lecture halls, and more than a million people visit each year.\n\nIt photographs well because the park is made of several clear scenes rather than one view. The Children's Peace Monument shows a girl with outstretched arms and a folded paper crane above her, based on the story of Sadako Sasaki. Folded cranes sent from around the world are placed nearby. The Rest House is one of the buildings that survived the bomb, and its basement is kept nearly as it was. From the central cenotaph there is a long, deliberate view towards the A-Bomb Dome, which joined the UNESCO World Heritage List on 7 December 1996.\n\nFor photos, give the place room and take your time. Wide, calm frames suit it better than close-ups of people. Keep voices and movements respectful, and do not photograph visitors who are praying or grieving without asking. Each year a ceremony is held here on 6 August from 8:00 AM, so the park may be busy that morning.",
+   "geographic_location": "The park lies in the centre of Hiroshima, on open ground that was once the busy downtown district. The A-Bomb Dome is visible from the central cenotaph.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for Peace Memorial Park in the centre of Hiroshima. Once you are in the park, walk to the phone icon on the map. From there the main subject is 33 m to the north, about 1 minute on foot. The phone icon on the map is about 35 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the cenotaph-to-Dome view, which looks natural and keeps the distance. Switch to ultra-wide (0.5x) for the open space of the park. Use the telephoto (2x-5x, depending on your phone) for details such as the paper cranes or the Dome in the distance.",
+    "where_to_stand": "Stand about 35 m south of the subject, at the phone icon on the map, and face north. Walking the short distance to the subject takes about 1 minute on foot.",
+    "how_to_frame": "Turn on the gridlines and line up the long axis of the park with the central vertical line so the view feels balanced. Keep the horizon level, especially with ultra-wide. Leave plenty of sky and open ground, and avoid cutting people off awkwardly at the frame edge.",
+    "phone_settings_tip": "Tap to focus on your main subject, then drag the exposure slider down a little if the sky is bright so the detail in the monuments is not washed out. Keep Live Photos off in quiet areas to avoid stray shutter sounds or distracting motion.",
+    "best_time": "Early morning is usually calmer and has fewer people in the frame. The 6 August ceremony begins at 8:00 AM, so the park may be busy that morning."
+   },
+   "access_note": "The park is a memorial open space, but museums, buildings and the 6 August ceremony may have their own rules, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Hiroshima Peace Memorial Park",
+    "url": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Park"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "Balon Greyjoy",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:20181111_Hiroshima_Memorial_Cenotaph-1.jpg",
+   "from": "Wikidata Q1207208 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Hiroshima Station",
+  "in_cut": true,
+  "label": "Hiroshima Station",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 5890,
+  "pin": [
+   132.4759477,
+   34.3972744
+  ],
+  "camera": [
+   132.475085,
+   34.397655
+  ],
+  "camera_source": "Commons cluster (8 photos), weak.",
+  "pin_note": "Position from OpenStreetMap node/265922726: the OpenStreetMap point 'Hiroshima'.",
+  "notes": "Main rail hub and Shinkansen stop.",
+  "text": {
+   "description": "Hiroshima Station is a major rail hub, and a good first or last photo of a trip. It is run by JR West, and every San'yō Shinkansen train stops here. The station has two main entrances: the Shinkansen entrance on the north side and the south entrance. Locals still often call the Shinkansen side the \"north entrance\". The station building was destroyed in the atomic bombing of 6 August 1945, and the building that followed was completed in December 1965. The newest chapter is a new station building called \"minamoa\", which opened on 24 March 2025. In August 2025 the Hiroden tram stop moved up to the second floor of that building, level with the JR concourse. That makes this a good place to catch old and new Hiroshima in one frame: the big modern façade, the busy entrances and the trams that run from the station. Look for strong straight lines in the building, people crossing the plaza, and the bustle around the entrances. It works as a quick travel-day snapshot or as a more careful architectural shot. Stand back far enough to fit the whole front in, then take a second, closer photo of a detail such as signs, glass or a tram. Parts of the south side have been rebuilt and are sometimes rerouted, so expect barriers and changing walkways.",
+   "geographic_location": "Hiroshima Station is in Minami-ku, Hiroshima, and is a major railway station. A pedestrian tunnel links the Shinkansen entrance to an underground plaza beneath the south entrance, close to Fukuya.",
+   "directions_text": "The spot is the station itself, so JR trains, the Shinkansen and Hiroden trams all bring you straight to it, and buses also depart from the Shinkansen and south entrances. From the phone icon on the map it is about 1 minute on foot to the station point, heading south-east. The phone icon on the map is about 90 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) lens to fit the whole front of the building in, then the default lens (1x) for a more natural look. If your phone has a telephoto (2x-5x), use it for details such as signs, rooflines or a tram.",
+    "where_to_stand": "Stand about 90 m north-west of the subject, at the phone icon on the map, and face south-east. The station is to the south-east of you, so face that way and keep the building ahead of you.",
+    "how_to_frame": "Turn on the gridlines and line the edges of the building up with the vertical lines so they do not lean. Hold the phone level and leave a little space around the front. Add some people or a tram for scale. Then step closer and take a second shot of one detail.",
+    "phone_settings_tip": "Tap on the building to set focus, then slide the exposure down a little if bright sky is washing out the front. If you take a photo after dark, switch on night mode and keep still for a few seconds.",
+    "best_time": "Daytime gives clear, even detail on the building. At dusk, when the station lights come on, you get a warmer scene with glowing windows. Weekday rush hours are busy, so early morning is calmer."
+   },
+   "access_note": "The station is a public transport building, but some entrances and walkways are rebuilt or rerouted from time to time, so check the official site before you go and follow staff signs.",
+   "claims_not_in_sources": [
+    "From the stand-here point, the station building is the main thing in view to the south-east.",
+    "The station lights come on at dusk and the front looks warmer then.",
+    "Rush hours on weekdays are busier than early morning."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Hiroshima Station",
+    "url": "https://en.wikipedia.org/wiki/Hiroshima_Station"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "ノボホショコロトソ",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshima_Station_South_04.jpg",
+   "from": "Wikidata Q576459 main image"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Hiroshima Castle",
+  "in_cut": true,
+  "label": "Hiroshima Castle",
+  "camera_pill": "near 御門橋",
+  "nophone": false,
+  "searches": 5340,
+  "pin": [
+   132.4591667,
+   34.4027778
+  ],
+  "camera": [
+   132.45855,
+   34.399841
+  ],
+  "camera_source": "Commons cluster (18 photos).",
+  "pin_note": "Position from OpenStreetMap way/145661233: large area 'Hiroshima Castle' (735 m across): previous pin kept, it lies inside.",
+  "notes": "Reconstructed keep surrounded by a moat.",
+  "text": {
+   "description": "Hiroshima Castle, also called Carp Castle, is the dark-roofed, five-storey keep that rises above the moat in the middle of the city. Mōri Terumoto had the original built between 1589 and 1599, and it was a flatland castle on the delta of the Ōta River, once ringed by three moats. The atomic bombing of 6 August 1945 destroyed what remained of it. The present concrete keep was completed in 1958 as a replica, and it now houses a museum of the city's history before the Second World War. The tower stands 26.6 metres above a stone base 12.4 metres high, so it has a strong shape against the sky. In 1994 a gate and three turrets in the ninomaru were rebuilt in wood using the original methods, which gives you more to photograph than the tower alone. Inside the grounds are trees that survived the bombing, and a concrete bunker used for the first radio broadcast afterwards. Take one frame of the whole keep with water or stone wall in front. Then move closer for walls, gate and turrets. Look for a clear line between you and the keep, and keep your phone level so the tower does not lean.",
+   "geographic_location": "The castle is in central Hiroshima, on the Ōta River delta, inside its innermost moat. Homes, schools, offices and shops now fill much of the land that was once castle grounds.",
+   "directions_text": "No station or tram stop is listed for this spot, so start from central Hiroshima and walk to the phone icon on the map. Walk north from there into the grounds and the keep comes into view. The phone icon on the map is about 330 m south of the numbered pin. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the keep and its surroundings. Use the ultra-wide (0.5x) close to the walls, moat or gate. Use the telephoto (2x-5x, depending on your phone) from where you stand to bring the keep closer.",
+    "where_to_stand": "Stand about 330 m south of the numbered pin, at the phone icon on the map, and face north. Walk north to get closer for the wall and gate shots.",
+    "how_to_frame": "Turn on gridlines and put the keep on one third, with moat or stone wall filling the lower part of the frame. Keep the phone upright and level so the tower stays straight. For a wide view, use 0.5x close to the water. For detail, zoom to 2x or more on the roof tiers and the wooden gate and turrets.",
+    "phone_settings_tip": "Tap the keep to set focus, then drag the exposure slider down a little so the sky does not wash out and the dark roofs keep their detail. A Live Photo can catch ripples on the moat.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Calm, clear weather gives the best reflections in the moat."
+   },
+   "access_note": "The grounds and the keep museum may have separate access arrangements, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Hiroshima Castle",
+    "url": "https://en.wikipedia.org/wiki/Hiroshima_Castle"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "unknown",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:HiroshimaCastle.jpg",
+   "from": "Wikidata Q41977 main image"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Shukkei-en",
+  "in_cut": true,
+  "label": "Shukkeien Garden",
+  "camera_pill": "near 桜花巷",
+  "nophone": false,
+  "searches": 3180,
+  "pin": [
+   132.467241,
+   34.399423
+  ],
+  "camera": [
+   132.467097,
+   34.400117
+  ],
+  "camera_source": "Commons cluster (23 photos).",
+  "pin_note": "Position from the Wikipedia article 'Shukkei-en'.",
+  "notes": "Miniature landscape garden with a pond and bridges.",
+  "text": {
+   "description": "Shukkei-en is a historic Japanese garden in the city of Hiroshima, built from 1620 in the Edo period on the orders of Asano Nagaakira, the local lord. It was constructed by Ueda Sōko, who served Asano as chief retainer and tea master. Later it served as a villa for the Asano family, and the emperor is recorded as staying there briefly. The family gave the garden to Hiroshima Prefecture in 1940. It lies a short walk from ground zero, so it was badly damaged in the nuclear attack and became a refuge for victims of the war. After renovation it reopened in 1951. That history gives your photos something to say beyond a pretty scene.\n\nFor phone photos, a garden like this suits layered pictures: a path, water or trees in the foreground, with greenery and softer shapes behind. The Hiroshima Prefectural Art Museum sits right beside the garden, so you can use it as a landmark when you get your bearings. Take a few wide scenes and then a few close details, such as leaves, stonework or reflections. Walk slowly, because the best view often appears just after a bend in the path. Rules on tripods and where you may walk vary, so follow any signs and staff guidance.",
+   "geographic_location": "Shukkei-en is in the city of Hiroshima, right next to the Hiroshima Prefectural Art Museum. It is a short walk from ground zero of the nuclear attack on Hiroshima.",
+   "directions_text": "Shukkei-en is in the city of Hiroshima, right next to the Hiroshima Prefectural Art Museum, so you can use the museum as a landmark. Check local transport options for the best way to reach the area from where you are staying. The garden is a short walk from ground zero, so you can also walk from there if you are already in that area. Once you are at the garden, the phone icon on the map is about 1 minute on foot from the garden. The phone icon on the map is about 80 m north of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for natural-looking garden scenes. Switch to the ultra-wide (0.5x) when you want a path and its surroundings in one frame. Use telephoto (2x-5x, depending on your phone) for details such as leaves, rooflines or a distant corner of the garden.",
+    "where_to_stand": "Stand about 80 m north of the subject, at the phone icon on the map, and face south. Use it as your starting place, then wander into the garden and look back along the paths.",
+    "how_to_frame": "Turn on gridlines and place a path, water edge or tree line along one of the lines so the eye is led into the picture. Keep something close in the foreground, such as a branch or a stone, to give depth. Hold the phone level so horizons and walls look straight.",
+    "phone_settings_tip": "Tap on the main subject to focus, then drag the exposure slider down slightly if bright sky is washing out the greenery. Try portrait mode on a close detail such as a leaf or lantern. Live Photos can catch moving water or leaves.",
+    "best_time": "Soft morning light or a bright overcast day usually suits gardens best, as it avoids harsh shadows under the trees. Weekday mornings are often calmer, so you can take photos without people in the frame."
+   },
+   "access_note": "This is a historic garden that may be ticketed or have set opening times, so check the official site before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(?<!allow )(?<!or )(?<!no )\\btripods?\\b(?! (are|is) not allowed)/"
+  ],
+  "sources": [
+   {
+    "title": "Shukkei-en",
+    "url": "https://en.wikipedia.org/wiki/Shukkei-en"
+   }
+  ],
+  "pin_flags": [
+   "square/garden without a main feature: pin at its middle",
+   "OpenStreetMap object 106 m away (Shukkei Garden): earlier pin kept, check"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "No machine-readable author provided. Fg2 assumed (based o...",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshima_Shukkei-en_Pond.jpg",
+   "from": "Wikidata Q2576732 main image"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Okonomi-mura",
+  "in_cut": true,
+  "label": "Okonomi-mura",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1870,
+  "pin": [
+   132.461894,
+   34.3912894
+  ],
+  "camera": [
+   132.461894,
+   34.391289
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap node/4113675689: the OpenStreetMap point 'Okonomi-mura'.",
+  "notes": "Building packed with okonomiyaki stalls.",
+  "text": {
+   "description": "Okonomi-mura is a multi-storey building packed with small okonomiyaki restaurants, in the Shintenchi area of central Hiroshima. Okonomiyaki is the city's layered savoury pancake, cooked on a hot plate in front of you. The building holds more than 25 separate restaurants spread over four floors, and each has its own style and ingredients. They all use a special sauce made for Okonomi-mura by Sun Foods.\n\nThe story behind it is worth a line in your photo notes. After August 1945, a cheap thin pancake called issen yoshoku became a way for survivors to get a meal. In the Shintenchi area, many shops began going beyond the original ingredients and cooking it 'how you like it' (okonomiyaki). The Okonomi-mura building later grew up in this same area.\n\nIt photographs well for its lively, close-up food scenes rather than a grand view. Look for steam rising from the hot plate, the spatula work, sauce being brushed on, and the signs and counters that give each stall its character. From the phone icon on the map you can take the building itself, then go inside for the detail shots. Keep your phone steady against the counter edge, wipe the lens (cooking steam and grease can cloud it) and ask before you photograph staff or other diners.",
+   "geographic_location": "Okonomi-mura is at 5-13 Shintenchi in Naka-ku, central Hiroshima, near the east end of the Hondori shopping street. It sits just off Chuo-dori.",
+   "directions_text": "By tram, Hatchobori Station on the Hiroden Main and Hiroden Hakushima Lines is about 3 to 5 minutes on foot, to the south-southwest. From Hondori Station on the Hiroden Main Line it is a little longer, about 6 to 8 minutes on foot to the southeast. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for most shots of the building and the cooking. Switch to ultra-wide (0.5x) if you want a whole frontage or a crowded floor in one frame. Use telephoto (2x or more) for sauce, toppings and signs without leaning over other people's food.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Take a first shot of the building from there, then go inside to photograph the counters and hot plates.",
+    "how_to_frame": "Turn on gridlines and place the hot plate or the cook's spatula along a third line. Shoot slightly from above and to the side, so the steam and the layers of the okonomiyaki show. Include a bit of the counter and the stall sign to give the food a setting.",
+    "phone_settings_tip": "Tap the food to focus, then slide the exposure down a little so bright steam and shiny sauce do not wash out. Try a Live Photo to catch the sizzle and the flip. Use portrait mode for a close shot of a dish, and ask first before photographing a person.",
+    "best_time": "Go at a meal time, when the hot plates are busy and the place feels alive. In the evening, use night mode on the exterior signs and hold the phone still against a wall or railing."
+   },
+   "access_note": "Check opening times before you go, and ask before taking photos inside.",
+   "claims_not_in_sources": [
+    "Okonomiyaki is cooked on a hot plate in front of the customer at the counters.",
+    "Steam and grease from cooking can cloud a phone lens, so wiping it helps.",
+    "Staff and other diners should be asked before being photographed.",
+    "The restaurants are busiest at meal times and the exterior signs are more striking in the evening."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Okonomi-mura",
+    "url": "https://en.wikipedia.org/wiki/Okonomi-mura"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Taisyo; Uploaded to Commons by Nihonjoe",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:%E3%81%8A%E5%A5%BD%E3%81%BF%E6%9D%911.jpg",
+   "from": "Wikidata Q11263021 main image"
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Mazda Stadium",
+  "in_cut": true,
+  "label": "Mazda Stadium",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 790,
+  "pin": [
+   132.4846171,
+   34.3919026
+  ],
+  "camera": [
+   132.484617,
+   34.391903
+  ],
+  "camera_source": "Researched viewpoint 'MAZDA Zoom-Zoom Stadium Hiroshima' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap relation/2116085: the middle of the OpenStreetMap outline 'MAZDA Zoom-Zoom Stadium Hiroshima' (308 m across).",
+  "notes": "Home of the Hiroshima Toyo Carp baseball team.",
+  "text": {
+   "description": "Mazda Stadium is the home ground of the Hiroshima Toyo Carp, and it is a good place for a phone photo whether or not you are a baseball fan. The ballpark is in Minami-ku and has a retro-classic look. It holds about 32,000 people and opened on 10 April 2009, replacing the old municipal stadium. Its full name, MAZDA Zoom-Zoom Stadium Hiroshima, comes from a naming-rights deal with the car maker Mazda.\n\nWhat makes it work for photos is the view from inside. From the upper (second) deck seating you get a wide look over the field and the city around it. Behind the ballpark the hills rise up, and the railway tracks and passing trains can be seen beyond the stadium's outer edge, which gives your pictures a bit of local life. On game days the stands, the crowd and the lights add colour and energy.\n\nThe phone icon on the map is the stadium itself, so you are shooting from inside the ballpark. On game days the upper deck needs a game ticket, and it may open only once general seating is open. When no game is on, the main concourse may be walkable, but rules can change, so check the official site before you go. If you plan to use any support for your phone, check the stadium's policy first, as restrictions may apply during games.",
+   "geographic_location": "Mazda Stadium is in Minami-ku, Hiroshima. The ballpark is a large, self-contained structure, and the hills sit behind it.",
+   "directions_text": "No nearby station or tram stop is listed here, so check a current route planner for the best way to reach the stadium. Once you are at the stadium, follow the signs and your ticket to the upper-deck seating on game days. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the sweep of the field and the stands, then switch to the default lens (1x) for general views of the city. Use the telephoto (2x-5x, depending on your phone) to pick out players, the scoreboard or a passing train.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Stand on the upper (second) deck seating, where the photo shows a panoramic view over the field and the surrounding city from the upper level.",
+    "how_to_frame": "Turn on the gridlines and keep the horizon level, with the field in the lower half and the city and hills above. For a different angle, face the hills behind the ballpark and frame the railway tracks and any passing trains beyond the stadium's outer edge. Include a few fans in the foreground to give a sense of scale.",
+    "phone_settings_tip": "Tap on the field to set focus, then slide the exposure down slightly so bright sky or floodlights do not wash out. In the evening, try night mode, but hold the phone steady. Live Photos can catch the crowd's movement.",
+    "best_time": "Early afternoon or evening game days. Afternoon games give natural light, while evening games give stadium lights."
+   },
+   "access_note": "Entry to the upper deck on game days needs a game ticket, so check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Mazda Stadium",
+    "url": "https://en.wikipedia.org/wiki/Mazda_Stadium"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "HKT3012 at Japanese Wikipedia",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:MAZDA_Zoom-Zoom_Stadium_Hiroshima_facade.jpg",
+   "from": "Wikidata Q1038647 main image"
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Hiroshima Orizuru Tower",
+  "in_cut": true,
+  "label": "Orizuru Tower",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 770,
+  "pin": [
+   132.454686,
+   34.39567
+  ],
+  "camera": [
+   132.454686,
+   34.39567
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OSM W105823445 (Hiroshima Orizuru Tower): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Rooftop observation deck with views of the Dome.",
+  "text": {
+   "description": "Hiroshima Orizuru Tower is a tall building in Hiroshima, and it is an easy stop for a phone photo. You can photograph it from the street, and the main job is to capture its height and lines. Check the official site for access details before you go.\n\nFor the best result, treat the tower as a tall subject. Stand near the base, tilt the phone up slowly and keep the vertical lines straight by using the gridlines. If you want the whole building, step back along the pavement and use the ultra-wide lens (0.5x). This is also a good place to take a quick set of pictures: one wide shot of the whole building, one closer shot of a detail such as the entrance or a corner, and one with people walking past for a sense of scale. Wipe your lens before you start, as city air and pockets leave smudges that show up in bright sky.\n\nTake your time here and look around before you press the shutter. If people are in the foreground, wait for a gap.",
+   "geographic_location": "Hiroshima Orizuru Tower is in Hiroshima, at (34.39567, 132.454686).",
+   "directions_text": "No station or tram stop is listed for this spot; use the map to navigate to the tower. Once you reach the building, the phone icon on the map is right at the tower itself, so there is no extra walk. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole tower in from close range, then switch to the default lens (1x) for a more natural look. If you want a detail of the upper part of the building, use the telephoto (2x-5x, depending on your phone).",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. For a full-building shot, move a few steps back along the pavement and aim upwards.",
+    "how_to_frame": "Turn on gridlines and line up the sides of the tower with the vertical lines, keeping the phone as level as you can so the building does not lean. Leave a little sky above the top. For variety, put a person or a tree at the edge of the frame to show scale.",
+    "phone_settings_tip": "Tap the tower to set focus, then slide the exposure down slightly if the sky is bright, so the building keeps its detail. If the light is low, use night mode and hold the phone steady against a wall or railing.",
+    "best_time": "Morning or late afternoon usually gives softer light than midday. If you visit at dusk or in low light, night mode can help, so hold the phone steady."
+   },
+   "access_note": "Check the official site for access details before you go."
+  },
+  "checker_problems": 10,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "Oilstreet",
+   "licence": "CC BY 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by/2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
+   "from": "Wikidata Q231140 main image, found by searching Wikipedia for the spot's name ('Hiroshima Peace Memorial'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Children's Peace Monument",
+  "in_cut": true,
+  "label": "Children's Peace Monum",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 630,
+  "pin": [
+   132.4395816,
+   34.3907142
+  ],
+  "camera": [
+   132.4395816,
+   34.3907142
+  ],
+  "camera_source": "Researched viewpoint '原爆の子の像' (3 web pages); placed at OpenStreetMap '原爆の子の像' (way/868813536): middle (3 m across); moved 5 m off buildings.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
+  "notes": "Monument to Sadako Sasaki, hung with thousands of paper cranes.",
+  "text": {
+   "description": "The Children's Peace Monument stands in Hiroshima Peace Memorial Park and remembers Sadako Sasaki and the many children who died because of the atomic bombing. At the top of the monument, a bronze figure of Sadako holds a wire crane high above her head. Two child figures, a boy and a girl, stand below her. The monument was paid for by a fund-raising campaign among Japanese school children, including Sadako's classmates, and was unveiled on 5 May 1958, Children's Day. Beneath the main structure hangs a bronze crane that works as a wind chime against a peace bell. Hideki Yukawa donated both pieces.\n\nIt photographs well because the figure is dramatic and the setting is full of colour. Paper cranes folded by people from all over the world are offered around the base, and they give you bright, textured foreground for wider shots. One guide also suggests the northwest side of the monument as an alternative angle. Step back a little for a frame that includes the colourful crane cases at the bottom as well. This is a place where people come to pay their respects, so keep voices low, leave space for anyone standing quietly, and don't climb on the monument. Early morning is the quietest time and has softer light.",
+   "geographic_location": "In Hiroshima Peace Memorial Park, Hiroshima. The monument stands in the park itself, among the other memorials.",
+   "directions_text": "No station or tram stop is listed for this spot, so navigate to Hiroshima Peace Memorial Park, where the monument stands. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) and tilt the phone upward to put the statue against the sky. Switch to the ultra-wide (0.5x) for frames that include the crane cases at the base. Use telephoto (2x-5x) to pick out Sadako and her golden crane at the top.",
+    "where_to_stand": "Stand right at the subject (northwest side, shooting upward). The bronze figure of Sadako holding a golden crane high, framed against open sky, with the colorful crane cases at the base as foreground detail. Shoot upward from there so that the bronze figure holding the golden crane stands out against open sky, with the colourful crane cases as foreground detail. If you want a different view, one guide suggests trying the northwest side of the monument.",
+    "how_to_frame": "Turn on gridlines and keep the figure on one of the vertical lines, with the golden crane near the top of the frame. Tilt the phone up slowly, then check the edges for stray branches or people. For a second frame, step back and include the crane cases at the base to add colour and texture. Keep the phone level so the monument doesn't lean.",
+    "phone_settings_tip": "Tap on the statue to set focus, then slide the exposure down a little so the sky doesn't wash out and the bronze keeps its detail. Take a few frames at different zoom levels, as small shifts in angle change the sky behind the figure.",
+    "best_time": "Early morning, before the crowds arrive, when the light is softer."
+   },
+   "access_note": "The monument stands in an open public park, but check the official site before you go in case of any restrictions or ceremonies."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Children's Peace Monument",
+    "url": "https://en.wikipedia.org/wiki/Children%27s_Peace_Monument"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "Hyppolyte de Saint-Rambert",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_park_hdsr_Childrens_for_peace_S5_08.jpg",
+   "from": "Wikidata Q114718 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Aioi Bridge",
+  "in_cut": true,
+  "label": "Aioi Bridge",
+  "camera_pill": "near 元安橋北歩道",
+  "nophone": false,
+  "searches": 600,
+  "pin": [
+   132.45249,
+   34.396292
+  ],
+  "camera": [
+   132.453566,
+   34.394085
+  ],
+  "camera_source": "Commons cluster (11 photos).",
+  "pin_note": "Position from OpenStreetMap relation/13592879: the middle of the OpenStreetMap outline 'Aloi Bridge' (169 m across).",
+  "notes": "T-shaped bridge that was the bomb's aiming point.",
+  "text": {
+   "description": "Aioi Bridge is a three-way bridge shaped like a letter T, which makes it easy to spot on a map and rather unusual on the ground. The long arm crosses the Ōta River just north of the island of Nakajima-cho, and the short arm leads down onto the island, where it forms the north entrance to Hiroshima Peace Memorial Park. The first bridge opened in 1932 and was built for streetcars. In 1945 its distinctive shape made it the aiming point for the atomic bomb, although the bomb fell about 240 metres off target. The bridge was damaged but stayed standing, and it was repaired and used for almost four decades. The present bridge was completed in 1983 to a similar design. The long section is roughly 123 metres, and a tram line still runs along it. The name comes from the way the two bridges 'meet'.\n\nFor photographs, the T-shape is the whole point. Wide river on both sides, a long straight span and open sky give you clean lines, and a passing tram adds scale and a sense of everyday life. From the phone icon on the map you are a little way off, so the bridge looks small and neat in the frame. For a stronger picture, walk north towards it and try a few different angles along the way. The place has deep historical meaning, so keep a respectful, quiet manner while you take photos.",
+   "geographic_location": "In central Hiroshima, where the Ōta River meets the northern tip of Nakajima-cho, the island that holds Hiroshima Peace Memorial Park. The bridge is the park's north entrance.",
+   "directions_text": "Use a map app to reach Hiroshima Peace Memorial Park, whose north entrance is the short arm of the bridge. The phone icon on the map is about 210 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to show the bridge with its surroundings. Use the telephoto/zoom (2x-5x, depending on your phone) from where you stand to bring the bridge closer. Switch to ultra-wide (0.5x) only once you are close and want the full width of the road and river.",
+    "where_to_stand": "Stand about 210 m south of the subject, at the phone icon on the map, and face north. From there you can see the whole bridge at a distance. Then walk north for closer shots.",
+    "how_to_frame": "Turn on gridlines and line the long arm of the bridge up with a horizontal grid line so the span looks straight. Leave some sky and some river in the frame. If a tram is crossing, wait and take the shot as it passes. Take one wide shot and one zoomed-in shot so you have both options.",
+    "phone_settings_tip": "Tap the bridge to set focus, then drag the exposure slider down slightly if the sky is bright, so the bridge isn't too dark. For a passing tram, try a Live Photo and pick the best frame afterwards.",
+    "best_time": "Soft morning or late-afternoon light usually looks best on the water and the bridge. A quiet time of day also makes it easier to take photos without people in the way."
+   },
+   "access_note": "The bridge is part of the public road and tram route and the park's north entrance, so you can walk up to it; take care near the traffic and tram line, and check the official site before you go if you plan to visit nearby memorial sites."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Aioi Bridge",
+    "url": "https://en.wikipedia.org/wiki/Aioi_Bridge"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "Taisyo",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:%E7%9B%B8%E7%94%9F%E6%A9%8B01.jpg",
+   "from": "Wikidata Q23476 main image"
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Hondōri",
+  "in_cut": true,
+  "label": "Hondori Street",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 590,
+  "pin": [
+   132.45694444,
+   34.39361111
+  ],
+  "camera": [
+   132.45694444,
+   34.39361111
+  ],
+  "camera_source": "Researched viewpoint '本通' (3 web pages); placed at OpenStreetMap '本通' (node/9623798507): point.",
+  "pin_note": "Position from Wikidata Q1770596: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Covered shopping arcade in the city centre.",
+  "text": {
+   "description": "Hondōri means \"Main Street\", and it is a shopping arcade in Naka-ku, with shop fronts and bright signs lining a long covered walkway. It photographs well because the roof and the rows of shops pull the eye down the street, and the signage at the arcade entrance makes a ready-made frame. The Peace Park end is a good place to start, as it is the most direct walk from the sights.\n\nThe street runs from Hatchōbori to the Hiroshima Peace Memorial Park. Shops here were staying open late as far back as 1931, when lily-of-the-valley lanterns were installed. The whole shopping area was destroyed in the 1945 atomic bombing and was rebuilt in the 1950s as the modern arcade you see now. A few concrete buildings partly survived, including the Teikoku Bank building from 1925, which later housed Andersen Bakery from 1967.\n\nKeep the entrance signage and the shop fronts on both sides in the frame, and let the covered walkway lead the eye. People will almost certainly be walking through, so wait a moment for a gap or include them to give a sense of scale. If you want a second view, try the wide pedestrian crossing at 本通交差点, with the arched arcade entrance in the background, and check the exact spot on site.",
+   "geographic_location": "Hondōri is in the Naka-ku district of central Hiroshima. Its arcade links the Peace Memorial Park, across Rijō-dōri, with Hatchōbori and the Parco department store.",
+   "directions_text": "Start from the Hiroshima Peace Memorial Park, as the Peace Park end of the arcade is just across Rijō-dōri from it. Hiroden has a Hondori Station and the Astram Line has a Hondōri Station, so check local transport details on the day. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the arcade and its signage as people see them. Switch to the ultra-wide (0.5x) if you want the full height of the entrance and the roof, but keep the phone level so the shop fronts do not lean. A 2x telephoto, if your phone has one, compresses the street and brings the far end closer.",
+    "where_to_stand": "Stand on 本通 (Peace Park end, where the arcade meets the park's eastern entrance). A long, covered shopping arcade receding into the distance, framed by its entrance signage and the shop fronts on either side.",
+    "how_to_frame": "Turn on gridlines and place the centre of the arcade on the middle line, so both rows of shops are balanced. Include the entrance signage at the top of the frame as a border. For a different view, you could try the crossing at 本通交差点, where the arched arcade entrance sits in the background, but check the exact spot on site.",
+    "phone_settings_tip": "Tap on the brightest part of the street to focus, then pull the exposure slider down slightly so the signs do not wash out. If the light is low, let night mode work and hold the phone steady against your body or a rail. A Live Photo can help you choose a frame with fewer people in the way.",
+    "best_time": "The arcade is covered, so it works in most weather. Early in the day it is likely to be quieter, and the lights may make it a good place for evening photos."
+   },
+   "access_note": "Hondōri is an open public shopping arcade, though individual shops set their own hours, so check shop hours locally if you plan to go inside any of them."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Hondōri",
+    "url": "https://en.wikipedia.org/wiki/Hond%C5%8Dri"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "Aude",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hondori.jpg",
+   "from": "Wikidata Q1770596 main image"
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Hiroshima Museum of Art",
+  "in_cut": true,
+  "label": "Hiroshima Museum of Ar",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 440,
+  "pin": [
+   132.4580873,
+   34.3986179
+  ],
+  "camera": [
+   132.458087,
+   34.398618
+  ],
+  "camera_source": "Researched viewpoint 'Hiroshima Museum of Art' (1 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap relation/1398010: the middle of the OpenStreetMap outline 'Hiroshima Museum of Art' (115 m across).",
+  "notes": "Museum of French impressionist works beside the castle.",
+  "text": {
+   "description": "The Hiroshima Museum of Art is a gallery of European and Japanese painting that opened in 1978 inside Hiroshima Central Park. Its rooms run from Romanticism and Impressionism through the Post-Impressionists, Fauvism and Picasso to the Ecole de Paris, with further rooms of Western-style Japanese painting. The classic shot is the front, with its flagpoles and banner. This spot is the quieter option: the back of the building, seen from a path lined with bare trees. One visitor describes it as a calm place to pause after the galleries, and it tends to be less busy than the entrance. The trees make a natural frame, and the path gives your picture a line that leads the eye towards the building. It works well on a phone because you can fit the whole scene in at 1x without fiddling. Walk round to the back path behind the museum, line up the path edges with the gridlines, and let the museum sit in the middle or to one side. If you want the classic view as well, the front facade with the flagpoles is the alternative. The museum is at 3-2 Motomachi, Naka-ku, just north of Hondori and the bus centre. Photography indoors is allowed in some places and not others, so check the museum's rules before shooting inside.",
+   "geographic_location": "The museum is in Hiroshima Central Park in Naka-ku, at 3-2 Motomachi, just north of the Hondori shopping street and the Hiroshima Bus Center.",
+   "directions_text": "Head for the Hondori area and the Hiroshima Bus Center, then go north towards Hiroshima Central Park, where the museum stands. Nearby access points include Astram Line Kencho-mae Station, Hiroden Kamiya-cho-higashi and Kamiya-cho-nishi, and the Hiroshima Bus Center. Once at the museum, walk round to the back and look for the path lined with trees. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the path and the rear of the building together. Switch to ultra-wide (0.5x) if the path is narrow and you want the whole tree-lined view. Try telephoto (2x or more) to pick out the building between the trunks.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Walk round to the back path, where the bare trees line the path, and check it against the map. Then frame the rear of the museum with the trees along the path.",
+    "how_to_frame": "Turn on the gridlines and set the path along a line so it leads towards the museum. Keep the trees on both sides to frame the building. Hold the phone level so the walls do not lean. If you also want the front facade with the flagpoles and banner, that is the classic alternative shot.",
+    "phone_settings_tip": "Tap the building to focus, then slide the exposure down a little if the sky is washing out. Take a few frames, as people walking along the path can spoil a shot.",
+    "best_time": "Soft daylight, such as a bright overcast day or the morning, suits this view. Try to come when the path is quiet."
+   },
+   "access_note": "This museum is in a public park and has an indoor photography policy with exceptions, so check the museum's rules before you go."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Hiroshima Museum of Art",
+    "url": "https://en.wikipedia.org/wiki/Hiroshima_Museum_of_Art"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "Oilstreet",
+   "licence": "CC BY 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by/2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshima_Museum_of_Art02-r.jpg",
+   "from": "Wikidata Q63828 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims",
+  "in_cut": true,
+  "label": "Peace Memorial Hall",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 370,
+  "pin": [
+   132.4534271,
+   34.3930327
+  ],
+  "camera": [
+   132.4534271,
+   34.3930327
+  ],
+  "camera_source": "Researched viewpoint '元安橋' (2 web pages); placed at OpenStreetMap '元安橋' (relation/10648434): middle (70 m across); moved 25 m off water.",
+  "pin_note": "Position from OpenStreetMap way/196472299: the middle of the OpenStreetMap outline 'Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims' (97 m across).",
+  "notes": "Quiet memorial hall with a circular hall of remembrance.",
+  "text": {
+   "description": "The Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims is a quiet, low building in Hiroshima Peace Memorial Park. The national government founded it in 2002 to mourn those killed by the atomic bomb, and Kenzō Tange designed it. Staff there collect survivors' memories and stories, along with the names and photographs of victims. Admission is free.\n\nThe hall is not the main subject from here. It sits on the park side, to the south, so it works best as one layer of a bigger scene. Think of the river and bridge in the foreground and the park's buildings and trees beyond. On the same bridge you can also look across the water towards the Atomic Bomb Dome.\n\nFor a closer look at the hall itself, walk into the park. Its circular, low concrete exterior has a single narrow opening, and it looks good against the open lawns. A wider, calmer frame of the hall set in the green of the park also works well. This is a place of remembrance, so keep your voice and your phone low-key. Photography inside is allowed but should be discreet and without flash, so the outside is the easier subject.",
+   "geographic_location": "The hall is in Hiroshima Peace Memorial Park, in central Hiroshima. It stands on the park side of the Motoyasu River, close to the Motoyasu Bridge.",
+   "directions_text": "Head for Hiroshima Peace Memorial Park in central Hiroshima. The hall is about 135 m to the south, across the river on the park side. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the river, bridge and park together. Use telephoto (2x-5x, depending on your phone) to pick out the hall from the bridge. Switch to ultra-wide (0.5x) in the park if you want the whole low building and the lawns.",
+    "where_to_stand": "Stand on 元安橋 (bridge over the Motoyasu River, looking across to the park side where the hall stands). A river-and-bridge foreground with the park's buildings beyond; the hall sits in the park on the far bank, so it appears as a secondary element rather than the main subject. The photo shows the river and bridge in the foreground with the park's buildings beyond. The hall sits on the far bank, so it is a secondary element rather than the main subject.",
+    "how_to_frame": "Turn on gridlines and use the bridge railing or the river's edge as a leading line. Keep the hall in the upper third of the frame so the water and bridge give depth. For a closer, quieter image, walk into the park and frame the hall's circular concrete shape and its single narrow opening against the open lawns.",
+    "phone_settings_tip": "Tap the sky or the hall to set focus, then drag the exposure slider down slightly if the sky is bright, so the grey concrete keeps its detail. Hold the phone steady against the railing for sharper telephoto shots. If you take photos inside the hall, keep it discreet and do not use flash.",
+    "best_time": "Choose a time when the bridge is quiet so you can frame the view without people in the foreground."
+   },
+   "access_note": "Check on the day for any closures or restrictions on exterior photography. The hall's own admission is free, but check the official site before you go for visiting details and rules on photography inside."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims",
+    "url": "https://en.wikipedia.org/wiki/Hiroshima_National_Peace_Memorial_Hall_for_the_Atomic_Bomb_Victims"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "Taisyo",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshima_National_Peace_Memorial_Hall_for_the_Atomic_Bomb_Victims_2008_01.JPG",
+   "from": "Wikidata Q114067 main image"
+  }
+ },
+ {
+  "rank": 15,
+  "name": "Hijiyama Park",
+  "in_cut": true,
+  "label": "Hijiyama Park",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 160,
+  "pin": [
+   132.473148,
+   34.38305
+  ],
+  "camera": [
+   132.473148,
+   34.38305
+  ],
+  "camera_source": "Researched viewpoint 'Peace Message Plaza' (1 web pages); placed at our map tiles: 'Peace Message Square' (pois).",
+  "pin_note": "Position from OSM N1375543447 (Hijiyama park): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Hilltop park with cherry blossoms and city views.",
+  "text": {
+   "description": "Hijiyama Park covers a wooded hill above Hiroshima, and it is nicknamed Peace Hill. Trees block many of the views from the top, so the trick is to head for the open spots. The best-known one is Peace Message Plaza, an observation area facing the city centre. From here you look out over the rooftops toward Peace Memorial Park, with the hill's greenery filling the foreground. That mix of leafy frame and open city makes an easy, balanced phone photo. The plaza is reached from the Hijiyama Skywalk, so it is simple to find on foot. If you have time for a second picture, the open lawn near Henry Moore's Arch has city views with the modern art museum behind it. Fujimidai tenbodai is a more open terrace over the city, and at night it gives a view of the city lights. Start at the plaza, take one wide shot of the whole view, then a tighter one of the area around Peace Memorial Park. Let a little foliage into the edge of the frame to give the picture depth. Park hours may vary, so check the official site on the day you go, especially if you plan to stay into the evening.",
+   "geographic_location": "Hijiyama Park sits on a hill above Hiroshima. Its observation area looks back over the centre toward Peace Memorial Park.",
+   "directions_text": "Start from Hiroshima city centre and head to Hijiyama Park. Once on the hill, follow the Hijiyama Skywalk to Peace Message Plaza. The main part of the park lies a short way south of the plaza, about 3 minutes on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for a natural view of the city. Switch to ultra-wide (0.5x) if you want more of the skyline and the greenery in one frame. Use telephoto (2x-5x, depending on your phone) to pick out the Peace Memorial Park area in the distance.",
+    "where_to_stand": "Stand in Peace Message Plaza (observation area on the hill, facing the city centre). A wide view over Hiroshima's city centre toward Peace Memorial Park, with the hill's greenery in the foreground. Face the city centre, with the wooded hill below and in front of you. The main part of the park lies a short way to the south of this point.",
+    "how_to_frame": "Turn on gridlines and place the horizon on the upper or lower line, depending on whether you want more sky or more city. Let some leaves or branches show at the edge of the frame to add depth. For a second picture, try the lawn near Henry Moore's Arch.",
+    "phone_settings_tip": "Tap on the city to set focus, then drag the exposure slider down slightly if the sky looks washed out. Hold the phone steady with both hands, and clean the lens first.",
+    "best_time": "Pick a clear day for the longest view over the city. For city lights after dark, Fujimidai tenbodai is the terrace to try, with night mode on. Check the park's closing time first."
+   },
+   "access_note": "The park is a public hilltop space, but opening and closing times may vary, so check the official site on the day you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/15.jpg",
+   "artist": "Taisyo at Japanese Wikipedia",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshima_City_Museum_of_Contemporary_Art.jpg",
+   "from": "Wikidata Q93425 main image, found by searching Wikipedia for the spot's name ('Hiroshima City Museum of Contemporary Art'): check it shows this spot"
+  }
+ }
+]

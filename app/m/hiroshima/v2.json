@@ -1,0 +1,937 @@
+{
+ "Hiroshima Peace Memorial Museum": {
+  "rank": 1,
+  "card": {
+   "hook": "The museum's main block seems to hover on its supporting legs, and from across the road its outline is calm and simple. It's a quiet building, so give yourself a moment before you raise your phone.",
+   "stand_here": "Stand on 平和大通り (Peace Boulevard), on the far side of the road from the museum's main building. Face the museum and you'll see the whole raised block head-on, with the park entrance in view.",
+   "zoom": "Start at 1x so the whole building fits without tilting your phone upwards. If traffic or railings crowd the bottom of the frame, try 2x to crop in. Use 0.5x only if you're too close to fit it all in.",
+   "make_it_pop": "Turn on gridlines and line up the legs and the roofline with them, then tap the building and slide a little darker if the sky is washing out the details.",
+   "best_time": "Go in daylight. A bright overcast sky or morning light shows the building's lines cleanly. Early in the day there's usually less traffic and fewer people in front of the building.",
+   "selfie_here": "This is a memorial, so keep any selfie quiet and quick. Use the front camera, step back from the entrance, and put the building over your shoulder. Or take your photo of the museum first and ask a travel companion to take you in a second shot.",
+   "ask_someone": "",
+   "rules_and_safety": "Interior photography is restricted and the rules can vary by exhibit, so treat this as an outside shot. Selfie sticks aren't permitted in the museum. Keep a respectful distance and don't block the entrance or the pavements. The museum is ticketed with timed entry, so check the official site before you go.",
+   "challenge": "Take one shot at 1x and one at 2x, then pick the calmer one. Bonus points if the legs line up with the grid.",
+   "good_to_know": "The museum opened in August 1955, and Kenzō Tange designed the main building. Between 1955 and 2005 about 53 million people visited, over a million a year on average. It was renovated in 1994 and again from 2014, and the Main Hall reopened in April 2019 after seismic strengthening.",
+   "stand_here_before_gps_rule": "Stand on 平和大通り (Peace Boulevard), on the far side of the road from the museum's main building. Face the museum and you'll see the whole raised block head-on, with the park entrance in view."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Museum's north steps (Peace Memorial Park, museum side)",
+     "detail": "on the museum's north steps, facing north through the Cenotaph arch",
+     "why": "The museum sits behind you while the Cenotaph arch frames the Atomic Bomb Dome ahead.",
+     "sources": [
+      {
+       "title": "10 Best Hiroshima Peace Memorial Park Sites to Visit in 2026",
+       "url": "https://tourismattractions.net/japan/top-10-hiroshima-peace-memorial-park-sites"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Inside the museum, personal photography without flash is allowed, but tripods and selfie sticks are not allowed.",
+     "sources": [
+      {
+       "title": "Hiroshima Peace Memorial Museum (official site)",
+       "url": "https://hpmmuseum.jp/modules/info/index.php?action=PageView&page_id=47&lang=eng"
+      }
+     ]
+    },
+    {
+     "rule": "Selfie sticks and tripods are not permitted in the museum; the same restriction is repeated by ticket sellers and travel guides.",
+     "sources": [
+      {
+       "title": "Hiroshima Peace Memorial Museum Tickets [2025] - Promos, Prices, Reviews & Opening Hours",
+       "url": "https://us.trip.com/travel-guide/new-attraction/hiroshima/hiroshima-peace-memorial-museum-90098/"
+      },
+      {
+       "title": "Hiroshima Peace Memorial Museum (Klook)",
+       "url": "https://www.klook.com/en-MY/destination/p50056982-hiroshima-peace-memorial-museum/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot was found, and it is weak. The source describes the north-steps spot as a place to photograph the Dome, not a selfie. The museum being behind the visitor is my reading of that wording, so check it on the map. Several pages advise against selfies in front of memorials (airial.travel: 'Avoid taking selfies directly in front of memorials'), and hontojapan.com advises photographing the Dome across the water rather than yourself before it, so a selfie-with-museum-behind spot may be discouraged. No page names a spot where a passer-by should photograph a visitor with the whole museum in frame, so ask_someone_spot is null. The Aioi Bridge and Motoyasu riverside spots found in the sources frame the Dome, not the museum."
+  },
+  "cost_usd": 0.0599,
+  "at": "2026-11-18 03:34"
+ },
+ "Atomic Bomb Dome": {
+  "rank": 2,
+  "card": {
+   "hook": "A bare metal dome frame and broken brick walls stand against an open sky, and you get the whole story before you read a single sign. It's a quiet place, so the best photos here are quiet ones too.",
+   "stand_here": "Head for the spot near 元安橋北歩道, about 45 m south of the subject, where the phone icon sits on the map. Face north and the whole ruin fits comfortably in your frame.",
+   "zoom": "Start at zoom 1x to get the whole ruin with some sky and ground around it. Then try zoom 2x to 5x (depending on your phone) for the dome frame and the broken brickwork. If you wander closer and the building stops fitting, switch to zoom 0.5x.",
+   "make_it_pop": "Turn on the gridlines, put the dome frame on the upper third and the base of the walls on the lower line, then hold your phone level so the walls don't lean.",
+   "best_time": "Early morning usually means fewer people in front of the ruin. The city holds an annual Peace Memorial Ceremony here, so check the date and expect crowds then. After dark, use night mode and tuck your elbows against your body to keep the phone steady.",
+   "selfie_here": "Stand in front of the Flame of Peace in Hiroshima Peace Memorial Park with the Dome behind you, using the front camera and zoom 0.5x if you want it all in. Keep your expression calm and your pose simple, and skip the big vacation grin.",
+   "ask_someone": "Ask a passer-by to stand on the riverside footpath a little south of the Dome, on the far side of the steps down to the water, and shoot north with you in front and the whole Dome centred behind you.",
+   "rules_and_safety": "Don't enter the fenced area around the Dome. View it from the riverside promenade, keep your photos brief and don't block others. Avoid vacation-style poses or smiling selfies right in front of the ruins. Photography inside the Peace Memorial Museum is restricted in some sections, so check the signs or ask staff first.",
+   "challenge": "Get the dome frame sitting on the top gridline and the base of the walls on the bottom one, with nobody's head in the way. Patience counts as part of the challenge.",
+   "good_to_know": "The building was finished in April 1915 as an exhibition hall, designed by the Czech architect Jan Letzel. On 6 August 1945 the first atomic bomb used in war exploded about 600 metres above the ground and 150 metres to one side of it, so parts of the walls and the bare metal frame of the dome stayed standing. Hiroshima City Council resolved to preserve it in 1966, and it joined the UNESCO World Heritage List in 1996.",
+   "stand_here_before_gps_rule": "Head for the spot near 元安橋北歩道, about 45 m south of the subject, where the phone icon sits on the map. Face north and the whole ruin fits comfortably in your frame."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Flame of Peace, Hiroshima Peace Memorial Park",
+     "detail": "standing in front of the Flame of Peace with the Dome in the background, inside the park rather than at the ruins themselves",
+     "why": "A guide describes standing in front of the flame with the dome behind as one of the most photographed compositions in Japan, and it keeps you clear of the ruins themselves.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (genbaku Dome) Visitor Guide",
+       "url": "https://japanactivity.com/attractions/hiroshima/atomic-bomb-dome"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Motoyasu River embankment, south of the Dome, by the steps down to the water",
+    "detail": "Ask the passer-by to stand on the riverside footpath a little south of the Dome, at the far side of the steps that lead down to the water, and shoot north so the visitor sits in the foreground with the whole Dome centred behind. Another source puts a clean outline of the Dome across the river from the Peace Memorial Park side.",
+    "sources": [
+     {
+      "title": "A-Bomb Dome",
+      "url": "https://www.dark-tourism.com/index.php/456-a-bomb-dome"
+     },
+     {
+      "title": "10 Best Hiroshima Peace Memorial Park Sites to Visit in 2026",
+      "url": "https://tourismattractions.net/japan/top-10-hiroshima-peace-memorial-park-sites"
+     },
+     {
+      "title": "Hiroshima Atomic Bomb Dome Guide: UNESCO Peace Memorial",
+      "url": "https://www.jeepe.jp/en/articles/hiroshima-atomic-dome-guide-1261"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Avoid vacation-style poses or smiling selfies directly in front of the ruins.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (genbaku Dome) Visitor Guide",
+       "url": "https://japanactivity.com/attractions/hiroshima/atomic-bomb-dome"
+      }
+     ]
+    },
+    {
+     "rule": "Do not enter the fenced area around the Dome; keep photos brief and avoid lingering where you might block others.",
+     "sources": [
+      {
+       "title": "Hiroshima Atomic Bomb Dome Guide: UNESCO Peace Memorial",
+       "url": "https://www.jeepe.jp/en/articles/hiroshima-atomic-dome-guide-1261"
+      }
+     ]
+    },
+    {
+     "rule": "Photography inside the Peace Memorial Museum is restricted in some sections; check the signs or ask staff before taking photos there.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome Visitor Guide Hiroshima: 7 Essential Tips",
+       "url": "https://tourismattractions.net/japan/atomic-bomb-dome-visitor-guide"
+      }
+     ]
+    }
+   ],
+   "safety": "For safety, visitors cannot enter the fenced area around the Dome, so it is best to view it from a distance on the riverside promenade.",
+   "notes": "No page I found states any rule about selfie sticks or tripods, so none is listed. Sources disagree on selfies: one guide says selfies directly in front of the ruins should be avoided, and another says selfies at such a memorial can be seen as disrespectful, so the Flame of Peace spot is the only selfie option and rests on a single source. The ask-someone spot is taken from a dark-tourism page that gives coordinates for a viewpoint across the river (34.39482, 132.45291), but it describes the steps only in words, so confirm the exact steps on the map. Some pages are low-quality blogs with mixed-up or unverified details, such as the Dome's construction year and visiting-hour claims, so I did not use those."
+  },
+  "cost_usd": 0.0537,
+  "at": "2026-11-18 03:34"
+ },
+ "Hiroshima Peace Memorial Park": {
+  "rank": 3,
+  "card": {
+   "hook": "Walk into this park and the whole place seems to point one way, along a long, quiet line towards the A-Bomb Dome. Before 6 August 1945 this open ground was one of Hiroshima's busiest shopping and housing districts.",
+   "stand_here": "In Hiroshima Peace Memorial Park, walk to the phone icon on the map. The main subject is 33 m to the north, about 1 minute on foot, so face north.",
+   "zoom": "Start at 1x for the cenotaph-to-Dome view, which looks natural and keeps the distance. Try 0.5x to take in the open space of the park. Use 2x-5x (depending on your phone) for details like the paper cranes or the Dome in the distance.",
+   "make_it_pop": "Turn on the gridlines and line up the long axis of the park with the centre vertical line, keeping the horizon level.",
+   "best_time": "Early morning is usually calmer, with fewer people in your frame. A ceremony is held here on 6 August from 8:00 AM, so the park may be busy that morning.",
+   "selfie_here": "Stand in front of the Flame of Peace, which sits between the Cenotaph and the A-Bomb Dome, so the Dome is behind you. Use the front camera, hold it a little lower and further out, and keep it calm and simple.",
+   "ask_someone": "Ask someone to stand on the park side of the Motoyasu River, across from the Dome, and take your photo while you stand on the near bank with the full Dome behind you.",
+   "rules_and_safety": "Avoid vacation-style poses or smiling selfies directly in front of the Dome ruins, and don't photograph people who are praying or grieving without asking. The Dome's fenced area can't be entered, so stay outside the fence. Photography is restricted in some museum sections, so follow the signs.",
+   "challenge": "Take one calm, level, wide shot with the long path running down the middle line, then put your phone away and just look for a minute.",
+   "good_to_know": "The park was designed by the architect Kenzō Tange. The Children's Peace Monument shows a girl with a folded paper crane above her, based on the story of Sadako Sasaki, and folded cranes from around the world are placed nearby. The A-Bomb Dome joined the UNESCO World Heritage List on 7 December 1996.",
+   "stand_here_before_gps_rule": "In Hiroshima Peace Memorial Park, walk to the phone icon on the map. The main subject is 33 m to the north, about 1 minute on foot, so face north."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Flame of Peace (Hiroshima Peace Memorial Park)",
+     "detail": "Stand in front of the Flame of Peace, which sits between the Cenotaph and the Atomic Bomb Dome, so the dome is behind you.",
+     "why": "A guide describes this as one of the most photographed compositions in Japan, with the flame in front and the dome in the background.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (genbaku Dome) Visitor Guide",
+       "url": "https://japanactivity.com/attractions/hiroshima/atomic-bomb-dome"
+      },
+      {
+       "title": "The 26 best photo spots in Hiroshima",
+       "url": "https://wanderlog.com/list/geoCategory/160210"
+      }
+     ]
+    },
+    {
+     "name": "Aioi Bridge, looking south toward the park",
+     "detail": "Stand on Aioi Bridge on the Dome side and face south into the park, with the Dome behind you.",
+     "why": "A photo guide recommends this bridge as the north-side vantage for lining up the Dome, Cenotaph arch, Flame of Peace and museum, which places the Dome behind a visitor facing south.",
+     "sources": [
+      {
+       "title": "10 Best Hiroshima Peace Memorial Park Sites to Visit in 2026",
+       "url": "https://tourismattractions.net/japan/top-10-hiroshima-peace-memorial-park-sites"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Riverside viewpoint across the Motoyasu River, inside Peace Memorial Park",
+    "detail": "The passer-by stands on the park side of the river, across from the Dome, and frames the visitor standing on the near bank with the full Dome behind. A listed map point for this viewpoint is about 34.39482, 132.45291.",
+    "sources": [
+     {
+      "title": "A-Bomb Dome (Dark Tourism)",
+      "url": "https://www.dark-tourism.com/index.php/456-a-bomb-dome"
+     },
+     {
+      "title": "Hiroshima Atomic Bomb Dome Guide: UNESCO Peace Memorial",
+      "url": "https://www.jeepe.jp/en/articles/hiroshima-atomic-dome-guide-1261"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Avoid vacation-style poses or smiling selfies directly in front of the Dome ruins.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (genbaku Dome) Visitor Guide",
+       "url": "https://japanactivity.com/attractions/hiroshima/atomic-bomb-dome"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is restricted in some museum sections; follow the signs showing where cameras must be put away.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (genbaku Dome) Visitor Guide",
+       "url": "https://japanactivity.com/attractions/hiroshima/atomic-bomb-dome"
+      }
+     ]
+    },
+    {
+     "rule": "Photos are generally permitted at the Dome exterior and the Cenotaph area, but confirm respectfully first, and ask staff or check signs before photographing inside the museum.",
+     "sources": [
+      {
+       "title": "Hiroshima Atomic Bomb Dome Guide: UNESCO Peace Memorial",
+       "url": "https://www.jeepe.jp/en/articles/hiroshima-atomic-dome-guide-1261"
+      }
+     ]
+    }
+   ],
+   "safety": "The Dome's fenced area cannot be entered, so stand outside the fence and keep some distance when shooting.",
+   "notes": "No page states a selfie stick rule; one page only suggests bringing a tripod for night shots, which is a tip rather than a rule. The Aioi Bridge spot is an inference: the source recommends the bridge for the north-side sightline, so the Dome being behind a visitor facing south is my reading. The provided position (34.3927, 132.4524) is a park-area point; the Dome itself is listed at about 34.3954, 132.4535. The 'best view' pages differ: one favours the Motoyasu riverside footpath south of the Dome, and another favours the viewpoint across the river from the park side, so check both before choosing."
+  },
+  "cost_usd": 0.0517,
+  "at": "2026-11-18 03:35",
+  "selfie_pos": [
+   34.3934503,
+   132.452745
+  ],
+  "selfie_note": "Flame of Peace (OpenStreetMap: 平和の灯, 本通り, 大手町一丁目, 中区, 広島市, 広島県, 730-0051, 日本)"
+ },
+ "Hiroshima Station": {
+  "rank": 4,
+  "card": {
+   "hook": "This is a bookend photo: the first snap when you arrive, or the last one before you roll home. It also catches old and new Hiroshima in one frame, with a big modern front and trams gliding past.",
+   "stand_here": "Stand about 90 m north-west of Hiroshima Station, at the phone icon on the map, and face south-east. The station is ahead of you, so keep the building in front of you.",
+   "zoom": "Start at 0.5x to fit the whole front in, then try 1x for a more natural look. If your phone has 2x or 5x, use it for details like signs, rooflines or a tram.",
+   "make_it_pop": "Turn on the gridlines and line the edges of the building up with the vertical lines so it doesn't lean.",
+   "best_time": "Daytime gives you clear, even detail on the building. If you're there after dark, switch on night mode and hold still for a few seconds.",
+   "selfie_here": "Use the front camera, and switch to 0.5x if your phone has it, so more of the building fits behind you. Hold your arm out and keep the station over your shoulder, then check that the edges of the building aren't cut off.",
+   "ask_someone": "",
+   "rules_and_safety": "Some entrances and walkways get rebuilt or rerouted from time to time, so expect barriers and follow staff signs. Check the official site before you go.",
+   "challenge": "Get a tram into your shot with the building standing perfectly straight, then take a second close-up of one detail like a sign or a pane of glass.",
+   "good_to_know": "The station building was destroyed in the atomic bombing of 6 August 1945, and the building that followed was completed in December 1965. The newest chapter is a station building called \"minamoa\", which opened on 24 March 2025. In August 2025 the Hiroden tram stop moved up to its second floor, level with the JR concourse.",
+   "stand_here_before_gps_rule": "Stand about 90 m north-west of Hiroshima Station, at the phone icon on the map, and face south-east. The station is ahead of you, so keep the building in front of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a selfie spot with Hiroshima Station behind the visitor, or a spot for a passer-by to photograph a visitor with the whole station in frame. Several guides cover Hiroshima's photo spots, but their station references are about the views from the station or its exits, not photos of it. One lead is the Fukuya rooftop at Hiroshima Station Square, which a skyline-viewpoint ranking places first, but that page describes it as a view of the city, not a backdrop of the station, so I left it out. The Shinkansen Exit square is named as the bus and sightseeing pickup point, but no page recommends it as a photo position. No selfie-stick or tripod rules and no safety point about this landmark appeared in the results. Checking the station's current layout on site is advisable, since one station guide notes it has been extensively rebuilt."
+  },
+  "cost_usd": 0.0598,
+  "at": "2026-11-18 03:35"
+ },
+ "Hiroshima Castle": {
+  "rank": 5,
+  "card": {
+   "hook": "Offices, schools and shops crowd around it, and then there's a moat and a black-roofed keep sitting calmly in the middle of Hiroshima. It's called Carp Castle, and it looks great in a photo.",
+   "stand_here": "Start near 御門橋, at the phone icon on the map, about 330 m south of the numbered pin. Face north and walk into the grounds until the keep comes into view.",
+   "zoom": "Start at 1x for the whole keep and what's around it. Switch to 0.5x when you're close to the moat, walls or gate, then try 2x or 5x (depending on your phone) to pull in the roof tiers.",
+   "make_it_pop": "Turn on gridlines, put the keep on one third with moat or stone wall filling the bottom, then tap the keep and drag the slider down a little to make it darker so the sky doesn't wash out.",
+   "best_time": "Early morning or late afternoon gives softer light and fewer people. Calm, clear weather gives the best reflections in the moat.",
+   "selfie_here": "Try the wooden bridge over the inner moat. Photo guides say the keep and its reflection line up best here, so use the front camera with the keep behind you. For a second backdrop, there's a small grassy space under a tree on the moat bank, with the castle looming above the water.",
+   "ask_someone": "Enter from the south over the main bridge, turn left along the moat, and stop at the moat corner about a minute on. Stand there with the castle across the water and ask a passer-by to shoot from along the path.",
+   "rules_and_safety": "The grounds and the keep museum may have separate access arrangements, so check the official site before you go.",
+   "challenge": "Take one wide shot of the whole keep, then hunt down the wooden gate and turrets and see if you can make them look just as grand.",
+   "good_to_know": "Mōri Terumoto had the original castle built between 1589 and 1599, but the atomic bombing of 6 August 1945 destroyed what remained. The concrete keep you see now was finished in 1958 as a replica, and it houses a museum of the city's history before the Second World War. In 1994 a gate and three turrets were rebuilt in wood using the original methods, and some trees in the grounds survived the bombing.",
+   "stand_here_before_gps_rule": "Start near 御門橋, at the phone icon on the map, about 330 m south of the numbered pin. Face north and walk into the grounds until the keep comes into view."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Wooden bridge over the inner moat, Hiroshima Castle grounds",
+     "detail": "on the wooden bridge crossing the inner moat, with the keep behind you",
+     "why": "A source says this bridge is where the keep and its reflection line up best, so it suits a shot with the castle in view.",
+     "sources": [
+      {
+       "title": "King Tai Travel: Hiroshima Castle Guide: Hours, Tickets & Cherry Blossoms",
+       "url": "https://kingtai-travel.com/travel-info/chugoku/p3040/"
+      }
+     ]
+    },
+    {
+     "name": "Small grassy space under a tree on the moat bank",
+     "detail": "the little space under a tree right along the moat, reached by turning right toward the castle after the stairs and open space",
+     "why": "A local guide describes this spot as giving both a moat view and a castle view looming above, which could work as a backdrop for a selfie.",
+     "sources": [
+      {
+       "title": "Hiroshima Castle 360°: The Best Viewing Spots All Around the Castle - Joy in HIROSHIMA",
+       "url": "https://joyinhiroshima.com/stories/hiroshima-castle-360-degrees-the-best-viewing-spots-all-around-the-castle/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Corner of the moat on the walk left from the south main bridge",
+    "detail": "enter from the south over the main bridge, turn left along the moat instead of crossing, and stop at the moat corner about one minute on; the castle is visible across the water",
+    "sources": [
+     {
+      "title": "Hiroshima Castle 360°: The Best Viewing Spots All Around the Castle - Joy in HIROSHIMA",
+      "url": "https://joyinhiroshima.com/stories/hiroshima-castle-360-degrees-the-best-viewing-spots-all-around-the-castle/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "The selfie orientations (castle behind the visitor) are my reading of the sources, which describe photos of the castle rather than selfies. The ask-someone spot is the moat corner, which the source describes as the first view of the castle across the water; the source does not say it is a photographer's spot. No page I found stated rules about selfie sticks or tripods, and none gave a safety point for this site."
+  },
+  "cost_usd": 0.0476,
+  "at": "2026-11-18 03:36"
+ },
+ "Shukkei-en": {
+  "rank": 6,
+  "card": {
+   "hook": "Walk slowly here, because the best view often pops up just after a bend in the path. Water, trees and a bit of history all end up in your photo.",
+   "stand_here": "Start near 桜花巷, at the phone icon on the map, about 80 m north of the subject, and face south. Then wander into the garden and look back along the paths. The Hiroshima Prefectural Art Museum is right beside the garden, so it's a handy landmark if you get turned around.",
+   "zoom": "Start at zoom 1x for natural-looking garden scenes, then go to zoom 0.5x when you want a path and everything around it in one shot. Try zoom 2x to 5x (depends on your phone) for leaves, rooflines or a far corner of the garden.",
+   "make_it_pop": "Turn on gridlines and line up a path, water's edge or row of trees along one of them, with a branch or stone close to you in the foreground.",
+   "best_time": "Soft morning light or a bright cloudy day is best, since it avoids harsh shadows under the trees. Weekday mornings are often calmer, so you've got a better chance of a people-free frame.",
+   "selfie_here": "Stand at the foot of the stone arch of Kokokyo Bridge, not on the crowded span, and take your selfie with the front camera and the bridge behind you. For a bigger view, try the Geiki-ho Peak lookout with the garden spread out behind you, and use zoom 0.5x to fit more in. Check both spots when you arrive.",
+   "ask_someone": "Ask someone to stand on the bank of Takuei Pond facing Kokokyo Bridge, so they can frame the whole bridge with you on it.",
+   "rules_and_safety": "Photos with your phone are allowed throughout the garden at no extra charge, but ask staff first before photographing inside the Seifukan tea house. Kokokyo Bridge is steep and stepped with no handrail, so if you have limited mobility, vertigo or wet shoes, use the flat path on the southern shore. The garden may be ticketed or have set opening times, so check the official site before you go.",
+   "challenge": "Find a bend in the path, take one photo before it, then walk round and take one of whatever appears after it.",
+   "good_to_know": "Shukkei-en was built from 1620 on the orders of the local lord, Asano Nagaakira, and constructed by Ueda Sōko. It lies a short walk from ground zero, was badly damaged in the nuclear attack and became a refuge for victims of the war. After renovation it reopened in 1951.",
+   "stand_here_before_gps_rule": "Start near 桜花巷, at the phone icon on the map, about 80 m north of the subject, and face south. Then wander into the garden and look back along the paths. The Hiroshima Prefectural Art Museum is right beside the garden, so it's a handy landmark if you get turned around."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Kokokyo Bridge (Koko-kyo), in front of the arch on the pond bank",
+     "detail": "Stand at the foot of the stone arch, not on the crowded span, with the bridge behind you.",
+     "why": "Couples are often photographed in front of this bridge, so it is a proven backdrop for posed shots, though a narrow bridge gets crowded.",
+     "sources": [
+      {
+       "title": "KOKOKYO BRIDGE - All You SHOULD Know Before Going 2026 - Tripadvisor",
+       "url": "https://www.tripadvisor.in/Attraction_Review-g298561-d33196612-Reviews-Kokokyo_Bridge-Hiroshima_Hiroshima_Prefecture_Chugoku.html"
+      }
+     ]
+    },
+    {
+     "name": "Geiki-ho Peak (Yeonghui Peak) lookout over the garden",
+     "detail": "On the peak's lookout, with the garden spread out behind you.",
+     "why": "A guide calls this the best overall view of the garden, so it gives a scenic background for a selfie.",
+     "sources": [
+      {
+       "title": "Shukkeien Garden - Hiroshima Travel Guide",
+       "url": "https://www.japan365days.com/journey_hiroshima_shukkeien_garden.php"
+      },
+      {
+       "title": "Food and Culture in Hiroshima - Japan Guide",
+       "url": "https://www.japan-guide.com/blog/cassandra/250219.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Bank of Takuei Pond, facing Kokokyo Bridge",
+    "detail": "The passer-by stands on the pond bank, not on the bridge, and frames the whole bridge with the visitor on it.",
+    "sources": [
+     {
+      "title": "Shukkeien Autumn Leaves 2026: Hiroshima Garden Tickets and Routes",
+      "url": "https://todolist-japan.com/en/shukkeien-autumn-leaves-guide-2/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Personal photography with cameras and smartphones is allowed throughout the garden at no extra charge.",
+     "sources": [
+      {
+       "title": "Shukkeien Garden Hiroshima: Complete Visitor Guide 2026",
+       "url": "https://tourismattractions.net/japan/shukkeien-garden-hiroshima-guide"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods need prior permission from the garden administration and are generally not approved during busy cherry blossom and autumn weekends.",
+     "sources": [
+      {
+       "title": "Shukkeien Garden Hiroshima: Complete Visitor Guide 2026",
+       "url": "https://tourismattractions.net/japan/shukkeien-garden-hiroshima-guide"
+      }
+     ]
+    },
+    {
+     "rule": "Photographing inside the Seifukan tea house requires asking staff first.",
+     "sources": [
+      {
+       "title": "Shukkeien Garden Hiroshima: Complete Visitor Guide 2026",
+       "url": "https://tourismattractions.net/japan/shukkeien-garden-hiroshima-guide"
+      }
+     ]
+    }
+   ],
+   "safety": "The Koko-kyo bridge is steep and stepped with no handrail, so visitors with limited mobility, vertigo or wet shoes should use the flat path on the southern shore.",
+   "notes": "No page names a selfie spot with the garden directly behind the visitor; the selfie spots are inferred from bridge-portrait and viewpoint mentions, so check them on arrival. No page mentions selfie sticks, so no stick rule is given. The ask-someone spot comes from an autumn-season guide, and the bridge is crowded at peak times. Pages spell the garden as Shukkeien, Shukkei-en and Shukkeien Garden; all refer to the same place. The coordinates you gave were not checked against any page."
+  },
+  "cost_usd": 0.0651,
+  "at": "2026-11-18 03:36"
+ },
+ "Okonomi-mura": {
+  "rank": 7,
+  "card": {
+   "hook": "Forget the grand view, because the star here is a sizzling hot plate with steam curling off it. Okonomi-mura is a building stacked with tiny pancake restaurants, so bring your appetite and your phone.",
+   "stand_here": "Stand right at Okonomi-mura, where the phone icon on the map marks the spot, and face the building for your first shot. Then head inside for the counters and hot plates.",
+   "zoom": "Use 1x for most shots of the building and the cooking. Try 0.5x to fit a whole frontage or a busy floor in one frame, and 2x or more for sauce, toppings and signs without leaning over anyone's dinner.",
+   "make_it_pop": "Tap the food, then slide the brightness down a little so the steam and shiny sauce don't wash out.",
+   "best_time": "Go at a meal time, when the hot plates are busy and the place feels alive. In the evening, switch on night mode for the outside signs and rest your phone against a wall or railing to keep it still.",
+   "selfie_here": "Stand on the street just under the neon Okonomimura sign that arcs over the road near the entrance, with the sign behind you. Use the front camera, try 0.5x to fit more of the sign in, and tilt up a touch so the neon glows over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Check opening times before you go, and ask before photographing staff or other diners. Wipe your camera glass now and then, because cooking steam and grease can cloud it.",
+   "challenge": "Catch the moment the spatula flips the pancake, using a Live Photo, and see if you can get the steam in the shot too.",
+   "good_to_know": "The building holds more than 25 separate restaurants over four floors, and each has its own style and ingredients. They all use a special sauce made for Okonomi-mura by Sun Foods. After August 1945, a cheap thin pancake called issen yoshoku helped survivors get a meal, and shops in the Shintenchi area began cooking it 'how you like it', which is what okonomiyaki means.",
+   "stand_here_before_gps_rule": "Stand right at Okonomi-mura, where the phone icon on the map marks the spot, and face the building for your first shot. Then head inside for the counters and hot plates."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Under the neon Okonomimura sign, Shintenchi street near the building entrance",
+     "detail": "on the street just under the neon sign that arcs over the road near the entrance, with the sign behind you",
+     "why": "The neon sign is the most recognisable feature of the building, and it stands out more than the plain facade.",
+     "sources": [
+      {
+       "title": "Okonomimura: Hiroshima's Must-Visit Okonomiyaki Village • The Wanderbug",
+       "url": "https://thewanderbug.com/okonomimura-hiroshima/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot is supported by a page. The Wanderbug page is the only source that names a photo position, and it says the entrance sign is near the entrance but does not name a stair or street point. No page names a spot where a passer-by should stand to frame the whole building, so ask_someone_spot is null. No page states rules on selfie sticks or tripods, and none mentions a safety point for this site. Sources disagree on details: one says Okonomimura occupies floors 2 to 4 of the Shintenchi Plaza building at 5-13 Shintenchi, another says it is on the 6th floor of the Hiroshima Full Focus Building across from the station, and stall counts range from 20 to 25. I did not check the supplied coordinates (34.39129, 132.46189) against any page, so verify the spot on a map before handing it to visitors."
+  },
+  "cost_usd": 0.043,
+  "at": "2026-11-18 03:37"
+ },
+ "Mazda Stadium": {
+  "rank": 8,
+  "card": {
+   "hook": "Picture this: you're up on the second deck, the whole field spread out below you, and a train rattles past beyond the stadium edge like it's part of the show. You don't need to know a single baseball rule to love this view.",
+   "stand_here": "The phone icon on the map is Mazda Stadium itself, so you're shooting from inside the ballpark. Head up to the upper (second) deck seating and face the field for the big sweep of the stadium and the city.",
+   "zoom": "Start at zoom 0.5x to fit in the field and the stands, then go to 1x for the city views. Try zoom 2x to 5x (depends on your phone) to pick out players, the scoreboard or a passing train.",
+   "make_it_pop": "Turn on the gridlines, keep the horizon level with the field in the bottom half and the city and hills above, and tap the field so the picture isn't too bright.",
+   "best_time": "Early afternoon or evening game days are best. Afternoon games give you natural light, and evening games add the stadium lights. In the evening, try night mode and hold your phone steady.",
+   "selfie_here": "For a distinctive backdrop, take your selfie on the upper second deck in the unreserved seating area. You get the hills and the trains passing beyond the left-field fence behind you. Use the front camera, try 0.5x to fit more in, and keep your face to one side so the view shows. For something goofy, the outfield concourse has a mock fence beside the two Soichiro Amaya statues, perfect for a 'catching a ball' pose, though the stadium may not be in the frame there.",
+   "ask_someone": "Ask a passer-by on the walkway that climbs the ramp from Hiroshima Station toward the main gate, where the full stadium comes into view, and have them take your picture from a few steps down the ramp.",
+   "rules_and_safety": "On game days the upper deck needs a game ticket, and it may open only once general seating is open. Rules can change, so check the official site before you go. If you plan to use any support for your phone, check the stadium's policy first, as restrictions may apply during games.",
+   "challenge": "Catch a train in the background of your shot, with a couple of fans in the foreground, and see if you can do it before the next one passes.",
+   "good_to_know": "Mazda Stadium is the home ground of the Hiroshima Toyo Carp. It holds about 32,000 people and opened on 10 April 2009, replacing the old municipal stadium. The full name, MAZDA Zoom-Zoom Stadium Hiroshima, comes from a naming-rights deal with the car maker Mazda.",
+   "stand_here_before_gps_rule": "The phone icon on the map is Mazda Stadium itself, so you're shooting from inside the ballpark. Head up to the upper (second) deck seating and face the field for the big sweep of the stadium and the city."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Outfield concourse, beside the Soichiro Amaya statues and fake fence",
+     "detail": "on the outfield concourse, on the near side of the mock fence next to the two Soichiro Amaya statues",
+     "why": "The fence is a prop set up for a playful 'catching a ball' pose, so it suits a fun selfie, though the source does not say the stadium is framed behind you.",
+     "sources": [
+      {
+       "title": "Mazda Zoom Zoom Stadium - Hiroshima Toyo Carp (StadiumJourney)",
+       "url": "https://www.stadiumjourney.com/stadiums/mazda-zoom-zoom-stadium-hiroshima-s922"
+      }
+     ]
+    },
+    {
+     "name": "Upper second deck, unreserved seating area",
+     "detail": "up on the second deck, which opens to fans once the rest of the seating area is open",
+     "why": "From here you get a view of the surrounding hills and trains passing beyond the left-field fence, a distinctive backdrop for a selfie.",
+     "sources": [
+      {
+       "title": "Mazda Zoom Zoom Stadium - Hiroshima Toyo Carp (StadiumJourney)",
+       "url": "https://www.stadiumjourney.com/stadiums/mazda-zoom-zoom-stadium-hiroshima-s922"
+      },
+      {
+       "title": "Mazda Zoom-Zoom Stadium Hiroshima (2026) (Airial)",
+       "url": "https://airial.travel/attractions/japan/hiroshima/mazda-zoom-zoom-stadium-hiroshima-Ph-zcUjJ"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Ramp on the approach from Hiroshima Station, climbing toward the main gate",
+    "detail": "on the walkway that climbs the ramp from the station toward the main gate, where the full stadium comes into view",
+    "sources": [
+     {
+      "title": "Tripadvisor reviews: MAZDA Zoom-Zoom Stadium Hiroshima",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g298561-d1847812-Reviews-MAZDA_Zoom_Zoom_Stadium_Hiroshima-Hiroshima_Hiroshima_Prefecture_Chugoku.html"
+     },
+     {
+      "title": "Walking route to Mazda Stadium (Marinerds blog)",
+      "url": "http://marinerds.blogspot.com/2009/06/friday-foto-mazda-zoom-zoom-stadium.html"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripod use might be restricted, especially during games, so check the stadium's photography policy first.",
+     "sources": [
+      {
+       "title": "Mazda Zoom-Zoom Stadium Hiroshima (2026) (Airial)",
+       "url": "https://airial.travel/attractions/japan/hiroshima/mazda-zoom-zoom-stadium-hiroshima-Ph-zcUjJ"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a spot where the stadium is directly behind the visitor, so both selfie spots are the best available and the stadium backdrop is only partly confirmed. The 'ask someone' spot is my inference from pages describing the ramp to the main gate; none of them recommends it as a photo spot. Pages found no selfie-stick rule. The Yelp, Tripadvisor and Airial sources mention a rooftop/upper-deck view and a 'Carp Road' statue route, but those did not name a selfie position. The given coordinates (34.39190, 132.48462) match the stadium's listed location (34.391273, 132.4845782)."
+  },
+  "cost_usd": 0.0603,
+  "at": "2026-11-18 03:37"
+ },
+ "Hiroshima Orizuru Tower": {
+  "rank": 9,
+  "card": {
+   "hook": "Point your phone up at a tall building and it usually leans like it's had a long day. Orizuru Tower is a great place to practise standing it back up straight.",
+   "stand_here": "Stand at the phone icon on the map. It sits right at Hiroshima Orizuru Tower, so there's no extra walk. Face the tower, then step a few paces back along the pavement if you want the whole building in.",
+   "zoom": "Start at zoom 0.5x to fit the whole tower in from close range. Then try 1x for a more natural look. For a detail of the upper part, try 2x or 5x (higher zooms depend on your phone).",
+   "make_it_pop": "Turn on gridlines and line up the sides of the tower with the vertical lines, tilting the phone up slowly so the building doesn't lean.",
+   "best_time": "Morning or late afternoon usually gives softer light than midday. At dusk or in low light, switch on night mode and rest your phone against a wall or railing to keep it steady.",
+   "selfie_here": "Hiroshima Peace Memorial Park is the place to try. One travel blogger's park photos catch the tower in the background, though no one names an exact spot, so wander until it appears. Use the front camera, hold it a bit low and keep the tower over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Photography is allowed throughout the rooftop and the Orizuru Plaza. The lower observation deck has no safety nets, so keep a careful distance from the edges when taking photos.",
+   "challenge": "Grab a set of three: one wide shot of the whole tower, one close-up of a corner or the entrance, and one with people walking past to show how tall it is.",
+   "good_to_know": "Hiroshima Orizuru Tower is a tall building in Hiroshima, and you can photograph it from the street. Check the official site for access details before you go. Wipe your phone's camera glass first, because pocket smudges show up in bright sky.",
+   "stand_here_before_gps_rule": "Stand at the phone icon on the map. It sits right at Hiroshima Orizuru Tower, so there's no extra walk. Face the tower, then step a few paces back along the pavement if you want the whole building in."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Hiroshima Peace Memorial Park",
+     "detail": "Inside the park grounds, where the tower shows in the background of park photos. The source does not name an exact spot inside the park.",
+     "why": "A travel blogger's park photos include the tower in the background, so the park is the one place a page links to a tower-behind frame.",
+     "sources": [
+      {
+       "title": "Sekai Ichi: Japan Travel Blog: Hiroshima Peace Memorial Park",
+       "url": "http://sekaiichitravel.blogspot.com/2017/10/hiroshima-peace-memorial-park.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Photography is allowed throughout the rooftop and the Orizuru Plaza.",
+     "sources": [
+      {
+       "title": "The Hiroshima Orizuru Tower - King Tai Travel",
+       "url": "https://kingtai-travel.com/travel-info/chugoku/p3033/"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are restricted at busy times at the tower.",
+     "sources": [
+      {
+       "title": "The Hiroshima Orizuru Tower - King Tai Travel",
+       "url": "https://kingtai-travel.com/travel-info/chugoku/p3033/"
+      }
+     ]
+    }
+   ],
+   "safety": "The lower observation deck has no safety nets, so keep a careful distance from the edges when taking photos. (Source: Trip Moments guide, https://www.trip.com/moments/theme/poi-hiroshima-orizuru-tower-56812642-guides-993135/)",
+   "notes": "Only one selfie spot was found. No page names an exact spot in Peace Memorial Park or a point where a passer-by should stand to photograph a visitor with the whole tower, so ask_someone_spot is null. The tower's rooftop and the view from Hiroshima Castle keep are photographed in sources, but those are views of the tower, not visitor-photo stands. One source (Minodivita) recommends bringing a small tripod for the rooftop, which conflicts with the King Tai Travel note that tripods are restricted at busy times; that is a tip, not a rule, so it was not listed as a rule. Several sources give conflicting hours and fees for the tower, which were not needed here."
+  },
+  "cost_usd": 0.055,
+  "at": "2026-11-18 03:38",
+  "selfie_pos": [
+   34.3931714,
+   132.4523008
+  ],
+  "selfie_note": "Hiroshima Peace Memorial Park (OpenStreetMap: 広島平和記念公園, 中区, 広島市, 広島県, 730-0811, 日本)"
+ },
+ "Children's Peace Monument": {
+  "rank": 10,
+  "card": {
+   "hook": "Look up: a bronze girl holds a golden crane high over her head, and below her the cases are crammed with bright paper cranes folded by people from all over the world.",
+   "stand_here": "Stand on the northwest side of the Children's Peace Monument, right at the subject, in Hiroshima Peace Memorial Park. Face the monument and tilt your phone up so Sadako sits against open sky.",
+   "zoom": "Start at 1x and tilt up to get the statue against the sky. Switch to 0.5x to fit the colourful crane cases at the bottom into the frame. Try 2x or 5x to pick out Sadako and her golden crane (higher zooms depend on your phone).",
+   "make_it_pop": "Turn on gridlines, put the figure on a vertical line with the golden crane near the top, then tap the statue and slide the brightness down a touch so the sky doesn't wash out.",
+   "best_time": "Early morning is the quietest time and the light is softer, so it's easier to get a clean frame without crowds.",
+   "selfie_here": "Skip the selfie right in front of the monument, because park guides advise against it at memorials. If you want a picture of yourself, ask someone to take it from a respectful distance, or use the front camera well away from the base, at 0.5x if you want more of the park behind you.",
+   "ask_someone": "",
+   "rules_and_safety": "People come here to pay their respects, so keep your voice low and leave space for anyone standing quietly. Photographing the monument is fine, but don't climb on it.",
+   "challenge": "Get all three in one frame: Sadako, the golden crane, and one colourful crane case at the bottom. Check the edges for stray branches before you tap.",
+   "good_to_know": "The monument remembers Sadako Sasaki and the many children who died because of the atomic bombing. School children across Japan, including Sadako's classmates, raised the money for it, and it was unveiled on 5 May 1958, Children's Day. Underneath hangs a bronze crane that works as a wind chime against a peace bell, both donated by Hideki Yukawa.",
+   "stand_here_before_gps_rule": "Stand on the northwest side of the Children's Peace Monument, right at the subject, in Hiroshima Peace Memorial Park. Face the monument and tilt your phone up so Sadako sits against open sky."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": {
+    "name": "Northwest side of the Children's Peace Monument, in front of the bronze statue",
+    "detail": "Stand on the northwest side of the monument and shoot upward so the bronze Sadako statue shows against open sky, with the crane display cases in the foreground.",
+    "sources": [
+     {
+      "title": "10 Best Hiroshima Peace Memorial Park Sites to Visit in 2026",
+      "url": "https://tourismattractions.net/japan/top-10-hiroshima-peace-memorial-park-sites"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Avoid taking selfies directly in front of memorials in the park.",
+     "sources": [
+      {
+       "title": "Hiroshima Peace Memorial Park (2026)",
+       "url": "https://airial.travel/attractions/japan/hiroshima/hiroshima-peace-memorial-park-9bgsBp3J"
+      }
+     ]
+    },
+    {
+     "rule": "Visitors may photograph the monument, but should be mindful of others paying their respects; climbing on the monument is not allowed.",
+     "sources": [
+      {
+       "title": "Hiroshima Children's peace monument - Information Updated May 2026",
+       "url": "https://www.excursionmania.com/ttd/5280/children-s-peace-monument-blg-5280"
+      }
+     ]
+    },
+    {
+     "rule": "Inside the Peace Memorial Museum, tripods and selfie sticks are not allowed (the page covers the museum, not the outdoor monument).",
+     "sources": [
+      {
+       "title": "Hiroshima Peace Memorial Museum",
+       "url": "https://hpmmuseum.jp/modules/info/index.php?action=PageView&page_id=47&lang=eng"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a selfie spot where the visitor stands with the Children's Peace Monument behind them, and the park guides advise against selfies in front of memorials, so selfie_spots is empty. The ask_someone_spot comes from a single generic listing page (tourismattractions.net) that gives a photographer's angle, not a named stand point; no other source confirms it, so treat it as approximate and check it on site. The Cenotaph's gravel-circle photo spot in one guide belongs to the Cenotaph, not this monument, so I excluded it. The tripod rule applies to the museum, not the monument, and no page gave a safety point for this monument."
+  },
+  "cost_usd": 0.0589,
+  "at": "2026-11-18 03:38"
+ },
+ "Aioi Bridge": {
+  "rank": 11,
+  "card": {
+   "hook": "Look at the map and you'll spot it straight away: a bridge shaped like a big letter T. It's just as unusual on the ground, and a tram rumbling across it makes the scene feel properly Hiroshima.",
+   "stand_here": "Stand near 元安橋北歩道, about 210 m south of the bridge, at the phone icon on the map, and face north. From here you see the whole T, small and neat in the frame.",
+   "zoom": "Start at zoom 1x to get the bridge with its river and sky. Then try zoom 2x or 5x (higher zooms depend on your phone) to bring it closer. Save zoom 0.5x for when you've walked up and want the full width of road and river.",
+   "make_it_pop": "Turn on gridlines and line the long arm of the bridge up with a horizontal line, then tap the bridge and slide the brightness a touch darker if the sky is washing out.",
+   "best_time": "Soft morning or late-afternoon light looks lovely on the water and the bridge. Quiet times of day also mean fewer people wandering into your shot.",
+   "selfie_here": "Try the walkways along the sides of Aioi Bridge, with the span behind you, or the riverside path on the Peace Park side at the bridge end, facing the water. Use the front camera, try zoom 0.5x to fit more in, and hold the phone a little low so the bridge sits over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "This is a place of deep memory, so keep your voice down and skip the playful poses, though taking photos is fine. If you visit the Dome, stay outside its fence. The bridge is an active road with cars, cyclists and a tram line, so stay alert when you stop for a photo.",
+   "challenge": "Wait for a tram to cross the long arm of the T, then grab the shot just as it passes the middle.",
+   "good_to_know": "The first bridge opened in 1932 and was built for streetcars. In 1945 its T-shape made it the aiming point for the atomic bomb, which fell about 240 metres off target. The bridge was damaged but stayed standing, and the present one was completed in 1983 to a similar design, with a tram line still running along its roughly 123 m long section.",
+   "stand_here_before_gps_rule": "Stand near 元安橋北歩道, about 210 m south of the bridge, at the phone icon on the map, and face north. From here you see the whole T, small and neat in the frame."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Walkways along the sides of Aioi Bridge",
+     "detail": "on the pedestrian paths at the edges of the T-shaped bridge, with the span behind you",
+     "why": "Visitors who stroll these side paths report photographing the park next to the bridge, and the T-shape is the bridge's most distinctive feature.",
+     "sources": [
+      {
+       "title": "Aioi Bridge, Hiroshima, Japan - Reviews, Ratings, Tips and Why You Should Go (Wanderlog)",
+       "url": "https://wanderlog.com/place/details/21651"
+      }
+     ]
+    },
+    {
+     "name": "Motoyasu riverside path on the Peace Park side, opposite the bridge",
+     "detail": "on the riverside footpath beside the Peace Memorial Park, at the bridge end, facing the water",
+     "why": "A travel guide says this riverside path gives the water view that appears in most photos of the area, so it is a strong backdrop for a visitor's selfie.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (Genbaku Dome): History and How to See It (Explore Japan Daily)",
+       "url": "https://explorejapandaily.com/destinations/hiroshima/atomic-bomb-dome"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "At the memorial, keep to the outside of the Dome's fence, keep your voice down, and avoid playful poses in photos; taking photos is otherwise allowed.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (Genbaku Dome): History and How to See It (Explore Japan Daily)",
+       "url": "https://explorejapandaily.com/destinations/hiroshima/atomic-bomb-dome"
+      }
+     ]
+    }
+   ],
+   "safety": "The bridge is an active road used by cars and cyclists, so stay alert when stopping for photos.",
+   "notes": "No page I found describes a spot where a passer-by should photograph a visitor with the whole Aioi Bridge in frame, so ask_someone_spot is null rather than guessed. The two selfie spots are the closest matches: the sources mostly describe photographing the Atomic Bomb Dome from the bridge or the riverbank, not the bridge as the backdrop. No page mentions selfie stick or tripod rules, so none are reported. The rule above is about conduct at the memorial, not selfie equipment."
+  },
+  "cost_usd": 0.0578,
+  "at": "2026-11-18 03:39"
+ },
+ "Hondōri": {
+  "rank": 12,
+  "card": {
+   "hook": "Look up and you'll see the roof, the bright signs and the shop fronts all pointing the same way, straight down the street. Hondōri is built to pull your eye, so let it.",
+   "stand_here": "Start at the Peace Park end of Hondōri, where the arcade meets the park's eastern entrance, just across Rijō-dōri from the park. Face along the arcade so the entrance signage runs across the top of your shot and the shop fronts fill both sides.",
+   "zoom": "Start at 1x to see the arcade and its signs the way people do. Switch to 0.5x if you want the full height of the entrance and roof, and keep your phone level so the shops don't lean. If your phone has a 2x button, it squeezes the street together and brings the far end closer.",
+   "make_it_pop": "Turn on gridlines and put the centre of the arcade on the middle line, so both rows of shops balance.",
+   "best_time": "The arcade is covered, so it works in most weather. Early in the day is likely to be quieter, and the lights may make it a good spot for evening photos.",
+   "selfie_here": "Stand at the west entrance, under the entrance sign at the Peace Park end, so the arcade runs back behind you. Use the front camera, try 0.5x to fit the sign and the street, and hold the phone a little higher than your face.",
+   "ask_someone": "At the wide crossing by the arched arcade entrance, ask a passer-by to stand across the crossing from you, so the arch and the arcade both fit behind you (check the exact spot when you get there).",
+   "rules_and_safety": "Ask permission before photographing individual people or the inside of private shops. Shooting the general street and shop exteriors is fine.",
+   "challenge": "Wait for a gap in the crowd, then get the whole street in one clean shot. Or invite one walker in on purpose and call it 'scale'.",
+   "good_to_know": "Hondōri means \"Main Street\". Shops here were staying open late as far back as 1931, when lily-of-the-valley lanterns were put up. The whole area was destroyed in the 1945 atomic bombing and rebuilt in the 1950s as the arcade you see now. The 1925 Teikoku Bank building partly survived and later housed Andersen Bakery from 1967.",
+   "stand_here_before_gps_rule": "Start at the Peace Park end of Hondōri, where the arcade meets the park's eastern entrance, just across Rijō-dōri from the park. Face along the arcade so the entrance signage runs across the top of your shot and the shop fronts fill both sides."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Hondori west entrance, under the arcade entrance sign (Peace Park end)",
+     "detail": "at the west entrance of the arcade, where the entrance sign sits above the opening; the arcade runs back behind you",
+     "why": "Sources describe the arcade's entrance signs as iconic focal points, and the west end starts near Peace Park, so it is an easy-to-find point to frame the arcade behind you.",
+     "sources": [
+      {
+       "title": "Experiencing Hiroshima like a local - Japan Guide",
+       "url": "https://www.japan-guide.com/ad/hiroshima-like-a-local/"
+      },
+      {
+       "title": "Hondori Shopping Arcade Hiroshima (2025) - Airial",
+       "url": "https://www.airial.travel/attractions/japan/hiroshima/hondori-shopping-arcade-hiroshima-ufUK9cIa"
+      },
+      {
+       "title": "Downtown Hiroshima - Hiroshima Travel (Japan Guide)",
+       "url": "https://www.japan-guide.com/e/e3406.html"
+      }
+     ]
+    },
+    {
+     "name": "East end of Hondori, in front of the PARCO building",
+     "detail": "at the eastern end of the arcade, facing the PARCO store building that closes that end of the street",
+     "why": "A guide names the PARCO Mall building at one end of the arcade as a good focal point, and PARCO is linked to the arcade's far end near Hatchobori.",
+     "sources": [
+      {
+       "title": "Hondori Shopping Arcade Hiroshima (2025) - Airial",
+       "url": "https://www.airial.travel/attractions/japan/hiroshima/hondori-shopping-arcade-hiroshima-ufUK9cIa"
+      },
+      {
+       "title": "Hiroshima Hondori Shopping Street photo - Flickr (Lemmo2009)",
+       "url": "https://www.flickr.com/photos/lemmo2009/53277542126/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Wide crosswalk at the arched arcade entrance",
+    "detail": "the wide road crossing where the arched shopping-arcade entrance appears in the background; the passer-by stands across the crossing from you to fit the arch and the arcade",
+    "sources": [
+     {
+      "title": "Hiroshima Hondori Shopping Street: Shops, Food & Tips - Trip To Japan",
+      "url": "https://www.triptojapan.com/places/hiroshima-hondori-shopping-street/cxFP92RWT1GfD1ErCZPC3g"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Ask permission before photographing individual people or the inside of private shops; photographing the general streetscape and shop exteriors is described as acceptable.",
+     "sources": [
+      {
+       "title": "Hondori Shopping Arcade Hiroshima (2025) - Airial",
+       "url": "https://www.airial.travel/attractions/japan/hiroshima/hondori-shopping-arcade-hiroshima-ufUK9cIa"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No consulted page names an exact selfie or photographer position on Hondori; the two selfie spots are inferred from the entrance and end-of-arcade focal points the sources describe, and the ask-someone spot comes from a stock-photo caption, so verify on the ground. The supplied coordinates (34.39361, 132.45694) match Hondori: the Wikimedia Commons entry for the street gives 34°23′37″N 132°27′25″E, and Japantravel's map point is about 100 m away. No page stated any selfie-stick or tripod rules, and none mentioned a safety point."
+  },
+  "cost_usd": 0.0587,
+  "at": "2026-11-18 03:40"
+ },
+ "Hiroshima Museum of Art": {
+  "rank": 13,
+  "card": {
+   "hook": "Most people stop at the flagpoles and banner out front, snap, and move on. Walk round the back and you get a quiet path lined with bare trees and the museum waiting at the end of it.",
+   "stand_here": "Walk round to the back path behind the Hiroshima Museum of Art, where the bare trees line both sides. Face the back of the building so the path runs straight towards it.",
+   "zoom": "Start at 1x. It fits the path, the trees and the museum in one go. If the path feels narrow, try 0.5x, or 2x to pick out the building between the trunks.",
+   "make_it_pop": "Turn on the gridlines and set the path edges along them so the path leads the eye to the museum.",
+   "best_time": "Soft daylight works best, so a bright overcast day or the morning. Come when the path is quiet, because people walking through can spoil a frame. Take a few shots.",
+   "selfie_here": "Flip to the front camera and tap 0.5x if your phone has it. Hold it a little higher than usual and keep the building over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Photography indoors is allowed in some places and not others, so check the museum's rules before you shoot inside.",
+   "challenge": "Get one frame with the path perfectly on the gridlines, a tree on each side and not a single stranger in it.",
+   "good_to_know": "The museum opened in 1978 inside Hiroshima Central Park. Its rooms run from Romanticism and Impressionism through Post-Impressionists, Fauvism and Picasso to the Ecole de Paris, plus Western-style Japanese painting. It's at 3-2 Motomachi, Naka-ku, just north of Hondori and the bus centre.",
+   "stand_here_before_gps_rule": "Walk round to the back path behind the Hiroshima Museum of Art, where the bare trees line both sides. Face the back of the building so the path runs straight towards it."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a spot where visitors take a selfie with the Hiroshima Museum of Art behind them, or a spot for a passer-by to photograph the visitor with the whole building. I therefore left both lists empty rather than guess. Pages that mention the museum's surroundings, though not as photo spots: Joy in Hiroshima describes a path behind the museum lined with bare trees (https://joyinhiroshima.com/stories/museum-of-art-my-impressions-of-hiroshimas-impressionism/), and Tripadvisor says the gallery is set in a garden with a small cafe (https://www.tripadvisor.com.au/Attraction_Review-g298561-d320347-Reviews-Hiroshima_Museum_of_Art-Hiroshima_Hiroshima_Prefecture_Chugoku.html). Neither says the museum is visible from there. No page I found gives rules on selfie sticks or tripods for this museum. One page says the museum allows photos of most works in its collection (https://gethiroshima.com/museums-attractions/hiroshima-museum-of-art/), but that is about indoor photography, not selfie sticks or tripods, and may be out of date. The search was limited to two queries, so a fuller search of local blogs or the museum's own site might find a named spot."
+  },
+  "cost_usd": 0.0415,
+  "at": "2026-11-18 03:40"
+ },
+ "Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims": {
+  "rank": 14,
+  "card": {
+   "hook": "Here's a twist: from the bridge, the hall isn't the star. It's the quiet building tucked into the far bank, and that's what makes the scene work.",
+   "stand_here": "Stand on Motoyasu Bridge (元安橋) over the Motoyasu River and face south, across the water to the park side. The hall is about 135 m to the south.",
+   "zoom": "Start at 1x to fit the river, bridge and park together, then try 2x to 5x (depends on your phone) to pick out the hall. Once you're in the park, switch to 0.5x to get the whole low building and the lawns.",
+   "make_it_pop": "Turn on gridlines, use the bridge railing as a leading line, and tap the hall, then slide it a little darker if the sky is bright so the grey concrete keeps its detail.",
+   "best_time": "Pick a moment when the bridge is quiet, so you can frame the view without people in the foreground.",
+   "selfie_here": "This is a memorial, so skip the big-grin selfie. If you want a picture of yourself, use the front camera at 0.5x, keep it quiet and quick, and let the park's trees and lawns sit behind you.",
+   "ask_someone": "",
+   "rules_and_safety": "Selfies directly in front of memorials are discouraged, so be respectful of other visitors. Photography inside the hall is allowed but should be discreet and without flash.",
+   "challenge": "Find the hall's single narrow opening in its circular concrete wall and frame it against the open lawn, with the lightest touch and the quietest voice.",
+   "good_to_know": "The national government founded the hall in 2002 to mourn those killed by the atomic bomb, and Kenzō Tange designed it. Staff there collect survivors' memories and stories, along with the names and photographs of victims. Admission is free.",
+   "stand_here_before_gps_rule": "Stand on Motoyasu Bridge (元安橋) over the Motoyasu River and face south, across the water to the park side. The hall is about 135 m to the south."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Selfies directly in front of memorials are discouraged, and visitors should be respectful of others.",
+     "sources": [
+      {
+       "title": "Hiroshima Peace Memorial Park (2026) - airial.travel",
+       "url": "https://airial.travel/attractions/japan/hiroshima/hiroshima-peace-memorial-park-9bgsBp3J"
+      }
+     ]
+    },
+    {
+     "rule": "Vacation-style poses and smiling selfies in front of the Atomic Bomb Dome ruins are advised against.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (genbaku Dome) Visitor Guide - japanactivity.com",
+       "url": "https://japanactivity.com/attractions/hiroshima/atomic-bomb-dome"
+      }
+     ]
+    },
+    {
+     "rule": "Smiling posed photos at the Cenotaph or the Dome are seen as inappropriate; a quiet, unobtrusive approach is expected.",
+     "sources": [
+      {
+       "title": "Hiroshima Peace Memorial Park: A Respectful Visitor Guide - traveljapan-together.com",
+       "url": "https://traveljapan-together.com/blog/japan-destinations/hiroshima-peace-memorial-park-a-guide-to-honoring-history-and-the-legacy-of-peace/"
+      }
+     ]
+    },
+    {
+     "rule": "Selfies at the Atomic Bomb Dome are described as technically possible but potentially seen as disrespectful, so focusing on the site itself is recommended.",
+     "sources": [
+      {
+       "title": "Atomic Bomb Dome (2026) - airial.travel",
+       "url": "https://airial.travel/attractions/japan/hiroshima/atomic-bomb-dome-RiJeBog0"
+      }
+     ]
+    },
+    {
+     "rule": "Flash photography is prohibited inside the Peace Memorial Museum, and some museum sections are off-limits for cameras; signage marks these areas.",
+     "sources": [
+      {
+       "title": "Hiroshima Peace Memorial Park (2026) - airial.travel",
+       "url": "https://airial.travel/attractions/japan/hiroshima/hiroshima-peace-memorial-park-9bgsBp3J"
+      },
+      {
+       "title": "Atomic Bomb Dome (genbaku Dome) Visitor Guide - japanactivity.com",
+       "url": "https://japanactivity.com/attractions/hiroshima/atomic-bomb-dome"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a selfie spot with the National Peace Memorial Hall for the Atomic Bomb Victims itself behind the visitor, so I returned no selfie spot rather than borrow one. The only Hall detail found is that it is underground at the southwest edge of Peace Memorial Park, which offers little street-level backdrop. The Cenotaph and Dome framing pages describe views of the Flame and Dome, not the Hall, so they do not fit this brief. The Hall is also a memorial, and the rules above say selfies in front of memorials are discouraged. No page found mentions selfie sticks or tripod rules; the tripod mentions I saw were advice, not rules. The 'safety' field is blank because the only safety remark I found concerns the Dome's fenced area, not this landmark. Coordinates were given by the user and were not checked against a page."
+  },
+  "cost_usd": 0.0466,
+  "at": "2026-11-18 03:40"
+ },
+ "Hijiyama Park": {
+  "rank": 15,
+  "card": {
+   "hook": "Peace Hill has a small problem: the trees love the view so much they stand right in front of it. Skip the leafy spots and head for the open one, Peace Message Plaza, where the whole city suddenly rolls out below you.",
+   "stand_here": "Stand in Peace Message Plaza, the observation area on the hill, and face the city centre with the wooded hill below and in front of you. The main part of the park lies a short way south of this point, about 3 minutes on foot.",
+   "zoom": "Start at 1x for a natural view of the city, then try 0.5x to squeeze in more skyline and greenery. Zoom 2x to 5x (depending on your phone) to pick out the Peace Memorial Park area in the distance.",
+   "make_it_pop": "Turn on gridlines, put the horizon on the top or bottom line, and let a few leaves peek in at the edge of the frame to give the picture depth.",
+   "best_time": "Pick a clear day for the longest view over the city. If you want city lights after dark, try the Fujimidai tenbodai terrace with night mode on, and check the park's closing time first.",
+   "selfie_here": "Head to the sculpture garden at the Hiroshima City Museum of Contemporary Art (MOCA) on the hilltop. Guides call it the park's most Instagrammable spot, so use the front camera, try 0.5x, and keep a sculpture and a bit of city behind you.",
+   "ask_someone": "",
+   "rules_and_safety": "The whole park is closed to people and vehicles from 23:00 to 5:00 the next day for safety reasons, and opening times may vary, so check the official site on the day you go.",
+   "challenge": "Take one wide shot of the whole view, then a tighter one of the Peace Memorial Park area, and sneak a little foliage into the edge of both.",
+   "good_to_know": "Hijiyama Park covers a wooded hill above Hiroshima and is nicknamed Peace Hill. Peace Message Plaza is reached from the Hijiyama Skywalk, so it's easy to find on foot. For a second picture, the open lawn near Henry Moore's Arch has city views with the modern art museum behind it.",
+   "stand_here_before_gps_rule": "Stand in Peace Message Plaza, the observation area on the hill, and face the city centre with the wooded hill below and in front of you. The main part of the park lies a short way south of this point, about 3 minutes on foot."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Sculpture garden at the hilltop Hiroshima City Museum of Contemporary Art (MOCA), Hijiyama Park",
+     "detail": "in the MOCA sculpture garden on the hilltop inside Hijiyama Park",
+     "why": "Guides call this the park's most Instagrammable spot, with sculptures in the park setting and city views.",
+     "sources": [
+      {
+       "title": "10 Most Instagrammable Places in Hiroshima",
+       "url": "https://www.hiroshimalocalized.com/post/instagrammable-places-in-hiroshima"
+      },
+      {
+       "title": "Instagrammable Places in Hiroshima: 9 Best Spots To Visit",
+       "url": "https://www.getyourguide.com/explorer/hiroshima-ttd32662/instagrammable-must-see-places-hiroshima/?visitor-id=FD81WGHXUYBZO80XAIDHD7LNG03Q2HNT&locale_autoredirect_optout=true"
+      }
+     ]
+    },
+    {
+     "name": "Area around Henry Moore's Arch, opposite HMOCA",
+     "detail": "the open area around Henry Moore's Arch, across from the Hiroshima City Museum of Contemporary Art (HMOCA)",
+     "why": "A hanami guide describes this spot as a popular place for photos, with good views over the city.",
+     "sources": [
+      {
+       "title": "Hanami In Hiroshima 2026",
+       "url": "https://gethiroshima.com/features/hanami-in-hiroshima/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "From 23:00 to 5:00 the next day, entry to the entire park area is prohibited for safety reasons for both people and vehicles.",
+   "notes": "No page I found names a spot where a passer-by should stand to photograph a visitor with the whole park, so ask_someone_spot is null. No page stated any selfie stick or tripod rule for this park. Closing times differ between sources: one says 5:00 to 23:00 and another says 5:00 AM to 11:00 PM, but both end at 11 PM. The Hijiyama Observatory and Peace Message Plaza observation area are mentioned as viewpoints, but no page gives a location for a selfie with the park behind, so I left them out. The coordinates you gave were not checked against any page."
+  },
+  "cost_usd": 0.0546,
+  "at": "2026-11-18 03:41"
+ }
+}

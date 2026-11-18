@@ -512,6 +512,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "hiroshima",
+  "place": "Hiroshima",
+  "country": "Japan",
+  "spots": 15,
+  "mb": 7.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "hochiminhcity",
   "place": "Ho Chi Minh City",
   "country": "Vietnam",
