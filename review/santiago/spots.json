@@ -787,15 +787,15 @@
   "nophone": true,
   "searches": 320,
   "pin": [
-   -70.63587,
-   -33.43008
+   -70.6335106,
+   -33.4265415
   ],
   "camera": [
-   -70.63587,
-   -33.43008
+   -70.6335106,
+   -33.4265415
   ],
   "camera_source": "Researched viewpoint 'Estación Pío Nono' (3 web pages); placed at our map tiles: 'Pío Nono' (pois); moved 5 m off buildings.",
-  "pin_note": "Position from the Wikipedia article 'Funicular de Santiago'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Historic funicular railway up Cerro San Cristóbal.",
   "text": {
    "description": "The Funicular de Santiago is a short railway that climbs the slope of Cerro San Cristóbal, part of Santiago Metropolitan Park. The best photo is at the base station, Estación Pío Nono. There the red car waits at the platform in front of the old stone station building, and the track rises up the hillside behind it. The colours work well together: red car, grey stone and green slope.\n\nThe line is 485 metres long and has three stations: Pío Nono at the bottom, Zoo, and Cumbre at the top, where the Santuario a la Virgen stands. It opened on 25 April 1925, and architect Luciano Kulczewski designed the station at the foot of the hill. Pope John Paul II rode it during his 1987 visit, and it became a National Monument of Chile in 2000.\n\nFor a phone photo, keep it simple. Stand at the platform, line up the car and the station front, and let the track lead the eye upwards. Turn on gridlines so the building stays straight. If the platform is busy, wait a moment for a gap, then take a few shots in a row. Photos from inside the station may depend on the ticket and the day, so check the official site before you go.",
@@ -824,10 +824,7 @@
     "url": "https://en.wikipedia.org/wiki/Funicular_de_Santiago"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (1750 m)",
-   "OpenStreetMap object 450 m away (Cumbre): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/15.jpg",

@@ -944,6 +944,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "santiago",
+  "place": "Santiago",
+  "country": "Chile",
+  "spots": 20,
+  "mb": 10.0,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "santorini",
   "place": "Santorini",
   "country": "Greece",
