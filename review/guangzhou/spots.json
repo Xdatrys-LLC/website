@@ -335,15 +335,15 @@
   "nophone": true,
   "searches": 610,
   "pin": [
-   113.326336,
-   23.11475
+   113.321416,
+   23.1174
   ],
   "camera": [
-   113.326336,
-   23.11475
+   113.321416,
+   23.1174
   ],
   "camera_source": "Researched viewpoint '花城广场' (3 web pages); placed at OpenStreetMap '花城广场' (way/243319596): edge nearest the subject (1576 m across).",
-  "pin_note": "Position from Wikidata Q5613636: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Box-shaped museum in Zhujiang New Town.",
   "text": {
    "description": "The Guangdong Museum is the province's general museum of art, nature, culture and history, and its building is a good subject in its own right. The design was inspired by the traditional Cantonese ivory puzzle ball, with layers nested inside one another, and from outside you see a bold, angular, box-like shape. It opened in May 2010 in Zhujiang New Town, replacing the older museum on Wenming Road, and sits in a large open setting with a grass slope around it. That open space is what makes it easy to photograph: you can step back far enough to fit the whole building in. The best-known view is from 花城广场 (Huacheng Square), on the west side of the museum. Take a few frames at different distances, because the facade changes character as you move. A closer shot lets the angular lines fill the frame, while a wider shot shows the museum in its surroundings. If the square is busy, wait a moment for a gap rather than cropping people out afterwards. Before planning a visit inside, check the official site before you go.",
@@ -373,10 +373,7 @@
     "url": "https://en.wikipedia.org/wiki/Guangdong_Museum"
    }
   ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (653 m)"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/7.jpg",
@@ -665,23 +662,23 @@
   "nophone": false,
   "searches": 160,
   "pin": [
-   113.265004,
-   23.134978
+   113.2593546,
+   23.1361728
   ],
   "camera": [
    113.259355,
    23.136173
   ],
   "camera_source": "Researched viewpoint 'Sun Yat-sen Memorial Hall' (1 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from the Wikipedia article 'Sun Yat-sen Memorial Hall (Guangzhou)'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Octagonal blue-roofed hall in traditional style.",
   "text": {
    "description": "The Sun Yat-sen Memorial Hall is a large octagonal building with a blue roof, set in lawns and old trees in the middle of Guangzhou. It was designed by Lu Yanzhi and built between 1929 and 1931, paid for by donations from local and overseas Chinese people in memory of Sun Yat-sen. The hall spans 71 metres without any pillars inside and seats 3,240 people. It stands on the site of the old Presidential Palace, and a statue of Sun Yat-sen was put up in front of the main entrance.\n\nIt photographs well because the shape is so clear and the grounds give you several different views. From the main square you can fit the whole octagonal facade and the statue in one frame. For something quieter, go to the northeast corner of the grounds. There a large old kapok tree reaches over the roof edges, and the branches and curved eaves overlap to give a classical look. Walking round the lawns also gives angled views of the hall's sides among century-old trees.\n\nOn a phone, take one wide shot of the whole building, then step closer for the eaves and branches. Wipe the lens first, because pavilion roofs and sky show up every smudge. The exterior grounds are the easy part; if you want to go inside, check the rules on signs, as photography indoors is limited to certain areas.",
    "geographic_location": "The hall is in Guangzhou, in its own grounds with a large front square and lawns.",
-   "directions_text": "The hall is reached from Sun Yat-sen Memorial Hall Station on the Guangzhou Metro, so follow the signs from the station towards the grounds. Once you are in the grounds, the northeast corner is a separate suggestion for the kapok tree view. The phone icon on the map is about 590 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "The hall is reached from Sun Yat-sen Memorial Hall Station on the Guangzhou Metro, so follow the signs from the station towards the grounds. Once you are in the grounds, the northeast corner is a separate suggestion for the kapok tree view. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Use the ultra-wide (0.5x) to look up at the eaves with the tree branches around them. Use the default lens (1x) for the full facade from the square. Use telephoto (2x-5x, depending on your phone) to pick out roof edges and tile detail.",
-    "where_to_stand": "Stand about 590 m west of the subject, at the phone icon on the map, and face east. Then, once in the grounds, walk to the northeast corner as a separate suggestion. From there you can look up or close in at the building's eaves, framed by the branches of a large old kapok tree.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Then, once in the grounds, walk to the northeast corner as a separate suggestion. From there you can look up or close in at the building's eaves, framed by the branches of a large old kapok tree.",
     "how_to_frame": "Tilt the phone upwards and let the branches make a frame across the top or one side, with the roof edge crossing underneath. Turn on gridlines and keep the roof lines level so the building does not lean. For a more classic view, walk back to the main square and capture the full octagonal facade with the bronze statue in the foreground.",
     "phone_settings_tip": "Tap the roof or the sky-lit part of the building to focus, then drag the exposure slider down a little so the sky does not wash out and the blue roof stays rich. Take a few shots at slightly different angles, because branches make the scene busy.",
     "best_time": "Spring is the best season, because one guide says the kapok trees flower then. Earlier or later in the day usually gives softer light than midday."
@@ -700,9 +697,7 @@
     "url": "https://en.wikipedia.org/wiki/Sun_Yat-sen_Memorial_Hall_%28Guangzhou%29"
    }
   ],
-  "pin_flags": [
-   "OpenStreetMap object 593 m away (Main Building): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": {
    "file": "photos/13.jpg",

@@ -456,6 +456,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "guangzhou",
+  "place": "Guangzhou",
+  "country": "China",
+  "spots": 18,
+  "mb": 8.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "gyeongju",
   "place": "Gyeongju",
   "country": "South Korea",
