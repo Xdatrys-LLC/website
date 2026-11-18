@@ -576,6 +576,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "lucerne",
+  "place": "Lucerne",
+  "country": "Switzerland",
+  "spots": 14,
+  "mb": 7.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "madrid",
   "place": "Madrid",
   "country": "Spain",
