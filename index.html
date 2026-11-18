@@ -478,6 +478,7 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
 /* Library list: slug and display name from pipeline/maps_config.py; top-3 spot names from preview_site/<slug>/spots.json
    (labels as of 2026-11-11). "spots" = number of spots on the map. "also" = other words a visitor might type. */
 var MAPS = [
+  {"slug": "abudhabi", "name": "Abu Dhabi", "country": "United", "spots": 11, "top": ["Sheikh Zayed Grand Mosque", "Louvre Abu Dhabi", "Emirates Palace"], "also": "united arab emirates"},
   {"slug": "albuquerque", "name": "Albuquerque", "country": "United", "spots": 13, "top": ["Explora", "University of New Mexico", "The Pit (arena)"], "also": "united states"},
   {"slug": "amsterdam", "name": "Amsterdam", "country": "Netherlands", "spots": 19, "top": ["Anne Frank House and the Prinsengracht", "Rijksmuseum and Museumplein", "Vondelpark"], "also": "netherlands"},
   {"slug": "athens", "name": "Athens", "country": "Greece", "spots": 18, "top": ["Acropolis of Athens", "Parthenon", "Erechtheion"], "also": "greece"},
