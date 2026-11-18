@@ -1552,6 +1552,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "vilnius",
+  "place": "Vilnius",
+  "country": "Lithuania",
+  "spots": 19,
+  "mb": 7.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "warsaw",
   "place": "Warsaw",
   "country": "Poland",
