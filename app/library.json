@@ -280,6 +280,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "chicago",
+  "place": "Chicago",
+  "country": "United States",
+  "spots": 20,
+  "mb": 8.3,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "cologne",
   "place": "Cologne",
   "country": "Germany",
