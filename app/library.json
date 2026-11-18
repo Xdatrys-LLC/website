@@ -1336,6 +1336,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "york",
+  "place": "York",
+  "country": "United Kingdom",
+  "spots": 19,
+  "mb": 4.8,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "zurich",
   "place": "Zurich",
   "country": "Switzerland",
