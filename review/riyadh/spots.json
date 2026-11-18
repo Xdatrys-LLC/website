@@ -213,7 +213,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Masmak Fortress",
   "in_cut": true,
   "label": "Masmak Fortress",
@@ -263,7 +263,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "Baptiste Marcel",
    "licence": "Public domain",
    "licence_url": "",
@@ -272,7 +272,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Murabba Palace",
   "in_cut": true,
   "label": "Murabba Palace",
@@ -296,7 +296,7 @@
    "directions_text": "There are no stations or tram stops listed nearby, so use a map app to guide you. Start from the old city of Riyadh near Masmak fort; the palace is roughly half a mile away, about two kilometres north of the old city. Look for Murabba Palace or the King Abdulaziz Historical Center. The Navigate buttons below take you to the subject.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the default lens (1x) for a straightforward view of the palace and its wall. Switch to ultra-wide (0.5x) if you are close and want the wall, gate and building in one frame. Use the telephoto (2x-5x, depending on your phone) for details such as brickwork, engraved ornament and rooflines.",
-    "where_to_stand": "You are close to the building's northern edge, so expect to frame the palace and its surrounding wall from fairly near.",
+    "where_to_stand": "Stand right at the subject (front exterior facade, near the main gate). The two-storey mud-brick Najdi facade with its crenellated parapets, triangular windows and carved wooden doors, framed by the palace grounds. You are close to the building's northern edge, so expect to frame the palace and its surrounding wall from fairly near.",
     "how_to_frame": "Turn on the gridlines and line the palace's edges up with them so the walls look straight. Keep some of the wall or gate in the foreground to give a sense of scale. If you can't fit the whole building in, take a wide shot and then a few close detail shots of the texture.",
     "phone_settings_tip": "Tap on the palace walls to set focus, then drag the exposure slider down slightly if the sky is bright, so the adobe keeps its warm colour. Try portrait mode only for people standing in front of the walls, not for the building itself.",
     "best_time": "Early morning or late afternoon usually gives softer, warmer light on the walls and is more comfortable in Riyadh's heat. Midday sun can flatten the texture and cast harsh shadows."
@@ -320,7 +320,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Unknown authorUnknown author",
    "licence": "Public domain",
    "licence_url": "",
@@ -329,56 +329,7 @@
   }
  },
  {
-  "rank": 8,
-  "name": "Souq al-Zal",
-  "in_cut": true,
-  "label": "Souq Al Zal",
-  "camera_pill": null,
-  "nophone": false,
-  "searches": 160,
-  "pin": [
-   46.71222222,
-   24.62916667
-  ],
-  "camera": [
-   46.712222,
-   24.629167
-  ],
-  "camera_source": "Researched viewpoint 'Souq al-Zal' (2 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from Wikidata Q120847781: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Traditional market selling antiques, carpets and clothing.",
-  "text": {
-   "description": "Souq al-Zal is a traditional market in the ad-Dirah area of old Riyadh, known for carpets and for agarwood (oud). Its name comes from the Gulf Arabic word for a floor rug, and rugs are still what the place is best known for. The market covers almost 9.5 acres and its origins go back to 1901, so it is one of the older markets in the city. It was renovated by 2005 and was one of the entertainment zones used during Riyadh Season in 2022.\n\nIt photographs well because of the density: narrow lanes, stalls packed with goods and people moving through. The rug displays are the obvious picture, but a quieter and more documentary shot is to turn into the narrow alleys between the stalls, where vintage items fill the frame. Stacked rugs and textiles in warm, dim light also make a good close-up.\n\nKeep your phone ready rather than raised all the time, and be patient in the busier lanes. Ask a vendor before photographing them or their stall, and do not photograph individual people without their consent. A friendly word and a purchase, if you wish, usually make everyone more relaxed. Wipe the lens before you start, as market dust settles on it quickly.",
-   "geographic_location": "Souq al-Zal is in the ad-Dirah neighbourhood of Riyadh, east of the al-Hukm Palace compound in the Qasr al-Hukm District.",
-   "directions_text": "No Metro or tram stop is listed for this spot. Souq al-Zal is in ad-Dirah, east of the al-Hukm Palace compound in the Qasr al-Hukm District, so head for that area. Once inside, the phone icon on the map is at the subject itself, so there is no extra walk. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the lanes and stalls; it copes best with the dim light. Use the ultra-wide (0.5x) only where a lane is very tight, and keep people away from the edges of the frame, where it stretches them. Use telephoto (2x-3x) for details such as rug patterns and vintage items without pointing the phone into someone's face.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you see tight, atmospheric lanes packed with goods and people passing through, which shows how dense the market is.",
-    "how_to_frame": "Turn on gridlines and place the lane along a diagonal or the centre line, so it leads the eye into the market. Include a few stalls on each side to show how crowded it is. For a second picture, move to the carpet displays and shoot stacked rugs and textiles close up, with the warm light and the vendors' goods filling the frame.",
-    "phone_settings_tip": "Tap on the brightest part of the lane to focus, then drag the exposure slider down a little so the lights keep their colour and the shadows do not turn muddy. If the phone offers night mode in dim corners, hold it steady against a wall or post while it captures. A Live Photo can catch movement in the lane.",
-    "best_time": "No single time is confirmed, so go when you can walk around calmly. Expect it to be busier at some times than others, and go when you have room to compose your shots."
-   },
-   "access_note": "Souq al-Zal is a traditional market and public shopping area; check the official site before you go for any access or event arrangements."
-  },
-  "checker_problems": 1,
-  "code_check_failures": [
-   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Souq al-Zal",
-    "url": "https://en.wikipedia.org/wiki/Souq_al-Zal"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": true,
-  "photo": null
- },
- {
-  "rank": 9,
+  "rank": 7,
   "name": "Riyadh TV Tower",
   "in_cut": true,
   "label": "Riyadh TV Tower",
@@ -422,7 +373,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/7.jpg",
    "artist": "Ammar shaker",
    "licence": "Public domain",
    "licence_url": "",
@@ -431,7 +382,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 8,
   "name": "Al Thumairi Gate",
   "in_cut": true,
   "label": "Al Thumairi Gate",
@@ -480,7 +431,7 @@
   "photo": null
  },
  {
-  "rank": 12,
+  "rank": 9,
   "name": "Imam Turki bin Abdullah Grand Mosque",
   "in_cut": true,
   "label": "Grand Mosque",
@@ -530,12 +481,61 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/9.jpg",
    "artist": "BroadArrow at English Wikipedia",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
    "source_url": "https://commons.wikimedia.org/wiki/File:Dira_Square.JPG",
    "from": "Wikidata Q55614335 main image"
   }
+ },
+ {
+  "rank": 101,
+  "name": "Souq al-Zal",
+  "in_cut": false,
+  "label": "Souq Al Zal",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 160,
+  "pin": [
+   46.71222222,
+   24.62916667
+  ],
+  "camera": [
+   46.712222,
+   24.629167
+  ],
+  "camera_source": "Researched viewpoint 'Souq al-Zal' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from Wikidata Q120847781: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Traditional market selling antiques, carpets and clothing.",
+  "text": {
+   "description": "Souq al-Zal is a traditional market in the ad-Dirah area of old Riyadh, known for carpets and for agarwood (oud). Its name comes from the Gulf Arabic word for a floor rug, and rugs are still what the place is best known for. The market covers almost 9.5 acres and its origins go back to 1901, so it is one of the older markets in the city. It was renovated by 2005 and was one of the entertainment zones used during Riyadh Season in 2022.\n\nIt photographs well because of the density: narrow lanes, stalls packed with goods and people moving through. The rug displays are the obvious picture, but a quieter and more documentary shot is to turn into the narrow alleys between the stalls, where vintage items fill the frame. Stacked rugs and textiles in warm, dim light also make a good close-up.\n\nKeep your phone ready rather than raised all the time, and be patient in the busier lanes. Ask a vendor before photographing them or their stall, and do not photograph individual people without their consent. A friendly word and a purchase, if you wish, usually make everyone more relaxed. Wipe the lens before you start, as market dust settles on it quickly.",
+   "geographic_location": "Souq al-Zal is in the ad-Dirah neighbourhood of Riyadh, east of the al-Hukm Palace compound in the Qasr al-Hukm District.",
+   "directions_text": "No Metro or tram stop is listed for this spot. Souq al-Zal is in ad-Dirah, east of the al-Hukm Palace compound in the Qasr al-Hukm District, so head for that area. Once inside, the phone icon on the map is at the subject itself, so there is no extra walk. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the lanes and stalls; it copes best with the dim light. Use the ultra-wide (0.5x) only where a lane is very tight, and keep people away from the edges of the frame, where it stretches them. Use telephoto (2x-3x) for details such as rug patterns and vintage items without pointing the phone into someone's face.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you see tight, atmospheric lanes packed with goods and people passing through, which shows how dense the market is.",
+    "how_to_frame": "Turn on gridlines and place the lane along a diagonal or the centre line, so it leads the eye into the market. Include a few stalls on each side to show how crowded it is. For a second picture, move to the carpet displays and shoot stacked rugs and textiles close up, with the warm light and the vendors' goods filling the frame.",
+    "phone_settings_tip": "Tap on the brightest part of the lane to focus, then drag the exposure slider down a little so the lights keep their colour and the shadows do not turn muddy. If the phone offers night mode in dim corners, hold it steady against a wall or post while it captures. A Live Photo can catch movement in the lane.",
+    "best_time": "No single time is confirmed, so go when you can walk around calmly. Expect it to be busier at some times than others, and go when you have room to compose your shots."
+   },
+   "access_note": "Souq al-Zal is a traditional market and public shopping area; check the official site before you go for any access or event arrangements."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Souq al-Zal",
+    "url": "https://en.wikipedia.org/wiki/Souq_al-Zal"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": null
  }
 ]
