@@ -160,6 +160,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "buenosaires",
+  "place": "Buenos Aires",
+  "country": "Argentina",
+  "spots": 20,
+  "mb": 7.6,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "caernarfon",
   "place": "Caernarfon",
   "country": "United Kingdom",
