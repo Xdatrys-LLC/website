@@ -816,6 +816,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "medina",
+  "place": "Medina",
+  "country": "Saudi Arabia",
+  "spots": 11,
+  "mb": 3.5,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "melbourne",
   "place": "Melbourne",
   "country": "Australia",
