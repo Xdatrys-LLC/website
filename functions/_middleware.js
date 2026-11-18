@@ -18,6 +18,10 @@ export async function onRequest(context) {
     return Response.redirect(url.toString(), 301);
   }
   const p = url.pathname;
+  // the plain issue list written by the Pocket Lens publisher -> the website's styled list (2026-11-18, Ifan)
+  if (p === "/issues" || p === "/issues/" || p === "/issues/index.html" || p === "/issues/index") {
+    return Response.redirect(url.origin + "/newsletter/issues/", 301);
+  }
   if (ISSUE.test(p)) {
     const res = await context.next();
     if (!res.ok || !(res.headers.get("content-type") || "").includes("text/html")) return res;
