@@ -632,6 +632,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "lasvegas",
+  "place": "Las Vegas",
+  "country": "United States",
+  "spots": 19,
+  "mb": 8.2,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "liepaja",
   "place": "Liepāja",
   "country": "Latvia",
