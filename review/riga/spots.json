@@ -506,59 +506,6 @@
  },
  {
   "rank": 10,
-  "name": "Latvian National Opera",
-  "in_cut": true,
-  "label": "National Opera",
-  "camera_pill": null,
-  "nophone": false,
-  "searches": 510,
-  "pin": [
-   24.10472222,
-   56.95527778
-  ],
-  "camera": [
-   24.104722,
-   56.955278
-  ],
-  "camera_source": "Researched viewpoint 'Fountain Nymph at Latvian National Opera House' (2 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from Wikidata Q555773: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Neoclassical opera house beside the Bastion Hill canal.",
-  "text": {
-   "description": "The Latvian National Opera and Ballet stands at Aspazijas boulevard 3, on the bank of the Riga Canal and close to the Freedom Monument. The company has performed here since 1919. The building itself dates from 1860–1863, when it was put up as the Riga City Theatre. It burnt down in June 1882, leaving only the outer walls, and was rebuilt between 1882 and 1887 to a design by the city architect Reinhold Schmaeling. Inside, the Great Hall seats 946 people, and the season runs from mid-September to the end of May.\n\nFor a phone photo, the best spot is right in front of the opera, beside the ornate fountain. The sculpture makes a strong foreground and the building sits behind it, which gives the picture depth and a clear subject. If you have time, the park in front of the building also works. Bastejkalna Park gives you the facade framed by trees and lawns, and Kronvalda Park shows the opera across the canal with trees and reflections in the foreground.\n\nKeep your shots to the outside of the building. Photography is not allowed during performances, so inside you could only photograph the curtain call. Stay clear of the pavement and entrance so you don't block people arriving for a show.",
-   "geographic_location": "In central Riga, on Aspazijas boulevard beside the Riga Canal, a short walk from the Freedom Monument. The fountain stands right in front of the opera building.",
-   "directions_text": "There is no tram or Underground-style stop right at this spot, so start from the Freedom Monument, which is close by, and follow the Riga Canal to the opera on Aspazijas boulevard. If you are coming from further away, go by taxi or hired scooter and ask for Aspazijas bulvāris 3. The fountain is in front of the building, so you will see it as you arrive. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) so the fountain and the opera both sit comfortably in the frame. Switch to ultra-wide (0.5x) if you are too close to fit the facade in. Use the telephoto (2x or more) for a tighter shot of the sculpture or the building's decoration.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Position yourself in front of the building so the ornate fountain fills the foreground and the opera sits behind it in the background.",
-    "how_to_frame": "Put the fountain sculpture low in the frame with the opera behind it, and turn on gridlines to keep the building's lines straight. Hold the phone level to avoid leaning walls. For a different view, try Bastejkalna Park, where trees and lawns frame the facade, or Kronvalda Park, where the canal gives you reflections.",
-    "phone_settings_tip": "Tap the fountain to focus, then slide the exposure down a little if the sky is washing out the building. If the water is moving, try a Live Photo and choose the best frame afterwards.",
-    "best_time": "Soft morning or late-afternoon light usually flatters the building and the fountain. After dark, try night mode, and brace your elbows against your body to keep the phone steady."
-   },
-   "access_note": "The fountain and the space in front of the opera are outdoors, but check the official site before you go if you want to go inside, and remember photography is not allowed during performances."
-  },
-  "checker_problems": 2,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Latvian National Opera",
-    "url": "https://en.wikipedia.org/wiki/Latvian_National_Opera"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": true,
-  "photo": {
-   "file": "photos/10.jpg",
-   "artist": "Diego Delso",
-   "licence": "CC BY-SA 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Opera_Nacional,_Riga,_Letonia,_2012-08-07,_DD_04.JPG",
-   "from": "Wikidata Q555773 main image"
-  }
- },
- {
-  "rank": 11,
   "name": "Cat House",
   "in_cut": true,
   "label": "Cat House",
@@ -605,7 +552,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "Horvat",
    "licence": "Public domain",
    "licence_url": "",
@@ -614,7 +561,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Three Brothers",
   "in_cut": true,
   "label": "Three Brothers",
@@ -661,7 +608,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "Martin Thirolf",
    "licence": "CC BY-SA 2.0 de",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
@@ -670,7 +617,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Latvian Academy of Sciences",
   "in_cut": true,
   "label": "Academy of Sciences",
@@ -716,7 +663,7 @@
   ],
   "at_spot": true,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "Xnib",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -725,7 +672,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "St. Peter's Church",
   "in_cut": true,
   "label": "St. Peter's Church",
@@ -771,7 +718,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "Diego Delso",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -780,7 +727,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Powder Tower",
   "in_cut": true,
   "label": "Powder Tower",
@@ -822,7 +769,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Diego Delso",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -831,7 +778,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Bastejkalns Park",
   "in_cut": true,
   "label": "Bastion Hill",
@@ -880,7 +827,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "Dezidor",
    "licence": "CC BY-SA 2.5",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
@@ -889,7 +836,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Cathedral of the Nativity of Christ",
   "in_cut": true,
   "label": "Nativity Cathedral",
@@ -937,7 +884,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "Granada",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -946,7 +893,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "St. James's Cathedral",
   "in_cut": true,
   "label": "St. James's Cathedral",
@@ -993,7 +940,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "Diego Delso",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -1002,7 +949,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Large Guild",
   "in_cut": true,
   "label": "Great Guild",
@@ -1052,7 +999,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "Olaf Meister",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1061,7 +1008,7 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 19,
   "name": "St. Saviour's Church",
   "in_cut": true,
   "label": "St. Saviour's Church",
@@ -1106,12 +1053,65 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/19.jpg",
    "artist": "Chris06",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:2025_Anglican_Church_(Riga)_(2).jpg",
    "from": "Wikidata Q4065174 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Latvian National Opera",
+  "in_cut": false,
+  "label": "National Opera",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 510,
+  "pin": [
+   24.10472222,
+   56.95527778
+  ],
+  "camera": [
+   24.104722,
+   56.955278
+  ],
+  "camera_source": "Researched viewpoint 'Fountain Nymph at Latvian National Opera House' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from Wikidata Q555773: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Neoclassical opera house beside the Bastion Hill canal.",
+  "text": {
+   "description": "The Latvian National Opera and Ballet stands at Aspazijas boulevard 3, on the bank of the Riga Canal and close to the Freedom Monument. The company has performed here since 1919. The building itself dates from 1860–1863, when it was put up as the Riga City Theatre. It burnt down in June 1882, leaving only the outer walls, and was rebuilt between 1882 and 1887 to a design by the city architect Reinhold Schmaeling. Inside, the Great Hall seats 946 people, and the season runs from mid-September to the end of May.\n\nFor a phone photo, the best spot is right in front of the opera, beside the ornate fountain. The sculpture makes a strong foreground and the building sits behind it, which gives the picture depth and a clear subject. If you have time, the park in front of the building also works. Bastejkalna Park gives you the facade framed by trees and lawns, and Kronvalda Park shows the opera across the canal with trees and reflections in the foreground.\n\nKeep your shots to the outside of the building. Photography is not allowed during performances, so inside you could only photograph the curtain call. Stay clear of the pavement and entrance so you don't block people arriving for a show.",
+   "geographic_location": "In central Riga, on Aspazijas boulevard beside the Riga Canal, a short walk from the Freedom Monument. The fountain stands right in front of the opera building.",
+   "directions_text": "There is no tram or Underground-style stop right at this spot, so start from the Freedom Monument, which is close by, and follow the Riga Canal to the opera on Aspazijas boulevard. If you are coming from further away, go by taxi or hired scooter and ask for Aspazijas bulvāris 3. The fountain is in front of the building, so you will see it as you arrive. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) so the fountain and the opera both sit comfortably in the frame. Switch to ultra-wide (0.5x) if you are too close to fit the facade in. Use the telephoto (2x or more) for a tighter shot of the sculpture or the building's decoration.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Position yourself in front of the building so the ornate fountain fills the foreground and the opera sits behind it in the background.",
+    "how_to_frame": "Put the fountain sculpture low in the frame with the opera behind it, and turn on gridlines to keep the building's lines straight. Hold the phone level to avoid leaning walls. For a different view, try Bastejkalna Park, where trees and lawns frame the facade, or Kronvalda Park, where the canal gives you reflections.",
+    "phone_settings_tip": "Tap the fountain to focus, then slide the exposure down a little if the sky is washing out the building. If the water is moving, try a Live Photo and choose the best frame afterwards.",
+    "best_time": "Soft morning or late-afternoon light usually flatters the building and the fountain. After dark, try night mode, and brace your elbows against your body to keep the phone steady."
+   },
+   "access_note": "The fountain and the space in front of the opera are outdoors, but check the official site before you go if you want to go inside, and remember photography is not allowed during performances."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Latvian National Opera",
+    "url": "https://en.wikipedia.org/wiki/Latvian_National_Opera"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Diego Delso",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Opera_Nacional,_Riga,_Letonia,_2012-08-07,_DD_04.JPG",
+   "from": "Wikidata Q555773 main image"
   }
  }
 ]

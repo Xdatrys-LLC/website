@@ -1,1 +1,1 @@
-window.MAPCFG = {"key": "riga", "title": "Riga: 20 photo spots (pilot review)", "place": "Riga", "bounds": [24.075, 56.93, 24.14, 56.968], "center": [24.1075, 56.949], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/riga/{z}/{x}/{y}.pbf"};
+window.MAPCFG = {"key": "riga", "title": "Riga: 19 photo spots (pilot review)", "place": "Riga", "bounds": [24.075, 56.93, 24.14, 56.968], "center": [24.1075, 56.949], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/riga/{z}/{x}/{y}.pbf"};
