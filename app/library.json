@@ -576,6 +576,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "hurghada",
+  "place": "Hurghada",
+  "country": "Egypt",
+  "spots": 4,
+  "mb": 3.1,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "interlaken",
   "place": "Interlaken",
   "country": "Switzerland",

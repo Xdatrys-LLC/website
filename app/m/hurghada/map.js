@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "hurghada", "title": "Hurghada: 4 photo spots (pilot review)", "place": "Hurghada", "bounds": [33.78, 27.12, 33.87, 27.265], "center": [33.825, 27.192500000000003], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/hurghada/{z}/{x}/{y}.pbf", "tz": "Africa/Cairo", "rail": false, "app": true};
