@@ -243,15 +243,15 @@
   "nophone": true,
   "searches": 7300,
   "pin": [
-   151.19896,
-   -33.8723
+   151.1995619,
+   -33.8675516
   ],
   "camera": [
-   151.19896,
-   -33.8723
+   151.1995619,
+   -33.8675516
   ],
   "camera_source": "Researched viewpoint 'Pier 7' (1 web pages); placed at OpenStreetMap 'The Pier Apartments' (way/52751260): middle (212 m across); moved 15 m off buildings.",
-  "pin_note": "Position from the Wikipedia article 'Darling Harbour'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Waterfront leisure precinct with the skyline across the water.",
   "text": {
    "description": "Darling Harbour is the busy waterfront playground adjacent to Sydney's city centre, built around Cockle Bay. It was originally called Long Cove. It took its present name in 1826 from Governor Ralph Darling, who held office from 1825 to 1831. By the mid-to-late 1980s the old rail yards and wharves had become run-down, and the area was redeveloped as a pedestrian and tourist precinct. For a phone photographer the appeal is the whole sweep of the bay: the western shore, the water in front, and the city's towers rising behind. The best-known angle is the wide panorama from Pier 7, on the north side near the Foxtel building. It looks across to the western shore of Cockle Bay with the central business district skyline above it. One guide rates it the best wide view of that side of the bay. It is free to stand there and best later in the day, around sunset and for up to an hour afterwards. The west shore is being redeveloped (the old Harbourside shopping centre was demolished in 2023), so details of the view may change from year to year. If you want a different angle, Pyrmont Bridge gives a wide view of the bay and waterfront, and Observatory Hill gives a higher, quieter look down over Darling Harbour. Event nights such as the fireworks and Vivid bring big crowds to Cockle Bay, so arrive early to get a good position.",
@@ -279,10 +279,7 @@
     "url": "https://en.wikipedia.org/wiki/Darling_Harbour"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (1418 m)",
-   "OpenStreetMap object 531 m away (Darling Harbour): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/5.jpg",
