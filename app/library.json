@@ -352,6 +352,14 @@
   "photo": "photos/1.jpg"
  },
  {
+  "key": "delhi",
+  "place": "Delhi",
+  "country": "India",
+  "spots": 18,
+  "mb": 8.7,
+  "photo": "photos/1.jpg"
+ },
+ {
   "key": "detroit",
   "place": "Detroit",
   "country": "United States",

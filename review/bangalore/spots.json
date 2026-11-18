@@ -906,61 +906,6 @@
  },
  {
   "rank": 18,
-  "name": "Government Museum, Bangalore",
-  "in_cut": true,
-  "label": "Government Museum",
-  "camera_pill": null,
-  "nophone": false,
-  "searches": 30,
-  "pin": [
-   77.5958,
-   12.9747
-  ],
-  "camera": [
-   77.5958,
-   12.9747
-  ],
-  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
-  "pin_note": "Position from Wikidata Q372869: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "One of India's oldest museums, near Cubbon Park.",
-  "text": {
-   "description": "The Government Museum is a neoclassical building on Kasturba Road, next to the Visvesvaraya Industrial and Technological Museum and the Venkatappa Art Gallery. It was built in 1877 and is one of the oldest museums in India. The museum was founded in 1865, first sat in the old Cantonment jail building, and moved into this purpose-built home in 1877. The design has two porticos, Corinthian columns, circular arches, sloping eaves and a strong parapet wall. These repeating columns and arches give the front a clear, symmetrical look that suits a phone camera well. Inside, the collection includes sculpture, coins, old jewellery and inscriptions, among them the Halmidi inscription, the earliest known Kannada inscription (450 AD). For photos, the best subject is the façade itself. Fit the portico and the columns in one shot, using the ultra-wide lens if you cannot step back, and turn on gridlines so the vertical lines stay straight. If you have room, step to one side to catch the building at a slight angle, which shows the depth of the columns. Its neighbours make it easy to combine several stops in one visit. Reports say the museum has been closed for renovation, so check the official site before you go.",
-   "geographic_location": "In central Bangalore on Kasturba Road, close to the Cantonment area. It stands between the Visvesvaraya Industrial and Technological Museum and the Venkatappa Art Gallery.",
-   "directions_text": "No station or tram stop is listed for this spot, so start from the Kasturba Road area in central Bangalore and head for the Government Museum on Kasturba Road. Once you arrive, the phone icon on the map is at the museum itself. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the full front of the building. Switch to the ultra-wide (0.5x) if you are close to the portico and cannot step back, and keep the phone level to limit leaning walls. Use telephoto (2x-5x, depending on your phone) for details such as the column tops and arches.",
-    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Face the façade and keep the portico in the centre of the frame.",
-    "how_to_frame": "Turn on gridlines and line up the columns with the vertical lines. Centre the portico for a balanced, symmetrical shot, or step a little to one side for a slight angle that shows the depth of the columns. Include some of the ground in front for scale.",
-    "phone_settings_tip": "Tap on the façade to focus, then drag the exposure slider down slightly if the sky is bright, so the sky does not wash out the building's detail.",
-    "best_time": "Morning or late afternoon, when the light is softer and the façade is less harsh than at midday."
-   },
-   "access_note": "Access and opening may change, as the museum is a government-run site that has been reported closed for renovation, so check the official site before you go."
-  },
-  "checker_problems": 7,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Government Museum, Bengaluru",
-    "url": "https://en.wikipedia.org/wiki/Government_Museum%2C_Bengaluru"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
-  "at_spot": true,
-  "photo": {
-   "file": "photos/18.jpg",
-   "artist": "PP Yoonus",
-   "licence": "CC BY-SA 3.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Government_Museum_Banglore_305.jpg",
-   "from": "Wikidata Q372869 main image"
-  }
- },
- {
-  "rank": 19,
   "name": "St. Mary's Basilica",
   "in_cut": true,
   "label": "St. Mary's Basilica",
@@ -1004,12 +949,67 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "Johnchacks",
    "licence": "CC BY 3.0",
    "licence_url": "https://creativecommons.org/licenses/by/3.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:St._Marys_Basilica_Bangalore2.jpg",
    "from": "Wikidata Q7590089 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Government Museum, Bangalore",
+  "in_cut": false,
+  "label": "Government Museum",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 30,
+  "pin": [
+   77.5958,
+   12.9747
+  ],
+  "camera": [
+   77.5958,
+   12.9747
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from Wikidata Q372869: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "One of India's oldest museums, near Cubbon Park.",
+  "text": {
+   "description": "The Government Museum is a neoclassical building on Kasturba Road, next to the Visvesvaraya Industrial and Technological Museum and the Venkatappa Art Gallery. It was built in 1877 and is one of the oldest museums in India. The museum was founded in 1865, first sat in the old Cantonment jail building, and moved into this purpose-built home in 1877. The design has two porticos, Corinthian columns, circular arches, sloping eaves and a strong parapet wall. These repeating columns and arches give the front a clear, symmetrical look that suits a phone camera well. Inside, the collection includes sculpture, coins, old jewellery and inscriptions, among them the Halmidi inscription, the earliest known Kannada inscription (450 AD). For photos, the best subject is the façade itself. Fit the portico and the columns in one shot, using the ultra-wide lens if you cannot step back, and turn on gridlines so the vertical lines stay straight. If you have room, step to one side to catch the building at a slight angle, which shows the depth of the columns. Its neighbours make it easy to combine several stops in one visit. Reports say the museum has been closed for renovation, so check the official site before you go.",
+   "geographic_location": "In central Bangalore on Kasturba Road, close to the Cantonment area. It stands between the Visvesvaraya Industrial and Technological Museum and the Venkatappa Art Gallery.",
+   "directions_text": "No station or tram stop is listed for this spot, so start from the Kasturba Road area in central Bangalore and head for the Government Museum on Kasturba Road. Once you arrive, the phone icon on the map is at the museum itself. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the full front of the building. Switch to the ultra-wide (0.5x) if you are close to the portico and cannot step back, and keep the phone level to limit leaning walls. Use telephoto (2x-5x, depending on your phone) for details such as the column tops and arches.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Face the façade and keep the portico in the centre of the frame.",
+    "how_to_frame": "Turn on gridlines and line up the columns with the vertical lines. Centre the portico for a balanced, symmetrical shot, or step a little to one side for a slight angle that shows the depth of the columns. Include some of the ground in front for scale.",
+    "phone_settings_tip": "Tap on the façade to focus, then drag the exposure slider down slightly if the sky is bright, so the sky does not wash out the building's detail.",
+    "best_time": "Morning or late afternoon, when the light is softer and the façade is less harsh than at midday."
+   },
+   "access_note": "Access and opening may change, as the museum is a government-run site that has been reported closed for renovation, so check the official site before you go."
+  },
+  "checker_problems": 7,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Government Museum, Bengaluru",
+    "url": "https://en.wikipedia.org/wiki/Government_Museum%2C_Bengaluru"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "PP Yoonus",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Government_Museum_Banglore_305.jpg",
+   "from": "Wikidata Q372869 main image"
   }
  }
 ]

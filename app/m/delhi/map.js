@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "delhi", "title": "Delhi: 18 photo spots (pilot review)", "place": "Delhi", "bounds": [77.19, 28.548, 77.285, 28.661], "center": [77.2375, 28.6045], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/delhi/{z}/{x}/{y}.pbf", "tz": "Asia/Kolkata", "rail": true, "app": true};
