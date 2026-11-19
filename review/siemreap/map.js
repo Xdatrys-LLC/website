@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "siemreap", "title": "Siem Reap: 17 photo spots (pilot review)", "place": "Siem Reap", "bounds": [103.83, 13.34, 103.93, 13.47], "center": [103.88, 13.405000000000001], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/siemreap/{z}/{x}/{y}.pbf"};
