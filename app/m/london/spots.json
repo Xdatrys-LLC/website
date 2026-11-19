@@ -58,63 +58,6 @@
  },
  {
   "rank": 2,
-  "name": "Big Ben and the Houses of Parliament",
-  "in_cut": true,
-  "label": "Big Ben",
-  "camera_pill": "near Public Stairs",
-  "nophone": false,
-  "searches": 196650,
-  "pin": [
-   -0.1245735,
-   51.5007005
-  ],
-  "camera": [
-   -0.1244725,
-   51.4991799
-  ],
-  "camera_source": "Commons cluster (68 photos).",
-  "pin_note": "Position from OpenStreetMap way/123557148: the middle of the OpenStreetMap outline 'Elizabeth Tower' (21 m across).",
-  "notes": "",
-  "text": {
-   "description": "Big Ben is strictly the nickname of the Great Bell, but most people use it for the whole clock tower at the north end of the Palace of Westminster, which has been called the Elizabeth Tower since 2012. Pugin designed it in a Gothic Revival style, and it was completed in 1859. It stands about 96 metres tall, and each clock dial is almost 7 metres across, so the tower fills a phone frame easily and the golden-grey stonework and pointed spire make a strong, simple shape. The tower leans very slightly to the north-west, but you will not notice that in a photo. Look near the top for the Ayrton Light, a lantern above the belfry that is lit whenever the House of Commons sits after dark. The whole building is Grade I listed and part of a UNESCO World Heritage Site. Keep your phone upright and level so the tower does not appear to lean backwards. Pavements here can be busy, so take a few quick shots and then step aside. Check the clock face in your photo before moving on, as it is the detail most people want to see.",
-   "geographic_location": "In Westminster, central London, at the north end of the Palace of Westminster, about 69 metres south-east of Westminster Underground station.",
-   "directions_text": "Leave Westminster Underground station (Circle line, District line or Jubilee line) and the tower is about 1 minute on foot away, to the south-east. If you come by St. James's Park Underground station (Circle line and District line), the tower is about 12 minutes on foot to the east. The phone icon on the map is about 160 m south of the subject. The Navigate buttons below take you straight there.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) from where you stand. Switch to ultra-wide (0.5x) if you want the tower and the long palace frontage together, or to telephoto (2x-5x, depending on your phone) for a close shot of the clock face and spire.",
-    "where_to_stand": "Stand about 160 m south of the subject, at the phone icon on the map, and face north.",
-    "how_to_frame": "Turn on gridlines and line a vertical grid line up with the tower's edge. Hold the phone upright and level, since tilting it back makes the tower look as if it is falling over. Leave a little sky above the spire and include some of the palace roofline below for scale.",
-    "phone_settings_tip": "Tap the tower's stonework to focus, then drag the exposure slider down slightly so the sky stays blue and the clock face does not burn out. After dark, use night mode and rest your elbows against your body or a wall to keep the shot steady.",
-    "best_time": "Early morning or late afternoon usually gives softer light and fewer people. After dark, try night mode, and look for the Ayrton Light above the belfry, which is lit when the Commons is sitting."
-   },
-   "access_note": "The tower can be photographed from the public streets outside.",
-   "claims_not_in_sources": [
-    "Early morning or late afternoon usually gives softer light and fewer people.",
-    "Pavements around the tower can be busy.",
-    "The exterior can be photographed from the public streets.",
-    "The walking times (about 1 minute from Westminster Underground station and about 12 minutes from St. James's Park Underground station) are estimated from the distances given, and the route on to the stand-here point, continuing south past the tower, is derived from the distance and direction data."
-   ]
-  },
-  "checker_problems": 3,
-  "code_check_failures": [],
-  "sources": [
-   {
-    "title": "Big Ben",
-    "url": "https://en.wikipedia.org/wiki/Big_Ben"
-   }
-  ],
-  "pin_flags": [],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/2.jpg",
-   "artist": "Christian David",
-   "licence": "CC BY-SA 4.0",
-   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster,_London.jpg",
-   "from": "Wikidata Q41225 main image"
-  }
- },
- {
-  "rank": 3,
   "name": "Tower of London",
   "in_cut": true,
   "label": "Tower of London",
@@ -161,7 +104,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/3.jpg",
+   "file": "photos/2.jpg",
    "artist": "Bob Collowan",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -170,7 +113,7 @@
   }
  },
  {
-  "rank": 4,
+  "rank": 3,
   "name": "London Eye",
   "in_cut": true,
   "label": "London Eye",
@@ -218,7 +161,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/4.jpg",
+   "file": "photos/3.jpg",
    "artist": "Christian David",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -227,7 +170,7 @@
   }
  },
  {
-  "rank": 5,
+  "rank": 4,
   "name": "Borough Market",
   "in_cut": true,
   "label": "Borough Market",
@@ -274,7 +217,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/4.jpg",
    "artist": "Jeremy Keith from Brighton & Hove, United Kingdom",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -283,7 +226,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 5,
   "name": "Covent Garden",
   "in_cut": true,
   "label": "Covent Garden",
@@ -332,7 +275,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/5.jpg",
    "artist": "Anton Black",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -341,7 +284,7 @@
   }
  },
  {
-  "rank": 7,
+  "rank": 6,
   "name": "Tower Bridge",
   "in_cut": true,
   "label": "Tower Bridge",
@@ -389,7 +332,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/7.jpg",
+   "file": "photos/6.jpg",
    "artist": "Barcex",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -398,7 +341,7 @@
   }
  },
  {
-  "rank": 8,
+  "rank": 7,
   "name": "The Shard",
   "in_cut": true,
   "label": "The Shard",
@@ -447,7 +390,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/8.jpg",
+   "file": "photos/7.jpg",
    "artist": "Colin",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -456,7 +399,7 @@
   }
  },
  {
-  "rank": 9,
+  "rank": 8,
   "name": "British Museum Great Court",
   "in_cut": true,
   "label": "British Museum",
@@ -498,7 +441,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/9.jpg",
+   "file": "photos/8.jpg",
    "artist": "Ham",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -507,7 +450,7 @@
   }
  },
  {
-  "rank": 10,
+  "rank": 9,
   "name": "Victoria and Albert Museum",
   "in_cut": true,
   "label": "V&A",
@@ -549,7 +492,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/10.jpg",
+   "file": "photos/9.jpg",
    "artist": "Diliff",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -558,7 +501,7 @@
   }
  },
  {
-  "rank": 11,
+  "rank": 10,
   "name": "Trafalgar Square",
   "in_cut": true,
   "label": "Trafalgar Square",
@@ -607,7 +550,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/11.jpg",
+   "file": "photos/10.jpg",
    "artist": "Diliff",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -616,7 +559,7 @@
   }
  },
  {
-  "rank": 12,
+  "rank": 11,
   "name": "Piccadilly Circus",
   "in_cut": true,
   "label": "Piccadilly Circus",
@@ -666,7 +609,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/12.jpg",
+   "file": "photos/11.jpg",
    "artist": "Lily.Smith",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -675,7 +618,7 @@
   }
  },
  {
-  "rank": 13,
+  "rank": 12,
   "name": "Tate Modern",
   "in_cut": true,
   "label": "Tate Modern",
@@ -725,7 +668,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/13.jpg",
+   "file": "photos/12.jpg",
    "artist": "Christine Matthews",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -734,7 +677,7 @@
   }
  },
  {
-  "rank": 14,
+  "rank": 13,
   "name": "Harrods",
   "in_cut": true,
   "label": "Harrods",
@@ -786,7 +729,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/14.jpg",
+   "file": "photos/13.jpg",
    "artist": "User:Mikegr",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -795,7 +738,7 @@
   }
  },
  {
-  "rank": 15,
+  "rank": 14,
   "name": "Camden Market",
   "in_cut": true,
   "label": "Camden Market",
@@ -839,7 +782,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/15.jpg",
+   "file": "photos/14.jpg",
    "artist": "Horst Michael Lechner",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -848,7 +791,7 @@
   }
  },
  {
-  "rank": 16,
+  "rank": 15,
   "name": "Notting Hill and Portobello Road",
   "in_cut": true,
   "label": "Notting Hill",
@@ -894,7 +837,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/16.jpg",
+   "file": "photos/15.jpg",
    "artist": "Papertree at English Wikipedia",
    "licence": "CC BY-SA 3.0",
    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -903,7 +846,7 @@
   }
  },
  {
-  "rank": 17,
+  "rank": 16,
   "name": "Sky Garden",
   "in_cut": true,
   "label": "Sky Garden",
@@ -952,7 +895,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/17.jpg",
+   "file": "photos/16.jpg",
    "artist": "Diego Delso",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -961,7 +904,7 @@
   }
  },
  {
-  "rank": 18,
+  "rank": 17,
   "name": "Battersea Power Station",
   "in_cut": true,
   "label": "Battersea Power Stn",
@@ -1009,7 +952,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/18.jpg",
+   "file": "photos/17.jpg",
    "artist": "Aurelien Guichard from London, United Kingdom",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -1018,7 +961,7 @@
   }
  },
  {
-  "rank": 19,
+  "rank": 18,
   "name": "Natural History Museum Hintze Hall",
   "in_cut": true,
   "label": "Natural History Museum",
@@ -1066,7 +1009,7 @@
   "pin_flags": [],
   "at_spot": true,
   "photo": {
-   "file": "photos/19.jpg",
+   "file": "photos/18.jpg",
    "artist": "Christine Matthews",
    "licence": "CC BY-SA 2.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -1075,7 +1018,7 @@
   }
  },
  {
-  "rank": 20,
+  "rank": 19,
   "name": "St Paul's Cathedral",
   "in_cut": true,
   "label": "St Paul's",
@@ -1124,7 +1067,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/20.jpg",
+   "file": "photos/19.jpg",
    "artist": "Mark Fosh",
    "licence": "CC BY 2.0",
    "licence_url": "https://creativecommons.org/licenses/by/2.0",
@@ -1133,7 +1076,64 @@
   }
  },
  {
-  "rank": 21,
+  "rank": 101,
+  "name": "Big Ben and the Houses of Parliament",
+  "in_cut": false,
+  "label": "Big Ben",
+  "camera_pill": "near Public Stairs",
+  "nophone": false,
+  "searches": 196650,
+  "pin": [
+   -0.1245735,
+   51.5007005
+  ],
+  "camera": [
+   -0.1244725,
+   51.4991799
+  ],
+  "camera_source": "Commons cluster (68 photos).",
+  "pin_note": "Position from OpenStreetMap way/123557148: the middle of the OpenStreetMap outline 'Elizabeth Tower' (21 m across).",
+  "notes": "",
+  "text": {
+   "description": "Big Ben is strictly the nickname of the Great Bell, but most people use it for the whole clock tower at the north end of the Palace of Westminster, which has been called the Elizabeth Tower since 2012. Pugin designed it in a Gothic Revival style, and it was completed in 1859. It stands about 96 metres tall, and each clock dial is almost 7 metres across, so the tower fills a phone frame easily and the golden-grey stonework and pointed spire make a strong, simple shape. The tower leans very slightly to the north-west, but you will not notice that in a photo. Look near the top for the Ayrton Light, a lantern above the belfry that is lit whenever the House of Commons sits after dark. The whole building is Grade I listed and part of a UNESCO World Heritage Site. Keep your phone upright and level so the tower does not appear to lean backwards. Pavements here can be busy, so take a few quick shots and then step aside. Check the clock face in your photo before moving on, as it is the detail most people want to see.",
+   "geographic_location": "In Westminster, central London, at the north end of the Palace of Westminster, about 69 metres south-east of Westminster Underground station.",
+   "directions_text": "Leave Westminster Underground station (Circle line, District line or Jubilee line) and the tower is about 1 minute on foot away, to the south-east. If you come by St. James's Park Underground station (Circle line and District line), the tower is about 12 minutes on foot to the east. The phone icon on the map is about 160 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) from where you stand. Switch to ultra-wide (0.5x) if you want the tower and the long palace frontage together, or to telephoto (2x-5x, depending on your phone) for a close shot of the clock face and spire.",
+    "where_to_stand": "Stand about 160 m south of the subject, at the phone icon on the map, and face north.",
+    "how_to_frame": "Turn on gridlines and line a vertical grid line up with the tower's edge. Hold the phone upright and level, since tilting it back makes the tower look as if it is falling over. Leave a little sky above the spire and include some of the palace roofline below for scale.",
+    "phone_settings_tip": "Tap the tower's stonework to focus, then drag the exposure slider down slightly so the sky stays blue and the clock face does not burn out. After dark, use night mode and rest your elbows against your body or a wall to keep the shot steady.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people. After dark, try night mode, and look for the Ayrton Light above the belfry, which is lit when the Commons is sitting."
+   },
+   "access_note": "The tower can be photographed from the public streets outside.",
+   "claims_not_in_sources": [
+    "Early morning or late afternoon usually gives softer light and fewer people.",
+    "Pavements around the tower can be busy.",
+    "The exterior can be photographed from the public streets.",
+    "The walking times (about 1 minute from Westminster Underground station and about 12 minutes from St. James's Park Underground station) are estimated from the distances given, and the route on to the stand-here point, continuing south past the tower, is derived from the distance and direction data."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Big Ben",
+    "url": "https://en.wikipedia.org/wiki/Big_Ben"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Christian David",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster,_London.jpg",
+   "from": "Wikidata Q41225 main image"
+  }
+ },
+ {
+  "rank": 102,
   "name": "Westminster Abbey",
   "in_cut": false,
   "label": "Westminster Abbey",
@@ -1165,7 +1165,7 @@
   "photo": null
  },
  {
-  "rank": 22,
+  "rank": 103,
   "name": "Canary Wharf skyline",
   "in_cut": false,
   "label": "Canary Wharf",
@@ -1197,7 +1197,7 @@
   "photo": null
  },
  {
-  "rank": 23,
+  "rank": 104,
   "name": "Primrose Hill viewpoint",
   "in_cut": false,
   "label": "Primrose Hill",
@@ -1229,7 +1229,7 @@
   "photo": null
  },
  {
-  "rank": 24,
+  "rank": 105,
   "name": "Leadenhall Market",
   "in_cut": false,
   "label": "Leadenhall Market",
@@ -1261,7 +1261,7 @@
   "photo": null
  },
  {
-  "rank": 25,
+  "rank": 106,
   "name": "St James's Park",
   "in_cut": false,
   "label": "St James's Park",
@@ -1293,7 +1293,7 @@
   "photo": null
  },
  {
-  "rank": 26,
+  "rank": 107,
   "name": "Somerset House",
   "in_cut": false,
   "label": "Somerset House",
@@ -1325,7 +1325,7 @@
   "photo": null
  },
  {
-  "rank": 27,
+  "rank": 108,
   "name": "Kensington Palace",
   "in_cut": false,
   "label": "Kensington Palace",
@@ -1357,7 +1357,7 @@
   "photo": null
  },
  {
-  "rank": 28,
+  "rank": 109,
   "name": "Greenwich: Royal Observatory and the Cutty Sark",
   "in_cut": false,
   "label": "Greenwich",
@@ -1389,7 +1389,7 @@
   "photo": null
  },
  {
-  "rank": 29,
+  "rank": 110,
   "name": "Marble Arch",
   "in_cut": false,
   "label": "Marble Arch",
@@ -1421,7 +1421,7 @@
   "photo": null
  },
  {
-  "rank": 30,
+  "rank": 111,
   "name": "Millennium Bridge",
   "in_cut": false,
   "label": "Millennium Bridge",
@@ -1453,7 +1453,7 @@
   "photo": null
  },
  {
-  "rank": 31,
+  "rank": 112,
   "name": "Hyde Park",
   "in_cut": false,
   "label": "Hyde Park",
@@ -1485,7 +1485,7 @@
   "photo": null
  },
  {
-  "rank": 32,
+  "rank": 113,
   "name": "Abbey Road crossing",
   "in_cut": false,
   "label": "Abbey Road",
