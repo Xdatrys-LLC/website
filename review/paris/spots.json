@@ -913,7 +913,7 @@
   "name": "Les Invalides",
   "in_cut": true,
   "label": "Les Invalides",
-  "camera_pill": "near Cour d'Honneur",
+  "camera_pill": null,
   "nophone": false,
   "searches": 22400,
   "pin": [
@@ -921,8 +921,8 @@
    48.8559525
   ],
   "camera": [
-   2.312909,
-   48.856538
+   2.3127923,
+   48.8568421
   ],
   "camera_source": "Commons cluster (68 photos).",
   "pin_note": "Position from OpenStreetMap relation/1463538: the middle of the OpenStreetMap outline 'Hôtel des Invalides' (391 m across).",
@@ -930,10 +930,10 @@
   "text": {
    "description": "Les Invalides is a grand complex of buildings in the 7th arrondissement. Louis XIV ordered it in 1670 as a home and hospital for veterans of his wars. It now holds the army museum and the tomb of Napoleon, and it still includes a retirement home for former soldiers. For a phone photographer, the appeal is scale and symmetry. The long façade facing the Seine is 196 metres wide, and the Dôme rises above it to 107 metres, making it the tallest church building in Paris and taller than Notre Dame. In front lies the wide, open Esplanade des Invalides, which gives you the clear distance you need to fit the whole building into one frame. The esplanade is open ground, so there is plenty of space to move around, and the buildings stood in as a backdrop for several sports at the 2024 Olympics. The Dôme sits in the centre of your view with the long front spreading out on either side, which makes a naturally balanced picture. Keep your phone level so the long horizontal lines of the façade stay straight. A strip of lawn or path in the foreground adds depth and stops the shot looking flat. If you want to go inside, for the museum or the tomb, check the official site before you go.",
    "geographic_location": "Les Invalides is in the 7th arrondissement, south of the Seine.",
-   "directions_text": "Varenne (Métro line 13) is the nearest station, about 179 metres from the Invalides, which lies to the west of it. That is about 3 minutes on foot. La Tour Maubourg (Métro line 8) is about 242 metres away, with the Invalides to the south-east, which is about 4 minutes on foot. The phone icon on the map is about 70 m north of the numbered pin. The Navigate buttons below take you straight there.",
+   "directions_text": "Varenne (Métro line 13) is the nearest station, about 179 metres from the Invalides, which lies to the west of it. That is about 3 minutes on foot. La Tour Maubourg (Métro line 8) is about 242 metres away, with the Invalides to the south-east, which is about 4 minutes on foot. The phone icon on the map is about 100 m north of the numbered pin. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to fit the full width of the façade and the open esplanade in front. Switch to the default lens (1x) for a tidier view centred on the Dôme. Use telephoto (2x-5x, depending on your phone) for the top of the dome and the lantern.",
-    "where_to_stand": "Stand about 70 m north of the numbered pin, at the phone icon on the map, and face south. Stay on the central axis of the complex for a symmetrical picture.",
+    "where_to_stand": "Stand about 100 m north of the numbered pin, at the phone icon on the map, and face south. Stay on the central axis of the complex for a symmetrical picture.",
     "how_to_frame": "Turn on gridlines and line the Dôme up with the central vertical line. Keep the phone level so the horizontal lines of the façade do not lean. Include some path or lawn in the foreground for depth. For a more intimate shot, use telephoto and fill the frame with the dome alone.",
     "phone_settings_tip": "Tap on the building to focus, then slide the exposure down slightly if the sky is bright, so the stonework keeps its detail. Panorama mode can work for the full width, but hold the phone steady and upright as you sweep.",
     "best_time": "Choose a clear morning or late afternoon, when the light is softer and the esplanade is usually less crowded. Use the exposure slider on a bright day."
