@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "hongkong", "title": "Hong Kong: 19 photo spots (pilot review)", "place": "Hong Kong", "bounds": [114.14, 22.265, 114.182, 22.318], "center": [114.161, 22.2915], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/hongkong/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "mumbai", "title": "Mumbai: 16 photo spots (pilot review)", "place": "Mumbai", "bounds": [72.785, 18.89, 72.88, 19.06], "center": [72.8325, 18.975], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/mumbai/{z}/{x}/{y}.pbf"};

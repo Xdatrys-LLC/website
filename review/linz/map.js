@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "linz", "title": "Linz: 13 photo spots (pilot review)", "place": "Linz", "bounds": [14.24, 48.288, 14.31, 48.332], "center": [14.275, 48.31], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/linz/{z}/{x}/{y}.pbf"};

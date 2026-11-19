@@ -1,0 +1,1365 @@
+{
+ "St. Stephen's Cathedral": {
+  "rank": 1,
+  "card": {
+   "hook": "That zigzag roof looks like it was knitted from tiles, and it rises out of one of the busiest squares in Vienna. Good news: the square is open enough that you can step back and fit the whole thing in.",
+   "stand_here": "Stand in Stephansplatz, right in front of the main west entrance. It's about 1 minute on foot to the middle of the building, and you'll be facing the cathedral to the east of you.",
+   "zoom": "Start at zoom 0.5x to fit the whole façade and roof in one go. Then try 1x for a more natural look, and 2x to 5x (depending on your phone) for the roof tiles and tower details.",
+   "make_it_pop": "Turn on gridlines and hold your phone upright and level so the towers don't lean, then tap the brightest part of the façade and slide it a touch darker to keep the sky and roof tiles colourful.",
+   "best_time": "Go early in the morning, when the square is quieter and the first light hits the roof tiles. Midday is the busiest time, so expect a crowd then.",
+   "selfie_here": "Stand on Stephansplatz in front of the main entrance, with the façade and tiled roof behind you, and use the front camera (try 0.5x if your phone has it) to get the cathedral over your shoulder. For a quieter backdrop, try the narrow Jasomirgottstraße, where the main entrance and the Riesentor are framed at the end of the street.",
+   "ask_someone": "Ask someone to stand at the far end of the Graben and aim back at the cathedral while you stand in front of it, so the whole building fits in the frame.",
+   "rules_and_safety": "No flash inside the cathedral, and photos in the main nave are for personal use only. Rules can change, so check the cathedral's current ones before you go in. The South Tower climb is paid, so check the official site for tower details.",
+   "challenge": "Find the spot where the zigzag roof tiles, the tall tower and the carved doorway all squeeze into one photo, and see if you can get all three in with nobody's head in the way.",
+   "good_to_know": "The first church on this spot was dedicated in 1147, and the Gothic building you see today grew mainly from work started under Duke Rudolf IV in the 14th century. The south tower, nicknamed the \"Steffl\", reaches 136 metres. A fire badly damaged the roof in April 1945, and the cathedral fully reopened in 1952.",
+   "stand_here_before_gps_rule": "Stand in Stephansplatz, right in front of the main west entrance. It's about 1 minute on foot to the middle of the building, and you'll be facing the cathedral to the east of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Stephansplatz, in front of the cathedral's main entrance (west front)",
+     "detail": "on the square directly in front of the main entrance, with the cathedral's façade and tiled roof behind you",
+     "why": "Guides call the square the classic view of the cathedral and the best starting point for first photos, and it offers several angles of the building.",
+     "sources": [
+      {
+       "title": "Stephansdom Vienna: Complete Guide To St. Stephen's Cathedral, Towers & Catacombs",
+       "url": "https://viennaepass.com/stephansdom-vienna-guide"
+      },
+      {
+       "title": "Stephansdom Guide: Tower Climb, Catacombs & Roof Tiles",
+       "url": "https://viennaitinerary.com/stephansdom-guide"
+      }
+     ]
+    },
+    {
+     "name": "Jasomirgottstraße (narrow side street by the cathedral)",
+     "detail": "on the narrow street Jasomirgottstraße, with the cathedral's main entrance and the Riesentor framed at the end of the street",
+     "why": "It is a narrow street that cuts out much of the crowd on the square, and a page recommends arriving just after sunrise for soft light.",
+     "sources": [
+      {
+       "title": "St. Stephen's Cathedral (Muvamo)",
+       "url": "https://www.muvamo.com/vienna/st-stephens-cathedral/"
+      },
+      {
+       "title": "12 Instagrammable places in Vienna - Flying Scots Girl",
+       "url": "https://flyingscotsgirl.com/2025/10/19/12-instagrammable-places-in-vienna/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "The far end of the Graben (street), aiming back at the cathedral",
+    "detail": "the photographer stands at the end of the Graben so the whole cathedral fits in frame; the visitor stands in front of the cathedral (the visitor position is my inference, not stated by the page)",
+    "sources": [
+     {
+      "title": "Stephansplatz square",
+      "url": "https://www.visitingvienna.com/sights/stephansplatz/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are not allowed inside the cathedral.",
+     "sources": [
+      {
+       "title": "I Visited Vienna's Largest Church (Earths Attractions)",
+       "url": "https://www.earthsattractions.com/st-stephens-cathedral-vienna-guide/"
+      },
+      {
+       "title": "Ultimate Guide to Visiting St. Stephen's Cathedral in Vienna",
+       "url": "https://routesandrevelations.com/visiting-st-stephens-cathedral-in-vienna/"
+      }
+     ]
+    },
+    {
+     "rule": "Flash is not allowed inside the cathedral, and photography in the main nave is for personal use.",
+     "sources": [
+      {
+       "title": "Ultimate Guide to Visiting St. Stephen's Cathedral in Vienna",
+       "url": "https://routesandrevelations.com/visiting-st-stephens-cathedral-in-vienna/"
+      }
+     ]
+    },
+    {
+     "rule": "Private photography and filming inside are permitted; commercial or other non-private use of interior photos requires prior permission from the cathedral.",
+     "sources": [
+      {
+       "title": "I Visited Vienna's Largest Church (Earths Attractions)",
+       "url": "https://www.earthsattractions.com/st-stephens-cathedral-vienna-guide/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a selfie spot specifically or states rules about selfie sticks; the spots above are general photo locations, so the 'cathedral behind you' framing is my inference. Sources disagree on the best angle: one guide names the north-eastern side of the square for the roof, while another names the end of the Graben for the whole building. Interior photo rules are from sources that may be dated; check the cathedral's current rules before going in."
+  },
+  "cost_usd": 0.0491,
+  "at": "2026-11-17 01:22",
+  "selfie_pos": [
+   48.2091668,
+   16.3717004
+  ],
+  "selfie_note": "Jasomirgottstraße (OpenStreetMap: Jasomirgottstraße, Stubenviertel, Katastralgemeinde Innere S)"
+ },
+ "Schönbrunn Palace": {
+  "rank": 2,
+  "card": {
+   "hook": "Most people snap Schönbrunn at the front door and go home with a very big yellow wall. The better picture is waiting up the hill, where the whole palace sits in front of you like a model.",
+   "stand_here": "Walk south up through the gardens to the upper terrace of the Gloriette, the colonnaded building on the hill. Then turn round and face back north down the garden axis, with the palace straight ahead of you.",
+   "zoom": "Start at 1x to get the lawns, the palace and the city in one go. If your phone has 2x, use it to pick the palace out from the skyline. Save 0.5x for when you want the terrace's columns or arches in the shot.",
+   "make_it_pop": "Tap the palace, then slide the brightness down a touch so the sky keeps its colour and the yellow walls don't wash out.",
+   "best_time": "Guides disagree, so pick what suits your day: about an hour before sunset for the glow, or early morning to beat the crowds.",
+   "selfie_here": "Head to the main courtyard (the Parade Court) in front of the palace and stand in the open space with the yellow facade behind you. Use the front camera and hold it a little high. For a second option, try the palace-side edge of the Neptune Fountain basin at the foot of the Gloriette hill, with the palace behind you.",
+   "ask_someone": "Try the road outside the main entrance, where the palace exterior can be photographed even when the park gates are closed: hand your phone over and stand with the palace behind you.",
+   "rules_and_safety": "Selfie sticks aren't allowed in restricted areas, though the courtyards and gardens are open for non-commercial photography. Photography is not allowed inside the state rooms. Opening hours for the Gloriette terrace can vary, and the Ehrenhof may close for works or events, so check the official site before you go.",
+   "challenge": "Turn on the gridlines, put the palace on the middle vertical line, and sneak a column into one corner. Bonus points if the garden paths point straight at it.",
+   "good_to_know": "Schönbrunn was the Habsburgs' summer palace, and it has 1,441 rooms. It became a World Heritage Site in 1996, together with its gardens. The Gloriette has stood on its hill since 1775, and the hill is about 60 metres high, enough to look down the whole length of the gardens.",
+   "stand_here_before_gps_rule": "Walk south up through the gardens to the upper terrace of the Gloriette, the colonnaded building on the hill. Then turn round and face back north down the garden axis, with the palace straight ahead of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Main courtyard (Parade Court) in front of the palace facade",
+     "detail": "in the open courtyard directly in front of the palace, with the yellow facade behind you",
+     "why": "<cite index=\"12-31\">Most visitors love snapping a selfie with the palace in the background from the main courtyard</cite>, and the courtyard is one of the <cite index=\"18-5,18-6\">free areas, the wide open space right in front of the palace, ideal for photos</cite>.",
+     "sources": [
+      {
+       "title": "Schönbrunn Palace Photos (wien-tickets)",
+       "url": "https://www.wien-tickets.com/schonbrunn-palace-vienna/photos/"
+      },
+      {
+       "title": "9 Essential Tips to Visit Schönbrunn Palace in Vienna (vacaywork)",
+       "url": "https://vacaywork.com/nine-tips-to-visit-schonbrunn-palace-in-vienna/"
+      }
+     ]
+    },
+    {
+     "name": "Neptune Fountain, palace-side edge of the basin",
+     "detail": "at the Neptune Fountain at the foot of the Gloriette hill, on the side of the basin nearest the palace",
+     "why": "<cite index=\"11-51\">That's why it's the part of the palace where you can see so many people taking selfies</cite>, because the fountain's statues and falling water make it an eye-catcher.",
+     "sources": [
+      {
+       "title": "10 Most Picturesque Spots In Schönbrunn Palace Park, Vienna (Wanderin Europe)",
+       "url": "https://wanderineurope.com/picturesque-spots-in-schonbrunn-palace-park-vienna/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Road outside the main entrance of Schönbrunn Palace",
+    "detail": "on the road outside the main entrance, where the palace exterior can be photographed even when the park gates are closed",
+    "sources": [
+     {
+      "title": "10 things you should do at Schönbrunn Palace (Visiting Vienna)",
+      "url": "https://www.visitingvienna.com/schonbrunn/10-things-2/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Selfie sticks and tripods are not allowed in restricted areas, though the courtyards and gardens are open for non-commercial photography.",
+     "sources": [
+      {
+       "title": "Schönbrunn Palace Guide: Tickets, History & Visitor Tips (visitcity)",
+       "url": "https://visitcity.travel/en/vienna/attractions/schoenbrunn-palace"
+      }
+     ]
+    },
+    {
+     "rule": "Selfie sticks, tripods, and flash are strictly prohibited for personal photography inside the state rooms.",
+     "sources": [
+      {
+       "title": "Schonbrunn Palace FAQs 2026",
+       "url": "https://schonbrunn-tickets.org/plan-your-visit/schonbrunn-faqs/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The Neptune Fountain selfie orientation (palace behind the visitor) is my inference from the source's description, not a stated instruction. The ask-someone spot is a general vantage point on the road outside the main entrance; the source does not name an exact spot on that road. The Gloriette view looks back at the palace, so I left it out as a selfie spot because the palace would be in front rather than behind. Source dates vary, and one guide says the Parade Court fountains are turned off before 8:30 am and after 5 pm, but I did not include that spot."
+  },
+  "cost_usd": 0.0504,
+  "at": "2026-11-17 01:22"
+ },
+ "Hofburg": {
+  "rank": 3,
+  "card": {
+   "hook": "Plot twist: the Hofburg isn't one building, it's a sprawl of wings added over centuries. But from one spot you can squeeze it into a single neat shot, with a dome sitting right inside an archway.",
+   "stand_here": "Stand in Michaelerplatz, in the centre of the semicircular square (or at the outer edge facing the Michaelertor). Face the palace and look through the central archway. The middle of the wider palace complex lies to the south of you.",
+   "zoom": "Start at 1x to frame the dome through the archway. Switch to 0.5x if you want the whole façade and the glass-covered Roman excavation in one shot. Try 2x for details of the dome and statues.",
+   "make_it_pop": "Switch on gridlines, put the archway in the centre, then tap the dome and drag the brightness slider down a little so the sky doesn't wash out.",
+   "best_time": "Go before 8am, when the square is emptiest. Later it fills up with people and carriages, so a clear frame gets harder.",
+   "selfie_here": "Michaelerplatz, on the semicircular square at the Hofburg's main entrance, is the classic spot. Use the front camera (try 0.5x to fit more in) and keep the palace façade over your shoulder. For a calmer option, try the Burggarten behind the palace and use the Mozart statue as your foreground.",
+   "ask_someone": "Ask a passer-by to stand at the centre of Michaelerplatz and shoot straight through the archway, while you stand in the square so the palace façade is in the frame.",
+   "rules_and_safety": "Michaelerplatz and the outdoor viewpoints are public squares and gardens. Inside the palace, the museums and treasury are separate attractions where photography may be restricted, so check the official site before you go.",
+   "challenge": "Take a few steps sideways until the dome sits dead centre in the arch, then keep the Roman excavation glass along the bottom edge. Bonus points if you keep the phone perfectly level.",
+   "good_to_know": "The Hofburg was the main palace of the Habsburg dynasty. Since 1946 it has been the official residence and workplace of Austria's president. The oldest parts date from the 13th century, and the Neue Burg was finished between 1881 and 1913.",
+   "stand_here_before_gps_rule": "Stand in Michaelerplatz, in the centre of the semicircular square (or at the outer edge facing the Michaelertor). Face the palace and look through the central archway. The middle of the wider palace complex lies to the south of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Michaelerplatz, in front of the Hofburg facade",
+     "detail": "on the semicircular square at the Hofburg's main entrance, standing with the palace facade behind you (the guide's photo shows a visitor posed in front of the Hofburg here)",
+     "why": "It's located right in the heart of the Innere Stadt and marks the main entrance to the Hofburg, the former imperial palace of the Habsburgs. This spot gets busy quickly, so if you want cleaner shots without crowds, it's best to come early in the morning.",
+     "sources": [
+      {
+       "title": "20 Stunning Vienna Instagram Spots You Can't Miss (She Wanders Abroad)",
+       "url": "https://shewandersabroad.com/vienna-instagram-spots/"
+      },
+      {
+       "title": "Best Photo Spots in Vienna: Capture Stunning Shots (2026)",
+       "url": "https://tourismattractions.net/austria/best-photo-spots-vienna"
+      }
+     ]
+    },
+    {
+     "name": "Burggarten, behind the Hofburg",
+     "detail": "in the garden tucked right behind the palace, using the Mozart memorial statue as a foreground subject",
+     "why": "Tucked right behind the Hofburg Palace, Burggarten is a calm, green break in the middle of the city and a great place to slow down with your camera. The Mozart memorial statue makes a popular foreground subject.",
+     "sources": [
+      {
+       "title": "20 Stunning Vienna Instagram Spots You Can't Miss (She Wanders Abroad)",
+       "url": "https://shewandersabroad.com/vienna-instagram-spots/"
+      },
+      {
+       "title": "Best Photo Spots in Vienna: Capture Stunning Shots (2026)",
+       "url": "https://tourismattractions.net/austria/best-photo-spots-vienna"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Centre of Michaelerplatz",
+    "detail": "a passer-by stands at the centre of the semicircular square and shoots straight through the archway of the Hofburg entrance; the visitor should be positioned in the square so the palace facade is in the frame",
+    "sources": [
+     {
+      "title": "Best Photo Spots in Vienna: Capture Stunning Shots (2026)",
+      "url": "https://tourismattractions.net/austria/best-photo-spots-vienna"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Sources disagree on photography inside the Hofburg Imperial Apartments: one guide says they do not allow any photography, another says they allow it.",
+     "sources": [
+      {
+       "title": "The Travelling Frenchy Vienna photo guide",
+       "url": "https://thetravellingfrenchy.com/photo-spots-vienna/"
+      },
+      {
+       "title": "Best Vienna photography spots 2026 (Vienna Spirit)",
+       "url": "https://www.vienna-spirit.com/guides/vienna-photography-spots/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The ask-someone spot is inferred from a guide's Michaelerplatz instructions, which describe the photographer's position but not where the visitor should stand; confirm on the ground. Neither selfie spot states that the Hofburg is directly behind the visitor, so the 'landmark behind you' orientation is an inference. No page gave selfie stick or tripod rules, and no page gave a safety point. Some sources are over two years old. The coordinates given (48.20633, 16.36580) were not matched to any named spot."
+  },
+  "cost_usd": 0.048,
+  "at": "2026-11-17 01:23"
+ },
+ "Belvedere": {
+  "rank": 4,
+  "card": {
+   "hook": "Everyone crowds round the pool for the postcard shot. Walk to the far end of the park instead, and you get the whole palace at the end of a long, tidy garden, with statues standing in front like they've been paid to be there.",
+   "stand_here": "Stand at the Unteres Belvedere, the Lower Belvedere end of the park, about 5 minutes on foot through the garden from the Upper Belvedere. Face south and shoot back up the garden toward the Upper Belvedere.",
+   "zoom": "Try zoom 2x to 5x, depending on your phone, until the palace fills about a third of the frame width. Use 1x if you want the whole garden in the shot.",
+   "make_it_pop": "Turn on your gridlines, put the palace on the centre line and keep the roofline level.",
+   "best_time": "Go early in the morning, when there are fewer people. Crowds tend to build after about 10 am. Golden hour or late evening can also work if you like warmer light.",
+   "selfie_here": "Go to the upper basin above the Kaskadenbrunnen (the cascade fountain) and stand with your back to the Upper Belvedere. Use your front camera so the garden opens out behind you. No page states the exact angle, so check on site that the palace sits nicely over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand at the lower, northern end of the garden and shoot back up toward the Upper Belvedere, while you stand at the pond's edge with the palace behind you.",
+   "rules_and_safety": "Photos in the gardens are fine for personal use, but professional shoots may need permission from the palace management. The garden and pool are free to enter, but the palace interiors are ticketed.",
+   "challenge": "Walk a few steps sideways until a statue lines up against the palace facade, then take the shot that makes it look like the statue is guarding the place.",
+   "good_to_know": "Prince Eugene of Savoy built the Belvedere as a summer residence, and the Upper Belvedere was completed in 1723. The garden is in the French style, laid out by Dominique Girard over three terraces. The Upper Belvedere is also the building on the Austrian 20-cent euro coin.",
+   "stand_here_before_gps_rule": "Stand at the Unteres Belvedere, the Lower Belvedere end of the park, about 5 minutes on foot through the garden from the Upper Belvedere. Face south and shoot back up the garden toward the Upper Belvedere."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Upper pool of the Kaskadenbrunnen (cascade fountain), Belvedere gardens",
+     "detail": "at the upper basin above the cascade, with your back to the Upper Belvedere so the garden opens out in front of you",
+     "why": "The upper pool is the spot where the garden view runs down toward the Lower Belvedere, so standing there with the palace behind you gives a clear garden backdrop for a selfie.",
+     "sources": [
+      {
+       "title": "Belvedere Palace Gardens in Vienna | Free Entry & Map",
+       "url": "https://www.rjontour.com/belvedere-palace-vienna/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Far end of the reflecting pond, Belvedere gardens (toward the Lower Belvedere)",
+    "detail": "The passer-by stands at the lower, northern end of the garden and shoots back up toward the Upper Belvedere, while you stand at the pond's edge with the palace behind you so the whole building and its reflection fit in the frame.",
+    "sources": [
+     {
+      "title": "Belvedere Palace I photo spot, Vienna",
+      "url": "https://www.photohound.co/spot/belvedere-palace-i-1723"
+     },
+     {
+      "title": "Vienna Instagram spots: your photo guide",
+      "url": "https://www.meininger-hotels.com/blog/en/vienna-instagram-spots/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography in the Belvedere gardens is allowed for personal use; professional shoots may require prior permission from the palace management.",
+     "sources": [
+      {
+       "title": "Belvedere Palace Gardens Vienna",
+       "url": "https://www.wien-tickets.com/belvedere-palace/gardens/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot was found with a page describing the palace behind the visitor. The upper cascade pool is my inference from a page saying it has views down to the Lower Belvedere; no page states the photo orientation directly, so check on site. Sources disagree on best timing (sunrise vs. sunset) and on whether the reflecting pond is in front of the Upper Belvedere or between the two palaces; the spot's position may need confirming. No page mentioned selfie stick or tripod rules, so none are reported. Fountains run only in frost-free months (April to October), per one source. The gardens are free to enter, per one source."
+  },
+  "cost_usd": 0.0483,
+  "at": "2026-11-17 01:23"
+ },
+ "Vienna State Opera": {
+  "rank": 5,
+  "card": {
+   "hook": "Most people photograph the Vienna State Opera from the pavement, squinting past tram wires. Climb up instead, and the whole pale facade is laid out in front of you like a stage set.",
+   "stand_here": "Stand in Albertinaplatz, on the raised Albertina terrace by the museum entrance, across the street from the opera. Look south towards the opera, with the Archduke Albrecht statue close by.",
+   "zoom": "Start at 1x so the whole facade fits. Use 0.5x only if you have to stand close, and keep the building centred so the walls don't lean. Try 2x for close-ups of the arches and stonework.",
+   "make_it_pop": "Turn on the gridlines and line up an edge of the building with a vertical line so the walls stay straight.",
+   "best_time": "Golden hour or blue hour, when the facade is lit up and the sky turns deep blue. At blue hour, rest your phone against a wall or railing and let night mode do the work.",
+   "selfie_here": "On the Albertina Terrace, stand at the balustrade edge or beside the statue there, with the Opera behind you. Use the front camera and hold it a little low so the building fills the background. Try 0.5x if your phone has it on the front camera. For softer light, walk down to the Opera Arcades, the stone walkway beneath the Opera, which guides say suits portraits.",
+   "ask_someone": "Ask someone to stand on the Opernring pavement facing the front of the building, while you pose in front of the opera's main facade.",
+   "rules_and_safety": "The Albertina terrace is a public space, so you can stand there without a ticket. Photos and video are not allowed during performances, and flash is not allowed inside the opera house.",
+   "challenge": "Take one shot where a vertical edge of the opera sits exactly on a gridline, with a little strip of the street below. Bonus points if a tram sneaks in.",
+   "good_to_know": "The opera was the first major building on the Ringstrasse, built between 1861 and 1869. It opened with Mozart's Don Giovanni in May 1869 and seats 1,709 people. A fire in March 1945 destroyed most of the interior, but the front section survived, including the main stairways and the foyer, which is why the facade still looks so complete.",
+   "stand_here_before_gps_rule": "Stand in Albertinaplatz, on the raised Albertina terrace by the museum entrance, across the street from the opera. Look south towards the opera, with the Archduke Albrecht statue close by."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Albertina Terrace",
+     "detail": "On the raised terrace of the Albertina Museum, standing at the balustrade edge or beside the statue there, with the Opera behind you",
+     "why": "The terrace sits above street level, so the Opera façade fills the background and a visitor's portrait keeps the building in frame.",
+     "sources": [
+      {
+       "title": "17 Instagrammable photo spots in Vienna (Muvamo, 2026)",
+       "url": "https://www.muvamo.com/vienna/blog/most-instagrammable-photo-spots-in-vienna/"
+      },
+      {
+       "title": "Top Vienna Photography Spots (visitcity.travel)",
+       "url": "https://visitcity.travel/en/vienna/guides/photography-spots"
+      }
+     ]
+    },
+    {
+     "name": "Opera Arcades",
+     "detail": "In the arcades walkway beneath the Opera, reached by walking down from the Albertina Terrace",
+     "why": "The soft light in these stone walkways is described as suited to portraits, giving a different backdrop from the open terrace.",
+     "sources": [
+      {
+       "title": "Top Vienna Photography Spots (visitcity.travel)",
+       "url": "https://visitcity.travel/en/vienna/guides/photography-spots"
+      },
+      {
+       "title": "Vienna State Opera photo spots (Muvamo)",
+       "url": "https://www.muvamo.com/vienna/vienna-state-opera/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Opernring, across the street from the Opera's main façade",
+    "detail": "On the pavement of Opernring facing the front of the building; some guides suggest the top of the stairs on Opernring for a clear shot of the front entrance",
+    "sources": [
+     {
+      "title": "Vienna State Opera (Muvamo)",
+      "url": "https://www.muvamo.com/vienna/vienna-state-opera/"
+     },
+     {
+      "title": "50 Best Instagram Photography Spots in Vienna (The Vienna BLOG)",
+      "url": "https://www.theviennablog.com/ultimate-top-50-photography-and-instagram-locations-in-vienna/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "A tripod can be used on the Albertina Terrace because it is a public square.",
+     "sources": [
+      {
+       "title": "Top Vienna Photography Spots (visitcity.travel)",
+       "url": "https://visitcity.travel/en/vienna/guides/photography-spots"
+      }
+     ]
+    },
+    {
+     "rule": "Photography and video are prohibited during performances and flash is not allowed (inside the opera house, not outdoors).",
+     "sources": [
+      {
+       "title": "Vienna State Opera (airial.travel)",
+       "url": "https://airial.travel/attractions/austria/wien/vienna-state-opera-9CHTMCnr"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page mentioned selfie sticks, so no rule is given for them. The Opera Arcades appear in only one guide, and no page gives a precise address for them. The Albertina terrace stairs are re-decorated for exhibitions, so their look changes. The 'statue' on the terrace is not named in any source. The Albertina Terrace is free and open 24/7."
+  },
+  "cost_usd": 0.0483,
+  "at": "2026-11-17 01:24"
+ },
+ "Karlskirche": {
+  "rank": 6,
+  "card": {
+   "hook": "Picture a big green dome floating upside down in a shallow pool, with two tall columns standing guard on either side. That's the Karlskirche on a calm day, and your phone will love it.",
+   "stand_here": "Head for Karlsplatz and walk south-east towards the pool in front of the church, keeping the façade ahead of you. Stop on the pool side, opposite the church front, and face the church.",
+   "zoom": "Start at 1x from the pool side. If the dome and both columns won't fit, tap 0.5x. For the spiral carvings on the columns and the dome, try 2x to 5x, depending on your phone.",
+   "make_it_pop": "Switch on gridlines and put the water's edge on a lower line, so the reflection fills the bottom of your photo.",
+   "best_time": "Go at sunrise, dusk or blue hour, when the water is still and the church is lit up. The reflection only works in the warmer months, when the pool has water in it. Check the columns before you plan your shot, because one was recently reported to be under scaffolding.",
+   "selfie_here": "Try the stone steps beside the reflecting pool, at the church's façade end. Use the front camera, tap 0.5x if your phone has it, and hold it a bit low so the church fits over your shoulder. Check the framing on the spot, because it's not certain the church lines up right behind you. The western edge of Resselpark, the park next to the church, is a second option, with the church in view from the park paths.",
+   "ask_someone": "Ask a passer-by to stand at the pool's edge on the Resselpark side, facing the church, so the pool, the dome and both columns all fit in the frame.",
+   "rules_and_safety": "Photos without flash are usually allowed inside the church, so follow the signs. Karlsplatz stays well lit and busy in the evening, and one guide calls it a safe place to enjoy the illuminated church after dark.",
+   "challenge": "Can you get the church and its upside-down twin in the water in one shot, with both columns standing straight?",
+   "good_to_know": "Emperor Charles VI promised to build the church in 1713, a year after the last big plague epidemic in Vienna. He dedicated it to Saint Charles Borromeo, who was revered as a healer of plague sufferers. Building ran from 1716 to 1737, and the two tall columns with spiral reliefs were inspired by Trajan's Column in Rome.",
+   "stand_here_before_gps_rule": "Head for Karlsplatz and walk south-east towards the pool in front of the church, keeping the façade ahead of you. Stop on the pool side, opposite the church front, and face the church."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Steps by the reflecting pool in front of Karlskirche (Karlsplatz)",
+     "detail": "on the stone steps beside the long reflecting pool, at the church's facade end of the pool",
+     "why": "A travel blogger describes sitting on the stone steps by the pool and enjoying the church's reflection on the water, which makes it a relaxed, scenic backdrop for a selfie. The pages do not explicitly say the church sits directly behind the selfie-taker, so check the framing on the ground.",
+     "sources": [
+      {
+       "title": "21 Incredibly Instagrammable... / A Must-Visit Stunning Landmark in Vienna (Trip.com travel moment)",
+       "url": "https://us.trip.com/moments/detail/vienna-439-145915772"
+      },
+      {
+       "title": "Vienna Photography Guide: 30+ Best Photo Spots & Tips (2026)",
+       "url": "https://www.viennatourism.org/vienna-photography-spots/"
+      }
+     ]
+    },
+    {
+     "name": "Western edge of Resselpark (the park beside the church)",
+     "detail": "on the park paths at the western edge of Resselpark, the green park next to the church",
+     "why": "A guide recommends this edge for the widest framing of the church, and another guide says a side angle from the park paths captures the columns and dome together, so a selfie with the church in view is likely to work here.",
+     "sources": [
+      {
+       "title": "Best Photo Spots in Vienna: Capture Stunning Shots (2026)",
+       "url": "https://tourismattractions.net/austria/best-photo-spots-vienna"
+      },
+      {
+       "title": "Karlskirche, Vienna (2026): Baroque landmark with dome frescoes and panoramic terrace",
+       "url": "https://www.nomads-travel-guide.com/places/karlskirche/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Edge of the reflecting pool in Resselpark, on the side opposite the church facade",
+    "detail": "stand at the pool's edge on the park side, facing the church, so the pool, the dome and both columns fit in the frame",
+    "sources": [
+     {
+      "title": "Karlsplatz Vienna: Guide to Architecture and History - VisitCity",
+      "url": "https://visitcity.travel/en/vienna/attractions/karlsplatz"
+     },
+     {
+      "title": "All You Need to Know Before You Visit Karlskirche in Vienna",
+      "url": "https://wanderineurope.com/karlskirche-vienna-all-you-need-to-know-before-you-visit/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography without flash is usually allowed inside the church, and visitors should follow the signs.",
+     "sources": [
+      {
+       "title": "St. Charles Church Vienna (Karlskirche): Tickets & Tips",
+       "url": "https://wiencityguide.com/en/things-to-do/st-charles-church"
+      }
+     ]
+    }
+   ],
+   "safety": "Karlsplatz is a major transport hub that stays well-lit and busy in the evening, which one guide calls a safe place to enjoy the illuminated church after dark.",
+   "notes": "No page I found states rules on selfie sticks or tripods at Karlskirche. Admission prices differ between pages (€8 in one, €9.50 in others), so check the official site. The first selfie spot is based on a page that describes the pool steps as a place to look at the church, not one that confirms a selfie with the church behind. The Wien Museum terrace and the Musikverein sight line are photo viewpoints, not selfie spots, so I left them out."
+  },
+  "cost_usd": 0.0587,
+  "at": "2026-11-17 01:24"
+ },
+ "Albertina": {
+  "rank": 7,
+  "card": {
+   "hook": "Here's a small Vienna secret: the best view of the State Opera is from a terrace you can climb without buying a museum ticket. You get a cleaner angle than anyone down on the street.",
+   "stand_here": "Stand in Albertinaplatz, on the raised terrace in front of the Albertina's main entrance. Face the State Opera, with Burggarten and the Hofburg off to one side.",
+   "zoom": "Start at zoom 1x to fit the Opera facade and the terrace. Tap 0.5x for more sky and the Hofburg side of the view. Try 2x or 5x (depending on your phone) to pick out the Opera's details.",
+   "make_it_pop": "Tap the Opera facade, then slide the brightness down a little so the sky keeps its colour.",
+   "best_time": "Go at golden hour or blue hour, when the Opera facade is lit. At blue hour, switch on night mode.",
+   "selfie_here": "For a selfie with the Albertina behind you, use the entrance stairs and let the building rise over your shoulder. Or stand in the forecourt beside the Archduke Albrecht equestrian statue. Use the front camera, and try 0.5x to squeeze in more of the facade.",
+   "ask_someone": "Ask a passer-by to stand on the far side of the street in Albertinaplatz (Helmut Zilk Platz), facing the museum so the whole facade fits, while you pose in front of it.",
+   "rules_and_safety": "The terrace is free without a museum ticket, but check the official site before you go, as the terrace can be closed for events or bad weather.",
+   "challenge": "Get one shot of the Opera from the terrace and one selfie on the stairs, then see which one your friends 'like' more.",
+   "good_to_know": "The Albertina is a museum right beside the Hofburg, famous for its print room of about 65,000 drawings and roughly a million old master prints. It was once a palace for Duke Albert of Teschen, took the name Albertina in 1921, and was heavily damaged in March 1945 before being rebuilt. Hans Hollein's modern roof over the entrance area was finished in 2008.",
+   "stand_here_before_gps_rule": "Stand in Albertinaplatz, on the raised terrace in front of the Albertina's main entrance. Face the State Opera, with Burggarten and the Hofburg off to one side."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Albertina entrance stairs (Albertina Museum)",
+     "detail": "on the stairs leading up to the museum entrance, with the building rising behind you",
+     "why": "Sources describe the stairs as a frequently photographed backdrop that is redesigned with large art installations for current exhibitions.",
+     "sources": [
+      {
+       "title": "Albertina - Muvamo",
+       "url": "https://www.muvamo.com/vienna/albertina/"
+      },
+      {
+       "title": "Top 20 Most Instagrammable Photo Spots in Vienna 2026 - Muvamo",
+       "url": "https://www.muvamo.com/vienna/blog/most-instagrammable-photo-spots-in-vienna/"
+      }
+     ]
+    },
+    {
+     "name": "Albertina forecourt by the Archduke Albrecht equestrian statue (Albertinaplatz side)",
+     "detail": "in front of the museum facade, standing beside the equestrian statue of Archduke Albrecht",
+     "why": "A guide shows visitors posing in front of the museum's classical architecture here, and the statue and fountain sit directly in front of the building.",
+     "sources": [
+      {
+       "title": "Albertina - Muvamo",
+       "url": "https://www.muvamo.com/vienna/albertina/"
+      },
+      {
+       "title": "20 Stunning Vienna Instagram Spots You Can't Miss - She Wanders Abroad",
+       "url": "https://shewandersabroad.com/vienna-instagram-spots/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Albertinaplatz (Helmut Zilk Platz), across the street from the Albertina Museum facade",
+    "detail": "on the far side of the street, facing the museum so the whole facade fits in the frame",
+    "sources": [
+     {
+      "title": "20 Stunning Vienna Instagram Spots You Can't Miss - She Wanders Abroad",
+      "url": "https://shewandersabroad.com/vienna-instagram-spots/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "A tripod can be used on the Albertina Terrace because it is a public square.",
+     "sources": [
+      {
+       "title": "Top Vienna Photography Spots - VisitCity",
+       "url": "https://visitcity.travel/en/vienna/guides/photography-spots"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The Albertina Terrace is the most recommended spot, but it faces the State Opera, so the Albertina is not behind the visitor there and I excluded it. The 'across the street' position is described only as being in front of the Albertina Museum, with no exact spot named, so the passer-by should check the map. The tripod rule is stated for the terrace and was not confirmed for Albertinaplatz. The Albrecht statue is a backdrop element, and one source calls the Albrechtsbrunnen fountain the easy photo stop in front of the museum; the statue and fountain may be the same monument, so verify on the map. No selfie-stick rule and no safety point were found on the pages reviewed."
+  },
+  "cost_usd": 0.0464,
+  "at": "2026-11-17 01:25"
+ },
+ "Kunsthistorisches Museum": {
+  "rank": 8,
+  "card": {
+   "hook": "Two enormous sandstone twins stare at each other across a leafy square, and you get to stand right between them. The Kunsthistorisches Museum is as much the star as the paintings inside.",
+   "stand_here": "The phone icon on the map sits at the Kunsthistorisches Museum itself, at the centre of the building. Face the façade, and if it won't fit, step back towards Maria-Theresien-Platz where there's more room.",
+   "zoom": "Start at zoom 0.5x to squeeze the long façade in when you're close, then go to 1x for a natural look. Try 2x to 5x (depends on your phone) to pick out the dome and the carved stonework.",
+   "make_it_pop": "Tap the pale stonework, then slide it a little darker so the sandstone keeps its detail and the sky doesn't turn white.",
+   "best_time": "Early morning or late afternoon gives softer light on the stone, and it's likely to be quieter early in the day. In the evening, use night mode and hold your phone steady against your body or a wall.",
+   "selfie_here": "Head to Maria-Theresien-Platz by the Maria Theresa monument, turn your back on the museum and use the front camera, or zoom 0.5x to squeeze more of the façade over your shoulder. Fancy an indoor one? The domed café hall inside has the cupola and marble behind you, but you'll need a museum ticket.",
+   "ask_someone": "Ask a passer-by to stand on the square near the Maria Theresa monument and shoot towards the museum, while you stand in front of it so the full façade fills the frame behind you.",
+   "rules_and_safety": "Flash is not allowed inside. Guides disagree on whether you can photograph in the galleries, so check the museum's current rules before you go.",
+   "challenge": "Line up the dome on the centre gridline for a perfectly symmetrical shot, then see if you can sneak in a second one of a single row of arched windows with no people in it.",
+   "good_to_know": "The museum was built between 1871 and 1891 to plans by Gottfried Semper and Karl von Hasenauer. Emperor Franz Joseph I commissioned it, along with the near-twin Natural History Museum opposite, to house the Habsburgs' art collection and open it to the public. The dome is about 60 metres high, and inside, the grand stairway is decorated with paintings by Gustav Klimt, Ernst Klimt, Franz Matsch, Hans Makart and Mihály Munkácsy.",
+   "stand_here_before_gps_rule": "The phone icon on the map sits at the Kunsthistorisches Museum itself, at the centre of the building. Face the façade, and if it won't fit, step back towards Maria-Theresien-Platz where there's more room."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Maria-Theresien-Platz, by the Maria Theresa monument",
+     "detail": "on the square in front of the museum, with the museum's main façade behind you (pages do not name a selfie position, so this is inferred from the square's layout)",
+     "why": "Guides single out this square as an impressive photo setting, with the museum's twin façades framing the view.",
+     "sources": [
+      {
+       "title": "Top 20 Most Instagrammable Photo Spots in Vienna 2026",
+       "url": "https://www.muvamo.com/vienna/blog/most-instagrammable-photo-spots-in-vienna/"
+      },
+      {
+       "title": "The 45 best photo spots in Vienna",
+       "url": "https://wanderlog.com/list/geoCategory/160426/best-photo-spots-in-vienna"
+      }
+     ]
+    },
+    {
+     "name": "Café-Restaurant under the dome (Kuppelhalle) inside the Kunsthistorisches Museum",
+     "detail": "in the domed café hall on the museum's ground floor, with the cupola and marble behind you; a museum ticket is needed to enter",
+     "why": "Guides describe the domed café hall as one of the museum's most photogenic interiors, with marble, balustrades and the cupola as backdrop.",
+     "sources": [
+      {
+       "title": "Top 20 Most Instagrammable Photo Spots in Vienna 2026",
+       "url": "https://www.muvamo.com/vienna/blog/most-instagrammable-photo-spots-in-vienna/"
+      },
+      {
+       "title": "Instagrammable Vienna: the best photo hotspots in the city - vienna.info",
+       "url": "https://www.wien.info/en/see-do/discover-vienna/instagrammable-vienna-907070"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Maria-Theresien-Platz, beside the Maria Theresa monument",
+    "detail": "the passer-by stands on the square near the monument and shoots toward the museum so the full façade fills the frame behind the visitor",
+    "sources": [
+     {
+      "title": "Best Vienna photography spots 2026: locations, light and timing tips",
+      "url": "https://www.vienna-spirit.com/guides/vienna-photography-spots/"
+     },
+     {
+      "title": "Top 20 Most Instagrammable Photo Spots in Vienna 2026",
+      "url": "https://www.muvamo.com/vienna/blog/most-instagrammable-photo-spots-in-vienna/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is allowed inside without flash or a tripod, according to one guide.",
+     "sources": [
+      {
+       "title": "Top 20 Most Instagrammable Photo Spots in Vienna 2026",
+       "url": "https://www.muvamo.com/vienna/blog/most-instagrammable-photo-spots-in-vienna/"
+      }
+     ]
+    },
+    {
+     "rule": "Flash photography is prohibited, and the museum permits non-flash photography for personal use.",
+     "sources": [
+      {
+       "title": "Best Photo Spots in Vienna: Capture Stunning Shots (2026)",
+       "url": "https://tourismattractions.net/austria/best-photo-spots-vienna"
+      }
+     ]
+    },
+    {
+     "rule": "One guide says the museum prohibits photography in its galleries, which conflicts with the rule above.",
+     "sources": [
+      {
+       "title": "Best Vienna photography spots 2026: locations, light and timing tips",
+       "url": "https://www.vienna-spirit.com/guides/vienna-photography-spots/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page states a selfie-stick rule. No page gives a safety point. The sources disagree on gallery photography (one says it is prohibited, another says non-flash personal photography is permitted), so check the museum's current rules before going. No page names an exact selfie position for either spot; the directions given are inferred from the square and café layouts. The café spot is indoors and needs a museum ticket, so it may not suit a shot with the exterior landmark behind you."
+  },
+  "cost_usd": 0.0482,
+  "at": "2026-11-17 01:25"
+ },
+ "Naschmarkt": {
+  "rank": 9,
+  "card": {
+   "hook": "Piled produce, hand-written signs and spice sacks all shout for your attention, while a row of elegant Otto Wagner houses watches calmly from behind the stalls.",
+   "stand_here": "Stand on Linke Wienzeile, on the market side of the street in the mid-section near the antique stalls (the middle of the market lies just to the south-east). Face along the aisle so the stalls spill out in front of you and the Wagner houses rise behind them.",
+   "zoom": "Start at zoom 0.5x to fit the whole aisle and the houses in one shot. Then try 1x for stalls and people, and 2x or 5x (depending on your phone) for olives, spices and signs.",
+   "make_it_pop": "Turn on gridlines, put the aisle on one of the lower lines and let the Wagner houses fill the top third, holding your phone level so the building edges stay straight.",
+   "best_time": "Saturday morning is the busiest and liveliest, with the flea market in full swing next door. Weekday mornings are quieter if you'd like clearer aisles.",
+   "selfie_here": "Head for the free terrace above the market hall, reached near Kettenbrückengasse U4 station, and put the busy market behind you. Use the front camera at 0.5x and hold it a little high so the market and the nearby Art Nouveau buildings squeeze in over your shoulder. The terrace is a bit hidden, so check it on the map first.",
+   "ask_someone": "",
+   "rules_and_safety": "Stallholders are busy, so ask before you photograph them up close, and keep to the edge of the aisle so you don't block shoppers.",
+   "challenge": "Find a pyramid of olives, a hand-written sign and a spice display, and get all three in one photo story.",
+   "good_to_know": "The market started out as the Aschenmarkt, and the name Naschmarkt took over around 1820. The first pavilions over the Wien River went up in 1902. The Saturday flea market along the neighbouring stretch has been going since 1977.",
+   "stand_here_before_gps_rule": "Stand on Linke Wienzeile, on the market side of the street in the mid-section near the antique stalls (the middle of the market lies just to the south-east). Face along the aisle so the stalls spill out in front of you and the Wagner houses rise behind them."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Naschmarkt terrace above the market hall",
+     "detail": "On the free terrace above the market hall, reached near the Kettenbrückengasse U4 station",
+     "why": "A free elevated spot where a visitor can have the busy market spread out below, with the Art Nouveau buildings nearby.",
+     "sources": [
+      {
+       "title": "Naschmarkt Terrace Vienna: A Free Viewpoint You Shouldn't Miss — Grete Walz",
+       "url": "https://www.gretewalz.com/blog/naschmarkt-terrace-vienna"
+      }
+     ]
+    },
+    {
+     "name": "Quiet area behind the Naschmarkt food stalls",
+     "detail": "Walk down the main restaurant aisle toward Kettenbrückengasse station and keep going past the restaurants, into the back area behind the food stalls",
+     "why": "The page describes street art, empty racks and stored produce here as photo motifs, which could make a backdrop for a selfie.",
+     "sources": [
+      {
+       "title": "Naschmarkt food market — Visiting Vienna",
+       "url": "https://www.visitingvienna.com/shopping/markets/naschmarkt/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a spot where a visitor takes a selfie with the Naschmarkt directly behind them, so both selfie spots are inferred from photo-motif advice and a viewpoint, not confirmed selfie locations. The terrace is described as a bit hidden and no page gives its exact entrance, so check it on a map before going. A third option, the mid-section near the antique stalls on a Saturday morning, is named as the best photo spot by Meininger (https://www.meininger-hotels.com/blog/en/vienna-instagram-spots/), but it is a general photo tip rather than a selfie spot, so I left it out. No page gives a spot for a passer-by to photograph a visitor with the whole Naschmarkt in frame, so ask_someone_spot is null. No page states selfie stick or tripod rules for the Naschmarkt, and no safety point was mentioned, so those fields are empty."
+  },
+  "cost_usd": 0.0454,
+  "at": "2026-11-17 01:26"
+ },
+ "Graben": {
+  "rank": 10,
+  "card": {
+   "hook": "Picture a wide, straight street with grand shopfronts lining both sides and your eye running all the way down it. That's the Graben, and it's tailor-made for a phone photo.",
+   "stand_here": "Stand at the Stephansplatz end of the Graben and look back down the street. The middle of the Graben lies to the west, about 4 minutes on foot (about 250 m), if you want the Plague Column in the foreground later.",
+   "zoom": "Start at zoom 0.5x to take in the whole street, then switch to 1x for a more natural look. Try zoom 2x to pick out details like the Plague Column or the Hofburg dome.",
+   "make_it_pop": "Turn on the gridlines and put the centre of the street on the middle line so the façades balance on both sides.",
+   "best_time": "Go early in the morning if you can, because the street is much emptier then. Watch out for delivery vehicles in the early hours.",
+   "selfie_here": "Stand near where the Graben meets Stephansplatz with the street stretching out behind you. Use the front camera at zoom 0.5x to fit in more of the street, and for a different shot try standing right in front of the Plague Column and holding the phone low. Nobody gives an exact spot for these, so have a quick test shot and adjust.",
+   "ask_someone": "Ask a passer-by to stand well back from the Plague Column, toward the shopfronts, while you stand by the column so the whole monument fits in with you.",
+   "rules_and_safety": "The Graben is a free public street and photos for personal use are generally fine. Just avoid close-up shots of strangers or private property without their okay.",
+   "challenge": "Get a shot where the street's centre line runs straight through the middle of your frame, with the façades balanced on both sides and no wonky walls.",
+   "good_to_know": "Graben means 'ditch'. It goes back to the Roman camp of Vindobona, where a trench ran in front of the settlement wall. The Babenberg dukes filled it in at the end of the 12th century, paid for with the ransom collected for Richard the Lionheart. In 1974 it became Vienna's first pedestrian zone, at first on a provisional basis.",
+   "stand_here_before_gps_rule": "Stand at the Stephansplatz end of the Graben and look back down the street. The middle of the Graben lies to the west, about 4 minutes on foot (about 250 m), if you want the Plague Column in the foreground later."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Graben, at the Stephansplatz end of the street",
+     "detail": "Stand near where Graben meets Stephansplatz with the street stretching behind you",
+     "why": "Sources describe long views of the Graben working well from either end of the promenade, and the street runs straight into Stephansplatz, so this end is the most plausible spot for a selfie with the street behind you.",
+     "sources": [
+      {
+       "title": "Graben Street, Vienna (2026): Vienna's elegant Old Town promenade for shopping and sights",
+       "url": "https://www.nomads-travel-guide.com/places/graben-street/"
+      },
+      {
+       "title": "Vienna Photography Guide: Best Spots, Palaces & Street Photography — Chasing Hippoz",
+       "url": "https://www.chasinghippoz.com/travel-photo-blog/vienna-austria"
+      }
+     ]
+    },
+    {
+     "name": "Pestsäule (Plague Column), Graben, front of the monument",
+     "detail": "Stand directly in front of the column on the Graben, at a low camera angle",
+     "why": "A travel page recommends the front of the column at a low angle as the best photo position, though it describes the photo of the column rather than a selfie with the street behind.",
+     "sources": [
+      {
+       "title": "Pestsäule (Plague Column): Vienna's Dramatic Baroque Memorial",
+       "url": "https://www.trip.com/moments/detail/vienna-439-151976575/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Graben, back toward the shop fronts near the Pestsäule (Plague Column)",
+    "detail": "Photographer stands well back from the column, toward the shop fronts on the Graben, so the whole monument fits in the frame with the visitor",
+    "sources": [
+     {
+      "title": "Colonna della Peste Vienna: Seeing the Graben Plague Column",
+      "url": "https://visitcity.travel/en/vienna/attractions/colonna-della-peste-pestsaule"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography on Graben is generally allowed for personal use, but avoid intrusive photos of individuals or private property without consent.",
+     "sources": [
+      {
+       "title": "Graben Vienna (2026)",
+       "url": "https://airial.travel/attractions/austria/wien/graben-vienna-gRvprLyf"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found gives a precise selfie position with Graben behind the visitor; the first selfie spot is inferred from general 'view from either end' advice, so check it on site. The second selfie spot describes the column photo angle, not a selfie. The ask-someone spot is the photographer position for capturing the column, adapted to include a visitor. No page mentioned selfie stick or tripod rules, and no safety point was found. The Graben pages are of mixed age (some over two years old)."
+  },
+  "cost_usd": 0.0473,
+  "at": "2026-11-17 01:26",
+  "selfie_pos": [
+   48.208716,
+   16.3697877
+  ],
+  "selfie_note": "Pestsäule (OpenStreetMap: Pestsäule, Graben, Widmerviertel, Katastralgemeinde Innere S)"
+ },
+ "Hundertwasserhaus": {
+  "rank": 11,
+  "card": {
+   "hook": "Picture a block of flats that never got the memo about straight lines. The floors wobble, the roof is wearing a lawn, and trees lean out of the windows like they're waving at you.",
+   "stand_here": "Stand at the south corner of Kegelgasse and Löwengasse, across the street from the facade. The house is about 1 minute on foot away to the east, so face east with the whole building in front of you.",
+   "zoom": "Start at zoom 0.5x to squeeze in the full facade and the rolling pavement. Then try 1x for a more natural look, and 2x-5x (depending on your phone) for tiles, mirrors and window frames.",
+   "make_it_pop": "Turn on gridlines to keep the neighbouring buildings straight, then tap a brightly coloured wall and drag the brightness slider a touch darker if the sky is washing out the top.",
+   "best_time": "Go early in the morning, before the tour groups show up around mid-morning. The street is quieter then, so it's much easier to get your shot.",
+   "selfie_here": "Take your selfie at the corner where Löwengasse meets Kegelgasse, facing the building. Use the front camera at 0.5x and tilt it up a little so the wavy colours and greenery fill the space over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the far side of Löwengasse, looking back at the house (there's a designated viewing area there), while you pose in front of it. The full facade fits in one frame from that side.",
+   "rules_and_safety": "It's a private home, so you can't go inside, and please don't photograph into windows or onto balconies. The street is narrow, so keep the pavement clear, and take care of traffic if you use the zebra crossing for ground-level shots.",
+   "challenge": "Once you've got your big wide shot, walk along Kegelgasse and hunt for a close-up where a tree is clearly winning the battle with a window.",
+   "good_to_know": "The Hundertwasserhaus was completed in 1985 after the ideas of the Austrian artist Friedensreich Hundertwasser. It holds 53 apartments and a total of 250 trees and bushes. Look along Kegelgasse and you'll see it sit right next to ordinary nineteenth-century buildings, which makes it look even wilder.",
+   "stand_here_before_gps_rule": "Stand at the south corner of Kegelgasse and Löwengasse, across the street from the facade. The house is about 1 minute on foot away to the east, so face east with the whole building in front of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Corner of Löwengasse and Kegelgasse (south corner)",
+     "detail": "at the street corner where Löwengasse meets Kegelgasse, facing the building",
+     "why": "This corner keeps the playful shapes and greenery of the facade visible behind you in a selfie.",
+     "sources": [
+      {
+       "title": "The Hundertwasserhaus - Everything about Vienna",
+       "url": "https://everythingaboutvienna.com/must-see-in-vienna/hundertwasserhaus/"
+      },
+      {
+       "title": "Vienna Photography Guide: 30+ Best Photo Spots & Tips (2026)",
+       "url": "https://www.viennatourism.org/vienna-photography-spots/"
+      }
+     ]
+    },
+    {
+     "name": "Elevated terrace at Hundertwasser Village",
+     "detail": "the raised terrace in the Hundertwasser Village complex across from the house",
+     "why": "A guide describes this terrace as giving a different perspective on the building, which suits a selfie with the facade behind you.",
+     "sources": [
+      {
+       "title": "The Hundertwasserhaus - Everything about Vienna",
+       "url": "https://everythingaboutvienna.com/must-see-in-vienna/hundertwasserhaus/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Opposite side of Löwengasse, across from the Hundertwasserhaus",
+    "detail": "stand on the far side of Löwengasse and look back at the house; a designated viewing area is noted there, and the full facade fits in one frame from this side",
+    "sources": [
+     {
+      "title": "The Hundertwasserhaus",
+      "url": "https://www.thewanders.eu/hundertwasserhaus/"
+     },
+     {
+      "title": "Hundertwasserhaus (2025)",
+      "url": "https://www.airial.travel/attractions/austria/wien/hundertwasserhaus-x0-6uMQQ"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Use the zebra crossing for ground-level shots carefully, because there is traffic.",
+   "notes": "No page I found states rules about selfie sticks or tripods, so none are listed; one guide only mentions selfie-stick crowds on weekend afternoons. The Hundertwasser Village terrace is described as offering a perspective on the building, but no source confirms it as a selfie backdrop, so treat it as less certain. The house is an occupied apartment block, so photos are from the exterior only. Sources give the address as Kegelgasse 36-38 (one lists 34-38), and I did not verify the coordinates you supplied against a map."
+  },
+  "cost_usd": 0.0454,
+  "at": "2026-11-17 01:27"
+ },
+ "Musikverein": {
+  "rank": 12,
+  "card": {
+   "hook": "Vienna's most famous concert hall dresses like a Greek temple, and it looks great on a phone because all those columns are begging to be photographed straight. The only catch is the pedestrians and traffic, so be ready to wait a moment for a clear frame.",
+   "stand_here": "Head for the phone icon near Musikvereinsplatz: stand about 35 m north-west of the numbered pin and face south-east. Step back a little if there's space, so the whole roofline fits in.",
+   "zoom": "Start at zoom 0.5x to fit the full width of the building from close by, then switch to 1x for a more natural look at the front. Go to 2x-5x (depending on your phone) for the columns and the top of the façade.",
+   "make_it_pop": "Turn on the gridlines and line up the columns and rooflines with them, holding the phone upright (tilting it up makes the walls lean inwards).",
+   "best_time": "Soft, even daylight, like a bright overcast day, is kind to the pale stonework, and early in the day there are usually fewer people. In the evening, use night mode and brace the phone against something steady.",
+   "selfie_here": "Go up the front steps on the Musikvereinsplatz side, which a travel guide calls a classic check-in spot. Use the front camera (zoom 0.5x if your phone has it) and keep the neoclassical façade behind you, over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the Karlsplatz side facing the Musikverein while you pose on the front steps, so the building shows up in its setting.",
+   "rules_and_safety": "Photography is prohibited during performances at the Musikverein, so take your photos before or after concerts, or on the guided tour.",
+   "challenge": "Take one wide shot with the columns perfectly straight on the gridlines, then one close-up of a detail nobody else would bother with.",
+   "good_to_know": "The Musikverein has been home to the Vienna Philharmonic since it opened on 6 January 1870. Emperor Franz Joseph I granted the land during the building of the Ringstraße, and Danish-born architect Theophil Hansen designed it in the style of an ancient Greek temple. Inside is the Golden Hall, known for its acoustics and the annual Vienna New Year's Concert.",
+   "stand_here_before_gps_rule": "Head for the phone icon near Musikvereinsplatz: stand about 35 m north-west of the numbered pin and face south-east. Step back a little if there's space, so the whole roofline fits in."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front steps of the Musikverein (Musikvereinsplatz side)",
+     "detail": "on the front steps, with the neoclassical facade behind you",
+     "why": "A travel guide calls the steps a classic check-in spot, though its tip is to shoot upward at the facade, so it is closer to a facade shot than a classic selfie.",
+     "sources": [
+      {
+       "title": "Trip Moments, 2026 Recommended Museums in Karlsplatz (Updated September)",
+       "url": "https://sg.trip.com/moments/theme/poi-karlsplatz-90410-museums-910238/"
+      },
+      {
+       "title": "The Vienna BLOG, 50 Best Instagram Photography Spots in Vienna, Austria",
+       "url": "https://www.theviennablog.com/ultimate-top-50-photography-and-instagram-locations-in-vienna/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Karlsplatz, across the square from the Musikverein",
+    "detail": "stand on the Karlsplatz side, facing the Musikverein; a guide notes that a view from across Karlsplatz shows the building in its setting, with Karlskirche included",
+    "sources": [
+     {
+      "title": "SSM Tour, Musikverein, Innere Stadt, Vienna",
+      "url": "https://ssmtour.com/austria/vienna/musikverein"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is prohibited during performances at the Musikverein, so take photos before or after concerts or on the guided tour.",
+     "sources": [
+      {
+       "title": "SSM Tour, Musikverein, Innere Stadt, Vienna",
+       "url": "https://ssmtour.com/austria/vienna/musikverein"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot was supported by a page; the second slot is empty. The front-steps tip comes from a Karlsplatz listing page that describes a concert-etiquette section, so confirm the steps are the Musikverein's and not another building. The 'shoot upward' advice describes a facade photo, so the selfie angle is inferred. No page I found mentions selfie-stick or tripod rules, so none are listed. No safety point was found in the sources."
+  },
+  "cost_usd": 0.0463,
+  "at": "2026-11-17 01:27"
+ },
+ "Votive Church": {
+  "rank": 13,
+  "card": {
+   "hook": "It looks like it has stood here since the Middle Ages, with its white spires and giant rose window. It's actually a youngster, and people often mix it up with Stephansdom.",
+   "stand_here": "Stand in Votivpark, the park beside the Votive Church on the Ringstraße, and face the front of the church. That puts both spires in one frame with open space around them.",
+   "zoom": "Start at zoom 0.5x, because you're close to a tall building and need both spires to fit. If you walk further back, switch to 1x for a more natural look. Try 2x-5x (depends on your phone) for the rose window and the statues above the doorways.",
+   "make_it_pop": "Tap the facade, then slide it a touch darker so the white stone keeps its detail and the sky doesn't wash out.",
+   "best_time": "Early or late in the day, when the light is soft, is kinder to pale stone than harsh midday sun, and an evenly cloudy sky works well too. Want magnolia blossom in Sigmund-Freud-Park? Bloom times vary, so check on the day.",
+   "selfie_here": "Stand on the grass at Rooseveltplatz, in front of the church, with the towers rising behind you. Use the front camera at 0.5x if your phone has it, and hold it a little low so both spires fit over your shoulder. In May, you can also try Sigmund-Freud-Park, standing among the magnolia trees with the church behind you.",
+   "ask_someone": "Stand in the street at the far end of Frankgasse, where it runs straight toward the church, and ask a passer-by to take your photo with the church at the end of the view.",
+   "rules_and_safety": "The park and the outside of the church are public space, but the inside is a place of worship, so be respectful during services and check the official site before you go. The front is sometimes covered by advertising banners, so have a look at the facade first.",
+   "challenge": "Turn on the gridlines, line the central doorway up with the middle line, and see if you can get both spires perfectly even on each side.",
+   "good_to_know": "The church was paid for by donations, as a thank-you after Emperor Franz Joseph survived an assassination attempt in 1853. Building began in 1856, and it was dedicated on 24 April 1879, the couple's silver jubilee. The architect, Heinrich von Ferstel, was only 26 when he won the competition.",
+   "stand_here_before_gps_rule": "Stand in Votivpark, the park beside the Votive Church on the Ringstraße, and face the front of the church. That puts both spires in one frame with open space around them."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Lawn at Rooseveltplatz, in front of the church",
+     "detail": "on the grass in front of the church's façade, with the towers rising behind you",
+     "why": "A guide says the open green space here gives a clear angle on the twin spires against a blue sky, which suits a selfie with the towers behind you.",
+     "sources": [
+      {
+       "title": "[2026 Vienna Attraction] Votive Church Travel Guide & Travel Experiences",
+       "url": "https://us.trip.com/moments/poi-votive-church-13188854/"
+      }
+     ]
+    },
+    {
+     "name": "Sigmund-Freud-Park, the park across Rooseveltplatz",
+     "detail": "stand among the magnolia trees in the park, facing the church, best in May",
+     "why": "One guide says the spires are best captured from the park across Rooseveltplatz, and that the magnolias there frame them with blossoms in May.",
+     "sources": [
+      {
+       "title": "Best Photo Spots in Vienna: Capture Stunning Shots (2026)",
+       "url": "https://tourismattractions.net/austria/best-photo-spots-vienna"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Far end of Frankgasse",
+    "detail": "at the end of Frankgasse, where the street runs straight toward the church, so the visitor stands in the street with the church at the end of the view",
+    "sources": [
+     {
+      "title": "20 Stunning Vienna Instagram Spots You Can't Miss",
+      "url": "https://shewandersabroad.com/vienna-instagram-spots/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one source (a single blog) names Frankgasse, and it says the street leads the eye to the church, not that it frames the whole building, so confirm the framing on arrival. The front façade is said to often carry advertising banners, so a photo from the back or side may look better (travelanddestinations.com). A Trip.com guide says the church is closed on Mondays; that is a single, unverified claim, so check the church's own hours. The 'Infinity of Light' installation between the towers is reported to run until the end of May 2027 and lights up in the evening, which could affect dusk photos (muvamo.com). No page gave rules on selfie sticks or tripods. The only photography-related note was that some interior areas may have restrictions, which is not a selfie-stick rule, so I left the rules list empty."
+  },
+  "cost_usd": 0.0513,
+  "at": "2026-11-17 01:27"
+ },
+ "Vienna City Hall": {
+  "rank": 14,
+  "card": {
+   "hook": "Walk up to Vienna City Hall and you'll quickly find your phone can't fit it in. It's about 152 metres long, so you'll end up backing away, and that's exactly the right instinct.",
+   "stand_here": "Start in the middle of Rathausplatz and look west, with the tower centred in your screen. Stepping back onto the square gives you the full width and the symmetry of the front.",
+   "zoom": "Use zoom 1x from the middle of the square to fit the whole front in. Try zoom 0.5x only if stalls or crowds force you closer, and zoom 2x-5x (depending on your phone) for the tower, the Rathausmann and the statues above the entrance.",
+   "make_it_pop": "Turn on gridlines and put the central tower on the middle line, then tap the sky near the top of the tower and drag the brightness slider down a little so the pale sky doesn't wash out the stonework.",
+   "best_time": "Early morning gives you softer light and fewer people on the square. Some people prefer the evening, when the building is lit, so you could try both.",
+   "selfie_here": "Head across the road to the Volksgarten and stand on the park paths or beside the flower beds and benches, with the Rathaus framed through the trees behind you. Use the front camera (zoom 0.5x if yours has it) and hold the phone a little low and out to the side so the building peeks over your shoulder. For a shadier, symmetrical backdrop, try the arches under the front of City Hall, with the pointed arches and columns behind you.",
+   "ask_someone": "Stand near the building's front edge with the façade behind you, and ask a passer-by to step back toward the middle of Rathausplatz and shoot the full front.",
+   "rules_and_safety": "Personal, non-commercial photography is generally fine in public areas of City Hall, but check posted signs, especially near enclosed event areas. Events can also fill the square, so be ready to adjust your spot.",
+   "challenge": "Zoom in and find the three equestrian statues above the central entrances, then see if you can catch one with a tower peeking out behind it.",
+   "good_to_know": "Vienna City Hall is a Gothic Revival building designed by Friedrich von Schmidt and built between 1872 and 1883. The central tower is 98 metres high and topped by the Rathausmann figure, with four smaller towers beside it. The façade was restored between 2012 and 2023, so the stonework looks unusually crisp.",
+   "stand_here_before_gps_rule": "Start in the middle of Rathausplatz and look west, with the tower centred in your screen. Stepping back onto the square gives you the full width and the symmetry of the front."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Volksgarten park, flowerbeds and benches across the road from City Hall",
+     "detail": "on the park paths or beside the flower beds and benches, with the Rathaus framed through the trees behind you",
+     "why": "Park benches and flowers give a softer, more colourful backdrop than the busy front square, and the building stays visible behind you.",
+     "sources": [
+      {
+       "title": "Vienna Instagram Spots: 15 Amazing Photo Locations",
+       "url": "https://andoreia.com/instagrammable-spots-vienna/"
+      },
+      {
+       "title": "Vienna City Hall (Rathaus) | Austria Photo Spot (Pixeo)",
+       "url": "https://www.pixeoapp.com/photo-spots/europe/austria/vienna-city-hall-rathaus/"
+      }
+     ]
+    },
+    {
+     "name": "Covered arcades under the front section of City Hall",
+     "detail": "in the arches under the building's front section, with the pointed arches and columns behind you and the bright square beyond",
+     "why": "The arched walkway gives a shaded, symmetrical backdrop that is easy to stand in and avoids the crowds on the open square.",
+     "sources": [
+      {
+       "title": "Vienna City Hall (Rathaus) | Austria Photo Spot (Pixeo)",
+       "url": "https://www.pixeoapp.com/photo-spots/europe/austria/vienna-city-hall-rathaus/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Rathausplatz, the square in front of City Hall",
+    "detail": "you stand near the building's front edge with the façade behind you; the passer-by steps back toward the middle of the square and shoots the full façade",
+    "sources": [
+     {
+      "title": "Rathausplatz, Vienna (2026): Vienna's grand City Hall square for events, views, and easy sightseeing",
+      "url": "https://www.nomads-travel-guide.com/places/rathausplatz/"
+     },
+     {
+      "title": "Vienna City Hall (Wiener Rathaus) visitor guide (Nomadotravel)",
+      "url": "https://www.nomadotravel.app/en/attractions/rathaus-vienna"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Personal, non-commercial photography is generally permitted in public areas of City Hall; check posted signs for restrictions, especially near enclosed event areas.",
+     "sources": [
+      {
+       "title": "Vienna City Hall Vienna (2026)",
+       "url": "https://airial.travel/attractions/austria/wien/vienna-city-hall-vienna-4FCVhixb"
+      },
+      {
+       "title": "Rathausplatz, Vienna (2026): Vienna's grand City Hall square for events, views, and easy sightseeing",
+       "url": "https://www.nomads-travel-guide.com/places/rathausplatz/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found states rules about selfie sticks or tripods at this site, so none are listed. The square often hosts markets, film festivals and other events that can block the view, and the Christmas market season changes the setting. The Volksgarten and arcade spots come from one or two guides each, so check them on arrival. Pages vary in age, so details of the current layout may differ."
+  },
+  "cost_usd": 0.0455,
+  "at": "2026-11-17 01:28"
+ },
+ "Austrian Parliament Building": {
+  "rank": 15,
+  "card": {
+   "hook": "Vienna's joke is that Athena turned her back on the Parliament because she got tired of the squabbling inside. Stand in front of her and you'll see why it's such a good photo: she's already posing.",
+   "stand_here": "Stand right at the subject: right in front of the west façade, by the Pallas Athena fountain. Face the building so the statue and fountain figures sit at the bottom of your frame and the columns and roofline fill the rest.",
+   "zoom": "Start at zoom 1x to fit the fountain and façade together. If you're close and the roofline won't fit, tap 0.5x. From the Dr.-Karl-Renner-Ring, try zoom 2x to 5x (depending on your phone) to pick out the building with the City Hall tower behind it.",
+   "make_it_pop": "Turn on gridlines, put the statue on a lower third and keep your phone level so the tall columns stay straight.",
+   "best_time": "Check how the light falls on the façade when you arrive and time your visit to suit. Evening light is lovely for the angled view from the Dr.-Karl-Renner-Ring.",
+   "selfie_here": "Climb the front steps to the eight columns at the main entrance (Dr.-Karl-Renner-Ring 3) and stand under the triangular marble relief. Use the front camera, try 0.5x if your phone has it, and let the building fill the space over your shoulder.",
+   "ask_someone": "In the Volksgarten, near the rose garden and the Theseus Temple, ask a passer-by to take your photo with the roses and the temple in the picture.",
+   "rules_and_safety": "Restoration work nearby means scaffolding or fencing may hide parts of the façade, so be ready to change your angle. You can photograph the outside and the fountain from public space, but interior photos and the roof terrace need a guided tour, so check the official site first.",
+   "challenge": "Get Athena on a lower third with the columns behind her, then ask your friends to guess why she's turned away.",
+   "good_to_know": "The Parliament is where Austria's two houses of parliament meet, and it covers over 13,500 square metres. Theophil Hansen designed it in Greek Revival style because ancient Greece was linked with democracy. The foundation stone was laid in 1874, the building was finished in 1883, and it reopened in 2023 after five years of renovation. Carl Kundmann made the fountain from Hansen's plans between 1898 and 1902.",
+   "stand_here_before_gps_rule": "Stand right at the subject: right in front of the west façade, by the Pallas Athena fountain. Face the building so the statue and fountain figures sit at the bottom of your frame and the columns and roofline fill the rest."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Parliament front steps and portico columns, Dr.-Karl-Renner-Ring 3",
+     "detail": "on the stairs up to the eight columns at the parliament's main entrance, under the triangular marble relief",
+     "why": "Visitors climb to the columns and take selfies beneath the relief, so the building itself forms the backdrop.",
+     "sources": [
+      {
+       "title": "3 Ways to Visit the Austrian Parliament - travel potpourri",
+       "url": "https://travelpotpourri.net/2024/04/17/3-ways-to-visit-the-austrian-parliament/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Volksgarten park, opposite the Parliament",
+    "detail": "the public park across from the parliament, near its rose garden and the Theseus Temple",
+    "sources": [
+     {
+      "title": "The best photo spots in Vienna - Escaping Worlds",
+      "url": "https://escapingworlds.com/the-best-photo-spots-in-vienna/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot is confirmed. The Big Bus Tours page suggests a selfie with the Pallas Athene Fountain 'behind you', which is the reverse of the parliament-behind-you brief, so I left it out as a selfie spot; the fountain stands directly in front of the parliament on Dr.-Karl-Renner-Ring. The Volksgarten is named as good portrait scenery opposite the parliament, but no source says a photographer standing there frames the whole building, so that spot is unconfirmed for the full-landmark shot. No page I found gives selfie stick or tripod rules for this site. One page says drone use is strictly regulated near government buildings, but that is not a selfie-stick or tripod rule and I did not list it. Interior and roof-terrace photography require special tours per one source, so I did not list those."
+  },
+  "cost_usd": 0.0503,
+  "at": "2026-11-17 01:28"
+ },
+ "Mozarthaus Vienna": {
+  "rank": 16,
+  "card": {
+   "hook": "Tuck into the narrow lane just behind St. Stephen's Cathedral and you're outside the only Viennese home of Mozart that's still standing. He wrote The Marriage of Figaro on the first floor, so this is a good place to say \"I was here\".",
+   "stand_here": "Stand on Domgasse, in front of the Mozarthaus at number 5. The Mozarthaus facade at Domgasse 5 is just to the north-east, so face that way and you'll see the front of the building with the Old Town lane around it.",
+   "zoom": "The lane is tight, so start at zoom 0.5x and step back as far as you comfortably can to fit the whole front in. Then try 1x for a more natural look, and 2x or 5x (depending on your phone) to pick out a doorway or window.",
+   "make_it_pop": "Switch the gridlines on and hold your phone upright, lining the building's edges up with the vertical lines so the walls stay straight.",
+   "best_time": "Go in the morning or late afternoon, when the light is softer on the outside of the building.",
+   "selfie_here": "Stand on Domgasse with the Mozarthaus facade behind you, then use the front camera at 0.5x and keep the building over your shoulder. You can also try the free interactive selfie point in the left-hand window beside the entrance, where a rotating Mozart-face installation sits in front of a Mozart silhouette. It's a fun extra, but it won't show the whole building behind you.",
+   "ask_someone": "Ask a passer-by to stand on Domgasse opposite the entrance at number 5, with you in front of the door, so the whole entrance front fits in the picture.",
+   "rules_and_safety": "Photography inside the museum may be restricted, so look at the signs and ask staff before you take your phone out.",
+   "challenge": "Take one shot of the whole facade and one close-up of a single window or doorway, then see which one feels more like Mozart's Vienna.",
+   "good_to_know": "Mozart lived here from 1784 to 1787, and it's the only one of his Viennese homes that survives. The building dates from the 17th century and was redeveloped in 1716. Today it's a museum, also known as the Figaro House.",
+   "stand_here_before_gps_rule": "Stand on Domgasse, in front of the Mozarthaus at number 5. The Mozarthaus facade at Domgasse 5 is just to the north-east, so face that way and you'll see the front of the building with the Old Town lane around it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Interactive selfie point in the left-hand window beside the Mozarthaus entrance",
+     "detail": "In the left window next to the museum entrance on Domgasse 5, where a rotating Mozart-face installation sits in front of a Mozart silhouette",
+     "why": "It is a free, purpose-built selfie point, but it is an installation on the building rather than a view with the building framed behind the visitor.",
+     "sources": [
+      {
+       "title": "Selfie-Point für das Mozarthaus Vienna — checkpointmedia",
+       "url": "https://www.checkpointmedia.com/projekte/mozarthaus-vienna-selfie-point"
+      }
+     ]
+    },
+    {
+     "name": "Domgasse, in front of the Mozarthaus exterior",
+     "detail": "On Domgasse, the narrow street just behind St. Stephen's Cathedral, with the building's facade as the backdrop",
+     "why": "A guide names the exterior on Domgasse as the charming photo opportunity, and another suggests morning or late-afternoon light for exterior shots.",
+     "sources": [
+      {
+       "title": "Mozarthaus Vienna (2026) — Airial",
+       "url": "https://airial.travel/attractions/austria/wien/mozarthaus-vienna-sg6JpbR3"
+      },
+      {
+       "title": "Mozart in Vienna: a guide — Visiting Vienna",
+       "url": "https://www.visitingvienna.com/footsteps/mozart/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Domgasse, in front of the Mozarthaus entrance at Domgasse 5",
+    "detail": "Stand on Domgasse opposite or in front of the museum's street entrance at Domgasse 5, so the whole entrance front is in the frame",
+    "sources": [
+     {
+      "title": "Mozarthaus — Muvamo",
+      "url": "https://www.muvamo.com/vienna/mozarthaus/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Search results named no selfie-stick or tripod rules, so none are listed. Photography inside the museum is restricted (flash usually prohibited, and one guide says photos are not allowed at all), but that is an interior rule, not a selfie rule, so it is excluded. The selfie-point page describes an installation, not a spot with the building behind the visitor, so the first selfie entry is weaker than the second. The two Domgasse entries are supported only by general guide descriptions, not by named precise spots. A Wikimedia file caption mentions a photo taken at the corner of Wollzeile and Strobelgasse with the Mozarthaus in the background, but the caption alone does not establish a usable spot, so I left it out. Opening hours differ between sources (6 pm versus 7 pm)."
+  },
+  "cost_usd": 0.0626,
+  "at": "2026-11-17 01:29"
+ },
+ "Burgtheater": {
+  "rank": 17,
+  "card": {
+   "hook": "Locals just call it \"die Burg\", and one look from across the Ring tells you why: curved wings, rows of columns, and a whole open square to admire it from. You barely have to try.",
+   "stand_here": "Stand in Rathausplatz, on the Rathausplatz side of the Ring, opposite the Burgtheater. The theatre is to the north-east, about 2 minutes on foot, so face north-east and the whole front is right there.",
+   "zoom": "Start at zoom 1x to fit the whole façade in. If the square is crowded, or you want more open space in front, go to zoom 0.5x. If your phone has zoom 2x, use it for the columns and carved details.",
+   "make_it_pop": "Turn on the gridlines and line up the façade with them so the building doesn't lean, then tap the façade and drag the slider a touch darker if the lit front looks glary.",
+   "best_time": "After dark is the favourite, because the façade is lit up. Daytime works well too, as long as the square isn't too busy.",
+   "selfie_here": "Stay in Rathausplatz, stand in the open square facing the Rathaus, and the Burgtheater is right behind you. Use the front camera, try zoom 0.5x if your phone offers it, and keep the theatre over your shoulder.",
+   "ask_someone": "Ask a passer-by to shoot from the square, where the theatre's front façade and the Ring are both in view, with you standing in the frame in front of the theatre.",
+   "rules_and_safety": "Photography isn't allowed inside the Burgtheater during performances, so keep your photos to the outside. In colder months a winter ice rink on the square may block part of the view.",
+   "challenge": "Get the whole front of the Burgtheater in one frame with the façade perfectly level on the grid, and no stranger's head sneaking in at the bottom.",
+   "good_to_know": "The Burgtheater company began in 1741 under Empress Maria Theresa, in a building beside the Hofburg palace. The theatre you see today opened on the Ringstraße on 14 October 1888, designed by Gottfried Semper and Karl Freiherr von Hasenauer. It was largely destroyed in March 1945 and rebuilt between 1953 and 1955.",
+   "stand_here_before_gps_rule": "Stand in Rathausplatz, on the Rathausplatz side of the Ring, opposite the Burgtheater. The theatre is to the north-east, about 2 minutes on foot, so face north-east and the whole front is right there."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Rathausplatz (the square opposite the Burgtheater)",
+     "detail": "Stand in the open square facing the Rathaus, so the Burgtheater is behind you; a guide suggests turning around from the Rathaus view to find the theatre.",
+     "why": "Guides single out this square as the best vantage point on the theatre, and its front facade is easy to frame behind a person.",
+     "sources": [
+      {
+       "title": "Self-Guided Vienna Ringstrasse Walking Tour with Map & Route",
+       "url": "https://wanderineurope.com/vienna-ringstrasse-walking-tour-diy-with-map-and-tips/"
+      },
+      {
+       "title": "The Burgtheater in Vienna",
+       "url": "https://www.visitingvienna.com/entertainment/theaters/burgtheater/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Rathausplatz (the square opposite the Burgtheater)",
+    "detail": "Ask the passer-by to shoot from the square, where the theatre's front facade and the Ring are visible; the best view of the Burgtheater is said to be here.",
+    "sources": [
+     {
+      "title": "Self-Guided Vienna Ringstrasse Walking Tour with Map & Route",
+      "url": "https://wanderineurope.com/vienna-ringstrasse-walking-tour-diy-with-map-and-tips/"
+     },
+     {
+      "title": "The Burgtheater in Vienna",
+      "url": "https://www.visitingvienna.com/entertainment/theaters/burgtheater/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are not permitted inside the Burgtheater, and photography is not allowed during performances.",
+     "sources": [
+      {
+       "title": "50 Best Instagram Photography Spots in Vienna, Austria - The Vienna BLOG",
+       "url": "https://www.theviennablog.com/ultimate-top-50-photography-and-instagram-locations-in-vienna/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot is supported by the pages I found; the second candidate, the Volksgarten flowerbeds facing north, shows the theatre in front of the viewer rather than behind a person, so I left it out. The 'turn around' advice comes from a walking-tour blog that describes the Rathaus park gardens, so the exact standing point on Rathausplatz is an inference and should be checked on a map. The Volksgarten flowerbed view is mentioned by Wanderin Europe as a good angle but is not confirmed as a selfie spot. No selfie-stick rule and no safety point were found on the pages I read. Some sources are older (up to about 2 years) and the Burgtheater may have changed access or photo rules since."
+  },
+  "cost_usd": 0.0488,
+  "at": "2026-11-17 01:30",
+  "selfie_pos": [
+   48.2107049,
+   16.3589982
+  ],
+  "selfie_note": "Rathausplatz (OpenStreetMap: Rathausplatz, Regierungsviertel, Katastralgemeinde Innere St)"
+ },
+ "Volksoper": {
+  "rank": 18,
+  "card": {
+   "hook": "This theatre is so big that your first photo will probably chop off the roof, and that's the fun of it. It's Vienna's 'people's opera', and it needs a bit of elbow room.",
+   "stand_here": "Start at the phone icon on the map, near Währinger Gürtel, right at the theatre itself. Then walk back across Währinger Straße and turn around to face the front of the building.",
+   "zoom": "Use zoom 0.5x while you're close to the building. Once you're across the street, switch to zoom 1x for a more natural look. For the entrance and the decoration above it, try zoom 2x to 5x, depending on your phone.",
+   "make_it_pop": "Turn on gridlines and line the base of the building up with a flat line, so the walls stand up straight instead of leaning.",
+   "best_time": "Daytime gives you clear detail on the façade. Early evening is lovely too, when the building is lit and people are arriving for a performance (the season runs September to June).",
+   "selfie_here": "Use the front camera, step back across the street and turn so the whole building sits behind you. Try zoom 0.5x if your front camera has it, and hold the phone a bit higher so the façade fits over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Photos and recordings aren't permitted during performances, so save the phone for the outside. Watch for traffic when you step back across the street.",
+   "challenge": "Fit the whole façade in with a little street life at the bottom, then take a second shot with a passer-by to show how big it really is.",
+   "good_to_know": "The Volksoper opened in 1898 as a civic theatre for plays and was built in just ten months to mark an imperial jubilee. It took its present name and musical focus in the years after 1903, and today it seats around 1,260 people. Film fans: it appeared in the 1987 James Bond film The Living Daylights, standing in for a conservatory in Bratislava.",
+   "stand_here_before_gps_rule": "Start at the phone icon on the map, near Währinger Gürtel, right at the theatre itself. Then walk back across Währinger Straße and turn around to face the front of the building."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a selfie spot or a passer-by photo spot for the Volksoper (Währinger Straße 78, 1090 Vienna). The travel pages only describe the exterior generally, so I have listed none. The Albertinaplatz terrace tip (https://www.traveldreamfairy.com/best-instagram-photography-spots-vienna/) is for the Vienna State Opera, a different building, so I excluded it. A separate point, not a selfie-stick rule: the Volksoper FAQ says photographs and recordings are not permitted during performances (https://www.volksoper.at/volksoper_wien/information/faq/FAQ.en.php). No selfie stick or tripod rule was found."
+  },
+  "cost_usd": 0.0543,
+  "at": "2026-11-17 01:30"
+ },
+ "MuseumsQuartier": {
+  "rank": 19,
+  "card": {
+   "hook": "Here's the fun of the MQ: a grand Baroque frontage sits right next to a plain modern block, and you can get both in one picture. Stand in the middle of it and turn slowly, because every direction gives you a different shot.",
+   "stand_here": "Stand in the MuseumsQuartier about 20 m south-west of the numbered pin, right at the phone icon on the map, and face north-east. You'll be among the buildings, not looking at them from far away.",
+   "zoom": "Start at zoom 0.5x to fit the full width of a building into the shot. Then switch to 1x, or a little zoom like 2x, for tidier details like windows, rooflines and signs.",
+   "make_it_pop": "Turn on gridlines and line them up with the vertical edges of the buildings so they don't lean, and if the sky is bright, tap a building and slide it a touch darker so the walls don't wash out.",
+   "best_time": "Early in the day is usually calmer, so you're more likely to get fewer people in your frame. Soft daylight is kinder to the buildings than harsh midday sun.",
+   "selfie_here": "Head to the colourful Enzi lounges in the main courtyard and stand beside them (or sit on one) with the MuseumsQuartier buildings behind you. Use the front camera, or switch to 0.5x to squeeze in more of the courtyard. The bright colours pop against the grey pavement.",
+   "ask_someone": "",
+   "rules_and_safety": "Which parts of the MQ are open to walk through and which need a ticket can change, so check the official site before you go.",
+   "challenge": "Find one frame that shows a Baroque building and a modern one side by side, with the gridlines keeping every edge dead straight. Bonus points if nobody walks through it.",
+   "good_to_know": "The MuseumsQuartier covers about 9 hectares in Vienna's 7th district and mixes Baroque buildings with modern architecture by Laurids and Manfred Ortner. The old court stables were renovated from April 1998, and the quarter opened in two stages in June and September 2001. Today it holds the Leopold Museum, MUMOK and the Kunsthalle Wien, plus a children's museum.",
+   "stand_here_before_gps_rule": "Stand in the MuseumsQuartier about 20 m south-west of the numbered pin, right at the phone icon on the map, and face north-east. You'll be among the buildings, not looking at them from far away."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Enzi lounge furniture in the MuseumsQuartier main courtyard",
+     "detail": "Stand beside or on the colourful Enzi lounges in the main courtyard, with the MuseumsQuartier buildings behind you",
+     "why": "Guides name the Enzi lounges as one of the most popular photo backdrops, and their bright colour stands out against the grey pavement with the courtyard architecture behind.",
+     "sources": [
+      {
+       "title": "Guide to MuseumsQuartier Wien Vienna",
+       "url": "https://visitcity.travel/en/vienna/attractions/museumsquartier-wien"
+      },
+      {
+       "title": "MuseumsQuartier Vienna (2026)",
+       "url": "https://airial.travel/attractions/austria/vienna/museumsquartier-vienna-nC6GzO_R"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot was confirmed. The MQ Libelle rooftop (top of the Leopold Museum, reached by the outside glass lifts) is the best-rated viewpoint, but guides describe it as a city panorama rather than a spot with the MuseumsQuartier behind the visitor, so I did not list it as a selfie spot. No page I found names a standing point from which a passer-by could photograph a visitor with the whole MuseumsQuartier in frame, so ask_someone_spot is null. The Triton Fountain appears in one blog, but that page places it between the Kunsthistorisches and Natural History museums, not within the MuseumsQuartier, so I left it out. No page gave selfie stick or tripod rules for the MuseumsQuartier outdoors. Most sources are 1-3 years old except the 2026 guides, so check that the courtyard furniture is still in place."
+  },
+  "cost_usd": 0.0457,
+  "at": "2026-11-17 01:30"
+ },
+ "Wiener Riesenrad": {
+  "rank": 20,
+  "card": {
+   "hook": "Most people squeeze into the busy square and point their phone straight up at the Riesenrad. Here's a calmer way: let the chestnut trees on the Hauptallee do the framing for you.",
+   "stand_here": "Stand on the Hauptallee, the long avenue, at some distance from the wheel, and face north-east. The wheel should sit in the gap between the trunks. Stay on the avenue instead of walking up to the base, because the distance is what makes the framing work.",
+   "zoom": "Start at 1x so the trees and the wheel both fit. If the wheel looks small, try 2x or higher (depending on your phone) to bring it closer between the trunks.",
+   "make_it_pop": "Switch on gridlines, put the wheel in the middle of the gap with a little sky above it, and keep the phone level so the trees don't lean.",
+   "best_time": "Sunset or dusk is lovely, when the light is soft and the wheel lights up. Use night mode and brace yourself against a tree. Warm evenings and weekends get busy, so go on a weekday if you can.",
+   "selfie_here": "Try Wiener Riesenradplatz, at the foot of the wheel. Use the front camera, switch to 0.5x if your phone has it, and stand with the wheel over your shoulder. For a calmer backdrop, do the same on the Hauptallee with the wheel framed past the trees.",
+   "ask_someone": "Hand your phone to a passer-by on Prater Allee, about 500 m south of the wheel, and stand a few steps in front of them so the wheel is behind you. It works best at night when the wheel is lit.",
+   "rules_and_safety": "Photography rules vary by ride, and some rides may not allow phones, so check with the ride operator first. Photographing the wheel from the Hauptallee is free, but riding it is a paid attraction, so check the official site before you go.",
+   "challenge": "Take a few frames and see if you can catch a gondola peeking out between two trunks.",
+   "good_to_know": "The Wiener Riesenrad went up in 1897 to mark Emperor Franz Josef I's Golden Jubilee, and it stands about 65 metres tall. From 1920 until 1985 it was the tallest Ferris wheel still standing anywhere. After wartime damage it was rebuilt with 15 gondolas instead of the original 30, which is why it looks so light and open.",
+   "stand_here_before_gps_rule": "Stand on the Hauptallee, the long avenue, at some distance from the wheel, and face north-east. The wheel should sit in the gap between the trunks. Stay on the avenue instead of walking up to the base, because the distance is what makes the framing work."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Wiener Riesenradplatz (the square around the wheel)",
+     "detail": "on the square at the foot of the wheel, with your back to the structure",
+     "why": "Sources describe this square as a lively spot to photograph the wheel, but none describe a selfie there, so the framing is my inference.",
+     "sources": [
+      {
+       "title": "Wiener Riesenrad Tickets & Guide: Vienna's Giant Wheel",
+       "url": "https://visitcity.travel/en/vienna/attractions/wiener-riesenrad"
+      },
+      {
+       "title": "Prater Vienna: Wiener Prater, Park, Rides & Free Audio Guide",
+       "url": "https://www.accesstravel.com/en-US/ViatorAttraction/Index/454/532"
+      }
+     ]
+    },
+    {
+     "name": "Prater Hauptallee (main avenue), wide shot",
+     "detail": "on the Prater's main avenue, with the wheel framed past the trees",
+     "why": "A guide recommends the main avenue for a wide view of the wheel with trees in the foreground, which suggests a backdrop for a visitor, though no source names it as a selfie spot.",
+     "sources": [
+      {
+       "title": "Vienna Instagram spots: your photo guide",
+       "url": "https://www.meininger-hotels.com/blog/en/vienna-instagram-spots/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Prater Allee, about 500 m south of the wheel",
+    "detail": "a spot on Prater Allee roughly 500 metres south of the wheel; best at night when the wheel is lit",
+    "sources": [
+     {
+      "title": "Best Vienna photography spots 2026: locations, light and timing tips",
+      "url": "https://www.vienna-spirit.com/guides/vienna-photography-spots/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography policies vary by ride, and some rides may prohibit cameras or phones; check with the ride operator before taking photos.",
+     "sources": [
+      {
+       "title": "Prater Vienna (2026)",
+       "url": "https://airial.travel/attractions/austria/vienna/prater-vienna-xlC3zvzS"
+      }
+     ]
+    }
+   ],
+   "safety": "Some rides may prohibit cameras or phones for safety reasons, so check with the ride operator before using your phone.",
+   "notes": "No page I found states rules on selfie sticks or tripods, so none are listed. The night-time tripod mention is advice, not a rule. None of the sources names a dedicated selfie spot; the two selfie spots are photo positions for the wheel that I have adapted, so treat them as unverified. The ask-someone spot is taken from a guide's distance shot at night, and its framing with a visitor in front is my inference. The coordinates you gave match the wheel's location in Wikimedia Commons records."
+  },
+  "cost_usd": 0.0494,
+  "at": "2026-11-17 01:31",
+  "selfie_pos": [
+   48.2088402,
+   16.4058043
+  ],
+  "selfie_note": "Prater Hauptallee (OpenStreetMap: Prater Hauptallee, Rotundenallee, Pratercottage, Leopoldstad)"
+ }
+}

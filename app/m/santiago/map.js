@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "santiago", "title": "Santiago: 20 photo spots (pilot review)", "place": "Santiago", "bounds": [-70.695, -33.465, -70.6, -33.405], "center": [-70.6475, -33.435], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/santiago/{z}/{x}/{y}.pbf", "tz": "America/Santiago", "rail": true, "app": true};

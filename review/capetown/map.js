@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "capetown", "title": "Cape Town: 19 photo spots (pilot review)", "place": "Cape Town", "bounds": [18.36, -33.97, 18.44, -33.89], "center": [18.4, -33.93], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/capetown/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "riogrande", "title": "El Yunque: 7 photo spots (pilot review)", "place": "El Yunque", "bounds": [-65.8, 18.295, -65.755, 18.345], "center": [-65.7775, 18.32], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/riogrande/{z}/{x}/{y}.pbf", "tz": "America/Puerto_Rico", "rail": false, "app": true};

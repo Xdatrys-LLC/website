@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "cartago", "title": "Cartago: 3 photo spots (pilot review)", "place": "Cartago", "bounds": [-83.929, 9.852, -83.905, 9.872], "center": [-83.917, 9.862], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/cartago/{z}/{x}/{y}.pbf"};

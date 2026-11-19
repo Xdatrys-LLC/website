@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "jiloveuprahy", "title": "Jílové u Prahy: 4 photo spots (pilot review)", "place": "Jílové u Prahy", "bounds": [14.435, 49.822, 14.515, 49.908], "center": [14.475000000000001, 49.865], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/jiloveuprahy/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "krakow", "title": "Krakow: 18 photo spots (pilot review)", "place": "Krakow", "bounds": [19.88, 50.04, 19.968, 50.072], "center": [19.924, 50.056], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/krakow/{z}/{x}/{y}.pbf"};

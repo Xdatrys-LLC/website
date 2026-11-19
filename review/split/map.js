@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "split", "title": "Split: 18 photo spots (pilot review)", "place": "Split", "bounds": [16.403, 43.494, 16.495, 43.545], "center": [16.448999999999998, 43.5195], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/split/{z}/{x}/{y}.pbf"};

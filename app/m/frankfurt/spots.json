@@ -1,0 +1,947 @@
+[
+ {
+  "rank": 1,
+  "name": "Städel",
+  "in_cut": true,
+  "label": "Städel Museum",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 5000,
+  "pin": [
+   8.6738582,
+   50.1032949
+  ],
+  "camera": [
+   8.6738582,
+   50.1032949
+  ],
+  "camera_source": "Researched viewpoint 'Schaumainkai' (1 web pages); placed at the stretch of Schaumainkai nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap node/144346893: the OpenStreetMap point 'Städel Museum'.",
+  "notes": "One of Germany's leading art museums on the Museumsufer.",
+  "text": {
+   "description": "The Städel is one of Frankfurt's oldest museums and has one of the most important art collections in Germany. It was founded in 1817 after a bequest from the banker and art patron Johann Friedrich Städel. The main building on Schaumainkai dates from 1878 and is in the Neo-Renaissance style. It was badly damaged in the Second World War and rebuilt in 1966. A modern underground wing opened in 2012. The museum stands on the Sachsenhausen bank of the Main, in the row of museums known as the Museumsufer.\n\nFor a phone photo, the best idea is to shoot from the tree-lined riverside promenade. From there you can fit the Städel and its neighbouring museums into one picture, with the high-rise skyline rising behind them. The sandstone-coloured facade also looks good when you frame it closer, with the garden leading the eye towards the building. Late afternoon is said to warm the museum row, so that is a good time to aim for.\n\nThe promenade is a street, so watch for passing cyclists and walkers while you line up your shot. Take a couple of frames with different amounts of sky and skyline, then pick the best one later. If the front is busy, try the Holbeinsteg footbridge side of the embankment as a quieter alternative.",
+   "geographic_location": "The Städel is in Sachsenhausen, on the south bank of the River Main, along Schaumainkai in the Museumsufer row of museums.",
+   "directions_text": "Head for the Museumsufer on the Sachsenhausen (south) bank of the River Main and look for Schaumainkai, where the Städel Museum stands. Once you are the museum is to the south-east, about 1 minute on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the museum with the skyline behind it. Switch to ultra-wide (0.5x) if you want the whole museum row, and use 2x or 3x telephoto to pick out the facade or details.",
+    "where_to_stand": "Stand on Schaumainkai (south bank promenade of the Main, in front of the museum row). The Städel and neighbouring museums in a row, with Frankfurt's high-rise skyline rising behind them. The south bank promenade of the Main, in front of the museum row. From here you can see the Städel and its neighbouring museums in a row, with Frankfurt's high-rise skyline rising behind them. The museum itself lies to the south-east.",
+    "how_to_frame": "Turn on the gridlines and place the museum row along the lower third, leaving room for the skyline above. Use a tree or the line of the promenade as a frame or a leading line. For a closer shot, aim at the sandstone facade and let the garden lead the eye to the building. The Holbeinsteg side of the embankment is a possible quieter angle if the front is crowded.",
+    "phone_settings_tip": "Tap on the facade to set focus, then slide the exposure down a little so the sky and the skyline keep their detail. If the lines of the building lean in, step back and use 1x or 2x rather than ultra-wide.",
+    "best_time": "Late afternoon, when one guide notes that the light warms the museum row."
+   },
+   "access_note": "The promenade is an open public street. Inside the museum, tripods, selfie sticks and flash are not allowed, and commercial shoots need written permission; see staedelmuseum.de/en/visit for details."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(?<!allow )(?<!or )(?<!no )\\btripods?\\b(?! (are|is) not allowed)/"
+  ],
+  "sources": [
+   {
+    "title": "Städel",
+    "url": "https://en.wikipedia.org/wiki/St%C3%A4del"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Simsalabimbam",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Staedel-Frankfurt-2013-Ffm-862-867.jpg",
+   "from": "Wikidata Q163804 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Main Tower",
+  "in_cut": true,
+  "label": "Main Tower",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 3770,
+  "pin": [
+   8.6721879,
+   50.1125118
+  ],
+  "camera": [
+   8.672188,
+   50.112512
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/11526963: the middle of the OpenStreetMap outline 'Main Tower' (70 m across).",
+  "notes": "Skyscraper with a public rooftop viewing platform over the skyline.",
+  "text": {
+   "description": "Main Tower is the only skyscraper in Frankfurt with a public viewing platform, and it is a good subject for a phone because its shape is so easy to read. It rises 200 m over the Innenstadt district, or 240 m with the antenna spire included. From a distance it looks like two towers joined together. The smaller one is a plain cuboid in a 1970s style. The taller one is round, clad in blue glass and topped by the transmission mast. Together they give you straight edges, curves and reflections in one frame.\n\nThe tower was built between 1996 and 1999 and is named after the nearby River Main. It has two public viewing platforms. If you go up, check the official site before you go for access details. The foyer also holds two public artworks, a video installation by Bill Viola and a wall mosaic by Stephan Huber.\n\nFor photographs, the phone icon on the map marks the centre of the tower's footprint, so the best positions are on the surrounding streets, where you will be looking up at the building. That gives a dramatic angle, but it can be hard to fit the whole building in. Step back along the street where you can, and use the ultra-wide lens for the full height. Then switch to the telephoto lens for close-ups of the blue glass and the point where the two parts meet.",
+   "geographic_location": "Main Tower stands in the Innenstadt (city centre) district of Frankfurt, close to the River Main, which gave it its name.",
+   "directions_text": "No station or tram stop is listed for this spot, so start from the Innenstadt, Frankfurt's city centre, and head for the tower, a tall building with blue glass. Once you are in the centre, look up to find the blue glass tower and walk towards it. Main Tower itself sits at the centre of its footprint, so the best places to shoot from are the surrounding streets. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the tower's height in from close range. Use the default lens (1x) for a more natural view from further back. Use the telephoto (2x-5x, depending on your phone) for details of the glass and the spire.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. The subject is the tower itself, so stand on the street right next to the building, where it rises above you. For the whole tower, step back along the street until the top fits in the frame, keeping the tower centred.",
+    "how_to_frame": "Turn on the gridlines and line the tower's edges up with the vertical lines. Hold the phone as upright as you can, because tilting it back makes the sides lean inwards. Try one frame that shows both the cuboid part and the round blue part, and another that fills the picture with just the glass.",
+    "phone_settings_tip": "Tap the bright sky to set focus, then drag the exposure slider down a little so the blue glass keeps its colour and the sky does not wash out. Hold the phone steady against your body or a wall for sharp shots.",
+    "best_time": "Clear daylight shows the blue glass at its strongest. Around sunset or dusk, with the sky still colourful and the building lit, switch on night mode and hold very still."
+   },
+   "access_note": "The viewing platforms may require a ticket or timed entry; check the official site before you go."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Main Tower",
+    "url": "https://en.wikipedia.org/wiki/Main_Tower"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Thomas Wolf, www.foto-tw.de",
+   "licence": "CC BY-SA 3.0 de",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Maintower_Frankfurt.jpg",
+   "from": "Wikidata Q321291 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Frankfurt Cathedral",
+  "in_cut": true,
+  "label": "Frankfurt Cathedral",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 2180,
+  "pin": [
+   8.6853527,
+   50.1106746
+  ],
+  "camera": [
+   8.6853527,
+   50.1106746
+  ],
+  "camera_source": "Researched viewpoint 'Römerberg' (4 web pages); placed at OpenStreetMap 'Römerberg' (relation/2341721): middle (166 m across).",
+  "pin_note": "Position from OpenStreetMap way/11018815: the middle of the OpenStreetMap outline 'Imperial Cathedral of Saint Bartholomew' (104 m across).",
+  "notes": "The red sandstone Gothic cathedral where emperors were crowned.",
+  "text": {
+   "description": "Frankfurt Cathedral, known in German as the Dom, is the city's largest religious building. It is a Gothic church whose tower rises 95 metres above the Old Town. Despite the English name it has never been the seat of a bishop. It earned the nickname Kaiserdom because Holy Roman emperors were elected here from 1356, and crowned here from 1562 to 1792. The church was built in the 14th and 15th centuries and rebuilt after a fire in 1867. It was badly damaged in the Second World War and rebuilt again in the 1950s.\n\nIt photographs well from the Römerberg, where the tower stands up behind the reconstructed half-timbered houses, with the Römer town hall closing in one side of the frame. Those houses stand where the old half-timbered streets were largely destroyed in 1944, so the picture also tells a story of rebuilding. A tall, vertical shot works well, letting the timber facades lead the eye up to the spire.\n\nStand on the square, face east and take a few frames at different zoom levels: one wide for the setting, one closer for the tower. If the square is busy, wait a moment for a gap, or try the small square in front of the church, which one guide describes as less crowded. The Eiserner Steg gives a distant view over the river if you have time to walk.",
+   "geographic_location": "The cathedral stands in the heart of Frankfurt am Main, in the Old Town. The Römerberg square, with the Römer town hall, is a short walk to the west.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for the Römerberg in the Old Town in the centre of Frankfurt. Keep the tower in sight as you walk and it will lead you there. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to show the houses and tower together. Switch to the telephoto lens (2x-5x, depending on your phone) for a tighter shot of the spire. Use the ultra-wide lens (0.5x) only if you want a lot of the square in the frame.",
+    "where_to_stand": "Stand in Römerberg (Looking east across the square toward the cathedral tower, with the half-timbered houses in the foreground). The cathedral's Gothic tower rising behind the reconstructed half-timbered houses of the Old Town, with the Römer town hall framing one side. From here the cathedral's Gothic tower rises behind the half-timbered houses, with the Römer town hall framing one side.",
+    "how_to_frame": "Turn the phone upright and switch on the gridlines. Put the tower on one of the vertical lines and let the timber facades fill the lower part of the frame, leading up to the spire. For a different angle, try the small square in front of the church, which one guide describes as less crowded.",
+    "phone_settings_tip": "Tap the tower to set focus, then slide the exposure down a little if the sky looks washed out. After dark, use night mode and hold the phone as still as you can, resting your elbows on something solid.",
+    "best_time": "One guide recommends the morning, when light falls on the facades. Blue hour, when the spire is lit, is also recommended. Light can vary, so check conditions on the day."
+   },
+   "access_note": "The Römerberg is an open square, but the cathedral is a working church and any visit inside or up the tower may have its own rules, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Ultra-wide (0.5x) shows more of the square, which suits a crowded or tight spot.",
+    "The Römerberg is an open public square that can be busy at times.",
+    "The small square in front of the church may be less crowded than the Römerberg (one guide only).",
+    "Morning light and blue hour may suit the view, though sun timing can vary, so check on the day.",
+    "Resting elbows on something solid helps steady night-mode shots.",
+    "The Eiserner Steg is a possible longer walk for a distant view of the cathedral."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Frankfurt Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Frankfurt_Cathedral"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "rupp.de",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Frankfurter_Dom_Eiserner_Steg.jpg",
+   "from": "Wikidata Q57341 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Alte Oper",
+  "in_cut": true,
+  "label": "Alte Oper",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1710,
+  "pin": [
+   8.6719796,
+   50.1160339
+  ],
+  "camera": [
+   8.6719796,
+   50.1160339
+  ],
+  "camera_source": "Researched viewpoint 'Opernplatz' (4 web pages); placed at OpenStreetMap 'Opernplatz' (relation/1131246): middle (250 m across).",
+  "pin_note": "Position from OpenStreetMap way/384153099: the middle of the OpenStreetMap outline 'Alte Oper' (120 m across).",
+  "notes": "Reconstructed Renaissance-style opera house on Opernplatz.",
+  "text": {
+   "description": "The Alte Oper is Frankfurt's old opera house, now a concert hall, and its Neo-Renaissance facade is the main attraction for a phone photo. In front of it on Opernplatz sits the round Lucae fountain. The water reflects the building, which gives you a ready-made foreground and a second layer to the picture. The architect Richard Lucae designed the house, and it opened on 20 October 1880. Bombing in 1944 left it badly damaged, though many of the outer walls and façades survived. It was rebuilt as a concert hall and reopened on 28 August 1981. Look up at the frieze too: it carries the words \"Dem Wahren, Schönen, Guten\" (To the true, the beautiful, the good). Today the Großer Saal seats 2,500 people, and you can get a sense of that scale from the width of the facade. Start with the whole facade in the frame, then move in for details such as the frieze and the columns. If you have time, walk to Neue Mainzer Straße for a second view. There the Alte Oper sits at the end of a long street, with the city's towers around it. Opernplatz works from almost any angle, so move around and try a few.",
+   "geographic_location": "In Frankfurt's Innenstadt, within the Bankenviertel (banking district). The Alte Oper stands at the edge of Opernplatz, the square named after it.",
+   "directions_text": "Head for the Bankenviertel in Frankfurt's Innenstadt and ask for Opernplatz, in front of the Alte Oper. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole facade and the fountain in one frame. Switch to the default lens (1x) for a more natural look. Try telephoto (2x-5x, depending on your phone) for details of the frieze and the upper part of the building.",
+    "where_to_stand": "Stand in Opernplatz (front of the facade, facing the building across the Lucae fountain). The Neo-Renaissance facade of the Alte Oper rising behind the round Lucae fountain, which reflects the building in its basin. From here the Neo-Renaissance facade of the Alte Oper rises behind the round fountain, and the water reflects the building.",
+    "how_to_frame": "Turn on gridlines and put the fountain in the lower third, with the facade filling the rest. Keep the phone level so the vertical lines of the columns stay straight. Then move around the square, as it works from many angles. For a second view, try Neue Mainzer Straße, where the Alte Oper is framed at the end of a long view with the city's towers around it.",
+    "phone_settings_tip": "Tap the facade to set focus and lower the exposure slider a little so the lit stonework does not turn white. In the evening, use night mode and hold the phone steady against your body or a solid surface while it captures.",
+    "best_time": "Evenings, when the square's lamps light the facade and the fountain. Late afternoon light is also suggested."
+   },
+   "access_note": "Opernplatz is a public square open at all hours, but the interior of the Alte Oper is restricted during performances, so check the official site before you go if you want to go inside.",
+   "claims_not_in_sources": [
+    "Gridlines help keep the columns' vertical lines straight in the frame.",
+    "Holding the phone steady against your body or a solid surface helps night mode give a sharper result.",
+    "The ultra-wide lens is likely needed to fit the whole facade and fountain in one frame from close to the fountain."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Alte Oper",
+    "url": "https://en.wikipedia.org/wiki/Alte_Oper"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "Thomas Wolf, www.foto-tw.de",
+   "licence": "CC BY-SA 3.0 de",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Alte_Oper_Frankfurt_2019.jpg",
+   "from": "Wikidata Q436079 main image"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Frankfurt Hauptbahnhof",
+  "in_cut": true,
+  "label": "Hauptbahnhof",
+  "camera_pill": "near Am Hauptbahnhof",
+  "nophone": false,
+  "searches": 1330,
+  "pin": [
+   8.6625808,
+   50.1066539
+  ],
+  "camera": [
+   8.664925,
+   50.107519
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap node/205364328: the OpenStreetMap point 'Frankfurt (Main) Hauptbahnhof'.",
+  "notes": "Grand 19th-century station building with its vast train shed.",
+  "text": {
+   "description": "Frankfurt Hauptbahnhof is the city's central station and a working building rather than a quiet monument, which is part of the appeal. It is the busiest station in Hesse and the second busiest in Germany. The grand entrance building was designed by Hermann Eggert, and the station opened on 18 August 1888 after five years of construction. For a time it was the largest station in Europe, until Leipzig overtook it in 1915. Behind the entrance building, the steel platform halls have a barrel vault about 28 metres high. In 1924 two outer halls in Neoclassical style were added.\n\nIt photographs well because the entrance building has a wide front and sits clearly against the sky. Keep the phone level and use the gridlines so the building's vertical lines stay straight. Start with the ultra-wide lens (0.5x) if you want the whole width, then step in to the default lens (1x) or 2x for the central section and its details. Stay out of walkways and entrances while you shoot, as the area is busy. Pictures inside the station are worth a try too, but check the official site before you go for any photography rules.",
+   "geographic_location": "At the western side of the Bahnhofsviertel (station district), which grew up east of the entrance building.",
+   "directions_text": "Head for the Bahnhofsviertel, the station district east of the station, and walk towards the station from there. From there the station is to the south-west. The phone icon on the map is about 190 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide lens (0.5x) to take in the full width of the front. Switch to the default lens (1x) for a calmer, more natural view, and use 2x or longer telephoto (if your phone has it) for the central part and the architectural detail.",
+    "where_to_stand": "Stand about 190 m north-east of the subject, at the phone icon on the map, and face south-west. From here the station lies to the south-west, so you are looking back at it from the station-district side.",
+    "how_to_frame": "Turn on the gridlines and line the central axis of the building up with the middle line, keeping the phone upright so the walls do not lean. Leave some foreground at the bottom, such as passers-by or the open ground in front of you, to give a sense of scale. Then take a second, tighter shot at 2x of the central section.",
+    "phone_settings_tip": "Tap on the building to focus, then drag the exposure slider down slightly if the sky is bright so the front of the building keeps its detail. In the evening, try night mode and hold the phone steady against something solid.",
+    "best_time": "Soft daylight on a clear morning or late afternoon usually gives the best colour on the building front. Early on a weekend morning is typically quieter, and after dusk the lit building can look good with night mode."
+   },
+   "access_note": "The station is a working public transport building and the exterior is open to see, but check the official site before you go for any rules about photography inside or about specific areas.",
+   "claims_not_in_sources": [
+    "The station and its forecourt are busy at most times of day, so people and traffic will usually be in the frame.",
+    "Morning or late-afternoon light is generally softer for photographing a building front, though the exact direction of the light on the façade should be checked on the day.",
+    "Early weekend mornings are typically quieter around the station.",
+    "The exterior of the station can be viewed from public space without a ticket.",
+    "The building is usually lit after dark, which suits night mode."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Frankfurt (Main) Hauptbahnhof",
+    "url": "https://en.wikipedia.org/wiki/Frankfurt_%28Main%29_Hauptbahnhof"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 0 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Eiserner Steg",
+  "in_cut": true,
+  "label": "Eiserner Steg",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1240,
+  "pin": [
+   8.6821414,
+   50.1080456
+  ],
+  "camera": [
+   8.6821414,
+   50.1080456
+  ],
+  "camera_source": "Researched viewpoint 'Römerberg' (3 web pages); placed at OpenStreetMap 'Römerberg' (relation/2341721): middle (167 m across).",
+  "pin_note": "Position from OpenStreetMap way/968092251: the middle of the OpenStreetMap outline 'Eiserner Steg' (177 m across).",
+  "notes": "Iron pedestrian bridge over the Main with a classic skyline view.",
+  "text": {
+   "description": "The Eiserner Steg is the green-grey iron footbridge across the River Main that links the centre of Frankfurt with Sachsenhausen on the south bank. The first iron bridge opened in 1868. The one you see now is a slightly larger cantilever bridge from 1911/1912, about 170 metres long, built from riveted steel trusses on two piers. It was blown up near the end of World War II, rebuilt in 1946 and fully renovated in 1993. It photographs well because the old riveted ironwork sits in front of the modern skyline, and the railings are covered in love locks. From there you can get the bridge's northern approach, the half-timbered houses of the Römerberg and the skyline behind them in one frame. The bridge deck itself is often crowded, so this square is a calmer place to take a first photo. Walk onto the bridge afterwards for a close-up of the railings and a view along the river. If you cross to the Sachsenhausen bank, the area called Sachsäuser Mainufer shows the bridge in front of the bank towers, which looks good at dusk. Keep your phone steady against your body and take a few frames of each view.",
+   "geographic_location": "In the centre of Frankfurt, on the River Main between the old town around the Römerberg and the district of Sachsenhausen on the south bank. The bridge is for pedestrians only.",
+   "directions_text": "No Underground, S-Bahn or tram stops are listed for this spot, so start from the old town around the Römerberg and the Römer. Walk south toward the river and the bridge's northern end. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the bridge approach, the houses and the skyline together. Use the ultra-wide (0.5x) only if you want more of the square. Use the telephoto (2x-5x, depending on your phone) to pick out the bridge's ironwork or the bank towers.",
+    "where_to_stand": "Stand in Römerberg (north end, where the bridge starts from the old town side). The bridge's northern approach with the half-timbered old-town houses of the Römerberg in the frame, and the skyline in the background. Face south, and the bridge's northern approach should be ahead of you, with the half-timbered old-town houses of the Römerberg beside it and the skyline in the background.",
+    "how_to_frame": "Switch on the gridlines. Put the bridge approach on one of the lower lines, and the old-town houses on one side to give a sense of place. Keep the skyline above the horizon line. For a different angle, the Sachsäuser Mainufer on the south bank shows the bridge in the foreground with the bank towers behind it at dusk. From the middle of the bridge you can shoot the river and skyline with the love-locked railings close in the foreground.",
+    "phone_settings_tip": "Tap the bridge or the buildings to set focus, then lower the exposure slider a little if the sky is bright, so the skyline keeps its detail. At dusk, let night mode work and hold the phone still against something solid.",
+    "best_time": "Early morning on weekdays, according to one local guide, when it is quieter. Dusk suits the view from the Sachsenhausen bank."
+   },
+   "access_note": "The bridge is a public footbridge. Check the official site for closures or photo restrictions before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Eiserner Steg",
+    "url": "https://en.wikipedia.org/wiki/Eiserner_Steg"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "Simsalabimbam",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Eiserner-Steg-2012-Ffm-977-8.jpg",
+   "from": "Wikidata Q1313525 main image"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Goethe House",
+  "in_cut": true,
+  "label": "Goethe House",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 980,
+  "pin": [
+   8.6775791,
+   50.1112369
+  ],
+  "camera": [
+   8.677579,
+   50.111237
+  ],
+  "camera_source": "Researched viewpoint 'Großer Hirschgraben' (1 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap way/174501393: the middle of the OpenStreetMap outline 'Goethe House' (25 m across).",
+  "notes": "Birthplace of Johann Wolfgang von Goethe.",
+  "text": {
+   "description": "The Goethe House is where the poet and playwright Johann Wolfgang von Goethe was born, on 28 August 1749, and where he grew up. He also wrote Götz von Berlichingen and The Sorrows of Young Werther here, along with early drafts of Urfaust. It is now a museum with period furniture and paintings. The house was destroyed in an Allied night raid in March 1944 and rebuilt after the war, starting in 1947. Today's facade is a close copy of the original, so you are photographing a faithful reconstruction.\n\nIt photographs well because the front is neat and symmetrical, and the upper floors overhang the street, a feature Goethe's father took care to keep when he rebuilt in the 1750s. Step back across the street so the whole front fits in the frame. The best spot is the opposite pavement on Großer Hirschgraben, where the full facade fits in with the neighbouring old-town buildings beside it. That shows the house in its setting rather than as an isolated front. The house stands next to the Deutsches Romantik-Museum, which opened in 2021, so you can include both in a wider shot. Step back as far as the pavement allows, keep your phone level, and take a few frames with different amounts of street in them.",
+   "geographic_location": "The Goethe House is at Großer Hirschgraben 23-25 in the Innenstadt district of Frankfurt, in the old town. It stands next to the Deutsches Romantik-Museum.",
+   "directions_text": "Start from the old town in central Frankfurt and head for Großer Hirschgraben. The subject is the house itself, so cross to the opposite pavement of Großer Hirschgraben to frame the full facade. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) from across the street. Switch to the ultra-wide (0.5x) if parked cars or a narrow pavement stop you stepping back far enough to fit the whole front in.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Stand on the opposite pavement of Großer Hirschgraben, across from the facade. From there the whole facade fits in, with the neighbouring old-town buildings at its sides.",
+    "how_to_frame": "Switch on the gridlines and line the vertical edges of the house up with them so the walls don't lean. Keep the neighbouring buildings in the frame so the photo shows the street as well as the house. Leave a little space at the top for the roofline.",
+    "phone_settings_tip": "Tap the facade to set focus and exposure, then drag the exposure slider down slightly if the sky is bright, so the front doesn't turn out dark. In the evening, use night mode and hold the phone steady against your body or a wall.",
+    "best_time": "Early evening, when the city lights start to come on."
+   },
+   "access_note": "The street is public, but the house is a museum, so check the official site before you go for entry and for any rules on photography inside."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Goethe House",
+    "url": "https://en.wikipedia.org/wiki/Goethe_House"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Mylius",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg",
+   "from": "Wikidata Q896039 main image"
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Römer",
+  "in_cut": true,
+  "label": "Römer town hall",
+  "camera_pill": "near Markt",
+  "nophone": false,
+  "searches": 900,
+  "pin": [
+   8.6816587,
+   50.1104684
+  ],
+  "camera": [
+   8.683884,
+   50.110806
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap node/34223060: the OpenStreetMap point 'Römer'.",
+  "notes": "The medieval city hall with its stepped gable, a symbol of Frankfurt.",
+  "text": {
+   "description": "The Römer is Frankfurt's old city hall, and its stepped, three-peaked front is one of the most recognisable sights in the Altstadt. The city council bought it from the Römer merchant family in 1405, so it has served as the Rathaus for more than 600 years. It is really a cluster of linked houses, with nine houses around six courtyards. Most of it was badly damaged in March 1944, and it was rebuilt and re-opened in 1955. The neogothic look of the façade you see today goes back to around 1900.\n\nIt photographs well because there is so much to pick out. The middle house carries four emperors, two city coats of arms and a clock. The balcony has been used for state visits and for welcoming sports teams. Further along, the covered bridge over Braubachstraße was nicknamed the 'Bridge of Sighs' by locals who paid their taxes there. The two newer north-east houses have timber framing with phoenix mosaics, a nod to the city's fresh start after the war.\n\nFor a phone, think in layers: one wide shot of the whole group of gables, then closer shots of the details. The main entrance and the classic front face the Römerberg plaza, so walk round to the plaza if you want the famous three-peaked view. Inside, the Kaisersaal with its emperor portraits is a visitor attraction, but the building is also a working city hall, so check the official site before you go.",
+   "geographic_location": "The Römer stands in the Altstadt of Frankfurt am Main, on the Römerberg plaza, opposite the Old St. Nicholas Church. The rebuilt Dom-Römer Quarter lies between it and the cathedral.",
+   "directions_text": "Head for the Altstadt of Frankfurt am Main, by taxi or hired scooter, and ask for the Römerberg plaza. For the classic front view, finish at the Römerberg plaza, where the main entrance is. The phone icon on the map is about 160 m east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the building as a whole, then use telephoto (2x-5x, depending on your phone) for the clock, the emperors and the balcony. Use ultra-wide (0.5x) only if you get close and want all the gables in one frame.",
+    "where_to_stand": "Stand about 160 m east of the subject, at the phone icon on the map, and face west. From here the buildings are small in the frame, so zoom in rather than walking straight up. The three-peaked front faces the Römerberg plaza, so walk round there for the best-known view.",
+    "how_to_frame": "Turn on gridlines and keep the vertical lines of the gables upright by holding the phone level. Include some of the plaza in front for scale. For detail shots, frame the middle house alone, with the clock and the emperors near the top third. Look for the covered bridge over Braubachstraße as a second picture.",
+    "phone_settings_tip": "Tap on the stonework to focus, then slide the exposure down slightly if the sky is bright so the façade keeps its colour. Hold the phone steady with both hands when zoomed in.",
+    "best_time": "Go early in the day for fewer people in the frame. Check where the sun falls on the front: bright, even light on the façade usually looks best, while harsh shade splits the gables."
+   },
+   "access_note": "The outside can be photographed from the surrounding streets and plaza, but the Römer is a working city hall, so check the official site before you go if you want to see inside, such as the Kaisersaal.",
+   "claims_not_in_sources": [
+    "The area around the Römer and the Römerberg plaza is open public space that can be visited outside.",
+    "Early morning is usually quieter than the middle of the day.",
+    "From the stand-here point to the east, the Römer's back and side wings are what is in view, and the front facing the Römerberg plaza is not.",
+    "The covered bridge over Braubachstraße can be seen from streets near the Römer."
+   ]
+  },
+  "checker_problems": 0,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Römer",
+    "url": "https://en.wikipedia.org/wiki/R%C3%B6mer"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 1 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Hauptwache",
+  "in_cut": true,
+  "label": "Hauptwache",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 690,
+  "pin": [
+   8.6787298,
+   50.1134706
+  ],
+  "camera": [
+   8.6787298,
+   50.1134706
+  ],
+  "camera_source": "Researched viewpoint 'Galeria Kaufhof' (4 web pages); placed at our map tiles: 'Maruyasu Frankfurt Galeria Kaufhof' (pois); moved 10 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/27769650: the middle of the OpenStreetMap outline 'Hauptwache' (29 m across).",
+  "notes": "Baroque guardhouse on a busy square, now a café.",
+  "text": {
+   "description": "The Hauptwache is a small baroque guard house standing in the middle of one of Frankfurt's most famous squares. It was built in 1730 for the city's militia and also held a prison. It has been a café since 1904, and it was dismantled in 1967 for the U-Bahn tunnel and later rebuilt over the new underground station. What makes it photograph well is the contrast: a little old building in the foreground, the tower of the Katharinenkirche beside it, and modern glass towers rising behind. Most of the buildings around it are newer, because of wartime damage, so the old guard house stands out clearly.\n\nStart a short walk north-east of the guard house, and face south-west to frame it with the church and the skyline. For a higher view, the rooftop terrace of Galeria Kaufhof, facing the square, may let you look down on the Hauptwache with the church and the skyline behind it, if it is open. For another option, go down to street level on An der Hauptwache and frame the guard house among the shops and the people crossing the square. Or stand on Roßmarkt and look along the street towards it, with the church beside it. The sunken area on the square, which locals call \"das Loch\", gives a different level to work with, but it is mainly an entrance to the shops and station below. Keep your phone straight to avoid leaning walls, and give people walking past a little space.",
+   "geographic_location": "The Hauptwache is in central Frankfurt am Main, on the square called An der Hauptwache at the western end of the Zeil shopping street. It sits right beside the Katharinenkirche.",
+   "directions_text": "Head for the square called An der Hauptwache, at the western end of the Zeil in the centre of Frankfurt. Hauptwache station (S-Bahn and U-Bahn) lies directly beneath the square. If you would rather not use public transport, come by taxi or hired scooter and ask for An der Hauptwache. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) from where you stand, or from the terrace if you go up, to show the whole square. Switch to telephoto (2x-3x, depending on your phone) to bring the church and towers closer behind the guard house. Use the ultra-wide (0.5x) only at street level, where you are close.",
+    "where_to_stand": "Stand at Galeria Kaufhof (rooftop terrace on the upper floors, facing the square). The small baroque Hauptwache in front, with the Katharinenkirche and the modern skyline rising behind it. You should see the small baroque Hauptwache ahead, with the Katharinenkirche beside it and the modern skyline rising behind. As a separate, higher option, you can try the rooftop terrace of Galeria Kaufhof facing the square, but this depends on the department store being open and is not marked on the map.",
+    "how_to_frame": "Put the guard house in the lower third of the picture and let the church and glass towers fill the space above it. Turn on gridlines so the verticals stay straight. For an alternative, shoot from street level on An der Hauptwache, or look along Roßmarkt towards the guard house with the church beside it.",
+    "phone_settings_tip": "Tap on the guard house to set focus, then drag the exposure slider down a little so the bright sky and glass do not wash out. Take a few frames with different zoom levels and pick the best later.",
+    "best_time": "Morning or late afternoon usually gives softer light on the old stone and glass, and the square is often calmer outside the middle of the day. If you want to try the terrace, choose a time when it is open."
+   },
+   "access_note": "The square itself is open public space, but the Galeria Kaufhof terrace depends on the department store, so check the official site and its opening times before you go.",
+   "claims_not_in_sources": [
+    "Morning or late afternoon usually gives softer light on the old stone and glass.",
+    "The square is often calmer outside the middle of the day.",
+    "Access to the rooftop terrace depends on the department store being open.",
+    "Glass towers can reflect bright sky, so lowering exposure helps avoid blown-out highlights."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Hauptwache (Frankfurt am Main)",
+    "url": "https://en.wikipedia.org/wiki/Hauptwache_%28Frankfurt_am_Main%29"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "Dr. Thomas Liptak",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_St._Katharinenkirche_an_der_Hauptwache.jpg",
+   "from": "Wikidata Q195116 main image"
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Commerzbank Tower",
+  "in_cut": true,
+  "label": "Commerzbank Tower",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 630,
+  "pin": [
+   8.6743625,
+   50.111182
+  ],
+  "camera": [
+   8.6743625,
+   50.111182
+  ],
+  "camera_source": "Researched viewpoint 'Kaiserplatz' (2 web pages); placed at OpenStreetMap 'Kaiserplatz' (relation/4012818): middle (101 m across).",
+  "pin_note": "Position from OpenStreetMap way/183060777: the middle of the OpenStreetMap outline 'Commerzbank Tower' (82 m across).",
+  "notes": "Skyscraper in the banking district, a skyline landmark.",
+  "text": {
+   "description": "The Commerzbank Tower is the headquarters of Commerzbank and, at 259 m to the roof (300.1 m with its antenna spire), the tallest building in Germany. Foster & Partners designed it. Building began in 1994 and took three years. It has 56 storeys and a rounded triangular plan about 60 m wide, with a central atrium that opens into large sky gardens at nine levels. It was built in steel so those gardens could stay free of supporting columns, and it was described as the world's first ecological skyscraper. It stands in the Bankenviertel, Frankfurt's business district, among towers such as the Eurotower, the Main Tower and the Silberturm.\n\nThe tower photographs well because of its clean, simple shape and the way it climbs into the sky. At night it is lit in yellow, which makes a strong picture. Kaiserplatz is the nearby square by the main entrance. Pointing the phone upwards shows the full height against the sky and picks out the glass and steel detail of the base. You are close to the tower here, so tilt the phone up to fit it in. If you would like a wider picture of the tower among its neighbours, Flößerbrücke gives a view with the Main's reflections, and Eiserner Steg shows the lit tower across the water with the old town beside it.",
+   "geographic_location": "The tower is in the Bankenviertel, Frankfurt's central business district, among other skyscrapers such as the Eurotower and the Main Tower. Kaiserplatz is a square close to its main entrance.",
+   "directions_text": "Head for the Bankenviertel, the business district in the middle of Frankfurt, and walk to Kaiserplatz. Once you are the tower rises to the north-west, about 1 minute on foot away. You will see it long before you arrive, so you can simply walk towards it. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the tower's full height into the frame from close range. Switch to the default lens (1x) for the entrance area and the lines of the lower floors. If your phone has a telephoto (2x-5x), use it to pick out details higher up the facade.",
+    "where_to_stand": "Stand in Kaiserplatz (Street-level view of the tower's base and entrance area). A ground-level, upward-angled view of the tower's full height against the sky, close to its main entrance. Kaiserplatz is the nearby square by the main entrance. From here the tower rises to the north-west and you look up at its full height against the sky. Verify on the ground that the view matches before you settle on the spot.",
+    "how_to_frame": "Turn on the gridlines and line up the edge of the tower with a vertical line. Tilt the phone upwards just enough to include the top, and keep the base in the lower part of the frame so the height reads clearly. For a different view, Flößerbrücke and Eiserner Steg show the tower from across the river.",
+    "phone_settings_tip": "Tap the tower to focus, then slide the exposure down a little so the sky stays blue and the glass keeps its detail. Try both portrait and landscape orientation, as portrait suits the height best.",
+    "best_time": "Daytime gives clear views of the facade. At dusk and after dark the yellow lighting comes on; switch to night mode and hold the phone steady against a wall or railing."
+   },
+   "access_note": "The tower is a working bank headquarters, so check the official site before you go if you hope to go inside.",
+   "claims_not_in_sources": [
+    "Kaiserplatz as a viewpoint rests on a single gallery caption, so verify the spot on the ground.",
+    "Dusk and night are good times to photograph the lit tower, and night mode works best with a steady phone.",
+    "Tilting a phone upwards makes the vertical lines lean in, and gridlines help keep them straight.",
+    "Portrait orientation suits the tower's height best."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Commerzbank Tower",
+    "url": "https://en.wikipedia.org/wiki/Commerzbank_Tower"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "Commerzbank AG",
+   "licence": "CC BY-SA 3.0 de",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Commerzbank-Hochhaus_2010-09-06_01.jpg",
+   "from": "Wikidata Q151765 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Römerberg",
+  "in_cut": true,
+  "label": "Römerberg square",
+  "camera_pill": "near Samstagsberg",
+  "nophone": false,
+  "searches": 590,
+  "pin": [
+   8.6821429,
+   50.1104236
+  ],
+  "camera": [
+   8.682524,
+   50.110529
+  ],
+  "camera_source": "Stand-here point set at the correction gate (own photo GPS 2026-11-17).",
+  "pin_note": "Position from OpenStreetMap relation/2341721: 'Gerechtigkeitsbrunnen', the best-known feature inside 'Römerberg' (167 m across).",
+  "notes": "The historic main square of Frankfurt's old town, lined with half-timbered houses.",
+  "text": {
+   "description": "Römerberg is the public square in front of the Römer, the building complex that has housed Frankfurt's city administration since the 15th century. It sits at the heart of the medieval old town (Altstadt), and it has hosted imperial coronations, trade fairs and the Frankfurt Christmas Market. That history shows in the setting. The reconstructed Römer stands on the west side, the Dom-Römer area and Frankfurt Cathedral lie to the east, and the Old St Nicholas Church and Historical Museum are to the south. All of that gives you a lot of old-town character without moving far. The square is also a place of memory: it was the site of a Nazi book burning in 1933. Then turn and take a second shot with a different building as the main subject. The square is a popular tourist destination, so expect people in your frame, especially at busy times. Use them as scale, or wait a moment for a gap. Tilt the phone slightly up rather than back to keep the buildings from leaning too much.",
+   "geographic_location": "Römerberg is in Frankfurt's old town (Altstadt), directly in front of the Römer building. Paulsplatz lies to the north, and the Old St Nicholas Church and Historical Museum are to the south, with the Mainkai promenade by the River Main beyond them.",
+   "directions_text": "No Underground, S-Bahn or tram stop is right at this spot, so head for the Römerberg in Frankfurt's old town (Altstadt). The fountain you are photographing is about 30 m to the south-west, so it is a very short walk, well under a minute. The phone icon on the map is about 30 m north-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole square and the façades around it. Switch to the default lens (1x) for a more natural view, and use the telephoto (2x-5x, depending on your phone) for gables and rooflines.",
+    "where_to_stand": "Stand about 30 m north-east of the subject, at the phone icon on the map, and face south-west. Keep it as your main subject, with the old-town buildings behind it.",
+    "how_to_frame": "Turn on gridlines and place the fountain on a third line, not dead centre. Keep the phone level so the vertical building lines stay straight. Include a few people near the fountain for scale. For a second shot, turn towards the Römer on the west side and use the telephoto to pick out its roofline.",
+    "phone_settings_tip": "Tap the fountain or a building façade to focus, then drag the exposure slider down slightly if the sky is bright, so the details of the buildings don't wash out. Try a Live Photo if people or pigeons are moving through the scene, so you can choose the best moment.",
+    "best_time": "Early morning is likely to be calmer, with fewer people in the square. Later in the day the light on the façades changes, so try a few shots. Expect crowds during the Christmas Market."
+   },
+   "access_note": "Römerberg is an open public square; check the official site before you go if you plan to visit during the Christmas Market or any other event, as parts of the square may be fenced or busy."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Römerberg (Frankfurt)",
+    "url": "https://en.wikipedia.org/wiki/R%C3%B6merberg_%28Frankfurt%29"
+   }
+  ],
+  "pin_flags": [
+   "main feature: pin put on Gerechtigkeitsbrunnen"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 6 m from the phone icon",
+   "zoom": 1.0
+  }
+ },
+ {
+  "rank": 12,
+  "name": "St. Paul's Church",
+  "in_cut": true,
+  "label": "Paulskirche",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 510,
+  "pin": [
+   8.6807564,
+   50.111191
+  ],
+  "camera": [
+   8.6807564,
+   50.111191
+  ],
+  "camera_source": "Researched viewpoint 'Paulsplatz' (2 web pages); placed at OpenStreetMap 'Paulsplatz' (relation/236941): middle (164 m across).",
+  "pin_note": "Position from OpenStreetMap way/11526375: the middle of the OpenStreetMap outline 'St. Paul's Church' (69 m across).",
+  "notes": "Round church, seat of the 1848 national assembly.",
+  "text": {
+   "description": "St Paul's Church (Paulskirche) is a round, neoclassical building in red sandstone, and it is one of the most important places in German democratic history. Work began in 1789 and the church was finished in 1833. In 1848 and 1849 the first parliament for the whole of Germany, the Frankfurt National Assembly, met here. The church was destroyed in March 1944. It was the first building in Frankfurt the city rebuilt after the war, and it reopened on the 100th anniversary of that parliament. Today it is no longer a working church. It is used for exhibitions and events, including the annual Peace Prize of the German Book Trade.\n\nThe building photographs well from the open square in front of it. The curved red sandstone walls and the rotunda fill the frame, and the square gives you room to step back. Walk a few paces to the left or right to change the angle on the curve. The inside is plain and bright, but almost nothing remains of the 1848 interior, so the exterior is the more rewarding picture. Visit in daylight, when the stone shows its colour. If you want the interior as well, check the official site before you go.",
+   "geographic_location": "St Paul's Church stands on Paulsplatz in Frankfurt's old city centre, a short distance north of the Römerberg square.",
+   "directions_text": "The church is in the old city centre, north of the Römerberg square, so head for Paulsplatz from there. No station or tram stop is listed for this spot, so reach the church on foot via Paulsplatz. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole rotunda in from the square. Use the default lens (1x) for a more natural look. Try telephoto (2x or more, depending on your phone) for details of the sandstone walls.",
+    "where_to_stand": "Stand in Paulsplatz (open square in front of the church's main facade). The red sandstone exterior and rotunda of the church filling the frame, with the square in the foreground. The church is to the west of you, with the square in the foreground.",
+    "how_to_frame": "Fill the frame with the red sandstone and the rotunda, and keep some of the square at the bottom for depth. Turn on gridlines and line them up with the walls so the building looks upright. The interior hall is a brighter, plainer alternative if you go inside.",
+    "phone_settings_tip": "Tap the sandstone to focus. If the sky is bright and the walls look dark, drag the exposure slider down a little, then check the result.",
+    "best_time": "Daytime, when there is plenty of natural light."
+   },
+   "access_note": "The square in front is open public space; for the inside of the building, check the official site before you go."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "St. Paul's Church, Frankfurt",
+    "url": "https://en.wikipedia.org/wiki/St._Paul%27s_Church%2C_Frankfurt"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "Jörg Braukmann",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Paulskirche_(Dom).jpg",
+   "from": "Wikidata Q198106 main image"
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Schirn Kunsthalle Frankfurt",
+  "in_cut": true,
+  "label": "Schirn Kunsthalle",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 310,
+  "pin": [
+   8.6836966,
+   50.1102922
+  ],
+  "camera": [
+   8.6836966,
+   50.1102922
+  ],
+  "camera_source": "Researched viewpoint 'Römerberg' (4 web pages); placed at OpenStreetMap 'Römerberg' (relation/2341721): middle (166 m across).",
+  "pin_note": "Position from OpenStreetMap way/689507214: the middle of the OpenStreetMap outline 'Schirn Kunsthalle' (150 m across).",
+  "notes": "Modern art exhibition hall between the cathedral and the Römer.",
+  "text": {
+   "description": "The Schirn Kunsthalle is Frankfurt's main venue for temporary art exhibitions, and it sits in the old town between the Römer town hall and the cathedral. Its long, pale sandstone building opened in 1986, on ground that was flattened in the Second World War and left undeveloped for decades. The name 'Schirn' is an old word for an open-air market stall, and butchers' stalls stood in the lanes here until the 19th century. The main hall is about 140 metres long and five storeys high, and a glass-domed rotunda about 20 metres across forms the main entrance.\n\nThe classic view is from the Römerberg, the square itself. You can fit the Schirn's facade, the stepped gables of the Römer and the cathedral tower into one frame, which makes a good 'I was here' picture. Keep gridlines on so the long horizontal lines of the building stay level, and leave some sky above the tower.\n\nThe Schirn's main building is being renovated, and the programme is currently at the former Dondorf printing factory in Bockenheim until 2028. Scaffolding or banners may therefore get in the way of the facade. If that happens, try the colonnaded walkway beside the sandstone building, where the cathedral is close by. Photography rules inside exhibitions vary from show to show, so ask before you shoot indoors.",
+   "geographic_location": "The Schirn is in Frankfurt's old town (Altstadt), in the area between the Römer town hall and Frankfurt Cathedral. It is part of the Museumsufer group of museums.",
+   "directions_text": "Take the U4 or U5 to Dom/Römer station; the Römerberg is a short walk from there. Follow the signs for the Römer and the cathedral if you are unsure. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the facade and the square. Switch to ultra-wide (0.5x) if the square feels cramped, and to telephoto (2x-5x, depending on your phone) for the Römer gables or the cathedral tower.",
+    "where_to_stand": "Stand in Römerberg (the square itself, looking at the Schirn's facade and the Römer). The Schirn's building on the old-town square, with the Römer's stepped gables and the cathedral tower in the surrounding view. From there the Schirn's building, the Römer's stepped gables and the cathedral tower can all share one frame.",
+    "how_to_frame": "Turn on gridlines and line up the long sandstone facade with a horizontal grid line. Put the Römer gables on one side and let the cathedral tower rise behind the Schirn. If scaffolding or banners block the facade, walk to the colonnaded walkway beside the building, where the cathedral is close by, for a second shot.",
+    "phone_settings_tip": "Tap on the pale stone to set focus, then drag the exposure slider down a little so the sandstone and sky keep their detail. Take a 0.5x shot as well, in case the 1x frame feels tight.",
+    "best_time": "Early in the day is usually calmer on the square, with fewer people in the frame. Soft, even daylight suits the pale stone."
+   },
+   "access_note": "The Römerberg is an open public square, but the Schirn's main building is under renovation, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "The Römerberg is an open public square that can be photographed from without a ticket.",
+    "Early in the day is usually quieter on the Römerberg.",
+    "Soft, even daylight suits the pale sandstone facade."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Schirn Kunsthalle Frankfurt",
+    "url": "https://en.wikipedia.org/wiki/Schirn_Kunsthalle_Frankfurt"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 59 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Eschenheimer Turm",
+  "in_cut": true,
+  "label": "Eschenheimer Turm",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 170,
+  "pin": [
+   8.679689,
+   50.1169263
+  ],
+  "camera": [
+   8.679689,
+   50.1169263
+  ],
+  "camera_source": "Researched viewpoint 'Eschenheimer Tor' (3 web pages); placed at OpenStreetMap 'Eschenheimer Tor' (relation/7538700): middle (68 m across).",
+  "pin_note": "Position from OpenStreetMap way/53671623: the middle of the OpenStreetMap outline 'Eschenheimer Turm' (18 m across).",
+  "notes": "Late-Gothic city gate tower from the medieval fortifications.",
+  "text": {
+   "description": "The Eschenheimer Turm is a late-medieval city gate that now stands in the largely rebuilt Innenstadt of Frankfurt. The pairing with the modern Nextower high-rise is the best-known composition of this tower: a Gothic tower with a steep spire and four small corner turrets, with the Nextower rising directly behind it. The tower is 47 metres high. A square base holds the gate arch, and a round tower sits on top of it. The master builder Madern Gerthener finished it in 1426–1428. When the old city walls were pulled down in the early 1800s, this tower was one of only three that were allowed to stay. Look for the coats of arms carved on both sides: a silver eagle on red facing the city, and a black double-headed eagle on gold on the other side. High up is a weather vane with the holes from a famous legend about a poacher and nine pistol shots, although the vane is no longer the original. The tower sits in a large, busy plaza, so the main challenge is a clean frame. Traffic, street furniture and sometimes building work can creep in, so take a few steps left or right and check the edges of the picture before you press the shutter. Because the ground floor is a restaurant, the best views are from outside, and the tower is an easy quick stop on a walk through the city centre.",
+   "geographic_location": "The tower stands on the plaza called Eschenheimer Tor in Frankfurt's Innenstadt (city centre), connected to the Schillerstraße pedestrian zone.",
+   "directions_text": "Head for the Innenstadt (city centre) of Frankfurt and look for the large plaza called Eschenheimer Tor, where the tower stands. From the Schillerstraße pedestrian zone you can walk straight up to it. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the tower with the Nextower behind it. Switch to the ultra-wide (0.5x) if you want the whole 47 metres in the frame from close by. Use telephoto (2x-5x, depending on your phone) from further back to bring the two buildings closer together.",
+    "where_to_stand": "Stand in Eschenheimer Tor (in front of the tower, with the Nextower behind it). The tower's medieval Gothic silhouette set against the modern Nextower high-rise behind it, the classic contrast shot. From there the medieval silhouette lines up against the modern Nextower high-rise behind it, the classic contrast shot. For a cleaner version, walk out along Eschersheimer Landstraße and shoot back from a distance, where the Nextower rising behind the tower reads more clearly.",
+    "how_to_frame": "Turn on gridlines and place the tower on one of the vertical lines, with the Nextower rising behind it. Keep the phone level so the tower doesn't lean. Check the edges for traffic signs, pipes or barriers and shift a step to avoid them. For a calmer, more traditional picture, try Bockenheimer Anlage, where the tower stands at the end of a tree-lined avenue.",
+    "phone_settings_tip": "Tap the tower to focus, then slide the exposure down a little so the sky stays blue and the stonework keeps its detail. Take a few shots at different zoom levels, as the clutter around the tower changes with each framing.",
+    "best_time": "Go at a quieter time of day, such as early morning, so there are fewer people and vehicles in the frame. Check the current state of the site first, as building work nearby can spoil the view."
+   },
+   "access_note": "The plaza and the outside of the tower are open public space; the inside is a restaurant and any visit to the battlements may be restricted, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "Early morning is likely to be quieter, with fewer people and vehicles around the tower.",
+    "Ultra-wide shots taken up close can make the tower appear to lean unless the phone is held level."
+   ]
+  },
+  "checker_problems": 6,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Eschenheimer Turm",
+    "url": "https://en.wikipedia.org/wiki/Eschenheimer_Turm"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "Jürgen Matern",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Eschenheimer_Turm_in_the_evening_sun_from_north_west.jpg",
+   "from": "Wikidata Q883643 main image"
+  }
+ },
+ {
+  "rank": 15,
+  "name": "Old St. Nicholas Church",
+  "in_cut": true,
+  "label": "Alte Nikolaikirche",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 80,
+  "pin": [
+   8.6823373,
+   50.1099489
+  ],
+  "camera": [
+   8.6823373,
+   50.1099489
+  ],
+  "camera_source": "Researched viewpoint 'Römerberg' (4 web pages); placed at OpenStreetMap 'Römerberg' (relation/2341721): middle (166 m across).",
+  "pin_note": "Position from OpenStreetMap way/27769415: the middle of the OpenStreetMap outline 'Old St. Nicholas Church' (35 m across).",
+  "notes": "Small Gothic church on the south side of the Römerberg.",
+  "text": {
+   "description": "Old St. Nicholas Church is a medieval Lutheran church on the edge of the Römerberg, the old town square in the middle of Frankfurt. From the square you see its brick Gothic facade and tower as the centrepiece, with reconstructed half-timbered houses standing beside it. That mix of church and old houses in one frame is why this is such a good spot for a phone photo, and it is the classic postcard view.\n\nThe first chapel on this site was built in the mid-12th century, and the church you see now dates from the mid-15th. The church has 51 bells, and 47 of them are used for carillons. The old town around it was heavily damaged in World War II, but this church came through with only minor damage.\n\nFace the church and take a first shot that includes the half-timbered houses, then move a little to either side and try again. One guide suggests the whole square works best from several angles, so take your time and walk around. An alternative is the Fahrtor side of the Römerberg, which gives an angled view of the church's side and tower. Check that one on the day.\n\nThe square can be busy in the daytime, so be patient for a gap between people.",
+   "geographic_location": "In Frankfurt's Altstadt (old town), on the south side of the Römerberg square, close to the Römer city hall.",
+   "directions_text": "No public transport stops are listed for this spot, so head for the Römer city hall in the Altstadt. The Römerberg is the square beside it. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x), which fits the facade, the tower and the neighbouring half-timbered houses in one frame. Switch to ultra-wide (0.5x) if you want the top of the tower and more of the square. Use telephoto (2x-5x, depending on your phone) for details of the brickwork and the tower.",
+    "where_to_stand": "Stand in Römerberg (On the square, facing the church on its south side). The church's brick Gothic facade and tower as the centerpiece of the square, with reconstructed half-timbered houses beside it. On the square facing the church on its south side.",
+    "how_to_frame": "Turn on the gridlines and line the tower up with a vertical line so the building does not lean. Keep a couple of the half-timbered houses at the edge of the frame to show the setting. For a second angle, try the Fahrtor side of the Römerberg for a view across the side of the church and the tower.",
+    "phone_settings_tip": "Tap on the brickwork to focus, then drag the exposure slider down a little if the sky is bright, so the facade keeps its colour. When using ultra-wide, keep the church away from the very edge of the frame, where buildings can look stretched.",
+    "best_time": "Late afternoon, when the sun lights the building, according to one photography guide."
+   },
+   "access_note": "The Römerberg is an open public square; the church itself holds services and events, so check the official site before you go if you want to go inside."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Old St. Nicholas Church",
+    "url": "https://en.wikipedia.org/wiki/Old_St._Nicholas_Church"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/15.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 37 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 16,
+  "name": "New Frankfurt Old Town",
+  "in_cut": true,
+  "label": "New Old Town",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 80,
+  "pin": [
+   8.68311,
+   50.11109
+  ],
+  "camera": [
+   8.68311,
+   50.11109
+  ],
+  "camera_source": "Researched viewpoint 'Hühnermarkt' (2 web pages); placed at OpenStreetMap 'Hühnermarkt' (way/669558844): middle (33 m across).",
+  "pin_note": "Position from Wikidata Q1236497: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Reconstructed old-town quarter between the Römer and the cathedral.",
+  "text": {
+   "description": "The New Frankfurt Old Town, also called the Dom-Römer Quarter, is a small patch of the city centre rebuilt in the style of the old town that was lost in the Second World War. Before the bombing, Frankfurt had one of the biggest collections of timber-framed houses anywhere, around 1,250 buildings. The quarter was reconstructed between 2012 and 2018 on a site of about 7,000 square metres, and it opened fully to the public on 9 May 2018. Some 35 building designs were chosen through architectural competitions, so the facades vary a lot in shape, colour and detail.\n\nThat variety is why it photographs so well on a phone. From there you can frame reconstructed half-timbered and pastel facades as a compact old-town street scene. The square is small, so the view is more about neat detail than a wide panorama. Look for steep gables, carved timber and the contrast between the soft colours and the dark beams.\n\nIf you want a street-level alternative, the Krönungsweg gives a view along the rebuilt facades, with the Kaiserdom and the Römer nearby in the frame. Take your shots slowly and check the edges of the frame, as people tend to wander through the lanes.",
+   "geographic_location": "In the middle of Frankfurt's old town (Altstadt), between the Römerberg to the west and the Domplatz to the east. Braubachstrasse runs along the north side and the Schirn Kunsthalle sits on the south side.",
+   "directions_text": "Head to the Römerberg, the well-known old-town square on the western edge of the quarter, then walk east into the quarter. The centre of the New Old Town is about 60 m (roughly a minute's walk) to the west of it. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole small square and the rows of facades in one frame. Switch to the default lens (1x) for a more natural look, and use the telephoto (2x or more, depending on your phone) for carved timber and gable details.",
+    "where_to_stand": "Stand in Hühnermarkt (centre of the New Old Town). The small square's reconstructed half-timbered and pastel facades, framed as a compact old-town street scene. From here the reconstructed half-timbered and pastel facades frame a compact old-town street scene.",
+    "how_to_frame": "Turn on gridlines and keep the vertical lines upright, so the tall, narrow houses don't lean. Let the facades fill both sides of the frame and use the square's open middle as the foreground. For a different view, try the Krönungsweg, where the Kaiserdom and the Römer sit nearby in the frame.",
+    "phone_settings_tip": "Tap on a pastel facade to set focus, then drag the exposure slider down a little so the sky does not wash out and the colours stay rich. Hold the phone steady with both hands, as the lanes can be shaded.",
+    "best_time": "Early morning or late afternoon usually means softer light and fewer people in the frame. Check how the light falls on the facades while you are there."
+   },
+   "access_note": "The quarter is a set of public streets and squares, open to the public since May 2018. Check the official site before you go for any events or closures, and for the rules of individual shops, cafés and museums.",
+   "claims_not_in_sources": [
+    "Early morning or late afternoon usually gives softer light and fewer people in the Hühnermarkt.",
+    "The lanes and the small square can be shaded and people tend to wander through the frame.",
+    "The Hühnermarkt is open and free to enter at any time (implied by the access note, which tells readers to check the official site)."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "New Frankfurt Old Town",
+    "url": "https://en.wikipedia.org/wiki/New_Frankfurt_Old_Town"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/16.jpg",
+   "artist": "© Xdatrys LLC",
+   "licence": "",
+   "licence_url": "",
+   "source_url": "",
+   "from": "Own photo, taken 48 m from the phone icon",
+   "zoom": 2.0
+  }
+ },
+ {
+  "rank": 101,
+  "name": "Museumsufer",
+  "in_cut": false,
+  "label": "Museumsufer",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 320,
+  "pin": [
+   8.67861111,
+   50.10611111
+  ],
+  "camera": [
+   8.67861111,
+   50.10611111
+  ],
+  "camera_source": "Researched viewpoint 'Schaumainkai' (2 web pages); placed at the stretch of Schaumainkai nearest the subject (our map tiles).",
+  "pin_note": "Position from Wikidata Q315968: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Riverside row of museums along the south bank of the Main.",
+  "text": {
+   "description": "Museumsufer is not one building but a long stretch of the Main riverbank lined with museums, on both sides of the water. The Städel art museum is its centre. Most of the others were added in the 1980s, some by converting old villas and some as new buildings, under the city's culture chief Hilmar Hoffmann. By 2022 the group counted 39 museums. On the south bank you will find the Film Museum, the Architecture Museum, the Icon Museum and the Liebieghaus sculpture collection, among others.\n\nIt photographs well because the setting is open and varied: a riverside promenade, lawns, the water, and the city skyline across the river. Older villa fronts sit beside modern museum architecture, so you can choose between a wide scene and a tight detail.\n\nThe towers fall in a different arrangement from here, with more varied foreground along the river. This makes it a good quieter angle. For a second view, the southern end of the Eiserner Steg looks back across the river towards the embankment and the skyline.\n\nThe street is partly closed to traffic for a flea market on Saturdays, and the Museumsuferfest in August and the Nacht der Museen bring crowds. Expect more people then, and check the dates before you go.",
+   "geographic_location": "Museumsufer runs along both banks of the river Main in central Frankfurt.",
+   "directions_text": "No station or tram stop is listed for this spot, so head for the Schaumainkai on the south bank of the Main. The stretch runs downriver toward the Untermainbrücke. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the long embankment, the river and the skyline together. Use the default lens (1x) for the museum fronts, and the telephoto (2x-5x, depending on your phone) to pick out towers and architectural details across the water.",
+    "where_to_stand": "Stand on Schaumainkai (stretch running downriver toward the Untermainbrücke). A different angle on the museum embankment, with the towers seen from a more westerly direction and a varied foreground along the river. The museum embankment lies to the north-west, and from here the towers are seen from a more westerly direction, with the river and its varied foreground in the frame.",
+    "how_to_frame": "Switch on the gridlines and place the river edge or promenade along a lower third line so it leads the eye along the embankment. Add a tree or railing at the edge as foreground for depth. For a different view, the southern end of the Eiserner Steg looks back at the museum embankment with the skyline beyond.",
+    "phone_settings_tip": "Tap on the buildings to set focus, then drag the exposure slider down a little so the sky keeps its colour. Check that the horizon and the museum fronts are level using the gridlines.",
+    "best_time": "Early morning or late afternoon usually gives softer light and fewer people. Avoid Saturdays if you want a quiet street, as the flea market partly closes it to traffic. The Museumsuferfest in August and the Nacht der Museen bring crowds."
+   },
+   "access_note": "The embankment is an open public street and promenade, but individual museums are ticketed and some events close parts of it, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Museumsufer",
+    "url": "https://en.wikipedia.org/wiki/Museumsufer"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "dontworry",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Museumsufer-teil3-ffm001.jpg",
+   "from": "Wikidata Q315968 main image"
+  }
+ }
+]

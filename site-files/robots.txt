@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /review/
+Disallow: /app/m/
+Disallow: /api/
+Disallow: /newsletter/drafts/
+Disallow: /maps/files/
+Disallow: /maps/thanks/
+
+Sitemap: https://xdatrys.com/sitemap.xml

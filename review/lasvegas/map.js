@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "lasvegas", "title": "Las Vegas: 19 photo spots (pilot review)", "place": "Las Vegas", "bounds": [-115.186, 36.076, -115.13, 36.182], "center": [-115.158, 36.129000000000005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/lasvegas/{z}/{x}/{y}.pbf"};

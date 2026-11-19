@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "dublin", "title": "Dublin: 20 photo spots (pilot review)", "place": "Dublin", "bounds": [-6.33, 53.32, -6.22, 53.37], "center": [-6.275, 53.345], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/dublin/{z}/{x}/{y}.pbf", "tz": "Europe/Dublin", "rail": true, "app": true};

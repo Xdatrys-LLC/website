@@ -1,0 +1,654 @@
+[
+ {
+  "rank": 1,
+  "name": "Te Puia",
+  "in_cut": true,
+  "label": "Te Puia",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 4270,
+  "pin": [
+   176.249901,
+   -38.1643208
+  ],
+  "camera": [
+   176.249901,
+   -38.1643208
+  ],
+  "camera_source": "Researched viewpoint 'Lower Whaka Lookout' (2 web pages); placed at our map tiles: 'Lower Whaka Outlook' (pois).",
+  "pin_note": "Position from OpenStreetMap way/1020979642: the middle of the OpenStreetMap outline 'New Zealand Māori Arts and Crafts Institute' (97 m across).",
+  "notes": "Māori arts and crafts centre next to the geyser valley.",
+  "text": {
+   "description": "Te Puia sits in the Whakarewarewa geothermal valley in Rotorua. It is home to the Pōhutu geyser, bubbling mud, steaming vents and the New Zealand Māori Arts and Crafts Institute. The Institute grew out of a carving school founded in 1926 by Sir Āpirana Ngata, and the current Institute opened in 1963. Guided tours through the valley go back to the mid-19th century and now run under the Te Puia name. For a phone photo, the most useful spot is the Lower Whaka Lookout, an elevated wooden platform on the Pohaturoa (yellow) Track in Whakarewarewa Forest. It is a short walk through the redwoods and costs nothing. From there you look down over the whole valley, with Pōhutu, the mud lake, the steaming vents and the town beyond. The view is wider and clearer than the close-up shots from geyser level, although you are well above the geyser. Pōhutu erupts roughly 20 times a day, but steam can hide it between eruptions, so be ready to wait. If you want a close view of an eruption, with the plume rising up to about 30 metres, Geyser Flat inside the park is the alternative, and it needs a paid Te Puia ticket.",
+   "geographic_location": "Te Puia is in the Whakarewarewa area of Rotorua, beside the geothermal valley and Whakarewarewa Forest. The Lower Whaka Lookout is in Whakarewarewa Forest, looking down over the valley.",
+   "directions_text": "No station or stop is listed for this spot; head to Whakarewarewa Forest and follow the Pohaturoa (yellow) Track to the Lower Whaka Lookout, which is a short walk through the redwoods. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the whole valley, then try telephoto (2x-5x, depending on your phone) to bring Pōhutu and its steam closer. Use the ultra-wide (0.5x) only if you want the redwood trees and platform rail in the frame.",
+    "where_to_stand": "Stand on Lower Whaka Lookout (elevated wooden platform on the Pohaturoa (yellow) Track, in Whakarewarewa Forest). A high, wider view over Te Puia's geothermal valley, with the Pōhutu geyser, the mud lake and steaming vents, with the town beyond. The elevated wooden platform on the Pohaturoa (yellow) Track in Whakarewarewa Forest. From the platform you look down on Te Puia's geothermal valley, with the Pōhutu geyser, the mud lake and the steaming vents, and the town beyond.",
+    "how_to_frame": "Switch on gridlines and put the steam plume on one of the vertical lines, with the valley floor in the lower third and the town in the distance. Frame a wide shot first, then zoom in for a second shot of the geyser. If you want a close-up of an eruption from Geyser Flat instead, that is the paid option inside the park.",
+    "phone_settings_tip": "Tap the steam or geyser to set focus, then drag the exposure slider down slightly so the white steam keeps its detail. Try Live Photos to catch an eruption starting, and take several shots while you wait.",
+    "best_time": "Pōhutu erupts roughly 20 times a day, so time of day matters less than patience: allow a while for the steam to clear. Early morning or late afternoon may be more comfortable for the light, since you will be facing north-west."
+   },
+   "access_note": "The Lower Whaka Lookout is a free public viewpoint on a forest track, but entry to Te Puia itself, including Geyser Flat, is ticketed, so check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "New Zealand Māori Arts and Crafts Institute",
+    "url": "https://en.wikipedia.org/wiki/New_Zealand_M%C4%81ori_Arts_and_Crafts_Institute"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (548 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Bob Linsdell",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Maori_Arts_and_Crafts_Institute,_Rotorua_-_panoramio_(1).jpg",
+   "from": "Wikidata Q7015523 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Polynesian Spa",
+  "in_cut": true,
+  "label": "Polynesian Spa",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 3280,
+  "pin": [
+   176.2583434,
+   -38.1379746
+  ],
+  "camera": [
+   176.2583434,
+   -38.1379746
+  ],
+  "camera_source": "Researched viewpoint 'Government Gardens' (3 web pages); placed at OpenStreetMap 'Government Gardens' (way/137198217): edge nearest the subject (789 m across).",
+  "pin_note": "Position from OpenStreetMap relation/13015850: the middle of the OpenStreetMap outline 'Polynesian Spa' (122 m across).",
+  "notes": "Geothermal hot pools on the lake shore.",
+  "text": {
+   "description": "Polynesian Spa is a geothermal bathing complex on the shore of Lake Rotorua. It photographs well because steaming pools, the open water of the lake and the greenery of the neighbouring park all fit into one scene. Local Māori bathed here for centuries in an acidic pool called Te Pupunitanga, now known as Priest's Bath. The European story starts in 1878, when a Catholic priest, Father Mahoney, bathed regularly in hand-dug pools on this spot and found his arthritis eased. The Pavilion Bath House opened in 1882 and the Ward Baths followed in 1931. The government leased the Ward Baths to a private company in 1972, and the site has been known as Polynesian Spa since then. From there you can get the spa's lakefront pool area and Lake Rotorua in one frame, with the park's historic gardens behind the shoreline. Keep the lake on one side and the pools on the other so the photo has a clear foreground and background. Steam moves quickly, so take a few shots a second or two apart and pick the one where it shapes best. If you want a different angle, shoot along the shoreline so it leads the eye towards the pools. Please respect the privacy of bathers and avoid framing people who are in the water.",
+   "geographic_location": "Polynesian Spa sits on the shore of Lake Rotorua, right next to Government Gardens, close to the town's lakefront.",
+   "directions_text": "Government Gardens next door is a free viewpoint if you want a wider look. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the lake, the pool area and the gardens together. Switch to the default lens (1x) for a cleaner, less stretched view. Use telephoto (2x-5x, depending on your phone) to pick out steam rising from the pools.",
+    "where_to_stand": "Stand in Government Gardens (lakeside path along the Lake Rotorua shore, facing the spa complex). The spa's lakefront pool area and Lake Rotorua in one frame, with the park's historic gardens behind the shoreline. From here the photo shows the spa's lakefront pool area and Lake Rotorua in one frame, with the park's historic gardens behind the shoreline.",
+    "how_to_frame": "Turn on gridlines and place the shoreline on a lower third line, with the pools and steam on the other third. Keep the horizon level, because the lake makes any tilt obvious. Use a little of the lake edge or the garden edge in the foreground to give depth.",
+    "phone_settings_tip": "Tap on the steam or the pool surface to set focus, then drag the exposure slider down slightly so the steam does not turn white. Try a Live Photo to catch the movement of the steam, then choose the best frame.",
+    "best_time": "Choose a time when the light is soft and the sun is low rather than overhead; steam is usually easier to see against a darker background."
+   },
+   "access_note": "Government Gardens is a free public park, but the spa itself is a paid, ticketed site, so check the official site before you go if you want to go inside.",
+   "claims_not_in_sources": [
+    "Steam from the pools tends to show up more clearly in cooler, softer light such as early morning or late afternoon.",
+    "Bathers may be visible in the pools from the lakeside path, so avoid framing them closely."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Polynesian Spa",
+    "url": "https://en.wikipedia.org/wiki/Polynesian_Spa"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Wendy Harman",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Day_4-_Polynesian_Spa.jpg",
+   "from": "Wikidata Q17022319 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Agrodome",
+  "in_cut": true,
+  "label": "Agrodome",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 2090,
+  "pin": [
+   176.1883123,
+   -38.0850264
+  ],
+  "camera": [
+   176.188312,
+   -38.085026
+  ],
+  "camera_source": "Researched viewpoint 'Agrodome' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
+  "notes": "Farm show and sheep shearing attraction.",
+  "text": {
+   "description": "The Agrodome is a farm theme park in Rotorua, and for a phone photographer the easy win is the giant Shaun the Sheep statue on the lawn outside. It makes a cheerful character shot, and it works well with a family member or friend posing alongside. The Agrodome opened in 1971, founded by Godfrey Bowen, a champion sheep shearer, and local farmer George Harford. It has been majority-owned by Ngāi Tahu Tourism since 2011. Today it keeps 26 sheep breeds, and the National Kiwi Hatchery moved into a new building here in December 2023. Farm shows with shearing and animal demonstrations run three times a day, so there is plenty of life around the grounds if you want a busier frame. Start with the statue, then take a second picture from the Woollen Mill Cafe area, where the view opens out across the working farm and its paddocks. Take a wide shot first to show the whole scene, then step in for a closer one with the statue's face filling more of the frame. Stay out of the way of other visitors. Parts of the site may be ticketed, so check the official site before you go.",
+   "geographic_location": "The Agrodome is a farm theme park in Rotorua.",
+   "directions_text": "There are no Underground, train or tram stops listed nearby. The Shaun the Sheep statue is on the lawn outside the Agrodome. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the main shot of the statue. Switch to the ultra-wide (0.5x) if you want the whole lawn in the frame. For the farm views from the cafe area, try telephoto (2x-5x, depending on your phone) to pick out the paddocks.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. The giant Shaun the Sheep statue is on the lawn outside the Agrodome, so head east towards it to take the photo.",
+    "how_to_frame": "Turn on the gridlines and place the statue on one third of the frame, leaving the surroundings in the other two thirds. Crouch slightly so the statue stands tall against the background. If someone is posing, have them stand beside the statue rather than in front of it so both show. For a second picture, go to the Woollen Mill Cafe area and shoot across the working farm and paddocks.",
+    "phone_settings_tip": "Tap the statue to set focus, then slide the exposure down a little if its pale surface looks washed out. Portrait mode can soften the background if you are photographing a person next to the statue. Wipe your lens before you start.",
+    "best_time": "Daytime, when the grounds are open and the statue is well lit. If the sun is strong, move around until it is not shining straight into your lens."
+   },
+   "access_note": "The statue sits within the Agrodome's farm grounds, which may need an entry ticket, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "A pale or white statue surface can look washed out in strong light, so lowering the exposure may help.",
+    "Daytime light is best for photographing the statue, and strong sun can shine into the lens from some angles."
+   ]
+  },
+  "checker_problems": 7,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Agrodome",
+    "url": "https://en.wikipedia.org/wiki/Agrodome"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "Robert Linsdell",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Agrodome,_Rotorua_(482726).jpg",
+   "from": "Wikidata Q78824939 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Kuirau Park",
+  "in_cut": true,
+  "label": "Kuirau Park",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1350,
+  "pin": [
+   176.243776,
+   -38.132981
+  ],
+  "camera": [
+   176.243776,
+   -38.132981
+  ],
+  "camera_source": "Researched viewpoint 'Pukeroa Hill' (1 web pages); placed at OpenStreetMap 'Pukeroa Hill Walkway' (way/346183881): point nearest the subject (294 m long).",
+  "pin_note": "Position from OSM W28917557 (Kuirau Park): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Free public park with steaming pools and mud pots near the centre.",
+  "text": {
+   "description": "Kuirau Park is a thermal park in Rotorua, with gardens and walkways laid out among steaming, bubbling pools and vents. Its appeal for photos is the mix of ordinary park scenery and drifting steam, which gives the pictures atmosphere and a clear sense of place. Because the ground is geothermally active, some springs overflow onto the paths, so the park rewards a careful, slow visit.\n\nThere are two good ways to photograph it. From the west side of Pukeroa Hill you look down over the gardens and the steaming features, a quieter alternative to shooting at ground level. This view lets you show the whole layout, with plumes of steam rising among the planting. Down in the park, the walkways make good leading lines, with steam over mud pools and vents in the frame.\n\nSteam is the main thing to plan around. On still days it can cover the thermal features and make photos difficult, and a breeze tends to clear it. If the view is hazy, wait a few minutes and try again, or move to a different angle. Stay on the marked paths and behind any fencing, and keep well back from the edges of pools and vents, however good the shot looks. Check exactly where to stand on Pukeroa Hill when you arrive.",
+   "geographic_location": "Kuirau Park is in Rotorua. The viewpoint on the west side of Pukeroa Hill looks south over the park.",
+   "directions_text": "There are no stations or stops to start from, so head for the Pukeroa Hill area of Rotorua. From there the park is about 380 m to the south. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "From the hill, use the telephoto (2x-5x, depending on your phone) to pick out clusters of steam and the walkways. Use the default lens (1x) for the whole park, and the ultra-wide (0.5x) when you are down among the pools and want the steam and paths in one frame.",
+    "where_to_stand": "Stand in Pukeroa Hill (west side of the hill). An elevated view looking down over the park's gardens and its steaming, bubbling thermal features. From here you look down over the park's gardens and its steaming, bubbling thermal features.",
+    "how_to_frame": "Turn on gridlines and put the horizon on the upper line, so the gardens and steam fill the frame below it. Use the paths as leading lines. For a different view, go down into the park and shoot along the walkways towards steam drifting over the mud pools and vents.",
+    "phone_settings_tip": "Tap on a darker part of the scene to focus, then slide the exposure down a little so the white steam keeps its detail. If steam blocks the view, wait for a breeze and take a few shots in a row. Live Photos can help you pick the clearest moment.",
+    "best_time": "Choose a day with a light breeze, because steam can cover the features on still days."
+   },
+   "access_note": "The hill viewpoint and the park are outdoor places with no charge listed, but check the official site before you go, and stay on marked paths and behind fencing because the ground is geothermally active."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /cluster(?! of)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "Pseudopanax at en.wikipedia",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rotorua_from_gondola.jpg",
+   "from": "Wikidata Q208948 main image, found by searching Wikipedia for the spot's name ('Rotorua'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Whakarewarewa",
+  "in_cut": true,
+  "label": "Whakarewarewa Village",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1260,
+  "pin": [
+   176.2563889,
+   -38.1622222
+  ],
+  "camera": [
+   176.2563889,
+   -38.1622222
+  ],
+  "camera_source": "Researched viewpoint 'Pōhutu Geyser' (2 web pages); placed at OpenStreetMap 'Pohutu Geyser' (node/1019878270): point.",
+  "pin_note": "Position from OpenStreetMap way/1436133357: large area 'Whakarewarewa' (3414 m across): previous pin kept, it lies inside.",
+  "notes": "Living Māori village among geysers and hot pools.",
+  "text": {
+   "description": "Whakarewarewa, often shortened to Whaka by locals, is a semi-rural geothermal area in Rotorua. The star for photographers is Pōhutu Geyser, which erupts roughly once an hour and can throw a column of steam and hot water up to about 30 m. You get the tall plume and the geothermal valley in one frame, so it works as a simple landscape shot and as a close-up. The area is also a place of long history. Māori have lived here since a fortress was first occupied around 1325, and they still use the heat of the ground for cooking and warmth. The valley holds some 500 pools and at least 65 geyser vents, though only a handful are active today. Pōhutu has a smaller neighbour, Prince of Wales Feathers, which usually starts up shortly before it, so if that one begins playing, get your phone ready. Eruptions are not on a timetable you can set your watch by, so allow time for a wait. Be ready before the plume rises and take several shots as it builds and fades. Steam drifts, so a frame that looks empty one moment can be full the next. If the crowd at the geyser is thick, the shallow thermal lakelet Ko-te-wai-o-te-Parewharangi is a quieter alternative, with the valley around it.",
+   "geographic_location": "Whakarewarewa is a semi-rural geothermal district within Rotorua, on New Zealand's North Island. The Pōhutu Geyser viewing area is inside the Whakarewarewa Thermal Reserve, in the valley itself.",
+   "directions_text": "No Underground, tram or train stops are listed for this spot, so head first for Rotorua and on to the Whakarewarewa Thermal Reserve. Once inside the reserve, follow the signs and the steam to the viewing area. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the geyser and the valley together. Switch to telephoto (2x-5x, depending on your phone) to fill the frame with the plume. Use the ultra-wide (0.5x) only if you want the whole steaming valley and the sky.",
+    "where_to_stand": "Stand right at the subject (Within the Whakarewarewa Thermal Reserve, in front of the geyser's viewing area). Pōhutu erupting in a tall column of steam and hot water, with the surrounding geothermal valley in the frame. From there the photo shows Pōhutu erupting in a tall column of steam and hot water, with the geothermal valley around it.",
+    "how_to_frame": "Turn on gridlines and place the base of the geyser on a lower third line, leaving space above for the plume to rise. Keep a little of the valley in the frame so the shot shows where you are. Try a vertical shot for the full height and a horizontal one for the valley. If the viewing area is busy, the lakelet Ko-te-wai-o-te-Parewharangi is a calmer alternative.",
+    "phone_settings_tip": "Tap on the geyser to focus, then slide the exposure down a little so the white steam keeps its detail instead of turning to a blank patch. Live Photos or motion can catch the eruption building and falling, and taking several shots in a row helps you get the peak.",
+    "best_time": "Eruptions come roughly hourly, so plan around the geyser rather than the clock. Steam usually shows up best on cool, calm days, and a dark or evenly cloudy sky behind it helps the white plume stand out."
+   },
+   "access_note": "The valley and Pōhutu sit inside a ticketed reserve (Te Puia), so entry is not free; check the official site before you go, and ask a guide where photos are appropriate in the nearby village."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Whakarewarewa",
+    "url": "https://en.wikipedia.org/wiki/Whakarewarewa"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "Carl Lindberg",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:WhakarewarewaAerial.jpg",
+   "from": "Wikidata Q1134836 main image"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Whakarewarewa Forest",
+  "in_cut": true,
+  "label": "Redwoods Forest",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1020,
+  "pin": [
+   176.274323,
+   -38.177395
+  ],
+  "camera": [
+   176.274323,
+   -38.177395
+  ],
+  "camera_source": "Researched viewpoint 'Redwood Memorial Grove' (3 web pages); placed at OpenStreetMap 'Redwood Memorial Grove' (way/411860389): point nearest the subject (461 m long).",
+  "pin_note": "Position from OSM N8660772025 (Whakarewarewa Forest Mountain Bike Tracks): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Giant California redwoods with a treewalk.",
+  "text": {
+   "description": "Whakarewarewa Forest is a forest at Rotorua, and for most visitors the easiest place to enjoy it is the Redwood Memorial Grove. Tall planted redwoods rise straight above the trail, and a boardwalk crosses a thermal pond with a long line of trees behind it. Visitors often treat the grove as the main photo area of the forest, because the trees tower overhead. It is an easy, free walk from the visitor information centre.\n\nLook up for the scale of the trunks, then look along the boardwalk for a picture with a clear path leading the eye into the trees. If you are happy to walk further, Quarry Lookout shows the grove in the foreground with the old quarry, Rotorua city and Lake Rotorua spread out below. The Pōhaturoa Track lookout shows the geothermal valley, Te Puia and the city centre, with Mount Ngongotaha in the distance. Those lookouts are on forest tracks that need hiking boots and some fitness.\n\nMountain bikes use the shared trails, so keep an ear out and step aside when needed. If you are taking group photos, keep them short so other walkers can pass.",
+   "geographic_location": "The Redwood Memorial Grove is an easy walk from the forest's visitor information centre.",
+   "directions_text": "No rail or tram stops are listed for this spot. The Redwood Memorial Grove is an easy walk from the visitor information centre. Check the track map before you set off, especially for the lookouts. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) in the grove to fit the full height of the redwoods into the frame. Use the default lens (1x) for the boardwalk and pond. At the lookouts, try the telephoto (2x-5x, depending on your phone) to pick out Te Puia, the lake or Mount Ngongotaha.",
+    "where_to_stand": "Stand in Redwood Memorial Grove. Tall planted redwoods rising above the trail, with the thermal pond boardwalk and a long line of trees as the backdrop. The view to aim for shows tall planted redwoods rising above the path, with the thermal pond boardwalk and a long line of trees as the backdrop. Whakarewarewa Forest is to the south of you.",
+    "how_to_frame": "Turn on gridlines and place the boardwalk or trail on a diagonal so it leads into the trees. Hold the phone low and tilt it up to show how tall the trunks are. If you walk on to Quarry Lookout, include the redwoods in the foreground and let the city and lake fill the space behind them.",
+    "phone_settings_tip": "Tap on the brightest part of the trees or the pond to focus, then slide the exposure down a little so the sky does not wash out. Wipe the lens before you start shooting.",
+    "best_time": "One photo guide suggests before 9 AM for backlight through the trees, or after 4:30 PM for side light."
+   },
+   "access_note": "The Redwood Memorial Grove walk is free, but the Redwoods Treewalk is a separate paid attraction, so check the official site before you go."
+  },
+  "checker_problems": 8,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (1890 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "Pseudopanax at English Wikipedia",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lit_sculptures_on_tree_trunks.jpg",
+   "from": "Wikidata Q49548995 main image, found by searching Wikipedia for the spot's name ('Redwoods Forest'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Pōhutu Geyser",
+  "in_cut": true,
+  "label": "Pōhutu Geyser",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 920,
+  "pin": [
+   176.2539737,
+   -38.1635344
+  ],
+  "camera": [
+   176.2539737,
+   -38.1635344
+  ],
+  "camera_source": "Researched viewpoint 'Lower Whaka Lookout' (1 web pages); placed at our map tiles: 'Lower Whaka Outlook' (pois).",
+  "pin_note": "Position from OpenStreetMap node/1019878270: the OpenStreetMap point 'Pohutu Geyser'.",
+  "notes": "The largest active geyser in the southern hemisphere.",
+  "text": {
+   "description": "Pōhutu is the largest geyser in the southern hemisphere, and it is one of the most active in the Whakarewarewa Thermal Valley. It can erupt up to about twenty times a day, sending water as high as 30 m. Its name comes from te reo Māori and is translated as 'big splash', 'explosion' or 'constant splashing'. The crater is only about 50 cm across, so the show comes from the height of the column and the clouds of steam that drift around it.\n\nThe closest views are inside the ticketed Te Puia park. The free alternative is the Lower Whaka Lookout, a wooden platform on the Pohaturoa (yellow) Track in Whakarewarewa Forest. From this high point you look down over Te Puia, the geyser, the mud lake and the steaming vents, so you get the whole valley in one frame rather than just the jet. A guide calls it the best lookout on that track. The geyser is some distance away, so it will look modest at first glance. That is where your zoom lens helps.\n\nEruptions are not on a fixed timetable. They range from roughly hourly to around twenty a day, so plan to wait and keep the phone ready. The bench is set back, so sit or stand elsewhere on the platform to enjoy the view. If you want a different angle, the Te Puia geyser viewing platform gives a clear side view of the cone, and Fenton Street gives a distant look at the column over the hotel and car park.",
+   "geographic_location": "Pōhutu sits in the Whakarewarewa Thermal Valley in Rotorua, inside the Te Puia park. The Lower Whaka Lookout is on a forest track in Whakarewarewa Forest, overlooking that valley.",
+   "directions_text": "No station or tram stop is listed for this spot, so the Whakarewarewa Forest tracks are the way in. Follow the Pohaturoa (yellow) Track to the Lower Whaka Lookout, which is a wooden platform. Trail access can change, so check the Whakarewarewa Forest signage before you walk. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole valley, then switch to telephoto (2x-5x, depending on your phone) to bring the geyser and its steam closer. Use the ultra-wide (0.5x) only if you want the forest edge as a foreground, as the geyser will look very small.",
+    "where_to_stand": "Stand on Lower Whaka Lookout (wooden platform on the Pohaturoa (yellow) Track, Whakarewarewa Forest). A high, elevated view over Te Puia, the geyser, the mud lake and steaming vents below. From here you look down over Te Puia, the geyser, the mud lake and the steaming vents. The geyser is to the north. The bench is set back, so sit or stand elsewhere on the platform to enjoy the view.",
+    "how_to_frame": "Turn on the gridlines and put the geyser on one of the upper intersections, leaving the mud lake and the steaming vents in the lower part of the frame to show the scale of the valley. Take one wide shot with the default lens (1x), then a tighter telephoto shot of the column. If you want a different angle, the Te Puia geyser viewing platform gives a clear side view of the cone.",
+    "phone_settings_tip": "Tap the geyser to focus, then drag the exposure slider down a little so the white steam keeps its detail instead of turning flat white. Try a Live Photo or burst to catch the moment the column rises, and hold the phone steady with both hands.",
+    "best_time": "Eruption times are not fixed, so allow time to wait. Photograph once the steam has drifted off the cone if you want a clear view of the geyser itself."
+   },
+   "access_note": "The Lower Whaka Lookout is on a free forest track, but the closest views of Pōhutu are inside the ticketed Te Puia park, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "At the default lens (1x) from a distance, the geyser will look fairly small in the frame."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Pōhutu Geyser",
+    "url": "https://en.wikipedia.org/wiki/P%C5%8Dhutu_Geyser"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Thomas from Switzerland",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pohutu_Geyser_(39485409944).jpg",
+   "from": "Wikidata Q863914 main image"
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Blue Baths",
+  "in_cut": true,
+  "label": "Blue Baths",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 580,
+  "pin": [
+   176.2576939,
+   -38.136449
+  ],
+  "camera": [
+   176.2576939,
+   -38.136449
+  ],
+  "camera_source": "Researched viewpoint 'Government Gardens' (2 web pages); placed at OpenStreetMap 'Government Gardens' (way/137198217): edge nearest the subject (789 m across).",
+  "pin_note": "Position from OpenStreetMap relation/20964508: the middle of the OpenStreetMap outline 'Blue Baths' (78 m across).",
+  "notes": "Art Deco bathhouse from the 1930s.",
+  "text": {
+   "description": "The Blue Baths is a heritage bathhouse in Rotorua's Government Gardens, built in the Spanish Mission style. It is listed as a Category 1 Historic Place by Heritage New Zealand. The first Blue Baths on this site opened in 1886 and stood for over 40 years. It was demolished in 1932, when the present building was constructed alongside it. The cream walls, arches and Mediterranean look sit oddly and pleasingly among the lawns, which is much of why it photographs well.\n\nThe classic picture is taken from the Government Gardens, from the lawn bowling green side. You look north across the open green with the building framed by the gardens in front. The wide stretch of lawn gives the façade room to breathe and shows it in its historic setting. If you want something closer, the front of the building also works, with flower beds and a small pond in the foreground.\n\nThe Blue Baths closed to the public on 26 January 2021 after a seismic assessment, so treat this as a spot for exterior photos. Check the official site before you go to see what is open and where you can walk. Keep the building's vertical lines straight by holding your phone level and using the gridlines. Wait for a moment when few people are crossing the lawn, then take a few frames with slightly different amounts of grass and sky.",
+   "geographic_location": "The Blue Baths is in the Government Gardens, Rotorua, on Queens Drive. The best view is from the lawn bowling green side of the gardens, south of the building.",
+   "directions_text": "Head for the Government Gardens in Rotorua. There is no public transport stop right at this spot, but the gardens can be reached from the town centre. From there the Blue Baths is about 2 minutes on foot to the north, so you can also walk closer for detail shots. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole façade across the green. Switch to ultra-wide (0.5x) if you want more garden in the foreground, and keep the building well away from the edges so it does not stretch. Use telephoto (2x-5x, depending on your phone) for arches, windows and rooflines.",
+    "where_to_stand": "Stand in Government Gardens (lawn bowling green side, looking toward the Blue Baths). The Spanish-mission Blue Baths building seen across an open bowling green, with the surrounding gardens in the foreground. The building is to the north. From here you see the Spanish Mission façade across the open bowling green, with the gardens in the foreground.",
+    "how_to_frame": "Turn on the gridlines and line the building up on the upper or lower third, with lawn below and sky above. Keep the phone level so the walls do not lean. For an alternative, walk closer to the front of the building and frame it over the flower beds and small pond.",
+    "phone_settings_tip": "Tap on the building to set focus, then drag the exposure slider down a little if the sky is washing out. Cream walls can easily turn too bright. Tap to focus again if you move.",
+    "best_time": "Early morning or late afternoon is kinder than midday. A bright, even sky also suits pale walls."
+   },
+   "access_note": "The Blue Baths closed to the public in January 2021, so the building is best enjoyed from outside; check the official site before you go for current access to the building and the gardens.",
+   "claims_not_in_sources": [
+    "In New Zealand the midday sun sits in the north, so shooting north from the stand-here point can put the sun behind or beside the building around midday.",
+    "Early morning or late afternoon light is gentler than midday for a pale building.",
+    "Pale cream walls can overexpose easily on a phone."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Blue Baths",
+    "url": "https://en.wikipedia.org/wiki/Blue_Baths"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "Tony Hisgett from Birmingham, UK",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Blue_Baths_3_(31112677203).jpg",
+   "from": "Wikidata Q77119246 main image"
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Government Gardens",
+  "in_cut": true,
+  "label": "Government Gardens",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 570,
+  "pin": [
+   176.2580556,
+   -38.135
+  ],
+  "camera": [
+   176.2580556,
+   -38.135
+  ],
+  "camera_source": "Researched viewpoint 'Te Whare Taonga o Te Arawa' (3 web pages); placed at our map tiles: 'Te Arawa Whare Waka' (pois); moved 5 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/137198217: large area 'Government Gardens' (792 m across): previous pin kept, it lies inside.",
+  "notes": "Historic gardens and Tudor-style buildings beside the lake.",
+  "text": {
+   "description": "Government Gardens is a public park beside Lake Rotorua, laid out by the government as a tourist attraction and still a major tourism destination in New Zealand. The photograph most people come for is the Tudor-style Bath House: white walls, black timber framing and corner towers, rising behind the English-style lawns and flower beds. It opened in 1908, was converted into the Rotorua Museum after renovation in 1995, and has a Category I heritage registration. The building has been reported closed for renovation and earthquake strengthening, so treat this as an exterior view only. The Tudor Towers viewing platform is inside the building and is not a current option.\n\nThe long, open lawns are what make the view work on a phone. You can stand well back and fit the whole façade in, with the gardens filling the foreground. The park has more to offer if you have time. The Prince's Arch and Gateway was built for the 1901 royal visit and is unique in New Zealand. The Blue Baths, the bandstand and the bowling green are also nearby. For a quieter picture, Rachel Spring and its pool are framed by the gardens, away from the main museum view. Another option is the back of the museum building with steam rising nearby. Check on the day before relying on either, as their exact spots can be hard to find.",
+   "geographic_location": "Government Gardens lies on the shore of Lake Rotorua in central Rotorua, with the Rotorua Museum building overlooking the gardens and the Polynesian Spa close by on the lakefront.",
+   "directions_text": "Start from central Rotorua and head for the lakefront; the gardens are beside Lake Rotorua, and the museum building is easy to spot. Walk on from there to the open lawns in front of the Bath House for the view described here. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole façade with lawns in front. Switch to ultra-wide (0.5x) only if you are close and the towers will not fit. Use 2x or 3x telephoto to pick out the corner towers and timber framing.",
+    "where_to_stand": "Stand right at the subject (from the open lawns in front of the main façade, the central avenue approach). The Tudor-style Bath House with its white walls, black timber framing and corner towers, set against the English-style gardens in the foreground. The viewpoint described here is the open lawns in front of the main façade, on the central avenue approach to the Tudor-style Bath House, where the English-style gardens sit in the foreground.",
+    "how_to_frame": "Turn on gridlines and line the central avenue or a flower bed up with the middle of the building to give a strong, symmetrical shot. Keep a strip of garden along the bottom of the frame so the lawns feel part of the picture. If you want an alternative, walk to Rachel Spring for a calmer scene of the spring and pool framed by the gardens.",
+    "phone_settings_tip": "Tap on the white walls to focus, then drag the exposure slider down a little so they stay bright but keep their detail. If you want more of the park around the building, try panorama mode, holding the phone steady and level.",
+    "best_time": "Morning or late afternoon usually gives softer light on the façade. This is general guide advice and not specific to this spot."
+   },
+   "access_note": "The gardens are a public park, but the museum building has been reported closed for renovation, so check the official site before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Government Gardens",
+    "url": "https://en.wikipedia.org/wiki/Government_Gardens"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin",
+   "phone far from subject (776 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "W. Bulach",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:00_2009_03_20_1087_Rotorua_-_Gaverment_Gardens.jpg",
+   "from": "Wikidata Q5588837 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Rotorua Museum",
+  "in_cut": true,
+  "label": "Rotorua Museum",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 240,
+  "pin": [
+   176.2596496,
+   -38.1357403
+  ],
+  "camera": [
+   176.2596496,
+   -38.1357403
+  ],
+  "camera_source": "Researched viewpoint 'Government Gardens' (5 web pages); placed at OpenStreetMap 'Government Gardens' (way/137198217): edge nearest the subject (789 m across).",
+  "pin_note": "Position from OpenStreetMap way/137197434: the middle of the OpenStreetMap outline 'Rotorua Museum' (113 m across).",
+  "notes": "The Bath House building, the city's best-known landmark.",
+  "text": {
+   "description": "Rotorua Museum is the big half-timbered, Tudor-style building at the heart of Government Gardens, and it is one of the easiest buildings in the city to photograph. Its dark timber and steep rooflines stand out against the lawns and flower beds, and the open grass around it lets you walk back far enough to fit the whole facade in. Guides often call it one of New Zealand's most photographed buildings, and the Wikipedia article quotes that description too.\n\nIt began life as the Bath House, built between 1906 and 1908 and opened in 1908 as New Zealand's first spa facility. It became the museum in 1969, after the baths closed. The building has been closed to visitors since 2016 because of earthquake damage. Strengthening work began in June 2024 and is expected to finish in 2027, but reports about the reopening date differ, so check the current status before you go. The outside is still well worth photographing while the interior is shut.\n\nThe marked point is very close to the building, about 19 m from its centre, so it is not the place for the full facade. For the classic shot, walk back across the lawn, away from the building, until the whole facade fits, with the flower beds in the foreground. Keep your phone level so the walls stay straight. Tap the building to focus and pull the exposure slider down a little if the sky is bright. For a different angle, try the ornate gateway (named Prince's Gate Arches in one guide; Wikipedia calls it Prince's Arch and Gateway), which can frame the building from a distance with the gardens in front. Expect fencing or building works near the museum, so frame them out or shoot from further back.",
+   "geographic_location": "Rotorua Museum stands in Government Gardens, near the centre of Rotorua, on the southern side of Lake Rotorua. The gardens are the large park around the museum building.",
+   "directions_text": "Head for Government Gardens, on the southern shore of Lake Rotorua and near the centre of Rotorua. It can be reached on foot or by road. From there, walk back across the lawn, away from the building, until the whole facade fits in your frame, and keep facing east. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the full facade once you have walked back far enough. Use the ultra-wide (0.5x) if you are close to the building or want more lawn and flower beds in the frame. A 2x zoom picks out timber and roof details.",
+    "where_to_stand": "Stand in Government Gardens (open lawn in front of the museum facade, looking back at the building from the gardens). The half-timbered Tudor-style former bath house framed by flower beds and lawns, the classic full-facade view. It is not a full-facade spot. Walk back across the lawn, away from the building, until the whole facade fits, still facing east. From further back you should see the full Tudor-style facade framed by lawns and flower beds.",
+    "how_to_frame": "Turn on gridlines and line up the walls with the vertical lines so the building does not lean. Keep some flower bed or lawn in the bottom of the frame for depth. For a second view, try the ornate gateway (named Prince's Gate Arches in one guide; Wikipedia calls it Prince's Arch and Gateway), where the gateway frames the building with the gardens in front.",
+    "phone_settings_tip": "Tap the building to set focus, then slide the exposure down a touch if the sky is washing out. Avoid heavy zoom beyond 2x-3x, as the picture gets soft.",
+    "best_time": "Late afternoon is likely to be kind, as the sun should light the front of the building from behind you. Soft morning light also works. Overcast days are fine, as the dark timber against green lawns still looks good."
+   },
+   "access_note": "The museum building has been closed since 2016 for strengthening work, so check the official site before you go; the gardens around it are a public park.",
+   "claims_not_in_sources": [
+    "Government Gardens is a public park open for walking, with no entry charge for the lawns.",
+    "Late afternoon sun should fall on the front of the building when viewed from the west, looking east.",
+    "Fencing or building works may be visible near the museum while repairs continue.",
+    "The ornate gateway is named Prince's Gate Arches in only one guide (Wikipedia calls it Prince's Arch and Gateway); the name should be confirmed on a map.",
+    "Heavy zoom beyond 2x-3x on a phone can reduce image sharpness."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Rotorua Museum",
+    "url": "https://en.wikipedia.org/wiki/Rotorua_Museum"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "Szilas",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rotorua_Museum,_2016-01-24-2.jpg",
+   "from": "Wikidata Q7370609 main image"
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Ōhinemutu",
+  "in_cut": true,
+  "label": "Ōhinemutu Village",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 160,
+  "pin": [
+   176.245,
+   -38.129
+  ],
+  "camera": [
+   176.245,
+   -38.129
+  ],
+  "camera_source": "Researched viewpoint 'St Faith's Church' (3 web pages); placed at OpenStreetMap 'Te Hāhi o te Whakapono / St Faith's Church' (way/964613610): middle (29 m across); moved 10 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/1437092916: large area 'Ōhinemutu' (1031 m across): previous pin kept, it lies inside.",
+  "notes": "Historic Māori village on the lake shore with steaming ground.",
+  "text": {
+   "description": "Ōhinemutu is a living Māori village on the edge of Lake Rotorua, and it is also the original settlement of Rotorua. People have lived here continuously since 1365, according to the organiser of a 650-year celebration. Today it is still a real community, so you are photographing someone's home as well as a view. The best-known picture is St Faith's Church, a Tudor-style building with a spire, seen from its lakeside face. Mokoia Island sits in the distance, and steam from the warm ground drifts across the middle of the scene. The church is also known for a clear window with a Māori Christ figure that seems to stand on the lake. Guides treat the lake-facing side as the classic postcard angle. It works well on a phone because the church, water, steam and island fall into clear layers, and you do not need to zoom much to get them all in. Photograph the exterior from the public lakeside path and the roads. The church is a working parish church, so the inside may be locked, and the outside view is the reliable one. Keep your photos of the marae, the graves and the residents distant and respectful. Pukeroa Hill, also called Hospital Hill, is a second option for a wider view over the village.",
+   "geographic_location": "Ōhinemutu is a village suburb of Rotorua on the shore of Lake Rotorua. St Faith's Church stands on its lakeside edge.",
+   "directions_text": "Ōhinemutu is a suburb of Rotorua on the shore of Lake Rotorua. Head for St Faith's Church. Stay on public roads and the lakeside path. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene: church, water and island. Switch to 0.5x if you want more of the lakefront and sky. Use telephoto (2x-5x, depending on your phone) to pull Mokoia Island and the spire closer together.",
+    "where_to_stand": "Stand right at the subject (lakeside (east) face of the church, looking out over the water). The Tudor-style church spire and its lakeside setting, with Mokoia Island in the distance and steam from the thermal ground in the middle distance. From here you see the Tudor-style spire with its lakeside setting, Mokoia Island in the distance and steam from the thermal ground in the middle distance.",
+    "how_to_frame": "Turn on gridlines and place the spire on one of the vertical lines. Leave some lake and sky on the other side so the island shows. If you want a wider view over the whole village, Pukeroa Hill is an alternative viewpoint at sunrise.",
+    "phone_settings_tip": "Tap the steam or the sky to set focus, then pull the exposure slider down slightly so the steam stays white and the sky keeps its colour. Hold the phone steady with both hands, and check the church is not leaning by using the gridlines.",
+    "best_time": "Early morning, when the village streets are quiet and the light is soft."
+   },
+   "access_note": "The exterior is photographed from the public lakeside path and roads; St Faith's is a working parish church whose opening hours vary, so check the official site before you go if you hope to go inside."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Ohinemutu",
+    "url": "https://en.wikipedia.org/wiki/Ohinemutu"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "Shellie Evans",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:St_Faiths_Anglican_Church,_Ohinemutu,_Rotorua_(2).JPG",
+   "from": "Wikidata Q7080674 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Te Papaiouru Marae",
+  "in_cut": true,
+  "label": "Te Papaiouru Marae",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 0,
+  "pin": [
+   176.2486129,
+   -38.1278926
+  ],
+  "camera": [
+   176.248613,
+   -38.127893
+  ],
+  "camera_source": "Researched viewpoint 'Te Papaiouru Marae' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap way/1292052460: the middle of the OpenStreetMap outline 'Te Papaiouru Marae' (297 m across).",
+  "notes": "Carved meeting house at Ōhinemutu.",
+  "text": {
+   "description": "Te Papaiouru is a working marae at Ōhinemutu, the home marae of the Ngāti Whakaue subtribes Ngāti Tae-o-Tū and Ngāti Tūnohopū. Its carved meeting house, Tamatekapua, is named after the captain of the Te Arawa canoe, which arrived from Polynesia in about 1350. The house first opened in 1873, was taken down in 1939 and was rebuilt and reopened in 1943, though many of its carvings may be much older. It photographs well because of the layers in one view: the carved house, the guardian figures standing around a plaque in the grounds in front, and drifting geothermal steam behind. Together they give a strong sense of place without needing anything fancy from your phone. Stand in the grounds in front of the meeting house and build the picture around the carvings. Keep the house roughly centred, use the gridlines to keep the roofline level, and let the steam fill the background. This is a living community space, so be respectful. Please ask before photographing any residents, keep your phone down during any welcome ceremony (powhiri), and do not photograph inside the meeting house. Leave the burial grounds out of your pictures.",
+   "geographic_location": "Te Papaiouru Marae is in the Ōhinemutu area of Rotorua.",
+   "directions_text": "No stations or tram stops are listed near the marae. Once you arrive at Ōhinemutu, walk into the open grounds in front of the carved meeting house and go to the phone icon on the map near the central plaque with the four guardian figures. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene of house, guardian figures and steam. Use the telephoto (2x-3x, depending on your phone) for carving details from a respectful distance. The ultra-wide (0.5x) is only worth trying if you are close and want to fit in the full roofline, and it can stretch the edges of the frame.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here the carved Tamatekapua house sits behind the guardian carvings, with the geothermal setting of Ōhinemutu beyond.",
+    "how_to_frame": "Place a guardian figure low in the foreground and the carved house behind it so the picture has depth. Turn on the gridlines and keep the roofline level. Leave the burial grounds out of the frame, and keep people out of shot unless they have said yes.",
+    "phone_settings_tip": "Tap on the carved front of the house to set focus, then pull the exposure slider down slightly if the sky or steam is washing out. Take a few frames in case steam drifts across the view.",
+    "best_time": "Check that no ceremony or event is on before you take pictures."
+   },
+   "access_note": "This is a working marae in a living community, so check the official site before you go for any closures or event restrictions, and stay out of the meeting house interior.",
+   "claims_not_in_sources": []
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Te Papaiouru Marae",
+    "url": "https://en.wikipedia.org/wiki/Te_Papaiouru_Marae"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "User: (WT-shared) ED01 at wts wikivoyage",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ohinemutu_03.jpg",
+   "from": "Wikidata Q7690897 main image"
+  }
+ }
+]

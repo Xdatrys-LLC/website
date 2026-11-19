@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "lucerne", "title": "Lucerne: 14 photo spots (pilot review)", "place": "Lucerne", "bounds": [8.288, 47.036, 8.34, 47.065], "center": [8.314, 47.0505], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/lucerne/{z}/{x}/{y}.pbf"};

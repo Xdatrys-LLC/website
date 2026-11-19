@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "barcelona", "title": "Barcelona: 19 photo spots (pilot review)", "place": "Barcelona", "bounds": [2.1, 41.35, 2.23, 41.43], "center": [2.165, 41.39], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/barcelona/{z}/{x}/{y}.pbf", "tz": "Europe/Madrid", "rail": false, "app": true};

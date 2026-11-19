@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /review/
 Disallow: /maps/files/
 Disallow: /maps/thanks/
 

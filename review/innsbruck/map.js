@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "innsbruck", "title": "Innsbruck: 14 photo spots (pilot review)", "place": "Innsbruck", "bounds": [11.37, 47.235, 11.43, 47.295], "center": [11.399999999999999, 47.265], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/innsbruck/{z}/{x}/{y}.pbf"};

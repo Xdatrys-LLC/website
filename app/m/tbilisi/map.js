@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "tbilisi", "title": "Tbilisi: 18 photo spots (pilot review)", "place": "Tbilisi", "bounds": [44.772, 41.678, 44.826, 41.708], "center": [44.799, 41.693], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/tbilisi/{z}/{x}/{y}.pbf", "tz": "Asia/Tbilisi", "rail": true, "app": true};

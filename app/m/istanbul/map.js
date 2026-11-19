@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "istanbul", "title": "Istanbul: 20 photo spots (pilot review)", "place": "Istanbul", "bounds": [28.925, 40.995, 29.045, 41.055], "center": [28.985, 41.025], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/istanbul/{z}/{x}/{y}.pbf", "tz": "Europe/Istanbul", "rail": true, "app": true};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "willemstad", "title": "Willemstad: 14 photo spots (pilot review)", "place": "Willemstad", "bounds": [-68.945, 12.097, -68.895, 12.118], "center": [-68.91999999999999, 12.1075], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/willemstad/{z}/{x}/{y}.pbf"};

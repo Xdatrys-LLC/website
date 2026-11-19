@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "oslo", "title": "Oslo: 19 photo spots (pilot review)", "place": "Oslo", "bounds": [10.64, 59.895, 10.78, 59.97], "center": [10.71, 59.932500000000005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/oslo/{z}/{x}/{y}.pbf"};

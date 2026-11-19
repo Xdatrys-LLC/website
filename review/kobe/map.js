@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "kobe", "title": "Kobe: 14 photo spots (pilot review)", "place": "Kobe", "bounds": [135.175, 34.673, 135.2, 34.701], "center": [135.1875, 34.687], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/kobe/{z}/{x}/{y}.pbf"};

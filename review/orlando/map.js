@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "orlando", "title": "Orlando: 14 photo spots (pilot review)", "place": "Orlando", "bounds": [-81.415, 28.51, -81.345, 28.58], "center": [-81.38, 28.545], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/orlando/{z}/{x}/{y}.pbf"};

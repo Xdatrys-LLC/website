@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "bordeaux", "title": "Bordeaux: 19 photo spots (pilot review)", "place": "Bordeaux", "bounds": [-0.6, 44.822, -0.54, 44.868], "center": [-0.5700000000000001, 44.845], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bordeaux/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "neworleans", "title": "New Orleans: 19 photo spots (pilot review)", "place": "New Orleans", "bounds": [-90.098, 29.922, -90.048, 29.968], "center": [-90.07300000000001, 29.945], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/neworleans/{z}/{x}/{y}.pbf"};

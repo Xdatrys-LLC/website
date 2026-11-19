@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "edinburgh", "title": "Edinburgh: 20 photo spots (pilot review)", "place": "Edinburgh", "bounds": [-3.24, 55.925, -3.14, 55.985], "center": [-3.1900000000000004, 55.955], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/edinburgh/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "santorini", "title": "Santorini: 15 photo spots (pilot review)", "place": "Santorini", "bounds": [25.35, 36.33, 25.5, 36.48], "center": [25.425, 36.405], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/santorini/{z}/{x}/{y}.pbf", "tz": "Europe/Athens", "rail": false, "app": true};

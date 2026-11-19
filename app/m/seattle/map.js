@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "seattle", "title": "Seattle: 19 photo spots (pilot review)", "place": "Seattle", "bounds": [-122.375, 47.585, -122.305, 47.658], "center": [-122.34, 47.6215], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/seattle/{z}/{x}/{y}.pbf", "tz": "America/Los_Angeles", "rail": true, "app": true};

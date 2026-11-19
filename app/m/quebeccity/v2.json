@@ -1,0 +1,822 @@
+{
+ "Château Frontenac": {
+  "rank": 1,
+  "card": {
+   "hook": "Picture a giant copper-roofed castle perched on a cliff, with you trying to fit all of it in your phone without a stranger's elbow in the corner. That's the Château Frontenac, and it's an easy one to love.",
+   "stand_here": "Stand on Terrasse Dufferin, the boardwalk directly in front of the hotel near the Dufferin kiosk. Face north-west towards the hotel, with the St. Lawrence River behind you.",
+   "zoom": "Start at zoom 0.5x to get the whole façade and roof in one frame. Switch to 1x for a calmer, more natural look, then try 2x to 5x (depends on your phone) to pick out the towers, turrets and copper roof.",
+   "make_it_pop": "Turn on gridlines and line a tower up with a vertical line, and keep your phone level instead of tilting it up, so the building doesn't lean.",
+   "best_time": "Go early, before the tour buses arrive. One local guide gives about 6:30 AM in summer and 8:30 AM in winter. The terrace gets very crowded in summer and during cruise season.",
+   "selfie_here": "For a quiet selfie, try the far south-west corner of Parc Montmorency, just past the Cartier monument at the corner of rue Port-Dauphine and Côte de la Montagne. Guides say you get a clear view of the hotel with no other people in the frame. Or walk mid-way along the Dufferin Terrace boardwalk early (around 7 to 8 a.m.), face the river and use the front camera with the hotel over your shoulder. Zoom 0.5x helps fit more of the building in.",
+   "ask_someone": "Ask a passer-by to stand at the corner of rue Notre-Dame and rue du Cul-de-Sac and shoot up the lane, while you stand in the lane below the hotel so the whole building towers behind you.",
+   "rules_and_safety": "Terrasse Dufferin is a free, open public boardwalk. It runs along the cliff edge, so watch your footing while you back up for the shot.",
+   "challenge": "Find a tower, line it up with a gridline so it stands up straight, and see if you can get the shot with zero strangers in it.",
+   "good_to_know": "The Château Frontenac was designed by New York architect Bruce Price for the Canadian Pacific Railway and opened in 1893. It has 18 floors, stands about 80 metres tall, and was inspired by medieval châteaux in France's Loire Valley. It became a National Historic Site of Canada in 1981, and an earlier building, the Château Haldimand, stood here until it was demolished in 1892.",
+   "stand_here_before_gps_rule": "Stand on Terrasse Dufferin, the boardwalk directly in front of the hotel near the Dufferin kiosk. Face north-west towards the hotel, with the St. Lawrence River behind you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Parc Montmorency",
+     "detail": "far south-west corner of the park, just past the Cartier monument, at the corner of rue Port-Dauphine and Côte de la Montagne",
+     "why": "Several guides say it gives a clear view of the hotel with no other people in the frame.",
+     "sources": [
+      {
+       "title": "The Best Photo Spots for Château Frontenac (Urban Guide Québec)",
+       "url": "https://urbanguidequebec.com/best-spots-photographing-chateau-frontenac/"
+      },
+      {
+       "title": "19 Most Instagrammable Places in Quebec City",
+       "url": "https://kirstenwendlandt.com/instagrammable-places-in-quebec-city/"
+      }
+     ]
+    },
+    {
+     "name": "Dufferin Terrace boardwalk",
+     "detail": "mid-way along the boardwalk, facing the river with the hotel over your shoulder; best in early morning (around 7 to 8 a.m.)",
+     "why": "A guide's time-and-place table lists this as the spot for having the hotel behind you, when the boardwalk is empty.",
+     "sources": [
+      {
+       "title": "Dufferin Terrace: A Guide's Walkthrough of the Boardwalk Under the Château Frontenac",
+       "url": "https://www.quebeccity.tours/guides/dufferin-terrace/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Rue du Cul-de-Sac, from the corner of rue Notre-Dame",
+    "detail": "passer-by stands at the corner of rue Notre-Dame and rue du Cul-de-Sac and shoots up the lane; visitor stands in the lane below the hotel so the whole building towers behind them (low-angle shot)",
+    "sources": [
+     {
+      "title": "Quebec City Photo Spots: Best Viewpoints & Map",
+      "url": "https://thewonderlusters.com/best-quebec-city-sights-landmarks-photos-map/"
+     },
+     {
+      "title": "19 Most Instagrammable Places in Quebec City",
+      "url": "https://kirstenwendlandt.com/instagrammable-places-in-quebec-city/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "The sources do not say exactly where the visitor should stand for the ask-someone shot; the visitor position is inferred from the photographer's corner. No page gave rules on selfie sticks or tripods at these spots. A tripod is mentioned only as easy to set up at the Dalhousie docks, which is not a rule. Pages disagree on the best spot: most name Dufferin Terrace first, while others rank Parc Montmorency or Pierre-Dugua-de-Mons Terrace higher. I did not verify the supplied coordinates (46.81181, -71.20546) against these places."
+  },
+  "cost_usd": 0.0646,
+  "at": "2026-11-17 16:43",
+  "selfie_pos": [
+   46.8136946,
+   -71.204226
+  ],
+  "selfie_note": "Parc Montmorency (OpenStreetMap: Parc Montmorency, Vieux-Québec, Vieux-Québec–Cap-Blanc–Colli)"
+ },
+ "Montmorency Falls": {
+  "rank": 2,
+  "card": {
+   "hook": "Here's one for the group chat: these falls are about 30 m higher than Niagara. Picture a tall white ribbon of water against a dark cliff, and you've got your photo.",
+   "stand_here": "Stand on La Baronne, the clifftop observation deck beside the falls. The falls are close by, to the north-east, so face that way and you'll look at the cascade from a tighter, closer angle than from the bridge.",
+   "zoom": "Start at zoom 1x to get the whole scene. Then try 2x-5x (higher zooms depend on your phone) to pick out the cascade, and 0.5x when you want the gorge and Île d'Orléans in the same shot.",
+   "make_it_pop": "Tap the white water, then slide it a little darker so the foam keeps its detail instead of turning plain white.",
+   "best_time": "Go early in the morning. It's the calmest time, and one photo guide says it's before the crowds arrive. In summer the water can look a bit yellowish from the iron in the riverbed, which gives the scene a warmer colour.",
+   "selfie_here": "Try the small La Baronne deck, which frames the cascade tightly so the falls can sit behind you. Use the front camera, switch to 0.5x if your phone has it, and hold your arm up so the water is over your shoulder. The footbridge at the base of the falls is another easy option, a short walk rather than a climb.",
+   "ask_someone": "For a wider shot of you with the falls, ask someone on the Manoir Montmorency terrace, behind the Manoir at the top of the park, to take it.",
+   "rules_and_safety": "At the base of the 487-step staircase the ground is often slippery, so keep your footing steady. The park charges admission, and the staircase can be closed in winter or for repairs, so check the official site before you go.",
+   "challenge": "Take one photo each from La Baronne, the suspension bridge and the Escalier Panoramique, then see which angle wins.",
+   "good_to_know": "The falls drop 83 m into the St Lawrence River, at the mouth of the Montmorency River, about 12 km from the heart of old Quebec City. The park has staircases, a suspension bridge and a funitel, so allow time to walk between viewpoints. The bridge looks down the drop toward the river and the skyline, while the Escalier Panoramique looks up through the spray.",
+   "stand_here_before_gps_rule": "Stand on La Baronne, the clifftop observation deck beside the falls. The falls are close by, to the north-east, so face that way and you'll look at the cascade from a tighter, closer angle than from the bridge."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "La Baronne Observation Deck",
+     "detail": "small deck at the side of the falls, reached by the boardwalk from the Manoir Montmorency terrace",
+     "why": "Sources describe it as framing the cascade from a tighter, closer angle than the terrace, so the falls can sit behind you in a selfie.",
+     "sources": [
+      {
+       "title": "Montmorency Falls Tickets 2026, Hours, Prices, Quebec",
+       "url": "https://montmorencyfallstickets.com/"
+      },
+      {
+       "title": "Montmorency Falls: A Traveller's Guide to Quebec's Breathtaking Waterfall - Clever Canadian",
+       "url": "https://www.clevercanadian.ca/guide-to-montmorency-falls/"
+      }
+     ]
+    },
+    {
+     "name": "Contemplative Footbridge at the bottom of the falls",
+     "detail": "the footbridge at the base of the falls, a short walk rather than a climb",
+     "why": "A guide lists it as an easy option with panoramic views of the falls, so it works for a selfie with the cascade in the background.",
+     "sources": [
+      {
+       "title": "Montmorency Falls: A Traveller's Guide to Quebec's Breathtaking Waterfall - Clever Canadian",
+       "url": "https://www.clevercanadian.ca/guide-to-montmorency-falls/"
+      },
+      {
+       "title": "Montmorency Falls Vista Point - From Observation Tower of Montmorency Falls, Canada",
+       "url": "https://getnofilter.com/en/spot/montmorency-falls-vista-point-from-observation-tower-of-montmorency-falls-in-canada"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Manoir Montmorency Terrace",
+    "detail": "the terrace behind the Manoir Montmorency, at the top of the park",
+    "sources": [
+     {
+      "title": "Montmorency Falls Tickets 2026, Hours, Prices, Quebec",
+      "url": "https://montmorencyfallstickets.com/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "At the base of the 487-step staircase the ground is often slippery, so keep your footing steady.",
+   "notes": "No page I found states selfie stick or tripod rules for Montmorency Falls Park. The Disney and Tokyo Disney rules that came up are for other parks and were not used. Several guides mention tripods only as advice for long-exposure shots, which is not a rule. The Manoir terrace is recommended as a wider composition that suits group shots, so it is my choice for the passer-by spot. Neither selfie spot is described as having the falls directly behind the visitor; the sources only say the deck frames the cascade and the footbridge offers panoramic views. The ticket-seller site is a commercial page, so treat its spot descriptions with some caution. Position 46.89083, -71.14750 was not checked against any source."
+  },
+  "cost_usd": 0.0587,
+  "at": "2026-11-17 16:43"
+ },
+ "Plains of Abraham": {
+  "rank": 3,
+  "card": {
+   "hook": "Here's a fun fact to warm you up: the battle that decided Quebec City's fate was over in about half an hour, but this park is so big you could easily spend longer just finding the right spot for your photo. Good news, we've found it.",
+   "stand_here": "Head onto the Plains and stand on Pierre-Dugua-De Mons Terrace. Face across the lawn and the St. Lawrence River toward the Château Frontenac and the old city skyline.",
+   "zoom": "Start at zoom 0.5x to squeeze the lawns, the river and the skyline into one frame. Then try 1x for a more natural look, and 2x or 5x (depending on your phone) to pick out the Château Frontenac and the rooftops in the distance.",
+   "make_it_pop": "Switch on the gridlines and put the horizon on the upper line if you love the sky, or the lower line if the river is the star, with some grass or a path edge in the foreground.",
+   "best_time": "Early morning or late afternoon gives you softer light. Check the weather first, because a clear day shows off the river and the distant skyline best.",
+   "selfie_here": "The terrace itself is a good selfie spot, and visitors say photos here look postcard-worthy in any season. Use the front camera at 0.5x and try to get the view over your shoulder, then check the frame before you move on, as it's not confirmed which way gives the best backdrop. The Remains of the Blockhouse is another option, with the river and city in the background.",
+   "ask_someone": "",
+   "rules_and_safety": "The park is public, but the museum, tours and events may have their own rules, so check the official site before you go.",
+   "challenge": "Take one wide shot with the whole view in it, then one close shot of just the Château Frontenac, and see which one your friends like more.",
+   "good_to_know": "British and French forces fought here on 13 September 1759, and the battle left Quebec City in British hands. The park was created on 17 March 1908 and became the first National Historic Site in Canada. It covers about 98 hectares, is roughly 2.4 km long, and around four million people visit each year, so wear comfortable shoes.",
+   "stand_here_before_gps_rule": "Head onto the Plains and stand on Pierre-Dugua-De Mons Terrace. Face across the lawn and the St. Lawrence River toward the Château Frontenac and the old city skyline."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Pierre-Dugua-De-Mons Terrace (Battlefields Park, Parc des Champs-de-Bataille)",
+     "detail": "on the terrace at the Plains of Abraham, Parc des Champs-de-Bataille, Av. Saint-Denis side",
+     "why": "Reviewers say photos taken on this terrace look postcard-worthy in any season, though the pages do not say which way to face for the landmark.",
+     "sources": [
+      {
+       "title": "Plaines d'Abraham - Yelp",
+       "url": "https://www.yelp.com/biz/plaines-d-abraham-qu%C3%A9bec"
+      },
+      {
+       "title": "The 30 best photo spots in Quebec City - Wanderlog",
+       "url": "https://wanderlog.com/list/geoCategory/161167"
+      }
+     ]
+    },
+    {
+     "name": "Remains of the Blockhouse (Plains of Abraham)",
+     "detail": "at the Remains of the Blockhouse, the historic blockhouse ruins on the Plains of Abraham",
+     "why": "The park's own page presents this spot with the river and city in the background, so it is a strong option for a scenic backdrop, though it is not confirmed that the Plains themselves are behind the visitor.",
+     "sources": [
+      {
+       "title": "Historical Locations and Monuments - Plains of Abraham",
+       "url": "https://www.plainsofabraham.ca/locations-historical-monuments"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "The coordinates 46.79972, -71.22083 were not verified against any page. No page names a spot where a passer-by should stand to photograph a visitor with the whole Plains of Abraham in frame, so ask_someone_spot is null. The selfie spots are only loosely matched to the request: no page states that the Plains are behind the visitor at either spot, so confirm the framing on site. The Disney and Tokyo Disney selfie stick and tripod rules found in the search apply to theme parks, not this public park, so they were left out. No page gives a rule for selfie sticks or tripods at the Plains of Abraham."
+  },
+  "cost_usd": 0.0553,
+  "at": "2026-11-17 16:44"
+ },
+ "Place Royale": {
+  "rank": 4,
+  "card": {
+   "hook": "Picture a tiny cobbled square where a church front, a bust of a French king and a ring of steep-roofed stone houses all squeeze into one photo. That's Place Royale, and yes, it really does look like that.",
+   "stand_here": "Stand in Place Royale at the eastern end of the square, facing the church front of Notre-Dame-des-Victoires. The middle of the square is to the south of you, about 1 minute on foot.",
+   "zoom": "Start at zoom 0.5x to fit the church, the cobbles and the houses together. Switch to 1x for a more natural look at the church front, then try 2x to 5x (depending on your phone) for the church door, the bust or the stonework.",
+   "make_it_pop": "Turn on gridlines, keep the church front centred with the cobbles filling the bottom of the shot, and tap the church front, then drag the brightness slider darker if the sky is washing out.",
+   "best_time": "Go early, before about 9 AM, when the square is at its quietest and most atmospheric. Late afternoon can bring warmer light onto the house fronts, and if the square is busy, rue Dalhousie may give you a quieter, closer-in angle (check it on the map first).",
+   "selfie_here": "Stand in the square in front of the stone facade of Notre-Dame-des-Victoires with the church behind you. Use the front camera, and try 0.5x if your phone has it on the front so more of the church and square fits in.",
+   "ask_someone": "Ask a passer-by to stand at a corner of the square and shoot diagonally across, so the roofs and church tower fill the frame behind you.",
+   "rules_and_safety": "Wear comfortable, non-slip shoes, because the old streets are narrow, hilly and paved with uneven cobblestones. Businesses or events can occupy parts of the square and block some of the view, so check beforehand if you need it clear.",
+   "challenge": "Can you get the church front, the Louis XIV bust and at least two stone houses into one shot without anyone walking through it? Take a few in a row and see who wins.",
+   "good_to_know": "Samuel de Champlain founded the settlement here in 1608, which is why the square is often called the cradle of French civilization in America. The stone houses went up after a fire in 1682 destroyed the earlier wooden buildings. The bust of Louis XIV is a replica of the 1686 original and gives the square its name.",
+   "stand_here_before_gps_rule": "Stand in Place Royale at the eastern end of the square, facing the church front of Notre-Dame-des-Victoires. The middle of the square is to the south of you, about 1 minute on foot."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Notre-Dame-des-Victoires church facade, Place Royale",
+     "detail": "in the square, standing in front of the church's stone facade with the church behind you",
+     "why": "Guides call the church's symmetrical facade the centerpiece of the square and suggest photographing in front of it against the Place Royale backdrop.",
+     "sources": [
+      {
+       "title": "Église Notre-Dame-des-Victoires | Quebec Photo Spot (Pixeo)",
+       "url": "https://www.pixeoapp.com/photo-spots/north-america/canada/quebec/eglise-notre-dame-des-victoires/"
+      },
+      {
+       "title": "Église Notre-Dame-des-Victoires (church) - Point of interest (Québec City tourism)",
+       "url": "https://www.quebec-cite.com/en/businesses/eglise-notre-dame-des-victoires-church"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "A corner of Place Royale square",
+    "detail": "stand at a corner of the square and shoot diagonally across, so the roofs and church tower fill the frame behind the visitor",
+    "sources": [
+     {
+      "title": "10 Unforgettable Photo Spots in Old Québec You Haven't Seen a Thousand Times (Quebec Region)",
+      "url": "http://quebecregion.com/en/blog/2016/03/04/10-spots-different-photo-old-quebec/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Wear comfortable, non-slip shoes, since the old streets are narrow, hilly and paved with uneven cobblestones.",
+   "notes": "No page gives a selfie orientation, so the 'church behind you' detail is my inference from the facade-photo advice; a passer-by 'corner' is a general square-photo tip from a 2016 blog, not a named corner, and it is not stated as a way to shoot a visitor. The Place Royale address (2-4 rue des Pains Bénits) appears on several pages. The Fresque des Québécois mural is only 'a few steps' from the square per pages found, so I left it out. The given coordinates are about 30-40 m from the Place Royale point listed on one page, which is close enough. No page gives selfie-stick or tripod rules for this site, and no rule was found in the sources."
+  },
+  "cost_usd": 0.0587,
+  "at": "2026-11-17 16:44"
+ },
+ "Notre-Dame de Québec Basilica-Cathedral": {
+  "rank": 5,
+  "card": {
+   "hook": "Here's a church that has been burned down and rebuilt more than once, and it still looks calm and tidy in a phone photo. The pale stone front, the tower and the symmetry do half the work for you.",
+   "stand_here": "Stand in Place de l'Hôtel-de-Ville, the square in front of the cathedral in Old Québec, and face the church. You should see the Seminary of Quebec peeking out behind it on the left, with older buildings around the edges.",
+   "zoom": "Start at 0.5x to fit the whole front, the square and the buildings around it. Then try 1x for a calmer, more natural look. Go to 2x or 5x, depending on your phone, for the tower and the stonework.",
+   "make_it_pop": "Turn on the gridlines and line the church up with the vertical lines, and keep your phone level and upright so the walls don't lean inwards.",
+   "best_time": "Go early for the quietest square. In the evening there can be live music and street performers, which is lively but puts more people in your shots.",
+   "selfie_here": "Stand on Place de l'Hôtel-de-Ville with the cathedral's main front behind you, use the front camera and keep the church over your shoulder. For a quieter backdrop, try the Pilgrims' Garden on the north side, near the Holy Door, where the building stays in the frame. If your front camera has 0.5x, it helps fit more in.",
+   "ask_someone": "Ask a passer-by to stand in the square far enough back to take in the whole front, while you stand with the cathedral behind you.",
+   "rules_and_safety": "The cathedral is a working place of worship, so check the official site before you go for visiting arrangements. No selfie sticks are allowed inside, flash is a no, and please don't photograph during Mass or private prayer.",
+   "challenge": "Take three frames of the front from different distances, then pick the one where the walls stand straight and the tower looks proudest.",
+   "good_to_know": "A chapel built by Samuel de Champlain stood on this spot in 1633, and the church is often described as the oldest in Canada. It became a minor basilica in 1874 and is now a National Historic Site of Canada. It was rebuilt after fires in 1759 and 1922, and the present front dates from a reconstruction proposed in 1843.",
+   "stand_here_before_gps_rule": "Stand in Place de l'Hôtel-de-Ville, the square in front of the cathedral in Old Québec, and face the church. You should see the Seminary of Quebec peeking out behind it on the left, with older buildings around the edges."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Place de l'Hôtel-de-Ville (the square in front of the cathedral)",
+     "detail": "on the square in front of the basilica's main façade, with the cathedral behind you",
+     "why": "A guide calls the square in front of the cathedral especially charming in the evening, with live music and street performers, which makes it a lively backdrop for a portrait.",
+     "sources": [
+      {
+       "title": "The 30 best photo spots in Quebec City (Wanderlog)",
+       "url": "https://wanderlog.com/list/geoCategory/161167/best-photo-spots-in-quebec-city"
+      },
+      {
+       "title": "Cathedral-Basilica of Notre-Dame de Québec on city hall square (Getty Images)",
+       "url": "https://www.gettyimages.com.au/detail/photo/cathedral-basilica-of-notre-dame-de-qu%C3%A9bec-qu%C3%A9bec-royalty-free-image/1472652252"
+      }
+     ]
+    },
+    {
+     "name": "Pilgrims' Garden (north side of the basilica)",
+     "detail": "in the garden on the north side of the cathedral, near the Holy Door",
+     "why": "One guide says the north side has access to the Pilgrims' Garden and vantage points that show the cathedral against the surrounding streets, so a portrait there keeps the building in the frame; a second guide also points to the side garden as a photo angle.",
+     "sources": [
+      {
+       "title": "The Complete Basilica Notre Dame de Quebec Experience From Entry to Exit (thetraveler.org)",
+       "url": "https://www.thetraveler.org/the-complete-basilica-notre-dame-de-quebec-experience-from-entry-to-exit/"
+      },
+      {
+       "title": "10 Best Photo Spots In Quebec City Plus Easy Photography Tips (Celebrate Life's Adventures)",
+       "url": "https://celebratelifesadventures.com/photo-spots-in-quebec-city/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Place de l'Hôtel-de-Ville (city hall square, in front of the cathedral)",
+    "detail": "on the square in front of the cathedral, standing back far enough to take in the façade",
+    "sources": [
+     {
+      "title": "Cathedral-Basilica of Notre-Dame de Québec on city hall square (Getty Images)",
+      "url": "https://www.gettyimages.com.au/detail/photo/cathedral-basilica-of-notre-dame-de-qu%C3%A9bec-qu%C3%A9bec-royalty-free-image/1472652252"
+     },
+     {
+      "title": "21 Beautiful Places to Visit in Quebec City Perfect for Instagram (Travel Bliss Now)",
+      "url": "https://www.travelblissnow.com/instagram-photo-spots-in-quebec-city/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "No selfie sticks are allowed inside the basilica.",
+     "sources": [
+      {
+       "title": "Notre-Dame de Québec Basilica-Cathedral attraction guide (Trip Moments)",
+       "url": "https://us.trip.com/moments/theme/poi-notre-dame-de-qubec-basilica-cathedral-88475-attraction-993137/"
+      }
+     ]
+    },
+    {
+     "rule": "Photography inside is tolerated without flash when no service is in progress; do not photograph during Mass or private prayer.",
+     "sources": [
+      {
+       "title": "The Complete Basilica Notre Dame de Quebec Experience From Entry to Exit (thetraveler.org)",
+       "url": "https://www.thetraveler.org/the-complete-basilica-notre-dame-de-quebec-experience-from-entry-to-exit/"
+      },
+      {
+       "title": "Notre-Dame de Québec Basilica-Cathedral (Airial)",
+       "url": "https://airial.travel/attractions/canada/qu%C3%A9bec/notre-dame-de-qu%C3%A9bec-basilica-cathedral-SbM8iEvo"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The coordinates (46.81378, -71.20602) match the Quebec City basilica. Many search results were about Montreal's Notre-Dame Basilica and were excluded. No page names an explicit selfie spot with the basilica behind the visitor; the two selfie spots are inferred from named squares and gardens described in the sources, so verify them on arrival. Interior photo rules conflict: one page says no photography is allowed, while others say it is generally permitted outside services. No page gave a tripod rule for this basilica. The Pilgrims' Garden and the 'side garden' may be the same place, which is an assumption."
+  },
+  "cost_usd": 0.0579,
+  "at": "2026-11-17 16:45"
+ },
+ "Dufferin Terrace": {
+  "rank": 6,
+  "card": {
+   "hook": "Picture a long wooden boardwalk running straight at a grand hotel, with a wide river on the other side. From up high, Dufferin Terrace looks like it was laid out just for your phone.",
+   "stand_here": "Head up to Pierre-Dugua-De-Mons Terrace, the elevated lookout above the boardwalk, with Dufferin Terrace to the north of you. Face the boardwalk so the Château Frontenac and the St. Lawrence River sit beyond it.",
+   "zoom": "Start at 1x to get the boardwalk, the hotel and the river in one shot. If it's busy, or you want the whole length of the boardwalk, tap 0.5x. Try 2x to 5x (depending on your phone) to pick out the gazebos and the hotel towers.",
+   "make_it_pop": "Turn on gridlines and line the boardwalk up with a grid line so it leads your eye to the hotel, then tap the hotel and slide it a little darker so the sky keeps its colour.",
+   "best_time": "Early in the day or later in the afternoon is usually calmer and kinder to the light than midday. In cruise season and summer, street performers and crowds fill the boardwalk, so wait for people to wander out of your frame.",
+   "selfie_here": "Take it right here on Pierre-Dugua-De-Mons Terrace, where the raised lookout puts the boardwalk in the background. Use the front camera, try 0.5x to squeeze more in, and keep the view over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Parts of the terrace can be steep, cobbled or gravelly, and the walkway under the terrace isn't always open, so check the official site before you go.",
+   "challenge": "There are six named gazebos along the boardwalk, so see how many repeating little shapes you can fit into one wide shot.",
+   "good_to_know": "The terrace was built under the Marquess of Dufferin, then Governor General of Canada, and opened on 28 June 1879. Parks Canada looks after it. At the southern end, a 150-metre ramp turns into a toboggan run during the Quebec Winter Carnival.",
+   "stand_here_before_gps_rule": "Head up to Pierre-Dugua-De-Mons Terrace, the elevated lookout above the boardwalk, with Dufferin Terrace to the north of you. Face the boardwalk so the Château Frontenac and the St. Lawrence River sit beyond it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Pierre-Dugua-De-Mons Terrace",
+     "detail": "the elevated lookout above Dufferin Terrace, reached on foot from Upper Town",
+     "why": "It is a raised lookout that gives a sweeping view over Dufferin Terrace, so a visitor standing here can have the boardwalk in the background.",
+     "sources": [
+      {
+       "title": "Top 10 Places to Take Photos in Quebec City",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-quebec-city/"
+      },
+      {
+       "title": "Quebec City Photo Spots: Best Viewpoints & Map",
+       "url": "https://thewonderlusters.com/best-quebec-city-sights-landmarks-photos-map/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot is supported. No page I found describes a visitor standing with Dufferin Terrace directly behind them; the Pierre-Dugua-De-Mons Terrace choice is inferred from pages saying it looks over Dufferin Terrace. Every Dufferin Terrace photo guide found frames the Château Frontenac, not the terrace, so no page named a spot where a passer-by can photograph a visitor with the whole terrace behind them. Place d'Armes is named as a Frontenac photo spot, but I left it out because it does not show the terrace. Search results were limited to one-line mentions and some dates looked outdated, so check the spot on arrival. The only selfie-stick and tripod rules I found were for Disney and Tokyo Disney parks, which do not apply to Quebec City, so no rules are listed."
+  },
+  "cost_usd": 0.0553,
+  "at": "2026-11-17 16:45"
+ },
+ "Petit Champlain": {
+  "rank": 7,
+  "card": {
+   "hook": "Picture a narrow cobbled lane slipping away below you, with shop signs, strung lights and old facades all pointing the same way. That's Petit Champlain, and it does half your composing for you.",
+   "stand_here": "Stand on the Escalier Casse-Cou (the Breakneck Stairs), on the middle section or one of its landings. Face south, looking down toward Rue du Petit-Champlain. Use a landing to step aside so you can take your time without blocking anyone.",
+   "zoom": "Start at zoom 1x for the street falling away below you. Switch to zoom 0.5x if you want more of the buildings and lights in the frame, because the narrow lane suits it well.",
+   "make_it_pop": "Turn on your gridlines and keep the building edges upright so they don't lean as the street drops away.",
+   "best_time": "Get there around 7 to 8 am, when the steps are nearly empty. The stairs and street get very busy from mid-morning. Early evening has nicer light if you don't mind people in your shot.",
+   "selfie_here": "Try the ivy-covered brick building at 81 Rue du Petit Champlain. One photographer calls its ivy-and-flower-basket facade charming at any time, even when the street is busy. Or try the Fresque du Petit-Champlain mural near the base of the funicular, on the Petit-Champlain side. Use the front camera at zoom 0.5x and stand in front of it so the mural and the area fill the background.",
+   "ask_someone": "Hand your phone to a passer-by at the corner of Rue du Cul-de-Sac and Rue Notre-Dame, where one guide says you can fit both Petit-Champlain and Château Frontenac in the same frame.",
+   "rules_and_safety": "The mural area may have barriers and fencing during restoration work, so it might be partly blocked. Check the official site for closures or building works before you go.",
+   "challenge": "Find the spot where the strung lights, the cobbles and the shop signs all line up, then take one shot with nobody in it. Early birds have the best odds.",
+   "good_to_know": "Petit Champlain is the little cobbled lane at the foot of the cliff in Quebec City, lined with shopfronts and historic buildings. The big painted mural nearby shows scenes from the neighbourhood's history and daily life. The stairs and the street are public and need no ticket.",
+   "stand_here_before_gps_rule": "Stand on the Escalier Casse-Cou (the Breakneck Stairs), on the middle section or one of its landings. Face south, looking down toward Rue du Petit-Champlain. Use a landing to step aside so you can take your time without blocking anyone."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "81 Rue du Petit Champlain (ivy-covered brick building)",
+     "detail": "at the entrance of the ivy-covered brick building on Rue du Petit Champlain, where the photo is taken from the building entrance",
+     "why": "A photographer calls this a charming, ivy-and-flower-basket facade that can be shot at any time, even when the street is busy.",
+     "sources": [
+      {
+       "title": "19 Most Instagrammable Places in Quebec City - Best Photo Spots Guide",
+       "url": "https://kirstenwendlandt.com/instagrammable-places-in-quebec-city/"
+      }
+     ]
+    },
+    {
+     "name": "Fresque du Petit-Champlain mural",
+     "detail": "tucked near the base of the funicular, on the Petit-Champlain side",
+     "why": "A guide says this mural looks good with a wide-angle shot, so a visitor standing in front of it can have the mural and the Petit-Champlain area behind them.",
+     "sources": [
+      {
+       "title": "10 Best Photo Spots In Quebec City Plus Easy Photography Tips",
+       "url": "https://celebratelifesadventures.com/photo-spots-in-quebec-city/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Corner of Rue du Cul-de-Sac and Rue Notre-Dame",
+    "detail": "the passer-by stands at this corner, where one guide says to take pictures that show both Petit-Champlain and Château Frontenac in the same frame",
+    "sources": [
+     {
+      "title": "The 15 Prettiest Streets in Old Québec",
+      "url": "https://www.quebec-cite.com/en/quebec-city/cutest-streets"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "A tripod can be set up on the Breakneck Stairs when it is not too busy, but the photographer should not leave it unattended.",
+     "sources": [
+      {
+       "title": "A photographer's guide to the best spots in Quebec City",
+       "url": "https://www.lovefromsteph.com/best-photo-spots-in-quebec-city/"
+      }
+     ]
+    },
+    {
+     "rule": "On Rue du Petit Champlain, a tripod is practically impossible once the street gets busy, so it is only workable first thing in the morning.",
+     "sources": [
+      {
+       "title": "A photographer's guide to the best spots in Quebec City",
+       "url": "https://www.lovefromsteph.com/best-photo-spots-in-quebec-city/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a spot where a visitor stands with Petit-Champlain itself behind them, so both selfie picks are photo spots that the sources describe, not confirmed selfie positions. The 81 Rue du Petit Champlain entrance and the mural are the closest fits. Breakneck Stairs were left out as a selfie spot because the pages describe looking down onto the street, which would put the landmark in front of the visitor. The ask-someone spot comes from a page that names the corner for photographing Petit-Champlain with Château Frontenac, but it does not say where the visitor should stand, so the placement is inferred. The mural and the corner are named on pages that give no street numbers, and the corner's exact position should be checked on a map. The rules came from photographers' tips, not official regulations. No selfie-stick rule was found."
+  },
+  "cost_usd": 0.0508,
+  "at": "2026-11-17 16:46",
+  "selfie_pos": [
+   46.8110986,
+   -71.2034856
+  ],
+  "selfie_note": "81 Rue du Petit Champlain (OpenStreetMap: 81, Rue du Petit-Champlain, Vieux-Québec, Vieux-Québec–Cap-B)"
+ },
+ "Gare du Palais": {
+  "rank": 8,
+  "card": {
+   "hook": "Most train stations make you rush. This one makes you stop on the lawn and wonder which fairytale king just took the 5:15. With its steep copper roofs and turrets, it looks like a small château.",
+   "stand_here": "Stand in Place Jean-Pelletier, the grassy public lawn in front of the station, and face the front of the building. The Éclatement II fountain sits in front of you and the whole château-style façade fills the background.",
+   "zoom": "Start at 1x to fit the whole façade and the fountain in one shot. If you're close to the fountain and want it big in the foreground, try 0.5x. Use 2x or 5x (depending on your phone) to pick out the turrets, dormers and the clock on the roof.",
+   "make_it_pop": "Turn on gridlines, put the fountain on the lower third with the turrets above it, and keep your phone level so the towers don't lean.",
+   "best_time": "There's no single best time. Daylight is best, because you can see the stone and copper roofs clearly. The pointed roofs make a strong outline, so even a plain grey day works.",
+   "selfie_here": "Stand on the park lawn beside the fountain, with your back to the station's front entrance. Use the front camera, try 0.5x to squeeze in more of the château, and keep the roofs and turrets over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the lawn well out from the building, past the fountain, while you stand near the fountain, so the whole station fits behind you.",
+   "rules_and_safety": "The lawn is an open public square with no charge. The fountain isn't always running and the station has had renovation work, so the façade may look a bit different from older photos.",
+   "challenge": "Zoom in until you can fit the roof clock and one turret in the frame, then step back and get the fountain in the foreground. Two shots, one château.",
+   "good_to_know": "The Canadian Pacific Railway built the station in 1915, in the château style of the Loire. It looks a lot like the Château Frontenac hotel. It closed to passengers in 1976, reopened in 1985 after a major renovation, and became a Heritage Railway Station in 1992.",
+   "stand_here_before_gps_rule": "Stand in Place Jean-Pelletier, the grassy public lawn in front of the station, and face the front of the building. The Éclatement II fountain sits in front of you and the whole château-style façade fills the background."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Park and fountain in front of Gare du Palais",
+     "detail": "on the park lawn beside the fountain, facing the station's front entrance (450 Rue de la Gare-du-Palais)",
+     "why": "The park and fountain sit in front of the station, so a visitor standing there gets the château-style façade directly behind them.",
+     "sources": [
+      {
+       "title": "Québec City Train Station",
+       "url": "https://www.quebec-cite.com/en/what-to-do-quebec-city/quebec-city-train-station"
+      },
+      {
+       "title": "Quebec City: Gare du Palais (Trainorders forum)",
+       "url": "https://www.trainorders.com/discussion/read.php?15,2822805"
+      },
+      {
+       "title": "Top 7 Instagram Spots in Quebec City",
+       "url": "https://theredheadchronicles.wordpress.com/2018/10/21/top-7-instagram-spots-in-quebec-city%F0%9F%87%A8%F0%9F%87%A6/"
+      }
+     ]
+    },
+    {
+     "name": "Bench on the grassy knoll above Gare du Palais",
+     "detail": "the bench on the grassy rise above the station, reached from the park area around the building",
+     "why": "A blogger chose this bench over the crowded knoll as a photo location shot just before sunset, though the page does not say which way the bench faces the station.",
+     "sources": [
+      {
+       "title": "Top 7 Instagram Spots in Quebec City",
+       "url": "https://theredheadchronicles.wordpress.com/2018/10/21/top-7-instagram-spots-in-quebec-city%F0%9F%87%A8%F0%9F%87%A6/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Park lawn in front of Gare du Palais, farther out from the station",
+    "detail": "stand on the park lawn well out from the building, past the fountain, so the whole station fits in the frame",
+    "sources": [
+     {
+      "title": "Quebec City: Gare du Palais (Trainorders forum)",
+      "url": "https://www.trainorders.com/discussion/read.php?15,2822805"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Evidence is thin: no page gives a specific selfie angle or a safety point. The park-and-fountain spot and the fountain-side park view come from a 2012 forum post and a 2018 blog, so check that the fountain is still in place. The bench spot's position relative to the station is unclear. Photography inside the station is generally allowed, per one page, but no page addresses selfie sticks or tripods. One page notes ongoing renovations at the station, so the façade may be partly obscured."
+  },
+  "cost_usd": 0.0459,
+  "at": "2026-11-17 16:46"
+ },
+ "Citadelle of Quebec": {
+  "rank": 9,
+  "card": {
+   "hook": "Here's a fun surprise: this huge stone fortress on a clifftop isn't a museum piece, it's still a working military base. The walls look every bit as serious as that sounds, and they make a great backdrop.",
+   "stand_here": "Stand on Terrasse Pierre-Dugua-De-Mons, the elevated terrace beside the Citadelle's outer walls. The fortress itself lies about 293 m to the south-west of this point, so face south-west with the stone walls in front of you.",
+   "zoom": "Start at zoom 1x so the walls fit with some sky above. Tap 0.5x if you want more wall in the foreground, or 2x to 5x (depending on your phone) to pick out one stretch of stone.",
+   "make_it_pop": "Turn on gridlines, put the wall along the lower third and let the sky fill the top, then keep the horizon level because the walls will make any tilt obvious.",
+   "best_time": "Early morning or late afternoon usually gives softer light on the stone. It's kinder to the walls, and kinder to you too.",
+   "selfie_here": "Try the Promenade des Gouverneurs, the elevated boardwalk under the fort walls, with the St. Lawrence River on the other side. Use the front camera, face the water and the Citadelle walls will sit behind you. You could also try 0.5x to fit more wall in.",
+   "ask_someone": "Ask a passer-by on the Plains of Abraham, at a point where the fort is in view, to take your photo with the walls behind you.",
+   "rules_and_safety": "The Citadelle is an active military site, so the grounds are visited on guided tours and photography is restricted in some areas. Check the official site before you go, including the Changing of the Guard dates. The Promenade des Gouverneurs has many steps, so it suits you best if you're comfortable at heights and reasonably fit.",
+   "challenge": "Get a shot with the wall along the bottom, a big slice of sky on top, and a stranger strolling along the stones for scale.",
+   "good_to_know": "The Citadelle is a star-shaped stone fortress on Cap Diamant, the rocky headland above the St. Lawrence River. The present fortress was built between 1820 and 1850, and the Royal 22e Régiment has been based here since 1920. It sits inside Old Quebec, which became a World Heritage Site in 1985.",
+   "stand_here_before_gps_rule": "Stand on Terrasse Pierre-Dugua-De-Mons, the elevated terrace beside the Citadelle's outer walls. The fortress itself lies about 293 m to the south-west of this point, so face south-west with the stone walls in front of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Promenade des Gouverneurs (Governors' Promenade)",
+     "detail": "on the elevated boardwalk that runs beneath the fort walls, with the St. Lawrence River on the opposite side",
+     "why": "The walkway runs along the fortification wall on one side and opens onto the river on the other, so a selfie facing the water keeps the Citadelle walls behind you.",
+     "sources": [
+      {
+       "title": "Governors' Promenade, Quebec City, QC - Reviews, Ratings, Tips and Why You Should Go (Wanderlog)",
+       "url": "https://wanderlog.com/place/details/1253099/governors-promenade"
+      },
+      {
+       "title": "La Promenade des Gouverneurs - All You SHOULD Know Before Going (Tripadvisor)",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g155033-d155622-Reviews-La_Promenade_des_Gouverneurs-Quebec_City_Quebec.html"
+      }
+     ]
+    },
+    {
+     "name": "Terrasse Pierre-Dugua-De-Mons",
+     "detail": "the lookout terrace inside Parc du Bastion-de-la-Reine, alongside the Citadelle",
+     "why": "The terrace sits beside the fort and gives wide views, so the Citadelle can sit behind you in a selfie; the source does not explicitly describe this framing.",
+     "sources": [
+      {
+       "title": "Top 10 Places to Take Photos in Quebec City (Flytographer)",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-quebec-city/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Plains of Abraham (Parc des Champs-de-Bataille)",
+    "detail": "a point on the Plains of Abraham from which the fort is in view, the vantage a photographer would use to frame the whole Citadelle",
+    "sources": [
+     {
+      "title": "Quintessential Québec City: The Plains of Abraham and its Historic Battles",
+      "url": "https://www.amcl-schatz.com/post/quintessential-qu%C3%A9bec-city-the-plains-of-abraham-and-its-historic-battles"
+     },
+     {
+      "title": "The Citadel of Quebec - hikes and trails to get you there (AllTrails)",
+      "url": "https://www.alltrails.com/poi/canada/quebec/quebec-city/la-citadelle-de-quebec"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "One source warns that the Promenade des Gouverneurs has many steps and is only suited to visitors who are comfortable at heights and reasonably fit.",
+   "notes": "No page I found clearly says that the whole fort is framed behind a selfie at either spot, so the selfie placements are inferred from descriptions of the walkway and terrace. The Plains of Abraham suggestion for the passer-by is based on one blog's account of viewing the fort from there; no page gives a named photo point. The Citadelle grounds are an active military site, so the fort itself may be restricted to guided visitors, and no page states rules about selfie sticks or tripods."
+  },
+  "cost_usd": 0.064,
+  "at": "2026-11-17 16:47",
+  "selfie_pos": [
+   46.8075205,
+   -71.2052894
+  ],
+  "selfie_note": "Promenade des Gouverneurs (OpenStreetMap: Promenade des Gouverneurs, Vieux-Québec, Vieux-Québec–Cap-Bl)"
+ },
+ "Observatoire de la Capitale": {
+  "rank": 10,
+  "card": {
+   "hook": "Here's a cheat code for big-view photos: go up. The Observatoire de la Capitale sits on the 31st floor of the Marie-Guyart Building, so your phone gets a wide scene to play with instead of a street-level view.",
+   "stand_here": "Stand right at the Observatoire de la Capitale itself. The phone icon on the map marks the spot, so there's no extra walk. Face the window with the clearest view and no people in the way.",
+   "zoom": "Start at zoom 0.5x to grab the full sweep. Then go to 1x for a cleaner, less stretched shot of one landmark. Try 2x to 5x (depending on your phone) to pick out distant details.",
+   "make_it_pop": "Press your phone flat against the glass and cup your hand or a dark jacket around it to cut reflections.",
+   "best_time": "Late afternoon to sunset usually gives softer light and warmer colours. After dark, try night mode and rest your phone against a surface to keep it steady.",
+   "selfie_here": "Use the front camera and switch to 0.5x so more of the view squeezes in behind you. Turn so the city is over your shoulder, and hold the phone close to the glass to keep reflections down.",
+   "ask_someone": "",
+   "rules_and_safety": "Tickets must be booked online, so sort that out before you go. Check the official site for current access details.",
+   "challenge": "Turn on gridlines, line the horizon up with one, and add something close by in the frame for depth. Bonus points if nobody's reflection sneaks in.",
+   "good_to_know": "The Observatoire de la Capitale is a viewing spot in Quebec City. It's on the 31st floor of the Marie-Guyart Building at 1037 Rue de la Chevrotière. The height lets you shoot a wide scene first, then zoom in on the details.",
+   "stand_here_before_gps_rule": "Stand right at the Observatoire de la Capitale itself. The phone icon on the map marks the spot, so there's no extra walk. Face the window with the clearest view and no people in the way."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a spot where a visitor can stand with the Observatoire de la Capitale directly behind them, so I have not listed any selfie spot. The Observatoire is on the 31st floor of the Marie-Guyart Building at 1037 Rue de la Chevrotière, so a photo with it in frame would have to be taken from the street, and no source describes that. Terrasse Dufferin and Terrasse Pierre-Dugua-De-Mons are recommended for shots of Château Frontenac and the river, and the pages do not say the Observatoire is visible from them. Sources that describe the building: https://www.quebecvacances.com/en/attractions/observatoire-de-la-capitale and https://www.lonelyplanet.com/points-of-interest/observatoire-de-la-capitale/427667. Pages do say the observation windows can show reflections in photos (https://www.tripadvisor.in/Attraction_Review-g155033-d169738-Reviews-Observatoire_de_la_Capitale-Quebec_City_Quebec.html), and that tickets must be booked online (https://www.afreetourofquebec.com/post/top6quebeccity-sbestpanoramicviews). The given position, 46.80804, -71.21780, was not checked against the building's address, so please confirm it before using it on the map. A possible next step would be to search for a local photo guide that names a street-level spot showing the Marie-Guyart Building."
+  },
+  "cost_usd": 0.0457,
+  "at": "2026-11-17 16:47"
+ },
+ "Parliament Building": {
+  "rank": 11,
+  "card": {
+   "hook": "Here's a photo that practically takes itself: a big fountain splashing in the foreground and a grand, very formal Parliament standing behind it like it's waiting for its portrait. Water and sculpture up front, eight floors of Second Empire drama behind.",
+   "stand_here": "Stand in Place de l'Assemblée-Nationale, across Boulevard Honoré-Mercier from the Tourny Fountain. Face the fountain, with the Parliament façade rising behind it to the south-west.",
+   "zoom": "Start at 1x for the fountain with the façade behind it. If you're close and the whole front won't fit, drop to 0.5x. Save 2x or 5x (depending on your phone) for the statues and the roofline.",
+   "make_it_pop": "Turn on gridlines, put the fountain on the lower third and the building in the top two thirds, then tap the building and drag the brightness down a touch so the lit fountain and the sky don't wash out.",
+   "best_time": "Evening or after dark, when the fountain is lit. Daytime works too, but check whether event stands are in the square. One reviewer also says the building looks great at sunset or in the morning.",
+   "selfie_here": "Stand on Place de l'Assemblée-Nationale with the Parliament behind you and face the open view toward Lower Town and the river. Use the front camera and switch to 0.5x if your phone has it, so the building fits over your shoulder. This spot is based on a visitor tip, so test it when you arrive.",
+   "ask_someone": "Ask a passer-by to stand at the Tourny Fountain facing the Parliament, so the full building fills the frame, and you pose in front of the building.",
+   "rules_and_safety": "The fountain sits on a roundabout, so cross Boulevard Honoré-Mercier with care. In winter the Carnaval Ice Palace can block the view, so be ready to move along the pavement. Check the official site for current access to the grounds and the building.",
+   "challenge": "Take one wide shot of the whole scene, then one close-up of a bronze statue, and see which one your friends 'like' more.",
+   "good_to_know": "This is the home of Quebec's National Assembly, an eight-floor Second Empire building designed by Eugène-Étienne Taché. It was built between 1877 and 1886. The Assembly first met here in March 1884, two years before the work was fully finished.",
+   "stand_here_before_gps_rule": "Stand in Place de l'Assemblée-Nationale, across Boulevard Honoré-Mercier from the Tourny Fountain. Face the fountain, with the Parliament façade rising behind it to the south-west."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Place de l'Assemblée-Nationale (square in front of the Parliament Building)",
+     "detail": "Stand on the square with the Parliament building behind you and face the open view toward Lower Town and the river.",
+     "why": "A Tripadvisor reviewer says the building's back side offers more photo opportunities than its front, and the square gives views of the old fortifications and the river.",
+     "sources": [
+      {
+       "title": "Parliament Building, Quebec City - Tripadvisor",
+       "url": "https://www.tripadvisor.com.ph/Attraction_Review-g155033-d155591-Reviews-Parliament_Building-Quebec_City_Quebec.html"
+      },
+      {
+       "title": "Place de l'Assemblée-Nationale - Tripadvisor",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g155033-d15013087-Reviews-Place_de_l_Assemblee_Nationale-Quebec_City_Quebec.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Fontaine de Tourny (Tourny Fountain), in front of the Parliament Building",
+    "detail": "Have the passer-by stand at the fountain on the Place de l'Assemblée-Nationale, facing the Parliament, so the full building fills the frame.",
+    "sources": [
+     {
+      "title": "Hôtel du Parlement - Lonely Planet",
+      "url": "https://www.lonelyplanet.com/points-of-interest/hotel-du-parlement/427647"
+     },
+     {
+      "title": "The 30 best photo spots in Quebec City - Wanderlog",
+      "url": "https://wanderlog.com/list/geoCategory/161167/best-photo-spots-in-quebec-city"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found gives rules on selfie sticks or tripods, so none are listed. The selfie spot is inferred from a Tripadvisor tip to turn your back to the building rather than from a dedicated selfie guide, so check it on arrival. The fountain is described as sitting in a roundabout in front of the building. One Wanderlog review says construction can block the view from the front of the building, and another says the building looks best at sunset or in the morning. The parliament grounds are listed under the address 1045 Rue des Parlementaires."
+  },
+  "cost_usd": 0.0483,
+  "at": "2026-11-17 16:48",
+  "selfie_pos": [
+   46.8099896,
+   -71.2120632
+  ],
+  "selfie_note": "Place de l'Assemblée-Nationale (OpenStreetMap: Place de l'Assemblée-Nationale, Vieux-Québec, Vieux-Québec–C)"
+ },
+ "Musée de la civilisation": {
+  "rank": 12,
+  "card": {
+   "hook": "Two buildings from very different eras share one wall here, and your phone can catch both at once. The old stone of Saint-Pierre street meets Moshe Safdie's modern design, and that mix is the whole point.",
+   "stand_here": "Stand right at the Musée de la civilisation: the phone icon on the map sits on the museum itself. Step back to the far side of the pavement if you can, and face the façade.",
+   "zoom": "Start at zoom 0.5x to squeeze more of the façade in from close range. Then step back and switch to 1x for a calmer, less stretched look, and use 2x for windows, stone textures or the join between old and new.",
+   "make_it_pop": "Turn on the gridlines and line up the building's vertical edges with them, so the walls stand straight instead of leaning.",
+   "best_time": "Soft morning or late-afternoon light is usually kinder to stonework than harsh midday sun. After dark, switch on night mode and rest your phone against a wall or railing to keep it steady.",
+   "selfie_here": "Try the museum's terraces that face the St. Lawrence River, where visitors have found plenty of photo inspiration with the old stone and modern roofs around. No exact spot is given, so check on site that the museum fits behind you. Use the front camera, try 0.5x, and keep the building over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Selfie sticks and flash are typically not allowed inside the museum, and photo rules can vary, so check the museum's photography policy and any signs before shooting indoors.",
+   "challenge": "Find the exact spot where old stone meets new surface, then catch it at 2x without a single leaning line.",
+   "good_to_know": "The museum was designed by Moshe Safdie and opened on 19 October 1988. The older Banque de Paris and Maison Estèbe buildings on Saint-Pierre street were worked into its structure. Inside, it holds more than 225,000 objects covering art, society and ethnography.",
+   "stand_here_before_gps_rule": "Stand right at the Musée de la civilisation: the phone icon on the map sits on the museum itself. Step back to the far side of the pavement if you can, and face the façade."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Outdoor terraces facing the river, Musée de la civilisation",
+     "detail": "on the museum's terraces that face the St. Lawrence River (the page does not give a more exact spot)",
+     "why": "A visitor photo group says these terraces, with the old stone of Maison Estèbe and modern roofs, inspired many visitors' pictures, so the museum is the backdrop when you face the river.",
+     "sources": [
+      {
+       "title": "Your pictures of Musée de la Civilisation (Flickr group)",
+       "url": "https://www.flickr.com/groups/vosphotosdumcq/?rb=1"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Tripods and selfie sticks are typically not allowed inside the museum, to protect exhibits and other visitors; check the museum's photography policy first.",
+     "sources": [
+      {
+       "title": "Musée de la civilisation (2025), Airial",
+       "url": "https://www.airial.travel/attractions/canada/qu%C3%A9bec/mus%C3%A9e-de-la-civilisation-srQ8Q5IC"
+      }
+     ]
+    },
+    {
+     "rule": "A travel guide says tripods are typically prohibited at the museum, along with flash.",
+     "sources": [
+      {
+       "title": "Musée de la Civilisation (Museum of Civilization), Quebec City, Rehlat",
+       "url": "https://www.rehlat.bh/en/explore/quebec-city/musee-de-la-civilisation-museum-of-civilization-quebec-city-canada-y77h25na47"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot was found, and no source names a place where a visitor stands with the museum directly behind them. The terraces spot is my inference from a visitor-photo page that praises the river-facing terraces; the page does not say the museum is the backdrop, so confirm on site. No page names a spot where a passer-by should stand to photograph a visitor with the whole building, so ask_someone_spot is null. Outdoor views are mentioned in the museum's rooftop tip, but one guide says the rooftop is open only sometimes, so check before going. Photography inside exhibitions is restricted in some areas and for some temporary shows, according to the visitor-photo group and an inside-Quebec guide, so check signage before taking selfies indoors."
+  },
+  "cost_usd": 0.0569,
+  "at": "2026-11-17 16:48"
+ },
+ "Musée national des beaux-arts du Québec": {
+  "rank": 13,
+  "card": {
+   "hook": "Here's a fun surprise: part of this art museum used to be a prison. The Charles Baillairgé Pavilion was designed in 1867 and held prisoners until 1970, and now it sits among carved stone and sparkling glass.",
+   "stand_here": "Start at the phone icon in the middle of the museum grounds in National Battlefields Park, just off Grande Allée. Then stroll a short way out along the park paths and turn back, so one whole pavilion fits in your picture.",
+   "zoom": "Use 1x for the main views of each pavilion. Switch to 0.5x for the glass building and the long facades when you're close. Try 2x or 5x (depending on your phone) for the carved reliefs and the church next door.",
+   "make_it_pop": "Turn on gridlines and line up the edges of the glass and stone with them, keeping your phone level so the buildings don't lean.",
+   "best_time": "Soft morning light or a bright cloudy day keeps the reflections on the glass calm. At dusk, switch on night mode while the buildings are lit.",
+   "selfie_here": "Stand on the forecourt in front of the Pierre Lassonde Pavilion on the Grande Allée side, with the glass lobby and the big cantilevered roof behind you. Use the front camera, and try 0.5x if your phone offers it, so the roof makes it into the shot.",
+   "ask_someone": "Walk along the Grande Allée sidewalk facing the museum, ask a passer-by to stand there, and pose in front of the building with the Pierre Lassonde Pavilion in the frame.",
+   "rules_and_safety": "Inside the galleries, flash is not allowed and you need to stay at least one metre from artworks. Check the official site before you go for gallery access.",
+   "challenge": "Catch old and new in one frame: Saint-Dominique Church and the glass of the Pierre Lassonde Pavilion side by side, with a strip of grass in front.",
+   "good_to_know": "The Gérard-Morisset Pavilion was the first building made for the museum. It opened in June 1933, and Joseph-Émile Brunet carved the reliefs on its facade. The glass-and-steel Pierre Lassonde Pavilion arrived in 2016, designed by the Office for Metropolitan Architecture.",
+   "stand_here_before_gps_rule": "Start at the phone icon in the middle of the museum grounds in National Battlefields Park, just off Grande Allée. Then stroll a short way out along the park paths and turn back, so one whole pavilion fits in your picture."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front of the Pierre Lassonde Pavilion, Musée national des beaux-arts du Québec (Grande Allée side)",
+     "detail": "Stand on the forecourt in front of the Pierre Lassonde building, with its glass lobby and cantilevered roof behind you",
+     "why": "A Québec City event-guide blog says the glass lobby under the cantilevered roof makes for strong photos taken in front of this pavilion.",
+     "sources": [
+      {
+       "title": "The 10 most instagrammable places in Québec City for event attendees",
+       "url": "https://blogue.quebec-cite.com/en/business/tips-and-tricks/10-instagrammable-places-quebec-city-event-attendees/"
+      }
+     ]
+    },
+    {
+     "name": "Plains of Abraham, the park beside the museum",
+     "detail": "Open green space next to the museum on the Plains of Abraham, reached from the museum grounds",
+     "why": "A travel-photo guide describes the Plains next to the museum as offering scenic backdrops, though it does not say the museum itself should be behind you.",
+     "sources": [
+      {
+       "title": "Musée national des beaux-arts du Québec (MNBAQ) (2025), Airial",
+       "url": "https://www.airial.travel/attractions/canada/qu%C3%A9bec/mus%C3%A9e-national-des-beaux-arts-du-qu%C3%A9bec-mnbaq-RD-navtn"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Grande Allée sidewalk facing the museum",
+    "detail": "Walk along Grande Allée and ask the person to frame you against the museum building, ideally with the Pierre Lassonde pavilion in the shot. The sources do not give a specific vantage point for capturing the whole building.",
+    "sources": [
+     {
+      "title": "The most instagrammable places in Québec City for event attendees",
+      "url": "https://meetings.quebec-cite.com/en/activities-experiences-quebec-city/best-instagrammable-places-quebec-city-event-attendees"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods and monopods are not allowed during a standard public visit; they need advance approval for filming or production.",
+     "sources": [
+      {
+       "title": "Musée national des beaux-arts du Québec: Official Tickets (video prep checklist)",
+       "url": "https://shootyourstay.com/articles/musee-national-des-beaux-arts/"
+      }
+     ]
+    },
+    {
+     "rule": "Flash photography is prohibited for both phones and dedicated cameras, so turn off the automatic flash before entering the galleries.",
+     "sources": [
+      {
+       "title": "Musée national des beaux-arts du Québec: Official Tickets (video prep checklist)",
+       "url": "https://shootyourstay.com/articles/musee-national-des-beaux-arts/"
+      }
+     ]
+    },
+    {
+     "rule": "Keep at least one metre from artworks when taking photos.",
+     "sources": [
+      {
+       "title": "Musée national des beaux-arts du Québec: Official Tickets (video prep checklist)",
+       "url": "https://shootyourstay.com/articles/musee-national-des-beaux-arts/"
+      }
+     ]
+    },
+    {
+     "rule": "Selfie sticks are said to be typically not allowed inside museums, but this is a general statement and no MNBAQ page confirmed a selfie-stick rule.",
+     "sources": [
+      {
+       "title": "Musée national des beaux-arts du Québec (MNBAQ) (2025), Airial",
+       "url": "https://www.airial.travel/attractions/canada/qu%C3%A9bec/mus%C3%A9e-national-des-beaux-arts-du-qu%C3%A9bec-mnbaq-RD-navtn"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The MNBAQ selfie-stick and tripod rules come from third-party pages, not the museum's own site; the tripod rule was found only on a travel-production blog, so check at the desk. The Lassonde pavilion spot comes from a roughly two-year-old blog. A travel guide says the museum is undergoing renovations, with three buildings closed and only contemporary exhibitions open, and expects completion in 2026, so the Lassonde front may be the most reliable spot. Neither selfie spot is confirmed with the museum behind the photographer; the Plains of Abraham entry is only a backdrop mention. The ask-someone spot is an inference from the Grande Allée description, not a named vantage point."
+  },
+  "cost_usd": 0.0623,
+  "at": "2026-11-17 16:49"
+ }
+}

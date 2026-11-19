@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "newyorkcity", "title": "New York City: 20 photo spots (pilot review)", "place": "New York City", "bounds": [-74.06, 40.68, -73.95, 40.8], "center": [-74.005, 40.739999999999995], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/newyorkcity/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "borabora", "title": "Bora Bora: 4 photo spots (pilot review)", "place": "Bora Bora", "bounds": [-151.795, -16.545, -151.715, -16.465], "center": [-151.755, -16.505000000000003], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/borabora/{z}/{x}/{y}.pbf"};

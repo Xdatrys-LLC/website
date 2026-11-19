@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "nairobi", "title": "Nairobi: 15 photo spots (pilot review)", "place": "Nairobi", "bounds": [36.7, -1.39, 36.87, -1.26], "center": [36.785, -1.325], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/nairobi/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,324 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Dubrovnik Attractions Map: 17 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Dubrovnik tourist map of 17 top photo spots, including Lokrum Island, City Walls and Banje Beach. Where to stand, phone tips, directions. First 3 free.">
+<meta name="keywords" content="things to do in dubrovnik, dubrovnik attractions, dubrovnik tourist map, best views in dubrovnik, map of dubrovnik attractions, best photo spots in dubrovnik, lokrum island, city walls, dubrovnik banje beach">
+<link rel="canonical" href="https://xdatrys.com/library/dubrovnik/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Dubrovnik Attractions Map: 17 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Dubrovnik tourist map of 17 top photo spots, including Lokrum Island, City Walls and Banje Beach. Where to stand, phone tips, directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/dubrovnik/">
+<meta property="og:image" content="https://xdatrys.com/library/dubrovnik/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="332">
+<meta property="og:image:alt" content="Lokrum, Dubrovnik: a small wooded island just off Dubrovnik. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/dubrovnik/","url":"https://xdatrys.com/library/dubrovnik/","name":"Dubrovnik Attractions Map: 17 Best Photo Spots | Xdatrys","description":"A Dubrovnik tourist map of 17 top photo spots, including Lokrum Island, City Walls and Banje Beach. Where to stand, phone tips, directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/dubrovnik/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Dubrovnik"},"mainEntity":{"@type":"ItemList","name":"Dubrovnik photo spots","numberOfItems":17,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Lokrum","description":"Lokrum is a small wooded island just off Dubrovnik, about 600 metres from the city, stretching from north-west to south-east.","geo":{"@type":"GeoCoordinates","latitude":42.6333333,"longitude":18.1166667},"alternateName":["Dubrovnik Lokrum"],"image":"https://xdatrys.com/library/dubrovnik/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Walls of Dubrovnik","description":"Dubrovnik's city walls wrap around most of the Old Town in one unbroken stone circuit of about 1,940 metres, rising to roughly 25 metres at their highest.","geo":{"@type":"GeoCoordinates","latitude":42.64,"longitude":18.108},"alternateName":["Dubrovnik City Walls"],"image":"https://xdatrys.com/library/dubrovnik/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Banje Beach","description":"Banje is Dubrovnik's pebble beach just outside the Old Town, and it photographs well because the view has layers.","geo":{"@type":"GeoCoordinates","latitude":42.641611,"longitude":18.116377},"alternateName":["Dubrovnik Banje Beach","Banje"],"image":"https://xdatrys.com/library/dubrovnik/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/dubrovnik/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Dubrovnik","item":"https://xdatrys.com/library/dubrovnik/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Dubrovnik?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Lokrum Island, City Walls and Banje Beach. They are ranked by how often people search for them. The full map has 17."}},{"@type":"Question","name":"Where should I stand to photograph Lokrum Island?","acceptedAnswer":{"@type":"Answer","text":"Stand at Buža Bar (cliff terrace outside the city wall, looking out over the sea). Start with the default lens (1x) to show the island with the open sea around it."}},{"@type":"Question","name":"When is the best time to photograph City Walls?","acceptedAnswer":{"@type":"Answer","text":"Early morning or later in the afternoon is usually calmer and has softer light. Midday in summer is the busiest and the harshest."}},{"@type":"Question","name":"How do I get to Banje Beach?","acceptedAnswer":{"@type":"Answer","text":"The viewpoint is on the street Frana Supila, at the top of the stairs that lead down to Banje Beach, and it is the easiest viewpoint to reach from the Old Town."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Dubrovnik</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/dubrovnik/?gate" style="color:#E100FF">✏️ Review all 17 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>17 photo spots in Dubrovnik: where to stand and how to shoot them on your phone</h1>
+  <p>17 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 14 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 17 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/dubrovnik/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 17 photo spots in Dubrovnik"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 17 of the most-searched sights in Dubrovnik as photo spots, ranked by how often people search for them: Lokrum Island, City Walls, Banje Beach, St Blaise&#39;s Church and Pile Gate lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Lokrum</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Lokrum2.JPG" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Lokrum, Dubrovnik: a small wooded island just off Dubrovnik. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Timur Voronkov, Public domain, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Lokrum is a small wooded island just off Dubrovnik, about 600 metres from the city, stretching from north-west to south-east. It photographs well because it gives the sea view a calm, green shape on the horizon, set against the pale stone of the Old Town. This spot is a cliff-side view of it, so you are photographing the island from the mainland rather than on it. The island has a long story. A Benedictine abbey was founded there in 1023, and in 1859 Archduke Maximilian had a mansion and garden laid out. Fort Royal, built under French rule, stands on the highest point, 96 metres above the sea. Peacocks brought over by Maximilian still live on the island. For a phone photo, aim to place Lokrum on one of the gridline thirds with plenty of sea and sky around it. That makes the island feel properly distant and gives the picture a calm, simple shape. If you also want a layered coastal view, Banje Beach shows Lokrum between the beach and the Old Town walls. Bernarda Shawa looks south over the roofs and walls towards the island.</p>
+    <p><b>Where it is:</b> On the cliffs just outside the south wall of Dubrovnik&#39;s Old Town, facing the sea. Lokrum lies across the water to the south-east.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to show the island with the open sea around it. Then try the telephoto (2x-5x, depending on your phone) to bring Lokrum closer and fill more of the frame. Use the ultra-wide (0.5x) only if you want the cliff edge and a lot of sky in the picture.</p>
+      <p><b>Where to stand:</b> Stand at Buža Bar (cliff terrace outside the city wall, looking out over the sea). Lokrum sitting on the horizon over open water, with the city wall behind the photographer. From here Lokrum sits on the horizon over open water, with the city wall behind you. Face south-east towards the island.</p>
+      <p><b>Framing:</b> Turn on the gridlines and put the horizon on the lower third line, with Lokrum on one of the side thirds. Keep the sea in the foreground so the island has room. If you want a different angle, Banje Beach shows Lokrum between the beach and the Old Town walls.</p>
+      <p><b>Settings tip:</b> Tap on the island to focus, then slide the exposure down a touch so the sky and sea stay rich rather than washed out. Hold the phone steady with both hands when you zoom in, as the island is far away and any shake will show.</p>
+      <p><b>Best time:</b> Sunset, when guides mention golden light. Buža Bar is open only in spring and summer, so check this before you go.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Walls of Dubrovnik</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Porporela_2011.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Walls of Dubrovnik, Dubrovnik: photo spot" loading="lazy"></a>
+      <figcaption>Photo: Bracodbk, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Dubrovnik&#39;s city walls wrap around most of the Old Town in one unbroken stone circuit of about 1,940 metres, rising to roughly 25 metres at their highest. Most of what you see was built between the 13th and 17th centuries. Towers, bastions and forts break up the line, and the walls were added to UNESCO&#39;s World Heritage list together with the Old Town in 1979. For a phone photo, the best view is from outside and below. From these steps the pale stone, the terracotta roofs behind it and the West Harbour all fit into one frame, and you don&#39;t need a walls ticket to stand there. The steps also give you a natural foreground: the handrail, the stone treads or a bit of greenery help lead the eye towards the walls. Inside the walls you get the rooftop views, but you can&#39;t see the walls themselves, so this outside angle shows their scale much better. If you want a rooftop panorama as well, Tvrđava Minčeta looks over the Old Town roofs and the sea, and Iza Grada frames the walls from outside the ramparts. The walls are very busy in summer, so expect other people on the steps too.</p>
+    <p><b>Where it is:</b> On the western side of Dubrovnik&#39;s Old Town, outside the walls on the path up to Fort Lovrijenac, close to the West Harbour. The walls themselves circle the Old Town.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the walls, the roofs and the harbour into one frame. Then switch to the default lens (1x) for a calmer, less stretched view. If your phone has telephoto (2x-5x), use it to pick out a single tower or a stretch of wall.</p>
+      <p><b>Where to stand:</b> Stand on Skalini Dr. Marka Foteza (stairs on the climb up to Fort Lovrijenac, outside the walls). The walls and Old Town seen from outside and below, with the West Harbour in the same frame. Stand on Skalini Dr. Marka Foteza, the stairs on the climb up to Fort Lovrijenac, outside the walls. The walls and Old Town are to the south-east, seen from outside and below, with the West Harbour in the same frame.</p>
+      <p><b>Framing:</b> Switch on the gridlines and put the line of the walls along the lower or upper third, leaving the harbour on one side. Use a step or handrail in the foreground to add depth. Take a few shots from different steps, because each one changes how much of the harbour you see. For a rooftop panorama as an alternative, Tvrđava Minčeta is recommended for its view over the Old Town and the sea.</p>
+      <p><b>Settings tip:</b> Tap the walls to set focus, then slide the exposure down a little so the pale stone and the sky keep their detail. Keep the phone steady against the handrail. Panorama mode can work along a wide stretch of the harbour, but wait for people to pass before you start.</p>
+      <p><b>Best time:</b> Early morning or later in the afternoon is usually calmer and has softer light. Midday in summer is the busiest and the harshest.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Banje Beach</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois-Marie_Banier_%C3%A0_la_manif_pour_une_autre_r%C3%A9forme_des_retraites.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Banje Beach, Dubrovnik: Dubrovnik&#39;s pebble beach just outside the Old Town. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Audrey Ait Kheddache from Paris, France, <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener license">CC BY-SA 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Banje is Dubrovnik&#39;s pebble beach just outside the Old Town, and it photographs well because the view has layers. Sea and beach sit in the foreground, the Old Town stands behind them, and Lokrum Island closes the frame. The best-known angle is from the street above, at the top of the stairs down to the beach. From there you look down onto the pebbles and the water, which gives the picture depth and keeps other people&#39;s heads out of the foreground. Photo guides treat this raised spot as the classic one, and it is the easiest to reach on foot from the Old Town. The views from above are good all along the beach, so you can walk a little to either side and try a slightly different angle. Be aware that the beach has paid sunbed and bar areas, and the free strip is narrow. In July and August it is crowded with cruise day-trippers, so early morning is the calmest time for a clean shot. In winter the sunbeds and bars are removed, which gives a tidier picture. Take a wide shot first to show the whole scene, then a closer one picking out the Old Town or Lokrum. Check that the edges of your frame are straight, because the sea gives you a clear horizon to line up against.</p>
+    <p><b>Where it is:</b> Banje Beach is on the edge of the Old Town in Dubrovnik. The viewpoint is on the street Frana Supila, above the beach.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the view down onto the beach. Switch to ultra-wide (0.5x) if you want the whole beach, the Old Town and Lokrum in one frame. Use the telephoto (2x-5x, depending on your phone) to pick out Lokrum Island or the Old Town walls.</p>
+      <p><b>Where to stand:</b> Stand on Frana Supila (at the top of the stairs down to the beach). A raised angle looking down onto the pebble beach, with the Old Town and Lokrum Island behind it. From here you look down onto the pebble beach, with the Old Town and Lokrum Island behind it.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the horizon on the upper or lower line, with the beach filling the lower part of the frame. Let the Old Town and Lokrum sit in the background. For a different view, a low angle from the beach at the east end looks along white rock formations towards the Old Town. The rocks may be slippery, so take care.</p>
+      <p><b>Settings tip:</b> Tap on the beach or the Old Town to set focus, then drag the exposure slider down a little so the bright sea and sky keep their colour. Take a few shots in case someone walks through the frame.</p>
+      <p><b>Best time:</b> Early morning is the least crowded time, especially in July and August. Winter is cleaner for photos because the beach concessions are removed.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>14 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>St Blaise&#39;s Church <small>· members</small></li>
+    <li><span class="n">5</span>Pile Gate <small>· members</small></li>
+    <li><span class="n">6</span>Stradun <small>· members</small></li>
+    <li><span class="n">7</span>Rector&#39;s Palace <small>· members</small></li>
+    <li><span class="n">8</span>Fort Lovrijenac <small>· members</small></li>
+    <li><span class="n">9</span>Sponza Palace <small>· members</small></li>
+    <li><span class="n">10</span>Mount Srđ <small>· members</small></li>
+    <li><span class="n">11</span>Franciscan Friary <small>· members</small></li>
+    <li><span class="n">12</span>Dubrovnik Cathedral <small>· members</small></li>
+    <li><span class="n">13</span>Minčeta Tower <small>· members</small></li>
+    <li><span class="n">14</span>Onofrio&#39;s Fountain <small>· members</small></li>
+    <li><span class="n">15</span>Franjo Tuđman Bridge <small>· members</small></li>
+    <li><span class="n">16</span>Fort Bokar <small>· members</small></li>
+    <li><span class="n">17</span>Dubrovnik Bell Tower <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Dubrovnik?</summary><p>The first three on this map are Lokrum Island, City Walls and Banje Beach. They are ranked by how often people search for them. The full map has 17.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Lokrum Island?</summary><p>Stand at Buža Bar (cliff terrace outside the city wall, looking out over the sea). Start with the default lens (1x) to show the island with the open sea around it.</p></details>
+  <details class="faq"><summary>When is the best time to photograph City Walls?</summary><p>Early morning or later in the afternoon is usually calmer and has softer light. Midday in summer is the busiest and the harshest.</p></details>
+  <details class="faq"><summary>How do I get to Banje Beach?</summary><p>The viewpoint is on the street Frana Supila, at the top of the stairs that lead down to Banje Beach, and it is the easiest viewpoint to reach from the Old Town.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Lokrum" target="_blank" rel="noopener">Lokrum</a>, <a href="https://en.wikipedia.org/wiki/Walls_of_Dubrovnik" target="_blank" rel="noopener">Walls of Dubrovnik</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"dubrovnik","place":"Dubrovnik","bounds":[18.065,42.625,18.13,42.675],"center":[18.0975,42.65],"english":false,"vatican":false,"tiles":"/r2tiles/dubrovnik/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "busan", "title": "Busan: 17 photo spots (pilot review)", "place": "Busan", "bounds": [129.0, 35.03, 129.24, 35.21], "center": [129.12, 35.120000000000005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/busan/{z}/{x}/{y}.pbf", "tz": "Asia/Seoul", "rail": true, "app": true};

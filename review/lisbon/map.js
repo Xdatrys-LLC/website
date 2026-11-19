@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "lisbon", "title": "Lisbon: 20 photo spots (pilot review)", "place": "Lisbon", "bounds": [-9.24, 38.675, -9.1, 38.75], "center": [-9.17, 38.7125], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/lisbon/{z}/{x}/{y}.pbf"};

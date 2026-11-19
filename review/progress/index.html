@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Library build progress</title>
+<style>
+  :root { --cyan: #00a6c8; --mag: #E100FF; --ink: #14141a; --soft: #6b6b78; --bg: #f6f6f9; --card: #fff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Inter, system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--ink); }
+  main { max-width: 640px; margin: 0 auto; padding: 20px 16px 40px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--soft); font-size: 14px; margin: 0 0 18px; }
+  .card { background: var(--card); border-radius: 18px; padding: 18px; box-shadow: 0 2px 10px #0001; margin-bottom: 14px; }
+  .big { font-size: 44px; font-weight: 800; line-height: 1; }
+  .big small { font-size: 18px; color: var(--soft); font-weight: 600; }
+  .bar { height: 12px; border-radius: 99px; background: #e6e6ee; overflow: hidden; margin: 12px 0 8px; }
+  .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--cyan), var(--mag)); }
+  .now { font-size: 18px; font-weight: 700; margin: 6px 0 2px; }
+  .step { color: var(--soft); font-size: 15px; }
+  .ok, .warn, .bad { border-radius: 12px; padding: 10px 12px; font-weight: 600; font-size: 15px; }
+  .ok { background: #e6f8ee; color: #136b37; } .warn { background: #fff4d6; color: #7a5300; } .bad { background: #ffe3e3; color: #9b1111; }
+  .row { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-bottom: 1px solid #0000000d; font-size: 15px; }
+  .row span:last-child { color: var(--soft); white-space: nowrap; }
+  a { color: var(--cyan); }
+  ol { margin: 0; padding-left: 22px; } ol li { padding: 3px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Library build</h1>
+  <p class="sub">Updates by itself every 30 seconds. Owner only.</p>
+  <div id="health" class="warn">Loading...</div>
+  <div class="card" style="margin-top:14px">
+    <div class="big"><span id="done">-</span> <small>of <span id="total">210</span> maps</small></div>
+    <div class="bar"><i id="pct" style="width:0%"></i></div>
+    <div class="now" id="cur">-</div>
+    <div class="step" id="step"></div>
+  </div>
+  <div class="card">
+    <div class="row"><span>Phase</span><span id="phase">-</span></div>
+    <div class="row"><span>AI spent on this build</span><span id="ai">-</span></div>
+    <div class="row"><span>Search data (DataForSEO) spent</span><span id="dfs">-</span></div>
+    <div class="row"><span>Last update</span><span id="ago">-</span></div>
+    <div class="row" id="errRow" hidden><span>Last problem</span><span id="err"></span></div>
+  </div>
+  <div class="card"><b>Finished most recently</b><ol id="recent" style="margin-top:8px"></ol>
+    <p style="margin:12px 0 0;font-size:14px"><a href="/library/">Open the Map Library</a></p></div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function ago(s) { if (s < 90) return s + " seconds ago"; if (s < 5400) return Math.round(s / 60) + " minutes ago"; return (s / 3600).toFixed(1) + " hours ago"; }
+function load() {
+  fetch("/api/build/status", { cache: "no-store" }).then(r => r.json()).then(j => {
+    if (!j.ok) { $("health").className = "bad"; $("health").textContent = "Please sign in as the owner to see the progress."; return; }
+    const s = j.status; if (!s) { $("health").className = "warn"; $("health").textContent = "The build has not reported yet."; return; }
+    const age = j.now - s.at;
+    if (s.finished) { $("health").className = "ok"; $("health").textContent = "Finished: all " + s.total + " maps are in the Map Library."; }
+    else if (s.paused) { $("health").className = "warn"; $("health").textContent = "Paused: " + s.paused; }
+    else if (age < 1200) { $("health").className = "ok"; $("health").textContent = "Working. The PC reported " + ago(age) + "."; }
+    else { $("health").className = "bad"; $("health").textContent = "No report for " + ago(age).replace(" ago", "") + ". The PC may be off, asleep or without internet. The build carries on by itself when it is back."; }
+    $("done").textContent = s.done; $("total").textContent = s.total; $("pct").style.width = Math.min(100, 100 * s.done / s.total) + "%";
+    $("cur").textContent = s.current ? "Now: map " + (s.done + 1) + ", " + s.current : (s.finished ? "All done" : "-");
+    $("step").textContent = s.step || ""; $("phase").textContent = s.phase || "-";
+    $("ai").textContent = "$" + (+s.ai_usd || 0).toFixed(2); $("dfs").textContent = "$" + (+s.dfs_usd || 0).toFixed(2);
+    $("ago").textContent = ago(age) + " (" + new Date(s.at * 1000).toLocaleString() + ")";
+    $("errRow").hidden = !s.last_error; $("err").textContent = s.last_error || "";
+    $("recent").innerHTML = (s.recent || []).slice(0, 12).map(m => "<li><a href='/library/" + esc(m.key) + "/'>" + esc(m.place) + "</a> <small style='color:#888'>" + esc(m.when || "") + "</small></li>").join("") || "<li>None yet</li>";
+  }).catch(() => { $("health").className = "bad"; $("health").textContent = "Cannot reach the site (your own connection?). Trying again in 30 seconds."; });
+}
+load(); setInterval(load, 30000);
+</script>
+</body>
+</html>

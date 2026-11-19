@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "kathmandu", "title": "Kathmandu: 18 photo spots (pilot review)", "place": "Kathmandu", "bounds": [85.282, 27.688, 85.372, 27.73], "center": [85.327, 27.709], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/kathmandu/{z}/{x}/{y}.pbf", "tz": "Asia/Kathmandu", "rail": false, "app": true};

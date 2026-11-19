@@ -1,0 +1,325 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Nagasaki Attractions Map: 19 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 19 best photo spots in Nagasaki, including Dejima, Atomic Bomb Museum and Peace Park: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="nagasaki dejima, nagasaki atomic bomb museum, nagasaki urakami cathedral">
+<link rel="canonical" href="https://xdatrys.com/library/nagasaki/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Nagasaki Attractions Map: 19 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 19 best photo spots in Nagasaki, including Dejima, Atomic Bomb Museum and Peace Park: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/nagasaki/">
+<meta property="og:image" content="https://xdatrys.com/library/nagasaki/photos/1.jpg">
+<meta property="og:image:width" content="270"><meta property="og:image:height" content="480">
+<meta property="og:image:alt" content="Dejima, Nagasaki: photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/nagasaki/","url":"https://xdatrys.com/library/nagasaki/","name":"Nagasaki Attractions Map: 19 Best Photo Spots | Xdatrys","description":"Map of the 19 best photo spots in Nagasaki, including Dejima, Atomic Bomb Museum and Peace Park: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/nagasaki/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Nagasaki"},"mainEntity":{"@type":"ItemList","name":"Nagasaki photo spots","numberOfItems":19,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Dejima","description":"Dejima was a small artificial island built in Nagasaki in 1636 to hold foreign traders.","geo":{"@type":"GeoCoordinates","latitude":32.7434932,"longitude":129.8729518},"alternateName":["Nagasaki Dejima","Dejima Island"],"image":"https://xdatrys.com/library/nagasaki/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Nagasaki Atomic Bomb Museum","description":"The Nagasaki Atomic Bomb Museum is a place of remembrance for the atomic bombing of the city on 9 August 1945, at 11:02 in the morning.","geo":{"@type":"GeoCoordinates","latitude":32.7726902,"longitude":129.8643964},"image":"https://xdatrys.com/library/nagasaki/photos/2.jpg"}},{"@type":"ListItem","position":5,"item":{"@type":"TouristAttraction","name":"Urakami Cathedral","description":"Urakami Cathedral, also called the Immaculate Conception Cathedral, is the Catholic cathedral of Nagasaki, and its twin-towered brick-coloured front makes a strong, simple subject for a phone photo.","geo":{"@type":"GeoCoordinates","latitude":32.7761634,"longitude":129.8683982},"alternateName":["Nagasaki Urakami Cathedral"],"image":"https://xdatrys.com/library/nagasaki/photos/5.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/nagasaki/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Nagasaki","item":"https://xdatrys.com/library/nagasaki/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Nagasaki?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Dejima, Atomic Bomb Museum and Peace Park. They are ranked by how often people search for them. The full map has 19."}},{"@type":"Question","name":"Where should I stand to photograph Dejima?","acceptedAnswer":{"@type":"Answer","text":"Stand about 20 m east of Dejima, at the phone icon on the map, and face west. Start with the default lens (1x) for the overall scene."}},{"@type":"Question","name":"When is the best time to photograph Atomic Bomb Museum?","acceptedAnswer":{"@type":"Answer","text":"Daylight with soft or evenly overcast light tends to give the cleanest, least glaring pictures of the building. Earlier or quieter parts of the day usually mean fewer people in the frame."}},{"@type":"Question","name":"How do I get to Urakami Cathedral?","acceptedAnswer":{"@type":"Answer","text":"No tram stop or station was available for this spot."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Nagasaki</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/nagasaki/?gate" style="color:#E100FF">✏️ Review all 19 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>19 photo spots in Nagasaki: where to stand and how to shoot them on your phone</h1>
+  <p>19 photo spots on one map. Spots 1, 2 and 5 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 16 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 19 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/nagasaki/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 19 photo spots in Nagasaki"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 19 of the most-searched sights in Nagasaki as photo spots, ranked by how often people search for them: Dejima, Atomic Bomb Museum, Peace Park, Glover Garden and Urakami Cathedral lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Dejima</h3>
+    <figure><img src="photos/1.jpg" alt="Dejima, Nagasaki: photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Dejima was a small artificial island built in Nagasaki in 1636 to hold foreign traders. For 220 years it was Japan&#39;s main channel for trade and cultural exchange with the West, and the Dutch were based here from 1641 until 1858. The island measured only about 120 m by 75 m and was joined to the mainland by one small bridge. Land reclamation later folded it into the city, so today you are looking at a historic site within Nagasaki rather than a true island. It was named a national historic site in 1922, and work continues to bring back its island setting.</p><p>It suits a phone because the story is told by the setting: a compact, enclosed site with a clear sense of place. Stay back from the middle and take a wide view first, then move in for details such as rooflines, doorways, signs and any flags. The phone icon on the map is about 20 m east of the subject. From here you can take a wide first view of the site. Keep the horizon level with the gridlines on, and tap on the building you want so the exposure is set for it, not for the sky. Access to parts of the site may be ticketed or restricted, so check the official site before you go.</p>
+    <p><b>Where it is:</b> Dejima is in Nagasaki, Japan, on the site of the former artificial island that is now part of the city after land reclamation.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the overall scene. Switch to the ultra-wide (0.5x) if you move closer and want to fit in more of the site. Use the telephoto (2x-5x, depending on your phone) for details such as roof edges, windows and signs.</p>
+      <p><b>Where to stand:</b> Stand about 20 m east of the subject, at the phone icon on the map, and face west. From here you can take in a wide view of the site before you walk in closer.</p>
+      <p><b>Framing:</b> Turn on the gridlines and keep the horizon level. Frame the whole site with the default lens (1x), then take a second shot with a doorway, wall or other foreground element in the edge of the frame for depth. Finish with a tighter telephoto shot of one detail.</p>
+      <p><b>Settings tip:</b> Tap on the main building to focus, then slide the exposure down slightly if the sky is bright, so pale walls don&#39;t wash out. Use portrait mode only for a person standing in the foreground.</p>
+      <p><b>Best time:</b> Morning is a good choice, as the sun is in the east behind you when you face west from where you stand. Overcast days also work, because the light is even and the walls show no harsh shadows.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Nagasaki Atomic Bomb Museum</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Nagasakigenbaku.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Nagasaki Atomic Bomb Museum, Nagasaki: a place of remembrance for the atomic bombing of the city. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Japanbird at Japanese Wikipedia (:ja:User:海人), <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Nagasaki Atomic Bomb Museum is a place of remembrance for the atomic bombing of the city on 9 August 1945, at 11:02 in the morning. It was completed in April 1996 and replaced the older International Culture Hall, where relics from the bombing had first been shown. It stands in Nagasaki Peace Park, beside the Nagasaki National Peace Memorial Hall for the Atomic Bomb Victims, which was built in 2003. Inside, the story runs from the city before the bomb through the aftermath and rebuilding to today&#39;s calls for peace. One of the objects on show is a clock stopped at 11:02.</p><p>As a photograph, the museum works best as a quiet, respectful record of the place rather than a showy picture. The building and its neighbour make a calm, well-ordered scene, and the surrounding park gives you room to step back and fit the walls into the frame. Keep people in the shot to a minimum and avoid anything that feels staged. This is a site of mourning for many visitors.</p><p>For your phone, use the exterior of the building and the park around it. Photography rules inside are not covered here, so check the official site before you go and follow any signs once you are in the galleries.</p>
+    <p><b>Where it is:</b> The museum is in Nagasaki, in Nagasaki Peace Park, next to the Nagasaki National Peace Memorial Hall for the Atomic Bomb Victims.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the building as you see it. Switch to the ultra-wide (0.5x) if you are close and cannot fit the whole front in. Use the telephoto (2x or more, depending on your phone) for details such as the entrance or the lines of the walls.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. To photograph it, walk out into the surrounding park and turn back to face the building.</p>
+      <p><b>Framing:</b> Turn on gridlines and line up the building&#39;s edges with them so the walls look straight. Hold the phone level, and include a little open ground or sky to give a sense of calm. For a second picture, move sideways so the neighbouring Peace Memorial Hall appears alongside, which shows how the two buildings sit together. Keep strangers out of the frame, or let them be small and unidentifiable.</p>
+      <p><b>Settings tip:</b> Tap the building to focus, then drag the exposure slider down slightly if the sky is bright, so the walls keep their detail. Skip portrait mode and heavy filters; a plain, natural image suits the subject better.</p>
+      <p><b>Best time:</b> Daylight with soft or evenly overcast light tends to give the cleanest, least glaring pictures of the building. Earlier or quieter parts of the day usually mean fewer people in the frame.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-5">
+    <h3><span class="n">5</span>Urakami Cathedral</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:200321_Urakami_Cathedral_Nagasaki_Japan01bs.jpg" target="_blank" rel="noopener"><img src="photos/5.jpg" alt="Urakami Cathedral, Nagasaki: the Catholic cathedral of Nagasaki. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: 663highland, <a href="https://creativecommons.org/licenses/by/2.5" target="_blank" rel="noopener license">CC BY 2.5</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Urakami Cathedral, also called the Immaculate Conception Cathedral, is the Catholic cathedral of Nagasaki, and its twin-towered brick-coloured front makes a strong, simple subject for a phone photo. The story behind it is part of why people stop here. Local Christians, whose faith had been banned and who were sent into exile between 1869 and 1873, began building the first cathedral in 1895 on land where they had once been forced to tread on sacred images. When it was finished in 1925 it was the largest Christian building in the Asia-Pacific region. The atomic bomb of 9 August 1945 exploded only about 500 m away and destroyed it. The congregation rebuilt on the same site, finishing in October 1959, and in 1980 the walls were re-faced with brick tiles to look more like the original. Today a bell and the damaged statue known as the Atom-bombed Mary are displayed in the grounds, so there is more to see and photograph once you are close. For photographs, the front with its two towers is the natural frame. It is a working place of worship and a memorial, so keep your photography quiet and unobtrusive, and avoid pointing your phone at people who are praying.</p>
+    <p><b>Where it is:</b> In the Motoomachi area of Nagasaki, in the Urakami district. The Nagasaki Peace Park is nearby.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> From where you stand, use telephoto (2x-5x, depending on your phone) to bring the cathedral closer. Switch to the default lens (1x) as you get nearer, and use ultra-wide (0.5x) only if you can stand close to the front and want both towers and the entrance in one frame.</p>
+      <p><b>Where to stand:</b> Stand in 平和公園 (Nagasaki Peace Park) (beyond the Peace Statue, on the far side of the park). A distance view of the rebuilt cathedral standing on its hill, with the surrounding neighbourhood below it. At that distance the building will be small at 1x, so zoom in or walk closer to the grounds for a bigger picture.</p>
+      <p><b>Framing:</b> Centre the twin towers and turn on gridlines so the verticals stay straight. Hold the phone level, because tilting it up makes the towers lean inwards. Once you are in the grounds, a second photo of the bell or the Atom-bombed Mary can add context to the story of the place.</p>
+      <p><b>Settings tip:</b> Tap the cathedral front to set focus, then drag the exposure slider down a little if the sky is bright and the brickwork is turning dark. A sharper, steadier shot comes from holding the phone with both hands and resting your elbows against your body.</p>
+      <p><b>Best time:</b> Soft morning or late-afternoon light usually flatters brick-coloured walls and avoids harsh midday shadows. Early in the day there are also likely to be fewer people in your frame.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(5)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>16 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">3</span>Nagasaki Peace Park <small>· members</small></li>
+    <li><span class="n">4</span>Glover Garden <small>· members</small></li>
+    <li><span class="n">6</span>Suwa Shrine <small>· members</small></li>
+    <li><span class="n">7</span>Sōfuku-ji <small>· members</small></li>
+    <li><span class="n">8</span>Oura Church <small>· members</small></li>
+    <li><span class="n">9</span>Mount Inasa <small>· members</small></li>
+    <li><span class="n">10</span>Megane Bridge <small>· members</small></li>
+    <li><span class="n">11</span>Nagasaki Shinchi Chinatown <small>· members</small></li>
+    <li><span class="n">12</span>Peace Statue <small>· members</small></li>
+    <li><span class="n">13</span>Sannō Shrine <small>· members</small></li>
+    <li><span class="n">14</span>Fountain of Peace <small>· members</small></li>
+    <li><span class="n">15</span>Nagasaki Seaside Park <small>· members</small></li>
+    <li><span class="n">16</span>Nagasaki Prefectural Art Museum <small>· members</small></li>
+    <li><span class="n">17</span>Twenty-Six Martyrs Monument <small>· members</small></li>
+    <li><span class="n">18</span>Confucius Shrine <small>· members</small></li>
+    <li><span class="n">19</span>Megami Bridge <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Nagasaki?</summary><p>The first three on this map are Dejima, Atomic Bomb Museum and Peace Park. They are ranked by how often people search for them. The full map has 19.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Dejima?</summary><p>Stand about 20 m east of Dejima, at the phone icon on the map, and face west. Start with the default lens (1x) for the overall scene.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Atomic Bomb Museum?</summary><p>Daylight with soft or evenly overcast light tends to give the cleanest, least glaring pictures of the building. Earlier or quieter parts of the day usually mean fewer people in the frame.</p></details>
+  <details class="faq"><summary>How do I get to Urakami Cathedral?</summary><p>No tram stop or station was available for this spot.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Dejima" target="_blank" rel="noopener">Dejima</a>, <a href="https://en.wikipedia.org/wiki/Nagasaki_Atomic_Bomb_Museum" target="_blank" rel="noopener">Nagasaki Atomic Bomb Museum</a>, <a href="https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_Nagasaki" target="_blank" rel="noopener">Immaculate Conception Cathedral, Nagasaki</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"nagasaki","place":"Nagasaki","bounds":[129.84,32.717,129.89,32.785],"center":[129.865,32.751],"english":false,"vatican":false,"tiles":"/r2tiles/nagasaki/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 5"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

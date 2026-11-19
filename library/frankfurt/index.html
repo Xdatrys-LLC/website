@@ -1,0 +1,323 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Frankfurt Attractions Map: 16 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Frankfurt tourist map of 16 top photo spots, including Städel Museum and Main Tower: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in frankfurt, frankfurt attractions, frankfurt tourist map, best views in frankfurt, städel museum, frankfurt main tower, frankfurt cathedral">
+<link rel="canonical" href="https://xdatrys.com/library/frankfurt/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Frankfurt Attractions Map: 16 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Frankfurt tourist map of 16 top photo spots, including Städel Museum and Main Tower: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/frankfurt/">
+<meta property="og:image" content="https://xdatrys.com/library/frankfurt/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="237">
+<meta property="og:image:alt" content="Städel, Frankfurt: one of Frankfurt&#39;s oldest museums. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/frankfurt/","url":"https://xdatrys.com/library/frankfurt/","name":"Frankfurt Attractions Map: 16 Best Photo Spots | Xdatrys","description":"A Frankfurt tourist map of 16 top photo spots, including Städel Museum and Main Tower: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/frankfurt/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Frankfurt"},"mainEntity":{"@type":"ItemList","name":"Frankfurt photo spots","numberOfItems":16,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Städel","description":"The Städel is one of Frankfurt's oldest museums and has one of the most important art collections in Germany.","geo":{"@type":"GeoCoordinates","latitude":50.1032949,"longitude":8.6738582},"alternateName":["Frankfurt Städel","Staedel Museum"],"image":"https://xdatrys.com/library/frankfurt/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Main Tower","description":"Main Tower is the only skyscraper in Frankfurt with a public viewing platform, and it is a good subject for a phone because its shape is so easy to read.","geo":{"@type":"GeoCoordinates","latitude":50.1125118,"longitude":8.6721879},"alternateName":["Frankfurt Main Tower","Main Tower Observation Deck"],"image":"https://xdatrys.com/library/frankfurt/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Frankfurt Cathedral","description":"Frankfurt Cathedral, known in German as the Dom, is the city's largest religious building.","geo":{"@type":"GeoCoordinates","latitude":50.1106746,"longitude":8.6853527},"alternateName":["Frankfurter Dom","Frankfurt Dom"],"image":"https://xdatrys.com/library/frankfurt/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/frankfurt/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Frankfurt","item":"https://xdatrys.com/library/frankfurt/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Frankfurt?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Städel Museum, Main Tower and Frankfurt Cathedral. They are ranked by how often people search for them. The full map has 16."}},{"@type":"Question","name":"Where should I stand to photograph Städel Museum?","acceptedAnswer":{"@type":"Answer","text":"Stand on Schaumainkai (south bank promenade of the Main, in front of the museum row). Start with the default lens (1x) for the museum with the skyline behind it."}},{"@type":"Question","name":"When is the best time to photograph Main Tower?","acceptedAnswer":{"@type":"Answer","text":"Clear daylight shows the blue glass at its strongest. Around sunset or dusk, with the sky still colourful and the building lit, switch on night mode and hold very still."}},{"@type":"Question","name":"How do I get to Frankfurt Cathedral?","acceptedAnswer":{"@type":"Answer","text":"No station or tram stop is listed for this spot, so head for the Römerberg in the Old Town in the centre of Frankfurt."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Frankfurt</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/frankfurt/?gate" style="color:#E100FF">✏️ Review all 16 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>16 photo spots in Frankfurt: where to stand and how to shoot them on your phone</h1>
+  <p>16 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 13 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 16 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/frankfurt/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 16 photo spots in Frankfurt"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 16 of the most-searched sights in Frankfurt as photo spots, ranked by how often people search for them: Städel Museum, Main Tower, Frankfurt Cathedral, Alte Oper and Hauptbahnhof lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Städel</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Staedel-Frankfurt-2013-Ffm-862-867.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Städel, Frankfurt: one of Frankfurt&#39;s oldest museums. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Simsalabimbam, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Städel is one of Frankfurt&#39;s oldest museums and has one of the most important art collections in Germany. It was founded in 1817 after a bequest from the banker and art patron Johann Friedrich Städel. The main building on Schaumainkai dates from 1878 and is in the Neo-Renaissance style. It was badly damaged in the Second World War and rebuilt in 1966. A modern underground wing opened in 2012. The museum stands on the Sachsenhausen bank of the Main, in the row of museums known as the Museumsufer.</p><p>For a phone photo, the best idea is to shoot from the tree-lined riverside promenade. From there you can fit the Städel and its neighbouring museums into one picture, with the high-rise skyline rising behind them. The sandstone-coloured facade also looks good when you frame it closer, with the garden leading the eye towards the building. Late afternoon is said to warm the museum row, so that is a good time to aim for.</p><p>The promenade is a street, so watch for passing cyclists and walkers while you line up your shot. Take a couple of frames with different amounts of sky and skyline, then pick the best one later. If the front is busy, try the Holbeinsteg footbridge side of the embankment as a quieter alternative.</p>
+    <p><b>Where it is:</b> The Städel is in Sachsenhausen, on the south bank of the River Main, along Schaumainkai in the Museumsufer row of museums.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the museum with the skyline behind it. Switch to ultra-wide (0.5x) if you want the whole museum row, and use 2x or 3x telephoto to pick out the facade or details.</p>
+      <p><b>Where to stand:</b> Stand on Schaumainkai (south bank promenade of the Main, in front of the museum row). The Städel and neighbouring museums in a row, with Frankfurt&#39;s high-rise skyline rising behind them. The south bank promenade of the Main, in front of the museum row. From here you can see the Städel and its neighbouring museums in a row, with Frankfurt&#39;s high-rise skyline rising behind them. The museum itself lies to the south-east.</p>
+      <p><b>Framing:</b> Turn on the gridlines and place the museum row along the lower third, leaving room for the skyline above. Use a tree or the line of the promenade as a frame or a leading line. For a closer shot, aim at the sandstone facade and let the garden lead the eye to the building. The Holbeinsteg side of the embankment is a possible quieter angle if the front is crowded.</p>
+      <p><b>Settings tip:</b> Tap on the facade to set focus, then slide the exposure down a little so the sky and the skyline keep their detail. If the lines of the building lean in, step back and use 1x or 2x rather than ultra-wide.</p>
+      <p><b>Best time:</b> Late afternoon, when one guide notes that the light warms the museum row.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Main Tower</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Maintower_Frankfurt.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Main Tower, Frankfurt: the only skyscraper in Frankfurt with a public viewing platform. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Thomas Wolf, www.foto-tw.de, <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en" target="_blank" rel="noopener license">CC BY-SA 3.0 de</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Main Tower is the only skyscraper in Frankfurt with a public viewing platform, and it is a good subject for a phone because its shape is so easy to read. It rises 200 m over the Innenstadt district, or 240 m with the antenna spire included. From a distance it looks like two towers joined together. The smaller one is a plain cuboid in a 1970s style. The taller one is round, clad in blue glass and topped by the transmission mast. Together they give you straight edges, curves and reflections in one frame.</p><p>The tower was built between 1996 and 1999 and is named after the nearby River Main. It has two public viewing platforms. If you go up, check the official site before you go for access details. The foyer also holds two public artworks, a video installation by Bill Viola and a wall mosaic by Stephan Huber.</p><p>For photographs, the phone icon on the map marks the centre of the tower&#39;s footprint, so the best positions are on the surrounding streets, where you will be looking up at the building. That gives a dramatic angle, but it can be hard to fit the whole building in. Step back along the street where you can, and use the ultra-wide lens for the full height. Then switch to the telephoto lens for close-ups of the blue glass and the point where the two parts meet.</p>
+    <p><b>Where it is:</b> Main Tower stands in the Innenstadt (city centre) district of Frankfurt, close to the River Main, which gave it its name.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the tower&#39;s height in from close range. Use the default lens (1x) for a more natural view from further back. Use the telephoto (2x-5x, depending on your phone) for details of the glass and the spire.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. The subject is the tower itself, so stand on the street right next to the building, where it rises above you. For the whole tower, step back along the street until the top fits in the frame, keeping the tower centred.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the tower&#39;s edges up with the vertical lines. Hold the phone as upright as you can, because tilting it back makes the sides lean inwards. Try one frame that shows both the cuboid part and the round blue part, and another that fills the picture with just the glass.</p>
+      <p><b>Settings tip:</b> Tap the bright sky to set focus, then drag the exposure slider down a little so the blue glass keeps its colour and the sky does not wash out. Hold the phone steady against your body or a wall for sharp shots.</p>
+      <p><b>Best time:</b> Clear daylight shows the blue glass at its strongest. Around sunset or dusk, with the sky still colourful and the building lit, switch on night mode and hold very still.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Frankfurt Cathedral</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Frankfurter_Dom_Eiserner_Steg.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Frankfurt Cathedral, Frankfurt: the city&#39;s largest religious building. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: rupp.de, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Frankfurt Cathedral, known in German as the Dom, is the city&#39;s largest religious building. It is a Gothic church whose tower rises 95 metres above the Old Town. Despite the English name it has never been the seat of a bishop. It earned the nickname Kaiserdom because Holy Roman emperors were elected here from 1356, and crowned here from 1562 to 1792. The church was built in the 14th and 15th centuries and rebuilt after a fire in 1867. It was badly damaged in the Second World War and rebuilt again in the 1950s.</p><p>It photographs well from the Römerberg, where the tower stands up behind the reconstructed half-timbered houses, with the Römer town hall closing in one side of the frame. Those houses stand where the old half-timbered streets were largely destroyed in 1944, so the picture also tells a story of rebuilding. A tall, vertical shot works well, letting the timber facades lead the eye up to the spire.</p><p>Stand on the square, face east and take a few frames at different zoom levels: one wide for the setting, one closer for the tower. If the square is busy, wait a moment for a gap, or try the small square in front of the church, which one guide describes as less crowded. The Eiserner Steg gives a distant view over the river if you have time to walk.</p>
+    <p><b>Where it is:</b> The cathedral stands in the heart of Frankfurt am Main, in the Old Town. The Römerberg square, with the Römer town hall, is a short walk to the west.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to show the houses and tower together. Switch to the telephoto lens (2x-5x, depending on your phone) for a tighter shot of the spire. Use the ultra-wide lens (0.5x) only if you want a lot of the square in the frame.</p>
+      <p><b>Where to stand:</b> Stand in Römerberg (Looking east across the square toward the cathedral tower, with the half-timbered houses in the foreground). The cathedral&#39;s Gothic tower rising behind the reconstructed half-timbered houses of the Old Town, with the Römer town hall framing one side. From here the cathedral&#39;s Gothic tower rises behind the half-timbered houses, with the Römer town hall framing one side.</p>
+      <p><b>Framing:</b> Turn the phone upright and switch on the gridlines. Put the tower on one of the vertical lines and let the timber facades fill the lower part of the frame, leading up to the spire. For a different angle, try the small square in front of the church, which one guide describes as less crowded.</p>
+      <p><b>Settings tip:</b> Tap the tower to set focus, then slide the exposure down a little if the sky looks washed out. After dark, use night mode and hold the phone as still as you can, resting your elbows on something solid.</p>
+      <p><b>Best time:</b> One guide recommends the morning, when light falls on the facades. Blue hour, when the spire is lit, is also recommended. Light can vary, so check conditions on the day.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>13 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Alte Oper <small>· members</small></li>
+    <li><span class="n">5</span>Frankfurt Hauptbahnhof <small>· members</small></li>
+    <li><span class="n">6</span>Eiserner Steg <small>· members</small></li>
+    <li><span class="n">7</span>Goethe House <small>· members</small></li>
+    <li><span class="n">8</span>Römer <small>· members</small></li>
+    <li><span class="n">9</span>Hauptwache <small>· members</small></li>
+    <li><span class="n">10</span>Commerzbank Tower <small>· members</small></li>
+    <li><span class="n">11</span>Römerberg <small>· members</small></li>
+    <li><span class="n">12</span>St. Paul&#39;s Church <small>· members</small></li>
+    <li><span class="n">13</span>Schirn Kunsthalle Frankfurt <small>· members</small></li>
+    <li><span class="n">14</span>Eschenheimer Turm <small>· members</small></li>
+    <li><span class="n">15</span>Old St. Nicholas Church <small>· members</small></li>
+    <li><span class="n">16</span>New Frankfurt Old Town <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Frankfurt?</summary><p>The first three on this map are Städel Museum, Main Tower and Frankfurt Cathedral. They are ranked by how often people search for them. The full map has 16.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Städel Museum?</summary><p>Stand on Schaumainkai (south bank promenade of the Main, in front of the museum row). Start with the default lens (1x) for the museum with the skyline behind it.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Main Tower?</summary><p>Clear daylight shows the blue glass at its strongest. Around sunset or dusk, with the sky still colourful and the building lit, switch on night mode and hold very still.</p></details>
+  <details class="faq"><summary>How do I get to Frankfurt Cathedral?</summary><p>No station or tram stop is listed for this spot, so head for the Römerberg in the Old Town in the centre of Frankfurt.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/St%C3%A4del" target="_blank" rel="noopener">Städel</a>, <a href="https://en.wikipedia.org/wiki/Main_Tower" target="_blank" rel="noopener">Main Tower</a>, <a href="https://en.wikipedia.org/wiki/Frankfurt_Cathedral" target="_blank" rel="noopener">Frankfurt Cathedral</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"frankfurt","place":"Frankfurt","bounds":[8.65,50.095,8.705,50.125],"center":[8.6775,50.11],"english":false,"vatican":false,"tiles":"/r2tiles/frankfurt/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

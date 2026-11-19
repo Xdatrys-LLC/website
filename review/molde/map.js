@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "molde", "title": "Molde: 6 photo spots (pilot review)", "place": "Molde", "bounds": [7.112, 62.724, 7.172, 62.754], "center": [7.1419999999999995, 62.739], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/molde/{z}/{x}/{y}.pbf"};

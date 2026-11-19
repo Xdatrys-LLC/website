@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "tallinn", "title": "Tallinn: 17 photo spots (pilot review)", "place": "Tallinn", "bounds": [24.69, 59.41, 24.85, 59.46], "center": [24.770000000000003, 59.435], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/tallinn/{z}/{x}/{y}.pbf"};

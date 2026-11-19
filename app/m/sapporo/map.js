@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "sapporo", "title": "Sapporo: 15 photo spots (pilot review)", "place": "Sapporo", "bounds": [141.28, 43.005, 141.42, 43.08], "center": [141.35, 43.042500000000004], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/sapporo/{z}/{x}/{y}.pbf", "tz": "Asia/Tokyo", "rail": true, "app": true};

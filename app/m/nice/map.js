@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "nice", "title": "Nice: 17 photo spots (pilot review)", "place": "Nice", "bounds": [7.24, 43.685, 7.3, 43.725], "center": [7.27, 43.705], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/nice/{z}/{x}/{y}.pbf", "tz": "Europe/Paris", "rail": true, "app": true};

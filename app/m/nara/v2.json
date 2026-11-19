@@ -1,0 +1,843 @@
+{
+ "Nara Park": {
+  "rank": 1,
+  "card": {
+   "hook": "Picture a deer strolling onto the lawn like it has a reservation, with pines and maples all around it. At Nara Park, the animals are the main subjects, and they're surprisingly good at it.",
+   "stand_here": "Stand near 林檎の庭, about 400 m south of the subject, at the phone icon on the map, and face north. Pause wherever the trees open out onto a lawn and shoot from there.",
+   "zoom": "Use zoom 1x for most deer and path shots. Switch to 0.5x for wide lawns and tall trees. If your phone has 2x or 5x, use it for close-ups so you can keep a comfy distance from the animals.",
+   "make_it_pop": "Turn on gridlines and put a deer on a crossing point, with a path or tree line behind it.",
+   "best_time": "Early morning is usually quieter and the light is softer. Late afternoon can be lovely too. On sunny middays, look for shade under the trees so the contrast isn't harsh.",
+   "selfie_here": "Use the front camera at 0.5x and keep a tree-lined path or the hillside over your shoulder. Hold the phone a bit higher and let a deer wander into the background on its own.",
+   "ask_someone": "",
+   "rules_and_safety": "The deer are wild, and signs ask you not to tease them, especially when feeding. Keep your snacks out of reach, give the deer some space, and let them come to you. The temples, shrine and museum around the park may have their own entry rules, so check the official site first.",
+   "challenge": "Crouch down to the deer's eye level and catch one on a gridline crossing point with a tree-lined path behind it.",
+   "good_to_know": "Nara Park opened in 1880, which makes it one of the oldest parks in Japan. It's officially about 502 hectares, or about 660 if you count the grounds of Tōdai-ji, Kōfuku-ji, Kasuga Grand Shrine and the Nara National Museum. More than 1,200 wild sika deer live here. Local folklore treats them as messengers of a god of Kasuga Grand Shrine, and today they're protected as natural monuments.",
+   "stand_here_before_gps_rule": "Stand near 林檎の庭, about 400 m south of the subject, at the phone icon on the map, and face north. Pause wherever the trees open out onto a lawn and shoot from there."
+  },
+  "selfie_research": null,
+  "cost_usd": 0.0568,
+  "at": "2026-11-18 08:16"
+ },
+ "Tōdai-ji": {
+  "rank": 2,
+  "card": {
+   "hook": "Your first instinct will be to step back until the whole roof fits, and then you'll realise you've run out of path. Tōdai-ji is just that big, and it's why it photographs so well.",
+   "stand_here": "At Tōdai-ji, stand about 45 m south of the subject, at the phone icon on the map, and face north. Take a few steps either way to clear other visitors from the foreground.",
+   "zoom": "Start at zoom 0.5x to fit the full width of the roof and the approach into one shot. Then try 1x for a more natural look, and 2x-5x (depending on your phone) for roof ends and the colour of the pillars.",
+   "make_it_pop": "Tap the building, then slide it a touch darker if the sky is bright, so the roof tiles and dark timber keep their colour.",
+   "best_time": "Early in the day or later in the afternoon usually gives softer light and fewer people in your shot. Check the official site for opening times.",
+   "selfie_here": "Head to Kagami-ike Pond, just beyond the Nandaimon gate. Use the front camera and turn so the temple is reflected in the calm water behind you.",
+   "ask_someone": "Ask a passer-by to stand on the stone path facing the Great Buddha Hall so the whole building fits, while you stand near the Bronze Octagonal Lantern.",
+   "rules_and_safety": "Commemorative photos are fine along the approach, but group photos and flash are banned inside the Great Buddha Hall. Photography is also banned inside all the other halls, and drones aren't allowed.",
+   "challenge": "Take one wide shot with a stranger walking through the frame, then one close-up of a single detail, and see which one your friends 'like' more.",
+   "good_to_know": "Tōdai-ji was founded in 738 and opened in 752. The Great Buddha Hall holds the world's largest bronze statue of the Buddha Vairocana, about 16 m high. The hall you see today dates from 1709 and was strengthened with steel framing between 1974 and 1980. The whole complex is part of the UNESCO listing 'Historic Monuments of Ancient Nara'.",
+   "stand_here_before_gps_rule": "At Tōdai-ji, stand about 45 m south of the subject, at the phone icon on the map, and face north. Take a few steps either way to clear other visitors from the foreground."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Kagami-ike Pond (Mirror Pond) in front of Tōdai-ji",
+     "detail": "at the pond just beyond the Nandaimon gate, with the temple reflected in the water behind you",
+     "why": "Blogs describe the pond as a top spot for selfies and group shots, with the temple reflected in calm water behind the visitor.",
+     "sources": [
+      {
+       "title": "Nara's Top 10 Instagrammable Photo Spots: Scenic Guide (SillySuitcase)",
+       "url": "https://sillysuitcase.com/nara-instagram-spots-guide/"
+      },
+      {
+       "title": "Todaiji Temple (JOC Japan Travel)",
+       "url": "https://www.jocjapantravel.com/kansai-nara-todaiji-temple/"
+      }
+     ]
+    },
+    {
+     "name": "Bronze Octagonal Lantern (Kondō Hakkaku Tōrō) at the entrance to the Great Buddha Hall",
+     "detail": "beside the lantern, with the Great Buddha Hall filling the background",
+     "why": "A travel guide suggests the lantern's silhouette against the main hall as a backdrop, though it describes photos of the lantern rather than selfies.",
+     "sources": [
+      {
+       "title": "2026 Recommended Temple in Todai-ji Daibutsuden (Great Buddha Hall) (Trip Moments)",
+       "url": "https://sg.trip.com/moments/theme/poi-todai-ji-daibutsuden-23029352-temple-900208/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Stone path in front of the Great Buddha Hall (Daibutsuden)",
+    "detail": "on the stone path facing the hall, so the whole building fits in the frame; the visitor can stand near the Octagonal Lantern",
+    "sources": [
+     {
+      "title": "Todaiji in Nara: Opening Hours, Ticket Prices and Cash-Only Entry (Sumimasen Guide)",
+      "url": "https://sumimasenguide.com/articles/nara-todaiji-visit"
+     },
+     {
+      "title": "Daibutsu-den (Tōdai-ji official site)",
+      "url": "https://www.todaiji.or.jp/en/information/daibutsuden/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods are prohibited in the Great Buddha Hall, and so are group photos there.",
+     "sources": [
+      {
+       "title": "Daibutsu-den (Tōdai-ji official site)",
+       "url": "https://www.todaiji.or.jp/en/information/daibutsuden/"
+      }
+     ]
+    },
+    {
+     "rule": "Commemorative photos are allowed along the approach. Photography is banned inside all other halls except the Great Buddha Hall.",
+     "sources": [
+      {
+       "title": "Tourist Information (Tōdai-ji official site)",
+       "url": "https://www.todaiji.or.jp/en/tourist-information/"
+      }
+     ]
+    },
+    {
+     "rule": "Flash and sketching are prohibited in the Great Buddha Hall.",
+     "sources": [
+      {
+       "title": "Daibutsu-den (Tōdai-ji official site)",
+       "url": "https://www.todaiji.or.jp/en/information/daibutsuden/"
+      }
+     ]
+    },
+    {
+     "rule": "Drones are not permitted at Tōdai-ji.",
+     "sources": [
+      {
+       "title": "Todaiji Temple (Tokyo Weekender)",
+       "url": "https://www.tokyoweekender.com/location/todaiji-temple/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Selfie sticks are not mentioned on any page I found. The pond and lantern picks come from blogs and aggregator guides rather than an official source, and the lantern spot is not explicitly described as a selfie spot. The passer-by spot is inferred from a page describing the view from the stone path in front of the hall; no page names where a photographer should stand. The Trip Moments page is an aggregator with mixed-quality text."
+  },
+  "cost_usd": 0.0473,
+  "at": "2026-11-18 08:17",
+  "selfie_pos": [
+   34.6873161,
+   135.8401899
+  ],
+  "selfie_note": "Kagami-ike Pond (OpenStreetMap: 鏡池, 春日野町, 奈良市, 奈良県, 日本)"
+ },
+ "Kasuga-taisha": {
+  "rank": 3,
+  "card": {
+   "hook": "You haven't even reached the shrine yet and a deer is already strolling past a row of stone lanterns like it owns the place. Kasuga-taisha does that to your camera roll.",
+   "stand_here": "Stand near 神石「出現石」or「額塚」, about 35 m south of the subject, at the phone icon on the map, and face north. The shrine area sits right ahead of you, so take an opening shot here, then walk closer.",
+   "zoom": "Start at zoom 1x for the gates, halls and lantern-lined path. Use 0.5x in tight spots like under the trees or in the cloisters. Zoom 2x to 5x (depending on your phone) is good for roof details, bronze lanterns and deer, so you don't have to get close.",
+   "make_it_pop": "Turn on gridlines and use the path or a row of lanterns to lead the eye to the buildings, then tap the building and drag it a little darker if the white walls look too bright under the dark trees.",
+   "best_time": "Late April to early May is wisteria time. The lanterns are lit only on 3 February and 14-15 August, so check the official site for festival times. Early morning usually means softer light and fewer people.",
+   "selfie_here": "Try the giant ginkgo tree beside the second torii (ni-no-torii) on the main path toward the shrine. Use the front camera, switch to 0.5x, and keep the ginkgo, and any wandering deer, over your shoulder. One guide calls its golden foliage a striking backdrop.",
+   "ask_someone": "",
+   "rules_and_safety": "Signs at entrances and in front of buildings come first, and please don't block the flow of people. The most sacred part of the inner sanctuary (Honden) may be off limits for photos. Wear grippy shoes, because the gravel paths can get uneven after rain.",
+   "challenge": "Get a deer in front of a lantern with the deer sharp and the lantern softly behind it. Portrait mode helps, and patience helps more.",
+   "good_to_know": "Kasuga-taisha is the Shinto shrine of the Fujiwara family, founded in 768. It has been rebuilt to the same plan every 20 years for over a thousand years, most recently in 2016. The path is lined with more than three thousand stone lanterns, and the shrine is part of the UNESCO listing \"Historic Monuments of Ancient Nara\".",
+   "stand_here_before_gps_rule": "Stand near 神石「出現石」or「額塚」, about 35 m south of the subject, at the phone icon on the map, and face north. The shrine area sits right ahead of you, so take an opening shot here, then walk closer."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Second Torii (ni-no-torii), Kasuganocho",
+     "detail": "beside the giant ginkgo tree near the second torii, on the main path toward the shrine",
+     "why": "A guide describes the ginkgo's golden foliage and wandering deer as a striking backdrop, though it does not say which way the shrine faces relative to the photo.",
+     "sources": [
+      {
+       "title": "Nara Park Travel Photography Guide to the best locations & spots",
+       "url": "https://walkovertheworld.com/best-photo-locations-nara-park/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Red Torii, Kasuga-Taisha",
+    "detail": "a photo spot listed for the shrine alongside the outside stairs and the Seijo-mon Gate; the page does not give an exact standing point",
+    "sources": [
+     {
+      "title": "Nara Park Travel Photography Guide to the best locations & spots",
+      "url": "https://walkovertheworld.com/best-photo-locations-nara-park/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photo rules vary by area, and signs at entrances and in front of buildings take priority; avoid blocking the flow of people.",
+     "sources": [
+      {
+       "title": "Kasuga Taisha, Nara: Lanterns, Wisteria & Shrine Guide",
+       "url": "https://www.jeepe.jp/en/articles/kasuga-taisha-nara-guide-1220"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is generally allowed on the outer grounds and main areas, but the most sacred parts of the inner sanctuary (Honden) may be restricted.",
+     "sources": [
+      {
+       "title": "Kasuga Taisha Osaka (2026)",
+       "url": "https://airial.travel/attractions/japan/nara/kasuga-taisha-osaka-QGJlXR_9"
+      }
+     ]
+    }
+   ],
+   "safety": "Wear comfortable, grippy shoes, because many paths are gravel and can be uneven after rain.",
+   "notes": "Selfie-stick and tripod rules: no page I found states one, so none is listed. The Second Torii and Red Torii entries come from a single photo guide that gives no exact standing points or shooting orientation, so verify on arrival. The 'ask someone' suggestion is therefore weak, and no page gives a spot that frames the whole shrine for a passer-by. The sources are mostly blogs and aggregator pages, not official tourism pages; the only official-site reference I saw was a 2015-era page about the shrine's old treasure house, which I did not use. The 'best selfie' is inferred from a photo guide's description rather than a selfie-specific source. Search coverage was limited to two queries."
+  },
+  "cost_usd": 0.0461,
+  "at": "2026-11-18 08:17"
+ },
+ "Kōfuku-ji": {
+  "rank": 4,
+  "card": {
+   "hook": "Wait for the ripples to stop and Nara gives you two pagodas for the price of one: a real one above the willows and a wobbly twin in the pond. Everyone in town seems to know this shape, and this is the spot where it looks best.",
+   "stand_here": "Stand on the south bank of 猿沢池 (Sarusawa Pond), at the point directly across the pond from the pagoda. Face across the water so the five-storey pagoda sits above the willows and temple roofs.",
+   "zoom": "Start at zoom 1x to fit the pagoda, its reflection and the willows in one shot. Try 0.5x for more pond and trees, or 2x (up to 5x on some phones) to bring the pagoda closer without moving.",
+   "make_it_pop": "Turn on the gridlines and keep your phone level, then tap the pagoda and slide it a little darker so the sky keeps its colour and the reflection stays clear.",
+   "best_time": "Go just before sunset, or early in the morning before the tour groups arrive. Either way, the reflection looks best when the water is still.",
+   "selfie_here": "On the south bank of Sarusawa Pond, use the front camera and turn so the pagoda is over your shoulder, with willow branches framing you. Try 0.5x if your phone has it, so you fit more of the scene in.",
+   "ask_someone": "Ask a passer-by to shoot from the main approach path to the pagoda while you stand in front of the pagoda, so the trees and Nara Park fit in the frame. Early morning light is the nicest.",
+   "rules_and_safety": "You can't enter or climb the pagoda, but you can photograph it from outside. Photos aren't allowed inside the halls or the National Treasure Museum. Check the pagoda's current state before you go, as some visitors have found it under restoration.",
+   "challenge": "Catch the pagoda and its reflection with no ripples at all, and add one willow branch hanging in at the edge like a leafy photobomber.",
+   "good_to_know": "Kōfuku-ji began in 669 and moved to its present site in 710, when Nara was built as the capital. The pagoda you see today dates from 1426 and is a National Treasure. The temple is part of the Historic Monuments of Ancient Nara World Heritage Site, and its Central Golden Hall was finished again in 2018.",
+   "stand_here_before_gps_rule": "Stand on the south bank of 猿沢池 (Sarusawa Pond), at the point directly across the pond from the pagoda. Face across the water so the five-storey pagoda sits above the willows and temple roofs."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Southern bank of Sarusawa Pond",
+     "detail": "On the south bank of the pond, facing across the water so the five-story pagoda sits behind you; willow branches often frame the shot.",
+     "why": "Bazar Travels calls the southern bank the classic view of the pagoda reflected in still water, and Nara City's guide places the pagoda on the pond's north side.",
+     "sources": [
+      {
+       "title": "Kofuku-ji Temple: Nara's Ancient Pagoda and Buddhist Art (Bazar Travels)",
+       "url": "https://bazartravels.com/places/kofuku-ji-temple/"
+      },
+      {
+       "title": "Nara Camera Trip! Itinerary for 2 days and 1 night (Nara City Tourism Association)",
+       "url": "https://narashikanko.or.jp/en/course/detail_15.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Main approach to the five-story pagoda, Kofuku-ji",
+    "detail": "Ask the passer-by to stand on the main approach path so the visitor stands in front of the pagoda with the trees and Nara Park in the frame; early morning light is recommended.",
+    "sources": [
+     {
+      "title": "Kofuku-ji Five-Story Pagoda (Airial)",
+      "url": "https://airial.travel/attractions/japan/nara/kofuku-ji-five-story-pagoda-LRl1c42H"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "The pagoda cannot be entered or climbed, but it can be photographed from outside.",
+     "sources": [
+      {
+       "title": "Kofukuji Temple, Nara, Japan (Nara Park official site)",
+       "url": "https://narapark.org/kofukuji-temple/"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is not permitted inside the museum or the halls; the exterior pagoda and grounds are freely photographable.",
+     "sources": [
+      {
+       "title": "Kofuku-ji Temple Visitor Guide (Japan Activity)",
+       "url": "https://japanactivity.com/attractions/nara/kofuku-ji"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page gave selfie-specific or tripod/selfie-stick rules, so none are reported. The pages name the Sarusawa Pond bank and the approach path as photo spots for the pagoda, but none describes a selfie with the pagoda behind the subject; the 'pagoda behind you' wording is my inference from the geometry. The Sarusawa Pond spot is about the pagoda reflection, not a selfie. Pages differ on the best time (early morning vs sunset), and one review notes scaffolding can block views. The second selfie spot was left out because no page named a selfie location beyond the pond. The given coordinates were not checked against any page."
+  },
+  "cost_usd": 0.05,
+  "at": "2026-11-18 08:18"
+ },
+ "Mount Wakakusa": {
+  "rank": 5,
+  "card": {
+   "hook": "Picture a few deer nibbling the grass, and behind them one big, smooth, round green hill that looks like it was made for your phone frame. That's Mount Wakakusa, and its name means \"young grass\".",
+   "stand_here": "Start in Nara Park and head east towards the hill, then look north. Stand right at the subject on the map, where the signposted walking trails from Nara Park lead up the hill, with the long slope in front of you.",
+   "zoom": "Start at 1x to get the whole slope with some foreground. Try 0.5x if you're close and want the full hillside, or 2x to 5x (depending on your phone) to pick out the ridge line.",
+   "make_it_pop": "Turn on gridlines, tap the hill, then slide it a little darker if the sky is bright so the grass keeps its colour.",
+   "best_time": "Pick a clear day, when the green slope really stands out against the sky. If you're here for the burning, it's the fourth Saturday of January, but check the official festival information first because it can be postponed or cancelled.",
+   "selfie_here": "Try Isuien Garden, where the garden is designed to borrow the view of Mt. Wakakusa, so the mountain sits behind you naturally. Use the front camera, try 0.5x, and tilt the phone so the hill fills the background over your shoulder. Or, if you're climbing, the first station on Wakakusayama has benches and wide views, and the grassy slopes make a good backdrop.",
+   "ask_someone": "",
+   "rules_and_safety": "The mountain is closed from 12 December to 17 March, so in winter you'll be photographing it from below. Rules for climbing may change, so check the official site before you go. The climb to the summit is steep and may not suit elderly people or young children, and facilities on the hill are limited, so bring water.",
+   "challenge": "Get a path, a tree branch or a deer into the bottom of your frame, so the hill looks properly huge.",
+   "good_to_know": "Mount Wakakusa is 342 metres high and sits on the eastern edge of Nara Park. It's best known for Yamayaki, the \"mountain burning\" festival, when the dead grass is set alight on the fourth Saturday of January, followed by fireworks. The story goes that the custom began in 1760 from a boundary dispute between Tōdai-ji and Kōfuku-ji, though other explanations exist.",
+   "stand_here_before_gps_rule": "Start in Nara Park and head east towards the hill, then look north. Stand right at the subject on the map, where the signposted walking trails from Nara Park lead up the hill, with the long slope in front of you."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Isuien Garden (view of Mt. Wakakusa from inside the garden)",
+     "detail": "Stand within the garden, where its design frames the mountain; the page does not name a specific spot inside the garden",
+     "why": "The garden is built to borrow the view of Mt. Wakakusa, so the mountain appears naturally in the background of a photo taken there.",
+     "sources": [
+      {
+       "title": "The 26 best photo spots in Nara (Wanderlog)",
+       "url": "https://wanderlog.com/list/geoCategory/160241/best-photo-spots-in-nara"
+      }
+     ]
+    },
+    {
+     "name": "First station on Wakakusayama (first viewpoint)",
+     "detail": "At the first station, reached by a 10 to 15 minute climb, where there are benches and wide views",
+     "why": "Reviewers call the first station a worthwhile stop with better views than the lower path, and the grassy slopes there make a backdrop for a photo with the hill behind you.",
+     "sources": [
+      {
+       "title": "Wakakusayama Hill, Nara, Japan (Wanderlog)",
+       "url": "https://wanderlog.com/place/details/737474/wakakusayama-hill"
+      },
+      {
+       "title": "Mount Wakakusa Ticket and Hiking Guide: Mount Wakakusa Hiking Guide (Japan Activity)",
+       "url": "https://japanactivity.com/mount-wakakusa-hiking-guide"
+      },
+      {
+       "title": "Mount Wakakusa (2026) (Airial)",
+       "url": "https://airial.travel/attractions/japan/nara/mount-wakakusa-bqt5mUt3"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "Reviewers warn that the climb to the summit is steep and may not suit elderly people or young children, and they advise bringing water because facilities on the hill are limited.",
+   "notes": "No page I found names a spot from which a passer-by should photograph a visitor with the whole mountain in frame, so ask_someone_spot is null. The Tobihino meadow in Nara Park is named only as a place to watch the Yamayaki fire, which is a seasonal January event, so I did not use it as a photo spot. The Wakakusa observatory about halfway up is named by two pages, but it shows the city from the mountain rather than the mountain behind the visitor, so I left it out. Sources disagree on access: one says the hill opens after 9am with side gates closing at 5pm, and another says it is open from March to December, and a page notes winter closures for the festival. Check current access before going. Photography is described as generally allowed, but no page states selfie stick or tripod rules."
+  },
+  "cost_usd": 0.0465,
+  "at": "2026-11-18 08:18"
+ },
+ "Isui-en": {
+  "rank": 6,
+  "card": {
+   "hook": "You're standing in a garden, but the roof of Tōdai-ji's great southern gate and the hills beyond seem to be standing in it with you. That's the \"borrowed landscape\" trick, and it's the whole charm of Isui-en.",
+   "stand_here": "Head to the front pond and stand on the garden path, facing the Sanshutei tea house. In autumn the maples and their reflections on the water frame it nicely.",
+   "zoom": "Start at 0.5x to get the whole pond, trees and sky in one go. Use 1x for most views, then try 2x to 5x (depending on your phone) for the pagoda, the stepping stones and the crane and tortoise islands.",
+   "make_it_pop": "Turn on the gridlines, put the pond's edge on a lower line, and tuck a stone, branch or lantern into the foreground for depth.",
+   "best_time": "Early or late in the day, or under thin cloud, gives soft light that suits the pond and trees. At midday the shade under the leaves gets contrasty, so tap the bright water or leaves and slide it a little darker to keep the sky and reflections colourful.",
+   "selfie_here": "Try the grassy knoll by the big lake in the rear garden, where Mount Wakakusa rises behind you. Use the front camera, switch to 0.5x if your phone offers it, and let the mountain sit over your shoulder. A second option is one of the small stone bridges by the front pond, with the Sanshutei tea house in view.",
+   "ask_someone": "Walk the path around the big rear pond to the viewpoint where Wakakusa is mirrored in the water, stand there yourself, and ask your helper to shoot from the pond side so the garden and mountain fill the frame.",
+   "rules_and_safety": "Photography is fine in the gardens, but flash may not be allowed inside the Neiraku Museum. Entry may be ticketed or restricted, and parts of the garden may be closed for work, so check the official site before you go.",
+   "challenge": "Find the roof of Tōdai-ji's gate peeking over the trees, then get it into your shot with a stone in the foreground.",
+   "good_to_know": "Isui-en is really two gardens joined together. The western part dates from the 1670s, when a wealthy tanner reworked the grounds, and the larger eastern part was laid out in 1899. It's the only walking garden in Nara, and the pond is shaped like the kanji for water, with two small islands for a crane and a tortoise, symbols of long life. There's also a museum of traditional Japanese ceramics.",
+   "stand_here_before_gps_rule": "Head to the front pond and stand on the garden path, facing the Sanshutei tea house. In autumn the maples and their reflections on the water frame it nicely."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Grassy knoll beside the vast central lake, Isuien rear garden",
+     "detail": "on the grassy knoll by the main lake, with Mount Wakakusa rising in the distance behind you",
+     "why": "One guide says Wakakusa sits behind the garden horizon from this knoll, so a self-portrait here shows the borrowed-scenery backdrop.",
+     "sources": [
+      {
+       "title": "Isuien Garden Neiraku Museum Nara - ShaunChng.com",
+       "url": "https://shaunchng.com/travel/east-asia/isuien-garden-neiraku-museum-nara/"
+      }
+     ]
+    },
+    {
+     "name": "Front Garden stone bridges by the first pond, near the Sanshutei tea house",
+     "detail": "on one of the small stone bridges by the Front Garden's first pond, with the Sanshutei tea house in view",
+     "why": "This is a compact, traditional Edo-era setting that a guide recommends stopping at, though the guide does not describe a specific photo position.",
+     "sources": [
+      {
+       "title": "Isuien Garden 2026 Guide - Expert Tips - Itinerary Expert",
+       "url": "https://itinerary.expert/japan/isuien-garden/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Viewpoint on the path around the Rear Garden's large pond, where Mount Wakakusa reflects in the water",
+    "detail": "walk the path around the big Rear Garden pond to the viewpoint where Wakakusa is mirrored, and have the passer-by shoot from the pond side so the garden and mountain fill the frame",
+    "sources": [
+     {
+      "title": "Isuien Garden 2026 Guide - Expert Tips - Itinerary Expert",
+      "url": "https://itinerary.expert/japan/isuien-garden/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is allowed in the gardens, but flash may be restricted inside the Neiraku Museum.",
+     "sources": [
+      {
+       "title": "Isuien Garden Neiraku Museum Nara - Silly Suitcase guide",
+       "url": "https://sillysuitcase.com/nara-instagram-spots-guide/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Pages gave no selfie-stick or tripod rules, and no safety point. The selfie spots are my reading of general descriptions, not photo positions named by any page; please check them on site. The ask-someone spot is a reflection viewpoint from one guide, and no page names an exact spot for a full-garden photo. Coordinates were not checked against any page. One guide (Wanderlog) says parts of the garden were under construction at the time of its visit, so check current access. Most sources are blogs and dated 2025 or earlier."
+  },
+  "cost_usd": 0.0492,
+  "at": "2026-11-18 08:19"
+ },
+ "Nara National Museum": {
+  "rank": 7,
+  "card": {
+   "hook": "Plot twist in Nara: after all those temples and shrines, you meet a cream-coloured building with gold details and tall windows that looks like it wandered in from France. Then you spot its twin in the pond.",
+   "stand_here": "Stand about 190 m east of the subject, at the phone icon on the map, and face west. Crouch low near the edge of the small pond in front of the Nara National Museum and look back at the facade.",
+   "zoom": "Start at zoom 0.5x to get lots of water in the foreground. Switch to 1x for a calmer shot of the whole building, then try 2x-5x (depending on your phone) for the carved details and windows.",
+   "make_it_pop": "Turn on gridlines and put the water's surface along the lower third line so the reflection and the building balance.",
+   "best_time": "A location-photo guide says autumn foliage may be the most attractive season, with red leaves around the pond. Green leaves look good too.",
+   "selfie_here": "Stand at the water's edge of the pond in front of the museum with the building behind you. Use the front camera at 0.5x so the facade and its reflection both fit. For a cleaner backdrop, face the main building from the lawn or path and keep the facade over your shoulder.",
+   "ask_someone": "Ask a passer-by to crouch low at the pond's edge and shoot wide at 0.5x while you stand in the frame, so the museum shows in the reflection behind you.",
+   "rules_and_safety": "Outside, you can photograph the front of the building for your own use. Inside, photography is limited to certain galleries and flash is not allowed. Keep papers and food out of reach, because the deer will snatch them.",
+   "challenge": "Get the museum twice in one shot, the real one and the wobbly watery one, and keep your phone level so neither leans.",
+   "good_to_know": "The original building was designed by Katayama Tōkuma and finished in 1894, in the French Renaissance style. The stonework around the West Entrance is especially admired, so walk around and zoom in. It has been an Important Cultural Property since 1969.",
+   "stand_here_before_gps_rule": "Stand about 190 m east of the subject, at the phone icon on the map, and face west. Crouch low near the edge of the small pond in front of the Nara National Museum and look back at the facade."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Pond in front of Nara National Museum",
+     "detail": "at the water's edge of the pond in front of the museum, with the museum building behind you",
+     "why": "A pond sits in front of the museum, so a selfie there can include the building and its reflection in the water.",
+     "sources": [
+      {
+       "title": "Nara National Museum, Japan (Locationscout)",
+       "url": "https://www.locationscout.net/japan/50009-nara-national-museum"
+      }
+     ]
+    },
+    {
+     "name": "Front of the museum's 1889 main building",
+     "detail": "on the lawn or path facing the original Western-style main building, with its facade behind you",
+     "why": "Travel guides describe the cream-yellow Meiji-era exterior as photogenic against the sky, so a selfie facing it gives the building as the backdrop.",
+     "sources": [
+      {
+       "title": "2026 Recommended Museums in Nara National Museum (Trip Moments)",
+       "url": "https://sg.trip.com/moments/theme/poi-nara-national-museum-13511917-museums-910238/"
+      },
+      {
+       "title": "Top 20 Must-Visit Places in Nara, Japan (The Atlas Aura)",
+       "url": "https://theatlasaura.com/blog/top-20-must-visit-places-in-nara-japan-temples-deer-and-hidden-treasures"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Pond in front of Nara National Museum",
+    "detail": "the photographer goes down low with the camera at the pond edge and uses a wide-angle lens, so the museum shows in the reflection with the visitor in the frame",
+    "sources": [
+     {
+      "title": "Nara National Museum, Japan (Locationscout)",
+      "url": "https://www.locationscout.net/japan/50009-nara-national-museum"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Keep papers and food out of reach, because a travel page warns that the deer will snatch them.",
+   "notes": "No page I found gives a specific standing point for a passer-by to frame the whole museum, so the pond spot is the nearest match and is a reflection-photo tip, not a stated photographer position. The pond and the facade are named only generally, with no exact path or steps given. Pages also say photography is restricted inside the museum (a flash ban is mentioned), but no page gives selfie-stick or tripod rules. The 'Ukimido' and Sarusawa-ike spots are not at this museum, so I left them out."
+  },
+  "cost_usd": 0.0486,
+  "at": "2026-11-18 08:19"
+ },
+ "Yakushi-ji": {
+  "rank": 8,
+  "card": {
+   "hook": "Count the floors on the East Pagoda and you'll get six. It's actually three, and the little roofs tucked in between are playing a trick on you.",
+   "stand_here": "Face north, so the Golden Hall sits in the middle with a pagoda on each side.",
+   "zoom": "Start at zoom 1x to get the whole scene of hall and pagodas. Then try zoom 2x or 5x (depending on your phone) for the stacked roofs and the spire. Only use zoom 0.5x if you're very close, and keep your phone level so the buildings don't lean.",
+   "make_it_pop": "Turn on the gridlines and line the centre line up with the Golden Hall, so the pagodas balance on both sides.",
+   "best_time": "Morning or late afternoon gives softer light, warmer wood tones and fewer people in your shot, while midday sun can flatten the roofs. The East Pagoda was covered in scaffolding until 2018, so glance at recent photos if you want a clear view of it.",
+   "selfie_here": "Try the shore of Lake Ōike, a short walk north of the temple. The pond mirrors both pagodas and the Golden Hall, and it's free. Use the front camera and step back so the pagodas fit over your shoulder, but check the framing on site, because this is a tentative suggestion.",
+   "ask_someone": "Near the Nandaimon Gate on the south side of the temple, ask a passer-by to frame you with both pagodas behind you.",
+   "rules_and_safety": "Photos are generally fine outdoors and in the courtyards, but check the signs. Inside the halls with the Yakushi Triad and other treasures, photography is restricted, so ask before you shoot. Some areas may be ticketed or restricted, so check the official site before you go.",
+   "challenge": "Take one shot of the East Pagoda that makes people guess the number of floors, then tell them the answer is three.",
+   "good_to_know": "Yakushi-ji was founded in the late 7th century, and the present site dates from 730. The East Pagoda, completed in 730, is 34 metres tall and the only original 8th-century building here. Most of the rest burned and was rebuilt later: the main hall in 1976, the west tower in 1981 and the central gate in 1984, so you can compare old timber with newer, brighter paintwork.",
+   "stand_here_before_gps_rule": "Stand at the phone icon at Yakushi-ji, where the middle of the temple is 104 m to the north, about 2 minutes on foot. Face north, so the Golden Hall sits in the middle with a pagoda on each side."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Lake Ōike shore, a short walk north of the temple",
+     "detail": "shoreline of the pond, facing the twin pagodas and the Golden Hall",
+     "why": "The pond called Ōike, a short way north, gives you both pagodas and the Golden Hall mirrored in the water, and it's free. That page describes a view for photographers rather than a selfie angle, so check the framing on site.",
+     "sources": [
+      {
+       "title": "Yakushiji Temple: Nara's Twin-Pagoda World Heritage Site (Hidden Japan Gems)",
+       "url": "https://hiddenjapan-gems.com/yakushiji-temple-nara/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Nandaimon Gate area, south side of the temple",
+    "detail": "near the Nandaimon Gate, where the passer-by can frame you with both pagodas behind you",
+    "sources": [
+     {
+      "title": "The most photogenic New Eight Scenic Views of Nara (Nara Travelers Guide)",
+      "url": "https://narashikanko.or.jp/en/feature/shinnantohakkei"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is restricted inside the halls housing the Yakushi Triad and other treasures; ask before photographing inside temple buildings and gesture toward your camera to show your intention.",
+     "sources": [
+      {
+       "title": "Yakushi-ji Nara: UNESCO East-West Pagodas & Yakushi Triad (Jeepe)",
+       "url": "https://www.jeepe.jp/en/articles/yakushiji-temple-guide-1227"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is generally allowed in outdoor areas and courtyards, and signage should be checked for restrictions.",
+     "sources": [
+      {
+       "title": "Yakushi-ji Temple (2025) (Airial)",
+       "url": "https://airial.travel/attractions/japan/nara/yakushi-ji-temple-pDNK293o"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found gives a selfie angle with the temple directly behind the visitor; the Ōike and Nandaimon sources describe photographers' views of the pagodas, so the selfie spot is a tentative suggestion. No source states rules on selfie sticks or tripods. The Nandaimon Gate location is taken from the tourism page's 'from the south' wording, and the page does not give a precise spot. Some sources are old: one notes the East Pagoda renovation was scheduled to end in 2019, so check current access."
+  },
+  "cost_usd": 0.0527,
+  "at": "2026-11-18 08:20"
+ },
+ "Nigatsu-dō": {
+  "rank": 9,
+  "card": {
+   "hook": "Most people climb the hill to Nigatsu-dō for one thing: the wide wooden balcony, with all of Nara's rooftops laid out below you. The big roof of the Great Buddha Hall sits right in the middle of the view, like it's posing.",
+   "stand_here": "Stand right at the phone icon on the map, out on the main balcony of Nigatsu-dō. Face west, so the rooftops and mountains are in front of you and the Great Buddha Hall roof sits in the foreground.",
+   "zoom": "Start at 1x to get the rooftops and the Great Buddha Hall roof together. Go to 0.5x when you want the pillars and the full width of the balcony, then try 2x or 5x to pick out the roof or the faraway mountains.",
+   "make_it_pop": "Switch on gridlines to keep the horizon straight, and let one of the wooden pillars frame the left or right edge of your shot.",
+   "best_time": "Go in the late afternoon and stay for sunset, when the sun drops behind the Great Buddha Hall roof. Take a few shots as you wait, because the colours change fast. In early March the Shuni-e service may bring crowds.",
+   "selfie_here": "Try the wooden balcony on the city-facing side: front camera, 0.5x, with the city view in front of you and the hall's wooden pillars over your shoulder. For a moodier one, take a close selfie on the lantern-lined stone steps on the way up.",
+   "ask_someone": "",
+   "rules_and_safety": "The boards can be slippery after rain, and morning dew in spring and autumn does the same, so wear shoes with good grip. It's a place of worship, so be respectful, and check the official site for current access before you go.",
+   "challenge": "Take three shots of the same view as the sun sinks, then pick the one where the sky looks best. Bonus points if a pillar frames it nicely.",
+   "good_to_know": "Nigatsu-dō was founded in the 8th century and rebuilt in 1669 after a fire in 1667. The current building is a National Treasure. The Shuni-e service has been held here every year since 760 and now runs from 1 to 15 March.",
+   "stand_here_before_gps_rule": "Stand right at the phone icon on the map, out on the main balcony of Nigatsu-dō. Face west, so the rooftops and mountains are in front of you and the Great Buddha Hall roof sits in the foreground."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Wooden veranda (main balcony) of Nigatsu-do Hall",
+     "detail": "On the wooden balcony at the hall's city-facing side, with the city view in front of you and the hall's wooden structure behind you (the framing pillars are the photogenic part)",
+     "why": "Reviewers call the main balcony the favourite view, with its framing pillars and wide-open perspective, and the temple's wooden structure is described as photogenic.",
+     "sources": [
+      {
+       "title": "2026 Recommended Guides in Nigatsu-do (Updated September) | Trip Moments",
+       "url": "https://www.trip.com/moments/theme/poi-nigatsu-do-10354671-guides-993135/"
+      }
+     ]
+    },
+    {
+     "name": "Lantern-lined stone steps on the path up to Nigatsu-do",
+     "detail": "On the stone steps climbing the hillside to Nigatsu-do, with the old wooden lanterns beside you",
+     "why": "The approach is described as lined with stone steps and wooden lanterns, giving an atmospheric backdrop for a close selfie.",
+     "sources": [
+      {
+       "title": "Viewpoint Overlooking Nara City, Nigatsudo at Todaiji Temple | Trip Moments",
+       "url": "https://us.trip.com/moments/detail/nara-city-1045-141676166"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [
+    {
+     "rule": "Tripods are prohibited inside the Great Buddha Hall (Daibutsuden); the page does not say this applies to Nigatsu-do, which is a separate hall.",
+     "sources": [
+      {
+       "title": "2025 Recommended Attractions in Todai-ji Nigatsudo (February Hall) (Updated June) | Trip Moments",
+       "url": "https://www.trip.com/moments/theme/poi-todai-ji-nigatsudo-10354671-attractions-993137/"
+      }
+     ]
+    }
+   ],
+   "safety": "Morning dew in spring and autumn can make the surfaces slippery, so anti-slip shoes are recommended, per a Trip Moments guide to the Nigatsudo area.",
+   "notes": "No page I found names a spot where a passer-by should stand to photograph a visitor with the whole Nigatsu-do Hall in frame, so ask_someone_spot is null. The two selfie spots are inferred from descriptions of the veranda and the lantern-lined steps; none of the pages explicitly says the hall is directly behind the visitor in those positions. The 'bronze octagonal lantern' photo tip appears in a guide, but the pages do not clearly tie it to Nigatsu-do, so I left it out. Several 'pond reflection' and 'Great Buddha Hall' tips in the results concern Todai-ji's main hall, not Nigatsu-do, so I excluded them. No page I found mentions selfie-stick rules."
+  },
+  "cost_usd": 0.0459,
+  "at": "2026-11-18 08:20"
+ },
+ "Tōshōdai-ji": {
+  "rank": 10,
+  "card": {
+   "hook": "The Golden Hall at Tōshōdai-ji doesn't shout. It just sits there with one long, even roof and a row of columns, and somehow that's the whole show.",
+   "stand_here": "Stand on the gravel courtyard right in front of the Golden Hall (kondō), facing the building. Let the raised platform and tiled roof fill the frame, with the gravel as your foreground.",
+   "zoom": "Start at 1x for the whole hall. If you're too close to fit the long facade, drop to 0.5x. Then go 2x or higher (how far depends on your phone) for roof tiles, eaves and timber.",
+   "make_it_pop": "Turn on gridlines and line the roof ridge up with a horizontal line, so the hall stands straight instead of leaning.",
+   "best_time": "Go in the morning. The light is softer on the timber and tiles, the grounds are calmer, and the area in front of the hall can end up backlit later in the day.",
+   "selfie_here": "Take your selfie in the open area in front of the Golden Hall, with the hall behind you. Use the front camera, try 0.5x if your phone has it, and hold it a bit low so the long roof fits over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand a little way back along the path leading to the hall, ideally where the whole building fits in the frame, while you stand in front of it with the hall behind you.",
+   "rules_and_safety": "Photos are not allowed inside the Golden Hall. Outdoor photos are generally fine, but follow any posted signs. Drones are typically not permitted. Some buildings may have restricted access, so check the official site before you go.",
+   "challenge": "Take one photo of the whole hall, then find the most interesting detail on its roof edge and make that the hero shot.",
+   "good_to_know": "Tōshōdai-ji was founded in 759 by Jianzhen, a Chinese monk from Tang dynasty China. It's part of the UNESCO listing 'Historic Monuments of Ancient Nara'. The Golden Hall is a National Treasure, seven bays wide, and is regarded as the model of the classical style.",
+   "stand_here_before_gps_rule": "Stand on the gravel courtyard right in front of the Golden Hall (kondō), facing the building. Let the raised platform and tiled roof fill the frame, with the gravel as your foreground."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Front of the Kondō (Golden Hall), outdoor area in front of the hall",
+     "detail": "in the open area in front of the Kondō, with the hall behind you; go early in the morning because the area can be backlit later in the day",
+     "why": "Standing in front of the hall puts the Golden Hall behind you, and a source says morning light there is usually better for photos.",
+     "sources": [
+      {
+       "title": "Toshodaiji Temple Nara: Ganjin's UNESCO Tang-Style Hall",
+       "url": "https://www.jeepe.jp/en/articles/toshodaiji-temple-guide-1222"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Approach path from the Great South Gate (Nandaimon), about halfway down",
+    "detail": "from about halfway down the approach path, the full view of the Golden Hall fits in the frame, so the passer-by should stand here and frame the visitor with the hall behind them",
+    "sources": [
+     {
+      "title": "The most photogenic \"New Eight Scenic Views of Nara\" from the World Heritage Site, \"Historic Monuments of Ancient Nara\"｜Features｜Nara Travelers Guide",
+      "url": "https://narashikanko.or.jp/en/feature/shinnantohakkei"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is prohibited inside the Kondō (main hall); outdoor photography is generally allowed, but follow posted guidance.",
+     "sources": [
+      {
+       "title": "Toshodaiji Temple Nara: Ganjin's UNESCO Tang-Style Hall",
+       "url": "https://www.jeepe.jp/en/articles/toshodaiji-temple-guide-1222"
+      },
+      {
+       "title": "Tōshōdai-Ji, Nara: Visitor Guide",
+       "url": "https://audiala.com/en/japan/nara/toshodai-ji"
+      }
+     ]
+    },
+    {
+     "rule": "Drone use is typically not permitted at the temple.",
+     "sources": [
+      {
+       "title": "Toshodai-ji Temple (2026)",
+       "url": "https://airial.travel/attractions/japan/nara/toshodai-ji-temple-1vtlRE-6"
+      }
+     ]
+    },
+    {
+     "rule": "Advice only, not an official rule: on busy days, shoot handheld rather than with a tripod, to avoid blocking visitor flow.",
+     "sources": [
+      {
+       "title": "Toshodaiji Temple Nara: Ganjin's UNESCO Tang-Style Hall",
+       "url": "https://www.jeepe.jp/en/articles/toshodaiji-temple-guide-1222"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot was found that has the landmark behind the visitor; the pages name the Golden Hall but do not describe a specific selfie position. The Golden Hall source's gate reference uses the name Great South Gate (Nandaimon), which is usually associated with Tōdai-ji, so confirm on the ground that the approach described belongs to Tōshōdai-ji. The Tōshōdai-ji page also says the Miei-dō is under restoration, so it was not used. No selfie stick rules were stated on any page found."
+  },
+  "cost_usd": 0.0483,
+  "at": "2026-11-18 08:21"
+ },
+ "Heijō Palace": {
+  "rank": 11,
+  "card": {
+   "hook": "Here's the surprise: the best thing at Heijō Palace is the empty space. Big sky, wide open ground, and a gate that looks great against it.",
+   "stand_here": "Stand about 120 m north-west of the subject, at the phone icon on the map, and face south-east. That's your spot for the wide first shot of Heijō Palace in Nara.",
+   "zoom": "Start at 0.5x to catch the open grounds and the big sky. Switch to 1x for a natural view of the gate, then try 2x-5x (higher zooms depend on your phone) for roof lines and timber.",
+   "make_it_pop": "Tap the building, then slide the brightness down a touch so a bright sky doesn't wash out the roofs.",
+   "best_time": "Morning or late afternoon usually gives softer light and longer shadows on the buildings. Midday sun can be harsh on the open ground.",
+   "selfie_here": "Try the open Suzaku-mon Hiroba plaza in front of Suzaku Gate, with the vermilion gate behind you. Use the front camera at 0.5x and hold the phone a little low so the whole gate fits over your shoulder.",
+   "ask_someone": "Next to the gate, by the visitor centre, there's a spot where a camera can be placed to frame the whole gate, so ask someone to use that framing to take your photo.",
+   "rules_and_safety": "The Kintetsu Nara Line cuts through the site, so keep clear of the railway crossing when you're framing photos near the tracks. Access to parts of this big site can vary, so check the official site before you go.",
+   "challenge": "Get one photo with the horizon dead level and a walker small in the frame, so the size of the place does the talking.",
+   "good_to_know": "Heijō Palace was the imperial residence and administrative centre of Japan's capital, founded in 710. When the capital moved to Kyoto, the palace was abandoned and the site became farmland. Suzaku Gate, the main gate, was reconstructed in 1998, the same year the remains were listed by UNESCO.",
+   "stand_here_before_gps_rule": "Stand about 120 m north-west of the subject, at the phone icon on the map, and face south-east. That's your spot for the wide first shot of Heijō Palace in Nara."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Suzaku-mon Hiroba plaza, in front of Suzakumon Gate",
+     "detail": "the open plaza on the south side of the vermilion gate, at the end of Suzaku Avenue, with the gate behind you",
+     "why": "The plaza is the open ground facing the gate, and it is a lively place visited by many tourists and local residents. No page I found calls it a selfie spot, so this is an inference.",
+     "sources": [
+      {
+       "title": "Best of Nara (Heijo Palace Remains / Nishinokyo) - NAVITIME Japan Travel",
+       "url": "https://japantravel.navitime.com/en/area/jp/destinations/A052900010004/overview"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Camera photo spot beside Suzakumon Gate, next to the visitor centre",
+    "detail": "next to the Suzakumon Gate is a visitor centre with a spot where a camera can be placed to frame the gate; the passer-by uses that framing to photograph the visitor with the whole gate in view",
+    "sources": [
+     {
+      "title": "Japan Trip 2025 Day 15: Visiting Heijō Palace Historical Site - 2bearbear",
+      "url": "https://www.2bearbear.com/japan-trip-2025-day-15-visiting-heijo-palace-historical-site-and-savouring-the-delicious-and-affordable-kura-sushi-in-nara/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "The Kintetsu Nara Line dissects the site with a lone guard on duty at the crossing, so keep clear of the railway crossing when framing photos near the tracks.",
+   "notes": "Only one selfie spot was confirmed. The plaza is named in a source as a tourist gathering place, but no page says it is the best selfie position. The Suzakumon Gate area is named as the most photographed spot on site, and a page describes a view from inside the gate toward Daigokuden, but that is a view rather than a spot with the landmark behind the visitor. The ask-someone spot is the framed camera spot named by 2bearbear; the sources do not say where the photographer should stand relative to the visitor. No page gave selfie stick or tripod rules."
+  },
+  "cost_usd": 0.0456,
+  "at": "2026-11-18 08:21"
+ },
+ "Gangō-ji": {
+  "rank": 12,
+  "card": {
+   "hook": "Look up at this roof and you'll spot something odd: it's patchy. Darker tiles from the Asuka era sit among the grey Nara-period ones, so the whole roofline looks layered, like a very old patchwork quilt.",
+   "stand_here": "Stand at 極楽坊, in front of the Gokurakubo hall, and step back from the eaves. The temple is just to the south-east of you. Face the hall until the whole roofline is in view, with the darker tiles showing among the grey ones.",
+   "zoom": "Start at zoom 1x to fit the whole roof in. If you can't step back far enough, try zoom 0.5x. Then go to 2x-5x, depending on your phone, for a close shot of the tile colours.",
+   "make_it_pop": "Tap the roof, then slide the brightness down a little so the tiles keep their colour against a bright sky.",
+   "best_time": "Go when the daylight is soft and even, because that shows off the tile colours best. Harsh midday sun can wash them out.",
+   "selfie_here": "Stand among the stone pagodas on the open ground in front of Gokurakudo, with the hall behind you. Use the front camera, try zoom 0.5x, and hold the phone a bit higher so the roof fits over your shoulder. The research couldn't pin down the exact spot, so check it on site.",
+   "ask_someone": "Ask a passer-by to stand back from the hall on the open ground in front of Gokurakudo, so the whole roofline fits in the frame, while you pose in front of it.",
+   "rules_and_safety": "Photos are fine in the garden and outside areas, but check before shooting inside any building. Photography is strictly prohibited inside the storehouse, and shoes come off before you enter the main hall.",
+   "challenge": "Turn on gridlines and line the roof ridge up with a horizontal line. Can you get it perfectly level on the first try?",
+   "good_to_know": "Gangō-ji is one of the oldest Buddhist temples in Japan and was once one of the Seven Great Temples of Nara. A fire in 1451 destroyed most of it, and the old town of Naramachi now covers much of the old grounds. Gokurakubō's main hall and Zen Room are National Treasures and part of the World Heritage listing 'Historic Monuments of Ancient Nara'.",
+   "stand_here_before_gps_rule": "Stand at 極楽坊, in front of the Gokurakubo hall, and step back from the eaves. The temple is just to the south-east of you. Face the hall until the whole roofline is in view, with the darker tiles showing among the grey ones."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Futo-den stone Buddha and pagoda garden",
+     "detail": "in the open Futo-den area near Gokuraku-do Hall, among the stone Buddhas and pagodas",
+     "why": "The open area holds over a thousand stone Buddhas and pagodas, which gives a textured backdrop for a selfie with the temple's buildings nearby.",
+     "sources": [
+      {
+       "title": "Exploring Gango-ji: The Historical Temple in Nara with Over 1,300 Years of Legacy - Japan Travel Sights",
+       "url": "https://japantravelsights.com/archives/1391"
+      }
+     ]
+    },
+    {
+     "name": "Stone pagodas in front of Gokurakudo",
+     "detail": "standing among the stone pagodas on the open ground in front of the main hall, with the hall behind you",
+     "why": "A published photo of this spot shows the stone pagodas set in front of the hall, so the hall can sit behind you in a selfie.",
+     "sources": [
+      {
+       "title": "Gangoji temple (Nara city, Nara Prefecture) - Let's travel around Japan!",
+       "url": "https://www.travel-around-japan.com/k63-08-gangoji.html"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "In front of Gokurakudo, the main hall",
+    "detail": "on the open ground in front of Gokurakudo, with the photographer standing back from the hall so the roofline fits in the frame",
+    "sources": [
+     {
+      "title": "Gangoji temple (Nara city, Nara Prefecture) - Let's travel around Japan!",
+      "url": "https://www.travel-around-japan.com/k63-08-gangoji.html"
+     },
+     {
+      "title": "Gangō-ji: Nara's Oldest Temple Hidden in the Heart of Naramachi",
+      "url": "https://nara.cool/journal/nara-gangoji-temple-guide"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is permitted in the garden and exterior areas, but visitors should check before photographing inside the buildings.",
+     "sources": [
+      {
+       "title": "Gangō-ji: Nara's Oldest Temple Hidden in the Heart of Naramachi",
+       "url": "https://nara.cool/journal/nara-gangoji-temple-guide"
+      }
+     ]
+    },
+    {
+     "rule": "Photography is generally allowed on the grounds and in some halls, but is strictly prohibited inside the storehouse where valuable artifacts are kept.",
+     "sources": [
+      {
+       "title": "Gango-ji Temple (2025) - Airial",
+       "url": "https://airial.travel/attractions/japan/%E5%A5%88%E8%89%AF%E5%B8%82/gango-ji-temple-AzNcwfe2"
+      }
+     ]
+    },
+    {
+     "rule": "Shoes must be removed before entering the main hall.",
+     "sources": [
+      {
+       "title": "Gangoji Temple - Nara City, Nara - Japan Travel",
+       "url": "https://en.japantravel.com/nara/gangoji-temple/92"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "The sources do not say from exactly where a selfie should be taken, so the selfie positions are inferred from named areas and may need checking on site. Sources disagree on interior photography: one says photography inside the main hall is permitted, while others say it is prohibited in some areas, so check on arrival. No page mentions selfie sticks or tripods, so no rule on them is given. No page gives a safety point."
+  },
+  "cost_usd": 0.0595,
+  "at": "2026-11-18 08:22"
+ },
+ "Sarusawa Pond": {
+  "rank": 13,
+  "card": {
+   "hook": "Picture a still pond, a row of willows, and a five-storey pagoda floating upside down in the water. That's the shot almost everyone comes to Sarusawa Pond for, and it's a lovely one.",
+   "stand_here": "Start at the phone icon on the map, on the shore of Sarusawa Pond. It marks a general shore position, not an exact spot, so face the Kofuku-ji pagoda and wander a little along the water's edge until your screen looks right.",
+   "zoom": "Use zoom 1x to fit the pagoda and the pond together. Try zoom 0.5x on the bridges and walkways to squeeze in more trees and water. For the pagoda peeking through the leaves, try zoom 2x to 5x (depending on your phone) and keep your elbows tucked in.",
+   "make_it_pop": "Turn on the gridlines to keep the pagoda upright, then tap the pagoda and slide it a bit darker if the sky is bright so the colours hold.",
+   "best_time": "Sunset is a lovely time to be on the walkways and wooden bridges. Calm, quiet moments give the cleanest reflections. Cherry blossom and autumn foliage seasons are busiest, so bring a little patience.",
+   "selfie_here": "Stand at the water's edge on the willow-lined bank of Sarusawa Pond, with the water behind you, and use the front camera. Golden-hour light is said to suit this spot best. Or sit on one of the benches along the path for a relaxed shot with the pond behind you.",
+   "ask_someone": "Ask a passer-by to stand on the far side of the pond, with the pagoda across the water from them, while you stand at the water's edge in their view.",
+   "rules_and_safety": "This is an open public pond with a path around it. Check the official site before you go in case of local restrictions or events, and in case repair work on the pagoda changes the view.",
+   "challenge": "Find a spot where a branch frames the corner of your photo, then wait for the water to go calm and catch the pagoda reflection too.",
+   "good_to_know": "The five-storey Kofuku-ji pagoda stands on the pond's north side, and the pond has a path with wooden bridges and walkways. Some visitors prefer the south side for the classic view. An annual carp release on 16 April may also draw a crowd.",
+   "stand_here_before_gps_rule": "Start at the phone icon on the map, on the shore of Sarusawa Pond. It marks a general shore position, not an exact spot, so face the Kofuku-ji pagoda and wander a little along the water's edge until your screen looks right."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Sarusawa Pond lakeside, along the pond's edge",
+     "detail": "stand at the water's edge on the pond's willow-lined bank, with the water behind you",
+     "why": "Guides name the pond's edge as the best place for photos, and golden-hour light is said to suit it best.",
+     "sources": [
+      {
+       "title": "Sarusawa Pond (2025), Airial",
+       "url": "https://www.airial.travel/attractions/japan/nara/sarusawa-pond-09Ve9vcQ"
+      }
+     ]
+    },
+    {
+     "name": "Benches around Sarusawa Pond",
+     "detail": "on one of the benches on the willow-lined path around the pond, with the water behind you",
+     "why": "A review says benches line the pond, so visitors can sit and rest with the pond in view for a relaxed, low-effort photo.",
+     "sources": [
+      {
+       "title": "Sarusawa Pond review, GLTJP",
+       "url": "https://www.gltjp.com/en/review/item/15881/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Across Sarusawa Pond, facing Kofuku-ji's five-storied pagoda",
+    "detail": "the far side of the pond, with the pagoda across the water from the photographer; the best view is across the pond toward the pagoda",
+    "sources": [
+     {
+      "title": "Sarusawa Pond, Visit Nara official guide",
+      "url": "https://www.visitnara.jp/venues/A01559/"
+     },
+     {
+      "title": "Cheap Things to Do in Nara, Playable Japan",
+      "url": "https://www.playablejapan.com/en/articles/cheap-things-to-do-in-nara-deer-park-temples-and-free-walks"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Sources do not name which bank or corner to stand on, so the selfie and ask-someone spots are general pond-edge and across-the-pond positions, not exact points. A Tripadvisor page says the pagoda reflection will soon be unavailable due to preservation and repair work, and a Wanderlog review said the pagoda was under restoration, so check before going. Sources disagree on the Ukimido Pavilion: one says it sits on the pond, another says it is a 15-minute walk away, so I left it out. Addresses also vary (49 Sarusawa vs 14 Ganriincho). No page gives selfie stick or tripod rules; one guide only advises a small support for reflection shots, which is advice, not a rule."
+  },
+  "cost_usd": 0.0507,
+  "at": "2026-11-18 08:23"
+ }
+}

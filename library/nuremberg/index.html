@@ -1,0 +1,319 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Nuremberg Attractions Map: 14 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 14 best photo spots in Nuremberg, including Kaiserburg and Rally Grounds: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="nuremberg castle, nuremberg rally grounds, palace of justice nuremberg">
+<link rel="canonical" href="https://xdatrys.com/library/nuremberg/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Nuremberg Attractions Map: 14 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 14 best photo spots in Nuremberg, including Kaiserburg and Rally Grounds: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/nuremberg/">
+<meta property="og:image" content="https://xdatrys.com/library/nuremberg/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="165">
+<meta property="og:image:alt" content="Nuremberg Castle (Kaiserburg), Nuremberg: a group of medieval fortified buildings standing. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/nuremberg/","url":"https://xdatrys.com/library/nuremberg/","name":"Nuremberg Attractions Map: 14 Best Photo Spots | Xdatrys","description":"Map of the 14 best photo spots in Nuremberg, including Kaiserburg and Rally Grounds: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/nuremberg/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Nuremberg"},"mainEntity":{"@type":"ItemList","name":"Nuremberg photo spots","numberOfItems":14,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Nuremberg Castle (Kaiserburg)","description":"Nuremberg Castle is a group of medieval fortified buildings standing on a sandstone ridge above the historical centre.","geo":{"@type":"GeoCoordinates","latitude":49.4580789,"longitude":11.0753908},"alternateName":["Nuremberg Castle","Nuremberg Kaiserburg"],"image":"https://xdatrys.com/library/nuremberg/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Nazi Party Rally Grounds Documentation Center","description":"The Documentation Center sits inside the north wing of the Congress Hall, a huge, unfinished building left over from the Nazi party rallies.","geo":{"@type":"GeoCoordinates","latitude":49.4338361,"longitude":11.1124726},"alternateName":["Nuremberg Rally Grounds","Documentation Center Nazi Party Rally Grounds"],"image":"https://xdatrys.com/library/nuremberg/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Nuremberg Trials Memorium","description":"The Memorium Nuremberg Trials is a museum inside the Palace of Justice, the courthouse where the Nuremberg Trials were held between 1945 and 1949.","geo":{"@type":"GeoCoordinates","latitude":49.4544374,"longitude":11.0483199},"alternateName":["Nuremberg Memorium Nuremberg Trials","Memorium Nürnberger Prozesse"]}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/nuremberg/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Nuremberg","item":"https://xdatrys.com/library/nuremberg/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Nuremberg?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Kaiserburg, Rally Grounds and Nuremberg Trials. They are ranked by how often people search for them. The full map has 14."}},{"@type":"Question","name":"Where should I stand to photograph Kaiserburg?","acceptedAnswer":{"@type":"Answer","text":"Stand about 35 m south-west of Kaiserburg, at the phone icon on the map, and face north-east. Start with the ultra-wide (0.5x) for the walls and towers close up, then switch to the default lens (1x) for a more natural view."}},{"@type":"Question","name":"When is the best time to photograph Rally Grounds?","acceptedAnswer":{"@type":"Answer","text":"If you try the lake shore, on still days the water may give a reflection."}},{"@type":"Question","name":"How do I get to the Nuremberg Trials?","acceptedAnswer":{"@type":"Answer","text":"No tram or Underground stop is listed for this spot, so start from the centre of Nuremberg and head for the Palace of Justice (the courthouse that contains the museum), by taxi or hired scooter."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Nuremberg</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/nuremberg/?gate" style="color:#E100FF">✏️ Review all 14 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>14 photo spots in Nuremberg: where to stand and how to shoot them on your phone</h1>
+  <p>14 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 11 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 14 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/nuremberg/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 14 photo spots in Nuremberg"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 14 of the most-searched sights in Nuremberg as photo spots, ranked by how often people search for them: Kaiserburg, Rally Grounds, Nuremberg Trials, Germanisches Museum and Hauptmarkt &amp; Brunnen lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Nuremberg Castle (Kaiserburg)</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:N%C3%BCrnberg_Burg_ArM.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Nuremberg Castle (Kaiserburg), Nuremberg: a group of medieval fortified buildings standing. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: ArtMechanic, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Nuremberg Castle is a group of medieval fortified buildings standing on a sandstone ridge above the historical centre. It is made up of the Imperial Castle (Kaiserburg), the former Burgraves&#39; castle and the buildings added later by the city. The ridge setting is what makes it photograph so well: walls, towers and rooflines climb above you in layers, so even a quick snap feels dramatic. The first fortified buildings appear to date from around 1000, and for centuries German kings and emperors stayed here. Look for the round Sinwell Tower, a main keep from the later 13th century that was raised by a floor in the 1560s, and the Heathens&#39; Tower beside the Imperial Chapel, a Romanesque double chapel built around 1200. Much of the castle was ruined in the air raids of 1944/45, and rebuilding took about thirty years, so what you see is a careful restoration. From the phone icon on the map, the castle is only a short step away, so you are shooting up at the walls rather than across at them. Take one wide shot to show the whole mass of stone, then move closer and pick out details such as tower tops, gateways and timber-framed corners. Keep your phone steady against your body or a wall, and check that the towers are not leaning by using the gridlines.</p>
+    <p><b>Where it is:</b> In Nuremberg, Bavaria, on a sandstone ridge that rises above the historical centre (the old town). The castle overlooks the old town&#39;s streets and rooftops.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) for the walls and towers close up, then switch to the default lens (1x) for a more natural view. Use telephoto (2x-5x, depending on your phone) for the tower tops and roof details.</p>
+      <p><b>Where to stand:</b> Stand about 35 m south-west of the subject, at the phone icon on the map, and face north-east.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line up a tower or wall edge with a vertical line so the buildings do not seem to lean. Tilt the phone up only slightly, or step back, to keep the vertical lines straighter. For a second picture, zoom in on a single tower or gateway and let the sandstone fill the frame.</p>
+      <p><b>Settings tip:</b> Tap the sky or the brightest stonework to focus, then lower the exposure slider a little so the sky does not turn white and the stone keeps its colour. If your phone has a panorama mode, you can try it along the base of the walls, but hold still and move slowly.</p>
+      <p><b>Best time:</b> Soft morning or late-afternoon light usually flatters the sandstone better than harsh midday sun, and earlier in the day is often quieter.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Nazi Party Rally Grounds Documentation Center</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Documentation_center_entrance_nuernberg_may2011.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Nazi Party Rally Grounds Documentation Center, Nuremberg: photo spot" loading="lazy"></a>
+      <figcaption>Photo: KaterBegemot, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener license">CC BY 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Documentation Center sits inside the north wing of the Congress Hall, a huge, unfinished building left over from the Nazi party rallies. It is a museum about how those rallies were staged and what they led to. The Congress Hall was planned to hold 50,000 people but was never completed. The Austrian architect Günther Domenig won the 1998 competition for the museum with a bold idea: a diagonal glass-and-steel passageway driven through the northern end of the old building. It was unveiled on 4 November 2001. The contrast between the heavy curved stonework and the sharp, modern wedge is what makes the building so striking in a photo.</p><p>The main shot is taken from a point about 65 m north-west of the Documentation Center, looking south-east at it, so the glass wedge and the stone hall sit together in one frame. An alternative is the public shore of the Dutzendteich, a park with a lake shore facing the Congress Hall. From there the arched hall, the glass wedge and open sky can fit in one frame, and the lake gives a calm foreground and, on still days, may give a reflection. If you want to see the wedge close up, another viewpoint at the museum entrance shows the glass cutting into the stone facade from below. Another option is the Große Straße, the wide, straight axis of the former rally grounds.</p><p>The subject is a serious one, so photograph with respect and keep out of the way of other visitors. The museum has been rebuilding and running an interim exhibition, so check the official site before you go.</p>
+    <p><b>Where it is:</b> The Documentation Center is in the former Nazi Party Rally Grounds in Nuremberg, inside the north wing of the Congress Hall. The Dutzendteich is a public park with a lake shore facing the Congress Hall.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) so the glass wedge and the surrounding hall fit in the frame. Switch to telephoto (2x-5x, depending on your phone) to pick out the glass-and-steel wedge against the stone. Use the ultra-wide (0.5x) only if you are close to the building and want to show its scale, and keep the horizon level.</p>
+      <p><b>Where to stand:</b> Stand in Dutzendteich (lake shore across the water from the Congress Hall). The curved, arched Congress Hall with the Documentation Center&#39;s glass-and-steel wedge, seen across the lake under open sky. From here you see the curved, arched hall with the glass-and-steel wedge. As a separate alternative, you can try the public shore of the Dutzendteich, looking across the water at the Congress Hall.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the glass wedge off-centre, with the building along the upper line. Keep the phone level so the arches do not lean. If you shoot from the lake shore, place the water in the bottom third. For another view, take a close, upward shot of the glass entrance at the museum, or a long straight view down the Große Straße.</p>
+      <p><b>Settings tip:</b> Tap on the building to set focus, then slide the exposure down a little so the sky keeps its detail and the glass does not blow out. Hold the phone steady with both hands, or rest it on a rail or wall, to keep the shot sharp.</p>
+      <p><b>Best time:</b> If you try the lake shore, on still days the water may give a reflection.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Nuremberg Trials Memorium</h3>
+    
+    <p>The Memorium Nuremberg Trials is a museum inside the Palace of Justice, the courthouse where the Nuremberg Trials were held between 1945 and 1949. It is a working piece of history rather than a pretty viewpoint, and that is what makes it worth a photo: a large, formal courthouse building with a serious story behind it. The permanent exhibition opened on 21 November 2010 in the attic of the east wing, directly above Courtroom 600. Since March 2020 that courtroom has no longer been used for court hearings and is part of the museum, so it is open to museum visitors. Outside, the best pictures are of the building itself: its long, strong lines suit a wide shot, and a few steps back lets you fit in more of the facade. Use the gridlines to keep the vertical edges straight, because tilting the phone upwards makes a tall building lean. Then move in and use zoom for details such as doorways, signs and stonework, which tell the story without needing the whole building in frame. Photography rules inside a museum can differ from room to room, and Courtroom 600 is a historic space that is now part of the museum exhibition, so ask staff or check the official site before you go. Be respectful of other visitors, and avoid taking pictures that put strangers in the foreground.</p>
+    <p><b>Where it is:</b> In Nuremberg, at the Palace of Justice courthouse, which houses the Memorium Nuremberg Trials museum.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) for the whole building from close range, then switch to the default lens (1x) for a more natural look. Use the telephoto/zoom (2x-5x, depending on your phone) for architectural details.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. If you need more of the facade in the frame, take a few steps back from the building while keeping the courthouse in view.</p>
+      <p><b>Framing:</b> Turn on gridlines and line up the building&#39;s vertical edges with them so it doesn&#39;t lean. Take one wide shot of the whole building, then a closer detail shot of a doorway or sign. Portrait mode is better kept for a person standing in front of the building than for the building itself.</p>
+      <p><b>Settings tip:</b> Tap the building to focus, then lower the exposure slider slightly if the sky is bright, so the stonework keeps its detail. If you take photos indoors, check the museum&#39;s rules first, and switch off flash.</p>
+      <p><b>Best time:</b> Soft, even daylight, such as a bright overcast day, is kind to a large stone building. In sunshine, check the light on the facade when you arrive and wait for it to reach the front.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>11 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Germanisches Nationalmuseum and Way of Human Rights <small>· members</small></li>
+    <li><span class="n">5</span>Hauptmarkt and Beautiful Fountain <small>· members</small></li>
+    <li><span class="n">6</span>St. Lorenz Church <small>· members</small></li>
+    <li><span class="n">7</span>St. Sebaldus Church <small>· members</small></li>
+    <li><span class="n">8</span>Henkersteg (Hangman&#39;s Bridge) <small>· members</small></li>
+    <li><span class="n">9</span>Frauenkirche <small>· members</small></li>
+    <li><span class="n">10</span>Nuremberg Toy Museum <small>· members</small></li>
+    <li><span class="n">11</span>Fleisch Bridge <small>· members</small></li>
+    <li><span class="n">12</span>Albrecht Dürer&#39;s House <small>· members</small></li>
+    <li><span class="n">13</span>Nassau House <small>· members</small></li>
+    <li><span class="n">14</span>Nuremberg Town Hall <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Nuremberg?</summary><p>The first three on this map are Kaiserburg, Rally Grounds and Nuremberg Trials. They are ranked by how often people search for them. The full map has 14.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Kaiserburg?</summary><p>Stand about 35 m south-west of Kaiserburg, at the phone icon on the map, and face north-east. Start with the ultra-wide (0.5x) for the walls and towers close up, then switch to the default lens (1x) for a more natural view.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Rally Grounds?</summary><p>If you try the lake shore, on still days the water may give a reflection.</p></details>
+  <details class="faq"><summary>How do I get to the Nuremberg Trials?</summary><p>No tram or Underground stop is listed for this spot, so start from the centre of Nuremberg and head for the Palace of Justice (the courthouse that contains the museum), by taxi or hired scooter.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Nuremberg_Castle" target="_blank" rel="noopener">Nuremberg Castle</a>, <a href="https://en.wikipedia.org/wiki/Documentation_Center_Nazi_Party_Rally_Grounds" target="_blank" rel="noopener">Documentation Center Nazi Party Rally Grounds</a>, <a href="https://en.wikipedia.org/wiki/Memorium_Nuremberg_Trials" target="_blank" rel="noopener">Memorium Nuremberg Trials</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"nuremberg","place":"Nuremberg","bounds":[11.04,49.425,11.13,49.468],"center":[11.085,49.4465],"english":false,"vatican":false,"tiles":"/r2tiles/nuremberg/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

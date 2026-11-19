@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "ceskykrumlov", "title": "Český Krumlov: 11 photo spots (pilot review)", "place": "Český Krumlov", "bounds": [14.29, 48.8, 14.34, 48.825], "center": [14.315, 48.8125], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/ceskykrumlov/{z}/{x}/{y}.pbf", "tz": "UTC", "rail": false, "app": true};

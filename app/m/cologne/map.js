@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "cologne", "title": "Cologne: 17 photo spots (pilot review)", "place": "Cologne", "bounds": [6.93, 50.92, 6.985, 50.96], "center": [6.9575, 50.94], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/cologne/{z}/{x}/{y}.pbf", "tz": "Europe/Berlin", "rail": true, "app": true};

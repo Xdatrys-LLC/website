@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "altezauchenseestrae", "title": "Zauchensee: 4 photo spots (pilot review)", "place": "Zauchensee", "bounds": [13.442, 47.284, 13.468, 47.304], "center": [13.455, 47.294], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/altezauchenseestrae/{z}/{x}/{y}.pbf"};

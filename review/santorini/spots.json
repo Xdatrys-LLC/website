@@ -1,0 +1,887 @@
+[
+ {
+  "rank": 1,
+  "name": "Oia",
+  "in_cut": true,
+  "label": "Oia",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 59600,
+  "pin": [
+   25.3757257,
+   36.4622122
+  ],
+  "camera": [
+   25.3757257,
+   36.4622122
+  ],
+  "camera_source": "Researched viewpoint 'Agios Nikolaos Castle' (3 web pages); placed at our map tiles: 'Church of Agios Nikolaos' (pois).",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
+  "notes": "Whitewashed clifftop village famous for its sunsets.",
+  "text": {
+   "description": "Oia is a picture-perfect village on Santorini: whitewashed houses stacked along the top of the caldera cliff, blue-domed churches and traditional cave houses cut into the rock. It stretches for almost two kilometres along the caldera edge, roughly 70 to 100 metres above the sea, so almost every turn gives a new angle. A classic photo is taken from Agios Nikolaos Castle, the ruined walls and lookout terrace at the northern tip of the village, often called Oia Castle. From the castle you can fit the cliff-top houses, the two windmills and the caldera into one frame, with the sun going down over the sea behind the village. The village was rich in the late 19th century. In 1890 it had about 2,500 residents and around 130 sailing ships, trading across the Eastern Mediterranean. The earthquake of 9 July 1956 then badly damaged it, and it was rebuilt as the tourist village you see today. The population was 1,087 at the 2021 census. The village is known for being crowded in summer, and the castle wall fills up early, so plan to arrive well ahead of sunset. If the castle is too busy, the viewpoint over the three blue domes of the church is a good alternative, with the sea and caldera behind the domes. Ammoudi Bay, reached by about 300 steps, shows Oia's cliffs from sea level.",
+   "geographic_location": "Oia is on the north-west edge of Santorini, along the northern rim of the caldera, with Finikia just to the east and Ammoudi Bay below the village. Fira, the island's main town, is about 11 km away.",
+   "directions_text": "Fira is the island's transport terminus, so start there or from your base on the island and check locally for how to reach Oia (bus, taxi, etc.). No rail or tram stops are listed near this spot. For Agios Nikolaos Castle, head to the northern tip of the village. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the full postcard view of houses, windmills and caldera. Switch to the telephoto lens (2x-5x, depending on your phone) to pick out the windmills or a single cluster of houses. Use the ultra-wide (0.5x) in the narrow lanes and for the blue domes.",
+    "where_to_stand": "Stand right at the subject (northern tip of Oia, on the ruined walls and the lookout terrace; often called Oia Castle). Oia's whitewashed cliff-top houses, the two windmills and the caldera, with the sun setting over the sea behind the village. From the castle the photo shows the whitewashed cliff-top houses, the two windmills and the caldera, with the sun setting over the sea behind the village. As an alternative, the viewpoint over the 3 Dome Church puts the three blue domes in the foreground, with the sea and caldera behind them.",
+    "how_to_frame": "Turn on the gridlines and place the horizon on the upper or lower line, not the middle. Keep the windmills off-centre so the houses lead the eye along the cliff. Keep your phone level so the white walls do not lean. If the wall is crowded, use the telephoto lens (2x-5x) to frame between people, or try the blue-dome viewpoint instead.",
+    "phone_settings_tip": "Tap on the sky or the brightest houses to focus, then drag the exposure slider down a little so the whitewash keeps its detail and the sunset colours stay rich. After the sun drops, night mode can help, but rest your elbows on the wall to keep the phone steady.",
+    "best_time": "Arrive 1.5 to 2 hours before sunset, because the wall fills up in summer. Sunset times and crowds change with the season, so check locally."
+   },
+   "access_note": "The castle lookout is free to reach on foot, but check the official site before you go in case any timed-entry or access rules apply."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Oia, Greece",
+    "url": "https://en.wikipedia.org/wiki/Oia%2C_Greece"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Meersan",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Greece_Santorini_Oia_Coast_by_day.JPG",
+   "from": "Wikidata Q1655349 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Fira",
+  "in_cut": true,
+  "label": "Fira",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 22000,
+  "pin": [
+   25.4276125,
+   36.4183093
+  ],
+  "camera": [
+   25.4276125,
+   36.4183093
+  ],
+  "camera_source": "Researched viewpoint 'Volkan on the Rocks' (2 web pages); placed at OpenStreetMap 'Volkan on the Rocks' (node/4409161033): point.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
+  "notes": "Capital of Santorini with caldera-edge views.",
+  "text": {
+   "description": "Fira is the modern capital of Santorini, a town of whitewashed houses built along the very edge of the caldera on the island's western side. The caldera is a huge flooded volcanic crater, and Fira's name comes from a local way of saying \"Thira\", the island's ancient name. The town photographs well because it clings to the cliff in layers, with the water far below and the dark volcanic island of Nea Kameni out in the bay. On a clear day the view takes in the whole caldera, about 18 km from end to end, plus Thirassia. Cruise ships often anchor in the water between Nea Kameni and the town, which gives a useful sense of scale.\n\nThe best frame of the town itself is from just outside it. Walk out on the caldera path toward Firostefani and look back, so the stacked buildings fill the picture with the caldera behind. Inside Fira the streets are busy and the buildings crowd in too closely to show the whole town. If you also want a church shot, the Three Bells of Fira are further along the path in Firostefani. Remember that frame is of the church, not the town. Keep your phone steady against the wall or rail beside the path, and watch your footing near the edge.",
+   "geographic_location": "Fira is on the western edge of Santorini, on the rim of the caldera. The viewpoint is on the path just north-west of the town, on the way toward Firostefani.",
+   "directions_text": "Head for Fira's central square, Plateia Theotokopoulou, which has a bus and taxi station. From the town, follow the caldera path north-west toward Firostefani until you reach Volkan on the Rocks. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole stacked town with the caldera behind it. Then try the default lens (1x) for a calmer, less stretched view. If your phone has a telephoto (2x-5x), use it to pick out the rooftops and church domes on the cliff.",
+    "where_to_stand": "Stand at Volkan on the Rocks (on the caldera path leaving Fira toward Firostefani, just before the restaurant, looking back at Fira). Fira stacked on its cliff, seen from the rim path just outside the town, with the caldera behind it. Turn back toward Fira, which lies to the south-east. From here you see the town stacked on its cliff with the caldera behind. You do not need to go into the restaurant.",
+    "how_to_frame": "Turn on gridlines and place the line of the cliff edge on a lower third line, with the sea and sky above. Include a bit of the path or wall in the foreground to give depth. If you want a church picture instead, the Three Bells of Fira are further along in Firostefani. There the blue dome and three-arched bell tower sit in front of the caldera and sea.",
+    "phone_settings_tip": "Tap the brightest part of the sky or the white walls, then lower the exposure slider a little so the white buildings keep their detail. Keep the phone level using the gridlines so the horizon stays straight.",
+    "best_time": "The rim path can be crowded at sunset, so go earlier in the evening or in the morning for more room to stand and frame the shot."
+   },
+   "access_note": "The caldera path is a public walkway, but some hotel terraces along it are private, so stay on the open path and check the official site before you go if you plan to enter any building.",
+   "claims_not_in_sources": [
+    "The stand-here point is roughly 5 minutes' walk from the centre of Fira, based on the distance to the town's mapped centre point.",
+    "Turning back toward Fira from the north-west means the afternoon and evening sun is likely to be behind or beside you, lighting the town fronts.",
+    "Mornings and earlier in the evening are likely to be quieter on the path than sunset.",
+    "Inside Fira the narrow streets make it harder to see the whole town in one frame."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Fira",
+    "url": "https://en.wikipedia.org/wiki/Fira"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "Manuco",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:12063_-_Santorin_-_Fira_de_nuit.jpeg",
+   "from": "Wikidata Q617169 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Perissa",
+  "in_cut": true,
+  "label": "Perissa Beach",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 18310,
+  "pin": [
+   25.4738666,
+   36.3569274
+  ],
+  "camera": [
+   25.473867,
+   36.356927
+  ],
+  "camera_source": "Researched viewpoint 'Perissa Beach' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap node/1842740480: the OpenStreetMap point 'Perissa'.",
+  "notes": "Long black sand beach.",
+  "text": {
+   "description": "Perissa is a village on the south-east coast of Santorini, and its beach of black volcanic sand is the reason most visitors come. The dark shoreline, the blue Aegean and the rocky bulk of Mesa Vouno rising straight up behind the beach make a simple, strong picture, and the colours stand out clearly on a phone screen. Perissa is about 13 km south-east of Fira. At the 2021 census it had 725 permanent residents, and it belongs to the community of Emporio. The name is tied to an old story: the remains of an Early Christian church of Saint Irene lie here, and a shortened form of her name gave the island its present name, Santorini. The best photo spot is the north end of the beach, near the small whitewashed Church of the Holy Cross. A boulder there helps you frame the dark sand and the sea, with Mesa Vouno behind. If you have time for a second shot, the blue-domed church and its bell tower look good with the village and beach around them. Go early in the morning for the calmest scene, and check the sea and sky before you choose how much of each to include.",
+   "geographic_location": "Perissa is on the south-east coast of Santorini, about 13 km south-east of Fira, at the foot of Mesa Vouno. The photo spot is at the north end of its beach, close to the Church of the Holy Cross.",
+   "directions_text": "Perissa lies about 13 km south-east of Fira, so check local transport options for the journey from Fira. Once you are in the village, head for the beach and walk along the sand to the north end, close to the Church of the Holy Cross. The phone icon on the map is on the beach itself, so there is no extra walk once you are on the sand. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the sand, sea and mountain together. Switch to ultra-wide (0.5x) if you want the whole sweep of shoreline and Mesa Vouno in one frame. Use telephoto (2x-5x, depending on your phone) for the church and its bell tower.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you see the black volcanic sand meeting the blue sea, the whitewashed church close by, and Mesa Vouno rising behind the beach.",
+    "how_to_frame": "Use the boulder at the north end to anchor the foreground, with the dark sand and the sea beyond it. Turn on gridlines and keep the horizon level, with Mesa Vouno filling the background. For a different view, try the Church of the Holy Cross with its blue dome and bell tower, framed against the village and the beach.",
+    "phone_settings_tip": "Tap on the sand to focus, then slide the exposure down a little so the black sand keeps its detail and the sky and sea do not wash out. Try a Live Photo if waves are rolling in.",
+    "best_time": "Early morning, from just before sunrise until about 10 AM, when the light is gentler and there are fewer people on the beach."
+   },
+   "access_note": "The beach is an open public space; if you use a beach bar's loungers you may be expected to pay, so check on the spot before you sit down.",
+   "claims_not_in_sources": [
+    "Early morning light is softer than midday light and the beach is quieter then.",
+    "Black sand can look too dark or the sky too bright on a phone unless the exposure is lowered.",
+    "A beach is normally open to the public, while sun loungers at a beach bar are normally for customers.",
+    "Waves breaking on the shore may make a good Live Photo."
+   ]
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Perissa, Santorini",
+    "url": "https://en.wikipedia.org/wiki/Perissa%2C_Santorini"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=village): check the pin"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "Κλέαρχος Π. Καπούτσης",
+   "licence": "Attribution",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Perissa_1.jpg",
+   "from": "Wikidata Q12883365 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Kamari",
+  "in_cut": true,
+  "label": "Kamari Beach",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 12790,
+  "pin": [
+   25.4806336,
+   36.3761502
+  ],
+  "camera": [
+   25.4806336,
+   36.3761502
+  ],
+  "camera_source": "Researched viewpoint 'Agios Nikolaos' (1 web pages); placed at OpenStreetMap 'Agios Nikolaos' (node/14132874045): point.",
+  "pin_note": "Position from OpenStreetMap node/273821429: the OpenStreetMap point 'Kamari'.",
+  "notes": "Black pebble beach resort.",
+  "text": {
+   "description": "Kamari is a seaside village on the south-east coast of Santorini, and its beach is the longest on the island, a strip of black pebbles running along the foot of Mesa Vouno. That mountain rises to about 400 m and is the island's second highest peak, so the cliff makes a dark, dramatic backdrop to almost any shot along the shore. The village was built by people from nearby Episkopi Gonias after the 1956 earthquake, and it takes its name from a small arch (kamara) at the south end of the beach, left over from an old customs house built between 1537 and 1650.\n\nFor photographs, the best spot is the quiet southern end, beside the church of Agios Nikolaos. Fishing boats pass in the water in the early morning. It makes a more distinctive picture than a straight-on shot of the water. If you also want the classic beach view, walk north along the sand and shoot the black pebbles with the cliff rising behind and the blue Aegean beside them.\n\nKamari faces east, so it suits sunrise rather than the caldera sunsets Santorini is famous for. The beach gets busy in summer, and the black pebbles become very hot by midday, so wear shoes if you go later.",
+   "geographic_location": "Kamari is on the south-east coast of Santorini, in the Municipality of Thira, about 8 km from the island's capital, Fira.",
+   "directions_text": "No public rail or tram stops are listed for this area. Kamari is about 8 km from Fira. Once in the village, walk south along the beach to the church at the far end. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the rock, the church and the sea together. Switch to ultra-wide (0.5x) if you want the cliff of Mesa Vouno in as well. Use telephoto (2x-5x, depending on your phone) to pick out a passing fishing boat.",
+    "where_to_stand": "Stand at Agios Nikolaos (on the beach beside the church at the southernmost point of Kamari Beach). A large black rock running out into the sea, with the small church behind and fishing boats passing in the water. From here the large black rock runs out into the sea, with the small church behind it. The rest of the beach and the village stretch away to the north.",
+    "how_to_frame": "Turn on gridlines and put the rock on one of the lower thirds, with the church above it and the sea filling the rest. Wait for a fishing boat to pass behind or beside the rock to give the picture scale. For a second view, walk up the beach and shoot the black pebbles in the foreground with the cliff behind.",
+    "phone_settings_tip": "Tap to focus on the rock, then lower the exposure slider a little so the sunrise sky and sea keep their colour. Try a Live Photo while a boat passes and choose the best moment afterwards.",
+    "best_time": "Early morning, when the fishing boats pass and the sun rises over the sea. Late in the day, the low sun warms the black pebbles and turns the cliff amber."
+   },
+   "access_note": "This is an open public beach with no charge listed, but the church is a place of worship, so be respectful and check locally before going inside."
+  },
+  "checker_problems": 1,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Kamari",
+    "url": "https://en.wikipedia.org/wiki/Kamari"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=village): check the pin",
+   "phone far from subject (774 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "Κλέαρχος Π. Καπούτσης",
+   "licence": "Attribution",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Kamari_Thiras.jpg",
+   "from": "Wikidata Q940512 main image"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Imerovigli",
+  "in_cut": true,
+  "label": "Imerovigli",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 6300,
+  "pin": [
+   25.4228307,
+   36.4325579
+  ],
+  "camera": [
+   25.421948,
+   36.431967
+  ],
+  "camera_source": "Commons cluster (8 photos), weak.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
+  "notes": "Village on the highest point of the caldera rim.",
+  "text": {
+   "description": "Imerovigli is a small village on the northern side of Santorini, built along the rim of the caldera and linked by narrow, paved paths. For a phone photographer it offers whitewashed Cycladic buildings and churches stacked along the edge, with the wide caldera behind them. The village sits north of the island capital Fira, with the church of Ai-Stratis in the centre and the Monastery of Saint Nikolaos on the path between Imerovigli and Fira. On nearby Skaros Rock are the remains of a Venetian castle built in 1207 by Marco Sanudo, then ruler of all the Cyclades. About 469 people lived here permanently in 2021, so it is a village of about 469 permanent inhabitants, and the lanes are narrow. Take your time and step aside for residents. The phone icon on the map is about 100 m south-west of the subject. From there you can take a wide, layered view of rooftops and sky. Then walk in and switch to close shots of doorways, church domes and steps. Keep the phone level using the gridlines, as white walls show a tilt quickly. Between shots, wipe the lens, because sea air and sunscreen can smear it and soften the picture.",
+   "geographic_location": "Imerovigli is on the northern part of Santorini, on the rim of the caldera, just north of the island capital Fira. Skaros Rock lies close by.",
+   "directions_text": "No public transport is listed for this spot. Imerovigli lies north of Fira, so start from Fira and head north, choosing whichever way of travelling suits you. The phone icon on the map is about 100 m south-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the main view. Use ultra-wide (0.5x) for the whole sweep of the village and sky, and telephoto (2x-5x, depending on your phone) to pick out church domes and details.",
+    "where_to_stand": "Stand about 100 m south-west of the subject, at the phone icon on the map, and face north-east. Go closer on foot for detail shots along the village paths.",
+    "how_to_frame": "Use the gridlines to keep the horizon and the white walls straight. Put the village on the lower third and leave the sky above it. If the church of Ai-Stratis or the Monastery of Saint Nikolaos is in view, frame a dome or bell tower with a telephoto lens as a second shot. If you can see Skaros Rock, include it for depth.",
+    "phone_settings_tip": "Tap on a white wall to set focus, then drag the exposure slider down a little so the whitewash keeps its detail rather than turning flat white. If the light is harsh, try a Live Photo so you can pick the best frame afterwards.",
+    "best_time": "Late afternoon into sunset is a good choice, because you are facing west and the low light gives the walls a warm colour. Early morning is usually calmer on the paths."
+   },
+   "access_note": "The village paths are public walkways, but churches and the monastery may have their own visiting rules, so check the official site before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Imerovigli",
+    "url": "https://en.wikipedia.org/wiki/Imerovigli"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "Κλέαρχος Π. Καπούτσης",
+   "licence": "Attribution",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Imergovigli,_Santorini.jpg",
+   "from": "Wikidata Q6003918 main image"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Pyrgos Kallistis",
+  "in_cut": true,
+  "label": "Pyrgos",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 5010,
+  "pin": [
+   25.4501541,
+   36.3826042
+  ],
+  "camera": [
+   25.4501541,
+   36.3826042
+  ],
+  "camera_source": "Researched viewpoint 'Franco's Cafè' (2 web pages); placed at OpenStreetMap 'Franco's Cafe' (node/2485198958): point.",
+  "pin_note": "Position from OpenStreetMap node/273819018: the OpenStreetMap point 'Pyrgos Kallistis'.",
+  "notes": "Hilltop medieval village with a Venetian castle.",
+  "text": {
+   "description": "Pyrgos Kallistis, usually just called Pyrgos, is a village of about 1,078 people (2021 census) on the island of Santorini. It is built in tiers up a hill, so the white houses stack up the slope and the views open out in nearly every direction. At the top are the ruins of a Venetian castle, Kasteli, which was once the island's administrative centre. The old part has narrow, winding lanes, fortified walls and hidden passages, and the village is described as one of the least spoiled by tourism on Santorini.\n\nFor a phone photo, the best idea is to show the village as a whole. From there you look across the Pyrgos rooftops toward the caldera and the Aegean, so the houses fill the foreground and the sea sits behind them. A guide describes it as a quieter place for sunset than the crowded spots in Oia. If you want the village seen from above, the castle ruins are the alternative, though they look out over the island more than at the village itself.",
+   "geographic_location": "Pyrgos Kallistis is a village on a hill in the Municipality of Thira, on Santorini, about 7 km from the island's capital, Fira.",
+   "directions_text": "No Underground, tram or train stops are listed for Santorini. Pyrgos is about 7 km from Fira, so start from Fira and make your way up to the village. Head for the hilltop square beside the village church, where Franco's Cafè has its rooftop. From there the village centre is about 100 m to the south-west, a short walk. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the rooftops, the caldera and the sea together. Switch to ultra-wide (0.5x) if you want more of the square and the church in the frame. Use telephoto (2x-5x, depending on your phone) to pick out a single rooftop or the line of the sea.",
+    "where_to_stand": "Stand at Franco's Cafè (rooftop, in the hilltop square beside the village church). From the rooftop you look over the Pyrgos rooftops toward the caldera and the Aegean, so the village is in the foreground with the sea behind it. In the hilltop square beside the village church. From here you look over the Pyrgos rooftops toward the caldera and the Aegean, and the village centre lies to the south-west. The rooftop is a bar, so expect to buy a drink.",
+    "how_to_frame": "Turn on the gridlines and put the horizon on the upper or lower line. Keep the rooftops as a band in the foreground and the sea behind. For a different angle, the top of the Kasteli ruins looks down over the village roofs and across the island, with the caldera beyond.",
+    "phone_settings_tip": "Tap on the sky or the sea to set focus, then slide the exposure down a little so the sunset colours do not wash out and the rooftops keep their detail. Try a Live Photo to catch the changing light, or a panorama to take in the full sweep of roofs and sea.",
+    "best_time": "Sunset."
+   },
+   "access_note": "The village lanes are ordinary public streets, but the rooftop is part of a bar, so expect to use it as a customer."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Pyrgos Kallistis",
+    "url": "https://en.wikipedia.org/wiki/Pyrgos_Kallistis"
+   }
+  ],
+  "pin_flags": [
+   "area name label only (place=village): check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "Bgabel",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:GR-santorini-pyrgos.jpg",
+   "from": "Wikidata Q7263523 main image"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Red Beach (Santorini)",
+  "in_cut": true,
+  "label": "Red Beach",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 4700,
+  "pin": [
+   25.39459,
+   36.34732
+  ],
+  "camera": [
+   25.393211,
+   36.34906
+  ],
+  "camera_source": "Researched viewpoint 'Red Beach' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from the Wikipedia article 'Red Beach (Santorini)'.",
+  "notes": "Beach below red volcanic cliffs.",
+  "text": {
+   "description": "Red Beach is a volcanic sand beach on Santorini, near the village of Akrotiri. It is known for its red-tinged sand, which gets its colour from oxidised iron. The sand is a mix of red and black crushed volcanic rock from the nearby caldera, and the dark beach against the red cliff makes a strong, simple picture.\n\nThe most useful photo is taken from the clifftop viewpoint at the trail head above the beach. From the phone icon on the map you look down on the red cliff wall and the dark beach, with the blue sea filling the bottom of the frame. Guides treat this as the standard postcard angle, and it shows the full scale of the cliff without the steep walk down.\n\nOne thing to know: the area is prone to landslides, and since 2013 parts of the beach have been out of bounds. The path down is often closed because of rockfall, so check the current situation before you set out. Keep well back from the cliff edge whatever the weather, and don't lean out for a better angle.\n\nFor a second photo, the lighthouse at Akrotiri is recommended as a sunset alternative. It has open sea on one side and the caldera on the other, and Red Beach can be seen in the distance.\n\nThe red of the cliff looks strongest when the sun is on it. One guide recommends 14:00–16:00; early morning and late afternoon are also suggested.",
+   "geographic_location": "Red Beach is on Santorini and is reached from the village of Akrotiri. The clifftop viewpoint sits above the beach, at the trail head.",
+   "directions_text": "There is no public transport listed nearby; head for the Red Beach car park, reached from Akrotiri. You can search for Red Beach or the Agios Nikolaos chapel car park. The viewpoint at the trail head is reached from the car park (check on the day whether it is a short walk or a drive). The phone icon on the map is about 230 m north-west of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole cliff and the beach below. Then switch to the default lens (1x) for a calmer, more natural view. If your phone has a telephoto lens (2x-5x), use it to pick out the colour and texture of the cliff face.",
+    "where_to_stand": "Stand about 230 m north-west of the subject, at the phone icon on the map, and face south-east. Stand at the clifftop viewpoint at the trail head above Red Beach, reached from the car park. From here you look down on the red cliff wall and the dark beach, with the sea along the bottom of the frame. The beach is to the south-east of where you stand. Stay well back from the edge.",
+    "how_to_frame": "Turn on the gridlines and put the horizon on the lower third line, so the red cliff fills most of the frame and the blue sea forms a band underneath. Keep the cliff edge out of the bottom corners, and check that your own feet and shadow aren't in the shot. For a different view, the lighthouse at Akrotiri is a good sunset alternative, with Red Beach visible in the distance.",
+    "phone_settings_tip": "Tap the red cliff to focus, then slide the exposure down a little so the red stays rich and the sky doesn't wash out. Wipe the lens first, as dust and sea spray show up easily in bright light.",
+    "best_time": "One guide recommends 14:00–16:00, when the sun lights the red cliff. Early morning and late afternoon are also suggested."
+   },
+   "access_note": "The beach path is often closed because of rockfall, so check the current status locally before you go."
+  },
+  "checker_problems": 9,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Red Beach (Santorini)",
+    "url": "https://en.wikipedia.org/wiki/Red_Beach_%28Santorini%29"
+   }
+  ],
+  "pin_flags": [
+   "OpenStreetMap object 230 m away (Red Beach): earlier pin kept, check"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Sidvics",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Red_Beach_-_Panorama_-_Santorini_-_Grecia_-_agosto_2018.jpg",
+   "from": "Wikidata Q25161949 main image"
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Amoudi Bay",
+  "in_cut": true,
+  "label": "Amoudi Bay",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 3210,
+  "pin": [
+   25.37055556,
+   36.46
+  ],
+  "camera": [
+   25.37055556,
+   36.46
+  ],
+  "camera_source": "Researched viewpoint 'Ammoudi Bay' (1 web pages); placed at our map tiles: 'Ammoudi Bay Parking (10€, '26.07.)' (pois).",
+  "pin_note": "Position from Wikidata Q25164429: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Small harbour below Oia with seafood tavernas.",
+  "text": {
+   "description": "Ammoudi Bay is the little harbour at the foot of the cliffs below Oia, on the western side of Santorini. It photographs well because everything sits close together: brightly painted wooden boats in the water, tavernas along the edge, and the red cliffs with Oia rising behind. The bay is often named as a good place to watch the sunset, and many sailing tours use it as their starting point, so there is usually something happening on the water. The buildings at the base of the cliffs belong to the village of Ormos Armeni. Oia is reached from here by a long flight of steps, around 200 of them, though some guides say roughly 250–300. You have to climb them back afterwards.\n\nOnce you are down at the bay, the widest part of the waterfront path among the tavernas is a good extra spot. Wander along until the path opens out and the boats and cliffs line up in one frame. Early morning or late afternoon is calmer than the sunset rush. If you want a view from above, Oia Castle and the Oia Steps both look down over the bay and harbour, and they make a good second picture. Oia Castle is very busy well before sunset. Take your time on the steps, and carry water if the day is warm.",
+   "geographic_location": "Ammoudi Bay is on the western coast of Santorini, at the base of the high cliffs directly below the town of Oia. The buildings at the base of the cliffs belong to the village of Ormos Armeni.",
+   "directions_text": "No Underground, tram or similar stops serve the bay, so start from Oia and walk down the long flight of steps from the town to the bay. The bay lies at the bottom of the cliffs below Oia. Allow extra time and energy for the climb back up, which is a couple of hundred steps. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit boats, cliffs and Oia into one frame. Switch to the default lens (1x) for a more natural look, and use the telephoto (2x-5x, depending on your phone) to pick out a single boat or the cliff-top houses.",
+    "where_to_stand": "Stand right at the subject (the widest part of the waterfront path among the tavernas, looking back toward the bay). The harbour with brightly painted wooden boats in the water, with the red cliffs and Oia rising behind. From here you look south, down toward the bay, and see the harbour with its brightly painted wooden boats in the water, and the red cliffs and Oia rising behind. When you are down at the bay itself, the widest part of the waterfront path among the tavernas is a good place for a second shot.",
+    "how_to_frame": "Keep some boats in the foreground, the cliffs filling the upper half and a little water at the bottom. Turn on the gridlines and line the horizon or the waterline up with one of them. If you want a wider view over the bay, the Oia Steps and Oia Castle are good alternatives from above.",
+    "phone_settings_tip": "Tap on the boats to focus, then slide the exposure down a touch so the sky and the bright cliffs keep their colour. Try a Live Photo to catch the boats moving gently on the water.",
+    "best_time": "Early morning or late afternoon, around the golden hours at sunrise and sunset. These are less crowded than the sunset rush."
+   },
+   "access_note": "The waterfront path is an open public space with tavernas along it and no entry charge for the viewpoint, but check the official site before you go if you plan to join a boat tour."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Amoudi Bay",
+    "url": "https://en.wikipedia.org/wiki/Amoudi_Bay"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept",
+   "phone far from subject (510 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "Sam Holt",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Amoudi_Bay_at_Dusk.jpg",
+   "from": "Wikidata Q25164429 main image"
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Three Bells of Fira",
+  "in_cut": true,
+  "label": "Three Bells of Fira",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 3040,
+  "pin": [
+   25.4283421,
+   36.4232469
+  ],
+  "camera": [
+   25.4283421,
+   36.4232469
+  ],
+  "camera_source": "Researched viewpoint 'Santorini Palace Hotel' (1 web pages); placed at OpenStreetMap 'Santorini Palace' (way/419774374): middle (103 m across); moved 20 m off buildings.",
+  "pin_note": "Position from OpenStreetMap way/427340520: the middle of the OpenStreetMap outline 'Assumption of the Blessed Virgin Mary Catholic Church' (26 m across).",
+  "notes": "Iconic bell tower above the caldera.",
+  "text": {
+   "description": "The Three Bells of Fira is a small Greek Byzantine Catholic church, officially the Catholic Church of the Dormition. It stands right on the cliff edge above the caldera and is known for its blue dome and its three bells. The pairing of white walls, blue dome and open sea is why it photographs so well. The site has a long history. Two small cave churches were cut into the cliff in the mid-17th century, and they were lost as the cliff face wore away. An infirmary came next, later used by Jesuits, before the land passed to the Diocese of Santorini. The present church dates from 1757 and was restored after the 1956 Amorgos earthquake. Its feast day is 15 August.\n\nThe church sits in Firostefani, just along from Fira. Don't shoot from the forecourt right in front of it, because you are too close to fit the dome, bells and sea into one frame. There the dome and bell tower sit against the open caldera with nothing in the way. Two other options are Three Bells Suites, or the view from below the bells, which one guide finds more flattering than the head-on angle. The best side is a matter of opinion, so check on the day and have a quick look at more than one spot. The church is still in use, so be quiet and respectful, and take care on the cliff paths, which can be slippery.",
+   "geographic_location": "In Firostefani, on the caldera cliff edge just along from Fira town, on the western side of Santorini.",
+   "directions_text": "There are no rail or tram stops nearby. The church can be reached on foot from Firostefani, so look for the Three Bells of Fira. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to take in the dome, bells and caldera together. Then try telephoto (2x-3x, depending on your phone) to bring the sea closer behind the bells and fill the frame. Save the ultra-wide (0.5x) for the cliff path, and keep it level because it stretches the edges.",
+    "where_to_stand": "Stand at Santorini Palace Hotel (the parking area further west toward the sea, not the church forecourt). The classic postcard view: the blue dome and bell tower in front of the open caldera and Aegean Sea, with no buildings in the way. The church lies to the west of you. Keep the dome, bell tower and the caldera in one frame, and do not step in close to the church forecourt. For a separate viewpoint, the parking area by Santorini Palace Hotel lies further west toward the sea.",
+    "how_to_frame": "Turn on gridlines and place the bell tower on one third line, with the horizon on the lower or upper line, kept level. Leave sea and sky around the dome so it reads clearly. If you want a second view, try Three Bells Suites, which shows the dome and bells with the caldera behind them.",
+    "phone_settings_tip": "Tap the white wall to focus, then slide the exposure down a little so the sky stays blue and the white walls keep their detail. Take a few frames in case people walk through.",
+    "best_time": "Try to avoid sunset and cruise-ship hours if you can, as the area gets crowded then. Check the light on the day."
+   },
+   "access_note": "The church is a working place of worship, so cover shoulders and knees, and check the official site before you go for any visiting rules."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Three Bells of Fira",
+    "url": "https://en.wikipedia.org/wiki/Three_Bells_of_Fira"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "Chris Lawton chrislawton",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fira,_Greece_(Unsplash_0PaCPIKmXgs).jpg",
+   "from": "Wikidata Q55635801 main image"
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Akrotiri (prehistoric city)",
+  "in_cut": true,
+  "label": "Akrotiri Excavation",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 2600,
+  "pin": [
+   25.4034528,
+   36.3517025
+  ],
+  "camera": [
+   25.403435,
+   36.351654
+  ],
+  "camera_source": "Commons cluster (153 photos).",
+  "pin_note": "Position from OpenStreetMap way/299988161: the middle of the OpenStreetMap outline 'Ancient Akrotiri' (206 m across).",
+  "notes": "Minoan Bronze Age town buried by the eruption.",
+  "text": {
+   "description": "Akrotiri is a Bronze Age town on the island of Santorini, buried when the island's volcano erupted in the 16th century BC. The ash that covered it kept walls, streets and painted plaster in unusually good condition, and the site is often compared with Pompeii. Archaeologists have found frescoes, pottery, furniture, drainage systems and buildings of up to three storeys. Large-scale excavation began in 1967 under Spyridon Marinatos. Many of the finds are displayed in a museum away from the site.\n\nFor a phone photographer the appeal is texture and depth: old stone walls, narrow passages and layers of volcanic material, with the lanes leading the eye into the picture. The site is about 206 m across, so there is room for a few different views rather than one big shot. Look for lines such as wall edges and paving, and use them to lead into the frame. Include a doorway or a change of level to show how tall the buildings once stood. Take a wide shot to show the setting, then move closer for close-ups of stonework. A person standing in a lane gives a sense of scale. Do not step beyond marked paths or touch the remains.",
+   "geographic_location": "Akrotiri archaeological site lies on Santorini, next to the village of Akrotiri, which gave the site its name.",
+   "directions_text": "No public transport stops are listed for this spot, so check local options for getting here. Follow the signed visitor route rather than cutting across the ruins. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for lanes and walls in tight spaces, then switch to the default lens (1x) for most views. Use the telephoto (2x-5x, depending on your phone) for details such as stone joints, doorways and wall textures.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Face north for your first photo, then turn round to see what the other directions offer.",
+    "how_to_frame": "Turn on the gridlines and line up a wall or paved lane along one of them so it leads into the picture. Keep the horizon level, especially with the ultra-wide, which can bend straight lines near the edges. Include a doorway or a step for depth, and wait for a gap in the crowd if you want an empty view.",
+    "phone_settings_tip": "Tap on the brightest stone to focus and pull the exposure slider down slightly if the walls look washed out. In shaded areas, tap on a darker wall and raise the exposure a little. Hold the phone steady with both hands and your elbows close to your body.",
+    "best_time": "Early in the day is usually quieter. If parts of the site are shaded, the light may be softer there. Check the official site for current visiting times before you go."
+   },
+   "access_note": "This is an archaeological site that is likely to be ticketed with set visitor routes, so check the official site before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Akrotiri (prehistoric city)",
+    "url": "https://en.wikipedia.org/wiki/Akrotiri_%28prehistoric_city%29"
+   }
+  ],
+  "pin_flags": [
+   "phone on subject (6 m)",
+   "phone inside the subject's outline (pin and phone may be reversed)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "unknown minoan artist",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Akrotiri_minoan_town.jpg",
+   "from": "Wikidata Q421232 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Santorini Cable Car",
+  "in_cut": true,
+  "label": "Fira Cable Car",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1920,
+  "pin": [
+   25.4289755,
+   36.4196596
+  ],
+  "camera": [
+   25.428975,
+   36.41966
+  ],
+  "camera_source": "Researched viewpoint 'Santorini Cable Car Overlook' (3 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from OpenStreetMap relation/8728007: the middle of the OpenStreetMap outline 'Cable car' (334 m across).",
+  "notes": "Cable car linking Fira with the old port.",
+  "text": {
+   "description": "The Santorini Cable Car, known locally as the Teleferico, links the Old Port of Gialos (Scala Pier) with Fira, the island's capital. It climbs about 220 metres up the caldera cliff in three to five minutes, so it is easy to photograph from the top, from the bottom, or from inside a cabin. The Nomikos Foundation paid for it, and it opened in 1982 as an alternative to climbing roughly 600 steps or riding a mule.\n\nThe best-known photo here is from the top of the upper station in Fira. From the platform you look out over the caldera, with Nea Kameni and the ships in the bay beyond the cliff edge. A mural beside the station makes a colourful foreground, and the platform is described as open and less crowded. Cruise days can bring queues and crowds, so expect to wait for a clear view.\n\nFor a different picture, the cabins climbing the cliff look good from the Panoramic View Fira point, with the Aegean and the southern island behind. At the Old Port you can shoot the cabins rising against the volcanic cliff, with fishing boats and tenders in the foreground. Keep your phone strap on near the edge, and check the official site before you go, because the cable car was reported shut on at least one visit.",
+   "geographic_location": "In Fira, the capital of Santorini, on the caldera cliff above the Old Port of Gialos (Scala Pier). The upper station is close to the Archaeological Museum.",
+   "directions_text": "No tram or metro stops are listed near the cable car, so start from the centre of Fira and walk to the upper cable car station on the caldera edge, near the Archaeological Museum and with signs from the Orthodox Metropolitan Cathedral. The phone icon on the map is at the cable car spot on the map. The recommended platform is on top of the upper station in Fira, so check the exact position on the map when you arrive. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the wide view of the caldera and the mural together. Switch to the ultra-wide (0.5x) if the platform is busy and you want to fit more of the bay and cliff in. Use the telephoto (2x-5x, depending on your phone) to pick out Nea Kameni or a single cruise ship.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From there the caldera, Nea Kameni and the ships in the bay spread out in front of you, with the station's mural and the cliff edge to frame them.",
+    "how_to_frame": "Turn on gridlines and place the cliff edge along the lower line, so the horizon stays level. Use the mural as a colourful side element and leave the sea and sky for the rest. If the main platform is crowded, try Panoramic View Fira as a quieter alternative to catch the cabins climbing the cliff.",
+    "phone_settings_tip": "Tap on the sea or the sky to set focus, then slide the exposure down a little so the sky keeps its colour at sunset. Hold the phone steady with both hands and keep it away from the edge.",
+    "best_time": "Sunset and golden hour are recommended for this spot. Late afternoon is also likely to be less busy than the middle of the day when cruise ships are in."
+   },
+   "access_note": "The upper station platform is described as open, but the cable car itself is ticketed and was reported shut on at least one visit, so check the official site before you go."
+  },
+  "checker_problems": 7,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Santorini Cable Car",
+    "url": "https://en.wikipedia.org/wiki/Santorini_Cable_Car"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "Bernard Gagnon",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cable_car_of_Santorini.jpg",
+   "from": "Wikidata Q7420597 main image"
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Ancient Thera",
+  "in_cut": true,
+  "label": "Ancient Thera",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1890,
+  "pin": [
+   25.47793889,
+   36.36458611
+  ],
+  "camera": [
+   25.478783,
+   36.363325
+  ],
+  "camera_source": "Researched viewpoint 'Theatre of Ancient Thera' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position from the Wikipedia article 'Ancient Thera'.",
+  "notes": "Hilltop ruins above Kamari and Perissa.",
+  "text": {
+   "description": "Ancient Thera is a ruined hilltop city on Mesa Vouno, a limestone ridge above Kamari and Perissa on the south-east side of Santorini. It was rebuilt in Hellenistic times, when a Ptolemaic fleet was stationed here, and it kept going through Roman and Byzantine times until it was covered in pumice in the year 726 and then abandoned. The site was investigated systematically from 1895, and the stone you see is the island's own limestone.\n\nFor photographs, the theatre is the place to start. It is cut into the slope below the main street and seated about 1,500 people, more than the city itself needed. The phone icon on the map is at the theatre. From the upper rows you look straight down the hillside to the water, so the curve of the seating, the sea and the distant islands all fit into one frame. The stones, the blue and the sense of height do most of the work, so you need very little fuss to get a good picture.\n\nThe agora, about 110 m long, lies along the ridge. The view east from it is open to the ocean, which makes it a good second stop once you have your theatre shots. Bring water and a hat, because the path up is steep and rocky. Take care on the worn steps and loose stones while you are looking at your screen.",
+   "geographic_location": "On the Mesa Vouno ridge in south-east Santorini, high above the coastal resorts of Kamari and Perissa. The theatre is on the slope below the main street of the ancient city.",
+   "directions_text": "The nearest town is Kamari, where a winding road starts up to the site. The site can be reached by the winding road from Kamari or on foot by footpaths from either side of the mountain (one guide puts it at roughly 30 minutes to the top). Once you are at the theatre, the marked centre of the site is about 3 minutes on foot to the north-west. The phone icon on the map is about 160 m south-east of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the theatre with the sea behind it. Switch to ultra-wide (0.5x) when you want the whole sweep of the seating, and to telephoto (2x-5x, depending on your phone) to pick out the distant islands.",
+    "where_to_stand": "Stand about 160 m south-east of the subject, at the phone icon on the map, and face north-west. From here the semicircular theatre is cut into the hillside and the sea and distant islands lie beyond it. The marked centre of the site is a short way to the north-west.",
+    "how_to_frame": "Turn on the gridlines and put the horizon on the upper or lower third line, with the curve of the seats leading the eye down to the water. Crouch a little so the stone rows fill the foreground. For a different view, try the Terrace of Celebrations, where ruins in the foreground and sea and coastline spread out from the flat clifftop, or the Ancient Agora, with its stone remains in front of the Aegean.",
+    "phone_settings_tip": "Tap on the stonework to set focus, then drag the exposure slider down a little so the sky and sea keep their colour. Keep the horizon level with the gridlines. Panorama mode can work along the terrace, but hold the phone steady and move slowly.",
+    "best_time": "Go early in the morning or later in the afternoon, when the walk is cooler and the light is softer on the stone. Midday sun is harsh and can wash out the sea."
+   },
+   "access_note": "The site is open to the public, but check the official site before you go for current opening times and any entry rules.",
+   "claims_not_in_sources": [
+    "Early morning or late afternoon light is softer and the climb is cooler than at midday.",
+    "Midday sun can make the sea and sky look washed out in phone photos.",
+    "The marked centre of the site is a short walk north-west of the theatre.",
+    "The path up is steep and rocky, with worn steps and loose stones in places."
+   ]
+  },
+  "checker_problems": 1,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Ancient Thera",
+    "url": "https://en.wikipedia.org/wiki/Ancient_Thera"
+   }
+  ],
+  "pin_flags": [
+   "OpenStreetMap object 159 m away (Ancient Thera): earlier pin kept, check"
+  ],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "Tomisti",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Thera_1.jpg",
+   "from": "Wikidata Q433004 main image"
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Palea Kameni",
+  "in_cut": true,
+  "label": "Palea Kameni",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 1130,
+  "pin": [
+   25.3794444,
+   36.3975
+  ],
+  "camera": [
+   25.380308,
+   36.399459
+  ],
+  "camera_source": "Commons cluster (9 photos), weak.",
+  "pin_note": "Position from OpenStreetMap relation/533904: large area 'Palea Kameni' (1606 m across): previous pin kept, it lies inside.",
+  "notes": "Islet with hot springs.",
+  "text": {
+   "description": "Palea Kameni is a small volcanic island in the middle of the Santorini caldera, and its name means \"Old Burnt Island\". It is the sister island of Nea Kameni, to its south-west. That is what makes it a good photo subject: a dark, sparsely vegetated island set against open water and the caldera cliffs, so the scene is simple and uncluttered. The island was formed by eruptions between 197 BCE and 47 CE, and the Roman historian Cassius Dio noted a new islet appearing near Thera in 47 CE. Today it is mostly empty, though there are a few buildings, including a small church. The island also has a hot spring and a herd of goats. It is private, and it has no good harbour, so most recreational watercraft do not stop there. For that reason, treat it as a view to photograph, not a place to land. The phone icon on the map is about 230 m north of the subject. That is close enough to fill a good part of the frame, but still lets you include sea and sky around it. Start with a wide shot to show the island in its setting, then move in with zoom for detail such as the church or the dark lava slopes. Keep your phone steady against a wall or rail if there is one, and wipe the lens first, as sea air can leave a film on it.",
+   "geographic_location": "Palea Kameni lies inside the Santorini caldera, to the south-west of the larger island of Nea Kameni.",
+   "directions_text": "There are no stations or tram stops listed for this spot. The phone icon on the map is about 230 m north of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to show the whole island with water and sky around it. Use the ultra-wide (0.5x) only if you want a sweeping caldera scene with the island small in the frame. Use telephoto (2x-5x, depending on your phone) to pick out the church, the dark lava slopes and any buildings.",
+    "where_to_stand": "Stand about 230 m north of the subject, at the phone icon on the map, and face south.",
+    "how_to_frame": "Turn on gridlines and put the horizon on the upper or lower third line, so the island sits on a line and the sea or sky gets the rest of the frame. Keep the island off-centre so the water gives a sense of scale. For a second shot, zoom in on one detail, such as the church or a dark lava edge.",
+    "phone_settings_tip": "Tap on the island to set focus, then drag the exposure slider down a little. This stops bright sky and water from washing out the dark lava. Take a few shots in a row, as boat wakes and wind can blur single frames. Panorama mode can work for the full caldera sweep if you pan slowly.",
+    "best_time": "Early morning or the hour before sunset usually gives softer light and fewer harsh reflections on the water."
+   },
+   "access_note": "Palea Kameni is a private island, so photograph it from the stand-here point.",
+   "claims_not_in_sources": [
+    "Early morning or the hour before sunset usually gives softer light and fewer harsh reflections on the water.",
+    "The small church and buildings may be visible with telephoto zoom from the stand-here point.",
+    "Sea air can leave a film on the phone lens, so wiping it first helps."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Palea Kameni",
+    "url": "https://en.wikipedia.org/wiki/Palea_Kameni"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "Mousemaster",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Palea_Kameni_Swimming.JPG",
+   "from": "Wikidata Q1419053 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Nea Kameni",
+  "in_cut": true,
+  "label": "Nea Kameni",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 640,
+  "pin": [
+   25.3983319,
+   36.4047745
+  ],
+  "camera": [
+   25.398332,
+   36.404775
+  ],
+  "camera_source": "Researched viewpoint 'Nea Kameni Georgios crater rim' (2 web pages); placed at at the subject (split pin).",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-17: moved onto the OSM object with the sight's Wikidata ID).",
+  "notes": "Active volcanic islet in the caldera.",
+  "text": {
+   "description": "Nea Kameni is a small, uninhabited volcanic island in the middle of the Santorini caldera. Its name means \"new burnt\", and it was built up over about two thousand years by repeated eruptions. The most recent small one was in 1950. The island is nearly round, about 2 kilometres across, and mostly bare, so the pictures here are about texture: dark lava, grey gravel, and in summer a scattering of red succulents on the thin soil. A gravel path climbs to the top of the crater, about 130 metres high, and it is possible to walk a full circuit of the rim. One of the vents, called Jorgo (George), is still an active sulphur vent. The best frame is from the Nea Kameni Georgios crater rim, which gives a close view of the volcanic cone and the smaller crater beside it, with the caldera walls behind. There is no shade and the ground is loose, so wear sturdy shoes and keep one hand free for the phone. Stay on the marked walkway. If you want the island seen from outside, Fira shows it sitting in the middle of the caldera with the cliffs rising behind. Oia Castle is another option, with Nea Kameni among the neighbouring volcanic islands.",
+   "geographic_location": "Nea Kameni sits within the flooded caldera of Santorini, in the Aegean Sea, with Palea Kameni as a neighbouring island. It is a separate island, not part of the mainland.",
+   "directions_text": "Nea Kameni has no road access, so you reach it by boat from Fira's old port. Once the boat lands, a gravel path climbs to the crater rim, and the Georgios rim walkway is the place to stop for photos. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to take in the cone, the smaller crater and the caldera walls together. Switch to the default lens (1x) for a cleaner, less stretched view of the cone. Use telephoto (2x-5x, depending on your phone) to pick out details of the lava texture or the cliffs of the caldera in the distance.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Stand on the Nea Kameni Georgios crater rim, on the marked rim path near the main Georgios crater, and stay on the walkway. From here the frame shows the volcanic cone and the smaller crater beside it, with the caldera walls behind.",
+    "how_to_frame": "Turn on the gridlines and place the cone on one of the lines, with the caldera walls along the upper third. Keep a patch of the path or the dark gravel in the foreground for scale. For a different view, the Fira cliff promenade shows the island from across the water.",
+    "phone_settings_tip": "Tap the dark lava to focus, then drag the exposure slider down a little so the sky does not turn white. The ground is loose and the wind can be strong, so hold the phone with both hands. Panorama mode works along the rim path if you turn slowly.",
+    "best_time": "Early, before 10:00, according to the volcano tour page. There is no shade on the rim, so earlier is also more comfortable."
+   },
+   "access_note": "Nea Kameni is a protected scientific site reached only by boat, and an entrance fee may apply, so check the official site before you go.",
+   "claims_not_in_sources": [
+    "The ultra-wide lens (0.5x) helps fit the cone, the smaller crater and the caldera walls into one frame.",
+    "Wind on the rim can make a phone harder to hold steady.",
+    "Lowering the exposure slider helps keep the sky from washing out against the dark lava.",
+    "Earlier in the day is more comfortable because the rim has no shade."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Nea Kameni",
+    "url": "https://en.wikipedia.org/wiki/Nea_Kameni"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "Bernard Gagnon",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Nea_Kameni.jpg",
+   "from": "Wikidata Q1547142 main image"
+  }
+ },
+ {
+  "rank": 15,
+  "name": "Panagia Episkopi",
+  "in_cut": true,
+  "label": "Panagia Episkopi",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 90,
+  "pin": [
+   25.4639914,
+   36.3774041
+  ],
+  "camera": [
+   25.4639914,
+   36.3774041
+  ],
+  "camera_source": "Commons cluster (1 photos), weak. Moved 14 m outwards on 2026-11-10 so it is 45 m from the subject's edge, as the text says.",
+  "pin_note": "Position from OpenStreetMap way/417838935: the middle of the OpenStreetMap outline '' (20 m across).",
+  "notes": "Byzantine church in Mesa Gonia.",
+  "text": {
+   "description": "Panagia Episkopi is a beige-washed Byzantine church set on the northern foothills of Profitis Ilias, the highest mountain on Santorini. It was once the island's cathedral. According to an old inscription, Emperor Alexios I Komnenos ordered it built at the end of the 11th century, on the site of an earlier basilica. It was the seat of the Orthodox bishop of Santorini until 1207, and again from 1537 to 1827. It photographs well because the shapes are simple and clear: a domed cross-in-square plan with red-tiled or plastered roofs, and a narrow bell-gable at the north-east corner holding four bells. Later additions give the outline a slightly stacked, uneven look, with two small chapels on the roof of the western annex. At the east end, the apse has windows of red, green, yellow and blue glass bricks. These make a good close-up if you walk round to that side. Keep the walls straight by using the gridlines, and tap on the beige wall so the sky does not turn it grey. Inside, the church is known for its richly decorated iconostasis, but check the official site before you go for any rules on visiting or taking photos.",
+   "geographic_location": "Panagia Episkopi stands in the countryside on the northern foothills of Profitis Ilias, inland, about 2 km from the east coast at Kamari. It is about 600 m south-east of the village of Mesa Gonia.",
+   "directions_text": "There is no Underground or bus stop for this spot, so start from Mesa Gonia. Fira is about 5 km to the north-west and Kamari about 2 km away. From Mesa Gonia, head south-east along the partly paved road, which ends in a parking area directly north of the church. The church is about 600 m from the village. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to show the whole church with its dome and bell-gable. Switch to telephoto (2x or more) to pick out the dome, the bell-gable or the roof chapels without walking closer. Use ultra-wide (0.5x) only if you move right up to the walls and want to fit them in.",
+    "where_to_stand": "Stand right at the subject (church veranda/forecourt, looking out over the vineyards toward the sea). The church in the foreground with the island's landscape and coastline stretching behind it. From here the whole building fits in the frame with room for the hillside behind it.",
+    "how_to_frame": "Turn on gridlines and line the dome up with a vertical line so the walls stay straight. Leave some space around the church so it sits in its setting. For a second picture, walk round to the east end and fill the frame with the apse and its coloured glass bricks.",
+    "phone_settings_tip": "Tap the beige wall to focus, then drag the exposure slider down a little so the walls keep their detail and the sky does not wash out. Take a few shots, as light-coloured walls can fool the exposure.",
+    "best_time": "Early morning or late afternoon, when the light is softer and the light-coloured walls are less harsh. Midday sun makes the walls glare."
+   },
+   "access_note": "This is a working Orthodox church, so check the official site before you go for visiting arrangements and any rules on dress and photography inside.",
+   "claims_not_in_sources": [
+    "Looking south from the stand-here point, the hillside of Profitis Ilias is likely to rise behind the church.",
+    "Early morning and late afternoon light is softer than midday light on light-coloured walls.",
+    "Looking south, the north face of the church may be in shade around midday.",
+    "Visitors to working Orthodox churches are usually expected to dress modestly and may be asked not to photograph inside."
+   ]
+  },
+  "checker_problems": 4,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Panagia Episkopi",
+    "url": "https://en.wikipedia.org/wiki/Panagia_Episkopi"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/15.jpg",
+   "artist": "C messier",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:%CE%A0%CE%B1%CE%BD%CE%B1%CE%B3%CE%AF%CE%B1_%CE%B7_%CE%95%CF%80%CE%B9%CF%83%CE%BA%CE%BF%CF%80%CE%AE_%CE%98%CE%AE%CF%81%CE%B1%CF%82_0829.jpg",
+   "from": "Wikidata Q14733923 main image"
+  }
+ },
+ {
+  "rank": 101,
+  "name": "St. John the Baptist Cathedral, Santorini",
+  "in_cut": false,
+  "label": "Fira Cathedral",
+  "camera_pill": "near Μαρινάτου",
+  "nophone": false,
+  "searches": 40,
+  "pin": [
+   25.4306,
+   36.4203
+  ],
+  "camera": [
+   25.43094,
+   36.418382
+  ],
+  "camera_source": "Commons cluster (30 photos).",
+  "pin_note": "Position from Wikidata Q15819881: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Catholic cathedral in Fira.",
+  "text": {
+   "description": "The Cathedral of St. John the Baptist is the Roman Catholic cathedral of Santorini and the seat of its bishop. It stands in the middle of Fira, in the town's Catholic neighbourhood. Its blue-grey and cream stonework makes a calm, detailed picture. Its Baroque Revival style gives you decorative lines to work with. The building dates from 1823. It was completely restored and rebuilt in 1970 after the earthquake of 1956, which is worth mentioning if you caption the photo. Think of it as a shot of one building, with a bit of Fira's street life around it. A straight-on photo with the gridlines switched on keeps the vertical lines of the walls upright. For a second picture, step closer and tilt up, or include any nearby doorway or wall in the foreground to show the setting, if one is available. The phone icon on the map is a short walk south of the cathedral, so zoom in rather than expecting a full-frame view at 1x. If a gap in the street gives you a clear view, take a quick shot there, then walk closer for the best angles.",
+   "geographic_location": "In the centre of Fira, on the island of Santorini, in the Catholic neighbourhood.",
+   "directions_text": "No stations or stops are listed for this spot; head for the phone icon on the map in Fira. Head north through the town's streets and look for the blue-grey and cream building. The phone icon on the map is about 220 m south of the subject. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to see what the street gives you. From where you stand the cathedral is some way off, so the telephoto (2x-5x, depending on your phone) will pick it out better. Once you are close, switch to ultra-wide (0.5x) to fit the whole front into the frame.",
+    "where_to_stand": "Stand about 220 m south of the subject, at the phone icon on the map, and face north. Then walk towards it for closer shots.",
+    "how_to_frame": "Turn on gridlines and line up the walls and edges of the building with the vertical lines. Keep your phone level and avoid tilting it up too far, or the walls will lean inwards. For a variation, tap to focus on the stonework and use any nearby doorway or wall as a frame if one is available.",
+    "phone_settings_tip": "Tap the cathedral to focus, then drag the exposure slider down slightly if the pale cream stone looks washed out against the sky. At 3x or 5x, hold the phone steady with both hands, or rest your elbows on a wall.",
+    "best_time": "Early morning or late afternoon usually gives softer light on the stonework and fewer people in the street."
+   },
+   "access_note": "This is a working Roman Catholic cathedral, so check the official site before you go for visiting times, dress and photography rules inside."
+  },
+  "checker_problems": 7,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "St. John the Baptist Cathedral, Santorini",
+    "url": "https://en.wikipedia.org/wiki/St._John_the_Baptist_Cathedral%2C_Santorini"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/101.jpg",
+   "artist": "Mstyslav Chernov",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_Catholic_Cathedral_(dedicated_to_St._John_the_Baptist)_situated_in_the_Catholic_quarter_of_Fira,_Fira,_Santorini_island_(Thira),_Greece.jpg",
+   "from": "Wikidata Q15819881 main image"
+  }
+ }
+]

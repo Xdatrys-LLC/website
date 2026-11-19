@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "dresden", "title": "Dresden: 19 photo spots (pilot review)", "place": "Dresden", "bounds": [13.68, 51.02, 13.8, 51.08], "center": [13.74, 51.05], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/dresden/{z}/{x}/{y}.pbf"};

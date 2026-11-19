@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "barranco", "title": "Barranco: 9 photo spots (pilot review)", "place": "Barranco", "bounds": [-77.03, -12.158, -77.016, -12.135], "center": [-77.023, -12.1465], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/barranco/{z}/{x}/{y}.pbf"};

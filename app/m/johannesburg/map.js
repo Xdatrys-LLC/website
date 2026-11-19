@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "johannesburg", "title": "Johannesburg: 16 photo spots (pilot review)", "place": "Johannesburg", "bounds": [27.97, -26.255, 28.08, -26.16], "center": [28.025, -26.2075], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/johannesburg/{z}/{x}/{y}.pbf", "tz": "Africa/Johannesburg", "rail": true, "app": true};

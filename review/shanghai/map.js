@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "shanghai", "title": "Shanghai: 18 photo spots (pilot review)", "place": "Shanghai", "bounds": [121.435, 31.203, 121.515, 31.252], "center": [121.475, 31.2275], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/shanghai/{z}/{x}/{y}.pbf"};

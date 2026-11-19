@@ -1,0 +1,311 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Valparaiso Attractions Map: 4 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Things to do in Valparaiso with your phone camera: 4 photo spots, including Valparaiso University: where to stand, phone tips and directions. First 3 free.">
+<meta name="keywords" content="things to do in valparaiso, valparaiso attractions, valparaiso tourist map, best photo spots in valparaiso, valparaiso university, chapel of the resurrection, christopher center library">
+<link rel="canonical" href="https://xdatrys.com/library/valparaiso/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Valparaiso Attractions Map: 4 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Things to do in Valparaiso with your phone camera: 4 photo spots, including Valparaiso University: where to stand, phone tips and directions. First 3 free.">
+<meta property="og:url" content="https://xdatrys.com/library/valparaiso/">
+<meta property="og:image" content="https://xdatrys.com/library/valparaiso/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="375">
+<meta property="og:image:alt" content="Valparaiso University, Valparaiso: a Lutheran university. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/valparaiso/","url":"https://xdatrys.com/library/valparaiso/","name":"Valparaiso Attractions Map: 4 Best Photo Spots | Xdatrys","description":"Things to do in Valparaiso with your phone camera: 4 photo spots, including Valparaiso University: where to stand, phone tips and directions. First 3 free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/valparaiso/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Valparaiso"},"mainEntity":{"@type":"ItemList","name":"Valparaiso photo spots","numberOfItems":4,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Valparaiso University","description":"Valparaiso University is a Lutheran university in Valparaiso, Indiana, spread over a 350-acre campus.","geo":{"@type":"GeoCoordinates","latitude":41.4636111,"longitude":-87.0436111},"alternateName":["Valpo Campus","Valparaiso University Campus"],"image":"https://xdatrys.com/library/valparaiso/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Chapel of the Resurrection","description":"The Chapel of the Resurrection is the centrepiece of the Valparaiso University campus in Indiana, and it is a Northwest Indiana landmark, clearly visible from U.S.","geo":{"@type":"GeoCoordinates","latitude":41.463105,"longitude":-87.041723},"alternateName":["Valparaiso Chapel of the Resurrection","Valparaiso University Chapel"],"image":"https://xdatrys.com/library/valparaiso/photos/2.jpg"}},{"@type":"ListItem","position":4,"item":{"@type":"TouristAttraction","name":"Christopher Center","description":"The Christopher Center is the library on the campus of Valparaiso University, in Valparaiso, Indiana.","geo":{"@type":"GeoCoordinates","latitude":41.4626461,"longitude":-87.0430462},"alternateName":["Valparaiso Christopher Center","Christopher Center Library"],"image":"https://xdatrys.com/library/valparaiso/photos/4.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/valparaiso/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Valparaiso","item":"https://xdatrys.com/library/valparaiso/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Valparaiso?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Valparaiso University, Chapel of the Resurrection and Porter County Courthouse. They are ranked by how often people search for them. The full map has 4."}},{"@type":"Question","name":"Where should I stand to photograph Valparaiso University?","acceptedAnswer":{"@type":"Answer","text":"Stand at Christopher Center Library balcony (fourth floor balcony, reached by stairs or elevator from inside the library). Start with the default lens (1x) for the whole campus view."}},{"@type":"Question","name":"When is the best time to photograph the Chapel of the Resurrection?","acceptedAnswer":{"@type":"Answer","text":"The balcony is open only while the sun is up and the weather allows, so plan a daytime visit. For the interior, avoid service times, when photography may be limited."}},{"@type":"Question","name":"How do I get to the Christopher Center?","acceptedAnswer":{"@type":"Answer","text":"No public transport stops are listed for this spot, so head to the Valparaiso University campus in Valparaiso, Indiana."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Valparaiso</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/valparaiso/?gate" style="color:#E100FF">✏️ Review all 4 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>4 photo spots in Valparaiso: where to stand and how to shoot them on your phone</h1>
+  <p>4 photo spots on one map. Spots 1, 2 and 4 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 1 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 4 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/valparaiso/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 4 photo spots in Valparaiso"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 4 of the most-searched sights in Valparaiso as photo spots, ranked by how often people search for them: Valparaiso University, Chapel of the Resurrection, Porter County Courthouse and Christopher Center lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Valparaiso University</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Chapel_of_the_Resurrection_-_Exterior_Southeast.JPG" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Valparaiso University, Valparaiso: a Lutheran university. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Runner1928, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Valparaiso University is a Lutheran university in Valparaiso, Indiana, spread over a 350-acre campus. It began in 1859 as a small coeducational college and has been rebuilt and reshaped many times since. One landmark worth looking for is the Chapel of the Resurrection, dedicated in 1959 to replace a worship space lost to fire in 1956. It is one of the largest chapels on a US college campus, and it stands on the campus&#39;s highest point. That makes it easy to pick out from higher ground.</p><p>From the fourth floor you get an elevated view over the chapel and the wider campus, so you get buildings, lawns and trees in one frame. The university itself lies 147 m to the north-west of the balcony.</p><p>If you have time, two other spots are worth a look. The Resurrection Labyrinth gives the chapel&#39;s exterior with the labyrinth in the foreground. The Student Bridge is a footbridge with student names and initials carved into its metal. Keep your phone steady against the rail or your body for sharp shots, and wipe the lens before you start.</p>
+    <p><b>Where it is:</b> The university campus is in the city of Valparaiso, Indiana.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole campus view. Switch to telephoto (2x-5x, depending on your phone) to pick out the chapel. Try ultra-wide (0.5x) only if you want a lot of sky and ground in the frame.</p>
+      <p><b>Where to stand:</b> Stand at Christopher Center Library balcony (fourth floor balcony, reached by stairs or elevator from inside the library). An elevated view over the chapel and the wider campus. It is reached by stairs or the elevator from inside the library.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the chapel on one of the upper crossing points, with trees and lawns filling the lower part of the frame. Keep the phone level so the buildings do not lean. Then take one wider shot of the whole campus. For a ground-level alternative, try the Resurrection Labyrinth for the chapel with the labyrinth in front, or the Student Bridge for its carved names.</p>
+      <p><b>Settings tip:</b> Tap on the chapel to set focus, then slide the exposure down a little if the sky is bright so the sky keeps its detail. If you shoot through glass or a rail, hold the phone close to it and avoid reflections.</p>
+      <p><b>Best time:</b> The balcony is open only while the sun is up and the weather permits, so go in daylight and check the weather before you climb up.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Chapel of the Resurrection</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:VU_Chapel(CLight).jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Chapel of the Resurrection, Valparaiso: the centrepiece of the Valparaiso University campus in Indiana. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Chris Light (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Chapel of the Resurrection is the centrepiece of the Valparaiso University campus in Indiana, and it is a Northwest Indiana landmark, clearly visible from U.S. Route 30 and across the surrounding community. It stands on the highest ground on campus, so it works as a landmark in wider campus shots. Work began in 1956 and the chapel was dedicated in 1959. The chancel is circular and about 30 m high, and the apse roof is shaped like a nine-pointed star, which gives you an unusual outline to look for. Inside, the stained glass windows are about 29 m tall, designed by Peter Dohmen. The Brandt Campanile, a 44 m bell tower, stands to the south-west of the chapel. A circular prayer labyrinth was added on the east side in 2005. It makes a good foreground for a shot of the chapel&#39;s outside walls. For a different view, the balcony of the Christopher Center Library gives a raised look at the chapel with the campus laid out around it. That helps if you want to show how the building sits among the other university buildings. If you would rather get close, the labyrinth gives a low, open foreground. Inside, the tall windows reward a few minutes of looking, but this is a working chapel, so be quick and discreet if a service or rehearsal is under way.</p>
+    <p><b>Where it is:</b> The chapel is on the campus of Valparaiso University in the city of Valparaiso, Indiana, on the highest ground on the campus. The library balcony view is on the East Quad side, across from the University Center for the Arts.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) from the balcony to show the chapel with the campus around it. Try 2x or 3x if your phone has it to pick out the star-shaped roof and tower. Use the ultra-wide (0.5x) at the labyrinth or inside the chapel to fit in the tall windows.</p>
+      <p><b>Where to stand:</b> Stand at Christopher Center Library balcony (balcony, off the East Quad). A raised, bird&#39;s-eye view of the chapel within the surrounding campus. The chapel is to the north-east, and from the balcony you get a raised, bird&#39;s-eye view of it within the surrounding campus. If you want the chapel&#39;s outside walls with the labyrinth in front, walk over to the Resurrection Labyrinth as an alternative.</p>
+      <p><b>Framing:</b> Switch on the gridlines and put the chapel on one of the vertical lines, leaving the campus buildings and paths in the lower part of the frame to show the layout. Keep the phone level so the tall walls do not lean. At the labyrinth, crouch slightly so the paths lead the eye towards the chapel.</p>
+      <p><b>Settings tip:</b> Tap the chapel to focus, then slide the exposure down a little if the sky is bright, so the stonework keeps its detail. Inside, tap on the windows and lower the exposure so the colours stay rich. Use night mode if the interior is dim, and hold the phone steady against a rail or wall.</p>
+      <p><b>Best time:</b> The balcony is open only while the sun is up and the weather allows, so plan a daytime visit. For the interior, avoid service times, when photography may be limited.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-4">
+    <h3><span class="n">4</span>Christopher Center</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:VU_Christopher_Center_Valparaiso_Indiana.JPG" target="_blank" rel="noopener"><img src="photos/4.jpg" alt="Christopher Center, Valparaiso: the library on the campus of Valparaiso University. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Chris Light at English Wikipedia, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Christopher Center is the library on the campus of Valparaiso University, in Valparaiso, Indiana. It opened as the university&#39;s fourth library and replaced the older Moellering Library, which was demolished in 2005. The building has about 105,000 square feet (9,800 m2) of space and was designed by the Chicago firm Esherick Homsey Dodge &amp; Davis, who wanted to break the mould of the traditional institutional library. A grid-like structure along the south and east sides gives the outside its distinctive look and also works as a sunscreen.</p><p>The viewpoint is the fourth-floor balcony inside the Christopher Center. The phone icon on the map is the balcony itself, not the middle of the building. From up there you look out over the Chapel and the wider campus, not back at the library&#39;s own walls. That makes it a good place for a &#39;view from the library&#39; picture that shows the building in its campus setting. A student guide to the campus lists the balcony as a favourite photo spot because of the raised view. If you want a picture of the library&#39;s outside, this is not the place for it.</p><p>Keep the shot simple. Line up the Chapel with the gridlines on, and keep the horizon level. Take a few frames at different zoom levels so you have options to choose from afterwards. Check the campus map for current access before you go.</p>
+    <p><b>Where it is:</b> The Christopher Center stands on the campus of Valparaiso University in Valparaiso, Indiana, close to the university Chapel. Its reading room overlooks Resurrection Meadow, south of the Chapel.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to take in the sweep of the campus. Then switch to the default lens (1x) for a more natural view. Use the telephoto (2x-5x, depending on your phone) to pick out the Chapel from the rest of the view.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. Stand on the fourth-floor balcony inside the Christopher Center. Find the library first and then head up to the fourth floor. From the balcony the photo shows the Chapel and the campus laid out below, not the library&#39;s outer walls. It works best as a context shot.</p>
+      <p><b>Framing:</b> Turn on the gridlines and place the Chapel on one of the lines. Keep the horizon level. If you want a wider view, take one frame at 0.5x and another at 1x. Choose the better one afterwards.</p>
+      <p><b>Settings tip:</b> Tap the Chapel to set focus, then slide the exposure down a touch if the sky looks washed out. Hold the phone with both hands against your body to keep it steady.</p>
+      <p><b>Best time:</b> Go in daylight so the campus view is well lit.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(4)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>1 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">3</span>Porter County Courthouse <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Valparaiso?</summary><p>The first three on this map are Valparaiso University, Chapel of the Resurrection and Porter County Courthouse. They are ranked by how often people search for them. The full map has 4.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Valparaiso University?</summary><p>Stand at Christopher Center Library balcony (fourth floor balcony, reached by stairs or elevator from inside the library). Start with the default lens (1x) for the whole campus view.</p></details>
+  <details class="faq"><summary>When is the best time to photograph the Chapel of the Resurrection?</summary><p>The balcony is open only while the sun is up and the weather allows, so plan a daytime visit. For the interior, avoid service times, when photography may be limited.</p></details>
+  <details class="faq"><summary>How do I get to the Christopher Center?</summary><p>No public transport stops are listed for this spot, so head to the Valparaiso University campus in Valparaiso, Indiana.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Valparaiso_University" target="_blank" rel="noopener">Valparaiso University</a>, <a href="https://en.wikipedia.org/wiki/Chapel_of_the_Resurrection_%28Valparaiso%2C_Indiana%29" target="_blank" rel="noopener">Chapel of the Resurrection (Valparaiso, Indiana)</a>, <a href="https://en.wikipedia.org/wiki/Christopher_Center" target="_blank" rel="noopener">Christopher Center</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"valparaiso","place":"Valparaiso","bounds":[-87.075,41.452,-87.034,41.478],"center":[-87.0545,41.465],"english":false,"vatican":false,"tiles":"/r2tiles/valparaiso/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 4"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

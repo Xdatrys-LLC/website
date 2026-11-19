@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "chennai", "title": "Chennai: 17 photo spots (pilot review)", "place": "Chennai", "bounds": [80.235, 12.995, 80.295, 13.095], "center": [80.265, 13.045], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/chennai/{z}/{x}/{y}.pbf"};

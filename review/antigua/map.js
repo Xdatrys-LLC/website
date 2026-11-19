@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "antigua", "title": "Antigua: 11 photo spots (pilot review)", "place": "Antigua", "bounds": [-61.92, 16.98, -61.66, 17.17], "center": [-61.79, 17.075000000000003], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/antigua/{z}/{x}/{y}.pbf"};

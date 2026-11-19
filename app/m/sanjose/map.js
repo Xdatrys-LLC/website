@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "sanjose", "title": "San José: 14 photo spots (pilot review)", "place": "San José", "bounds": [-84.113, 9.924, -84.066, 9.946], "center": [-84.0895, 9.934999999999999], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/sanjose/{z}/{x}/{y}.pbf", "tz": "America/Costa_Rica", "rail": true, "app": true};

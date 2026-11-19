@@ -1,0 +1,322 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Pittsburgh Attractions Map: 16 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 16 best photo spots in Pittsburgh, including Andy Warhol Museum and PNC Park: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="pittsburgh andy warhol museum, pittsburgh pnc park, acrisure stadium">
+<link rel="canonical" href="https://xdatrys.com/library/pittsburgh/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Pittsburgh Attractions Map: 16 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 16 best photo spots in Pittsburgh, including Andy Warhol Museum and PNC Park: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/pittsburgh/">
+<meta property="og:image" content="https://xdatrys.com/library/pittsburgh/photos/1.jpg">
+<meta property="og:image:width" content="480"><meta property="og:image:height" content="270">
+<meta property="og:image:alt" content="The Andy Warhol Museum, Pittsburgh: a big former industrial warehouse. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/pittsburgh/","url":"https://xdatrys.com/library/pittsburgh/","name":"Pittsburgh Attractions Map: 16 Best Photo Spots | Xdatrys","description":"Map of the 16 best photo spots in Pittsburgh, including Andy Warhol Museum and PNC Park: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/pittsburgh/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Pittsburgh"},"mainEntity":{"@type":"ItemList","name":"Pittsburgh photo spots","numberOfItems":16,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"The Andy Warhol Museum","description":"The Andy Warhol Museum is a big former industrial warehouse that now holds the largest museum collection in North America devoted to a single artist.","geo":{"@type":"GeoCoordinates","latitude":40.4483863,"longitude":-80.0025243},"alternateName":["Pittsburgh Andy Warhol Museum","Warhol Museum"],"image":"https://xdatrys.com/library/pittsburgh/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"PNC Park","description":"PNC Park is the Pittsburgh Pirates' baseball stadium, on the North Shore beside the Allegheny River.","geo":{"@type":"GeoCoordinates","latitude":40.4469541,"longitude":-80.0058053},"alternateName":["Pittsburgh Pnc Park"],"image":"https://xdatrys.com/library/pittsburgh/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Acrisure Stadium","description":"Acrisure Stadium, still often called Heinz Field, sits on the North Shore beside the Ohio River.","geo":{"@type":"GeoCoordinates","latitude":40.4468387,"longitude":-80.015774},"alternateName":["Pittsburgh Acrisure Stadium","Heinz Field"],"image":"https://xdatrys.com/library/pittsburgh/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/pittsburgh/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Pittsburgh","item":"https://xdatrys.com/library/pittsburgh/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Pittsburgh?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Andy Warhol Museum, PNC Park and Acrisure Stadium. They are ranked by how often people search for them. The full map has 16."}},{"@type":"Question","name":"Where should I stand to photograph the Andy Warhol Museum?","acceptedAnswer":{"@type":"Answer","text":"Stand at the corner of Sandusky Street and East General Robinson Street (across the street from the front facade, shooting up at the entrance). Start with the default lens (1x) from across the street."}},{"@type":"Question","name":"When is the best time to photograph PNC Park?","acceptedAnswer":{"@type":"Answer","text":"Golden hour, or after a game, when the riverfront is quieter."}},{"@type":"Question","name":"How do I get to Acrisure Stadium?","acceptedAnswer":{"@type":"Answer","text":"No station or tram stop is listed for this spot."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Pittsburgh</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/pittsburgh/?gate" style="color:#E100FF">✏️ Review all 16 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>16 photo spots in Pittsburgh: where to stand and how to shoot them on your phone</h1>
+  <p>16 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 13 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 16 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/pittsburgh/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 16 photo spots in Pittsburgh"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 16 of the most-searched sights in Pittsburgh as photo spots, ranked by how often people search for them: Andy Warhol Museum, PNC Park, Acrisure Stadium, Cathedral of Learning and Clemente Bridge lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>The Andy Warhol Museum</h3>
+    <figure><img src="photos/1.jpg" alt="The Andy Warhol Museum, Pittsburgh: a big former industrial warehouse. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>The Andy Warhol Museum is a big former industrial warehouse that now holds the largest museum collection in North America devoted to a single artist. Warhol was born in Pittsburgh, and the building sits on the city&#39;s North Shore. It is one of the four Carnegie Museums of Pittsburgh. Inside there are seven floors and 17 galleries. The museum opened in May 1994, and about 25,000 people came in its first weekend.</p><p>From the street, the building photographs well because of its classical, Beaux-Arts-style front. Above the entrance is the old &#39;Frick &amp; Lindsay Co&#39; inscription, a nice reminder of the building&#39;s earlier life. The front is a calm, symmetrical subject, so a simple, well-straightened shot works better than anything fussy.</p><p>For the best view, stand across the street from the front. From there you can angle up at the entrance and get the lettering and most of the facade in one frame. Take a few steps back if the top is cut off. If you have time, the Andy Warhol Bridge is only a few blocks away. It gives a wider view of the skyline and river, with the museum as part of the surroundings rather than the main subject.</p><p>This guide covers the outside of the building only. If you plan to go in, check the official site before you go.</p>
+    <p><b>Where it is:</b> On the North Shore of Pittsburgh, at the corner of Sandusky Street and General Robinson Street. The Andy Warhol Bridge is a few blocks away.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) from across the street. Switch to the ultra-wide (0.5x) if you cannot step back far enough to fit the whole front in. Use the telephoto (2x or more, depending on your phone) for a closer shot of the &#39;Frick &amp; Lindsay Co&#39; inscription above the entrance.</p>
+      <p><b>Where to stand:</b> Stand at the corner of Sandusky Street and East General Robinson Street (across the street from the front facade, shooting up at the entrance). The museum&#39;s classical, Beaux-Arts-style front, including the historic &#39;Frick &amp; Lindsay Co&#39; inscription above the entrance. Stand on 117 Sandusky Street, across the street from the front facade. From here you look up at the entrance and see the museum&#39;s classical, Beaux-Arts-style front, with the &#39;Frick &amp; Lindsay Co&#39; inscription above the door. The building&#39;s middle is to your south-west.</p>
+      <p><b>Framing:</b> Turn on gridlines and line up the edges of the facade with the vertical lines, so the building does not lean back too much when you tilt the phone upwards. Keep the entrance and inscription in the centre. Take one wide shot of the whole front, then a second closer one of the lettering. For a wider skyline-and-river view with the museum in the background, walk to the Andy Warhol Bridge, which is a short walk away.</p>
+      <p><b>Settings tip:</b> Tap on the stonework or the entrance to set focus, then use the exposure slider to bring the brightness down slightly if the sky is washing out. Check the edges of the picture for passing cars and people before you press the button.</p>
+      <p><b>Best time:</b> Choose a time when the front is evenly lit and not in harsh glare; early morning or late afternoon on a clear day is a good bet. Look at the facade on the day, as street shadows can fall across it.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>PNC Park</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Pedro_goes_to_Pittsburgh.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="PNC Park, Pittsburgh: the Pittsburgh Pirates&#39; baseball stadium. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: alpineinc, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>PNC Park is the Pittsburgh Pirates&#39; baseball stadium, on the North Shore beside the Allegheny River. It opened during the 2001 season and was built with steel and limestone, in contrast to the brick bases of other modern stadiums. It was designed to echo classic ballparks such as Pittsburgh&#39;s own Forbes Field, which is why the arches and steel trusswork give it a traditional feel.</p><p>It photographs well because the stadium, the river, the yellow Roberto Clemente Bridge and the Downtown skyline all sit close together. The bridge was renamed in honour of the Pirates player Roberto Clemente, and a stadium with seating for 38,747 people still looks compact from across the water.</p><p>Keep the horizon level using your phone&#39;s gridlines, and include some water or railing in the foreground so the stadium doesn&#39;t look flat. If you also want the skyline behind the ballpark, the Roberto Clemente Bridge is a good second viewpoint, and the bronze Clemente statue near the stadium makes a good close-up with the bridge behind it.</p>
+    <p><b>Where it is:</b> PNC Park is on the North Shore of Pittsburgh, on the north bank of the Allegheny River, directly across from Downtown.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to get the stadium, the Clemente Bridge and the yellow bridges in one frame. Switch to the default lens (1x) for a cleaner, less stretched view of the ballpark, and try telephoto (2x-5x, depending on your phone) to pick out the bridge or the stadium&#39;s stonework.</p>
+      <p><b>Where to stand:</b> Stand in Allegheny Landing (riverfront side, looking across the Allegheny River). A riverside angle on the stadium with the Clemente Bridge and yellow bridges nearby in the frame. The stadium should be ahead of you, with the Clemente Bridge and the other yellow bridges close by in the frame.</p>
+      <p><b>Framing:</b> Switch on gridlines and put the river edge or railing on a lower line so the horizon stays level. Leave the stadium and bridge in the upper two thirds with some water in front. If you want the skyline behind the ballpark, walk to the Roberto Clemente Bridge and shoot from there instead.</p>
+      <p><b>Settings tip:</b> Tap the stadium to focus, then slide the exposure down a little if the sky is bright so it does not wash out. If you are shooting after dark, use night mode and rest your elbows on a railing or wall to keep the phone still.</p>
+      <p><b>Best time:</b> Golden hour, or after a game, when the riverfront is quieter.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Acrisure Stadium</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Ptr-HeinzField-FILE.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Acrisure Stadium, Pittsburgh: photo spot" loading="lazy"></a>
+      <figcaption>Photo: Fo2grfr, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Acrisure Stadium, still often called Heinz Field, sits on the North Shore beside the Ohio River. It is home to the Pittsburgh Steelers and the Pittsburgh Panthers, and it opened in 2001. The best phone photo is of its river-facing front: a wide flight of steps leading up to Gate A, with the big scoreboard above. The stadium was designed with Pittsburgh&#39;s steel history in mind and uses about 12,000 tons of steel. Steel and glass show clearly on the front, and the glass echoes the buildings Downtown. Near Gate A there is also a statue of a Pitt Panther standing over a paved picture of the Cathedral of Learning. It makes a good detail shot if you have time. The stadium holds 68,400 seats, so it is a very large building. You will need to stand back and use the steps and scoreboard to give a sense of scale. It also works well as a backdrop for people. Ask them to stand on or just below the steps, with the scoreboard above their heads. The Gateway Clipper dock is close by, and a boat passing or moored on the river can add interest if you turn around. On home-game days the steps can fill with fans, so check the fixtures before you go.</p>
+    <p><b>Where it is:</b> Acrisure Stadium is in the North Shore neighbourhood on the North Side of Pittsburgh, on the bank of the Ohio River. PNC Park is its neighbour, and Downtown lies across the water.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for people on the steps with the scoreboard behind them. Switch to ultra-wide (0.5x) if you are close and the building will not fit. Use the telephoto (2x or more) for details such as the statue near Gate A.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. Your viewpoint is on the south side of the stadium, facing the river, at the steps up to Gate A under the main scoreboard. This is a short walk from the centre of the stadium toward the river side. From here the stadium&#39;s river-facing front, its steps and the scoreboard make a close-up backdrop for people. The Gateway Clipper dock is nearby, so a boat can sometimes add to the frame if you turn round.</p>
+      <p><b>Framing:</b> Turn on gridlines and keep the stadium front level, so the steps and the lines of the building do not lean. Place your subject on the steps and leave room above them for the scoreboard. For a wider view, the Roberto Clemente Bridge shows the stadium beside PNC Park with the Downtown skyline behind, and the Franco Harris statue gives a close-up with the stadium behind it. Check the statue&#39;s exact position on the day.</p>
+      <p><b>Settings tip:</b> Tap on your subject&#39;s face to set focus and drag the exposure slider down a little, so the bright sky does not wash out the scoreboard. Portrait mode suits a person on the steps. Switch it off if the building edges look smudged.</p>
+      <p><b>Best time:</b> Check for home games before you go, as the steps can fill with fans. Check how the light looks on your phone screen when you are there.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>13 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Cathedral of Learning <small>· members</small></li>
+    <li><span class="n">5</span>Roberto Clemente Bridge <small>· members</small></li>
+    <li><span class="n">6</span>Duquesne Incline <small>· members</small></li>
+    <li><span class="n">7</span>Phipps Conservatory <small>· members</small></li>
+    <li><span class="n">8</span>Carnegie Museum of Natural History <small>· members</small></li>
+    <li><span class="n">9</span>Point State Park <small>· members</small></li>
+    <li><span class="n">10</span>Heinz History Center <small>· members</small></li>
+    <li><span class="n">11</span>Strip District <small>· members</small></li>
+    <li><span class="n">12</span>PPG Place <small>· members</small></li>
+    <li><span class="n">13</span>Heinz Hall <small>· members</small></li>
+    <li><span class="n">14</span>Market Square <small>· members</small></li>
+    <li><span class="n">15</span>North Shore Riverfront Park <small>· members</small></li>
+    <li><span class="n">16</span>Smithfield Street Bridge <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Pittsburgh?</summary><p>The first three on this map are Andy Warhol Museum, PNC Park and Acrisure Stadium. They are ranked by how often people search for them. The full map has 16.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the Andy Warhol Museum?</summary><p>Stand at the corner of Sandusky Street and East General Robinson Street (across the street from the front facade, shooting up at the entrance). Start with the default lens (1x) from across the street.</p></details>
+  <details class="faq"><summary>When is the best time to photograph PNC Park?</summary><p>Golden hour, or after a game, when the riverfront is quieter.</p></details>
+  <details class="faq"><summary>How do I get to Acrisure Stadium?</summary><p>No station or tram stop is listed for this spot.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/The_Andy_Warhol_Museum" target="_blank" rel="noopener">The Andy Warhol Museum</a>, <a href="https://en.wikipedia.org/wiki/PNC_Park" target="_blank" rel="noopener">PNC Park</a>, <a href="https://en.wikipedia.org/wiki/Acrisure_Stadium" target="_blank" rel="noopener">Acrisure Stadium</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"pittsburgh","place":"Pittsburgh","bounds":[-80.03,40.428,-79.94,40.46],"center":[-79.985,40.444],"english":false,"vatican":false,"tiles":"/r2tiles/pittsburgh/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

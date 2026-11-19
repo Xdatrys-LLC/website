@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "granada", "title": "Granada: 17 photo spots (pilot review)", "place": "Granada", "bounds": [-3.618, 37.158, -3.575, 37.192], "center": [-3.5965, 37.175], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/granada/{z}/{x}/{y}.pbf"};

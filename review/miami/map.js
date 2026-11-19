@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "miami", "title": "Miami: 17 photo spots (pilot review)", "place": "Miami", "bounds": [-80.225, 25.735, -80.12, 25.81], "center": [-80.1725, 25.7725], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/miami/{z}/{x}/{y}.pbf"};

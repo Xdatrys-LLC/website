@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "muscat", "title": "Muscat: 11 photo spots (pilot review)", "place": "Muscat", "bounds": [58.39, 23.56, 58.62, 23.64], "center": [58.504999999999995, 23.6], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/muscat/{z}/{x}/{y}.pbf", "tz": "Asia/Muscat", "rail": false, "app": true};

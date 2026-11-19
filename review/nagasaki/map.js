@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "nagasaki", "title": "Nagasaki: 19 photo spots (pilot review)", "place": "Nagasaki", "bounds": [129.84, 32.717, 129.89, 32.785], "center": [129.865, 32.751], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/nagasaki/{z}/{x}/{y}.pbf"};

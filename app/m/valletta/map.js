@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "valletta", "title": "Valletta: 20 photo spots (pilot review)", "place": "Valletta", "bounds": [14.502, 35.8895, 14.527, 35.9065], "center": [14.5145, 35.897999999999996], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/valletta/{z}/{x}/{y}.pbf", "tz": "Europe/Malta", "rail": false, "app": true};

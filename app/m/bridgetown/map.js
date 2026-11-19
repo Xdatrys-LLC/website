@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "bridgetown", "title": "Bridgetown: 16 photo spots (pilot review)", "place": "Bridgetown", "bounds": [-59.637, 13.073, -59.598, 13.11], "center": [-59.6175, 13.0915], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bridgetown/{z}/{x}/{y}.pbf", "tz": "America/Barbados", "rail": false, "app": true};

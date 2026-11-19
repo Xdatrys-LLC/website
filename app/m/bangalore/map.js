@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "bangalore", "title": "Bangalore: 18 photo spots (pilot review)", "place": "Bangalore", "bounds": [77.54, 12.935, 77.63, 13.02], "center": [77.58500000000001, 12.9775], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bangalore/{z}/{x}/{y}.pbf", "tz": "Asia/Kolkata", "rail": true, "app": true};

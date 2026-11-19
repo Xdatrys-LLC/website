@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "brussels", "title": "Brussels: 18 photo spots (pilot review)", "place": "Brussels", "bounds": [4.31, 50.835, 4.4, 50.905], "center": [4.355, 50.870000000000005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/brussels/{z}/{x}/{y}.pbf", "tz": "Europe/Brussels", "rail": true, "app": true};

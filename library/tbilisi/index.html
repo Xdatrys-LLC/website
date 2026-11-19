@@ -1,0 +1,325 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Tbilisi Attractions Map: 18 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Tbilisi tourist map of 18 top photo spots, including Narikala Fortress and Metekhi Church: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in tbilisi, tbilisi attractions, tbilisi tourist map, best views in tbilisi, map of tbilisi attractions, tbilisi narikala, metekhi, freedom square">
+<link rel="canonical" href="https://xdatrys.com/library/tbilisi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Tbilisi Attractions Map: 18 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Tbilisi tourist map of 18 top photo spots, including Narikala Fortress and Metekhi Church: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/tbilisi/">
+<meta property="og:image" content="https://xdatrys.com/library/tbilisi/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="272">
+<meta property="og:image:alt" content="Narikala Fortress, Tbilisi: an old hilltop fortress above Tbilisi, looking down. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/tbilisi/","url":"https://xdatrys.com/library/tbilisi/","name":"Tbilisi Attractions Map: 18 Best Photo Spots | Xdatrys","description":"A Tbilisi tourist map of 18 top photo spots, including Narikala Fortress and Metekhi Church: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/tbilisi/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Tbilisi"},"mainEntity":{"@type":"ItemList","name":"Tbilisi photo spots","numberOfItems":18,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Narikala Fortress","description":"Narikala is an old hilltop fortress above Tbilisi, looking down on the Mtkvari (Kura) River.","geo":{"@type":"GeoCoordinates","latitude":41.6877342,"longitude":44.808693},"alternateName":["Tbilisi Narikala","Narikala"],"image":"https://xdatrys.com/library/tbilisi/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Metekhi Church","description":"Metekhi Church stands right on the edge of a cliff above the Kura river, looking across to the Old Town.","geo":{"@type":"GeoCoordinates","latitude":41.6901877,"longitude":44.8112956},"alternateName":["Tbilisi Metekhi","Metekhi"],"image":"https://xdatrys.com/library/tbilisi/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Freedom Square, Tbilisi","description":"Freedom Square sits at the eastern end of Rustaveli Avenue, the main street of Tbilisi, and the gilded figure of St George slaying the dragon stands in the middle of it.","geo":{"@type":"GeoCoordinates","latitude":41.6933935,"longitude":44.8014964},"alternateName":["Tbilisi Freedom Square"],"image":"https://xdatrys.com/library/tbilisi/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/tbilisi/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Tbilisi","item":"https://xdatrys.com/library/tbilisi/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Tbilisi?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Narikala Fortress, Metekhi Church and Freedom Square. They are ranked by how often people search for them. The full map has 18."}},{"@type":"Question","name":"Where should I stand to photograph Narikala Fortress?","acceptedAnswer":{"@type":"Answer","text":"Stand on Metekhi Bridge (middle of the bridge, looking upstream toward the fortress). Start with the default lens (1x) for the walls and the church."}},{"@type":"Question","name":"When is the best time to photograph Metekhi Church?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon or sunset for warm light. Early morning is quieter."}},{"@type":"Question","name":"How do I get to Freedom Square?","acceptedAnswer":{"@type":"Answer","text":"Start from the centre of Tbilisi and head for Freedom Square at the eastern end of Rustaveli Avenue."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Tbilisi</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/tbilisi/?gate" style="color:#E100FF">✏️ Review all 18 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>18 photo spots in Tbilisi: where to stand and how to shoot them on your phone</h1>
+  <p>18 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 15 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 18 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/tbilisi/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 18 photo spots in Tbilisi"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 18 of the most-searched sights in Tbilisi as photo spots, ranked by how often people search for them: Narikala Fortress, Metekhi Church, Freedom Square, Mtatsminda Park and Sameba Cathedral lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Narikala Fortress</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Narikala,_Tiflis,_Georgia,_2016-09-29,_DD_91.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Narikala Fortress, Tbilisi: an old hilltop fortress above Tbilisi, looking down. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Diego Delso, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Narikala is an old hilltop fortress above Tbilisi, looking down on the Mtkvari (Kura) River. It stands on a steep hill between the sulphur baths and the botanical gardens, and it has two walled sections. Most of the stonework you see today dates from the 16th and 17th centuries, though a fortress has stood here since about the year 364. Parts were damaged by an earthquake in 1827 and later pulled down. In the lower court is the church of St Nicholas, built in 1996-1997 to replace a 13th-century church lost to fire.</p><p>It photographs well because the weathered walls give you strong foreground shapes, with the city and river spread out behind them. A single wall or tower with open sky above it makes a simple, clear picture, and a wider shot of the walls climbing the slope shows the scale of the place.</p><p>For a phone, start with the default lens (1x) and use gridlines to keep the walls straight. Switch to the ultra-wide (0.5x) for the full sweep of masonry, and use the telephoto or zoom for details such as the church or a single tower. Take a few steps between shots, as the view changes quickly on this slope.</p>
+    <p><b>Where it is:</b> Narikala sits on a steep hill above the old part of Tbilisi, between the sulphur baths and the botanical gardens, overlooking the Mtkvari (Kura) River.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the walls and the church. Use the ultra-wide (0.5x) for the whole sweep of fortifications, and the telephoto/zoom (2x-5x, depending on your phone) for towers and rooftops in the city below.</p>
+      <p><b>Where to stand:</b> Stand on Metekhi Bridge (middle of the bridge, looking upstream toward the fortress). Narikala rising over the Old Town rooftops and the river, with Metekhi Church in the foreground. From here the main body of the walls lies to the south-west, so face that way for your main shot.</p>
+      <p><b>Framing:</b> Turn on gridlines and line a wall or tower up with one of them so the stonework stays straight. Keep some sky above the walls, and for a wider shot use the ultra-wide (0.5x) with the near wall low in the frame. Stay clear of the edges of walls and steep drops when stepping back.</p>
+      <p><b>Settings tip:</b> Tap on the stonework to focus, then drag the exposure slider down a little so the sky keeps its colour. If you want a wide view along the walls, try panorama and move slowly.</p>
+      <p><b>Best time:</b> Early morning or the hour before sunset, when the light is softer and the stone looks warmer. Midday sun can make the sky look washed out.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Metekhi Church</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Tbilisi_The_Metekhi_Church_of_Assumption_IMG_8842_1920.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Metekhi Church, Tbilisi: photo spot" loading="lazy"></a>
+      <figcaption>Photo: Alexxx1979, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Metekhi Church stands right on the edge of a cliff above the Kura river, looking across to the Old Town. It was built to look like a continuation of the rock beneath it, and that is why it shows up so clearly in city views. The church you see today mostly dates from between 1278 and 1289, in the reign of King Demetrius II. Oral tradition traces the site back to the 5th century, though there is no firm evidence for that. The building is small, about 20 by 16 metres, and slightly tall for its footprint. Its history is a varied one: a prison in the Russian Empire period, a store for museum collections, and a youth theatre in the 1970s.</p><p>The churchyard terrace next to the King Vakhtang Gorgasali statue is the classic free photo spot. From the cliff edge you look down over the Old Town rooftops, the river and the domed sulphur baths, with the statue as a strong foreground. Remember that the courtyard views are mostly of the city rather than of the church itself. For a shot of the church on its cliff, use Metekhi Bridge, where the Old Town and Narikala Fortress rise behind it, or the Bridge of Peace. On the terrace, keep the statue on one side of the frame and let the river and rooftops fill the rest. Late afternoon gives warm light, and early morning is quieter.</p>
+    <p><b>Where it is:</b> Metekhi Church is in Tbilisi on the Metekhi Cliff, on the left bank of the Kura (Mtkvari) river. It faces the Old Town from across the water.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the terrace view. Switch to the ultra-wide (0.5x) to fit the statue and the rooftops in one frame. If your phone has a telephoto (2x-5x), use it to pick out the domed sulphur baths or the Old Town roofs.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. For the view, walk to the churchyard terrace on the cliff edge beside the King Vakhtang Gorgasali statue. From the terrace the photo shows the Old Town rooftops, the river, the domed sulphur baths and the horse-and-rider statue. The church itself is best photographed from Metekhi Bridge.</p>
+      <p><b>Framing:</b> Switch on gridlines and put the statue on one third of the frame, with the river and rooftops filling the rest. Hold the phone low and close to the statue for a stronger foreground. For a picture of the church itself, walk to Metekhi Bridge, where the church sits in front of the Old Town and Narikala Fortress. The Bridge of Peace also gives a framed view, but check the angle when you get there.</p>
+      <p><b>Settings tip:</b> Tap on the rooftops to set focus, then drag the exposure slider down a little so the sky keeps its colour. Wind can shake the phone on the exposed terrace, so hold it with both hands and take a couple of frames.</p>
+      <p><b>Best time:</b> Late afternoon or sunset for warm light. Early morning is quieter.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Freedom Square, Tbilisi</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Freedom_Square,_Tbilisi,_Georgia.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Freedom Square, Tbilisi, Tbilisi: photo spot" loading="lazy"></a>
+      <figcaption>Photo: LeontinaVarlamonva, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener license">CC0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Freedom Square sits at the eastern end of Rustaveli Avenue, the main street of Tbilisi, and the gilded figure of St George slaying the dragon stands in the middle of it. For a second view, walk to Rustaveli Avenue and look east, where the square and the St George column are framed at the end of a tree-lined street, so you see the monument as the city&#39;s main street leads to it. The monument is a recent arrival. A large statue of Lenin stood here from 1956 until it was symbolically pulled down in August 1991. The St George monument by Zurab Tsereteli was unveiled in the same place on 23 November 2006. The place was first called Freedom Square in 1918, and six streets branch out from it, including Rustaveli Avenue and Pushkin Street. The square is a busy roundabout, so take your photos from the pavements and keep your phone and bag close, as guides warn about pickpockets. Look for a clear gap between passers-by and keep the column in the centre of the frame. If you shoot from the avenue, let the line of trees lead the eye towards it. If you want a quieter, higher view, the top of the monument appears level with the old city&#39;s rooftops from the Betlemi Street stairs. Confirm the exact steps on the map once you are there.</p>
+    <p><b>Where it is:</b> In the centre of Tbilisi, Georgia, at the eastern end of Rustaveli Avenue. The Tbilisi City Assembly and the Courtyard by Marriott Tbilisi are among the buildings on the square.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to show the monument in its setting. Switch to the ultra-wide (0.5x) if you want more of the buildings and trees, but keep the column away from the edges, where it can look stretched. Try telephoto (2x-5x, depending on your phone) for a tighter shot of the monument.</p>
+      <p><b>Where to stand:</b> Stand on Shota Rustaveli Avenue (looking back east along the avenue toward the square). The square and the St. George column framed at the end of the tree-lined avenue, with the square seen from the avenue&#39;s length. From there you look south-west towards the St George column. For the separate avenue view, stand on Rustaveli Avenue, on the pavement, and look east towards the square, where the column is framed at the end of the tree-lined street.</p>
+      <p><b>Framing:</b> Turn on gridlines and put the column on the central vertical line. If you are on the avenue, let the trees run down both sides to lead the eye. Wait for a gap in the traffic and passers-by. For a different angle, the Betlemi Street stairs show the top of the monument level with the old city&#39;s rooftops.</p>
+      <p><b>Settings tip:</b> Tap on the column to set focus, then slide the exposure down a little so the gold doesn&#39;t wash out against the sky. After dark, use night mode and hold the phone steady against a wall or railing.</p>
+      <p><b>Best time:</b> After dark, when the column is lit, is the most striking time. Early morning is likely to be quieter for clear views along the avenue.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>15 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Mtatsminda Park <small>· members</small></li>
+    <li><span class="n">5</span>Holy Trinity Cathedral of Tbilisi <small>· members</small></li>
+    <li><span class="n">6</span>Kartlis Deda <small>· members</small></li>
+    <li><span class="n">7</span>Abanotubani <small>· members</small></li>
+    <li><span class="n">8</span>Bridge of Peace <small>· members</small></li>
+    <li><span class="n">9</span>Rustaveli Avenue <small>· members</small></li>
+    <li><span class="n">10</span>Anchiskhati Basilica <small>· members</small></li>
+    <li><span class="n">11</span>Tbilisi Sioni Cathedral <small>· members</small></li>
+    <li><span class="n">12</span>National Botanical Garden of Georgia <small>· members</small></li>
+    <li><span class="n">13</span>Georgian National Opera Theater <small>· members</small></li>
+    <li><span class="n">14</span>Tbilisi TV Broadcasting Tower <small>· members</small></li>
+    <li><span class="n">15</span>Museum of Soviet Occupation (Tbilisi) <small>· members</small></li>
+    <li><span class="n">16</span>Juma Mosque, Tbilisi <small>· members</small></li>
+    <li><span class="n">17</span>Kashveti Church <small>· members</small></li>
+    <li><span class="n">18</span>Surb Nshan Church, Tbilisi <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Tbilisi?</summary><p>The first three on this map are Narikala Fortress, Metekhi Church and Freedom Square. They are ranked by how often people search for them. The full map has 18.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Narikala Fortress?</summary><p>Stand on Metekhi Bridge (middle of the bridge, looking upstream toward the fortress). Start with the default lens (1x) for the walls and the church.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Metekhi Church?</summary><p>Late afternoon or sunset for warm light. Early morning is quieter.</p></details>
+  <details class="faq"><summary>How do I get to Freedom Square?</summary><p>Start from the centre of Tbilisi and head for Freedom Square at the eastern end of Rustaveli Avenue.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Narikala" target="_blank" rel="noopener">Narikala</a>, <a href="https://en.wikipedia.org/wiki/Metekhi_Church" target="_blank" rel="noopener">Metekhi Church</a>, <a href="https://en.wikipedia.org/wiki/Freedom_Square%2C_Tbilisi" target="_blank" rel="noopener">Freedom Square, Tbilisi</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"tbilisi","place":"Tbilisi","bounds":[44.772,41.678,44.826,41.708],"center":[44.799,41.693],"english":false,"vatican":false,"tiles":"/r2tiles/tbilisi/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

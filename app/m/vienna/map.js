@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "vienna", "title": "Vienna: 20 photo spots (pilot review)", "place": "Vienna", "bounds": [16.3, 48.178, 16.402, 48.232], "center": [16.351, 48.205], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/vienna/{z}/{x}/{y}.pbf", "tz": "Europe/Vienna", "rail": true, "app": true};

@@ -1,0 +1,317 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Gyeongju Attractions Map: 13 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 13 best photo spots in Gyeongju, including Bulguksa Temple and Seokguram Grotto: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="gyeongju bulguksa, dabotap pagoda, seokgatap">
+<link rel="canonical" href="https://xdatrys.com/library/gyeongju/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Gyeongju Attractions Map: 13 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 13 best photo spots in Gyeongju, including Bulguksa Temple and Seokguram Grotto: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/gyeongju/">
+<meta property="og:image" content="https://xdatrys.com/library/gyeongju/photos/1.jpg">
+<meta property="og:image:width" content="270"><meta property="og:image:height" content="480">
+<meta property="og:image:alt" content="Bulguksa, Gyeongju: a large Buddhist temple on the slopes of Tohamsan. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/gyeongju/","url":"https://xdatrys.com/library/gyeongju/","name":"Gyeongju Attractions Map: 13 Best Photo Spots | Xdatrys","description":"Map of the 13 best photo spots in Gyeongju, including Bulguksa Temple and Seokguram Grotto: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/gyeongju/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Gyeongju"},"mainEntity":{"@type":"ItemList","name":"Gyeongju photo spots","numberOfItems":13,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Bulguksa","description":"Bulguksa is a large Buddhist temple on the slopes of Tohamsan, and it is the most rewarding stop on this map.","geo":{"@type":"GeoCoordinates","latitude":35.79,"longitude":129.3322222},"alternateName":["Gyeongju Bulguksa"],"image":"https://xdatrys.com/library/gyeongju/photos/1.jpg"}},{"@type":"ListItem","position":9,"item":{"@type":"TouristAttraction","name":"Dabotap","description":"Dabotap is a stone pagoda in the courtyard of Bulguksa temple in Gyeongju.","geo":{"@type":"GeoCoordinates","latitude":35.7899959,"longitude":129.3322212},"alternateName":["Gyeongju Dabotap"],"image":"https://xdatrys.com/library/gyeongju/photos/9.jpg"}},{"@type":"ListItem","position":10,"item":{"@type":"TouristAttraction","name":"Seokgatap","description":"Seokgatap is a plain, elegant stone pagoda in the grounds of Bulguksa temple in Gyeongju.","geo":{"@type":"GeoCoordinates","latitude":35.7899636,"longitude":129.331975},"alternateName":["Gyeongju Seokgatap"],"image":"https://xdatrys.com/library/gyeongju/photos/10.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/gyeongju/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Gyeongju","item":"https://xdatrys.com/library/gyeongju/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Gyeongju?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Bulguksa Temple, Seokguram Grotto and Cheomseongdae. They are ranked by how often people search for them. The full map has 13."}},{"@type":"Question","name":"Where should I stand to photograph Bulguksa Temple?","acceptedAnswer":{"@type":"Answer","text":"Stand about 20 m west of Bulguksa Temple, at the phone icon on the map, and face east. Start with the ultra-wide (0.5x) for the stairway, gate and courtyard, where the buildings are close and fill the frame."}},{"@type":"Question","name":"When is the best time to photograph Dabotap Pagoda?","acceptedAnswer":{"@type":"Answer","text":"Early morning or late afternoon usually means softer light and fewer visitors. Midday sun can flatten the carving, so zoom in on details then."}},{"@type":"Question","name":"How do I get to Seokgatap Pagoda?","acceptedAnswer":{"@type":"Answer","text":"No station or tram stop is listed for this spot, so head for Bulguksa temple in Gyeongju."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Gyeongju</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/gyeongju/?gate" style="color:#E100FF">✏️ Review all 13 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>13 photo spots in Gyeongju: where to stand and how to shoot them on your phone</h1>
+  <p>13 photo spots on one map. Spots 1, 9 and 10 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 10 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 13 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/gyeongju/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 13 photo spots in Gyeongju"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 13 of the most-searched sights in Gyeongju as photo spots, ranked by how often people search for them: Bulguksa Temple, Seokguram Grotto, Cheomseongdae, Woljeong Bridge and Anapji lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Bulguksa</h3>
+    <figure><img src="photos/1.jpg" alt="Bulguksa, Gyeongju: a large Buddhist temple on the slopes of Tohamsan. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Bulguksa is a large Buddhist temple on the slopes of Tohamsan, and it is the most rewarding stop on this map. The site is made up of stone terraces, timber halls and gates, so there is something to photograph in almost every direction. The best-known subjects are the entrance stairway with its two bridges, Cheongungyo (Blue Cloud Bridge) and Baegungyo (White Cloud Bridge), which together have 34 steps. Beyond them are the two pagodas in the main courtyard. Dabotap is 10.4 metres tall and richly carved. Seokgatap is 8.2 metres tall and much plainer, and the contrast between the two makes a good pair of photos.</p><p>The records say the present temple was begun in 751 and finished in 774. The wooden buildings were burned during the Imjin wars and rebuilt later, with a major restoration between 1969 and 1973. The famous stonework is preserved from the original Silla construction. Bulguksa and nearby Seokguram Grotto were added to the UNESCO World Heritage List in 1995.</p><p>For your phone, work with the shapes: the diagonal of the stairway, the pagodas against the hall behind them, and the rooflines. Take a wide shot first to show the setting, then move closer for carved details. Keep people out of the frame by waiting a few seconds between groups. The Lotus Flower Bridge and Seven Treasures Bridge, a smaller pair to the west, are closed to walkers, so photograph them from where you can see them.</p>
+    <p><b>Where it is:</b> Bulguksa stands on the slopes of Tohamsan in Jinhyeon-dong, Gyeongju, North Gyeongsang Province.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) for the stairway, gate and courtyard, where the buildings are close and fill the frame. Use the default lens (1x) for most general shots, and the telephoto (2x-5x, depending on your phone) for pagoda carvings and roof details.</p>
+      <p><b>Where to stand:</b> Stand about 20 m west of the numbered pin, at the phone icon on the map, and face east.</p>
+      <p><b>Framing:</b> Switch on gridlines and line a pagoda or a hall column up with a vertical line so the stonework does not lean. Frame Dabotap and Seokgatap in separate shots first, then try one wider shot with both in it. For the stairway, crouch slightly and let the steps lead the eye up to the gate.</p>
+      <p><b>Settings tip:</b> Tap on the pale stone to focus, then pull the exposure slider down a little so the sky and stone keep their detail. Use portrait mode only for people, not for the buildings.</p>
+      <p><b>Best time:</b> Go early in the morning or later in the afternoon, when there are usually fewer visitors in your shots and the light is softer.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-9">
+    <h3><span class="n">9</span>Dabotap</h3>
+    <figure><img src="photos/9.jpg" alt="Dabotap, Gyeongju: a stone pagoda in the courtyard of Bulguksa temple. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Dabotap is a stone pagoda in the courtyard of Bulguksa temple in Gyeongju. It is the more decorated of the two pagodas that stand facing each other. When you come in over the Cheongun and Baegun Bridge, Dabotap is on the right and its plainer partner, Seokgatap, is on the left. Tradition says it was built in 751, in the reign of King Gyeongdeok of Silla. It is National Treasure no. 20 and stands 10.29 m tall, and its three storeys are carved in an ornate style. It has a staircase on each of its four sides, square pillars under the first roof, and an eight-sided upper section with a lotus carved with sixteen petals. Only one of the four stone lions that guarded the stairs is still in place. The pagoda also appears on the 10 won coin.</p><p>It photographs well because it is full of detail and sits on its own in an open courtyard. Take one full-height shot, then move in with zoom for the railings, roofs and lotus carving. If you want the story of the two pagodas, turn and include Seokgatap in a wider frame. Wait a moment for other visitors to move out of the shot, and keep your phone level so the pagoda does not lean.</p>
+    <p><b>Where it is:</b> Dabotap is inside the grounds of Bulguksa temple, in the main courtyard just past the Cheongun and Baegun Bridge. It stands on the right-hand side, facing Seokgatap.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole pagoda from where you stand. Switch to the telephoto (2x-5x, depending on your phone) for the carved roofs, railings and the lion. Use the ultra-wide (0.5x) only if you want the pagoda and part of the courtyard together, and keep it away from the edges of the frame, where it can stretch the shape.</p>
+      <p><b>Where to stand:</b> Stand about 20 m west of the subject, at the phone icon on the map, and face east. Keep to the visitor areas and do not climb on or lean over any railing.</p>
+      <p><b>Framing:</b> Turn on gridlines and line a vertical grid line up with the pagoda&#39;s centre so the sides stay straight. Leave a little sky above the top. Then take a second, tighter shot using zoom for the upper roofs and the lotus carving. For a third shot, include Seokgatap on the opposite side to show the pair.</p>
+      <p><b>Settings tip:</b> Tap on the stonework to focus, then drag the exposure slider down a little if the sky is bright, so the carved detail does not wash out. Take a few frames in case people walk through.</p>
+      <p><b>Best time:</b> Early morning or late afternoon usually means softer light and fewer visitors. Midday sun can flatten the carving, so zoom in on details then.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(9)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-10">
+    <h3><span class="n">10</span>Seokgatap</h3>
+    <figure><img src="photos/10.jpg" alt="Seokgatap, Gyeongju: a plain, elegant stone pagoda in the grounds of Bulguksa temple. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Seokgatap is a plain, elegant stone pagoda in the grounds of Bulguksa temple in Gyeongju. It dates from the Silla period and probably from around 751, when the temple was completed. It stands 10.75 metres tall, directly across from its more ornate partner, Dabotap. The two make a striking pair: Dabotap is more elaborate, while Seokgatap is very simple. It has three storeys on a two-tier base, with no carvings on its faces, and the storeys step in at a steady 4:3:2 ratio that gives it a calm, balanced look. That clean shape is what makes it easy to photograph. It reads clearly as a single upright subject against the temple buildings and sky, and eight lotus-flower stones sit around it, which add a little foreground detail. Its fame also rests on what was found inside. During repairs in 1966, workers uncovered relics and a woodblock-printed Buddhist text, believed to be the oldest surviving printed material of its kind. For a good photo, stay at the edge of the courtyard and keep the whole pagoda in frame, vertical lines straight. Then take a second, wider shot that includes Dabotap or the roofline behind. Courtyards at temples can fill up, so be patient and wait for a gap between groups.</p>
+    <p><b>Where it is:</b> Seokgatap is in the courtyard of Bulguksa temple in Gyeongju. It stands opposite Dabotap.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the whole pagoda. Use the ultra-wide (0.5x) only if you want the pagoda, Dabotap and the buildings in one frame, and keep the pagoda away from the edges, where it can stretch. Use telephoto (2x-5x) for the stepped roof edges and the lotus stones.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. This is very close, so you will probably need the ultra-wide lens (0.5x) or a few steps back to fit it in.</p>
+      <p><b>Framing:</b> Turn on gridlines and line the pagoda up with a vertical line so it stands straight. Hold the phone level, as tilting upwards makes the sides lean. Try one shot centred to show the symmetry, then one with Dabotap in the edge of the frame to show the contrast between the pair.</p>
+      <p><b>Settings tip:</b> Tap the pagoda to focus, then lower the exposure slider a little if the sky is bright, so the stone keeps its detail. Take a few frames, as people often walk through.</p>
+      <p><b>Best time:</b> Early in the day or later in the afternoon is usually calmer and the light is softer. Midday light and crowds make it harder.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(10)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>10 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">2</span>Seokguram <small>· members</small></li>
+    <li><span class="n">3</span>Cheomseongdae <small>· members</small></li>
+    <li><span class="n">4</span>Woljeonggyo <small>· members</small></li>
+    <li><span class="n">5</span>Anapji <small>· members</small></li>
+    <li><span class="n">6</span>Gyeongju National Museum <small>· members</small></li>
+    <li><span class="n">7</span>Gyeongju Tower <small>· members</small></li>
+    <li><span class="n">8</span>Poseokjeong <small>· members</small></li>
+    <li><span class="n">11</span>Bunhwangsa <small>· members</small></li>
+    <li><span class="n">12</span>Cheonwangmun Gate <small>· members</small></li>
+    <li><span class="n">13</span>Banyayeonji Pond <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Gyeongju?</summary><p>The first three on this map are Bulguksa Temple, Seokguram Grotto and Cheomseongdae. They are ranked by how often people search for them. The full map has 13.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Bulguksa Temple?</summary><p>Stand about 20 m west of Bulguksa Temple, at the phone icon on the map, and face east. Start with the ultra-wide (0.5x) for the stairway, gate and courtyard, where the buildings are close and fill the frame.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Dabotap Pagoda?</summary><p>Early morning or late afternoon usually means softer light and fewer visitors. Midday sun can flatten the carving, so zoom in on details then.</p></details>
+  <details class="faq"><summary>How do I get to Seokgatap Pagoda?</summary><p>No station or tram stop is listed for this spot, so head for Bulguksa temple in Gyeongju.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Bulguksa" target="_blank" rel="noopener">Bulguksa</a>, <a href="https://en.wikipedia.org/wiki/Dabotap" target="_blank" rel="noopener">Dabotap</a>, <a href="https://en.wikipedia.org/wiki/Seokgatap" target="_blank" rel="noopener">Seokgatap</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"gyeongju","place":"Gyeongju","bounds":[129.185,35.75,129.36,35.85],"center":[129.2725,35.8],"english":false,"vatican":false,"tiles":"/r2tiles/gyeongju/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 9 and 10"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

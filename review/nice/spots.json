@@ -1,0 +1,902 @@
+[
+ {
+  "rank": 1,
+  "name": "Promenade des Anglais",
+  "in_cut": true,
+  "label": "Promenade des Anglais",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 9570,
+  "pin": [
+   7.2475,
+   43.6911111
+  ],
+  "camera": [
+   7.2475,
+   43.6911111
+  ],
+  "camera_source": "Researched viewpoint 'Jardin Albert Ier' (2 web pages); placed at our map tiles: 'Jardin Albert 1er' (pois).",
+  "pin_note": "Position from OpenStreetMap relation/2369320: large area 'Promenade des Anglais' (4627 m across): previous pin kept, it lies inside.",
+  "notes": "The famous seafront boulevard along the Baie des Anges.",
+  "text": {
+   "description": "The Promenade des Anglais is the long seafront walkway of Nice, running along the Mediterranean from the airport in the west to the Quai des États-Unis in the east, about 7 kilometres in all. It began in the 1820s as a path built with money from the Reverend Lewis Way and members of the English church in Nice, and it takes its name from those winter visitors. Locals simply call it 'La Prom'. It also finished the 2024 Tour de France.\n\nThe Promenade is far too long for one photo, so the trick is to pick a spot that shows its sweep. The best-suited place for a phone is Jardin Albert Ier, at the blue chairs between the garden and the Musée Masséna. The view is flat and open along the bay. A blue chair in the foreground and palm trees along the coastline give the picture depth, so it reads as a place rather than just a long road. It is also a quieter option than the busier Castle Hill and Quai Rauba Capeu viewpoints.\n\nTake a few frames: one with a chair close to the lens and the bay behind, one wider with the palms, and one with the Promenade curving away. If you have time, Colline du Château gives a high view of the whole Baie des Anges, and Quai Rauba Capeu shows the curve with the pebble beach in front.",
+   "geographic_location": "The Promenade runs along the whole seafront of Nice, from the airport to the Quai des États-Unis.",
+   "directions_text": "No station or tram stop is listed for this spot, so find your own way to Jardin Albert Ier on the seafront. From the garden, walk to the blue chairs between the garden and the Musée Masséna and face the sea. The Promenade stretches away to the west, and the subject is about 1.8 km to the west along the Promenade. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) for the blue chair and palm trees close to the lens, then switch to the default lens (1x) for a calmer, more natural view of the bay. If your phone has telephoto (2x-5x), use it to pull the curve of the coast closer.",
+    "where_to_stand": "Stand in Jardin Albert Ier (the blue chairs between the garden and the Musée Masséna, facing the sea). A flat, unobstructed view along the Promenade and bay with a blue chair in the foreground and palm trees framing the coastline. From here you get a flat, open view along the Promenade and the bay, with a blue chair in front and palm trees framing the coastline. The Promenade itself lies to the west.",
+    "how_to_frame": "Turn on gridlines and put the horizon on a line so the sea sits level. Crouch slightly and place a blue chair low in the foreground, with the palms to one side and the bay filling the rest. For a different view, Colline du Château shows the whole curve of the Baie des Anges from above, and Quai Rauba Capeu shows the Promenade curving away with the pebble beach in front.",
+    "phone_settings_tip": "Tap on the sea or sky to set focus, then drag the exposure slider down a little so the sky keeps its colour. Try a Live Photo to catch movement along the shore, or panorama for the sweep of the bay, moving slowly and keeping the phone level.",
+    "best_time": "Early morning or around sunset. Both give softer light and the area is good for sunrise."
+   },
+   "access_note": "The Promenade is an open public seafront walkway and the blue-chair viewpoint is free, but it is worth checking Castle Hill's opening hours before going, especially for evening light."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Promenade des Anglais",
+    "url": "https://en.wikipedia.org/wiki/Promenade_des_Anglais"
+   }
+  ],
+  "pin_flags": [
+   "large area: check the pin",
+   "phone far from subject (1769 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Patafisik",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Nice_abc_1.jpg",
+   "from": "Wikidata Q1849491 main image"
+  }
+ },
+ {
+  "rank": 2,
+  "name": "Musée Matisse",
+  "in_cut": true,
+  "label": "Musée Matisse",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 5900,
+  "pin": [
+   7.2759264,
+   43.7194894
+  ],
+  "camera": [
+   7.275926,
+   43.719489
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/1532948021: the middle of the OpenStreetMap outline 'Musée Matisse' (99 m across).",
+  "notes": "Museum in a Genoese villa in the Cimiez gardens.",
+  "text": {
+   "description": "The Musée Matisse is the city's museum devoted to Henri Matisse, and it sits in the Villa des Arènes, a villa built between 1670 and 1685 in the Cimiez district. From outside, the building is the draw: an old villa with a newer wing beside it, which makes a pleasing mix of old and new in one frame. The museum opened in 1963 and reopened in 1993 after four years of renovation, when the modern wing was added. Matisse lived and worked in Nice from 1917 to 1954, and the collection here is one of the largest of his work anywhere. It includes paintings, gouaches, drawings, prints, sculptures and many personal objects that belonged to him.\n\nFor a phone photo, the villa's façade is the main subject. Take a step or two back as the surroundings allow so the whole front fits, then check the edges of the screen so the walls are not cut off. The building is fairly large, so you may find it easier to shoot it in a few frames: one wide shot, then a closer one of a doorway, window or textured wall. Switch on gridlines so the vertical lines of the villa stay straight. If you go inside, check the official site for photography rules before you go.",
+   "geographic_location": "The museum is in the Cimiez neighbourhood of Nice. It is housed in the Villa des Arènes, close to the city's ancient site.",
+   "directions_text": "No tram or railway stops are listed for this spot. The phone icon on the map is the museum itself, so use it as your starting point for the photo. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the villa's front. Use the ultra-wide (0.5x) only if you are very close and cannot fit the building in; keep the villa centred so the edges do not stretch.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. If the whole villa will not fit, step back as the surroundings allow.",
+    "how_to_frame": "Turn on gridlines and line the villa's vertical edges up with the grid so the walls do not lean. Try one wide shot of the whole building, then a closer frame of the old villa next to the newer wing to show the contrast. For detail shots, the telephoto (2x or more) lets you pick out windows and stonework without walking closer.",
+    "phone_settings_tip": "Tap on the wall to set focus, then drag the exposure slider down a little if the sky is bright, so the villa is not too dark. Keep the phone steady with both hands.",
+    "best_time": "Soft morning or late-afternoon light usually flatters a building front and avoids harsh shadows from midday sun."
+   },
+   "access_note": "Check the official site before you go for opening details and photography rules."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Musée Matisse (Nice)",
+    "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Matisse_%28Nice%29"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/2.jpg",
+   "artist": "takato marui",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Matisse_Nice_Front.jpg",
+   "from": "Wikidata Q1563354 main image"
+  }
+ },
+ {
+  "rank": 3,
+  "name": "Musée Marc Chagall",
+  "in_cut": true,
+  "label": "Musée Chagall",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 3460,
+  "pin": [
+   7.2694405,
+   43.709115
+  ],
+  "camera": [
+   7.26944,
+   43.709115
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap way/140067117: the middle of the OpenStreetMap outline 'Musée Marc Chagall' (91 m across).",
+  "notes": "Museum of the Biblical Message paintings by Marc Chagall.",
+  "text": {
+   "description": "The Musée Marc Chagall is a French national museum devoted to the painter's work, especially the pieces inspired by religion and spirituality. It opened in 1973 while Chagall was still alive, and he had a hand in how it was arranged. The museum was built around seventeen paintings illustrating the biblical message (Genesis, Exodus and the Song of Songs), which he gave to the French State in 1966. Chagall also made the mosaic that overlooks the pond and the blue stained glass windows in the concert hall, and he gave detailed instructions for the garden, which was created by Henri Fish.\n\nFor a phone photographer, the appeal is the outdoor setting: calm water, a garden and a mosaic made by the artist himself. A simple, uncluttered frame of the building and grounds works well, and you can then move in for a close shot of the mosaic and its colours. Take the wide view first, then look for details such as texture, colour and reflections in the pond. Rules on photography inside a museum can change from room to room, so treat the exterior and garden as your main subject and check the official site before you go for what is allowed indoors.",
+   "geographic_location": "The museum is in Nice, in the Alpes-Maritimes, in its own grounds with a garden and pond.",
+   "directions_text": "No tram or railway stop is listed near the museum, so plan your own route to the museum's address, for example by taxi or on foot from a nearby stop of your choice. Once you arrive, follow the museum's entrance paths into the grounds. The phone icon on the map is at the museum itself, so there is no further walk once you are there. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the building and garden, switch to ultra-wide (0.5x) if you want to fit the pond and mosaic into one frame, and use telephoto (2x-5x, depending on your phone) for details of the mosaic.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. Then walk slowly around the garden, choosing spots that show the pond and the mosaic above it.",
+    "how_to_frame": "Turn on gridlines and line up the edges of the building with them so the walls stay straight. Include a little water in the foreground and let the mosaic be the colourful focus of the frame. With ultra-wide, keep the phone level and avoid tilting it up, or the walls will lean inwards. Then take a tighter 2x shot of the mosaic alone.",
+    "phone_settings_tip": "Tap the mosaic to focus, then drag the exposure slider down slightly if the sky is bright so the colours stay rich and the whites don't burn out. If the water is calm, try a Live Photo to catch any ripples.",
+    "best_time": "Early morning or late afternoon usually gives softer light on the colours and less glare on the water. Midday sun can be harsh on a bright facade."
+   },
+   "access_note": "This is a national museum with a garden, so access may be ticketed or restricted; check the official site before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Musée Marc Chagall",
+    "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Marc_Chagall"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": {
+   "file": "photos/3.jpg",
+   "artist": "Derbrauni",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_national_Marc_Chagall_2.jpg",
+   "from": "Wikidata Q3329265 main image"
+  }
+ },
+ {
+  "rank": 4,
+  "name": "Castle Hill",
+  "in_cut": true,
+  "label": "Castle Hill",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 2800,
+  "pin": [
+   7.2797,
+   43.696
+  ],
+  "camera": [
+   7.2797,
+   43.696
+  ],
+  "camera_source": "Researched viewpoint 'Tour Bellanda' (3 web pages); placed at OpenStreetMap 'Tour Bellanda' (way/137215862): middle (35 m across); moved 15 m off buildings.",
+  "pin_note": "Position from Wikidata Q2970127: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Hilltop park with the best panorama over the bay and the old town.",
+  "text": {
+   "description": "Castle Hill is a big limestone rock in Nice, now a public park with panoramic views over the city. It is about 93 metres high. Today it is a public park, but for centuries it was a military citadel. The fortress stood here from the 11th to the 18th century and was besieged several times, including in 1543 and 1691. French troops took it in 1705 and it was destroyed in 1706 on the orders of Louis XIV. That history explains why you now find a garden and viewpoints rather than a castle.\n\nThe hill photographs well because it looks outward. From the Tour Bellanda roof terrace, at the southern edge of the hill, you see the curve of the Baie des Anges and the terracotta rooftops of the Old Town, with the park's greenery in the foreground. Guides call it the classic postcard panorama of Nice. The picture shows the city rather than the hill itself. Two other good spots are the viewpoint on the park's west side, which looks across the promenade and the sea, and the top of the Montée du Château path, which looks over the Old Town rooftops towards the Cimiez hills. The main terraces get busy at sunset, so arrive early if you want a clear frame. Take a little time to look along the edge of the terrace before settling on a spot.",
+   "geographic_location": "Castle Hill overlooks the bay of Nice. The Tour Bellanda stands on its southern edge, facing the bay.",
+   "directions_text": "The hill is climbed on foot, and the Montée du Château is one of the ways up. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole sweep of the bay and the rooftops in one frame. Switch to the default lens (1x) for a calmer, more natural view. If your phone has a telephoto (2x-5x), use it to pick out details such as individual rooftops or boats on the water.",
+    "where_to_stand": "Stand at Tour Bellanda (roof terrace, southern edge of the hill). The curve of the Baie des Anges and the terracotta rooftops of the Old Town, with the hill's park in the foreground. From here the Baie des Anges curves away in front of you, with the Old Town's terracotta rooftops below and the hill's park in the foreground. The main part of Castle Hill lies behind you, to the north. If the terrace is crowded, try the viewpoint on the park's west side or the top of the Montée du Château instead.",
+    "how_to_frame": "Turn on the gridlines and put the horizon on the upper or lower line, not in the middle. Include a strip of the park's trees or the terrace edge at the bottom of the frame for depth. For a wider view, use panorama mode and sweep slowly from the bay towards the Old Town. For a different angle, the top of the Montée du Château shows the Old Town rooftops with the Promenade du Paillon and the Cimiez hills behind.",
+    "phone_settings_tip": "Tap on the rooftops to focus, then drag the exposure slider down slightly so the sky and sea keep their colour. Hold your phone steady against the terrace wall or your body for panoramas.",
+    "best_time": "The views are good from sunrise to sundown, but check the official site for opening hours before you go. The main terraces are busy at sunset, so arrive early if you want sunset without the crowd."
+   },
+   "access_note": "Castle Hill is a public park, but the Tour Bellanda's status is not clear (a roof terrace or a museum tower), so check the official site for its opening hours and any entry rules before you go.",
+   "claims_not_in_sources": [
+    "The Tour Bellanda terrace faces south over the bay, so the view looks away from the main body of the hill.",
+    "Tapping on the subject to focus and lowering the exposure slider helps keep sky and sea colour in bright light.",
+    "Arriving early on the day usually means fewer people on the terraces."
+   ]
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Castle of Nice",
+    "url": "https://en.wikipedia.org/wiki/Castle_of_Nice"
+   }
+  ],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/4.jpg",
+   "artist": "Unknown authorUnknown author",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:D%C3%A9tails_d%27un_plan_de_Nice_de_1625_.jpg",
+   "from": "Wikidata Q2970127 main image"
+  }
+ },
+ {
+  "rank": 5,
+  "name": "Port of Nice",
+  "in_cut": true,
+  "label": "Port Lympia",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1780,
+  "pin": [
+   7.284552,
+   43.694158
+  ],
+  "camera": [
+   7.284552,
+   43.694158
+  ],
+  "camera_source": "Researched viewpoint 'Colline du Château' (3 web pages); placed at OpenStreetMap 'Colline du Château' (way/19668745): edge nearest the subject (752 m across).",
+  "pin_note": "Position from OSM R2369265 (Port de Nice): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Colourful harbour with fishing boats and yachts.",
+  "text": {
+   "description": "The Port of Nice, also known as Port Lympia, is the harbour of Nice. It is a photogenic place because it packs a lot into one frame: yachts and boats in the foreground, rows of pastel-coloured buildings along the water, and the Mont Boron hillside rising behind. The best-known way to photograph it is from above rather than at water level. The southernmost point of Colline du Château, the hilltop park, looks straight down over the port and across to Mont Boron. Guides describe the hill as the main panoramic viewpoint in Nice. Entry to the park is free, and you can get up by lift or by the stairs. If you want a different angle, Quai Lunel at the water's edge gives a wide view of the boats and colourful façades. Quai des Deux Emmanuel is a good alternative for closer shots of the traditional pointu boats. Take a few frames at different zoom levels: one wide for the whole bay, and one tighter on the yachts and the buildings. Take care with your footing and hold your phone securely with both hands.",
+   "geographic_location": "The Port of Nice (Port Lympia) is overlooked from Colline du Château, with the Mont Boron hillside rising behind it.",
+   "directions_text": "There are no tram or railway stops listed for this spot, so head for Colline du Château from central Nice. The lift up the hill is at 1 Rue des Ponchettes, and there are stairs as well. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to capture the harbour as you see it. Switch to ultra-wide (0.5x) if you want more of the port and the hillside in one frame. Use telephoto (2x-5x, depending on your phone) to pick out the yachts or the pastel buildings.",
+    "where_to_stand": "Stand in Colline du Château (southernmost point of the hill, overlooking Port Lympia and Mont Boron). The harbour's yachts and pastel buildings in the foreground, with the Mont Boron hillside rising behind the port. At the southernmost point of the hill overlooking Port Lympia and Mont Boron. From here the photo shows the harbour's yachts and pastel buildings in the foreground, with the Mont Boron hillside rising behind the port.",
+    "how_to_frame": "Turn on the gridlines and place the line of the quay on a lower third, so the boats fill the bottom of the picture and Mont Boron fills the top. Use the ultra-wide for the full view, then zoom in for a second shot with just the yachts and façades. For a different view, Quai Lunel gives a wide frame of the harbour at water level.",
+    "phone_settings_tip": "Tap on the buildings to set focus and exposure, then drag the exposure slider down slightly if the sky or the water looks washed out. Try a Live Photo to catch the boats moving.",
+    "best_time": "Morning or late afternoon usually gives softer light on the buildings and water than the middle of the day, but check how the light falls when you arrive."
+   },
+   "access_note": "Colline du Château is a free public park with lift and stair access, but check the official site before you go for lift times and any closures."
+  },
+  "checker_problems": 6,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/5.jpg",
+   "artist": "Moody Dreiza (Moody751 at English Wikipedia)",
+   "licence": "CC BY 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by/2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Port_Of_Nice,_C%C3%B4te_d%27Azur.jpg",
+   "from": "Wikidata Q33959 main image, found by searching Wikipedia for the spot's name ('Nice'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 6,
+  "name": "Place Masséna",
+  "in_cut": true,
+  "label": "Place Masséna",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1650,
+  "pin": [
+   7.2706075,
+   43.6964974
+  ],
+  "camera": [
+   7.2706075,
+   43.6964974
+  ],
+  "camera_source": "Researched viewpoint 'Place Masséna' (3 web pages); placed at OpenStreetMap 'Place Masséna' (relation/8597240): middle (263 m across).",
+  "pin_note": "Position from OpenStreetMap relation/8597240: 'Fontaine du Soleil', the best-known feature inside 'Place Masséna' (264 m across).",
+  "notes": "Central square with red ochre buildings and the checkerboard pavement.",
+  "text": {
+   "description": "Place Masséna is the main square of Nice, and the one most people picture when they think of the city. The paving is laid out as a big checkerboard, the buildings around it are red ochre with arcades, and the Fountain of the Sun stands in the middle. The layout was designed by Joseph Vernier in 1843-1844, and the square is named after André Masséna. It is roughly 260 metres across, so there is plenty of room to step back and fit things in.\n\nIt photographs well because the checkerboard pattern gives you natural leading lines. They pull the eye across the square to the fountain and the façades behind it. Seven statues of kneeling figures sit on tall poles along the tram line. They are Jaume Plensa's 2007 work 'Conversation in Nice', and they give you something strong to put in the sky or the foreground. The square is pedestrianised, with palm trees and stone pines around it.\n\nFor the classic frame, stand on the tram-line side and shoot across the checkerboard towards the fountain. Keep the phone level so the lines of the paving stay straight. The square is busiest with tour groups during the day, so early morning or after dark is easier if you want fewer people in the shot. At night the statues and fountains are lit. If you have time, try the view from the Promenade du Paillon, looking across to the square, or from the edge of Jardin Albert 1er, where trees and fountains frame the buildings.",
+   "geographic_location": "Place Masséna is in the centre of Nice, between the old town and the modern town centre. It is a short walk from the Promenade des Anglais and Jardin Albert 1er.",
+   "directions_text": "No tram or railway stop is given for this spot, so start from the old town, the town centre or the Promenade des Anglais, all about a two-minute walk away. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the checkerboard, the fountain and the buildings in one frame. Switch to the default lens (1x) for a calmer, more natural view. Use telephoto (2x-5x, depending on your phone) to pick out a single statue or the fountain details.",
+    "where_to_stand": "Stand in Place Masséna (tram-line side of the square, shooting across the checkerboard pavement toward the fountain). The Fountain of the Sun in the centre, with the checkerboard paving leading the eye through the red-fronted arcaded buildings. From here you look across the checkerboard paving towards the Fountain of the Sun in the centre, with the red-fronted arcaded buildings behind it.",
+    "how_to_frame": "Turn on gridlines and line up the paving so the squares run straight towards the fountain. Hold the phone low and level to make the pattern fill the foreground. If you want a different view, the Promenade du Paillon looks across to the square, and Jardin Albert 1er gives you trees and sculptures at the edge.",
+    "phone_settings_tip": "Tap the fountain to focus, then drag the exposure slider down a little so the sky and the bright water do not wash out. After dark, use night mode and rest your elbows against your body or a solid surface to keep the lit statues sharp.",
+    "best_time": "Early morning, or after dark when the fountains and statues are lit. Both are quieter than the middle of the day."
+   },
+   "access_note": "Open public square, pedestrianised and open at all hours; part of Jardin Albert 1er may be closed, so check locally before you go."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Place Masséna",
+    "url": "https://en.wikipedia.org/wiki/Place_Mass%C3%A9na"
+   }
+  ],
+  "pin_flags": [
+   "main feature: pin put on Fontaine du Soleil"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/6.jpg",
+   "artist": "Patrice Semeria",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:NIKAIA-MassenaPlN3-2007-05-01.jpg",
+   "from": "Wikidata Q3389982 main image"
+  }
+ },
+ {
+  "rank": 7,
+  "name": "Cours Saleya",
+  "in_cut": true,
+  "label": "Cours Saleya",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1640,
+  "pin": [
+   7.273566,
+   43.695686
+  ],
+  "camera": [
+   7.273566,
+   43.695686
+  ],
+  "camera_source": "Researched viewpoint 'Place Charles Félix' (1 web pages); placed at OpenStreetMap 'Place Charles Felix' (way/1154973645): middle (65 m across).",
+  "pin_note": "Position from OSM W244179937 (Cours Saleya): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Colourful flower and food market in the heart of Old Nice.",
+  "text": {
+   "description": "Cours Saleya is the long market street in the old town of Nice, and it is at its liveliest in the morning, when the stalls and awnings fill the middle of the cours. On Mondays the flower market gives way to an antiques market, so the scene looks different from day to day. The best phone photo here is the one that runs the length of the cours, so that the rows of stalls lead your eye along the street. For that picture, go to the eastern end, at Place Charles Félix beside the Palais Caïs de Pierlas. It is quieter than the crowded centre, which gives you room to hold the phone steady and pick your moment. Stand at the edge of the square and let the cours open out in front of you. If you want more height, there are two good alternatives. From Parc du Château you get a high, wide view down over the market, its awnings and the old town rooftops, with the sea beyond. The Escaliers des Ponchettes give a raised view of the market below, with the Chapelle de la Miséricorde close by. The Ponchettes steps are a short climb, and the crowds and awnings partly block the view from there. Whichever spot you choose, aim to arrive while the market is running, because that is when the street has the most colour and life.",
+   "geographic_location": "Cours Saleya is in the old town of Nice, with Castle Hill rising behind its eastern end.",
+   "directions_text": "There are no Underground, train or tram stops right at this spot, so head for the old town of Nice and walk to the eastern end of the cours. Look for Place Charles Félix, next to the Palais Caïs de Pierlas, with Castle Hill rising behind it. From there, the market lies about 260 m to the west along the cours. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the view along the cours. Switch to telephoto (2x-3x, depending on your phone) to bring the stalls further along the cours closer. Use the ultra-wide (0.5x) if you want the whole square and the palace in the frame.",
+    "where_to_stand": "Stand in Place Charles Félix (east end of the cours, by the Palais Caïs de Pierlas). A view along the cours from its eastern end, with Castle Hill rising in the background. From here you look west along the cours, with Castle Hill rising behind you.",
+    "how_to_frame": "Turn on the gridlines and line the centre of the cours up with the middle of the frame, so the rows of awnings lead the eye into the picture. If you want a higher view of the market, Parc du Château looks down over the awnings and rooftops to the sea, and the Escaliers des Ponchettes give a raised view of the market.",
+    "phone_settings_tip": "Tap on the stalls to set focus, then drag the exposure slider down a touch so the bright areas keep their colour. Wait a moment for people to move out of the way before you shoot.",
+    "best_time": "Go in the morning while the market is running. On Mondays the flower market gives way to an antiques market, so you will see something different."
+   },
+   "access_note": "The cours and Place Charles Félix are open public spaces; if you plan to go up to Parc du Château, check the official site before you go."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/7.jpg",
+   "artist": "Moody Dreiza (Moody751 at English Wikipedia)",
+   "licence": "CC BY 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by/2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Port_Of_Nice,_C%C3%B4te_d%27Azur.jpg",
+   "from": "Wikidata Q33959 main image, found by searching Wikipedia for the spot's name ('Nice'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 8,
+  "name": "Hotel Negresco",
+  "in_cut": true,
+  "label": "Hotel Negresco",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 1620,
+  "pin": [
+   7.2580026,
+   43.6947105
+  ],
+  "camera": [
+   7.2580026,
+   43.6947105
+  ],
+  "camera_source": "Researched viewpoint 'Promenade des Anglais' (3 web pages); placed at the stretch of Promenade des Anglais nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap relation/4563464: the middle of the OpenStreetMap outline 'Hôtel Negresco' (108 m across).",
+  "notes": "Pink-domed Belle Époque palace hotel on the seafront.",
+  "text": {
+   "description": "The Hotel Negresco is the pink-domed hotel on the Promenade des Anglais that guides describe as the most photographed view from the boulevard. It was built for Henri Negresco, who opened it in 1912 and hired the architect Édouard-Jean Niermans to design it, dome included. During the First World War it served as a hospital. In 2003 it was listed as a National Historic Building. Its doormen still wear 18th-century-style costume with red-plumed hats.\n\nIt photographs well because the building has a strong, simple shape. The pink-and-white facade and the dome stand out against the sky, and the palm trees and the wide road give you a ready-made frame. Guides describe this as the most photographed view of the hotel.\n\nStand at the kerb or on the pavement, keep the dome near the top third of the frame and let a few palms lean in at one side. If you want a second angle, walk over to the hotel entrance for a close, straight-on view of the doorway with the dome rising above it. Wait for a gap in the traffic and people before you take the shot. Please don't step into the road to get the framing.",
+   "geographic_location": "On the Promenade des Anglais, the long seafront boulevard in Nice, facing the Baie des Anges. The hotel stands on the inland side of the road.",
+   "directions_text": "No tram or railway stop is listed for this spot, so check local transport options to reach the Promenade des Anglais and ask for the Hotel Negresco. Cross the road carefully. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the facade and dome together. Switch to ultra-wide (0.5x) if the whole building won't fit or you want more palms and sky. Use the telephoto (2x or more, depending on your phone) for a tighter shot of the dome.",
+    "where_to_stand": "Stand on Promenade des Anglais (opposite the hotel facade, across the road from the Negresco). The pink-and-white facade and dome of the hotel in the foreground, with palm trees along the road and the Bay of Angels behind. The hotel is to the north of you. From here the shot shows the pink-and-white facade and dome in the foreground, with palm trees along the road.",
+    "how_to_frame": "Turn on the gridlines and keep the verticals straight by holding the phone level, not tilted up. Put the dome on the upper line and a palm or two at the edge as a frame. At 0.5x, keep the building away from the corners, because ultra-wide stretches anything placed there. For a different view, walk to the hotel entrance and take a close, straight-on shot of the doorway with the dome above.",
+    "phone_settings_tip": "Tap on the pink facade to set focus, then drag the exposure slider down a little so the sky stays blue and the walls don't wash out. If cars pass through the frame, take a few shots or use a Live Photo and pick the best frame.",
+    "best_time": "Early morning, when the road is quiet and there are fewer people and cars in the frame."
+   },
+   "access_note": "The view from the Promenade des Anglais is from a public road and pavement; the hotel is a private business, so check the official site before you go if you want to go inside."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Hotel Negresco",
+    "url": "https://en.wikipedia.org/wiki/Hotel_Negresco"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/8.jpg",
+   "artist": "Anna M. Stevenson",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Le_Negresco.jpg",
+   "from": "Wikidata Q743147 main image"
+  }
+ },
+ {
+  "rank": 9,
+  "name": "Promenade du Paillon",
+  "in_cut": true,
+  "label": "Promenade du Paillon",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 670,
+  "pin": [
+   7.27179,
+   43.697411
+  ],
+  "camera": [
+   7.27179,
+   43.697411
+  ],
+  "camera_source": "Researched viewpoint 'Place Masséna' (3 web pages); placed at OpenStreetMap 'Place Masséna' (relation/8597240): middle (263 m across).",
+  "pin_note": "Position from OSM W19597958 (Promenade du Paillon): kept: no OpenStreetMap object carries this Wikidata ID.",
+  "notes": "Green park with fountains and mirror water between Masséna and the Acropolis.",
+  "text": {
+   "description": "The Promenade du Paillon is a green park in Nice, and it works best as a place for atmosphere rather than one single postcard view. The easiest way to photograph it is to start where it begins, on Place Masséna. From the square you can look towards the park's entrance, with the red façades and the checkerboard paving leading your eye towards the greenery beyond. It is a graphic, slightly more architectural picture than the usual water shots. The paving gives you strong lines to work with, and the red buildings give you colour on both sides of the frame.\n\nOnce you have that shot, walk into the park for a second one. The Miroir d'eau is the long water mirror, with jets in the foreground and the paths and surrounding buildings reflected in the water. The jets are seasonal and may be off in cooler months, so it is worth checking before you go. If you want a wider view, Colline du Château looks down over the rooftops, with the park's greenery visible in the city below. It is not part of the park and involves a walk uphill, so treat it as a separate outing.\n\nFor phone photos, keep your lines straight, let the paving lead into the picture, and avoid cutting people off at the edges. A few people in the frame help show the scale of the square.",
+   "geographic_location": "The Promenade du Paillon is a park in Nice. It begins at Place Masséna, the square with the red façades and checkerboard paving.",
+   "directions_text": "No tram or railway stops are listed for this spot, so Place Masséna in Nice is the place to head for. From there, the Promenade du Paillon is about 129 m to the north-east, roughly a 2-minute walk (an estimate based on a usual walking pace). The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the main shot of the park entrance framed by the façades. Switch to the ultra-wide (0.5x) if you want more of the checkerboard paving in the foreground. Try 2x if you want to pick out the greenery in the distance.",
+    "where_to_stand": "Stand in Place Masséna. The park's entrance framed by the red façades and checkerboard paving of the square, with the Promenade's greenery opening beyond. From there you are looking towards the park's entrance, with the red façades and checkerboard paving of the square around you and the Promenade's greenery opening up beyond.",
+    "how_to_frame": "Turn on the gridlines and line the paving up so it leads towards the park. Keep the red buildings balanced on both sides. If you also want the water-mirror view, the Miroir d'eau is inside the park, with the jets in the foreground and the buildings reflected behind them. Colline du Château is a further option for a wide view over the rooftops.",
+    "phone_settings_tip": "Tap on the red façades to set focus, then use the exposure slider to bring the brightness down slightly so the colour stays rich and the sky does not wash out. If the paving is crowded with people, take a few shots a moment apart and pick the cleanest.",
+    "best_time": "Golden hour, when guides say the red architecture looks best."
+   },
+   "access_note": "Place Masséna and the park are open public spaces, but check the official site before you go, especially for the water jets, which are seasonal."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [],
+  "pin_flags": [
+   "not in OSM by Wikidata ID: pin kept"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/9.jpg",
+   "artist": "brad_bechtel",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Carnaval_nice_roi_2007.jpg",
+   "from": "Wikidata Q35253 main image, found by searching Wikipedia for the spot's name ('Nice Carnival'): check it shows this spot"
+  }
+ },
+ {
+  "rank": 10,
+  "name": "Opéra de Nice",
+  "in_cut": true,
+  "label": "Opéra de Nice",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 500,
+  "pin": [
+   7.2725018,
+   43.6954679
+  ],
+  "camera": [
+   7.2725018,
+   43.6954679
+  ],
+  "camera_source": "Researched viewpoint 'Rue Saint-François-de-Paule' (2 web pages); placed at the stretch of Rue Saint-François-de-Paule nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap way/137418626: the middle of the OpenStreetMap outline 'Opéra de Nice' (67 m across).",
+  "notes": "19th-century opera house near the old town and the sea.",
+  "text": {
+   "description": "The Opéra de Nice is the city's main opera house. It is also home to the Ballet Nice Méditerranée and the Nice Philharmonic Orchestra. The first small wooden theatre on the site dates from 1776. A gas leak started a huge fire during a performance in March 1881 and destroyed the building. The city rebuilt on the same site to designs by François Aune, and the new house opened in February 1885 with Verdi's Aida. It was named the Opéra de Nice in 1902.\n\nIt photographs well because the main façade is a full Belle Époque front, with the ceremonial entrance facing the street and statues on the upper terrace above it. A guide notes that this street is where the outside of the building is best appreciated on foot. Stand opposite the main façade and you can fit the whole front into one frame, then zoom in on the statues and the carved detail.\n\nFor a second picture, the rear of the building can be seen from Quai des États-Unis, with the edge of the Old Town and the coast behind it. Photography is generally fine from public areas outside, but not during performances, so be discreet if an event is on. Check the official site for any works around the building before you go.",
+   "geographic_location": "The main façade faces Rue Saint-François-de-Paule, and the rear can be seen from Quai des États-Unis, with the edge of the Old Town and the coast behind it.",
+   "directions_text": "No station or tram stop is listed for this spot. Once you are on the street, the main entrance is the building you face as you look at the front. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole façade. Use the ultra-wide (0.5x) if the street is too narrow to fit it all in, and the telephoto (2x-5x, depending on your phone) for the statues on the upper terrace.",
+    "where_to_stand": "Stand on Rue Saint-François-de-Paule (opposite the main façade, where the ceremonial entrance faces the street). The full Belle Époque front of the opera house, with the statues on its upper terrace visible above the entrance. From here you see the full Belle Époque front of the opera house, with the statues on the upper terrace above the entrance.",
+    "how_to_frame": "Switch on the gridlines and line the entrance up with the centre of the frame, keeping the phone level so the building does not lean. If you are using the ultra-wide, keep the building away from the edges of the frame, where it can look stretched. Then zoom in for a close shot of the statues. For a different view, walk round to Quai des États-Unis to photograph the back of the opera house with the Old Town edge and the coast behind it.",
+    "phone_settings_tip": "Tap on the façade to set focus, then drag the exposure slider down a little if the sky is bright, so the stonework keeps its detail.",
+    "best_time": "Crowd and lighting conditions can vary. Check how busy it is when you arrive, and if the light is low, use night mode and hold the phone steady against something solid."
+   },
+   "access_note": "The façade is photographed from a public street, but photography is generally not allowed during performances, and any visit inside needs the official site checked before you go.",
+   "claims_not_in_sources": []
+  },
+  "checker_problems": 5,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Opéra de Nice",
+    "url": "https://en.wikipedia.org/wiki/Op%C3%A9ra_de_Nice"
+   }
+  ],
+  "pin_flags": [
+   "phone far from subject (526 m)"
+  ],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/10.jpg",
+   "artist": "Qjafcc",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Op%C3%A9ra_de_Nice_(fa%C3%A7ade_nord).jpg",
+   "from": "Wikidata Q608423 main image"
+  }
+ },
+ {
+  "rank": 11,
+  "name": "Palais de la Méditerranée",
+  "in_cut": true,
+  "label": "Palais Méditerranée",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 390,
+  "pin": [
+   7.2629858,
+   43.6953529
+  ],
+  "camera": [
+   7.2629858,
+   43.6953529
+  ],
+  "camera_source": "Researched viewpoint 'Promenade des Anglais' (2 web pages); placed at the stretch of Promenade des Anglais nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap way/140218654: the middle of the OpenStreetMap outline 'Palais de la Méditerranée' (105 m across).",
+  "notes": "Art Deco facade on the Promenade des Anglais.",
+  "text": {
+   "description": "The Palais de la Méditerranée is a white Art Deco building on Nice's seafront, at 13 Promenade des Anglais. It was built in 1928-29 by the architects Charles and Marcel Dalmas for the American millionaire Frank Jay Gould, and it opened as a place of glamour with a casino, theatre, restaurant and cocktail bar. The original hotel closed in 1978. When most of the old building was pulled down in 1990, the main facade on the Promenade des Anglais and the one on Rue du Congrès were kept because they are classified historical monuments. Today a nine-floor hotel sits behind them, with a casino.\n\nIt photographs well because the facade is clean, symmetrical and pale, so it stands out against blue sky and the palm trees along the seafront. You can then walk a little to either side for a different angle on the carved reliefs and sea-horse figures. Rue du Congrès gives a quieter view of the side of the building.\n\nStay on the public pavement for exterior shots, and use the pedestrian crossings rather than stepping into the traffic. Photography is reportedly not allowed inside the casino.",
+   "geographic_location": "On the seafront of central Nice, on the inland side of the Promenade des Anglais, with Rue du Congrès running along one side of the building.",
+   "directions_text": "No tram stop or station is listed close to this spot, so head for the Promenade des Anglais in central Nice, by taxi or hired scooter if you are coming from further out. Look for number 13, then cross at a pedestrian crossing to the sea side of the road. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the ultra-wide (0.5x) to fit the whole facade in one frame from across the road, or the default lens (1x) if you want less stretching at the edges. The telephoto (2x-5x) is good for the reliefs and sea-horse figures.",
+    "where_to_stand": "Stand on Promenade des Anglais (south side of the street, directly across from the facade (13-17 Promenade des Anglais)). The full Art Deco facade framed straight-on against the sky and the palm-lined seafront. On the Promenade des Anglais, on the south side of the street, directly across from the facade (13-17 Promenade des Anglais). From here the full Art Deco front is straight on, framed by the sky and the palm-lined seafront.",
+    "how_to_frame": "Turn on the gridlines and line the facade up with the vertical lines so the white columns stand straight. Leave some sky above and a strip of palms below. For a different view, walk along the pavement and zoom in on the sculpted details from an angle, or try the side elevation from Rue du Congrès, which tends to be quieter.",
+    "phone_settings_tip": "Tap on the facade to set focus, then drag the exposure slider down slightly so the white stonework keeps its detail against the bright sky.",
+    "best_time": "Late afternoon into early evening gives good light on the facade. Early morning has fewer people on the pavement."
+   },
+   "access_note": "The facade can be photographed from the public pavement, but the hotel and casino are private, so check the official site before you go if you want to go inside."
+  },
+  "checker_problems": 0,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Palais de la Méditerranée",
+    "url": "https://en.wikipedia.org/wiki/Palais_de_la_M%C3%A9diterran%C3%A9e"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/11.jpg",
+   "artist": "Florent Pécassou",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Palais_de_la_M%C3%A9diterran%C3%A9e_(Nice).jpg",
+   "from": "Wikidata Q3361055 main image"
+  }
+ },
+ {
+  "rank": 12,
+  "name": "Nice Cathedral",
+  "in_cut": true,
+  "label": "Sainte-Réparate",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 340,
+  "pin": [
+   7.2757368,
+   43.697142
+  ],
+  "camera": [
+   7.2757368,
+   43.697142
+  ],
+  "camera_source": "Researched viewpoint 'Place Rossetti' (2 web pages); placed at OpenStreetMap 'Place Rossetti' (relation/8147649): middle (53 m across).",
+  "pin_note": "Position from OpenStreetMap way/137356605: the middle of the OpenStreetMap outline 'Cathédrale Sainte-Réparate' (66 m across).",
+  "notes": "Baroque cathedral with a tiled dome on Place Rossetti.",
+  "text": {
+   "description": "Nice Cathedral stands in Vieux Nice, and its Baroque front and tiled dome make a good subject for a phone. The main body was built between 1650 and 1685 and consecrated in 1699, with further additions over the following centuries. The facade you see today dates from 1825 to 1830 and replaced the original west front. The dome is covered in coloured glazed tiles in the Genoese style. The tall bell tower, added between 1731 and 1757, partly hides the dome from some angles. The cathedral has been a national monument since 1906 and a minor basilica since 1949.\n\nUp close the facade is fairly modest, so the best picture comes from standing back in Place Rossetti. From the middle of the square, in front of the facade, you can fit the whole front and the dome behind it, with the square's fountain and café terraces around the edges. That gives the photo a sense of place that a shot from the doorstep lacks. If you have time, walk to the end of Rue Rossetti for a straight view of the bell tower and facade. For a wider view over the rooftops of Vieux Nice, the Parc du Château is a climb on foot, and the cathedral looks small from there, so you will want to zoom.\n\nTake a few frames with different amounts of the square included, then pick the one where the fountain is not blocking the door.",
+   "geographic_location": "In Vieux Nice (the old town), on the cathedral's own forecourt, Place Rossetti, with the cathedral on the west side of the square, 44 m west of the stand-here point.",
+   "directions_text": "Start from Vieux Nice and head for Place Rossetti. Look for the fountain and the café terraces to know you are in the right place. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) to get the full facade and dome in one frame. Switch to 2x or more for the dome and bell tower details, and use ultra-wide (0.5x) only if the square is too crowded to step back.",
+    "where_to_stand": "Stand in Place Rossetti (middle of the square, in front of the facade). The Baroque facade and dome of the cathedral framed by the square's fountain and café terraces. The cathedral lies to the west of you, and from here the facade and dome sit together with the fountain and café terraces around them.",
+    "how_to_frame": "Turn on the gridlines and keep the phone upright and level so the facade does not lean. Place the cathedral front on the central part of the grid and let the fountain or café terraces fill the foreground edges. For a different angle, try Rue Rossetti, where the bell tower and facade sit at the end of a straight, gently sloping street.",
+    "phone_settings_tip": "Tap the facade to set focus, then drag the exposure slider down a little so the facade and the sky keep their detail. If you are using ultra-wide, keep the phone vertical to limit stretched edges.",
+    "best_time": "Try early in the morning, when the square is usually quieter. Check how the light falls on the facade when you arrive."
+   },
+   "access_note": "The square is an open public space, but access to and photography inside the cathedral can be limited during Mass and services, so check the official site before you go."
+  },
+  "checker_problems": 5,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Nice Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Nice_Cathedral"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/12.jpg",
+   "artist": "Myrabella",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cathedrale_Sainte-Reparate_Nice.jpg",
+   "from": "Wikidata Q1084011 main image"
+  }
+ },
+ {
+  "rank": 13,
+  "name": "Palais Lascaris",
+  "in_cut": true,
+  "label": "Palais Lascaris",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 250,
+  "pin": [
+   7.2772555,
+   43.6976417
+  ],
+  "camera": [
+   7.2772555,
+   43.6976417
+  ],
+  "camera_source": "Researched viewpoint 'Rue de la Loge' (1 web pages); placed at the stretch of Rue de la Loge nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap node/578023554: the OpenStreetMap point 'Palais Lascaris'.",
+  "notes": "Baroque palace in Old Nice on Rue Droite.",
+  "text": {
+   "description": "The Palais Lascaris is a seventeenth-century town house in the old town of Nice. It was built in the first half of the century and altered in the eighteenth, and the Vintimille-Lascaris family owned it until 1802. The city bought it in 1942. Restoration ran from 1962 to 1970, when it opened to the public. Today it is a museum of historic musical instruments, with over 500 pieces, and the permanent exhibition has been open since 2011.\n\nFor a phone photo, the best idea is a night shot from the corner on Rue de la Loge, at the palace's edge. The palace is lit up after dark, and the corner gives a more slanting angle than the very narrow Rue Droite. A stone cannonball from a 1543 siege is set into the masonry there. It makes a good foreground detail, with the glowing palace behind it.\n\nIf you come by day, the palace's main facade is on Rue Droite. Look for the marble entrance portal, the row of tall windows and the white marble balusters on the noble floor. The street is so narrow that a straight-on view of the whole front is hard to get. Tilt up, use the ultra-wide, or photograph the portal and windows as separate details. Rue Droite is the alternative if the night view is not for you. If you go inside, check the official site before you go for what you can photograph.",
+   "geographic_location": "The palace is in the old town of Nice. It stands on Rue Droite, and the Rue de la Loge corner is at its edge.",
+   "directions_text": "There is no tram or railway stop right at this spot, so head for the old town of Nice and continue on foot. Then walk into the old town towards Rue Droite and the palace. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Use the default lens (1x) for the night view of the palace with the cannonball in the foreground. Switch to the ultra-wide (0.5x) on Rue Droite, where the street is too narrow to step back from the facade.",
+    "where_to_stand": "Stand on Rue de la Loge (corner at the palace's edge, where a stone cannonball from a 1543 siege is set into the masonry). A night view of the illuminated palace from the corner, with the embedded cannonball in the foreground as a detail. Look for the Rue de la Loge corner with the cannonball nearby, and check the stonework around you. From here you should see the lit palace at an angle, with the 1543 cannonball set into the stone as a foreground detail once you find it.",
+    "how_to_frame": "Put the cannonball low in the frame and let the lit palace fill the background. Turn on the gridlines and keep the walls upright. For a different view, walk to Rue Droite and photograph the marble portal and the tall windows with their white balusters. Tilt up with the ultra-wide, or take the portal and windows as separate close shots.",
+    "phone_settings_tip": "At night, let night mode run and brace your phone against a wall or your hand so it stays still. Tap the palace to set focus, then pull the exposure slider down a little so the lit stonework does not wash out.",
+    "best_time": "Night, when the palace is illuminated. Rue Droite suits daytime."
+   },
+   "access_note": "The streets are public outdoor space; the museum inside is a separate visit, so check the official site before you go for access and photography rules."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Palais Lascaris",
+    "url": "https://en.wikipedia.org/wiki/Palais_Lascaris"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/13.jpg",
+   "artist": "unknown",
+   "licence": "CC BY-SA 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lascaris2.JPG",
+   "from": "Wikidata Q3360882 main image"
+  }
+ },
+ {
+  "rank": 14,
+  "name": "Russian Orthodox Cathedral",
+  "in_cut": true,
+  "label": "Russian Cathedral",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 120,
+  "pin": [
+   7.2538945,
+   43.703835
+  ],
+  "camera": [
+   7.2538945,
+   43.703835
+  ],
+  "camera_source": "Researched viewpoint 'Avenue Nicolas II' (3 web pages); placed at the stretch of Avenue Nicolas II nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap way/142993184: the middle of the OpenStreetMap outline 'Cathédrale orthodoxe russe de Saint-Nicolas' (53 m across).",
+  "notes": "Onion-domed cathedral, one of the most photographed churches in Nice.",
+  "text": {
+   "description": "The Russian Orthodox Cathedral of Saint Nicholas is an easy building to photograph, with colourful green and gold onion domes and bright brickwork. They stand out as soon as you walk up Avenue Nicolas II. It was opened in 1912 and consecrated that December in memory of Tsarevich Nicholas Alexandrovich, who died in Nice. Tsar Nicholas II paid for the building work, which served the large Russian community in the city at the time. It is a national monument of France, and it is described as the largest Eastern Orthodox cathedral in Western Europe.\n\nThe building is the subject, so you don't need to hunt for an angle. Stand near the approach avenue, face the main façade and let the domes fill the upper part of the frame. Then step in a little closer for details such as the brickwork and the entrance. If you have time, the green garden behind the cathedral gives a second view, with palm trees and lawns in the foreground and the domes rising behind them.\n\nIt is an active church, so keep your photography to the outside and avoid pointing your phone at worshippers. Most guides say photography is not allowed inside. Check the notices on site if you're unsure.",
+   "geographic_location": "The cathedral stands in Nice, on its own grounds at the end of Avenue Nicolas II, the street that serves as its approach.",
+   "directions_text": "No Underground, tram or train stop is given for this spot, so start from central Nice and go by taxi or hired scooter, asking for Avenue Nicolas II and the Russian Orthodox Cathedral. The cathedral lies to the north, so walk towards the main entrance and the domes will come into view. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole façade. Switch to the telephoto (2x-5x, depending on your phone) to pick out the domes and brickwork. Use the ultra-wide (0.5x) only if you move close to the entrance and need the whole building in the frame.",
+    "where_to_stand": "Stand on Avenue Nicolas II (facing the main façade, near the cathedral entrance). The front façade with its green and gold onion domes and colourful brickwork, framed from the approach road. From here the front of the cathedral is straight ahead to the north, with its green and gold onion domes and colourful brickwork.",
+    "how_to_frame": "Turn on the gridlines and keep the façade centred, with the domes in the upper third. Hold the phone level rather than tilting it up, so the walls don't lean inwards. Let the avenue lead the eye towards the building. For a different view, walk round to the green garden behind the cathedral and shoot the domes over the palm trees and lawns.",
+    "phone_settings_tip": "Tap the brightest part of the façade to focus, then lower the exposure slider a touch so the gold stays rich and the sky isn't washed out. Use the telephoto for the domes rather than pinching to digital zoom.",
+    "best_time": "Late morning to afternoon, when one guide says the colours look brightest."
+   },
+   "access_note": "The exterior can be photographed from the street and grounds, but it is an active church, so check the official site before you go for visiting arrangements and the photography rules inside."
+  },
+  "checker_problems": 3,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Russian Orthodox Cathedral, Nice",
+    "url": "https://en.wikipedia.org/wiki/Russian_Orthodox_Cathedral%2C_Nice"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/14.jpg",
+   "artist": "Montgomery06",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_ortodoxe_russe.jpg",
+   "from": "Wikidata Q2205594 main image"
+  }
+ },
+ {
+  "rank": 15,
+  "name": "MAMAC",
+  "in_cut": true,
+  "label": "MAMAC",
+  "camera_pill": null,
+  "nophone": false,
+  "searches": 120,
+  "pin": [
+   7.2784999,
+   43.7014456
+  ],
+  "camera": [
+   7.2785,
+   43.701446
+  ],
+  "camera_source": "No separate stand-here point: photographed at the spot itself (indoors, from its top, or right in front of it); drawn as the split pin.",
+  "pin_note": "Position from OpenStreetMap relation/1949582: the middle of the OpenStreetMap outline 'Musée d'art moderne et d'art contemporain' (110 m across).",
+  "notes": "Modern art museum with a rooftop terrace and city views.",
+  "text": {
+   "description": "MAMAC is Nice's museum of modern and contemporary art, and the building is as much a photo subject as the art inside. It opened on 21 June 1990 and was designed by Yves Bayard and Henri Vidal. It is shaped like a square arch on four legs that straddles the course of the Paillon. The facades are covered in smooth white Carrara marble, so the walls make clean, bright shapes against the sky. Its square plan follows neo-classical rules, which gives you strong straight lines and a symmetrical look to work with. The museum has about 4,500 square metres over ten showrooms. A terrace called the Promenade des Arts links it to the neighbouring theatre. The entrance and shop sit on the Niki de Saint Phalle esplanade, which overlooks Place Yves Klein. Both are named after artists whose work is in the collection. For a phone photo, start with the whole building: the white blocks, the arch and the open space around it. Then move closer for simple pictures of marble edges, corners and the lines of the terrace. Keep the phone level so the vertical lines stay straight, and tap on the brightest wall so the marble doesn't turn grey. If you go inside, check the rules on photography at the desk first.",
+   "geographic_location": "In Nice, near Place Garibaldi, on the esplanade Niki de Saint Phalle above Place Yves Klein, where the building spans the course of the Paillon.",
+   "directions_text": "No tram or railway stop is listed for this spot, so head towards Place Garibaldi, which the museum is near. From there, follow the esplanade to the museum and the phone icon on the map. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x) to fit the whole white block and its arch in the frame. Use the default lens (1x) for a more natural view. Use telephoto (2x-5x, depending on your phone) for marble edges and details of the upper levels.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. That means you are on or at the building itself, so you will need to step back to fit it all in. The ultra-wide (0.5x) is the lens to use when you are this close.",
+    "how_to_frame": "Turn on gridlines and line them up with the edges of the marble walls so the verticals stay straight. Include some sky above the building, and a little of the esplanade in front to give a sense of scale. For a second picture, move closer and use the default lens (1x) or telephoto on a corner or edge, filling the frame with white marble and shadow.",
+    "phone_settings_tip": "Tap on the white marble to set focus, then slide the exposure down a little so the walls stay white and keep their texture instead of turning grey or washing out.",
+    "best_time": "Choose a clear day when the sun is on the facade so the marble looks bright against a blue sky. Early morning or late afternoon gives softer shadows. Check the museum's opening days before you go."
+   },
+   "access_note": "The outside of the building and the esplanade can be photographed from public space, and entry is free, but check the official site before you go for current opening days and any photography rules inside."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /no (metro|tram|train)[^.]{0,30}(listed|given)/",
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Musée d'art moderne et d'art contemporain",
+    "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27art_moderne_et_d%27art_contemporain"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": true,
+  "photo": null
+ },
+ {
+  "rank": 16,
+  "name": "Notre-Dame de Nice",
+  "in_cut": true,
+  "label": "Notre-Dame de Nice",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 80,
+  "pin": [
+   7.2657129,
+   43.7032365
+  ],
+  "camera": [
+   7.2657129,
+   43.7032365
+  ],
+  "camera_source": "Researched viewpoint 'Avenue Jean Médecin' (2 web pages); placed at the stretch of Avenue Jean Médecin nearest the subject (our map tiles).",
+  "pin_note": "Position from OpenStreetMap way/25359175: the middle of the OpenStreetMap outline 'Basilique Notre-Dame' (75 m across).",
+  "notes": "Neo-Gothic basilica on Avenue Jean Médecin.",
+  "text": {
+   "description": "Notre-Dame de Nice is the largest church in the city, though it is not the cathedral. It is a Roman Catholic basilica on Avenue Jean Médecin, built between 1864 and 1868 to a design by Louis Lenormand. The neo-Gothic style was chosen on purpose. Nice had recently passed from the Kingdom of Sardinia to France, and Gothic buildings were then thought of as typically French. The design was inspired by Angers Cathedral.\n\nIt photographs well because the front is so clear and symmetrical. Two square towers, each 65 m high, stand either side of a large rose window showing scenes of the Assumption of Mary. Against the busy, modern shopping street, that tall Gothic front stands out.\n\nFor a street-level view, walk to the stretch of Avenue Jean Médecin that faces the facade. From there the towers and front sit at the end of the avenue, with passers-by and shop fronts in the foreground. This gives you a photo with a sense of everyday Nice rather than a straight-on postcard shot. If you want the whole facade with the towers and rose window filling the frame, stand closer to the basilica itself.\n\nLeave a little space around the towers so they are not cut off at the top. Wait a moment for a gap in the pedestrians if you want a cleaner frame, or keep them in for scale and life.",
+   "geographic_location": "Notre-Dame de Nice stands in the centre of Nice, on Avenue Jean Médecin, a central shopping avenue.",
+   "directions_text": "Head for the centre of Nice and find Avenue Jean Médecin. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start on the default lens (1x) to take in the towers and the street together. Switch to the ultra-wide (0.5x) if you are close and cannot fit both towers in. Use the telephoto (2x-5x, depending on your phone) to pick out the rose window and the tops of the towers.",
+    "where_to_stand": "Stand on Avenue Jean Médecin (stretch of the avenue facing the basilica's facade). The basilica's towers and facade framed at the end of the central shopping avenue, with street life in the foreground. On the stretch facing the basilica's facade. From here the towers and facade are framed at the end of the avenue, with street life in the foreground.",
+    "how_to_frame": "Turn on gridlines and line the two towers up with the vertical lines so the building does not lean. Keep a little space above the towers, and include people or shop fronts at the bottom of the frame for depth. For a closer, more formal shot, the basilica's own facade is the alternative: the white front with its two tall towers and rose window.",
+    "phone_settings_tip": "Tap on the facade to set focus, then drag the exposure slider down a little if the pale stone looks washed out against the sky. Hold the phone level to keep the verticals straight. If you want a quick pan along the street, a short Live Photo can catch the movement.",
+    "best_time": "Choose a time when the facade is evenly lit and the pavement is not too crowded. Early in the day is usually calmer on the avenue."
+   },
+   "access_note": "The avenue is an open public street, but the basilica is a place of worship with its own opening times, so check the official site before you go if you want to go inside.",
+   "claims_not_in_sources": [
+    "Early in the day the avenue is usually calmer, with fewer pedestrians.",
+    "Light on the facade is usually more even in the morning, since the front faces east.",
+    "Pale stone can look washed out against a bright sky, so lowering the exposure slightly may help."
+   ]
+  },
+  "checker_problems": 3,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Notre-Dame de Nice",
+    "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Nice"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/16.jpg",
+   "artist": "Romain Sartorio",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Notre_Dame_(113432119).jpeg",
+   "from": "Wikidata Q2886962 main image"
+  }
+ },
+ {
+  "rank": 17,
+  "name": "Church of Gesù",
+  "in_cut": true,
+  "label": "Église du Gesù",
+  "camera_pill": null,
+  "nophone": true,
+  "searches": 0,
+  "pin": [
+   7.2773656,
+   43.6967446
+  ],
+  "camera": [
+   7.2773656,
+   43.6967446
+  ],
+  "camera_source": "Researched viewpoint 'Place du Jésus' (3 web pages); placed at OpenStreetMap 'Place du Jésus' (way/135337171): middle (22 m across).",
+  "pin_note": "Position from OpenStreetMap way/137226051: the middle of the OpenStreetMap outline 'Église du Gèsu, Saint-Jacques-le-Majeur' (41 m across).",
+  "notes": "Baroque Jesuit church in Old Nice.",
+  "text": {
+   "description": "The Church of Gesù, also called Saint-Jacques-le-Majeur, stands on rue Droite in the Old Town of Nice. It is a Baroque church with a story that goes back to the Jesuits, who settled in Nice in 1603 and began the present church in 1642. The main construction was finished in 1650. The Baroque façade you see today was completed much later, in 1825, and the building has been a listed historical monument since 1971.\n\nIt photographs well because the façade fills a small square and the tall bell tower rises behind it. The tower is 42 metres high and built of exposed brick, which is rare in Nice. The base of the dome is covered in Ligurian tiles, so there is plenty of texture to notice when you look up. The setting is tight, with narrow Old Town streets all around, so the church feels tucked into the buildings rather than standing apart from them.\n\nThe practical challenge is space. The square in front is small, so you need to use all of it to step back. Stand on the parvis, in front of the façade, and keep your phone level so the tall lines don't lean inwards. For a second picture, walk along rue Droite towards the church and shoot the façade and bell tower down the street, with the building set into the Old Town. If you go inside, the vault is decorated with scenes from the life of Saint Jacques le Majeur. Be discreet, because it is a working church.",
+   "geographic_location": "In the Old Town of Nice, on rue Droite, facing the small place du Jésus, a quiet square near place Rossetti.",
+   "directions_text": "Make your way into the Old Town of Nice towards place Rossetti, then follow rue Droite to the church. There is no station or tram stop right at this spot, so the last part is on foot. The Navigate buttons below take you to the subject.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the ultra-wide (0.5x), because the square is small and you will not be able to step back far. Use the default lens (1x) for a more natural look, and the telephoto (2x-5x, depending on your phone) for details such as the bell tower or the top of the façade.",
+    "where_to_stand": "Stand in Place du Jésus (in front of the façade, on the parvis). The baroque façade of the church filling the frame, with the narrow square and surrounding Old Town buildings around it. From there the baroque façade fills the frame, with the narrow square and the Old Town buildings around it.",
+    "how_to_frame": "Turn on gridlines and line the façade up with the vertical lines so the walls look straight. Back up to the far side of the square to fit the whole front. If you want the bell tower too, try the ultra-wide (0.5x) and keep the phone level. As an alternative, walk along rue Droite towards the church and photograph the façade and bell tower down the street.",
+    "phone_settings_tip": "Tap on the façade to set focus, then slide the exposure down a little if the sky is bright, so the stucco and the brick of the tower keep their detail. Use the ultra-wide (0.5x) sparingly, since it can stretch the edges of the frame.",
+    "best_time": "Go early in the day if you can, when the square is likely to be quieter and easier to photograph without people in the frame."
+   },
+   "access_note": "The outside can be photographed from the square, but the church is a place of worship, so check the official site before you go for visiting arrangements and any rules on photography inside."
+  },
+  "checker_problems": 2,
+  "code_check_failures": [],
+  "sources": [
+   {
+    "title": "Church of Gesù, Nice",
+    "url": "https://en.wikipedia.org/wiki/Church_of_Ges%C3%B9%2C_Nice"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/17.jpg",
+   "artist": "p.semeria Nice (France)",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Nice-VieilleVille-EgliseGesu-facade.jpg",
+   "from": "Wikidata Q3581839 main image"
+  }
+ }
+]

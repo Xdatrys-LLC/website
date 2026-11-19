@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "takamatsu", "title": "Takamatsu: 6 photo spots (pilot review)", "place": "Takamatsu", "bounds": [134.035, 34.322, 134.115, 34.362], "center": [134.075, 34.342], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/takamatsu/{z}/{x}/{y}.pbf"};

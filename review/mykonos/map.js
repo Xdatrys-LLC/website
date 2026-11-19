@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "mykonos", "title": "Mykonos: 9 photo spots (pilot review)", "place": "Mykonos", "bounds": [25.31, 37.405, 25.41, 37.475], "center": [25.36, 37.44], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/mykonos/{z}/{x}/{y}.pbf"};

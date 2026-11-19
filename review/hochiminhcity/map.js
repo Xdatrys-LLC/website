@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "hochiminhcity", "title": "Ho Chi Minh City: 16 photo spots (pilot review)", "place": "Ho Chi Minh City", "bounds": [106.675, 10.745, 106.735, 10.805], "center": [106.705, 10.774999999999999], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/hochiminhcity/{z}/{x}/{y}.pbf"};

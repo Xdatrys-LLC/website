@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "antalya", "title": "Antalya: 12 photo spots (pilot review)", "place": "Antalya", "bounds": [30.63, 36.835, 30.79, 36.9], "center": [30.71, 36.8675], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/antalya/{z}/{x}/{y}.pbf"};

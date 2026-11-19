@@ -1,0 +1,324 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Edinburgh: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Edinburgh attractions as photo spots, including Edinburgh Castle and Arthur&#39;s Seat: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in edinburgh, edinburgh attractions, edinburgh tourist map, map of edinburgh attractions, best views in edinburgh, best photo spots in edinburgh, edinburgh castle, arthur&#39;s seat, royal mile">
+<link rel="canonical" href="https://xdatrys.com/library/edinburgh/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Edinburgh: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Edinburgh attractions as photo spots, including Edinburgh Castle and Arthur&#39;s Seat: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/edinburgh/">
+<meta property="og:image" content="https://xdatrys.com/library/edinburgh/photos/1.jpg">
+<meta property="og:image:width" content="480"><meta property="og:image:height" content="270">
+<meta property="og:image:alt" content="Edinburgh Castle, Edinburgh: photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/edinburgh/","url":"https://xdatrys.com/library/edinburgh/","name":"Things to Do in Edinburgh: Map of 20 Photo Spots | Xdatrys","description":"20 top Edinburgh attractions as photo spots, including Edinburgh Castle and Arthur's Seat: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/edinburgh/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Edinburgh"},"mainEntity":{"@type":"ItemList","name":"Edinburgh photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Edinburgh Castle","description":"Edinburgh Castle sits on top of Castle Rock, the remains of an extinct volcano that rose roughly 350 million years ago.","geo":{"@type":"GeoCoordinates","latitude":55.9486099,"longitude":-3.200602},"image":"https://xdatrys.com/library/edinburgh/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Arthur's Seat and Salisbury Crags","description":"Arthur's Seat is an ancient extinct volcano and the main peak of the group of hills that make up most of Holyrood Park, just east of Edinburgh city centre.","geo":{"@type":"GeoCoordinates","latitude":55.9440693,"longitude":-3.161603},"image":"https://xdatrys.com/library/edinburgh/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"The Royal Mile","description":"The Royal Mile is the main street of Edinburgh's Old Town.","geo":{"@type":"GeoCoordinates","latitude":55.9505556,"longitude":-3.1855556},"image":"https://xdatrys.com/library/edinburgh/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/edinburgh/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Edinburgh","item":"https://xdatrys.com/library/edinburgh/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Edinburgh?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Edinburgh Castle, Arthur's Seat and Royal Mile. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Edinburgh Castle?","acceptedAnswer":{"@type":"Answer","text":"Stand about 120 m north-west of Edinburgh Castle, at the phone icon on the map, and face south-east. Start with the default lens (1x) to get the whole castle and rock in one frame."}},{"@type":"Question","name":"When is the best time to photograph Arthur's Seat?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon or evening is usually best, when the low sun falls on the crags and the hill. Clear days after rain give the sharpest view."}},{"@type":"Question","name":"How do I get to the Royal Mile?","acceptedAnswer":{"@type":"Answer","text":"From there the subject is 23 m to the west, a short walk of a few seconds."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Edinburgh</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/edinburgh/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in Edinburgh: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/edinburgh/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Edinburgh"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Edinburgh as photo spots, ranked by how often people search for them: Edinburgh Castle, Arthur&#39;s Seat, Royal Mile, Holyrood Palace and St Giles&#39; Cathedral lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Edinburgh Castle</h3>
+    <figure><img src="photos/1.jpg" alt="Edinburgh Castle, Edinburgh: photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>Edinburgh Castle sits on top of Castle Rock, the remains of an extinct volcano that rose roughly 350 million years ago. That is much of why it photographs so well. The rock is about 130 metres above sea level, with cliffs to the south, west and north that drop around 80 metres to the land below. The walls seem to grow straight out of the stone, and a phone camera picks up that drama easily. The only gently sloping approach is from the east. A royal castle has stood here since the 11th century, and research in 2014 counted 26 sieges in its 1,100-year history. St Margaret&#39;s Chapel, from the early 12th century, is regarded as the oldest building in Edinburgh. Most of the other buildings are younger, because the medieval defences were largely destroyed in the Lang Siege of 1573. From the recommended spot the castle is about 251 metres away, which is far enough to fit the whole rock and the skyline into one frame. Keep the rocky slope in the lower part of the picture to show how high the castle stands, and leave some sky above the towers. Take a few shots at different zoom levels, as a closer crop shows the walls and a wider one shows the setting.</p>
+    <p><b>Where it is:</b> In the heart of Edinburgh, on top of Castle Rock above the city centre. The recommended spot is on the north-west side of the castle, about 251 m from it.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to get the whole castle and rock in one frame. Switch to the telephoto (2x-5x, depending on your phone) for a tighter shot of the walls and towers. Use the ultra-wide (0.5x) only if you want a lot of foreground or sky, because it makes the castle look small and far away.</p>
+      <p><b>Where to stand:</b> Stand about 120 m north-west of the subject, at the phone icon on the map, and face south-east. From here you see the rock and the walls together. Stay put rather than walking closer, because the cliffs would then fill the frame and cut off the top of the castle.</p>
+      <p><b>Framing:</b> Turn on the gridlines and put the castle&#39;s skyline on the upper third line, with the rocky slope filling the lower third. Keep the phone level so the walls do not lean. Take one shot at 1x and one zoomed in, and choose the one that suits you later.</p>
+      <p><b>Settings tip:</b> Tap on the castle walls to set focus, then drag the exposure slider down a little if the sky is bright, so the stonework keeps its detail. If the day is grey, nudge the exposure up slightly.</p>
+      <p><b>Best time:</b> Soft light in the early morning or late afternoon usually flatters the stonework. After dark, switch to night mode and hold the phone as steady as you can against a wall or railing.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Arthur&#39;s Seat and Salisbury Crags</h3>
+    <figure><img src="photos/2.jpg" alt="Arthur&#39;s Seat and Salisbury Crags, Edinburgh: an ancient extinct volcano and the main peak of the group. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 1x</figcaption></figure>
+    <p>Arthur&#39;s Seat is an ancient extinct volcano and the main peak of the group of hills that make up most of Holyrood Park, just east of Edinburgh city centre. It rises to 250.5 m (822 ft). Beneath it, the Salisbury Crags form a line of dark basalt cliffs facing the city, which is why the view works so well. You get a rugged hillside and sheer rock close to the streets and buildings. The lava is dated at roughly 341 to 335 million years old, and a glacier later scraped away the western side to leave those crags. From some angles the whole hill is said to look like a lion lying down, and two of its old volcanic vents are called the Lion&#39;s Head and the Lion&#39;s Haunch. Robert Louis Stevenson described it as &#34;a hill for magnitude, a mountain in virtue of its bold design&#34;. For a phone photo, treat it as a big landscape. Include some foreground, such as the city or a bit of parkland, so the hill has a sense of scale. Zooming in gives you the crags and the summit as a clean, layered shape. Keep the horizon level, and wait for a moment when the sky has some cloud in it.</p>
+    <p><b>Where it is:</b> Arthur&#39;s Seat sits in Holyrood Park, just east of Edinburgh city centre and about 1 mile (1.6 km) east of Edinburgh Castle. The Salisbury Crags run along the hill&#39;s edge on the city side.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start on the default lens (1x) for a wide view with the hill in context. Then try telephoto (2x-5x, depending on your phone) to pick out the crags and summit. Skip the ultra-wide (0.5x) here, as it will make the hill look small and distant.</p>
+      <p><b>Where to stand:</b> Stand about 1.1 km north-west of the subject, at the phone icon on the map, and face south-east.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the skyline of the hill on the upper third line. Fill the lower part of the frame with the city or the nearer land, so the hill looks as big as it is. Use telephoto for a tighter shot of the Salisbury Crags and the summit, and hold the phone steady with both hands, elbows tucked in.</p>
+      <p><b>Settings tip:</b> Tap on the crags to set focus, then slide the exposure down a little so the sky keeps its colour and the rock stays dark and textured. If the haze is heavy, tapping on the hill rather than the sky usually helps.</p>
+      <p><b>Best time:</b> Late afternoon or evening is usually best, when the low sun falls on the crags and the hill. Clear days after rain give the sharpest view.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>The Royal Mile</h3>
+    <figure><img src="photos/3.jpg" alt="The Royal Mile, Edinburgh: the main street of Edinburgh&#39;s Old Town. Photo spot" loading="lazy">
+      <figcaption>© Xdatrys LLC · shot here at 2x</figcaption></figure>
+    <p>The Royal Mile is the main street of Edinburgh&#39;s Old Town. It is really a chain of streets: the Castle Esplanade, Castlehill, the Lawnmarket, the High Street, the Canongate and Abbey Strand. Together they run downhill from Edinburgh Castle to Holyrood Palace, and the distance is almost exactly one mile. The street falls from about 109 m above sea level at the castle to about 42 m at the palace, so it has a gentle, steady slope that shows well in a photo.</p><p>It photographs well because of the tall old tenement buildings (the &#39;lands&#39;) pressing in on both sides, with narrow alleyways called closes dropping away off the main street. Much of the south side of the High Street was rebuilt or refaced in a Georgian style after the Great Edinburgh Fire of 1824, and the buildings step down the hill. That gives you long, receding lines of rooftops and chimneys.</p><p>It is also the busiest tourist street in the Old Town, with shops, pubs, restaurants and visitor attractions, and the High Street gets especially crowded during the Edinburgh Fringe. So expect people in most shots. You can use them to give a sense of scale, or go early for a clearer view. Hold the phone upright for the height of the buildings, or turn it sideways to follow the street as it runs away from you. Look for a spot where the street bends or a close opens up, as these give your photo a clear focal point.</p>
+    <p><b>Where it is:</b> The Royal Mile runs through the Old Town of Edinburgh, along the ridge between Edinburgh Castle at the top and Holyrood Palace at the bottom. The subject sits within the Royal Mile area.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) for the full height of the buildings and the sweep of the street. Use the default lens (1x) for natural-looking street scenes. Try the telephoto (2x-5x, depending on your phone) to pick out details such as rooflines, signs or a close entrance.</p>
+      <p><b>Where to stand:</b> Stand about 25 m east of the subject, at the phone icon on the map, and face west. You are looking up the slope of the street, with the buildings on both sides leading your eye along it.</p>
+      <p><b>Framing:</b> Turn on gridlines and line up the tall building edges with the vertical lines so they do not lean. Keep the street running diagonally through the frame, and include a close entrance or shopfront at the edge for depth. For a tighter shot, zoom in to 2x or more and frame a stretch of rooftops and chimneys.</p>
+      <p><b>Settings tip:</b> Tap the brightest building or the sky to set focus, then slide the exposure down a little so the sky does not wash out. In the evening, use night mode and hold the phone steady against a wall or railing. A short Live Photo can capture the movement of the crowds.</p>
+      <p><b>Best time:</b> Early in the morning is likely to be quieter and gives you the street with fewer people in it. Be prepared for crowds later in the day and especially during the Edinburgh Fringe.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Palace of Holyroodhouse <small>· members</small></li>
+    <li><span class="n">5</span>St Giles&#39; Cathedral <small>· members</small></li>
+    <li><span class="n">6</span>Calton Hill <small>· members</small></li>
+    <li><span class="n">7</span>Dean Village <small>· members</small></li>
+    <li><span class="n">8</span>National Museum of Scotland roof terrace <small>· members</small></li>
+    <li><span class="n">9</span>Old Town skyline from Waverley Bridge <small>· members</small></li>
+    <li><span class="n">10</span>Scott Monument <small>· members</small></li>
+    <li><span class="n">11</span>Greyfriars Kirkyard and Greyfriars Bobby <small>· members</small></li>
+    <li><span class="n">12</span>Grassmarket <small>· members</small></li>
+    <li><span class="n">13</span>Victoria Street <small>· members</small></li>
+    <li><span class="n">14</span>Princes Street Gardens and the Ross Fountain <small>· members</small></li>
+    <li><span class="n">15</span>Circus Lane <small>· members</small></li>
+    <li><span class="n">16</span>Dynamic Earth <small>· members</small></li>
+    <li><span class="n">17</span>Canongate Kirk <small>· members</small></li>
+    <li><span class="n">18</span>Queen Mary&#39;s Bath House <small>· members</small></li>
+    <li><span class="n">19</span>Scotsman Steps <small>· members</small></li>
+    <li><span class="n">20</span>Scottish Parliament Building <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Edinburgh?</summary><p>The first three on this map are Edinburgh Castle, Arthur&#39;s Seat and Royal Mile. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Edinburgh Castle?</summary><p>Stand about 120 m north-west of Edinburgh Castle, at the phone icon on the map, and face south-east. Start with the default lens (1x) to get the whole castle and rock in one frame.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Arthur&#39;s Seat?</summary><p>Late afternoon or evening is usually best, when the low sun falls on the crags and the hill. Clear days after rain give the sharpest view.</p></details>
+  <details class="faq"><summary>How do I get to the Royal Mile?</summary><p>From there the subject is 23 m to the west, a short walk of a few seconds.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Edinburgh_Castle" target="_blank" rel="noopener">Edinburgh Castle</a>, <a href="https://en.wikipedia.org/wiki/Arthur%27s_Seat" target="_blank" rel="noopener">Arthur&#39;s Seat</a>, <a href="https://en.wikipedia.org/wiki/Royal_Mile" target="_blank" rel="noopener">Royal Mile</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"edinburgh","place":"Edinburgh","bounds":[-3.24,55.925,-3.14,55.985],"center":[-3.1900000000000004,55.955],"english":false,"vatican":false,"tiles":"/r2tiles/edinburgh/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

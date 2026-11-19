@@ -3,1282 +3,775 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Xdatrys | International Travel and Smartphone Photography</title>
-<meta name="description" content="Free shot maps and a free newsletter that show travelers where to go, where to stand and how to frame the shot. Great phone photos, no editing.">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Xdatrys | Get the photo you came for: photo maps for your trip</title>
+<meta name="description" content="Going to Paris, Rome or Tokyo? Photo maps of the top sights: where to stand for the best photo or selfie, with simple smartphone tips. 3 spots on every map are free, no sign-up.">
+<link rel="icon" type="image/png" href="https://xdatrys.com/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 <style>
-/* ============================================================
-   GLOBAL  -  RESET, THEME SYSTEM, SHARED UTILITIES
-   ============================================================ */
-
+/* Mock-up of the new xdatrys.com home page, 2026-11-11. Colours and fonts copied from the live home page
+   (dark theme #09090F, cyan #00D4FF, magenta #E100FF, purple #7B2FBF, Montserrat + Playfair Display). */
+:root{
+  --dark:#09090F;--dark2:#10101c;--card:rgba(255,255,255,.045);--border:rgba(255,255,255,.12);
+  --white:#fff;--dim:rgba(255,255,255,.78);--dimmer:rgba(255,255,255,.62);
+  --cyan:#00D4FF;--mag:#E100FF;--purple:#7B2FBF;
+  --grad:linear-gradient(90deg,#00D4FF,#E100FF);--grad2:linear-gradient(90deg,#00D4FF,#7B2FBF);
+  --gutter:16px;--max:1120px;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
+body{font-family:'Montserrat',sans-serif;background:var(--dark);color:var(--white);-webkit-font-smoothing:antialiased;line-height:1.55;overflow-x:hidden}
+a{color:var(--cyan)}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--cyan);outline-offset:3px;border-radius:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:8px;background:var(--cyan);color:#000;padding:8px 14px;border-radius:6px;z-index:999;font-weight:700}
+.skip:focus{left:8px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--cyan);display:block;margin-bottom:10px}
+h2{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(26px,5vw,38px);line-height:1.15;margin-bottom:12px}
+.lead{color:var(--dim);font-size:15px;max-width:640px}
+section{padding:56px 0}
+section+section{border-top:1px solid rgba(255,255,255,.07)}
 
-/* ── THEME SYSTEM ── */
-.lp{min-height:100vh;transition:background .35s,color .35s}
-.lp.dk{background:#09090f;color:#fff}
-.lp.cr{background:#F5F0E8;color:#2a2a2a}
-.lp.bl{background:#EAF4FB;color:#1a2a3a}
+/* mock-up banner */
+.mock{background:#ffd84d;color:#1a1400;font-size:12px;font-weight:600;text-align:center;padding:8px var(--gutter)}
 
-/* ── SHARED ── */
-.eyebrow{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:#00D4FF;display:block}
-.reveal{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
-.reveal.visible{opacity:1;transform:translateY(0)}
-.btn-primary{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(90deg,#00D4FF,#E100FF);color:#fff;border:none;cursor:pointer;padding:14px 26px;border-radius:6px;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;transition:filter .2s,transform .2s;text-decoration:none}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 24px;border-radius:6px;font-family:inherit;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;text-decoration:none;cursor:pointer;border:none;transition:filter .2s,transform .2s}
+.btn-primary{background:var(--grad);color:#fff}
 .btn-primary:hover{filter:brightness(1.12);transform:translateY(-1px)}
-.btn-secondary{display:inline-flex;align-items:center;justify-content:center;background:transparent;cursor:pointer;padding:13px 20px;border-radius:6px;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500;transition:background .2s;text-decoration:none}
-.dk .btn-secondary{border:1px solid rgba(255,255,255,.25);color:rgba(255,255,255,.7)}
-.cr .btn-secondary,.bl .btn-secondary{border:1px solid rgba(0,0,0,.2);color:rgba(0,0,0,.65)}
-.dk .btn-secondary:hover{background:rgba(255,255,255,.06)}
-.cr .btn-secondary:hover,.bl .btn-secondary:hover{background:rgba(0,0,0,.05)}
+.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35)}
+.btn-ghost:hover{background:rgba(255,255,255,.07)}
+.btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed}
 
-/* ============================================================
-   SECTION 1  -  NAV BAR
-   CSS: sticky nav, logo, links, login button, hamburger, mobile menu
-   ============================================================ */
-.nav{position:sticky;top:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:14px 52px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
-.dk .nav{border-bottom:1px solid rgba(255,255,255,.1);background:rgba(9,9,15,.92)}
-.cr .nav{border-bottom:1px solid rgba(0,0,0,.1);background:rgba(245,240,232,.92)}
-.bl .nav{border-bottom:1px solid rgba(0,0,0,.1);background:rgba(234,244,251,.92)}
-.logo-pill img{height:42px;width:auto}
-.nav-links{display:flex;gap:28px;align-items:center}
-.nav-links a{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;transition:opacity .2s}
-.dk .nav-links a{color:rgba(255,255,255,.6)}
-.cr .nav-links a,.bl .nav-links a{color:rgba(0,0,0,.6)}
-.nav-links a:hover{opacity:1}
-.nav-login{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:7px 16px;border-radius:5px;background:linear-gradient(90deg,#00D4FF,#7B2FBF);color:#fff;transition:filter .2s}
-.nav-login:hover{filter:brightness(1.1)}
-.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none}
-.ham span{display:block;width:22px;height:2px;border-radius:2px}
-.dk .ham span{background:rgba(255,255,255,.7)}
-.cr .ham span,.bl .ham span{background:rgba(0,0,0,.7)}
-.mob-menu{display:none;flex-direction:column;position:sticky;top:70px;z-index:199}
-.mob-menu.open{display:flex}
-.dk .mob-menu{background:rgba(9,9,15,.97);border-bottom:1px solid rgba(255,255,255,.1)}
-.cr .mob-menu,.bl .mob-menu{background:rgba(245,240,232,.97);border-bottom:1px solid rgba(0,0,0,.1)}
-.mob-menu a{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:500;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:16px 52px}
-.dk .mob-menu a{color:rgba(255,255,255,.75);border-bottom:1px solid rgba(255,255,255,.06)}
-.cr .mob-menu a,.bl .mob-menu a{color:rgba(0,0,0,.7);border-bottom:1px solid rgba(0,0,0,.06)}
+/* ===== HEADER ===== */
+.nav{position:sticky;top:0;z-index:100;background:rgba(9,9,15,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;min-height:64px}
+.logo img{height:36px;width:auto}
+.menu{display:none;gap:26px;align-items:center;list-style:none}
+.menu a,.menu .soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:var(--dim)}
+.menu a:hover{color:var(--cyan)}
+.menu .soon{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--border);border-radius:5px;color:var(--dimmer);cursor:not-allowed}
+.tag{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 6px;border-radius:3px;background:rgba(255,255,255,.12);color:#fff}
+.ham{width:48px;height:48px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;background:none;border:none;cursor:pointer}
+.ham span{display:block;width:22px;height:2px;background:#fff;border-radius:2px}
+.mob{display:none;border-top:1px solid var(--border);list-style:none}
+.mob.open{display:block}
+.mob li a,.mob li .soon{display:flex;justify-content:space-between;align-items:center;padding:14px var(--gutter);font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;color:var(--dim);border-bottom:1px solid rgba(255,255,255,.06)}
+.mob li .soon{color:var(--dimmer)}
+@media(min-width:900px){.menu{display:flex}.ham,.mob,.mob.open{display:none}}
 
-/* NAV DROPDOWN */
-.nav-dropdown {
-  position: relative;
-  display: inline-block;
-}
+/* ===== HERO ===== */
+.hero{padding:48px 0 40px;background:linear-gradient(to bottom,rgba(0,0,0,0) 55%,var(--dark) 100%),radial-gradient(ellipse at 80% 0%,rgba(225,0,255,.14),transparent 55%),radial-gradient(ellipse at 0% 55%,rgba(0,212,255,.10),transparent 50%)}
+.hero h1{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(32px,8vw,58px);line-height:1.08;margin-bottom:14px}
+.hero h1 span{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero .lead{font-size:16px;margin-bottom:26px}
+.search{max-width:560px;position:relative}
+.search label{display:block;font-size:13px;font-weight:700;margin-bottom:8px}
+.search-row{display:flex;gap:8px}
+.search input{flex:1;min-width:0;min-height:52px;padding:12px 16px;border-radius:8px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.07);color:#fff;font:500 16px 'Montserrat',sans-serif}
+.search input::placeholder{color:rgba(255,255,255,.55)}
+.search input:focus{border-color:var(--cyan);outline:none;box-shadow:0 0 0 3px rgba(0,212,255,.35)}
+.results{list-style:none;margin-top:8px;background:#141424;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.results:empty{display:none}
+.results a{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.06);font-size:14px}
+.results a:hover,.results a:focus{background:rgba(0,212,255,.1)}
+.results small{color:var(--dimmer);white-space:nowrap}
+.results .none{padding:12px 16px;font-size:13px;color:var(--dim)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px;align-items:center}
+.free-note{font-size:13px;color:var(--dim);margin-top:16px}
+.free-note strong{color:#fff}
 
-.nav-dropdown-trigger {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-  font-size: inherit;
-  font-weight: 500;
-  color: inherit;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 0;
-  letter-spacing: inherit;
-  text-transform: inherit;
-  transition: color 0.2s;
-}
+/* ===== FEATURED MAPS ===== */
+.grid{display:grid;gap:16px;grid-template-columns:1fr;margin-top:26px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:980px){.grid{grid-template-columns:1fr 1fr 1fr}}
+.mapcard{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;text-decoration:none;color:#fff;transition:border-color .2s,transform .2s}
+.mapcard:hover{border-color:var(--cyan);transform:translateY(-2px)}
+.mapcard .top{position:relative;height:150px;background:#16202b;overflow:hidden}
+.mapcard .top svg,.mapcard .top img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.mapcard .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.mapcard h3{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;line-height:1.2}
+.mapcard .meta{font-size:12px;color:var(--dimmer);font-weight:600;letter-spacing:.5px;text-transform:uppercase}
+.spots{list-style:none;display:flex;flex-direction:column;gap:7px}
+.spots li{display:flex;gap:10px;align-items:flex-start;font-size:14px}
+.num{flex:none;width:22px;height:22px;border-radius:50%;background:var(--mag);color:#000;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;border:2px solid #fff;margin-top:1px}
+.free{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#7ff0ff}
+.locked{font-size:13px;color:var(--dim);display:flex;align-items:center;gap:8px;margin-top:auto;padding-top:6px;border-top:1px dashed rgba(255,255,255,.15)}
+.more-row{margin-top:24px;text-align:center}
 
-.nav-dropdown-trigger:hover,
-.nav-dropdown-trigger[aria-expanded="true"] {
-  color: #00D4FF;
-}
+/* ===== HOW IT WORKS ===== */
+.steps{display:grid;gap:16px;grid-template-columns:1fr;margin-top:26px;counter-reset:s}
+@media(min-width:820px){.how-inner{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:center}.steps{margin-top:0}}
+.step{display:flex;gap:16px;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px}
+.step .n{flex:none;width:36px;height:36px;border-radius:50%;background:var(--grad2);display:flex;align-items:center;justify-content:center;font-weight:800}
+.step h3{font-size:16px;font-weight:700;margin-bottom:4px}
+.step p{font-size:14px;color:var(--dim)}
+.illus{background:#eef1f3;border-radius:14px;padding:8px;margin-top:22px;max-width:460px}
+.illus svg{width:100%;height:auto;display:block}
+.illus-cap{font-size:12px;color:var(--dimmer);margin-top:8px;max-width:460px}
 
-.dropdown-chevron {
-  transition: transform 0.2s;
-  flex-shrink: 0;
-}
+/* ===== MEMBERSHIP ===== */
+.toggle{display:inline-flex;border:1px solid var(--border);border-radius:999px;padding:4px;margin-top:20px;background:rgba(255,255,255,.04)}
+.toggle button{min-height:40px;padding:8px 18px;border-radius:999px;border:none;background:none;color:var(--dim);font:700 12px 'Montserrat',sans-serif;letter-spacing:.8px;text-transform:uppercase;cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--grad2);color:#fff}
+.plans{display:grid;gap:16px;grid-template-columns:1fr;margin-top:22px}
+@media(min-width:760px){.plans{grid-template-columns:1fr 1fr}}
+.plan{position:relative;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px 22px;display:flex;flex-direction:column;gap:14px}
+.plan.pro{border-color:rgba(225,0,255,.55);background:linear-gradient(180deg,rgba(225,0,255,.09),rgba(255,255,255,.03))}
+.plan h3{font-family:'Playfair Display',serif;font-size:26px;font-weight:900}
+.badge{align-self:flex-start;font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;padding:4px 10px;border-radius:4px;background:rgba(0,212,255,.15);color:#7ff0ff;border:1px solid rgba(0,212,255,.4)}
+.price{font-size:34px;font-weight:800;line-height:1}
+.price small{font-size:14px;font-weight:600;color:var(--dim)}
+.price-note{font-size:12px;color:var(--dimmer);min-height:18px}
+.feat{list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14px;color:var(--dim)}
+.feat li{display:flex;gap:10px}
+.feat li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--grad2);margin-top:7px}
+.feat .tbc{color:var(--dimmer);font-style:italic}
+.plan .btn{margin-top:auto}
+.plans-foot{font-size:13px;color:var(--dimmer);margin-top:16px;max-width:760px}
 
-.nav-dropdown-trigger[aria-expanded="true"] .dropdown-chevron {
-  transform: rotate(180deg);
-}
+/* ===== GUIDES AND ALBUMS ===== */
+.strip{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 14px;margin-top:22px;-webkit-overflow-scrolling:touch}
+.strip::-webkit-scrollbar{height:8px}.strip::-webkit-scrollbar-thumb{background:rgba(255,255,255,.2);border-radius:4px}
+.gcard{flex:none;width:168px;scroll-snap-align:start;text-decoration:none;color:#fff}
+.gcover{position:relative;border-radius:8px;overflow:hidden;aspect-ratio:3/4;background:#1a1a2a}
+.gcover img{width:100%;height:100%;object-fit:cover}
+.gbadge{position:absolute;top:8px;left:8px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:3px 7px;border-radius:3px}
+.avail{background:var(--cyan);color:#000}
+.csoon{background:rgba(0,0,0,.75);color:#fff;border:1px solid rgba(255,255,255,.4)}
+.gname{font-size:14px;font-weight:700;margin-top:8px}
+.gtype{font-size:11px;color:var(--dimmer);font-weight:600;letter-spacing:1px;text-transform:uppercase}
+.series-sub{color:var(--dim);font-size:14px}
+.series-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 
-.nav-dropdown-menu {
-  display: none;
-  position: absolute;
-  top: calc(100% + 12px);
-  left: 50%;
-  transform: translateX(-50%);
-  background: #09090F;
-  border: 1px solid rgba(0, 212, 255, 0.2);
-  border-radius: 8px;
-  padding: 8px 0;
-  min-width: 240px;
-  list-style: none;
-  margin: 0;
-  z-index: 1000;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-}
+/* ===== NEWSLETTER ===== */
+.nl{display:grid;gap:28px;grid-template-columns:1fr}
+@media(min-width:820px){.nl{grid-template-columns:1fr 1fr;align-items:start}}
+.nl-brand{font-family:'Playfair Display',serif;font-size:32px;font-weight:900;font-style:italic;background:linear-gradient(90deg,#00D4FF,#E100FF,#7B2FBF);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.nl-cap{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);margin-bottom:14px}
+.nl-masthead{max-width:340px;border-radius:6px;margin-bottom:16px}
+.nl-list{list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14px;color:var(--dim)}
+.nl-list li{display:flex;gap:10px}
+.nl-list li::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--grad2);margin-top:8px}
+.signup{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px}
+.signup h3{font-size:18px;font-weight:700;margin-bottom:6px}
+.signup p{font-size:14px;color:var(--dim);margin-bottom:12px}
+.signup-fallback{font-size:13px;color:var(--dimmer);margin-top:10px}
 
-.nav-dropdown-menu.is-open {
-  display: block;
-}
-
-.nav-dropdown-menu li a {
-  display: block;
-  padding: 10px 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: #fff;
-  text-decoration: none;
-  white-space: nowrap;
-  transition: color 0.15s, background 0.15s;
-}
-
-.nav-dropdown-menu li a:hover {
-  color: #00D4FF;
-  background: rgba(0, 212, 255, 0.06);
-}
-
-.nav-dropdown-divider {
-  height: 1px;
-  background: rgba(255, 255, 255, 0.1);
-  margin: 6px 0;
-}
-
-.nav-dropdown-browse {
-  color: #00D4FF !important;
-  font-size: 0.8rem !important;
-}
-
-/* CREAM THEME OVERRIDES */
-.cr .nav-dropdown-menu {
-  background: #F5F0E8;
-  border-color: rgba(0, 212, 255, 0.3);
-}
-.cr .nav-dropdown-menu li a {
-  color: #09090F;
-}
-.cr .nav-dropdown-menu li a:hover {
-  background: rgba(0, 212, 255, 0.1);
-  color: #09090F;
-}
-.cr .nav-dropdown-divider {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-/* PALE BLUE THEME OVERRIDES */
-.bl .nav-dropdown-menu {
-  background: #EAF4FB;
-  border-color: rgba(0, 212, 255, 0.3);
-}
-.bl .nav-dropdown-menu li a {
-  color: #09090F;
-}
-.bl .nav-dropdown-menu li a:hover {
-  background: rgba(0, 212, 255, 0.1);
-  color: #09090F;
-}
-.bl .nav-dropdown-divider {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.mob-submenu{display:none;flex-direction:column}
-.mob-submenu.mob-sub-open{display:flex}
-.mob-menu .mob-submenu a{padding:10px 24px 10px 68px;font-size:11px}
-
-/* MOBILE — inline expansion within hamburger menu */
-@media (max-width: 768px) {
-  .nav-dropdown {
-    display: block;
-    width: 100%;
-  }
-
-  .nav-dropdown-trigger {
-    width: 100%;
-    justify-content: space-between;
-    padding: 12px 0;
-    font-size: 1rem;
-  }
-
-  .nav-dropdown-menu {
-    position: static;
-    transform: none;
-    left: auto;
-    box-shadow: none;
-    border: none;
-    border-left: 2px solid rgba(0, 212, 255, 0.3);
-    border-radius: 0;
-    background: transparent;
-    padding: 4px 0 4px 16px;
-    min-width: unset;
-    width: 100%;
-  }
-
-  .nav-dropdown-menu li a {
-    padding: 8px 0;
-    font-size: 0.9rem;
-  }
-
-  .nav-dropdown-divider {
-    margin: 4px 0;
-  }
-}
-
-/* ============================================================
-   SECTION 2  -  HERO: HEADLINE, CTA, PHONE FRAME CAROUSEL
-   CSS: two-column grid, headline, taglines, CTAs, phone frame
-   To edit headline: find SECTION 2 in the HTML below
-   ============================================================ */
-.hero{display:grid;grid-template-columns:1fr 280px;gap:0;padding:56px 52px 48px}
-.dk .hero{background:linear-gradient(135deg,#09090f 0%,#0f0f22 60%,#09090f 100%)}
-.cr .hero{background:linear-gradient(135deg,#F5F0E8 0%,#EDE5D5 60%,#F5F0E8 100%)}
-.bl .hero{background:linear-gradient(135deg,#EAF4FB 0%,#D8EDF7 60%,#EAF4FB 100%)}
-.hero-left{display:flex;flex-direction:column;justify-content:center;padding-right:44px}
-.hero-eyebrow{margin-bottom:16px}
-.hero-h1{font-family:'Playfair Display',serif;font-size:42px;font-weight:900;line-height:1.08;letter-spacing:-.5px;margin-bottom:10px}
-.dk .hero-h1{color:#fff}
-.cr .hero-h1,.bl .hero-h1{color:#1a1a2e}
-.hero-tagline-main{font-family:'Playfair Display',serif;font-size:16px;font-weight:700;font-style:italic;color:#00D4FF;margin-bottom:4px}
-.hero-tagline-sub{font-family:'Playfair Display',serif;font-size:13px;font-weight:700;font-style:italic;margin-bottom:14px}
-.dk .hero-tagline-sub{color:rgba(255,255,255,.5)}
-.cr .hero-tagline-sub,.bl .hero-tagline-sub{color:rgba(0,0,0,.5)}
-.hero-hook{font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.8;max-width:440px;margin-bottom:26px}
-.dk .hero-hook{color:rgba(255,255,255,.65)}
-.cr .hero-hook,.bl .hero-hook{color:rgba(0,0,0,.65)}
-.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
-.hero-pos{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:300;font-style:italic;max-width:400px;line-height:1.65}
-.dk .hero-pos{color:rgba(255,255,255,.38)}
-.cr .hero-pos,.bl .hero-pos{color:rgba(0,0,0,.38)}
-
-/* ── SECTION 2 (continued)  -  CSS PHONE FRAME + CAROUSEL ──
-   Phone frame is pure CSS  -  no image file needed
-   To resize frame: change width/height on .phone-frame-outer
-   To change outline: change outline value on .phone-frame-outer */
-.phone-wrap{
-  width:260px;flex-shrink:0;
-  display:flex;flex-direction:column;
-  align-items:center;gap:12px;
-  margin-left:20px
-}
-.phone-frame-outer{
-  position:relative;
-  width:220px;height:460px;
-  background:#000;
-  border-radius:32px;
-  outline:2px solid rgba(255,255,255,.85);
-  outline-offset:2px;
-  flex-shrink:0
-}
-.phone-notch{
-  position:absolute;
-  top:10px;left:50%;
-  transform:translateX(-50%);
-  width:36px;height:8px;
-  background:#000;
-  border-radius:4px;
-  z-index:3
-}
-.phone-home{
-  position:absolute;
-  bottom:10px;left:50%;
-  transform:translateX(-50%);
-  width:40px;height:4px;
-  background:rgba(255,255,255,.35);
-  border-radius:2px;
-  z-index:3
-}
-.phone-screen{
-  position:absolute;
-  top:14px;left:12px;right:12px;bottom:14px;
-  border-radius:24px;
-  overflow:hidden;
-  z-index:1;
-  background:#000
-}
-.carousel-track{display:flex;width:100%;height:100%;transition:transform .7s ease}
-.carousel-slide{min-width:100%;height:100%;object-fit:cover;object-position:center;display:block}
-.carousel-dots{display:flex;gap:5px;justify-content:center;z-index:3}
-.c-dot{width:6px;height:6px;border-radius:50%;cursor:pointer;transition:background .5s,transform .5s}
-.dk .c-dot{background:rgba(255,255,255,.25)}
-.cr .c-dot,.bl .c-dot{background:rgba(0,0,0,.2)}
-.c-dot.on{background:#00D4FF;transform:scale(1.2)}
-
-/* ============================================================
-   SECTION 2B  -  SOCIAL PROOF STRIP
-   CSS: full-width strip of four credibility signals
-   To edit numbers/text: find SECTION 2B in the HTML below
-   ============================================================ */
-.social-proof{padding:14px 52px;display:flex;align-items:center;justify-content:center;flex-wrap:wrap}
-.dk .social-proof{background:linear-gradient(90deg,rgba(0,212,255,.08),rgba(225,0,255,.06),rgba(123,47,191,.08));border-top:1px solid rgba(0,212,255,.15);border-bottom:1px solid rgba(0,212,255,.15)}
-.cr .social-proof{background:rgba(0,0,0,.04);border-top:1px solid rgba(0,0,0,.1);border-bottom:1px solid rgba(0,0,0,.1)}
-.bl .social-proof{background:rgba(0,100,200,.04);border-top:1px solid rgba(0,100,200,.12);border-bottom:1px solid rgba(0,100,200,.12)}
-.sp-items{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;width:100%}
-.sp-item{display:flex;align-items:center;gap:8px;padding:4px 28px}
-.sp-num{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;background:linear-gradient(90deg,#00D4FF,#7B2FBF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1}
-.sp-label{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:500;line-height:1.4}
-.dk .sp-label{color:rgba(255,255,255,.6)}
-.cr .sp-label,.bl .sp-label{color:rgba(0,0,0,.6)}
-.sp-div{width:1px;height:32px}
-.dk .sp-div{background:rgba(255,255,255,.12)}
-.cr .sp-div,.bl .sp-div{background:rgba(0,0,0,.12)}
-
-/* ============================================================
-   SECTION 3  -  BENEFITS STRIP (six tiles)
-   CSS: 3-column grid, gradient bar, title, description per tile
-   To edit tile content: find SECTION 3 in the HTML below
-   ============================================================ */
-.benefits{padding:40px 52px}
-.dk .benefits{background:rgba(255,255,255,.02);border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
-.cr .benefits,.bl .benefits{background:rgba(0,0,0,.03);border-top:1px solid rgba(0,0,0,.08);border-bottom:1px solid rgba(0,0,0,.08)}
-.benefits-eyebrow{text-align:center;margin-bottom:26px}
-.benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.b-tile{padding:20px;border-radius:8px}
-.dk .b-tile{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
-.cr .b-tile,.bl .b-tile{background:rgba(0,0,0,.04);border:1px solid rgba(0,0,0,.08)}
-.b-bar{width:24px;height:3px;background:linear-gradient(90deg,#00D4FF,#7B2FBF);border-radius:2px;margin-bottom:12px}
-.b-title{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:700;margin-bottom:6px}
-.dk .b-title{color:#fff}
-.cr .b-title,.bl .b-title{color:#1a1a2e}
-.b-desc{font-family:'Montserrat',sans-serif;font-size:12px;line-height:1.7}
-.dk .b-desc{color:rgba(255,255,255,.55)}
-.cr .b-desc,.bl .b-desc{color:rgba(0,0,0,.55)}
-
-/* ============================================================
-   SECTION 4  -  HOOK / PULL-QUOTE
-   CSS: centred large italic quote with gradient opening mark
-   To edit quote: find SECTION 4 in the HTML below
-   ============================================================ */
-.hook{padding:56px 52px;text-align:center}
-.hook-inner{max-width:680px;margin:0 auto}
-.hook-mark{font-family:'Playfair Display',serif;font-size:80px;font-weight:900;line-height:.5;display:block;margin-bottom:14px;background:linear-gradient(90deg,#00D4FF,#7B2FBF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;opacity:.35}
-.hook-quote{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;font-style:italic;line-height:1.42}
-.dk .hook-quote{color:rgba(255,255,255,.87)}
-.cr .hook-quote,.bl .hook-quote{color:rgba(0,0,0,.8)}
-.hook-sub{font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.7;margin-top:16px}
-.dk .hook-sub{color:rgba(255,255,255,.5)}
-.cr .hook-sub,.bl .hook-sub{color:rgba(0,0,0,.5)}
-
-/* ============================================================
-   SECTION 5  -  THE POCKET SERIES (sliding carousel)
-   CSS: header, draggable track, guide cards, arrow buttons
-   To add/remove guides: find SECTION 5 in the HTML below
-   ============================================================ */
-.pocket-series{padding:44px 52px}
-.series-header{margin-bottom:22px}
-.series-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;margin-bottom:6px}
-.dk .series-title{color:#fff}
-.cr .series-title,.bl .series-title{color:#1a1a2e}
-.series-sub{font-family:'Montserrat',sans-serif;font-size:13px}
-.dk .series-sub{color:rgba(255,255,255,.6)}
-.cr .series-sub,.bl .series-sub{color:rgba(0,0,0,.6)}
-.series-sub strong{color:#00D4FF}
-/* Sliding carousel */
-.series-carousel-wrap{position:relative}
-.series-carousel-viewport{overflow:hidden;border-radius:8px}
-.series-carousel-track{display:flex;gap:14px;transition:transform .4s ease;cursor:grab;user-select:none}
-.series-carousel-track.dragging{transition:none;cursor:grabbing}
-.guide-card{min-width:calc((100% - 56px) / 5);flex-shrink:0;border-radius:8px;overflow:hidden}
-.dk .guide-card{background:#0e0e1e;border:1px solid rgba(255,255,255,.1)}
-.cr .guide-card,.bl .guide-card{background:#fff;border:1px solid rgba(0,0,0,.12)}
-.guide-cover{width:100%;padding-bottom:155%;position:relative;overflow:hidden}
-.guide-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000;display:block}
-.guide-cover-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:10px}
-.guide-avail-badge{position:absolute;top:8px;left:8px;font-family:'Montserrat',sans-serif;font-size:7px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:3px}
-.badge-avail{background:linear-gradient(90deg,#00D4FF,#7B2FBF);color:#fff}
-.badge-soon{background:rgba(0,0,0,.65);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.2)}
-.guide-name{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;padding:8px 9px 2px}
-.dk .guide-name{color:#fff}
-.cr .guide-name,.bl .guide-name{color:#1a1a2e}
-.guide-type{font-family:'Montserrat',sans-serif;font-size:8px;padding:0 9px 8px;opacity:.45;text-transform:uppercase;letter-spacing:.5px}.series-carousel-track > a{display:block;min-width:calc((100% - 56px) / 5);flex-shrink:0}.series-carousel-track > a > .guide-card{min-width:100%}
-/* Nav arrows */
-.series-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10;transition:opacity .2s}
-.series-arrow.left{left:-18px}
-.series-arrow.right{right:-18px}
-.dk .series-arrow{background:rgba(255,255,255,.12);color:#fff}
-.cr .series-arrow,.bl .series-arrow{background:rgba(0,0,0,.1);color:#333}
-.series-arrow:hover{opacity:.8}
-.series-arrow svg{width:16px;height:16px}
-
-@media(max-width:768px){
-  .series-carousel-track > a{min-width:calc((100% - 28px) / 2.5);flex-shrink:0}
-  .series-carousel-track > a > .guide-card{min-width:100%}
-  .guide-cover img{object-fit:cover;object-position:center}
-}
-
-/* ============================================================
-   SECTION 6  -  TESTIMONIAL
-   CSS: centred quote, large opening mark, attribution
-   IMPORTANT: Replace placeholder with real testimonial after first sale
-   ============================================================ */
-.testimonial{padding:52px;text-align:center}
-.dk .testimonial{background:rgba(0,212,255,.03);border-top:1px solid rgba(0,212,255,.1);border-bottom:1px solid rgba(0,212,255,.1)}
-.cr .testimonial,.bl .testimonial{background:rgba(0,100,180,.04);border-top:1px solid rgba(0,100,180,.1);border-bottom:1px solid rgba(0,100,180,.1)}
-.t-inner{max-width:620px;margin:0 auto}
-.t-mark{font-family:'Playfair Display',serif;font-size:64px;font-weight:900;color:#00D4FF;opacity:.4;display:block;line-height:1;margin-bottom:-16px}
-.t-quote{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;font-style:italic;line-height:1.65}
-.dk .t-quote{color:rgba(255,255,255,.85)}
-.cr .t-quote,.bl .t-quote{color:rgba(0,0,0,.8)}
-.t-attr{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500;letter-spacing:.5px;margin-top:16px}
-.dk .t-attr{color:rgba(255,255,255,.4)}
-.cr .t-attr,.bl .t-attr{color:rgba(0,0,0,.4)}
-
-/* ============================================================
-   SECTION 7  -  FAQ / OBJECTION HANDLING (four cards)
-   CSS: 2-column grid of question/answer cards
-   To edit Q&A text: find SECTION 7 in the HTML below
-   ============================================================ */
-.faq{padding:44px 52px}
-.faq-eyebrow{margin-bottom:26px}
-.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.faq-card{padding:20px 22px;border-radius:8px}
-.dk .faq-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08)}
-.cr .faq-card,.bl .faq-card{background:rgba(0,0,0,.04);border:1px solid rgba(0,0,0,.08)}
-.faq-q{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:600;margin-bottom:8px}
-.dk .faq-q{color:#fff}
-.cr .faq-q,.bl .faq-q{color:#1a1a2e}
-.faq-a{font-family:'Montserrat',sans-serif;font-size:12px;line-height:1.75}
-.dk .faq-a{color:rgba(255,255,255,.6)}
-.cr .faq-a,.bl .faq-a{color:rgba(0,0,0,.6)}
-
-/* ============================================================
-   SECTION 8  -  ABOUT XDATRYS (two columns)
-   CSS: left=bio text, right=logo + credential tags + CTA buttons
-   To edit bio or tags: find SECTION 8 in the HTML below
-   ============================================================ */
-.about{display:grid;grid-template-columns:1fr 1fr}
-.about-left{padding:52px}
-.dk .about-left{background:linear-gradient(135deg,#0f0f22,#1a1a3a)}
-.cr .about-left{background:rgba(0,0,0,.04)}
-.bl .about-left{background:rgba(0,100,200,.05)}
-.about-eyebrow{margin-bottom:14px}
-.about-h2{font-family:'Playfair Display',serif;font-size:34px;font-weight:900;margin-bottom:18px}
-.dk .about-h2{color:#fff}
-.cr .about-h2,.bl .about-h2{color:#1a1a2e}
-.about-p{font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.85}
-.dk .about-p{color:rgba(255,255,255,.7)}
-.cr .about-p,.bl .about-p{color:rgba(0,0,0,.65)}
-.about-p+.about-p{margin-top:16px}
-.about-right{padding:52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px}
-.dk .about-right{border-left:1px solid rgba(255,255,255,.08)}
-.cr .about-right,.bl .about-right{border-left:1px solid rgba(0,0,0,.08)}
-/* X logo placeholder */
-.x-logo-wrap{width:160px;height:100px;display:flex;align-items:center;justify-content:center}
-.x-logo-wrap img{width:100%;height:auto;object-fit:contain}
-.cred-tags{display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
-.cred-tag{background:rgba(0,212,255,.1);border:1px solid rgba(0,212,255,.25);border-radius:20px;padding:4px 12px;font-family:'Montserrat',sans-serif;font-size:9px;font-weight:500;color:#00D4FF;letter-spacing:.4px;text-transform:uppercase}
-.about-cta-block{width:100%;text-align:center}
-.about-cta-h{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;margin-bottom:6px}
-.dk .about-cta-h{color:#fff}
-.cr .about-cta-h,.bl .about-cta-h{color:#1a1a2e}
-.about-cta-p{font-family:'Montserrat',sans-serif;font-size:12px;line-height:1.65;margin-bottom:14px}
-.dk .about-cta-p{color:rgba(255,255,255,.55)}
-.cr .about-cta-p,.bl .about-cta-p{color:rgba(0,0,0,.55)}
-.about-cta-buttons{display:flex;flex-direction:column;gap:10px;align-items:stretch;width:100%}
-.about-cta-buttons .btn-primary{width:100%;text-align:center}
-/* Eye button  -  identical size to btn-primary */
-.btn-eye{display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0;border-radius:6px;overflow:hidden;border:none;position:relative;width:100%;text-decoration:none}
-.btn-eye-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.btn-eye-text{position:relative;z-index:1;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5);padding:14px 26px;width:100%;text-align:center}
-.about-nl-link{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500;color:#00D4FF;text-decoration:none}
-.about-nl-link:hover{text-decoration:underline}
-.product-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;width:100%;max-width:900px;margin:32px auto 0}
-.product-grid-header{font-family:'Montserrat',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#00D4FF;text-align:center;padding-bottom:8px}
-.product-grid-label{font-family:'Playfair Display',serif;font-style:italic;font-size:0.95rem;color:#fff;display:flex;align-items:center;padding-right:8px}
-.btn-scout{display:block;width:100%;padding:14px 10px;border-radius:8px;border:none;background:#E100FF;color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;text-align:center;text-decoration:none;cursor:pointer;transition:opacity 0.2s}
-.btn-scout:hover{opacity:0.85}
-.btn-eye-new{display:block;width:100%;padding:14px 10px;border-radius:8px;border:none;background:#00D4FF;color:#09090F;font-family:'Montserrat',sans-serif;font-weight:700;font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;text-align:center;text-decoration:none;cursor:pointer;transition:opacity 0.2s}
-.btn-eye-new:hover{opacity:0.85}
-.btn-bundle{display:block;width:100%;padding:14px 10px;border-radius:8px;border:none;background:linear-gradient(135deg,#00D4FF 0%,#E100FF 100%);color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;text-align:center;text-decoration:none;cursor:pointer;transition:opacity 0.2s}
-.btn-bundle:hover{opacity:0.85}
-.cr .btn-eye-new{color:#09090F}
-.bl .btn-eye-new{color:#09090F}
-
-
-/* ============================================================
-   SECTION 9  -  POCKET LENS NEWSLETTER (two columns)
-   CSS: left=brand/form/bullets, right=additional bullets
-   To edit content: find SECTION 9 in the HTML below
-   ============================================================ */
-.newsletter{display:grid;grid-template-columns:1fr 1fr}
-.dk .newsletter{border-top:1px solid rgba(255,255,255,.08)}
-.cr .newsletter,.bl .newsletter{border-top:1px solid rgba(0,0,0,.08)}
-.nl-left{padding:44px 52px}
-.nl-brand-block{margin-bottom:16px}
-.nl-brand{font-family:'Playfair Display',serif;font-size:26px;font-weight:900;font-style:italic;background:linear-gradient(90deg,#00D4FF,#E100FF,#7B2FBF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:3px}
-.nl-cap{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
-.dk .nl-cap{color:rgba(255,255,255,.65)}
-.cr .nl-cap,.bl .nl-cap{color:rgba(0,0,0,.6)}
-.nl-masthead{width:100%;max-width:340px;height:auto;display:block;border-radius:6px;margin-bottom:16px}
-.nl-form{display:flex;gap:9px;margin-bottom:16px}
-.nl-input{flex:1;border-radius:5px;padding:11px 14px;font-family:'Montserrat',sans-serif;font-size:12px;outline:none}
-.dk .nl-input{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);color:#fff}
-.cr .nl-input,.bl .nl-input{background:rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.18);color:#111}
-.nl-btn{background:linear-gradient(90deg,#00D4FF,#7B2FBF);color:#fff;border:none;padding:11px 18px;border-radius:5px;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;cursor:pointer;white-space:nowrap;letter-spacing:.5px}
-.nl-item{display:flex;align-items:center;gap:9px;margin-bottom:9px}
-.nl-dot{width:6px;height:6px;border-radius:50%;background:linear-gradient(135deg,#00D4FF,#7B2FBF);flex-shrink:0}
-.nl-txt{font-family:'Montserrat',sans-serif;font-size:11px}
-.dk .nl-txt{color:rgba(255,255,255,.55)}
-.cr .nl-txt,.bl .nl-txt{color:rgba(0,0,0,.55)}
-.nl-right{padding:44px 52px;display:flex;flex-direction:column;justify-content:center}
-.dk .nl-right{border-left:1px solid rgba(255,255,255,.08)}
-.cr .nl-right,.bl .nl-right{border-left:1px solid rgba(0,0,0,.08)}
-.nl-right-title{font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px}
-.dk .nl-right-title{color:rgba(255,255,255,.35)}
-.cr .nl-right-title,.bl .nl-right-title{color:rgba(0,0,0,.35)}
-
-/* ============================================================
-   SECTION 10  -  FOOTER
-   CSS: flex row, logo, copyright, social media icon links
-   To update social links: find SECTION 10 in the HTML below
-   ============================================================ */
-.footer{display:flex;align-items:center;justify-content:space-between;padding:18px 52px;flex-wrap:wrap;gap:12px}
-.dk .footer{border-top:1px solid rgba(255,255,255,.08)}
-.cr .footer,.bl .footer{border-top:1px solid rgba(0,0,0,.08)}
-.footer-copy{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:500}
-.dk .footer-copy{color:rgba(255,255,255,.45)}
-.cr .footer-copy,.bl .footer-copy{color:rgba(0,0,0,.45)}
-.footer-social{display:flex;gap:14px;align-items:center}
-.footer-social a{display:flex;align-items:center;opacity:.7;transition:opacity .2s}
-.footer-social a:hover{opacity:1}
-.footer-social img{height:22px;width:22px;object-fit:contain}
-
-/* ============================================================
-   SECTION 11  -  SETTINGS COG (background theme switcher)
-   CSS: fixed bottom-left cogwheel + panel
-   Black (#09090f) | Cream (#F5F0E8) | Pale Blue (#EAF4FB)
-   ============================================================ */
-.cog-wrap{position:fixed;bottom:14px;left:14px;z-index:999}
-.cog-btn{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;transition:transform .5s}
-.cog-btn:hover{transform:rotate(70deg)}
-.dk .cog-btn{background:#1a1a2e;border:1px solid rgba(255,255,255,.18)}
-.cr .cog-btn,.bl .cog-btn{background:#fff;border:1px solid rgba(0,0,0,.18);box-shadow:0 2px 8px rgba(0,0,0,.12)}
-.cog-panel{display:none;position:absolute;bottom:46px;left:0;border-radius:10px;padding:14px;min-width:180px}
-.dk .cog-panel{background:#1a1a2e;border:1px solid rgba(255,255,255,.15)}
-.cr .cog-panel,.bl .cog-panel{background:#fff;border:1px solid rgba(0,0,0,.14);box-shadow:0 4px 20px rgba(0,0,0,.12)}
-.cog-panel.open{display:block}
-.cp-label{font-family:'Montserrat',sans-serif;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;opacity:.45;margin-bottom:10px}
-.dk .cp-label{color:#fff}
-.cr .cp-label,.bl .cp-label{color:#111}
-.bg-opt{display:flex;align-items:center;gap:9px;padding:6px 7px;border-radius:6px;cursor:pointer}
-.bg-opt:hover{background:rgba(128,128,200,.1)}
-.bg-opt.active{background:rgba(0,212,255,.1)}
-.bg-opt.active .opt-lbl{color:#00D4FF!important}
-.swatch{width:20px;height:20px;border-radius:4px;border:1px solid rgba(128,128,200,.28);flex-shrink:0}
-.sw-dk{background:#09090f}
-.sw-cr{background:#F5F0E8;border-color:rgba(0,0,0,.2)}
-.sw-bl{background:#EAF4FB;border-color:rgba(0,0,80,.15)}
-.opt-lbl{font-family:'Montserrat',sans-serif;font-size:11px}
-.dk .opt-lbl{color:#ccc}
-.cr .opt-lbl,.bl .opt-lbl{color:#333}
-
-/* ============================================================
-   RESPONSIVE  -  MOBILE BREAKPOINTS
-   max-width 768px = tablets and phones
-   max-width 480px = small phones
-   ============================================================ */
-@media(max-width:768px){
-  .nav{padding:12px 24px}.nav-links{display:none}.ham{display:flex}
-  .mob-menu a{padding:14px 24px}
-  .hero{grid-template-columns:1fr;padding:36px 24px 28px}
-  .hero-left{padding-right:0}
-  .hero-h1{font-size:30px}
-  .phone-wrap{margin:24px auto 0}
-  .btn-primary{width:100%;text-align:center}
-  .social-proof{padding:12px 24px}.sp-item{padding:4px 12px}.sp-div{display:none}
-  .benefits{padding:28px 24px}.benefits-grid{grid-template-columns:repeat(2,1fr);gap:14px}
-  .hook{padding:36px 24px}.hook-quote{font-size:18px}
-  .pocket-series{padding:28px 24px}
-  .guide-card{min-width:calc((100% - 28px) / 2.5)}
-  .testimonial{padding:36px 24px}.t-quote{font-size:15px}
-  .faq{padding:28px 24px}.faq-grid{grid-template-columns:1fr}
-  .about{grid-template-columns:1fr}.about-left{padding:36px 24px}.about-right{padding:28px 24px;border-left:none}
-  .dk .about-right{border-top:1px solid rgba(255,255,255,.08)}
-  .cr .about-right,.bl .about-right{border-top:1px solid rgba(0,0,0,.08)}
-  .newsletter{grid-template-columns:1fr}.nl-left{padding:32px 24px}.nl-right{padding:0 24px 32px;border-left:none}
-  .nl-form{flex-direction:column}.nl-btn{width:100%}
-  .footer{flex-direction:column;text-align:center;padding:20px 24px}
-  .footer-social{flex-wrap:wrap;justify-content:center}
-}
-@media(max-width:480px){
-  .benefits-grid{grid-template-columns:1fr}
-  .about-cta-buttons{flex-direction:column;width:100%}
-}
+/* ===== FOOTER ===== */
+footer{border-top:1px solid var(--border);padding:28px 0 36px}
+footer .wrap{display:flex;flex-direction:column;gap:18px}
+@media(min-width:820px){footer .wrap{flex-direction:row;align-items:center;justify-content:space-between}}
+.flinks{list-style:none;display:flex;flex-wrap:wrap;gap:6px 18px}
+.flinks a{color:var(--dim);font-size:13px;font-weight:500;text-decoration:underline;text-underline-offset:3px;display:inline-block;padding:6px 0}
+.flinks a:hover{color:#fff}
+.social{display:flex;gap:6px;flex-wrap:wrap}
+.social a{width:44px;height:44px;display:flex;align-items:center;justify-content:center;opacity:.8;border-radius:8px}
+.social a:hover{opacity:1;background:rgba(255,255,255,.06)}
+.social img{width:22px;height:22px;object-fit:contain}
+.copy{font-size:12px;color:var(--dimmer)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
-<link rel="canonical" href="https://xdatrys.com/"><meta property="og:title" content="Xdatrys | International Travel and Smartphone Photography"><meta property="og:description" content="Free shot maps and a free newsletter that show travelers where to go, where to stand and how to frame the shot. Great phone photos, no editing."><meta property="og:type" content="website"><meta property="og:site_name" content="Xdatrys"><meta property="og:url" content="https://xdatrys.com/"><meta property="og:image" content="https://xdatrys.com/assets/pocket-lens/PocketLensMasthead.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Xdatrys | International Travel and Smartphone Photography"><meta name="twitter:description" content="Free shot maps and a free newsletter that show travelers where to go, where to stand and how to frame the shot. Great phone photos, no editing."><meta name="twitter:image" content="https://xdatrys.com/assets/pocket-lens/PocketLensMasthead.png"><link rel="alternate" type="application/rss+xml" title="Pocket Lens issues" href="https://xdatrys.com/feed.xml"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Xdatrys", "legalName": "Xdatrys LLC", "url": "https://xdatrys.com/", "logo": "https://xdatrys.com/apple-touch-icon.png", "description": "International travel and smartphone photography: where to go, where to stand and how to frame the shot, so great photos need no editing.", "sameAs": ["https://www.facebook.com/Xdatrys/", "https://www.instagram.com/xdatrys/", "https://www.tiktok.com/@xdatrys", "https://www.youtube.com/@Xdatrys", "https://x.com/xdatrys", "https://www.pinterest.com/xdatrys/"]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Xdatrys", "url": "https://xdatrys.com/", "inLanguage": "en"}</script>
 </head>
 <body>
-<div class="lp dk" id="lp">
+<a class="skip" href="#main">Skip to content</a>
 
-<!-- ============================================================
-     SECTION 1  -  NAV BAR
-     Sticky navigation: logo, links, login button, mobile hamburger
-     To edit links: change href values and link text below
-     ============================================================ -->
-<nav class="nav reveal">
-  <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys"></div>
-  <div class="nav-links">
-    <div class="nav-dropdown">
-      <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
-        Guides
-        <svg class="dropdown-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <ul class="nav-dropdown-menu" role="menu">
-        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia">Pocket Scout: French Polynesia</a></li>
-        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_Scout_Dresden">Pocket Scout: Dresden</a></li>
-        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_Caribbean_Puerto_Rico_Virgin_Islands">Pocket Scout: Caribbean</a></li>
-        <li class="nav-dropdown-divider" role="separator"></li>
-        <li role="menuitem"><a href="#scout-guides" class="nav-dropdown-browse">Browse all guides &darr;</a></li>
-      </ul>
-    </div>
-    <div class="nav-dropdown">
-      <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
-        Albums
-        <svg class="dropdown-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <ul class="nav-dropdown-menu" role="menu">
-        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia">Pocket Eye: French Polynesia</a></li>
-        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/Pocket_Eye_Dresden">Pocket Eye: Dresden</a></li>
-        <li role="menuitem"><a href="https://xdatrys.gumroad.com/l/pocket_eye_caribbean_puerto_rico_virgin_islands">Pocket Eye: Caribbean</a></li>
-        <li class="nav-dropdown-divider" role="separator"></li>
-        <li role="menuitem"><a href="#eye-albums" class="nav-dropdown-browse">Browse all albums &darr;</a></li>
-      </ul>
-    </div>
-    <a href="/subscribe/" target="_blank" rel="noopener">Newsletter</a>
-    <a href="#about">About</a>
-    <a href="https://xdatrys.gumroad.com" target="_blank" rel="noopener" class="nav-login">Shop Guides</a>
+<!-- ===== HEADER ===== -->
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
   </div>
-  <button class="ham" id="hamBtn" onclick="toggleMenu()"><span></span><span></span><span></span></button>
-</nav>
-<div class="mob-menu lp dk" id="mobMenu">
-  <a href="#pocket-series" onclick="toggleMenu()">Guides</a>
-  <a href="#albums" onclick="toggleMenu()">Albums</a>
-  <a href="/subscribe/" target="_blank" rel="noopener" onclick="toggleMenu()">Newsletter</a>
-  <a href="#about" onclick="toggleMenu()">About</a>
-  <a href="https://xdatrys.gumroad.com" target="_blank" rel="noopener" onclick="toggleMenu()">Shop Guides</a>
-</div>
-
-<!-- ============================================================
-     SECTION 2  -  HERO: HEADLINE, CTA, PHONE FRAME CAROUSEL
-     Left column: headline, taglines, hook paragraph, CTA buttons
-     Right column: CSS phone frame with 8-image auto-rotating carousel
-     To edit headline: change the h1 text below
-     To edit CTA: change btn-primary text and href
-     To change carousel images: replace img src URLs in the carousel-track
-     ============================================================ -->
-<section class="hero reveal" id="hero">
-  <div class="hero-left">
-    <span class="eyebrow hero-eyebrow">Smartphone Photography</span>
-    <h1 class="hero-h1">The Global Standard<br>in Smartphone Photography.</h1>
-    <p class="hero-tagline-main">Capture more. Miss less.</p>
-    <p class="hero-tagline-sub">Better photos start before you shoot.</p>
-    <p class="hero-hook">You know the feeling. You stood in front of something extraordinary and came home with a photograph that does not convey what you felt. Xdatrys puts you in the right spot and helps you see the shot before you tap. Every destination gives you one chance. Make it the photograph it deserves to be.</p>
-    <div class="cta-row" style="flex-direction:column;align-items:stretch;max-width:340px;">
-      <a href="https://xdatrys.gumroad.com/l/Pocket_Scout_Dresden" target="_blank" rel="noopener" class="btn-primary">
-        SCOUT DRESDEN NOW - $15
-      </a>
-      <a href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia" target="_blank" rel="noopener" class="btn-primary" style="margin-top:12px;">
-        SCOUT FRENCH POLYNESIA NOW - $15
-      </a>
-    </div>
-    <p class="hero-pos">Xdatrys exists for the traveller who wants to capture a location the way it deserves to be experienced.</p>
-  </div>
-
-  <!-- Right column: CSS phone frame with carousel
-       To resize: change phone-frame-outer width/height in CSS Section 2
-       To change images: update img src URLs below -->
-  <div class="phone-wrap">
-    <div class="phone-frame-outer">
-      <div class="phone-notch"></div>
-      <div class="phone-screen">
-        <div class="carousel-track" id="heroTrack">
-          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/BeachChairs%20(1).jpg" alt="Beach Chairs">
-          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/Filzmoos.jpg" alt="Filzmoos">
-          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/FlowerAlley.jpg" alt="Flower Alley">
-          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/Linz.jpg" alt="Linz">
-          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/PostMan.jpg" alt="Post Man">
-          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/Stallhof.jpg" alt="Stallhof">
-          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/Sunset.jpg" alt="Sunset">
-          <img class="carousel-slide" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/hero/TeAmo.jpg" alt="Te Amo">
-        </div>
-      </div>
-      <div class="phone-home"></div>
-    </div>
-    <div class="carousel-dots" id="heroDots">
-      <div class="c-dot on" onclick="heroGoSlide(0)"></div>
-      <div class="c-dot" onclick="heroGoSlide(1)"></div>
-      <div class="c-dot" onclick="heroGoSlide(2)"></div>
-      <div class="c-dot" onclick="heroGoSlide(3)"></div>
-      <div class="c-dot" onclick="heroGoSlide(4)"></div>
-      <div class="c-dot" onclick="heroGoSlide(5)"></div>
-      <div class="c-dot" onclick="heroGoSlide(6)"></div>
-      <div class="c-dot" onclick="heroGoSlide(7)"></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     SECTION 2B  -  SOCIAL PROOF STRIP
-     Four credibility signals displayed between hero and benefits
-     To edit: change sp-num and sp-label text below
-     ============================================================ -->
-<div class="social-proof reveal">
-  <div class="sp-items">
-    <div class="sp-item">
-      <div class="sp-num">300,000+</div>
-      <div class="sp-label">Photographs<br>worldwide</div>
-    </div>
-    <div class="sp-div"></div>
-    <div class="sp-item">
-      <div class="sp-num">20,000+</div>
-      <div class="sp-label">Smartphone images<br>across 4 continents</div>
-    </div>
-    <div class="sp-div"></div>
-    <div class="sp-item">
-      <div class="sp-num">Decades</div>
-      <div class="sp-label">Standing in the exact spots<br>that produce extraordinary images</div>
-    </div>
-    <div class="sp-div"></div>
-    <div class="sp-item">
-      <div class="sp-num">Lifetime's</div>
-      <div class="sp-label">exploration distilled<br>into every guide</div>
-    </div>
-  </div>
-</div>
-
-<!-- ============================================================
-     SECTION 3  -  BENEFITS STRIP (six tiles)
-     3-column grid. Each tile: gradient bar + title + description
-     To edit a tile: change b-title and b-desc text below
-     ============================================================ -->
-<section class="benefits reveal" id="benefits">
-  <span class="eyebrow benefits-eyebrow">Why Pocket Scout</span>
-  <div class="benefits-grid">
-    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Absolute Certainty</div><div class="b-desc">Know exactly where to stand, and when, before you leave your hotel.</div></div>
-    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Travel Light</div><div class="b-desc">Take the right equipment: phone and photo app tests and reviews.</div></div>
-    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Pro-Level Results</div><div class="b-desc">See what other tourists miss: composition, light, and timing, decoded.</div></div>
-    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Maximum Efficiency</div><div class="b-desc">Stop wasting precious hours in the wrong locations.</div></div>
-    <div class="b-tile"><div class="b-bar"></div><div class="b-title">Built for Everyone</div><div class="b-desc">Works on any smartphone. No photography background required.</div></div>
-    <div class="b-tile"><div class="b-bar"></div><div class="b-title">No Signal? No Problem</div><div class="b-desc">Use it offline, on location, the moment you arrive.</div></div>
-  </div>
-</section>
-
-<!-- ============================================================
-     SECTION 4  -  HOOK / PULL-QUOTE
-     Large italic Playfair Display quote, centred on page
-     To edit the quote: change hook-quote text below
-     ============================================================ -->
-<section class="hook reveal" id="hook">
-  <div class="hook-inner">
-    <span class="hook-mark" aria-hidden="true">"</span>
-    <p class="hook-quote">You're not here to take the same shot as every other tourist on the bridge.</p>
-    <p class="hook-sub">Xdatrys exists for the traveller who wants to capture a location the way it deserves to be experienced.</p>
-  </div>
-</section>
-
-<!-- ============================================================
-     SECTION 5  -  THE POCKET SERIES (9-card sliding carousel)
-     Shows all Pocket Scout and Pocket Eye guides
-     To add a guide: copy a guide-card block and update img src, name, type, badge
-     To change a badge: swap badge-avail / badge-soon class
-     To change an image: update the img src to the new GitHub raw URL
-     ============================================================ -->
-<section class="pocket-series reveal" id="pocket-series">
-  <div class="series-header">
-    <div class="eyebrow" style="margin-bottom:10px">The Pocket Series</div>
-    <p class="series-sub">The <strong>Scout</strong> photo locations &nbsp;·&nbsp; The <strong>Eye</strong> photo album</p>
-  </div>
-  <div class="series-carousel-wrap">
-    <!-- Left arrow -->
-    <button class="series-arrow left" onclick="seriesScroll(-1)" aria-label="Previous">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-    </button>
-    <div class="series-carousel-viewport" id="seriesViewport">
-      <div class="series-carousel-track" id="seriesTrack">
-        <!-- Card 1: French Polynesia Scout - Available -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia" target="_blank" rel="noopener" style="text-decoration:none" id="scout-guides">
-          <div class="guide-card">
-            <div class="guide-cover">
-              <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutFrenchPolynesiaCover.png" alt="French Polynesia">
-              <span class="guide-avail-badge badge-avail">Available</span>
-            </div>
-            <div class="guide-name">French Polynesia</div>
-            <div class="guide-type">Pocket Scout</div>
-          </div>
-        </a>
-
-        <!-- Card 2: Dresden Altstadt Scout - Available -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Scout_Dresden" target="_blank" rel="noopener" style="text-decoration:none">
-          <div class="guide-card">
-            <div class="guide-cover">
-              <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutDresdenAltstatdCover.jpg" alt="Dresden Altstadt">
-              <span class="guide-avail-badge badge-avail">Available</span>
-            </div>
-            <div class="guide-name">Dresden Altstadt</div>
-            <div class="guide-type">Pocket Scout</div>
-          </div>
-        </a>
-
-        <!-- Card 3: Dresden Zwinger Scout - Coming Soon -->
-        <div class="guide-card">
-          <div class="guide-cover">
-            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutDresdenZwingerCover.jpg" alt="Dresden Zwinger">
-            <span class="guide-avail-badge badge-soon">Coming Soon</span>
-          </div>
-          <div class="guide-name">Dresden Zwinger</div>
-          <div class="guide-type">Pocket Scout</div>
-        </div>
-
-        <!-- Card 4: Caribbean Scout - Available -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Caribbean_Puerto_Rico_Virgin_Islands" target="_blank" rel="noopener" style="text-decoration:none">
-          <div class="guide-card">
-            <div class="guide-cover">
-              <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutCaribbeab1Cover.png" alt="Caribbean">
-              <span class="guide-avail-badge badge-avail">Available</span>
-            </div>
-            <div class="guide-name">Caribbean</div>
-            <div class="guide-type">Pocket Scout</div>
-          </div>
-        </a>
-
-        <!-- Card 5: Salzburg Scout - Coming Soon -->
-        <div class="guide-card">
-          <div class="guide-cover">
-            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutSalzbugCover.jpg" alt="Salzburg">
-            <span class="guide-avail-badge badge-soon">Coming Soon</span>
-          </div>
-          <div class="guide-name">Salzburg</div>
-          <div class="guide-type">Pocket Scout</div>
-        </div>
-
-
-        <!-- Card 7: Fallingwater Scout - Coming Soon -->
-        <div class="guide-card">
-          <div class="guide-cover">
-            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutFallingwater.jpg" alt="Fallingwater">
-            <span class="guide-avail-badge badge-soon">Coming Soon</span>
-          </div>
-          <div class="guide-name">Fallingwater</div>
-          <div class="guide-type">Pocket Scout</div>
-        </div>
-
-        <!-- Card 8: Los Angeles Scout - Coming Soon -->
-        <div class="guide-card">
-          <div class="guide-cover">
-            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutLosAngelesMarinaCover.jpg" alt="Los Angeles">
-            <span class="guide-avail-badge badge-soon">Coming Soon</span>
-          </div>
-          <div class="guide-name">Los Angeles</div>
-          <div class="guide-type">Pocket Scout</div>
-        </div>
-
-        <!-- Card 9: Prague Scout - Coming Soon -->
-        <div class="guide-card">
-          <div class="guide-cover">
-            <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-scout/PocketScoutPragueCover.png" alt="Prague">
-            <span class="guide-avail-badge badge-soon">Coming Soon</span>
-          </div>
-          <div class="guide-name">Prague</div>
-          <div class="guide-type">Pocket Scout</div>
-        </div>
-
-        <!-- Card 10: French Polynesia Eye - Available -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia" target="_blank" rel="noopener" style="text-decoration:none" id="eye-albums">
-          <div class="guide-card">
-            <div class="guide-cover">
-              <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/PocketEyeFrenchPolynesiaCover.png" alt="French Polynesia">
-              <span class="guide-avail-badge badge-avail">Available</span>
-            </div>
-            <div class="guide-name">French Polynesia</div>
-            <div class="guide-type">Pocket Eye</div>
-          </div>
-        </a>
-
-        <!-- Card 11: Dresden Eye - Available -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Eye_Dresden" target="_blank" rel="noopener" style="text-decoration:none">
-          <div class="guide-card">
-            <div class="guide-cover">
-              <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/PocketEyeDresdenCover.png" alt="Dresden">
-              <span class="guide-avail-badge badge-avail">Available</span>
-            </div>
-            <div class="guide-name">Dresden</div>
-            <div class="guide-type">Pocket Eye</div>
-          </div>
-        </a>
-
-        <!-- Card 12: Caribbean Eye - Available -->
-        <a href="https://xdatrys.gumroad.com/l/pocket_eye_caribbean_puerto_rico_virgin_islands" target="_blank" rel="noopener" style="text-decoration:none">
-          <div class="guide-card">
-            <div class="guide-cover">
-              <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/guides/pocket-eye/PocketEyeCaribbean1Cover.png" alt="Caribbean">
-              <span class="guide-avail-badge badge-avail">Available</span>
-            </div>
-            <div class="guide-name">Caribbean</div>
-            <div class="guide-type">Pocket Eye</div>
-          </div>
-        </a>
-
-      </div>
-    </div>
-    <!-- Right arrow -->
-    <button class="series-arrow right" onclick="seriesScroll(1)" aria-label="Next">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-    </button>
-  </div>
-</section>
-
-<!-- ============================================================
-     SECTION 6  -  TESTIMONIAL
-     Single centred quote with attribution line
-     IMPORTANT: Replace this placeholder with a real customer testimonial
-     ============================================================ -->
-<section class="testimonial reveal" id="testimonial">
-  <div class="t-inner">
-    <span class="t-mark" aria-hidden="true">"</span>
-    <p class="t-quote">"I used to spend hours on Google Maps trying to find the right spot. With Xdatrys, I walked straight to the Elbe and got the shot of a lifetime in five minutes."</p>
-    <p class="t-attr"> - Traveller &amp; Photography Enthusiast</p>
-  </div>
-</section>
-
-<!-- ============================================================
-     SECTION 7  -  FAQ / OBJECTION HANDLING (four cards)
-     2-column grid of question and answer cards
-     To edit: change faq-q and faq-a text in each card below
-     ============================================================ -->
-<section class="faq reveal" id="faq">
-  <span class="eyebrow faq-eyebrow">Common Questions</span>
-  <div class="faq-grid">
-    <div class="faq-card"><div class="faq-q">"Is this only for iPhone?"</div><div class="faq-a">The guides focus on universal composition and lighting principles  -  they work on any smartphone. Android, iPhone, or anything in between.</div></div>
-    <div class="faq-card"><div class="faq-q">"I'm not a photographer, is this too advanced?"</div><div class="faq-a">Pocket Scout guides are written specifically for travellers, not professionals. If you can open a PDF, you can use this guide.</div></div>
-    <div class="faq-card"><div class="faq-q">"Is a PDF really worth $15?"</div><div class="faq-a">A single missed shot in Dresden is a lost opportunity you cannot recreate. Think of $15 as an insurance policy for your most valuable travel memories.</div></div>
-    <div class="faq-card"><div class="faq-q">"Will this work for my specific trip?"</div><div class="faq-a">Every location has been personally evaluated for light, access, and timing  -  not scraped from review sites. Built from direct knowledge of the location.</div></div>
-  </div>
-</section>
-
-<!-- ============================================================
-     SECTION 8  -  ABOUT XDATRYS (two columns)
-     Left: bio text | Right: X logo + credential tags + CTA buttons
-     To edit bio: change about-p text below
-     To edit credential tags: change cred-tag text below
-     To update Gumroad links: change the href on btn-primary and btn-eye
-     ============================================================ -->
-<section class="about reveal" id="about">
-  <div class="about-left">
-    <span class="eyebrow about-eyebrow">About Xdatrys</span>
-    <h2 class="about-h2">Before You Tap.</h2>
-    <p class="about-p">Every photography guide ever written spends half its pages on post-processing. Xdatrys does not. The photograph either works before you tap the screen, or it does not work at all. Xdatrys fixes the shot before it is taken. A photo editor fixes it after. One of those costs nothing.</p>
-    <p class="about-p">Xdatrys exists at the moment before the shot. The right spot. The right angle. The right thing to leave out of the frame. That is where a travel photograph is made or lost. Not in an app, not on a laptop at midnight. At the location. In the light. Looking at the thing most people walked past.</p>
-    <p class="about-p">Decades of standing in exact spots across four continents taking hundreds of thousands of photographs. Every Pocket Scout guide comes from having been there, having found the shot nobody else was looking for, and having written it down so you do not have to find it yourself. Xdatrys shows you three ways to photograph a crowded landmark. None of them require queuing.</p>
-  </div>
-  <div class="about-right">
-    <div class="x-logo-wrap">
-      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/xdatrys/Xcolored-transparent.png" alt="Xdatrys">
-    </div>
-
-    <div class="about-cta-block">
-      <h2>Three destinations. Six guides.</h2>
-      <p class="about-cta-p">French Polynesia, Dresden, Caribbean: Pocket Scout ($15), Pocket Eye ($12), Bundle ($22) - available now.</p>
-      <div class="product-grid">
-        <!-- Column headers -->
-        <div class="product-grid-header">Pocket Scout</div>
-        <div class="product-grid-header">Pocket Eye</div>
-        <div class="product-grid-header">Bundle</div>
-        <!-- Row 1: French Polynesia -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia" target="_blank" rel="noopener" class="btn-scout">French Polynesia - $15</a>
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia" target="_blank" rel="noopener" class="btn-eye-new">French Polynesia - $12</a>
-        <a href="https://xdatrys.gumroad.com/l/pocket_french_polynesia_bundle" target="_blank" rel="noopener" class="btn-bundle">French Polynesia - $22</a>
-        <!-- Row 2: Dresden -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Scout_Dresden" target="_blank" rel="noopener" class="btn-scout">Dresden - $15</a>
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Eye_Dresden" target="_blank" rel="noopener" class="btn-eye-new">Dresden - $12</a>
-        <a href="https://xdatrys.gumroad.com/l/pocket-dresden-bundle" target="_blank" rel="noopener" class="btn-bundle">Dresden - $22</a>
-        <!-- Row 3: Caribbean -->
-        <a href="https://xdatrys.gumroad.com/l/Pocket_Caribbean_Puerto_Rico_Virgin_Islands" target="_blank" rel="noopener" class="btn-scout">Caribbean - $15</a>
-        <a href="https://xdatrys.gumroad.com/l/pocket_eye_caribbean_puerto_rico_virgin_islands" target="_blank" rel="noopener" class="btn-eye-new">Caribbean - $12</a>
-        <a href="https://xdatrys.gumroad.com/l/pocket_Caribbean_puerto_rico_virgin_islands_bundle" target="_blank" rel="noopener" class="btn-bundle">Caribbean - $22</a>
-      </div>
-      <a href="/subscribe/" target="_blank" rel="noopener" class="about-nl-link">Or join Pocket Lens - free photography tips in your inbox →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     SECTION 9  -  POCKET LENS NEWSLETTER (two columns)
-     Left: brand name, masthead image, email form, 4 bullet points
-     Right: 4 additional bullets under "Also inside every issue"
-     Beehiiv subscribe URL: /subscribe/
-     To edit bullet text: change nl-txt span content below
-     ============================================================ -->
-<section class="newsletter reveal" id="newsletter">
-  <div class="nl-left">
-    <div class="nl-brand-block">
-      <div class="nl-brand">Pocket Lens</div>
-      <div class="nl-cap">Free Smartphone Photography Newsletter</div>
-    </div>
-    <img class="nl-masthead" src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/pocket-lens/PocketLensMasthead.png" alt="Pocket Lens Newsletter">
-    <div class="nl-form">
-      <input class="nl-input" type="email" placeholder="your@email.com" aria-label="Email address">
-      <a href="/subscribe/" target="_blank" rel="noopener" class="nl-btn">Subscribe</a>
-    </div>
-    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">The latest smartphone photography news</span></div>
-    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Shot techniques</span></div>
-    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Latest smartphone photography hardware</span></div>
-    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Latest smartphone photography software</span></div>
-  </div>
-  <div class="nl-right">
-    <div class="nl-right-title">Also inside every issue</div>
-    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Regular photography tips</span></div>
-    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">International location guide alerts</span></div>
-    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">Exclusive subscriber content</span></div>
-    <div class="nl-item"><div class="nl-dot"></div><span class="nl-txt">No spam, unsubscribe any time</span></div>
-  </div>
-</section>
-
-<!-- ============================================================
-     SECTION 10  -  FOOTER
-     Logo left | Copyright centre | Social media icons right
-     To update a social link: change the href value below
-     To update a social icon: replace img src with new GitHub raw URL
-     ============================================================ -->
-<footer class="footer reveal">
-  <div class="logo-pill"><img src="https://i.imgur.com/V958pIy.png" alt="Xdatrys" style="height:26px"></div>
-  <div class="footer-copy">© 2026 Xdatrys LLC. All rights reserved. &nbsp;·&nbsp; <a href="/maps/" style="color:inherit;text-decoration:underline">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/privacy/" style="color:inherit;text-decoration:underline">Privacy</a></div>
-  <div class="footer-social">
-    <a href="https://www.facebook.com/Xdatrys" target="_blank" rel="noopener" aria-label="Facebook">
-      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Facebook.png" alt="Facebook">
-    </a>
-    <a href="https://www.instagram.com/xdatrys/" target="_blank" rel="noopener" aria-label="Instagram">
-      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Instagram.png" alt="Instagram">
-    </a>
-    <a href="https://www.tiktok.com/@xdatrys?lang=en" target="_blank" rel="noopener" aria-label="TikTok">
-      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/TikTok.png" alt="TikTok">
-    </a>
-    <a href="https://www.pinterest.com/xdatrys/" target="_blank" rel="noopener" aria-label="Pinterest">
-      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/Pinterest.png" alt="Pinterest">
-    </a>
-    <a href="https://x.com/xdatrys" target="_blank" rel="noopener" aria-label="X">
-      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/X.png" alt="X">
-    </a>
-    <a href="https://www.youtube.com/@Xdatrys" target="_blank" rel="noopener" aria-label="YouTube">
-      <img src="https://raw.githubusercontent.com/Xdatrys-LLC/website/main/assets/logos/socialmedia/YouTube.png" alt="YouTube">
-    </a>
-  </div>
-</footer>
-
-</div><!-- end .lp  -  end of main page wrapper -->
-
-<!-- ============================================================
-     SECTION 11  -  SETTINGS COG (background theme switcher)
-     Fixed bottom-left, outside the .lp wrapper
-     Switches page between: Black | Cream | Pale Blue
-     ============================================================ -->
-<div class="cog-wrap dk" id="cogWrap">
-  <button class="cog-btn" id="cogBtn" onclick="toggleCog()" aria-label="Theme settings">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-  </button>
-  <div class="cog-panel dk" id="cogPanel">
-    <div class="cp-label">Background</div>
-    <div class="bg-opt active" id="opt-dk" onclick="setBg('dk')"><div class="swatch sw-dk"></div><span class="opt-lbl">Black</span></div>
-    <div class="bg-opt" id="opt-cr" onclick="setBg('cr')"><div class="swatch sw-cr"></div><span class="opt-lbl">Cream</span></div>
-    <div class="bg-opt" id="opt-bl" onclick="setBg('bl')"><div class="swatch sw-bl"></div><span class="opt-lbl">Pale Blue</span></div>
-  </div>
-</div>
-
-<!-- ============================================================
-     JAVASCRIPT
-     JS1: Scroll reveal (IntersectionObserver)
-     JS2: Mobile menu toggle
-     JS3: Hero carousel auto-play (3 second interval)
-     JS4: Pocket Series carousel (drag, touch, arrow buttons)
-     JS5: Settings cog (open/close, theme switching)
-     ============================================================ -->
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
 <script>
-// JS1  -  Scroll reveal
-// Adds .visible class to .reveal elements as they enter the viewport
-(function(){
-  var els=document.querySelectorAll('.reveal');
-  var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.classList.add('visible')});},{threshold:.08});
-  els.forEach(function(el){obs.observe(el)});
-})();
-
-
-// JS2  -  Mobile menu toggle
-// Called by hamburger button onclick
-function toggleMenu(){
-  var m=document.getElementById('mobMenu');
-  m.classList.toggle('open');
-}
-
-
-// JS3  -  Hero carousel
-// Auto-advances every 3000ms. Dots update on each slide change.
-var hCur=0,hTotal=8,hAuto;
-function heroGoSlide(n){
-  hCur=n;
-  document.getElementById('heroTrack').style.transform='translateX(-'+n*100+'%)';
-  document.querySelectorAll('#heroDots .c-dot').forEach(function(d,i){d.classList.toggle('on',i===n)});
-}
-function heroNext(){hCur=(hCur+1)%hTotal;heroGoSlide(hCur);}
-hAuto=setInterval(heroNext,3000);
-
-
-// JS4  -  Pocket Series carousel
-// Supports: left/right arrow buttons, mouse drag, touch swipe
-var sTrack=document.getElementById('seriesTrack');
-var sDrag={active:false,startX:0,scrollLeft:0};
-var sOffset=0;
-
-function getCardWidth(){
-  var cards=sTrack.querySelectorAll('.guide-card');
-  if(!cards.length)return 200;
-  return cards[0].offsetWidth+14;
-}
-function seriesScroll(dir){
-  sOffset+=dir*getCardWidth();
-  var max=sTrack.scrollWidth-document.getElementById('seriesViewport').offsetWidth;
-  sOffset=Math.max(0,Math.min(sOffset,max));
-  sTrack.style.transform='translateX(-'+sOffset+'px)';
-}
-sTrack.addEventListener('mousedown',function(e){
-  sDrag.active=true;sDrag.startX=e.pageX;sDrag.scrollLeft=sOffset;
-  sTrack.classList.add('dragging');
-});
-document.addEventListener('mousemove',function(e){
-  if(!sDrag.active)return;
-  var dx=e.pageX-sDrag.startX;
-  var max=sTrack.scrollWidth-document.getElementById('seriesViewport').offsetWidth;
-  sOffset=Math.max(0,Math.min(sDrag.scrollLeft-dx,max));
-  sTrack.style.transform='translateX(-'+sOffset+'px)';
-});
-document.addEventListener('mouseup',function(){sDrag.active=false;sTrack.classList.remove('dragging')});
-sTrack.addEventListener('touchstart',function(e){sDrag.active=true;sDrag.startX=e.touches[0].pageX;sDrag.scrollLeft=sOffset;},{passive:true});
-sTrack.addEventListener('touchmove',function(e){
-  if(!sDrag.active)return;
-  var dx=e.touches[0].pageX-sDrag.startX;
-  var max=sTrack.scrollWidth-document.getElementById('seriesViewport').offsetWidth;
-  sOffset=Math.max(0,Math.min(sDrag.scrollLeft-dx,max));
-  sTrack.style.transform='translateX(-'+sOffset+'px)';
-},{passive:true});
-sTrack.addEventListener('touchend',function(){sDrag.active=false;});
-
-
-// JS5  -  Settings cog: open/close panel, switch background theme
-function toggleCog(){document.getElementById('cogPanel').classList.toggle('open');}
-document.addEventListener('click',function(e){
-  var p=document.getElementById('cogPanel'),b=document.getElementById('cogBtn');
-  if(!b.contains(e.target)&&!p.contains(e.target))p.classList.remove('open');
-});
-function setBg(t){
-  var lp=document.getElementById('lp');
-  var cw=document.getElementById('cogWrap');
-  var cp=document.getElementById('cogPanel');
-  var mm=document.getElementById('mobMenu');
-  var open=cp.classList.contains('open');
-  lp.className='lp '+t;
-  cw.className='cog-wrap '+t;
-  cp.className='cog-panel '+t+(open?' open':'');
-  mm.className='mob-menu lp '+t+(mm.classList.contains('open')?' open':'');
-  ['dk','cr','bl'].forEach(function(x){document.getElementById('opt-'+x).classList.remove('active')});
-  document.getElementById('opt-'+t).classList.add('active');
-}
-
-
-// JS6  -  Nav dropdown toggle (desktop) + mobile hamburger submenus
-(function() {
-  // ── DESKTOP: toggle .nav-dropdown-menu in .nav-links ──
-  document.querySelectorAll('.nav-dropdown-trigger').forEach(function(trigger) {
-    trigger.addEventListener('click', function(e) {
-      e.stopPropagation();
-      var menu = trigger.nextElementSibling;
-      var isOpen = menu.classList.contains('is-open');
-      document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
-        m.classList.remove('is-open');
-        m.previousElementSibling.setAttribute('aria-expanded', 'false');
-      });
-      if (!isOpen) {
-        menu.classList.add('is-open');
-        trigger.setAttribute('aria-expanded', 'true');
-      }
-    });
-  });
-
-  document.addEventListener('click', function() {
-    document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
-      m.classList.remove('is-open');
-      m.previousElementSibling.setAttribute('aria-expanded', 'false');
-    });
-  });
-
-  document.querySelectorAll('.nav-dropdown-menu a').forEach(function(link) {
-    link.addEventListener('click', function() {
-      document.querySelectorAll('.nav-dropdown-menu.is-open').forEach(function(m) {
-        m.classList.remove('is-open');
-        m.previousElementSibling.setAttribute('aria-expanded', 'false');
-      });
-    });
-  });
-
-  // ── MOBILE: inject inline submenus into hamburger mob-menu ──
-  var mobMenu = document.getElementById('mobMenu');
-  if (!mobMenu) return;
-
-  function makeMobSub(items) {
-    var sub = document.createElement('div');
-    sub.className = 'mob-submenu';
-    items.forEach(function(item) {
-      var a = document.createElement('a');
-      a.href = item.href;
-      a.textContent = item.text;
-      if (item.href.indexOf('http') === 0) { a.target = '_blank'; a.rel = 'noopener'; }
-      if (item.browse) { a.className = 'nav-dropdown-browse'; }
-      a.addEventListener('click', function() { toggleMenu(); });
-      sub.appendChild(a);
-    });
-    return sub;
-  }
-
-  var guideSub, albumSub;
-  var mobGuides = mobMenu.querySelector('a[href="#pocket-series"]');
-  var mobAlbums = mobMenu.querySelector('a[href="#albums"]');
-
-  if (mobGuides) {
-    guideSub = makeMobSub([
-      {href:'https://xdatrys.gumroad.com/l/Pocket_French_Polynesia', text:'Pocket Scout: French Polynesia'},
-      {href:'https://xdatrys.gumroad.com/l/Pocket_Scout_Dresden', text:'Pocket Scout: Dresden'},
-      {href:'https://xdatrys.gumroad.com/l/Pocket_Caribbean_Puerto_Rico_Virgin_Islands', text:'Pocket Scout: Caribbean'},
-      {href:'#scout-guides', text:'Browse all guides ↓', browse:true}
-    ]);
-    mobGuides.parentNode.insertBefore(guideSub, mobGuides.nextSibling);
-    mobGuides.onclick = null;
-    mobGuides.addEventListener('click', function(e) {
-      e.preventDefault();
-      var isOpen = guideSub.classList.contains('mob-sub-open');
-      if (albumSub) { albumSub.classList.remove('mob-sub-open'); }
-      guideSub.classList.toggle('mob-sub-open', !isOpen);
-    });
-  }
-
-  if (mobAlbums) {
-    albumSub = makeMobSub([
-      {href:'https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia', text:'Pocket Eye: French Polynesia'},
-      {href:'https://xdatrys.gumroad.com/l/Pocket_Eye_Dresden', text:'Pocket Eye: Dresden'},
-      {href:'https://xdatrys.gumroad.com/l/pocket_eye_caribbean_puerto_rico_virgin_islands', text:'Pocket Eye: Caribbean'},
-      {href:'#eye-albums', text:'Browse all albums ↓', browse:true}
-    ]);
-    mobAlbums.parentNode.insertBefore(albumSub, mobAlbums.nextSibling);
-    mobAlbums.onclick = null;
-    mobAlbums.addEventListener('click', function(e) {
-      e.preventDefault();
-      var isOpen = albumSub.classList.contains('mob-sub-open');
-      if (guideSub) { guideSub.classList.remove('mob-sub-open'); }
-      albumSub.classList.toggle('mob-sub-open', !isOpen);
-    });
-  }
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
 })();
 </script>
+<!-- /xd-menu -->
+
+<main id="main">
+
+<style>
+/* landing4 hero: text + search on the left, a real spot card on the right (below on phones) */
+.h4{display:grid;gap:28px;align-items:center}
+@media(min-width:900px){.h4{grid-template-columns:1.05fr .95fr;gap:44px}}
+.h4 h1{font-size:clamp(34px,7.4vw,56px)}
+.h4 .ticks{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;margin:14px 0 0;padding:0;font-size:14px;font-weight:600;color:#e9e9f2}
+.h4 .ticks li::before{content:"\2713";color:#00C2FF;font-weight:800;margin-right:6px}
+.spotcard{background:#fff;color:#14141a;border-radius:18px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.45);max-width:480px;width:100%;justify-self:center}
+.spotcard .ph{position:relative}
+.spotcard .ph img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.spotcard .tag{position:absolute;left:12px;top:12px;background:#FF00FF;color:#000;font:800 13px/1 Montserrat,sans-serif;padding:7px 11px;border-radius:999px}
+.spotcard .mp img{display:block;width:100%;height:auto;aspect-ratio:460/240;object-fit:cover;border-top:1px solid #e3e3ea}
+.spotcard .rows{padding:12px 16px 4px;display:grid;gap:9px}
+.spotcard .row{display:grid;grid-template-columns:26px 1fr;gap:8px;font-size:14px;line-height:1.45}
+.spotcard .row b{display:block;font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:#6200EA}
+.spotcard .ic{font-size:18px;line-height:1.2}
+.spotcard .foot{padding:8px 16px 14px;font-size:11.5px;color:#5c5c6b;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.spotcard .foot a{color:#5c5c6b}
+.spotcard .open{display:block;margin:4px 16px 0;text-align:center;background:#14141a;color:#fff;text-decoration:none;font-weight:700;border-radius:12px;padding:11px 14px;font-size:15px}
+</style>
+<!-- ===== HERO (landing4) ===== -->
+<section class="hero" aria-labelledby="hero-h">
+  <div class="wrap h4">
+    <div>
+      <span class="eyebrow">Photo maps for your trip</span>
+      <h1 id="hero-h">Get the photo you came for, <span>at every sight.</span></h1>
+      <p class="lead">Going to Paris, Rome or Tokyo? Our maps show the top sights, the exact spot to stand for the best photo or selfie, and simple tips for your smartphone.</p>
+
+      <form class="search" role="search" id="searchForm" autocomplete="off">
+        <label for="q">Where are you going?</label>
+        <div class="search-row">
+          <input id="q" type="search" placeholder="A city or country, e.g. Rome" aria-describedby="searchHelp" aria-controls="results">
+        </div>
+        <p id="searchHelp" class="free-note" style="margin-top:6px">Type a city to see its map. Press Enter to open it.</p>
+        <ul class="results" id="results" aria-live="polite"></ul>
+      </form>
+      <ul class="ticks">
+        <li>3 spots on every map are free</li>
+        <li>No sign-up</li>
+        <li>Works on any smartphone</li>
+      </ul>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="/library/">See all 210 maps</a>
+        <a class="btn btn-ghost" href="#how">How it works</a>
+      </div>
+    </div>
+
+    <aside class="spotcard" aria-label="Example: a real spot from our Tokyo map">
+      <div class="ph">
+        <img src="/img/home/shibuya-photo.jpg" width="900" height="675" alt="Shibuya Crossing in Tokyo: crowds crossing the zebra stripes under shop signs and big video screens">
+        <span class="tag">1 · Shibuya Crossing, Tokyo</span>
+      </div>
+      <div class="mp"><img src="/img/home/hero.jpg" width="460" height="240" alt="Our map of Shibuya: a magenta pin marks Shibuya Crossing; a blue phone icon marks where to stand, about 50 m east, by the Hachiko Exit, with an arrow showing which way to face" loading="lazy"></div>
+      <div class="rows">
+        <div class="row"><span class="ic" aria-hidden="true">📍</span><div><b>Where to stand</b>About 50 m east of the crossing, by the Hachiko Exit. Face west.</div></div>
+        <div class="row"><span class="ic" aria-hidden="true">📱</span><div><b>Smartphone tip</b>Start with 1x for the whole junction, then zoom to 2x-5x to bring the crowd closer.</div></div>
+        <div class="row"><span class="ic" aria-hidden="true">🕒</span><div><b>Best time</b>Late afternoon into the evening, when the screens and shop lights stand out.</div></div>
+      </div>
+      <a class="open" href="/library/tokyo/">Open the Tokyo map (free)</a>
+      <div class="foot"><span>A real spot from our Tokyo map</span><span>Photo © Xdatrys LLC</span></div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== FEATURED MAPS ===== -->
+<section aria-labelledby="feat-h">
+  <div class="wrap">
+    <span class="eyebrow">Popular cities</span>
+    <h2 id="feat-h">Where are you going next?</h2>
+    <p class="lead">Each map starts with the sights travellers search for most. 3 spots on every map are free for everyone.</p>
+    <div class="grid" id="featured"></div>
+    <div class="more-row"><a class="btn btn-ghost" href="/library/">See all <span id="mapCount">20</span> maps</a></div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section id="how" aria-labelledby="how-h">
+  <div class="wrap how-inner">
+    <div>
+      <span class="eyebrow">How it works</span>
+      <h2 id="how-h">Three easy steps to a great photo</h2>
+      <p class="lead">Open a map on your smartphone before you go, or when you get there.</p>
+      
+    </div>
+    <ol class="steps" style="list-style:none">
+      <li class="step"><div class="n" aria-hidden="true">1</div><div><h3>Pick a sight</h3><p>Open the map of your city. The numbered pins are the top sights, starting with the ones travellers search for most.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">2</div><div><h3>Go to the best spot</h3><p>Each sight tells you where to stand for the best photo. Where we know the exact place, a blue phone icon marks it, with an arrow showing which way to face. Tap Navigate and Google Maps or Apple Maps walks you there.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Take the photo</h3><p>Every sight comes with simple smartphone tips: which zoom to use, how to frame it, and the best time to go.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<!-- ===== MEMBERSHIP ===== -->
+<section id="membership" aria-labelledby="mem-h">
+  <div class="wrap">
+    <span class="eyebrow">Membership</span>
+    <h2 id="mem-h">One membership, every map</h2>
+    <p class="lead">Free: 3 spots on every map. Members: every spot on every map, in the Xdatrys Maps app on your smartphone. Cancel any time.</p>
+
+    <div class="toggle" role="group" aria-label="Billing period">
+      <button type="button" id="bMonthly" aria-pressed="true">Monthly</button>
+      <button type="button" id="bAnnual" aria-pressed="false">Annual</button>
+    </div>
+
+    <div class="plans">
+      <article class="plan" aria-labelledby="pE">
+        <h3 id="pE">Explorer</h3>
+        <div class="price" data-m="$9.99" data-a="$59.99"><span class="amt">$9.99</span> <small class="per">/ month</small></div>
+        <div class="price-note" data-m="or $59.99 a year" data-a="about $5.00 a month, billed yearly">or $59.99 a year</div>
+        <ul class="feat">
+          <li>Every spot on every map, with where to stand and smartphone tips</li>
+          <li>The Xdatrys Maps app: save maps on your phone, they work without signal</li>
+          <li>"Walk there" directions, day tours and the best selfie spots</li>
+          <li>Pocket Scout guides and Pocket Eye albums, as they are added to the app</li>
+        </ul>
+        <a class="btn btn-primary" id="joinE" href="/join/">Join Explorer</a>
+      </article>
+
+      <article class="plan pro" aria-labelledby="pP">
+        <span class="badge">Coming soon</span>
+        <h3 id="pP">Pro</h3>
+        <div class="price" data-m="$19.99" data-a="$179.99"><span class="amt">$19.99</span> <small class="per">/ month</small></div>
+        <div class="price-note" data-m="or $179.99 a year" data-a="about $15.00 a month, billed yearly">or $179.99 a year</div>
+        <ul class="feat">
+          <li>Everything in Explorer</li>
+          <li>Private custom maps of any place you choose</li>
+          <li class="tbc">Monthly number of custom maps: to be confirmed</li>
+        </ul>
+        <a class="btn btn-primary" href="#newsletter">Tell me when it opens</a>
+      </article>
+
+    </div>
+    <p class="plans-foot">Prices are in US dollars. Cancel any time. Without membership, 3 spots on every map stay free.</p>
+  </div>
+</section>
+
+<!-- ===== GUIDES AND ALBUMS (same items and links as the live home page) ===== -->
+<section id="guides" aria-labelledby="gu-h">
+  <div class="wrap">
+    <span class="eyebrow">The Pocket Series</span>
+    <h2 id="gu-h">Travel guides and photo albums</h2>
+    <p class="series-sub">The <strong>Scout</strong> photo-location guides · The <strong>Eye</strong> photo albums</p>
+    <div class="series-links"><a href="https://xdatrys.gumroad.com" target="_blank" rel="noopener">Shop all guides on Gumroad<span class="sr"> (opens in a new tab)</span></a></div>
+    <div class="strip" tabindex="0" role="region" aria-label="Pocket Scout guides and Pocket Eye albums, scroll sideways">
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_French_Polynesia" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutFrenchPolynesiaCover.png" alt="Pocket Scout French Polynesia cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">French Polynesia</div><div class="gtype">Pocket Scout</div></a>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_Scout_Dresden" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutDresdenAltstatdCover.jpg" alt="Pocket Scout Dresden Altstadt cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">Dresden Altstadt</div><div class="gtype">Pocket Scout</div></a>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutDresdenZwingerCover.jpg" alt="Pocket Scout Dresden Zwinger cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Dresden Zwinger</div><div class="gtype">Pocket Scout</div></div>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_Caribbean_Puerto_Rico_Virgin_Islands" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutCaribbeab1Cover.png" alt="Pocket Scout Caribbean cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">Caribbean</div><div class="gtype">Pocket Scout</div></a>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutSalzbugCover.jpg" alt="Pocket Scout Salzburg cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Salzburg</div><div class="gtype">Pocket Scout</div></div>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutFallingwater.jpg" alt="Pocket Scout Fallingwater cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Fallingwater</div><div class="gtype">Pocket Scout</div></div>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutLosAngelesMarinaCover.jpg" alt="Pocket Scout Los Angeles cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Los Angeles</div><div class="gtype">Pocket Scout</div></div>
+      <div class="gcard"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-scout/PocketScoutPragueCover.png" alt="Pocket Scout Prague cover" loading="lazy"><span class="gbadge csoon">Coming soon</span></div><div class="gname">Prague</div><div class="gtype">Pocket Scout</div></div>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_Eye_French_Polynesia" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-eye/PocketEyeFrenchPolynesiaCover.png" alt="Pocket Eye French Polynesia cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">French Polynesia</div><div class="gtype">Pocket Eye</div></a>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/Pocket_Eye_Dresden" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-eye/PocketEyeDresdenCover.png" alt="Pocket Eye Dresden cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">Dresden</div><div class="gtype">Pocket Eye</div></a>
+      <a class="gcard" href="https://xdatrys.gumroad.com/l/pocket_eye_caribbean_puerto_rico_virgin_islands" target="_blank" rel="noopener"><div class="gcover"><img src="https://xdatrys.com/assets/guides/pocket-eye/PocketEyeCaribbean1Cover.png" alt="Pocket Eye Caribbean cover" loading="lazy"><span class="gbadge avail">Available</span></div><div class="gname">Caribbean</div><div class="gtype">Pocket Eye</div></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWSLETTER (Kit form, same embed as /subscribe/) ===== -->
+<section id="newsletter" aria-labelledby="nl-h">
+  <div class="wrap nl">
+    <div>
+      <h2 id="nl-h" class="nl-brand">Pocket Lens</h2>
+      <div class="nl-cap">Free newsletter: travel photos on your smartphone</div>
+      <img class="nl-masthead" src="https://xdatrys.com/assets/pocket-lens/PocketLensMasthead.png" alt="Pocket Lens newsletter masthead" loading="lazy">
+      <ul class="nl-list">
+        <li>The latest smartphone photography news</li>
+        <li>Easy smartphone photo tips</li>
+        <li>Latest smartphone photography hardware and software</li>
+        <li>International location guide alerts</li>
+        <li>First to hear when membership opens</li>
+        <li>No spam, unsubscribe any time</li>
+      </ul>
+    </div>
+    <div class="signup">
+      <h3>Join Pocket Lens</h3>
+      <p>Free, daily, and you can unsubscribe at any time. We will email you once to confirm your address.</p>
+      <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+      <p class="signup-fallback">Form not showing? <a href="/subscribe/">Sign up on the newsletter page</a>.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Xdatrys home"><img src="https://xdatrys.com/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="74" height="26"></a>
+    <nav aria-label="Footer">
+      <ul class="flinks">
+        <li><a href="/maps/">Free photo maps from our videos</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/refunds/">Refunds</a></li>
+      </ul>
+    </nav>
+    <div class="social" aria-label="Xdatrys on social media">
+      <a href="https://www.facebook.com/Xdatrys" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/Facebook.png" alt="Xdatrys on Facebook"></a>
+      <a href="https://www.instagram.com/xdatrys/" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/Instagram.png" alt="Xdatrys on Instagram"></a>
+      <a href="https://www.tiktok.com/@xdatrys?lang=en" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/TikTok.png" alt="Xdatrys on TikTok"></a>
+      <a href="https://www.pinterest.com/xdatrys/" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/Pinterest.png" alt="Xdatrys on Pinterest"></a>
+      <a href="https://x.com/xdatrys" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/X.png" alt="Xdatrys on X"></a>
+      <a href="https://www.youtube.com/@Xdatrys" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/YouTube.png" alt="Xdatrys on YouTube"></a>
+    </div>
+  </div>
+  <div class="wrap"><p class="copy">© 2026 Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France. All rights reserved.</p></div>
+</footer>
+
+<script>
+/* Library list: slug and display name from pipeline/maps_config.py; top-3 spot names from preview_site/<slug>/spots.json
+   (labels as of 2026-11-11). "spots" = number of spots on the map. "also" = other words a visitor might type. */
+var MAPS = [
+  {"slug": "abudhabi", "name": "Abu Dhabi", "country": "United Arab Emirates", "spots": 11, "top": ["Sheikh Zayed Grand Mosque", "Louvre Abu Dhabi", "Emirates Palace"], "also": "united arab emirates"},
+  {"slug": "albuquerque", "name": "Albuquerque", "country": "United States", "spots": 13, "top": ["Explora", "University of New Mexico", "The Pit (arena)"], "also": "united states"},
+  {"slug": "amalfi", "name": "Amalfi", "country": "Italy", "spots": 8, "top": ["Atrani", "Museo della Carta", "Torre dello Ziro"], "also": "italy"},
+  {"slug": "amsterdam", "name": "Amsterdam", "country": "Netherlands", "spots": 19, "top": ["Anne Frank House and the Prinsengracht", "Rijksmuseum and Museumplein", "Vondelpark"], "also": "netherlands"},
+  {"slug": "antalya", "name": "Antalya", "country": "Turkey", "spots": 12, "top": ["Lower Düden Waterfalls", "Konyaaltı Beach", "Hadrian's Gate"], "also": "turkey"},
+  {"slug": "antigua", "name": "Antigua", "country": "Antigua and Barbuda", "spots": 11, "top": ["Shirley Heights", "Sir Vivian Richards Stadium", "Nelson's Dockyard"], "also": "antigua and barbuda"},
+  {"slug": "athens", "name": "Athens", "country": "Greece", "spots": 18, "top": ["Acropolis of Athens", "Parthenon", "Erechtheion"], "also": "greece"},
+  {"slug": "auckland", "name": "Auckland", "country": "New Zealand", "spots": 20, "top": ["Sky Tower", "Maungawhau / Mount Eden", "Karangahape Road"], "also": "new zealand"},
+  {"slug": "bali", "name": "Bali", "country": "Indonesia", "spots": 20, "top": ["Uluwatu Temple", "Seminyak Beach", "Mount Batur"], "also": "indonesia"},
+  {"slug": "banff", "name": "Banff", "country": "Canada", "spots": 10, "top": ["Fairmont Banff Springs Hotel", "Banff Gondola", "Banff Upper Hot Springs"], "also": "canada"},
+  {"slug": "bangalore", "name": "Bangalore", "country": "India", "spots": 18, "top": ["Lalbagh Botanical Garden", "Bangalore Palace", "M. Chinnaswamy Stadium"], "also": "india"},
+  {"slug": "bangkok", "name": "Bangkok", "country": "Thailand", "spots": 17, "top": ["Grand Palace", "Wat Arun", "Khaosan Road"], "also": "thailand"},
+  {"slug": "barcelona", "name": "Barcelona", "country": "Spain", "spots": 19, "top": ["Sagrada Família", "Park Güell", "Barcelona Cathedral"], "also": "spain"},
+  {"slug": "barranco", "name": "Barranco", "country": "Peru", "spots": 9, "top": ["Pedro de Osma Museum", "Bajada de Baños", "MATE Museo Mario Testino"], "also": "peru"},
+  {"slug": "basseterre", "name": "Basseterre", "country": "Saint Kitts and Nevis", "spots": 5, "top": ["Port Zante", "Independence Square", "Basseterre Co-Cathedral of Immaculate Conception"], "also": "saint kitts and nevis"},
+  {"slug": "bath", "name": "Bath", "country": "United Kingdom", "spots": 13, "top": ["Roman Baths", "Thermae Bath Spa", "Bath Abbey"], "also": "united kingdom"},
+  {"slug": "beijing", "name": "Beijing", "country": "China", "spots": 19, "top": ["Tiananmen Square", "Forbidden City", "Monument to the People's Heroes"], "also": "china"},
+  {"slug": "bergen", "name": "Bergen", "country": "Norway", "spots": 17, "top": ["Bryggen Hanseatic Wharf", "Fløibanen Funicular", "Mount Fløyen Viewpoint"], "also": "norway"},
+  {"slug": "berlin", "name": "Berlin", "country": "Germany", "spots": 20, "top": ["Brandenburg Gate", "Reichstag building", "Checkpoint Charlie"], "also": "germany"},
+  {"slug": "bologna", "name": "Bologna", "country": "Italy", "spots": 16, "top": ["Piazza Maggiore", "Two Towers", "Basilica of San Petronio"], "also": "italy"},
+  {"slug": "borabora", "name": "Bora Bora", "country": "French Polynesia", "spots": 4, "top": ["Matira Beach", "Vaitape", "Bora Bora Yacht Club"], "also": "french polynesia"},
+  {"slug": "bordeaux", "name": "Bordeaux", "country": "France", "spots": 19, "top": ["Place de la Bourse", "Cité du Vin", "Miroir d'eau"], "also": "france"},
+  {"slug": "boston", "name": "Boston", "country": "United States", "spots": 20, "top": ["Fenway Park", "USS Constitution", "Prudential Tower"], "also": "united states"},
+  {"slug": "boulder", "name": "Boulder", "country": "United States", "spots": 13, "top": ["University of Colorado Boulder", "Boulder Creek Path", "The Flatirons"], "also": "united states"},
+  {"slug": "bridgetown", "name": "Bridgetown", "country": "Barbados", "spots": 16, "top": ["Carlisle Bay", "Kensington Oval", "Garrison Savannah"], "also": "barbados"},
+  {"slug": "bruges", "name": "Bruges", "country": "Belgium", "spots": 18, "top": ["Belfry of Bruges", "Rozenhoedkaai", "Markt (Market Square)"], "also": "belgium"},
+  {"slug": "brussels", "name": "Brussels", "country": "Belgium", "spots": 18, "top": ["Grand Place", "Atomium", "Manneken Pis"], "also": "belgium"},
+  {"slug": "budapest", "name": "Budapest", "country": "Hungary", "spots": 20, "top": ["Hungarian Parliament Building", "Széchenyi Thermal Bath", "Buda Castle"], "also": "hungary"},
+  {"slug": "buenosaires", "name": "Buenos Aires", "country": "Argentina", "spots": 20, "top": ["La Bombonera", "Teatro Colón", "Recoleta Cemetery"], "also": "argentina"},
+  {"slug": "busan", "name": "Busan", "country": "South Korea", "spots": 17, "top": ["Jagalchi Market", "Haeundae Beach", "Nampo-dong"], "also": "south korea"},
+  {"slug": "caernarfon", "name": "Caernarfon", "country": "United Kingdom", "spots": 5, "top": ["Caernarfon Castle", "Royal Welch Fusiliers Museum", "Segontium"], "also": "united kingdom"},
+  {"slug": "cairns", "name": "Cairns", "country": "Australia", "spots": 6, "top": ["Kuranda Scenic Railway", "Cairns Esplanade Lagoon", "Cairns Night Markets"], "also": "australia"},
+  {"slug": "cambridge", "name": "Cambridge", "country": "United Kingdom", "spots": 20, "top": ["Fitzwilliam Museum", "Mathematical Bridge", "Queens' College"], "also": "united kingdom"},
+  {"slug": "cancun", "name": "Cancún", "country": "Mexico", "spots": 10, "top": ["Punta Nizuc", "Playa Delfines", "Punta Cancún"], "also": "mexico"},
+  {"slug": "capetown", "name": "Cape Town", "country": "South Africa", "spots": 19, "top": ["Table Mountain", "Clifton", "V&A Waterfront"], "also": "south africa"},
+  {"slug": "cardiff", "name": "Cardiff", "country": "United Kingdom", "spots": 17, "top": ["Cardiff Castle", "Principality Stadium", "Bute Park"], "also": "united kingdom"},
+  {"slug": "cartagena", "name": "Cartagena", "country": "Colombia", "spots": 12, "top": ["Plaza de la Trinidad", "Castillo San Felipe de Barajas", "Bocagrande"], "also": "colombia"},
+  {"slug": "cartago", "name": "Cartago", "country": "Costa Rica", "spots": 3, "top": ["Basilica of Our Lady of the Angels", "Ruinas de Santiago Apóstol", "Our Lady of Carmel Cathedral, Cartago"], "also": "costa rica"},
+  {"slug": "cebucity", "name": "Cebu City", "country": "Philippines", "spots": 15, "top": ["Cebu Taoist Temple", "Ayala Center Cebu", "Magellan's Cross"], "also": "philippines"},
+  {"slug": "chennai", "name": "Chennai", "country": "India", "spots": 17, "top": ["Fort St. George", "Marina Beach", "Government Museum, Chennai"], "also": "india"},
+  {"slug": "chiangmai", "name": "Chiang Mai", "country": "Thailand", "spots": 18, "top": ["Wat Phra That Doi Suthep", "Chiang Mai Night Bazaar", "Wat Phra Singh"], "also": "thailand"},
+  {"slug": "chicago", "name": "Chicago", "country": "United States", "spots": 20, "top": ["Millennium Park", "Cloud Gate (The Bean)", "Jay Pritzker Pavilion"], "also": "united states"},
+  {"slug": "cologne", "name": "Cologne", "country": "Germany", "spots": 17, "top": ["Cologne Cathedral", "Cologne Cathedral Interior", "Romano-Germanic Museum"], "also": "germany"},
+  {"slug": "colombo", "name": "Colombo", "country": "Sri Lanka", "spots": 18, "top": ["Lotus Tower", "Pettah Market", "Galle Face Hotel"], "also": "sri lanka"},
+  {"slug": "colon", "name": "Colón", "country": "Panama", "spots": 5, "top": ["Gatun Locks", "Atlantic Bridge, Panama", "Agua Clara Locks"], "also": "panama"},
+  {"slug": "copenhagen", "name": "Copenhagen", "country": "", "spots": 20, "top": ["Tivoli Gardens", "Nyhavn", "Rosenborg Castle"], "also": ""},
+  {"slug": "cusco", "name": "Cusco", "country": "Peru", "spots": 12, "top": ["Sacsayhuamán", "Coricancha", "Mercado Central de San Pedro"], "also": "peru"},
+  {"slug": "danang", "name": "Da Nang", "country": "Vietnam", "spots": 13, "top": ["Golden Bridge", "Marble Mountains", "My Khe Beach"], "also": "vietnam"},
+  {"slug": "delhi", "name": "Delhi", "country": "India", "spots": 18, "top": ["Red Fort", "Chandni Chowk", "India Gate"], "also": "india"},
+  {"slug": "detroit", "name": "Detroit", "country": "United States", "spots": 20, "top": ["Belle Isle Park", "Eastern Market", "Ford Field"], "also": "united states"},
+  {"slug": "doha", "name": "Doha", "country": "Qatar", "spots": 12, "top": ["Souq Waqif", "National Museum of Qatar", "Museum of Islamic Art"], "also": "qatar"},
+  {"slug": "dresden", "name": "Dresden", "country": "", "spots": 19, "top": ["Altmarkt", "Frauenkirche", "Zwinger"], "also": ""},
+  {"slug": "dubai", "name": "Dubai", "country": "United Arab Emirates", "spots": 19, "top": ["Burj Khalifa", "Palm Jumeirah", "Burj Al Arab"], "also": "united arab emirates"},
+  {"slug": "dublin", "name": "Dublin", "country": "Ireland", "spots": 20, "top": ["Guinness Storehouse", "Trinity College: Front Square and the Long Room", "Kilmainham Gaol"], "also": "ireland"},
+  {"slug": "dubrovnik", "name": "Dubrovnik", "country": "Croatia", "spots": 17, "top": ["Lokrum", "Walls of Dubrovnik", "Banje Beach"], "also": "croatia"},
+  {"slug": "edinburgh", "name": "Edinburgh", "country": "", "spots": 20, "top": ["Edinburgh Castle", "Arthur's Seat and Salisbury Crags", "The Royal Mile"], "also": ""},
+  {"slug": "riogrande", "name": "El Yunque", "country": "Puerto Rico", "spots": 7, "top": ["El Yunque National Forest", "La Coca Falls", "Yokahú Tower"], "also": "puerto rico"},
+  {"slug": "springfieldtownship", "name": "Fallingwater", "country": "United States", "spots": 5, "top": ["Fallingwater", "Kentuck Knob", "Ohiopyle State Park"], "also": "united states"},
+  {"slug": "florence", "name": "Florence", "country": "Italy", "spots": 19, "top": ["Florence Cathedral (the Duomo)", "Uffizi", "Ponte Vecchio"], "also": "italy"},
+  {"slug": "frankfurt", "name": "Frankfurt", "country": "Germany", "spots": 16, "top": ["Städel", "Main Tower", "Frankfurt Cathedral"], "also": "germany"},
+  {"slug": "fukuoka", "name": "Fukuoka", "country": "Japan", "spots": 15, "top": ["Hakata Station", "Canal City Hakata", "Ōhori Park"], "also": "japan"},
+  {"slug": "galway", "name": "Galway", "country": "Ireland", "spots": 14, "top": ["Galway Cathedral", "Eyre Square", "Salmon Weir Bridge"], "also": "ireland"},
+  {"slug": "gdansk", "name": "Gdansk", "country": "Poland", "spots": 17, "top": ["St. Mary's Church", "Artus Court", "Main Town Hall"], "also": "poland"},
+  {"slug": "geiranger", "name": "Geiranger", "country": "Norway", "spots": 5, "top": ["Seven Sisters Waterfall", "Geirangerfjord", "Geiranger village and harbour"], "also": "norway"},
+  {"slug": "geneva", "name": "Geneva", "country": "Switzerland", "spots": 19, "top": ["Broken Chair", "Jet d'Eau", "Palace of Nations"], "also": "switzerland"},
+  {"slug": "georgetown", "name": "George Town", "country": "Malaysia", "spots": 16, "top": ["Eastern & Oriental Hotel", "Cheong Fatt Tze Mansion", "Pinang Peranakan Mansion"], "also": "malaysia"},
+  {"slug": "granada", "name": "Granada", "country": "Spain", "spots": 17, "top": ["El Bañuelo", "Sacromonte", "Generalife"], "also": "spain"},
+  {"slug": "grindavik", "name": "Grindavík", "country": "Iceland", "spots": 4, "top": ["Blue Lagoon", "Grindavík", "Þorbjörn"], "also": "iceland"},
+  {"slug": "guadalajara", "name": "Guadalajara", "country": "Spain", "spots": 11, "top": ["Palacio del Infantado", "Pantheon of the Duchess of Sevillano", "Church of San Ginés"], "also": "spain"},
+  {"slug": "guangzhou", "name": "Guangzhou", "country": "China", "spots": 18, "top": ["Canton Tower", "Shamian Island", "Guangzhou Opera House"], "also": "china"},
+  {"slug": "gyeongju", "name": "Gyeongju", "country": "South Korea", "spots": 13, "top": ["Bulguksa", "Dabotap", "Seokgatap"], "also": "south korea"},
+  {"slug": "hanoi", "name": "Hanoi", "country": "Vietnam", "spots": 19, "top": ["Temple of Literature, Hanoi", "Ho Chi Minh Mausoleum", "Ba Đình Square"], "also": "vietnam"},
+  {"slug": "haugesund", "name": "Haugesund", "country": "Norway", "spots": 6, "top": ["Haraldshaugen", "Haugesund Art Gallery", "Skåre Church"], "also": "norway"},
+  {"slug": "helsinki", "name": "Helsinki", "country": "", "spots": 18, "top": ["Suomenlinna", "Temppeliaukio Church (Rock Church)", "Helsinki Cathedral and Senate Square"], "also": ""},
+  {"slug": "heraklion", "name": "Heraklion", "country": "Greece", "spots": 11, "top": ["Knossos Palace", "Heraklion Archaeological Museum", "Koules Fortress"], "also": "greece"},
+  {"slug": "hiroshima", "name": "Hiroshima", "country": "Japan", "spots": 15, "top": ["Hiroshima Peace Memorial Museum", "Hiroshima Peace Memorial Park", "Hiroshima Station"], "also": "japan"},
+  {"slug": "hochiminhcity", "name": "Ho Chi Minh City", "country": "Vietnam", "spots": 16, "top": ["Bến Thành Market", "Landmark 81", "War Remnants Museum"], "also": "vietnam"},
+  {"slug": "hoian", "name": "Hoi An", "country": "Vietnam", "spots": 6, "top": ["Japanese Bridge", "Thu Bồn River", "An Hoi Bridge"], "also": "vietnam"},
+  {"slug": "holetown", "name": "Holetown", "country": "Barbados", "spots": 6, "top": ["Sandy Lane", "Fairmont Royal Pavilion", "Folkestone Marine Park"], "also": "barbados"},
+  {"slug": "hongkong", "name": "Hong Kong", "country": "China", "spots": 19, "top": ["Victoria Peak", "Temple Street Night Market", "The Peninsula Hong Kong"], "also": "china"},
+  {"slug": "honolulu", "name": "Honolulu", "country": "United States", "spots": 18, "top": ["Waikiki Beach", "Diamond Head", "Moana Surfrider"], "also": "united states"},
+  {"slug": "hurghada", "name": "Hurghada", "country": "Egypt", "spots": 4, "top": ["Hurghada Marina", "Hurghada Grand Aquarium", "Senzo Mall"], "also": "egypt"},
+  {"slug": "innsbruck", "name": "Innsbruck", "country": "Austria", "spots": 14, "top": ["Golden Roof", "Innsbruck Cathedral", "Helbling House"], "also": "austria"},
+  {"slug": "interlaken", "name": "Interlaken", "country": "Switzerland", "spots": 7, "top": ["Harder Kulm", "Interlaken Ost railway station", "Harderbahn"], "also": "switzerland"},
+  {"slug": "istanbul", "name": "Istanbul", "country": "Turkey", "spots": 20, "top": ["Hagia Sophia", "Grand Bazaar", "Topkapı Palace"], "also": "turkey"},
+  {"slug": "italy", "name": "Italy", "country": "Italy", "spots": 20, "top": ["Colosseum, Rome", "Tre Cime di Lavaredo, Dolomites", "Positano, Amalfi Coast"], "also": "italy"},
+  {"slug": "jaipur", "name": "Jaipur", "country": "India", "spots": 16, "top": ["Amber Fort", "Hawa Mahal", "Badi Chaupar"], "also": "india"},
+  {"slug": "jakarta", "name": "Jakarta", "country": "Indonesia", "spots": 14, "top": ["Istiqlal Mosque", "Ancol Dreamland", "National Monument (Monas)"], "also": "indonesia"},
+  {"slug": "jeju", "name": "Jeju", "country": "South Korea", "spots": 8, "top": ["Jeju Dongmun Traditional Market", "Jeju National Museum", "Samseonghyeol"], "also": "south korea"},
+  {"slug": "johannesburg", "name": "Johannesburg", "country": "South Africa", "spots": 16, "top": ["Ellis Park Stadium", "FNB Stadium", "Carlton Centre"], "also": "south africa"},
+  {"slug": "kagoshima", "name": "Kagoshima", "country": "Japan", "spots": 11, "top": ["Sakurajima", "Sengan-en", "Shiroyama Observation Deck"], "also": "japan"},
+  {"slug": "kandy", "name": "Kandy", "country": "Sri Lanka", "spots": 10, "top": ["Temple of the Tooth", "Royal Botanic Gardens, Peradeniya", "Queen's Hotel, Kandy"], "also": "sri lanka"},
+  {"slug": "kathmandu", "name": "Kathmandu", "country": "Nepal", "spots": 18, "top": ["Pashupatinath Temple", "Swayambhunath", "Garden of Dreams"], "also": "nepal"},
+  {"slug": "kobe", "name": "Kobe", "country": "Japan", "spots": 14, "top": ["Harborland", "Nankin-machi", "Kobe Port Tower"], "also": "japan"},
+  {"slug": "kotor", "name": "Kotor", "country": "Montenegro", "spots": 6, "top": ["Kotor Cathedral", "Church of Our Lady of Remedy"], "also": "montenegro"},
+  {"slug": "krabi", "name": "Krabi", "country": "Thailand", "spots": 6, "top": ["Railay Beach", "Ao Nang", "Tiger Cave Temple"], "also": "thailand"},
+  {"slug": "krakow", "name": "Krakow", "country": "Poland", "spots": 18, "top": ["St. Mary's Basilica", "Oskar Schindler's Enamel Factory", "Main Square, Kraków"], "also": "poland"},
+  {"slug": "kualalumpur", "name": "Kuala Lumpur", "country": "Malaysia", "spots": 19, "top": ["Central Market", "Petronas Towers", "Batu Caves"], "also": "malaysia"},
+  {"slug": "kyoto", "name": "Kyoto", "country": "", "spots": 20, "top": ["Kiyomizu-dera", "Kinkaku-ji (Golden Pavilion)", "Fushimi Inari Taisha"], "also": ""},
+  {"slug": "langkawi", "name": "Langkawi", "country": "Malaysia", "spots": 11, "top": ["Langkawi Sky Bridge", "Pantai Cenang", "Underwater World Langkawi"], "also": "malaysia"},
+  {"slug": "lasvegas", "name": "Las Vegas", "country": "United States", "spots": 19, "top": ["Welcome to Fabulous Las Vegas sign", "Caesars Palace", "Sphere (venue)"], "also": "united states"},
+  {"slug": "liepaja", "name": "Liepāja", "country": "Latvia", "spots": 11, "top": ["Karosta Prison", "Karosta", "St. Nicholas Naval Cathedral, Karosta"], "also": "latvia"},
+  {"slug": "lima", "name": "Lima", "country": "Peru", "spots": 18, "top": ["Huaca Pucllana", "Larco Museum", "Larcomar"], "also": "peru"},
+  {"slug": "linz", "name": "Linz", "country": "Austria", "spots": 13, "top": ["Ars Electronica Center", "Pöstlingberg", "Lentos Art Museum"], "also": "austria"},
+  {"slug": "lisbon", "name": "Lisbon", "country": "Portugal", "spots": 20, "top": ["Belém Tower", "Jerónimos Monastery", "São Jorge Castle"], "also": "portugal"},
+  {"slug": "ljubljana", "name": "Ljubljana", "country": "Slovenia", "spots": 19, "top": ["Ljubljana Castle", "Tivoli Park", "Ljubljana Castle funicular"], "also": "slovenia"},
+  {"slug": "london", "name": "London", "country": "United Kingdom England", "spots": 20, "top": ["Buckingham Palace", "Big Ben and the Houses of Parliament", "Tower of London"], "also": "united kingdom england"},
+  {"slug": "lucerne", "name": "Lucerne", "country": "Switzerland", "spots": 14, "top": ["Chapel Bridge", "Lion Monument", "Glacier Garden of Lucerne"], "also": "switzerland"},
+  {"slug": "lyon", "name": "Lyon", "country": "France", "spots": 19, "top": ["Place Bellecour", "Parc de la Tête d'Or", "Vieux Lyon"], "also": "france"},
+  {"slug": "macau", "name": "Macau", "country": "China", "spots": 19, "top": ["The Venetian Macao", "Grand Lisboa", "Macau Tower"], "also": "china"},
+  {"slug": "madrid", "name": "Madrid", "country": "Spain", "spots": 20, "top": ["Royal Palace of Madrid", "Puerta del Sol", "Temple of Debod"], "also": "spain"},
+  {"slug": "marrakech", "name": "Marrakech", "country": "Morocco", "spots": 16, "top": ["Jemaa el-Fnaa", "Majorelle Garden", "Yves Saint Laurent Museum in Marrakesh"], "also": "morocco"},
+  {"slug": "medina", "name": "Medina", "country": "Saudi Arabia", "spots": 11, "top": ["Quba Mosque", "Prophet's Mosque", "Islamic University of Madinah"], "also": "saudi arabia"},
+  {"slug": "melbourne", "name": "Melbourne", "country": "Australia", "spots": 20, "top": ["Royal Arcade, Melbourne", "Melbourne Cricket Ground", "Eureka Tower"], "also": "australia"},
+  {"slug": "mexicocity", "name": "Mexico City", "country": "Mexico", "spots": 18, "top": ["Frida Kahlo Museum", "Plaza Garibaldi", "National Museum of Anthropology"], "also": "mexico"},
+  {"slug": "miami", "name": "Miami", "country": "United States", "spots": 17, "top": ["Ocean Drive", "Kaseya Center", "Vizcaya Museum and Gardens"], "also": "united states"},
+  {"slug": "miamibeach", "name": "Miami Beach", "country": "United States", "spots": 15, "top": ["Lincoln Road", "Fontainebleau Miami Beach", "Ocean Drive"], "also": "united states"},
+  {"slug": "milan", "name": "Milan", "country": "Italy", "spots": 19, "top": ["Milan Cathedral (the Duomo)", "Galleria Vittorio Emanuele II", "Sforza Castle"], "also": "italy"},
+  {"slug": "molde", "name": "Molde", "country": "Norway", "spots": 6, "top": ["Aker Stadion", "Varden viewpoint", "Teatret Vårt"], "also": "norway"},
+  {"slug": "montreal", "name": "Montreal", "country": "Canada Quebec", "spots": 19, "top": ["Notre-Dame Basilica", "Mount Royal: Kondiaronk Belvedere", "Habitat 67"], "also": "canada quebec"},
+  {"slug": "mumbai", "name": "Mumbai", "country": "India", "spots": 16, "top": ["Marine Drive", "Gateway of India", "Taj Mahal Palace Hotel"], "also": "india"},
+  {"slug": "munich", "name": "Munich", "country": "Germany", "spots": 20, "top": ["Marienplatz", "New Town Hall", "St. Peter's Church"], "also": "germany"},
+  {"slug": "muscat", "name": "Muscat", "country": "Oman", "spots": 11, "top": ["Sultan Qaboos Grand Mosque", "Muttrah Souq", "Royal Opera House Muscat"], "also": "oman"},
+  {"slug": "mykonos", "name": "Mykonos", "country": "Greece", "spots": 9, "top": ["Little Venice", "Mykonos windmills", "Paradise Beach"], "also": "greece"},
+  {"slug": "nagasaki", "name": "Nagasaki", "country": "Japan", "spots": 19, "top": ["Dejima", "Nagasaki Atomic Bomb Museum", "Urakami Cathedral"], "also": "japan"},
+  {"slug": "nairobi", "name": "Nairobi", "country": "Kenya", "spots": 15, "top": ["David Sheldrick Wildlife Trust", "Nairobi National Park", "Giraffe Centre"], "also": "kenya"},
+  {"slug": "naples", "name": "Naples", "country": "Italy", "spots": 20, "top": ["Galleria Umberto I", "Spaccanapoli", "Piazza del Plebiscito"], "also": "italy"},
+  {"slug": "nara", "name": "Nara", "country": "Japan", "spots": 15, "top": ["Nara Park", "Tōdai-ji", "Kasuga-taisha"], "also": "japan"},
+  {"slug": "nassau", "name": "Nassau", "country": "The Bahamas", "spots": 17, "top": ["Atlantis Paradise Island", "Paradise Island", "Cable Beach"], "also": "the bahamas"},
+  {"slug": "neworleans", "name": "New Orleans", "country": "United States", "spots": 19, "top": ["Bourbon Street", "The National WWII Museum", "Preservation Hall"], "also": "united states"},
+  {"slug": "newyorkcity", "name": "New York City", "country": "United States", "spots": 20, "top": ["Statue of Liberty", "Central Park", "Grand Central Terminal"], "also": "united states"},
+  {"slug": "newark", "name": "Newark", "country": "United States", "spots": 16, "top": ["New Jersey Performing Arts Center", "Sports Illustrated Stadium", "Prudential Center"], "also": "united states"},
+  {"slug": "nice", "name": "Nice", "country": "France", "spots": 17, "top": ["Promenade des Anglais", "Musée Matisse", "Musée Marc Chagall"], "also": "france"},
+  {"slug": "nuremberg", "name": "Nuremberg", "country": "Germany", "spots": 14, "top": ["Nuremberg Castle (Kaiserburg)", "Nazi Party Rally Grounds Documentation Center", "Nuremberg Trials Memorium"], "also": "germany"},
+  {"slug": "oranjestad", "name": "Oranjestad", "country": "Aruba", "spots": 11, "top": ["Eagle Beach", "Palm Beach, Aruba", "Druif Beach"], "also": "aruba"},
+  {"slug": "orlando", "name": "Orlando", "country": "United States", "spots": 14, "top": ["Pulse (nightclub)", "Camping World Stadium", "Orlando Science Center"], "also": "united states"},
+  {"slug": "osaka", "name": "Osaka", "country": "Japan", "spots": 18, "top": ["Dōtonbori", "Osaka Castle", "Umeda Sky Building"], "also": "japan"},
+  {"slug": "oslo", "name": "Oslo", "country": "Norway", "spots": 19, "top": ["Oslo Opera House", "Munch Museum", "Viking Ship Museum"], "also": "norway"},
+  {"slug": "oxford", "name": "Oxford", "country": "United Kingdom", "spots": 20, "top": ["Christ Church, Oxford", "Ashmolean Museum", "Martyrs' Memorial, Oxford"], "also": "united kingdom"},
+  {"slug": "palermo", "name": "Palermo", "country": "Italy", "spots": 20, "top": ["Palermo Cathedral", "Teatro Massimo", "Catacombe dei Cappuccini"], "also": "italy"},
+  {"slug": "arraijan", "name": "Panama Canal", "country": "Panama", "spots": 8, "top": ["Soberanía National Park", "Smithsonian Tropical Research Institute", "Culebra Cut"], "also": "panama"},
+  {"slug": "papeete", "name": "Papeete", "country": "French Polynesia", "spots": 6, "top": ["Papeete Tahiti Temple", "Parc Bougainville", "Paofai Gardens"], "also": "french polynesia"},
+  {"slug": "paris", "name": "Paris", "country": "France", "spots": 20, "top": ["Eiffel Tower", "Arc de Triomphe and the Champs-Élysées", "Louvre and its Pyramid"], "also": "france"},
+  {"slug": "pattaya", "name": "Pattaya", "country": "Thailand", "spots": 10, "top": ["Walking Street, Pattaya", "Sanctuary of Truth", "Pattaya Beach"], "also": "thailand"},
+  {"slug": "phuket", "name": "Phuket", "country": "Thailand", "spots": 13, "top": ["Patong Beach", "Phuket Old Town", "Phuket Thai Hua Museum"], "also": "thailand"},
+  {"slug": "pittsburgh", "name": "Pittsburgh", "country": "United States", "spots": 16, "top": ["The Andy Warhol Museum", "PNC Park", "Acrisure Stadium"], "also": "united states"},
+  {"slug": "pokhara", "name": "Pokhara", "country": "Nepal", "spots": 9, "top": ["Phewa Lake", "Sarangkot", "Davis Falls"], "also": "nepal"},
+  {"slug": "portelizabeth", "name": "Port Elizabeth", "country": "Saint Vincent and the Grenadines", "spots": 6, "top": ["Port Elizabeth waterfront", "Princess Margaret Beach", "Moonhole"], "also": "saint vincent and the grenadines"},
+  {"slug": "porto", "name": "Porto", "country": "Portugal", "spots": 19, "top": ["Livraria Lello", "Porto Cathedral", "Bolhão Market"], "also": "portugal"},
+  {"slug": "prague", "name": "Prague", "country": "Czech Republic Czechia", "spots": 18, "top": ["Prague Castle", "Charles Bridge", "Astronomical Clock"], "also": "czech republic czechia"},
+  {"slug": "puntacana", "name": "Punta Cana", "country": "Dominican Republic", "spots": 5, "top": ["Punta Cana International Airport", "Playa Blanca (Punta Cana)", "Hoyo Azul"], "also": "dominican republic"},
+  {"slug": "quebeccity", "name": "Quebec City", "country": "Canada", "spots": 13, "top": ["Château Frontenac", "Montmorency Falls", "Dufferin Terrace"], "also": "canada"},
+  {"slug": "queenstown", "name": "Queenstown", "country": "New Zealand", "spots": 7, "top": ["Fergburger", "Queenstown Gardens", "Eichardt's Hotel"], "also": "new zealand"},
+  {"slug": "quito", "name": "Quito", "country": "Ecuador", "spots": 16, "top": ["Basílica del Voto Nacional", "TelefériQo", "Virgin of El Panecillo"], "also": "ecuador"},
+  {"slug": "reykjavik", "name": "Reykjavik", "country": "Iceland", "spots": 20, "top": ["Sky Lagoon", "Hallgrímskirkja", "Statue of Leif Erikson"], "also": "iceland"},
+  {"slug": "riga", "name": "Riga", "country": "Latvia", "spots": 19, "top": ["House of the Blackheads", "Riga Central Market", "Museum of the Occupation of Latvia"], "also": "latvia"},
+  {"slug": "riodejaneiro", "name": "Rio de Janeiro", "country": "Brazil", "spots": 20, "top": ["Christ the Redeemer", "Copacabana Beach", "Sugarloaf Mountain"], "also": "brazil"},
+  {"slug": "riyadh", "name": "Riyadh", "country": "Saudi Arabia", "spots": 9, "top": ["Deera Square", "Kingdom Centre", "Imam Turki bin Abdullah Grand Mosque"], "also": "saudi arabia"},
+  {"slug": "rome", "name": "Rome", "country": "Italy", "spots": 20, "top": ["Colosseum", "Trevi Fountain", "St Peter's Basilica and Square"], "also": "italy"},
+  {"slug": "rotorua", "name": "Rotorua", "country": "New Zealand", "spots": 12, "top": ["Te Puia", "Polynesian Spa", "Agrodome"], "also": "new zealand"},
+  {"slug": "rnne", "name": "Rønne", "country": "Denmark", "spots": 5, "top": ["Bornholm Museum", "Erichsens Gård", "Rønne Lighthouse"], "also": "denmark"},
+  {"slug": "salzburg", "name": "Salzburg", "country": "", "spots": 19, "top": ["Hohensalzburg Fortress", "Mirabell Palace and Gardens", "Schloss Leopoldskron"], "also": ""},
+  {"slug": "sandiego", "name": "San Diego", "country": "United States", "spots": 18, "top": ["Star of India", "San Diego Zoo", "Hotel del Coronado"], "also": "united states"},
+  {"slug": "sanfrancisco", "name": "San Francisco", "country": "United States", "spots": 20, "top": ["Golden Gate Bridge", "Alcatraz Island", "Fisherman's Wharf"], "also": "united states"},
+  {"slug": "sanjose", "name": "San José", "country": "Costa Rica", "spots": 14, "top": ["San José Central Market", "Metropolitan Cathedral of San José", "Spirogyra Butterfly Farm Park Garden"], "also": "costa rica"},
+  {"slug": "sanjuan", "name": "San Juan", "country": "Puerto Rico", "spots": 18, "top": ["Castillo San Felipe del Morro", "Isla Verde Beach", "Castillo San Cristóbal"], "also": "puerto rico"},
+  {"slug": "sanmigueldeallende", "name": "San Miguel de Allende", "country": "Mexico", "spots": 8, "top": ["El Chorro", "Parroquia de San Miguel Arcángel", "Casa de Allende"], "also": "mexico"},
+  {"slug": "santafe", "name": "Santa Fe", "country": "United States", "spots": 20, "top": ["Loretto Chapel and its staircase", "Georgia O'Keeffe Museum", "La Fonda on the Plaza"], "also": "new mexico united states usa"},
+  {"slug": "santiago", "name": "Santiago", "country": "Chile", "spots": 20, "top": ["Plaza de Armas", "San Cristóbal Hill", "Chilean National Museum of Fine Arts"], "also": "chile"},
+  {"slug": "santorini", "name": "Santorini", "country": "Greece", "spots": 15, "top": ["Oia", "Fira", "Perissa"], "also": "greece"},
+  {"slug": "sapporo", "name": "Sapporo", "country": "Japan", "spots": 15, "top": ["Odori Park", "Sapporo Beer Museum", "Nijo Market"], "also": "japan"},
+  {"slug": "seattle", "name": "Seattle", "country": "United States", "spots": 19, "top": ["Pioneer Square", "Pike Place Market", "Smith Tower"], "also": "united states"},
+  {"slug": "seoul", "name": "Seoul", "country": "South Korea", "spots": 18, "top": ["Gyeongbokgung Palace", "Sungnyemun (Namdaemun)", "Namdaemun Market"], "also": "south korea"},
+  {"slug": "seville", "name": "Seville", "country": "Spain", "spots": 19, "top": ["Real Alcázar of Seville", "Plaza de España", "Santa Cruz"], "also": "spain"},
+  {"slug": "shanghai", "name": "Shanghai", "country": "China", "spots": 18, "top": ["Shanghai Tower", "Yu Garden", "The Bund"], "also": "china"},
+  {"slug": "shenzhen", "name": "Shenzhen", "country": "China", "spots": 15, "top": ["Window of the World", "Ping An Finance Centre", "Splendid China Folk Village"], "also": "china"},
+  {"slug": "siemreap", "name": "Siem Reap", "country": "Cambodia", "spots": 17, "top": ["Angkor Wat", "Bayon", "Angkor Thom"], "also": "cambodia"},
+  {"slug": "singapore", "name": "Singapore", "country": "Singapore", "spots": 20, "top": ["Marina Bay Sands", "Sentosa", "Gardens by the Bay and the Supertree Grove"], "also": "singapore"},
+  {"slug": "split", "name": "Split", "country": "Croatia", "spots": 18, "top": ["Bačvice", "Marjan", "Poljud Stadium"], "also": "croatia"},
+  {"slug": "stockholm", "name": "Stockholm", "country": "", "spots": 18, "top": ["Vasa Museum", "Gamla Stan and Stortorget", "ABBA The Museum"], "also": ""},
+  {"slug": "sydney", "name": "Sydney", "country": "Australia", "spots": 20, "top": ["Sydney Opera House", "Sydney Harbour Bridge", "Circular Quay"], "also": "australia"},
+  {"slug": "tahiti", "name": "Tahiti", "country": "French Polynesia", "spots": 5, "top": ["Teahupo'o", "Mount Orohena", "Point Venus"], "also": "french polynesia"},
+  {"slug": "takamatsu", "name": "Takamatsu", "country": "Japan", "spots": 6, "top": ["Ritsurin Garden", "Takamatsu Castle", "Takamatsu Symbol Tower"], "also": "japan"},
+  {"slug": "tallinn", "name": "Tallinn", "country": "", "spots": 17, "top": ["Toompea Castle", "Seaplane Harbour", "Kadriorg Palace"], "also": ""},
+  {"slug": "tangier", "name": "Tangier", "country": "Morocco", "spots": 12, "top": ["Cape Spartel", "Kasbah Palace, Tangier", "Kasbah Mosque, Tangier"], "also": "morocco"},
+  {"slug": "tbilisi", "name": "Tbilisi", "country": "Georgia", "spots": 18, "top": ["Narikala Fortress", "Metekhi Church", "Freedom Square, Tbilisi"], "also": "georgia"},
+  {"slug": "terredehaut", "name": "Terre-de-Haut", "country": "Guadeloupe", "spots": 7, "top": ["Fort Napoléon des Saintes", "Notre Dame de l'Assomption, Les Saintes", "Pompierre Beach"], "also": "guadeloupe"},
+  {"slug": "tokyo", "name": "Tokyo", "country": "Japan", "spots": 19, "top": ["Shibuya Crossing", "Tokyo Skytree", "Tokyo Tower"], "also": "japan"},
+  {"slug": "toronto", "name": "Toronto", "country": "Canada", "spots": 20, "top": ["CN Tower", "Casa Loma", "Royal Ontario Museum (the Crystal)"], "also": "canada"},
+  {"slug": "trondheim", "name": "Trondheim", "country": "Norway", "spots": 11, "top": ["Nidaros Cathedral", "Archbishop's Palace", "Kristiansten Fortress"], "also": "norway"},
+  {"slug": "tulum", "name": "Tulum", "country": "Mexico", "spots": 5, "top": ["Akumal", "Tulum Archaeological Site", "Temple of the Frescoes"], "also": "mexico"},
+  {"slug": "ubud", "name": "Ubud", "country": "Indonesia", "spots": 8, "top": ["Ubud Monkey Forest", "Ubud Palace", "Goa Gajah"], "also": "indonesia"},
+  {"slug": "valletta", "name": "Valletta", "country": "Malta", "spots": 20, "top": ["St John's Co-Cathedral", "Collegiate Parish Church of St Paul's Shipwreck", "National Library of Malta"], "also": "malta"},
+  {"slug": "valparaiso", "name": "Valparaiso", "country": "United States", "spots": 4, "top": ["Valparaiso University", "Chapel of the Resurrection", "Christopher Center"], "also": "united states"},
+  {"slug": "vancouver", "name": "Vancouver", "country": "Canada", "spots": 20, "top": ["Capilano Suspension Bridge", "Gastown and the Steam Clock", "Stanley Park and the Seawall"], "also": "canada"},
+  {"slug": "vatican", "name": "Vatican City", "country": "Vatican City Rome Italy", "spots": 8, "top": ["St Peter's Basilica", "St Peter's Square and the colonnade", "Vatican Museums"], "also": "vatican city rome italy"},
+  {"slug": "venice", "name": "Venice", "country": "Italy", "spots": 17, "top": ["Rialto Bridge", "Grand Canal", "Fondaco dei Tedeschi"], "also": "italy"},
+  {"slug": "losangeles", "name": "Venice Beach", "country": "United States", "spots": 11, "top": ["Venice Beach", "Marina del Rey Harbor", "Venice Beach Basketball Courts"], "also": "united states"},
+  {"slug": "verona", "name": "Verona", "country": "Italy", "spots": 19, "top": ["Verona Arena", "Juliet's House", "Ponte Pietra"], "also": "italy"},
+  {"slug": "vienna", "name": "Vienna", "country": "Austria", "spots": 20, "top": ["St. Stephen's Cathedral", "Schönbrunn Palace", "Hofburg"], "also": "austria"},
+  {"slug": "vikyri", "name": "Vikøyri", "country": "Norway", "spots": 4, "top": ["Hopperstad Stave Church", "Vik Church", "Moahaugane"], "also": "norway"},
+  {"slug": "vilnius", "name": "Vilnius", "country": "Lithuania", "spots": 19, "top": ["Vilnius University", "Gediminas' Tower", "Church of St. Johns, Vilnius"], "also": "lithuania"},
+  {"slug": "warsaw", "name": "Warsaw", "country": "Poland", "spots": 20, "top": ["Palace of Culture and Science", "Warsaw Uprising Museum", "Royal Castle"], "also": "poland"},
+  {"slug": "whistler", "name": "Whistler", "country": "Canada", "spots": 7, "top": ["Whistler Mountain", "Peak 2 Peak Gondola", "Whistler Village"], "also": "canada"},
+  {"slug": "willemstad", "name": "Willemstad", "country": "Curaçao", "spots": 14, "top": ["Fort Nassau", "Queen Emma Bridge", "Handelskade"], "also": "curaçao"},
+  {"slug": "york", "name": "York", "country": "United Kingdom", "spots": 19, "top": ["Bettys", "The Shambles", "Stonegate"], "also": "united kingdom"},
+  {"slug": "zermatt", "name": "Zermatt", "country": "Switzerland", "spots": 9, "top": ["Matterhorn", "Gornergrat", "Zermatt railway station"], "also": "switzerland"},
+  {"slug": "zurich", "name": "Zurich", "country": "Switzerland", "spots": 20, "top": ["University of Zurich", "Zürich Hauptbahnhof", "Bahnhofstrasse"], "also": "switzerland"},
+  {"slug": "alesund", "name": "Ålesund", "country": "", "spots": 15, "top": ["Brosundet canal", "Fjellstua viewpoint on Mount Aksla", "Atlanterhavsparken aquarium"], "also": ""},
+  {"slug": "ceskykrumlov", "name": "Český Krumlov", "country": "", "spots": 11, "top": ["Český Krumlov Castle", "Castle Gardens", "Barber's Bridge (Lazebnický most)"], "also": ""}
+];
+/* Featured: the six most-searched places in pipeline/data/top_searched.csv that have a map. */
+var FEATURED = ["paris","tokyo","rome","amsterdam","barcelona","singapore"];
+
+function norm(s){return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ").trim();}
+function esc(s){return s.replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function url(m){return "/library/"+m.slug+"/";}
+
+/* decorative card header: soft street pattern plus a pin and phone, varied per map */
+var SNAPS = ["amsterdam", "barcelona", "paris", "rome", "singapore", "tokyo"];
+function cardArt(i, slug, name){
+  if (SNAPS.indexOf(slug) >= 0) return '<img src="/img/home/' + slug + '.jpg" width="380" height="150" loading="lazy" alt="Map of ' + esc(name) + ' with its 3 free photo spots">';
+  return '';
+}
+
+function renderFeatured(){
+  var box=document.getElementById("featured"), html="";
+  FEATURED.forEach(function(slug,i){
+    var m=MAPS.filter(function(x){return x.slug===slug;})[0]; if(!m) return;
+    var more=m.spots-3;
+    html+='<a class="mapcard" href="'+url(m)+'" aria-label="'+esc(m.name)+' photo spots map: '+m.spots+' spots, 3 free">'+
+      '<div class="top">'+cardArt(i,m.slug,m.name)+'</div><div class="body">'+
+      '<div class="meta">'+esc(m.country)+' · '+m.spots+' photo spots</div>'+
+      '<h3>'+esc(m.name)+'</h3>'+
+      '<ul class="spots">'+m.top.map(function(t,k){return '<li><span class="num" aria-hidden="true">'+(k+1)+'</span><span>'+esc(t)+'</span></li>';}).join("")+'</ul>'+
+      '<div class="free">3 spots free</div>'+
+      '<div class="locked"><svg width="14" height="16" viewBox="0 0 14 16" aria-hidden="true"><rect x="1" y="7" width="12" height="8" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>'+
+      more+' more spots for members</div></div></a>';
+  });
+  box.innerHTML=html;
+  document.getElementById("mapCount").textContent=MAPS.length;
+}
+
+function search(q){
+  var n=norm(q), out=document.getElementById("results");
+  if(!n){out.innerHTML="";return [];}
+  var hits=MAPS.filter(function(m){
+    var hay=norm(m.name+" "+m.country+" "+m.also+" "+m.top.join(" "));
+    return n.split(" ").every(function(w){return hay.indexOf(w)>=0;});
+  });
+  if(!hits.length){
+    out.innerHTML='<li class="none">No map for "'+esc(q)+'" yet. The library is growing: <a href="/library/">see all maps</a> or <a href="#newsletter">join the newsletter</a> to hear about new ones.</li>';
+  } else {
+    out.innerHTML=hits.map(function(m){return '<li><a href="'+url(m)+'"><span>'+esc(m.name)+'</span><small>'+esc(m.country)+' · '+m.spots+' spots</small></a></li>';}).join("");
+  }
+  return hits;
+}
+var q=document.getElementById("q");
+q.addEventListener("input",function(){search(q.value);});
+document.getElementById("searchForm").addEventListener("submit",function(e){
+  e.preventDefault(); var h=search(q.value); if(h.length) location.href=url(h[0]);
+});
+q.addEventListener("keydown",function(e){
+  if(e.key==="ArrowDown"){var a=document.querySelector("#results a"); if(a){e.preventDefault();a.focus();}}
+});
+document.getElementById("results").addEventListener("keydown",function(e){
+  var links=[].slice.call(this.querySelectorAll("a")), i=links.indexOf(document.activeElement);
+  if(e.key==="ArrowDown"&&i<links.length-1){e.preventDefault();links[i+1].focus();}
+  if(e.key==="ArrowUp"){e.preventDefault(); if(i>0) links[i-1].focus(); else q.focus();}
+  if(e.key==="Escape"){q.focus();}
+});
+
+/* billing toggle */
+function setBilling(annual){
+  document.getElementById("bMonthly").setAttribute("aria-pressed",String(!annual));
+  document.getElementById("bAnnual").setAttribute("aria-pressed",String(annual));
+  document.querySelectorAll(".plan .price").forEach(function(p){
+    p.querySelector(".amt").textContent=annual?p.dataset.a:p.dataset.m;
+    p.querySelector(".per").textContent=annual?"/ year":"/ month";
+  });
+  document.querySelectorAll(".plan .price-note").forEach(function(p){p.textContent=annual?p.dataset.a:p.dataset.m;});
+}
+document.getElementById("bMonthly").addEventListener("click",function(){setBilling(false);});
+document.getElementById("bAnnual").addEventListener("click",function(){setBilling(true);});
+
+/* phone menu */
+var ham=document.getElementById("hamBtn"), mob=document.getElementById("mobMenu");
+if(ham&&mob)ham.addEventListener("click",function(){var o=mob.classList.toggle("open");ham.setAttribute("aria-expanded",String(o));ham.setAttribute("aria-label",o?"Close menu":"Open menu");});
+if(mob)mob.addEventListener("click",function(e){if(e.target.tagName==="A"){mob.classList.remove("open");ham.setAttribute("aria-expanded","false");}});
+
+renderFeatured();
+</script>
+<script>document.querySelectorAll("#bMonthly,#bAnnual").forEach(function (b) { b.addEventListener("click", function () { document.getElementById("joinE").href = b.id === "bAnnual" ? "/join/?plan=year" : "/join/"; }); });</script>
 </body>
 </html>

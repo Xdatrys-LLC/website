@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "arraijan", "title": "Panama Canal: 8 photo spots (pilot review)", "place": "Panama Canal", "bounds": [-79.74, 8.99, -79.57, 9.13], "center": [-79.655, 9.06], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/arraijan/{z}/{x}/{y}.pbf", "tz": "America/Panama", "rail": false, "app": true};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "bruges", "title": "Bruges: 18 photo spots (pilot review)", "place": "Bruges", "bounds": [3.205, 51.192, 3.242, 51.221], "center": [3.2235, 51.2065], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bruges/{z}/{x}/{y}.pbf"};

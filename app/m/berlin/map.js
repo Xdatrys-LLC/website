@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "berlin", "title": "Berlin: 20 photo spots (pilot review)", "place": "Berlin", "bounds": [13.325, 52.495, 13.455, 52.54], "center": [13.39, 52.5175], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/berlin/{z}/{x}/{y}.pbf", "tz": "Europe/Berlin", "rail": true, "app": true};

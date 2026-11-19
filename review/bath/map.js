@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "bath", "title": "Bath: 13 photo spots (pilot review)", "place": "Bath", "bounds": [-2.375, 51.368, -2.34, 51.395], "center": [-2.3575, 51.3815], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bath/{z}/{x}/{y}.pbf"};

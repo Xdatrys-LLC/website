@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "krabi", "title": "Krabi: 6 photo spots (pilot review)", "place": "Krabi", "bounds": [98.75, 7.95, 99.0, 8.15], "center": [98.875, 8.05], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/krabi/{z}/{x}/{y}.pbf", "tz": "Asia/Bangkok", "rail": false, "app": true};

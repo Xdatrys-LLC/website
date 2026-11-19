@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "cairns", "title": "Cairns: 6 photo spots (pilot review)", "place": "Cairns", "bounds": [145.7, -16.945, 145.795, -16.875], "center": [145.7475, -16.91], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/cairns/{z}/{x}/{y}.pbf", "tz": "Australia/Brisbane", "rail": true, "app": true};

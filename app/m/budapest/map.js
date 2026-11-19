@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "budapest", "title": "Budapest: 20 photo spots (pilot review)", "place": "Budapest", "bounds": [19.02, 47.475, 19.095, 47.532], "center": [19.057499999999997, 47.5035], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/budapest/{z}/{x}/{y}.pbf", "tz": "Europe/Budapest", "rail": true, "app": true};

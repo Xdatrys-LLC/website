@@ -1,0 +1,316 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Mykonos Attractions Map: 9 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Mykonos tourist map of 9 top photo spots, including Little Venice and Kato Mili windmills: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in mykonos, mykonos attractions, mykonos tourist map, best views in mykonos, best photo spots in mykonos, little venice, mykonos windmills, paradise beach">
+<link rel="canonical" href="https://xdatrys.com/library/mykonos/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Mykonos Attractions Map: 9 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Mykonos tourist map of 9 top photo spots, including Little Venice and Kato Mili windmills: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/mykonos/">
+<meta property="og:image" content="https://xdatrys.com/library/mykonos/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Little Venice, Mykonos: a row of 18th-century captains&#39; houses whose balconies hang out over. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/mykonos/","url":"https://xdatrys.com/library/mykonos/","name":"Mykonos Attractions Map: 9 Best Photo Spots | Xdatrys","description":"A Mykonos tourist map of 9 top photo spots, including Little Venice and Kato Mili windmills: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/mykonos/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Mykonos"},"mainEntity":{"@type":"ItemList","name":"Mykonos photo spots","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Little Venice","description":"Little Venice is a row of 18th-century captains' houses whose balconies hang out over the water, with the Aegean right behind them.","geo":{"@type":"GeoCoordinates","latitude":37.445862,"longitude":25.326431},"alternateName":["Mykonos Little Venice"],"image":"https://xdatrys.com/library/mykonos/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Mykonos windmills","description":"The Mykonos windmills are the island's best-known skyline: a row of round, whitewashed towers with pointed roofs and very small windows, standing on a hill above the town and the sea.","geo":{"@type":"GeoCoordinates","latitude":37.4445787,"longitude":25.3256488},"alternateName":["Kato Mili","Mykonos Windmill"],"image":"https://xdatrys.com/library/mykonos/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Paradise Beach","description":"Paradise Beach is a beach on Mykonos, and it photographs well because of its shape.","geo":{"@type":"GeoCoordinates","latitude":37.410063,"longitude":25.355705},"alternateName":["Mykonos Paradise Beach"],"image":"https://xdatrys.com/library/mykonos/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/mykonos/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Mykonos","item":"https://xdatrys.com/library/mykonos/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Mykonos?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Little Venice, Kato Mili windmills and Paradise Beach. They are ranked by how often people search for them. The full map has 9."}},{"@type":"Question","name":"Where should I stand to photograph Little Venice?","acceptedAnswer":{"@type":"Answer","text":"Stand right at Little Venice: the phone icon on the map marks the spot. Start with the ultra-wide (0.5x) to fit the whole row of balconies and the sea into one frame from the small promenade."}},{"@type":"Question","name":"When is the best time to photograph Kato Mili windmills?","acceptedAnswer":{"@type":"Answer","text":"Early morning or late afternoon, when the sun is lower, gives softer light and more shape to the white walls. Early or late in the day is often calmer too, but check on the day."}},{"@type":"Question","name":"How do I get to Paradise Beach?","acceptedAnswer":{"@type":"Answer","text":"No rail or tram stop is listed for this spot."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Mykonos</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/mykonos/?gate" style="color:#E100FF">✏️ Review all 9 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>9 photo spots in Mykonos: where to stand and how to shoot them on your phone</h1>
+  <p>9 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 6 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 9 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/mykonos/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 9 photo spots in Mykonos"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 9 of the most-searched sights in Mykonos as photo spots, ranked by how often people search for them: Little Venice, Kato Mili windmills, Paradise Beach, Psarou Beach and Paraportiani Church lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Little Venice</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Little_Venice_in_March.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Little Venice, Mykonos: a row of 18th-century captains&#39; houses whose balconies hang out over. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Matthias v.d. Elbe, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Little Venice is a row of 18th-century captains&#39; houses whose balconies hang out over the water, with the Aegean right behind them. That mix of old houses, sea and open sky is why it is so popular with visitors, and guides call it the most photographed viewpoint on the island. The best-known angle is from the small promenade at the north end, looking south along the balconies. From there you get clean, front-on shots of the building facades without too much clutter in the frame. A phone copes well here, because the whole scene is close and colourful. Stand still for a moment before you shoot and check that the horizon and the balcony lines are straight. If you have time, try a second shot a little lower or from a different corner so that the water fills more of the picture. The place gets very crowded from late afternoon in summer, and the terrace seats fill up before sunset, so arrive early if you want a clear view. Two nearby spots give a different take. Kato Mili shows the whitewashed windmills in the foreground with Little Venice and the bay below, but it is often windy at the top. Panagia Paraportiani gives a lower angle of Little Venice with the windmills in the background; take care on the uneven ground there.</p>
+    <p><b>Where it is:</b> Little Venice is on the Mykonos waterfront. It sits close to the Kato Mili windmills and the Panagia Paraportiani church.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to fit the whole row of balconies and the sea into one frame from the small promenade. Then switch to the default lens (1x) for a more natural look, and use the telephoto (2x or more, depending on your phone) to pick out balcony and window details.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. From there you see the row of 18th-century captains&#39; houses with their balconies over the water, framed against the Aegean.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line up the balcony row with one of the horizontal lines so the houses do not lean. Keep a strip of sea or sky in the frame to show how close the houses are to the water. For a different view, try Kato Mili for the windmills in the foreground with Little Venice below, or Panagia Paraportiani for a lower angle.</p>
+      <p><b>Settings tip:</b> Tap on the whitewashed walls to focus, then drag the exposure slider down a little so the white does not wash out and the sea and sky keep their colour. If the light is low near sunset, hold the phone steady against your body or a railing. Take a few frames in case someone walks through.</p>
+      <p><b>Best time:</b> About 45 minutes before sunset, before the promenade fills with people. Some visitors prefer sunrise for emptier streets.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Mykonos windmills</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Windmills_in_Mykonos_02.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Mykonos windmills, Mykonos: the island&#39;s best-known skyline. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Bernard Gagnon, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Mykonos windmills are the island&#39;s best-known skyline: a row of round, whitewashed towers with pointed roofs and very small windows, standing on a hill above the town and the sea. There are 16 windmills on the island, and seven of them stand on this hill in Chora, the main town. Most were built by the Venetians in the 16th century, though building carried on into the early 20th century. They ground wheat and were an important source of income for local people until production stopped in the middle of the 20th century. One of them is now a museum.</p><p>They photograph well because the shapes are simple and repeat: white walls, pointed roofs and a lot of open sky. Most of them face north, towards the strongest winds. Take one wide shot to show the whole row against the sky, then step closer for a single tower with its door and small windows. Look down the hill too: Chora and part of the harbour can be seen from this high ground, and they make a good second picture with the windmills at the edge of the frame. Allow a few minutes, as other visitors will be walking through your shot.</p>
+    <p><b>Where it is:</b> On the hill overlooking the harbour on the edge of Chora (Mykonos Town), on the island of Mykonos in the Cyclades.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to take in the whole row against the sky, then switch to the default lens (1x) for a tidier view. Use the telephoto (2x-5x, depending on your phone) to pick out one windmill or the town below.</p>
+      <p><b>Where to stand:</b> Stand about 30 m north-east of the subject, at the phone icon on the map, and face south-west. Take your wide shots from here, then walk the minute or so towards them for close-ups.</p>
+      <p><b>Framing:</b> Turn on the gridlines and place the row of windmills along the lower third, leaving the sky above. Keep the horizon level, as the white towers make any tilt obvious. For a close shot, frame one windmill with its pointed roof against clear sky and keep other visitors out of the edges.</p>
+      <p><b>Settings tip:</b> Tap on a white wall to focus, then slide the exposure down a little so the white does not turn grey or lose detail in bright sun. If the sky looks flat, tap on it and check the brightness again.</p>
+      <p><b>Best time:</b> Early morning or late afternoon, when the sun is lower, gives softer light and more shape to the white walls. Early or late in the day is often calmer too, but check on the day.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Paradise Beach</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Surfers_Paradise,_QLD_skyline.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Paradise Beach, Mykonos: a beach on Mykonos. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: chillmimi, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Paradise Beach is a beach on Mykonos, and it photographs well because of its shape. The sand curves around a bay, with beach clubs, umbrellas and sunbeds lined up along it. That repeating pattern gives a phone photo plenty of colour and structure.</p><p>The best overview comes from the rocks at the edges of the bay, above the beach clubs. From up there you can see the whole bay at once, with the umbrellas and sunbeds running along the sand. A guide also says these rocks work well for a photoshoot, so they suit portraits of friends with the bay behind them. Check on the day that the rocks are still accessible.</p><p>On the sand, look for simple compositions: the water&#39;s edge, rows of sunbeds, or one umbrella against the sea. Early morning is suggested for quieter water and sand compositions. In high season, expect crowds and music from the beach clubs, so keep people out of the frame or use them to show the atmosphere. Try a wide shot first, then a closer one of a detail such as a row of umbrellas. Keep your phone lens clean, as sea air and sunscreen quickly smear it.</p>
+    <p><b>Where it is:</b> Paradise Beach is on the coast of Mykonos, on a bay lined with beach clubs. Agia Anna is a separate beach nearby.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) from the rocks to fit the whole bay and the line of beach clubs into one frame. Switch to the default lens (1x) for a more natural view of the umbrellas and sunbeds. Use telephoto (2x-5x, depending on your phone) to pick out a row of umbrellas or a single detail on the sand.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. Stand on Paradise Beach, on the rocks at the edges of the bay, above the beach clubs. From here the photo shows a wide view of the whole bay, with the beach clubs and their umbrellas and sunbeds lining the sand.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the horizon on one of the lines so the bay looks level. Let the curve of the sand lead the eye along the picture. For a portrait, use portrait mode with your subject on the rocks and the bay behind. Panorama also works if you move slowly and keep the phone steady. Wait for people to move out of the way before you press the shutter.</p>
+      <p><b>Settings tip:</b> Tap to focus on the beach clubs or your subject, then use the exposure slider to bring the brightness down a little so the pale sand and sky keep their detail. Clean the lens before you start.</p>
+      <p><b>Best time:</b> Early morning is suggested for quieter water and sand compositions, and it also means fewer people and less music.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>6 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Psarou <small>· members</small></li>
+    <li><span class="n">5</span>Church of Panagia Paraportiani <small>· members</small></li>
+    <li><span class="n">6</span>Ftelia <small>· members</small></li>
+    <li><span class="n">7</span>Archaeological Museum of Mykonos <small>· members</small></li>
+    <li><span class="n">8</span>Aegean Maritime Museum <small>· members</small></li>
+    <li><span class="n">9</span>Panagia Tourliani Monastery <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Mykonos?</summary><p>The first three on this map are Little Venice, Kato Mili windmills and Paradise Beach. They are ranked by how often people search for them. The full map has 9.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Little Venice?</summary><p>Stand right at Little Venice: the phone icon on the map marks the spot. Start with the ultra-wide (0.5x) to fit the whole row of balconies and the sea into one frame from the small promenade.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Kato Mili windmills?</summary><p>Early morning or late afternoon, when the sun is lower, gives softer light and more shape to the white walls. Early or late in the day is often calmer too, but check on the day.</p></details>
+  <details class="faq"><summary>How do I get to Paradise Beach?</summary><p>No rail or tram stop is listed for this spot.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Mykonos_windmills" target="_blank" rel="noopener">Mykonos windmills</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"mykonos","place":"Mykonos","bounds":[25.31,37.405,25.41,37.475],"center":[25.36,37.44],"english":false,"vatican":false,"tiles":"/r2tiles/mykonos/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

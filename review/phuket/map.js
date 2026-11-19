@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "phuket", "title": "Phuket: 13 photo spots (pilot review)", "place": "Phuket", "bounds": [98.27, 7.75, 98.42, 7.97], "center": [98.345, 7.859999999999999], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/phuket/{z}/{x}/{y}.pbf"};

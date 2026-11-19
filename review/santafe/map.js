@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "santafe", "title": "Santa Fe: 20 photo spots (pilot review)", "place": "Santa Fe", "bounds": [-106.005, 35.645, -105.915, 35.7], "center": [-105.96000000000001, 35.6725], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/santafe/{z}/{x}/{y}.pbf"};

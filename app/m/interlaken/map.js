@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "interlaken", "title": "Interlaken: 7 photo spots (pilot review)", "place": "Interlaken", "bounds": [7.835, 46.664, 7.88, 46.705], "center": [7.8575, 46.6845], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/interlaken/{z}/{x}/{y}.pbf", "tz": "Europe/Zurich", "rail": true, "app": true};

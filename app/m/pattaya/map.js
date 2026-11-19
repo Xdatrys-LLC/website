@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "pattaya", "title": "Pattaya: 10 photo spots (pilot review)", "place": "Pattaya", "bounds": [100.845, 12.868, 100.92, 12.985], "center": [100.8825, 12.9265], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/pattaya/{z}/{x}/{y}.pbf", "tz": "Asia/Bangkok", "rail": false, "app": true};

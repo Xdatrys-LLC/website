@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "macau", "title": "Macau: 19 photo spots (pilot review)", "place": "Macau", "bounds": [113.525, 22.14, 113.57, 22.205], "center": [113.5475, 22.1725], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/macau/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "chicago", "title": "Chicago: 20 photo spots (pilot review)", "place": "Chicago", "bounds": [-87.65, 41.855, -87.59, 41.905], "center": [-87.62, 41.879999999999995], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/chicago/{z}/{x}/{y}.pbf", "tz": "America/Chicago", "rail": true, "app": true};

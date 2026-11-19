@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "shenzhen", "title": "Shenzhen: 15 photo spots (pilot review)", "place": "Shenzhen", "bounds": [113.94, 22.49, 114.12, 22.58], "center": [114.03, 22.534999999999997], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/shenzhen/{z}/{x}/{y}.pbf"};

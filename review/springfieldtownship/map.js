@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "springfieldtownship", "title": "Fallingwater: 5 photo spots (pilot review)", "place": "Fallingwater", "bounds": [-79.53, 39.862, -79.455, 39.915], "center": [-79.4925, 39.8885], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/springfieldtownship/{z}/{x}/{y}.pbf"};

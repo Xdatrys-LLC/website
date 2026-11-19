@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "bologna", "title": "Bologna: 16 photo spots (pilot review)", "place": "Bologna", "bounds": [11.295, 44.474, 11.362, 44.502], "center": [11.3285, 44.488], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/bologna/{z}/{x}/{y}.pbf", "tz": "Europe/Rome", "rail": true, "app": true};

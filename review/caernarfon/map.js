@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "caernarfon", "title": "Caernarfon: 5 photo spots (pilot review)", "place": "Caernarfon", "bounds": [-4.283, 53.134, -4.261, 53.143], "center": [-4.272, 53.1385], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/caernarfon/{z}/{x}/{y}.pbf"};

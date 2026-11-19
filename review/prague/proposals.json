@@ -1,0 +1,29 @@
+[
+ {
+  "name": "Prague Castle",
+  "note": "Commons castle photos geotagged on the bridge; 2 pages; the owner's St Vitus correction (confidence low-medium)",
+  "stand_here": [
+   50.08648,
+   14.41205
+  ],
+  "rank": 1
+ },
+ {
+  "name": "Astronomical Clock",
+  "note": "Wikipedia; OSM node 4748580936; Commons camera cluster south of the clock (confidence high)",
+  "stand_here": [
+   50.0868,
+   14.4209
+  ],
+  "rank": 3
+ },
+ {
+  "name": "Powder Tower and Municipal House",
+  "rank": 18,
+  "stand_here": [
+   50.087517,
+   14.4283623
+  ],
+  "note": "Photo check: Commons photos of this subject were taken from 53 separate places centred here, 219 m from the current phone; 0 near the phone. Check before keeping."
+ }
+]

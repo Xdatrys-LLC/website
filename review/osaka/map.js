@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "osaka", "title": "Osaka: 18 photo spots (pilot review)", "place": "Osaka", "bounds": [135.482, 34.64, 135.54, 34.71], "center": [135.511, 34.675], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/osaka/{z}/{x}/{y}.pbf"};

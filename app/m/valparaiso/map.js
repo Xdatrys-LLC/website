@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "valparaiso", "title": "Valparaiso: 4 photo spots (pilot review)", "place": "Valparaiso", "bounds": [-87.075, 41.452, -87.034, 41.478], "center": [-87.0545, 41.465], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/valparaiso/{z}/{x}/{y}.pbf", "tz": "America/Chicago", "rail": false, "app": true};

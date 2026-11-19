@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "heraklion", "title": "Heraklion: 11 photo spots (pilot review)", "place": "Heraklion", "bounds": [25.11, 35.285, 25.185, 35.352], "center": [25.1475, 35.3185], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/heraklion/{z}/{x}/{y}.pbf"};

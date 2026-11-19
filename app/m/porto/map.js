@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "porto", "title": "Porto: 19 photo spots (pilot review)", "place": "Porto", "bounds": [-8.645, 41.125, -8.585, 41.165], "center": [-8.615, 41.144999999999996], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/porto/{z}/{x}/{y}.pbf", "tz": "Europe/Lisbon", "rail": true, "app": true};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "zurich", "title": "Zurich: 20 photo spots (pilot review)", "place": "Zurich", "bounds": [8.515, 47.348, 8.565, 47.392], "center": [8.54, 47.370000000000005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/zurich/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "geneva", "title": "Geneva: 19 photo spots (pilot review)", "place": "Geneva", "bounds": [6.118, 46.188, 6.185, 46.232], "center": [6.1515, 46.21], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/geneva/{z}/{x}/{y}.pbf"};

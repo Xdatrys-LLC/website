@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "terredehaut", "title": "Terre-de-Haut: 7 photo spots (pilot review)", "place": "Terre-de-Haut", "bounds": [-61.606, 15.855, -61.566, 15.88], "center": [-61.586, 15.8675], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/terredehaut/{z}/{x}/{y}.pbf"};

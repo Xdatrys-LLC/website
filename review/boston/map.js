@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "boston", "title": "Boston: 20 photo spots (pilot review)", "place": "Boston", "bounds": [-71.105, 42.34, -71.04, 42.38], "center": [-71.0725, 42.36], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/boston/{z}/{x}/{y}.pbf"};

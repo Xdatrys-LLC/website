@@ -1,0 +1,318 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Venice Beach Attractions Map: 11 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="Map of the 11 best photo spots in Venice Beach, including Venice Beach and Marina del Rey: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="venice beach, marina del rey, venice beach basketball courts">
+<link rel="canonical" href="https://xdatrys.com/library/losangeles/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Venice Beach Attractions Map: 11 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="Map of the 11 best photo spots in Venice Beach, including Venice Beach and Marina del Rey: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/losangeles/">
+<meta property="og:image" content="https://xdatrys.com/library/losangeles/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="375">
+<meta property="og:image:alt" content="Venice Beach, Venice Beach: a seaside neighbourhood of Los Angeles. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/losangeles/","url":"https://xdatrys.com/library/losangeles/","name":"Venice Beach Attractions Map: 11 Best Photo Spots | Xdatrys","description":"Map of the 11 best photo spots in Venice Beach, including Venice Beach and Marina del Rey: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/losangeles/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Venice Beach"},"mainEntity":{"@type":"ItemList","name":"Venice Beach photo spots","numberOfItems":11,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Venice Beach","description":"Venice is a seaside neighbourhood of Los Angeles, and the neon-style Venice sign on Windward Avenue is the picture most visitors come away with.","geo":{"@type":"GeoCoordinates","latitude":33.995044,"longitude":-118.4668875},"alternateName":["Venice Beach Sand","Venice Beach Sunset"],"image":"https://xdatrys.com/library/losangeles/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Marina del Rey Harbor","description":"Marina del Rey is a huge, calm harbour on the Los Angeles coast, just south-east of Venice.","geo":{"@type":"GeoCoordinates","latitude":33.9794444,"longitude":-118.4527778},"alternateName":["Marina del Rey Yachts"],"image":"https://xdatrys.com/library/losangeles/photos/2.jpg"}},{"@type":"ListItem","position":10,"item":{"@type":"TouristAttraction","name":"Venice Beach Basketball Courts","description":"The Venice Beach Basketball Courts are open-air courts beside Ocean Front Walk, the 2.5-mile (4 km) pedestrian promenade where performers, fortune-tellers and vendors set up.","geo":{"@type":"GeoCoordinates","latitude":33.995044,"longitude":-118.4668875},"alternateName":["Venice Basketball Courts"],"image":"https://xdatrys.com/library/losangeles/photos/10.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/losangeles/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Venice Beach","item":"https://xdatrys.com/library/losangeles/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Venice Beach?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Venice Beach, Marina del Rey and Mother's Beach. They are ranked by how often people search for them. The full map has 11."}},{"@type":"Question","name":"Where should I stand to photograph Venice Beach?","acceptedAnswer":{"@type":"Answer","text":"Stand at the corner of Pacific Avenue and Windward Avenue (stand across Windward Avenue, facing inland). Use the default lens (1x) so the sign and arches look natural."}},{"@type":"Question","name":"When is the best time to photograph Marina del Rey?","acceptedAnswer":{"@type":"Answer","text":"Early morning for soft light, or sunset for a warm evening sky over the water."}},{"@type":"Question","name":"How do I get to Basketball Courts?","acceptedAnswer":{"@type":"Answer","text":"No Underground, tram or train stops are listed nearby."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Venice Beach</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/losangeles/?gate" style="color:#E100FF">✏️ Review all 11 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>11 photo spots in Venice Beach: where to stand and how to shoot them on your phone</h1>
+  <p>11 photo spots on one map. Spots 1, 2 and 10 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 8 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 11 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/losangeles/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 11 photo spots in Venice Beach"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 11 of the most-searched sights in Venice Beach as photo spots, ranked by how often people search for them: Venice Beach, Marina del Rey, Mother&#39;s Beach, Muscle Beach and Venice Canals lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Venice Beach</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Beach_bikepath_in_the_Venice_Beach_park,_California.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Venice Beach, Venice Beach: a seaside neighbourhood of Los Angeles. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: unknown, Public domain, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Venice is a seaside neighbourhood of Los Angeles, and the neon-style Venice sign on Windward Avenue is the picture most visitors come away with. Seen from across the street, the sign sits in front of an arched colonnade, with the neighbourhood entrance behind it. The arches give the shot a clear frame and a bit of old-resort character, which is why it works so well on a phone.</p><p>A little history helps explain the mood. Developer Abbot Kinney founded Venice in 1905 as a beach resort modelled on the Italian city, with canals, a pier and an arcaded business street in Venetian style. It was an independent city until 1926, when Los Angeles annexed it. Today the long Ocean Front Walk promenade, about 2.5 miles (4 km), is lined with performers, fortune-tellers and vendors.</p><p>For the photo, cross Windward Avenue so the sign and arches fill the background and the crowd stays behind you. The junction is busy, so keep an eye on the cars and don&#39;t step back into the road while framing. If you&#39;d like a wide beach view with the coastline and palm trees as well, Venice Pier is another standard view. Muscle Beach, with its outdoor gym, is another popular picture.</p>
+    <p><b>Where it is:</b> In Venice, a coastal neighbourhood in the Westside region of Los Angeles. The sign marks the entrance to the neighbourhood at Windward Avenue, and the subject is near the boardwalk.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the default lens (1x) so the sign and arches look natural. Switch to ultra-wide (0.5x) only if the pavement is too narrow to step back, and keep the sign away from the edges of the frame, where it can stretch.</p>
+      <p><b>Where to stand:</b> Stand at the corner of Pacific Avenue and Windward Avenue (stand across Windward Avenue, facing inland). The neon-style Venice sign framed against the arched colonnade, with the neighborhood entrance behind it. Cross Windward Avenue at the sign, so the neon-style Venice sign is framed against the arched colonnade, with the neighbourhood entrance behind it.</p>
+      <p><b>Framing:</b> Turn on the gridlines and put the sign on one of the lines, with the arches running behind it. Keep the crowd behind you rather than in the picture. For a wide beach view with palm trees, try Venice Pier as an alternative.</p>
+      <p><b>Settings tip:</b> Tap the sign to focus, then slide the exposure down a little so the neon colours stay rich and the sky doesn&#39;t wash out. Take a few frames between passing cars.</p>
+      <p><b>Best time:</b> Early morning, when the light comes from the east and the midday glare hasn&#39;t yet set in.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Marina del Rey Harbor</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Marina_Del_Rey_Looking_South.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Marina del Rey Harbor, Venice Beach: a huge, calm harbour. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: unknown, Public domain, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Marina del Rey is a huge, calm harbour on the Los Angeles coast, just south-east of Venice. It is North America&#39;s largest man-made small-craft harbour, with slips for roughly 5,000 boats. Before it was built, the land was a salt marsh fed by Ballona Creek. The harbour was formally dedicated on 10 April 1965. That history is hard to imagine today, when masts and piers fill the water in every direction.</p><p>It photographs well because the scene is wide and layered. Rows of sailboats and piers sit in the foreground, flat water reflects the sky, and the Palos Verdes hills are often visible in the distance. The best easy view from land is the waterfront lawn at Burton W. Chace Park, where you get open views across the water and boats.</p><p>For phone photos, think of it as a landscape with a lot of repeating shapes. Boats and piers make natural lines that lead the eye across the picture. Early morning gives soft light. Sunset gives a warm sky that reflects in the harbour. If you want a second angle, Fisherman&#39;s Village has brightly painted buildings and a lighthouse beside the boats, and Marina Beach has very still water that mirrors the sky. Parking at the park and at Fisherman&#39;s Village is paid and tends to fill up at weekends, so an earlier start helps.</p>
+    <p><b>Where it is:</b> Marina del Rey Harbor lies south-east of Venice and north of Playa del Rey, close to the mouth of Ballona Creek. The best land-based view is from the waterfront lawn of Burton W. Chace Park on the marina&#39;s edge.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to take in the whole harbour, then switch to the default lens (1x) for a calmer, more natural view. Use telephoto (2x-5x, depending on your phone) to pick out a single boat, pier or the distant hills.</p>
+      <p><b>Where to stand:</b> Stand in Burton W. Chace Park (waterfront lawn along the marina edge). Sailboats and piers spread across the harbor, with the Palos Verdes hills often visible in the background. Chace Park, on the waterfront lawn along the marina edge. From here you look out over sailboats and piers spread across the harbour, with the Palos Verdes hills often visible behind. The harbour area marked on the map is to the north-west of you.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the waterline on the lower or upper third, depending on whether the water or the sky is more interesting. Use a pier or a row of boats as a leading line from the bottom of the frame into the distance. For a different view, Fisherman&#39;s Village shows painted buildings and a lighthouse against the boats, and Marina Beach gives a quiet, mirror-like water scene.</p>
+      <p><b>Settings tip:</b> Tap on the boats to focus, then slide the exposure down a little at sunset so the sky keeps its colour. Try a panorama along the waterline, moving slowly and keeping the phone level. Keep an eye out for moving boats, which can blur in a panorama.</p>
+      <p><b>Best time:</b> Early morning for soft light, or sunset for a warm evening sky over the water.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-10">
+    <h3><span class="n">10</span>Venice Beach Basketball Courts</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Beach_bikepath_in_the_Venice_Beach_park,_California.jpg" target="_blank" rel="noopener"><img src="photos/10.jpg" alt="Venice Beach Basketball Courts, Venice Beach: open-air courts beside Ocean Front Walk. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: unknown, Public domain, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Venice Beach Basketball Courts are open-air courts beside Ocean Front Walk, the 2.5-mile (4 km) pedestrian promenade where performers, fortune-tellers and vendors set up. They are widely described as the most photographed outdoor court in the world. The reason is simple: you get a game in progress, palm trees, a big Californian sky and the beach all in one frame. Venice itself was founded in 1905 by Abbot Kinney as a seaside resort and became part of Los Angeles in 1926. The promenade still keeps some of that holiday-crowd atmosphere.</p><p>The classic picture is taken from on the courts, looking south toward the handball courts. The boardwalk and the ocean are behind you, so what you see is palm trees, open sky, the players, and the handball courts beyond. Sometimes a helicopter drifts across the distance. Keep to the side of the playing area and let the game carry on around you.</p><p>There are no lights on the courts, so plan to shoot before sunset. At weekend afternoons people gather several deep along the fence, so arriving early gives you a clearer view. Golden hour gives warm, dramatic light, while midday gives bright, clean colour. Take a few wide scene-setting shots first, then move in on the action.</p>
+    <p><b>Where it is:</b> In the Venice Beach area of Los Angeles, beside Ocean Front Walk, the promenade, near 18th Avenue. The handball courts are just to the south.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the classic view of the courts, palms and sky. Switch to ultra-wide (0.5x) if you want the whole scene including the handball courts. Use telephoto (2x-5x, depending on your phone) for close shots of players from the edge.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. For the classic view, shoot from the courts looking south toward the handball courts, so the boardwalk and the ocean are behind you. The shot shows the courts, palm trees and clear sky, with the handball courts beyond.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the far hoop or the line of palm trees on a third. Keep the horizon level and leave plenty of sky. Hold the phone at chest height for a natural view, or crouch a little to make the palms look taller. If a helicopter or a dunk appears, you will get it in the frame without needing to recompose.</p>
+      <p><b>Settings tip:</b> Tap on the players to set focus, then drag the exposure slider down slightly so the bright sky keeps its colour. Try Live Photos or motion to catch a jump shot, and pick the best frame afterwards.</p>
+      <p><b>Best time:</b> Golden hour for warm, dramatic light, or midday for bright, clear shots. The courts have no lights, so shoot before sunset, and arrive early at weekends to beat the crowds.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(10)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>8 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">3</span>Mother&#39;s Beach <small>· members</small></li>
+    <li><span class="n">4</span>Muscle Beach Venice <small>· members</small></li>
+    <li><span class="n">5</span>Venice Canals <small>· members</small></li>
+    <li><span class="n">6</span>Abbot Kinney Boulevard <small>· members</small></li>
+    <li><span class="n">7</span>Venice Beach Skatepark <small>· members</small></li>
+    <li><span class="n">8</span>Venice Sign <small>· members</small></li>
+    <li><span class="n">9</span>Venice Fishing Pier <small>· members</small></li>
+    <li><span class="n">11</span>Burton Chace Park <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Venice Beach?</summary><p>The first three on this map are Venice Beach, Marina del Rey and Mother&#39;s Beach. They are ranked by how often people search for them. The full map has 11.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Venice Beach?</summary><p>Stand at the corner of Pacific Avenue and Windward Avenue (stand across Windward Avenue, facing inland). Use the default lens (1x) so the sign and arches look natural.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Marina del Rey?</summary><p>Early morning for soft light, or sunset for a warm evening sky over the water.</p></details>
+  <details class="faq"><summary>How do I get to Basketball Courts?</summary><p>No Underground, tram or train stops are listed nearby.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Venice%2C_Los_Angeles" target="_blank" rel="noopener">Venice, Los Angeles</a>, <a href="https://en.wikipedia.org/wiki/Marina_del_Rey%2C_California" target="_blank" rel="noopener">Marina del Rey, California</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"losangeles","place":"Venice Beach","bounds":[-118.48,33.965,-118.436,33.994],"center":[-118.458,33.9795],"english":false,"vatican":false,"tiles":"/r2tiles/losangeles/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 10"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

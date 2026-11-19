@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "melbourne", "title": "Melbourne: 20 photo spots (pilot review)", "place": "Melbourne", "bounds": [144.945, -37.84, 144.99, -37.795], "center": [144.9675, -37.8175], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/melbourne/{z}/{x}/{y}.pbf"};

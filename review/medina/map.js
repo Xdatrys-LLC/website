@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "medina", "title": "Medina: 11 photo spots (pilot review)", "place": "Medina", "bounds": [39.53, 24.4, 39.65, 24.53], "center": [39.59, 24.465], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/medina/{z}/{x}/{y}.pbf"};

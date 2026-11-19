@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "montegobay", "title": "Montego Bay: 3 photo spots (pilot review)", "place": "Montego Bay", "bounds": [-77.945, 18.455, -77.855, 18.515], "center": [-77.9, 18.485], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/montegobay/{z}/{x}/{y}.pbf"};

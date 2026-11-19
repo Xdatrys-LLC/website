@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "geiranger", "title": "Geiranger: 5 photo spots (pilot review)", "place": "Geiranger", "bounds": [7.085, 62.092, 7.225, 62.125], "center": [7.154999999999999, 62.1085], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/geiranger/{z}/{x}/{y}.pbf"};

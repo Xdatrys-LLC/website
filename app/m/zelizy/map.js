@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "zelizy", "title": "Želízy: 3 photo spots (pilot review)", "place": "Želízy", "bounds": [14.452, 50.411, 14.477, 50.428], "center": [14.464500000000001, 50.4195], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/zelizy/{z}/{x}/{y}.pbf", "tz": "Europe/Prague", "rail": false, "app": true};

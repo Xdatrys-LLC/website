@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "chiangmai", "title": "Chiang Mai: 18 photo spots (pilot review)", "place": "Chiang Mai", "bounds": [98.9, 18.76, 99.015, 18.83], "center": [98.95750000000001, 18.795], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/chiangmai/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "miamibeach", "title": "Miami Beach: 15 photo spots (pilot review)", "place": "Miami Beach", "bounds": [-80.145, 25.76, -80.118, 25.822], "center": [-80.13149999999999, 25.791], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/miamibeach/{z}/{x}/{y}.pbf", "tz": "America/New_York", "rail": false, "app": true};

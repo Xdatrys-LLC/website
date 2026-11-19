@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "montreal", "title": "Montreal: 19 photo spots (pilot review)", "place": "Montreal", "bounds": [-73.62, 45.48, -73.53, 45.56], "center": [-73.575, 45.519999999999996], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/montreal/{z}/{x}/{y}.pbf"};

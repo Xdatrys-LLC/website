@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "boulder", "title": "Boulder: 13 photo spots (pilot review)", "place": "Boulder", "bounds": [-105.32, 39.97, -105.255, 40.03], "center": [-105.2875, 40.0], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/boulder/{z}/{x}/{y}.pbf", "tz": "America/Denver", "rail": false, "app": true};

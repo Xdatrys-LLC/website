@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "ubud", "title": "Ubud: 8 photo spots (pilot review)", "place": "Ubud", "bounds": [115.245, -8.53, 115.293, -8.485], "center": [115.269, -8.5075], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/ubud/{z}/{x}/{y}.pbf", "tz": "Asia/Makassar", "rail": false, "app": true};

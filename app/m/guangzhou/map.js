@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "guangzhou", "title": "Guangzhou: 18 photo spots (pilot review)", "place": "Guangzhou", "bounds": [113.232, 23.095, 113.335, 23.152], "center": [113.2835, 23.1235], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/guangzhou/{z}/{x}/{y}.pbf", "tz": "Asia/Shanghai", "rail": true, "app": true};

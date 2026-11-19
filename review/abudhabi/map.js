@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "abudhabi", "title": "Abu Dhabi: 11 photo spots (pilot review)", "place": "Abu Dhabi", "bounds": [54.29, 24.39, 54.5, 24.55], "center": [54.394999999999996, 24.47], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/abudhabi/{z}/{x}/{y}.pbf"};

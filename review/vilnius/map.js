@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "vilnius", "title": "Vilnius: 19 photo spots (pilot review)", "place": "Vilnius", "bounds": [25.255, 54.665, 25.31, 54.703], "center": [25.2825, 54.684], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/vilnius/{z}/{x}/{y}.pbf"};

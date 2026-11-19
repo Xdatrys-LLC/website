@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "dubrovnik", "title": "Dubrovnik: 17 photo spots (pilot review)", "place": "Dubrovnik", "bounds": [18.065, 42.625, 18.13, 42.675], "center": [18.0975, 42.65], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/dubrovnik/{z}/{x}/{y}.pbf"};

@@ -1,0 +1,327 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Dublin: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Dublin attractions as photo spots, including Guinness Storehouse and Trinity College: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in dublin, dublin attractions, dublin tourist map, map of dublin attractions, best views in dublin, best photo spots in dublin, guinness storehouse, book of kells, kilmainham gaol">
+<link rel="canonical" href="https://xdatrys.com/library/dublin/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Dublin: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Dublin attractions as photo spots, including Guinness Storehouse and Trinity College: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/dublin/">
+<meta property="og:image" content="https://xdatrys.com/library/dublin/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Guinness Storehouse, Dublin: the visitor centre at St. James&#39;s Gate Brewery. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/dublin/","url":"https://xdatrys.com/library/dublin/","name":"Things to Do in Dublin: Map of 20 Photo Spots | Xdatrys","description":"20 top Dublin attractions as photo spots, including Guinness Storehouse and Trinity College: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/dublin/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Dublin","alternateName":["Baile Átha Cliath"]},"mainEntity":{"@type":"ItemList","name":"Dublin photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Guinness Storehouse","description":"The Guinness Storehouse is the visitor centre at St.","geo":{"@type":"GeoCoordinates","latitude":53.34185,"longitude":-6.2867349},"image":"https://xdatrys.com/library/dublin/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Trinity College: Front Square and the Long Room","description":"Trinity College is Ireland's oldest university, founded in 1592 by Queen Elizabeth I, and its old courtyards are a major part of a destination that receives over two million visitors a year.","geo":{"@type":"GeoCoordinates","latitude":53.3444,"longitude":-6.2577},"alternateName":["Book of Kells","Long Room Library"],"image":"https://xdatrys.com/library/dublin/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Kilmainham Gaol","description":"Kilmainham Gaol is a former prison in west Dublin, now run as a museum by the Office of Public Works.","geo":{"@type":"GeoCoordinates","latitude":53.3419192,"longitude":-6.3092301},"image":"https://xdatrys.com/library/dublin/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/dublin/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Dublin","item":"https://xdatrys.com/library/dublin/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Dublin?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Guinness Storehouse, Trinity College and Kilmainham Gaol. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph the Guinness Storehouse?","acceptedAnswer":{"@type":"Answer","text":"Stand right at the Guinness Storehouse, at the corner where Robert Street, Market Street South and Belview meet (the phone icon on the map), in front of the brewery gate beside the Storehouse. Start with the default lens (1x) to take in the gates, the sign and the buildings behind."}},{"@type":"Question","name":"When is the best time to photograph Trinity College?","acceptedAnswer":{"@type":"Answer","text":"Try going early or later in the day, when the courtyards tend to be quieter. Check the official site for visiting times before you go."}},{"@type":"Question","name":"How do I get to Kilmainham Gaol?","acceptedAnswer":{"@type":"Answer","text":"Take the Luas Red Line to Suir Road."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Dublin</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/dublin/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in Dublin: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/dublin/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Dublin"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Dublin as photo spots, ranked by how often people search for them: Guinness Storehouse, Trinity College, Kilmainham Gaol, Dublin Castle and Grafton Street lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Guinness Storehouse</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Robert_St,_Guinness_Brewery_-_geograph.org.uk_-_6017994.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Guinness Storehouse, Dublin: the visitor centre at St. James&#39;s Gate Brewery. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: N Chadwick, <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener license">CC BY-SA 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Guinness Storehouse is the visitor centre at St. James&#39;s Gate Brewery, and it is one of the best-known sights in Dublin. The building went up in 1902 as a fermentation plant, in the style of the Chicago School of architecture. It was the first multi-storey steel-framed building in Ireland. It opened to visitors on 2 December 2000 and has since welcomed over twenty million people. Inside, seven floors wrap around a glass atrium shaped like a pint of Guinness, and the top floor has the Gravity Bar with views over Dublin.</p><p>For a free photo, the best spot is outside, in front of the Guinness gate beside the Storehouse. The brand sign sits across the entrance and the brewery buildings fill the space behind it, so one frame tells you where you are. It is at the corner where Robert Street, Market Street South and Belview meet. The Storehouse itself is a ticketed attraction, so check the official site before you go if you plan to go inside.</p><p>Keep the shot simple. Stand square to the gate so the sign reads clearly, and let the brewery buildings sit behind as the backdrop. If other visitors are posing, wait a moment and a gap usually opens. Inside, the Gravity Bar gives rooftop views rather than a view of the building, so it makes a different kind of photo.</p>
+    <p><b>Where it is:</b> The Guinness Storehouse is inside St. James&#39;s Gate Brewery, west of Dublin city centre, on Market Street South. The gate for the photo is at the corner where Market Street South, Robert Street and Belview meet, beside the Storehouse.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to take in the gates, the sign and the buildings behind. If you are close and the gates will not fit, switch to the ultra-wide (0.5x), but keep the phone level so the edges do not lean. If your phone has telephoto (2x or more), use it for a tighter shot of the sign.</p>
+      <p><b>Where to stand:</b> Stand right at the subject, at the corner where Robert Street, Market Street South and Belview meet (the phone icon on the map), in front of the brewery gate beside the Storehouse. The photo shows the gate and its Guinness sign, with the brewery buildings behind.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the gates up square so the sign sits near the centre. Include a little of the brewery buildings above the gates for context. For a different view, the Gravity Bar inside gives panoramic views over the Dublin rooftops, though it is ticketed and does not show the building&#39;s exterior.</p>
+      <p><b>Settings tip:</b> Tap the sign to set focus, then nudge the exposure slider down a little if the sky is bright, so the gates keep their detail. Take a few shots in case people walk through the frame. Inside, photography is allowed without flash or tripods.</p>
+      <p><b>Best time:</b> Go in daylight so the sign is easy to read. Outside the busiest part of the day you are more likely to get the gates with fewer people in front.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Trinity College: Front Square and the Long Room</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:The_Trinity_College_Campanile_from_Parliament_Square_-_geograph.org.uk_-_1739783.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Trinity College: Front Square and the Long Room, Dublin: Ireland&#39;s oldest university. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Eric Jones, <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener license">CC BY-SA 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Trinity College is Ireland&#39;s oldest university, founded in 1592 by Queen Elizabeth I, and its old courtyards are a major part of a destination that receives over two million visitors a year. The 18th-century Parliament Square, often called Front Square, holds the freestanding Campanile. The Old Library was begun in 1712 and has housed the Book of Kells since 1661. Inside it, the Long Room is a 65-metre barrel-vaulted hall with two storeys of oak bookcases and marble busts in the niches. The grounds receive over two million visitors a year, so the main courtyards can be busy. For a calmer view, this map sends you to Fellows&#39; Square, a quieter open-air courtyard. From here you get a wider look at the historic quadrangles, with the old library building across the lawns. Cobbles, lawns, stone façades and the Campanile give you plenty of layers to work with. Inside the Long Room, flash is prohibited and the Book of Kells itself may not be photographed. A conservation project has moved most of the books into storage, so the shelves may look emptier than in older photos. Take your wide shot here first, then walk over to Front Square for the Campanile.</p>
+    <p><b>Where it is:</b> In the centre of Dublin, on the Trinity College campus beside College Green. The Front Square lies a short walk inside the college grounds.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to take in the whole quadrangle, then switch to the default lens (1x) for a more natural view. Use the telephoto (2x-5x, depending on your phone) to pick out the old library building or the Campanile.</p>
+      <p><b>Where to stand:</b> Stand in Fellows&#39; Square. A wider view of the college&#39;s historic quadrangles, with the old library building visible across the lawns. From here your phone sees the college&#39;s historic quadrangles, with the old library building across the lawns. Front Square, the usual busy spot, is to the north-west.</p>
+      <p><b>Framing:</b> Turn on the gridlines and keep the buildings&#39; vertical lines straight to stop them leaning. Put the lawn or cobbles in the lower third and the old library across the middle. As an alternative, walk to Front Square and frame the Campanile with the surrounding buildings and open ground around it. A panorama works well across the quadrangles if you pan slowly.</p>
+      <p><b>Settings tip:</b> Tap the brightest part of the building to focus, then drag the exposure slider down a little so the sky and pale stone keep their detail. In the Long Room, switch the flash off, as it is prohibited, and hold the phone steady using the 1x lens.</p>
+      <p><b>Best time:</b> Try going early or later in the day, when the courtyards tend to be quieter. Check the official site for visiting times before you go.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Kilmainham Gaol</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Kilmainham_Gaol_Main_Hall_2016-06-03.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Kilmainham Gaol, Dublin: a former prison in west Dublin. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Colin, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Kilmainham Gaol is a former prison in west Dublin, now run as a museum by the Office of Public Works. It opened in 1796 as the &#34;New Gaol&#34; and was officially the County of Dublin Gaol. It is best known for holding Irish revolutionaries, including the leaders of the 1916 Easter Rising, several of whom were executed here. The prison was decommissioned in 1924 and was later saved from demolition by a restoration society formed in 1958.</p><p>For photographs, the Victorian East Wing is the big draw. Standing on the floor of the central atrium, you look up at tiers of cells and iron walkways rising on every side beneath a skylight. The lines run in near-perfect symmetry towards the middle, which makes a strong, simple picture even on a phone. Guides often describe it as the most photographed part of the gaol.</p><p>Access to the East Wing needs a paid tour or ticket, so plan ahead. The museum&#39;s photo rules are reported as allowing photos without flash, and tripods are not allowed. Look out for signs inside in case anything has changed. Keep your phone steady, give other visitors room, and leave the flash off. The space is also a solemn one, so a quiet, respectful approach suits it.</p>
+    <p><b>Where it is:</b> Kilmainham Gaol is in Kilmainham, a district of Dublin to the west of the city centre. The nearest Luas stops are on the Red Line, a short walk to the south.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for a natural view of the atrium. Switch to ultra-wide (0.5x) if you want to fit in the full height of the cell tiers and the skylight, since you cannot step back far.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. From here the photo shows rows of cell tiers and iron walkways rising around the open space under the skylight.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the central vertical with the middle of the atrium, so the walkways converge evenly on both sides. Tilt the phone up slowly until the skylight sits near the top of the frame. For a different view, the entrance façade with the tricolour and the open sky above Stonebreakers&#39; Yard with the memorial cross are also worth a photo.</p>
+      <p><b>Settings tip:</b> Tap on the cells to focus, then pull the exposure slider down a little so the bright skylight does not wash out. Keep the flash off. Hold the phone with both hands and brace your elbows against your body for a steadier shot. Night mode may switch on in the dim light, so stay still for a moment while it works.</p>
+      <p><b>Best time:</b> Early morning or late afternoon, when light enters from above. Tour times are set by the site, so check the official site before you go.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Dublin Castle <small>· members</small></li>
+    <li><span class="n">5</span>Grafton Street <small>· members</small></li>
+    <li><span class="n">6</span>Phoenix Park <small>· members</small></li>
+    <li><span class="n">7</span>Temple Bar <small>· members</small></li>
+    <li><span class="n">8</span>St Stephen&#39;s Green <small>· members</small></li>
+    <li><span class="n">9</span>St Patrick&#39;s Cathedral <small>· members</small></li>
+    <li><span class="n">10</span>Ha&#39;penny Bridge <small>· members</small></li>
+    <li><span class="n">11</span>Christ Church Cathedral <small>· members</small></li>
+    <li><span class="n">12</span>Royal Hospital Kilmainham <small>· members</small></li>
+    <li><span class="n">13</span>Iveagh Gardens <small>· members</small></li>
+    <li><span class="n">14</span>Spire of Dublin <small>· members</small></li>
+    <li><span class="n">15</span>Henrietta Street <small>· members</small></li>
+    <li><span class="n">16</span>Samuel Beckett Bridge <small>· members</small></li>
+    <li><span class="n">17</span>Merrion Square and the Georgian doors <small>· members</small></li>
+    <li><span class="n">18</span>General Post Office <small>· members</small></li>
+    <li><span class="n">19</span>Dublin City Hall <small>· members</small></li>
+    <li><span class="n">20</span>The Custom House <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Dublin?</summary><p>The first three on this map are Guinness Storehouse, Trinity College and Kilmainham Gaol. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the Guinness Storehouse?</summary><p>Stand right at the Guinness Storehouse, at the corner where Robert Street, Market Street South and Belview meet (the phone icon on the map), in front of the brewery gate beside the Storehouse. Start with the default lens (1x) to take in the gates, the sign and the buildings behind.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Trinity College?</summary><p>Try going early or later in the day, when the courtyards tend to be quieter. Check the official site for visiting times before you go.</p></details>
+  <details class="faq"><summary>How do I get to Kilmainham Gaol?</summary><p>Take the Luas Red Line to Suir Road.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Guinness_Storehouse" target="_blank" rel="noopener">Guinness Storehouse</a>, <a href="https://en.wikipedia.org/wiki/Trinity_College_Dublin" target="_blank" rel="noopener">Trinity College Dublin</a>, <a href="https://en.wikipedia.org/wiki/Kilmainham_Gaol" target="_blank" rel="noopener">Kilmainham Gaol</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"dublin","place":"Dublin","bounds":[-6.33,53.32,-6.22,53.37],"center":[-6.275,53.345],"english":false,"vatican":false,"tiles":"/r2tiles/dublin/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

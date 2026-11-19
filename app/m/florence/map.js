@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "florence", "title": "Florence: 19 photo spots (pilot review)", "place": "Florence", "bounds": [11.22, 43.75, 11.3, 43.81], "center": [11.260000000000002, 43.78], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/florence/{z}/{x}/{y}.pbf", "tz": "Europe/Rome", "rail": true, "app": true};

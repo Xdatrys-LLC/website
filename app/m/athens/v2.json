@@ -1,0 +1,925 @@
+{
+ "Acropolis of Athens": {
+  "rank": 1,
+  "card": {
+   "hook": "Most people shoot the Acropolis from the crowded spots right under it. There's a bare, rocky hill across from it where pine trees do the framing for you.",
+   "stand_here": "Head for the Pnyx, a bare rocky hill west of the Acropolis, and stand on the rocky outcrop facing the Acropolis. You get a front-on, nicely balanced view with pines in the foreground.",
+   "zoom": "Start at zoom 1x to fit the whole rock and the pines in one shot. Then try 2x to 5x (depending on your phone) for a tighter look at the Parthenon on top. Use 0.5x only if you want lots of foreground rock and sky.",
+   "make_it_pop": "Turn on the gridlines and line the Parthenon up with the centre, then tap the Parthenon and slide it a little darker so the pale stone keeps its detail.",
+   "best_time": "One guide recommends late afternoon.",
+   "selfie_here": "Try the pine-shaded path up Philopappos Hill (Filopappou), where the Acropolis and the Athens panorama sit behind you. Use the front camera, try 0.5x, and tuck the landmark over your shoulder.",
+   "ask_someone": "Ask a passer-by on the Dionysiou Areopagitou walkway to stand facing you, while you stand with the Acropolis rising behind you. A guide says early morning is quietest.",
+   "rules_and_safety": "Flash, selfie sticks and drones aren't allowed anywhere on the archaeological site, though personal photos are fine. Check access to the Pnyx and the official site rules before you go. One guide suggests avoiding Philopappos Hill after dark.",
+   "challenge": "Can you frame the Parthenon with a pine branch down one side, and no stranger's head in the shot?",
+   "good_to_know": "The Acropolis rises about 150 m above sea level and covers roughly 3 hectares. Most of what you see was built in the fifth century BC under Pericles. The Parthenon was badly damaged in 1687, when a Venetian bombardment set off gunpowder stored inside it.",
+   "stand_here_before_gps_rule": "Head for the Pnyx, a bare rocky hill west of the Acropolis, and stand on the rocky outcrop facing the Acropolis. You get a front-on, nicely balanced view with pines in the foreground."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Philopappos Hill (Filopappou), on the pedestrian path up to the Philopappos Monument",
+     "detail": "on the pine-shaded path up Philopappos Hill, with the Acropolis and the Athens panorama behind you",
+     "why": "A local guide's photo shows a couple taking a selfie on Philopappos Hill with the Acropolis and the city panorama behind them, and the path offers changing Acropolis views.",
+     "sources": [
+      {
+       "title": "Best Photo Spots in Athens (Ultimate Athens Tours)",
+       "url": "https://ultimateathenstours.com/best-photo-spots-athens/"
+      }
+     ]
+    },
+    {
+     "name": "Split Rock, a viewpoint on Lycabettus Hill",
+     "detail": "a Lycabettus Hill viewpoint listed as 'Split Rock'; the page gives no further placement, so ask locally or check the hill's summit paths",
+     "why": "A guide's photo caption shows a couple taking a selfie at a Lycabettus viewpoint with Athens and the Acropolis behind them.",
+     "sources": [
+      {
+       "title": "Best Photo Spots in Athens (Ultimate Athens Tours)",
+       "url": "https://ultimateathenstours.com/best-photo-spots-athens/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Pedestrian walkway along Dionysiou Areopagitou, below the Acropolis south slope",
+    "detail": "stand on the walkway facing the couple so the Acropolis rises behind them; a guide recommends early morning, when foot traffic is light",
+    "sources": [
+     {
+      "title": "12 Best Athens Photo Spots for Stunning Photoshoots (The Athens Photographer)",
+      "url": "https://www.theathensphotographer.com/athens-photo-spots/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Flash photography, tripods, selfie sticks and drones are listed as not permitted anywhere on the archaeological site; photography for personal use is allowed.",
+     "sources": [
+      {
+       "title": "Acropolis Visitor Guide (acropolis-tickets.com)",
+       "url": "https://www.acropolis-tickets.com/visit-acropolis-opening-hours-location-entrance/"
+      }
+     ]
+    },
+    {
+     "rule": "One report says officials removed tripods and selfie sticks from key walkways after accidental strikes near marble awaiting conservation.",
+     "sources": [
+      {
+       "title": "14 Historic Sites That Banned Selfie Sticks and Tripods This Year (Idyllic Pursuit)",
+       "url": "https://www.idyllicpursuit.com/14-historic-sites-that-banned-selfie-sticks-and-tripods-this-year/"
+      }
+     ]
+    },
+    {
+     "rule": "Large bags, tripods and umbrellas are not allowed inside the site and must be left at the cloakrooms near the entrance.",
+     "sources": [
+      {
+       "title": "Acropolis Visitor Guide (acropolis-tickets.com)",
+       "url": "https://www.acropolis-tickets.com/visit-acropolis-opening-hours-location-entrance/"
+      }
+     ]
+    },
+    {
+     "rule": "At the Acropolis Museum, tripods and flash are not allowed inside, while amateur photography is permitted in most areas.",
+     "sources": [
+      {
+       "title": "FAQ (Acropolis Museum)",
+       "url": "https://www.theacropolismuseum.gr/en/faq"
+      }
+     ]
+    }
+   ],
+   "safety": "One guide advises avoiding Philopappos Hill after dark because of reported incidents in the area.",
+   "notes": "Sources conflict on tripods: one site says they are banned on site, another says tripods and monopods over a set height need advance permits, and a third says small travel tripods may be allowed off-peak. Ask the site before bringing one. Most sources are travel blogs dated 2022 to 2026. Split Rock's exact location is not stated, so it may be hard to find on a map. The Acropolis-behind-you couple spot is from a photographer's blog and is not an official rule. The Position coordinates were not used to check any spot."
+  },
+  "cost_usd": 0.0625,
+  "at": "2026-11-17 10:12",
+  "selfie_pos": [
+   37.9675643,
+   23.7221248
+  ],
+  "selfie_note": "Philopappos Hill (OpenStreetMap: Λόφος Φιλοπάππου, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητ)"
+ },
+ "Parthenon": {
+  "rank": 2,
+  "card": {
+   "hook": "Most people queue to climb up to the Parthenon, but you can sit on a quiet, free hillside and let it come to you. From the Pnyx it sits on the skyline like it's posing, with Lycabettus Hill rising behind it.",
+   "stand_here": "Stand on the Pnyx, on the north-eastern side of the hill, and face due east. You'll look across open ground and trees to the Acropolis and the Parthenon.",
+   "zoom": "Start at zoom 5x if your phone has it, which pulls the temple in and stacks it against Lycabettus Hill. Otherwise use zoom 1x and take one wide shot with the trees, then crop in later. Skip zoom 0.5x here, because it makes the Parthenon tiny.",
+   "make_it_pop": "Tap the temple, then slide the brightness down a little so the sky stays blue and the stone keeps its colour.",
+   "best_time": "Late afternoon is likely to be your best bet, with the sun behind you lighting the front of the temple. If you also plan to go up the Acropolis, check the official site for its hours.",
+   "selfie_here": "Head to Anafiotika, the whitewashed lanes below the Acropolis, reached by climbing Mnisikleous Street from Plaka. Use the front camera, stand against a white wall, and tilt the phone so the Parthenon peeks over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Photos are fine in the Acropolis's outdoor areas, but not inside the Parthenon itself. Areopagus marble gets slippery when wet, so watch your step if you wander over there.",
+   "challenge": "Use a tree branch or a rock as a frame at the edge of your shot, then keep the horizon dead level. The temple's lines will tell on you if it's tilted.",
+   "good_to_know": "The Parthenon was built between 447 and 438 BC as a temple to Athena, with the sculpted decoration finished by 432 BC. It later became a church and then a mosque, and in 1687 a Venetian bomb hit it while it was being used as a munitions dump. Restoration has been going on since 1975, so don't be surprised if scaffolding or cranes sneak into your photo.",
+   "stand_here_before_gps_rule": "Stand on the Pnyx, on the north-eastern side of the hill, and face due east. You'll look across open ground and trees to the Acropolis and the Parthenon."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Acropolis Museum, top floor Parthenon Gallery (by the window)",
+     "detail": "Inside the museum's top-floor Parthenon Gallery, stand near the window, with the Acropolis rising outside behind you",
+     "why": "Holding the phone a little off-axis lets the temple appear behind you, with the marble metopes reflecting in the frame.",
+     "sources": [
+      {
+       "title": "Athens Best Selfie Spots - Why Athens",
+       "url": "https://whyathens.com/athens-selfie-sites-landmarks/"
+      }
+     ]
+    },
+    {
+     "name": "Anafiotika, whitewashed lane below the Acropolis",
+     "detail": "In the lanes of Anafiotika, reached by climbing Mnisikleous Street from Plaka; stand against a whitewashed wall so the temple shows above your shoulder",
+     "why": "The white wall gives a clean backdrop, and the Parthenon appears just over your shoulder.",
+     "sources": [
+      {
+       "title": "15 Best Photo Spots in Athens (Tourists Always Miss) - AthensPhotoTour.com",
+       "url": "https://www.athensphototour.com/best-photo-spots-athens/"
+      },
+      {
+       "title": "Athens Instagram Spots Photography: 25 Best (2026)",
+       "url": "https://www.athenstourism.org/athens-instagram-spots-photography/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Dionysiou Areopagitou promenade, bend near the tourist bus stop",
+    "detail": "Where the promenade curves around the base of the hill, at the corner by the tourist bus stop; the full Parthenon is in view from here",
+    "sources": [
+     {
+      "title": "15 Best Photo Spots in Athens (Tourists Always Miss) - AthensPhotoTour.com",
+      "url": "https://www.athensphototour.com/best-photo-spots-athens/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is allowed in the Acropolis's outdoor areas but not inside the Parthenon's interior.",
+     "sources": [
+      {
+       "title": "Best Photo Spots in Athens 2026 - Lightscout",
+       "url": "https://www.lightscout.app/locations/athens"
+      }
+     ]
+    },
+    {
+     "rule": "The Acropolis Museum allows photography without flash.",
+     "sources": [
+      {
+       "title": "Best Photo Spots in Athens 2026 - Lightscout",
+       "url": "https://www.lightscout.app/locations/athens"
+      }
+     ]
+    },
+    {
+     "rule": "Before using a tripod, check the rules at each museum; a guide recommends a small tripod for some rooftop shots but says to confirm the rules first. No page states a selfie-stick rule.",
+     "sources": [
+      {
+       "title": "Athens Instagram Spots Photography: 25 Best (2026)",
+       "url": "https://www.athenstourism.org/athens-instagram-spots-photography/"
+      }
+     ]
+    }
+   ],
+   "safety": "Areopagus marble becomes slippery when wet, so watch your step.",
+   "notes": "Sources are travel and photo blogs, not official tourism pages, and several are dated. The Acropolis Museum and Anafiotika entries are phone-selfie suggestions from these blogs; the Anafiotika source describes a photographer's framing, so the visitor's exact position is inferred. The Dionysiou Areopagitou entry is a photographer's vantage point, not a stated passer-by instruction, and the page gives no exact spot for the visitor to stand. The Acropolis Museum window view is from a blog that also describes it as a framed view, so check the museum's current floor layout before going."
+  },
+  "cost_usd": 0.0505,
+  "at": "2026-11-17 10:13"
+ },
+ "Plaka": {
+  "rank": 3,
+  "card": {
+   "hook": "Forget the one big view. Plaka is a doorway with a bright shutter, a stepped lane climbing towards the rock, and a café table under a vine, so think small scenes.",
+   "stand_here": "Stand at the phone icon on the map, near Αδριανού (Adrianou Street), right in the heart of Plaka. Turn slowly on the spot and look along each lane, especially any that climb uphill towards the Acropolis.",
+   "zoom": "Start at zoom 0.5x for the narrow lanes and steps, then tap 1x for doorways and café corners. Try 2x or 5x (depending on your phone) for balconies, tiles and details further up a street.",
+   "make_it_pop": "Switch on the gridlines and line them up with building edges so the walls stay upright, then pick a lane that leads the eye uphill.",
+   "best_time": "Early morning is usually quieter and gives softer light in the lanes. Late afternoon into evening suits café scenes and warm walls, and you can switch on night mode once the lights come on.",
+   "selfie_here": "Head to the Mnisikleous steps (the Plaka stairs) where they reach the little crossroads with Lysiou Street. Guides call it the classic photo stop, so use the front camera, try 0.5x and let the lane and cafés fill in behind you. Or step under the bougainvillea arch on Lysiou Street for a flowery backdrop.",
+   "ask_someone": "",
+   "rules_and_safety": "Plaka is a lived-in neighbourhood and people often stop in the middle of the lanes, so step into a doorway or to the side before you lift your phone. Museums and archaeological sites nearby may be ticketed or have restrictions, so check the official site before you go.",
+   "challenge": "Find a bright shutter and frame it with the gridlines so it sits perfectly straight, then see if you can spot a lane with the rock waiting at the top.",
+   "good_to_know": "People have lived in Plaka continuously since the Neolithic period. The streets of Adrianou and Tripodon follow lines that go back to ancient times. Adrianou Street splits Plaka into upper Ano Plaka under the Acropolis and lower Kato Plaka towards Syntagma and Monastiraki. Anafiotika was built under King Otto by settlers from the island of Anafi, which is why its Cycladic look is so different.",
+   "stand_here_before_gps_rule": "Stand at the phone icon on the map, near Αδριανού (Adrianou Street), right in the heart of Plaka. Turn slowly on the spot and look along each lane, especially any that climb uphill towards the Acropolis."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Mnisikleous steps (the Plaka stairs), at the small crossroads with Lysiou Street",
+     "detail": "on the steps where they reach the little crossroads with Lysiou Street",
+     "why": "Guides single out this junction as the Plaka stairs' classic photo stop, so the lane and cafés make a lively backdrop behind you.",
+     "sources": [
+      {
+       "title": "Plaka stairs located at Mnisikleous lead to anafiotika",
+       "url": "https://visitplaka.com/plaka-stairs/"
+      },
+      {
+       "title": "Plaka Stairs - All You SHOULD Know Before Going (2026 Reviews)",
+       "url": "https://www.tripadvisor.com/Attraction_Review-g189400-d20367656-Reviews-Plaka_Stairs-Athens_Attica.html"
+      }
+     ]
+    },
+    {
+     "name": "Bougainvillea arch on Lysiou Street",
+     "detail": "under the flowering bougainvillea arch over the café-lined lane on Lysiou Street",
+     "why": "Its flowers and the narrow lane give a colourful Plaka backdrop that one local guide calls the neighbourhood's easiest photo.",
+     "sources": [
+      {
+       "title": "Plaka Neighborhood in Athens: Sights, Walks & Local Tips",
+       "url": "https://athensbylocals.com/plaka-neighborhood/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Plaka is a whole neighbourhood rather than one landmark, so both selfie spots are small corners inside it. I found no page naming a spot where a passer-by can frame a visitor with all of Plaka in view, so I left this blank rather than guess. The Monument of Lysicrates on Tripodon Street is shown with the Acropolis and pedestrians in a page photo caption, but that frames one monument, not Plaka, so I did not list it. No page states any rule about selfie sticks or tripods. One guide advises against staging photos in doorways around Anafiotika because people live there; I left it out since it is not about selfie sticks or tripods. Sources differ on whether the stairs are called Mnisikleous or Plaka stairs; they are the same steps."
+  },
+  "cost_usd": 0.0626,
+  "at": "2026-11-17 10:13"
+ },
+ "Erechtheion": {
+  "rank": 4,
+  "card": {
+   "hook": "Picture a porch roof held up by stone women, with the Parthenon peeking over their heads like it wants to be in the photo too. That's the Erechtheion, and it's the best Caryatid shot on the Acropolis.",
+   "stand_here": "Go to the south side of the Porch of the Caryatids and face north. The phone icon on the map sits at the Erechtheion itself, not on this exact spot, so walk around to the south side of the porch.",
+   "zoom": "Start at zoom 1x so the porch and the Parthenon both fit. Then try 2x to 5x (depends on your phone) for a closer shot of the figures. Take a second, wider shot to show the whole setting.",
+   "make_it_pop": "Switch on the gridlines, put the porch on a lower third so the Parthenon sits above it, and keep the phone level so the columns stay straight.",
+   "best_time": "Morning or late afternoon. One guide says the sun comes in from the side then, which shows off the shape of the figures. Take a few shots, because other visitors love to stroll through the frame.",
+   "selfie_here": "Look for the olive tree on the west side of the temple, near the Caryatid area, and turn your back to the temple. Use the front camera, try zoom 0.5x to fit more in, and hold it so the temple is over your shoulder. Check it on site, as the guide doesn't promise the temple fills the whole background.",
+   "ask_someone": "Ask a passer-by to stand back from the temple's eastern facade while you stand in front of it, and ask them to shoot wide (zoom 0.5x) so the whole building fits.",
+   "rules_and_safety": "Phone photos are fine across the site, but selfie sticks aren't allowed anywhere on the Acropolis. Wear comfy shoes, since the marble can be uneven and slippery. You need a ticket for the site, so check the official site for current access and opening times.",
+   "challenge": "Get one tight shot of the porch and one wide shot of the setting, then see if you can catch either without a stranger wandering through.",
+   "good_to_know": "The Erechtheion is mainly dedicated to Athena, and its lopsided layout sets it apart from other Greek temples. Builders' accounts from 409-404 BC help date the construction. The figures you see on the porch are replicas, and the originals are in the Acropolis Museum.",
+   "stand_here_before_gps_rule": "Go to the south side of the Porch of the Caryatids and face north. The phone icon on the map sits at the Erechtheion itself, not on this exact spot, so walk around to the south side of the porch."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Olive tree near the west side of the Erechtheion (Acropolis, Athens)",
+     "detail": "Look for the olive tree on the west side of the temple, near the Erechtheion's Caryatid area, and take the selfie with the temple behind you.",
+     "why": "A Headout guide calls this olive tree a good photo stop tied to the Athens legend, but it does not say the Erechtheion fills the background.",
+     "sources": [
+      {
+       "title": "The Erechtheion: Where Greek Gods Battled for Athens' Soul",
+       "url": "https://www.headout.com/blog/athens-erechtheion/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Eastern facade of the Erechtheion (Acropolis, Athens)",
+    "detail": "Ask the passer-by to stand back from the temple's eastern facade and shoot wide enough to fit the whole building, using a wide-angle lens.",
+    "sources": [
+     {
+      "title": "Acropolis Athens Photography Guide 2026: Tips & Best Spots",
+      "url": "https://www.machupicchu.org/acropolis-athens-photography-guide-2026-tips-best-spots.htm"
+     },
+     {
+      "title": "Best photo spots in Athens (Greece) - with map",
+      "url": "https://yvettheworld.com/best-photo-spots-in-athens-greece-with-map/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Selfie sticks are not permitted anywhere on the Acropolis archaeological site.",
+     "sources": [
+      {
+       "title": "Acropolis Visitor Guide",
+       "url": "https://www.acropolis-tickets.com/visit-acropolis-opening-hours-location-entrance/"
+      },
+      {
+       "title": "Everything You Need to Know Before Visiting the Acropolis - Greece and Beyond",
+       "url": "https://greeceandbeyond.com/visiting-the-acropolis-athens/"
+      }
+     ]
+    },
+    {
+     "rule": "Personal photography with phones or cameras is permitted throughout the site.",
+     "sources": [
+      {
+       "title": "Acropolis Visitor Guide",
+       "url": "https://www.acropolis-tickets.com/visit-acropolis-opening-hours-location-entrance/"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are banned or need a permit: one guide says they are not permitted anywhere on the site, while another says tripods without a permit are not allowed and lightweight ones may be tolerated off-peak.",
+     "sources": [
+      {
+       "title": "Acropolis Rules: What You Can And Cannot Bring",
+       "url": "https://acropolis-greece.com/2026/01/15/acropolis-rules/"
+      },
+      {
+       "title": "Acropolis Athens Photography Guide 2026: Tips & Best Spots",
+       "url": "https://www.machupicchu.org/acropolis-athens-photography-guide-2026-tips-best-spots.htm"
+      }
+     ]
+    }
+   ],
+   "safety": "Wear comfortable footwear, since walking surfaces on the Acropolis can be uneven and slippery, especially on marble sections.",
+   "notes": "The sources are general Acropolis guides and none gives a precise spot with the Erechtheion directly behind a selfie-taker, so the first spot is the only one that names a findable place near the temple; check it on site. The ask-someone spot relies on a photography guide's advice about the eastern facade; another guide places the Caryatid porch on the south side, so the sources disagree on orientation. The tripod rules conflict between sources, so check the official entrance rules before going. A park outside the Acropolis exit was mentioned as a backdrop view, but no source says the Erechtheion appears in it, so I left it out."
+  },
+  "cost_usd": 0.0584,
+  "at": "2026-11-17 10:14"
+ },
+ "Temple of Olympian Zeus": {
+  "rank": 5,
+  "card": {
+   "hook": "Picture sixteen giant marble columns in the middle of a busy city, with the Acropolis peeking out behind them like it's photobombing. That's the Temple of Olympian Zeus, and it's hard to take a bad photo here.",
+   "stand_here": "Go through the ticketed entrance to the phone icon in the middle of the site, then head for the southeast corner inside the enclosure. Face the standing columns, with the Acropolis in the distance behind them.",
+   "zoom": "Start at zoom 1x for a natural view of the columns with the Acropolis behind. The columns are very tall, so switch to zoom 0.5x to fit their full height in. For a closer Acropolis behind them, try zoom 2x to 5x, depending on your phone.",
+   "make_it_pop": "Turn on the gridlines, put the Acropolis between or just above the columns, and keep one column close in front so everyone can see how huge they are.",
+   "best_time": "Late afternoon gives soft golden light on the marble. After dark, walk to Vasilissis Olgas for the floodlit columns with Hadrian's Arch in front. Use night mode and hold your elbows against your body to keep the phone steady.",
+   "selfie_here": "Stand beside the fallen column drums on the south side of the temple platform, inside the site. Use the front camera at 0.5x and let the tall standing columns rise over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Entry is ticketed and the site closes at night, so check the official site before you go. Leave the selfie stick at home, and drones need special permission. Summer midday is very hot with little shade, so aim for opening time or after 17:00.",
+   "challenge": "Get the Acropolis tucked neatly between two columns, then add a friend at the bottom of the frame so we can see just how small they look.",
+   "good_to_know": "The Temple of Olympian Zeus, also called the Olympieion, was started in the 6th century BC and dragged on for centuries. The Roman emperor Hadrian finally finished it in the 2nd century AD. It once had 104 columns, each about 17 metres tall, and 16 still stand today.",
+   "stand_here_before_gps_rule": "Go through the ticketed entrance to the phone icon in the middle of the site, then head for the southeast corner inside the enclosure. Face the standing columns, with the Acropolis in the distance behind them."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Fallen column, south side of the temple platform (inside the site)",
+     "detail": "stand beside the toppled column drums on the south side of the temple platform, with the standing Corinthian columns rising behind you",
+     "why": "The fallen drum column in front of you and the upright columns behind make a strong close-up backdrop that still shows the temple's scale.",
+     "sources": [
+      {
+       "title": "Visitor Guide for Temple of Olympian Zeus",
+       "url": "https://www.temple-of-zeus.com/plan-your-visit/"
+      },
+      {
+       "title": "Athens Photography Guide: Best Photo Spots, Chasing Hippoz",
+       "url": "https://www.chasinghippoz.com/travel-photo-blog/athens-greece"
+      }
+     ]
+    },
+    {
+     "name": "Southeast corner of the temple enclosure",
+     "detail": "the southeast edge of the open archaeological site, with the standing columns in view and the Acropolis in the distance",
+     "why": "Several guides single out this corner as the wide-angle viewpoint where the columns and the Acropolis appear together.",
+     "sources": [
+      {
+       "title": "Visitor Guide for Temple of Olympian Zeus",
+       "url": "https://www.temple-of-zeus.com/plan-your-visit/"
+      },
+      {
+       "title": "Temple of Olympian Zeus Photos",
+       "url": "https://www.temple-of-zeus.com/temple-of-olympian-zeus-photos/"
+      },
+      {
+       "title": "Temple of Olympian Zeus Athens: Complete 2026 Visitor Guide",
+       "url": "https://www.athenstourism.org/temple-of-olympian-zeus-athens/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Outside the fence on Vasilissis Amalias Avenue",
+    "detail": "the sidewalk along Amalias just outside the enclosure fence, where the passer-by shoots across the site toward the columns with the Acropolis behind them",
+    "sources": [
+     {
+      "title": "Essential Guide for First-Time Visitors, The Traveler",
+      "url": "https://www.thetraveler.org/temple-of-olympian-zeus-essential-guide-for-first-time-visitors/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Selfie sticks should be left at home for a sightseeing visit; the same page also says tripods and professional gear are not allowed on the grounds without prior permission.",
+     "sources": [
+      {
+       "title": "Temple of Olympian Zeus Photos",
+       "url": "https://www.temple-of-zeus.com/temple-of-olympian-zeus-photos/"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are technically prohibited but, according to this guide, rarely enforced.",
+     "sources": [
+      {
+       "title": "Temple of Olympian Zeus Athens: Complete 2026 Visitor Guide",
+       "url": "https://www.athenstourism.org/temple-of-olympian-zeus-athens/"
+      }
+     ]
+    },
+    {
+     "rule": "Drones require special permission because the site is archaeologically protected.",
+     "sources": [
+      {
+       "title": "Visitor Guide for Temple of Olympian Zeus",
+       "url": "https://www.temple-of-zeus.com/plan-your-visit/"
+      }
+     ]
+    }
+   ],
+   "safety": "In summer Athens can be extremely hot by midday with little shade at the temple site, so aim for opening time or after 17:00.",
+   "notes": "Sources conflict on tripods: one page says they are not allowed without permission, another says they are technically prohibited but rarely enforced. The temple-of-zeus.com pages are a non-official fan site, so verify rules on the official site. Few pages describe a true selfie with the temple directly behind the subject; the two selfie spots are inferred from photo-composition advice, not written as selfie spots. Hadrian's Arch is a separate monument beside the temple, so it was not used as a selfie spot. The ask-someone spot is a photo composition from one guide and was not written as a passer-by instruction."
+  },
+  "cost_usd": 0.0508,
+  "at": "2026-11-17 10:15"
+ },
+ "Panathenaic Stadium": {
+  "rank": 6,
+  "card": {
+   "hook": "Picture a long horseshoe of bright white marble tucked into a hollow between pine-covered hills, with Athens traffic rushing past its front door. It's the only stadium in the world built entirely of marble, and you don't even have to go in to get the shot.",
+   "stand_here": "Stand in the small park directly across Vasileos Konstantinou Avenue from the stadium front, and face the marble façade. The Averoff statue sits in the foreground, so it will be right in your picture.",
+   "zoom": "Start at 1x so the façade looks natural. If traffic or railings push you too close, switch to 0.5x to fit it all in.",
+   "make_it_pop": "Tap the white marble, then slide the brightness down a little so the stone keeps its detail instead of turning flat white.",
+   "best_time": "Early morning or later in the afternoon usually gives softer light on the marble. You'll also tend to get fewer people in the park.",
+   "selfie_here": "One guide says the arched gateways at the main entrance on Vasileos Konstantinou Avenue are a popular photo spot, and they're free and outdoors. Use the front camera, try 0.5x if your phone has it, and keep the stadium front over your shoulder. If you go inside, visitors can have their photo taken on the winners' podium on the track.",
+   "ask_someone": "Ask a passer-by to stand in the small park across the avenue from the stadium front, so the whole façade and the Averoff statue fit in the frame behind you.",
+   "rules_and_safety": "The park across the avenue is open public space, but entry to the stadium itself may be ticketed or restricted, so check the official site before you go. Keep the avenue's traffic to the edges of the picture, or wait for a gap.",
+   "challenge": "Get the whole marble front in one shot, with the Averoff statue low in the frame and not a single car in sight. Take a few tries, because the traffic won't cooperate.",
+   "good_to_know": "A racecourse stood here from the 6th century BC, and Herodes Atticus rebuilt the stadium in marble by 144 AD with room for about 50,000 spectators. It was dug out in the 19th century and hosted the opening and closing ceremonies of the first modern Olympics in 1896. Today it's the finishing point of the Athens Classic Marathon.",
+   "stand_here_before_gps_rule": "Stand in the small park directly across Vasileos Konstantinou Avenue from the stadium front, and face the marble façade. The Averoff statue sits in the foreground, so it will be right in your picture."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Winners' pedestal inside the Panathenaic Stadium arena",
+     "detail": "on the winners' podium on the track, with the marble tiers rising behind you",
+     "why": "Visitors can have their photo taken on the podium, which gives a marble-stadium backdrop for a selfie once you are inside the ticketed area.",
+     "sources": [
+      {
+       "title": "Panathenaic Stadium - Lonely Planet",
+       "url": "https://www.lonelyplanet.com/points-of-interest/panathenaic-stadium/1008092"
+      },
+      {
+       "title": "Panathenaic Stadium in Athens: Tickets, Hours, Map, Tours, Photos - Santorini Dave",
+       "url": "https://santorinidave.com/athens-panathenaic-stadium"
+      }
+     ]
+    },
+    {
+     "name": "Main entrance arched gateways on Vasileos Konstantinou Avenue",
+     "detail": "at the stadium's main entrance, standing in front of the iconic arched gateways",
+     "why": "One guide says the arched entrance is a popular photo spot, so it works as a free, outdoor selfie backdrop that shows the stadium's front.",
+     "sources": [
+      {
+       "title": "Accessible for all - Panathenaic Stadium - Access Travel",
+       "url": "https://www.accesstravel.com/en-US/ViatorAttraction/Index/496/17090"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Small park directly across Vasileos Konstantinou from the stadium",
+    "detail": "the photographer stands in this park, across the avenue from the stadium front, so the whole façade and the Averoff statue fit in the frame behind the visitor",
+    "sources": [
+     {
+      "title": "Panathenaic Stadium (Kallimarmaro): A Practical Visitor Guide - Angels Athens",
+      "url": "https://www.angelsathens.gr/en/blog/museums/panathenaic-stadium-kallimarmaro-guide/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "Only one page names a spot for a stranger to photograph the visitor with the whole façade in view, so the ask-someone spot rests on a single source. The winners' pedestal is named as a photo opportunity, but none of these pages explicitly says the stadium is behind the person in that shot, so treat it as an inference. The other photo spots I found (top tier of stand 21 or the north-end upper tier, Ardittos Hill, Lycabettus Hill, the Discobolus statue) are vantage points for photographing the stadium rather than selfies with it behind, so I left them out. Sources disagree on the best upper-tier position (stand 21 vs. north end). No page I found mentions selfie sticks or tripods. One hikevent page is a fictional narrative, so I did not use it."
+  },
+  "cost_usd": 0.0479,
+  "at": "2026-11-17 10:15"
+ },
+ "Monastiraki": {
+  "rank": 7,
+  "card": {
+   "hook": "Walk out of the metro and you're straight into a tangle of souvenir racks, hand-painted signs and awnings, with a little church sitting calmly in the middle of it all. Your phone will be busy here.",
+   "stand_here": "Head for Πλατεία Μοναστηρακίου (Monastiraki Square) and stand about 200 m east of the subject, at the phone icon on the map. Face west, and take your main shots along the streets as you go.",
+   "zoom": "Use zoom 1x for street scenes, and zoom 0.5x when you want the whole square with the church tucked in one corner. For details on the stalls, try zoom 2x to 5x, depending on your phone.",
+   "make_it_pop": "Turn on the gridlines and line a street or a row of shopfronts up with one of them, so your picture has a clear direction.",
+   "best_time": "Early in the day, when the shops are opening, is usually quieter and easier for clear shots. Late afternoon gives softer light along the streets, but it's busier.",
+   "selfie_here": "A guide suggests the top of the steps at the Pantanassa church, on the square, for framing the church with Hadrian's Library and the Acropolis in view. Use your front camera, try zoom 0.5x to fit more in, and check what's showing over your shoulder before you tap.",
+   "ask_someone": "Hand your phone to a passer-by at the Monastiraki metro station entrance, facing the square (it gives the widest view of it), and you stand out in the square in front of them.",
+   "rules_and_safety": "A reviewer warns that the square is a popular spot for pickpockets because of the number of tourists, so keep your phone in a pocket or on a wrist strap while you walk. Shops and the church may have their own rules, so check the official site before going inside.",
+   "challenge": "Find one hand-painted sign or a pile of souvenirs, then take two shots: one up close, and one stepped back so a passer-by gives it scale.",
+   "good_to_know": "Monastiraki is the old flea-market neighbourhood of Athens, and the name means 'little monastery' in Greek. The square is named after the Church of the Pantanassa, which stands in it, and the neighbourhood is named after the square. The main streets to wander are Pandrossou Street and Adrianou Street.",
+   "stand_here_before_gps_rule": "Head for Πλατεία Μοναστηρακίου (Monastiraki Square) and stand about 200 m east of the subject, at the phone icon on the map. Face west, and take your main shots along the streets as you go."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Ruins of the Library of Hadrian, Monastiraki Square's north edge",
+     "detail": "on the elevated walkway by the ruins, near the reconstructed entrance wall at the corner of Areos and Adrianou Streets",
+     "why": "Guides describe the ruins as a contrast of ancient and modern Athens, and the elevated walkway gives a different angle than most visitors get.",
+     "sources": [
+      {
+       "title": "Monastiraki Neighborhood Guide: Markets & Culture (2026) - Athens Tourism Guide",
+       "url": "https://www.athenstourism.org/monastiraki-athens-neighborhood-guide/"
+      },
+      {
+       "title": "Hadrian's Library - The Athens Photographer",
+       "url": "https://www.theathensphotographer.com/athens-photo-spots/"
+      }
+     ]
+    },
+    {
+     "name": "Steps of the Pantanassa church, Monastiraki Square",
+     "detail": "at the top of the steps at the Pantanassa church, on the square",
+     "why": "A guide recommends this spot for framing the square's Byzantine church with Hadrian's Library and the Acropolis in view.",
+     "sources": [
+      {
+       "title": "Monastiraki Neighborhood Guide: Markets & Culture (2026) - Athens Tourism Guide",
+       "url": "https://www.athenstourism.org/monastiraki-athens-neighborhood-guide/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Monastiraki metro station entrance, facing Monastiraki Square",
+    "detail": "from the metro station entrance on the square, which gives the widest view of the square",
+    "sources": [
+     {
+      "title": "Monastiraki Neighborhood Guide: Markets & Culture (2026) - Athens Tourism Guide",
+      "url": "https://www.athenstourism.org/monastiraki-athens-neighborhood-guide/"
+     },
+     {
+      "title": "Monastiraki Square - TripAdvisor",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g189400-d23587131-Reviews-Monastiraki_Square-Athens_Attica.html"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "A TripAdvisor reviewer warns that the square is a popular spot for pickpockets because of the number of tourists.",
+   "notes": "No page I found states rules on selfie sticks or tripods, so none are listed. The ask-someone spot is a guide's suggestion for a wide shot, not a stated photographer position, so check it on the ground. The sources do not say exactly which direction a visitor should face at either selfie spot. The Acropolis is visible from the square, but the selfie spots are my best match from these pages, not confirmed landmark-behind positions."
+  },
+  "cost_usd": 0.0491,
+  "at": "2026-11-17 10:15"
+ },
+ "Syntagma Square": {
+  "rank": 8,
+  "card": {
+   "hook": "Most people come to Syntagma Square for the square, then spend ten minutes filming a guard marching in slow motion. Join them, because the changing of the guard, held every hour in front of the Tomb of the Unknown Soldier, is the best photo here.",
+   "stand_here": "Stand on the right-hand side of the Parliament steps as you face the building. That's an approximate spot, so shuffle to fit the space and any signs. Face the Parliament so the guards walk toward you, with the square behind you to the west.",
+   "zoom": "Try zoom 2x to 5x (depends on your phone) to pick individual guards out of the crowd. Use 1x for a wider shot with the Parliament behind them. Save 0.5x for when you're well back and want the whole facade.",
+   "make_it_pop": "Tap the guards, then slide the picture a little darker so the bright facade doesn't wash out, and turn on gridlines to keep them off-centre.",
+   "best_time": "Be there on the hour, a few minutes early so you get a clear spot, because it gets crowded. On some days a larger ceremony with an army band happens at 11 am, so check the official site for times before you go. Ermou Street looks best in low late-afternoon sun.",
+   "selfie_here": "Take your selfie at the fountain in the middle of Syntagma Square, with the Parliament building behind you. Use the front camera, try 0.5x if your phone has it on the front, and hold it a bit low so the building fills the background.",
+   "ask_someone": "Ask someone to stand across the square, facing the Parliament and the Evzones, so the whole building and the guards fit in the frame, while you keep a respectful distance from the guards.",
+   "rules_and_safety": "Keep your flash off, as it's not allowed at the ceremony. Don't touch the Evzones or get in their way, because they stay still and silent. The Parliament isn't open to the public, so follow any local signs.",
+   "challenge": "Use a burst or Live Photo to catch a guard mid-stride, with plenty of empty space in front of him to walk into.",
+   "good_to_know": "Syntagma Square is named after the Constitution King Otto had to grant after the uprising of 3 September 1843. The Old Royal Palace across Amalias Avenue has housed the Greek Parliament since 1934. For the big 11 am ceremony, most of the 120 Evzones turn out.",
+   "stand_here_before_gps_rule": "Stand on the right-hand side of the Parliament steps as you face the building. That's an approximate spot, so shuffle to fit the space and any signs. Face the Parliament so the guards walk toward you, with the square behind you to the west."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Syntagma Square fountain",
+     "detail": "at the fountain in the middle of the square, with the Parliament building behind you",
+     "why": "A travel blog's photo of this fountain shows the Parliament building rising behind it, so the building fills the background of a shot taken here.",
+     "sources": [
+      {
+       "title": "Changing of the Guard in Athens Greece (Reflections En Route)",
+       "url": "https://www.reflectionsenroute.com/changing-of-the-guard-athens-greece/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Far side of Syntagma Square",
+    "detail": "from across the square, facing the Parliament building and the Evzones, so the whole building and guards fit in the frame",
+    "sources": [
+     {
+      "title": "Syntagma Neighborhood Athens: A Guide to the Historic Center (Cloudkeys)",
+      "url": "https://thecloudkeys.com/en/travel/athens/local-neighborhoods/syntagma/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Do not touch the Evzones or get in the way of the guards; they stay still and silent during the ceremony, so keep your distance while photographing them.",
+     "sources": [
+      {
+       "title": "Syntagma Square & Changing of the Guard (Elladainfo)",
+       "url": "https://elladainfo.com/greece-mainland/athens/syntagma-square/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "Only one selfie spot had a source describing the landmark behind the visitor, and that source is a travel blog's photo caption, not a dedicated selfie guide. Two listicles (XpatAthens and a 2016 Greecelists post) name a designated selfie spot on the Grand Bretagne Hotel rooftop, but neither says the Parliament is behind the visitor, so I left it out. The Tomb of the Unknown Soldier and the hourly guard change are the main photo draws, and the ask-someone spot is drawn from the same blog's advice to shoot the Parliament and Evzones from across the square. No page mentioned selfie stick or tripod rules, so none are listed."
+  },
+  "cost_usd": 0.0494,
+  "at": "2026-11-17 10:16"
+ },
+ "Anafiotika": {
+  "rank": 9,
+  "card": {
+   "hook": "Turn a corner in Plaka and suddenly you're on a Greek island: whitewashed cubes, blue doors, and a giant rock wall looming over the roofs. Nobody will believe this is central Athens.",
+   "stand_here": "Stand right at the phone icon on the map, in among the whitewashed houses of Anafiotika. Crouch a little and face up the lane so the houses sit in front of the Acropolis wall.",
+   "zoom": "Use zoom 1x for most shots. Switch to 0.5x for steps and twisty lanes where you can't step back, and try 2x or 5x (depending on your phone) to pick out doors, plants and textures from a polite distance.",
+   "make_it_pop": "Tap a white wall or blue door, then slide it a touch darker so the white stays crisp instead of turning grey or washing out.",
+   "best_time": "Go before about 9-10am, when the lanes are quiet and the light is soft. Later on it gets crowded, so your tight, close-up shots will be harder to get clean.",
+   "selfie_here": "Try the stepped lane just uphill from the church of Agios Georgios tou Vrachou on Stratonos Street, where the stairs branch into alleys. Use the front camera at 0.5x and let the white walls and blue house numbers fill in behind your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on Stratonos Street by the church and shoot uphill, while you stand on the whitewashed stepped lane above them so you and the lane fit in one frame.",
+   "rules_and_safety": "People live here, so photograph the lanes, not the people: keep your phone away from windows, gates and courtyards, and ask before photographing a resident. Don't step into courtyards or open doorways, don't sit on steps or walls, and don't block the lanes. Wear shoes with good grip, because the stone is uneven.",
+   "challenge": "Find a blue house number and get it in your shot along with a pot of plants, with no neighbours' windows in the frame.",
+   "good_to_know": "Anafiotika was started in the reign of King Otto by builders from the island of Anafi, who came to Athens to work on the royal palace. Other islanders followed, which is why it looks like a Cycladic village. Only about 45 houses remain, and the lanes are still unnamed, so houses are simply called \"Anafiotika 1\", \"Anafiotika 2\" and so on.",
+   "stand_here_before_gps_rule": "Stand right at the phone icon on the map, in among the whitewashed houses of Anafiotika. Crouch a little and face up the lane so the houses sit in front of the Acropolis wall."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "White-painted stairs climbed from the church of Agios Georgios tou Vrachou, Stratonos Street",
+     "detail": "on the stepped lane just uphill from the church, where the stairs branch into alleys with whitewashed walls behind you",
+     "why": "The church is the usual entry point, and the lane's white walls and blue house numbers make a clear Anafiotika backdrop for a close selfie.",
+     "sources": [
+      {
+       "title": "Anafiotika in Plaka: Cycladic Houses Beneath the Acropolis",
+       "url": "https://www.angelsathens.gr/en/blog/athens-neighborhoods/anafiotika-athens-cycladic-village-guide/"
+      },
+      {
+       "title": "Anafiotika in Athens: Walking Route, Boundaries, Etiquette",
+       "url": "https://www.athenstourism.org/anafiotika-athens/"
+      }
+     ]
+    },
+    {
+     "name": "Old steps down from beside the church of Agios Symeon, toward Theorias and Prytaneiou streets",
+     "detail": "on the old flight of steps, a little before the bottom, turned so the houses stacked against the rock are behind you",
+     "why": "A guide recommends looking back up here, where the houses pile up against the rock, so this spot puts the neighbourhood itself in the frame.",
+     "sources": [
+      {
+       "title": "Anafiotika in Athens: Walking Route, Boundaries, Etiquette",
+       "url": "https://www.athenstourism.org/anafiotika-athens/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Stratonos Street, by the church of Agios Georgios tou Vrachou",
+    "detail": "the passer-by stands on Stratonos Street at the church and shoots uphill so the visitor and the whitewashed stepped lane above them fit in one frame",
+    "sources": [
+     {
+      "title": "Anafiotika in Athens: Walking Route, Boundaries, Etiquette",
+      "url": "https://www.athenstourism.org/anafiotika-athens/"
+     },
+     {
+      "title": "Acropolis Athens Photography Guide 2026: Tips & Best Spots",
+      "url": "https://www.machupicchu.org/acropolis-athens-photography-guide-2026-tips-best-spots.htm"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photograph the lanes, not the people: no lenses through windows, over gates or into courtyards, and ask before photographing a resident.",
+     "sources": [
+      {
+       "title": "Anafiotika in Athens: Walking Route, Boundaries, Etiquette",
+       "url": "https://www.athenstourism.org/anafiotika-athens/"
+      }
+     ]
+    },
+    {
+     "rule": "Do not step into private courtyards when taking blue-door and step photos.",
+     "sources": [
+      {
+       "title": "Anafiotika in Plaka: Cycladic Houses Beneath the Acropolis",
+       "url": "https://www.angelsathens.gr/en/blog/athens-neighborhoods/anafiotika-athens-cycladic-village-guide/"
+      }
+     ]
+    }
+   ],
+   "safety": "Wear shoes with good grip, since the core of the neighbourhood requires steady footing on uneven stone.",
+   "notes": "No page mentioned selfie-stick or tripod rules, so none are listed. The selfie spots are described from blog and guide wording rather than exact map pins; the Stratonos Street passer-by spot relies on one blog and one photo guide. Acropolis-behind viewpoints (e.g. the Stratonos Street staircase framing the Acropolis) were left out because the landmark is Anafiotika itself. Several guides say the lanes are crowded after about 9-10 AM and recommend early visits, but this is not a rule."
+  },
+  "cost_usd": 0.0498,
+  "at": "2026-11-17 10:17"
+ },
+ "Theatre of Dionysus": {
+  "rank": 10,
+  "card": {
+   "hook": "Imagine a stone bowl big enough for 25,000 people, and you get to wander right into it. The curved rows of seats step down to a flat circle, and the whole of Athens spreads out beyond them.",
+   "stand_here": "Stand inside the Theatre of Dionysus, about halfway up the remaining rows of seating, where the phone icon on the map marks the spot. Face down towards the orchestra, the flat circle at the bottom, with the city behind it.",
+   "zoom": "Start at zoom 0.5x to fit the whole curve of seats and the orchestra into one frame. Switch to 1x for a more natural look, then try 2x to 5x (depending on your phone) for single stone seats or the city beyond.",
+   "make_it_pop": "Tap the sunlit stone, then slide it a little darker so the pale marble doesn't turn white.",
+   "best_time": "Go early in the morning or late in the afternoon, when the light is softer on the stone and the shadows are gentler. Summer midday sun is harsh on that pale marble.",
+   "selfie_here": "Try the side path just above the top of the seats (the Peripatos), which lets you fit the theatre and the rocky Acropolis slope into one wide shot. Use the front camera, try 0.5x for a group, and keep the ruins over your shoulder. The upper seating steps work too, especially near sunset, but check which way you're facing when you're there.",
+   "ask_someone": "Ask a passer-by to shoot from just behind the ancient retaining wall on the Acropolis south side, where the theatre lines up with the Temple of Zeus behind it. Treat it as a rough position and adjust on the spot.",
+   "rules_and_safety": "Photos for personal use are fine, but no flash and no drones. Don't climb on fragile parts of the ruins or step past ropes and barriers. It's an archaeological site with an admission ticket, and some upper paths may be closed, so check the official site first. In summer, bring water.",
+   "challenge": "Line up the curved rows with your gridlines so they sweep across the photo like a wave, then wait for a few people to sit down in the seats to show off the scale.",
+   "good_to_know": "The first orchestra terrace here dates from around the mid- to late-sixth century BC. By the fourth century BC the theatre had reached its fullest size and could hold up to 25,000 people. It later fell into decay and was only identified, excavated and restored in the nineteenth century.",
+   "stand_here_before_gps_rule": "Stand inside the Theatre of Dionysus, about halfway up the remaining rows of seating, where the phone icon on the map marks the spot. Face down towards the orchestra, the flat circle at the bottom, with the city behind it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Side path just above the top of the theatre seating (Peripatos)",
+     "detail": "on the side path that runs just above the top of the cavea, the upper rim of the seats",
+     "why": "A guide says this path lets you frame both the theatre and the rocky Acropolis slope above in one wide shot, which suits a group selfie with the site behind you, though the page does not describe a selfie orientation.",
+     "sources": [
+      {
+       "title": "Theatre of Dionysus Guide for First-Time Athens Visitors",
+       "url": "https://www.thetraveler.org/theatre-of-dionysus-guide-for-first-time-athens-visitors/"
+      }
+     ]
+    },
+    {
+     "name": "Upper audience seating steps of the theatre",
+     "detail": "on the steps climbed up to the audience seating area, from the upper tiers",
+     "why": "An access guide says the upper seats give views of the stage, the orchestra and the Acropolis in the background, and that the light is best near sunset, so a selfie taken here can keep the ruins and the Acropolis behind you.",
+     "sources": [
+      {
+       "title": "Accessible for all - Theatre of Dionysus (Access Travel)",
+       "url": "https://www.accesstravel.com/aboutus/ViatorAttraction/Index/496/644"
+      },
+      {
+       "title": "Theatre of Dionysus Athens - History, Architecture & Visitor Guide 2026",
+       "url": "https://tickets-acropolis.org/what-to-see/theatre-of-dionysus-south-slope/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Just behind the ancient retaining wall that protects the Parthenon precinct",
+    "detail": "a spot behind the ancient retaining wall on the Acropolis south side, from which the theatre is seen with the Temple of Zeus in the background",
+    "sources": [
+     {
+      "title": "Vicity - Dionysus Theatre in Athens",
+      "url": "https://www.vicity.net/europe/greece/athens/places-to-see-in-athens/theatre-of-dionysus.html"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography is permitted for personal use; drones are not allowed without special permits.",
+     "sources": [
+      {
+       "title": "Theatre of Dionysus Guide for First-Time Athens Visitors",
+       "url": "https://www.thetraveler.org/theatre-of-dionysus-guide-for-first-time-athens-visitors/"
+      }
+     ]
+    },
+    {
+     "rule": "No flash is allowed, and no drones.",
+     "sources": [
+      {
+       "title": "Theatre of Dionysus Athens - History, Architecture & Visitor Guide 2026",
+       "url": "https://tickets-acropolis.org/what-to-see/theatre-of-dionysus-south-slope/"
+      }
+     ]
+    },
+    {
+     "rule": "Climbing onto fragile sections of the ruins is prohibited; avoid crossing ropes or barriers.",
+     "sources": [
+      {
+       "title": "Theatre of Dionysus Guide for First-Time Athens Visitors",
+       "url": "https://www.thetraveler.org/theatre-of-dionysus-guide-for-first-time-athens-visitors/"
+      }
+     ]
+    }
+   ],
+   "safety": "If you visit the Acropolis in summer, take some form of hydration.",
+   "notes": "The sources do not explicitly describe a selfie with the theatre behind the visitor. The selfie spots are the best-supported vantage points that include the theatre and the Acropolis in frame, so check orientation on site. The ask-someone spot is from a page describing a photo of the theatre, not a photo of a person, so treat it as a rough position. No page mentions selfie stick or tripod rules, so none are listed. The Vicity page is old (about ten years), so it may be out of date. The Acropolis and Slopes ticket is needed to stand among the seats, per one guide, so the upper seating spot may require entry."
+  },
+  "cost_usd": 0.0524,
+  "at": "2026-11-17 10:17"
+ },
+ "National Garden of Athens": {
+  "rank": 11,
+  "card": {
+   "hook": "You're a few steps from the Greek Parliament, yet you're standing under tall trees on a winding path, with the busy city just outside the gates. This park is about quiet little scenes, not one big view.",
+   "stand_here": "Stand at Zappeio Megaron, at the south end of the garden, and face the garden's south entrance. You'll get the columned Zappeion hall with greenery in front of it and the Acropolis in the background.",
+   "zoom": "Start at 1x for paths, trees and benches, because it looks closest to what you see. Go 0.5x in open spots to fit a tall tree and a path into one frame, and 2x to 5x (depending on your phone) for busts, ruins and ducks.",
+   "make_it_pop": "Tap the brightest sunlit leaves, then slide the brightness a little darker so the glowing patches don't turn white.",
+   "best_time": "Go early in the morning or late in the afternoon, when the light is lower and softer. The garden is only open from sunrise to sunset, so plan to be out before dark.",
+   "selfie_here": "Stand on the wooden bridge by the lakeside with the pond and trees behind you. Or squeeze under the small gazebo over the fish pond for a shady, framed selfie. Use the front camera, try 0.5x to fit more in, and hold the phone a little low.",
+   "ask_someone": "Ask a passer-by to stand at the start of the palm-lined path just inside the main entrance, while you walk away from them down the palms.",
+   "rules_and_safety": "The garden is a public park, open from sunrise to sunset. Check the official site before you go in case anything has changed.",
+   "challenge": "Find a path that curves away from you, line it up on a gridline, and see if you can get a duck or a bench into the same shot.",
+   "good_to_know": "Queen Amalia commissioned the garden in 1838 and it was finished by 1840. It was called the Royal Garden until 1974. Designer Friedrich Schmidt brought in more than 500 plant species, though many struggled in the dry climate.",
+   "stand_here_before_gps_rule": "Stand at Zappeio Megaron, at the south end of the garden, and face the garden's south entrance. You'll get the columned Zappeion hall with greenery in front of it and the Acropolis in the background."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Wooden bridge over the garden's lake",
+     "detail": "on the wooden bridge by the lakeside, with the pond and greenery behind you",
+     "why": "The bridge puts you in the foreground with the water and surrounding trees filling the frame behind you.",
+     "sources": [
+      {
+       "title": "Athens National Garden & Zappeion Hall (Flying Dress)",
+       "url": "https://www.flyingdress.photo/athens/national-garden"
+      },
+      {
+       "title": "14 Epic Athens Instagram Spots You Can't Miss (She Wanders Abroad)",
+       "url": "https://shewandersabroad.com/athens-instagram-spots/"
+      }
+     ]
+    },
+    {
+     "name": "Gazebo over the fish pond",
+     "detail": "under the small gazebo that stands over the fish pond",
+     "why": "The gazebo gives a framed, shaded spot with the pond and garden plantings behind you.",
+     "sources": [
+      {
+       "title": "National Garden Athens (Airial)",
+       "url": "https://airial.travel/attractions/greece/athens/national-garden-athens-EXjo4FX_"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Palm-lined path just inside the main entrance (Vasilissis Amalias side)",
+    "detail": "the photographer stands at the start of the palm-lined path just inside the main entrance and frames the visitor walking away down the palms",
+    "sources": [
+     {
+      "title": "Best Photo Spots Athens City for Your Instagram (KeyTours)",
+      "url": "https://keytours.gr/en/blog/best-photo-spots-in-athens-city-for-your-instagram"
+     },
+     {
+      "title": "Best photo spots in Athens (Greece) - with map (Yvette The World)",
+      "url": "https://yvettheworld.com/best-photo-spots-in-athens-greece-with-map/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found states rules about selfie sticks or tripods, so none are listed. The ask-someone spot is my inference: KeyTours names the palm-lined promenade from the main entrance as its best shot, but no page says a passer-by should frame the visitor there with the whole garden in view, so check it on site. Sources disagree on the main entrance street (Leoforos Amalias per Wikipedia; Vasilissis Sofias per Lonely Planet). The Zappeion fountain/Zappeion Hall single-frame shot is named by VoiceMap, but it is on a walking tour from Zappeion's side, not a whole-garden framing, so I left it out. Some guides are several years old, so check that the pond, gazebo and bridge are still there."
+  },
+  "cost_usd": 0.0483,
+  "at": "2026-11-17 10:18"
+ },
+ "Arch of Hadrian": {
+  "rank": 12,
+  "card": {
+   "hook": "Picture a marble gateway standing on the pavement, trams rattling past, with a little slice of the Acropolis tucked inside its opening. It's an ancient showpiece in the middle of a busy modern street, and that mix is what makes the photo.",
+   "stand_here": "Stand at the Arch of Hadrian itself, about 325 metres south-east of the Acropolis, on the pavement on its northwest side. Face back towards the Acropolis and step back a little until the rock shows through the opening.",
+   "zoom": "Start at zoom 1x from a few steps back so the whole arch fits. If traffic stops you stepping back, go to zoom 0.5x. Try zoom 2x or 5x (depending on your phone) for the Acropolis rock through the opening, or to get close on the carved stone.",
+   "make_it_pop": "Turn on your gridlines and line the arch's upright edges up with them so it doesn't lean.",
+   "best_time": "Early morning or late afternoon, when the warm side-light brings out the carving in the pale marble. Midday light flattens the stone. After dark the arch is at its most striking, so switch on night mode and shoot from the pavement.",
+   "selfie_here": "Try the small triangle of paving stones on the west side of Vasilissis Amalias avenue, facing the arch. Use the front camera at 0.5x, tilt up a touch and let the arch rise over your shoulder. It's the nearest good arch-viewing spot, so check the angle on the spot.",
+   "ask_someone": "Ask a passer-by to stand at the northwest corner of Amalias, at the traffic light where the side street leads toward the Acropolis Museum, and step back several paces while you stand beside the arch, so the frame catches its full height and a slice of the Acropolis hill.",
+   "rules_and_safety": "The arch sits right beside a busy avenue with tram tracks, so stay on the pavement. Crossing several lanes to the traffic island at its foot is tricky, so use the lights and take care.",
+   "challenge": "Get the Acropolis rock sitting neatly inside the arch's opening, then take a close-up of the carved inscription as your trophy shot.",
+   "good_to_know": "The arch is thought to date from around 131 or 132 AD, built to honour the Roman emperor Hadrian when the nearby temple complex was dedicated. It stands about 18 m high and 13.5 m wide, and it's made of Pentelic marble with clamps holding the blocks together instead of mortar. Each side has an inscription: the northwest one says \"this is Athens, the ancient city of Theseus\", and the southeast one says \"this is the city of Hadrian, and not of Theseus\".",
+   "stand_here_before_gps_rule": "Stand at the Arch of Hadrian itself, about 325 metres south-east of the Acropolis, on the pavement on its northwest side. Face back towards the Acropolis and step back a little until the rock shows through the opening."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Small paving-stone triangle on the western side of Vasilissis Amalias avenue",
+     "detail": "on the small triangle of paving stones on the avenue's west side, facing the arch",
+     "why": "This is a common stopping point that gives an angled view of the arch with the Acropolis showing through the opening on clear days, though no page describes a selfie with the arch directly behind the visitor.",
+     "sources": [
+      {
+       "title": "Temple of Olympian Zeus & Hadrian's Arch Walking & Photo Guide",
+       "url": "https://www.thetraveler.org/temple-of-olympian-zeus-hadrians-arch-walking-photo-guide/"
+      }
+     ]
+    },
+    {
+     "name": "Small traffic island near the base of Hadrian's Arch",
+     "detail": "on the traffic island at the foot of the arch, reached by crossing the avenue's lanes at the lights",
+     "why": "Standing here gives the best sense of the arch's height and proportions, which suits a full-height frame behind you, but the crossing is busy.",
+     "sources": [
+      {
+       "title": "Temple of Olympian Zeus Walking Route Itinerary Guide",
+       "url": "https://www.thetraveler.org/temple-of-olympian-zeus-walking-route-itinerary-guide/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Northwest corner of Amalias, at the traffic light where the side street leads toward the Acropolis Museum",
+    "detail": "Have the passer-by stand here and step back several paces so the visitor stands beside the arch and the frame includes the full height of the arch and a slice of the Acropolis hill.",
+    "sources": [
+     {
+      "title": "Temple of Olympian Zeus & Hadrian's Arch Walking & Photo Guide",
+      "url": "https://www.thetraveler.org/temple-of-olympian-zeus-hadrians-arch-walking-photo-guide/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Tripods and drones are generally not allowed at the Temple of Olympian Zeus site without special permission; handheld cameras and smartphones are fine.",
+     "sources": [
+      {
+       "title": "Temple of Olympian Zeus: Essential Guide for First-Time Visitors",
+       "url": "https://www.thetraveler.org/temple-of-olympian-zeus-essential-guide-for-first-time-visitors/"
+      }
+     ]
+    },
+    {
+     "rule": "Tripods are technically prohibited at the temple site but rarely enforced; drones require permission. (Conflicts with the rule above on tripods.)",
+     "sources": [
+      {
+       "title": "Temple of Olympian Zeus Athens: Complete 2026 Visitor Guide",
+       "url": "https://www.athenstourism.org/temple-of-olympian-zeus-athens/"
+      },
+      {
+       "title": "Visitor Guide for Temple of Olympian Zeus",
+       "url": "https://www.temple-of-zeus.com/plan-your-visit/"
+      }
+     ]
+    }
+   ],
+   "safety": "Crossing several traffic lanes to reach the traffic island near the arch is tricky, so take care with the lights and traffic.",
+   "notes": "No page I found says a visitor should stand with Hadrian's Arch directly behind them for a selfie; both selfie spots are the nearest arch-viewing spots and should be checked on the ground. The arch stands outside the ticketed temple enclosure, so the tripod and drone rules come from temple-site guidance and may not apply to the arch itself. Sources disagree on whether tripods are banned or just rarely enforced."
+  },
+  "cost_usd": 0.0521,
+  "at": "2026-11-17 10:18"
+ }
+}

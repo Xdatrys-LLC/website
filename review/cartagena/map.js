@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "cartagena", "title": "Cartagena: 12 photo spots (pilot review)", "place": "Cartagena", "bounds": [-75.562, 10.382, -75.517, 10.438], "center": [-75.5395, 10.41], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/cartagena/{z}/{x}/{y}.pbf"};

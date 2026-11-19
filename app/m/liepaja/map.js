@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "liepaja", "title": "Liepāja: 11 photo spots (pilot review)", "place": "Liepāja", "bounds": [20.982, 56.497, 21.025, 56.558], "center": [21.0035, 56.5275], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/liepaja/{z}/{x}/{y}.pbf", "tz": "Europe/Riga", "rail": true, "app": true};

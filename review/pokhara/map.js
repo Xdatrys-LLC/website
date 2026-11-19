@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "pokhara", "title": "Pokhara: 9 photo spots (pilot review)", "place": "Pokhara", "bounds": [83.935, 28.178, 84.0, 28.28], "center": [83.9675, 28.229], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/pokhara/{z}/{x}/{y}.pbf"};

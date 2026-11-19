@@ -1,0 +1,327 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Chicago: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Chicago attractions as photo spots, including Millennium Park and Willis Tower: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in chicago, chicago attractions, chicago tourist map, map of chicago attractions, best views in chicago, best photo spots in chicago, chicago millennium park, chicago bean, chicago pritzker pavilion">
+<link rel="canonical" href="https://xdatrys.com/library/chicago/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Chicago: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Chicago attractions as photo spots, including Millennium Park and Willis Tower: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/chicago/">
+<meta property="og:image" content="https://xdatrys.com/library/chicago/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Millennium Park, Chicago: easy to see why it works so well on a phone. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/chicago/","url":"https://xdatrys.com/library/chicago/","name":"Things to Do in Chicago: Map of 20 Photo Spots | Xdatrys","description":"20 top Chicago attractions as photo spots, including Millennium Park and Willis Tower: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/chicago/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Chicago"},"mainEntity":{"@type":"ItemList","name":"Chicago photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Millennium Park","description":"Millennium Park was Chicago's top tourist destination in 2017, and it is easy to see why it works so well on a phone.","geo":{"@type":"GeoCoordinates","latitude":41.8826245,"longitude":-87.6225587},"alternateName":["Chicago Millennium Park"],"image":"https://xdatrys.com/library/chicago/photos/1.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Cloud Gate (The Bean)","description":"Cloud Gate, known to nearly everyone as The Bean, is a giant polished steel sculpture by Anish Kapoor in Millennium Park, in the Loop.","geo":{"@type":"GeoCoordinates","latitude":41.8826426,"longitude":-87.6232476},"alternateName":["Chicago Bean","Cloud Gate","Chicago Cloud Gate"],"image":"https://xdatrys.com/library/chicago/photos/3.jpg"}},{"@type":"ListItem","position":15,"item":{"@type":"TouristAttraction","name":"Jay Pritzker Pavilion","description":"The Jay Pritzker Pavilion is the bandshell at the heart of Millennium Park, designed by Frank Gehry.","geo":{"@type":"GeoCoordinates","latitude":41.8835496,"longitude":-87.6219703},"alternateName":["Chicago Pritzker Pavilion"],"image":"https://xdatrys.com/library/chicago/photos/15.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/chicago/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Chicago","item":"https://xdatrys.com/library/chicago/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Chicago?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Millennium Park, Willis Tower and Cloud Gate (The Bean). They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph Millennium Park?","acceptedAnswer":{"@type":"Answer","text":"Stand right at Millennium Park (north and south ends of the sculpture; for the park skyline, the west-side ledge overlooking the skating rink). Start with the default lens (1x) for the Bean and its reflection."}},{"@type":"Question","name":"When is the best time to photograph Cloud Gate (The Bean)?","acceptedAnswer":{"@type":"Answer","text":"Early morning, before the crowds build up. Midday sun can cause glare on the steel, and warm days get busy from late morning."}},{"@type":"Question","name":"How do I get to Pritzker Pavilion?","acceptedAnswer":{"@type":"Answer","text":"Head for Millennium Park on Randolph Street."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Chicago</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/chicago/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in Chicago: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 3 and 15 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/chicago/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Chicago"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Chicago as photo spots, ranked by how often people search for them: Millennium Park, Willis Tower, Cloud Gate (The Bean), Navy Pier and Field Museum lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Millennium Park</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:2005-10-13_2880x1920_chicago_above_millennium_park.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Millennium Park, Chicago: easy to see why it works so well on a phone. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Photograph: J. Crocker, Attribution, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Millennium Park was Chicago&#39;s top tourist destination in 2017, and it is easy to see why it works so well on a phone. Within a few minutes&#39; walk you get a mirror-like sculpture that reflects the skyline, a curving steel walkway, fountains and tall columns, all with the Michigan Avenue buildings behind. The park opened in July 2004 and covers about 24.5 acres in the north-west corner of Grant Park. Because it sits on top of parking garages and rail lines, it is described as the world&#39;s largest rooftop garden. Expect company. Cloud Gate, the curved mirror sculpture known as the Bean, is the recommended viewpoint nearby and the park&#39;s biggest photo draw. The curved surface bends the skyline and sky into one shape, so you can take a photo that is part sculpture and part city. The north and south ends of the sculpture are the best places to frame it. For a wider view of the park, try the ledge on the west side overlooking the skating rink. If you have time, Nichols Bridgeway and Wrigley Square give two different views of the park and the buildings around it. Allow time to wait for a gap in the crowd, and take a few frames rather than one.</p>
+    <p><b>Where it is:</b> Millennium Park is in the Loop, Chicago&#39;s downtown, in the north-west corner of Grant Park beside Michigan Avenue. It is bounded by Michigan Avenue, Randolph Street, Columbus Drive and East Monroe Drive.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the Bean and its reflection. Switch to ultra-wide (0.5x) from the west-side ledge to fit in the rink, the sculpture and the skyline, and use telephoto (2x or more) for a tighter crop of the reflected buildings.</p>
+      <p><b>Where to stand:</b> Stand right at the subject (north and south ends of the sculpture; for the park skyline, the west-side ledge overlooking the skating rink). The park&#39;s most famous view: the curved mirror surface reflecting the Chicago skyline and sky, with the park and Michigan Avenue buildings around it. Cloud Gate&#39;s north or south ends are the recommended viewpoints. From there the photo shows the curved mirror surface reflecting the Chicago skyline and sky, with the park and Michigan Avenue buildings around it. For a wider view, walk to the ledge on the west side that overlooks the skating rink.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the Bean&#39;s curve on one of the lines, so the reflected skyline sits in the upper part of the frame. Crouch slightly to keep the horizon of the reflection tidy. For a different view of the park, try Nichols Bridgeway with its curving walkway in the foreground, or Wrigley Square with the tall columns and fountain framing the buildings behind.</p>
+      <p><b>Settings tip:</b> Tap the brightest part of the reflection to focus, then drag the exposure slider down a little so the sky keeps its detail. Wipe your lens first, and use the 0.5x lens for wide shots of the park.</p>
+      <p><b>Best time:</b> Early morning or late evening is best if you want fewer people in the frame. One guide says late afternoon light is best, so try more than one visit if you can.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Cloud Gate (The Bean)</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:A_public_square_in_Chicago_(9326033069).jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Cloud Gate (The Bean), Chicago: a giant polished steel sculpture by Anish Kapoor. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: orangemania from Montréal, QC, <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Cloud Gate, known to nearly everyone as The Bean, is a giant polished steel sculpture by Anish Kapoor in Millennium Park, in the Loop. It was built between 2004 and 2006 and formally dedicated on 15 May 2006. It is made of 168 steel plates joined so smoothly that you can&#39;t see a seam. It measures about 10 by 20 by 13 m. Its shape is inspired by liquid mercury, and that is why it photographs so well: the surface works like a curved mirror, bending the Loop skyline and the clouds into one swirling picture. You can walk right under the arch, where a hollow in the underside, called the omphalos, multiplies and twists the reflections above you.</p><p>For the classic postcard, walk to the west side of the sculpture, on Grainger Plaza (formerly called AT&amp;T Plaza), where the skyline sits in the curve of the steel. For a wider view of the whole Bean, step back from it within the same plaza so more of the towers behind it fit into the frame. Underneath the arch you can shoot upwards into the omphalos for a very different, abstract picture. The surface shows everything in front of it, so you will appear in your own photo. Use that on purpose, or shift a step to one side. Crowds are usually thickest from late morning, so an early start gives you cleaner reflections and fewer people walking through the frame.</p>
+    <p><b>Where it is:</b> Cloud Gate stands in Millennium Park, in the Loop area of central Chicago. It sits between the Chase Promenade and the McCormick Tribune Plaza &amp; Ice Rink, a short way south of Randolph Street.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the skyline reflection. Switch to ultra-wide (0.5x) under the arch or when you are close to the steel. Use the telephoto (2x or more, depending on your phone) to pick out a single building or a patch of reflected sky.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. For the skyline reflection, walk to the west side of the sculpture, on Grainger Plaza (formerly AT&amp;T Plaza), where the Bean&#39;s curved surface bends the Loop skyline, with the real buildings behind it. A step to one side changes the framing, so try a couple of spots before settling. For a wider shot of the whole Bean, step back from it within the same plaza.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the curve of the reflected skyline along one of the lines. Keep your phone low and close to your body so you take up less space in the mirror. For something different, go under the arch and aim up into the omphalos, where reflections of people and buildings are warped and repeated.</p>
+      <p><b>Settings tip:</b> Tap the reflected skyline to set focus, then drag the exposure slider down a little. This keeps the bright steel and sky from washing out. Take a few shots, because people moving through the reflection will change each frame.</p>
+      <p><b>Best time:</b> Early morning, before the crowds build up. Midday sun can cause glare on the steel, and warm days get busy from late morning.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-15">
+    <h3><span class="n">15</span>Jay Pritzker Pavilion</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Jay_Pritzker_Pavilion_Chicago_HiRes.jpg" target="_blank" rel="noopener"><img src="photos/15.jpg" alt="Jay Pritzker Pavilion, Chicago: the bandshell at the heart of Millennium Park. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Andreborgeslopes, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Jay Pritzker Pavilion is the bandshell at the heart of Millennium Park, designed by Frank Gehry. Its ribbons of stainless steel curl outwards from the stage like a metal headdress, and above the lawn a lattice of steel trellis carries the sound system. That mix of shiny curves and criss-crossing lines gives your phone plenty to work with. The pavilion opened on 16 July 2004 and holds up to 11,000 people. It is home to the Grant Park Music Festival, a free outdoor classical series.</p><p>From this raised spot the steel shell looks like a set of sails, with the Loop skyline rising behind it. Photographers say it is also less crowded than the straight-on view from the seating area. The bridge was designed by Gehry too, partly to shut out street noise from the pavilion.</p><p>If you want a closer, more abstract picture, go down to the lawn and shoot upwards at the steelwork. A quieter alternative is the Lurie Garden, where plants can frame a partial view of the stage. Drones are not allowed over the park or pavilion.</p>
+    <p><b>Where it is:</b> In the Loop, in Millennium Park, on the south side of Randolph Street. Millennium Park sits in the north-west corner of the larger Grant Park, between Michigan Avenue and Lake Michigan.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the ultra-wide (0.5x) to take in the whole steel shell with the skyline behind it. Switch to the default lens (1x) for a cleaner, less stretched view. If your phone has a telephoto (2x-5x), use it to pick out the folds of the steel.</p>
+      <p><b>Where to stand:</b> Stand on BP Bridge (east side of the pavilion, looking back west toward the stage). A wider view of the pavilion&#39;s curved steel shell with the Loop skyline rising behind it. Face back towards the stage, with the pavilion to the north-west of you. From here you get a wider view of the curved steel shell with the Loop skyline rising behind it.</p>
+      <p><b>Framing:</b> Turn on the gridlines and keep the stage roughly central, with the skyline filling the top of the frame. Hold the phone level so the buildings don&#39;t lean. As a different angle, try the Lurie Garden, where plants can frame a partial view of the stage across the planting.</p>
+      <p><b>Settings tip:</b> Tap on the steel to set focus, then slide the exposure down a little if the shiny metal or bright sky looks washed out. Tap and hold if you want to lock focus and exposure before you reframe.</p>
+      <p><b>Best time:</b> Softer light away from harsh midday sun tends to be kinder to shiny metal, so check how the steel looks on your screen and adjust the exposure if needed.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(15)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">2</span>Willis Tower <small>· members</small></li>
+    <li><span class="n">4</span>Navy Pier <small>· members</small></li>
+    <li><span class="n">5</span>Field Museum <small>· members</small></li>
+    <li><span class="n">6</span>Art Institute of Chicago <small>· members</small></li>
+    <li><span class="n">7</span>Shedd Aquarium <small>· members</small></li>
+    <li><span class="n">8</span>Chicago Riverwalk <small>· members</small></li>
+    <li><span class="n">9</span>John Hancock Center <small>· members</small></li>
+    <li><span class="n">10</span>Adler Planetarium <small>· members</small></li>
+    <li><span class="n">11</span>Chicago Theatre <small>· members</small></li>
+    <li><span class="n">12</span>Tribune Tower <small>· members</small></li>
+    <li><span class="n">13</span>Wrigley Building <small>· members</small></li>
+    <li><span class="n">14</span>Marina City <small>· members</small></li>
+    <li><span class="n">16</span>Chicago Cultural Center <small>· members</small></li>
+    <li><span class="n">17</span>Chicago Board of Trade Building <small>· members</small></li>
+    <li><span class="n">18</span>Crown Fountain <small>· members</small></li>
+    <li><span class="n">19</span>Buckingham Fountain <small>· members</small></li>
+    <li><span class="n">20</span>Chicago Water Tower <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Chicago?</summary><p>The first three on this map are Millennium Park, Willis Tower and Cloud Gate (The Bean). They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Millennium Park?</summary><p>Stand right at Millennium Park (north and south ends of the sculpture; for the park skyline, the west-side ledge overlooking the skating rink). Start with the default lens (1x) for the Bean and its reflection.</p></details>
+  <details class="faq"><summary>When is the best time to photograph Cloud Gate (The Bean)?</summary><p>Early morning, before the crowds build up. Midday sun can cause glare on the steel, and warm days get busy from late morning.</p></details>
+  <details class="faq"><summary>How do I get to Pritzker Pavilion?</summary><p>Head for Millennium Park on Randolph Street.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Millennium_Park" target="_blank" rel="noopener">Millennium Park</a>, <a href="https://en.wikipedia.org/wiki/Cloud_Gate" target="_blank" rel="noopener">Cloud Gate</a>, <a href="https://en.wikipedia.org/wiki/Jay_Pritzker_Pavilion" target="_blank" rel="noopener">Jay Pritzker Pavilion</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"chicago","place":"Chicago","bounds":[-87.65,41.855,-87.59,41.905],"center":[-87.62,41.879999999999995],"english":false,"vatican":false,"tiles":"/r2tiles/chicago/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 3 and 15"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

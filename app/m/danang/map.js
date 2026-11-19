@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "danang", "title": "Da Nang: 13 photo spots (pilot review)", "place": "Da Nang", "bounds": [107.97, 15.98, 108.3, 16.13], "center": [108.13499999999999, 16.055], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/danang/{z}/{x}/{y}.pbf", "tz": "Asia/Ho_Chi_Minh", "rail": false, "app": true};

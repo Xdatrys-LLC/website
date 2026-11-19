@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "hoian", "title": "Hoi An: 6 photo spots (pilot review)", "place": "Hoi An", "bounds": [108.31, 15.862, 108.355, 15.896], "center": [108.33250000000001, 15.879000000000001], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/hoian/{z}/{x}/{y}.pbf"};

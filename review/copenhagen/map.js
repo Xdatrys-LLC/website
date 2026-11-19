@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "copenhagen", "title": "Copenhagen: 20 photo spots (pilot review)", "place": "Copenhagen", "bounds": [12.52, 55.64, 12.63, 55.71], "center": [12.575, 55.675], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/copenhagen/{z}/{x}/{y}.pbf"};

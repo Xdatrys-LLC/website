@@ -1,0 +1,55 @@
+{
+ "Matira Beach": {
+  "rank": 1,
+  "card": {
+   "hook": "Picture wading out so far that the beach looks small, and the water is still only around your knees. That's Matira Beach, and the sunset over that shallow lagoon is the picture everyone comes for.",
+   "stand_here": "Stand on the sand at Bora Bora Beach Club, at the western end of the beach (guides say so, so double-check when you arrive). Face out over the lagoon, where the sun sets straight ahead over the water.",
+   "zoom": "Start at zoom 1x for the sunset and the lagoon, because it looks the most natural. Try zoom 0.5x if you want loads of sand and sky, and keep the horizon away from the edges so it doesn't bend. For a faraway islet or one lone swimmer against the glow, try zoom 2x to 5x (higher zooms depend on your phone).",
+   "make_it_pop": "Tap the brightest part of the sky, then slide the brightness down a touch so the sunset colours stay rich instead of washing out.",
+   "best_time": "Go for sunset, and get there well before the last hour of light, because this stretch of sand fills up first. For quieter shots of the beach itself, skip roughly 11am to 2pm.",
+   "selfie_here": "Wade into the knee-deep water off the western end, near Snack Mohiere and Bora Bora Beach Club, and turn so the beach is behind you and the open sky is ahead. For another go, guides call Matira Point (the southern tip) the most photographed spot, with shallow water wrapping around both sides of you. Use the front camera, try zoom 0.5x if your phone has it, and keep the landmark over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "It's an open public beach with no charge expected, but check the official site before you go in case anything near the beach club is restricted. Parking fills quickly, so a drop-off may be easier.",
+   "challenge": "Put the horizon on a gridline, add a curve of wet sand in the foreground, and see if you can get a shot with zero strangers in it. Waiting for a gap between walkers counts as patience, not cheating.",
+   "good_to_know": "The lagoon stays shallow a long way out, and the colour shifts from clear pale green near the shore to deeper turquoise further out. That's why it photographs so well on a phone. If you have time, Matira Point is a good second stop for turquoise water with the outer islets and Mount Otemanu in view.",
+   "stand_here_before_gps_rule": "Stand on the sand at Bora Bora Beach Club, at the western end of the beach (guides say so, so double-check when you arrive). Face out over the lagoon, where the sun sets straight ahead over the water."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Matira Point (southern tip of the headland)",
+     "detail": "on the tip of the point, standing in the shallow water that wraps around both sides",
+     "why": "Guides call it the most photographed spot on the beach, and the shallow water and open view toward the outer motus give the beach behind you a bright, clear backdrop.",
+     "sources": [
+      {
+       "title": "Matira Beach Bora Bora: Amazing Public Beach Guide to see",
+       "url": "https://www.mylittlepolynesia.com/en/matira-beach-bora-bora/"
+      }
+     ]
+    },
+    {
+     "name": "Western end of Matira Beach, near Snack Mohiere and Bora Bora Beach Club",
+     "detail": "in the knee-deep lagoon water off the western stretch, beside Snack Mohiere and Bora Bora Beach Club",
+     "why": "The lagoon stays knee-deep far out here, so you can stand well into the water with the beach behind you and the sky open ahead.",
+     "sources": [
+      {
+       "title": "Matira Beach Bora Bora Honest Guide",
+       "url": "https://beachesforkings.com/bora-bora/matira/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a spot where a passer-by should stand to photograph a visitor with the whole beach in frame, so ask_someone_spot is null. Matira Point's most-photographed status comes from one guide, and the 'Mount Otemanu behind you' view is described for sunset rather than as a selfie spot. The Snack Matira car park is named only as a meeting point for a paid photographer, not as a photo position. No page gave selfie stick or tripod rules for Matira Beach, so none are listed; the rules I saw belong to festivals, Disney parks and Bali beach clubs and do not apply here. The second selfie spot is from a single guide. Sunset crowds are reported, so arriving early is worth planning for."
+  },
+  "cost_usd": 0.0554,
+  "at": "2026-11-17 06:44",
+  "selfie_pos": [
+   -16.5461844,
+   -151.7340103
+  ],
+  "selfie_note": "Matira Point (OpenStreetMap: Mātira, Polynésie Française, France)"
+ }
+}

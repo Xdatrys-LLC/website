@@ -1,0 +1,317 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Pattaya Attractions Map: 10 Best Photo Spots | Xdatrys</title>
+<meta name="description" content="A Pattaya tourist map of 10 top photo spots, including Walking Street and Sanctuary of Truth: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in pattaya, pattaya attractions, pattaya tourist map, pattaya walking street, pattaya sanctuary of truth, pattaya beach">
+<link rel="canonical" href="https://xdatrys.com/library/pattaya/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Pattaya Attractions Map: 10 Best Photo Spots | Xdatrys">
+<meta property="og:description" content="A Pattaya tourist map of 10 top photo spots, including Walking Street and Sanctuary of Truth: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/pattaya/">
+<meta property="og:image" content="https://xdatrys.com/library/pattaya/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="333">
+<meta property="og:image:alt" content="Walking Street, Pattaya, Pattaya: Pattaya&#39;s best-known evening strip. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/pattaya/","url":"https://xdatrys.com/library/pattaya/","name":"Pattaya Attractions Map: 10 Best Photo Spots | Xdatrys","description":"A Pattaya tourist map of 10 top photo spots, including Walking Street and Sanctuary of Truth: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/pattaya/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Pattaya"},"mainEntity":{"@type":"ItemList","name":"Pattaya photo spots","numberOfItems":10,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Walking Street, Pattaya","description":"Walking Street is Pattaya's best-known evening strip: a long, neon-lit road of restaurants, bars, music venues and clubs that fills with people once the sun goes down.","geo":{"@type":"GeoCoordinates","latitude":12.9256271,"longitude":100.8716381},"alternateName":["Pattaya Walking Street"],"image":"https://xdatrys.com/library/pattaya/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Sanctuary of Truth","description":"The Sanctuary of Truth is a huge temple-like building in Pattaya, carved almost entirely from wood.","geo":{"@type":"GeoCoordinates","latitude":12.9727858,"longitude":100.8891454},"alternateName":["Pattaya Sanctuary of Truth"],"image":"https://xdatrys.com/library/pattaya/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Pattaya Beach","description":"Pattaya Beach is the long curve of sand and sea that gives the city its postcard look, and on this map the best way to photograph it is from the Pattaya City Sign.","geo":{"@type":"GeoCoordinates","latitude":12.939532,"longitude":100.883522},"image":"https://xdatrys.com/library/pattaya/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/pattaya/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Pattaya","item":"https://xdatrys.com/library/pattaya/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Pattaya?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Walking Street, Sanctuary of Truth and Pattaya Beach. They are ranked by how often people search for them. The full map has 10."}},{"@type":"Question","name":"Where should I stand to photograph Walking Street?","acceptedAnswer":{"@type":"Answer","text":"Stand on Soi 13/4 (Side alley branching off Walking Street about a third of the way down from the arch). Start with the default lens (1x) for the lane and the lights overhead."}},{"@type":"Question","name":"When is the best time to photograph the Sanctuary of Truth?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon is the time guides recommend for the sea-side view. Early morning is said to be quieter."}},{"@type":"Question","name":"How do I get to Pattaya Beach?","acceptedAnswer":{"@type":"Answer","text":"No station or stop is listed for this spot, so start from the centre of Pattaya and head for the Pattaya City Sign, towards the north end of Beach Road."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Pattaya</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/pattaya/?gate" style="color:#E100FF">✏️ Review all 10 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>10 photo spots in Pattaya: where to stand and how to shoot them on your phone</h1>
+  <p>10 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 7 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 10 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/pattaya/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 10 photo spots in Pattaya"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 10 of the most-searched sights in Pattaya as photo spots, ranked by how often people search for them: Walking Street, Sanctuary of Truth, Pattaya Beach, Floating Market and Art in Paradise lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Walking Street, Pattaya</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Pattaya,_Walking_Street_at_night,_Thailand.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Walking Street, Pattaya, Pattaya: Pattaya&#39;s best-known evening strip. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Vyacheslav Argenberg, <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener license">CC BY 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Walking Street is Pattaya&#39;s best-known evening strip: a long, neon-lit road of restaurants, bars, music venues and clubs that fills with people once the sun goes down. It began as a road serving a fishing village. In the 1960s and 70s it changed to cater for visiting American soldiers on leave, and it was closed to traffic in the evening after a run of car accidents in the 1990s. A large video sign went up at the Beach Road entrance in March 2010.</p><p>It is near Soi 13/4, a narrow side lane. Please check the exact spot on the day. The lane has bare-bulb string lights overhead, which give warm light and a good backdrop for portraits, and usually fewer people in frame than on the main strip. Most visitors walk straight past it.</p><p>For the wide neon scene, two other places work well. One is under the illuminated entrance arch, with the crowd moving beneath it. The other is Bali Hai Pier, where a zoomed view back up the street squeezes the signs together. Keep your phone out of the venues themselves and avoid photographing bar staff. Street performers and animals usually expect a tip if you photograph them. Please confirm the lane on the map before you set off.</p>
+    <p><b>Where it is:</b> Walking Street is in Pattaya, a pedestrianised evening strip running from the Beach Road entrance down towards the Bali Hai pier.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) for the lane and the lights overhead. Switch to 2x for portraits, as it flatters faces and keeps the background softer. Use the ultra-wide (0.5x) only if you want to show the whole line of bulbs stretching above you.</p>
+      <p><b>Where to stand:</b> Stand on Soi 13/4 (Side alley branching off Walking Street about a third of the way down from the arch). A narrow side lane with overhead bare-bulb string lights, giving warm light and a portrait-friendly backdrop with fewer people in frame. This is on Soi 13/4, so check the exact spot on the day. From here the main Walking Street lies to the south-west. Face along the lane with the string lights above and behind your subject, so the bulbs glow in the background.</p>
+      <p><b>Framing:</b> Turn on gridlines and place your subject on one of the vertical lines, with the strings of bulbs running away behind them. Hold the phone at chest height and tilt up slightly so the lights fill the top of the frame. For the full neon street, try the entrance arch with the crowd passing under it, or a zoomed view from Bali Hai Pier looking back up the street.</p>
+      <p><b>Settings tip:</b> Use portrait mode for people, and tap on your subject&#39;s face to focus. Then slide the exposure down a little so the bulbs stay warm and don&#39;t burn out. Let night mode do its work and hold still for a couple of seconds. Ask people to stay still as well, because moving figures blur in low light.</p>
+      <p><b>Best time:</b> After dark, when the string lights are lit and the street is open to pedestrians. Earlier in the evening the lane is likely to be quieter.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Sanctuary of Truth</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Sanctuary_of_Truth_001.JPG" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Sanctuary of Truth, Pattaya: a huge temple-like building. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Luka Krstulović, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Sanctuary of Truth is a huge temple-like building in Pattaya, carved almost entirely from wood. It is still unfinished: work began in 1981 and carries on today, which is why visitors are given hard hats to wear inside. The grounds cover 13 hectares, and the tallest spire reaches 105 metres. The design draws on the temples of Ayutthaya and on Hindu and Buddhist ideas, so the building is richly decorated with hand-carved wooden figures, gods and ornament.</p><p>It photographs well because of the detail and the setting. From the sea-facing waterfront platform at the water&#39;s edge you can look back up at the whole structure with open water and coastline behind it, which the front view cannot give you. Late afternoon is the time guides recommend for this angle, and it also suits a walking shot or a photo of two people with the building above them.</p><p>If you want a second angle, the View Point of the Sanctuary of Truth gives one wide frame of the wooden façade and spires with the sea behind. For the front of the building, stand further back so the full height fits without the sideways-tilting look you get close up. Go earlier in the day if you want fewer people in the frame. Take a moment to step in close for the carvings too: the wood textures are the real character of the place.</p>
+    <p><b>Where it is:</b> In Pattaya, on the coast, where the building stands at the water&#39;s edge with the open sea behind it.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Use the ultra-wide (0.5x) on the waterfront platform when you want the whole structure and the sea in one frame. Use the default lens (1x) for a calmer, more natural view of the building. Use the telephoto (2x-5x, depending on your phone) for carved figures and spire details.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. The sea-side viewpoint is the waterfront platform at the water&#39;s edge, inside the ticketed grounds. From there your photo shows the whole structure rising above you with the open sea and coastline as the backdrop.</p>
+      <p><b>Framing:</b> Turn on gridlines and keep the building&#39;s vertical lines straight on them. Tilting the phone upwards makes the spires lean inwards, so hold it level and step back if you can. The View Point of the Sanctuary of Truth is a good alternative: it gives one wide frame of the wooden façade and spires with the sea behind. For the front of the building, shoot from a distance so the full height fits without the upward distortion you get up close.</p>
+      <p><b>Settings tip:</b> Tap the building to focus, then slide the exposure down a little so the bright sky does not wash out the carved wood. Take a few frames of each view, because other visitors move through the shot.</p>
+      <p><b>Best time:</b> Late afternoon is the time guides recommend for the sea-side view. Early morning is said to be quieter.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Pattaya Beach</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Pattaya_beach_from_view_point.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Pattaya Beach, Pattaya: the long curve of sand and sea that gives the city its postcard look. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Sergey S. Dukachev, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Pattaya Beach is the long curve of sand and sea that gives the city its postcard look, and on this map the best way to photograph it is from the Pattaya City Sign. The large lettering sits on the hillside, so you can put the words in the foreground and let the beach and the sea fill the background. That makes a bolder, more graphic picture than a plain beach snap, and it tells everyone looking at it exactly where you were. Photo guides describe the sign as a popular photo spot, with a view over both the city and the sea. For a different take, the hilltop viewpoint on Khao Phra Tamnak gives a wide panorama of the whole bay, with the hotel strip following the shoreline and Koh Larn offshore. Tour groups crowd that hilltop viewpoint, so arrive early there. Down on the sand itself, a low shot of the shoreline works well when the sun sets over the water to the west. Keep your phone steady, clean the lens with your sleeve before you start, and take a few frames with and without people in them. Leave a little space around the lettering so nothing is cut off at the edges.</p>
+    <p><b>Where it is:</b> Pattaya Beach is the main city beach in Pattaya, on the curve of the bay beside Beach Road. The City Sign stands on the hillside towards the north end of Beach Road, looking over the city and the sea.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) so the sign and the bay both fit in the frame. Switch to the ultra-wide (0.5x) if you are close to the lettering and want to keep all of it in. Use the telephoto (2x-5x, depending on your phone) to pick out details such as boats on the water or Koh Larn offshore.</p>
+      <p><b>Where to stand:</b> Stand right at the subject (north end of Beach Road, on the hillside). The large city lettering in the foreground with the beach and sea behind it. For the sign shot, make your way to the Pattaya City Sign towards the north end of Beach Road, where the large city lettering is in the foreground and the beach and sea spread out behind it.</p>
+      <p><b>Framing:</b> Turn on the gridlines and place the lettering along the lower third, with the sea and sky filling the rest. Crouch slightly so the letters rise against the water. If the sign is busy, wait a moment for a gap rather than zooming in. For a different view, the hilltop viewpoint on Khao Phra Tamnak gives a wide bay panorama, and the sand at the beach is good for a low shot at sunset.</p>
+      <p><b>Settings tip:</b> Tap on the sea or the sign to focus, then use the exposure slider to stop the sky from turning white. If the lettering looks dark against a bright background, raise the exposure a little. Panorama mode works well on the hilltop viewpoint if you hold the phone steady and sweep slowly.</p>
+      <p><b>Best time:</b> Tour groups crowd the hilltop viewpoint, so arriving early is advised there. For the beach shot, late afternoon is best because the sun sets over the water to the west.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>7 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Pattaya Floating Market <small>· members</small></li>
+    <li><span class="n">5</span>Art in Paradise Pattaya <small>· members</small></li>
+    <li><span class="n">6</span>Central Pattaya <small>· members</small></li>
+    <li><span class="n">7</span>Bali Hai Pier <small>· members</small></li>
+    <li><span class="n">8</span>Mini Siam <small>· members</small></li>
+    <li><span class="n">9</span>Wong Amat Beach <small>· members</small></li>
+    <li><span class="n">10</span>Pattaya Park Tower <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Pattaya?</summary><p>The first three on this map are Walking Street, Sanctuary of Truth and Pattaya Beach. They are ranked by how often people search for them. The full map has 10.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph Walking Street?</summary><p>Stand on Soi 13/4 (Side alley branching off Walking Street about a third of the way down from the arch). Start with the default lens (1x) for the lane and the lights overhead.</p></details>
+  <details class="faq"><summary>When is the best time to photograph the Sanctuary of Truth?</summary><p>Late afternoon is the time guides recommend for the sea-side view. Early morning is said to be quieter.</p></details>
+  <details class="faq"><summary>How do I get to Pattaya Beach?</summary><p>No station or stop is listed for this spot, so start from the centre of Pattaya and head for the Pattaya City Sign, towards the north end of Beach Road.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Walking_Street%2C_Pattaya" target="_blank" rel="noopener">Walking Street, Pattaya</a>, <a href="https://en.wikipedia.org/wiki/Sanctuary_of_Truth" target="_blank" rel="noopener">Sanctuary of Truth</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"pattaya","place":"Pattaya","bounds":[100.845,12.868,100.92,12.985],"center":[100.8825,12.9265],"english":false,"vatican":false,"tiles":"/r2tiles/pattaya/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

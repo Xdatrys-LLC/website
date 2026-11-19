@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "langkawi", "title": "Langkawi: 11 photo spots (pilot review)", "place": "Langkawi", "bounds": [99.63, 6.27, 99.88, 6.46], "center": [99.755, 6.365], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/langkawi/{z}/{x}/{y}.pbf", "tz": "Asia/Kuala_Lumpur", "rail": false, "app": true};

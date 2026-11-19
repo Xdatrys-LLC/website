@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "vikyri", "title": "Vikøyri: 4 photo spots (pilot review)", "place": "Vikøyri", "bounds": [6.56, 61.067, 6.592, 61.084], "center": [6.576, 61.075500000000005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/vikyri/{z}/{x}/{y}.pbf"};

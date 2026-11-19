@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "oranjestad", "title": "Oranjestad: 11 photo spots (pilot review)", "place": "Oranjestad", "bounds": [-70.075, 12.505, -70.025, 12.575], "center": [-70.05000000000001, 12.54], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/oranjestad/{z}/{x}/{y}.pbf", "tz": "America/Aruba", "rail": true, "app": true};

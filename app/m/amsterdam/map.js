@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "amsterdam", "title": "Amsterdam: 19 photo spots (pilot review)", "place": "Amsterdam", "bounds": [4.83, 52.34, 4.95, 52.4], "center": [4.890000000000001, 52.370000000000005], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/amsterdam/{z}/{x}/{y}.pbf", "tz": "Europe/Amsterdam", "rail": false, "app": true};

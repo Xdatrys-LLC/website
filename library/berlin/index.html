@@ -1,0 +1,327 @@
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Things to Do in Berlin: Map of 20 Photo Spots | Xdatrys</title>
+<meta name="description" content="20 top Berlin attractions as photo spots, including Brandenburg Gate and Reichstag: where to stand, phone camera tips and directions. 3 are free.">
+<meta name="keywords" content="things to do in berlin, berlin attractions, berlin tourist map, map of berlin attractions, best views in berlin, best photo spots in berlin, berlin brandenburg gate, reichstag building, checkpoint charlie">
+<link rel="canonical" href="https://xdatrys.com/library/berlin/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Xdatrys">
+<meta property="og:title" content="Things to Do in Berlin: Map of 20 Photo Spots | Xdatrys">
+<meta property="og:description" content="20 top Berlin attractions as photo spots, including Brandenburg Gate and Reichstag: where to stand, phone camera tips and directions. 3 are free.">
+<meta property="og:url" content="https://xdatrys.com/library/berlin/">
+<meta property="og:image" content="https://xdatrys.com/library/berlin/photos/1.jpg">
+<meta property="og:image:width" content="500"><meta property="og:image:height" content="334">
+<meta property="og:image:alt" content="Brandenburg Gate, Berlin: one of Berlin&#39;s best-known landmarks. Photo spot">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://xdatrys.com/library/berlin/","url":"https://xdatrys.com/library/berlin/","name":"Things to Do in Berlin: Map of 20 Photo Spots | Xdatrys","description":"20 top Berlin attractions as photo spots, including Brandenburg Gate and Reichstag: where to stand, phone camera tips and directions. 3 are free.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Xdatrys","url":"https://xdatrys.com/"},"breadcrumb":{"@id":"https://xdatrys.com/library/berlin/#breadcrumb"},"publisher":{"@type":"Organization","name":"Xdatrys","url":"https://xdatrys.com/"},"about":{"@type":"TouristDestination","name":"Berlin"},"mainEntity":{"@type":"ItemList","name":"Berlin photo spots","numberOfItems":20,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"TouristAttraction","name":"Brandenburg Gate","description":"The Brandenburg Gate is one of Berlin's best-known landmarks, a neoclassical monument built between 1788 and 1791 for King Frederick William II of Prussia.","geo":{"@type":"GeoCoordinates","latitude":52.5165708,"longitude":13.3776831},"alternateName":["Berlin Brandenburg Gate","Brandenburger Tor"],"image":"https://xdatrys.com/library/berlin/photos/1.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"TouristAttraction","name":"Reichstag building","description":"The Reichstag is the seat of Germany's Bundestag, and the lawn in front of it gives the classic straight-on view.","geo":{"@type":"GeoCoordinates","latitude":52.5185958,"longitude":13.3761008},"alternateName":["Berlin Reichstag"],"image":"https://xdatrys.com/library/berlin/photos/2.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"TouristAttraction","name":"Checkpoint Charlie","description":"Checkpoint Charlie was the best-known crossing point between East and West Berlin during the Cold War.","geo":{"@type":"GeoCoordinates","latitude":52.5074321,"longitude":13.3903814},"alternateName":["Berlin Checkpoint Charlie"],"image":"https://xdatrys.com/library/berlin/photos/3.jpg"}}]}},{"@type":"BreadcrumbList","@id":"https://xdatrys.com/library/berlin/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xdatrys.com/"},{"@type":"ListItem","position":2,"name":"Map Library","item":"https://xdatrys.com/library/"},{"@type":"ListItem","position":3,"name":"Berlin","item":"https://xdatrys.com/library/berlin/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the top photo spots in Berlin?","acceptedAnswer":{"@type":"Answer","text":"The first three on this map are Brandenburg Gate, Reichstag and Checkpoint Charlie. They are ranked by how often people search for them. The full map has 20."}},{"@type":"Question","name":"Where should I stand to photograph the Brandenburg Gate?","acceptedAnswer":{"@type":"Answer","text":"Stand in Pariser Platz (east side of the square, facing west toward the gate). Start with the default lens (1x), which fits the whole gate with the square in front of it."}},{"@type":"Question","name":"When is the best time to photograph the Reichstag?","acceptedAnswer":{"@type":"Answer","text":"Afternoon, when the sun is behind you as you face the building, according to one traveller review. Go early if you want fewer people in the frame."}},{"@type":"Question","name":"How do I get to the Checkpoint Charlie?","acceptedAnswer":{"@type":"Answer","text":"No nearby station or tram stop is listed for this spot, so start from the Friedrichstadt area of central Berlin, around Friedrichstraße, and follow Friedrichstraße to the junction with Zimmerstraße."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="/xdatrys_osm_style.js?v=7fa508fd"></script>
+<script src="/xdatrys_markers.js?v=34f50baf"></script>
+<script src="/xdatrys_teaser.js?v=cfb820d5"></script>
+<style>
+  /* site look copied from the live xdatrys.com pages (Montserrat / Playfair Display, dark background, cyan and magenta) */
+  :root { --cyan: #00D4FF; --mag: #E100FF; --magenta: #B000C8; --purple: #7B2FBF; --dark: #09090F; --dark2: #0f0f22; --white: #fff;
+          --dim: rgba(255,255,255,.66); --dimmer: rgba(255,255,255,.42); --border: rgba(255,255,255,.1); --card: rgba(255,255,255,.04);
+          --grad: linear-gradient(90deg,#00D4FF,#7B2FBF); --ink: #1d1d1f; --muted: #666; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'Montserrat', system-ui, sans-serif; background: var(--dark); color: var(--white); -webkit-font-smoothing: antialiased; }
+  a { color: var(--cyan); }
+  nav.top { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px;
+            background: rgba(9,9,15,.94); border-bottom: 1px solid var(--border); }
+  nav.top img { height: 30px; width: auto; display: block; }
+  nav.top .links { display: flex; gap: 18px; flex-wrap: wrap; }
+  nav.top .links a { font-size: 10.5px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; text-decoration: none; }
+  .crumbs { font-size: 12px; color: var(--dimmer); padding: 10px 24px 0; }
+  .crumbs a { color: var(--dim); text-decoration: none; } .crumbs a:hover { color: var(--cyan); }
+  .head { padding: 6px 24px 10px; }
+  .head h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.35rem, 3.6vw, 2.1rem); line-height: 1.2; margin: 4px 0 6px; }
+  .head p { margin: 0; color: var(--dim); font-size: .9rem; line-height: 1.6; max-width: 820px; }
+  .toolbar { display: flex; gap: 6px 16px; flex-wrap: wrap; align-items: center; padding: 6px 24px; font-size: 13px; color: var(--dim); }
+  .toolbar .key b { color: var(--white); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: -1px; margin-right: 4px; }
+  #tlegend i { display: inline-block; width: 16px; height: 4px; border-radius: 2px; margin: 0 3px 2px 6px; vertical-align: middle; }
+  #wrap { position: relative; height: min(calc(100svh - 64px), 820px); min-height: 380px; scroll-margin-top: 56px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #f2efe9; }
+  @media (max-width: 760px) { #wrap { scroll-margin-top: 0; } }
+  #map { position: absolute; inset: 0; }
+  /* 2026-11-16 (Ifan): search is live only in the members' app; here it is shown greyed out */
+  #xsrch { position: absolute; z-index: 4; top: 10px; left: 10px; width: min(300px, calc(100% - 70px)); display: flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.92); border: 1px solid #d4d4dc; border-radius: 999px; padding: 8px 14px; font: 14px system-ui, sans-serif; color: #9a9aa6;
+    cursor: pointer; text-decoration: none; box-shadow: 0 1px 4px #0002; }
+  #xsrch span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #xsrch b { font-size: 11px; color: #fff; background: #9a9aa6; border-radius: 999px; padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+  @font-face { font-family: "DejaVu Sans Bold"; src: url("/fonts/DejaVuSans-Bold.ttf") format("truetype"); font-weight: bold; }
+  /* spot text: popup on a computer, panel from the bottom on a phone (light, like the map) */
+  #sheet { position: absolute; left: 0; right: 0; bottom: 0; max-height: 55%; overflow-y: auto; background: #fff; color: var(--ink); z-index: 6;
+    border-radius: 14px 14px 0 0; box-shadow: 0 -2px 12px #0004; padding: 10px 16px 16px; font-size: 14px; line-height: 1.45; }
+  #sheet[hidden] { display: none; }
+  #sheet .pop { max-height: none; overflow: visible; }
+  #sheetClose { position: sticky; top: 0; float: right; border: 0; background: #eee; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; line-height: 1; cursor: pointer; }
+  .maplibregl-popup { z-index: 5; }
+  .maplibregl-popup-content { font-size: 13px; line-height: 1.4; color: var(--ink); font-family: system-ui, sans-serif; }
+  .pop { max-height: min(52vh, 420px); overflow-y: auto; padding-right: 4px; color: var(--ink); }
+  .pop a { color: #00839e; }
+  .pop h3 { margin: 0 0 4px; font-size: 15px; color: var(--magenta); }
+  .pop h4 { margin: 10px 0 2px; font-size: 13px; }
+  .pop p { margin: 0 0 6px; }
+  .pop .phone { background: #e6f7fb; border-left: 3px solid var(--cyan); padding: 4px 8px; margin: 8px 0; }
+  .pop .nav { margin: 8px 0; }
+  .pop .thumb { float: none; width: 100%; margin: 4px 0 8px; }          /* 2026-11-17 (Ifan): full column width */
+  .pop .thumb img { width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #f1f1f4; border-radius: 4px; display: block; }
+  .pop .thumb figcaption { font-size: 10px; color: var(--muted); line-height: 1.25; margin-top: 2px; }
+  .pop .thumb figcaption a { color: var(--muted); }
+  .pop .after-thumb { clear: both; }
+  .pop.locked h3 { color: #555; }
+  .pop .lockline { color: #6b2a7a; }
+  .pop .lockbtn { display: inline-block; padding: 8px 14px; border-radius: 6px; background: linear-gradient(90deg,#00a6c8,#7B2FBF); color: #fff !important; text-decoration: none; font-weight: 700; }
+  /* content under the map */
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 10px; }
+  main h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; margin: 30px 0 12px; }
+  main h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  main p, main li { color: var(--dim); line-height: 1.75; font-size: .93rem; }
+  .spot { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; overflow: hidden; }
+  .spot h3 { color: var(--white); } .spot h3 .n { display: inline-flex; width: 28px; height: 28px; border-radius: 50%; background: var(--mag); color: #fff; align-items: center; justify-content: center; font-size: .85rem; margin-right: 8px; }
+  .spot figure { float: right; width: 38%; max-width: 280px; margin: 4px 0 10px 16px; }
+  .spot figure img { width: 100%; height: auto; border-radius: 8px; display: block; border: 1px solid rgba(0,212,255,.25); }
+  .spot figcaption { font-size: .72rem; color: var(--dimmer); margin-top: 4px; line-height: 1.35; } .spot figcaption a { color: var(--dimmer); }
+  .spot .tips { clear: both; background: rgba(0,212,255,.06); border-left: 3px solid var(--cyan); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-top: 10px; }
+  .spot .tips p { margin: 4px 0; }
+  .showbtn { display: inline-block; margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--cyan); text-decoration: none; border: 1px solid var(--cyan); border-radius: 6px; padding: 7px 12px; }
+  ol.locked { list-style: none; padding: 0; columns: 2 260px; column-gap: 24px; }
+  ol.locked li { padding: 6px 0; border-bottom: 1px solid var(--border); break-inside: avoid; }
+  ol.locked .n { display: inline-flex; width: 24px; height: 24px; border-radius: 50%; background: #9a9a9a; color: #fff; align-items: center; justify-content: center; font-size: .75rem; margin-right: 8px; font-weight: 700; }
+  ol.locked small { color: var(--dimmer); }
+  #join { background: rgba(123,47,191,.14); border: 1px solid rgba(123,47,191,.4); border-radius: 12px; padding: 22px 24px; margin: 30px 0; scroll-margin-top: 70px; }
+  #join h2 { margin-top: 0; }
+  details.faq { border-bottom: 1px solid var(--border); padding: 10px 0; } details.faq summary { cursor: pointer; font-weight: 600; }
+  .credits { font-size: .8rem !important; color: var(--dimmer) !important; }
+  footer { border-top: 1px solid var(--border); text-align: center; padding: 26px 16px; font-size: .8rem; color: var(--dimmer); margin-top: 30px; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  @media (max-width: 760px) {
+    nav.top { padding: 10px 16px; position: static; } nav.top .links { gap: 12px; } .crumbs, .head, .toolbar { padding-left: 16px; padding-right: 16px; }
+    main { padding: 22px 16px 6px; } .spot figure { float: none; width: 100%; max-width: none; margin: 0 0 10px; }
+    #wrap { height: 72svh; }
+  }
+</style>
+</head>
+<body>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Berlin</div>
+<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/berlin/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
+<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<div class="head">
+  <h1>20 photo spots in Berlin: where to stand and how to shoot them on your phone</h1>
+  <p>20 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members.</p>
+</div>
+<div class="toolbar">
+  <span class="key"><span class="dot" style="background:#E100FF"></span><b>Free spot</b></span>
+  <span class="key"><span class="dot" style="background:#9a9a9a"></span><b>Members only</b></span>
+  <label title="Metro and tram lines with their stops"><input type="checkbox" id="showTransport"> Show transport</label>
+  <span id="tlegend" hidden><i style="background:#1f5fd1"></i>Metro <i style="background:#e0442b"></i>Tram <i style="background:#2a9d55"></i>Light rail <i style="background:#555"></i>Train</span>
+  <span id="hidden"></span>
+</div>
+<!-- "Members get the app" block (2026-11-14; the app is for members only, Ifan). Shared by the home page and the library pages.
+     app_title / app_button come from the page; it always leads to the Membership section of the home page. -->
+<style>
+.xd-app { max-width: 1100px; margin: 18px auto; padding: 0 16px; font-family: Inter, system-ui, -apple-system, sans-serif; }
+.xd-app .in { background: linear-gradient(135deg, #f9e6ff, #e2f8ff); border-radius: 20px; padding: 16px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.xd-app .in img { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+.xd-app .txt { flex: 1 1 220px; min-width: 0; }
+.xd-app .txt b { display: block; font-size: 18px; color: #14141a; }
+.xd-app .txt span { font-size: 15px; color: #33333d; line-height: 1.4; }
+.xd-app a.go { flex: none; background: #14141a; color: #fff; text-decoration: none; font-weight: 700; border-radius: 14px; padding: 13px 18px; font-size: 16px; }
+</style>
+<div class="xd-app" aria-label="Xdatrys Maps app for members">
+  <div class="in">
+    <img src="/app/icon-192.png" alt="" width="52" height="52">
+    <div class="txt"><b>Members get all 20 spots in the Xdatrys Maps app</b><span>Every spot on every map, on your phone: saved to work without signal, with "Walk there" directions, day tours and where to take the best selfie. Included with Explorer membership.</span></div>
+    <a class="go" id="xdAppGo" href="/#membership">See membership</a>
+  </div>
+</div>
+<script>
+// Stage 3 (2026-11-16): members and the owner get a direct "Open in the app" instead of the membership offer.
+fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {
+  if (!me || me.role === "none") return;
+  var a = document.getElementById("xdAppGo"); a.href = "/app/m/berlin/"; a.textContent = "Open in the app";
+  var b = a.parentNode.querySelector(".txt b"); if (b) b.textContent = "You're a member: every spot is in your app";
+}).catch(function () {});
+</script>
+<div id="wrap">
+  <div id="map" role="region" aria-label="Interactive map of 20 photo spots in Berlin"></div>
+  <a id="xsrch" href="/#membership" aria-disabled="true" title="Search every spot and place on this map in the members' Xdatrys Maps app">🔍 <span>Search spots or places</span><b>🔒 Members</b></a>
+  <div id="sheet" hidden></div>
+</div>
+<main>
+  <p>This map shows 20 of the most-searched sights in Berlin as photo spots, ranked by how often people search for them: Brandenburg Gate, Reichstag, Checkpoint Charlie, Berlin Wall Memorial and Holocaust Memorial lead the list. Every spot has a pin on the subject and a phone icon showing where to stand, with tips for shooting it on your phone: which lens to use, how to frame it, a settings tip and the best time of day. Directions and Navigate buttons take you to the standing point on foot or by public transport. 3 spots are free to view; the full map is for members.</p>
+
+  <h2>The 3 free photo spots</h2>
+  
+  <section class="spot" id="spot-1">
+    <h3><span class="n">1</span>Brandenburg Gate</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_morgens.jpg" target="_blank" rel="noopener"><img src="photos/1.jpg" alt="Brandenburg Gate, Berlin: one of Berlin&#39;s best-known landmarks. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Thomas Wolf, www.foto-tw.de, <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener license">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Brandenburg Gate is one of Berlin&#39;s best-known landmarks, a neoclassical monument built between 1788 and 1791 for King Frederick William II of Prussia. The architect was Carl Gotthard Langhans. Twelve fluted Doric columns, six along each side, form five passageways. Above them stands the Quadriga, a bronze chariot drawn by four horses and driven by a goddess figure, made by the sculptor Johann Gottfried Schadow. Through the Cold War the Berlin Wall blocked the gateway, and since 1990 the gate has stood as a symbol of unity and peace.</p><p>It photographs well because it is symmetrical and the stone is pale. The cobbled square in front gives your frame some depth. The classic view is the full-frontal one from Pariser Platz, where the six columns and the Quadriga sit centred and the horses face towards you. Stand on the east side of the square and look west.</p><p>The square gets very crowded from late morning, so arrive early if you want an empty foreground. Keep your phone level and use the gridlines so the columns stay upright. If people wander into the frame, take several shots and pick the cleanest. For a different angle, the western side, along Straße des 17. Juni, shows the gate in late-day light with the Quadriga seen from behind.</p>
+    <p><b>Where it is:</b> The gate is in the western part of Berlin&#39;s city centre, in the district of Mitte. It stands where Unter den Linden meets Ebertstraße, with the Reichstag building one block to the north and the Tiergarten park to the west.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x), which fits the whole gate with the square in front of it. Switch to the telephoto (2x-5x, depending on your phone) for the Quadriga and the column details. Use the ultra-wide (0.5x) only if you want a lot of cobbles and sky, and keep the gate in the middle of the frame so the edges do not stretch.</p>
+      <p><b>Where to stand:</b> Stand in Pariser Platz (east side of the square, facing west toward the gate). The gate&#39;s front with the six columns and the Quadriga centred above, with the cobbled square in the foreground. On the east side of the square, facing west toward the gate. This is where you get the front of the gate, six columns with the Quadriga centred above and the cobbles in the foreground.</p>
+      <p><b>Framing:</b> Turn on the gridlines and line the centre of the gate up with the middle vertical line, with the Quadriga on top. Hold the phone level so the columns do not lean. Include a strip of cobbles at the bottom for depth. For an alternative, try an angled view from the edge of Pariser Platz with the surrounding buildings partly in the frame, or walk round to Straße des 17. Juni for the western face.</p>
+      <p><b>Settings tip:</b> Tap on the gate to focus, then slide the exposure down a little if the sky is bright so the stone keeps its detail. Take a few shots in a row so you can choose one without people in the way. Night mode can help after dark, but the floodlighting is switched off from 26 October to early December 2026 for renewal, so night shots may not work then.</p>
+      <p><b>Best time:</b> Sunrise is best, when the square is quiet and the sun is behind you. Late morning onwards is very crowded. The Festival of Lights and New Year&#39;s Eve bring large crowds and possible restrictions, so check current conditions before you go.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(1)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-2">
+    <h3><span class="n">2</span>Reichstag building</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude_von_Westen.jpg" target="_blank" rel="noopener"><img src="photos/2.jpg" alt="Reichstag building, Berlin: the seat of Germany&#39;s Bundestag. Photo spot" loading="lazy"></a>
+      <figcaption>Photo: Jörg Braukmann, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>The Reichstag is the seat of Germany&#39;s Bundestag, and the lawn in front of it gives the classic straight-on view. The building went up between 1884 and 1894 to designs by Paul Wallot. After wartime damage and decades of partial use, it was redesigned by Norman Foster between 1995 and 1999 and handed over for parliament use in April 1999. The walk-in glass dome is the best-known part of that rebuild. Look above the main entrance for the words &#34;Dem deutschen Volke&#34;, added in 1916. The old stone and the modern glass in one frame are what make the view work. The wide lawn keeps the foreground clear, so you can step back until the whole façade fits. The lawn was reported muddy and under groundworks in June 2025, so check its condition on the day. For a second angle, the Marie-Elisabeth-Lüders-Haus, across the Spree, shows the Reichstag and dome with the river reflecting the buildings. Only the lower public level of the double bridge there is open to visitors. The dome and rooftop terrace give close-up views of the glass and the spiral ramp, but they need advance online registration.</p>
+    <p><b>Where it is:</b> The Reichstag stands in the Tiergarten district, on the left bank of the River Spree, on Platz der Republik.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to take in the whole west front with the dome behind. Switch to the ultra-wide (0.5x) only if you are close or the building will not fit. Use telephoto (2x-5x, depending on your phone) for the dome or the inscription above the entrance.</p>
+      <p><b>Where to stand:</b> Stand in Platz der Republik (open lawn directly in front of the west façade). The full west front of the Reichstag with its columns and the glass dome rising behind, framed by open grass. The Reichstag lies to the east of you. From here the photo shows the full west front with its columns and the glass dome rising behind, framed by open grass.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the entrance on the centre line so the columns look straight. Keep a band of lawn at the bottom to frame the building and leave the dome clear above it. For a different view, the Marie-Elisabeth-Lüders-Haus across the Spree shows the Reichstag and dome with the river reflecting the buildings.</p>
+      <p><b>Settings tip:</b> Tap the building to focus, then drag the exposure slider down a little so the sky stays blue and the stone keeps its detail. Hold the phone level, using the gridlines, to avoid leaning verticals.</p>
+      <p><b>Best time:</b> Afternoon, when the sun is behind you as you face the building, according to one traveller review. Go early if you want fewer people in the frame.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(2)">Show on the map and get directions</a>
+  </section>
+  
+  <section class="spot" id="spot-3">
+    <h3><span class="n">3</span>Checkpoint Charlie</h3>
+    <figure><a href="https://commons.wikimedia.org/wiki/File:Checkpoint_Charlie_Berlin.jpg" target="_blank" rel="noopener"><img src="photos/3.jpg" alt="Checkpoint Charlie, Berlin: photo spot" loading="lazy"></a>
+      <figcaption>Photo: Adrian Purser from London, UK, <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener license">CC BY-SA 2.0</a>, via Wikimedia Commons</figcaption></figure>
+    
+    <p>Checkpoint Charlie was the best-known crossing point between East and West Berlin during the Cold War. Today the junction of Friedrichstraße and Zimmerstraße is a busy city crossroads, but a replica guardhouse stands in the middle of the street, with its &#39;You are leaving the American Sector&#39; sign, sandbags and flags. It is one of the most photographed spots in Berlin, and it is easy to see why: the booth, the sign and the street around it tell the story in a single frame.</p><p>A few facts help you read the scene. The name comes from the letter C in the NATO phonetic alphabet. In October 1961, ten Soviet and ten American tanks stood facing each other near here, and the stand-off ended peacefully on 28 October. The guardhouse you see now is a replica; the metal container that replaced the original wooden shed in 1976 is on display at the Allied Museum in Dahlem, not here.</p><p>For your phone, the main job is to get the booth and sign clear of people and traffic. Expect crowds, and take care at the junction, as cars keep moving past. Photograph from the pavement and never step into the road to get a better angle. Costumed actors sometimes pose with visitors, and photos with them may cost a few euros, so ask first if you want a picture with them. Nearby, the outdoor history panels of the Checkpoint Charlie Gallery make a good second picture, with escape stories in the foreground and the street behind.</p>
+    <p><b>Where it is:</b> Checkpoint Charlie is in the Friedrichstadt district of central Berlin, at the junction of Friedrichstraße and Zimmerstraße, close to Mauerstraße.</p>
+    <div class="tips">
+      <p><b>Shooting it on your phone</b></p>
+      <p><b>Lens:</b> Start with the default lens (1x) to get the booth, sign and street in one frame. Use the ultra-wide (0.5x) if the pavement is crowded and you cannot step back, but keep the booth away from the edges, where it can look stretched. A touch of zoom (2x) helps you pick out the sign and flags from the kerb.</p>
+      <p><b>Where to stand:</b> Stand right at the subject: the phone icon on the map marks the spot. From here you see the guardhouse with its &#39;You are leaving the American Sector&#39; sign, sandbags and flags, framed by the street.</p>
+      <p><b>Framing:</b> Turn on gridlines and place the booth on one of the vertical lines so the sign stays readable. Keep the phone level so the street edges do not lean. Wait for a gap in the people, or let a few figures in as a sense of scale. For a second picture, try the Checkpoint Charlie Gallery panels nearby, with the checkpoint area behind them.</p>
+      <p><b>Settings tip:</b> Tap on the sign to set focus, then slide the exposure down a little if the sky is bright so the flags keep their colour. Take a few shots in a row, as people and cars move through the frame all the time.</p>
+      <p><b>Best time:</b> Early morning, when crowds and traffic are lighter.</p>
+    </div>
+    <a class="showbtn" href="#wrap" onclick="return XdShowSpot(3)">Show on the map and get directions</a>
+  </section>
+  
+
+  <h2>17 more spots for members</h2>
+  <p>These spots are on the map as grey numbered pins. Where to stand, the phone tips, photos and directions for them come with Xdatrys membership, coming soon.</p>
+  <ol class="locked">
+    <li><span class="n">4</span>Berlin Wall Memorial <small>· members</small></li>
+    <li><span class="n">5</span>Memorial to the Murdered Jews of Europe <small>· members</small></li>
+    <li><span class="n">6</span>Alexanderplatz <small>· members</small></li>
+    <li><span class="n">7</span>East Side Gallery <small>· members</small></li>
+    <li><span class="n">8</span>Berlin Cathedral <small>· members</small></li>
+    <li><span class="n">9</span>Potsdamer Platz <small>· members</small></li>
+    <li><span class="n">10</span>Berlin TV Tower <small>· members</small></li>
+    <li><span class="n">11</span>Museum Island <small>· members</small></li>
+    <li><span class="n">12</span>Unter den Linden <small>· members</small></li>
+    <li><span class="n">13</span>Gendarmenmarkt <small>· members</small></li>
+    <li><span class="n">14</span>Humboldt Forum <small>· members</small></li>
+    <li><span class="n">15</span>Berlin Victory Column <small>· members</small></li>
+    <li><span class="n">16</span>Bebelplatz <small>· members</small></li>
+    <li><span class="n">17</span>Oberbaum Bridge <small>· members</small></li>
+    <li><span class="n">18</span>Rotes Rathaus <small>· members</small></li>
+    <li><span class="n">19</span>Neue Wache <small>· members</small></li>
+    <li><span class="n">20</span>Kaiser Wilhelm Memorial Church <small>· members</small></li>
+    
+  </ol>
+
+  <section id="join">
+    <h2>Membership is coming soon</h2>
+    <p>Xdatrys membership will open every spot on every map in the library: where to stand, how to frame it on your phone and how to get there. Until then, join Pocket Lens, our free daily smartphone travel photography newsletter, and you will hear first when it opens.</p>
+    <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+    <p style="font-size:.85rem">Free, and you can unsubscribe at any time. If the form does not show, <a href="/subscribe/">sign up on our newsletter page</a>.</p>
+  </section>
+
+  <h2>Questions</h2>
+  <details class="faq"><summary>What are the top photo spots in Berlin?</summary><p>The first three on this map are Brandenburg Gate, Reichstag and Checkpoint Charlie. They are ranked by how often people search for them. The full map has 20.</p></details>
+  <details class="faq"><summary>Where should I stand to photograph the Brandenburg Gate?</summary><p>Stand in Pariser Platz (east side of the square, facing west toward the gate). Start with the default lens (1x), which fits the whole gate with the square in front of it.</p></details>
+  <details class="faq"><summary>When is the best time to photograph the Reichstag?</summary><p>Afternoon, when the sun is behind you as you face the building, according to one traveller review. Go early if you want fewer people in the frame.</p></details>
+  <details class="faq"><summary>How do I get to the Checkpoint Charlie?</summary><p>No nearby station or tram stop is listed for this spot, so start from the Friedrichstadt area of central Berlin, around Friedrichstraße, and follow Friedrichstraße to the junction with Zimmerstraße.</p></details>
+  
+
+  <h2>Credits</h2>
+  <p class="credits">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); base map built with Protomaps from OpenStreetMap data. Photos from Wikimedia Commons, credited under each photo with their licence. Background reading for the free spots: <a href="https://en.wikipedia.org/wiki/Brandenburg_Gate" target="_blank" rel="noopener">Brandenburg Gate</a>, <a href="https://en.wikipedia.org/wiki/Reichstag_building" target="_blank" rel="noopener">Reichstag building</a>, <a href="https://en.wikipedia.org/wiki/Checkpoint_Charlie" target="_blank" rel="noopener">Checkpoint Charlie</a> (Wikipedia, CC BY-SA). Access rules and opening times change: check before you go.</p>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Xdatrys LLC</a> &nbsp;·&nbsp; <a href="/library/">Map Library</a> &nbsp;·&nbsp; <a href="/maps/">Free shot maps from our videos</a> &nbsp;·&nbsp; <a href="/subscribe/">Pocket Lens newsletter</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy</a></p>
+  <p style="margin-top:8px">Capture more. Miss less.</p>
+<!-- xd-legal --><p style="margin-top:8px"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</p><!-- /xd-legal -->
+</footer>
+<script>
+window.MAPCFG = {"key":"berlin","place":"Berlin","bounds":[13.325,52.495,13.455,52.54],"center":[13.39,52.5175],"english":false,"vatican":false,"tiles":"/r2tiles/berlin/{z}/{x}/{y}.pbf","lockedGrey":true,"teaser":3,"freeText":"1, 2 and 3"};
+XdTeaser(window.MAPCFG);
+</script>
+</body>
+</html>

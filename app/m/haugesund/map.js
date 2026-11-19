@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "haugesund", "title": "Haugesund: 6 photo spots (pilot review)", "place": "Haugesund", "bounds": [5.248, 59.405, 5.281, 59.432], "center": [5.2645, 59.4185], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/haugesund/{z}/{x}/{y}.pbf", "tz": "Europe/Oslo", "rail": false, "app": true};

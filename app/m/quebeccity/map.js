@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "quebeccity", "title": "Quebec City: 13 photo spots (pilot review)", "place": "Quebec City", "bounds": [-71.24, 46.795, -71.13, 46.9], "center": [-71.185, 46.8475], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/quebeccity/{z}/{x}/{y}.pbf", "tz": "America/Toronto", "rail": false, "app": true};

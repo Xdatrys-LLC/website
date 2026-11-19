@@ -1,0 +1,885 @@
+{
+ "Galway Cathedral": {
+  "rank": 1,
+  "card": {
+   "hook": "That green dome keeps popping up over Galway's rooftops, like it's playing peekaboo with the river. Guides call this the classic postcard view, and the pale stone makes the dome stand out against the sky.",
+   "stand_here": "Stand on Salmon Weir Bridge, looking west towards the cathedral. It's about 2 minutes on foot from the bridge to the cathedral itself. Pick a spot where the railing doesn't cut across the building.",
+   "zoom": "Start at zoom 1x to fit the dome, the cathedral and some river in one frame. Then try zoom 2x to home in on the dome and its details.",
+   "make_it_pop": "Turn on gridlines, put the water in the bottom third and the dome near the upper line, and keep your phone level so the walls don't lean.",
+   "best_time": "Go on a quiet morning or around sunset, when the dome catches the changing light.",
+   "selfie_here": "Try the new pedestrian bridge, Droichead an Dóchais (Bridge of Hope), which runs beside Salmon Weir Bridge directly in front of the cathedral. Use the front camera, switch to zoom 0.5x if you need more room, and keep the cathedral over your shoulder.",
+   "ask_someone": "Ask a passer-by to shoot from Salmon Weir Bridge, facing the cathedral, so the dome and façade sit behind you.",
+   "rules_and_safety": "The cathedral is an active place of worship, so don't photograph services and don't use flash inside.",
+   "challenge": "Can you get the water in the bottom third, the dome on the top line and not a single railing across the cathedral?",
+   "good_to_know": "Building started in 1958 on the site of the old Galway Gaol and finished in 1965. It's often described as the last great stone cathedral built in Europe, and the architect was John J. Robinson. The dome is 44.2 metres high, which is why you can spot it across the city.",
+   "stand_here_before_gps_rule": "Stand on Salmon Weir Bridge, looking west towards the cathedral. It's about 2 minutes on foot from the bridge to the cathedral itself. Pick a spot where the railing doesn't cut across the building."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Droichead an Dóchais (Bridge of Hope), the new pedestrian bridge in front of Galway Cathedral",
+     "detail": "on the new pedestrian and bicycle bridge that runs parallel to Salmon Weir Bridge, on the city side of the river, directly in front of the cathedral",
+     "why": "A Wanderlog photo-spot entry calls this spot a perfect place for a picture with the cathedral in view, and the bridge opened in front of the cathedral in May 2023.",
+     "sources": [
+      {
+       "title": "The 42 best photo spots in Galway",
+       "url": "https://wanderlog.com/list/geoCategory/160515/-best-photo-spots-in-galway"
+      },
+      {
+       "title": "Salmon Weir Bridge Galway by the River Corrib",
+       "url": "https://www.galwaytourism.ie/salmon-weir-bridge/"
+      }
+     ]
+    },
+    {
+     "name": "Salmon Weir Bridge",
+     "detail": "on the bridge deck itself, which crosses the Corrib from the cathedral side to the courthouse side",
+     "why": "Galway Tourism says the view of the cathedral from the bridge is magnificent and stays impressive all the way down to Wolfe Tone Bridge, so it suits a shot with the cathedral in view.",
+     "sources": [
+      {
+       "title": "Salmon Weir Bridge Galway by the River Corrib",
+       "url": "https://www.galwaytourism.ie/salmon-weir-bridge/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Salmon Weir Bridge",
+    "detail": "ask the passer-by to stand on the bridge, facing the cathedral, so the dome and façade are in frame behind the visitor; the bridge is the recommended spot for the cathedral's full exterior and dome",
+    "sources": [
+     {
+      "title": "Best Galway Photo Spots: Capture Iconic Moments in 2026",
+      "url": "https://tourismattractions.net/ireland/best-galway-photo-spots"
+     },
+     {
+      "title": "Galway Cathedral: Tickets, Hours & What to See - Tour Guide",
+      "url": "https://tour-guide.com/ireland/galway/galway-cathedral/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography inside the cathedral is generally permitted for personal use, but visitors should be considerate and avoid disrupting services or private prayer.",
+     "sources": [
+      {
+       "title": "Essential Galway Cathedral Visiting Tips 2026",
+       "url": "https://tourismattractions.net/ireland/galway-cathedral-visiting-tips"
+      }
+     ]
+    },
+    {
+     "rule": "Flash photography is typically discouraged inside, and avoid flash during services.",
+     "sources": [
+      {
+       "title": "Essential Galway Cathedral Visiting Tips 2026",
+       "url": "https://tourismattractions.net/ireland/galway-cathedral-visiting-tips"
+      },
+      {
+       "title": "Galway Cathedral, Galway, Ireland (2026): A Modern Masterpiece in Stone",
+       "url": "https://www.nomads-travel-guide.com/places/galway-cathedral/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found states a selfie-stick or tripod rule for the outdoor riverside spots. The sources describe views of the cathedral from the bridges but do not explicitly say a selfie with the cathedral directly behind the visitor is best, so the selfie spots are inferred from 'perfect spot for a picture' and 'magnificent view' wording and should be checked on site. The ask-someone spot is also inferred from general photo guidance. The Salmon Weir Bridge is named in several sources; I did not find a page naming a specific riverbank or street corner for a selfie."
+  },
+  "cost_usd": 0.0472,
+  "at": "2026-11-17 20:23",
+  "selfie_pos": [
+   53.2752833,
+   -9.0559423
+  ],
+  "selfie_note": "Droichead an Dóchais (OpenStreetMap: Droichead an Dóchais, Nun's Island, Cathair na Gaillimhe, Co)"
+ },
+ "Spanish Arch": {
+  "rank": 2,
+  "card": {
+   "hook": "Plot twist: the best view of the Spanish Arch isn't taken at the Spanish Arch. Walk out onto a pier, turn around, and the old stonework suddenly looks like part of a proper waterfront.",
+   "stand_here": "Stand on Nimmo's Pier, along the pier beside the Claddagh Quay. The arch is to the north-west, so face that way and look across the water.",
+   "zoom": "Start at 1x for the wide view across the water. If the arch looks too small, tap 2x or higher (higher zooms depend on your phone), and skip 0.5x unless you want lots of sky and water.",
+   "make_it_pop": "Turn on the gridlines, put the arch on one of the third lines, and keep some water or a boat at the bottom of the frame.",
+   "best_time": "Go early in the morning or late in the afternoon, when the light is nicest on the water and buildings.",
+   "selfie_here": "Try the grassy patch beside the River Corrib, with the arch in view behind you. Use the front camera (0.5x if your phone offers it), and hold it a bit low so the arch peeks over your shoulder. Nimmo's Pier works too, with water, boats and buildings behind you.",
+   "ask_someone": "Ask someone on Wolfe Tone Bridge to take your photo while you stand on the riverside with the Spanish Arch in view.",
+   "rules_and_safety": "Cobblestones can be slippery after rain and spray reaches the quay, so wear sturdy shoes and wipe your camera clean now and then.",
+   "challenge": "Keep the horizon dead level, leave a strip of water in front, and see if you can sneak a boat into the shot.",
+   "good_to_know": "The arches are what remains of a wall built in 1584, in the mayoralty of Wylliam Martin, to protect the city's quays. The \"Spanish\" name is newer than the stonework: in the 18th century the Eyre family extended the quays and made the arches. The 1755 tsunami from the Lisbon earthquake partly destroyed them, and Galway City Museum was housed in part of the structure until 2006.",
+   "stand_here_before_gps_rule": "Stand on Nimmo's Pier, along the pier beside the Claddagh Quay. The arch is to the north-west, so face that way and look across the water."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Grassy patch by the river, Spanish Arch riverbank",
+     "detail": "on the grass beside the River Corrib, with the arch in view behind you",
+     "why": "Flytographer calls this grassy riverside patch a local favourite for admiring the view, and it describes the arch as a backdrop to the riverbanks.",
+     "sources": [
+      {
+       "title": "Top 5 Places to Take Photos in Galway",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-galway/"
+      }
+     ]
+    },
+    {
+     "name": "Nimmo's Pier",
+     "detail": "walk out along Nimmo's Pier, which runs parallel to the River Corrib",
+     "why": "Accesstravel suggests the pier as a different viewpoint on the arch, with water, boats and buildings in the frame, and it recommends early morning or late afternoon light.",
+     "sources": [
+      {
+       "title": "Spanish Arch Galway: Discover History with Audio Guides",
+       "url": "https://www.accesstravel.com/;/ViatorAttraction/Index/5156/8470"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Wolfe Tone Bridge",
+    "detail": "the passer-by stands on the bridge over the River Corrib and photographs the visitor on the riverside with the Spanish Arch in view",
+    "sources": [
+     {
+      "title": "Spanish Arch Galway: Discover History with Audio Guides",
+      "url": "https://www.accesstravel.com/;/ViatorAttraction/Index/5156/8470"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Cobblestones can be slippery after rain and tidal spray reaches the quay, so wear sturdy shoes (City Buddy guide).",
+   "notes": "No page found states rules on selfie sticks or tripods, so none are listed. Sources do not say which way to face for an arch-behind-you selfie; the riverside patch and pier are the named places where the arch appears in the scene, and the visitor placement for the Wolfe Tone Bridge shot is my inference from the bridge view described. The accesstravel page appears to have dated and partly templated content, so treat its specifics with some caution. The Long Walk and South Park were also named but I did not use them because the pages gave no clear selfie or ask-someone position."
+  },
+  "cost_usd": 0.0472,
+  "at": "2026-11-17 20:24",
+  "selfie_pos": [
+   53.2668707,
+   -9.0485459
+  ],
+  "selfie_note": "Nimmo's Pier (OpenStreetMap: Nimmo's Pier, Claddagh, Cathair na Gaillimhe, County Galway,)"
+ },
+ "Eyre Square": {
+  "rank": 3,
+  "card": {
+   "hook": "There's a bronze boat with sails sitting in the middle of a city park, and half of Galway seems to be taking its picture. Join in, it's the easiest win in town.",
+   "stand_here": "Stand right at the Quincentennial Fountain at the northern end of Eyre Square, and face south. The bronze hooker-boat sculpture is in front of you, with the open square and shopfronts behind it.",
+   "zoom": "Use zoom 1x for the fountain and its boat. Switch to 0.5x when you want the whole open square and the shopfronts in the shot. For the Browne Doorway, zoom 2x gives a closer, tidier view.",
+   "make_it_pop": "Turn on gridlines, put the boat on one of the lower third points, and crouch a little so it rises up against the background.",
+   "best_time": "Golden hour is lovely, with warm light and reflections on the fountain water. Avoid the Christmas market (November to January) and festival days if you can, because crowds and stalls can block the view and crowd the fountain.",
+   "selfie_here": "Take your selfie at the Quincentennial Fountain on the northwest side of the square, with the hooker-boat sculpture over your shoulder. Use the front camera, and try 0.5x to squeeze in more of the boat. For a second one, stand in front of the Browne Doorway with the Fourteen Tribes flags hanging behind you.",
+   "ask_someone": "Hand your phone to someone on the northwest side of the square, where the flags, the Browne Doorway and the fountain are all in view, and stand by the boat sculpture so they can catch you with it (check the framing on the spot).",
+   "rules_and_safety": "Street performers are often about, so ask before photographing one person. The Christmas market and festival events can block views.",
+   "challenge": "Find the colourful tribe banners and fit one into a wide shot with the boat. Bonus points if nobody walks through it.",
+   "good_to_know": "Eyre Square began as a medieval green in front of a town gate. Mayor Edward Eyre gave it to the city in 1710, which is where the name comes from. John F. Kennedy made a speech here on 29 June 1963, and there's a bust of him in the park. The Browne Doorway was moved here in 1905 from a Browne family home on Lower Abbeygate Street.",
+   "stand_here_before_gps_rule": "Stand right at the Quincentennial Fountain at the northern end of Eyre Square, and face south. The bronze hooker-boat sculpture is in front of you, with the open square and shopfronts behind it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Quincentennial Fountain with the Galway Hooker sails, Eyre Square",
+     "detail": "at the fountain on the square's northwest side, where the hooker-boat sculpture sits",
+     "why": "Travel guides single out this fountain as a popular photo subject, and it is tied to the square's history.",
+     "sources": [
+      {
+       "title": "Eyre Square, Galway, Ireland (2026): A Historic Green at the Heart of the City",
+       "url": "https://www.nomads-travel-guide.com/places/eyre-square/"
+      },
+      {
+       "title": "Eyre Square: The Heart of Galway City - Explore Ireland Now",
+       "url": "https://exploreirelandnow.com/eyre-square/"
+      },
+      {
+       "title": "Ireland 2019: Galway's Eyre Square",
+       "url": "https://crowcanyonjournal.wordpress.com/2019/11/01/ireland-2019-galways-eyre-square/"
+      }
+     ]
+    },
+    {
+     "name": "Browne Doorway, Eyre Square",
+     "detail": "in front of the Browne Doorway on the northwest side, with the Fourteen Tribes flags hanging behind",
+     "why": "A travel blog calls the northwest side the square's most popular area, and it shows the doorway framed by the tribe banners.",
+     "sources": [
+      {
+       "title": "Ireland 2019: Galway's Eyre Square",
+       "url": "https://crowcanyonjournal.wordpress.com/2019/11/01/ireland-2019-galways-eyre-square/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Northwest side of Eyre Square, by the Browne Doorway and Quincentennial Fountain",
+    "detail": "the northwest side of the square, where the flags, the Browne Doorway and the fountain are all in view",
+    "sources": [
+     {
+      "title": "Ireland 2019: Galway's Eyre Square",
+      "url": "https://crowcanyonjournal.wordpress.com/2019/11/01/ireland-2019-galways-eyre-square/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page names a spot that shows the whole of Eyre Square from one place, so the passer-by spot is the blog's most popular area, not a verified full-view position; check the framing on site. The selfie spots show the fountain and doorway as backdrops, not the square itself. Sources on selfie sticks or tripods were not found. The Crowcanyon post is from 2019, so the layout may have changed."
+  },
+  "cost_usd": 0.05,
+  "at": "2026-11-17 20:24",
+  "selfie_pos": [
+   53.2747549,
+   -9.0497071
+  ],
+  "selfie_note": "Browne Doorway, Eyre Square (OpenStreetMap: Browne Doorway, Eyre Square, Cathair na Gaillimhe, County Ga)"
+ },
+ "Shop Street": {
+  "rank": 4,
+  "card": {
+   "hook": "Picture a busker mid-song, a pub sign swinging overhead and not a single car to dodge. That's Shop Street, and it's been pedestrianised since the late 1990s, so you can take your time framing the shot.",
+   "stand_here": "Start in Eyre Square, the open green at the east end of Shop Street, where the street begins. Face the start of Shop Street so it sits at the edge of your frame, with the square's old and new buildings filling the rest.",
+   "zoom": "Start at 1x in Eyre Square for the open view. Once you're in the street, switch to zoom 0.5x to catch the shopfronts and signs running away from you, then try 2x or more for pub signs and carved stonework.",
+   "make_it_pop": "Turn on the gridlines and put the start of Shop Street on one of the side lines, then let the buildings fill the rest.",
+   "best_time": "Go early in the day if you want fewer people in your photos, because the street gets busy once the shoppers are out.",
+   "selfie_here": "Stand on the pavement in front of Lynch's Castle's corner turret, where Shop Street meets Abbeygate Street. Use the front camera at 0.5x and tuck the limestone turret and carved stonework in over your shoulder.",
+   "ask_someone": "Ask a passer-by to stand on the far side of Shop Street, straight across from Lynch's Castle, while you pose at the castle corner, so the turret and stonework both fit in.",
+   "rules_and_safety": "Shop Street is an open, pedestrianised public street, and photography there is unrestricted. Do check local signs for any temporary works, and ask first before getting a close-up of a busker.",
+   "challenge": "Find a pub sign and a patch of carved stone, zoom to 2x on each, and see which one looks older.",
+   "good_to_know": "Shop Street is Galway's main shopping street and the busy heart of the old centre. Lynch's Castle, on the street, is a 16th-century building and one of central Galway's best preserved historic buildings. It became a bank branch in the 1960s.",
+   "stand_here_before_gps_rule": "Start in Eyre Square, the open green at the east end of Shop Street, where the street begins. Face the start of Shop Street so it sits at the edge of your frame, with the square's old and new buildings filling the rest."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Corner in front of Lynch's Castle, where Shop Street meets Abbeygate Street",
+     "detail": "on the pavement in front of the castle's corner turret, at the junction with Abbeygate Street",
+     "why": "The castle's limestone corner turret and carved stonework make a distinctive backdrop, and the sources place it at the Shop Street junction, but none of them confirms a spot with Shop Street itself directly behind the visitor.",
+     "sources": [
+      {
+       "title": "Lynch's Castle (trips.ie)",
+       "url": "https://trips.ie/lynchs-castle/"
+      },
+      {
+       "title": "Lynch's Castle Galway (Airial)",
+       "url": "https://airial.travel/attractions/ireland/galway/lynchs-castle-galway-b-eEJ7Xp"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Opposite side of Shop Street, directly across from Lynch's Castle",
+    "detail": "the passer-by stands on the far side of Shop Street, straight across from the castle, to fit the corner turret and the full stretch of carved stonework in the frame",
+    "sources": [
+     {
+      "title": "Lynch's Castle (trips.ie)",
+      "url": "https://trips.ie/lynchs-castle/"
+     }
+    ]
+   },
+   "rules": [
+    {
+     "rule": "Photography on Shop Street is unrestricted, but tripods can be difficult to use during busy hours because of the constant movement of people; early mornings or rainy evenings are better for setting one up.",
+     "sources": [
+      {
+       "title": "Shop Street (Pixeo photo spots)",
+       "url": "https://www.pixeoapp.com/photo-spots/europe/united-kingdom/ireland/shop-street/"
+      }
+     ]
+    }
+   ],
+   "safety": "",
+   "notes": "No page I found names a selfie spot with Shop Street directly behind the visitor. The Lynch's Castle corner is the closest named spot, and it is at the junction of Shop Street and Abbeygate Street, so treat the 'Shop Street behind you' part as unverified. The ask-someone spot frames the castle rather than the street, so it may not match the brief exactly. The landmark coordinates you gave (53.27287, -9.05248) lie in the same area as Lynch's Castle (about 53.2730, -9.0522 per a Wikimedia Commons record). Sources describe Shop Street as pedestrianised, so no vehicle-related rules apply. The only rule found concerns tripods, and no page states a selfie-stick rule."
+  },
+  "cost_usd": 0.0442,
+  "at": "2026-11-17 20:25"
+ },
+ "Salthill": {
+  "rank": 5,
+  "card": {
+   "hook": "A bright yellow tower sits out in the grey-blue water of Galway Bay, and there's often someone standing on top, working up the nerve to jump. It's the Blackrock Diving Tower, and it's the star of Salthill.",
+   "stand_here": "Walk to the rocks or sand a little to the south of the tower, then face the tower so the Atlantic and Galway Bay are behind it.",
+   "zoom": "Start at zoom 1x to fit the whole tower against the open bay. Switch to 0.5x to squeeze in the waves at the base, or to get a big sweep of sky. If you're back on the promenade, try zoom 2x or higher (depends on your phone) to bring the tower closer.",
+   "make_it_pop": "Turn on gridlines and put the tower on one of the vertical lines, leaving open water and sky around it.",
+   "best_time": "Go early in the morning or late in the afternoon, when the sun lights up the side of the tower. Sunset is lovely too. Check the tide before you go, because it changes the water around the base.",
+   "selfie_here": "Head to the 'kick the wall' spot at the western end of the Prom, next to the Blackrock diving board. Use the front camera at 0.5x and shuffle around until the tower is over your shoulder, then give the wall a kick like the locals do.",
+   "ask_someone": "",
+   "rules_and_safety": "Keep a safe distance from wet, exposed rocks and watch the incoming waves, especially in stormy weather. Check local signs and conditions before you go.",
+   "challenge": "Catch a swimmer or diver on the platform, with the tower sitting on a gridline, and see if you can time it for the jump.",
+   "good_to_know": "The tower was built in 1953 and swimmers and divers still use it. Every Christmas Day people jump from it into the sea to raise money for local charities. The Prom (Bóthar na Trá) is about 2 km long and opened in 1856.",
+   "stand_here_before_gps_rule": "Walk to the rocks or sand a little to the south of the tower, then face the tower so the Atlantic and Galway Bay are behind it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "The 'kick the wall' spot at the western end of Salthill Promenade, beside the Blackrock diving board",
+     "detail": "at the end of the Prom next to the Blackrock diving board, where visitors do the local 'kick the wall' tradition",
+     "why": "It is a named, well-known stop at the far end of the walk where the diving tower is right there, so a selfie with the tower in view is simple to set up.",
+     "sources": [
+      {
+       "title": "Salthill Promenade, Galway (GPSmyCity)",
+       "url": "https://www.gpsmycity.com/attractions/salthill-promenade-25159.html"
+      },
+      {
+       "title": "Salthill Prom (Wanderlog, 30 best photo spots in Galway)",
+       "url": "https://wanderlog.com/list/geoCategory/160515/best-photo-spots-in-galway"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "The rocks slightly south of the Blackrock Diving Tower",
+    "detail": "on the rocky shoreline a little to the south of the tower, which photographers use to frame the tower with waves breaking around its base",
+    "sources": [
+     {
+      "title": "Blackrock Beach & Salthill Prom (Pixeo photo spots)",
+      "url": "https://www.pixeoapp.com/photo-spots/europe/united-kingdom/ireland/blackrock-beach-salthill-prom/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "Keep a safe distance from exposed rocks and watch incoming waves carefully, especially in storms, when photographing near the water at Blackrock.",
+   "notes": "The Blackrock Diving Tower is the landmark that matches 'Salthill'; sources place it at the western end of the Prom (about 53.2567, -9.0924, per one guide), roughly 1.3 km from the position you gave (53.26203, -9.07463). The 'behind the visitor' framing for the kick-the-wall spot is my inference: the sources name the spot and the tower but do not say the tower is behind a selfie-taker, so check on arrival. The Wild Atlantic Way 'midway point' photo spot (GPSmyCity) has no named location in any source, so I left it out. The ask-someone spot comes from a photographer's guide written for professionals; it is not a page recommending that passers-by stand there, and the rocks can be dangerous. No page gave selfie-stick or tripod rules for this area. Prom length varies by source (2 to 4 km)."
+  },
+  "cost_usd": 0.0468,
+  "at": "2026-11-17 20:25"
+ },
+ "Galway City Museum": {
+  "rank": 6,
+  "card": {
+   "hook": "Most big buildings make you walk backwards into traffic to fit them in. This one is only three levels tall, so the whole thing fits in your phone screen with no tricks.",
+   "stand_here": "Start right at the phone icon on the map, at Galway City Museum beside the River Corrib. Then walk a few steps back onto the open plaza between the museum and the Spanish Arch, and turn to face the museum so the Arch sneaks into the frame too.",
+   "zoom": "Start at zoom 0.5x to squeeze in the building and the plaza, then switch to 1x for a more natural look. Try 2x for close-ups of the walls and edges, and check the corners at 0.5x because buildings can look stretched there.",
+   "make_it_pop": "Switch on your gridlines and line up the museum's vertical edges with them so the walls don't lean.",
+   "best_time": "Go early morning or late afternoon, when the light is softer and the plaza is usually quieter. If the sky looks washed out, tap the museum wall and make the picture a little darker.",
+   "selfie_here": "Stand in the open plaza between the museum and the Spanish Arch, use the front camera, and keep the museum building right behind your shoulder for a clean, uncluttered backdrop. For a different look, the riverside Long Walk starts at the museum, so you can put the building behind you with the river and colourful houses filling the frame.",
+   "ask_someone": "Ask a passer-by on the Claddagh seafront, across the river and facing the Spanish Arch and the museum, and ask them to check the whole building fits in the shot.",
+   "rules_and_safety": "The plaza is a public space, but check the official site before you go for museum entry and any photo rules inside. One guide says personal photography is generally allowed inside, but check the signs about flash.",
+   "challenge": "Get one frame with the medieval Spanish Arch and the modern museum together, and see if your friends can guess which is the old one.",
+   "good_to_know": "The museum was designed by Ciaran O'Connor and Ger Harvey of the Office of Public Works, and it won the Bank of Ireland Opus Architectural Award in 2006. The architects kept it to three levels so it would sit comfortably with the older buildings around it. The present building opened in April 2007, and the Spanish Arch next door is a protected monument that was once part of Galway's defences.",
+   "stand_here_before_gps_rule": "Start right at the phone icon on the map, at Galway City Museum beside the River Corrib. Then walk a few steps back onto the open plaza between the museum and the Spanish Arch, and turn to face the museum so the Arch sneaks into the frame too."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Plaza between Galway City Museum and the Spanish Arch (Spanish Parade)",
+     "detail": "in the open square the museum's design creates beside the Spanish Arch, with the museum building behind you",
+     "why": "The museum's design leaves an open public square between the building and the arch, which gives you a clear, uncluttered backdrop of the museum.",
+     "sources": [
+      {
+       "title": "Galway City Museum (Wikipedia)",
+       "url": "https://en.wikipedia.org/wiki/Galway_City_Museum"
+      }
+     ]
+    },
+    {
+     "name": "Start of the Long Walk, at the museum",
+     "detail": "on the riverside path that begins at the museum, with the museum building behind you as you set off",
+     "why": "The Long Walk starts at the museum, so this riverside spot puts the building directly behind you while the river and colourful houses fill the frame.",
+     "sources": [
+      {
+       "title": "Top 5 Places to Take Photos in Galway (Flytographer)",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-galway/"
+      },
+      {
+       "title": "The 30 best photo spots in Galway (Wanderlog)",
+       "url": "https://wanderlog.com/list/geoCategory/160515/best-photo-spots-in-galway"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Claddagh seafront, across the river from the Spanish Arch",
+    "detail": "on the Claddagh side of the River Corrib, facing the Spanish Arch and the museum beside it",
+    "sources": [
+     {
+      "title": "Top 5 Places to Take Photos in Galway (Flytographer)",
+      "url": "https://www.flytographer.com/blog/best-places-to-take-photos-galway/"
+     },
+     {
+      "title": "The 30 best photo spots in Galway (Wanderlog)",
+      "url": "https://wanderlog.com/list/geoCategory/160515/best-photo-spots-in-galway"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found gives selfie-stick or tripod rules, so none are listed. One guide says personal photography is generally allowed inside the museum but to check signs about flash, which is a photo rule, not a selfie-stick rule. The museum-behind framing for both selfie spots is my reading of the pages, not something they state directly. The Claddagh spot is named as opposite the Spanish Arch, not the museum itself, so a passer-by should check that the whole building fits in frame. I did not verify the supplied coordinates (53.26982, -9.05346) against any page. The top-floor viewing area inside the museum was left out because it shows the views, not the museum behind the visitor."
+  },
+  "cost_usd": 0.0485,
+  "at": "2026-11-17 20:26"
+ },
+ "Claddagh": {
+  "rank": 7,
+  "card": {
+   "hook": "Picture a row of coloured houses sitting upside down in the river as well. That's the Claddagh on a calm morning, and it's the postcard everyone in Galway wants.",
+   "stand_here": "Stand on The Long Walk, on the east bank of the Corrib, and face west across the water. The Claddagh houses are about 230 m to the west, across the water.",
+   "zoom": "Start at 1x to get the whole row of houses and their reflection. Try 2x if you want just the houses without the buildings around them. Zoom 0.5x makes the houses look small and can stretch the edges.",
+   "make_it_pop": "Tap the houses, then drag the brightness down a little so the sky keeps its colour and the houses don't turn pale.",
+   "best_time": "Early morning or golden hour is best. Those are also the quietest times along the river.",
+   "selfie_here": "Walk to the end of Nimmo's Pier on the Claddagh side of the Corrib. Use the front camera and look across the river at the colourful houses over your shoulder. For something calmer, the cantilevered walkway at Claddagh Basin has still water, the 'Claddagh icon' sculpture by John Coll and mute swans nearby.",
+   "ask_someone": "Ask a passer-by to stand a few steps back on the Long Walk and shoot across the water, with you in front of them so the full row of houses lines up behind you.",
+   "rules_and_safety": "People live in the Claddagh, so stay on public paths and respect residents' privacy.",
+   "challenge": "Get the water so still that you can't tell which houses are the real ones.",
+   "good_to_know": "The Claddagh (An Cladach) means 'the seashore'. It was once a fishing village just outside Galway's old city walls, and the original thatched cottages were cleared in the 1930s and replaced by council housing. It's also the birthplace of the Claddagh ring, with its two clasped hands holding a crowned heart.",
+   "stand_here_before_gps_rule": "Stand on The Long Walk, on the east bank of the Corrib, and face west across the water. The Claddagh houses are about 230 m to the west, across the water."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Claddagh Basin cantilevered walkway",
+     "detail": "on the roughly 50 m cantilevered walkway, reached by the widened footpath from the Claddagh Basin side",
+     "why": "The calm basin water and the 'Claddagh icon' sculpture by John Coll give a picturesque backdrop, with mute swans nearby.",
+     "sources": [
+      {
+       "title": "Claddagh Basin, Galway, Ireland - Reviews, Ratings, Tips and Why You Should Go",
+       "url": "https://wanderlog.com/place/details/2492670/claddagh-basin"
+      }
+     ]
+    },
+    {
+     "name": "Nimmo's Pier",
+     "detail": "at the end of Nimmo's Pier on the Claddagh side of the Corrib, looking across the river at the colourful houses",
+     "why": "It offers a clear view across the river to the vibrant houses, and a causeway to Mutton Island is a few steps away.",
+     "sources": [
+      {
+       "title": "Top 5 Places to Take Photos in Galway",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-galway/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "The Long Walk, facing the Claddagh houses",
+    "detail": "stand on the Long Walk promenade across the Corrib from the Claddagh; shoot across the water so the full row of houses lines up behind the visitor",
+    "sources": [
+     {
+      "title": "Operator Tips for Party Bike Photo Spots in Galway for 15 seater rides",
+      "url": "https://www.pedalpowergalway.com/party-bike-photo-spots-galway/"
+     },
+     {
+      "title": "The Claddagh and Long Walk: Galway's Most Photographed Colourful Houses",
+      "url": "https://www.concisetravel.com/the-claddagh-and-long-walk-galway-s-most-photographed-colourful-houses-travel-guide/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found gives rules on selfie sticks or tripods, so none are listed. No safety point was stated outright; one page notes narrower footing in some spots along the Claddagh, which I left out. Sources disagree on where the 'Claddagh houses' are: one says the Long Walk houses face the Claddagh across the river, another places the cottages in Claddagh Village itself, and the village's original thatched cottages were demolished in the 1920s, so the Nimmo's Pier pick is a view of the houses across the water, not a verified Claddagh-side landmark. The Claddagh Ring Museum is named by one blog, but I found no other source confirming it, so I did not list it. The coordinates you gave were not checked against any page. Several sources are older blogs, and the Claddagh Basin details come from user reviews."
+  },
+  "cost_usd": 0.0465,
+  "at": "2026-11-17 20:26",
+  "selfie_pos": [
+   53.2668707,
+   -9.0485459
+  ],
+  "selfie_note": "Nimmo's Pier (OpenStreetMap: Nimmo's Pier, Claddagh, Cathair na Gaillimhe, County Galway,)"
+ },
+ "Lynch's Castle": {
+  "rank": 8,
+  "card": {
+   "hook": "Here's a fun one: the ground floor looks like a bank, and the floors above look like a medieval townhouse. That's because it's both, and the mix is the whole charm.",
+   "stand_here": "Head for Lynch's Castle on Shop Street, then cross to the pavement directly opposite the building (that's the phone icon on the map). Face the castle squarely so the whole carved front and both sides of the corner turret fit in.",
+   "zoom": "Start at 1x from across the street, which shows the building much as your eyes see it. If the pavement is too narrow, try 0.5x, but keep the castle away from the edges of the screen so it doesn't look stretched. Then go 2x or more for the carved coats of arms (higher zooms depend on your phone).",
+   "make_it_pop": "Turn on gridlines and line up the wall edges with them, so the building stands up straight.",
+   "best_time": "Late morning is when one visitor guide says the limestone looks best. Go early instead if you want fewer crowds and buskers in your shot.",
+   "selfie_here": "Use the front camera and switch to 0.5x so the carved front fits behind you. Stand with the castle over your shoulder and tilt the phone up a little to catch the corner turret.",
+   "ask_someone": "Ask a passer-by to stand on the pavement across Shop Street, facing the castle, while you stand closer to the building with the stone front and corner turret behind you.",
+   "rules_and_safety": "You can photograph the outside freely from the street. It's a working AIB bank, and the interior isn't open for touring.",
+   "challenge": "Can you spot the coat of arms of King Henry VII in the stonework and get it sharp at 2x?",
+   "good_to_know": "Lynch's Castle was built by the Lynch family, one of the Tribes of Galway, and is thought to date from the 15th or early 16th century. It's one of only two surviving fortified townhouses in the city that belonged to the Tribes, the other being Blake's Castle. It was once five storeys tall, the floor levels were changed in 1820 and Georgian windows were added. It has been AIB's since 1966.",
+   "stand_here_before_gps_rule": "Head for Lynch's Castle on Shop Street, then cross to the pavement directly opposite the building (that's the phone icon on the map). Face the castle squarely so the whole carved front and both sides of the corner turret fit in."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": {
+    "name": "Shop Street, directly opposite Lynch's Castle",
+    "detail": "Passer-by stands on the far side of Shop Street, facing the building, so the visitor stands on the near pavement with the full stone façade and corner turret behind them.",
+    "sources": [
+     {
+      "title": "Lynch's Castle (trips.ie)",
+      "url": "https://trips.ie/lynchs-castle/"
+     },
+     {
+      "title": "Lynch's Castle, Galway, Ireland (2026): A Medieval Townhouse Filled with Legends (nomads-travel-guide.com)",
+      "url": "https://www.nomads-travel-guide.com/places/lynchs-castle/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a selfie spot where the visitor stands with the castle behind them, so selfie_spots is empty rather than guessed. The ask-someone spot comes from pages advising photographers to stand across Shop Street to capture the full façade and corner turret; it is written for photographing the building, not specifically for a visitor's selfie, so the visitor's position is my inference. The building is a bank at 40 Shop Street, at the junction with Abbeygate Street. Trips.ie gives a late-morning light tip, and its ground-floor panels are open during bank hours. No page mentions selfie stick or tripod rules for this site, and no page gives a safety point for it."
+  },
+  "cost_usd": 0.0477,
+  "at": "2026-11-17 20:27"
+ },
+ "Long Walk, Galway": {
+  "rank": 9,
+  "card": {
+   "hook": "Picture a whole row of bright houses sitting right on the water's edge, with Galway's old town piled up behind them and nothing in the way. That's the Long Walk, and it's very hard to take a dull photo of it.",
+   "stand_here": "Stand on Claddagh Quay, on the Claddagh side of the River Corrib, directly opposite the row. Face across the water to the houses. If you only have time for one spot, make it this one.",
+   "zoom": "Start at 1x and step back if the whole row doesn't fit, keeping the water in front of you. Try 2x for a tighter shot of the façades without too much empty sky, and use 0.5x only if you want lots of sky and water.",
+   "make_it_pop": "Tap the houses, then slide it a touch darker so the colours stay rich and the sky doesn't wash out.",
+   "best_time": "Go in early morning or late afternoon, when the light is warmest on the façades.",
+   "selfie_here": "Try Nimmo's Pier on the Claddagh side, where the Long Walk's houses sit across the water. Use the front camera at 0.5x and tilt it so the houses show over your shoulder. The Spanish Arch is an easy backup, but there the arch is your backdrop, not the row.",
+   "ask_someone": "Ask a passer-by on the Spanish Arch plaza to aim back along the quay while you stand in front of the row of houses.",
+   "rules_and_safety": "The Long Walk is a row of private homes, so stay on the public quay and don't go onto the properties. Keep an eye on the river edge when you pose near the water. If you arrive by car, check the parking signs carefully first, as one visitor reports clampers on the road.",
+   "challenge": "Pick your favourite colour of house and make it the star of the shot, with the water along the bottom and the row filling the middle.",
+   "good_to_know": "The Long Walk is the row of colourful houses beside the River Corrib, with the city's historic core rising behind it. The best-known photos of it are taken from Claddagh Quay. For a second angle, Nimmo's Pier looks back across the water with boats in the frame, and the Spanish Arch shows the full line of houses stretching away along the quay.",
+   "stand_here_before_gps_rule": "Stand on Claddagh Quay, on the Claddagh side of the River Corrib, directly opposite the row. Face across the water to the houses. If you only have time for one spot, make it this one."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Nimmo's Pier, Claddagh",
+     "detail": "on the Claddagh side of the Corrib, where the Long Walk's colourful houses sit across the water",
+     "why": "One guide calls it one of the best places nearby to get a good view of the Long Walk, and a stock-photo caption places the Long Walk in view from there, so the houses can sit behind a visitor standing on the Claddagh side.",
+     "sources": [
+      {
+       "title": "Long Walk Galway: History + Best Viewpoint for 2026 (The Irish Road Trip)",
+       "url": "https://www.theirishroadtrip.com/the-long-walk-galway/"
+      },
+      {
+       "title": "The Long Walk in Galway, Ireland (Getty Images)",
+       "url": "https://www.gettyimages.ie/photos/long-walk-galway"
+      }
+     ]
+    },
+    {
+     "name": "In front of the Spanish Arch",
+     "detail": "at the arch where the Long Walk begins, next to Galway City Museum",
+     "why": "A hotel guide calls the arch an ideal backdrop for selfies, and another guide places the arch right at the start of the Long Walk, so it is a close, easy-to-find option, though the arch rather than the row of houses is the backdrop.",
+     "sources": [
+      {
+       "title": "12 Stunning Instagram Spots in Galway You Can't Miss (Salthill Hotel)",
+       "url": "https://www.salthillhotel.com/12-stunning-instagram-spots-in-galway-you-cant-miss/"
+      },
+      {
+       "title": "The 30 best photo spots in Galway (Wanderlog)",
+       "url": "https://wanderlog.com/list/geoCategory/160515/best-photo-spots-in-galway"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Spanish Arch plaza",
+    "detail": "the plaza at the Spanish Arch, aiming back along the quay so the visitor stands in front of the Long Walk's row of houses",
+    "sources": [
+     {
+      "title": "The Long Walk, Galway, Ireland (Nomads Travel Guide)",
+      "url": "https://www.nomads-travel-guide.com/places/the-long-walk/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "A page about the Long Walk notes it was used to highlight the importance of water safety awareness, so keep an eye on the river edge when posing near the water.",
+   "notes": "No page gives a specific selfie spot with the houses directly behind the visitor; the Nimmo's Pier entry is an inferred match from pages describing views of the Long Walk from Claddagh, and the Spanish Arch entry uses the arch as the backdrop. The passer-by spot is a photo-angle tip from a guide, not a stated position for the visitor. No page states selfie stick or tripod rules. One review describes the Long Walk as a private road with parking enforcement, which is not a rule for photographers, so it is left out."
+  },
+  "cost_usd": 0.048,
+  "at": "2026-11-17 20:27",
+  "selfie_pos": [
+   53.2668707,
+   -9.0485459
+  ],
+  "selfie_note": "Nimmo's Pier, Claddagh (OpenStreetMap: Nimmo's Pier, Claddagh, Cathair na Gaillimhe, County Galway,)"
+ },
+ "St. Nicholas' Collegiate Church": {
+  "rank": 10,
+  "card": {
+   "hook": "Galway's St Nicholas' church sits in a lane so narrow that the whole building won't fit in your photo when you first try. That's half the fun, because the weathered stone and the tower tell the story on their own.",
+   "stand_here": "Stand on Lombard Street and face the church's outside wall, so the tower and the old stonework share one frame. For the vaulted south porch and doorway, walk round to the Church Yard Lane entrance.",
+   "zoom": "Start at 1x to get the tower and the stonework together. If the lane is too tight, drop to 0.5x. Use 2x to 5x (depending on your phone) for the tower top and the carved details.",
+   "make_it_pop": "Tap the stonework, then drag the slider down a little to make it darker so the sky doesn't wash out.",
+   "best_time": "Go early in the day, when the lane is usually quieter and the softer light is kinder to old stone. Services may be on, so plan around them.",
+   "selfie_here": "Try Market Street, by the craft booths beside the church's frontage, where the building should sit nicely behind you. Use the front camera at 0.5x and tuck the church over your shoulder. We haven't seen this named as an official selfie spot, so treat it as a good bet.",
+   "ask_someone": "Ask a passer-by to stand on Lombard Street facing the church, and step back as far as the lane allows so the tower and stonework both fit in one frame.",
+   "rules_and_safety": "The church is a place of worship. Photography inside is generally allowed, but services may be in progress, so check the official site before you go.",
+   "challenge": "Take one tall shot that runs from the old stonework all the way up to the tower, and use gridlines to keep the tower straight.",
+   "good_to_know": "The church was founded in 1320 and dedicated to Saint Nicholas of Myra, patron saint of seafarers, which suits a port town. In 1484 it became a collegiate church, the same year Galway got its royal charter and mayoral status. Local legend says Christopher Columbus worshipped here in 1477, but that's a story, not a proven fact. People still worship here today, including several different congregations.",
+   "stand_here_before_gps_rule": "Stand on Lombard Street and face the church's outside wall, so the tower and the old stonework share one frame. For the vaulted south porch and doorway, walk round to the Church Yard Lane entrance."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Market Street, beside the craft booths next to the church",
+     "detail": "on Market Street, by the craft booths beside the church's frontage",
+     "why": "Two guides name Market Street as the place to photograph the church from, and a visitor standing there can have the building in frame; the selfie use is my inference, since no page recommends it for selfies.",
+     "sources": [
+      {
+       "title": "St. Nicholas' Collegiate Church Galway: The Medieval Church Where Columbus Supposedly Prayed",
+       "url": "https://www.concisetravel.com/st-nicholas-collegiate-church-galway-the-medieval-church-where-columbus-supposedly-prayed-travel-guide/"
+      },
+      {
+       "title": "St. Nicholas' Collegiate Church in Galway: 3 reviews and 5 photos",
+       "url": "https://www.minube.net/place/san-nicolas-de-mura-collegiate-church-a539461"
+      }
+     ]
+    },
+    {
+     "name": "High Street",
+     "detail": "on High Street, the photo stop where the church's medieval stone facade is in view",
+     "why": "A local photographers' list names High Street and the church's facade as a picturesque photo subject, so it is a plausible background spot, though the page does not give an exact standing point.",
+     "sources": [
+      {
+       "title": "Top 5 Places to Take Photos in Galway",
+       "url": "https://www.flytographer.com/blog/best-places-to-take-photos-galway/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Lombard Street, facing the church exterior",
+    "detail": "on Lombard Street, photographing the church's exterior so the tower and medieval stonework fit in one frame",
+    "sources": [
+     {
+      "title": "Collegiate Church of St Nicholas of Myra, Galway, Ireland (2026): Galway's Living Medieval Landmark",
+      "url": "https://www.nomads-travel-guide.com/places/collegiate-church-of-st-nicholas-of-myra/"
+     },
+     {
+      "title": "St. Nicholas’ Collegiate Church",
+      "url": "https://stnicholas.ie/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a selfie-specific spot, so both selfie spots are based on general exterior photo tips and are not confirmed as selfie positions. The church's address is given variously as Market Street, Lombard Street and Church Yard Street; the church's own site uses Lombard Street. The High Street entry is a general street rather than a precise point. No page mentions selfie sticks or tripods, so the rules list is empty. Pages say photography is generally allowed but may be restricted during services or events, which I left out because it is not a selfie or tripod rule."
+  },
+  "cost_usd": 0.0455,
+  "at": "2026-11-17 20:28",
+  "selfie_pos": [
+   53.2718484,
+   -9.0535346
+  ],
+  "selfie_note": "High Street (OpenStreetMap: High Street, Eyre Square, Cathair na Gaillimhe, County Galwa)"
+ },
+ "Salmon Weir Bridge": {
+  "rank": 11,
+  "card": {
+   "hook": "Fast water, old stone and a big dome poking out over the trees: Galway fits a lot into one view, and you can have it without dodging buses.",
+   "stand_here": "Stand on Droichead an Dóchais, the newer pedestrian and cycle bridge that runs alongside the old one. The old stone bridge is to the north-west, so face that way and you'll see it and the Cathedral side by side.",
+   "zoom": "Start at zoom 1x to fit the old bridge, the water and the Cathedral together. Then try zoom 2x to 5x (depending on your phone) to pick out the dome. Zoom 0.5x is for when you want the deck and railings big in the foreground.",
+   "make_it_pop": "Turn on gridlines, put the old bridge's arches along a lower line and the dome near an upper third, and keep the phone level so the parapets stay straight.",
+   "best_time": "Early in the day is likely to be quieter on the bridge. Soft, even light usually suits the stonework and the water. If you're hoping for fish, check the salmon run dates first.",
+   "selfie_here": "Head to the north side of Droichead an Dóchais, where guides say the Cathedral views are best. Use the front camera at zoom 0.5x, then shuffle a little until the dome shows over your shoulder.",
+   "ask_someone": "For a photo of you both, ask someone on the riverside Waterway Trail, about 75 m south of the pedestrian bridge near the Galway Waterway Trails marker, and shoot looking west toward the Cathedral.",
+   "rules_and_safety": "The new pedestrian bridge is a much safer place to stand than the old bridge, which is shared with buses, cars and trucks. The Corrib can be dangerous in flood, so keep to the marked walkways.",
+   "challenge": "Get the arches, the dome and the water all in one shot without the parapets tilting. Bonus points if the river looks properly dramatic.",
+   "good_to_know": "The old bridge was designed by William Vitruvius Morrison to link the new Courthouse with the new Gaol on Nun's Island, so it was first known as the Gaol Bridge. Its foundation stone was laid on 29 June 1818 and it opened in October 1819. It is on Galway City Council's Record of Protected Structures.",
+   "stand_here_before_gps_rule": "Stand on Droichead an Dóchais, the newer pedestrian and cycle bridge that runs alongside the old one. The old stone bridge is to the north-west, so face that way and you'll see it and the Cathedral side by side."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "North side of the Salmon Weir Pedestrian and Cycle Bridge (Droichead an Dóchais)",
+     "detail": "on the north side of the new bridge, which runs parallel to the old Salmon Weir Bridge, with Galway Cathedral in view",
+     "why": "Guides point to this side of the new bridge as the place with the best Cathedral views, and one reviewer calls it a perfect spot for a picture.",
+     "sources": [
+      {
+       "title": "Salmon Weir Bridge (2026), Airial",
+       "url": "https://www.airial.travel/attractions/ireland/galway/salmon-weir-bridge-J13R2mZq"
+      },
+      {
+       "title": "Salmon Weir Bridge, Galway, Ireland - Reviews, Ratings, Tips, Wanderlog",
+       "url": "https://wanderlog.com/place/details/22282/salmon-weir-bridge"
+      },
+      {
+       "title": "Excitement as new Salmon Weir bridge officially opens, Galway Daily",
+       "url": "https://www.galwaydaily.com/news/excitement-as-new-salmon-weir-bridge-officially-opens/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": {
+    "name": "Galway Waterway Trail riverbank by the Salmon Weir Bridge marker",
+    "detail": "on the riverside Waterway Trail about 75 m south of the Salmon Weir Pedestrian Bridge, at the Galway Waterway Trails marker; the photo the marker's page shows is taken looking west toward the Cathedral",
+    "sources": [
+     {
+      "title": "Salmon Weir Bridge/Droichead na mBradán Historical Marker, HMdb",
+      "url": "https://www.hmdb.org/m.asp?m=270736"
+     },
+     {
+      "title": "Salmon Weir Bridge in Galway, Ireland, Encircle Photos",
+      "url": "https://www.encirclephotos.com/image/salmon-weir-bridge-in-galway-ireland/"
+     }
+    ]
+   },
+   "rules": [],
+   "safety": "The new pedestrian bridge is described as a much safer option than the old Salmon Weir Bridge, which is shared with buses, cars and trucks, so it is the better place to stand for photos.",
+   "notes": "Only one selfie spot was found that a page names with the Cathedral in view, so the second slot is empty. The sources say the Cathedral is visible from the north side of the new bridge but do not state that it sits directly behind a visitor posing there. The ask-someone spot is a riverbank area near a marker, not an exact photo point; the marker's exact spot was not confirmed. No page gives selfie-stick or tripod rules."
+  },
+  "cost_usd": 0.0616,
+  "at": "2026-11-17 20:28"
+ },
+ "Blake's Castle": {
+  "rank": 12,
+  "card": {
+   "hook": "A tall, skinny medieval tower is squeezed in beside a hotel at the end of Quay Street, and it still steals the show. Look for the corner windows and the little parapet on top.",
+   "stand_here": "Stand on the Quay Street pavement just outside the façade, right at the phone icon on the map, and face the tower. Then step back along the street until the whole thing fits.",
+   "zoom": "Start at zoom 1x for a straight-on shot of the façade. If the street's too narrow to fit the whole tower, tap 0.5x, then try 2x or higher (depends on your phone) for the corner windows and rooftop parapet.",
+   "make_it_pop": "Turn on gridlines and line the tower's edges up with the vertical lines so the walls don't lean inwards.",
+   "best_time": "Go early in the day, when the pavements are quieter and a clean straight-on shot is easier. In bright sun, check that shadows from the narrow street aren't hiding the lower walls.",
+   "selfie_here": "Use the front camera and tap 0.5x so you squeeze in more of the tower. Hold the phone a bit lower and tilt it up, so the tower stands tall over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "Keep an eye on passing people and traffic, and step back to the kerb edge only where it's safe. The façade is part of the hotel, so check the hotel's official site for access details.",
+   "challenge": "Take two shots from the same spot: one wide, with the whole street in it, and one close-up of the very top. Which one looks more like a castle?",
+   "good_to_know": "Blake's Castle is a medieval tower house built around 1470. It first belonged to the O'Halloran family, and the Blake family fortified it in 1641. It was the county gaol from 1686 to 1810, later stored corn, then sat derelict until a hotel opened beside it in 1993 and built the castle's façade into its design.",
+   "stand_here_before_gps_rule": "Stand on the Quay Street pavement just outside the façade, right at the phone icon on the map, and face the tower. Then step back along the street until the whole thing fits."
+  },
+  "selfie_research": {
+   "selfie_spots": [],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "No page I found names a selfie or photo spot for the Blake's Castle at this position. The coordinates match the Quay Street tower house in Galway's Latin Quarter. The Irish marker page gives 53° 16.246′ N, 9° 3.272′ W and places it on Quay Street (https://www.hmdb.org/m.asp?m=270779). The only photo-guide mention is a Wanderlog list that names Blakes Castle as a Latin Quarter landmark, with no shooting position (https://wanderlog.com/list/geoCategory/160515/best-photo-spots-in-galway). Other pages give only nearby context: Spanish Arch about 120 m south and Galway City Museum beside it (https://mapcarta.com/W1022503399). I did not invent a spot. Many TripAdvisor and Flickr pages called 'Blake's Castle' refer to Menlo Castle, a different ivy-covered ruin on the Corrib several kilometres north (https://www.tripadvisor.com/Attraction_Review-g186609-d4828018-Reviews-Menlo_Castle_Blake_s_Castle-Galway_County_Galway_Western_Ireland.html). I left those tips out because they are not at this position. For reference only, one page says its classic view is from the greenway on the Dangan side (https://trips.ie/menlo-castle/), and another says the grounds have been closed since early 2025 for conservation. A further search on Quay Street or the Spanish Arch area would be needed to find a named selfie or passer-by spot."
+  },
+  "cost_usd": 0.0438,
+  "at": "2026-11-17 20:29"
+ },
+ "The Hardiman": {
+  "rank": 101,
+  "card": {
+   "hook": "Most people walk straight up to a grand old hotel and then wonder why the photo looks cramped. Here, do the opposite: stay out on the grass and let the whole stone front come to you.",
+   "stand_here": "Stand on the open ground of Eyre Square, in front of The Hardiman at 14/15 Eyre Square. The hotel lies to the south-east, so face that way and let the lawn fill the bottom of your picture.",
+   "zoom": "Start at 1x for a natural view of the whole front. If you can't step back far enough, try 0.5x and keep your phone level so the building doesn't lean. Use 2x to pick out the windows and stonework.",
+   "make_it_pop": "Turn on the gridlines, put the base of the building on a lower line, and tap the facade; if the sky is bright, slide it a touch darker so the pale stone keeps its detail.",
+   "best_time": "Go when the front is evenly lit, like a bright but overcast day or soft daylight, so there are no harsh shadows across the stone. Early morning is usually quieter on the square.",
+   "selfie_here": "Try the Quincentennial Fountain, the hooker-boat sculpture in the middle of Eyre Square, which guides list as a popular photo stop. Use the front camera, switch to 0.5x, and hold the fountain over your shoulder with the Hardiman side of the square in view (the guides don't promise the hotel shows up from here). The Browne Doorway, the medieval merchant's entrance on the square's eastern side, is another good backdrop.",
+   "ask_someone": "",
+   "rules_and_safety": "Eyre Square is an open public park you can walk around freely. The hotel is a private business, so check its official site before you go if you want to head inside.",
+   "challenge": "Take a second shot using one of the square's paths as a leading line toward the hotel, then see if you can count the windows in the long row.",
+   "good_to_know": "The hotel opened on 16 August 1852 as the Railway Hotel. The Midland Great Western Railway built it with money left over from a famine-relief loan used to finish the Athlone to Galway line. John Skipton Mulvany designed it, William Dargan was the contractor for the limestone front, and it took the name Hardiman in 2019 after the Galway historian James Hardiman.",
+   "stand_here_before_gps_rule": "Stand on the open ground of Eyre Square, in front of The Hardiman at 14/15 Eyre Square. The hotel lies to the south-east, so face that way and let the lawn fill the bottom of your picture."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Quincentennial Fountain, Eyre Square",
+     "detail": "at the central fountain in Eyre Square, the hooker-boat sculpture in the middle of the square. Shoot with the square's edge and the Hardiman side of the square in view.",
+     "why": "Several guides list the fountain as a popular photo stop, and it is the square's most-cited photo subject, but none of the pages say the hotel is visible from it.",
+     "sources": [
+      {
+       "title": "Eyre Square: The Heart of Galway City - Explore Ireland Now",
+       "url": "https://exploreirelandnow.com/eyre-square/"
+      },
+      {
+       "title": "Eyre Square Galway Highlights: Your Essential 2026 City Guide",
+       "url": "https://tourismattractions.net/ireland/eyre-square-galway-highlights"
+      },
+      {
+       "title": "Eyre Square, Galway, Ireland (2026): A Historic Green at the Heart of the City",
+       "url": "https://www.nomads-travel-guide.com/places/eyre-square/"
+      }
+     ]
+    },
+    {
+     "name": "Browne Doorway, Eyre Square",
+     "detail": "at the Browne Doorway, the medieval merchant's entrance on the square's eastern side.",
+     "why": "Guides call the doorway an iconic photo subject in the square, and it is a fixed landmark that a visitor can stand in front of and be found on a map.",
+     "sources": [
+      {
+       "title": "Eyre Square Galway Highlights: Your Essential 2026 City Guide",
+       "url": "https://tourismattractions.net/ireland/eyre-square-galway-highlights"
+      },
+      {
+       "title": "12 Stunning Instagram Spots in Galway You Can't Miss - Salthill Hotel",
+       "url": "https://www.salthillhotel.com/12-stunning-instagram-spots-in-galway-you-cant-miss/"
+      },
+      {
+       "title": "Shop Street and Eyre Square Galway (2026)",
+       "url": "https://airial.travel/attractions/ireland/galway/shop-street-and-eyre-square-galway-OlLY06oA"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "The coordinates (53.27399, -9.04799) sit in central Galway at Eyre Square, so I read 'The Hardiman' as the hotel on Eyre Square. Hotel pages place it by Eyre Square, and guest reviews mention room views over the square. The NUI Galway Hardiman Research Building is a different place, about 1.5 km west (53.2796, -9.0615), so I did not use it. No page I found names a spot where a visitor can have the hotel itself behind them, and none describes a spot where a passer-by should stand to frame the visitor with the whole hotel, so I left ask_someone_spot null rather than guess. Both selfie spots are Eyre Square features chosen from photo guides, not verified as framing the hotel. The selfie-stick/tripod and safety fields are empty because no page I found states a rule or safety point."
+  },
+  "cost_usd": 0.0583,
+  "at": "2026-11-17 20:29",
+  "selfie_pos": [
+   53.2747031,
+   -9.0494012
+  ],
+  "selfie_note": "Quincentennial Fountain, Eyre Square (OpenStreetMap: Quincentennial Fountain, Eyre Square, Cathair na Gaillimhe, )"
+ },
+ "Tigh Neachtain": {
+  "rank": 13,
+  "card": {
+   "hook": "You won't need the map for the last few steps, because the blue-and-yellow front of Tigh Neachtain (locals say Naughton's) shouts at you from down the street. On this corner, the colour does most of the photo work for you.",
+   "stand_here": "Stand on the corner of Quay Street and Cross Street Upper, right at the phone icon on the map, and turn to face the pub so both streets lead your eye in. Fancy a second angle? Stroll a little way along Quay Street and look back along the front.",
+   "zoom": "Start at zoom 1x for a natural view of the front. If the pavement is crowded and you can't step back far enough, tap 0.5x to fit the whole corner in.",
+   "make_it_pop": "Tap the blue paintwork, then slide the brightness down to a touch darker so the colours stay rich and the sky doesn't wash out.",
+   "best_time": "Earlier in the day is likely to be quieter, with fewer people and tables in front of the pub. Come in the evening if you'd rather have a livelier, busier scene.",
+   "selfie_here": "Stand on the pavement at the corner where Cross Street meets Quay Street, with the blue-and-yellow front behind you. Use the front camera, try 0.5x if your phone has it, and hold it a bit higher so the sign sits over your shoulder.",
+   "ask_someone": "",
+   "rules_and_safety": "The outside is photographed from the public street. If you'd like to go inside, check the official site first, as opening times change.",
+   "challenge": "Turn on the gridlines, line the corner of the building up with one vertical line, and see if you can keep the walls perfectly straight.",
+   "good_to_know": "The pub opened in 1894. Before that the building was the home of Richard Martin, the animal rights campaigner who founded the original Society for the Prevention of Cruelty to Animals. The name over the door is in Irish, which once drew the anger of the Black and Tans during the War of Independence.",
+   "stand_here_before_gps_rule": "Stand on the corner of Quay Street and Cross Street Upper, right at the phone icon on the map, and turn to face the pub so both streets lead your eye in. Fancy a second angle? Stroll a little way along Quay Street and look back along the front."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Outside Tigh Neachtain on the corner of Cross Street and Quay Street",
+     "detail": "On the pavement at the corner where Cross Street meets Quay Street, with the blue-and-yellow front of 17 Cross Street behind you",
+     "why": "A Flickr caption describes a photo taken outside this pub as having a great background, and the pub sits on that corner.",
+     "sources": [
+      {
+       "title": "neachtain photos on Flickr",
+       "url": "https://www.flickr.com/photos/tags/neachtain/"
+      },
+      {
+       "title": "Tigh Neachtain Traditional Pub Galway",
+       "url": "https://www.galwaytourism.ie/food-drink/pubs/tigh-neachtain/"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "",
+   "notes": "Only one selfie spot could be supported. None of the pages I found names a specific selfie position with the pub behind the visitor, so this is inferred from the corner location and a Flickr caption describing an outside photo. No page gave a passer-by spot that frames the whole pub. The Flytographer and Pedal Power pages suggest shooting Quay Street from across the street or from its upper end, but they do not name Tigh Neachtain, so I left the ask-someone spot empty. No page mentioned selfie-stick or tripod rules or a safety point. The Quay Street and Cross Street corner can be busy with buskers and crowds, but no page gave that as a safety point. Check the spot on a map before relying on it."
+  },
+  "cost_usd": 0.0568,
+  "at": "2026-11-17 20:30"
+ },
+ "Monument to Christopher Columbus (Galway)": {
+  "rank": 14,
+  "card": {
+   "hook": "A bronze sculpture shaped like a seabird sits right next to the old Spanish Arch, with the River Corrib harbour behind it. That's a lot of Galway in one frame, and nothing is fenced off, so you can walk all the way around it.",
+   "stand_here": "Head for Spanish Parade, right beside the Spanish Arch. The phone icon on the map is at the monument itself. For the wider shot, step back into the open space in front of the arch and face the monument, so the bronze is in front of you and the arch and harbour are behind it.",
+   "zoom": "Start at 1x, which shows the sculpture with the arch and harbour behind it. Try 0.5x if you want more of the open space and the water, or 2x (if your phone has it) for a tighter shot of just the bronze.",
+   "make_it_pop": "Tap the bronze, then drag the slider to make the picture a little darker if the sky is bright, so the sculpture keeps its detail and the sky doesn't wash out.",
+   "best_time": "Go early in the morning, when there are likely to be fewer people around the arch and the open space. A soft, overcast day also stops the bronze from glaring.",
+   "selfie_here": "Use the front camera, switch to 0.5x to fit more in, and hold the phone slightly above eye level with the monument over your shoulder. Take a few steps sideways until the sculpture and the arch sit side by side, not stacked on top of each other.",
+   "ask_someone": "",
+   "rules_and_safety": "Be careful near the water's edge, since the Spanish Arch sits on the River Corrib.",
+   "challenge": "Find the spot where the arch sits beside the sculpture instead of behind it, then crouch a little so the bronze rises against the sky and water.",
+   "good_to_know": "The monument went up in 1992, the year of the Columbus Quincentenary, to mark Columbus's visit to Galway in 1477. Cork artist Mick Wilkins made it, and it was a gift from Genoa, Columbus's hometown. It was defaced in June 2020 and some people have called for its removal, so have a look at its current condition when you arrive. Don't skip the plinth, which carries an inscription that makes a nice close-up detail shot.",
+   "stand_here_before_gps_rule": "Head for Spanish Parade, right beside the Spanish Arch. The phone icon on the map is at the monument itself. For the wider shot, step back into the open space in front of the arch and face the monument, so the bronze is in front of you and the arch and harbour are behind it."
+  },
+  "selfie_research": {
+   "selfie_spots": [
+    {
+     "name": "Spanish Parade (small square beside the Spanish Arch)",
+     "detail": "on the open square next to the Spanish Arch, where the monument also stands",
+     "why": "The square is open and looks out over the River Corrib, which suits a backdrop shot, but no page confirms it as a selfie spot for this monument.",
+     "sources": [
+      {
+       "title": "Spanish Arch Galway: Discover History with Audio Guides",
+       "url": "https://www.accesstravel.com/;/ViatorAttraction/Index/5156/8470"
+      },
+      {
+       "title": "List of public art in Galway city",
+       "url": "https://en.wikipedia.org/wiki/List_of_public_art_in_Galway_city"
+      }
+     ]
+    }
+   ],
+   "ask_someone_spot": null,
+   "rules": [],
+   "safety": "Be cautious around the water's edge, since the Spanish Arch sits on the River Corrib (Accesstravel Spanish Arch guide).",
+   "notes": "The monument is listed on Spanish Arch Parade and stands next to the Spanish Arch, but no page names a selfie position with the monument behind the visitor or a spot where a passer-by should stand to photograph the whole monument. I found no page with selfie-stick or tripod rules for this site. The Spanish Arch pages name Nimmo's Pier and Wolfe Tone Bridge as photo viewpoints, but those views are of the arch, not the monument, so I left them out. The monument's future is also uncertain: it was defaced in June 2020 and campaigners have called for its removal, so its location may change (VisitGalway)."
+  },
+  "cost_usd": 0.0567,
+  "at": "2026-11-17 20:30",
+  "selfie_pos": [
+   53.2698153,
+   -9.0530377
+  ],
+  "selfie_note": "Spanish Parade (OpenStreetMap: Spanish Parade, Eyre Square, Cathair na Gaillimhe, County Ga)"
+ }
+}
