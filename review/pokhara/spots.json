@@ -68,23 +68,23 @@
   "nophone": false,
   "searches": 9100,
   "pin": [
-   83.96666667,
-   28.24166667
+   83.9574975,
+   28.2436947
   ],
   "camera": [
    83.957498,
    28.243695
   ],
   "camera_source": "Researched viewpoint 'Sarangkot View Tower' (3 web pages); placed at at the subject (split pin).",
-  "pin_note": "Position from the Wikipedia article 'Sarangkot'.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Famous sunrise viewpoint over the Annapurna and Machapuchare peaks.",
   "text": {
    "description": "Sarangkot is a hill on the western side of Pokhara, about 1600 m high, and the standard place to watch the sunrise over the Himalaya. On a clear morning the first light touches the Annapurna, Dhaulagiri and Machhapuchhre peaks, with Phewa Lake and the Pokhara valley spread out below. That mix of snow peaks, water and city makes it work well for phone photos. The best vantage point is the Sarangkot View Tower at the top, where the steps in front of the tower give a good open view. The hill is also known for Manaslu views and as one of the best paragliding locations in the world, so you may see paragliders in the sky. It is part of Pokhara (Ward 18) and has been since 2015. Most visitors drive up, though you can hike up from Miruwa on the Pokhara Baglung highway in about 90 minutes. If you want to avoid the tower's entry fee, the free area beside the Panchmukhi Ganesh Temple is also recommended for sunrise or sunset. Kahun Danda is a quieter hill with views of the range, the valley and nearby villages. Whichever you choose, arrive before sunrise: one reviewer reached the tower just before 5:30 AM and said the crowd grew quickly after that. Cloud can hide the mountains, especially in the monsoon months.",
    "geographic_location": "Sarangkot is a hill on the western side of Pokhara, in Ward 18 of the city, looking across Phewa Lake and the valley towards the Himalaya.",
-   "directions_text": "Most visitors drive up the hill from central Pokhara; the View Tower is at the top. If you prefer to walk, the hike up from Miruwa on the Pokhara Baglung highway takes about 90 minutes. Set off in the dark if you want to be there for sunrise. The phone icon on the map is about 930 m west of the subject. The Navigate buttons below take you straight there.",
+   "directions_text": "Most visitors drive up the hill from central Pokhara; the View Tower is at the top. If you prefer to walk, the hike up from Miruwa on the Pokhara Baglung highway takes about 90 minutes. Set off in the dark if you want to be there for sunrise. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
    "shooting_on_your_phone": {
     "phone_lens": "Start with the ultra-wide (0.5x) to take in the whole range, the lake and the valley in one frame. Use the default lens (1x) for a more natural view with the tower steps or railings in the foreground. Use the telephoto (2x-5x, depending on your phone) to pick out individual peaks such as Machhapuchhre.",
-    "where_to_stand": "Stand about 930 m west of the subject, at the phone icon on the map, and face east. From here you look out at sunrise light on the Annapurna, Dhaulagiri and Machhapuchhre peaks, with Phewa Lake and the Pokhara valley below.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you look out at sunrise light on the Annapurna, Dhaulagiri and Machhapuchhre peaks, with Phewa Lake and the Pokhara valley below.",
     "how_to_frame": "Switch on gridlines and put the horizon on the lower third so the mountains and sky fill most of the picture. Keep a little valley or lake at the bottom for depth. If the tower is crowded, the free area beside the Panchmukhi Ganesh Temple is a good alternative for sunrise or sunset over the range.",
     "phone_settings_tip": "Tap on the brightest part of the sky, then slide the exposure down a little so the snow keeps its detail. Hold your phone steady with both hands, and take a few frames as the light changes. Try a Live Photo for a moving moment as the first rays arrive.",
     "best_time": "Sunrise, arriving before it begins. One reviewer arrived just before 5:30 AM and found the crowd grew quickly after that. Visibility depends on the weather, and monsoon months often bring cloud."
@@ -103,10 +103,7 @@
     "url": "https://en.wikipedia.org/wiki/Sarangkot"
    }
   ],
-  "pin_flags": [
-   "phone far from subject (2719 m)",
-   "OpenStreetMap object 926 m away (Sarangkot Viewpoint): earlier pin kept, check"
-  ],
+  "pin_flags": [],
   "at_spot": true,
   "photo": {
    "file": "photos/2.jpg",
@@ -126,15 +123,15 @@
   "nophone": true,
   "searches": 3060,
   "pin": [
-   83.96,
-   28.19
+   83.964133,
+   28.191964
   ],
   "camera": [
-   83.96,
-   28.19
+   83.964133,
+   28.191964
   ],
   "camera_source": "Researched viewpoint 'Patale Chhango' (4 web pages); placed at OpenStreetMap 'Patale Chhango' (node/713296203): point.",
-  "pin_note": "Position from Wikidata Q37724: kept: no OpenStreetMap object carries this Wikidata ID.",
+  "pin_note": "Position set at the correction gate (pin check 2026-11-18: moved onto the OSM object with the sight's Wikidata ID).",
   "notes": "Waterfall that vanishes into a deep tunnel-like gorge.",
   "text": {
    "description": "Davis Falls, known in Nepali as Patale Chhango or Paatal Ko Chango (\"Underworld's Waterfall\"), is a waterfall that drops into a gorge and then vanishes into the rock. The water runs through a tunnel about 150 m long, roughly 30 m below ground level, and after leaving the tunnel it passes through Gupteshwor Mahadev Cave. The Phewa Lake dam feeds it. The English name comes from a Swiss visitor who died here in 1961, when her father asked for the fall to be named after his daughter.\n\nIt photographs well because the white water, the dark rock and the green gorge sit close together, and you can see the moment the stream disappears. The best view of the full drop is from the viewing platforms and railed cliff path at the top of the falls. Start at the beginning of the path, where the water is at its most striking as it plunges and begins to run into the tunnel.\n\nThere are also some fun extra subjects in the grounds, including a model of a traditional Nepali house and statues of people in traditional dress. These make easy, friendly photos.\n\nThe cliff walkway can get crowded, so wait for a gap rather than shooting over shoulders. If you have time, the cave nearby offers a very different picture: the underground stream seen through a slit of light. Check current opening status before you travel.",
@@ -162,9 +159,7 @@
     "url": "https://en.wikipedia.org/wiki/Davis_Falls"
    }
   ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept"
-  ],
+  "pin_flags": [],
   "at_spot": false,
   "photo": {
    "file": "photos/3.jpg",
