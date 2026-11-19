@@ -1,0 +1,1 @@
+window.MAPCFG = {"key": "honolulu", "title": "Honolulu: 18 photo spots (pilot review)", "place": "Honolulu", "bounds": [-157.875, 21.255, -157.795, 21.322], "center": [-157.83499999999998, 21.2885], "vatican": false, "english": false, "offline": false, "tour": false, "tiles": "/r2tiles/honolulu/{z}/{x}/{y}.pbf"};
