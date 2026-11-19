@@ -22,6 +22,10 @@ export async function onRequest(context) {
     return Response.redirect(url.toString(), 301);
   }
   const p = url.pathname;
+  // search-engine ownership files (Google Search Console, 2026-11-19): served exactly at /googleXXXX.html with 200,
+  // because Cloudflare Pages otherwise redirects *.html to the address without .html
+  const gv = p.match(/^\/(google[0-9a-f]{8,}\.html)$/);
+  if (gv) return new Response("google-site-verification: " + gv[1], { headers: { "content-type": "text/html; charset=utf-8" } });
   if (SITE_FILES[p] && env.ASSETS) {
     const own = await env.ASSETS.fetch(new Request(url.origin + SITE_FILES[p], request));
     if (own.ok) return own;
