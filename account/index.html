@@ -127,19 +127,20 @@ fetch("/api/me", { cache: "no-store" }).then(r => r.json()).then(me => {
   if (me.role === "owner") {
     $("out").innerHTML = `<div class="card"><p><b>Owner access</b> on this device: every map, all spots, and the review and correction maps.</p>
       <div class="row"><a class="btn go" href="/app/">Open the app</a><a class="btn alt" href="/review/">Review maps</a>${signout}</div></div>`;
-    return;
+    if (!me.plan) return;  // owner with a paid membership as well: show it below (2026-11-19)
   }
-  const active = me.role === "member";
+  const active = me.role === "member" || (me.role === "owner" && ["active", "trialing", "past_due"].includes(me.status));
   const plan = me.plan === "explorer" ? "Explorer" : (me.plan || "Membership");
   const when = me.paidUntil ? day(me.paidUntil) : "";
-  $("out").innerHTML = `<div class="card"><dl>
+  const isOwner = me.role === "owner";
+  $("out").innerHTML = (isOwner ? $("out").innerHTML : "") + `<div class="card"><dl>
       <dt>Signed in as</dt><dd>${esc(me.email)}</dd>
       <dt>Plan</dt><dd>${esc(plan)}${me.interval ? (me.interval === "year" ? " (yearly)" : " (monthly)") : ""}</dd>
       <dt>Status</dt><dd>${esc(STATUS[me.status] || me.status || "No membership")}</dd>
       ${when ? `<dt>${me.cancelAtEnd || !active ? "Access until" : "Next payment"}</dt><dd>${when}</dd>` : ""}</dl>
       ${me.cancelAtEnd && active ? `<p class="soft">Your membership is cancelled and ends on ${when}. You can restart it from Manage.</p>` : ""}
-      <div class="row">${active ? `<a class="btn go" href="/app/">Open the app</a>` : `<a class="btn go" href="/join/">Join again</a>`}
-      ${me.canManage ? `<button class="btn alt" onclick="portal(this)">Manage or cancel</button>` : ""}${signout}</div></div>
+      <div class="row">${isOwner ? "" : active ? `<a class="btn go" href="/app/">Open the app</a>` : `<a class="btn go" href="/join/">Join again</a>`}
+      ${me.canManage ? `<button class="btn alt" onclick="portal(this)">Manage or cancel</button>` : ""}${isOwner ? "" : signout}</div></div>
       <p class="soft">Manage opens Stripe's secure page: change monthly/yearly, update your card, see invoices, or cancel.</p>`;
 }).catch(() => { $("out").innerHTML = `<p>No connection. Please reload.</p>`; });
 </script>
