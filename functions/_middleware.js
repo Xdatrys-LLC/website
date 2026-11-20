@@ -3,7 +3,7 @@
 // 2. Gatekeeper (Stage 3, 2026-11-16; decision 3l): the map files of the Xdatrys Maps app (/app/m/...) are sent only to
 //    signed-in members and the owner; the review and correction maps (/review/...) only to the owner.
 //    Map tiles, the app's home screen, the library pages and everything else stay open.
-// 3. Pocket Lens issue pages (/issues/<date>, Ifan 2026-11-18): visitors and search engines get the short public version
+// 3. Pocket Lens issue pages (/newsletter/issues/<date> since 2026-11-20; before that /issues/<date>): visitors and search engines get the short public version
 //    (_lib/issue_teaser.js); signed-in members and the owner get the full issue. The Pocket Lens project is not changed.
 //    Also /newsletter/issues/<date>, where Pocket Lens will publish later. /newsletter/drafts/... is for the owner only.
 // 4. /sitemap.xml, /robots.txt, /llms.txt are served from the website's own copies in /site-files/ (pipeline/site_files.py),
@@ -33,6 +33,15 @@ export async function onRequest(context) {
   // the plain issue list written by the Pocket Lens publisher -> the website's styled list (2026-11-18, Ifan)
   if (p === "/issues" || p === "/issues/" || p === "/issues/index.html" || p === "/issues/index") {
     return Response.redirect(url.origin + "/newsletter/issues/", 301);
+  }
+  // issues moved from /issues/ to /newsletter/issues/ (2026-11-20, Ifan): old addresses (Kit emails, search results,
+  // shared links) answer 301 to the new one, but only when the issue really exists there, so an issue the Pocket Lens
+  // publisher still writes to the old folder keeps working until it switches.
+  const old = p.match(/^\/issues\/(\d{4}-\d{2}-\d{2}|latest|img\/[^/]+)(\.html)?\/?$/);
+  if (old && env.ASSETS) {
+    const to = "/newsletter/issues/" + old[1];
+    const probe = await env.ASSETS.fetch(new Request(url.origin + to, { method: "GET" }));
+    if (probe.ok) return Response.redirect(url.origin + to + url.search, 301);
   }
   if (ISSUE.test(p)) {
     const res = await context.next();
