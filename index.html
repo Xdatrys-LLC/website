@@ -175,6 +175,76 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 .copy{font-size:12px;color:var(--dimmer)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
+<style>
+/* landing6: phone-first actions */
+.qa{display:none}
+/* 2026-11-20 (Ifan: the Join preview is clearer; one tap too many): on phones the page OPENS with the Join layout */
+.phj{padding:18px 0 8px}
+.phj .hd{font:800 30px/1.15 'Playfair Display',Georgia,serif;color:#fff;margin:0 0 8px}
+.phj .hd span{background:linear-gradient(90deg,#00C2FF,#FF00FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.phj .sub{font-size:15px;color:#c9c9d6;margin:0 0 14px}
+.phj .crd{background:#15151f;border:1px solid rgba(255,255,255,.12);border-radius:16px;overflow:hidden;margin:0 0 14px}
+.phj .crd img{display:block;width:100%;height:auto}
+.phj .crd .ph{aspect-ratio:16/9;object-fit:cover}
+.phj .crd p{margin:0;padding:12px 14px 4px;font-size:14px;color:#c9c9d6;line-height:1.5}
+.phj .crd p b{color:#fff}
+.phj .crd small{display:block;padding:0 14px 12px;font-size:11.5px;color:#8b8b9a}
+.phj .jb{background:#15151f;border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px;margin:0 0 14px}
+.phj .tg{display:inline-flex;background:#0d0d14;border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:4px;margin:0 0 10px}
+.phj .tg button{border:0;background:none;color:#a9a9b8;padding:8px 16px;border-radius:999px;font:700 14px Montserrat,sans-serif;cursor:pointer}
+.phj .tg button.on{background:#fff;color:#111}
+.phj .pr{font:800 30px Montserrat,sans-serif;color:#fff}.phj .pr small{font-size:14px;color:#a9a9b8;font-weight:600}
+.phj .nt{font-size:13px;color:#a9a9b8;margin:2px 0 10px}
+.phj ul{margin:0 0 14px;padding-left:18px;font-size:14px;color:#e9e9f2}.phj li{margin:4px 0}
+.phj .go{display:block;width:100%;border:0;border-radius:12px;padding:16px;background:#FF00FF;color:#000;font:800 17px Montserrat,sans-serif;cursor:pointer;text-align:center;text-decoration:none}
+.phj .go[disabled]{opacity:.6}
+.phj .fine{font-size:12px;color:#8b8b9a;margin:10px 0 0}.phj .fine a{color:#8b8b9a}
+.phj .msg{min-height:1.2em;font-weight:600;font-size:14px;color:#ffb02e;margin-top:8px}
+.phj .nr h3{margin:4px 0 6px;font-size:18px;color:#fff}
+.phj .nr p{font-size:14px;color:#c9c9d6;margin:0 0 10px}
+.qa .qa-app{display:flex;align-items:center;justify-content:center;gap:10px;background:#FF00FF;color:#000;font:800 17px/1 Montserrat,sans-serif;
+  text-decoration:none;border-radius:14px;padding:16px 18px;box-shadow:0 8px 24px rgba(255,0,255,.28)}
+.qa .qa-app img{width:26px;height:26px;border-radius:7px}
+.qa .qa-app small{display:block;font:600 12px/1.2 Inter,sans-serif;color:#2b002b;margin-top:3px}
+.qa-nl{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:12px 14px}
+.qa-nl b{display:block;font-size:15px;color:#fff}
+.qa-nl span{display:block;font-size:13px;color:#c9c9d6;margin:2px 0 6px}
+.qa-nl .formkit-form{max-width:none!important;margin:0!important}
+#qaNl .formkit-form [data-style="clean"]{padding:4px 0 0!important}
+#qaNl .formkit-alert:empty{display:none!important}
+.qa-nl .formkit-powered-by-convertkit-container{margin:4px 0 0!important}
+.sbar{display:none}
+.nl-up{display:none}
+@media(max-width:767px){
+  .qa{display:block}
+  .ph-only{display:block!important}
+  section.hero{display:none!important}
+  .hero{padding-top:18px!important;padding-bottom:22px!important}
+  .hero .eyebrow{display:none}
+  .h4 h1{font-size:30px!important;margin-bottom:8px}
+  .hero .lead{font-size:15px;margin-bottom:10px}
+  #searchHelp{display:none}
+  .hero-cta .btn-ghost{display:none}
+  .hero-cta{margin-top:12px}
+  .h4 .ticks{font-size:13px;margin-top:10px}
+  .spotcard .mp,.spotcard .rows .row:nth-child(n+2){display:none}
+  .spotcard .ph img{aspect-ratio:16/9}
+  #featured{display:flex!important;overflow-x:auto;gap:12px;scroll-snap-type:x mandatory;padding-bottom:6px;grid-template-columns:none!important}
+  #featured .mapcard{flex:0 0 78%;scroll-snap-align:start}
+  #how .step p{display:none}
+  .plan ul,.plan .feat,.plan li{display:none}
+  .xd-app{display:none}
+  #newsletter .nl-masthead,#newsletter .nl-list,#newsletter .signup{display:none}
+  #newsletter .nl-up{display:inline-block;margin-top:12px}
+  body{padding-bottom:70px}
+  .sbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50;gap:8px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+    background:rgba(9,9,15,.94);backdrop-filter:blur(8px);border-top:1px solid rgba(255,255,255,.12);transform:translateY(110%);transition:transform .25s}
+  .sbar.on{transform:none}
+  .sbar a{flex:1;text-align:center;text-decoration:none;font:800 15px/1 Montserrat,sans-serif;border-radius:12px;padding:14px 8px}
+  .sbar .a1{background:#FF00FF;color:#000}.sbar .a2{background:#00C2FF;color:#000}
+  .grecaptcha-badge{bottom:78px!important}
+}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -238,6 +308,38 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 <!-- /xd-menu -->
 
 <main id="main">
+<section class="qa phj" id="qa" aria-label="Join Xdatrys Explorer">
+  <div class="wrap">
+    <div class="hd">Get the photo you came for, <span>at every sight.</span></div>
+    <p class="sub">Know exactly where to stand for the best photo and selfie, at the world's most-visited places.</p>
+    <div class="crd">
+      <img class="ph" src="/img/home/shibuya-photo.jpg" width="900" height="675" alt="Shibuya Crossing in Tokyo: crowds crossing under shop signs and big screens">
+      <img src="/img/home/hero.jpg" width="460" height="240" loading="lazy" alt="Our map of Shibuya: a magenta pin marks the crossing; a blue phone icon marks where to stand, with an arrow showing which way to face">
+      <p><b>This is one spot in the app.</b> The pin is the sight; the blue phone is where to stand, the arrow which way to face. Every spot also has smartphone tips, the best time to go and "Walk there" directions.</p>
+      <small>Shibuya Crossing, Tokyo · Photo © Xdatrys LLC</small>
+    </div>
+    <div class="jb" id="phjJoin">
+      <div id="phjBuy">
+        <div class="tg" role="group" aria-label="Billing period"><button type="button" id="phjM" class="on">Monthly</button><button type="button" id="phjY">Yearly</button></div>
+        <div class="pr" id="phjP">$9.99 <small>a month</small></div>
+        <p class="nt" id="phjN">or $59.99 a year (about $5.00 a month)</p>
+        <ul><li><b>The Xdatrys Maps app:</b> every spot on every map, not just the free 3</li><li>Maps saved on your phone work without signal</li><li>Day tours, "Walk there" directions and selfie spots</li></ul>
+        <button class="go" id="phjGo">Join and get the app</button>
+        <div class="msg" id="phjMsg"></div>
+        <p class="fine">Secure payment by Stripe. Cancel any time. <a href="/terms/">Terms</a> · <a href="/refunds/">Refunds</a> · Already a member? <a href="/account/">Sign in</a></p>
+      </div>
+      <a class="go" id="phjOpen" href="/app/" style="display:none">Open the app</a>
+    </div>
+    <div class="jb nr">
+      <h3>Not ready to join?</h3>
+      <p><b>Try it free:</b> 3 spots on every map are open to everyone. <a href="/library/">Open the Map Library</a></p>
+      <div id="qaNl"><p style="margin-bottom:2px"><b>Free Pocket Lens newsletter:</b> daily photo tips for your trips.</p>
+        <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <style>
 /* landing4 hero: text + search on the left, a real spot card on the right (below on phones) */
@@ -429,6 +531,7 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
   <div class="wrap nl">
     <div>
       <h2 id="nl-h" class="nl-brand">Pocket Lens</h2>
+      <a class="btn btn-primary nl-up" href="#qaNl">Subscribe free</a>
       <div class="nl-cap">Free newsletter: travel photos on your smartphone</div>
       <img class="nl-masthead" src="https://xdatrys.com/assets/pocket-lens/PocketLensMasthead.png" alt="Pocket Lens newsletter masthead" loading="lazy">
       <ul class="nl-list">
@@ -443,13 +546,45 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
     <div class="signup">
       <h3>Join Pocket Lens</h3>
       <p>Free, daily, and you can unsubscribe at any time. We will email you once to confirm your address.</p>
-      <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+      
+      <p class="ph-only" style="display:none">The sign-up form is at the top of this page.</p>
       <p class="signup-fallback">Form not showing? <a href="/subscribe/">Sign up on the newsletter page</a>.</p>
     </div>
   </div>
 </section>
 
 </main>
+<nav class="sbar" id="sbar" aria-label="Quick actions"><a class="a1" id="sbApp" href="#phjJoin">Get the app</a><a class="a2" href="#qaNl" id="sbNl">Subscribe free</a></nav>
+<script>
+(function(){
+  // computers keep the page as it was: the one Kit form goes back to the newsletter section once Kit has drawn it
+  var PH=matchMedia("(max-width: 767px)").matches;
+  if (!PH) { var box=document.getElementById("qaNl"), dest=document.querySelector("#newsletter .signup .signup-fallback");
+    var mv=function(){ var f=box && box.querySelector(".formkit-form"); if (f && dest) { dest.parentNode.insertBefore(f, dest); return true; } return false; };
+    if (!mv() && box) { var mo=new MutationObserver(function(){ if (mv()) mo.disconnect(); }); mo.observe(box,{childList:true,subtree:true}); } }
+  var bar=document.getElementById("sbar"), qa=document.getElementById("qa");
+  if (bar && qa && "IntersectionObserver" in window) new IntersectionObserver(function(e){ bar.classList.toggle("on", !e[0].isIntersecting); }).observe(qa);
+  // the join box pays directly from the home page (same call as /join/)
+  var I="month", M=document.getElementById("phjM"), Y=document.getElementById("phjY");
+  function setI(i){ I=i; M.classList.toggle("on", i==="month"); Y.classList.toggle("on", i==="year");
+    document.getElementById("phjP").innerHTML = i==="month" ? "$9.99 <small>a month</small>" : "$59.99 <small>a year</small>";
+    document.getElementById("phjN").textContent = i==="month" ? "or $59.99 a year (about $5.00 a month)" : "about $5.00 a month, billed once a year"; }
+  if (M) { M.onclick=function(){setI("month");}; Y.onclick=function(){setI("year");}; }
+  var go=document.getElementById("phjGo");
+  if (go) go.onclick=async function(){ go.disabled=true; var m=document.getElementById("phjMsg"); m.textContent="Opening the payment page...";
+    try { var r=await fetch("/api/stripe/checkout",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({interval:I})});
+      var j=await r.json(); if (j.url) { location.href=j.url; return; } m.textContent=j.error||"Something went wrong. Please try again."; }
+    catch(e){ m.textContent="No connection. Please try again."; } go.disabled=false; };
+  var nl=document.getElementById("sbNl"); if (nl) nl.onclick=function(ev){ ev.preventDefault(); var b=document.getElementById("qaNl");
+    b.scrollIntoView({behavior:"smooth",block:"center"}); setTimeout(function(){ var i=b.querySelector("input[type=email],input[name=email_address]"); if(i) i.focus(); },600); };
+  fetch("/api/me",{cache:"no-store"}).then(function(r){return r.ok?r.json():null;}).then(function(me){
+    if (!me || (me.role!=="member" && me.role!=="owner")) return;
+    var b=document.getElementById("sbApp"); if (b) { b.href="/app/"; b.textContent="Open the app"; }
+    document.getElementById("phjBuy").style.display="none"; document.getElementById("phjOpen").style.display="block";
+  }).catch(function(){});
+})();
+</script>
+
 
 <!-- ===== FOOTER ===== -->
 <footer>
@@ -692,7 +827,8 @@ var MAPS = [
   {"slug": "ceskykrumlov", "name": "Český Krumlov", "country": "", "spots": 11, "top": ["Český Krumlov Castle", "Castle Gardens", "Barber's Bridge (Lazebnický most)"], "also": ""}
 ];
 /* Featured: the six most-searched places in pipeline/data/top_searched.csv that have a map. */
-var FEATURED = ["paris","tokyo","rome","amsterdam","barcelona","singapore"];
+var FEATURED = matchMedia("(max-width: 767px)").matches ? ["osaka", "copenhagen", "kyoto", "vienna", "sanjuan", "brussels", "stockholm", "edinburgh"] : ["paris","tokyo","rome","amsterdam","barcelona","singapore"];
+var OWNPH = matchMedia("(max-width: 767px)").matches ? {"osaka": "Dōtonbori", "copenhagen": "Rosenborg Castle", "kyoto": "Kinkaku-ji (Golden Pavilion)", "vienna": "Musikverein", "sanjuan": "La Fortaleza", "brussels": "Grand Place", "stockholm": "Gamla Stan and Stortorget", "edinburgh": "Edinburgh Castle"} : {};
 
 function norm(s){return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ").trim();}
 function esc(s){return s.replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
@@ -701,6 +837,7 @@ function url(m){return "/library/"+m.slug+"/";}
 /* decorative card header: soft street pattern plus a pin and phone, varied per map */
 var SNAPS = ["amsterdam", "barcelona", "paris", "rome", "singapore", "tokyo"];
 function cardArt(i, slug, name){
+  if (OWNPH[slug]) return '<img src="/img/home/own/' + slug + '.jpg" width="480" height="320" loading="lazy" style="object-fit:cover" alt="' + esc(OWNPH[slug]) + ', ' + esc(name) + '"><span style="position:absolute;right:8px;bottom:6px;font:600 11px/1 Inter,sans-serif;color:#fff;text-shadow:0 1px 3px #000">Photo © Xdatrys LLC</span>';
   if (SNAPS.indexOf(slug) >= 0) return '<img src="/img/home/' + slug + '.jpg" width="380" height="150" loading="lazy" alt="Map of ' + esc(name) + ' with its 3 free photo spots">';
   return '';
 }
