@@ -4,6 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Xdatrys | Get the photo you came for: photo maps for your trip</title>
+<link rel="canonical" href="https://xdatrys.com/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Xdatrys"><meta property="og:url" content="https://xdatrys.com/">
+<meta property="og:title" content="Get the photo you came for, at every sight | Xdatrys">
+<meta property="og:description" content="Photo maps of the top sights: where to stand for the best photo or selfie, with simple smartphone tips. 3 spots on every map are free.">
+<meta property="og:image" content="https://xdatrys.com/img/home/shibuya-photo.jpg"><meta property="og:image:width" content="900"><meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Shibuya Crossing in Tokyo, a spot from the Xdatrys Tokyo photo map">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@xdatrys">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://xdatrys.com/#org","name":"Xdatrys","legalName":"Xdatrys LLC","url":"https://xdatrys.com/",
+ "logo":"https://xdatrys.com/assets/logos/xdatrys/XdatrysColored480x168Transparent.png","email":"info@xdatrys.com",
+ "address":{"@type":"PostalAddress","streetAddress":"44 Rue Pasquier","postalCode":"75008","addressLocality":"Paris","addressCountry":"FR"},
+ "sameAs":["https://www.youtube.com/@Xdatrys","https://www.instagram.com/xdatrys/","https://www.tiktok.com/@xdatrys","https://www.facebook.com/Xdatrys","https://www.pinterest.com/xdatrys/","https://x.com/xdatrys"]},
+{"@type":"WebSite","@id":"https://xdatrys.com/#website","url":"https://xdatrys.com/","name":"Xdatrys","publisher":{"@id":"https://xdatrys.com/#org"},"inLanguage":"en"},
+{"@type":"WebPage","@id":"https://xdatrys.com/#home","url":"https://xdatrys.com/","name":"Xdatrys | Get the photo you came for: photo maps for your trip",
+ "isPartOf":{"@id":"https://xdatrys.com/#website"},"about":{"@id":"https://xdatrys.com/#org"},
+ "primaryImageOfPage":{"@type":"ImageObject","url":"https://xdatrys.com/img/home/shibuya-photo.jpg","width":900,"height":675}}]}</script>
 <meta name="description" content="Going to Paris, Rome or Tokyo? Photo maps of the top sights: where to stand for the best photo or selfie, with simple smartphone tips. 3 spots on every map are free, no sign-up.">
 <link rel="icon" type="image/png" href="https://xdatrys.com/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -179,7 +195,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 /* landing6: phone-first actions */
 .qa{display:none}
 /* 2026-11-20 (Ifan: the Join preview is clearer; one tap too many): on phones the page OPENS with the Join layout */
-.phj{padding:18px 0 8px}
+.phj{padding:0 0 8px}
 .phj .hd{font:800 30px/1.15 'Playfair Display',Georgia,serif;color:#fff;margin:0 0 8px}
 .phj .hd span{background:linear-gradient(90deg,#00C2FF,#FF00FF);-webkit-background-clip:text;background-clip:text;color:transparent}
 .phj .sub{font-size:15px;color:#c9c9d6;margin:0 0 14px}
@@ -218,7 +234,9 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 @media(max-width:767px){
   .qa{display:block}
   .ph-only{display:block!important}
-  section.hero{display:none!important}
+  section.hero{padding:16px 0 0!important}
+  section.hero .eyebrow,section.hero .lead,section.hero form,section.hero .ticks,section.hero .hero-cta,section.hero .spotcard{display:none!important}
+  section.hero h1{font-size:30px!important;margin:0 0 6px!important}
   .hero{padding-top:18px!important;padding-bottom:22px!important}
   .hero .eyebrow{display:none}
   .h4 h1{font-size:30px!important;margin-bottom:8px}
@@ -308,38 +326,6 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 <!-- /xd-menu -->
 
 <main id="main">
-<section class="qa phj" id="qa" aria-label="Join Xdatrys Explorer">
-  <div class="wrap">
-    <div class="hd">Get the photo you came for, <span>at every sight.</span></div>
-    <p class="sub">Know exactly where to stand for the best photo and selfie, at the world's most-visited places.</p>
-    <div class="crd">
-      <img class="ph" src="/img/home/shibuya-photo.jpg" width="900" height="675" alt="Shibuya Crossing in Tokyo: crowds crossing under shop signs and big screens">
-      <img src="/img/home/hero.jpg" width="460" height="240" loading="lazy" alt="Our map of Shibuya: a magenta pin marks the crossing; a blue phone icon marks where to stand, with an arrow showing which way to face">
-      <p><b>This is one spot in the app.</b> The pin is the sight; the blue phone is where to stand, the arrow which way to face. Every spot also has smartphone tips, the best time to go and "Walk there" directions.</p>
-      <small>Shibuya Crossing, Tokyo · Photo © Xdatrys LLC</small>
-    </div>
-    <div class="jb" id="phjJoin">
-      <div id="phjBuy">
-        <div class="tg" role="group" aria-label="Billing period"><button type="button" id="phjM" class="on">Monthly</button><button type="button" id="phjY">Yearly</button></div>
-        <div class="pr" id="phjP">$9.99 <small>a month</small></div>
-        <p class="nt" id="phjN">or $59.99 a year (about $5.00 a month)</p>
-        <ul><li><b>The Xdatrys Maps app:</b> every spot on every map, not just the free 3</li><li>Maps saved on your phone work without signal</li><li>Day tours, "Walk there" directions and selfie spots</li></ul>
-        <button class="go" id="phjGo">Join and get the app</button>
-        <div class="msg" id="phjMsg"></div>
-        <p class="fine">Secure payment by Stripe. Cancel any time. <a href="/terms/">Terms</a> · <a href="/refunds/">Refunds</a> · Already a member? <a href="/account/">Sign in</a></p>
-      </div>
-      <a class="go" id="phjOpen" href="/app/" style="display:none">Open the app</a>
-    </div>
-    <div class="jb nr">
-      <h3>Not ready to join?</h3>
-      <p><b>Try it free:</b> 3 spots on every map are open to everyone. <a href="/library/">Open the Map Library</a></p>
-      <div id="qaNl"><p style="margin-bottom:2px"><b>Free Pocket Lens newsletter:</b> daily photo tips for your trips.</p>
-        <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 <style>
 /* landing4 hero: text + search on the left, a real spot card on the right (below on phones) */
@@ -405,6 +391,36 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
   </div>
 </section>
 
+<section class="qa phj" id="qa" aria-label="Join Xdatrys Explorer">
+  <div class="wrap">
+    <p class="sub">Know exactly where to stand for the best photo and selfie, at the world's most-visited places.</p>
+    <div class="crd">
+      <img class="ph" src="/img/home/shibuya-photo.jpg" width="900" height="675" alt="Shibuya Crossing in Tokyo: crowds crossing under shop signs and big screens">
+      <img src="/img/home/hero.jpg" width="460" height="240" loading="lazy" alt="Our map of Shibuya: a magenta pin marks the crossing; a blue phone icon marks where to stand, with an arrow showing which way to face">
+      <p><b>This is one spot in the app.</b> The pin is the sight; the blue phone is where to stand, the arrow which way to face. Every spot also has smartphone tips, the best time to go and "Walk there" directions.</p>
+      <small>Shibuya Crossing, Tokyo · Photo © Xdatrys LLC</small>
+    </div>
+    <div class="jb" id="phjJoin">
+      <div id="phjBuy">
+        <div class="tg" role="group" aria-label="Billing period"><button type="button" id="phjM" class="on">Monthly</button><button type="button" id="phjY">Yearly</button></div>
+        <div class="pr" id="phjP">$9.99 <small>a month</small></div>
+        <p class="nt" id="phjN">or $59.99 a year (about $5.00 a month)</p>
+        <ul><li><b>The Xdatrys Maps app:</b> every spot on every map, not just the free 3</li><li>Maps saved on your phone work without signal</li><li>Day tours, "Walk there" directions and selfie spots</li></ul>
+        <button class="go" id="phjGo">Join and get the app</button>
+        <div class="msg" id="phjMsg"></div>
+        <p class="fine">Secure payment by Stripe. Cancel any time. <a href="/terms/">Terms</a> · <a href="/refunds/">Refunds</a> · Already a member? <a href="/account/">Sign in</a></p>
+      </div>
+      <a class="go" id="phjOpen" href="/app/" style="display:none">Open the app</a>
+    </div>
+    <div class="jb nr">
+      <h3>Not ready to join?</h3>
+      <p><b>Try it free:</b> 3 spots on every map are open to everyone. <a href="/library/">Open the Map Library</a></p>
+      <div id="qaNl"><p style="margin-bottom:2px"><b>Free Pocket Lens newsletter:</b> daily photo tips for your trips.</p>
+        <script async data-uid="ebc5230593" src="https://xdatrys-llc.kit.com/ebc5230593/index.js"></script>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- ===== FEATURED MAPS ===== -->
 <section aria-labelledby="feat-h">
   <div class="wrap">
@@ -608,7 +624,7 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
       <a href="https://www.youtube.com/@Xdatrys" target="_blank" rel="noopener"><img src="https://xdatrys.com/assets/logos/socialmedia/YouTube.png" alt="Xdatrys on YouTube"></a>
     </div>
   </div>
-  <div class="wrap"><p class="copy">© 2026 Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France. All rights reserved.</p></div>
+  <div class="wrap"><p class="copy">© 2026 Xdatrys LLC. All rights reserved.</p></div>
 </footer>
 
 <script>
