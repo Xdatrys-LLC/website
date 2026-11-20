@@ -88,6 +88,8 @@ if (/\.pages\.dev$/.test(location.hostname) && $("test")) $("test").style.displa
 </script>
 <script>
 const s = new URLSearchParams(location.search).get("s") || "";
+// phones (2026-11-20, Ifan): the member is already on the phone and signed in, so the steps are just Open, Install, Save
+const PHONE = matchMedia("(max-width: 767px)").matches || /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 let tries = 0;
 async function check() {
   try {
@@ -95,8 +97,11 @@ async function check() {
     if (j.ok) {
       $("out").innerHTML = `<h1>Welcome to Xdatrys!</h1>
         <p>You're a member, signed in on this device as <b>${String(j.email).replace(/[<>&"]/g, "")}</b>. A receipt is on its way from Stripe.</p>
-        <div class="card"><p><b>Next: put the Xdatrys Maps app on your phone.</b> Open <b>xdatrys.com/app</b> on your phone, sign in with this email address, and tap <b>Install</b>. Then save the maps for your trip, so they work without signal.</p>
-        <div class="row"><a class="btn go" href="/app/">Open the app</a><a class="btn alt" href="/account/">My account</a></div></div>`;
+        <div class="card">${PHONE
+          ? `<p><b>Next, three quick steps:</b></p><ol><li>Tap <b>Open the app</b>.</li><li>Tap <b>Install</b> to put it on your home screen.</li><li>Save the maps for your trip, so they work without signal.</li></ol>`
+          : `<p><b>Next: put the Xdatrys Maps app on your phone.</b> On your phone, go to <b>xdatrys.com/app</b>, sign in with this email address, and tap <b>Install</b>. Then save the maps for your trip, so they work without signal. You can also use the app here on this computer.</p>`}
+        <a class="btn go" href="/app/" style="width:100%;text-align:center;font-size:18px">Open the app</a>
+        <div class="row"><a class="btn alt" href="/account/">My account</a><a class="btn alt" href="/">Xdatrys website</a></div></div>`;
       return;
     }
     if (++tries < 4) { setTimeout(check, 3000); return; }
