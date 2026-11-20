@@ -178,7 +178,7 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 </style>
 <style>
 /* landing6: phone-first actions */
-.qa{margin-top:18px;display:grid;gap:12px}
+.qa{margin-top:18px;display:none;gap:12px}
 .qa .qa-app{display:flex;align-items:center;justify-content:center;gap:10px;background:#FF00FF;color:#000;font:800 17px/1 Montserrat,sans-serif;
   text-decoration:none;border-radius:14px;padding:16px 18px;box-shadow:0 8px 24px rgba(255,0,255,.28)}
 .qa .qa-app img{width:26px;height:26px;border-radius:7px}
@@ -193,6 +193,8 @@ footer .wrap{display:flex;flex-direction:column;gap:18px}
 .sbar{display:none}
 .nl-up{display:none}
 @media(max-width:767px){
+  .qa{display:grid}
+  .ph-only{display:block!important}
   .hero{padding-top:18px!important;padding-bottom:22px!important}
   .hero .eyebrow{display:none}
   .h4 h1{font-size:30px!important;margin-bottom:8px}
@@ -496,7 +498,7 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
       <h3>Join Pocket Lens</h3>
       <p>Free, daily, and you can unsubscribe at any time. We will email you once to confirm your address.</p>
       
-      <p>The sign-up form is at the top of this page.</p>
+      <p class="ph-only" style="display:none">The sign-up form is at the top of this page.</p>
       <p class="signup-fallback">Form not showing? <a href="/subscribe/">Sign up on the newsletter page</a>.</p>
     </div>
   </div>
@@ -506,6 +508,11 @@ fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json
 <nav class="sbar" id="sbar" aria-label="Quick actions"><a class="a1" id="sbApp" href="/join/">Get the app</a><a class="a2" href="#qaNl" id="sbNl">Subscribe free</a></nav>
 <script>
 (function(){
+  // computers keep the page as it was: the one Kit form goes back to the newsletter section once Kit has drawn it
+  var PH=matchMedia("(max-width: 767px)").matches;
+  if (!PH) { var box=document.getElementById("qaNl"), dest=document.querySelector("#newsletter .signup .signup-fallback");
+    var mv=function(){ var f=box && box.querySelector(".formkit-form"); if (f && dest) { dest.parentNode.insertBefore(f, dest); return true; } return false; };
+    if (!mv() && box) { var mo=new MutationObserver(function(){ if (mv()) mo.disconnect(); }); mo.observe(box,{childList:true,subtree:true}); } }
   var bar=document.getElementById("sbar"), qa=document.getElementById("qa");
   if (bar && qa && "IntersectionObserver" in window) new IntersectionObserver(function(e){ bar.classList.toggle("on", !e[0].isIntersecting); }).observe(qa);
   var nl=document.getElementById("sbNl"); if (nl) nl.onclick=function(ev){ ev.preventDefault(); var b=document.getElementById("qaNl");
@@ -761,8 +768,8 @@ var MAPS = [
   {"slug": "ceskykrumlov", "name": "Český Krumlov", "country": "", "spots": 11, "top": ["Český Krumlov Castle", "Castle Gardens", "Barber's Bridge (Lazebnický most)"], "also": ""}
 ];
 /* Featured: the six most-searched places in pipeline/data/top_searched.csv that have a map. */
-var FEATURED = ["osaka", "copenhagen", "kyoto", "vienna", "sanjuan", "brussels", "stockholm", "edinburgh"];
-var OWNPH = {"osaka": "Dōtonbori", "copenhagen": "Rosenborg Castle", "kyoto": "Kinkaku-ji (Golden Pavilion)", "vienna": "Musikverein", "sanjuan": "La Fortaleza", "brussels": "Grand Place", "stockholm": "Gamla Stan and Stortorget", "edinburgh": "Edinburgh Castle"};
+var FEATURED = matchMedia("(max-width: 767px)").matches ? ["osaka", "copenhagen", "kyoto", "vienna", "sanjuan", "brussels", "stockholm", "edinburgh"] : ["paris","tokyo","rome","amsterdam","barcelona","singapore"];
+var OWNPH = matchMedia("(max-width: 767px)").matches ? {"osaka": "Dōtonbori", "copenhagen": "Rosenborg Castle", "kyoto": "Kinkaku-ji (Golden Pavilion)", "vienna": "Musikverein", "sanjuan": "La Fortaleza", "brussels": "Grand Place", "stockholm": "Gamla Stan and Stortorget", "edinburgh": "Edinburgh Castle"} : {};
 
 function norm(s){return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ").trim();}
 function esc(s){return s.replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
