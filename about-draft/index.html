@@ -34,9 +34,10 @@ h1{font:900 clamp(30px,5vw,46px)/1.1 'Playfair Display',Georgia,serif;margin:6px
 h2{font:700 clamp(22px,3.4vw,28px)/1.25 'Playfair Display',Georgia,serif;margin:38px 0 12px}
 main>h2:first-of-type{font-size:clamp(24px,3.8vw,32px);background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;margin-top:6px}
 p{color:var(--dim)}strong{color:#fff}
-main ul{list-style:none;padding:0;display:grid;gap:10px}main ul li{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 16px;color:var(--dim)}
-blockquote{margin:30px 0;padding:18px 22px;border-left:4px solid var(--mag);background:var(--card);border-radius:0 12px 12px 0}
-blockquote p{font:italic 700 20px/1.5 'Playfair Display',Georgia,serif;color:#fff;margin:0}
+main ul{padding-left:22px;margin:0 0 16px}main ul li{color:var(--dim);margin:0 0 8px;padding-left:4px}main ul li::marker{color:var(--mag)}
+/* 2026-11-20 (Ifan): the quote in magenta, without the line beside it */
+blockquote{margin:30px 0;padding:0}
+blockquote p{font:italic 700 21px/1.5 'Playfair Display',Georgia,serif;color:#FF00FF;margin:0}
 .cta{display:inline-block;background:var(--grad);color:#000;font-weight:700;border-radius:999px;padding:13px 24px;text-decoration:none;margin:6px 0 10px}
 </style></head>
 <body>
@@ -68,7 +69,7 @@ blockquote p{font:italic 700 20px/1.5 'Playfair Display',Georgia,serif;color:#ff
       <li><a href="/library/">Map Library</a></li>
       <li><a href="/#guides">Guides</a></li>
       <li><a href="/newsletter/">Newsletter</a></li>
-      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/about/">About</a></li>
       <li><a class="xn-acct" href="/account/">Sign in</a></li>
     </ul></nav>
     <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
@@ -78,7 +79,7 @@ blockquote p{font:italic 700 20px/1.5 'Playfair Display',Georgia,serif;color:#ff
     <li><a href="/library/">Map Library</a></li>
     <li><a href="/#guides">Guides</a></li>
     <li><a href="/newsletter/">Newsletter</a></li>
-    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/about/">About</a></li>
     <li><a class="xn-acct" href="/account/">Sign in</a></li>
   </ul>
 </header>
