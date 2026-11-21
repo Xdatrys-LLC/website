@@ -60,7 +60,7 @@
   "rank": 2,
   "card": {
    "hook": "Picture a row of houses painted like a box of crayons, with wooden masts sticking up in front as if they're photobombing. The colours, water and boats all line up, so even a quick snap looks like you planned it.",
-   "stand_here": "Face north-west, so the full row of coloured houses, the moored wooden boats and the water all fit in one frame.",
+   "stand_here": "Stand on Nyhavnsbroen (bridge at the canal's inner end; sources disagree on which end, so check on the map).",
    "zoom": "Start at 1x so the houses look natural. If the bridge is busy and you can't step back, try 0.5x. Use 2x or 5x (depending on your phone) for a single boat, a mast or a row of window frames.",
    "make_it_pop": "Tap the houses, then drag the slider so the picture is slightly darker, which stops the sky and bright colours washing out.",
    "best_time": "Late afternoon is a popular pick, but the north-side houses catch their best light mainly in the morning and early afternoon in summer. The terraces fill up from late morning, so going early means fewer people in your shot.",
@@ -69,7 +69,8 @@
    "rules_and_safety": "Inderhavnsbroen opens for boats, so stay clear of the central section when the horn sounds. Nyhavn is well-lit and busy, so it's a sensible place to take photos after dark.",
    "challenge": "Find No. 9, the oldest house on the north side, and get it in a shot with at least one mast poking up beside it.",
    "good_to_know": "Nyhavn was dug between 1670 and 1675 under King Christian V and was once a busy, rowdy port. No. 9 dates from 1681. Hans Christian Andersen lived at several addresses here, including No. 67.",
-   "stand_here_before_gps_rule": "Head to Nyhavnsbroen and stand about 25 m south-east of the numbered pin, right at the phone icon. Face north-west, so the full row of coloured houses, the moored wooden boats and the water all fit in one frame."
+   "stand_here_before_gps_rule": "Head to Nyhavnsbroen and stand about 25 m south-east of the numbered pin, right at the phone icon. Face north-west, so the full row of coloured houses, the moored wooden boats and the water all fit in one frame.",
+   "stand_here_before_gate": "Face north-west, so the full row of coloured houses, the moored wooden boats and the water all fit in one frame."
   },
   "selfie_research": {
    "selfie_spots": [
