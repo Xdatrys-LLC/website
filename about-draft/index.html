@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>About Xdatrys: photo maps for travellers who shoot on a smartphone</title>
-<meta name="description" content="You saved for the trip. You waited in the queue. Now you are standing in front of the Colosseum, the Eiffel Tower or Shibuya Crossing with your phone in yo"><meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Xdatrys photo maps help travellers plan the sightseeing day and know where to stand for the photo they came for, on a smartphone."><meta name="robots" content="noindex, nofollow">
 <link rel="canonical" href="https://xdatrys.com/about/">
 <link rel="icon" type="image/png" href="https://xdatrys.com/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,10 +11,24 @@
 --cyan:#00D4FF;--mag:#E100FF;--grad:linear-gradient(90deg,#00D4FF,#E100FF)}
 *{box-sizing:border-box}html,body{margin:0;background:var(--dark);color:#fff;font:400 17px/1.65 Montserrat,system-ui,sans-serif}
 a{color:var(--cyan)}main{max-width:760px;margin:0 auto;padding:0 16px 60px}
-.hero{position:relative;margin:0 0 28px;min-height:340px;display:flex;align-items:flex-end;background:#111 center/cover no-repeat}
-.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(9,9,15,.15),rgba(9,9,15,.92))}
-.hero .in{position:relative;z-index:1;padding:28px 16px 22px;max-width:760px;margin:0 auto;width:100%}
-.hero .cr{position:absolute;right:8px;top:8px;z-index:1;font-size:11px;background:rgba(0,0,0,.5);padding:2px 7px;border-radius:4px;color:#ddd}
+.hero{max-width:1040px;margin:0 auto;padding:40px 16px 18px;display:flex;align-items:center;gap:44px}
+.hero .in{flex:1;min-width:0}
+.hero .tag{color:var(--cyan);font:italic 700 20px/1.4 'Playfair Display',Georgia,serif;margin:10px 0 14px}
+.hero .in p{font-size:17px}
+/* the old home page's CSS phone frame and carousel (kept as it was, 2026-11-20) */
+.phone-wrap{width:260px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:12px}
+.phone-frame-outer{position:relative;width:220px;height:460px;background:#000;border-radius:32px;outline:2px solid rgba(255,255,255,.85);outline-offset:2px;flex-shrink:0}
+.phone-notch{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:36px;height:8px;background:#000;border-radius:4px;z-index:3}
+.phone-home{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);width:40px;height:4px;background:rgba(255,255,255,.35);border-radius:2px;z-index:3}
+.phone-screen{position:absolute;top:14px;left:12px;right:12px;bottom:14px;border-radius:24px;overflow:hidden;z-index:1;background:#000}
+.carousel-track{display:flex;width:100%;height:100%;transition:transform .7s ease}
+.carousel-slide{min-width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.carousel-dots{display:flex;gap:5px;justify-content:center}
+.c-dot{width:6px;height:6px;border-radius:50%;cursor:pointer;background:rgba(255,255,255,.25);transition:background .5s,transform .5s;border:0;padding:0}
+.c-dot.on{background:#00D4FF;transform:scale(1.2)}
+.phone-cr{font-size:11px;color:var(--dimmer);margin:0}
+@media (max-width:767px){.hero{flex-direction:column;gap:24px;padding-top:26px}.phone-wrap{width:100%}}
+@media (prefers-reduced-motion:reduce){.carousel-track{transition:none}}
 .eyebrow{color:var(--cyan);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:13px}
 h1{font:900 clamp(30px,5vw,46px)/1.1 'Playfair Display',Georgia,serif;margin:6px 0 0}
 h2{font:700 clamp(22px,3.4vw,28px)/1.25 'Playfair Display',Georgia,serif;margin:38px 0 12px}
@@ -83,42 +97,75 @@ blockquote p{font:italic 700 20px/1.5 'Playfair Display',Georgia,serif;color:#ff
 </script>
 <!-- /xd-menu -->
 <div style="background:#FF00FF;color:#000;font:700 13px/1.4 Arial,sans-serif;text-align:center;padding:8px 12px">Draft for review (hidden). Text from About_Page_Draft.md.</div>
-<div class="hero" style="background-image:url('/img/home/shibuya-photo.jpg')"><span class="cr">Shibuya Crossing, Tokyo. Photo © Xdatrys LLC</span>
-<div class="in"><div class="eyebrow">Xdatrys</div><h1>About Xdatrys</h1></div></div>
+<section class="hero"><div class="in"><div class="eyebrow">About Xdatrys</div><h1>Better photos start before you shoot.</h1>
+<p class="tag">Capture more, miss less.</p>
+<p>You came a long way to see it. You saved for the trip and waited in the queue, and now you are standing in front of the Colosseum, the Eiffel Tower or Shibuya Crossing with your phone in your hand ... and so is everyone else.</p>
+<p>Xdatrys helps you with the two things that make or break a sightseeing day: <strong>knowing what to see and how to get there</strong>, and <strong>knowing where to stand when you arrive</strong>. So you come home with the photo you came for: not just &quot;I was here&quot;, but &quot;this is what it felt like to be here&quot;.</p>
+</div>
+<div class="phone-wrap"><div class="phone-frame-outer"><div class="phone-notch"></div><div class="phone-screen">
+<div class="carousel-track" id="heroTrack">
+<img class="carousel-slide" src="/assets/hero/BeachChairs%20(1).jpg" alt="Two travellers in sun hats on beach loungers, looking out at a white sailing cruise ship on a turquoise sea" width="540" height="960">
+<img class="carousel-slide" src="/assets/hero/Filzmoos.jpg" alt="Filzmoos, Austria: a wooden-balconied chalet and a meadow of daisies below the jagged Bischofsmütze peaks" loading="lazy" width="540" height="960">
+<img class="carousel-slide" src="/assets/hero/FlowerAlley.jpg" alt="A Flower Alley street sign above a mural of big orange flowers painted on a wall" loading="lazy" width="540" height="960">
+<img class="carousel-slide" src="/assets/hero/Linz.jpg" alt="Linz, Austria: a smiling crowd at a street parade, a man in rainbow dress and white wings, a toddler in a pushchair" loading="lazy" width="540" height="960">
+<img class="carousel-slide" src="/assets/hero/PostMan.jpg" alt="Black and white: a postman pushing his mail cart, the street a blur of motion behind him" loading="lazy" width="540" height="960">
+<img class="carousel-slide" src="/assets/hero/Stallhof.jpg" alt="Black and white: sunlight and deep shadow on the arches and tower of the Stallhof courtyard" loading="lazy" width="540" height="960">
+<img class="carousel-slide" src="/assets/hero/Sunset.jpg" alt="The sun breaking through clouds on the horizon over a dark, rippling sea" loading="lazy" width="540" height="960">
+<img class="carousel-slide" src="/assets/hero/TeAmo.jpg" alt="The words Te Amo handwritten in white on a plain grey-brown door" loading="lazy" width="540" height="960">
+</div></div><div class="phone-home"></div></div>
+<div class="carousel-dots" id="heroDots"><button class="c-dot on" aria-label="Photo 1" onclick="heroGoSlide(0)"></button><button class="c-dot" aria-label="Photo 2" onclick="heroGoSlide(1)"></button><button class="c-dot" aria-label="Photo 3" onclick="heroGoSlide(2)"></button><button class="c-dot" aria-label="Photo 4" onclick="heroGoSlide(3)"></button><button class="c-dot" aria-label="Photo 5" onclick="heroGoSlide(4)"></button><button class="c-dot" aria-label="Photo 6" onclick="heroGoSlide(5)"></button><button class="c-dot" aria-label="Photo 7" onclick="heroGoSlide(6)"></button><button class="c-dot" aria-label="Photo 8" onclick="heroGoSlide(7)"></button></div>
+<p class="phone-cr">Photos © Xdatrys LLC</p></div></section>
 <main>
-<h2>You came a long way to see it. Come home with a photo that shows how it felt.</h2>
-<p>You saved for the trip. You waited in the queue. Now you are standing in front of the Colosseum, the Eiffel Tower or Shibuya Crossing with your phone in your hand, and so is everyone else.</p>
-<p>Xdatrys helps you get the photo you came for. Not just &quot;I was here&quot;, but &quot;this is what it felt like to be here&quot;.</p>
-<h2>What we believe</h2>
-<p><strong>A great travel photo starts with where you stand.</strong> Most disappointing holiday photos are taken from the wrong spot: too close, too far, or straight on from the same place as everyone else. A few steps can change everything.</p>
-<p><strong>Take the photo with intent, the first time.</strong> Look at the scene before you tap the screen. Decide what you want the picture to say, then frame it.</p>
-<p><strong>You should not need editing skills.</strong> Few travellers have the time or the wish to dig through layers of editing menus. At most, straighten the picture or crop it. That's it.</p>
-<h2>Look, see, understand, take the photo</h2>
-<p>We call it photographing with intent. It takes seconds, and it works with any phone.</p>
+<h2>Plan your day around the sights that matter</h2>
+<p>Every map in our <a href="/library/">Map Library</a> shows the top sights of a city or region, in the order travellers most want to see them. For each spot you get:</p>
+<ul>
+<li><strong>What it is and why it is worth your time</strong>, in a few short lines.</li>
+<li><strong>How to get there:</strong> walking directions, the nearest station, and one tap to open the route on your phone.</li>
+<li><strong>The best time to go</strong> for the best light.</li>
+</ul>
+<p>Members also get ready-made day tours that link the spots into a walk, with train or taxi hops where a walk is too long.</p>
+<h2>Then get the photo you came for</h2>
+<p>When you arrive, the map shows you <strong>where to stand</strong>. On spots where we know exactly where the best photo is taken from, a blue phone icon marks the place, with an arrow showing which way to face. Every spot also has:</p>
+<ul>
+<li><strong>Shooting it on your phone:</strong> which lens to use (0.5x, 1x or zoom), how to frame it, and a simple settings tip.</li>
+<li><strong>A selfie spot</strong>, where there is a good one.</li>
+</ul>
+<h2>Our philosophy: look before you shoot</h2>
+<p>Most disappointing holiday photos are taken from the wrong spot: too close, too far, or straight on from the same place as everyone else. A few steps can change everything. That is why better photos start before you shoot.</p>
+<p>We call it photographing with intent. It takes seconds, and it works with any phone:</p>
 <ul>
 <li><strong>Look.</strong> Notice what ordinary sightseeing misses: doors, streets, signs, people, textures, small moments.</li>
 <li><strong>See.</strong> Spot what makes the scene interesting: a pattern, a contrast, a gesture, a natural frame.</li>
 <li><strong>Understand.</strong> Ask what the place is really about: its culture, its pace, its history, its atmosphere.</li>
-<li><strong>Take the photo with intent.</strong> Decide what the picture should say (wonder, calm, welcome, the buzz of a crowd) and take it.</li>
+<li><strong>Take the photo with intent.</strong> Decide what the picture should say (wonder, calm, welcome, the buzz of a crowd) and take it, the first time.</li>
 </ul>
-<p>A famous landmark is more than an object to tick off. A doorway, a market stall, an alley or a café window can say as much about a place as the monument itself.</p>
-<h2>What we make for you</h2>
-<p><strong>Photo maps of the places travellers want to see.</strong> Each map in our <a href="/library/">Map Library</a> shows the top sights of a city or region, with where to stand for the best photo or selfie, simple tips for your smartphone, and directions to get there. 3 spots on every map are free, with no sign-up.</p>
-<p><strong>The Xdatrys Maps app.</strong> Members get every spot on every map on their phone, and maps they save keep working without signal, wherever the trip takes them.</p>
-<p><strong>Pocket Lens.</strong> Our free <a href="/newsletter/">newsletter</a>, Monday to Friday, follows a real traveller to a destination: where to stand at a little-known photo spot, a tour and a hotel, and travel news worth knowing.</p>
-<h2>How we choose the spots</h2>
-<p>We start with what travellers actually look for. The sights on each map are ranked by how often people from other countries search for them, so spot 1 is the sight most visitors want to see.</p>
-<p>We check every spot's position against OpenStreetMap, the open map of the world. Where we know exactly where the best photo is taken from, the map shows a phone icon on that spot. Many of the photos on our maps were taken by us, at the spot.</p>
-<p>Places change. If something on a map is wrong, tell us at <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> and we will check it.</p>
-<h2>Made for your phone, not a big camera</h2>
-<p>Xdatrys is for travellers who take their photos on a smartphone. No tripod, no extra lenses, no editing software. Just you, your phone, and the right place to stand.</p>
+<p>A famous landmark is more than an object to tick off. A doorway, a market stall, an alley or a café window can say as much about a place as the monument itself. Capture more, miss less.</p>
+<p>And you should not need editing skills. At most, straighten the picture or crop it. That's it.</p>
 <blockquote>
 <p>&quot;Travel photography is the art of looking closely enough to see what a place is really saying, understanding its atmosphere and character, and photographing it with clear intention so the image carries meaning.&quot;</p>
 </blockquote>
+<h2>Made for your phone, not a big camera</h2>
+<p>Xdatrys is for travellers who take their photos on a smartphone. No tripod, no extra lenses, no editing software. Just you, your phone, and the right place to stand.</p>
+<h2>How we choose and check the spots</h2>
+<p>We start with what travellers actually look for. The sights on each map are ranked by how often people from other countries search for them, so spot 1 is the sight most visitors want to see.</p>
+<p>We check every spot's position against OpenStreetMap, the open map of the world, and many of the photos on our maps were taken by us, at the spot. Places change: if something on a map is wrong, tell us at <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> and we will check it.</p>
+<h2>What you can use</h2>
+<ul>
+<li><strong>The Map Library:</strong> free to browse. 3 spots on every map are open to everyone, with no sign-up.</li>
+<li><strong>The Xdatrys Maps app, for members:</strong> every spot on every map, day tours, and maps saved on your phone that keep working without signal.</li>
+<li><strong>Pocket Lens:</strong> our free <a href="/newsletter/">newsletter</a>, Monday to Friday. It follows a real traveller to a destination: where to stand at a photo spot, a tour and a place to stay, and travel news worth knowing.</li>
+</ul>
 <h2>Where to start</h2>
 <p><a class="cta" href="/library/">Open the Map Library</a><br> and pick your next destination. 3 spots on every map are free.</p>
 <p>Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France. <a href="mailto:info@xdatrys.com">info@xdatrys.com</a></p>
 
 </main>
+<script>
+// the old home page's carousel: next photo every 3 seconds; a tapped dot jumps to that photo
+var hCur=0,hTotal=8;
+function heroGoSlide(n){hCur=n;document.getElementById('heroTrack').style.transform='translateX(-'+n*100+'%)';
+document.querySelectorAll('#heroDots .c-dot').forEach(function(d,i){d.classList.toggle('on',i===n)});}
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches) setInterval(function(){heroGoSlide((hCur+1)%hTotal)},3000);
+</script>
 <!-- xd-legal --><div style="text-align:center;padding:18px 16px 24px;font:13px/1.6 system-ui,sans-serif;color:#8c8c9c"><a style="color:#00a6c8" href="/terms/">Terms</a> &middot; <a style="color:#00a6c8" href="/refunds/">Refunds</a> &middot; <a style="color:#00a6c8" href="/privacy/">Privacy</a> &middot; <a style="color:#00a6c8" href="/faq/">FAQ</a> &middot; Contact: <a style="color:#00a6c8" href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</div><!-- /xd-legal -->
 </body></html>
