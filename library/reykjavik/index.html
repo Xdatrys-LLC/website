@@ -169,9 +169,9 @@
 </script>
 <!-- /xd-menu -->
 <div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Reykjavik</div>
-<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
-<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/reykjavik/?gate" style="color:#E100FF">✏️ Review all 20 spots and correct pins (owner)</a></p>
-<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<!-- owner's review link: shown only when signed in as owner (Ifan, 2026-11-21); /review/ itself is locked to the owner -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/reykjavik/" style="color:#E100FF">✏️ Review and correct this map (all 20 spots, owner only)</a></p>
+<script>fetch("/api/me",{credentials:"same-origin"}).then(function(r){return r.json()}).then(function(m){if(m&&m.role==="owner")document.getElementById("xdReview").hidden=false}).catch(function(){});</script>
 <div class="head">
   <h1>20 photo spots in Reykjavik: where to stand and how to shoot them on your phone</h1>
   <p>20 photo spots on one map. Spots 1, 2 and 10 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 17 are for members.</p>

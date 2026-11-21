@@ -169,9 +169,9 @@
 </script>
 <!-- /xd-menu -->
 <div class="crumbs"><a href="/">Home</a> › <a href="/library/">Map Library</a> › Papeete</div>
-<!-- owner's review link: shown only on the hidden review address (*.pages.dev), never on xdatrys.com (2026-11-14) -->
-<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/papeete/?gate" style="color:#E100FF">✏️ Review all 6 spots and correct pins (owner)</a></p>
-<script>if (/\.pages\.dev$/.test(location.hostname)) document.getElementById("xdReview").hidden = false;</script>
+<!-- owner's review link: shown only when signed in as owner (Ifan, 2026-11-21); /review/ itself is locked to the owner -->
+<p id="xdReview" hidden style="margin:6px 16px 0;font:600 14px Inter,system-ui,sans-serif"><a href="/review/papeete/" style="color:#E100FF">✏️ Review and correct this map (all 6 spots, owner only)</a></p>
+<script>fetch("/api/me",{credentials:"same-origin"}).then(function(r){return r.json()}).then(function(m){if(m&&m.role==="owner")document.getElementById("xdReview").hidden=false}).catch(function(){});</script>
 <div class="head">
   <h1>6 photo spots in Papeete: where to stand and how to shoot them on your phone</h1>
   <p>6 photo spots on one map. Spots 1, 2 and 3 are free: tap a pin for where to stand (the phone icon), phone camera tips and directions. The other 3 are for members.</p>
