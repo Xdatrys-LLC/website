@@ -10,6 +10,11 @@
 //    because the Pocket Lens publisher rewrites the root files every night with only the old pages (2026-11-18).
 import { who } from "./_lib/auth.js";
 import { teaserIssue } from "./_lib/issue_teaser.js";
+import { MENU } from "./_lib/site_menu.js";
+
+// 2026-11-20 (Ifan): an issue page that lacks the site menu (published or re-rendered by Pocket Lens after the evening
+// newsletter refresh) gets it as it is served, right after <body>, so no visitor ever sees an issue without the menu.
+const withMenu = (html) => html.includes("<!-- xd-menu") ? html : html.replace(/<body[^>]*>/, (b) => b + "\n" + MENU + "\n");
 
 const ISSUE = /^\/(newsletter\/)?issues\/\d{4}-\d{2}-\d{2}(\.html)?\/?$/;
 const SITE_FILES = { "/sitemap.xml": "/site-files/sitemap.xml", "/robots.txt": "/site-files/robots.txt", "/llms.txt": "/site-files/llms.txt" };
@@ -47,12 +52,14 @@ export async function onRequest(context) {
     const res = await context.next();
     if (!res.ok || !(res.headers.get("content-type") || "").includes("text/html")) return res;
     const w = await who(request, env);
+    const html = withMenu(await res.text());
     if (w.role === "owner" || w.role === "member") {
-      const full = new Response(res.body, res);
+      const full = new Response(html, res);
+      full.headers.delete("content-length");
       full.headers.set("Cache-Control", "private, max-age=0, must-revalidate");
       return full;
     }
-    const out = new Response(teaserIssue(await res.text()), res);
+    const out = new Response(teaserIssue(html), res);
     out.headers.delete("content-length");
     out.headers.set("Vary", "Cookie");
     return out;
