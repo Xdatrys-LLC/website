@@ -1,6 +1,59 @@
 [
  {
   "rank": 1,
+  "name": "Fortifications of Kotor",
+  "in_cut": true,
+  "label": "Kotor Fortress",
+  "camera_pill": "Muo",
+  "nophone": false,
+  "searches": 2070,
+  "pin": [
+   18.7748645,
+   42.4220977
+  ],
+  "camera": [
+   18.7748645,
+   42.4220977
+  ],
+  "camera_source": "Researched viewpoint 'Muo' (1 web pages); placed at OpenStreetMap 'Muo' (node/2026761099): point.",
+  "pin_note": "Position set at the correction gate (2026-11-20: restored; pin on OSM W207438435 Fort of St John (name differs, no Wikidata tag)).",
+  "notes": "Walls climbing the hill to the viewpoint over the bay.",
+  "text": {
+   "description": "Kotor's fortifications are the long defensive walls, towers, gates and bastions that wrap around the Old Town and then climb the steep mountainside behind it. The best-known sight is the line of wall zigzagging up towards the castle of San Giovanni, at about 280 m elevation. That makes a strong shape for a phone photo: terracotta roofs and stone at the bottom, then the wall rising to a pale skyline.\n\nThe outer wall is about 4.5 km round, between 2 and 16 m thick and up to 20 m high. The hill was fortified in Illyrian times, and the Byzantines, Venetians and Austrians all added to it. Most of what you see today was built by the Venetians, who took over in 1420. The walls, together with the Old Town, have been a World Heritage Site since 1979.\n\nFor this view, use the waterfront at Muo, across the narrow inlet from the Old Town. You see the walls from sea level, with the water in front, and the stone can turn gold at sunset. It is a public street rather than part of the fortress, so you can take your time. Two other viewpoints are worth knowing about. The road towards the Fort of St Ivan gives a view over the terracotta roofs and the bay, but it lies past the paid entry at the town-wall arch, so check current access. The Gurdić Bastion shows harbour-side walls with boats.",
+   "geographic_location": "The fortifications surround the Old Town of Kotor, at the innermost end of the Bay of Kotor, and climb the mountain of St John behind it. The Muo viewpoint is on the waterfront of the village across the inlet from the Old Town.",
+   "directions_text": "No Underground, tram or rail stops are given for this spot. From the Old Town, go round the head of the inlet to Muo, heading north-west, and look for the Muo waterfront. The waterfront is about 1.4 km from the fortifications in a straight line. Once you are on the waterfront, face south-east towards the walls and the mountain. The phone icon on the map is at the subject itself. The Navigate buttons below take you straight there.",
+   "shooting_on_your_phone": {
+    "phone_lens": "Start with the default lens (1x) for the whole scene: water, Old Town and wall climbing the hill. Then try telephoto (2x-5x, depending on your phone) to pick out the line of the wall and the castle on the ridge. Use the ultra-wide (0.5x) only if you want a lot of foreground waterfront, as it makes the walls look small and far away.",
+    "where_to_stand": "Stand right at the subject: the phone icon on the map marks the spot. From here you see the Old Town and the fortress walls from sea level across the narrow stretch of water. Use the waterfront edge to keep the water in the lower part of the frame.",
+    "how_to_frame": "Turn on gridlines and put the waterline on the lower grid line so the horizon stays level. Leave the top third for the wall and the mountain. If you have time, try a second viewpoint: the road towards the Fort of St Ivan gives a higher view of the roofs, the bay and the Church of Our Lady of Remedy in the foreground.",
+    "phone_settings_tip": "Tap on the golden stone of the wall to set focus, then drag the exposure slider down a little so the sunset light does not wash out the detail. Check that the sky and the walls both look right before you take the shot. Take a Live Photo too, as moving water or passing boats can give you a better frame. After sunset, use night mode and hold your phone still.",
+    "best_time": "Sunset, when the walls turn gold. Early evening is a good time to be in place a little beforehand and take several frames as the light changes."
+   },
+   "access_note": "The Muo waterfront is a public street and free to stand on, but climbing the fortress itself may be ticketed or restricted, so check the official site before you go."
+  },
+  "checker_problems": 4,
+  "code_check_failures": [
+   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
+  ],
+  "sources": [
+   {
+    "title": "Fortifications of Kotor",
+    "url": "https://en.wikipedia.org/wiki/Fortifications_of_Kotor"
+   }
+  ],
+  "pin_flags": [],
+  "at_spot": false,
+  "photo": {
+   "file": "photos/1.jpg",
+   "artist": "Asta",
+   "licence": "Public domain",
+   "licence_url": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Old_Kotor.jpg",
+   "from": "Wikidata Q12907852 main image"
+  }
+ },
+ {
+  "rank": 2,
   "name": "Kotor Cathedral",
   "in_cut": true,
   "label": "Cathedral of St Trypho",
@@ -50,7 +103,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/1.jpg",
+   "file": "photos/2.jpg",
    "artist": "Gérard Janot",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -59,7 +112,7 @@
   }
  },
  {
-  "rank": 2,
+  "rank": 3,
   "name": "Church of Our Lady of Remedy",
   "in_cut": true,
   "label": "Our Lady of Remedy",
@@ -106,7 +159,7 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/2.jpg",
+   "file": "photos/3.jpg",
    "artist": "Pudelek (Marcin Szala)",
    "licence": "CC BY-SA 3.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -115,7 +168,7 @@
   }
  },
  {
-  "rank": 3,
+  "rank": 4,
   "name": "Sea Gate of Kotor",
   "in_cut": true,
   "label": "Sea Gate",
@@ -158,7 +211,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/3.jpg",
+   "file": "photos/4.jpg",
    "artist": "Asta",
    "licence": "Public domain",
    "licence_url": "",
@@ -167,7 +220,7 @@
   }
  },
  {
-  "rank": 4,
+  "rank": 5,
   "name": "Clock Tower of Kotor",
   "in_cut": true,
   "label": "Clock Tower",
@@ -216,7 +269,7 @@
   "photo": null
  },
  {
-  "rank": 5,
+  "rank": 6,
   "name": "Square of Arms",
   "in_cut": true,
   "label": "Square of Arms",
@@ -265,7 +318,7 @@
   ],
   "at_spot": false,
   "photo": {
-   "file": "photos/5.jpg",
+   "file": "photos/6.jpg",
    "artist": "Sailko",
    "licence": "CC BY 3.0",
    "licence_url": "https://creativecommons.org/licenses/by/3.0",
@@ -274,7 +327,7 @@
   }
  },
  {
-  "rank": 6,
+  "rank": 7,
   "name": "Church of St. Luke",
   "in_cut": true,
   "label": "St Luke's Church",
@@ -318,68 +371,12 @@
   "pin_flags": [],
   "at_spot": false,
   "photo": {
-   "file": "photos/6.jpg",
+   "file": "photos/7.jpg",
    "artist": "Marcin Konsek",
    "licence": "CC BY-SA 4.0",
    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source_url": "https://commons.wikimedia.org/wiki/File:Cerkiew_%C5%9Bw._%C5%81ukasza_w_Kotorze_04.jpg",
    "from": "Wikidata Q16535581 main image"
-  }
- },
- {
-  "rank": 101,
-  "name": "Fortifications of Kotor",
-  "in_cut": false,
-  "label": "Kotor Fortress",
-  "camera_pill": null,
-  "nophone": true,
-  "searches": 2070,
-  "pin": [
-   18.77194444,
-   42.42361111
-  ],
-  "camera": [
-   18.77194444,
-   42.42361111
-  ],
-  "camera_source": "Researched viewpoint 'Muo' (1 web pages); placed at OpenStreetMap 'Muo' (node/2026761099): point.",
-  "pin_note": "Position from Wikidata Q12907852: kept: no OpenStreetMap object carries this Wikidata ID.",
-  "notes": "Walls climbing the hill to the viewpoint over the bay.",
-  "text": {
-   "description": "Kotor's fortifications are the long defensive walls, towers, gates and bastions that wrap around the Old Town and then climb the steep mountainside behind it. The best-known sight is the line of wall zigzagging up towards the castle of San Giovanni, at about 280 m elevation. That makes a strong shape for a phone photo: terracotta roofs and stone at the bottom, then the wall rising to a pale skyline.\n\nThe outer wall is about 4.5 km round, between 2 and 16 m thick and up to 20 m high. The hill was fortified in Illyrian times, and the Byzantines, Venetians and Austrians all added to it. Most of what you see today was built by the Venetians, who took over in 1420. The walls, together with the Old Town, have been a World Heritage Site since 1979.\n\nFor this view, use the waterfront at Muo, across the narrow inlet from the Old Town. You see the walls from sea level, with the water in front, and the stone can turn gold at sunset. It is a public street rather than part of the fortress, so you can take your time. Two other viewpoints are worth knowing about. The road towards the Fort of St Ivan gives a view over the terracotta roofs and the bay, but it lies past the paid entry at the town-wall arch, so check current access. The Gurdić Bastion shows harbour-side walls with boats.",
-   "geographic_location": "The fortifications surround the Old Town of Kotor, at the innermost end of the Bay of Kotor, and climb the mountain of St John behind it. The Muo viewpoint is on the waterfront of the village across the inlet from the Old Town.",
-   "directions_text": "No Underground, tram or rail stops are given for this spot. From the Old Town, go round the head of the inlet to Muo, heading north-west, and look for the Muo waterfront. The waterfront is about 1.4 km from the fortifications in a straight line. Once you are on the waterfront, face south-east towards the walls and the mountain. The Navigate buttons below take you to the subject.",
-   "shooting_on_your_phone": {
-    "phone_lens": "Start with the default lens (1x) for the whole scene: water, Old Town and wall climbing the hill. Then try telephoto (2x-5x, depending on your phone) to pick out the line of the wall and the castle on the ridge. Use the ultra-wide (0.5x) only if you want a lot of foreground waterfront, as it makes the walls look small and far away.",
-    "where_to_stand": "Stand on Muo (waterfront, across the inlet from the Old Town). The Old Town and the fortress walls seen from sea level across the narrow inlet, with the walls turning gold at sunset. From here you see the Old Town and the fortress walls from sea level across the narrow stretch of water. Use the waterfront edge to keep the water in the lower part of the frame.",
-    "how_to_frame": "Turn on gridlines and put the waterline on the lower grid line so the horizon stays level. Leave the top third for the wall and the mountain. If you have time, try a second viewpoint: the road towards the Fort of St Ivan gives a higher view of the roofs, the bay and the Church of Our Lady of Remedy in the foreground.",
-    "phone_settings_tip": "Tap on the golden stone of the wall to set focus, then drag the exposure slider down a little so the sunset light does not wash out the detail. Check that the sky and the walls both look right before you take the shot. Take a Live Photo too, as moving water or passing boats can give you a better frame. After sunset, use night mode and hold your phone still.",
-    "best_time": "Sunset, when the walls turn gold. Early evening is a good time to be in place a little beforehand and take several frames as the light changes."
-   },
-   "access_note": "The Muo waterfront is a public street and free to stand on, but climbing the fortress itself may be ticketed or restricted, so check the official site before you go."
-  },
-  "checker_problems": 4,
-  "code_check_failures": [
-   "banned term /(stops?|stations?) (are|is) (not )?(listed|given)/"
-  ],
-  "sources": [
-   {
-    "title": "Fortifications of Kotor",
-    "url": "https://en.wikipedia.org/wiki/Fortifications_of_Kotor"
-   }
-  ],
-  "pin_flags": [
-   "not in OSM by Wikidata ID: pin kept",
-   "phone far from subject (1401 m)"
-  ],
-  "at_spot": false,
-  "photo": {
-   "file": "photos/101.jpg",
-   "artist": "Asta",
-   "licence": "Public domain",
-   "licence_url": "",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Old_Kotor.jpg",
-   "from": "Wikidata Q12907852 main image"
   }
  }
 ]
