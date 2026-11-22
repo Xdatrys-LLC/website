@@ -50,6 +50,29 @@ async function withPocketLens(res, url, env) {
   return out;
 }
 
+// 2026-11-22 (Ifan): library map pages (/library/<map>/) get "Featured in Pocket Lens" links to the issues whose Hot Location
+// lies on that map, from /site-files/featured-in-pocket-lens.json (pipeline/newsletter_page.py, refreshed nightly).
+const LIB = /^\/library\/([a-z0-9-]+)\/?$/;
+const esc = (x) => String(x).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+async function withFeatured(res, key, url, env) {
+  if (!res.ok || !(res.headers.get("content-type") || "").includes("text/html") || !env.ASSETS) return res;
+  const j = await env.ASSETS.fetch(new Request(url.origin + "/site-files/featured-in-pocket-lens.json"));
+  if (!j.ok) return res;
+  let list;
+  try { list = (await j.json())[key]; } catch (e) { return res; }
+  if (!list || !list.length) return res;
+  let html = await res.text();
+  const items = list.map((i) => `<li><a href="/newsletter/issues/${esc(i.date)}">${esc(i.title)}</a> <span style="color:rgba(255,255,255,.62)">(${esc(i.label)})</span></li>`).join("");
+  const box = `<section id="pocket-lens" style="margin:28px 0"><h2>Featured in Pocket Lens</h2><p>This place was in our free daily newsletter:</p><ul>${items}</ul>` +
+    `<p><a href="/newsletter/">Get Pocket Lens free</a> &middot; <a href="/newsletter/issues/">All issues</a></p></section>`;
+  const at = html.indexOf('<section id="join">');
+  if (at < 0) return new Response(html, res);
+  html = html.slice(0, at) + box + "\n" + html.slice(at);
+  const out = new Response(html, res);
+  out.headers.delete("content-length");
+  return out;
+}
+
 export async function onRequest(context) {
   const { request, env } = context;
   const url = new URL(request.url);
@@ -80,6 +103,8 @@ export async function onRequest(context) {
     if (probe.ok) return Response.redirect(url.origin + to + url.search, 301);
   }
   if (MAPS.has(p)) return withPocketLens(await context.next(), url, env);
+  const lib = p.match(LIB);
+  if (lib) return withFeatured(await context.next(), lib[1], url, env);
   if (ISSUE.test(p)) {
     const res = await context.next();
     if (!res.ok || !(res.headers.get("content-type") || "").includes("text/html")) return res;
