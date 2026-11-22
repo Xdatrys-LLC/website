@@ -40,6 +40,8 @@ async function withPocketLens(res, url, env) {
   } else {
     box = box.replace("<!--XD-SIGNUP-->", '<div class="signup"><h3>Free Pocket Lens newsletter</h3><p>Smartphone travel photo tips and a new place every day.</p><a class="tpm" href="/subscribe/">Subscribe free &rarr;</a></div>');
   }
+  // 2026-11-22 (Ifan): the heading matches the CTA and the page ("Shot Maps & Newsletter")
+  html = html.replace(/<h1>Shot <span>Maps<\/span><\/h1>/, "<h1>Shot <span>Maps</span> &amp; <span>Newsletter</span></h1>");
   const at = html.indexOf('<div class="container">');
   html = at > -1 ? html.slice(0, at) + box + html.slice(at) : html.replace("<!-- /xd-menu -->", "<!-- /xd-menu -->\n" + box);
   const out = new Response(html, res);
