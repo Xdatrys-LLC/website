@@ -19,6 +19,35 @@ const withMenu = (html) => html.includes("<!-- xd-menu") ? html : html.replace(/
 const ISSUE = /^\/(newsletter\/)?issues\/\d{4}-\d{2}-\d{2}(\.html)?\/?$/;
 const SITE_FILES = { "/sitemap.xml": "/site-files/sitemap.xml", "/robots.txt": "/site-files/robots.txt", "/llms.txt": "/site-files/llms.txt" };
 
+// 2026-11-22 (Ifan): /maps/ (the bio link of the social videos) gets the "Today's Pocket Lens" box under its heading,
+// built nightly by pipeline/newsletter_page.py into /site-files/todays-pocket-lens.html. Done here because the /maps/ page
+// itself is rewritten by the shot-map tool. The page's own Kit sign-up block is moved into the box (one form on the page).
+const MAPS = new Set(["/maps", "/maps/", "/maps/index.html"]);
+async function withPocketLens(res, url, env) {
+  if (!res.ok || !(res.headers.get("content-type") || "").includes("text/html") || !env.ASSETS) return res;
+  const b = await env.ASSETS.fetch(new Request(url.origin + "/site-files/todays-pocket-lens.html"));
+  let html = await res.text();
+  if (!b.ok || html.includes("<!-- xd-tpl")) return new Response(html, res);
+  let box = await b.text();
+  const d = (box.match(/xd-tpl (\d{4}-\d{2}-\d{2})/) || [])[1] || "";
+  const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Denver" });
+  const tomorrow = new Date(Date.now() + 864e5).toLocaleDateString("en-CA", { timeZone: "America/Denver" });
+  box = box.replace("{LABEL}", d === today || d === tomorrow ? "Today's Pocket Lens" : "Latest Pocket Lens");
+  const su = html.match(/<div style="margin-top:40px">(<div class="signup">[\s\S]*?<\/script>\s*<\/div>)<\/div>/);
+  if (su) {
+    html = html.replace(su[0], "");
+    box = box.replace("<!--XD-SIGNUP-->", su[1]);
+  } else {
+    box = box.replace("<!--XD-SIGNUP-->", '<div class="signup"><h3>Free Pocket Lens newsletter</h3><p>Smartphone travel photo tips and a new place every day.</p><a class="tpm" href="/subscribe/">Subscribe free &rarr;</a></div>');
+  }
+  const at = html.indexOf('<div class="container">');
+  html = at > -1 ? html.slice(0, at) + box + html.slice(at) : html.replace("<!-- /xd-menu -->", "<!-- /xd-menu -->\n" + box);
+  const out = new Response(html, res);
+  out.headers.delete("content-length");
+  out.headers.set("Cache-Control", "public, max-age=0, must-revalidate");
+  return out;
+}
+
 export async function onRequest(context) {
   const { request, env } = context;
   const url = new URL(request.url);
@@ -48,6 +77,7 @@ export async function onRequest(context) {
     const probe = await env.ASSETS.fetch(new Request(url.origin + to, { method: "GET" }));
     if (probe.ok) return Response.redirect(url.origin + to + url.search, 301);
   }
+  if (MAPS.has(p)) return withPocketLens(await context.next(), url, env);
   if (ISSUE.test(p)) {
     const res = await context.next();
     if (!res.ok || !(res.headers.get("content-type") || "").includes("text/html")) return res;
