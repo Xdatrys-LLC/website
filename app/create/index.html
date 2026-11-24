@@ -76,6 +76,15 @@ select { width: 100%; border: 1.5px solid var(--line); border-radius: 14px; padd
 .gate .st { display: inline-block; color: #fff; font-size: 12px; font-weight: 800; letter-spacing: .06em; border-radius: 999px; padding: 4px 10px; }
 .gate button.btn { display: block; border-radius: 14px; padding: 14px; font-weight: 700; font-size: 16px; }
 .gate a.btn { display: block; text-align: center; background: var(--ink); color: #fff; border-radius: 14px; padding: 14px; font-weight: 700; text-decoration: none; margin-top: 12px; }
+.pbar { height: 10px; border-radius: 5px; background: #ece9f5; overflow: hidden; margin: 14px 0 8px; position: relative; }
+.pbar i { display: block; height: 100%; width: 0; border-radius: 5px; background: linear-gradient(90deg, #00C2FF, #FF00FF); transition: width .8s ease; }
+.pbar.wait i { width: 35% !important; position: absolute; animation: slide 1.6s ease-in-out infinite; }
+@keyframes slide { 0% { left: -35%; } 100% { left: 100%; } }
+.cyc { display: flex; gap: 10px; align-items: center; min-height: 26px; font-size: 15px; color: #33333d; }
+.cyc .sp { width: 16px; height: 16px; border-radius: 50%; border: 2.5px solid #e2d9f7; border-top-color: #6200EA; animation: spin .9s linear infinite; flex: none; }
+.cyc span.t { transition: opacity .3s; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .pbar.wait i, .cyc .sp { animation: none; } }
 .foot { color: var(--soft); font-size: 12px; line-height: 1.5; margin-top: 22px; }
 .done { position: fixed; inset: 0; z-index: 20; background: rgba(20,20,30,.5); display: none; align-items: flex-end; justify-content: center; }
 .done.open { display: flex; }
@@ -337,7 +346,24 @@ async function create() {
 }
 
 // ---- progress screen: the map's steps, updated every few seconds ----
-let WATCH = null;
+let WATCH = null, CYC = null, CUR = { key: "queued", place: "", started: 0 }, CI = 0;
+const SAYS = {
+  queued: ["Lining up your map…", "Waking the map builder…", "Getting your request ready…"],
+  "Choosing the spots": ["Looking through 3,000+ photo spots we have already checked…", "Matching spots to your photo themes…", "Putting the most-searched sights first…", "Finding sights we have not mapped yet…"],
+  "Checking the pins": ["Matching each pin to the real sight on OpenStreetMap…", "Making sure every pin is where the sight really is…", "Tracing the outline of each sight…"],
+  "Finding where to stand": ["Searching guides for the classic viewpoints…", "Looking at where photographers stood…", "Placing the phone where you should stand…"],
+  "Writing the spot texts": ["Writing the “Shooting it on your phone” tips…", "Checking every fact against its sources…", "Choosing the lens: 0.5x, 1x or zoom…", "Working out the best time of day…"],
+  "Finding photos": ["Finding a photo of each spot…", "Checking photo licences and credits…"],
+  "Final checks": ["Cutting the map for your area…", "Putting your map together…", "Saving the map to your account…"],
+};
+function ago(t) { const s = Math.max(0, Math.round(Date.now() / 1000 - t)); return s < 60 ? s + " s" : Math.floor(s / 60) + " min " + (s % 60) + " s"; }
+function cycle() {
+  const el = $("cycT"); if (!el) return;
+  const list = SAYS[CUR.key] || SAYS.queued;
+  el.style.opacity = 0;
+  setTimeout(() => { el.textContent = list[CI++ % list.length]; el.style.opacity = 1; }, 250);
+  if ($("elapsed") && CUR.started) $("elapsed").textContent = (CUR.queued ? "Waiting " : "Working for ") + ago(CUR.started);
+}
 async function watch(id) {
   clearTimeout(WATCH);
   let m;
@@ -345,11 +371,20 @@ async function watch(id) {
   if (!m) { WATCH = setTimeout(() => watch(id), 8000); return; }
   const steps = ((m.progress || {}).steps || []).map((s) => `<li style="padding:6px 0;${s.done ? "" : "color:var(--soft)"}">${s.done ? "✅" : "⬜"} ${esc(s.name)}</li>`).join("");
   const spots = ((m.progress || {}).spots || []).map((s) => `<li style="padding:4px 0">${s.done ? "✅" : "⏳"} ${s.n}. ${esc(s.name)}</li>`).join("");
-  const waiting = m.status === "queued";
+  const waiting = m.status === "queued", live = waiting || m.status === "building";
+  const st = (m.progress || {}).steps || [], sp = (m.progress || {}).spots || [];
+  const doneSteps = st.filter((s) => s.done).length, doneSpots = sp.filter((s) => s.done).length;
+  const pct = m.status === "done" ? 100 : Math.min(97, Math.round(100 * (doneSteps + (sp.length ? doneSpots / sp.length : 0) * 0.9) / (st.length || 6)));
+  const curStep = (st.find((s) => !s.done) || {}).name;
+  const prevKey = CUR.key;
+  CUR = { key: waiting ? "queued" : (curStep || "Final checks"), started: waiting ? m.made : (m.started || m.made), queued: waiting };
+  if (prevKey !== CUR.key) CI = 0;
   $("wrap").innerHTML = `<div class="gate"><span class="st" style="background:${m.status === "failed" ? "#b3261e" : m.status === "done" ? "#1b7a3a" : "var(--purple)"}">${esc(m.status.toUpperCase())}</span>
     <h2 style="margin:10px 0 4px">${esc(m.label)}</h2><p style="color:var(--soft);margin:0 0 12px">${m.size} spots · up to ${m.hold} credits held${m.used != null ? ` · ${m.used} used` : ""}</p>
-    <p style="font-weight:700;font-size:17px">${esc(m.error || m.step || "")}</p>
-    ${waiting ? `<p class="note" style="margin:0 0 10px">Your request is safely in the queue. The map builder picks it up and you see each step here; we email you when it is ready.</p>` : ""}
+    ${live ? `<div class="pbar${waiting ? " wait" : ""}"><i style="width:${pct}%"></i></div>
+      <div class="cyc"><span class="sp"></span><span class="t" id="cycT">${esc((SAYS[CUR.key] || SAYS.queued)[CI % (SAYS[CUR.key] || SAYS.queued).length])}</span></div>
+      <p class="note" style="margin:6px 0 10px"><b>${waiting ? "In the queue" : pct + "% done"}</b> · <span id="elapsed"></span></p>`
+      : `<p style="font-weight:700;font-size:17px">${esc(m.error || m.step || "")}</p>`}
     <ul style="list-style:none;padding:0;margin:8px 0">${steps}</ul>${spots ? `<h3 style="margin:14px 0 4px">Spots</h3><ul style="list-style:none;padding:0;margin:0">${spots}</ul>` : ""}
     ${waiting ? `<button class="btn" id="cancelMap" style="background:#fff;color:var(--ink);border:1.5px solid var(--line);width:100%;margin-top:12px">Cancel this map (credits given back)</button>` : ""}
     ${m.status === "done" && m.result && m.result.url ? `<a class="btn" href="${esc(m.result.url)}" style="background:#FF00FF">Open your map</a>` : ""}
@@ -362,7 +397,8 @@ async function watch(id) {
     const r = await (await fetch("/api/custom/cancel", { method: "POST", credentials: "same-origin", headers: { "content-type": "application/json" }, body: JSON.stringify({ id }) })).json();
     if (!r.ok) say(r.error || "Could not cancel."); watch(id);
   };
-  if (m.status === "queued" || m.status === "building") WATCH = setTimeout(() => watch(id), 5000);
+  clearInterval(CYC);
+  if (live) { CYC = setInterval(cycle, 2600); cycle(); WATCH = setTimeout(() => watch(id), 5000); }
 }
 
 // ---- your custom maps (on the first step) ----
