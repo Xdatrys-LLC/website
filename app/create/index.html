@@ -181,6 +181,7 @@ const esc = (s) => String(s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<
 const order = () => ["start"].concat(S.mode === "theme" ? ["theme", "area"] : ["place"], ["layers", "size", "review"]);
 let cur = 0;
 function show() {
+  if (!$("steps")) return;                          // visitor: the steps were replaced by the "part of Pro" message
   const o = order();
   document.querySelectorAll(".step").forEach((el) => {
     const only = el.dataset.only;
@@ -332,7 +333,7 @@ fetch("/api/me", { cache: "no-store", credentials: "same-origin" }).then((r) => 
     <p>Pro members create their own photo maps of any place, or of a theme such as castles or mountains across a country.</p>
     <p><b>Pro is coming soon.</b> Explorer members already get every spot on every map in the library.</p>
     <a class="btn" href="/pricing/">See the plans</a></div>`;
-  $("bar").style.display = "none";
+  $("bar").style.display = "none"; $("dots").style.display = "none";
 }).catch(() => {});
 
 drawLayers(); marks(); show();
