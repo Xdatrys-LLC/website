@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /review/
 Disallow: /app/m/
+Disallow: /app/c/
 Disallow: /api/
 Disallow: /newsletter/drafts/
 Disallow: /maps/files/

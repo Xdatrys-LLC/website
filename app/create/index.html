@@ -352,6 +352,7 @@ async function watch(id) {
     ${waiting ? `<p class="note" style="margin:0 0 10px">Your request is safely in the queue. The map builder picks it up and you see each step here; we email you when it is ready.</p>` : ""}
     <ul style="list-style:none;padding:0;margin:8px 0">${steps}</ul>${spots ? `<h3 style="margin:14px 0 4px">Spots</h3><ul style="list-style:none;padding:0;margin:0">${spots}</ul>` : ""}
     ${waiting ? `<button class="btn" id="cancelMap" style="background:#fff;color:var(--ink);border:1.5px solid var(--line);width:100%;margin-top:12px">Cancel this map (credits given back)</button>` : ""}
+    ${m.status === "done" && m.result && m.result.url ? `<a class="btn" href="${esc(m.result.url)}" style="background:#FF00FF">Open your map</a>` : ""}
     <a class="btn" href="/app/create/">${m.status === "done" || m.status === "failed" || m.status === "cancelled" ? "Create another map" : "Back to Create"}</a></div>`;
   $("bar").style.display = "none"; $("dots").style.display = "none";
   if ($("cancelMap")) $("cancelMap").onclick = async () => {
