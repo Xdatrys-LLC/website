@@ -73,6 +73,8 @@ select { width: 100%; border: 1.5px solid var(--line); border-radius: 14px; padd
 .bar .next:disabled { background: #d9d9e0; color: #8a8a95; }
 .side { display: none; }
 .gate { background: #fff; border-radius: 20px; padding: 22px; margin-top: 16px; line-height: 1.5; }
+.gate .st { display: inline-block; color: #fff; font-size: 12px; font-weight: 800; letter-spacing: .06em; border-radius: 999px; padding: 4px 10px; }
+.gate button.btn { display: block; border-radius: 14px; padding: 14px; font-weight: 700; font-size: 16px; }
 .gate a.btn { display: block; text-align: center; background: var(--ink); color: #fff; border-radius: 14px; padding: 14px; font-weight: 700; text-decoration: none; margin-top: 12px; }
 .foot { color: var(--soft); font-size: 12px; line-height: 1.5; margin-top: 22px; }
 .done { position: fixed; inset: 0; z-index: 20; background: rgba(20,20,30,.5); display: none; align-items: flex-end; justify-content: center; }
@@ -145,7 +147,7 @@ select { width: 100%; border: 1.5px solid var(--line); border-radius: 14px; padd
   <!-- 4: size -->
   <section class="step" data-s="size">
     <h2>How many spots?</h2>
-    <p class="sub">Spots we have already checked cost no credits, so the real cost is often lower.</p>
+    <p class="sub">Spots we have already checked cost no credits, so the real cost is often lower. <span id="credLine"></span></p>
     <div class="sizes" id="sizes"></div>
     <p class="note">Waiting times are our targets for now, not yet measured. You will see each spot appear as it is ready, and we email you when the map is finished.</p>
   </section>
@@ -313,14 +315,68 @@ function summary() {
   const sz = SIZES.find((s) => s[0] === S.size);
   const html = `<h3>Your map</h3><dl><dt>Where</dt><dd>${esc(where()) || "<span style='color:var(--soft);font-weight:400'>not chosen yet</span>"}</dd>
     <dt>Shows</dt><dd>${esc(lay) || "<span style='color:var(--soft);font-weight:400'>choose at least one theme</span>"}</dd>
-    <dt>Spots</dt><dd>${S.size}</dd><dt>Credits</dt><dd>up to ${sz[1]} of your 100 this month</dd><dt>Ready in</dt><dd>${sz[2]} (target)</dd></dl>`;
+    <dt>Spots</dt><dd>${S.size}</dd><dt>Credits</dt><dd>up to ${sz[1]}${CRED ? (CRED.owner ? " (owner: no limit)" : ` of your ${CRED.available} left`) : ""}</dd><dt>Ready in</dt><dd>${sz[2]} (target)</dd></dl>`;
   $("sumWide").innerHTML = html; $("sumPhone").innerHTML = html;
+  if (CRED && $("credLine")) $("credLine").textContent = CRED.owner ? "Owner: no credit limit." : `You have ${CRED.available} credits left this month.`;
   $("createWide").disabled = $("createPhone").disabled = !ready();
 }
-function create() {
-  if (!ready()) return;
-  $("doneTxt").textContent = `Your map of ${where()} (${S.size} spots) is ready to be made. The map builder is the next part of the work, so nothing is built and no credits are used yet.`;
-  $("done").classList.add("open");
+let CRED = null, BUSY = false;
+function say(msg) { $("doneTxt").textContent = msg; $("done").classList.add("open"); }
+async function create() {
+  if (!ready() || BUSY) return;
+  BUSY = true; $("createWide").disabled = $("createPhone").disabled = true;
+  const body = { mode: S.mode, layers: S.layers, size: S.size, place_id: S.place && S.place.id, theme: S.theme,
+                 continent: S.cont, cc: S.ctry && S.ctry.cc, region_id: S.reg && S.reg.id };
+  try {
+    const r = await fetch("/api/custom/create", { method: "POST", credentials: "same-origin", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
+    const d = await r.json();
+    if (!d.ok) { say(d.error || "Something went wrong. Nothing was charged."); if (d.busy) watch(d.busy); return; }
+    CRED = d.credits; watch(d.id);
+  } catch (e) { say("No connection. Your map was not created and nothing was charged."); }
+  finally { BUSY = false; summary(); }
+}
+
+// ---- progress screen: the map's steps, updated every few seconds ----
+let WATCH = null;
+async function watch(id) {
+  clearTimeout(WATCH);
+  let m;
+  try { m = (await (await fetch("/api/custom/mine?id=" + encodeURIComponent(id), { credentials: "same-origin", cache: "no-store" })).json()).map; } catch (e) {}
+  if (!m) { WATCH = setTimeout(() => watch(id), 8000); return; }
+  const steps = ((m.progress || {}).steps || []).map((s) => `<li style="padding:6px 0;${s.done ? "" : "color:var(--soft)"}">${s.done ? "✅" : "⬜"} ${esc(s.name)}</li>`).join("");
+  const spots = ((m.progress || {}).spots || []).map((s) => `<li style="padding:4px 0">${s.done ? "✅" : "⏳"} ${s.n}. ${esc(s.name)}</li>`).join("");
+  const waiting = m.status === "queued";
+  $("wrap").innerHTML = `<div class="gate"><span class="st" style="background:${m.status === "failed" ? "#b3261e" : m.status === "done" ? "#1b7a3a" : "var(--purple)"}">${esc(m.status.toUpperCase())}</span>
+    <h2 style="margin:10px 0 4px">${esc(m.label)}</h2><p style="color:var(--soft);margin:0 0 12px">${m.size} spots · up to ${m.hold} credits held${m.used != null ? ` · ${m.used} used` : ""}</p>
+    <p style="font-weight:700;font-size:17px">${esc(m.error || m.step || "")}</p>
+    ${waiting ? `<p class="note" style="margin:0 0 10px">Your request is safely in the queue. The map builder picks it up and you see each step here; we email you when it is ready.</p>` : ""}
+    <ul style="list-style:none;padding:0;margin:8px 0">${steps}</ul>${spots ? `<h3 style="margin:14px 0 4px">Spots</h3><ul style="list-style:none;padding:0;margin:0">${spots}</ul>` : ""}
+    ${waiting ? `<button class="btn" id="cancelMap" style="background:#fff;color:var(--ink);border:1.5px solid var(--line);width:100%;margin-top:12px">Cancel this map (credits given back)</button>` : ""}
+    <a class="btn" href="/app/create/">${m.status === "done" || m.status === "failed" || m.status === "cancelled" ? "Create another map" : "Back to Create"}</a></div>`;
+  $("bar").style.display = "none"; $("dots").style.display = "none";
+  if ($("cancelMap")) $("cancelMap").onclick = async () => {
+    const r = await (await fetch("/api/custom/cancel", { method: "POST", credentials: "same-origin", headers: { "content-type": "application/json" }, body: JSON.stringify({ id }) })).json();
+    if (!r.ok) say(r.error || "Could not cancel."); watch(id);
+  };
+  if (m.status === "queued" || m.status === "building") WATCH = setTimeout(() => watch(id), 5000);
+}
+
+// ---- your custom maps (on the first step) ----
+async function myMaps() {
+  try {
+    const d = await (await fetch("/api/custom/mine", { credentials: "same-origin", cache: "no-store" })).json();
+    if (!d.ok) return;
+    CRED = d.credits; summary();
+    const live = (d.maps || []).find((m) => m.status === "queued" || m.status === "building");
+    if (live) return watch(live.id);
+    if (!(d.maps || []).length) return;
+    const st = { done: "Ready", failed: "Failed, no credits used", cancelled: "Cancelled" };
+    const list = d.maps.slice(0, 6).map((m) => `<li style="padding:10px 0;border-top:1px solid var(--line);cursor:pointer" data-id="${m.id}"><b>${esc(m.label)}</b><br><span style="color:var(--soft);font-size:14px">${m.size} spots · ${st[m.status] || m.status}</span></li>`).join("");
+    const box = document.createElement("div"); box.className = "sum"; box.style.marginTop = "16px";
+    box.innerHTML = `<h3>Your custom maps</h3><ul style="list-style:none;padding:0;margin:0">${list}</ul>`;
+    box.onclick = (e) => { const li = e.target.closest("li"); if (li) watch(li.dataset.id); };
+    document.querySelector('[data-s="start"]').appendChild(box);
+  } catch (e) {}
 }
 $("createWide").onclick = create; $("createPhone").onclick = create;
 $("doneOk").onclick = () => $("done").classList.remove("open");
@@ -328,7 +384,7 @@ addEventListener("resize", show);
 
 // ---- Pro members and the owner only (Pro is not on sale yet) ----
 fetch("/api/me", { cache: "no-store", credentials: "same-origin" }).then((r) => r.json()).then((me) => {
-  if (me.role === "owner" || me.plan === "pro") return;
+  if (me.role === "owner" || me.plan === "pro") return myMaps();
   $("wrap").innerHTML = `<div class="gate"><h2 style="margin-top:0">Custom maps are part of Pro</h2>
     <p>Pro members create their own photo maps of any place, or of a theme such as castles or mountains across a country.</p>
     <p><b>Pro is coming soon.</b> Explorer members already get every spot on every map in the library.</p>
