@@ -71,6 +71,7 @@ main { padding: 6px 16px calc(28px + env(safe-area-inset-bottom)); max-width: 76
   <div class="brand"><img src="/app/icon-192.png" alt="Xdatrys Maps app icon"><div><h1>Xdatrys Maps</h1><p>Where to stand for the best photo and selfie</p></div></div>
   <a id="acct" href="/account/?next=/app/" style="display:none;position:absolute;top:14px;right:14px;font-size:13px;font-weight:600;color:inherit;opacity:.85">Sign in</a>
   <div class="tabs"><button class="tab" id="tMine">My maps</button><button class="tab" id="tAll">All maps</button></div>
+  <a id="createBtn" href="/app/create/" style="display:none;margin-top:10px;text-align:center;text-decoration:none;background:#FF00FF;color:#fff;border-radius:999px;padding:12px;font-weight:800;font-size:16px">＋ Create a custom map <span style="font-size:12px;background:#6200EA;border-radius:999px;padding:2px 8px;margin-left:4px">PRO</span></a>
 </header>
 <main>
   <div class="install" id="install" style="display:none"><b>📲 Put Xdatrys Maps on your phone</b>
@@ -193,6 +194,7 @@ async function access() {
   if (!me) return true;                                                     // offline: keep going with what is saved
   $("acct").style.display = "inline-block";
   $("acct").textContent = me.role === "none" ? "Sign in" : "My account";
+  if (me.role === "owner" || me.plan === "pro") $("createBtn").style.display = "block";   // custom maps (C1, 2026-11-24)
   if (me.role !== "none") return true;
   try { for (const n of await caches.keys()) if (n.indexOf("xd-app-map-") === 0) await caches.delete(n); } catch (e) {}
   $("tMine").parentNode.style.display = "none";
