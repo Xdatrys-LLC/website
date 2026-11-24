@@ -353,7 +353,10 @@ async function watch(id) {
     <ul style="list-style:none;padding:0;margin:8px 0">${steps}</ul>${spots ? `<h3 style="margin:14px 0 4px">Spots</h3><ul style="list-style:none;padding:0;margin:0">${spots}</ul>` : ""}
     ${waiting ? `<button class="btn" id="cancelMap" style="background:#fff;color:var(--ink);border:1.5px solid var(--line);width:100%;margin-top:12px">Cancel this map (credits given back)</button>` : ""}
     ${m.status === "done" && m.result && m.result.url ? `<a class="btn" href="${esc(m.result.url)}" style="background:#FF00FF">Open your map</a>` : ""}
-    <a class="btn" href="/app/create/">${m.status === "done" || m.status === "failed" || m.status === "cancelled" ? "Create another map" : "Back to Create"}</a></div>`;
+    ${m.status === "done" || m.status === "failed" || m.status === "cancelled"
+      ? `<a class="btn" href="/app/create/?new=1">Create another map</a>`
+      : `<p class="note" style="margin:12px 2px 0">One map at a time: you can create the next one when this one is finished. You can leave this page; the map carries on and we keep it here for you.</p>`}
+    <a class="btn" href="/app/" style="background:#fff;color:var(--ink);border:1.5px solid var(--line)">Back to the app</a></div>`;
   $("bar").style.display = "none"; $("dots").style.display = "none";
   if ($("cancelMap")) $("cancelMap").onclick = async () => {
     const r = await (await fetch("/api/custom/cancel", { method: "POST", credentials: "same-origin", headers: { "content-type": "application/json" }, body: JSON.stringify({ id }) })).json();
@@ -369,7 +372,7 @@ async function myMaps() {
     if (!d.ok) return;
     CRED = d.credits; summary();
     const live = (d.maps || []).find((m) => m.status === "queued" || m.status === "building");
-    if (live) return watch(live.id);
+    if (live && !/[?&]new=1/.test(location.search)) return watch(live.id);   // a map being made: show its progress (?new=1: the form)
     if (!(d.maps || []).length) return;
     const st = { done: "Ready", failed: "Failed, no credits used", cancelled: "Cancelled" };
     const list = d.maps.slice(0, 6).map((m) => `<li style="padding:10px 0;border-top:1px solid var(--line);cursor:pointer" data-id="${m.id}"><b>${esc(m.label)}</b><br><span style="color:var(--soft);font-size:14px">${m.size} spots · ${st[m.status] || m.status}</span></li>`).join("");
