@@ -349,6 +349,7 @@ async function create() {
 let WATCH = null, CYC = null, CUR = { key: "queued", place: "", started: 0 }, CI = 0;
 const SAYS = {
   queued: ["Lining up your map…", "Waking the map builder…", "Getting your request ready…"],
+  offline: ["The map builder is offline right now. Your map is safe in the queue and starts as soon as the builder is back."],
   "Choosing the spots": ["Looking through 3,000+ photo spots we have already checked…", "Matching spots to your photo themes…", "Putting the most-searched sights first…", "Finding sights we have not mapped yet…"],
   "Checking the pins": ["Matching each pin to the real sight on OpenStreetMap…", "Making sure every pin is where the sight really is…", "Tracing the outline of each sight…"],
   "Finding where to stand": ["Searching guides for the classic viewpoints…", "Looking at where photographers stood…", "Placing the phone where you should stand…"],
@@ -367,7 +368,9 @@ function cycle() {
 async function watch(id) {
   clearTimeout(WATCH);
   let m;
-  try { m = (await (await fetch("/api/custom/mine?id=" + encodeURIComponent(id), { credentials: "same-origin", cache: "no-store" })).json()).map; } catch (e) {}
+  let builderAgo = 0;
+  try { const d = await (await fetch("/api/custom/mine?id=" + encodeURIComponent(id), { credentials: "same-origin", cache: "no-store" })).json(); m = d.map; builderAgo = d.builderAgo; } catch (e) {}
+  const offline = builderAgo == null || builderAgo > 120;      // the map builder has not reported in for 2 minutes
   if (!m) { WATCH = setTimeout(() => watch(id), 8000); return; }
   const steps = ((m.progress || {}).steps || []).map((s) => `<li style="padding:6px 0;${s.done ? "" : "color:var(--soft)"}">${s.done ? "✅" : "⬜"} ${esc(s.name)}</li>`).join("");
   const spots = ((m.progress || {}).spots || []).map((s) => `<li style="padding:4px 0">${s.done ? "✅" : "⏳"} ${s.n}. ${esc(s.name)}</li>`).join("");
@@ -377,7 +380,7 @@ async function watch(id) {
   const pct = m.status === "done" ? 100 : Math.min(97, Math.round(100 * (doneSteps + (sp.length ? doneSpots / sp.length : 0) * 0.9) / (st.length || 6)));
   const curStep = (st.find((s) => !s.done) || {}).name;
   const prevKey = CUR.key;
-  CUR = { key: waiting ? "queued" : (curStep || "Final checks"), started: waiting ? m.made : (m.started || m.made), queued: waiting };
+  CUR = { key: waiting && offline ? "offline" : waiting ? "queued" : (curStep || "Final checks"), started: waiting ? m.made : (m.started || m.made), queued: waiting };
   if (prevKey !== CUR.key) CI = 0;
   $("wrap").innerHTML = `<div class="gate"><span class="st" style="background:${m.status === "failed" ? "#b3261e" : m.status === "done" ? "#1b7a3a" : "var(--purple)"}">${esc(m.status.toUpperCase())}</span>
     <h2 style="margin:10px 0 4px">${esc(m.label)}</h2><p style="color:var(--soft);margin:0 0 12px">${m.size} spots · up to ${m.hold} credits held${m.used != null ? ` · ${m.used} used` : ""}</p>

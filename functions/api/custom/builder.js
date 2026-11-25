@@ -8,6 +8,11 @@ import { isBuilder, ledger, J, now } from "../../_lib/custom.js";
 export async function onRequestPost({ request, env }) {
   if (!isBuilder(request, env)) return J({ ok: false }, 401);
   let b; try { b = await request.json(); } catch { return J({ ok: false }, 400); }
+  if (b.action === "heartbeat" || b.action === "claim") {   // 2026-11-25: the builder reports in; the waiting screen shows 'offline' when it stops
+    await env.MEMBERS.prepare("INSERT INTO build_status (k, v, at) VALUES ('custom_builder', ?1, ?2) ON CONFLICT(k) DO UPDATE SET v = ?1, at = ?2")
+      .bind(String(b.by || "builder").slice(0, 40), now()).run();
+    if (b.action === "heartbeat") return J({ ok: true });
+  }
   if (b.action === "claim") {
     const r = await env.MEMBERS.prepare("UPDATE custom_maps SET status = 'building', started = ?1, claimed_by = ?2, step = 'Choosing the spots' " +
       "WHERE id = (SELECT id FROM custom_maps WHERE status = 'queued' ORDER BY made LIMIT 1) RETURNING *").bind(now(), String(b.by || "builder").slice(0, 40)).first();
