@@ -8,7 +8,7 @@
 //    Also /newsletter/issues/<date>, where Pocket Lens will publish later. /newsletter/drafts/... is for the owner only.
 // 4. /sitemap.xml, /robots.txt, /llms.txt are served from the website's own copies in /site-files/ (pipeline/site_files.py),
 //    because the Pocket Lens publisher rewrites the root files every night with only the old pages (2026-11-18).
-import { who } from "./_lib/auth.js";
+import { who, readCookie, makeCookie, now, DAY } from "./_lib/auth.js";
 import { teaserIssue } from "./_lib/issue_teaser.js";
 import { MENU } from "./_lib/site_menu.js";
 
@@ -73,7 +73,22 @@ async function withFeatured(res, key, url, env) {
   return out;
 }
 
+// 2026-11-26 (Ifan: "I will not always be at a pc"): the owner's sign-in renews itself. When the owner opens any page and
+// the sign-in is more than 30 days old, a fresh 1-year sign-in is sent with the page, so a phone signed in once stays signed in.
 export async function onRequest(context) {
+  const res = await handle(context);
+  try {
+    const c = await readCookie(context.request, context.env);
+    if (c && c.role === "owner" && c.x && c.x - now() < 335 * DAY && context.request.method === "GET") {
+      const out = new Response(res.body, res);
+      out.headers.append("Set-Cookie", await makeCookie(context.env, c.email, "owner", 365));
+      return out;
+    }
+  } catch (e) {}
+  return res;
+}
+
+async function handle(context) {
   const { request, env } = context;
   const url = new URL(request.url);
   if (url.hostname === "www.xdatrys.com") {
@@ -121,7 +136,7 @@ export async function onRequest(context) {
     out.headers.set("Vary", "Cookie");
     return out;
   }
-  const app = p.startsWith("/app/m/"), review = p.startsWith("/review/") || p.startsWith("/newsletter/drafts/");
+  const app = p.startsWith("/app/m/"), review = p.startsWith("/review/") || p.startsWith("/newsletter/drafts/") || p === "/personal" || p.startsWith("/personal/");   // /personal/: owner only (2026-11-26)
   if (!app && !review) return context.next();
   const w = await who(request, env);
   const allowed = review ? w.role === "owner" : (w.role === "owner" || w.role === "member");

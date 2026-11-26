@@ -64,15 +64,24 @@ main { padding: 6px 16px calc(28px + env(safe-area-inset-bottom)); max-width: 76
 .big { font-size: 22px; font-weight: 800; }
 .foot { color: var(--soft); font-size: 13px; line-height: 1.5; margin-top: 22px; }
 .store { color: var(--soft); font-size: 14px; margin: 10px 2px 0; }
+#menu[hidden], #menu [hidden] { display: none !important; }
 </style>
 </head>
 <body>
 <header>
-  <div class="brand"><img src="/app/icon-192.png" alt="Xdatrys Maps app icon"><div><h1>Xdatrys Maps</h1><p>Where to stand for the best photo and selfie</p></div></div>
+  <div class="brand"><button id="menuBtn" aria-label="Menu" aria-expanded="false" style="flex:none;background:none;border:0;color:inherit;font-size:28px;line-height:1;padding:4px 8px 4px 0;cursor:pointer">☰</button><img src="/app/icon-192.png" alt="Xdatrys Maps app icon"><div><h1>Xdatrys Maps</h1><p>Where to stand for the best photo and selfie</p></div></div>
   <a id="acct" href="/account/?next=/app/" style="display:none;position:absolute;top:14px;right:14px;font-size:13px;font-weight:600;color:inherit;opacity:.85">Sign in</a>
   <div class="tabs"><button class="tab" id="tMine">My maps</button><button class="tab" id="tAll">All maps</button></div>
   <a id="createBtn" href="/app/create/" style="display:none;margin-top:10px;text-align:center;text-decoration:none;background:#FF00FF;color:#fff;border-radius:999px;padding:12px;font-weight:800;font-size:16px">＋ Create a custom map <span style="font-size:12px;background:#6200EA;border-radius:999px;padding:2px 8px;margin-left:4px">PRO</span></a>
 </header>
+<!-- 2026-11-26 (Ifan): menu top left; "Personal" (all hidden and test pages) for the owner only -->
+<nav id="menu" hidden style="position:fixed;top:64px;left:12px;z-index:50;background:#fff;color:#14141a;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,.25);min-width:240px;padding:6px;font-size:17px">
+  <a href="/app/" style="display:block;padding:12px 14px;color:inherit;text-decoration:none">My maps</a>
+  <a id="mCreate" href="/app/create/" hidden style="display:block;padding:12px 14px;color:inherit;text-decoration:none">Create a custom map</a>
+  <a id="mAcct" href="/account/?next=/app/" style="display:block;padding:12px 14px;color:inherit;text-decoration:none">My account</a>
+  <a id="mPersonal" href="/personal/" hidden style="display:block;padding:12px 14px;color:#fff;background:#6200EA;border-radius:10px;text-decoration:none;font-weight:800">Personal</a>
+  <a href="/" style="display:block;padding:12px 14px;color:inherit;text-decoration:none">Xdatrys website</a>
+</nav>
 <main>
   <div class="install" id="install" style="display:none"><b>📲 Put Xdatrys Maps on your phone</b>
     <p id="instTxt">Install it once: it opens full screen from your home screen, and every map you save works without signal.</p>
@@ -185,6 +194,8 @@ function render() {
 window.setTab = t => { TAB = t; try { localStorage.setItem("xd-app-tab", t); } catch (e) {} render(); };
 $("tMine").onclick = () => setTab("mine"); $("tAll").onclick = () => setTab("all"); $("q").oninput = render;
 
+$("menuBtn").onclick = e => { e.stopPropagation(); const m = $("menu"); m.hidden = !m.hidden; $("menuBtn").setAttribute("aria-expanded", String(!m.hidden)); };
+document.addEventListener("click", e => { if (!$("menu").hidden && !$("menu").contains(e.target)) $("menu").hidden = true; });
 // ---- members only (Stage 3, 2026-11-16; decision 3l) ----
 // With signal: non-members see the Join screen, and any maps saved under an ended membership are removed from the phone.
 // Without signal (the check cannot run): saved maps keep working.
@@ -195,6 +206,9 @@ async function access() {
   $("acct").style.display = "inline-block";
   $("acct").textContent = me.role === "none" ? "Sign in" : "My account";
   if (me.role === "owner" || me.plan === "pro") $("createBtn").style.display = "block";   // custom maps (C1, 2026-11-24)
+  if (me.role === "owner" || me.plan === "pro") $("mCreate").hidden = false;
+  if (me.role === "owner") $("mPersonal").hidden = false;                  // owner's list of hidden/test pages (2026-11-26)
+  $("mAcct").textContent = me.role === "none" ? "Sign in" : "My account";
   if (me.role !== "none") return true;
   try { for (const n of await caches.keys()) if (n.indexOf("xd-app-map-") === 0) await caches.delete(n); } catch (e) {}
   $("tMine").parentNode.style.display = "none";

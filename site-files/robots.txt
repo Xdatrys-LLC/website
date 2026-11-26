@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /review/
+Disallow: /personal/
 Disallow: /app/m/
 Disallow: /app/c/
 Disallow: /api/

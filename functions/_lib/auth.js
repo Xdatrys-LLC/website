@@ -44,7 +44,7 @@ export async function readCookie(request, env) {
       Uint8Array.from(ub64(m[2]), c => c.charCodeAt(0)), enc.encode(m[1]));
     if (!ok) return null;
     const p = JSON.parse(ub64(m[1]));
-    return p.x > now() ? { email: p.e, role: p.r } : null;
+    return p.x > now() ? { email: p.e, role: p.r, x: p.x } : null;
   } catch { return null; }
 }
 
