@@ -4,107 +4,167 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#09090f">
 <title>Create a map | Xdatrys Maps</title>
 <link rel="manifest" href="/app/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/app/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* Custom maps (Pro), step C1 (spec approved 2026-11-24): the "Create a map" screens.
    Phone: one step per screen, Back / Next at the bottom. Computer (900 px+): every step in one column, the summary beside it. */
-:root { --mag: #FF00FF; --cyan: #00C2FF; --cyan-d: #0091b3; --purple: #6200EA; --ink: #14141a; --soft: #5b5b66; --line: #e7e7ee; --bg: #f6f6f9; }
+:root { --mag: #FF00FF; --cyan: #00C2FF; --purple: #6200EA; --ink: #f4f4f8; --soft: #a9a9ba; --line: rgba(255,255,255,.14); --bg: #09090f; --card: #14141f; color-scheme: dark; }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body { margin: 0; font-family: Inter, system-ui, -apple-system, sans-serif; color: var(--ink); background: var(--bg); }
 button, input, select { font: inherit; color: inherit; }
 button { cursor: pointer; }
-header { position: sticky; top: 0; z-index: 5; background: rgba(246,246,249,.94); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
-  padding: calc(12px + env(safe-area-inset-top)) 16px 10px; display: flex; align-items: center; gap: 12px; }
-header a.back { text-decoration: none; color: var(--ink); font-size: 26px; line-height: 1; padding: 4px 8px 4px 0; }
-header h1 { margin: 0; font-size: 22px; font-weight: 800; }
-header .pro { background: var(--purple); color: #fff; font-size: 12px; font-weight: 800; border-radius: 999px; padding: 3px 9px; letter-spacing: .04em; }
+header.page { max-width: 1100px; margin: 0 auto; padding: 18px 16px 4px; display: flex; align-items: center; gap: 12px; }
+header.page a.back { text-decoration: none; color: var(--ink); font-size: 26px; line-height: 1; padding: 4px 8px 4px 0; }
+header.page h1 { margin: 0; font-family: Montserrat, Inter, sans-serif; font-size: 24px; font-weight: 800; }
+header.page .pro { background: var(--purple); color: #fff; font-size: 12px; font-weight: 800; border-radius: 999px; padding: 3px 9px; letter-spacing: .04em; }
 .dots { display: flex; gap: 6px; margin-left: auto; }
 .dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
 .dots i.on { background: var(--mag); }
-.wrap { max-width: 1100px; margin: 0 auto; padding: 8px 16px calc(110px + env(safe-area-inset-bottom)); }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 8px 16px 24px; }
 .step { display: none; }
 .step.cur { display: block; }
-.step h2 { font-size: 24px; font-weight: 800; margin: 14px 0 4px; letter-spacing: -.01em; }
+.step h2 { font-family: Montserrat, Inter, sans-serif; font-size: 22px; font-weight: 800; margin: 14px 0 4px; letter-spacing: -.01em; }
 .step .sub { color: var(--soft); font-size: 15px; margin: 0 0 14px; line-height: 1.45; }
 .start { display: grid; gap: 12px; }
-.choice { background: #fff; border: 2px solid transparent; border-radius: 20px; padding: 18px; text-align: left; box-shadow: 0 2px 12px rgba(20,20,40,.07); display: flex; gap: 14px; align-items: center; }
+.choice { background: var(--card); border: 2px solid transparent; border-radius: 20px; padding: 18px; text-align: left; box-shadow: 0 2px 12px rgba(20,20,40,.07); display: flex; gap: 14px; align-items: center; }
 .choice .ic { font-size: 34px; }
 .choice b { display: block; font-size: 18px; color: var(--ink); } .choice > span > span { color: var(--soft); font-size: 14px; }
 .choice.on { border-color: var(--mag); }
 .box { position: relative; }
-.box input { width: 100%; border: 1.5px solid var(--line); border-radius: 14px; padding: 15px 14px; font-size: 17px; background: #fff; }
-.box input:focus { outline: none; border-color: var(--cyan-d); }
+.box input { width: 100%; border: 1.5px solid var(--line); border-radius: 14px; padding: 15px 14px; font-size: 17px; background: var(--card); }
+.box input:focus { outline: none; border-color: var(--cyan); }
 .hint { color: var(--soft); font-size: 14px; margin: 8px 2px; min-height: 1.2em; }
-.res { list-style: none; margin: 6px 0 0; padding: 0; background: #fff; border-radius: 16px; box-shadow: 0 6px 24px rgba(20,20,40,.12); overflow: hidden; }
+.res { list-style: none; margin: 6px 0 0; padding: 0; background: var(--card); border-radius: 16px; box-shadow: 0 6px 24px rgba(20,20,40,.12); overflow: hidden; }
 .res li { padding: 13px 14px; border-top: 1px solid var(--line); display: flex; gap: 10px; align-items: center; cursor: pointer; }
 .res li:first-child { border-top: 0; }
-.res li:hover, .res li.hi { background: #fbf2ff; }
+.res li:hover, .res li.hi { background: rgba(255,0,255,.14); }
 .res .k { margin-left: auto; font-size: 12px; color: var(--soft); background: var(--bg); border-radius: 999px; padding: 3px 9px; white-space: nowrap; }
-.picked { background: #fff; border-radius: 16px; padding: 14px; display: flex; gap: 10px; align-items: center; border: 2px solid var(--mag); margin-top: 10px; }
+.picked { background: var(--card); border-radius: 16px; padding: 14px; display: flex; gap: 10px; align-items: center; border: 2px solid var(--mag); margin-top: 10px; }
 .picked b { font-size: 17px; } .picked button { margin-left: auto; border: 0; background: var(--bg); border-radius: 999px; padding: 8px 12px; font-weight: 600; }
 .chips { display: flex; flex-wrap: wrap; gap: 10px; }
-.chip { border: 1.5px solid var(--line); background: #fff; border-radius: 999px; padding: 11px 15px; font-size: 15px; font-weight: 600; display: flex; gap: 7px; align-items: center; }
-.chip.on { background: var(--ink); border-color: var(--ink); color: #fff; }
+.chip { border: 1.5px solid var(--line); background: var(--card); border-radius: 999px; padding: 11px 15px; font-size: 15px; font-weight: 600; display: flex; gap: 7px; align-items: center; }
+.chip.on { background: var(--mag); border-color: var(--mag); color: #fff; }
 label.f { display: block; font-weight: 700; font-size: 15px; margin: 14px 2px 6px; }
-select { width: 100%; border: 1.5px solid var(--line); border-radius: 14px; padding: 14px; font-size: 16px; background: #fff; }
+select { width: 100%; border: 1.5px solid var(--line); border-radius: 14px; padding: 14px; font-size: 16px; background: var(--card); }
 .sizes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-.size { background: #fff; border: 2px solid transparent; border-radius: 18px; padding: 16px 10px; text-align: center; box-shadow: 0 2px 12px rgba(20,20,40,.07); }
+.size { background: var(--card); border: 2px solid transparent; border-radius: 18px; padding: 16px 10px; text-align: center; box-shadow: 0 2px 12px rgba(20,20,40,.07); }
 .size b { display: block; font-size: 30px; font-weight: 800; } .size .u { font-size: 14px; color: var(--soft); }
-.size .c { display: block; margin-top: 8px; font-size: 13px; font-weight: 700; color: var(--purple); }
+.size .c { display: block; margin-top: 8px; font-size: 13px; font-weight: 700; color: var(--cyan); }
 .size .t { display: block; font-size: 13px; color: var(--soft); }
 .size.on { border-color: var(--mag); }
 .note { color: var(--soft); font-size: 13px; line-height: 1.5; margin: 12px 2px; }
-.sum { background: #fff; border-radius: 20px; padding: 18px; box-shadow: 0 2px 12px rgba(20,20,40,.07); }
+.sum { background: var(--card); border-radius: 20px; padding: 18px; box-shadow: 0 2px 12px rgba(20,20,40,.07); }
 .sum h3 { margin: 0 0 10px; font-size: 18px; }
 .sum dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 8px 14px; font-size: 15px; }
 .sum dt { color: var(--soft); } .sum dd { margin: 0; font-weight: 600; }
 .create { width: 100%; border: 0; border-radius: 16px; padding: 16px; font-size: 18px; font-weight: 800; color: #fff; background: var(--mag); margin-top: 14px; }
-.create:disabled { background: #d9d9e0; color: #8a8a95; cursor: default; }
-.bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: rgba(246,246,249,.96); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+.create:disabled { background: #2a2a38; color: #767688; cursor: default; }
+.bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: rgba(9,9,15,.96); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
   padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); display: flex; gap: 10px; border-top: 1px solid var(--line); }
 .bar button { flex: 1; border: 0; border-radius: 16px; padding: 15px; font-size: 17px; font-weight: 800; }
-.bar .prev { flex: none; background: #fff; box-shadow: 0 1px 3px #0001; padding: 15px 18px; }
-.bar .next { background: var(--ink); color: #fff; }
-.bar .next:disabled { background: #d9d9e0; color: #8a8a95; }
+.bar .prev { flex: none; background: var(--card); box-shadow: 0 1px 3px #0001; padding: 15px 18px; }
+.bar .next { background: var(--mag); color: #fff; }
+.bar .next:disabled { background: #2a2a38; color: #767688; }
 .side { display: none; }
-.gate { background: #fff; border-radius: 20px; padding: 22px; margin-top: 16px; line-height: 1.5; }
+.gate { background: var(--card); border-radius: 20px; padding: 22px; margin-top: 16px; line-height: 1.5; }
 .gate .st { display: inline-block; color: #fff; font-size: 12px; font-weight: 800; letter-spacing: .06em; border-radius: 999px; padding: 4px 10px; }
 .gate button.btn { display: block; border-radius: 14px; padding: 14px; font-weight: 700; font-size: 16px; }
-.gate a.btn { display: block; text-align: center; background: var(--ink); color: #fff; border-radius: 14px; padding: 14px; font-weight: 700; text-decoration: none; margin-top: 12px; }
-.pbar { height: 10px; border-radius: 5px; background: #ece9f5; overflow: hidden; margin: 14px 0 8px; position: relative; }
+.gate a.btn { display: block; text-align: center; background: var(--purple); color: #fff; border-radius: 14px; padding: 14px; font-weight: 700; text-decoration: none; margin-top: 12px; }
+.pbar { height: 10px; border-radius: 5px; background: #23232f; overflow: hidden; margin: 14px 0 8px; position: relative; }
 .pbar i { display: block; height: 100%; width: 0; border-radius: 5px; background: linear-gradient(90deg, #00C2FF, #FF00FF); transition: width .8s ease; }
 .pbar.wait i { width: 35% !important; position: absolute; animation: slide 1.6s ease-in-out infinite; }
 @keyframes slide { 0% { left: -35%; } 100% { left: 100%; } }
-.cyc { display: flex; gap: 10px; align-items: center; min-height: 26px; font-size: 15px; color: #33333d; }
-.cyc .sp { width: 16px; height: 16px; border-radius: 50%; border: 2.5px solid #e2d9f7; border-top-color: #6200EA; animation: spin .9s linear infinite; flex: none; }
+.cyc { display: flex; gap: 10px; align-items: center; min-height: 26px; font-size: 15px; color: var(--ink); }
+.cyc .sp { width: 16px; height: 16px; border-radius: 50%; border: 2.5px solid #2c2c3c; border-top-color: #00C2FF; animation: spin .9s linear infinite; flex: none; }
 .cyc span.t { transition: opacity .3s; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .pbar.wait i, .cyc .sp { animation: none; } }
 .foot { color: var(--soft); font-size: 12px; line-height: 1.5; margin-top: 22px; }
-.done { position: fixed; inset: 0; z-index: 20; background: rgba(20,20,30,.5); display: none; align-items: flex-end; justify-content: center; }
+.done { position: fixed; inset: 0; z-index: 1100; background: rgba(0,0,0,.7); display: none; align-items: flex-end; justify-content: center; }
 .done.open { display: flex; }
-.done > div { background: #fff; width: 100%; max-width: 560px; border-radius: 26px 26px 0 0; padding: 22px 18px calc(22px + env(safe-area-inset-bottom)); }
-.done h2 { margin: 0 0 8px; } .done p { line-height: 1.5; color: #33333d; }
-.done button { width: 100%; border: 0; border-radius: 14px; padding: 14px; font-weight: 700; background: var(--ink); color: #fff; }
+.done > div { background: var(--card); width: 100%; max-width: 560px; border-radius: 26px 26px 0 0; padding: 22px 18px calc(22px + env(safe-area-inset-bottom)); }
+.done h2 { margin: 0 0 8px; } .done p { line-height: 1.5; color: var(--soft); }
+.done button { width: 100%; border: 0; border-radius: 14px; padding: 14px; font-weight: 700; background: var(--mag); color: #fff; }
 /* computer: every step at once, summary and Create on the right */
 @media (min-width: 900px) {
   .wrap { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 32px; align-items: start; padding-bottom: 40px; }
   .step, .step.cur { display: block; } .step.hide-wide { display: none !important; }
-  .step { background: #fff; border-radius: 22px; padding: 6px 22px 22px; margin-top: 16px; box-shadow: 0 2px 12px rgba(20,20,40,.05); }
+  .step { background: var(--card); border-radius: 22px; padding: 6px 22px 22px; margin-top: 16px; box-shadow: 0 2px 12px rgba(20,20,40,.05); }
   .bar, .dots, .step .create-phone { display: none; }
-  .side { display: block; position: sticky; top: 76px; margin-top: 16px; }
+  .side { display: block; position: sticky; top: 80px; margin-top: 16px; }
   .start { grid-template-columns: 1fr 1fr; }
   .done { align-items: center; } .done > div { border-radius: 22px; }
 }
+.legal { max-width: 1100px; margin: 0 auto; padding: 18px 16px calc(100px + env(safe-area-inset-bottom)); border-top: 1px solid var(--line); color: var(--soft); font-size: 12px; line-height: 1.8; text-align: center; }
+.legal a { color: var(--cyan); }
+@media (min-width: 900px) { .legal { padding-bottom: 30px; } }
+.sum, .step .choice, .size, .gate { border: 1px solid var(--line); }
+.choice.on, .size.on { border-color: var(--mag); }
 </style>
 </head>
 <body>
-<header>
+<!-- xd-menu (2026-11-14; Sign in live 2026-11-16): the one menu at the top of every page of the website; placed by pipeline/new_site_sync.py -->
+<style>
+.xn{position:sticky;top:0;z-index:1000;background:rgba(9,9,15,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1);font-family:Montserrat,Inter,system-ui,-apple-system,sans-serif}
+.xn *{box-sizing:border-box}
+.xn-in{max-width:1180px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between;min-height:62px}
+.xn-logo{display:flex;align-items:center}.xn-logo img{height:34px;width:auto;display:block}
+.xn-menu{display:none;gap:24px;align-items:center;list-style:none;margin:0;padding:0}
+.xn-menu a,.xn-soon{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#c9c9d6}
+.xn-menu a:hover,.xn-menu a[aria-current]{color:#00D4FF}
+.xn-soon{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border:1px solid rgba(255,255,255,.18);border-radius:5px;color:#8c8c9c;cursor:not-allowed}
+.xn-tag{font-size:9px;letter-spacing:1px;background:#E100FF;color:#fff;border-radius:3px;padding:2px 5px}
+.xn-ham{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}
+.xn-ham span{display:block;width:24px;height:2px;background:#fff;border-radius:1px}
+.xn-mob{display:none;list-style:none;margin:0;padding:6px 18px 16px;border-top:1px solid rgba(255,255,255,.08)}
+.xn-mob.open{display:block}
+.xn-mob li{border-bottom:1px solid rgba(255,255,255,.06)}
+.xn-mob a,.xn-mob .xn-soon{display:block;padding:14px 2px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:#e4e4ee;border:0}
+.xn-mob .xn-soon{display:flex;color:#8c8c9c}
+@media(min-width:900px){.xn-menu{display:flex}.xn-ham,.xn-mob,.xn-mob.open{display:none}}
+</style>
+<header class="xn">
+  <div class="xn-in">
+    <a class="xn-logo" href="/" aria-label="Xdatrys home"><img src="/assets/logos/xdatrys/XdatrysColored480x168Transparent.png" alt="Xdatrys" width="97" height="34"></a>
+    <nav aria-label="Main"><ul class="xn-menu">
+      <li class="xn-home"><a href="/">Home</a></li>
+      <li><a href="/library/">Map Library</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/newsletter/">Newsletter</a></li>
+      <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/about/">About</a></li>
+      <li><a class="xn-acct" href="/account/">Sign in</a></li>
+    </ul></nav>
+    <button class="xn-ham" id="xnHam" aria-expanded="false" aria-controls="xnMob" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <ul class="xn-mob" id="xnMob">
+    <li class="xn-home"><a href="/">Home</a></li>
+    <li><a href="/library/">Map Library</a></li>
+    <li><a href="/#guides">Guides</a></li>
+    <li><a href="/newsletter/">Newsletter</a></li>
+    <li><a href="/pricing/">Pricing</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/about/">About</a></li>
+    <li><a class="xn-acct" href="/account/">Sign in</a></li>
+  </ul>
+</header>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p === "/" || p === "/index.html") document.querySelectorAll(".xn-home").forEach(function (e) { e.style.display = "none"; });   // no Home on the home page
+  document.querySelectorAll(".xn a").forEach(function (a) { var h = a.getAttribute("href"); if (h.length > 1 && h.indexOf("#") < 0 && p.indexOf(h) === 0) a.setAttribute("aria-current", "page"); });
+  fetch("/api/me", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (me) {   // Stage 3: signed in -> My account
+    if (me && me.signedIn) document.querySelectorAll(".xn-acct").forEach(function (a) { a.textContent = "My account"; });
+  }).catch(function () {});
+  var b = document.getElementById("xnHam"), m = document.getElementById("xnMob");
+  b.onclick = function () { var o = m.classList.toggle("open"); b.setAttribute("aria-expanded", o ? "true" : "false"); };
+  m.addEventListener("click", function (e) { if (e.target.tagName === "A") { m.classList.remove("open"); b.setAttribute("aria-expanded", "false"); } });
+})();
+</script>
+<!-- /xd-menu -->
+<header class="page">
   <a class="back" href="/app/" aria-label="Back to Xdatrys Maps">‹</a>
   <h1>Create a map</h1><span class="pro">PRO</span>
   <div class="dots" id="dots" aria-hidden="true"></div>
@@ -173,6 +233,7 @@ select { width: 100%; border: 1.5px solid var(--line); border-radius: 14px; padd
 </div>
 
 <nav class="bar" id="bar"><button class="prev" id="prev">Back</button><button class="next" id="next">Next</button></nav>
+<footer class="legal"><a href="/terms/">Terms</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/faq/">FAQ</a> &middot; Contact: <a href="mailto:info@xdatrys.com">info@xdatrys.com</a> &middot; Xdatrys LLC, 44 Rue Pasquier, 75008 Paris, France</footer>
 <div class="done" id="done" role="dialog" aria-modal="true"><div><h2>Request ready</h2>
   <p id="doneTxt"></p><button id="doneOk">OK</button></div></div>
 
@@ -383,18 +444,18 @@ async function watch(id) {
   CUR = { key: waiting && offline ? "offline" : waiting ? "queued" : (curStep || "Final checks"), started: waiting ? m.made : (m.started || m.made), queued: waiting };
   if (prevKey !== CUR.key) CI = 0;
   $("wrap").innerHTML = `<div class="gate"><span class="st" style="background:${m.status === "failed" ? "#b3261e" : m.status === "done" ? "#1b7a3a" : "var(--purple)"}">${esc(m.status.toUpperCase())}</span>
-    <h2 style="margin:10px 0 4px">${esc(m.label)}</h2><p style="color:var(--soft);margin:0 0 12px">${m.size} spots · up to ${m.hold} credits held${m.used != null ? ` · ${m.used} used` : ""}</p>
+    <h2 style="margin:10px 0 4px">${esc(m.label)}</h2><p style="color:var(--soft);margin:0 0 12px">${count(m)} · up to ${m.hold} credits held${m.used != null ? ` · ${m.used} used` : ""}</p>
     ${live ? `<div class="pbar${waiting ? " wait" : ""}"><i style="width:${pct}%"></i></div>
       <div class="cyc"><span class="sp"></span><span class="t" id="cycT">${esc((SAYS[CUR.key] || SAYS.queued)[CI % (SAYS[CUR.key] || SAYS.queued).length])}</span></div>
       <p class="note" style="margin:6px 0 10px"><b>${waiting ? "In the queue" : pct + "% done"}</b> · <span id="elapsed"></span></p>`
       : `<p style="font-weight:700;font-size:17px">${esc(m.error || m.step || "")}</p>`}
     <ul style="list-style:none;padding:0;margin:8px 0">${steps}</ul>${spots ? `<h3 style="margin:14px 0 4px">Spots</h3><ul style="list-style:none;padding:0;margin:0">${spots}</ul>` : ""}
-    ${waiting ? `<button class="btn" id="cancelMap" style="background:#fff;color:var(--ink);border:1.5px solid var(--line);width:100%;margin-top:12px">Cancel this map (credits given back)</button>` : ""}
+    ${waiting ? `<button class="btn" id="cancelMap" style="background:transparent;color:var(--ink);border:1.5px solid var(--line);width:100%;margin-top:12px">Cancel this map (credits given back)</button>` : ""}
     ${m.status === "done" && m.result && m.result.url ? `<a class="btn" href="${esc(m.result.url)}" style="background:#FF00FF">Open your map</a>` : ""}
     ${m.status === "done" || m.status === "failed" || m.status === "cancelled"
       ? `<a class="btn" href="/app/create/?new=1">Create another map</a>`
       : `<p class="note" style="margin:12px 2px 0">One map at a time: you can create the next one when this one is finished. You can leave this page; the map carries on and we keep it here for you.</p>`}
-    <a class="btn" href="/app/" style="background:#fff;color:var(--ink);border:1.5px solid var(--line)">Back to the app</a></div>`;
+    <a class="btn" href="/app/" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">Back to the app</a></div>`;
   $("bar").style.display = "none"; $("dots").style.display = "none";
   if ($("cancelMap")) $("cancelMap").onclick = async () => {
     const r = await (await fetch("/api/custom/cancel", { method: "POST", credentials: "same-origin", headers: { "content-type": "application/json" }, body: JSON.stringify({ id }) })).json();
@@ -403,6 +464,9 @@ async function watch(id) {
   clearInterval(CYC);
   if (live) { CYC = setInterval(cycle, 2600); cycle(); WATCH = setTimeout(() => watch(id), 5000); }
 }
+
+// the number of spots a finished map really has, with the number asked for when they differ
+function count(m) { const n = m.status === "done" && m.result && m.result.spots; return n && n < m.size ? `${n} spots (${m.size} asked)` : `${m.size} spots`; }
 
 // ---- your custom maps (on the first step) ----
 async function myMaps() {
@@ -414,7 +478,7 @@ async function myMaps() {
     if (live && !/[?&]new=1/.test(location.search)) return watch(live.id);   // a map being made: show its progress (?new=1: the form)
     if (!(d.maps || []).length) return;
     const st = { done: "Ready", failed: "Failed, no credits used", cancelled: "Cancelled" };
-    const list = d.maps.slice(0, 6).map((m) => `<li style="padding:10px 0;border-top:1px solid var(--line);cursor:pointer" data-id="${m.id}"><b>${esc(m.label)}</b><br><span style="color:var(--soft);font-size:14px">${m.size} spots · ${st[m.status] || m.status}</span></li>`).join("");
+    const list = d.maps.slice(0, 6).map((m) => `<li style="padding:10px 0;border-top:1px solid var(--line);cursor:pointer" data-id="${m.id}"><b>${esc(m.label)}</b><br><span style="color:var(--soft);font-size:14px">${count(m)} · ${st[m.status] || m.status}</span></li>`).join("");
     const box = document.createElement("div"); box.className = "sum"; box.style.marginTop = "16px";
     box.innerHTML = `<h3>Your custom maps</h3><ul style="list-style:none;padding:0;margin:0">${list}</ul>`;
     box.onclick = (e) => { const li = e.target.closest("li"); if (li) watch(li.dataset.id); };

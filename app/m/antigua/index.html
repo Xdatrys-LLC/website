@@ -187,8 +187,9 @@ const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "
 const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
 const tilesUrl = location.origin + (MAP.tiles || "/tiles/" + MAP.key + "/{z}/{x}/{y}.pbf");
 const B = MAP.bounds, pad = 0.04;
+// 2026-11-26 (Bavaria opened with no pin in view): no pan limit until all pins are fitted; a limit set first stopped the zoom-out
 const map = new maplibregl.Map({ container: "map", style: xdatrysOsmStyle(tilesUrl, B, MAP.english), center: MAP.center, zoom: 12,
-  maxBounds: [[B[0] - pad, B[1] - pad], [B[2] + pad, B[3] + pad]], attributionControl: false });
+  attributionControl: false });
 map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
 xdatrysAddImages(map);
 // "You are here" (2026-11-12): the phone's GPS position as a moving blue dot, with the direction you face, the map can follow you.
@@ -497,6 +498,9 @@ Promise.all([fetch("spots.json").then(r => r.json()), fetch("v2.json").then(r =>
   if (!TOUR) { $("mTour").style.display = "none"; $("mTour").nextElementSibling.style.display = "none"; $("howTour").style.display = "none"; }
   const pts = SPOTS.map(s => s.pin), b = new maplibregl.LngLatBounds(pts[0], pts[0]); pts.forEach(p => b.extend(p));
   map.fitBounds(b, { padding: { top: 80, bottom: 130, left: 30, right: 30 }, animate: false });
+  const v = map.getBounds(), dx = (v.getEast() - v.getWest()) * 0.25, dy = (v.getNorth() - v.getSouth()) * 0.25;
+  map.setMaxBounds([[Math.max(-180, Math.min(v.getWest() - dx, B[0] - pad)), Math.max(-85, Math.min(v.getSouth() - dy, B[1] - pad))],
+    [Math.min(180, Math.max(v.getEast() + dx, B[2] + pad)), Math.min(85, Math.max(v.getNorth() + dy, B[3] + pad))]]);
   whenReady(() => { overlay = XdatrysMarkers(map, SPOTS, { onSelect: s => openSpot(s.rank), onDraw: () => {}, gate: false, reserve: (W) => [[0, 0, W, 70]],
     onChoose: g => openSpot(g.sort((a, c) => a.rank - c.rank)[0].rank) }); });
   home(); setSheet("peek");

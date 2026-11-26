@@ -22,24 +22,6 @@ a.i:active{outline:2px solid var(--m)}
 
 <h2>Check and correct maps</h2>
 <a class="i" href="/review/">Correction maps: all 210 library maps<small>Drag pins and phones, add or delete spots; changes apply automatically</small></a>
-<a class="i" href="/review/progress/">Library build progress<small>Map counter, builder health, AI spend</small></a>
-
-<h2>Test and draft pages (hidden from search)</h2>
-<a class="i" href="/landing6/">Home page, phone test version F<small>The version now live as the home page</small></a>
-<a class="i" href="/landing4/">Home page test D (dark)</a>
-<a class="i" href="/landing5/">Home page test E (light sections)</a>
-<a class="i" href="/landing1/">Home page test A</a>
-<a class="i" href="/landing2/">Home page test B</a>
-<a class="i" href="/landing3/">Home page test C</a>
-<a class="i" href="/about-draft/">About page draft</a>
-<a class="i" href="/newsletter/seo-mockup/2026-11-18/">Pocket Lens issue SEO mock-up (18 Nov)</a>
-
-<h2>Old preview site (xdatrys-maps-preview)</h2>
-<a class="i" href="https://xdatrys-maps-preview.pages.dev/">Preview front page</a>
-<a class="i" href="https://xdatrys-maps-preview.pages.dev/paris-v2/">Paris phone map v2</a>
-<a class="i" href="https://xdatrys-maps-preview.pages.dev/santafe-v2/">Santa Fe phone map v2</a>
-<a class="i" href="https://xdatrys-maps-preview.pages.dev/tour-sample-paris/">Paris day-tour sample</a>
-
 <h2>Live member pages</h2>
 <a class="i" href="/app/">The app: all maps</a>
 <a class="i" href="/library/">Map Library (public pages)</a>
@@ -53,7 +35,7 @@ const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "
 fetch("/api/custom/mine", { cache: "no-store" }).then(r => r.json()).then(j => {
   const done = (j.maps || []).filter(m => m.status === "done");
   document.getElementById("custom").innerHTML = done.length
-    ? done.map(m => `<a class="i" href="/app/c/${esc(m.id)}/">${esc(m.label)}<small>${esc(m.size)} spots</small></a>`).join("")
+    ? done.map(m => `<a class="i" href="/app/c/${esc(m.id)}/">${esc(m.label)}<small>${esc((m.result && m.result.spots) || m.size)} spots</small></a>`).join("")
     : `<p class="s">No finished custom maps yet.</p>`;
 }).catch(() => { document.getElementById("custom").innerHTML = `<p class="s">Could not load your maps.</p>`; });
 </script>

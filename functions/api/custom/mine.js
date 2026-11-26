@@ -13,6 +13,6 @@ export async function onRequestGet({ request, env }) {
     const builderAgo = hb ? Math.max(0, Math.floor(Date.now() / 1000) - hb.at) : null;
     return r ? J({ ok: true, map: publicMap(r), builderAgo }) : J({ ok: false, error: "Map not found." }, 404);
   }
-  const rows = (await env.MEMBERS.prepare("SELECT * FROM custom_maps WHERE email = ?1 OR (?2 AND email = 'owner') ORDER BY made DESC LIMIT 50").bind(w.email, w.role === "owner" ? 1 : 0).all()).results;
+  const rows = (await env.MEMBERS.prepare("SELECT * FROM custom_maps WHERE (email = ?1 OR (?2 AND email = 'owner')) AND status != 'removed' ORDER BY made DESC LIMIT 50").bind(w.email, w.role === "owner" ? 1 : 0).all()).results;
   return J({ ok: true, maps: rows.map(publicMap), credits: await credits(env, w.email, w.role === "owner") });
 }
