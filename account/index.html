@@ -122,12 +122,27 @@ function signinForm(me) {
     $("send").disabled = false;
   };
 }
+// 2026-11-25 (Ifan): sign in a phone without email: a 6-digit number typed at xdatrys.com/p
+function addPair() {
+  const d = document.createElement("div"); d.className = "card";
+  d.innerHTML = `<p><b>Sign in your phone</b> without email. Press the button, then on your phone go to <b>xdatrys.com/p</b> and type the number.</p>
+    <button class="btn go" id="pairb">Show a number</button><div id="pairo" style="font-size:40px;font-weight:800;letter-spacing:8px;margin-top:12px"></div><p class="soft" id="pairm"></p>`;
+  $("out").appendChild(d);
+  $("pairb").onclick = async () => {
+    $("pairb").disabled = true;
+    try { const j = await (await fetch("/api/auth/pair", { method: "POST" })).json();
+      if (j.ok) { $("pairo").textContent = j.code; $("pairm").textContent = `Works once, for ${j.minutes} minutes. Press again for a new number.`; }
+      else $("pairm").textContent = j.error;
+    } catch (e) { $("pairm").textContent = "No connection. Please try again."; }
+    $("pairb").disabled = false;
+  };
+}
 fetch("/api/me", { cache: "no-store" }).then(r => r.json()).then(me => {
   if (!me.signedIn) return signinForm(me);
   if (me.role === "owner") {
     $("out").innerHTML = `<div class="card"><p><b>Owner access</b> on this device: every map, all spots, and the review and correction maps.</p>
       <div class="row"><a class="btn go" href="/app/">Open the app</a><a class="btn alt" href="/review/">Review maps</a>${signout}</div></div>`;
-    if (!me.plan) return;  // owner with a paid membership as well: show it below (2026-11-19)
+    if (!me.plan) return addPair();  // owner with a paid membership as well: show it below (2026-11-19)
   }
   const active = me.role === "member" || (me.role === "owner" && ["active", "trialing", "past_due"].includes(me.status));
   const plan = me.plan === "explorer" ? "Explorer" : (me.plan || "Membership");
@@ -142,6 +157,7 @@ fetch("/api/me", { cache: "no-store" }).then(r => r.json()).then(me => {
       <div class="row">${isOwner ? "" : active ? `<a class="btn go" href="/app/">Open the app</a>` : `<a class="btn go" href="/join/">Join again</a>`}
       ${me.canManage ? `<button class="btn alt" onclick="portal(this)">Manage or cancel</button>` : ""}${isOwner ? "" : signout}</div></div>
       <p class="soft">Manage opens Stripe's secure page: change monthly/yearly, update your card, see invoices, or cancel.</p>`;
+  addPair();
 }).catch(() => { $("out").innerHTML = `<p>No connection. Please reload.</p>`; });
 </script>
 </body></html>
