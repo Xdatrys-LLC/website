@@ -141,7 +141,7 @@ fetch("/api/me", { cache: "no-store" }).then(r => r.json()).then(me => {
   if (!me.signedIn) return signinForm(me);
   if (me.role === "owner") {
     $("out").innerHTML = `<div class="card"><p><b>Owner access</b> on this device: every map, all spots, and the review and correction maps.</p>
-      <div class="row"><a class="btn go" href="/app/">Open the app</a><a class="btn alt" href="/review/">Review maps</a>${signout}</div></div>`;
+      <div class="row"><a class="btn go" href="/personal/" style="background:#6200EA">Personal</a><a class="btn go" href="/app/">Open the app</a><a class="btn alt" href="/review/">Review maps</a>${signout}</div></div>`;
     if (!me.plan) return addPair();  // owner with a paid membership as well: show it below (2026-11-19)
   }
   const active = me.role === "member" || (me.role === "owner" && ["active", "trialing", "past_due"].includes(me.status));

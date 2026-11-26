@@ -31,6 +31,14 @@ self.addEventListener("fetch", e => {
   const ours = url.origin === location.origin;
   if (ours && !/^\/(app|tiles|r2tiles|fonts|xdatrys_)/.test(url.pathname)) return;     // other pages of the site: normal browsing
   e.respondWith((async () => {
+    // 2026-11-26: the app's home page is fetched fresh first when there is signal (up to 4 s), so changes (e.g. the new menu)
+    // show on the first opening; without signal the saved copy is used as before.
+    if (ours && req.mode === "navigate" && /^\/app\/?$/.test(url.pathname)) {
+      try {
+        const r = await Promise.race([fetch(req, { cache: "no-store" }), new Promise((_, no) => setTimeout(() => no(new Error("slow")), 4000))]);
+        if (r.ok) { const c = await caches.open(SHELL); c.put("/app/", r.clone()); return r; }
+      } catch (err) {}
+    }
     const found = await findCached(req);
     if (found) {
       if (ours && REFRESH.test(url.pathname)) {
