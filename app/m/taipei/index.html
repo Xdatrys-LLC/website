@@ -497,7 +497,7 @@ Promise.all([fetch("spots.json").then(r => r.json()), fetch("v2.json").then(r =>
   if (!MAP.rail) { $("mTransport").style.display = "none"; $("mTransport").nextElementSibling.style.display = "none"; } TOURS = { energetic: tour, leisure: tl || tour }; TOUR = tour;
   if (!TOUR) { $("mTour").style.display = "none"; $("mTour").nextElementSibling.style.display = "none"; $("howTour").style.display = "none"; }
   const pts = SPOTS.map(s => s.pin), b = new maplibregl.LngLatBounds(pts[0], pts[0]); pts.forEach(p => b.extend(p));
-  map.fitBounds(b, { padding: { top: 80, bottom: 130, left: 30, right: 30 }, animate: false });
+  map.fitBounds(b, { padding: { top: 140, bottom: 130, left: 40, right: 40 }, animate: false });
   const v = map.getBounds(), dx = (v.getEast() - v.getWest()) * 0.25, dy = (v.getNorth() - v.getSouth()) * 0.25;
   map.setMaxBounds([[Math.max(-180, Math.min(v.getWest() - dx, B[0] - pad)), Math.max(-85, Math.min(v.getSouth() - dy, B[1] - pad))],
     [Math.min(180, Math.max(v.getEast() + dx, B[2] + pad)), Math.min(85, Math.max(v.getNorth() + dy, B[3] + pad))]]);
