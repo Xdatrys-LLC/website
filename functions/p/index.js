@@ -63,6 +63,7 @@ async function setPass(request, env, f) {
 
 async function passSignIn(env, code) {
   const t = now();
+  if (!(await stored(env))) return signInPage("No passcode is set yet. First sign in with the 6-digit number from My account; you will then be asked to choose your passcode.");
   const closed = "The passcode is not available now. Use the 6-digit number from My account, or try again tomorrow.";
   await env.MEMBERS.prepare("UPDATE owner_pass SET tries = 0, locked_until = 0 WHERE id = 1 AND locked_until > 0 AND locked_until <= ?1").bind(t).run();
   // count the try BEFORE comparing, in one statement, so many tries sent at once cannot slip past the limit
@@ -92,6 +93,6 @@ async function numberSignIn(request, env, code) {
   }
   await env.MEMBERS.prepare("UPDATE login_links SET used = 1 WHERE code_hash = ?").bind(await sha256("pair|" + code)).run();
   const owner = row.email === "owner" || isOwnerEmail(env, row.email);
-  return new Response(null, { status: 303, headers: { Location: owner ? OWNER_HOME : "/app/",
+  return new Response(null, { status: 303, headers: { Location: owner ? ((await stored(env)) ? OWNER_HOME : "/p") : "/app/",
     "Set-Cookie": await makeCookie(env, row.email, owner ? "owner" : "member", owner ? 365 : 30) } });
 }
